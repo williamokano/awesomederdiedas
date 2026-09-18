@@ -108,13 +108,12 @@ cd DerDieDas
 
 ### Building a Release
 
-1. Copy `keystore.properties.example` to `keystore.properties` (gitignored) and fill in your upload key details
-2. Bump `versionCode` and `versionName` in `app/build.gradle.kts`
-3. Build the signed bundle:
+Releases are automated: pushing a tag like `v1.0.4` builds, signs and uploads the app to Google Play, and publishes a signed APK on GitHub Releases. See [docs/RELEASING.md](docs/RELEASING.md) for the one-time setup.
+
+To build a signed bundle locally, copy `keystore.properties.example` to `keystore.properties` (gitignored), fill in your upload key details and run:
 ```bash
-./gradlew bundleRelease
+./gradlew bundleRelease -PappVersionName=1.0.4
 ```
-The bundle is written to `app/build/outputs/bundle/release/app-release.aab`.
 
 ## 🎯 How to Use
 

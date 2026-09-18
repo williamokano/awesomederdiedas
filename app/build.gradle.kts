@@ -7,10 +7,29 @@ plugins {
     alias(libs.plugins.ksp)
 }
 
-// Release signing is read from keystore.properties (not committed). Without it, release builds are unsigned.
+// Release signing comes from keystore.properties locally (not committed) or from
+// environment variables on CI. Without either, release builds are unsigned.
 val keystorePropertiesFile = rootProject.file("keystore.properties")
 val keystoreProperties = Properties().apply {
     if (keystorePropertiesFile.exists()) keystorePropertiesFile.inputStream().use { load(it) }
+}
+
+fun signingValue(property: String, envVar: String): String? =
+    (keystoreProperties.getProperty(property) ?: System.getenv(envVar))?.takeIf { it.isNotBlank() }
+
+val releaseStoreFile = signingValue("storeFile", "SIGNING_STORE_FILE")
+
+// Version comes from -PappVersionName (CI passes the git tag), falling back to the default below.
+// versionCode is derived from it (1.2.3 -> 10203) so it always increases with the version.
+val appVersionName = (findProperty("appVersionName") as String?) ?: "1.0.3"
+
+fun versionCodeOf(versionName: String): Int {
+    val parts = versionName.split(".").map { it.toIntOrNull() }
+    require(parts.size == 3 && parts.all { it != null && it in 0..99 }) {
+        "Version must be MAJOR.MINOR.PATCH with MINOR and PATCH below 100, got '$versionName'"
+    }
+    val (major, minor, patch) = parts.map { it!! }
+    return major * 10_000 + minor * 100 + patch
 }
 
 android {
@@ -23,19 +42,19 @@ android {
         applicationId = "okano.dev.android.derdiedas"
         minSdk = 24
         targetSdk = 36
-        versionCode = 3
-        versionName = "1.0.3"
+        versionCode = versionCodeOf(appVersionName)
+        versionName = appVersionName
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     signingConfigs {
-        if (keystorePropertiesFile.exists()) {
+        if (releaseStoreFile != null) {
             create("release") {
-                storeFile = file(keystoreProperties.getProperty("storeFile"))
-                storePassword = keystoreProperties.getProperty("storePassword")
-                keyAlias = keystoreProperties.getProperty("keyAlias")
-                keyPassword = keystoreProperties.getProperty("keyPassword")
+                storeFile = file(releaseStoreFile)
+                storePassword = signingValue("storePassword", "SIGNING_STORE_PASSWORD")
+                keyAlias = signingValue("keyAlias", "SIGNING_KEY_ALIAS")
+                keyPassword = signingValue("keyPassword", "SIGNING_KEY_PASSWORD")
             }
         }
     }
