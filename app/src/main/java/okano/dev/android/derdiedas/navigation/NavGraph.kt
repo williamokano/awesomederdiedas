@@ -17,6 +17,7 @@ import okano.dev.android.derdiedas.ui.flashcard.FlashcardViewModel
 import okano.dev.android.derdiedas.ui.flashcard.FlashcardViewModelFactory
 import okano.dev.android.derdiedas.ui.history.HistoryScreen
 import okano.dev.android.derdiedas.ui.history.HistoryViewModel
+import okano.dev.android.derdiedas.ui.history.HistoryViewModelFactory
 import okano.dev.android.derdiedas.ui.easteregg.EasterEggScreen
 import okano.dev.android.derdiedas.ui.home.HomeScreen
 import okano.dev.android.derdiedas.ui.results.GameResultsScreen
@@ -156,7 +157,9 @@ fun AppNavGraph(
 
         // History Screen
         composable(Screen.History.route) {
-            val viewModel = HistoryViewModel(gameSessionRepository)
+            val viewModel: HistoryViewModel = viewModel(
+                factory = HistoryViewModelFactory(gameSessionRepository)
+            )
             HistoryScreen(
                 viewModel = viewModel,
                 language = appPreferences.getLanguage(),

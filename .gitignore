@@ -16,3 +16,8 @@ local.properties
 
 # Release artifacts
 /app/release
+
+# Release signing secrets
+keystore.properties
+*.jks
+*.keystore

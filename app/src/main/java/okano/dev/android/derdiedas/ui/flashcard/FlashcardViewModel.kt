@@ -2,13 +2,12 @@ package okano.dev.android.derdiedas.ui.flashcard
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
 import okano.dev.android.derdiedas.data.database.GameSessionEntity
 import okano.dev.android.derdiedas.data.model.Article
 import okano.dev.android.derdiedas.data.model.CEFRLevel
@@ -32,7 +31,8 @@ data class FlashcardUiState(
     val totalCards: Int = 0,
     val isGameEnded: Boolean = false,
     val language: Language = Language.ENGLISH,
-    val elapsedTimeMillis: Long = 0L
+    val elapsedTimeMillis: Long = 0L,
+    val gameResult: GameResult? = null
 ) {
     val totalAnswers: Int get() = correctAnswers + wrongAnswers
     val accuracyPercentage: Int get() = if (totalAnswers > 0) {
@@ -43,6 +43,16 @@ data class FlashcardUiState(
 }
 
 /**
+ * Final stats of a finished game, published once the session has been saved
+ */
+data class GameResult(
+    val correctAnswers: Int,
+    val wrongAnswers: Int,
+    val durationMillis: Long,
+    val cardsPerMinute: Float
+)
+
+/**
  * ViewModel for managing flashcard logic and state with game sessions
  */
 class FlashcardViewModel(
@@ -50,7 +60,8 @@ class FlashcardViewModel(
     private val gameSessionRepository: GameSessionRepository,
     private val totalCardCount: Int,
     private val cefrLevel: CEFRLevel,
-    private val language: Language
+    private val language: Language,
+    private val clock: () -> Long = System::currentTimeMillis
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(
@@ -66,9 +77,10 @@ class FlashcardViewModel(
     private var pausedTimeOffset: Long = 0L
     private var lastPauseTime: Long = 0L
     private var isPaused: Boolean = false
-    private var onGameEndCallback: ((Int, Int, Long, Float) -> Unit)? = null
     private var isGameEndingInProgress = false
-    private var timerJob: kotlinx.coroutines.Job? = null
+    private var isCancelled = false
+    private var timerJob: Job? = null
+    private var advanceJob: Job? = null
 
     init {
         // Get allowed levels based on selected CEFR level
@@ -80,7 +92,7 @@ class FlashcardViewModel(
             .shuffled()
             .take(totalCardCount)
 
-        gameStartTime = System.currentTimeMillis()
+        gameStartTime = clock()
 
         // Start timer
         startTimer()
@@ -94,25 +106,33 @@ class FlashcardViewModel(
         timerJob = viewModelScope.launch {
             while (true) {
                 if (!isPaused) {
-                    val elapsed = System.currentTimeMillis() - gameStartTime - pausedTimeOffset
-                    _uiState.value = _uiState.value.copy(elapsedTimeMillis = elapsed)
+                    _uiState.value = _uiState.value.copy(elapsedTimeMillis = elapsedMillis())
                 }
                 delay(100) // Update every 100ms
             }
         }
     }
 
+    /**
+     * Active play time, excluding any time spent paused (app in background)
+     */
+    private fun elapsedMillis(): Long {
+        val now = clock()
+        val currentPause = if (isPaused) now - lastPauseTime else 0L
+        return now - gameStartTime - pausedTimeOffset - currentPause
+    }
+
     fun pauseTimer() {
         if (!isPaused) {
             isPaused = true
-            lastPauseTime = System.currentTimeMillis()
+            lastPauseTime = clock()
         }
     }
 
     fun resumeTimer() {
         if (isPaused) {
             isPaused = false
-            pausedTimeOffset += System.currentTimeMillis() - lastPauseTime
+            pausedTimeOffset += clock() - lastPauseTime
         }
     }
 
@@ -121,15 +141,13 @@ class FlashcardViewModel(
         timerJob?.cancel()
     }
 
-    fun setOnGameEndCallback(callback: (correct: Int, wrong: Int, duration: Long, cardsPerMinute: Float) -> Unit) {
-        onGameEndCallback = callback
-    }
-
     /**
      * Cancel the game without saving - for when user exits early
      */
     fun cancelGame() {
+        isCancelled = true
         timerJob?.cancel()
+        advanceJob?.cancel()
         isPaused = true
     }
 
@@ -137,19 +155,22 @@ class FlashcardViewModel(
      * Handle user's article selection
      */
     fun onArticleSelected(selectedArticle: Article) {
-        val currentNoun = _uiState.value.currentNoun ?: return
+        val state = _uiState.value
+        // Ignore repeated taps while the result is shown, and taps after the game is over
+        if (state.isAnswered || state.isGameEnded || isCancelled) return
+        val currentNoun = state.currentNoun ?: return
         val isCorrect = currentNoun.article == selectedArticle
 
-        _uiState.value = _uiState.value.copy(
+        _uiState.value = state.copy(
             isAnswered = true,
             isCorrect = isCorrect,
             selectedArticle = selectedArticle,
-            correctAnswers = if (isCorrect) _uiState.value.correctAnswers + 1 else _uiState.value.correctAnswers,
-            wrongAnswers = if (!isCorrect) _uiState.value.wrongAnswers + 1 else _uiState.value.wrongAnswers
+            correctAnswers = if (isCorrect) state.correctAnswers + 1 else state.correctAnswers,
+            wrongAnswers = if (!isCorrect) state.wrongAnswers + 1 else state.wrongAnswers
         )
 
         // Auto-advance to next card after showing result
-        viewModelScope.launch {
+        advanceJob = viewModelScope.launch {
             delay(1500) // Show result for 1.5 seconds
 
             // Check if game should end (after answering all cards)
@@ -187,18 +208,21 @@ class FlashcardViewModel(
      * End the game and save session to database
      */
     private fun endGame() {
-        // Prevent multiple calls
-        if (isGameEndingInProgress) return
+        // Prevent multiple calls, and never save a game the user exited
+        if (isGameEndingInProgress || isCancelled) return
         isGameEndingInProgress = true
 
+        timerJob?.cancel()
         val state = _uiState.value
-        val durationMillis = System.currentTimeMillis() - gameStartTime
+        val durationMillis = elapsedMillis()
         val durationMinutes = durationMillis / 60000.0
         val cardsPerMinute = if (durationMinutes > 0) {
             (state.totalAnswers / durationMinutes).toFloat()
         } else {
             0f
         }
+
+        _uiState.value = state.copy(isGameEnded = true, elapsedTimeMillis = durationMillis)
 
         // Save game session to database
         viewModelScope.launch {
@@ -212,15 +236,15 @@ class FlashcardViewModel(
             )
             gameSessionRepository.saveGameSession(session)
 
-            // Trigger callback after saving (ensure UI thread)
-            onGameEndCallback?.invoke(
-                state.correctAnswers,
-                state.wrongAnswers,
-                durationMillis,
-                cardsPerMinute
+            // Publish the result after saving; the screen navigates when it sees it
+            _uiState.value = _uiState.value.copy(
+                gameResult = GameResult(
+                    correctAnswers = state.correctAnswers,
+                    wrongAnswers = state.wrongAnswers,
+                    durationMillis = durationMillis,
+                    cardsPerMinute = cardsPerMinute
+                )
             )
         }
-
-        _uiState.value = state.copy(isGameEnded = true)
     }
 }

@@ -56,9 +56,12 @@ fun FlashcardScreen(
     val uiState by viewModel.uiState.collectAsState()
     val lifecycleOwner = LocalLifecycleOwner.current
 
-    // Set up game end callback
-    LaunchedEffect(Unit) {
-        viewModel.setOnGameEndCallback(onGameEnd)
+    // Navigate to results once the finished game has been saved
+    val gameResult = uiState.gameResult
+    LaunchedEffect(gameResult) {
+        gameResult?.let {
+            onGameEnd(it.correctAnswers, it.wrongAnswers, it.durationMillis, it.cardsPerMinute)
+        }
     }
 
     // Handle lifecycle events for pause/resume
