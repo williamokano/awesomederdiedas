@@ -1,0 +1,112 @@
+name: Create Release
+
+# Run manually from the Actions tab. It:
+#   1. Picks the version: the one you type, or the next one computed from Conventional Commits
+#   2. Updates CHANGELOG.md, commits it and tags the release
+#   3. Creates the GitHub Release with the changelog as release notes
+#   4. Builds, signs and publishes the app (Google Play + APK on the GitHub Release)
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to release, e.g. 1.2.0. Leave empty to compute it from the commits'
+        required: false
+        default: ''
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      tag: ${{ steps.version.outputs.tag }}
+    steps:
+      - name: Only release from main
+        if: github.ref != 'refs/heads/main'
+        run: |
+          echo "::error::Run this workflow on the main branch"
+          exit 1
+
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Determine version
+        id: version
+        env:
+          REQUESTED: ${{ inputs.version }}
+        run: |
+          latest=$(git tag --list 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | head -n1)
+          echo "Latest release: ${latest:-none}"
+
+          if [ -n "$REQUESTED" ]; then
+            version="${REQUESTED#v}"
+            if ! [[ "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+              echo "::error::Version must look like 1.2.3, got '$REQUESTED'"
+              exit 1
+            fi
+            if [ -n "$latest" ]; then
+              highest=$(printf '%s\n%s\n' "${latest#v}" "$version" | sort -V | tail -n1)
+              if [ "$highest" != "$version" ] || [ "${latest#v}" = "$version" ]; then
+                echo "::error::Version $version must be higher than the latest release $latest"
+                exit 1
+              fi
+            fi
+            tag="v$version"
+          else
+            if [ -n "$latest" ] && [ -z "$(git log "$latest..HEAD" --format=%H)" ]; then
+              echo "::error::No commits since $latest, nothing to release"
+              exit 1
+            fi
+            tag=$(npx -y git-cliff@2 --bumped-version)
+          fi
+
+          echo "Releasing $tag"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+
+      - name: Update CHANGELOG.md
+        env:
+          TAG: ${{ steps.version.outputs.tag }}
+        run: |
+          npx -y git-cliff@2 --tag "$TAG" --output CHANGELOG.md
+          npx -y git-cliff@2 --tag "$TAG" --unreleased --strip header --output "$RUNNER_TEMP/release-notes.md"
+          cat "$RUNNER_TEMP/release-notes.md"
+
+      - name: Commit changelog and tag
+        env:
+          TAG: ${{ steps.version.outputs.tag }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CHANGELOG.md
+          git commit -m "chore(release): $TAG [skip ci]"
+          git tag -a "$TAG" -m "$TAG"
+          git push origin HEAD:main
+          git push origin "$TAG"
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.version.outputs.tag }}
+        run: |
+          gh release create "$TAG" \
+            --title "Der Die Das ${TAG#v}" \
+            --notes-file "$RUNNER_TEMP/release-notes.md" \
+            --verify-tag
+
+  publish:
+    needs: prepare
+    permissions:
+      contents: write
+    uses: ./.github/workflows/release.yml
+    with:
+      tag: ${{ needs.prepare.outputs.tag }}
+    secrets: inherit

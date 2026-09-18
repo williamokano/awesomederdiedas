@@ -108,7 +108,7 @@ cd DerDieDas
 
 ### Building a Release
 
-Releases are automated: pushing a tag like `v1.0.4` builds, signs and uploads the app to Google Play, and publishes a signed APK on GitHub Releases. See [docs/RELEASING.md](docs/RELEASING.md) for the one-time setup.
+Releases are automated: running the **Create Release** workflow computes the version from [Conventional Commits](CONTRIBUTING.md), updates `CHANGELOG.md`, uploads the signed app to Google Play and publishes a signed APK on GitHub Releases. See [docs/RELEASING.md](docs/RELEASING.md) for the one-time setup.
 
 To build a signed bundle locally, copy `keystore.properties.example` to `keystore.properties` (gitignored), fill in your upload key details and run:
 ```bash

@@ -1,0 +1,31 @@
+#!/bin/sh
+# Rejects commit messages that don't follow Conventional Commits.
+# Enable once per clone with:  git config core.hooksPath .githooks
+
+first_line=$(head -n 1 "$1")
+
+# Let git's own generated messages through
+case "$first_line" in
+  Merge\ *|Revert\ *|fixup!\ *|squash!\ *|amend!\ *) exit 0 ;;
+esac
+
+types='feat|fix|perf|refactor|docs|test|build|ci|chore|style|revert'
+if echo "$first_line" | grep -Eq "^($types)(\([a-zA-Z0-9._/-]+\))?!?: .+"; then
+  exit 0
+fi
+
+cat >&2 <<EOF
+Commit message does not follow Conventional Commits:
+
+  $first_line
+
+Use: <type>(<optional scope>): <description>
+Types: feat, fix, perf, refactor, docs, test, build, ci, chore, style, revert
+
+Examples:
+  feat: add review mode for wrong answers        -> minor release (1.2.0 -> 1.3.0)
+  fix(timer): stop counting while paused         -> patch release (1.2.0 -> 1.2.1)
+  feat!: require Android 8                       -> major release (1.2.0 -> 2.0.0)
+  docs: explain the release process              -> patch release, listed under Documentation
+EOF
+exit 1

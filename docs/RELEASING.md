@@ -1,14 +1,19 @@
 # Releasing
 
-Releases are automated with GitHub Actions. Pushing a tag like `v1.0.4` will:
+Releases are automated with GitHub Actions. Running the **Create Release** workflow will:
 
-1. Run the unit tests
-2. Build a signed app bundle (`.aab`) and a signed APK
-3. Upload the bundle to Google Play (internal testing track by default)
-4. Publish the APK on a public GitHub Release for sideloading
+1. Pick the version: the one you type, or the next one computed from the commit messages
+2. Update `CHANGELOG.md`, commit it and tag the release (e.g. `v1.2.0`)
+3. Create the GitHub Release with the changelog as its notes
+4. Run the unit tests and build a signed app bundle (`.aab`) and a signed APK
+5. Upload the bundle to Google Play (internal testing track by default) and, in parallel,
+   attach the APK to the GitHub Release for sideloading
 
-Steps 3 and 4 run in parallel. The version comes from the tag: `v1.2.3` becomes
-`versionName` 1.2.3 and `versionCode` 10203, so you never edit version numbers by hand.
+The tag `v1.2.3` becomes `versionName` 1.2.3 and `versionCode` 10203, so you never edit
+version numbers by hand.
+
+Computing the version relies on commit messages following Conventional Commits, see
+[CONTRIBUTING.md](../CONTRIBUTING.md).
 
 ## One-time setup
 
@@ -86,15 +91,24 @@ the value `alpha`, `beta` or `production`.
 
 ## Making a release
 
-```bash
-git tag v1.0.4
-git push origin v1.0.4
-```
+1. Open the repository's **Actions** tab and select **Create Release**
+2. Click **Run workflow** (on the `main` branch)
+3. Leave **Version** empty to compute it from the commits, or type one such as `1.3.0`
+4. Click **Run workflow** and watch the progress
 
-Watch progress in the repository's **Actions** tab. When it finishes, the bundle is in Play
-Console and the APK is on the repository's **Releases** page.
+The computed version follows the commits since the last release:
 
-Every release needs a higher version than the last one uploaded to Play.
+| Commits since the last release | Next version (from 1.2.0) |
+| --- | --- |
+| Any `feat!:` or `BREAKING CHANGE:` | 2.0.0 |
+| Any `feat:` | 1.3.0 |
+| Anything else (`fix:`, `docs:`, ...) | 1.2.1 |
+
+A typed version must be higher than the latest release. When the workflow finishes, the
+bundle is in Play Console and the APK is on the repository's **Releases** page.
+
+If publishing fails after the release was created (for example, a missing secret), fix the
+problem and run the **Build and Publish** workflow manually with the existing tag, e.g. `v1.2.0`.
 
 ## Notes
 
