@@ -98,8 +98,8 @@ jobs:
           serviceAccountJsonPlainText: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
           packageName: okano.dev.android.derdiedas
           releaseFiles: dist/derdiedas-${{ needs.build.outputs.version }}.aab
-          # Set the PLAY_TRACK repository variable to alpha, beta or production to change this
-          track: ${{ vars.PLAY_TRACK || 'internal' }}
+          # Set the PLAY_TRACK repository variable (internal, alpha or beta) to release to a testing track instead
+          track: ${{ vars.PLAY_TRACK || 'production' }}
           status: completed
 
   github-release:

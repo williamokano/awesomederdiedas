@@ -6,7 +6,7 @@ Releases are automated with GitHub Actions. Running the **Create Release** workf
 2. Update `CHANGELOG.md`, commit it and tag the release (e.g. `v1.2.0`)
 3. Create the GitHub Release with the changelog as its notes
 4. Run the unit tests and build a signed app bundle (`.aab`) and a signed APK
-5. Upload the bundle to Google Play (internal testing track by default) and, in parallel,
+5. Upload the bundle to Google Play (production track by default) and, in parallel,
    attach the APK to the GitHub Release for sideloading
 
 The tag `v1.2.3` becomes `versionName` 1.2.3 and `versionCode` 10203, so you never edit
@@ -85,9 +85,10 @@ file or keep it somewhere safe: it grants access to your Play Console.
 
 ### 4. Choose the Play track (optional)
 
-By default, releases go to the **internal** testing track. To change this, add a repository
-**variable** (Settings > Secrets and variables > Actions > Variables) named `PLAY_TRACK` with
-the value `alpha`, `beta` or `production`.
+By default, releases go to **production**, fully rolled out once Google approves the review.
+The service account needs the **Release to production** permission for this. To release to a
+testing track instead, add a repository **variable** (Settings > Secrets and variables > Actions >
+Variables) named `PLAY_TRACK` with the value `internal`, `alpha` or `beta`.
 
 ## Making a release
 
