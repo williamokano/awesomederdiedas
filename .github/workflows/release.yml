@@ -25,16 +25,16 @@ jobs:
     outputs:
       version: ${{ steps.version.outputs.name }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: ${{ inputs.tag }}
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v6
         with:
           distribution: temurin
           java-version: 17
 
-      - uses: gradle/actions/setup-gradle@v4
+      - uses: gradle/actions/setup-gradle@v5
 
       - name: Read version from tag
         id: version
@@ -78,7 +78,7 @@ jobs:
           cp app/build/outputs/bundle/release/app-release.aab "dist/derdiedas-${{ steps.version.outputs.name }}.aab"
           cp app/build/outputs/apk/release/app-release.apk "dist/derdiedas-${{ steps.version.outputs.name }}.apk"
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: release-${{ steps.version.outputs.name }}
           path: dist/
@@ -87,7 +87,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: release-${{ needs.build.outputs.version }}
           path: dist
@@ -99,7 +99,7 @@ jobs:
           packageName: okano.dev.android.derdiedas
           releaseFiles: dist/derdiedas-${{ needs.build.outputs.version }}.aab
           # Set the PLAY_TRACK repository variable (internal, alpha or beta) to release to a testing track instead
-          track: ${{ vars.PLAY_TRACK || 'production' }}
+          tracks: ${{ vars.PLAY_TRACK || 'production' }}
           status: completed
 
   github-release:
@@ -108,7 +108,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: release-${{ needs.build.outputs.version }}
           path: dist
