@@ -30,7 +30,7 @@ A modern Android flashcard app designed to help learners master German grammatic
   - Cumulative loading: A2 shows A1+A2 words, B1 shows A1+A2+B1, etc.
 
 ### Data & Persistence
-- **1,080 German Nouns**: Comprehensive vocabulary database with 60 nouns per article (DER/DIE/DAS) for each CEFR level
+- **1,086 German Nouns**: Comprehensive vocabulary database with at least 60 unique nouns per article (DER/DIE/DAS) for each CEFR level
 - **Dual Translations**: Each noun includes English and Portuguese translations
 - **Room Database**: Persistent game session storage
 - **SharedPreferences**: User settings and preferences
@@ -99,6 +99,22 @@ cd DerDieDas
 3. Sync Gradle files
 
 4. Run on an emulator or physical device
+
+### Running Tests
+
+```bash
+./gradlew testDebugUnitTest
+```
+
+### Building a Release
+
+1. Copy `keystore.properties.example` to `keystore.properties` (gitignored) and fill in your upload key details
+2. Bump `versionCode` and `versionName` in `app/build.gradle.kts`
+3. Build the signed bundle:
+```bash
+./gradlew bundleRelease
+```
+The bundle is written to `app/build/outputs/bundle/release/app-release.aab`.
 
 ## 🎯 How to Use
 
