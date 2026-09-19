@@ -61,7 +61,12 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            // R8 shrinks, optimises and obfuscates the release build. Google Play flags
+            // bundles whose DEX optimisation is below 25%, which is what an unminified
+            // build scores. The mapping file is packaged into the .aab automatically so
+            // Play Console still shows readable stack traces.
+            isMinifyEnabled = true
+            isShrinkResources = true
             signingConfig = signingConfigs.findByName("release")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
