@@ -1,0 +1,826 @@
+{
+  "category": "Wohnen & Nachbarschaft",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "suchen",
+            "label": "Suchen"
+          },
+          {
+            "key": "anfragen",
+            "label": "Anfragen"
+          },
+          {
+            "key": "beauftragen",
+            "label": "Beauftragen"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "suchen",
+            "text": "Bewertungen im Internet lesen"
+          },
+          {
+            "bucket": "suchen",
+            "text": "mehrere Fachbetriebe vergleichen"
+          },
+          {
+            "bucket": "suchen",
+            "text": "nach Empfehlungen fragen"
+          },
+          {
+            "bucket": "suchen",
+            "text": "die Verfügbarkeit prüfen"
+          },
+          {
+            "bucket": "anfragen",
+            "text": "das Problem genau beschreiben"
+          },
+          {
+            "bucket": "anfragen",
+            "text": "Fotos vom Schaden schicken"
+          },
+          {
+            "bucket": "anfragen",
+            "text": "nach einem Kostenvoranschlag fragen"
+          },
+          {
+            "bucket": "anfragen",
+            "text": "die Dringlichkeit erklären"
+          },
+          {
+            "bucket": "beauftragen",
+            "text": "den günstigsten Festpreis wählen"
+          },
+          {
+            "bucket": "beauftragen",
+            "text": "einen Termin vereinbaren"
+          },
+          {
+            "bucket": "beauftragen",
+            "text": "den Auftrag schriftlich bestätigen"
+          },
+          {
+            "bucket": "beauftragen",
+            "text": "die Anschrift durchgeben"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Suchen, anfragen oder beauftragen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Kostenvoranschlag"
+          },
+          {
+            "key": "2",
+            "text": "der Fachbetrieb"
+          },
+          {
+            "key": "3",
+            "text": "die Anfrage"
+          },
+          {
+            "key": "4",
+            "text": "der Festpreis"
+          },
+          {
+            "key": "5",
+            "text": "dringend"
+          },
+          {
+            "key": "6",
+            "text": "die Verfügbarkeit"
+          },
+          {
+            "key": "7",
+            "text": "die Bewertung"
+          },
+          {
+            "key": "8",
+            "text": "der Auftrag"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die unverbindliche Schätzung der Kosten vorab"
+          },
+          {
+            "key": "b",
+            "text": "die Firma mit qualifizierten Handwerkern"
+          },
+          {
+            "key": "c",
+            "text": "die erste Kontaktaufnahme mit der Beschreibung des Problems"
+          },
+          {
+            "key": "d",
+            "text": "ein von vornherein feststehender Gesamtpreis"
+          },
+          {
+            "key": "e",
+            "text": "sehr eilig, muss schnell erledigt werden"
+          },
+          {
+            "key": "f",
+            "text": "wann jemand Zeit hat"
+          },
+          {
+            "key": "g",
+            "text": "die Meinung anderer Kunden im Internet"
+          },
+          {
+            "key": "h",
+            "text": "die offizielle Beauftragung einer Firma"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "müssen"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Sollen"
+          ],
+          "5": [
+            "wird"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Soll"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir {1} dringend einen Handwerker finden. (Modalverb, wir-Form)\n2. {2} Sie mir einen Kostenvoranschlag schicken? (können, Sie-Form)\n3. Ich {3} schon drei Betriebe angerufen. (haben, Perfekt)\n4. {4} wir auf den günstigsten Festpreis warten? (sollen, wir-Form)\n5. Falls der Schaden schlimmer {5}, rufen wir sofort an. (werden, Präsens)\n6. Der Handwerker {6} sich morgen bei uns melden. (werden, Futur I)\n7. Wir {7} den Auftrag schriftlich bestätigt. (haben, Perfekt)\n8. {8} ich Fotos vom Schaden schicken? (sollen, ich-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Den Auftrag planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Kostenvoranschlag"
+          ],
+          "2": [
+            "Fachbetrieb"
+          ],
+          "3": [
+            "Anfrage"
+          ],
+          "4": [
+            "Festpreis"
+          ],
+          "5": [
+            "dringend"
+          ],
+          "6": [
+            "Bewertungen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Bevor wir jemanden beauftragen, holen wir einen {1} ein. (die unverbindliche Kostenschätzung)\n2. Wir suchen einen seriösen {2} für die Reparatur. (die Firma mit qualifizierten Handwerkern)\n3. In unserer {3} beschreiben wir das Problem genau. (die erste Kontaktaufnahme)\n4. Wir wählen den Betrieb mit dem besten {4}. (ein von vornherein feststehender Gesamtpreis)\n5. Weil das Problem {5} ist, brauchen wir schnell einen Termin. (sehr eilig)\n6. Vor der Auswahl lesen wir online ein paar {6}. (die Meinung anderer Kunden)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "KOSTENVORANSCHLAG"
+          ],
+          "2": [
+            "SCHADEN"
+          ],
+          "3": [
+            "VERFÜGBARKEIT"
+          ],
+          "4": [
+            "ANFRAGE"
+          ],
+          "5": [
+            "FESTPREIS"
+          ],
+          "6": [
+            "BEWERTUNGEN"
+          ],
+          "7": [
+            "AUFTRAG"
+          ],
+          "8": [
+            "DRINGEND"
+          ],
+          "9": [
+            "SCHAFFEN"
+          ],
+          "10": [
+            "ANSCHRIFT"
+          ]
+        },
+        "bank": [
+          "KOSTENVORANSCHLAG",
+          "SCHADEN",
+          "VERFÜGBARKEIT",
+          "ANFRAGE",
+          "FESTPREIS",
+          "BEWERTUNGEN",
+          "AUFTRAG",
+          "DRINGEND",
+          "SCHAFFEN",
+          "ANSCHRIFT",
+          "TERMIN",
+          "RECHNUNG",
+          "GARANTIE",
+          "MATERIALKOSTEN"
+        ],
+        "text": "— Guten Tag, wir haben einen Wasserschaden im Bad. Können Sie\nuns einen {1} schicken?\n— Klar, schicken Sie uns am besten ein paar Fotos vom {2}, dann\nkönnen wir besser schätzen.\n— Mache ich sofort. Wie ist eigentlich Ihre {3} nächste Woche?\n— Wir könnten am Mittwoch vorbeikommen.\n— Perfekt, das passt uns gut.\n(beim zweiten Betrieb, am Telefon)\n— Guten Tag, wir haben eine {4} für eine Badreparatur\ngeschickt — haben Sie schon eine Antwort?\n— Ja, wir bieten Ihnen einen {5} von 800 Euro an, ohne\nversteckte Kosten.\n— Das klingt gut. Wir haben online auch gute {6} über Ihre\nFirma gelesen.\n— Freut uns zu hören! Sollen wir den {7} gleich schriftlich\nbestätigen?\n— Ja bitte. Die Sache ist allerdings {8} — können Sie es diese\nWoche noch {9}?\n— Kein Problem, wir kommen morgen vorbei. Können Sie uns noch\nIhre {10} geben?\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Zwei Handwerksbetriebe anrufen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Können Sie uns einen Kostenvoranschlag schicken?"
+              },
+              {
+                "key": "b",
+                "text": "Kosten sind mir egal, machen Sie einfach."
+              },
+              {
+                "key": "c",
+                "text": "Schicken Sie mir irgendeinen Preis."
+              }
+            ],
+            "q": "Du möchtest bei einem Handwerksbetrieb nach einem Kostenvoranschlag fragen. — You want to ask a tradesperson for a cost estimate.",
+            "why": "Eine konkrete, höfliche Anfrage ist der übliche Einstieg beim Handwerksbetrieb."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zeit ist mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Wie ist Ihre Verfügbarkeit nächste Woche?"
+              },
+              {
+                "key": "c",
+                "text": "Kommen Sie, wann Sie wollen."
+              }
+            ],
+            "q": "Du möchtest wissen, wann der Handwerksbetrieb Zeit hat. — You want to know when the company has availability.",
+            "why": "Eine klare Frage zur Verfügbarkeit hilft bei der Terminplanung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Sache ist wirklich dringend, können Sie schnell kommen?"
+              },
+              {
+                "key": "b",
+                "text": "Zeit spielt keine Rolle."
+              },
+              {
+                "key": "c",
+                "text": "Es hat keine Eile."
+              }
+            ],
+            "q": "Du möchtest erklären, dass die Reparatur dringend ist. — You want to explain that the repair is urgent.",
+            "why": "Die Dringlichkeit klar zu benennen hilft, schneller einen Termin zu bekommen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Preise interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ist das wirklich der Endpreis, ohne versteckte Kosten?"
+              },
+              {
+                "key": "c",
+                "text": "Ich zahle einfach, was am Ende auf der Rechnung steht."
+              }
+            ],
+            "q": "Der Handwerksbetrieb bietet dir einen Festpreis an. — The company offers you a fixed price.",
+            "why": "Eine Nachfrage zu versteckten Kosten schützt vor bösen Überraschungen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Können Sie mir den Auftrag noch schriftlich bestätigen?"
+              },
+              {
+                "key": "b",
+                "text": "Schriftlich ist mir zu kompliziert."
+              },
+              {
+                "key": "c",
+                "text": "Mündlich reicht doch völlig."
+              }
+            ],
+            "q": "Du möchtest den Auftrag schriftlich bestätigen. — You want to confirm the order in writing.",
+            "why": "Eine schriftliche Bestätigung schafft Klarheit für beide Seiten."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bewertungen lese ich nie."
+              },
+              {
+                "key": "b",
+                "text": "Ich nehme einfach den erstbesten Betrieb."
+              },
+              {
+                "key": "c",
+                "text": "Ich schaue mir vorher ein paar Bewertungen im Internet an."
+              }
+            ],
+            "q": "Du möchtest vor der Auswahl Bewertungen im Internet lesen. — You want to read online reviews before choosing.",
+            "why": "Bewertungen zu lesen hilft, einen seriösen Betrieb zu erkennen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Anfragen und Vergleichen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Frage, Infinitiv am Ende",
+            "tiles": [
+              "Können",
+              "Sie",
+              "uns",
+              "einen",
+              "Kostenvoranschlag",
+              "schicken",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "W-Frage mit sein",
+            "tiles": [
+              "Wie",
+              "ist",
+              "Ihre",
+              "Verfügbarkeit",
+              "nächste",
+              "Woche",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Hauptsatz, Verb an Position 2",
+            "tiles": [
+              "Die",
+              "Sache",
+              "ist",
+              "wirklich",
+              "dringend"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Nebensatz mit falls, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "der",
+              "Schaden",
+              "schlimmer",
+              "wird",
+              ",",
+              "rufen",
+              "wir",
+              "sofort",
+              "an"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Frage mit Modalverb, Infinitiv am Ende",
+            "tiles": [
+              "Sollen",
+              "wir",
+              "den",
+              "Auftrag",
+              "schriftlich",
+              "bestätigen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Wir",
+              "haben",
+              "den",
+              "Auftrag",
+              "schriftlich",
+              "bestätigt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze bei der Beauftragung bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Ein Kostenvoranschlag ist meist kostenlos. — A cost estimate is usually free.",
+            "why": "So steht es ausdrücklich in den Infos."
+          },
+          {
+            "answer": false,
+            "q": "Ein Festpreis muss nur mündlich vereinbart werden. — A fixed price only needs to be agreed verbally.",
+            "why": "Er sollte schriftlich vereinbart werden, nicht nur mündlich."
+          },
+          {
+            "answer": true,
+            "q": "Viele Betriebe bieten für dringende Aufträge einen Express-Zuschlag an. — Many companies offer an express surcharge for urgent orders.",
+            "why": "„Dringende Aufträge: viele Betriebe bieten einen Express-Zuschlag.“"
+          },
+          {
+            "answer": true,
+            "q": "Man sollte vor der Auswahl mindestens drei Betriebe vergleichen. — You should compare at least three companies before choosing.",
+            "why": "„Bewertungen: vor der Auswahl online mindestens 3 Betriebe vergleichen.“"
+          },
+          {
+            "answer": false,
+            "q": "Die Auftragsbestätigung braucht man erst nach Abschluss der Arbeiten. — The order confirmation is only needed after the work is finished.",
+            "why": "Sie sollte vor Arbeitsbeginn vorliegen, nicht erst danach."
+          },
+          {
+            "answer": true,
+            "q": "Anschrift und Termin werden meist telefonisch oder per E-Mail abgestimmt. — Address and appointment are usually arranged by phone or email.",
+            "why": "„Anschrift und Termin: werden meist telefonisch oder per E-Mail abgestimmt.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Handwerker beauftragen**\n>\n> - **Kostenvoranschlag:** meist **kostenlos**, aber\n>   unverbindlich.\n> - **Festpreis:** sollte **schriftlich** vereinbart werden.\n> - **Dringende Aufträge:** viele Betriebe bieten einen\n>   **Express-Zuschlag**.\n> - **Bewertungen:** vor der Auswahl online **mindestens\n>   3 Betriebe** vergleichen.\n> - **Auftragsbestätigung:** sollte **vor Arbeitsbeginn**\n>   vorliegen.\n> - **Anschrift und Termin:** werden meist **telefonisch oder\n>   per E-Mail** abgestimmt.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zur Beauftragung lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach endlos weiter warten, ohne nachzufragen."
+              },
+              {
+                "key": "b",
+                "text": "Bei einem anderen Betrieb nachfragen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort schlecht über die Firma schreiben, ohne nachzufragen."
+              }
+            ],
+            "q": "Ein Handwerksbetrieb antwortet tagelang nicht auf die Anfrage. — A company doesn't reply to the inquiry for days.",
+            "why": "Bei fehlender Antwort ist es sinnvoll, parallel einen anderen Betrieb anzufragen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den hohen Preis einfach akzeptieren, ohne zu vergleichen."
+              },
+              {
+                "key": "b",
+                "text": "Sich beim Betrieb laut beschweren, ohne Alternativen zu suchen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort einen zweiten Kostenvoranschlag bei einem anderen Betrieb einholen."
+              }
+            ],
+            "q": "Der Kostenvoranschlag ist viel höher als erwartet. — The cost estimate is much higher than expected.",
+            "why": "Ein zweiter Kostenvoranschlag zeigt schnell, ob der Preis angemessen ist."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nach einem neuen, baldigen Termin fragen."
+              },
+              {
+                "key": "b",
+                "text": "Den Betrieb komplett vergessen und nichts mehr unternehmen."
+              },
+              {
+                "key": "c",
+                "text": "Selbst versuchen, die Reparatur ohne Fachwissen durchzuführen."
+              }
+            ],
+            "q": "Der vereinbarte Termin wird kurzfristig abgesagt. — The scheduled appointment is cancelled at short notice.",
+            "why": "Eine Nachfrage nach einem neuen Termin ist der direkteste Weg weiter."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die neuen, höheren Kosten kommentarlos akzeptieren."
+              },
+              {
+                "key": "b",
+                "text": "Freundlich, aber bestimmt auf den ursprünglichen Kostenvoranschlag verweisen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort auflegen, ohne etwas zu sagen."
+              }
+            ],
+            "q": "Am Telefon werden plötzlich ganz andere Kosten genannt als im Angebot. — On the phone, completely different costs are suddenly mentioned than in the offer.",
+            "why": "Auf das ursprüngliche Angebot zu verweisen klärt die Abweichung sachlich."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die volle Summe sofort überweisen, ohne nachzufragen."
+              },
+              {
+                "key": "b",
+                "text": "Die Anzahlung ignorieren und trotzdem auf einen Termin hoffen."
+              },
+              {
+                "key": "c",
+                "text": "Sich vorher genau informieren, ob das üblich und sicher ist."
+              }
+            ],
+            "q": "Der Handwerksbetrieb verlangt eine hohe Anzahlung im Voraus. — The company demands a large deposit in advance.",
+            "why": "Sich vorher zu informieren schützt vor unseriösen Angeboten."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zusätzlich die Bewertungen und die Verfügbarkeit vergleichen."
+              },
+              {
+                "key": "b",
+                "text": "Einfach eine Münze werfen."
+              },
+              {
+                "key": "c",
+                "text": "Beide Betriebe gleichzeitig beauftragen."
+              }
+            ],
+            "q": "Zwei Betriebe bieten den exakt gleichen Festpreis an. — Two companies offer the exact same fixed price.",
+            "why": "Bei gleichem Preis entscheiden Bewertungen und Verfügbarkeit sinnvoll mit."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn bei der Beauftragung etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "geantwortet"
+          ],
+          "2": [
+            "höher"
+          ],
+          "3": [
+            "abgesagt"
+          ],
+          "4": [
+            "andere"
+          ],
+          "5": [
+            "Anzahlung"
+          ],
+          "6": [
+            "verglichen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Betrieb hat tagelang nicht {1}. (nicht reagiert, Partizip)\n2. Der Kostenvoranschlag war viel {2} als erwartet. (mehr kostend)\n3. Der Termin wurde kurzfristig {3}. (storniert, Partizip)\n4. Am Telefon wurden plötzlich ganz {4} Kosten genannt. (nicht dieselben)\n5. Der Betrieb wollte eine hohe {5} im Voraus. (Vorauszahlung)\n6. Wir haben die Bewertungen von zwei Betrieben {6}. (gegenübergestellt, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "müssen"
+          ],
+          "2": [
+            "Könnten"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Kostenvoranschlag"
+          ],
+          "5": [
+            "Fachbetrieb"
+          ],
+          "6": [
+            "Anfrage"
+          ],
+          "7": [
+            "Festpreis"
+          ],
+          "8": [
+            "dringend"
+          ],
+          "9": [
+            "Bewertungen"
+          ],
+          "10": [
+            "geantwortet"
+          ],
+          "11": [
+            "höher"
+          ],
+          "12": [
+            "abgesagt"
+          ],
+          "13": [
+            "Anzahlung"
+          ],
+          "14": [
+            "verglichen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir {1} dringend einen Handwerker finden. (must)\n2. {2} Sie mir einen Kostenvoranschlag schicken? (could — können)\n3. Ich {3} schon drei Betriebe angerufen. (have — Perfekt)\n4. Bevor wir jemanden beauftragen, holen wir einen {4} ein. (cost estimate)\n5. Wir suchen einen seriösen {5} für die Reparatur. (specialist company)\n6. In unserer {6} beschreiben wir das Problem genau. (initial inquiry)\n7. Wir wählen den Betrieb mit dem besten {7}. (fixed price)\n8. Weil das Problem {8} ist, brauchen wir schnell einen Termin. (urgent)\n9. Vor der Auswahl lesen wir online ein paar {9}. (reviews)\n10. Der Betrieb hat tagelang nicht {10}. (answered — Partizip)\n11. Der Kostenvoranschlag war viel {11} als erwartet. (higher)\n12. Der Termin wurde kurzfristig {12}. (cancelled — Partizip)\n13. Der Betrieb wollte eine hohe {13} im Voraus. (deposit)\n14. Wir haben die Bewertungen von zwei Betrieben {14}. (compared — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-64-handwerker-bestellen-a2",
+  "intro": "Bevor ein Handwerker vor der Tür steht, muss erst mal jemand gefunden werden: mehrere Betriebe anfragen, Kostenvoranschläge vergleichen, die Verfügbarkeit klären und den Auftrag am Ende schriftlich bestätigen. Dieses Set übt genau das — nach einem Kostenvoranschlag fragen, die Dringlichkeit erklären, Bewertungen vergleichen, und was zu tun ist, wenn ein Betrieb tagelang nicht antwortet oder plötzlich mehr verlangt. Grammatik nach Bedarf: Perfekt im Bericht, höfliche Fragen, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/64-handwerker-bestellen-a2",
+  "level": "A2",
+  "summary": "Einen Kostenvoranschlag einholen, die Verfügbarkeit klären, den Auftrag bestätigen — und was tun, wenn ein Betrieb nicht antwortet oder die Kosten plötzlich steigen.",
+  "title": "Handwerker bestellen — A2",
+  "topic": "Handwerker bestellen"
+}

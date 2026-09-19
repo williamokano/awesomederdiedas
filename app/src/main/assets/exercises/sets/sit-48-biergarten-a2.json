@@ -1,0 +1,832 @@
+{
+  "category": "Essen & Trinken",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "bestellen",
+            "label": "Bestellen"
+          },
+          {
+            "key": "tisch",
+            "label": "Der Tisch"
+          },
+          {
+            "key": "fest",
+            "label": "Das Volksfest"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "bestellen",
+            "text": "die Selbstbedienung"
+          },
+          {
+            "bucket": "tisch",
+            "text": "die Bierbank"
+          },
+          {
+            "bucket": "fest",
+            "text": "das Fahrgeschäft"
+          },
+          {
+            "bucket": "bestellen",
+            "text": "die Speisekarte"
+          },
+          {
+            "bucket": "tisch",
+            "text": "ist hier noch frei?"
+          },
+          {
+            "bucket": "fest",
+            "text": "die Losbude"
+          },
+          {
+            "bucket": "bestellen",
+            "text": "das Pfand"
+          },
+          {
+            "bucket": "tisch",
+            "text": "der Sonnenschirm"
+          },
+          {
+            "bucket": "fest",
+            "text": "das Riesenrad"
+          },
+          {
+            "bucket": "bestellen",
+            "text": "die Maß"
+          },
+          {
+            "bucket": "tisch",
+            "text": "der Tischnachbar"
+          },
+          {
+            "bucket": "fest",
+            "text": "der Eintritt zum Festzelt"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Bestellen, Tisch oder Fest?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Selbstbedienung"
+          },
+          {
+            "key": "2",
+            "text": "das Pfand"
+          },
+          {
+            "key": "3",
+            "text": "die Brotzeit"
+          },
+          {
+            "key": "4",
+            "text": "die Maß"
+          },
+          {
+            "key": "5",
+            "text": "der Tischnachbar"
+          },
+          {
+            "key": "6",
+            "text": "das Fahrgeschäft"
+          },
+          {
+            "key": "7",
+            "text": "die Losbude"
+          },
+          {
+            "key": "8",
+            "text": "eigene Brotzeit mitbringen"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "der Bereich, wo man sich Essen und Trinken selbst holt"
+          },
+          {
+            "key": "b",
+            "text": "das Geld, das man für den Krug bezahlt und zurückbekommt"
+          },
+          {
+            "key": "c",
+            "text": "eine kleine kalte Mahlzeit, zum Beispiel Brot und Käse"
+          },
+          {
+            "key": "d",
+            "text": "ein Liter Bier im großen Krug"
+          },
+          {
+            "key": "e",
+            "text": "die fremde Person, die am selben Tisch sitzt"
+          },
+          {
+            "key": "f",
+            "text": "eine Attraktion auf dem Volksfest, zum Beispiel ein Karussell"
+          },
+          {
+            "key": "g",
+            "text": "der Stand, an dem man ein Los kaufen kann"
+          },
+          {
+            "key": "h",
+            "text": "im Selbstbedienungsbereich erlaubt, im Bedienbereich nicht"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "ist"
+          ],
+          "2": [
+            "darf"
+          ],
+          "3": [
+            "muss"
+          ],
+          "4": [
+            "Nimmst"
+          ],
+          "5": [
+            "muss"
+          ],
+          "6": [
+            "haben"
+          ],
+          "7": [
+            "kann"
+          ],
+          "8": [
+            "Wollen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Entschuldigung, {1} hier noch frei? (sein, Präsens)\n2. In der Selbstbedienung {2} man eigene Brotzeit mitbringen. (dürfen)\n3. Am Tisch mit Bedienung {3} man vom Kellner bestellen. (müssen)\n4. {4} du auch eine Maß? (nehmen, du-Form)\n5. Ich {5} den Pfandkrug am Ende zurückgeben. (müssen)\n6. Wir {6} uns den Tisch mit einer anderen Gruppe geteilt. (haben, Perfekt)\n7. Auf dem Volksfest {7} man leicht jemanden verlieren. (können)\n8. {8} wir uns am Riesenrad treffen? (wollen, wir-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Am Tisch fragen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Bedienung"
+          ],
+          "2": [
+            "Pfand"
+          ],
+          "3": [
+            "Bierbank"
+          ],
+          "4": [
+            "Tischnachbarin"
+          ],
+          "5": [
+            "Fahrgeschäfte"
+          ],
+          "6": [
+            "Losbude"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Im Bereich mit {1} muss man am Tisch bestellen. (der Service durch Kellner)\n2. Für den Krug zahlt man ein {2}, das man später zurückbekommt. (das Geld für den Krug)\n3. Wir teilen uns die {3} mit einer anderen Familie. (die lange Bank am Tisch)\n4. Meine {4} erzählt mir, woher sie kommt. (die fremde Person am selben Tisch)\n5. Auf dem Volksfest gibt es viele {5}, zum Beispiel ein Karussell. (Attraktionen zum Fahren)\n6. An der {6} kann man ein Los kaufen. (der Stand für Lose)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "FREI"
+          ],
+          "2": [
+            "HIN"
+          ],
+          "3": [
+            "SELBSTBEDIENUNG"
+          ],
+          "4": [
+            "STAND"
+          ],
+          "5": [
+            "MASS"
+          ],
+          "6": [
+            "HIERHER"
+          ],
+          "7": [
+            "GEFÄLLT"
+          ],
+          "8": [
+            "FREUT"
+          ],
+          "9": [
+            "ZURÜCKGIBT"
+          ],
+          "10": [
+            "PFANDSTELLE"
+          ]
+        },
+        "bank": [
+          "FREI",
+          "HIN",
+          "SELBSTBEDIENUNG",
+          "STAND",
+          "MASS",
+          "HIERHER",
+          "GEFÄLLT",
+          "FREUT",
+          "ZURÜCKGIBT",
+          "PFANDSTELLE",
+          "ZAHLT",
+          "KELLNER",
+          "TISCH",
+          "MENGE"
+        ],
+        "text": "— Entschuldigung, ist hier noch {1}?\n— Ja, klar, setzt euch ruhig {2}.\n— Danke! Ist das hier {3} oder mit Bedienung?\n— Selbstbedienung, ihr könnt euch am {4} was holen.\n— Perfekt, dann holen wir uns eine {5} und eine Brotzeit.\n— Guten Appetit! Kommt ihr öfter {6}?\n— Eigentlich zum ersten Mal, aber es {7} uns richtig gut.\n— Das {8} mich, hier ist es immer entspannt.\n— Wisst ihr, wo man den Krug am Ende {9}?\n— Genau da vorne, an der {10}.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Am Bierbanktisch"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sich einfach ungefragt dazusetzen."
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, ist hier noch frei?"
+              },
+              {
+                "key": "c",
+                "text": "Woanders essen gehen."
+              }
+            ],
+            "q": "Alle Tische sind voll, außer einer mit einer fremden Gruppe. — All tables are full except one with a group of strangers.",
+            "why": "Kurz zu fragen ist die übliche Höflichkeit, auch wenn das Teilen von Tischen im Biergarten normal ist."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ist das hier Selbstbedienung oder mit Bedienung?"
+              },
+              {
+                "key": "b",
+                "text": "Einfach abwarten, bis jemand kommt."
+              },
+              {
+                "key": "c",
+                "text": "Laut nach einem Kellner rufen."
+              }
+            ],
+            "q": "Du bist unsicher, ob du am Tisch bestellen musst oder selbst holen kannst. — You're unsure whether to order at the table or fetch things yourself.",
+            "why": "Eine kurze Frage klärt sofort, wie hier bestellt wird."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Eigentlich zum ersten Mal, aber es gefällt uns richtig gut."
+              },
+              {
+                "key": "b",
+                "text": "Das geht dich nichts an."
+              },
+              {
+                "key": "c",
+                "text": "Nicht antworten."
+              }
+            ],
+            "q": "Die Tischnachbarin fragt, ob ihr öfter herkommt. — Your table neighbour asks if you come here often.",
+            "why": "Ein kurzes, freundliches Gespräch mit Tischnachbarn ist im Biergarten Teil des Erlebnisses."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wisst ihr, wo man den Krug zurückgibt?"
+              },
+              {
+                "key": "b",
+                "text": "Den Krug einfach mitnehmen."
+              },
+              {
+                "key": "c",
+                "text": "Den Krug irgendwo stehen lassen."
+              }
+            ],
+            "q": "Du möchtest wissen, wo man den Pfandkrug zurückgibt. — You want to know where to return the deposit mug.",
+            "why": "Eine kurze Frage an die Tischnachbarn oder das Personal klärt das schnell."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort in Panik geraten."
+              },
+              {
+                "key": "b",
+                "text": "Einen Treffpunkt vereinbaren, zum Beispiel am Riesenrad."
+              },
+              {
+                "key": "c",
+                "text": "Warten, bis der andere von selbst zurückkommt."
+              }
+            ],
+            "q": "Auf dem Volksfest verliert ihr euch kurz aus den Augen. — You briefly lose each other at the fair.",
+            "why": "Ein klarer Treffpunkt ist die einfachste Lösung, um sich in der Menge wiederzufinden."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Gern, vielen Dank, das ist sehr nett!"
+              },
+              {
+                "key": "b",
+                "text": "Nein, das brauche ich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Einfach ignorieren."
+              }
+            ],
+            "q": "Ein Tischnachbar bietet dir ein Stück von seiner Brotzeit an. — A table neighbour offers you a piece of their snack.",
+            "why": "Ein solches Angebot freundlich anzunehmen ist im Biergarten die übliche Reaktion."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Höflich am fremden Tisch"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Frage vor dem Hinsetzen",
+            "tiles": [
+              "Entschuldigung",
+              ",",
+              "ist",
+              "hier",
+              "noch",
+              "frei",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Frage mit Verb an Position 1",
+            "tiles": [
+              "Ist",
+              "das",
+              "hier",
+              "Selbstbedienung",
+              "oder",
+              "mit",
+              "Bedienung",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Ortsangabe vorne, Modalverb an Position 2, Infinitiv am Ende",
+            "tiles": [
+              "In",
+              "der",
+              "Selbstbedienung",
+              "darf",
+              "man",
+              "eigene",
+              "Brotzeit",
+              "mitbringen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "reflexives Verb sich holen",
+            "tiles": [
+              "Wir",
+              "holen",
+              "uns",
+              "eine",
+              "Maß",
+              "und",
+              "eine",
+              "Brotzeit"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "indirekte Frage, Verb am Ende",
+            "tiles": [
+              "Wisst",
+              "ihr",
+              ",",
+              "wo",
+              "man",
+              "den",
+              "Krug",
+              "zurückgibt",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Vorschlag mit lass uns + Infinitiv",
+            "tiles": [
+              "Lass",
+              "uns",
+              "am",
+              "Riesenrad",
+              "treffen"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze am Bierbanktisch bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Im Selbstbedienungsbereich darf man eigenes Essen mitbringen. — In the self-service area, you may bring your own food.",
+            "why": "So steht es ausdrücklich im Aushang."
+          },
+          {
+            "answer": false,
+            "q": "Im Bereich mit Bedienung darf man auch eigene Brotzeit mitbringen. — In the service area, you may also bring your own snacks.",
+            "why": "Dort gilt: keine eigene Verpflegung, nur beim Kellner bestellen."
+          },
+          {
+            "answer": true,
+            "q": "Für den Pfandkrug zahlt man zwei Euro. — The deposit for the mug is two euros.",
+            "why": "„Für den Pfandkrug zahlt man 2 €.“"
+          },
+          {
+            "answer": false,
+            "q": "Es gibt keinen Spielplatz für Kinder. — There is no playground for children.",
+            "why": "Ein Spielplatz befindet sich im hinteren Bereich."
+          },
+          {
+            "answer": false,
+            "q": "Bei Regen schließt der Biergarten sofort. — In rain, the beer garden closes immediately.",
+            "why": "Die überdachten Tische bleiben bei Regen geöffnet."
+          },
+          {
+            "answer": true,
+            "q": "Ab 22 Uhr gilt Ruhezeit. — Quiet hours start at 10 pm.",
+            "why": "„Ruhezeit ab 22 Uhr, danach nur noch leise Gespräche.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Biergarten Waldwiese — Hinweise für Gäste**\n>\n> - **Selbstbedienungsbereich** (Bierbänke ohne Tischdecke): eigene\n>   Brotzeit **erlaubt**, Getränke bitte nur vom Stand.\n> - **Bereich mit Bedienung** (Tischdecke): Speisen und Getränke\n>   bitte **nur beim Kellner** bestellen, keine eigene Verpflegung.\n> - Für den **Pfandkrug** zahlt man **2 €**, Rückgabe an der\n>   Pfandstelle.\n> - Der Biergarten ist **familienfreundlich** — ein Spielplatz\n>   befindet sich im hinteren Bereich.\n> - Bei Regen bleiben die Tische **überdacht** geöffnet.\n> - Ruhezeit ab **22 Uhr**, danach nur noch leise Gespräche.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Den Aushang im Biergarten lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Höflich an einem Tisch fragen, ob noch ein bisschen Platz ist."
+              },
+              {
+                "key": "b",
+                "text": "Einfach stehen bleiben und warten."
+              },
+              {
+                "key": "c",
+                "text": "Den Biergarten sofort verlassen."
+              }
+            ],
+            "q": "Es gibt keinen freien Platz mehr an keinem Tisch. — There isn't a free spot at any table.",
+            "why": "Eine kurze, freundliche Frage findet oft doch noch einen Platz, besonders an langen Bierbanktischen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Krug einfach behalten."
+              },
+              {
+                "key": "b",
+                "text": "Noch einmal zurückgehen und den Krug abgeben."
+              },
+              {
+                "key": "c",
+                "text": "So tun, als wäre nichts passiert."
+              }
+            ],
+            "q": "Ihr habt vergessen, den Pfandkrug zurückzugeben, und seid schon draußen. — You forgot to return the deposit mug and are already outside.",
+            "why": "Zurückzugehen ist unkompliziert und man bekommt das Pfand zurück."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "So tun, als wäre nichts gewesen."
+              },
+              {
+                "key": "b",
+                "text": "Die Schuld auf jemand anderen schieben."
+              },
+              {
+                "key": "c",
+                "text": "Dich sofort entschuldigen und fragen, ob du helfen kannst."
+              }
+            ],
+            "q": "Du hast versehentlich etwas Bier auf den Tischnachbarn geschüttet. — You accidentally spilled some beer on your table neighbour.",
+            "why": "Eine sofortige Entschuldigung mit Hilfsangebot ist die angemessene Reaktion."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zum vereinbarten Treffpunkt gehen oder anrufen."
+              },
+              {
+                "key": "b",
+                "text": "Ziellos durch die Menge laufen."
+              },
+              {
+                "key": "c",
+                "text": "Einfach alleine nach Hause gehen."
+              }
+            ],
+            "q": "Auf dem Volksfest habt ihr eure Freunde in der Menge verloren. — At the fair, you've lost your friends in the crowd.",
+            "why": "Ein vereinbarter Treffpunkt oder ein Anruf ist die schnellste Lösung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sich vordrängeln."
+              },
+              {
+                "key": "b",
+                "text": "Warten oder ein anderes Fahrgeschäft mit kürzerer Schlange wählen."
+              },
+              {
+                "key": "c",
+                "text": "Sich lautstark beschweren."
+              }
+            ],
+            "q": "Die Schlange für ein Fahrgeschäft ist sehr lang. — The queue for a ride is very long.",
+            "why": "Warten oder ausweichen ist die einzig faire Lösung bei einer langen Schlange."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach weiteressen."
+              },
+              {
+                "key": "b",
+                "text": "Behaupten, es sei nicht deine Brotzeit."
+              },
+              {
+                "key": "c",
+                "text": "Dich entschuldigen und die Brotzeit wieder wegpacken."
+              }
+            ],
+            "q": "Du merkst zu spät, dass du im Bereich mit Bedienung eigene Brotzeit ausgepackt hast. — You realize too late that you unpacked your own snacks in the service area.",
+            "why": "Eine kurze Entschuldigung und das Wegpacken lösen das Missverständnis unkompliziert."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn im Trubel etwas passiert"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Platz"
+          ],
+          "2": [
+            "Pfandkrug"
+          ],
+          "3": [
+            "Tischnachbarn"
+          ],
+          "4": [
+            "Menge"
+          ],
+          "5": [
+            "Schlange"
+          ],
+          "6": [
+            "Brotzeit"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Es gibt keinen freien {1} mehr an keinem Tisch. (der Ort zum Sitzen)\n2. Wir haben vergessen, den {2} zurückzugeben. (der Krug mit Pfand)\n3. Ich habe versehentlich Bier auf meinen {3} geschüttet. (die Person neben mir am Tisch)\n4. Wir haben unsere Freunde in der {4} verloren. (viele Menschen zusammen)\n5. Die {5} für das Fahrgeschäft war sehr lang. (die Reihe von wartenden Leuten)\n6. Im Bereich mit Bedienung darf man keine eigene {6} auspacken. (mitgebrachtes Essen)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "ist"
+          ],
+          "2": [
+            "darf"
+          ],
+          "3": [
+            "muss"
+          ],
+          "4": [
+            "muss"
+          ],
+          "5": [
+            "Bedienung"
+          ],
+          "6": [
+            "Pfand"
+          ],
+          "7": [
+            "Bierbank"
+          ],
+          "8": [
+            "Tischnachbarin"
+          ],
+          "9": [
+            "Fahrgeschäfte"
+          ],
+          "10": [
+            "Losbude"
+          ],
+          "11": [
+            "Platz"
+          ],
+          "12": [
+            "Menge"
+          ],
+          "13": [
+            "Schlange"
+          ],
+          "14": [
+            "treffen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Entschuldigung, {1} hier noch frei? (is)\n2. In der Selbstbedienung {2} man eigene Brotzeit mitbringen. (may)\n3. Am Tisch mit Bedienung {3} man vom Kellner bestellen. (must)\n4. Ich {4} den Pfandkrug am Ende zurückgeben. (must)\n5. Im Bereich mit {5} muss man am Tisch bestellen. (table service)\n6. Für den Krug zahlt man ein {6}. (deposit)\n7. Wir teilen uns die {7} mit einer anderen Familie. (beer-garden bench)\n8. Meine {8} erzählt mir, woher sie kommt. (table neighbour, fem.)\n9. Auf dem Volksfest gibt es viele {9}. (rides / attractions)\n10. An der {10} kann man ein Los kaufen. (lottery/raffle booth)\n11. Es gibt keinen freien {11} mehr. (spot / seat)\n12. Wir haben unsere Freunde in der {12} verloren. (crowd)\n13. Die {13} für das Fahrgeschäft war sehr lang. (queue)\n14. Lass uns am Riesenrad {14}. (meet — Infinitiv)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-48-biergarten-a2",
+  "intro": "Im Biergarten sitzt man mit Fremden am selben Tisch, das ist normal und kein Grund zur Verlegenheit. Wichtiger ist der Unterschied zwischen Selbstbedienung — dort darf man sogar eigene Brotzeit mitbringen — und dem Bereich mit Bedienung, wo man am Tisch bestellt. Dazu der Pfandkrug, der am Ende zurückgegeben wird, und auf dem Volksfest noch mehr Trubel: Fahrgeschäfte, eine Losbude, verlorene Freunde in der Menge. Grammatik nach Bedarf: höfliche Fragen mit Konjunktiv II, Wechselpräpositionen, einfache Vergangenheit im Bericht. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/48-biergarten-a2",
+  "level": "A2",
+  "summary": "Sich einen Tisch mit Fremden teilen, in der Selbstbedienung oder am Tisch bestellen, den Pfandkrug zurückgeben — und der Trubel auf dem Volksfest.",
+  "title": "Biergarten und Volksfest — A2",
+  "topic": "Biergarten und Volksfest"
+}

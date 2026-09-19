@@ -1,0 +1,677 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "Infinitiv",
+          "Konjunktiv II (ich)"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "käme"
+                ],
+                "gap": 1
+              }
+            ],
+            "label": "kommen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "ginge"
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "gehen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "wüsste"
+                ],
+                "gap": 3
+              }
+            ],
+            "label": "wissen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "gäbe"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "geben"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "fände"
+                ],
+                "gap": 5
+              }
+            ],
+            "label": "finden"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "bliebe"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "bleiben"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die Konjunktiv-II-Form (ich).",
+      "instructionsEn": "Fill in the Konjunktiv II form (ich).",
+      "title": "Unregelmäßige Konjunktiv-II-Formen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "würde"
+          ],
+          "2": [
+            "würden"
+          ],
+          "3": [
+            "würde"
+          ],
+          "4": [
+            "würde"
+          ],
+          "5": [
+            "wäre"
+          ],
+          "6": [
+            "würden"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wenn ich Zeit hätte, {1} ich dich besuchen.\n2. Wenn das Wetter besser wäre, {2} wir spazieren gehen.\n3. Wenn ich mehr Geld hätte, {3} ich mir ein neues Auto kaufen.\n4. Wenn er mehr lernen würde, {4} er bessere Noten bekommen.\n5. Wenn ich du {5}, würde ich das nicht machen.\n6. Wenn wir jetzt losfahren würden, {6} wir pünktlich ankommen.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze die richtige Konjunktiv-II-Form.",
+      "instructionsEn": "Fill in the correct Konjunktiv-II form.",
+      "title": "Irreale Bedingungssätze"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "würde"
+          ],
+          "2": [
+            "würde"
+          ],
+          "3": [
+            "würde"
+          ],
+          "4": [
+            "hätte"
+          ],
+          "5": [
+            "würde"
+          ],
+          "6": [
+            "hätte"
+          ],
+          "7": [
+            "würden"
+          ],
+          "8": [
+            "würde"
+          ]
+        },
+        "bank": [
+          "würde",
+          "würde",
+          "würde",
+          "würde",
+          "würde",
+          "hätte",
+          "hätte",
+          "würden",
+          "wäre",
+          "käme"
+        ],
+        "text": "Wenn ich im Lotto gewinnen {1}, würde ich zuerst meine Schulden\nbezahlen. Ich {2} mir ein Haus kaufen. Meine Familie {3} sich\nsehr freuen. Wenn ich genug Geld {4}, würde ich auch reisen. Ich\n{5} gern nach Japan fliegen. Wenn ich Zeit {6}, würde ich die\nganze Welt bereisen. Meine Freunde {7} das toll finden. Aber ich\n{8} auch etwas spenden.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Wenn ich im Lotto gewinnen würde"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wäre"
+              },
+              {
+                "key": "b",
+                "text": "bin"
+              },
+              {
+                "key": "c",
+                "text": "war"
+              }
+            ],
+            "q": "Wenn ich reich ___, würde ich ein Haus kaufen.",
+            "why": "Irrealer Bedingungssatz → Konjunktiv II (wäre)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ob"
+              },
+              {
+                "key": "b",
+                "text": "Wenn"
+              },
+              {
+                "key": "c",
+                "text": "Als"
+              }
+            ],
+            "q": "___ ich mehr Zeit hätte, würde ich öfter Sport machen.",
+            "why": "Bedingungssatz → wenn."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "habe"
+              },
+              {
+                "key": "b",
+                "text": "bin"
+              },
+              {
+                "key": "c",
+                "text": "würde"
+              }
+            ],
+            "q": "Wenn du mich fragen würdest, ___ ich dir helfen.",
+            "why": "Hauptsatz im irrealen Bedingungssatz → würde."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "würde"
+              },
+              {
+                "key": "b",
+                "text": "wäre"
+              },
+              {
+                "key": "c",
+                "text": "hätte"
+              }
+            ],
+            "q": "Wenn es regnen ___, würden wir zu Hause bleiben.",
+            "why": "würde + Infinitiv auch im Nebensatz möglich."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "hätten"
+              },
+              {
+                "key": "b",
+                "text": "würden"
+              },
+              {
+                "key": "c",
+                "text": "wären"
+              }
+            ],
+            "q": "Wenn wir jetzt gehen ___, kämen wir pünktlich an.",
+            "why": "würde + Infinitiv im Nebensatz."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "habe"
+              },
+              {
+                "key": "b",
+                "text": "bin"
+              },
+              {
+                "key": "c",
+                "text": "würde"
+              }
+            ],
+            "q": "Wenn ich du wäre, ___ ich das nicht sagen.",
+            "why": "Hauptsatz im irrealen Bedingungssatz → würde."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Wenn-Satz: Form und Wortstellung"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "hätte"
+              },
+              {
+                "key": "b",
+                "text": "wäre"
+              },
+              {
+                "key": "c",
+                "text": "würde"
+              }
+            ],
+            "q": "Wenn ich frei ___, würde ich lange schlafen.",
+            "why": "frei haben → hätte."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ob"
+              },
+              {
+                "key": "b",
+                "text": "Wenn"
+              },
+              {
+                "key": "c",
+                "text": "Als"
+              }
+            ],
+            "q": "___ es regnen würde, würde ich trotzdem rausgehen.",
+            "why": "Bedingungssatz → wenn."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "hätte"
+              },
+              {
+                "key": "b",
+                "text": "wäre"
+              },
+              {
+                "key": "c",
+                "text": "würde"
+              }
+            ],
+            "q": "Wenn die Sonne scheinen würde, ___ ich an den Strand gehen.",
+            "why": "Hauptsatz → würde."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "würde"
+              },
+              {
+                "key": "b",
+                "text": "hätte"
+              },
+              {
+                "key": "c",
+                "text": "wäre"
+              }
+            ],
+            "q": "Wenn ich könnte, ___ ich den ganzen Tag lesen.",
+            "why": "Hauptsatz → würde."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "wären"
+              },
+              {
+                "key": "b",
+                "text": "hätten"
+              },
+              {
+                "key": "c",
+                "text": "würden"
+              }
+            ],
+            "q": "Wenn meine Freunde Zeit ___, würden wir zusammen kochen.",
+            "why": "Zeit haben → hätten."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "wären"
+              },
+              {
+                "key": "b",
+                "text": "würden"
+              },
+              {
+                "key": "c",
+                "text": "hätten"
+              }
+            ],
+            "q": "Wenn wir ein Boot ___, würden wir aufs Meer fahren.",
+            "why": "ein Boot haben → hätten."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ob"
+              },
+              {
+                "key": "b",
+                "text": "Wenn"
+              },
+              {
+                "key": "c",
+                "text": "Als"
+              }
+            ],
+            "q": "___ ich einen Wunsch frei hätte, würde ich mir diesen Tag wünschen.",
+            "why": "Bedingungssatz → wenn."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "würde"
+              },
+              {
+                "key": "b",
+                "text": "hätte"
+              },
+              {
+                "key": "c",
+                "text": "wäre"
+              }
+            ],
+            "q": "Am Ende ___ ich sehr glücklich sein.",
+            "why": "Hauptsatz → würde."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct answer for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Ein perfekter Tag"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "wäre"
+          ],
+          "2": [
+            "würde"
+          ],
+          "3": [
+            "würden"
+          ],
+          "4": [
+            "wäre"
+          ],
+          "5": [
+            "würde"
+          ],
+          "6": [
+            "würden"
+          ],
+          "7": [
+            "hätte"
+          ],
+          "8": [
+            "würde"
+          ],
+          "9": [
+            "wäre"
+          ],
+          "10": [
+            "wäre"
+          ]
+        },
+        "bank": [
+          "wäre",
+          "wäre",
+          "wäre",
+          "wäre",
+          "würde",
+          "würde",
+          "würde",
+          "würden",
+          "würden",
+          "hätte",
+          "hätten",
+          "käme"
+        ],
+        "text": "Wenn ich Bürgermeister {1}, würde ich viel verändern. Ich {2}\nmehr Parks bauen lassen. Die Straßen {3} sauberer sein. Wenn\ngenug Geld da {4}, würde ich auch die Schulen renovieren. Ich\n{5} mehr Bäume pflanzen. Die Bürger {6} sich sicher freuen. Wenn\nich Zeit {7}, würde ich jede Woche mit den Bürgern sprechen.\nMeine Stadt {8} noch schöner werden. Ich {9} stolz auf meine\nArbeit sein. Das {10} mein größter Wunsch.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Two words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Wenn ich Bürgermeister wäre (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "hätte"
+          ],
+          "2": [
+            "wäre"
+          ],
+          "3": [
+            "wäre"
+          ],
+          "4": [
+            "würde"
+          ],
+          "5": [
+            "würden"
+          ],
+          "6": [
+            "würde"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wenn ich Zeit {1}, würde ich dich besuchen.\n2. Wenn das Wetter schön {2}, würden wir picknicken.\n3. Wenn ich reich {3}, würde ich ein Haus kaufen.\n4. Wenn du mich fragen würdest, {4} ich dir helfen.\n5. Wenn wir jetzt losfahren würden, {5} wir pünktlich ankommen.\n6. Wenn ich du wäre, {6} ich das nicht machen.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die richtige Konjunktiv-II-Form.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "hätte"
+              },
+              {
+                "key": "b",
+                "text": "wäre"
+              },
+              {
+                "key": "c",
+                "text": "würde"
+              }
+            ],
+            "q": "Wenn ich Geld ___, würde ich reisen.",
+            "why": "Geld haben → hätte."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ob"
+              },
+              {
+                "key": "b",
+                "text": "Wenn"
+              },
+              {
+                "key": "c",
+                "text": "Als"
+              }
+            ],
+            "q": "___ ich mehr Zeit hätte, würde ich öfter kochen.",
+            "why": "Bedingungssatz → wenn."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "hätte"
+              },
+              {
+                "key": "b",
+                "text": "wäre"
+              },
+              {
+                "key": "c",
+                "text": "würde"
+              }
+            ],
+            "q": "Wenn es kalt wäre, ___ ich eine Jacke anziehen.",
+            "why": "Hauptsatz → würde."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "hätten"
+              },
+              {
+                "key": "b",
+                "text": "wären"
+              },
+              {
+                "key": "c",
+                "text": "würden"
+              }
+            ],
+            "q": "Wenn wir ein Auto ___, würden wir öfter verreisen.",
+            "why": "ein Auto haben → hätten."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "hätte"
+              },
+              {
+                "key": "b",
+                "text": "würde"
+              },
+              {
+                "key": "c",
+                "text": "wäre"
+              }
+            ],
+            "q": "Wenn du mich fragen würdest, ___ ich ja sagen.",
+            "why": "Hauptsatz → würde."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "hätte"
+              },
+              {
+                "key": "b",
+                "text": "wäre"
+              },
+              {
+                "key": "c",
+                "text": "würde"
+              }
+            ],
+            "q": "Wenn ich du wäre, ___ ich früher schlafen gehen.",
+            "why": "Hauptsatz → würde."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-14-konjunktiv2-b1",
+  "intro": "Standalone drill set, not tied to any lesson. Beyond polite requests, Konjunktiv II builds the unreal conditional: wenn + Konjunktiv II in the wenn-clause, würde/könnte/hätte/wäre (+ Infinitiv) in the main clause — Wenn ich Zeit hätte, würde ich dich besuchen (but I don't have time, so I won't). A handful of common verbs still use their own irregular Konjunktiv II form instead of würde + Infinitiv even in spoken German: käme (kommen), ginge (gehen), wüsste (wissen), gäbe (geben), fände (finden), bliebe (bleiben) — everything else prefers würde. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/14-konjunktiv2-b1",
+  "level": "B1",
+  "summary": null,
+  "title": "Konjunktiv II: Irreale Bedingungssätze — B1",
+  "topic": "Konjunktiv II"
+}

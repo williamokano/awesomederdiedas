@@ -1,0 +1,816 @@
+{
+  "category": "Arbeit & Studium",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "ansprechen",
+            "label": "Ansprechen"
+          },
+          {
+            "key": "zuhoeren",
+            "label": "Zuhören"
+          },
+          {
+            "key": "loesen",
+            "label": "Lösen"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "ansprechen",
+            "text": "den Konflikt offen ansprechen"
+          },
+          {
+            "bucket": "ansprechen",
+            "text": "um ein Vier-Augen-Gespräch bitten"
+          },
+          {
+            "bucket": "ansprechen",
+            "text": "konkrete Beispiele nennen"
+          },
+          {
+            "bucket": "ansprechen",
+            "text": "die eigene Sichtweise erklären"
+          },
+          {
+            "bucket": "zuhoeren",
+            "text": "der anderen Person zuhören"
+          },
+          {
+            "bucket": "zuhoeren",
+            "text": "Verständnis zeigen"
+          },
+          {
+            "bucket": "zuhoeren",
+            "text": "Rückfragen stellen"
+          },
+          {
+            "bucket": "zuhoeren",
+            "text": "die Perspektive der Kollegin nachvollziehen"
+          },
+          {
+            "bucket": "loesen",
+            "text": "gemeinsam eine Lösung suchen"
+          },
+          {
+            "bucket": "loesen",
+            "text": "einen Kompromiss finden"
+          },
+          {
+            "bucket": "loesen",
+            "text": "die Zusammenarbeit verbessern"
+          },
+          {
+            "bucket": "loesen",
+            "text": "das Ergebnis schriftlich festhalten"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Ansprechen, zuhören oder lösen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Konflikt"
+          },
+          {
+            "key": "2",
+            "text": "das Missverständnis"
+          },
+          {
+            "key": "3",
+            "text": "die Kritik"
+          },
+          {
+            "key": "4",
+            "text": "das Feedback"
+          },
+          {
+            "key": "5",
+            "text": "die Zusammenarbeit"
+          },
+          {
+            "key": "6",
+            "text": "der Kompromiss"
+          },
+          {
+            "key": "7",
+            "text": "die Klärung"
+          },
+          {
+            "key": "8",
+            "text": "das Vier-Augen-Gespräch"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die Meinungsverschiedenheit zwischen zwei Personen"
+          },
+          {
+            "key": "b",
+            "text": "eine falsche Interpretation einer Aussage"
+          },
+          {
+            "key": "c",
+            "text": "die Bewertung eines Verhaltens oder einer Leistung"
+          },
+          {
+            "key": "d",
+            "text": "die Rückmeldung zu einer Leistung oder einem Verhalten"
+          },
+          {
+            "key": "e",
+            "text": "das gemeinsame Arbeiten im Team"
+          },
+          {
+            "key": "f",
+            "text": "eine Lösung, bei der beide Seiten nachgeben"
+          },
+          {
+            "key": "g",
+            "text": "das Auflösen eines Missverständnisses"
+          },
+          {
+            "key": "h",
+            "text": "ein privates Gespräch zwischen zwei Personen"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "soll"
+          ],
+          "4": [
+            "Ist"
+          ],
+          "5": [
+            "ist"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "habe"
+          ],
+          "8": [
+            "Können"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} gestern ein Gespräch mit meiner Kollegin gesucht. (haben, Perfekt)\n2. {2} wir kurz unter vier Augen sprechen? (können, wir-Form)\n3. Man {3} Konflikte möglichst früh ansprechen. (sollen, Präsens)\n4. {4} das Missverständnis schon geklärt worden? (sein, Perfekt Passiv)\n5. Falls die Situation weiter angespannt {5}, sollten wir die Teamleitung einbeziehen. (sein, Präsens)\n6. Meine Kollegin {6} sich das sicher noch einmal überlegen. (werden, Futur I)\n7. Ich {7} schon meine Sichtweise erklärt. (haben, Perfekt)\n8. {8} wir gemeinsam eine Lösung finden? (können, wir-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Den Konflikt vorbereiten"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Konflikt"
+          ],
+          "2": [
+            "Missverständnis"
+          ],
+          "3": [
+            "Kritik"
+          ],
+          "4": [
+            "Feedback"
+          ],
+          "5": [
+            "Zusammenarbeit"
+          ],
+          "6": [
+            "Kompromiss"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich möchte den {1} offen ansprechen. (die Meinungsverschiedenheit zwischen zwei Personen)\n2. Ich glaube, das war nur ein {2}. (eine falsche Interpretation einer Aussage)\n3. Deine {3} war für mich schwer nachzuvollziehen. (die Bewertung eines Verhaltens)\n4. Ich hätte gern ein ehrliches {4} von dir. (die Rückmeldung zu einer Leistung)\n5. Mir ist eine gute {5} im Team sehr wichtig. (das gemeinsame Arbeiten)\n6. Am Ende haben wir einen guten {6} gefunden. (eine Lösung, bei der beide nachgeben)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "GESPRÄCH"
+          ],
+          "2": [
+            "KONFLIKT"
+          ],
+          "3": [
+            "KRITISIERT"
+          ],
+          "4": [
+            "MISSVERSTÄNDNIS"
+          ],
+          "5": [
+            "FEEDBACK"
+          ],
+          "6": [
+            "ZUSAMMENARBEIT"
+          ],
+          "7": [
+            "KOMPROMISS"
+          ],
+          "8": [
+            "VEREINBAREN"
+          ],
+          "9": [
+            "WIRD"
+          ],
+          "10": [
+            "FREUE"
+          ]
+        },
+        "bank": [
+          "GESPRÄCH",
+          "KONFLIKT",
+          "STREIT",
+          "KRITISIERT",
+          "VORWURF",
+          "MISSVERSTÄNDNIS",
+          "ENTSCHULDIGUNG",
+          "FEEDBACK",
+          "TEAMLEITUNG",
+          "ZUSAMMENARBEIT",
+          "KOMPROMISS",
+          "VEREINBAREN",
+          "WIRD",
+          "FREUE"
+        ],
+        "text": "(im Besprechungsraum)\n— Danke, dass du dir Zeit für dieses {1} nimmst.\n— Gerne, worum geht es dir?\n— Ich möchte einen {2} zwischen uns ansprechen, der mich seit\nein paar Wochen beschäftigt.\n— Okay, erzähl mir mehr.\n— Bei der letzten Präsentation hatte ich das Gefühl, dass du\nmeine Arbeit vor dem Team {3} hast.\n— Das tut mir leid, das war nicht meine Absicht.\n— Ich glaube, das war vielleicht nur ein {4}.\n— Kann sein. Kannst du mir ein Beispiel nennen?\n— Klar, als du gesagt hast, die Analyse sei „nicht ganz\ndurchdacht“.\n— Ah, ich verstehe. Das war als konstruktives {5} gemeint,\nnicht als Vorwurf.\n— Das erklärt einiges, danke für die Klärung.\n— Mir ist unsere {6} sehr wichtig, deshalb bin ich froh, dass\nwir das ansprechen.\n— Mir auch. Lass uns einen {7} finden, wie wir in Zukunft\nFeedback geben.\n— Gute Idee. Sollen wir dafür feste Regeln {8}?\n— Ja, das {9} uns beiden helfen.\n— Perfekt, ich {10} mich, dass wir das geklärt haben.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Ansprechen, klären, vereinbaren"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Konflikte interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich möchte einen Konflikt zwischen uns ansprechen."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal."
+              }
+            ],
+            "q": "Du willst deiner Kollegin sagen, dass du einen Konflikt ansprechen möchtest. — You want to tell your colleague you'd like to address a conflict.",
+            "why": "Eine klare Aussage ist der übliche Einstieg in ein solches Gespräch."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich frage lieber nicht nach."
+              },
+              {
+                "key": "c",
+                "text": "Können wir gemeinsam eine Lösung finden?"
+              }
+            ],
+            "q": "Du willst wissen, ob ihr gemeinsam eine Lösung finden könnt. — You want to know if you can find a solution together.",
+            "why": "Eine direkte Frage öffnet den Weg zu einer gemeinsamen Lösung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich hatte das Gefühl, dass meine Arbeit kritisiert wurde."
+              },
+              {
+                "key": "b",
+                "text": "Situationen interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst deiner Kollegin erklären, wie du die Situation erlebt hast. — You want to explain to your colleague how you experienced the situation.",
+            "why": "Eine Ich-Botschaft erklärt die eigene Sichtweise, ohne Vorwürfe zu machen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Regeln interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Sollen wir feste Regeln für Feedback vereinbaren?"
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal, Hauptsache wir reden nicht mehr darüber."
+              }
+            ],
+            "q": "Du willst wissen, ob ihr feste Regeln für Feedback vereinbaren könnt. — You want to know if you can agree on fixed rules for feedback.",
+            "why": "Eine direkte Frage klärt frühzeitig einen gemeinsamen Umgang für die Zukunft."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kritik interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Das ist mir zu kompliziert."
+              },
+              {
+                "key": "c",
+                "text": "Wie hast du deine Kritik eigentlich gemeint?"
+              }
+            ],
+            "q": "Du willst wissen, wie deine Kollegin ihre Kritik eigentlich gemeint hat. — You want to know how your colleague actually meant her criticism.",
+            "why": "Eine direkte Frage klärt Missverständnisse am schnellsten."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Danke, dass du dir Zeit für dieses Gespräch nimmst."
+              },
+              {
+                "key": "b",
+                "text": "Gespräche interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst dich dafür bedanken, dass sie sich Zeit für das Gespräch genommen hat. — You want to thank her for taking the time for the conversation.",
+            "why": "Ein höflicher Dank ist der übliche Einstieg in ein klärendes Gespräch."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Ansprechen und erklären"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "höfliche Aussage, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "einen",
+              "Konflikt",
+              "ansprechen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "höfliche Frage mit Modalverb",
+            "tiles": [
+              "Können",
+              "wir",
+              "kurz",
+              "unter",
+              "vier",
+              "Augen",
+              "sprechen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Aussage, Verb an Position 2",
+            "tiles": [
+              "Wir",
+              "suchen",
+              "gemeinsam",
+              "eine",
+              "Lösung"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Futur I, Zeitangabe an Position 1, Verb an Position 2",
+            "tiles": [
+              "Morgen",
+              "werden",
+              "wir",
+              "feste",
+              "Regeln",
+              "vereinbaren"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "W-Frage im Perfekt",
+            "tiles": [
+              "Wie",
+              "hast",
+              "du",
+              "das",
+              "eigentlich",
+              "gemeint",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Ich",
+              "habe",
+              "schon",
+              "meine",
+              "Sichtweise",
+              "erklärt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zum Konflikt bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Konflikte sollte man möglichst früh und nicht vor der ganzen Gruppe ansprechen. — Conflicts should be addressed as early as possible and not in front of the whole group.",
+            "why": "So steht es ausdrücklich in den Infos zum Konflikt."
+          },
+          {
+            "answer": false,
+            "q": "Direkte Anschuldigungen wirken weniger vorwurfsvoll als Ich-Botschaften. — Direct accusations sound less accusatory than I-statements.",
+            "why": "Ich-Botschaften wirken weniger vorwurfsvoll als direkte Anschuldigungen."
+          },
+          {
+            "answer": true,
+            "q": "Man sollte die Sichtweise der anderen Person ernst nehmen, bevor man reagiert. — You should take the other person's perspective seriously before reacting.",
+            "why": "„Zuhören: die Sichtweise der anderen Person ernst nehmen, bevor man reagiert.“"
+          },
+          {
+            "answer": false,
+            "q": "Konkrete Beispiele machen Missverständnisse eher noch größer. — Concrete examples make misunderstandings even bigger.",
+            "why": "Konkrete Beispiele helfen, Missverständnisse zu klären, nicht sie zu vergrößern."
+          },
+          {
+            "answer": true,
+            "q": "Ein Vier-Augen-Gespräch ist meist besser geeignet als eine Diskussion vor dem ganzen Team. — A one-on-one conversation is usually better suited than a discussion in front of the whole team.",
+            "why": "„Vier-Augen-Gespräch: ist meist besser geeignet als eine Diskussion vor dem ganzen Team.“"
+          },
+          {
+            "answer": false,
+            "q": "Eine gemeinsame Vereinbarung ist für die langfristige Lösung nicht wichtig. — A joint agreement isn't important for a long-term solution.",
+            "why": "Eine gemeinsame Vereinbarung hilft, den Konflikt langfristig zu lösen."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Konflikt mit Kolleginnen ansprechen**\n>\n> - **Timing:** Konflikte sollte man **möglichst früh** und\n>   **nicht vor der ganzen Gruppe** ansprechen.\n> - **Ich-Botschaften:** wirken **weniger vorwurfsvoll** als\n>   direkte Anschuldigungen.\n> - **Zuhören:** die Sichtweise der anderen Person **ernst\n>   nehmen**, bevor man reagiert.\n> - **Konkrete Beispiele:** helfen, **Missverständnisse zu\n>   klären**.\n> - **Vier-Augen-Gespräch:** ist meist **besser geeignet** als\n>   eine Diskussion vor dem ganzen Team.\n> - **Ergebnis:** eine **gemeinsame Vereinbarung** hilft, den\n>   Konflikt langfristig zu lösen.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zum Konflikt lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort noch lauter werden."
+              },
+              {
+                "key": "b",
+                "text": "Ruhig bleiben und die eigene Sichtweise sachlich wiederholen."
+              },
+              {
+                "key": "c",
+                "text": "Das Gespräch sofort abbrechen."
+              }
+            ],
+            "q": "Ihre Kollegin reagiert im Gespräch sehr defensiv. — Your colleague reacts very defensively in the conversation.",
+            "why": "Ruhe und Sachlichkeit wirken deeskalierend auf eine defensive Reaktion."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach weiter streiten, bis jemand nachgibt."
+              },
+              {
+                "key": "b",
+                "text": "Sich beleidigt zurückziehen, ohne etwas zu sagen."
+              },
+              {
+                "key": "c",
+                "text": "Eine kurze Pause vorschlagen und später ruhiger weiterreden."
+              }
+            ],
+            "q": "Das Gespräch eskaliert und wird immer emotionaler. — The conversation escalates and becomes increasingly emotional.",
+            "why": "Eine Pause gibt beiden Seiten Zeit, sich zu beruhigen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ruhig konkrete Beispiele und Fakten nennen."
+              },
+              {
+                "key": "b",
+                "text": "Laut werden, um sie zu überzeugen."
+              },
+              {
+                "key": "c",
+                "text": "Das Thema sofort fallen lassen."
+              }
+            ],
+            "q": "Ihre Kollegin bestreitet, dass der Vorfall überhaupt passiert ist. — Your colleague denies that the incident even happened.",
+            "why": "Konkrete Beispiele machen den Vorfall nachvollziehbar."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie einfach ignorieren und weitermachen."
+              },
+              {
+                "key": "b",
+                "text": "Höflich darum bitten, das Gespräch unter vier Augen fortzusetzen."
+              },
+              {
+                "key": "c",
+                "text": "Das Gespräch sofort beenden."
+              }
+            ],
+            "q": "Eine dritte Kollegin mischt sich ungefragt in das Gespräch ein. — A third colleague uninvitedly interjects in the conversation.",
+            "why": "Eine höfliche Bitte schützt den vertraulichen Rahmen des Gesprächs."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es weiter nur unter euch zwei besprechen."
+              },
+              {
+                "key": "b",
+                "text": "So tun, als würde es nur euch betreffen."
+              },
+              {
+                "key": "c",
+                "text": "Vorschlagen, das Thema auch im Team zu besprechen."
+              }
+            ],
+            "q": "Der Konflikt betrifft eigentlich das ganze Team, nicht nur euch zwei. — The conflict actually affects the whole team, not just the two of you.",
+            "why": "Ein Team-Thema profitiert von einer Besprechung im ganzen Team."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Teamleitung als neutrale Vermittlung einbeziehen."
+              },
+              {
+                "key": "b",
+                "text": "Den Konflikt einfach ignorieren und hoffen, dass er verschwindet."
+              },
+              {
+                "key": "c",
+                "text": "Die Zusammenarbeit komplett verweigern."
+              }
+            ],
+            "q": "Trotz mehrerer Gespräche findet ihr keine gemeinsame Lösung. — Despite several conversations, you can't find a common solution.",
+            "why": "Eine neutrale Vermittlung kann bei festgefahrenen Konflikten weiterhelfen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn beim Konfliktgespräch etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "reagiert"
+          ],
+          "2": [
+            "eskaliert"
+          ],
+          "3": [
+            "bestritten"
+          ],
+          "4": [
+            "eingemischt"
+          ],
+          "5": [
+            "herausgestellt"
+          ],
+          "6": [
+            "gefunden"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Meine Kollegin hat im Gespräch sehr defensiv {1}. (sich verhalten, Partizip)\n2. Das Gespräch ist leider {2}. (außer Kontrolle geraten, Partizip)\n3. Meine Kollegin hat den Vorfall komplett {3}. (verneint, Partizip)\n4. Eine dritte Person hat sich ungefragt {4}. (dazwischengedrängt, Partizip)\n5. Der Konflikt hat sich als Team-Thema {5}. (gezeigt, Partizip)\n6. Trotz mehrerer Gespräche haben wir keine Lösung {6}. (erreicht, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "soll"
+          ],
+          "3": [
+            "Konflikt"
+          ],
+          "4": [
+            "Missverständnis"
+          ],
+          "5": [
+            "Kritik"
+          ],
+          "6": [
+            "Feedback"
+          ],
+          "7": [
+            "Zusammenarbeit"
+          ],
+          "8": [
+            "Kompromiss"
+          ],
+          "9": [
+            "Können"
+          ],
+          "10": [
+            "reagiert"
+          ],
+          "11": [
+            "eskaliert"
+          ],
+          "12": [
+            "bestritten"
+          ],
+          "13": [
+            "eingemischt"
+          ],
+          "14": [
+            "gefunden"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} gestern ein Gespräch mit meiner Kollegin gesucht. (have — Perfekt)\n2. Man {2} Konflikte möglichst früh ansprechen. (should — sollen)\n3. Ich möchte den {3} offen ansprechen. (conflict)\n4. Ich glaube, das war nur ein {4}. (misunderstanding)\n5. Deine {5} war für mich schwer nachzuvollziehen. (criticism)\n6. Ich hätte gern ein ehrliches {6} von dir. (honest reaction to my work)\n7. Mir ist eine gute {7} im Team sehr wichtig. (collaboration)\n8. Am Ende haben wir einen guten {8} gefunden. (compromise)\n9. {9} wir gemeinsam eine Lösung finden? (could — können, wir-Form)\n10. Meine Kollegin hat im Gespräch sehr defensiv {10}. (reacted — Partizip)\n11. Das Gespräch ist leider {11}. (escalated — Partizip)\n12. Meine Kollegin hat den Vorfall komplett {12}. (denied — Partizip)\n13. Eine dritte Person hat sich ungefragt {13}. (interfered — Partizip)\n14. Trotz mehrerer Gespräche haben wir keine Lösung {14}. (found — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-97-konflikt-kolleginnen-b2",
+  "intro": "Ein Konflikt im Team klärt sich selten von allein: um ein Gespräch unter vier Augen bitten, den Konflikt offen ansprechen und konkrete Beispiele nennen. Dieses Set übt genau das — ansprechen, zuhören, lösen, und was zu tun ist, wenn die Kollegin defensiv reagiert oder das Gespräch eskaliert. Grammatik nach Bedarf: Modalverben, Perfekt und Futur I. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/97-konflikt-kolleginnen-b2",
+  "level": "B2",
+  "summary": "Einen Konflikt mit einer Kollegin unter vier Augen ansprechen, konkrete Beispiele nennen und der anderen Sichtweise zuhören — und was tun, wenn die Reaktion defensiv ausfällt oder das Gespräch eskaliert.",
+  "title": "Konflikt mit Kolleginnen ansprechen — B2",
+  "topic": "Konflikt mit Kolleginnen ansprechen"
+}

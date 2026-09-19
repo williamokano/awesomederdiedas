@@ -1,0 +1,802 @@
+{
+  "category": "Essen & Trinken",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "bestellen",
+            "label": "Bestellen"
+          },
+          {
+            "key": "sorten",
+            "label": "Die Sorten"
+          },
+          {
+            "key": "bezahlen",
+            "label": "Bezahlen"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "bestellen",
+            "text": "die Waffel"
+          },
+          {
+            "bucket": "sorten",
+            "text": "Schokolade"
+          },
+          {
+            "bucket": "bezahlen",
+            "text": "der Preis pro Kugel"
+          },
+          {
+            "bucket": "bestellen",
+            "text": "der Becher"
+          },
+          {
+            "bucket": "sorten",
+            "text": "Erdbeere"
+          },
+          {
+            "bucket": "bezahlen",
+            "text": "das Kleingeld"
+          },
+          {
+            "bucket": "bestellen",
+            "text": "wie viele Kugeln?"
+          },
+          {
+            "bucket": "sorten",
+            "text": "Vanille"
+          },
+          {
+            "bucket": "bezahlen",
+            "text": "der Bon"
+          },
+          {
+            "bucket": "bestellen",
+            "text": "mit Sahne"
+          },
+          {
+            "bucket": "sorten",
+            "text": "Zitrone"
+          },
+          {
+            "bucket": "bezahlen",
+            "text": "bar bezahlen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Bestellen, Sorten oder Bezahlen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Kugel"
+          },
+          {
+            "key": "2",
+            "text": "die Waffel"
+          },
+          {
+            "key": "3",
+            "text": "der Becher"
+          },
+          {
+            "key": "4",
+            "text": "die Sorte"
+          },
+          {
+            "key": "5",
+            "text": "schmelzen"
+          },
+          {
+            "key": "6",
+            "text": "mit Sahne"
+          },
+          {
+            "key": "7",
+            "text": "die Lieblingssorte"
+          },
+          {
+            "key": "8",
+            "text": "tropfen"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "eine runde Portion Eis"
+          },
+          {
+            "key": "b",
+            "text": "das knusprige Hörnchen für das Eis"
+          },
+          {
+            "key": "c",
+            "text": "der kleine Behälter statt der Waffel"
+          },
+          {
+            "key": "d",
+            "text": "die Geschmacksrichtung des Eises"
+          },
+          {
+            "key": "e",
+            "text": "wenn Eis in der Wärme flüssig wird"
+          },
+          {
+            "key": "f",
+            "text": "extra Sahne obendrauf"
+          },
+          {
+            "key": "g",
+            "text": "die Sorte, die man am liebsten mag"
+          },
+          {
+            "key": "h",
+            "text": "wenn das Eis in kleinen Tropfen herunterfällt"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "möchtest"
+          ],
+          "2": [
+            "möchte"
+          ],
+          "3": [
+            "Möchtest"
+          ],
+          "4": [
+            "schmilzt"
+          ],
+          "5": [
+            "Kann"
+          ],
+          "6": [
+            "möchtest"
+          ],
+          "7": [
+            "macht"
+          ],
+          "8": [
+            "bezahle"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Was {1} du, Schokolade oder Erdbeere? (möchten, du-Form)\n2. Ich {2} zwei Kugeln, bitte. (möchten, ich-Form)\n3. {3} du eine Waffel oder einen Becher? (möchten, du-Form)\n4. Das Eis {4} schnell in der Sonne. (schmelzen, Präsens)\n5. {5} ich noch etwas Sahne dazu haben? (können, ich-Form)\n6. Wie viele Kugeln {6} du? (möchten, du-Form)\n7. Das {7} zusammen vier Euro. (kosten, macht-Form)\n8. Ich {8} bar. (bezahlen, ich-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Am Eisstand fragen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Kugel"
+          ],
+          "2": [
+            "Waffel"
+          ],
+          "3": [
+            "schmelzen"
+          ],
+          "4": [
+            "Lieblingssorte"
+          ],
+          "5": [
+            "Sahne"
+          ],
+          "6": [
+            "tropft"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich nehme eine {1} Schokolade und eine Kugel Erdbeere. (die runde Portion Eis)\n2. Möchtest du eine {2} oder lieber einen Becher? (das Hörnchen)\n3. In der Sonne fängt das Eis schnell an zu {3}. (flüssig werden)\n4. Meine {4} ist Vanille. (die Sorte, die man am liebsten mag)\n5. Auf dem Eis ist noch etwas {5}. (weiß und locker, kommt aus der Sahnedose)\n6. Pass auf, das Eis {6}! (in Tropfen herunterfallen)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "MÖCHTET"
+          ],
+          "2": [
+            "ERDBEERE"
+          ],
+          "3": [
+            "MÖCHTE"
+          ],
+          "4": [
+            "KUGEL"
+          ],
+          "5": [
+            "BECHER"
+          ],
+          "6": [
+            "SAHNE"
+          ],
+          "7": [
+            "MACHT"
+          ],
+          "8": [
+            "BITTE"
+          ],
+          "9": [
+            "GUTEN"
+          ],
+          "10": [
+            "TAG"
+          ]
+        },
+        "bank": [
+          "MÖCHTET",
+          "ERDBEERE",
+          "MÖCHTE",
+          "KUGEL",
+          "BECHER",
+          "SAHNE",
+          "MACHT",
+          "BITTE",
+          "GUTEN",
+          "TAG",
+          "EIS",
+          "WAFFEL",
+          "KALT",
+          "SÜSS"
+        ],
+        "text": "— Der Nächste, bitte! Was {1} ihr?\n— Mama, ich möchte {2}!\n— Nein, ich {3} lieber Schokolade!\n— Also gut, eine Portion Erdbeere und eine {4} Schokolade,\nbitte.\n— In der Waffel oder im {5}?\n— In der Waffel, bitte.\n— Mit {6}?\n— Ja, gern, mit Sahne.\n— Das {7} zusammen fünf Euro.\n— Hier, {8}.\n— Vielen Dank, und {9} Appetit!\n— Danke, einen schönen {10}!\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Am Eisstand"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Was möchtest du, Schokolade oder Erdbeere?"
+              },
+              {
+                "key": "b",
+                "text": "Entscheide dich schnell!"
+              },
+              {
+                "key": "c",
+                "text": "Sorten sind mir egal."
+              }
+            ],
+            "q": "Du fragst dein Kind, welche Sorte es möchte. — You ask your child which flavour they want.",
+            "why": "Eine einfache Frage mit zwei Optionen hilft dem Kind, sich leichter zu entscheiden."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Eis!"
+              },
+              {
+                "key": "b",
+                "text": "Eine Kugel Erdbeere und eine Kugel Schokolade, bitte."
+              },
+              {
+                "key": "c",
+                "text": "Ich weiß noch nicht."
+              }
+            ],
+            "q": "Du bist an der Reihe und bestellst. — It's your turn and you order.",
+            "why": "Eine klare, kurze Bestellung ist am Eisstand die übliche Form."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sahne interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Keine Ahnung von Sahne."
+              },
+              {
+                "key": "c",
+                "text": "Ja, gern, mit Sahne."
+              }
+            ],
+            "q": "Der Verkäufer fragt, ob du Sahne möchtest. — The seller asks if you'd like cream.",
+            "why": "Eine kurze, klare Antwort reicht völlig aus."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Was macht das zusammen?"
+              },
+              {
+                "key": "b",
+                "text": "Preise interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Ich zahle einfach irgendwas."
+              }
+            ],
+            "q": "Du möchtest wissen, was alles zusammen kostet. — You want to know how much everything costs together.",
+            "why": "Eine kurze Frage nach dem Gesamtpreis ist am Stand völlig normal."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Entscheide dich sofort, sonst gibt es gar nichts."
+              },
+              {
+                "key": "b",
+                "text": "Nimm doch einfach beide, eine kleine Kugel von jeder."
+              },
+              {
+                "key": "c",
+                "text": "Ich entscheide für dich."
+              }
+            ],
+            "q": "Dein Kind kann sich nicht zwischen zwei Sorten entscheiden. — Your child can't decide between two flavours.",
+            "why": "Ein einfacher Kompromiss löst die Unentschlossenheit freundlich."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nichts sagen und gehen."
+              },
+              {
+                "key": "b",
+                "text": "Wünsche sind mir egal."
+              },
+              {
+                "key": "c",
+                "text": "Danke, einen schönen Tag auch!"
+              }
+            ],
+            "q": "Der Verkäufer wünscht dir einen schönen Tag. — The seller wishes you a nice day.",
+            "why": "Ein kurzer, freundlicher Gegengruß ist die übliche Reaktion."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Kurz und freundlich sprechen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "kurze Frage, Verb an Position 2",
+            "tiles": [
+              "Was",
+              "möchtest",
+              "du",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "einfacher Aussagesatz mit möchten",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "eine",
+              "Kugel",
+              "Schokolade"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "kurze Frage mit Alternative",
+            "tiles": [
+              "In",
+              "der",
+              "Waffel",
+              "oder",
+              "im",
+              "Becher",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Preis nennen mit machen",
+            "tiles": [
+              "Das",
+              "macht",
+              "fünf",
+              "Euro"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "kurze Warnung, trennbares Verb aufpassen",
+            "tiles": [
+              "Pass",
+              "auf",
+              ",",
+              "das",
+              "Eis",
+              "tropft"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "kurzer Abschiedsgruß",
+            "tiles": [
+              "Einen",
+              "schönen",
+              "Tag",
+              "noch"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze am Eisstand bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Eine Kugel kostet 1,20 Euro. — One scoop costs 1.20 euros.",
+            "why": "So steht es ausdrücklich auf der Eiskarte."
+          },
+          {
+            "answer": false,
+            "q": "Die Waffel kostet extra. — The cone costs extra.",
+            "why": "Waffel und Becher sind kostenlos."
+          },
+          {
+            "answer": true,
+            "q": "Sahne kostet fünfzig Cent extra. — Cream costs fifty cents extra.",
+            "why": "„Sahne extra — 0,50 €.“"
+          },
+          {
+            "answer": false,
+            "q": "Zwei Kugeln kosten genauso viel wie zwei einzelne Kugeln zusammen. — Two scoops cost the same as two single scoops added up.",
+            "why": "Zwei einzelne Kugeln wären 2,40 €, zwei Kugeln zusammen kosten nur 2,20 €."
+          },
+          {
+            "answer": true,
+            "q": "Das Kindereis kostet 1,50 Euro. — The kids' ice cream costs 1.50 euros.",
+            "why": "„Kindereis (1 Kugel + Waffel) — 1,50 €.“"
+          },
+          {
+            "answer": false,
+            "q": "Die Eisdiele hat auch morgens um 9 Uhr geöffnet. — The ice cream parlour is also open at 9 am.",
+            "why": "Geöffnet ist erst ab 12 Uhr, nicht um 9 Uhr."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Eisdiele Sonnenschein — Preise**\n>\n> - 1 Kugel — **1,20 €**\n> - 2 Kugeln — **2,20 €**\n> - 3 Kugeln — **3,00 €**\n> - Waffel — **kostenlos**, Becher — **kostenlos**\n> - Sahne extra — **0,50 €**\n> - Kindereis (1 Kugel + Waffel) — **1,50 €**\n> - Geöffnet: **täglich 12–19 Uhr**\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Eiskarte lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Kind trösten und nach einem neuen Eis fragen."
+              },
+              {
+                "key": "b",
+                "text": "Sagen, dass es kein neues Eis mehr gibt."
+              },
+              {
+                "key": "c",
+                "text": "Böse werden."
+              }
+            ],
+            "q": "Das Eis fällt deinem Kind auf den Boden. — Your child's ice cream falls on the ground.",
+            "why": "Trösten und eine praktische Lösung anbieten ist die beste Reaktion auf ein kleines Missgeschick."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Laut werden, damit es schneller geht."
+              },
+              {
+                "key": "b",
+                "text": "Ruhig zwei Sorten vorschlagen und sich schnell entscheiden."
+              },
+              {
+                "key": "c",
+                "text": "Ohne Eis weggehen."
+              }
+            ],
+            "q": "Dein Kind kann sich einfach nicht entscheiden, und die Schlange wird lang. — Your child just can't decide, and the queue is getting long.",
+            "why": "Ein einfacher Vorschlag beschleunigt die Entscheidung, ohne unhöflich zu wirken."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das falsche Eis einfach essen."
+              },
+              {
+                "key": "b",
+                "text": "Laut schimpfen."
+              },
+              {
+                "key": "c",
+                "text": "Freundlich sagen: „Entschuldigung, ich hatte Erdbeere bestellt.“"
+              }
+            ],
+            "q": "Du bekommst die falsche Sorte. — You get the wrong flavour.",
+            "why": "Ein freundlicher Hinweis führt meist sofort zur Korrektur."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Schnell einen schattigen Platz suchen."
+              },
+              {
+                "key": "b",
+                "text": "In der Sonne stehen bleiben."
+              },
+              {
+                "key": "c",
+                "text": "Das Eis wegwerfen."
+              }
+            ],
+            "q": "Das Eis schmilzt sehr schnell in der Sonne. — The ice cream is melting very fast in the sun.",
+            "why": "Ein schattiger Platz verhindert, dass das Eis noch schneller schmilzt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Fragen, ob man mit Karte zahlen kann."
+              },
+              {
+                "key": "b",
+                "text": "Ohne Bezahlung gehen."
+              },
+              {
+                "key": "c",
+                "text": "In Panik geraten."
+              }
+            ],
+            "q": "Du hast nicht genug Kleingeld dabei. — You don't have enough small change.",
+            "why": "Eine kurze Frage nach einer anderen Zahlungsart löst das Problem meist schnell."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ruhig bleiben und die Kleidung mit einem Taschentuch abwischen."
+              },
+              {
+                "key": "b",
+                "text": "Sich aufregen."
+              },
+              {
+                "key": "c",
+                "text": "Das Kind ausschimpfen."
+              }
+            ],
+            "q": "Dein Kind bekommt Eis auf die Kleidung. — Your child gets ice cream on their clothes.",
+            "why": "Ruhig zu bleiben nimmt dem kleinen Missgeschick die Dramatik."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn etwas nicht nach Plan läuft"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Boden"
+          ],
+          "2": [
+            "entscheiden"
+          ],
+          "3": [
+            "Sorte"
+          ],
+          "4": [
+            "schmolz"
+          ],
+          "5": [
+            "Kleingeld"
+          ],
+          "6": [
+            "Kleidung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das Eis ist meinem Kind auf den {1} gefallen. (der Untergrund unter den Füßen)\n2. Mein Kind konnte sich nicht {2}. (eine Wahl treffen)\n3. Ich habe leider die falsche {3} bekommen. (der Geschmack des Eises)\n4. Das Eis {4} sehr schnell in der Sonne. (flüssig werden)\n5. Ich hatte leider kein {5} dabei. (kleine Münzen)\n6. Mein Kind hat Eis auf die {6} bekommen. (was man anzieht)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "möchtest"
+          ],
+          "2": [
+            "möchte"
+          ],
+          "3": [
+            "Waffel"
+          ],
+          "4": [
+            "schmilzt"
+          ],
+          "5": [
+            "Kann"
+          ],
+          "6": [
+            "macht"
+          ],
+          "7": [
+            "Kugel"
+          ],
+          "8": [
+            "Lieblingssorte"
+          ],
+          "9": [
+            "Boden"
+          ],
+          "10": [
+            "Sorte"
+          ],
+          "11": [
+            "schmolz"
+          ],
+          "12": [
+            "Kleingeld"
+          ],
+          "13": [
+            "entscheiden"
+          ],
+          "14": [
+            "Kleidung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Was {1} du? (would like — du-Form)\n2. Ich {2} eine Kugel Schokolade. (would like — ich-Form)\n3. In der {3} oder im Becher? (cone)\n4. Das Eis {4} in der Sonne. (melts)\n5. {5} ich noch Sahne dazu haben? (may — können)\n6. Das {6} zusammen fünf Euro. (costs)\n7. Ich nehme eine {7} Vanille. (scoop)\n8. Meine {8} ist Vanille. (favourite flavour)\n9. Das Eis ist auf den {9} gefallen. (ground)\n10. Ich habe die falsche {10} bekommen. (flavour)\n11. Das Eis {11} sehr schnell. (melted — Präteritum)\n12. Ich hatte kein {12} dabei. (small change)\n13. Mein Kind konnte sich nicht {13}. (decide)\n14. Es hat Eis auf die {14} bekommen. (clothes)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-60-beim-eismann-a1",
+  "intro": "Beim Eisstand mit Kindern geht es meist schnell — bis ein Kind sich nicht entscheiden kann oder das Eis auf den Boden fällt. Dieses Set übt das Nötigste: Sorten nennen, ein Kind fragen, was es möchte, bezahlen, und kurze Sätze für kleine Missgeschicke. Grammatik nach Bedarf: unbestimmter Artikel im Akkusativ, einfache Fragen mit möchten, Perfekt bei kleinen Pannen. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/60-beim-eismann-a1",
+  "level": "A1",
+  "summary": "Eissorten aussuchen, ein Kind entscheiden lassen, bezahlen — und was tun, wenn das Eis tropft oder auf den Boden fällt.",
+  "title": "Beim Eismann mit Kindern — A1",
+  "topic": "Beim Eismann"
+}

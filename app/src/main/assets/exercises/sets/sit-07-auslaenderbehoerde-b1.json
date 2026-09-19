@@ -1,0 +1,842 @@
+{
+  "category": "Behörden & Formelles",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "e",
+          "3": "c",
+          "4": "g",
+          "5": "d",
+          "6": "a",
+          "7": "h",
+          "8": "j",
+          "9": "f",
+          "10": "i"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Aufenthaltstitel"
+          },
+          {
+            "key": "2",
+            "text": "die Verlängerung"
+          },
+          {
+            "key": "3",
+            "text": "die Fiktionsbescheinigung"
+          },
+          {
+            "key": "4",
+            "text": "die Meldebescheinigung"
+          },
+          {
+            "key": "5",
+            "text": "der Nachweis über den Lebensunterhalt"
+          },
+          {
+            "key": "6",
+            "text": "die Niederlassungserlaubnis"
+          },
+          {
+            "key": "7",
+            "text": "die Verpflichtungserklärung"
+          },
+          {
+            "key": "8",
+            "text": "das Sprachzertifikat"
+          },
+          {
+            "key": "9",
+            "text": "die Blaue Karte EU"
+          },
+          {
+            "key": "10",
+            "text": "der Termin zur Vorsprache"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Der unbefristete Aufenthalt — er läuft nicht mehr ab."
+          },
+          {
+            "key": "b",
+            "text": "Die Erlaubnis, in Deutschland zu leben, meist befristet."
+          },
+          {
+            "key": "c",
+            "text": "Das Papier, das gilt, solange über deinen Antrag noch entschieden wird."
+          },
+          {
+            "key": "d",
+            "text": "Der Beleg, dass du genug Geld zum Leben hast — Gehaltsabrechnungen, Arbeitsvertrag."
+          },
+          {
+            "key": "e",
+            "text": "Wenn dein Titel bald abläuft und du ihn weiterlaufen lassen willst."
+          },
+          {
+            "key": "f",
+            "text": "Der Aufenthaltstitel für Fachkräfte mit Hochschulabschluss und Mindestgehalt."
+          },
+          {
+            "key": "g",
+            "text": "Der Nachweis vom Bürgeramt, dass du hier gemeldet bist."
+          },
+          {
+            "key": "h",
+            "text": "Die Zusage einer Person, für die Kosten eines Gastes aufzukommen."
+          },
+          {
+            "key": "i",
+            "text": "Der persönliche Termin, zu dem du in die Behörde kommen musst."
+          },
+          {
+            "key": "j",
+            "text": "Das Papier über dein Sprachniveau, z. B. B1."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A1",
+      "instructions": "Ordne jeden Begriff (1–10) seiner Erklärung (a–j) zu.",
+      "instructionsEn": "Match each term (1–10) with its explanation (a–j).",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "vorlegen"
+          ],
+          "2": [
+            "abläuft"
+          ],
+          "3": [
+            "bearbeiten"
+          ],
+          "4": [
+            "vorlegen"
+          ],
+          "5": [
+            "geprüft"
+          ],
+          "6": [
+            "erscheinen"
+          ],
+          "7": [
+            "verzögert"
+          ],
+          "8": [
+            "eingeht"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. „nach Vorlage aller Unterlagen“ → sobald Sie alle Unterlagen {1}\n2. „bei Ablauf des Titels“ → wenn der Titel {2}\n3. „zur Bearbeitung Ihres Antrags“ → damit wir Ihren Antrag {3} können\n4. „unter Vorlage des Reisepasses“ → indem Sie den Reisepass {4}\n5. „nach Prüfung der Voraussetzungen“ → nachdem wir die Voraussetzungen {5} haben\n6. „bei Nichterscheinen zum Termin“ → wenn Sie nicht zum Termin {6}\n7. „zur Vermeidung von Verzögerungen“ → damit sich nichts {7}\n8. „nach Eingang der Gebühr“ → sobald die Gebühr {8}\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze das Verb, das den Nominalausdruck auflöst.",
+      "instructionsEn": "Fill in the verb that resolves the nominal expression.",
+      "title": "Behördendeutsch auflösen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "amt",
+            "label": "Behörde"
+          },
+          {
+            "key": "person",
+            "label": "Antragsteller/in"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "amt",
+            "text": "Ihr Antrag befindet sich derzeit in Bearbeitung."
+          },
+          {
+            "bucket": "person",
+            "text": "Ich möchte meinen Aufenthaltstitel verlängern lassen."
+          },
+          {
+            "bucket": "amt",
+            "text": "Die Unterlagen sind vollständig vorzulegen."
+          },
+          {
+            "bucket": "person",
+            "text": "Könnten Sie mir mitteilen, welche Unterlagen noch fehlen?"
+          },
+          {
+            "bucket": "amt",
+            "text": "Eine Terminvergabe erfolgt ausschließlich online."
+          },
+          {
+            "bucket": "person",
+            "text": "Mein Titel läuft am 30.09. ab. Ich habe aber erst im November einen Termin."
+          },
+          {
+            "bucket": "amt",
+            "text": "Über Ihren Antrag wird nach Aktenlage entschieden."
+          },
+          {
+            "bucket": "person",
+            "text": "Ich bitte um eine Fiktionsbescheinigung, bis über meinen Antrag entschieden ist."
+          },
+          {
+            "bucket": "amt",
+            "text": "Bitte erscheinen Sie persönlich zum vereinbarten Termin."
+          },
+          {
+            "bucket": "person",
+            "text": "Leider konnte ich den Termin krankheitsbedingt nicht wahrnehmen."
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A3",
+      "instructions": "Sortiere die Formulierungen.",
+      "instructionsEn": "Sort the phrasings.",
+      "title": "Wer schreibt so: Behörde oder Antragsteller?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "bearbeitet"
+          ],
+          "3": [
+            "werden"
+          ],
+          "4": [
+            "eingereicht"
+          ],
+          "5": [
+            "wird"
+          ],
+          "6": [
+            "vergeben"
+          ],
+          "7": [
+            "wird"
+          ],
+          "8": [
+            "entschieden"
+          ],
+          "9": [
+            "wird"
+          ],
+          "10": [
+            "bezahlt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Antrag {1} zurzeit {2}. (bearbeiten — Präsens Passiv)\n2. Die Unterlagen {3} vollständig {4}. (einreichen — Präsens Passiv)\n3. Der Termin {5} online {6}. (vergeben — Präsens Passiv)\n4. Über den Antrag {7} in vier Wochen {8}. (entscheiden — Präsens Passiv)\n5. Die Gebühr {9} bei der Vorsprache {10}. (bezahlen — Präsens Passiv)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze die Passivform.",
+      "instructionsEn": "Fill in the passive form.",
+      "title": "Passiv im Behördentext"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "VERLÄNGERN"
+          ],
+          "2": [
+            "TERMIN"
+          ],
+          "3": [
+            "REISEPASS"
+          ],
+          "4": [
+            "MELDEBESCHEINIGUNG"
+          ],
+          "5": [
+            "NACHWEIS"
+          ],
+          "6": [
+            "GEHALTSABRECHNUNGEN"
+          ],
+          "7": [
+            "ARBEITSVERTRAG"
+          ],
+          "8": [
+            "NEHMEN"
+          ],
+          "9": [
+            "GEBÜHR"
+          ],
+          "10": [
+            "ZAHLEN"
+          ]
+        },
+        "bank": [
+          "VERLÄNGERN",
+          "TERMIN",
+          "REISEPASS",
+          "MELDEBESCHEINIGUNG",
+          "NACHWEIS",
+          "GEHALTSABRECHNUNGEN",
+          "ARBEITSVERTRAG",
+          "NEHMEN",
+          "GEBÜHR",
+          "ZAHLEN",
+          "WOHER",
+          "ANTRAG",
+          "PRÜFEN",
+          "BAR"
+        ],
+        "text": "— Guten Tag. Was kann ich für Sie tun?\n— Guten Tag. Ich möchte meinen Aufenthaltstitel {1} lassen.\n— Haben Sie einen {2}?\n— Ja, um 10:30 Uhr auf den Namen Yilmaz.\n— Gut. Bitte legen Sie Ihren {3} und den alten Titel vor.\n— Hier, bitte.\n— Danke. Ich brauche außerdem die {4} vom Bürgeramt und einen\n{5} über Ihren Lebensunterhalt.\n— Die Meldebescheinigung habe ich dabei, und hier sind meine\nletzten drei {6}.\n— Sehr gut. Ihr {7} ist unbefristet?\n— Ja, seit Januar.\n— Dann {8} wir den Antrag auf. Die {9} beträgt 100 Euro.\n— Kann ich mit Karte {10}?\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Am Schalter: Verlängerung beantragen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Hallo, kurze Frage:"
+              },
+              {
+                "key": "b",
+                "text": "Sehr geehrte Damen und Herren,"
+              },
+              {
+                "key": "c",
+                "text": "Liebe Ausländerbehörde,"
+              }
+            ],
+            "q": "Du schreibst per E-Mail und kennst niemanden namentlich. — You're writing by e-mail and know nobody by name.",
+            "why": "Standardanrede ohne Namen. Alles andere wirkt bei einer Behörde unpassend."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich habe keinen Termin bekommen, das ist Ihr Problem."
+              },
+              {
+                "key": "b",
+                "text": "Mein Aufenthaltstitel läuft am 30.09.2026 ab. Der nächste freie Termin ist erst im November. Ich bitte um eine Fiktionsbescheinigung."
+              },
+              {
+                "key": "c",
+                "text": "Was soll ich jetzt machen?"
+              }
+            ],
+            "q": "Dein Titel läuft ab, bevor du einen Termin bekommst. — Your permit expires before you can get an appointment.",
+            "why": "Datum, Problem und die konkrete Bitte in drei Sätzen — die Fiktionsbescheinigung ist genau für diesen Fall da."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Schicken Sie mir eine Liste."
+              },
+              {
+                "key": "b",
+                "text": "Was fehlt noch?"
+              },
+              {
+                "key": "c",
+                "text": "Könnten Sie mir bitte mitteilen, welche Unterlagen noch fehlen?"
+              }
+            ],
+            "q": "Du willst wissen, welche Unterlagen fehlen. — You want to know which documents are missing.",
+            "why": "„Könnten Sie mir bitte mitteilen, …“ plus indirekte Frage — die höfliche Standardform."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich komme nicht."
+              },
+              {
+                "key": "b",
+                "text": "Leider kann ich den Termin am 14.07. nicht wahrnehmen. Ich bitte um einen neuen Termin."
+              },
+              {
+                "key": "c",
+                "text": "Der Termin passt mir nicht."
+              }
+            ],
+            "q": "Du kannst den Termin nicht wahrnehmen. — You can't make the appointment.",
+            "why": "Absagen, Datum nennen und gleich um einen Ersatztermin bitten — sonst verfällt der Vorgang."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Anbei reiche ich die fehlenden Unterlagen nach. Mein Aktenzeichen lautet 2026/4711."
+              },
+              {
+                "key": "b",
+                "text": "Hier sind die Sachen."
+              },
+              {
+                "key": "c",
+                "text": "Ich schicke Ihnen das jetzt."
+              }
+            ],
+            "q": "Du reichst fehlende Papiere nach. — You're submitting missing papers.",
+            "why": "Ohne Aktenzeichen findet die Behörde deinen Vorgang nicht — es gehört in jede Nachricht."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Liebe Grüße"
+              },
+              {
+                "key": "b",
+                "text": "Viele Grüße"
+              },
+              {
+                "key": "c",
+                "text": "Mit freundlichen Grüßen"
+              }
+            ],
+            "q": "Du schließt die E-Mail ab. — You're closing the e-mail.",
+            "why": "Formelle Schlussformel. „Liebe Grüße“ wäre privat, „Viele Grüße“ zu locker für einen Antrag."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Welche Formulierung passt gegenüber der Behörde?",
+      "instructionsEn": "Which phrasing works with the authority?",
+      "title": "Formell genug?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "läuft"
+          ],
+          "2": [
+            "Aktenzeichen"
+          ],
+          "3": [
+            "vereinbaren"
+          ],
+          "4": [
+            "bitte"
+          ],
+          "5": [
+            "rechtmäßig"
+          ],
+          "6": [
+            "füge"
+          ],
+          "7": [
+            "stehe"
+          ],
+          "8": [
+            "Verfügung"
+          ]
+        },
+        "listLayout": true,
+        "text": "Sehr geehrte Damen und Herren,\n\nmein Aufenthaltstitel {1} am 30.09.2026 ab. Mein {2} lautet\n2026/4711.\n\nÜber das Online-Portal habe ich versucht, einen Termin zu\n{3}. Der nächste freie Termin ist jedoch erst am 12.11.2026.\n\nIch {4} Sie daher um eine Fiktionsbescheinigung, damit mein\nAufenthalt bis zur Entscheidung {5} bleibt.\n\nAlle erforderlichen Unterlagen {6} ich dieser E-Mail bei.\n\nFür Rückfragen {7} ich Ihnen gern zur {8}.\n\nMit freundlichen Grüßen\nAkin Yilmaz\n",
+        "type": "gap-text"
+      },
+      "id": "B3",
+      "instructions": "Ergänze die fehlenden Wörter.",
+      "instructionsEn": "Fill in the missing words.",
+      "title": "E-Mail an die Behörde: die Bausteine"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Eine Kopie des Reisepasses reicht aus. — A copy of the passport is enough.",
+            "why": "„gültiger Reisepass (Original)“."
+          },
+          {
+            "answer": false,
+            "q": "Eine Meldebescheinigung von Januar ist im Juli noch gültig. — A registration certificate from January is still valid in July.",
+            "why": "„nicht älter als drei Monate“ — Januar bis Juli sind sechs."
+          },
+          {
+            "answer": false,
+            "q": "Man kann die Gebühr mit Kreditkarte zahlen. — You can pay the fee by credit card.",
+            "why": "„ausschließlich EC-Karte und Bargeld“."
+          },
+          {
+            "answer": true,
+            "q": "Wer absagt, muss das mindestens einen Tag vorher tun. — Anyone cancelling must do so at least a day in advance.",
+            "why": "„spätestens 24 Stunden vorher“."
+          },
+          {
+            "answer": true,
+            "q": "Es müssen drei Gehaltsabrechnungen mitgebracht werden. — Three payslips must be brought along.",
+            "why": "„die letzten drei Gehaltsabrechnungen“."
+          },
+          {
+            "answer": false,
+            "q": "Wer ohne Absage nicht kommt, bekommt automatisch einen neuen Termin. — Anyone who doesn't show up without cancelling automatically gets a new appointment.",
+            "why": "„Bei Nichterscheinen ohne Absage verfällt der Termin.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Ausländerbehörde der Stadt — Terminbestätigung**\n> Aktenzeichen: 2026/4711\n> Herrn Akin Yilmaz\n>\n> Termin: Dienstag, 14.07.2026, 10:30 Uhr, Zimmer 214\n>\n> Bitte bringen Sie zur Vorsprache mit:\n> - gültiger Reisepass (Original)\n> - bisheriger Aufenthaltstitel\n> - aktuelle Meldebescheinigung (nicht älter als drei Monate)\n> - Nachweis über den Lebensunterhalt (Arbeitsvertrag und die\n>   letzten drei Gehaltsabrechnungen)\n> - ein aktuelles biometrisches Passfoto\n>\n> Die Gebühr in Höhe von 100,00 € ist bei der Vorsprache zu\n> entrichten. Es werden ausschließlich EC-Karte und Bargeld\n> akzeptiert.\n>\n> Bei Nichterscheinen ohne Absage verfällt der Termin. Eine Absage\n> ist spätestens 24 Stunden vorher per E-Mail mitzuteilen.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Das Einladungsschreiben lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Schriftlich die Verlängerung beantragen und um eine Fiktionsbescheinigung bitten — vor Ablauf."
+              },
+              {
+                "key": "b",
+                "text": "Auf den Termin warten."
+              },
+              {
+                "key": "c",
+                "text": "Ohne Termin hingehen und warten."
+              }
+            ],
+            "q": "Dein Titel läuft in vier Wochen ab, der erste freie Termin ist in drei Monaten. — Your permit expires in four weeks; the first free slot is in three months.",
+            "why": "Entscheidend ist, dass der Antrag VOR Ablauf eingeht. Dann gilt der Aufenthalt weiter, auch ohne Termin."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sagen, dass es nicht so wichtig ist."
+              },
+              {
+                "key": "b",
+                "text": "Fragen, ob du sie nachreichen kannst, und dir sagen lassen, an welche Adresse und bis wann."
+              },
+              {
+                "key": "c",
+                "text": "Einen neuen Termin machen."
+              }
+            ],
+            "q": "Beim Termin fehlt eine Gehaltsabrechnung. — At the appointment one payslip is missing.",
+            "why": "Nachreichen ist fast immer möglich — man muss nur wissen, wohin und bis wann."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach nicht hingehen."
+              },
+              {
+                "key": "b",
+                "text": "Am Tag danach anrufen."
+              },
+              {
+                "key": "c",
+                "text": "Spätestens 24 Stunden vorher per E-Mail absagen und um einen neuen Termin bitten."
+              }
+            ],
+            "q": "Du wirst krank und kannst den Termin nicht wahrnehmen. — You fall ill and can't make the appointment.",
+            "why": "Ohne fristgerechte Absage verfällt der Termin — und der nächste ist Monate entfernt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Noch einmal schreiben, auf die erste E-Mail mit Datum verweisen und um eine Eingangsbestätigung bitten."
+              },
+              {
+                "key": "b",
+                "text": "Täglich anrufen."
+              },
+              {
+                "key": "c",
+                "text": "Abwarten."
+              }
+            ],
+            "q": "Auf deine E-Mail kommt seit sechs Wochen keine Antwort. — There's been no answer to your e-mail for six weeks.",
+            "why": "Höflich nachfassen mit Datum und Aktenzeichen — und um Bestätigung bitten, dass der Vorgang angekommen ist."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort das Land verlassen."
+              },
+              {
+                "key": "b",
+                "text": "Die Rechtsbehelfsbelehrung im Bescheid lesen und die Frist notieren; bei Bedarf Beratung suchen."
+              },
+              {
+                "key": "c",
+                "text": "Den Bescheid ignorieren."
+              }
+            ],
+            "q": "Dein Antrag wird abgelehnt. — Your application is rejected.",
+            "why": "Im Bescheid steht, wie lange du Zeit hast, dich zu wehren. Diese Frist ist das Erste, was zählt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Raten und hoffen."
+              },
+              {
+                "key": "b",
+                "text": "Bei der Behörde anrufen und um eine Erläuterung bitten — die Frist läuft aber weiter."
+              },
+              {
+                "key": "c",
+                "text": "Warten, bis jemand erklärt."
+              }
+            ],
+            "q": "Du verstehst einen Satz im Bescheid nicht. — You don't understand a sentence in the decision.",
+            "why": "Nachfragen ist richtig, hält aber keine Frist an. Beides parallel: fragen und die Frist im Blick behalten."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Was machst oder schreibst du? Wähle a, b oder c.",
+      "instructionsEn": "What do you do or write? Choose a, b, or c.",
+      "title": "Der Ernstfall"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Trennverb ab·laufen: ab am Satzende",
+            "tiles": [
+              "Mein",
+              "Aufenthaltstitel",
+              "läuft",
+              "am",
+              "30.09.2026",
+              "ab"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "bitten um + Akkusativ",
+            "tiles": [
+              "Ich",
+              "bitte",
+              "um",
+              "eine",
+              "Fiktionsbescheinigung"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Indirekte Frage: Verb am Ende",
+            "tiles": [
+              "Könnten",
+              "Sie",
+              "mir",
+              "mitteilen",
+              ",",
+              "welche",
+              "Unterlagen",
+              "fehlen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Objekt an Position 1, Verb an Position 2, nach am Ende",
+            "tiles": [
+              "Die",
+              "Unterlagen",
+              "reiche",
+              "ich",
+              "bis",
+              "Freitag",
+              "nach"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Modalverb an Position 2, Infinitiv am Ende",
+            "tiles": [
+              "Leider",
+              "kann",
+              "ich",
+              "den",
+              "Termin",
+              "nicht",
+              "wahrnehmen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Verb an Position 2",
+            "tiles": [
+              "Mein",
+              "Aktenzeichen",
+              "lautet",
+              "2026/4711"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "C2",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Formelle Sätze bauen"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Aufenthaltstitel"
+          ],
+          "2": [
+            "Fiktionsbescheinigung"
+          ],
+          "3": [
+            "Niederlassungserlaubnis"
+          ],
+          "4": [
+            "Meldebescheinigung"
+          ],
+          "5": [
+            "Aktenzeichen"
+          ],
+          "6": [
+            "Damen"
+          ],
+          "7": [
+            "bitte"
+          ],
+          "8": [
+            "mitteilen"
+          ],
+          "9": [
+            "wahrnehmen"
+          ],
+          "10": [
+            "freundlichen"
+          ],
+          "11": [
+            "vorlegen"
+          ],
+          "12": [
+            "abläuft"
+          ],
+          "13": [
+            "erscheinen"
+          ],
+          "14": [
+            "eingeht"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Wortschatz (5 Punkte):**\n1. Die Erlaubnis, hier zu leben: der {1}\n2. Das Papier, solange über den Antrag entschieden wird: die {2}\n3. Der unbefristete Aufenthalt: die {3}\n4. Der Nachweis vom Bürgeramt: die {4}\n5. Die Nummer, unter der dein Vorgang läuft: das {5}\n\n**Formelle Redemittel (5 Punkte):**\n6. Anrede ohne Namen: „Sehr geehrte {6} und Herren,“\n7. Bitte: „Ich {7} um eine Fiktionsbescheinigung.“\n8. Nachfrage: „Könnten Sie mir bitte {8}, welche Unterlagen fehlen?“\n9. Absage: „Leider kann ich den Termin nicht {9}.“\n10. Schlussformel: „Mit {10} Grüßen“\n\n**Behördendeutsch (4 Punkte):**\n11. „nach Vorlage aller Unterlagen“ → sobald Sie alle Unterlagen {11}\n12. „bei Ablauf des Titels“ → wenn der Titel {12}\n13. „bei Nichterscheinen zum Termin“ → wenn Sie nicht zum Termin {13}\n14. „nach Eingang der Gebühr“ → sobald die Gebühr {14}\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die Lücken.",
+      "instructionsEn": "Fill in the gaps.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-07-auslaenderbehoerde-b1",
+  "intro": "Die Behörde, bei der ein fehlendes Blatt Papier einen Termin kostet, auf den man Monate gewartet hat. Deshalb liegt der Schwerpunkt auf zwei Dingen: die Unterlagenliste wirklich verstehen und schriftlich nachfragen können. Dazu das Vokabular — Aufenthaltstitel, Verlängerung, Fiktionsbescheinigung, Verpflichtungserklärung — und das Passiv und der Nominalstil, in denen Behörden schreiben. Block C ist der Ernstfall: Unterlage fehlt, kein Termin vor Ablauf, Antrag abgelehnt. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/07-auslaenderbehoerde-b1",
+  "level": "B1",
+  "summary": "Termin bekommen, Unterlagen zusammenstellen, den Aufenthaltstitel verlängern — und reagieren, wenn eine Unterlage fehlt oder der Titel abläuft.",
+  "title": "Bei der Ausländerbehörde — B1",
+  "topic": "Bei der Ausländerbehörde"
+}

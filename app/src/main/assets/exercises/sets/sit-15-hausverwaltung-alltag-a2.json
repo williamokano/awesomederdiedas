@@ -1,0 +1,833 @@
+{
+  "category": "Wohnen & Nachbarschaft",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "hausmeister",
+            "label": "Hausmeister"
+          },
+          {
+            "key": "verwaltung",
+            "label": "Hausverwaltung"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "hausmeister",
+            "text": "Die Glühbirne im Keller ist kaputt."
+          },
+          {
+            "bucket": "verwaltung",
+            "text": "Darf mein Partner in den Mietvertrag?"
+          },
+          {
+            "bucket": "hausmeister",
+            "text": "Der Abfluss in der Küche ist verstopft."
+          },
+          {
+            "bucket": "verwaltung",
+            "text": "Ich möchte die Wohnung kündigen."
+          },
+          {
+            "bucket": "hausmeister",
+            "text": "Die Haustür schließt nicht richtig."
+          },
+          {
+            "bucket": "verwaltung",
+            "text": "Ist ein Hund in der Wohnung erlaubt?"
+          },
+          {
+            "bucket": "hausmeister",
+            "text": "Der Müllraum ist voll."
+          },
+          {
+            "bucket": "verwaltung",
+            "text": "Die Nebenkostenabrechnung stimmt nicht."
+          },
+          {
+            "bucket": "hausmeister",
+            "text": "Ich brauche einen zweiten Schlüssel für den Keller."
+          },
+          {
+            "bucket": "verwaltung",
+            "text": "Wann wird die Miete erhöht?"
+          },
+          {
+            "bucket": "hausmeister",
+            "text": "Im Treppenhaus ist eine Lampe defekt."
+          },
+          {
+            "bucket": "verwaltung",
+            "text": "Ich hätte gern eine Mietbescheinigung."
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Wen sprichst du an? Sortiere die 12 Anliegen.",
+      "instructionsEn": "Who do you contact? Sort the 12 matters.",
+      "title": "Hausmeister oder Verwaltung?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Abfluss"
+          ],
+          "2": [
+            "Dunstabzugshaube"
+          ],
+          "3": [
+            "Armatur"
+          ],
+          "4": [
+            "Heizung"
+          ],
+          "5": [
+            "Rauchmelder"
+          ],
+          "6": [
+            "Schloss"
+          ],
+          "7": [
+            "Schimmel"
+          ],
+          "8": [
+            "Glühbirne"
+          ]
+        },
+        "cues": {
+          "3": "oder: der Wasserhahn"
+        },
+        "listLayout": true,
+        "text": "1. Der {1} in der Küche ist verstopft. (wo das Wasser abläuft)\n2. Die {2} in der Küche brummt sehr laut. (über dem Herd)\n3. Die {3} im Bad tropft. (wo das Wasser rauskommt)\n4. Die {4} wird nicht mehr richtig warm. (macht die Wohnung warm)\n5. Der {5} im Flur funktioniert nicht mehr. (Gerät für Rauch an der Decke)\n6. Das {6} an der Kellertür klemmt. (wo der Schlüssel reinkommt)\n7. Im Bad ist {7} an der Wand. (schwarze Flecken durch Feuchtigkeit)\n8. Die {8} im Treppenhaus ist durchgebrannt. (gibt Licht)\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze das fehlende Wort.",
+      "instructionsEn": "Fill in the missing word.",
+      "title": "Was ist kaputt?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "a",
+          "3": "h",
+          "4": "g",
+          "5": "f",
+          "6": "d",
+          "7": "e",
+          "8": "c"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Wann könnten Sie vorbeikommen?"
+          },
+          {
+            "key": "2",
+            "text": "Darf ich einen Hund halten?"
+          },
+          {
+            "key": "3",
+            "text": "Kann mein Partner mit in den Vertrag?"
+          },
+          {
+            "key": "4",
+            "text": "Muss ich zu Hause sein?"
+          },
+          {
+            "key": "5",
+            "text": "Wer zahlt die Reparatur?"
+          },
+          {
+            "key": "6",
+            "text": "Darf ich die Wände streichen?"
+          },
+          {
+            "key": "7",
+            "text": "Wie lange ist die Kündigungsfrist?"
+          },
+          {
+            "key": "8",
+            "text": "Bekomme ich einen zweiten Schlüssel?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Kleintiere ja, für einen Hund brauchen Sie unsere Zustimmung."
+          },
+          {
+            "key": "b",
+            "text": "Donnerstag zwischen 9 und 12 — passt das?"
+          },
+          {
+            "key": "c",
+            "text": "Ja, gegen eine Gebühr von 25 Euro."
+          },
+          {
+            "key": "d",
+            "text": "Ja, aber Sie müssen beim Auszug wieder weiß streichen."
+          },
+          {
+            "key": "e",
+            "text": "Drei Monate zum Monatsende."
+          },
+          {
+            "key": "f",
+            "text": "Bei normalem Verschleiß der Vermieter."
+          },
+          {
+            "key": "g",
+            "text": "Ja, oder jemand mit Schlüssel — wir brauchen Zugang zur Wohnung."
+          },
+          {
+            "key": "h",
+            "text": "Das geht, wir brauchen aber eine Selbstauskunft von ihm."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A3",
+      "instructions": "Ordne jede Frage (1–8) der passenden Antwort (a–h) zu.",
+      "instructionsEn": "Match each question (1–8) with the fitting answer (a–h).",
+      "title": "Frage und Antwort"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Darf"
+          ],
+          "2": [
+            "dürfen"
+          ],
+          "3": [
+            "darf"
+          ],
+          "4": [
+            "Dürfen"
+          ],
+          "5": [
+            "darf"
+          ],
+          "6": [
+            "Darf"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} ich in der Wohnung einen Hund halten?\n2. Kinder {2} im Hof spielen, aber nicht nach 20 Uhr.\n3. Man {3} sonntags keine Wäsche in der Waschküche waschen.\n4. {4} wir den Balkon mit einer Markise ausstatten?\n5. Ich {5} laut Vertrag nicht untervermieten.\n6. {6} ich am Wochenende bohren?\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze die richtige Form von „dürfen“.",
+      "instructionsEn": "Fill in the correct form of „dürfen“.",
+      "title": "Erlaubnis mit „dürfen“"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "STOCK"
+          ],
+          "2": [
+            "VERSTOPFT"
+          ],
+          "3": [
+            "LÄUFT"
+          ],
+          "4": [
+            "VERSUCHT"
+          ],
+          "5": [
+            "PROBIERT"
+          ],
+          "6": [
+            "PASST"
+          ],
+          "7": [
+            "GEHT"
+          ],
+          "8": [
+            "SEIN"
+          ],
+          "9": [
+            "ZUGANG"
+          ],
+          "10": [
+            "DANK"
+          ]
+        },
+        "bank": [
+          "STOCK",
+          "VERSTOPFT",
+          "LÄUFT",
+          "VERSUCHT",
+          "PROBIERT",
+          "PASST",
+          "GEHT",
+          "SEIN",
+          "ZUGANG",
+          "DANK",
+          "WOHER",
+          "KELLER",
+          "KOMMEN",
+          "WASSER"
+        ],
+        "text": "— Hausmeisterservice Berger, guten Tag.\n— Guten Tag, Yilmaz, Musterstraße 12, dritter {1}.\nBei mir ist der Abfluss in der Küche {2}.\n— Seit wann denn?\n— Seit gestern Abend. Das Wasser {3} gar nicht mehr ab.\n— Haben Sie schon etwas {4}?\n— Ja, ich habe es mit einer Saugglocke {5}, aber ohne Erfolg.\n— Gut, dann komme ich vorbei. {6} Donnerstag zwischen 9 und 12?\n— Am Donnerstag arbeite ich. {7} es auch nachmittags?\n— Ab 15 Uhr hätte ich noch Zeit.\n— Perfekt. Muss ich zu Hause {8}?\n— Ja, ich brauche {9} zur Wohnung.\n— Alles klar, ich bin da. Vielen {10}.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Anruf beim Hausmeister: der Abfluss"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bei mir ist was kaputt."
+              },
+              {
+                "key": "b",
+                "text": "Yilmaz, Musterstraße 12, dritter Stock. Bei mir ist der Abfluss in der Küche verstopft."
+              },
+              {
+                "key": "c",
+                "text": "Können Sie mal vorbeikommen?"
+              }
+            ],
+            "q": "Du meldest einen Schaden am Telefon. Womit fängst du an? — You're reporting a problem by phone. How do you start?",
+            "why": "Name, Adresse, Stockwerk, Problem — in dieser Reihenfolge. Danach muss niemand nachfragen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Da kann ich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Am Donnerstag arbeite ich. Ginge es auch nachmittags oder an einem anderen Tag?"
+              },
+              {
+                "key": "c",
+                "text": "Kommen Sie einfach vorbei."
+              }
+            ],
+            "q": "Der vorgeschlagene Termin passt dir nicht. — The suggested appointment doesn't suit you.",
+            "why": "Absagen und im selben Satz Alternativen anbieten — sonst dauert die Terminsuche drei Anrufe."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich hole mir einen Hund."
+              },
+              {
+                "key": "b",
+                "text": "Hunde sind doch erlaubt, oder?"
+              },
+              {
+                "key": "c",
+                "text": "Ich würde gern einen Hund halten. Brauche ich dafür Ihre Zustimmung?"
+              }
+            ],
+            "q": "Du willst wissen, ob ein Hund erlaubt ist. — You want to know if a dog is allowed.",
+            "why": "Für Hunde und Katzen braucht es meist die Zustimmung des Vermieters — vorher fragen, nicht hinterher."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich möchte meinen Partner in den Mietvertrag aufnehmen lassen. Welche Unterlagen brauchen Sie?"
+              },
+              {
+                "key": "b",
+                "text": "Mein Partner wohnt jetzt hier."
+              },
+              {
+                "key": "c",
+                "text": "Kann er einfach einziehen?"
+              }
+            ],
+            "q": "Dein Partner soll mit in den Mietvertrag. — Your partner should be added to the tenancy.",
+            "why": "Die Aufnahme ist ein formaler Vorgang mit Unterlagen — gleich danach fragen spart eine Runde."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das brauche ich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Kann ich einen anderen Termin bekommen? Am angekündigten Tag bin ich nicht da."
+              },
+              {
+                "key": "c",
+                "text": "Ich lese selbst ab."
+              }
+            ],
+            "q": "Jemand kündigt an, den Wasserzähler abzulesen. — Someone announces a water meter reading.",
+            "why": "Beim Ablesen muss jemand da sein. Einen Ersatztermin erfragen ist normal — Ignorieren führt zur Schätzung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nichts sagen, dafür extra anrufen."
+              },
+              {
+                "key": "b",
+                "text": "Wenn Sie schon da sind: Im Bad tropft auch die Armatur. Könnten Sie kurz schauen?"
+              },
+              {
+                "key": "c",
+                "text": "Ihn bitten, alles zu reparieren."
+              }
+            ],
+            "q": "Der Hausmeister ist da und du willst noch etwas erwähnen. — The caretaker is there and you want to mention something else.",
+            "why": "„Wenn Sie schon da sind“ ist die übliche Wendung — kleine Sachen erledigt er meist gleich mit."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Was sagst du?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Verb an Position 2",
+            "tiles": [
+              "Der",
+              "Abfluss",
+              "in",
+              "der",
+              "Küche",
+              "ist",
+              "verstopft"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Perfekt: habe … probiert",
+            "tiles": [
+              "Ich",
+              "habe",
+              "es",
+              "mit",
+              "einer",
+              "Saugglocke",
+              "probiert"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Konjunktiv II als höfliche Frage",
+            "tiles": [
+              "Ginge",
+              "es",
+              "auch",
+              "am",
+              "Nachmittag",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Modalverb an Position 1, Infinitiv am Ende",
+            "tiles": [
+              "Darf",
+              "ich",
+              "in",
+              "der",
+              "Wohnung",
+              "einen",
+              "Hund",
+              "halten",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Zwei Infinitive am Ende: aufnehmen lassen",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "meinen",
+              "Partner",
+              "in",
+              "den",
+              "Mietvertrag",
+              "aufnehmen",
+              "lassen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Modalverb an Position 1, Infinitiv am Ende",
+            "tiles": [
+              "Muss",
+              "ich",
+              "beim",
+              "Ablesen",
+              "zu",
+              "Hause",
+              "sein",
+              "?"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Man muss beim Ablesen nicht selbst da sein. — You don't have to be there yourself for the reading.",
+            "why": "Man kann den Schlüssel bei einer Nachbarin hinterlegen."
+          },
+          {
+            "answer": true,
+            "q": "Wer zweimal nicht da ist, zahlt den dritten Termin selbst. — Whoever misses twice pays for the third appointment.",
+            "why": "„die Kosten des dritten Termins trägt die Mietpartei“."
+          },
+          {
+            "answer": false,
+            "q": "Die Rauchmelder werden an einem anderen Tag geprüft. — The smoke detectors are checked on a different day.",
+            "why": "„Im selben Termin.“"
+          },
+          {
+            "answer": false,
+            "q": "Einen tropfenden Wasserhahn meldet man samstags beim Hausmeister. — You report a dripping tap to the caretaker on Saturday.",
+            "why": "Nur Mo–Fr 7:00–16:00; samstags nur echte Notfälle."
+          },
+          {
+            "answer": true,
+            "q": "Ein Wasserrohrbruch um 22 Uhr ist ein Notfall. — A burst pipe at 10 pm is an emergency.",
+            "why": "„Wasserrohrbruch“ steht ausdrücklich als Notfall."
+          },
+          {
+            "answer": true,
+            "q": "Vor dem Termin muss man unter den Rauchmeldern Platz machen. — Before the appointment you have to clear space under the detectors.",
+            "why": "„Bitte Möbel unter den Meldern freihalten.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Hausverwaltung Berger & Partner — Ankündigung**\n> Musterstraße 12\n>\n> **Ablesung der Wasserzähler**\n> Dienstag, 07.07.2026, zwischen 8:00 und 14:00 Uhr.\n> Bitte sorgen Sie dafür, dass die Wohnung zugänglich ist. Sind Sie\n> verhindert, hinterlegen Sie den Schlüssel bei einer Nachbarin oder\n> vereinbaren Sie unter 030 / 55 44 33 einen Ersatztermin.\n> Bei zweimaliger Nichtanwesenheit wird der Verbrauch geschätzt;\n> die Kosten des dritten Termins trägt die Mietpartei.\n>\n> **Prüfung der Rauchmelder**\n> Im selben Termin. Bitte Möbel unter den Meldern freihalten.\n>\n> **Kleinreparaturen**\n> Meldungen bitte an den Hausmeister: 0170 / 22 33 444,\n> Mo–Fr 7:00–16:00. Außerhalb dieser Zeiten nur in Notfällen\n> (Wasserrohrbruch, Stromausfall im ganzen Haus).\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Den Aushang im Hausflur lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Beim Hausmeister anrufen und kurz schriftlich festhalten, dass niemand da war."
+              },
+              {
+                "key": "b",
+                "text": "Weiter warten."
+              },
+              {
+                "key": "c",
+                "text": "Selbst einen Handwerker bestellen."
+              }
+            ],
+            "q": "Der Handwerker kommt nicht zum vereinbarten Termin. — The tradesman doesn't turn up.",
+            "why": "Anrufen klärt es meist sofort — und die kurze Notiz hilft, falls die Sache sich zieht."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Noch einmal anrufen."
+              },
+              {
+                "key": "b",
+                "text": "Kurz schriftlich nachfassen, mit Datum der ersten Meldung."
+              },
+              {
+                "key": "c",
+                "text": "Die Miete kürzen."
+              }
+            ],
+            "q": "Du hast nach zwei Wochen keine Antwort auf deine Schadensmeldung. — Two weeks on there's no answer to your report.",
+            "why": "Schriftlich mit Datum ist der Unterschied zwischen „ich habe angerufen“ und einem nachweisbaren Vorgang."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Widersprechen und streiten."
+              },
+              {
+                "key": "b",
+                "text": "Selbst überstreichen."
+              },
+              {
+                "key": "c",
+                "text": "Fotos machen, den Fall schriftlich der Verwaltung melden und um eine Begutachtung bitten."
+              }
+            ],
+            "q": "Der Hausmeister sagt, für den Schimmel bist du selbst verantwortlich. — The caretaker says the mould is your own fault.",
+            "why": "Schimmel ist zu wichtig für ein Türgespräch. Fotos plus schriftliche Meldung bringen es auf die richtige Ebene."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Abwarten, ob sich jemand meldet."
+              },
+              {
+                "key": "b",
+                "text": "Von selbst anrufen und einen neuen Termin vereinbaren, bevor der zweite verstreicht."
+              },
+              {
+                "key": "c",
+                "text": "Den Zählerstand per Foto schicken."
+              }
+            ],
+            "q": "Du bist beim Ablesetermin nicht da und hast es vergessen. — You forgot to be there for the meter reading.",
+            "why": "Nach dem zweiten verpassten Termin wird geschätzt und der dritte kostet — vorher anrufen ist billiger."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einen Heizlüfter kaufen."
+              },
+              {
+                "key": "b",
+                "text": "Temperatur mehrmals messen, notieren und dem Hausmeister die Werte nennen."
+              },
+              {
+                "key": "c",
+                "text": "Nichts sagen, im Winter ist das so."
+              }
+            ],
+            "q": "Die Wohnung ist zu kalt, die Heizung läuft aber. — The flat is too cold although the heating is on.",
+            "why": "Gemessene Werte machen aus „mir ist kalt“ eine Meldung, auf die jemand reagieren kann."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Vorher schriftlich fragen und sich den Zustand bei der Übergabe protokollieren lassen."
+              },
+              {
+                "key": "b",
+                "text": "Alles neu streichen, sicher ist sicher."
+              },
+              {
+                "key": "c",
+                "text": "Nichts machen und die Kaution abwarten."
+              }
+            ],
+            "q": "Du ziehst aus und willst wissen, was du renovieren musst. — You're moving out and want to know what to redecorate.",
+            "why": "Das Übergabeprotokoll entscheidet später über die Kaution — vorher fragen und alles festhalten lassen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Was machst oder sagst du? Wähle a, b oder c.",
+      "instructionsEn": "What do you do or say? Choose a, b, or c.",
+      "title": "Kleine Reibereien"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Schaden"
+          ],
+          "2": [
+            "vereinbaren"
+          ],
+          "3": [
+            "Zugang"
+          ],
+          "4": [
+            "vergessen"
+          ],
+          "5": [
+            "Übergabeprotokoll"
+          ],
+          "6": [
+            "aufnehmen"
+          ],
+          "7": [
+            "Zustimmung"
+          ],
+          "8": [
+            "Kaution"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich möchte einen {1} melden. (etwas ist kaputt)\n2. Passt Ihnen Donnerstag? Sonst {2} wir einen anderen Termin. (ausmachen)\n3. Ich brauche {3} zur Wohnung — jemand muss da sein. (hineinkommen können)\n4. Ich habe den Termin leider {4}. (nicht daran gedacht)\n5. Bei der Übergabe wird ein {5} geschrieben. (Dokument über den Zustand)\n6. Ich möchte meinen Partner in den Mietvertrag {6} lassen. (dazunehmen)\n7. Für einen Hund brauche ich Ihre {7}. (Erlaubnis, formell)\n8. Die {8} bekomme ich nach dem Auszug zurück. (Geld, das man am Anfang zahlt)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das fehlende Wort.",
+      "instructionsEn": "Fill in the missing word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Abfluss"
+          ],
+          "2": [
+            "Dunstabzugshaube"
+          ],
+          "3": [
+            "Rauchmelder"
+          ],
+          "4": [
+            "Schimmel"
+          ],
+          "5": [
+            "Stockwerk"
+          ],
+          "6": [
+            "Nachmittag"
+          ],
+          "7": [
+            "Darf"
+          ],
+          "8": [
+            "aufnehmen"
+          ],
+          "9": [
+            "schauen"
+          ],
+          "10": [
+            "Zugang"
+          ],
+          "11": [
+            "Übergabeprotokoll"
+          ],
+          "12": [
+            "Kaution"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Was ist kaputt (4 Punkte):**\n1. Wo das Wasser abläuft: der {1}\n2. Über dem Herd: die {2}\n3. Gerät an der Decke gegen Rauch: der {3}\n4. Schwarze Flecken durch Feuchtigkeit: der {4}\n\n**Redemittel (5 Punkte):**\n5. Am Telefon zuerst: Name, Adresse, {5} und Problem.\n6. Termin ablehnen: „Ginge es auch am {6}?\"\n7. Erlaubnis: „{7} ich in der Wohnung einen Hund halten?\"\n8. Vertrag: „Ich möchte meinen Partner {8} lassen.\"\n9. Nebenbei: „Wenn Sie schon da sind: Könnten Sie kurz {9}?\"\n\n**Wichtige Wörter (3 Punkte):**\n10. Der Handwerker braucht {10} zur Wohnung.\n11. Beim Auszug wird ein {11} geschrieben.\n12. Das Geld vom Anfang bekommst du am Ende zurück: die {12}\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die Lücken.",
+      "instructionsEn": "Fill in the gaps.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-15-hausverwaltung-alltag-a2",
+  "intro": "Nicht der Einbruch und nicht der Anwalt: die ganz normalen Mietfragen. Der Abfluss ist verstopft, die Dunstabzugshaube brummt, jemand kündigt das Ablesen des Wasserzählers an, du willst wissen, ob ein Hund erlaubt ist oder ob dein Partner mit in den Vertrag kann. Der Hausmeister regelt die kleinen Sachen, die Verwaltung die vertraglichen. Grammatik nach Bedarf: Perfekt für „was ist passiert\", Modalverben für Erlaubnis (dürfen), höfliche Bitten, Termine vereinbaren. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/15-hausverwaltung-alltag-a2",
+  "level": "A2",
+  "summary": "Etwas ist kaputt, jemand kommt zum Ablesen, darf ein Hund einziehen, kommt der Partner mit in den Vertrag — die normalen Mietfragen.",
+  "title": "Hausverwaltung und Hausmeister im Alltag — A2",
+  "topic": "Verwaltung und Hausmeister"
+}

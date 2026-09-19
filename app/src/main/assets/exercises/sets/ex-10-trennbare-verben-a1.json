@@ -1,0 +1,659 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "trennbar",
+            "label": "trennbar"
+          },
+          {
+            "key": "untrennbar",
+            "label": "untrennbar"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "trennbar",
+            "text": "aufstehen"
+          },
+          {
+            "bucket": "untrennbar",
+            "text": "verstehen"
+          },
+          {
+            "bucket": "trennbar",
+            "text": "einkaufen"
+          },
+          {
+            "bucket": "untrennbar",
+            "text": "bezahlen"
+          },
+          {
+            "bucket": "trennbar",
+            "text": "anrufen"
+          },
+          {
+            "bucket": "untrennbar",
+            "text": "erklären"
+          },
+          {
+            "bucket": "trennbar",
+            "text": "mitkommen"
+          },
+          {
+            "bucket": "untrennbar",
+            "text": "besuchen"
+          },
+          {
+            "bucket": "trennbar",
+            "text": "aufräumen"
+          },
+          {
+            "bucket": "untrennbar",
+            "text": "verkaufen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Ordne jedes Verb der richtigen Gruppe zu.",
+      "instructionsEn": "Sort each verb into the correct group.",
+      "title": "Trennbar oder untrennbar?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "auf"
+          ],
+          "2": [
+            "ein"
+          ],
+          "3": [
+            "an"
+          ],
+          "4": [
+            "auf"
+          ],
+          "5": [
+            "mit"
+          ],
+          "6": [
+            "los"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich stehe jeden Tag um sechs Uhr {1}. (aufstehen)\n2. Wir kaufen im Supermarkt {2}. (einkaufen)\n3. Ruf mich bitte heute Abend {3}! (anrufen)\n4. Räumst du dein Zimmer {4}? (aufräumen)\n5. Kommst du heute Abend {5}? (mitkommen)\n6. Wir fahren morgen früh {6}. (losfahren)\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze das richtige Präfix am Satzende.",
+      "instructionsEn": "Fill in the correct separable prefix at the end of the sentence.",
+      "skill": "word-order",
+      "title": "Das trennbare Präfix ans Satzende"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "auf"
+          ],
+          "2": [
+            "auf"
+          ],
+          "3": [
+            "ein"
+          ],
+          "4": [
+            "an"
+          ],
+          "5": [
+            "ab"
+          ],
+          "6": [
+            "fern"
+          ],
+          "7": [
+            "auf"
+          ],
+          "8": [
+            "aus"
+          ]
+        },
+        "bank": [
+          "auf",
+          "auf",
+          "ein",
+          "an",
+          "ab",
+          "fern",
+          "auf",
+          "aus",
+          "mit",
+          "zu"
+        ],
+        "text": "Jeden Morgen stehe ich früh {1}. Ich mache das Bett und räume\nmein Zimmer {2}. Danach kaufe ich Brötchen {3}. Ich rufe meine\nOma {4} und erzähle ihr von meinem Tag. Um acht Uhr fahre ich\nlos zur Arbeit. Am Nachmittag hole ich meine Kinder von der\nSchule {5}. Am Abend sehe ich gern {6}. Vor dem Schlafen räume\nich noch die Küche {7}. Dann mache ich das Licht {8}.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Ein Tag im Leben"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich stehe auf früh."
+              },
+              {
+                "key": "b",
+                "text": "Ich stehe früh auf."
+              },
+              {
+                "key": "c",
+                "text": "Ich aufstehe früh."
+              }
+            ],
+            "q": "Wie sagt man richtig?",
+            "why": "aufstehen: trennbar → Präfix ans Satzende."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich verstehe nicht das."
+              },
+              {
+                "key": "b",
+                "text": "Ich das nicht verstehe."
+              },
+              {
+                "key": "c",
+                "text": "Ich verstehe das nicht."
+              }
+            ],
+            "q": "Wie sagt man richtig?",
+            "why": "verstehen: untrennbar, bleibt immer zusammen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir kaufen Obst ein."
+              },
+              {
+                "key": "b",
+                "text": "Wir einkaufen Obst."
+              },
+              {
+                "key": "c",
+                "text": "Wir kaufen ein Obst."
+              }
+            ],
+            "q": "Wie sagt man richtig?",
+            "why": "einkaufen: trennbar → Präfix ans Satzende."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie besucht mich morgen."
+              },
+              {
+                "key": "b",
+                "text": "Sie sucht mich morgen be."
+              },
+              {
+                "key": "c",
+                "text": "Sie be mich morgen sucht."
+              }
+            ],
+            "q": "Wie sagt man richtig?",
+            "why": "besuchen: untrennbar, bleibt immer zusammen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ruf an mich bitte!"
+              },
+              {
+                "key": "b",
+                "text": "Ruf mich bitte an!"
+              },
+              {
+                "key": "c",
+                "text": "Anruf mich bitte!"
+              }
+            ],
+            "q": "Wie sagt man richtig?",
+            "why": "anrufen: trennbar → Präfix ans Satzende."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er bezahlt die Rechnung."
+              },
+              {
+                "key": "b",
+                "text": "Er zahlt die Rechnung be."
+              },
+              {
+                "key": "c",
+                "text": "Er be zahlt die Rechnung."
+              }
+            ],
+            "q": "Wie sagt man richtig?",
+            "why": "bezahlen: untrennbar, bleibt immer zusammen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle den richtigen Satz (a, b oder c).",
+      "instructionsEn": "Choose the grammatically correct sentence (a, b, or c).",
+      "title": "Wie sagt man richtig?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "auf"
+              },
+              {
+                "key": "b",
+                "text": "an"
+              },
+              {
+                "key": "c",
+                "text": "ein"
+              }
+            ],
+            "q": "Ich mache das Fenster ___.",
+            "why": "aufmachen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ein"
+              },
+              {
+                "key": "b",
+                "text": "auf"
+              },
+              {
+                "key": "c",
+                "text": "an"
+              }
+            ],
+            "q": "Wir räumen die Wohnung ___.",
+            "why": "aufräumen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "auf"
+              },
+              {
+                "key": "b",
+                "text": "ein"
+              },
+              {
+                "key": "c",
+                "text": "an"
+              }
+            ],
+            "q": "Sie kauft frisches Obst ___.",
+            "why": "einkaufen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "auf"
+              },
+              {
+                "key": "b",
+                "text": "an"
+              },
+              {
+                "key": "c",
+                "text": "ein"
+              }
+            ],
+            "q": "Ruf mich bitte ___, wenn du ankommst!",
+            "why": "anrufen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "an"
+              },
+              {
+                "key": "b",
+                "text": "auf"
+              },
+              {
+                "key": "c",
+                "text": "ein"
+              }
+            ],
+            "q": "Wann kommt der Zug ___?",
+            "why": "ankommen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "an"
+              },
+              {
+                "key": "b",
+                "text": "auf"
+              },
+              {
+                "key": "c",
+                "text": "ab"
+              }
+            ],
+            "q": "Er holt seine Schwester vom Bahnhof ___.",
+            "why": "abholen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "an"
+              },
+              {
+                "key": "b",
+                "text": "auf"
+              },
+              {
+                "key": "c",
+                "text": "fern"
+              }
+            ],
+            "q": "Wir sehen jeden Abend ___.",
+            "why": "fernsehen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "auf"
+              },
+              {
+                "key": "b",
+                "text": "an"
+              },
+              {
+                "key": "c",
+                "text": "aus"
+              }
+            ],
+            "q": "Mach bitte das Licht ___!",
+            "why": "ausmachen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct separable prefix for each gap (a, b, or c).",
+      "title": "Sprachbausteine Teil 1 — Trennbare Präfixe"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "AUF"
+          ],
+          "2": [
+            "AN"
+          ],
+          "3": [
+            "AUF"
+          ],
+          "4": [
+            "AN"
+          ],
+          "5": [
+            "EIN"
+          ],
+          "6": [
+            "EIN"
+          ],
+          "7": [
+            "AB"
+          ],
+          "8": [
+            "FERN"
+          ],
+          "9": [
+            "AUS"
+          ],
+          "10": [
+            "EIN"
+          ]
+        },
+        "bank": [
+          "AUF",
+          "AN",
+          "AUF",
+          "AN",
+          "EIN",
+          "EIN",
+          "AB",
+          "FERN",
+          "AUS",
+          "EIN",
+          "MIT",
+          "ZU",
+          "WEG"
+        ],
+        "text": "Am Samstag stehe ich spät {1}. Ich mache mir Kaffee und schalte\nden Fernseher {2}. Später räume ich die Küche {3}. Meine\nFreundin ruft {4} und lädt mich zum Einkaufen {5}. Wir kaufen im\nSupermarkt frisches Gemüse {6}. Danach hole ich Pakete von der\nPost {7}. Am Nachmittag sehe ich noch etwas {8}. Am Abend mache\nich alle Lichter {9}. Ich schlafe schnell {10}.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Three words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Ein Samstagmorgen (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "auf"
+          ],
+          "2": [
+            "ein"
+          ],
+          "3": [
+            "an"
+          ],
+          "4": [
+            "mit"
+          ],
+          "5": [
+            "ab"
+          ],
+          "6": [
+            "zu"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich räume mein Zimmer {1}.\n2. Wir kaufen Gemüse {2}.\n3. Sie ruft ihre Mutter {3}.\n4. Kommst du heute Abend {4}?\n5. Er holt die Kinder {5}.\n6. Macht bitte das Fenster {6}!\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze das richtige Präfix.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich stehe um sechs auf."
+              },
+              {
+                "key": "b",
+                "text": "Ich aufstehe um sechs."
+              },
+              {
+                "key": "c",
+                "text": "Ich stehe auf um sechs."
+              }
+            ],
+            "q": "Wie sagt man richtig?",
+            "why": "aufstehen: trennbar → Präfix ans Satzende."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir besuchen dich morgen be."
+              },
+              {
+                "key": "b",
+                "text": "Wir besuchen dich morgen."
+              },
+              {
+                "key": "c",
+                "text": "Wir be dich morgen suchen."
+              }
+            ],
+            "q": "Wie sagt man richtig?",
+            "why": "besuchen: untrennbar, bleibt immer zusammen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er einkauft Milch."
+              },
+              {
+                "key": "b",
+                "text": "Er kauft ein Milch."
+              },
+              {
+                "key": "c",
+                "text": "Er kauft Milch ein."
+              }
+            ],
+            "q": "Wie sagt man richtig?",
+            "why": "einkaufen: trennbar → Präfix ans Satzende."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie klärt mir die Regel er."
+              },
+              {
+                "key": "b",
+                "text": "Sie erklärt mir die Regel."
+              },
+              {
+                "key": "c",
+                "text": "Sie er mir die Regel klärt."
+              }
+            ],
+            "q": "Wie sagt man richtig?",
+            "why": "erklären: untrennbar, bleibt immer zusammen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zu mach die Tür!"
+              },
+              {
+                "key": "b",
+                "text": "Machzu die Tür!"
+              },
+              {
+                "key": "c",
+                "text": "Mach die Tür zu!"
+              }
+            ],
+            "q": "Wie sagt man richtig?",
+            "why": "zumachen: trennbar → Präfix ans Satzende."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich verkaufe mein altes Auto."
+              },
+              {
+                "key": "b",
+                "text": "Ich kaufe mein altes Auto ver."
+              },
+              {
+                "key": "c",
+                "text": "Ich ver mein altes Auto kaufe."
+              }
+            ],
+            "q": "Wie sagt man richtig?",
+            "why": "verkaufen: untrennbar, bleibt immer zusammen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the grammatically correct sentence (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-10-trennbare-verben-a1",
+  "intro": "Standalone drill set, not tied to any lesson. Separable prefixes (auf-, an-, aus-, ein-, mit-, zu-, ab-, vor-, weg- …) detach from the verb and jump to the END of a main clause: aufstehen -> Ich stehe früh AUF. Inseparable prefixes (be-, ge-, er-, ver-, ent-, zer-, emp-, miss-) never split: verstehen -> Ich verstehe das. Blocks: A Basistraining (sorting, then prefix placement) → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/10-trennbare-verben-a1",
+  "level": "A1",
+  "summary": null,
+  "title": "Trennbare und untrennbare Verben — A1",
+  "topic": "Trennbare und untrennbare Verben"
+}

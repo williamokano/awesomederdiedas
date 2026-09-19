@@ -1,0 +1,824 @@
+{
+  "category": "Arbeit & Studium",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "vorbereiten",
+            "label": "Vorbereiten"
+          },
+          {
+            "key": "argumentieren",
+            "label": "Argumentieren"
+          },
+          {
+            "key": "verhandeln",
+            "label": "Verhandeln"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "vorbereiten",
+            "text": "einen Termin für das Gespräch vereinbaren"
+          },
+          {
+            "bucket": "vorbereiten",
+            "text": "die eigenen Leistungen dokumentieren"
+          },
+          {
+            "bucket": "vorbereiten",
+            "text": "einen Marktvergleich recherchieren"
+          },
+          {
+            "bucket": "vorbereiten",
+            "text": "die Argumente vorbereiten"
+          },
+          {
+            "bucket": "argumentieren",
+            "text": "die eigene Leistung hervorheben"
+          },
+          {
+            "bucket": "argumentieren",
+            "text": "mehr Verantwortung übernommen haben"
+          },
+          {
+            "bucket": "argumentieren",
+            "text": "konkrete Erfolge nennen"
+          },
+          {
+            "bucket": "argumentieren",
+            "text": "einen realistischen Betrag nennen"
+          },
+          {
+            "bucket": "verhandeln",
+            "text": "ein Angebot abwarten"
+          },
+          {
+            "bucket": "verhandeln",
+            "text": "über die Höhe verhandeln"
+          },
+          {
+            "bucket": "verhandeln",
+            "text": "einen Kompromiss finden"
+          },
+          {
+            "bucket": "verhandeln",
+            "text": "das Ergebnis schriftlich festhalten"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Vorbereiten, argumentieren oder verhandeln?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Gehaltserhöhung"
+          },
+          {
+            "key": "2",
+            "text": "das Gespräch"
+          },
+          {
+            "key": "3",
+            "text": "die Leistung"
+          },
+          {
+            "key": "4",
+            "text": "das Argument"
+          },
+          {
+            "key": "5",
+            "text": "der Marktvergleich"
+          },
+          {
+            "key": "6",
+            "text": "die Verantwortung"
+          },
+          {
+            "key": "7",
+            "text": "das Angebot"
+          },
+          {
+            "key": "8",
+            "text": "die Verhandlung"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "mehr Geld für die gleiche Stelle"
+          },
+          {
+            "key": "b",
+            "text": "die persönliche Unterhaltung mit der Führungskraft"
+          },
+          {
+            "key": "c",
+            "text": "das, was man beruflich erreicht hat"
+          },
+          {
+            "key": "d",
+            "text": "ein Grund, der die eigene Position stützt"
+          },
+          {
+            "key": "e",
+            "text": "der Vergleich des eigenen Gehalts mit dem Markt"
+          },
+          {
+            "key": "f",
+            "text": "die Aufgaben, für die man zuständig ist"
+          },
+          {
+            "key": "g",
+            "text": "der vorgeschlagene neue Betrag"
+          },
+          {
+            "key": "h",
+            "text": "das Gespräch über die genaue Höhe"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "soll"
+          ],
+          "4": [
+            "Ist"
+          ],
+          "5": [
+            "ist"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "habe"
+          ],
+          "8": [
+            "Können"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} letzte Woche um ein Gespräch gebeten. (haben, Perfekt)\n2. {2} Sie mir bitte kurz Zeit für ein Gespräch geben? (können, Sie-Form)\n3. Man {3} sich vor dem Gespräch gut vorbereiten. (sollen, Präsens)\n4. {4} das Gespräch schon vereinbart worden? (sein, Perfekt Passiv)\n5. Falls das Angebot zu niedrig {5}, kann ich nachverhandeln. (sein, Präsens)\n6. Meine Chefin {6} sich das Angebot sicher noch einmal überlegen. (werden, Futur I)\n7. Ich {7} schon meine Leistungen dokumentiert. (haben, Perfekt)\n8. {8} Sie mir bitte ein konkretes Angebot machen? (können, Sie-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Das Gespräch vorbereiten"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Gehaltserhöhung"
+          ],
+          "2": [
+            "Gespräch"
+          ],
+          "3": [
+            "Leistung"
+          ],
+          "4": [
+            "Argument"
+          ],
+          "5": [
+            "Marktvergleich"
+          ],
+          "6": [
+            "Verantwortung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich möchte um eine {1} bitten. (mehr Geld für die gleiche Stelle)\n2. Für das {2} habe ich mir extra Zeit genommen. (die Unterhaltung mit der Führungskraft)\n3. Ich habe meine {3} der letzten zwölf Monate zusammengefasst. (das, was man beruflich erreicht hat)\n4. Mein stärkstes {4} ist das neue Projekt. (ein Grund, der die eigene Position stützt)\n5. Ich habe einen {5} mit ähnlichen Positionen gemacht. (der Vergleich mit dem Markt)\n6. In den letzten Monaten habe ich mehr {6} übernommen. (die Aufgaben, für die man zuständig ist)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "GESPRÄCH"
+          ],
+          "2": [
+            "GEHALTSERHÖHUNG"
+          ],
+          "3": [
+            "VERANTWORTUNG"
+          ],
+          "4": [
+            "MARKTVERGLEICH"
+          ],
+          "5": [
+            "STELLE"
+          ],
+          "6": [
+            "GEBE"
+          ],
+          "7": [
+            "ANGEBOT"
+          ],
+          "8": [
+            "VERHANDELT"
+          ],
+          "9": [
+            "VERHANDELN"
+          ],
+          "10": [
+            "FINDEN"
+          ]
+        },
+        "bank": [
+          "GESPRÄCH",
+          "GEHALTSERHÖHUNG",
+          "BONUS",
+          "VERANTWORTUNG",
+          "PRÄMIE",
+          "MARKTVERGLEICH",
+          "ZEUGNIS",
+          "STELLE",
+          "BEFÖRDERUNG",
+          "GEBE",
+          "ANGEBOT",
+          "VERHANDELT",
+          "VERHANDELN",
+          "FINDEN"
+        ],
+        "text": "(im Büro der Chefin)\n— Guten Tag, vielen Dank, dass Sie sich Zeit für dieses {1}\nnehmen.\n— Gerne, worum geht es?\n— Ich möchte über eine {2} sprechen.\n— Verstehe. Erzählen Sie mir, warum Sie das jetzt ansprechen.\n— In den letzten Monaten habe ich deutlich mehr {3}\nübernommen, zum Beispiel die Leitung des neuen Projekts.\n— Das stimmt, Sie haben sich sehr engagiert.\n— Ich habe außerdem einen {4} gemacht: Für meine Position\nliegt das übliche Gehalt deutlich höher.\n— Interessant, das schaue ich mir gern genauer an.\n— Ich {5} mir eine Erhöhung um zehn Prozent vor.\n— Das muss ich intern noch klären, aber ich {6} Ihnen bis\nnächste Woche ein konkretes {7}.\n— Vielen Dank, das freut mich sehr.\n(eine Woche später)\n— Ich habe mit der Geschäftsführung {8} und wir können Ihnen\nsieben Prozent anbieten.\n— Das ist etwas weniger, als ich mir vorgestellt hatte. Können\nwir noch einmal {9}?\n— Lassen Sie uns einen Kompromiss bei acht Prozent {10}.\n— Das klingt fair, damit bin ich einverstanden.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Bitten, argumentieren, verhandeln"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Gehälter interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich möchte über eine Gehaltserhöhung sprechen."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal."
+              }
+            ],
+            "q": "Du willst der Chefin sagen, dass du über eine Gehaltserhöhung sprechen möchtest. — You want to tell your boss you'd like to talk about a raise.",
+            "why": "Eine klare Aussage ist der übliche Einstieg in dieses Gespräch."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich frage lieber nicht nach."
+              },
+              {
+                "key": "c",
+                "text": "Können wir noch einmal über die Höhe verhandeln?"
+              }
+            ],
+            "q": "Du willst wissen, ob ihr noch einmal über die Höhe verhandeln könnt. — You want to know if you can negotiate the amount once more.",
+            "why": "Eine direkte Frage hält die Verhandlung offen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "In den letzten Monaten habe ich deutlich mehr Verantwortung übernommen."
+              },
+              {
+                "key": "b",
+                "text": "Verantwortung interessiert mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst der Chefin erklären, dass du in letzter Zeit mehr Verantwortung übernommen hast. — You want to explain to your boss that you've taken on more responsibility recently.",
+            "why": "Eine konkrete Aussage stützt die Bitte um eine Erhöhung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Angebote interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Können Sie mir ein konkretes Angebot machen?"
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal, Hauptsache ich bekomme irgendwas."
+              }
+            ],
+            "q": "Du willst wissen, ob die Chefin dir ein konkretes Angebot machen kann. — You want to know if your boss can give you a concrete offer.",
+            "why": "Eine direkte Frage klärt die konkreten nächsten Schritte."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zahlen interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Das ist mir zu kompliziert."
+              },
+              {
+                "key": "c",
+                "text": "Wie hoch könnte die Gehaltserhöhung ungefähr ausfallen?"
+              }
+            ],
+            "q": "Du willst wissen, wie hoch die Gehaltserhöhung ungefähr ausfallen könnte. — You want to know roughly how much the raise might be.",
+            "why": "Eine direkte Frage klärt frühzeitig die Größenordnung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Vielen Dank, dass Sie sich Zeit für dieses Gespräch nehmen."
+              },
+              {
+                "key": "b",
+                "text": "Gespräche interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst dich für die Zeit für das Gespräch bedanken. — You want to thank your boss for the time for this conversation.",
+            "why": "Ein höflicher Dank ist der übliche Einstieg in ein solches Gespräch."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Bitten und argumentieren"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "höfliche Aussage, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "über",
+              "eine",
+              "Gehaltserhöhung",
+              "sprechen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "höfliche Frage mit Modalverb",
+            "tiles": [
+              "Können",
+              "Sie",
+              "mir",
+              "ein",
+              "konkretes",
+              "Angebot",
+              "machen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Aussage, Verb an Position 2",
+            "tiles": [
+              "Wir",
+              "finden",
+              "sicher",
+              "einen",
+              "guten",
+              "Kompromiss"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Futur I, Zeitangabe an Position 1, Verb an Position 2",
+            "tiles": [
+              "Nächste",
+              "Woche",
+              "werde",
+              "ich",
+              "ein",
+              "Angebot",
+              "bekommen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "W-Frage mit Modalverb im Konjunktiv II",
+            "tiles": [
+              "Wie",
+              "hoch",
+              "könnte",
+              "die",
+              "Erhöhung",
+              "eigentlich",
+              "sein",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Ich",
+              "habe",
+              "meine",
+              "Leistungen",
+              "schon",
+              "dokumentiert"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zur Gehaltserhöhung bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Man sollte am besten nach einem erfolgreichen Projekt oder vor der Jahresplanung fragen. — It's best to ask after a successful project or before annual planning.",
+            "why": "So steht es ausdrücklich in den Infos zur Gehaltserhöhung."
+          },
+          {
+            "answer": false,
+            "q": "Allgemeine Aussagen wirken überzeugender als konkrete Erfolge und Zahlen. — General statements are more convincing than concrete achievements and figures.",
+            "why": "Konkrete Erfolge und Zahlen wirken überzeugender als allgemeine Aussagen."
+          },
+          {
+            "answer": true,
+            "q": "Ein Marktvergleich hilft, eine realistische Zahl zu nennen. — A market comparison helps state a realistic figure.",
+            "why": "„Marktvergleich: hilft, eine realistische Zahl zu nennen.“"
+          },
+          {
+            "answer": false,
+            "q": "Den konkreten Betrag sollte man besser komplett der Chefin überlassen. — It's better to leave the exact amount entirely to your boss.",
+            "why": "Den Betrag sollte man selbst konkret nennen, nicht der Chefin überlassen."
+          },
+          {
+            "answer": true,
+            "q": "Ein Kompromiss ist bei Gehaltsverhandlungen oft das Ergebnis. — A compromise is often the outcome of salary negotiations.",
+            "why": "„Kompromiss: ist bei Gehaltsverhandlungen oft das Ergebnis.“"
+          },
+          {
+            "answer": false,
+            "q": "Das Ergebnis muss man sich nie schriftlich bestätigen lassen. — You never need to get the outcome confirmed in writing.",
+            "why": "Man sollte sich das Ergebnis schriftlich bestätigen lassen."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Um eine Gehaltserhöhung bitten**\n>\n> - **Timing:** am besten **nach einem erfolgreichen Projekt**\n>   oder vor der Jahresplanung fragen.\n> - **Vorbereitung:** **konkrete Erfolge und Zahlen** wirken\n>   überzeugender als allgemeine Aussagen.\n> - **Marktvergleich:** hilft, eine **realistische Zahl** zu\n>   nennen.\n> - **Betrag:** sollte man **selbst konkret nennen**, nicht\n>   der Chefin überlassen.\n> - **Kompromiss:** ist bei Gehaltsverhandlungen oft **das\n>   Ergebnis**.\n> - **Ergebnis:** sollte man sich **schriftlich bestätigen**\n>   lassen.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zur Gehaltserhöhung lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort kündigen."
+              },
+              {
+                "key": "b",
+                "text": "Nach konkreten Gründen und möglichen nächsten Schritten fragen."
+              },
+              {
+                "key": "c",
+                "text": "Beleidigt das Gespräch sofort beenden."
+              }
+            ],
+            "q": "Ihr Chef lehnt die Gehaltserhöhung komplett ab. — Your boss completely rejects the raise.",
+            "why": "Eine Nachfrage klärt, welche Schritte für eine spätere Erhöhung nötig sind."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Thema einfach nie wieder ansprechen."
+              },
+              {
+                "key": "b",
+                "text": "Sofort eine Beschwerde bei der Personalabteilung einreichen."
+              },
+              {
+                "key": "c",
+                "text": "Höflich, aber bestimmt einen konkreten Termin einfordern."
+              }
+            ],
+            "q": "Ihr Chef vertröstet Sie immer wieder, ohne einen konkreten Termin zu nennen. — Your boss keeps putting you off without naming a concrete date.",
+            "why": "Eine bestimmte Nachfrage verhindert, dass das Thema versandet."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sachlich erklären, warum ein höherer Betrag angemessen wäre."
+              },
+              {
+                "key": "b",
+                "text": "Das Angebot sofort und wortlos akzeptieren."
+              },
+              {
+                "key": "c",
+                "text": "Aus Enttäuschung sofort kündigen."
+              }
+            ],
+            "q": "Das Angebot liegt deutlich unter Ihren Erwartungen. — The offer is well below your expectations.",
+            "why": "Eine sachliche Erklärung eröffnet Raum für eine Nachverhandlung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sich beim Kollegen über das Gehalt beschweren."
+              },
+              {
+                "key": "b",
+                "text": "Das Thema sachlich mit der Chefin besprechen."
+              },
+              {
+                "key": "c",
+                "text": "Es einfach so hinnehmen, ohne etwas zu sagen."
+              }
+            ],
+            "q": "Sie erfahren, dass ein Kollege für die gleiche Arbeit deutlich mehr verdient. — You learn that a colleague earns much more for the same work.",
+            "why": "Ein sachliches Gespräch mit der Führungskraft ist der richtige Weg."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Genauso gereizt zurückreagieren."
+              },
+              {
+                "key": "b",
+                "text": "Das Gespräch sofort abbrechen."
+              },
+              {
+                "key": "c",
+                "text": "Ruhig bleiben und sachlich bei Ihren Argumenten bleiben."
+              }
+            ],
+            "q": "Ihr Chef reagiert im Gespräch sichtlich genervt. — Your boss reacts visibly annoyed during the conversation.",
+            "why": "Ruhe und Sachlichkeit wirken auch bei einer gereizten Stimmung überzeugend."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Chefin höflich darauf ansprechen und um Klärung bitten."
+              },
+              {
+                "key": "b",
+                "text": "Einfach abwarten und hoffen, dass es sich von selbst löst."
+              },
+              {
+                "key": "c",
+                "text": "Sofort öffentlich darüber schimpfen."
+              }
+            ],
+            "q": "Die zugesagte Erhöhung erscheint nicht auf Ihrer nächsten Gehaltsabrechnung. — The promised raise doesn't appear on your next pay slip.",
+            "why": "Eine höfliche Nachfrage klärt schnell, ob es sich um ein Versehen handelt."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn beim Gehaltsgespräch etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "abgelehnt"
+          ],
+          "2": [
+            "vertröstet"
+          ],
+          "3": [
+            "erwartet"
+          ],
+          "4": [
+            "bezahlt"
+          ],
+          "5": [
+            "reagiert"
+          ],
+          "6": [
+            "aufgetaucht"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Meine Bitte um eine Gehaltserhöhung wurde komplett {1}. (nicht akzeptiert, Partizip)\n2. Mein Chef hat mich immer wieder {2}. (nach hinten geschoben, Partizip)\n3. Das Angebot lag deutlich unter dem, was ich {3} hatte. (angenommen, Partizip)\n4. Mein Kollege wird für die gleiche Arbeit schon länger besser {4}. (entlohnt, Partizip)\n5. Mein Chef hat im Gespräch sichtlich genervt {5}. (sich verhalten, Partizip)\n6. Die zugesagte Erhöhung ist auf der Abrechnung nicht {6}. (nicht sichtbar geworden, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "soll"
+          ],
+          "3": [
+            "Gehaltserhöhung"
+          ],
+          "4": [
+            "Gespräch"
+          ],
+          "5": [
+            "Leistung"
+          ],
+          "6": [
+            "Argument"
+          ],
+          "7": [
+            "Marktvergleich"
+          ],
+          "8": [
+            "Verantwortung"
+          ],
+          "9": [
+            "Können"
+          ],
+          "10": [
+            "abgelehnt"
+          ],
+          "11": [
+            "vertröstet"
+          ],
+          "12": [
+            "erwartet"
+          ],
+          "13": [
+            "bezahlt"
+          ],
+          "14": [
+            "aufgetaucht"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} letzte Woche um ein Gespräch gebeten. (have — Perfekt)\n2. Man {2} sich vor dem Gespräch gut vorbereiten. (should — sollen)\n3. Ich möchte um eine {3} bitten. (raise)\n4. Für das {4} habe ich mir extra Zeit genommen. (meeting)\n5. Ich habe meine {5} der letzten zwölf Monate zusammengefasst. (performance)\n6. Mein stärkstes {6} ist das neue Projekt. (reason/point)\n7. Ich habe einen {7} mit ähnlichen Positionen gemacht. (market comparison)\n8. In den letzten Monaten habe ich mehr {8} übernommen. (responsibility)\n9. {9} Sie mir bitte ein konkretes Angebot machen? (could — können, Sie-Form)\n10. Meine Bitte wurde komplett {10}. (rejected — Partizip)\n11. Mein Chef hat mich immer wieder {11}. (put off — Partizip)\n12. Das Angebot lag unter dem, was ich {12} hatte. (expected — Partizip)\n13. Mein Kollege wird schon länger besser {13}. (paid — Partizip)\n14. Die zugesagte Erhöhung ist auf der Abrechnung nicht {14}. (appeared — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-96-gehaltserhoehung-b2",
+  "intro": "Um eine Gehaltserhöhung zu bitten braucht Vorbereitung: die eigenen Leistungen dokumentieren, einen Marktvergleich machen und um ein Gespräch bitten. Dieses Set übt genau das — vorbereiten, argumentieren, verhandeln, und was zu tun ist, wenn das erste Angebot zu niedrig ausfällt oder die Chefin ablehnt. Grammatik nach Bedarf: Modalverben, Perfekt und Futur I. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/96-gehaltserhoehung-b2",
+  "level": "B2",
+  "summary": "Ein Gespräch mit der Chefin vorbereiten, die eigenen Leistungen und einen Marktvergleich als Argumente nutzen und über die Höhe verhandeln — und was tun, wenn das erste Angebot zu niedrig ausfällt.",
+  "title": "Um eine Gehaltserhöhung bitten — B2",
+  "topic": "Um eine Gehaltserhöhung bitten"
+}

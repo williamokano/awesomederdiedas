@@ -1,0 +1,684 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "viele (stark)",
+          "alle (schwach)"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "viele gute Freunde"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "alle guten Freunde"
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "Nom."
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "viele gute Freunde"
+                ],
+                "gap": 3
+              },
+              {
+                "answer": [
+                  "alle guten Freunde"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "Akk."
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "vielen guten Freunden"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "allen guten Freunden"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "Dat."
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "vieler guter Freunde"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "aller guten Freunde"
+                ],
+                "gap": 8
+              }
+            ],
+            "label": "Gen."
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die Tabelle mit gut + Freunde.",
+      "instructionsEn": "Complete the table with gut + Freunde.",
+      "skill": "case-endings",
+      "title": "viele (stark) vs. alle (schwach)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "es"
+          ],
+          "2": [
+            "en"
+          ],
+          "3": [
+            "e"
+          ],
+          "4": [
+            "e"
+          ],
+          "5": [
+            "en"
+          ],
+          "6": [
+            "en"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das ist ein faszinierend{1} Buch.\n2. Ich lese den geschrieben{2} Brief.\n3. Die untergehend{3} Sonne ist wunderschön.\n4. Das gebraten{4} Fleisch schmeckt gut.\n5. Wir sehen einen schlafend{5} Hund.\n6. Wir beobachten die spielend{6} Kinder im Park.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze die Endung. Das Partizip verhält sich wie jedes andere Adjektiv.",
+      "instructionsEn": "Fill in the ending — once formed, a participle declines exactly like any other adjective.",
+      "skill": "case-endings",
+      "title": "Partizip I und II als Adjektiv"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "e"
+          ],
+          "2": [
+            "en"
+          ],
+          "3": [
+            "e"
+          ],
+          "4": [
+            "e"
+          ],
+          "5": [
+            "en"
+          ],
+          "6": [
+            "en"
+          ],
+          "7": [
+            "e"
+          ],
+          "8": [
+            "en"
+          ]
+        },
+        "bank": [
+          "e",
+          "en",
+          "e",
+          "e",
+          "en",
+          "en",
+          "e",
+          "en"
+        ],
+        "text": "Zu meiner Party kommen viele nett{1} Leute. Alle eingeladen{2}\nGäste haben zugesagt. Einige alt{3} Freunde bringen ihre Partner\nmit. Wenige neu{4} Kollegen kenne ich noch nicht gut. Beide\nbesten{5} Freunde helfen mir beim Vorbereiten. Ich habe mit\nvielen verschieden{6} Leuten telefoniert. Manche gut{7} Ideen\nkamen von meinen Freunden. Am Ende waren alle glücklich{8} Gäste\nzufrieden.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box.",
+      "title": "Lückentext: Meine Party"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Viele jung___ Menschen reisen gern.",
+            "why": "viele → stark, Plural → -e."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Alle jung___ Menschen brauchen einen Pass.",
+            "why": "alle → schwach, Plural → -en."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Einige interessant___ Bücher stehen im Regal.",
+            "why": "einige → stark, Plural → -e."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Beide interessant___ Bücher gehören mir.",
+            "why": "beide → schwach, Plural → -en."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Wenige alt___ Häuser sind noch original.",
+            "why": "wenige → stark, Plural → -e."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Mit allen alt___ Häusern verbindet man Geschichte.",
+            "why": "Dativ Plural ist immer -en, egal ob stark oder schwach."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Endung (a, b oder c).",
+      "instructionsEn": "Choose the correct ending (a, b, or c).",
+      "title": "viele/einige/wenige (-e) vs. alle/beide (-en)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Viele bekannt___ Forscher nehmen an der Konferenz teil.",
+            "why": "viele → stark, Plural → -e."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Alle teilnehmend___ Forscher stellen ihre Arbeit vor.",
+            "why": "alle → schwach, Plural → -en."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Einige spannend___ Vorträge beginnen um neun Uhr.",
+            "why": "einige → stark, Plural → -e."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Der überfüllt___ Saal wird schnell laut.",
+            "why": "schwach (der), Nominativ maskulin → -e."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Beide bekannt___ Professoren diskutieren miteinander.",
+            "why": "beide → schwach, Plural → -en."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Ich habe mit wenigen anwesend___ Studenten gesprochen.",
+            "why": "Dativ Plural ist immer -en."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Die präsentiert___ Ergebnisse überzeugen alle.",
+            "why": "schwach (die), Plural → -en."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Manche überraschend___ Fragen kommen vom Publikum.",
+            "why": "manche → stark, Plural → -e."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct ending for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Auf der Konferenz"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "BEEINDRUCKENDE"
+          ],
+          "2": [
+            "AUSGESTELLTEN"
+          ],
+          "3": [
+            "JUNGEN"
+          ],
+          "4": [
+            "BEKANNTE"
+          ],
+          "5": [
+            "LÄCHELNDE"
+          ],
+          "6": [
+            "FÜHRENDEN"
+          ],
+          "7": [
+            "ENTTÄUSCHTE"
+          ],
+          "8": [
+            "BEGEISTERTE"
+          ],
+          "9": [
+            "VERKAUFTEN"
+          ],
+          "10": [
+            "GELUNGENER"
+          ]
+        },
+        "bank": [
+          "BEEINDRUCKENDE",
+          "AUSGESTELLTEN",
+          "JUNGEN",
+          "BEKANNTE",
+          "LÄCHELNDE",
+          "FÜHRENDEN",
+          "ENTTÄUSCHTE",
+          "BEGEISTERTE",
+          "VERKAUFTEN",
+          "GELUNGENER",
+          "BEEINDRUCKENDEN",
+          "JUNGE",
+          "LÄCHELND"
+        ],
+        "text": "Die Galerie zeigt viele beeindruckend{1} Gemälde. Alle\nausgestellt{2} Werke stammen von jung{3} Künstlern. Einige\nbekannt{4} Sammler besuchen die Eröffnung. Der lächelnd{5}\nKünstler begrüßt die Gäste persönlich. Beide führend{6} Kritiker\nloben die Ausstellung. Wenige enttäuscht{7} Besucher gibt es\nkaum. Am Ende kaufen manche begeistert{8} Besucher ein Gemälde.\nDie verkauft{9} Bilder werden sofort verpackt. Es war ein\ngelungen{10} Abend.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Three words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Die Ausstellung (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "e"
+          ],
+          "2": [
+            "en"
+          ],
+          "3": [
+            "es"
+          ],
+          "4": [
+            "e"
+          ],
+          "5": [
+            "e"
+          ],
+          "6": [
+            "en"
+          ],
+          "7": [
+            "en"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Viele klein{1} Kinder spielen im Park.\n2. Alle klein{2} Kinder tragen Mützen.\n3. Das ist ein lachend{3} Baby.\n4. Die geöffnet{4} Tür lässt kalte Luft herein.\n5. Einige neu{5} Häuser wurden gebaut.\n6. Beide neu{6} Häuser sind schon verkauft.\n7. Mit wenigen bekannt{7} Freunden feiere ich.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die richtige Endung.",
+      "title": "Gemischte Wiederholung: das ganze Thema"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Viele fleißig___ Studenten bestehen die Prüfung.",
+            "why": "viele → stark, Plural → -e."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Alle fleißig___ Studenten haben gelernt.",
+            "why": "alle → schwach, Plural → -en."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "es"
+              },
+              {
+                "key": "c",
+                "text": "en"
+              }
+            ],
+            "q": "Das ist ein schlafend___ Kind.",
+            "why": "gemischt, neutrum → -es."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "es"
+              }
+            ],
+            "q": "Die geschrieben___ Nachricht war kurz.",
+            "why": "schwach (die), feminin → -e."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Einige interessiert___ Zuschauer blieben bis zum Schluss.",
+            "why": "einige → stark, Plural → -e."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Beide interessiert___ Zuschauer stellten Fragen.",
+            "why": "beide → schwach, Plural → -en."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct ending (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-05-adjektivdeklination-b2",
+  "intro": "Standalone drill set, not tied to any lesson. Closes out the Adjektivdeklination topic with two pieces: quantifiers before a Plural noun split into two groups — alle/beide act like a der-word, so the adjective after them takes the WEAK ending -en (alle guten Freunde); viele/einige/wenige/manche don't, so the adjective takes the STRONG ending -e in Nominativ/Akkusativ (viele gute Freunde, not viele guten Freunde) — and Partizip I (-end, \"the laughing man\") / Partizip II (\"the written letter\") used as adjectives, which decline exactly like any other adjective once formed. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung — a full-topic mix. Answers in solutions.md.\n",
+  "lesson": "EX/05-adjektivdeklination-b2",
+  "level": "B2",
+  "summary": null,
+  "title": "Adjektive nach Quantoren & Partizipien als Adjektive — B2",
+  "topic": "Adjektivdeklination (schwach, gemischt, stark)"
+}

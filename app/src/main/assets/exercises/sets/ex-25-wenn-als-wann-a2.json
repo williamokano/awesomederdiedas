@@ -1,0 +1,832 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Als"
+          ],
+          "2": [
+            "Wann"
+          ],
+          "3": [
+            "wenn"
+          ],
+          "4": [
+            "Als"
+          ],
+          "5": [
+            "wann"
+          ],
+          "6": [
+            "Wenn"
+          ],
+          "7": [
+            "Als"
+          ],
+          "8": [
+            "wenn"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} ich ein Kind war, hatten wir einen Hund.\n2. {2} kommt der nächste Bus?\n3. Immer {3} es regnet, nehme ich den Bus.\n4. {4} ich gestern nach Hause kam, war niemand da.\n5. Weißt du, {5} der Film anfängt?\n6. {6} ich Zeit habe, besuche ich meine Oma.\n7. {7} wir in Berlin ankamen, hat es geschneit.\n8. Ich rufe dich an, {8} ich fertig bin.\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Ergänze wenn, als oder wann.",
+      "instructionsEn": "Fill in wenn, als, or wann.",
+      "title": "wenn, als oder wann?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "als",
+            "label": "als — einmal in der Vergangenheit"
+          },
+          {
+            "key": "wenn",
+            "label": "wenn — wiederholt / Bedingung / Zukunft"
+          },
+          {
+            "key": "wann",
+            "label": "wann — (indirekte) Frage"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "als",
+            "text": "Als ich 18 wurde, habe ich den Führerschein gemacht."
+          },
+          {
+            "bucket": "als",
+            "text": "Als der Krieg zu Ende war, kam mein Opa zurück."
+          },
+          {
+            "bucket": "als",
+            "text": "Als wir uns kennenlernten, wohnte ich in Köln."
+          },
+          {
+            "bucket": "wenn",
+            "text": "Immer wenn ich Kaffee trinke, kann ich nicht schlafen."
+          },
+          {
+            "bucket": "wenn",
+            "text": "Wenn das Wetter schön ist, gehen wir spazieren."
+          },
+          {
+            "bucket": "wenn",
+            "text": "Ruf mich an, wenn du angekommen bist."
+          },
+          {
+            "bucket": "wann",
+            "text": "Kannst du mir sagen, wann die Bank aufmacht?"
+          },
+          {
+            "bucket": "wann",
+            "text": "Ich weiß nicht, wann der Zug fährt."
+          },
+          {
+            "bucket": "wann",
+            "text": "Wann hast du Geburtstag?"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A2",
+      "instructions": "Ordne jeden Satz der richtigen Gruppe zu.",
+      "instructionsEn": "Sort each sentence into the correct group.",
+      "title": "Einmal, wiederholt oder Frage?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Als ich klein war, hatte ich Angst vor Hunden.",
+            "tiles": [
+              "Als",
+              "ich",
+              "klein",
+              "war,",
+              "hatte ich Angst vor Hunden."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Wenn ich am Wochenende frei habe, schlafe ich lange.",
+            "tiles": [
+              "Wenn",
+              "ich",
+              "am Wochenende",
+              "frei habe,",
+              "schlafe ich lange."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Ich freue mich, wenn du mich besuchst.",
+            "tiles": [
+              "Ich freue mich,",
+              "wenn",
+              "du",
+              "mich",
+              "besuchst."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Als der Film zu Ende war, sind alle gegangen.",
+            "tiles": [
+              "Als",
+              "der Film",
+              "zu Ende",
+              "war,",
+              "sind alle gegangen."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A3",
+      "instructions": "Bring die Kacheln in die richtige Reihenfolge. Nach als und wenn steht das Verb am Ende des Nebensatzes.",
+      "instructionsEn": "Put the tiles in order. After als and wenn the verb goes to the end of the clause.",
+      "title": "Nebensatz mit als / wenn — Verb am Ende"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Als"
+          ],
+          "2": [
+            "wann"
+          ],
+          "3": [
+            "Als"
+          ],
+          "4": [
+            "wenn"
+          ],
+          "5": [
+            "wenn"
+          ],
+          "6": [
+            "wenn"
+          ],
+          "7": [
+            "wann"
+          ],
+          "8": [
+            "Wenn"
+          ]
+        },
+        "bank": [
+          "Als",
+          "wann",
+          "Als",
+          "wenn",
+          "wenn",
+          "wenn",
+          "wann",
+          "Wenn",
+          "weil",
+          "dass"
+        ],
+        "text": "{1} ich acht Jahre alt war, sind wir nach Hamburg gezogen. Ich\nweiß noch, {2} der Umzugswagen kam: früh am Morgen. {3} wir alles\neingeladen hatten, haben wir uns von den Nachbarn verabschiedet.\nMeine Mutter hat gesagt: \"Ruf an, {4} wir angekommen sind.\" Heute\nbesuche ich meine alte Straße, {5} ich in der Nähe bin. Und immer\n{6} ich alte Fotos sehe, muss ich an diesen Tag denken. Manchmal\nfragen mich Freunde, {7} das genau war. {8} ich das erzähle,\nlächeln alle.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter bleiben übrig.",
+      "instructionsEn": "Fill the 8 gaps with the words from the box. Two words are left over.",
+      "title": "Lückentext: Ein Umzug"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wenn"
+              },
+              {
+                "key": "b",
+                "text": "Als"
+              },
+              {
+                "key": "c",
+                "text": "Wann"
+              }
+            ],
+            "q": "___ ich gestern aufwachte, schien die Sonne.",
+            "why": "Einmaliges Ereignis in der Vergangenheit → als."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Als"
+              },
+              {
+                "key": "b",
+                "text": "Wann"
+              },
+              {
+                "key": "c",
+                "text": "Wenn"
+              }
+            ],
+            "q": "___ ich morgens aufwache, trinke ich zuerst einen Tee.",
+            "why": "Etwas, das sich jeden Tag wiederholt → wenn."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wann"
+              },
+              {
+                "key": "b",
+                "text": "als"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Ich weiß nicht, ___ der Supermarkt heute schließt.",
+            "why": "Indirekte Frage → wann."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wenn"
+              },
+              {
+                "key": "b",
+                "text": "Wann"
+              },
+              {
+                "key": "c",
+                "text": "Als"
+              }
+            ],
+            "q": "___ meine Großeltern jung waren, gab es noch kein Internet.",
+            "why": "Ein Zeitraum / Zustand in der Vergangenheit, einmal → als."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wann"
+              },
+              {
+                "key": "b",
+                "text": "Als"
+              },
+              {
+                "key": "c",
+                "text": "Wenn"
+              }
+            ],
+            "q": "___ hast du das letzte Mal Urlaub gemacht?",
+            "why": "Direkte Frage → Wann."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Als"
+              },
+              {
+                "key": "b",
+                "text": "Wenn"
+              },
+              {
+                "key": "c",
+                "text": "Wann"
+              }
+            ],
+            "q": "___ es im Sommer heiß ist, gehen wir oft schwimmen.",
+            "why": "Wiederholung (jeden Sommer) → wenn."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Als"
+              },
+              {
+                "key": "b",
+                "text": "Wenn"
+              },
+              {
+                "key": "c",
+                "text": "Wann"
+              }
+            ],
+            "q": "___ ich zum ersten Mal in Deutschland war, konnte ich kein Wort Deutsch.",
+            "why": "Einmaliges Ereignis in der Vergangenheit → als."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "als"
+              },
+              {
+                "key": "b",
+                "text": "wann"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Kannst du mir sagen, ___ der Kurs beginnt?",
+            "why": "Indirekte Frage → wann."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Lösung (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Warum wenn, als oder wann?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wenn"
+              },
+              {
+                "key": "b",
+                "text": "Wann"
+              },
+              {
+                "key": "c",
+                "text": "Als"
+              }
+            ],
+            "q": "___ ich in die Schule kam, konnte ich schon lesen.",
+            "why": "Einmaliges Ereignis früher → als."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "als"
+              },
+              {
+                "key": "b",
+                "text": "wenn"
+              },
+              {
+                "key": "c",
+                "text": "wann"
+              }
+            ],
+            "q": "Immer ___ Oma uns besuchte, brachte sie Kuchen mit.",
+            "why": "Wiederholte Handlung in der Vergangenheit → (immer) wenn."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "als"
+              },
+              {
+                "key": "b",
+                "text": "wenn"
+              },
+              {
+                "key": "c",
+                "text": "wann"
+              }
+            ],
+            "q": "Ich habe vergessen, ___ der Zug abfährt.",
+            "why": "Indirekte Frage → wann."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wenn"
+              },
+              {
+                "key": "b",
+                "text": "Als"
+              },
+              {
+                "key": "c",
+                "text": "Wann"
+              }
+            ],
+            "q": "___ ich nächstes Jahr Geld gespart habe, mache ich eine Reise.",
+            "why": "Bedingung in der Zukunft → wenn."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Als"
+              },
+              {
+                "key": "b",
+                "text": "Wenn"
+              },
+              {
+                "key": "c",
+                "text": "Wann"
+              }
+            ],
+            "q": "___ war eigentlich dein letzter Arbeitstag?",
+            "why": "Direkte Frage → Wann."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wenn"
+              },
+              {
+                "key": "b",
+                "text": "Als"
+              },
+              {
+                "key": "c",
+                "text": "Wann"
+              }
+            ],
+            "q": "___ das Erdbeben kam, waren wir gerade im Kino.",
+            "why": "Ein einmaliges Ereignis in der Vergangenheit → als."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wann"
+              },
+              {
+                "key": "b",
+                "text": "als"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Sag mir bitte, ___ du zu Hause bist.",
+            "why": "Indirekte Frage nach dem Zeitpunkt → wann. (Mit wenn hieße es: sobald du zu Hause bist.)"
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Als"
+              },
+              {
+                "key": "b",
+                "text": "Wenn"
+              },
+              {
+                "key": "c",
+                "text": "Wann"
+              }
+            ],
+            "q": "___ ich krank bin, bleibe ich im Bett.",
+            "why": "Allgemeine Wiederholung / Bedingung → wenn."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle für jede Lücke die richtige Lösung (a, b oder c).",
+      "instructionsEn": "Choose the correct option for each gap (a, b, or c).",
+      "title": "Sprachbausteine Teil 1 — Erinnerungen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Als"
+          ],
+          "2": [
+            "wann"
+          ],
+          "3": [
+            "Als"
+          ],
+          "4": [
+            "wenn"
+          ],
+          "5": [
+            "Als"
+          ],
+          "6": [
+            "wenn"
+          ],
+          "7": [
+            "Als"
+          ],
+          "8": [
+            "wann"
+          ],
+          "9": [
+            "Wenn"
+          ],
+          "10": [
+            "wann"
+          ]
+        },
+        "bank": [
+          "Als",
+          "wann",
+          "Als",
+          "wenn",
+          "Als",
+          "wenn",
+          "Als",
+          "wann",
+          "Wenn",
+          "wann",
+          "weil",
+          "dass",
+          "obwohl"
+        ],
+        "text": "{1} ich mit der Schule fertig war, habe ich ein Praktikum gemacht.\nIch erinnere mich genau, {2} mein erster Tag war: ein Montag im\nSeptember. {3} ich morgens ankam, war ich sehr nervös. Meine Chefin\nsagte: \"Frag mich, {4} du etwas nicht verstehst.\" {5} ich eine\nPause machte, zeigten mir die Kollegen die Kantine. Und immer {6}\nich einen Fehler machte, halfen sie mir. {7} die Woche zu Ende war,\nwar ich müde, aber glücklich. Heute weiß ich noch, {8} ich zum\nersten Mal allein etwas geschafft habe. {9} Freunde mich fragen,\n{10} das war, sage ich: an einem Freitagnachmittag.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fülle die 10 Lücken. Drei Wörter im Kasten bleiben übrig.",
+      "instructionsEn": "Fill the 10 gaps. Three words in the box are left over.",
+      "title": "Sprachbausteine Teil 2 — Mein erster Job (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Als ich 16 war, habe ich Gitarre gelernt.",
+            "tiles": [
+              "Als",
+              "ich",
+              "16",
+              "war,",
+              "habe ich Gitarre gelernt."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Wenn das Telefon klingelt, geht mein Bruder ran.",
+            "tiles": [
+              "Wenn",
+              "das Telefon",
+              "klingelt,",
+              "geht mein Bruder ran."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Ich weiß nicht, wann der Arzt wieder da ist.",
+            "tiles": [
+              "Ich weiß nicht,",
+              "wann",
+              "der Arzt",
+              "wieder",
+              "da ist."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Wir waren im Garten, als es zu regnen anfing.",
+            "tiles": [
+              "Wir waren im Garten,",
+              "als",
+              "es",
+              "zu regnen",
+              "anfing."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "D1",
+      "instructions": "Bring die Kacheln in die richtige Reihenfolge.",
+      "instructionsEn": "Put the tiles in the correct order.",
+      "title": "Wiederholung: Satzbau"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wenn"
+              },
+              {
+                "key": "b",
+                "text": "Wann"
+              },
+              {
+                "key": "c",
+                "text": "Als"
+              }
+            ],
+            "q": "___ ich letzten Sommer in Spanien war, habe ich viel Spanisch gehört.",
+            "why": "Einmal, in der Vergangenheit → als."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wenn"
+              },
+              {
+                "key": "b",
+                "text": "Als"
+              },
+              {
+                "key": "c",
+                "text": "Wann"
+              }
+            ],
+            "q": "___ du Hilfe brauchst, sag einfach Bescheid.",
+            "why": "Bedingung → wenn."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "als"
+              },
+              {
+                "key": "b",
+                "text": "wenn"
+              },
+              {
+                "key": "c",
+                "text": "wann"
+              }
+            ],
+            "q": "Weißt du, ___ die Post heute kommt?",
+            "why": "Indirekte Frage → wann."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wenn"
+              },
+              {
+                "key": "b",
+                "text": "als"
+              },
+              {
+                "key": "c",
+                "text": "wann"
+              }
+            ],
+            "q": "Jedes Mal, ___ ich diesen Song höre, denke ich an dich.",
+            "why": "Wiederholung → (jedes Mal) wenn."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Als"
+              },
+              {
+                "key": "b",
+                "text": "Wann"
+              },
+              {
+                "key": "c",
+                "text": "Wenn"
+              }
+            ],
+            "q": "___ war das Konzert — am Samstag oder am Sonntag?",
+            "why": "Direkte Frage → Wann."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Als"
+              },
+              {
+                "key": "b",
+                "text": "Wenn"
+              },
+              {
+                "key": "c",
+                "text": "Wann"
+              }
+            ],
+            "q": "___ der Strom ausfiel, saßen wir im Dunkeln.",
+            "why": "Ein einmaliges Ereignis in der Vergangenheit → als."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Wähle die richtige Lösung (a, b oder c). Das ist dein Abschlusscheck für dieses Set.",
+      "instructionsEn": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-25-wenn-als-wann-a2",
+  "intro": "Drei Wörter, die im Deutschen streng getrennt sind, im Englischen aber oft alle \"when\" heißen. als = ein einmaliges Ereignis in der Vergangenheit (Als ich zehn war, sind wir umgezogen.). wenn = etwas, das sich wiederholt (immer wenn …) oder eine Bedingung / ein Zeitpunkt in Gegenwart und Zukunft (Wenn ich Zeit habe, rufe ich dich an.). wann = das Fragewort, direkt (Wann kommst du?) und indirekt (Ich weiß nicht, wann er kommt.). wenn und als sind Nebensatz-Konjunktionen: das Verb steht am Ende. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/25-wenn-als-wann-a2",
+  "level": "A2",
+  "summary": null,
+  "title": "wenn, als, wann — A2",
+  "topic": "wenn / als / wann"
+}

@@ -1,0 +1,822 @@
+{
+  "category": "Einkaufen",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "fragen",
+            "label": "Fragen"
+          },
+          {
+            "key": "zustand",
+            "label": "Zustand prüfen"
+          },
+          {
+            "key": "verhandeln",
+            "label": "Verhandeln"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "fragen",
+            "text": "Was kostet das?"
+          },
+          {
+            "bucket": "zustand",
+            "text": "der Kratzer"
+          },
+          {
+            "bucket": "verhandeln",
+            "text": "der Preisnachlass"
+          },
+          {
+            "bucket": "fragen",
+            "text": "Funktioniert das noch?"
+          },
+          {
+            "bucket": "zustand",
+            "text": "gebraucht"
+          },
+          {
+            "bucket": "verhandeln",
+            "text": "ein Gegenangebot machen"
+          },
+          {
+            "bucket": "fragen",
+            "text": "Ist da noch was drin?"
+          },
+          {
+            "bucket": "zustand",
+            "text": "der Riss im Stoff"
+          },
+          {
+            "bucket": "verhandeln",
+            "text": "sich einigen"
+          },
+          {
+            "bucket": "fragen",
+            "text": "Woher haben Sie das?"
+          },
+          {
+            "bucket": "zustand",
+            "text": "der fehlende Knopf"
+          },
+          {
+            "bucket": "verhandeln",
+            "text": "das letzte Angebot"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Fragen, Zustand oder Verhandeln?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "handeln"
+          },
+          {
+            "key": "2",
+            "text": "der Preisnachlass"
+          },
+          {
+            "key": "3",
+            "text": "der Zustand"
+          },
+          {
+            "key": "4",
+            "text": "gebraucht"
+          },
+          {
+            "key": "5",
+            "text": "der Kratzer"
+          },
+          {
+            "key": "6",
+            "text": "sich einigen"
+          },
+          {
+            "key": "7",
+            "text": "das letzte Angebot"
+          },
+          {
+            "key": "8",
+            "text": "der Stand"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "über den Preis verhandeln"
+          },
+          {
+            "key": "b",
+            "text": "wie viel man vom Preis abzieht"
+          },
+          {
+            "key": "c",
+            "text": "wie gut oder schlecht etwas erhalten ist"
+          },
+          {
+            "key": "d",
+            "text": "nicht neu, schon einmal benutzt"
+          },
+          {
+            "key": "e",
+            "text": "eine kleine Beschädigung auf der Oberfläche"
+          },
+          {
+            "key": "f",
+            "text": "gemeinsam zu einem Ergebnis kommen"
+          },
+          {
+            "key": "g",
+            "text": "der niedrigste Preis, den man noch bietet"
+          },
+          {
+            "key": "h",
+            "text": "der kleine Tisch mit den Waren zum Verkauf"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Können"
+          ],
+          "2": [
+            "teuer"
+          ],
+          "3": [
+            "weniger"
+          ],
+          "4": [
+            "Können"
+          ],
+          "5": [
+            "bestes"
+          ],
+          "6": [
+            "muss"
+          ],
+          "7": [
+            "mehr"
+          ],
+          "8": [
+            "Können"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Sie mir einen besseren Preis machen? (können, Sie-Form)\n2. Zehn Euro sind mir zu {2}, wie wäre es mit sieben? (viel, Komparativ)\n3. Dieser Kratzer macht die Lampe {3} wert. (wenig, Komparativ)\n4. {4} wir uns auf acht Euro einigen? (können, wir-Form)\n5. Das ist mein {5} Angebot, mehr geht nicht. (gut, Superlativ)\n6. Ich {6} noch etwas nachdenken, bevor ich kaufe. (müssen)\n7. Ohne den Kratzer wäre die Vase {7} wert. (viel, Komparativ)\n8. {8} Sie das noch etwas günstiger machen? (können, Sie-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze die Komparativform oder das Modalverb.",
+      "instructionsEn": "Fill in the comparative form or the modal verb.",
+      "title": "Nach dem Preis fragen und handeln"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Zustand"
+          ],
+          "2": [
+            "Kratzer"
+          ],
+          "3": [
+            "Preisnachlass"
+          ],
+          "4": [
+            "Stand"
+          ],
+          "5": [
+            "geeinigt"
+          ],
+          "6": [
+            "Angebot"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der {1} für diesen Teppich ist ziemlich gut. (wie gut etwas erhalten ist)\n2. Auf der Vase ist ein kleiner {2}. (eine kleine Beschädigung)\n3. Wäre ein {3} von zwei Euro möglich? (die Preisminderung)\n4. Am {4} nebenan gibt es alte Bücher. (der kleine Tisch mit den Waren)\n5. Nach kurzem Verhandeln haben wir uns {5}. (gemeinsam zu einem Ergebnis gekommen)\n6. Das ist mein letztes {6}, mehr geht nicht. (das, was man anbietet)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "KOSTET"
+          ],
+          "2": [
+            "ZUSTAND"
+          ],
+          "3": [
+            "ANSEHEN"
+          ],
+          "4": [
+            "KRATZER"
+          ],
+          "5": [
+            "BEMERKT"
+          ],
+          "6": [
+            "WENIG"
+          ],
+          "7": [
+            "TREFFEN"
+          ],
+          "8": [
+            "EINIGEN"
+          ],
+          "9": [
+            "DANK"
+          ],
+          "10": [
+            "SCHÖNEN"
+          ]
+        },
+        "bank": [
+          "KOSTET",
+          "ZUSTAND",
+          "ANSEHEN",
+          "KRATZER",
+          "BEMERKT",
+          "WENIG",
+          "TREFFEN",
+          "EINIGEN",
+          "DANK",
+          "SCHÖNEN",
+          "GEBRAUCHT",
+          "REPARIEREN",
+          "RABATT",
+          "ANGEBOT"
+        ],
+        "text": "— Was {1} diese Lampe?\n— Zehn Euro, sie ist noch in gutem {2}.\n— Darf ich sie mir kurz {3}?\n— Klar, bitte sehr.\n— Hier ist ein kleiner {4}, sehen Sie?\n— Stimmt, den hatte ich gar nicht {5}.\n— Wären fünf Euro in Ordnung?\n— Das ist mir etwas zu {6}, wie wäre es mit acht?\n— Könnten wir uns bei sieben {7}?\n— Einverstanden, {8} wir uns bei sieben.\n— Super, hier ist das Geld, vielen {9}.\n— Gern, und {10} Tag noch!\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Am Flohmarktstand"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Was kostet diese Lampe?"
+              },
+              {
+                "key": "b",
+                "text": "Geben Sie mir einen Preis."
+              },
+              {
+                "key": "c",
+                "text": "Preise interessieren mich nicht."
+              }
+            ],
+            "q": "Du möchtest wissen, was etwas kostet. — You want to know what something costs.",
+            "why": "Eine einfache, direkte Frage ist am Flohmarktstand völlig normal."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich nehme sie einfach, ohne hinzuschauen."
+              },
+              {
+                "key": "b",
+                "text": "Darf ich sie mir kurz ansehen?"
+              },
+              {
+                "key": "c",
+                "text": "Zeigen Sie mir sofort alle Mängel."
+              }
+            ],
+            "q": "Du möchtest den Gegenstand genauer prüfen, bevor du kaufst. — You want to inspect the item more closely before buying.",
+            "why": "Höflich um einen genaueren Blick zu bitten ist beim Handeln völlig üblich."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist viel zu teuer, unverschämt!"
+              },
+              {
+                "key": "b",
+                "text": "Ich zahle, was Sie wollen."
+              },
+              {
+                "key": "c",
+                "text": "Wären fünf Euro in Ordnung?"
+              }
+            ],
+            "q": "Du möchtest ein niedrigeres Preisangebot machen. — You want to make a lower offer.",
+            "why": "Ein konkretes, höfliches Gegenangebot ist der Standardweg beim Handeln."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Könnten wir uns bei sieben treffen?"
+              },
+              {
+                "key": "b",
+                "text": "Vergessen Sie's, das lohnt sich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Dann eben nicht, und weggehen ohne ein Wort."
+              }
+            ],
+            "q": "Der Verkäufer schlägt einen Preis vor, der dir noch zu hoch ist. — The seller suggests a price that's still too high for you.",
+            "why": "Ein weiteres, moderates Gegenangebot hält das Gespräch freundlich und konstruktiv."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Na endlich, das hat lange gedauert."
+              },
+              {
+                "key": "b",
+                "text": "Super, hier ist das Geld, vielen Dank."
+              },
+              {
+                "key": "c",
+                "text": "Ich überlege es mir noch mal."
+              }
+            ],
+            "q": "Ihr habt euch auf einen Preis geeinigt. — You've agreed on a price.",
+            "why": "Ein freundlicher Abschluss mit Dank ist der übliche Schritt nach der Einigung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Herkunft interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Das sieht sowieso gestohlen aus."
+              },
+              {
+                "key": "c",
+                "text": "Woher haben Sie das denn?"
+              }
+            ],
+            "q": "Du möchtest den Verkäufer fragen, woher ein Gegenstand kommt. — You want to ask the seller where an item is from.",
+            "why": "Eine freundliche Nachfrage zur Herkunft ist normaler Smalltalk beim Stöbern."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Höflich handeln"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "kurze Frage, Verb an Position 2",
+            "tiles": [
+              "Was",
+              "kostet",
+              "diese",
+              "Lampe",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Bitte, trennbares Verb am Ende",
+            "tiles": [
+              "Darf",
+              "ich",
+              "sie",
+              "mir",
+              "kurz",
+              "ansehen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Konjunktiv-II-Frage, höfliches Gegenangebot",
+            "tiles": [
+              "Wären",
+              "fünf",
+              "Euro",
+              "in",
+              "Ordnung",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "reflexives Verb, Infinitiv am Ende",
+            "tiles": [
+              "Könnten",
+              "wir",
+              "uns",
+              "bei",
+              "sieben",
+              "treffen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Konjunktiv II, hypothetischer Vergleich",
+            "tiles": [
+              "Ohne",
+              "den",
+              "Kratzer",
+              "wäre",
+              "die",
+              "Vase",
+              "mehr",
+              "wert"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "freundlicher Abschluss des Handels",
+            "tiles": [
+              "Hier",
+              "ist",
+              "das",
+              "Geld",
+              ",",
+              "vielen",
+              "Dank"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze beim Handeln bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Käufer müssen Eintritt zahlen. — Buyers must pay admission.",
+            "why": "Käufer haben freien Eintritt, nur Verkäufer zahlen die Standgebühr."
+          },
+          {
+            "answer": true,
+            "q": "Der Markt öffnet um acht Uhr. — The market opens at eight.",
+            "why": "So steht es ausdrücklich im Aushang."
+          },
+          {
+            "answer": false,
+            "q": "Handeln ist unerwünscht. — Haggling is unwelcome.",
+            "why": "Handeln ist ausdrücklich erwünscht."
+          },
+          {
+            "answer": false,
+            "q": "Man kann Ware nach dem Kauf zurückgeben. — Goods can be returned after purchase.",
+            "why": "Es gibt keine Rückgabe, die Ware wird „wie gesehen“ verkauft."
+          },
+          {
+            "answer": false,
+            "q": "Alle Stände akzeptieren nur Bargeld. — All stalls only accept cash.",
+            "why": "Manche Stände akzeptieren auch mobiles Bezahlen."
+          },
+          {
+            "answer": true,
+            "q": "Bei Streit hilft das Standpersonal am Infopunkt. — In case of dispute, stall staff at the info point help.",
+            "why": "„Bei Streit … hilft das Standpersonal am Infopunkt.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Flohmarkt Stadtplatz — Hinweise für Besucher**\n>\n> - Standgebühr für Verkäufer: **10 € pro Tag**, Käufer haben\n>   **freien Eintritt**.\n> - Der Markt öffnet um **8 Uhr**, letzter Einlass **13 Uhr**.\n> - **Handeln ist ausdrücklich erwünscht** — die meisten Preise\n>   sind Verhandlungssache.\n> - **Keine Rückgabe:** Ware wird „wie gesehen“ verkauft, bitte\n>   vorher genau prüfen.\n> - **Bargeld** ist üblich, manche Stände akzeptieren auch\n>   mobiles Bezahlen.\n> - Bei **Streit** zwischen Käufer und Verkäufer hilft das\n>   Standpersonal am Infopunkt.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Den Aushang am Flohmarkteingang lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Preis akzeptieren oder freundlich weiterziehen."
+              },
+              {
+                "key": "b",
+                "text": "Lauter werden, um ihn zu überzeugen."
+              },
+              {
+                "key": "c",
+                "text": "Die Ware einfach mitnehmen, ohne zu zahlen."
+              }
+            ],
+            "q": "Der Verkäufer will überhaupt nicht mit sich verhandeln lassen. — The seller won't negotiate at all.",
+            "why": "Nicht jeder Verkäufer verhandelt — den Preis zu akzeptieren oder weiterzuziehen ist die einzig faire Reaktion."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach mehr zahlen, ohne zu fragen."
+              },
+              {
+                "key": "b",
+                "text": "Fragen, ob der Verkäufer wechseln kann."
+              },
+              {
+                "key": "c",
+                "text": "Den Kauf ohne Erklärung abbrechen."
+              }
+            ],
+            "q": "Du hast kein passendes Kleingeld dabei. — You don't have the right change.",
+            "why": "Nach Wechselgeld zu fragen ist unkompliziert und meist kein Problem."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zurück zum Stand gehen und laut Geld zurückverlangen."
+              },
+              {
+                "key": "b",
+                "text": "Den Verkäufer online schlechtmachen."
+              },
+              {
+                "key": "c",
+                "text": "Es als Teil des Flohmarkt-Risikos akzeptieren, da es keine Rückgabe gibt."
+              }
+            ],
+            "q": "Zu Hause fällt dir ein Mangel auf, den du vorher nicht gesehen hast. — At home you notice a defect you didn't see before.",
+            "why": "Auf dem Flohmarkt gilt meist „gekauft wie gesehen“ — den Mangel zu akzeptieren ist realistisch."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Freundlich fragen, wer zuerst da war."
+              },
+              {
+                "key": "b",
+                "text": "Die Sache einfach wegreißen."
+              },
+              {
+                "key": "c",
+                "text": "Laut streiten."
+              }
+            ],
+            "q": "Ein anderer Käufer greift nach derselben Sache wie du. — Another buyer reaches for the same item as you.",
+            "why": "Eine freundliche Klärung, wer zuerst war, verhindert unnötigen Streit."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das akzeptieren und dich woanders umsehen."
+              },
+              {
+                "key": "b",
+                "text": "Darauf bestehen, dass du sie trotzdem bekommst."
+              },
+              {
+                "key": "c",
+                "text": "Die Sache einfach nehmen und Geld hinlegen."
+              }
+            ],
+            "q": "Der Verkäufer sagt, die Sache sei schon verkauft, obwohl sie noch daliegt. — The seller says the item is already sold, even though it's still there.",
+            "why": "Die Entscheidung des Verkäufers zu akzeptieren ist die einzig höfliche Reaktion."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Freundlich fragen, ob eine Rückgabe ausnahmsweise möglich ist, aber mit Nein rechnen."
+              },
+              {
+                "key": "b",
+                "text": "Das Geld einfach zurückfordern."
+              },
+              {
+                "key": "c",
+                "text": "Die Sache wütend zurückwerfen."
+              }
+            ],
+            "q": "Du bereust den Kauf schon kurz nachdem du bezahlt hast. — You regret the purchase shortly after paying.",
+            "why": "Freundlich zu fragen kostet nichts, aber eine Rückgabe ist auf dem Flohmarkt selten garantiert."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn es beim Handeln nicht rundläuft"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "überhaupt"
+          ],
+          "2": [
+            "Kleingeld"
+          ],
+          "3": [
+            "Mangel"
+          ],
+          "4": [
+            "Käufer"
+          ],
+          "5": [
+            "verkauft"
+          ],
+          "6": [
+            "bereute"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Verkäufer wollte {1} nicht mit sich verhandeln lassen. (gar nicht, absolut nicht)\n2. Ich hatte leider kein passendes {2} dabei. (kleine Münzen zum Wechseln)\n3. Zu Hause ist mir ein {3} aufgefallen, den ich vorher nicht gesehen hatte. (ein Fehler an der Ware)\n4. Ein anderer {4} griff nach derselben Sache wie ich. (die Person, die kauft)\n5. Der Verkäufer sagte, die Sache sei schon {5}. (an jemand anderen gegangen)\n6. Ich {6} den Kauf schon kurz danach. (im Nachhinein leidtun)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Können"
+          ],
+          "2": [
+            "teuer"
+          ],
+          "3": [
+            "Können"
+          ],
+          "4": [
+            "bestes"
+          ],
+          "5": [
+            "Zustand"
+          ],
+          "6": [
+            "Kratzer"
+          ],
+          "7": [
+            "Preisnachlass"
+          ],
+          "8": [
+            "Stand"
+          ],
+          "9": [
+            "geeinigt"
+          ],
+          "10": [
+            "überhaupt"
+          ],
+          "11": [
+            "Kleingeld"
+          ],
+          "12": [
+            "Mangel"
+          ],
+          "13": [
+            "Käufer"
+          ],
+          "14": [
+            "bereute"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Sie mir einen besseren Preis machen? (could)\n2. Zehn Euro sind mir zu {2}. (too much)\n3. {3} wir uns auf acht Euro einigen? (can we)\n4. Das ist mein {4} Angebot. (best — Superlativ)\n5. Der {5} für diesen Teppich ist gut. (condition)\n6. Auf der Vase ist ein kleiner {6}. (scratch)\n7. Wäre ein {7} von zwei Euro möglich? (discount)\n8. Am {8} nebenan gibt es alte Bücher. (stall)\n9. Wir haben uns {9}. (agreed — Partizip)\n10. Der Verkäufer wollte {10} nicht verhandeln. (at all)\n11. Ich hatte kein passendes {11} dabei. (small change)\n12. Zu Hause ist mir ein {12} aufgefallen. (defect)\n13. Ein anderer {13} griff nach derselben Sache. (buyer)\n14. Ich {14} den Kauf schon kurz danach. (regretted)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-56-flohmarkt-a2",
+  "intro": "Auf dem Flohmarkt gehört Handeln dazu — niemand nimmt es übel, wenn man nach einem besseren Preis fragt, solange es freundlich bleibt. Dieses Set übt genau das: den Zustand einer Sache prüfen, nach dem Preis fragen, ein Gegenangebot machen, sich einigen. Dazu, was zu tun ist, wenn ein Mangel erst zu Hause auffällt oder der Verkäufer gar nicht verhandeln will. Grammatik nach Bedarf: Komparativ beim Verhandeln, höfliche Fragen mit Konjunktiv II, Nebensätze mit wenn. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/56-flohmarkt-a2",
+  "level": "A2",
+  "summary": "Den Zustand einer Sache prüfen, nach dem Preis fragen, freundlich handeln und sich auf einen Preis einigen.",
+  "title": "Auf dem Flohmarkt handeln — A2",
+  "topic": "Auf dem Flohmarkt handeln"
+}

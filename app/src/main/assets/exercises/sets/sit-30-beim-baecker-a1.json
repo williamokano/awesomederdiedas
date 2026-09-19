@@ -1,0 +1,802 @@
+{
+  "category": "Essen & Trinken",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "brot",
+            "label": "Brot & Brötchen"
+          },
+          {
+            "key": "suess",
+            "label": "Süßes"
+          },
+          {
+            "key": "trinken",
+            "label": "Zum Trinken"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "brot",
+            "text": "das Brötchen"
+          },
+          {
+            "bucket": "suess",
+            "text": "das Croissant"
+          },
+          {
+            "bucket": "trinken",
+            "text": "der Kaffee"
+          },
+          {
+            "bucket": "brot",
+            "text": "das Vollkornbrot"
+          },
+          {
+            "bucket": "suess",
+            "text": "der Berliner"
+          },
+          {
+            "bucket": "trinken",
+            "text": "der Tee"
+          },
+          {
+            "bucket": "brot",
+            "text": "die Brezel"
+          },
+          {
+            "bucket": "suess",
+            "text": "der Apfelkuchen"
+          },
+          {
+            "bucket": "trinken",
+            "text": "der Orangensaft"
+          },
+          {
+            "bucket": "brot",
+            "text": "das Baguette"
+          },
+          {
+            "bucket": "suess",
+            "text": "das Franzbrötchen"
+          },
+          {
+            "bucket": "trinken",
+            "text": "die heiße Schokolade"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Brot, Süßes oder Getränk?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Guten Morgen, was darf es sein?"
+          },
+          {
+            "key": "2",
+            "text": "Wie viele denn?"
+          },
+          {
+            "key": "3",
+            "text": "Welche Sorte?"
+          },
+          {
+            "key": "4",
+            "text": "Sonst noch etwas?"
+          },
+          {
+            "key": "5",
+            "text": "Zum Hieressen oder zum Mitnehmen?"
+          },
+          {
+            "key": "6",
+            "text": "Das macht 4,80 €."
+          },
+          {
+            "key": "7",
+            "text": "Haben Sie es passend?"
+          },
+          {
+            "key": "8",
+            "text": "Schönen Tag noch!"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Guten Morgen. Ich hätte gern Brötchen, bitte."
+          },
+          {
+            "key": "b",
+            "text": "Sechs, bitte."
+          },
+          {
+            "key": "c",
+            "text": "Drei helle und drei Vollkorn."
+          },
+          {
+            "key": "d",
+            "text": "Ja, einen Kaffee zum Mitnehmen."
+          },
+          {
+            "key": "e",
+            "text": "Zum Mitnehmen, bitte."
+          },
+          {
+            "key": "f",
+            "text": "Hier, bitte."
+          },
+          {
+            "key": "g",
+            "text": "Moment … ja, hier sind 4,80 €."
+          },
+          {
+            "key": "h",
+            "text": "Danke, Ihnen auch!"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jeder Frage der Bäckerin deine Antwort zu.",
+      "instructionsEn": "Match each question from the baker with your answer.",
+      "title": "Was sagt wer?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "sechs"
+          ],
+          "2": [
+            "eine"
+          ],
+          "3": [
+            "einen"
+          ],
+          "4": [
+            "ein"
+          ],
+          "5": [
+            "zwei"
+          ],
+          "6": [
+            "ein"
+          ],
+          "7": [
+            "drei"
+          ],
+          "8": [
+            "vier"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich hätte gern {1} Brötchen. (6)\n2. Und {2} Brezel, bitte. (die Brezel → Akkusativ)\n3. Dazu {3} Kaffee. (der Kaffee → Akkusativ)\n4. Ich nehme {4} Croissant. (das Croissant → Akkusativ)\n5. Bitte {5} Stück Apfelkuchen. (2)\n6. Und {6} Vollkornbrot. (das Brot → Akkusativ)\n7. Haben Sie noch {7} Franzbrötchen? (3)\n8. Das macht {8} Euro achtzig. (4)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze die Zahl als Wort oder den Artikel im Akkusativ.",
+      "instructionsEn": "Fill in the number as a word or the accusative article.",
+      "title": "Zahlen und Artikel"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "gern"
+          ],
+          "2": [
+            "bitte"
+          ],
+          "3": [
+            "Danke"
+          ],
+          "4": [
+            "Guten"
+          ],
+          "5": [
+            "kostet"
+          ],
+          "6": [
+            "Schönen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich hätte {1} zwei Brötchen. (would like)\n2. Sechs Stück, {2}. (please)\n3. {3} schön! (thank you)\n4. {4} Morgen! (good — at the start of the day)\n5. Entschuldigung, was {5} das? (costs)\n6. {6} Tag noch! (have a nice …)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das höfliche Wort.",
+      "instructionsEn": "Fill in the polite word.",
+      "title": "Bitte, danke, gern"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "MORGEN"
+          ],
+          "2": [
+            "HÄTTE"
+          ],
+          "3": [
+            "VIELE"
+          ],
+          "4": [
+            "STÜCK"
+          ],
+          "5": [
+            "SORTE"
+          ],
+          "6": [
+            "VOLLKORN"
+          ],
+          "7": [
+            "EINEN"
+          ],
+          "8": [
+            "KOSTET"
+          ],
+          "9": [
+            "PASSEND"
+          ],
+          "10": [
+            "TAG"
+          ]
+        },
+        "bank": [
+          "MORGEN",
+          "HÄTTE",
+          "VIELE",
+          "STÜCK",
+          "SORTE",
+          "VOLLKORN",
+          "EINEN",
+          "KOSTET",
+          "PASSEND",
+          "TAG",
+          "ABEND",
+          "BROT",
+          "GERN",
+          "GROSS"
+        ],
+        "text": "— Guten {1}, was darf es sein?\n— Guten Morgen. Ich {2} gern Brötchen, bitte.\n— Wie {3} denn?\n— Sechs {4}.\n— Welche {5}?\n— Drei helle und drei {6}.\n— Gern. Sonst noch etwas?\n— Ja, {7} Kaffee zum Mitnehmen.\n— Klein oder groß?\n— Klein, bitte. Was {8} das zusammen?\n— 4,80 €. Haben Sie es {9}?\n— Moment … ja, hier.\n— Danke schön. Schönen {10} noch!\n— Danke, Ihnen auch!\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Kurz vor acht"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Guten Morgen. Ich hätte gern sechs Brötchen, bitte."
+              },
+              {
+                "key": "b",
+                "text": "Brötchen."
+              },
+              {
+                "key": "c",
+                "text": "Sechs."
+              }
+            ],
+            "q": "Du kommst rein und bist dran. — You come in and it's your turn.",
+            "why": "Gruß, Wunsch und bitte — das ist der ganze Satz, und er passt jeden Morgen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das da."
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, wie heißt das da vorne?"
+              },
+              {
+                "key": "c",
+                "text": "Ich will das."
+              }
+            ],
+            "q": "Du weißt nicht, wie die Sorte heißt. — You don't know the name of the type.",
+            "why": "Nach dem Wort fragen, statt nur zu zeigen — so lernst du es beim zweiten Mal."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wie teuer?"
+              },
+              {
+                "key": "b",
+                "text": "Geld?"
+              },
+              {
+                "key": "c",
+                "text": "Was kostet das, bitte?"
+              }
+            ],
+            "q": "Du willst wissen, was es kostet. — You want to know the price.",
+            "why": "„Was kostet das?“ ist die Standardfrage — kurz, vollständig und höflich."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nein, danke. Das ist alles."
+              },
+              {
+                "key": "b",
+                "text": "Nein."
+              },
+              {
+                "key": "c",
+                "text": "Fertig."
+              }
+            ],
+            "q": "Die Bäckerin fragt: „Sonst noch etwas?“ Du willst nichts mehr. — You don't want anything else.",
+            "why": "„Das ist alles“ schließt die Bestellung ab; ein bloßes Nein wirkt abrupt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nehmen Sie."
+              },
+              {
+                "key": "b",
+                "text": "Hier, bitte — passend."
+              },
+              {
+                "key": "c",
+                "text": "Geld."
+              }
+            ],
+            "q": "Du willst zahlen und hast es passend. — You want to pay and have the exact amount.",
+            "why": "„Passend“ ist das Wort dafür; die Bäckerin muss dann kein Wechselgeld suchen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Tschüss."
+              },
+              {
+                "key": "b",
+                "text": "Danke, schönen Tag noch! — Auf Wiedersehen."
+              },
+              {
+                "key": "c",
+                "text": "Bis dann."
+              }
+            ],
+            "q": "Du gehst und willst dich verabschieden. — You're leaving and want to say goodbye.",
+            "why": "Danke plus Tageswunsch plus Gruß — die vollständige Verabschiedung im Laden."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Was sagst du?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "hätte gern — die höfliche Standardformel",
+            "tiles": [
+              "Ich",
+              "hätte",
+              "gern",
+              "sechs",
+              "Brötchen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "W-Frage: Fragewort, dann Verb",
+            "tiles": [
+              "Was",
+              "kostet",
+              "das",
+              ",",
+              "bitte",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Am Tresen reicht die kurze Form ohne Verb",
+            "tiles": [
+              "Drei",
+              "helle",
+              "und",
+              "drei",
+              "Vollkorn",
+              ",",
+              "bitte"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Der Standardsatz zum Abschluss der Bestellung",
+            "tiles": [
+              "Nein",
+              "danke",
+              ",",
+              "das",
+              "ist",
+              "alles"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Ja/Nein-Frage: Verb an Position 1",
+            "tiles": [
+              "Haben",
+              "Sie",
+              "noch",
+              "Brezeln",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Akkusativ: einen schönen Tag — das einen fällt weg",
+            "tiles": [
+              "Schönen",
+              "Tag",
+              "noch",
+              "!"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze beim Bäcker bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Samstags kann man um 14 Uhr einkaufen. — On Saturday you can shop at 2 pm.",
+            "why": "Samstags ist nur bis 13 Uhr geöffnet."
+          },
+          {
+            "answer": true,
+            "q": "Sonntags gibt es keinen Kuchen. — There's no cake on Sundays.",
+            "why": "„Sonntags nur Brot und Brötchen, kein Kuchen.“"
+          },
+          {
+            "answer": false,
+            "q": "Für Samstag kann man am Freitagabend um 19 Uhr vorbestellen. — You can preorder for Saturday at 7 pm on Friday.",
+            "why": "Vorbestellungen nur bis Freitag 17 Uhr."
+          },
+          {
+            "answer": false,
+            "q": "Zwei Brötchen für 1,20 € kann man mit Karte zahlen. — Two rolls for €1.20 can be paid by card.",
+            "why": "Kartenzahlung gibt es erst ab 5 €."
+          },
+          {
+            "answer": true,
+            "q": "Mit eigenem Becher ist der Kaffee billiger. — With your own cup the coffee is cheaper.",
+            "why": "„mit eigenem Becher 30 Cent günstiger“."
+          },
+          {
+            "answer": true,
+            "q": "Montags früh um sieben sind die Brötchen schon da. — At 7 am on Monday the rolls are already there.",
+            "why": "Brötchen sind ab 6 Uhr frisch, geöffnet ist ab 6 Uhr."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Bäckerei Sommer**\n>\n> | | |\n> |---|---|\n> | Mo–Fr | 6–18 Uhr |\n> | Sa | 6–13 Uhr |\n> | So | 7–11 Uhr |\n>\n> Brötchen **ab 6 Uhr** frisch. Sonntags nur **Brot und\n> Brötchen**, kein Kuchen.\n>\n> **Vorbestellungen** für Samstag bis **Freitag 17 Uhr**.\n>\n> **Kartenzahlung ab 5 €.**\n>\n> Kaffee zum Mitnehmen: **mit eigenem Becher 30 Cent günstiger**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Das Schild an der Tür lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Entschuldigung, noch einmal bitte — langsam."
+              },
+              {
+                "key": "b",
+                "text": "Was?"
+              },
+              {
+                "key": "c",
+                "text": "Ja."
+              }
+            ],
+            "q": "Du verstehst die Frage nicht. — You don't understand the question.",
+            "why": "„Ja“ auf eine unverstandene Frage bringt dir am Ende die falsche Tüte."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Warum nicht?"
+              },
+              {
+                "key": "b",
+                "text": "Schade. Was können Sie mir stattdessen empfehlen?"
+              },
+              {
+                "key": "c",
+                "text": "Dann nichts."
+              }
+            ],
+            "q": "Die Sorte, die du willst, ist aus. — The type you want is sold out.",
+            "why": "Nach einer Empfehlung fragen — so gehst du trotzdem mit Frühstück nach Hause."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie haben falsch gezählt."
+              },
+              {
+                "key": "b",
+                "text": "Nichts sagen."
+              },
+              {
+                "key": "c",
+                "text": "Entschuldigung, ich hatte sechs bestellt — hier sind nur fünf."
+              }
+            ],
+            "q": "In der Tüte ist ein Brötchen zu wenig. — There's one roll missing from the bag.",
+            "why": "Zahl gegen Zahl: das lässt sich sofort prüfen und niemand fühlt sich angegriffen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Tut mir leid, ich habe nur einen Fünfziger."
+              },
+              {
+                "key": "b",
+                "text": "Haben Sie kein Wechselgeld?"
+              },
+              {
+                "key": "c",
+                "text": "Ich komme später."
+              }
+            ],
+            "q": "Du hast nur einen großen Schein. — You only have a large note.",
+            "why": "Kurz sagen und sich entschuldigen; morgens ist Kleingeld beim Bäcker knapp."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich war zuerst da!"
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, ich glaube, ich war dran."
+              },
+              {
+                "key": "c",
+                "text": "Nichts sagen."
+              }
+            ],
+            "q": "Jemand drängelt sich vor. — Someone jumps the queue.",
+            "why": "Freundlich und trotzdem klar — „ich glaube“ nimmt der Sache die Schärfe."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kann ich zehn Brötchen für morgen früh vorbestellen?"
+              },
+              {
+                "key": "b",
+                "text": "Morgen brauche ich viel."
+              },
+              {
+                "key": "c",
+                "text": "Haben Sie morgen genug?"
+              }
+            ],
+            "q": "Du willst für morgen vorbestellen. — You want to preorder for tomorrow.",
+            "why": "Menge und Zeitpunkt gleich nennen — dann kann die Bäckerei es sofort notieren."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Kleine Probleme"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "bitte"
+          ],
+          "2": [
+            "aus"
+          ],
+          "3": [
+            "bestellt"
+          ],
+          "4": [
+            "passend"
+          ],
+          "5": [
+            "vorbestellen"
+          ],
+          "6": [
+            "glaube"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Entschuldigung, noch einmal {1}. (please)\n2. Die Brezeln sind leider {2}. (nicht mehr da)\n3. Ich hatte sechs {3}. (Perfekt von bestellen)\n4. Ich habe es leider nicht {4}. (nicht genau der Betrag)\n5. Kann ich für morgen {5}? (vorher bestellen)\n6. Ich {6}, ich war dran. (denken/meinen, ich-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Guten"
+          ],
+          "2": [
+            "hätte"
+          ],
+          "3": [
+            "Stück"
+          ],
+          "4": [
+            "Sorte"
+          ],
+          "5": [
+            "Vollkorn"
+          ],
+          "6": [
+            "etwas"
+          ],
+          "7": [
+            "alles"
+          ],
+          "8": [
+            "kostet"
+          ],
+          "9": [
+            "passend"
+          ],
+          "10": [
+            "aus"
+          ],
+          "11": [
+            "vorbestellen"
+          ],
+          "12": [
+            "Schönen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Morgen! (good)\n2. Ich {2} gern sechs Brötchen. (would like)\n3. Sechs {3}, bitte. (pieces)\n4. Welche {4}? (type / sort)\n5. Drei helle und drei {5}. (wholemeal)\n6. Sonst noch {6}? (anything)\n7. Nein danke, das ist {7}. (everything)\n8. Was {8} das? (costs)\n9. Haben Sie es {9}? (the exact money)\n10. Die Brezeln sind leider {10}. (sold out)\n11. Kann ich für morgen {11}? (preorder)\n12. {12} Tag noch! (have a nice …)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-30-beim-baecker-a1",
+  "intro": "Der Bäcker ist für viele das erste deutsche Gespräch des Tages und oft das erste überhaupt. Es ist kurz und immer gleich: Du stehst an, du wirst gefragt, was es sein darf, du sagst eine Zahl und eine Sorte, du bekommst eine Tüte und zahlst. Genau deshalb lohnt es sich, die zehn Sätze wirklich zu können — dann klappt der Morgen, auch wenn du sonst noch wenig sagen kannst. Grammatik nach Bedarf: Zahlen von eins bis zwanzig, Artikel im Akkusativ, bitte und danke, einfache Fragen. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/30-beim-baecker-a1",
+  "level": "A1",
+  "summary": "Anstehen, Brötchen bestellen, die Sorte nennen, Stückzahl und Preis — die ersten Sätze, die jeden Morgen funktionieren müssen.",
+  "title": "Beim Bäcker am Morgen — A1",
+  "topic": "Beim Bäcker"
+}

@@ -1,0 +1,842 @@
+{
+  "category": "Einkaufen",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "orientierung",
+            "label": "Orientierung"
+          },
+          {
+            "key": "umkleide",
+            "label": "Die Umkleide"
+          },
+          {
+            "key": "parken",
+            "label": "Parken"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "orientierung",
+            "text": "der Wegweiser"
+          },
+          {
+            "bucket": "umkleide",
+            "text": "die Umkleidekabine"
+          },
+          {
+            "bucket": "parken",
+            "text": "der Parkschein"
+          },
+          {
+            "bucket": "orientierung",
+            "text": "der Info-Point"
+          },
+          {
+            "bucket": "umkleide",
+            "text": "die Größe"
+          },
+          {
+            "bucket": "parken",
+            "text": "der Kassenautomat"
+          },
+          {
+            "bucket": "orientierung",
+            "text": "die Rolltreppe"
+          },
+          {
+            "bucket": "umkleide",
+            "text": "der Spiegel"
+          },
+          {
+            "bucket": "parken",
+            "text": "die Ausfahrt"
+          },
+          {
+            "bucket": "orientierung",
+            "text": "das Untergeschoss"
+          },
+          {
+            "bucket": "umkleide",
+            "text": "anprobieren"
+          },
+          {
+            "bucket": "parken",
+            "text": "entwerten"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Orientierung, Umkleide oder Parken?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Info-Point"
+          },
+          {
+            "key": "2",
+            "text": "die Umkleidekabine"
+          },
+          {
+            "key": "3",
+            "text": "der Parkschein"
+          },
+          {
+            "key": "4",
+            "text": "entwerten"
+          },
+          {
+            "key": "5",
+            "text": "das Untergeschoss"
+          },
+          {
+            "key": "6",
+            "text": "die Rolltreppe"
+          },
+          {
+            "key": "7",
+            "text": "der Wegweiser"
+          },
+          {
+            "key": "8",
+            "text": "der Treffpunkt"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die Auskunftsstelle mit Informationen zum Zentrum"
+          },
+          {
+            "key": "b",
+            "text": "der kleine Raum zum Anprobieren"
+          },
+          {
+            "key": "c",
+            "text": "der Zettel, der die Parkzeit bestätigt"
+          },
+          {
+            "key": "d",
+            "text": "den Parkschein gültig machen, meist an einem Automaten"
+          },
+          {
+            "key": "e",
+            "text": "das Stockwerk unter dem Erdgeschoss"
+          },
+          {
+            "key": "f",
+            "text": "die Treppe, die sich von selbst bewegt"
+          },
+          {
+            "key": "g",
+            "text": "das Schild, das die Richtung zeigt"
+          },
+          {
+            "key": "h",
+            "text": "der vereinbarte Ort, an dem man sich wiedertrifft"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "im"
+          ],
+          "2": [
+            "in"
+          ],
+          "3": [
+            "an"
+          ],
+          "4": [
+            "muss"
+          ],
+          "5": [
+            "Kann"
+          ],
+          "6": [
+            "an"
+          ],
+          "7": [
+            "im"
+          ],
+          "8": [
+            "Können"
+          ],
+          "9": [
+            "habe"
+          ],
+          "10": [
+            "mit"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das Geschäft ist {1} zweiten Stock. (Wechselpräposition, Dativ)\n2. Wir gehen {2} das Geschäft, um uns umzusehen. (Wechselpräposition, Akkusativ)\n3. Der Info-Point liegt {3} dem Eingang. (Wechselpräposition, Dativ)\n4. Ich {4} vor dem Verlassen den Parkschein entwerten. (müssen)\n5. {5} ich diese Hose auch eine Nummer größer probieren? (können, ich-Form)\n6. Wir treffen uns {6} dem Brunnen. (Wechselpräposition, Dativ)\n7. Der Brunnen steht {7} Erdgeschoss. (Wechselpräposition, Dativ)\n8. {8} Sie mir sagen, wo die Umkleide ist? (können, Sie-Form)\n9. Ich {9} den Parkschein leider verloren. (haben, Perfekt)\n10. Wir fahren {10} der Rolltreppe nach oben. (Präposition + Dativ)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze die richtige Präposition oder das Modalverb.",
+      "instructionsEn": "Fill in the correct preposition or the modal verb.",
+      "title": "Im Zentrum fragen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Info-Point"
+          ],
+          "2": [
+            "Umkleide"
+          ],
+          "3": [
+            "Nummer größer"
+          ],
+          "4": [
+            "entwerten"
+          ],
+          "5": [
+            "Treffpunkt"
+          ],
+          "6": [
+            "Schild"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Am {1} bekommt man Auskunft über die Geschäfte im Zentrum. (die Auskunftsstelle)\n2. Ich probiere die Hose in der {2} an. (der Raum zum Anprobieren)\n3. Diese Größe ist mir zu klein, ich brauche eine {3}. (das nächste größere Maß)\n4. Vor der Ausfahrt muss ich den Parkschein {4}. (gültig machen)\n5. Wir treffen uns am besten am {5}, direkt beim Eingang. (der vereinbarte Ort)\n6. Das {6} zeigt uns, wo die Rolltreppe ist. (weist die Richtung)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "ZWEITEN"
+          ],
+          "2": [
+            "ROLLTREPPE"
+          ],
+          "3": [
+            "TOILETTE"
+          ],
+          "4": [
+            "DRAN"
+          ],
+          "5": [
+            "KLEIN"
+          ],
+          "6": [
+            "GRÖSSER"
+          ],
+          "7": [
+            "SCHAUE"
+          ],
+          "8": [
+            "PROBIEREN"
+          ],
+          "9": [
+            "PASST"
+          ],
+          "10": [
+            "LEGE"
+          ]
+        },
+        "bank": [
+          "ZWEITEN",
+          "ROLLTREPPE",
+          "TOILETTE",
+          "DRAN",
+          "KLEIN",
+          "GRÖSSER",
+          "SCHAUE",
+          "PROBIEREN",
+          "PASST",
+          "LEGE",
+          "DRITTEN",
+          "KASSE",
+          "EXTRA",
+          "WEIT"
+        ],
+        "text": "— Entschuldigung, wo finde ich das Sportgeschäft?\n— Das ist im {1} Stock, gleich neben der {2}.\n— Vielen Dank! Und wo ist die nächste {3}?\n— Direkt hier am Eingang, Sie können nicht {4} vorbei.\n(später, in der Umkleide)\n— Diese Hose ist leider zu {5}. Hätten Sie sie auch eine\nNummer {6}?\n— Klar, ich {7} kurz nach.\n— Vielen Dank, das wäre super.\n— Hier, bitte {8}.\n— Perfekt, die {9} viel besser.\n— Dann {10} ich sie Ihnen gleich an der Kasse ein.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Am Info-Point und in der Umkleide"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Entschuldigung, wo finde ich das Sportgeschäft?"
+              },
+              {
+                "key": "b",
+                "text": "Wo ist irgendein Geschäft?"
+              },
+              {
+                "key": "c",
+                "text": "Zeigen Sie mir sofort den Weg."
+              }
+            ],
+            "q": "Du weißt nicht, in welchem Stock ein Geschäft ist. — You don't know which floor a store is on.",
+            "why": "Eine konkrete, höfliche Frage bringt die schnellste und genaueste Antwort."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Diese Hose ist schlecht gemacht."
+              },
+              {
+                "key": "b",
+                "text": "Hätten Sie die auch eine Nummer größer?"
+              },
+              {
+                "key": "c",
+                "text": "Ich kaufe sie trotzdem."
+              }
+            ],
+            "q": "Die Hose in der Umkleide ist zu eng. — The trousers in the fitting room are too tight.",
+            "why": "Eine höfliche Frage nach einer anderen Größe ist der direkte Weg zu einer Lösung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir finden uns schon irgendwie."
+              },
+              {
+                "key": "b",
+                "text": "Ruf einfach an, wenn du da bist, ohne Ort."
+              },
+              {
+                "key": "c",
+                "text": "Wir treffen uns am besten am Brunnen im Erdgeschoss."
+              }
+            ],
+            "q": "Du möchtest dich mit jemandem im Zentrum verabreden. — You want to arrange to meet someone at the mall.",
+            "why": "Ein konkreter Treffpunkt verhindert, dass man sich in einem großen Zentrum verpasst."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Können Sie mir sagen, bis wann der Parkschein gilt?"
+              },
+              {
+                "key": "b",
+                "text": "Parkscheine interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Ich parke einfach ohne Schein."
+              }
+            ],
+            "q": "Du möchtest wissen, ob der Parkschein noch gültig ist. — You want to know if your parking ticket is still valid.",
+            "why": "Eine konkrete Nachfrage verhindert eine unerwartete Strafe beim Verlassen des Parkhauses."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nein, gehen Sie weg."
+              },
+              {
+                "key": "b",
+                "text": "Danke, ich schaue erst mal nur."
+              },
+              {
+                "key": "c",
+                "text": "Das geht Sie nichts an."
+              }
+            ],
+            "q": "Ein Verkäufer fragt, ob er dir helfen kann. — A salesperson asks if they can help you.",
+            "why": "Eine freundliche, kurze Antwort ist die übliche Reaktion, auch wenn man noch keine Hilfe braucht."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Am Info-Point oder bei einem Mitarbeiter nach dem Weg fragen."
+              },
+              {
+                "key": "b",
+                "text": "Einfach ziellos weiterlaufen."
+              },
+              {
+                "key": "c",
+                "text": "Aufgeben und dich hinsetzen."
+              }
+            ],
+            "q": "Du hast dich im Zentrum verlaufen und findest den Ausgang nicht. — You've gotten lost in the mall and can't find the exit.",
+            "why": "Nachzufragen ist der schnellste Weg, sich wieder zurechtzufinden."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Höflich im Einkaufszentrum"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Frage mit Fragewort, Verb an Position 2",
+            "tiles": [
+              "Entschuldigung",
+              ",",
+              "wo",
+              "finde",
+              "ich",
+              "das",
+              "Sportgeschäft",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Ordnungszahl vor dem Substantiv",
+            "tiles": [
+              "Das",
+              "Geschäft",
+              "ist",
+              "im",
+              "zweiten",
+              "Stock"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Konjunktiv-II-Frage, höfliche Bitte",
+            "tiles": [
+              "Hätten",
+              "Sie",
+              "die",
+              "auch",
+              "eine",
+              "Nummer",
+              "größer",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "reflexives Verb, Ortsangabe am Ende",
+            "tiles": [
+              "Wir",
+              "treffen",
+              "uns",
+              "am",
+              "Brunnen",
+              "im",
+              "Erdgeschoss"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Modalverb an Position 2, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "muss",
+              "den",
+              "Parkschein",
+              "vor",
+              "der",
+              "Ausfahrt",
+              "entwerten"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "indirekte Frage, Verb am Ende",
+            "tiles": [
+              "Können",
+              "Sie",
+              "mir",
+              "sagen",
+              ",",
+              "wo",
+              "die",
+              "Umkleide",
+              "ist",
+              "?"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze im Einkaufszentrum bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Der Info-Point befindet sich im Erdgeschoss. — The info point is on the ground floor.",
+            "why": "So steht es ausdrücklich in der Übersicht."
+          },
+          {
+            "answer": false,
+            "q": "Sportartikel gibt es im ersten Stock. — Sports items are on the first floor.",
+            "why": "Sport ist im zweiten Stock, im ersten Stock gibt es Mode und Schuhe."
+          },
+          {
+            "answer": true,
+            "q": "Der Foodcourt liegt im Untergeschoss. — The food court is in the basement.",
+            "why": "„Untergeschoss: Parkhaus, Foodcourt.“"
+          },
+          {
+            "answer": false,
+            "q": "Das Zentrum hat auch sonntags geöffnet. — The mall is also open on Sundays.",
+            "why": "Sonntags ist geschlossen."
+          },
+          {
+            "answer": true,
+            "q": "Die ersten zwei Stunden Parken sind kostenlos. — The first two hours of parking are free.",
+            "why": "„Die ersten 2 Stunden kostenlos.“"
+          },
+          {
+            "answer": false,
+            "q": "Der Parkschein muss vor der Einfahrt entwertet werden. — The parking ticket must be validated before entering.",
+            "why": "Der Parkschein wird vor der Ausfahrt entwertet, nicht vor der Einfahrt."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Einkaufszentrum Nordpark — Übersicht**\n>\n> - **Erdgeschoss:** Info-Point, Supermarkt, Drogerie.\n> - **1. Stock:** Mode, Schuhe.\n> - **2. Stock:** Sport, Elektronik.\n> - **Untergeschoss:** Parkhaus, Foodcourt.\n> - Öffnungszeiten: **Mo–Sa 9–20 Uhr**, sonntags geschlossen.\n> - **Parken:** die ersten **2 Stunden kostenlos**, danach **1 € pro\n>   Stunde**. Parkschein **vor der Ausfahrt am Kassenautomaten\n>   entwerten**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Den Wegweiser und die Parkregeln lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Am Kassenautomaten oder beim Personal nach einer Lösung fragen."
+              },
+              {
+                "key": "b",
+                "text": "Einfach ohne Ticket durch die Schranke fahren."
+              },
+              {
+                "key": "c",
+                "text": "Das Auto stehen lassen."
+              }
+            ],
+            "q": "Du hast deinen Parkschein verloren. — You've lost your parking ticket.",
+            "why": "Meist gibt es eine Regelung für verlorene Parkscheine — nachfragen ist der richtige erste Schritt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Hose trotzdem kaufen."
+              },
+              {
+                "key": "b",
+                "text": "Nach einer anderen Größe oder einem ähnlichen Modell fragen."
+              },
+              {
+                "key": "c",
+                "text": "Wortlos gehen."
+              }
+            ],
+            "q": "Auch die größere Nummer passt noch nicht. — Even the bigger size still doesn't fit.",
+            "why": "Weiter nachzufragen ist normal, bis die passende Größe oder ein Alternativmodell gefunden ist."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Laut an die Tür klopfen."
+              },
+              {
+                "key": "b",
+                "text": "Vor der Tür warten, bis jemand öffnet."
+              },
+              {
+                "key": "c",
+                "text": "Am Info-Point nach den Öffnungszeiten fragen und einen anderen Tag planen."
+              }
+            ],
+            "q": "Das Geschäft, das du suchst, hat schon geschlossen. — The store you're looking for has already closed.",
+            "why": "Die Öffnungszeiten zu klären hilft, den nächsten Besuch besser zu planen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zum vereinbarten Treffpunkt gehen oder anrufen."
+              },
+              {
+                "key": "b",
+                "text": "Ziellos durch das Zentrum laufen."
+              },
+              {
+                "key": "c",
+                "text": "Allein nach Hause fahren."
+              }
+            ],
+            "q": "Ihr habt euch im Zentrum aus den Augen verloren. — You've lost sight of each other in the mall.",
+            "why": "Ein vereinbarter Treffpunkt oder ein Anruf ist die schnellste Lösung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sich vordrängeln."
+              },
+              {
+                "key": "b",
+                "text": "Warten oder eine andere Kasse suchen."
+              },
+              {
+                "key": "c",
+                "text": "Die Ware einfach dalassen und gehen."
+              }
+            ],
+            "q": "An der Kasse ist eine sehr lange Schlange. — There's a very long queue at the checkout.",
+            "why": "Warten oder eine freiere Kasse suchen ist die einzig faire Lösung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ruhig erklären und fragen, ob du die Ware kurz zurücklegen lassen kannst."
+              },
+              {
+                "key": "b",
+                "text": "Einfach mit der Ware weggehen."
+              },
+              {
+                "key": "c",
+                "text": "In Panik geraten und nichts sagen."
+              }
+            ],
+            "q": "Du merkst an der Kasse, dass dein Portemonnaie fehlt. — At the checkout you notice your wallet is missing.",
+            "why": "Eine ruhige, ehrliche Erklärung ist die einfachste Lösung für diese unangenehme Situation."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn etwas nicht nach Plan läuft"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Parkschein"
+          ],
+          "2": [
+            "klein"
+          ],
+          "3": [
+            "geschlossen"
+          ],
+          "4": [
+            "Augen"
+          ],
+          "5": [
+            "Schlange"
+          ],
+          "6": [
+            "Portemonnaie"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe meinen {1} leider verloren. (der Zettel für das Parken)\n2. Auch die größere Nummer war noch zu {2}. (nicht groß genug)\n3. Das Geschäft hatte schon {3}. (nicht mehr geöffnet)\n4. Wir haben uns im Zentrum aus den {4} verloren. (man sieht sich nicht mehr)\n5. An der Kasse war eine sehr lange {5}. (die Reihe von wartenden Leuten)\n6. Mein {6} fehlte plötzlich an der Kasse. (die Geldbörse)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "im"
+          ],
+          "2": [
+            "an"
+          ],
+          "3": [
+            "muss"
+          ],
+          "4": [
+            "größer"
+          ],
+          "5": [
+            "Info-Point"
+          ],
+          "6": [
+            "Umkleide"
+          ],
+          "7": [
+            "entwerten"
+          ],
+          "8": [
+            "Treffpunkt"
+          ],
+          "9": [
+            "Parkschein"
+          ],
+          "10": [
+            "geschlossen"
+          ],
+          "11": [
+            "Augen"
+          ],
+          "12": [
+            "Schlange"
+          ],
+          "13": [
+            "Portemonnaie"
+          ],
+          "14": [
+            "Umkleide"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das Geschäft ist {1} zweiten Stock. (in — Dativ)\n2. Der Info-Point liegt {2} dem Eingang. (near — Dativ)\n3. Ich {3} vor dem Verlassen den Parkschein entwerten. (must)\n4. Hätten Sie die auch eine Nummer {4}? (bigger)\n5. Am {5} bekommt man Auskunft. (info point)\n6. Ich probiere die Hose in der {6} an. (fitting room)\n7. Vor der Ausfahrt muss ich den Parkschein {7}. (validate — Infinitiv)\n8. Wir treffen uns am besten am {8}, direkt beim Eingang. (agreed meeting spot)\n9. Ich habe meinen {9} leider verloren. (parking ticket)\n10. Das Geschäft hatte schon {10}. (closed — Partizip)\n11. Wir haben uns im Zentrum aus den {11} verloren. (lost sight of each other)\n12. An der Kasse war eine sehr lange {12}. (queue)\n13. Mein {13} fehlte plötzlich an der Kasse. (wallet)\n14. Können Sie mir sagen, wo die {14} ist? (fitting room)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-49-einkaufszentrum-a2",
+  "intro": "Ein Einkaufszentrum ist groß genug, dass man sich leicht verläuft: welches Geschäft, welches Stockwerk, wo war noch mal der Info-Point? Dieses Set übt die Orientierung im Zentrum, das Gespräch in der Umkleide, wenn eine Größe nicht passt, und das Parken — inklusive dem Parkschein, der vor dem Verlassen entwertet werden muss. Grammatik nach Bedarf: Wechselpräpositionen (in, auf, zu), höfliche Bitten mit Konjunktiv II, Ordnungszahlen bei Stockwerken. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/49-einkaufszentrum-a2",
+  "level": "A2",
+  "summary": "Ein Geschäft finden, in der Umkleide eine andere Größe erbitten, den Parkschein entwerten — und was tun, wenn man sich verläuft oder verliert.",
+  "title": "Im Einkaufszentrum — A2",
+  "topic": "Im Einkaufszentrum"
+}

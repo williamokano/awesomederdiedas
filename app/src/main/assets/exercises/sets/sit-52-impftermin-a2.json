@@ -1,0 +1,828 @@
+{
+  "category": "Sport & Gesundheit",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "termin",
+            "label": "Der Termin"
+          },
+          {
+            "key": "impfung",
+            "label": "Die Impfung"
+          },
+          {
+            "key": "vorsorge",
+            "label": "Die Vorsorge"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "termin",
+            "text": "einen Termin vereinbaren"
+          },
+          {
+            "bucket": "impfung",
+            "text": "der Impfpass"
+          },
+          {
+            "bucket": "vorsorge",
+            "text": "die Vorsorgeuntersuchung"
+          },
+          {
+            "bucket": "termin",
+            "text": "die Terminbestätigung"
+          },
+          {
+            "bucket": "impfung",
+            "text": "die Auffrischung"
+          },
+          {
+            "bucket": "vorsorge",
+            "text": "die Blutuntersuchung"
+          },
+          {
+            "bucket": "termin",
+            "text": "verschieben"
+          },
+          {
+            "bucket": "impfung",
+            "text": "die Nebenwirkung"
+          },
+          {
+            "bucket": "vorsorge",
+            "text": "das Vorsorgeheft"
+          },
+          {
+            "bucket": "termin",
+            "text": "die Wartezeit"
+          },
+          {
+            "bucket": "impfung",
+            "text": "der Aufklärungsbogen"
+          },
+          {
+            "bucket": "vorsorge",
+            "text": "die Früherkennung"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Termin, Impfung oder Vorsorge?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Impfpass"
+          },
+          {
+            "key": "2",
+            "text": "die Auffrischung"
+          },
+          {
+            "key": "3",
+            "text": "die Nebenwirkung"
+          },
+          {
+            "key": "4",
+            "text": "der Aufklärungsbogen"
+          },
+          {
+            "key": "5",
+            "text": "die Vorsorgeuntersuchung"
+          },
+          {
+            "key": "6",
+            "text": "die Impfempfehlung"
+          },
+          {
+            "key": "7",
+            "text": "sich impfen lassen"
+          },
+          {
+            "key": "8",
+            "text": "die Früherkennung"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "das kleine Heft mit allen Impfungen"
+          },
+          {
+            "key": "b",
+            "text": "eine erneute Impfung, um den Schutz zu erhalten"
+          },
+          {
+            "key": "c",
+            "text": "eine unerwünschte Reaktion des Körpers auf die Impfung"
+          },
+          {
+            "key": "d",
+            "text": "das Formular mit Fragen und Informationen vor der Impfung"
+          },
+          {
+            "key": "e",
+            "text": "eine regelmäßige Untersuchung, auch ohne Beschwerden"
+          },
+          {
+            "key": "f",
+            "text": "der offizielle Rat, welche Impfung sinnvoll ist"
+          },
+          {
+            "key": "g",
+            "text": "eine Impfung bekommen"
+          },
+          {
+            "key": "h",
+            "text": "eine Krankheit möglichst früh entdecken"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "möchte"
+          ],
+          "2": [
+            "Muss"
+          ],
+          "3": [
+            "bestätigt"
+          ],
+          "4": [
+            "wurde"
+          ],
+          "5": [
+            "Muss"
+          ],
+          "6": [
+            "hat"
+          ],
+          "7": [
+            "müssen"
+          ],
+          "8": [
+            "Können"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} gern einen Termin für eine Impfung. (möchten, ich-Form)\n2. {2} ich meinen Impfpass mitbringen? (müssen, ich-Form)\n3. Die Praxis {3} den Termin telefonisch. (bestätigen, Präsens)\n4. Ich {4} letztes Jahr schon einmal geimpft. (werden, Passiv Perfekt — wurde)\n5. {5} ich mit Nebenwirkungen rechnen? (müssen, ich-Form)\n6. Der Arzt {6} mir alle Fragen beantwortet. (haben, Perfekt)\n7. Wir {7} den Termin leider verschieben. (Modalverb, wir-Form)\n8. {8} Sie mir sagen, wann die nächste Vorsorge fällig ist? (können, Sie-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Den Termin vereinbaren"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Impfpass"
+          ],
+          "2": [
+            "Aufklärungsbogen"
+          ],
+          "3": [
+            "Auffrischung"
+          ],
+          "4": [
+            "Nebenwirkungen"
+          ],
+          "5": [
+            "Vorsorgeuntersuchung"
+          ],
+          "6": [
+            "Früherkennung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Alle meine Impfungen stehen in meinem {1}. (das Heft mit den Impfungen)\n2. Vor der Impfung fülle ich den {2} aus. (das Formular mit Fragen vorher)\n3. Manche Impfungen brauchen nach einigen Jahren eine {3}. (eine erneute Impfung)\n4. Häufige {4} sind ein müder Arm oder leichtes Fieber. (unerwünschte Reaktionen)\n5. Die {5} findet auch statt, wenn man keine Beschwerden hat. (die regelmäßige Untersuchung)\n6. Die {6} hilft, eine Krankheit möglichst früh zu entdecken. (das frühe Erkennen einer Krankheit)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "TERMIN"
+          ],
+          "2": [
+            "MORGEN"
+          ],
+          "3": [
+            "IMPFPASS"
+          ],
+          "4": [
+            "AUFKLÄRUNGSBOGEN"
+          ],
+          "5": [
+            "NEBENWIRKUNGEN"
+          ],
+          "6": [
+            "NORMAL"
+          ],
+          "7": [
+            "VORSORGE"
+          ],
+          "8": [
+            "STEHT"
+          ],
+          "9": [
+            "BUCHE"
+          ],
+          "10": [
+            "GEBEN"
+          ]
+        },
+        "bank": [
+          "TERMIN",
+          "MORGEN",
+          "IMPFPASS",
+          "AUFKLÄRUNGSBOGEN",
+          "NEBENWIRKUNGEN",
+          "NORMAL",
+          "VORSORGE",
+          "STEHT",
+          "BUCHE",
+          "GEBEN",
+          "ÜBERMORGEN",
+          "RECHNUNG",
+          "BESTÄTIGEN",
+          "PLAN"
+        ],
+        "text": "— Praxis Dr. Berger, guten Tag.\n— Guten Tag, ich hätte gern einen {1} für eine Grippeimpfung.\n— Gerne, passt Ihnen {2} um 10 Uhr?\n— Ja, das passt gut. Muss ich meinen {3} mitbringen?\n— Ja, bitte unbedingt.\n(in der Praxis)\n— Bitte füllen Sie noch diesen {4} aus.\n— Natürlich. Muss ich mit {5} rechnen?\n— Manchmal ein müder Arm, das ist ganz {6}.\n— Gut zu wissen. Und wann ist meine nächste {7} fällig?\n— Laut Ihrem Vorsorgeheft {8} nächstes Jahr eine Untersuchung an.\n— Alles klar, dann {9} ich den gleich mit.\n— Perfekt, dann {10} wir Ihnen einen Termin für beides.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Am Telefon und in der Praxis"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich hätte gern einen Termin für eine Grippeimpfung."
+              },
+              {
+                "key": "b",
+                "text": "Ich brauche jetzt sofort einen Termin."
+              },
+              {
+                "key": "c",
+                "text": "Impfen Sie mich einfach irgendwann."
+              }
+            ],
+            "q": "Du möchtest telefonisch einen Impftermin vereinbaren. — You want to book a vaccination appointment by phone.",
+            "why": "Eine höfliche, konkrete Bitte ist der übliche Einstieg am Telefon."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Impfpässe interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Muss ich meinen Impfpass mitbringen?"
+              },
+              {
+                "key": "c",
+                "text": "Ich bringe einfach irgendein Dokument mit."
+              }
+            ],
+            "q": "Du bist unsicher, ob du den Impfpass mitbringen musst. — You're unsure whether you need to bring your vaccination record.",
+            "why": "Eine kurze Frage klärt sofort, was mitzubringen ist."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nebenwirkungen sind mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Ich frage lieber nicht."
+              },
+              {
+                "key": "c",
+                "text": "Muss ich mit Nebenwirkungen rechnen?"
+              }
+            ],
+            "q": "Du möchtest wissen, ob es Nebenwirkungen geben kann. — You want to know if there could be side effects.",
+            "why": "Nach möglichen Nebenwirkungen zu fragen ist eine normale, sinnvolle Frage vor einer Impfung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wann ist meine nächste Vorsorge fällig?"
+              },
+              {
+                "key": "b",
+                "text": "Vorsorge brauche ich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das interessiert mich später vielleicht."
+              }
+            ],
+            "q": "Du möchtest wissen, wann die nächste Vorsorgeuntersuchung fällig ist. — You want to know when your next preventive checkup is due.",
+            "why": "Eine direkte Frage hilft, die nächste Untersuchung rechtzeitig zu planen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sagen Sie besser nichts, sonst wird es schlimmer."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe etwas Angst vor Spritzen, können Sie mir kurz Bescheid geben?"
+              },
+              {
+                "key": "c",
+                "text": "Das verschweige ich lieber."
+              }
+            ],
+            "q": "Du hast Angst vor Spritzen und möchtest das dem Arzt sagen. — You're afraid of needles and want to tell the doctor.",
+            "why": "Die Angst offen anzusprechen hilft dem Praxispersonal, besonders rücksichtsvoll vorzugehen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort auflegen."
+              },
+              {
+                "key": "b",
+                "text": "Beleidigt sein."
+              },
+              {
+                "key": "c",
+                "text": "Nach dem nächstmöglichen Termin fragen."
+              }
+            ],
+            "q": "Der Termin, den du wolltest, ist schon vergeben. — The appointment you wanted is already taken.",
+            "why": "Nach einem Alternativtermin zu fragen ist die einfachste, freundliche Lösung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Höflich am Telefon und in der Praxis"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "höfliche Bitte mit hätte gern",
+            "tiles": [
+              "Ich",
+              "hätte",
+              "gern",
+              "einen",
+              "Termin",
+              "für",
+              "eine",
+              "Grippeimpfung"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Frage mit Modalverb an Position 1, trennbares Verb am Ende",
+            "tiles": [
+              "Muss",
+              "ich",
+              "meinen",
+              "Impfpass",
+              "mitbringen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Imperativ mit Sie, trennbares Verb am Ende",
+            "tiles": [
+              "Bitte",
+              "füllen",
+              "Sie",
+              "noch",
+              "diesen",
+              "Aufklärungsbogen",
+              "aus"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "rechnen mit + Dativ",
+            "tiles": [
+              "Muss",
+              "ich",
+              "mit",
+              "Nebenwirkungen",
+              "rechnen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "trennbares Verb anstehen, Präfix am Ende",
+            "tiles": [
+              "Laut",
+              "Ihrem",
+              "Vorsorgeheft",
+              "steht",
+              "nächstes",
+              "Jahr",
+              "eine",
+              "Untersuchung",
+              "an"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Frage mit Fragewort, Verb an Position 2",
+            "tiles": [
+              "Wann",
+              "ist",
+              "meine",
+              "nächste",
+              "Vorsorge",
+              "fällig",
+              "?"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze am Telefon und in der Praxis bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Die Grippeimpfung wird jeden Frühling empfohlen. — The flu vaccine is recommended every spring.",
+            "why": "Empfohlen ist der Herbst, meist Oktober bis Dezember."
+          },
+          {
+            "answer": true,
+            "q": "Die Tetanus-Auffrischung ist alle zehn Jahre nötig. — The tetanus booster is needed every ten years.",
+            "why": "So steht es ausdrücklich im Impfplan."
+          },
+          {
+            "answer": false,
+            "q": "Man muss den Impfpass nur bei der ersten Impfung mitbringen. — You only need to bring the vaccination record for the first vaccination.",
+            "why": "Der Impfpass soll immer mitgebracht werden, nicht nur beim ersten Mal."
+          },
+          {
+            "answer": true,
+            "q": "Ein müder Arm nach der Impfung ist normal. — A sore arm after vaccination is normal.",
+            "why": "„Nebenwirkungen wie ein müder Arm … sind normal.“"
+          },
+          {
+            "answer": false,
+            "q": "Vorsorgeuntersuchungen für Erwachsene finden jedes Jahr statt. — Checkups for adults happen every year.",
+            "why": "Sie finden alle drei Jahre statt, nicht jährlich."
+          },
+          {
+            "answer": true,
+            "q": "Termine sollen mindestens eine Woche vorher vereinbart werden. — Appointments should be made at least a week in advance.",
+            "why": "„Termine bitte mindestens eine Woche vorher vereinbaren.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Praxis Dr. Berger — Impf- und Vorsorgehinweise**\n>\n> - **Grippeimpfung:** empfohlen jedes Jahr im **Herbst**, meist\n>   Oktober bis Dezember.\n> - **Tetanus-Auffrischung:** alle **10 Jahre**, bei tiefen Wunden\n>   auch früher.\n> - Bitte **immer den Impfpass mitbringen**, auch bei der ersten\n>   Impfung.\n> - **Nebenwirkungen** wie ein müder Arm oder leichtes Fieber sind\n>   normal und meist nach **1–2 Tagen** vorbei.\n> - **Vorsorgeuntersuchungen** für Erwachsene: alle **3 Jahre**,\n>   auch ohne Beschwerden.\n> - Termine bitte **mindestens eine Woche vorher** vereinbaren.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Den Impfplan lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Praxis fragen, ob sie deine Impfungen im System haben oder ein neuer Pass ausgestellt werden kann."
+              },
+              {
+                "key": "b",
+                "text": "Ohne Impfpass zum Termin gehen, ohne etwas zu sagen."
+              },
+              {
+                "key": "c",
+                "text": "Den Termin einfach ausfallen lassen."
+              }
+            ],
+            "q": "Du findest deinen Impfpass nicht mehr. — You can't find your vaccination record anymore.",
+            "why": "Die Praxis kann meist helfen, Impfungen im System zu finden oder einen neuen Pass auszustellen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach nicht zum Impftermin gehen, ohne abzusagen."
+              },
+              {
+                "key": "b",
+                "text": "In der Praxis anrufen und nach einem anderen Termin fragen."
+              },
+              {
+                "key": "c",
+                "text": "Beide Termine gleichzeitig versuchen wahrzunehmen."
+              }
+            ],
+            "q": "Der Impftermin überschneidet sich mit einem wichtigen Arbeitstermin. — The vaccination appointment clashes with an important work meeting.",
+            "why": "Rechtzeitig umzubuchen ist fair gegenüber der Praxis und löst den Terminkonflikt."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Impfung heimlich ausfallen lassen."
+              },
+              {
+                "key": "b",
+                "text": "Dir stundenlang unsichere Informationen im Internet suchen."
+              },
+              {
+                "key": "c",
+                "text": "Den Arzt direkt nach den häufigsten Nebenwirkungen fragen."
+              }
+            ],
+            "q": "Du machst dir Sorgen wegen möglicher Nebenwirkungen. — You're worried about possible side effects.",
+            "why": "Die direkte Frage an den Arzt ist die verlässlichste Informationsquelle."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "In der Praxis anrufen und einen neuen Termin vereinbaren."
+              },
+              {
+                "key": "b",
+                "text": "Es einfach vergessen und nichts tun."
+              },
+              {
+                "key": "c",
+                "text": "Bis zum nächsten Jahr warten."
+              }
+            ],
+            "q": "Du hast eine Vorsorgeuntersuchung verpasst. — You've missed a preventive checkup.",
+            "why": "Ein neuer Termin ist unkompliziert zu vereinbaren — je früher, desto besser."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dich einfach impfen lassen, ohne zu fragen."
+              },
+              {
+                "key": "b",
+                "text": "Ganz auf Impfungen verzichten, ohne Beratung."
+              },
+              {
+                "key": "c",
+                "text": "Den Arzt nach der Impfempfehlung für deine Situation fragen."
+              }
+            ],
+            "q": "Du bist unsicher, ob eine bestimmte Impfung für dich sinnvoll ist. — You're unsure whether a specific vaccine makes sense for you.",
+            "why": "Der Arzt kann die Impfempfehlung individuell einschätzen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dich schonen und, falls es länger dauert, in der Praxis nachfragen."
+              },
+              {
+                "key": "b",
+                "text": "Sofort in die Notaufnahme fahren."
+              },
+              {
+                "key": "c",
+                "text": "Es komplett ignorieren und normal weiterarbeiten."
+              }
+            ],
+            "q": "Nach der Impfung fühlst du dich zwei Tage lang schlapp. — After the vaccination you feel run-down for two days.",
+            "why": "Ein bis zwei Tage Schlappheit sind meist normal — bei längerer Dauer lohnt sich eine Nachfrage."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn etwas nicht wie geplant läuft"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Impfpass"
+          ],
+          "2": [
+            "überschneidet"
+          ],
+          "3": [
+            "Nebenwirkungen"
+          ],
+          "4": [
+            "Vorsorgeuntersuchung"
+          ],
+          "5": [
+            "sinnvoll"
+          ],
+          "6": [
+            "schlapp"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich finde meinen {1} leider nicht mehr. (das Heft mit den Impfungen)\n2. Der Termin {2} sich mit einem wichtigen Arbeitstermin. (zeitlich zusammenfallen)\n3. Ich mache mir Sorgen wegen möglicher {3}. (unerwünschte Reaktionen)\n4. Ich habe eine {4} verpasst. (die regelmäßige Untersuchung)\n5. Ich bin unsicher, ob die Impfung für mich {5} ist. (ratsam, es wert getan zu werden)\n6. Nach der Impfung fühle ich mich zwei Tage lang {6}. (ohne Energie, müde)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "möchte"
+          ],
+          "2": [
+            "Muss"
+          ],
+          "3": [
+            "Muss"
+          ],
+          "4": [
+            "Impfpass"
+          ],
+          "5": [
+            "Aufklärungsbogen"
+          ],
+          "6": [
+            "Auffrischung"
+          ],
+          "7": [
+            "Nebenwirkungen"
+          ],
+          "8": [
+            "Vorsorgeuntersuchung"
+          ],
+          "9": [
+            "nicht"
+          ],
+          "10": [
+            "überschneidet"
+          ],
+          "11": [
+            "Nebenwirkungen"
+          ],
+          "12": [
+            "verpasst"
+          ],
+          "13": [
+            "sinnvoll"
+          ],
+          "14": [
+            "schlapp"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} gern einen Termin für eine Impfung. (would like)\n2. {2} ich meinen Impfpass mitbringen? (must — müssen)\n3. {3} ich mit Nebenwirkungen rechnen? (must — müssen)\n4. Alle meine Impfungen stehen in meinem {4}. (vaccination record)\n5. Vor der Impfung fülle ich den {5} aus. (consent form)\n6. Manche Impfungen brauchen eine {6}. (booster)\n7. Häufige {7} sind ein müder Arm. (side effects)\n8. Die {8} findet auch ohne Beschwerden statt. (checkup)\n9. Ich finde meinen Impfpass leider {9} mehr. (no longer)\n10. Der Termin {10} sich mit der Arbeit. (clashes)\n11. Ich mache mir Sorgen wegen der {11}. (side effects)\n12. Ich habe eine Vorsorgeuntersuchung {12}. (missed — Partizip)\n13. Ich bin unsicher, ob die Impfung {13} ist. (advisable)\n14. Nach der Impfung fühle ich mich {14}. (run-down)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-52-impftermin-a2",
+  "intro": "Ein Impftermin oder eine Vorsorgeuntersuchung ist meist unkompliziert — bis man den Impfpass nicht findet oder eine Frage im Aufklärungsbogen nicht versteht. Dieses Set übt die Terminvereinbarung am Telefon, das Gespräch in der Praxis, das Ausfüllen des Formulars und die Frage nach Nebenwirkungen. Grammatik nach Bedarf: Perfekt bei Rückfragen, Nebensätze mit ob/wenn, höfliche Fragen mit Konjunktiv II. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/52-impftermin-a2",
+  "level": "A2",
+  "summary": "Einen Termin für Impfung oder Vorsorge vereinbaren, den Impfpass mitbringen, den Aufklärungsbogen verstehen und nach Nebenwirkungen fragen.",
+  "title": "Impftermin und Vorsorge — A2",
+  "topic": "Impftermin und Vorsorge"
+}

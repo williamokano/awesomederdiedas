@@ -1,0 +1,1563 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Die"
+          ],
+          "2": [
+            "N"
+          ],
+          "3": [
+            "einen"
+          ],
+          "4": [
+            "A"
+          ],
+          "5": [
+            "Das"
+          ],
+          "6": [
+            "N"
+          ],
+          "7": [
+            "einen"
+          ],
+          "8": [
+            "A"
+          ],
+          "9": [
+            "Die"
+          ],
+          "10": [
+            "N"
+          ],
+          "11": [
+            "einen"
+          ],
+          "12": [
+            "A"
+          ],
+          "13": [
+            "Der"
+          ],
+          "14": [
+            "N"
+          ],
+          "15": [
+            "eine"
+          ],
+          "16": [
+            "A"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Sachbearbeiterin (f) fragt. (N / A: {2})\n2. Ich brauche {3} Personalausweis (m). (N / A: {4})\n3. {5} Formular (n) ist fertig. (N / A: {6})\n4. Bruno bucht {7} Termin (m). (N / A: {8})\n5. {9} Beamtin (f) hilft mir. (N / A: {10})\n6. Hast du {11} Reisepass (m) dabei? (N / A: {12})\n7. {13} Warteraum (m) ist groß. (N / A: {14})\n8. Wir schicken {15} E-Mail (f). (N / A: {16})\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Markiere jedes Nomen als N (Nominativ) oder A (Akkusativ) und schreibe den richtigen Artikel. Jede Aufgabe hat zwei Lücken.",
+      "instructionsEn": "Label each noun as N (Nominativ) or A (Akkusativ), then write the correct article. Each item has two gaps.",
+      "title": "Case recap: Nominativ or Akkusativ?",
+      "track": "akkusativ"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "dem"
+          ],
+          "2": [
+            "der"
+          ],
+          "3": [
+            "einem"
+          ],
+          "4": [
+            "dem"
+          ],
+          "5": [
+            "dem"
+          ],
+          "6": [
+            "einer"
+          ],
+          "7": [
+            "der"
+          ],
+          "8": [
+            "der"
+          ],
+          "9": [
+            "der"
+          ],
+          "10": [
+            "einem"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Bruno wartet an {1} Schalter (m, def.).\n2. Ich arbeite bei {2} Arztpraxis (f, def.).\n3. Sie fahren mit {3} Bus (m, indef.).\n4. Wir kommen gerade aus {4} Bürgeramt (n, def.).\n5. Er wohnt gegenüber {5} Rathaus (n, def.).\n6. Ich gehe zu {6} Beratung (f, indef.).\n7. Sie kommt aus {7} Türkei (f, def.). (die Türkei)\n8. Er spricht mit {8} Beamtin (f, def.).\n9. Wir haben einen Termin bei {9} Ausländerbehörde (f, def.).\n10. Ich gehe zu {10} Amt (n, indef.).\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze den richtigen Dativartikel (bestimmt oder unbestimmt, wie angegeben).",
+      "instructionsEn": "Fill the gap with the correct dative article (definite or indefinite as indicated).",
+      "title": "Dative articles: dem, der, einem, einer"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "ihr"
+          ],
+          "2": [
+            "ihm"
+          ],
+          "3": [
+            "ihm"
+          ],
+          "4": [
+            "ihr"
+          ],
+          "5": [
+            "—"
+          ],
+          "6": [
+            "ihnen"
+          ],
+          "7": [
+            "uns"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Könnten Sie {1} (der Frau) helfen?\n2. Ich schicke {2} (Herrn Keller) das Formular.\n3. Die Beamtin gibt {3} (Bruno) den Ausweis.\n4. Der Termin passt {4} (Anna) gut.\n5. Kannst du {5} (mir) die Adresse geben? — already a pronoun\n6. Der Beamte erklärt {6} (den Kindern) das Formular.\n7. Könnten Sie {7} (mir und meiner Frau) helfen?\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Schreibe um und ersetze das unterstrichene Nomen durch ein Dativ-Personalpronomen.",
+      "instructionsEn": "Rewrite, replacing the underlined noun with a dative personal pronoun.",
+      "title": "Dative personal pronouns"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "rufe"
+          ],
+          "2": [
+            "an"
+          ],
+          "3": [
+            "füllen"
+          ],
+          "4": [
+            "aus"
+          ],
+          "5": [
+            "Meldest"
+          ],
+          "6": [
+            "an"
+          ],
+          "7": [
+            "stellt"
+          ],
+          "8": [
+            "aus"
+          ],
+          "9": [
+            "rufen"
+          ],
+          "10": [
+            "an"
+          ],
+          "11": [
+            "füllt"
+          ],
+          "12": [
+            "aus"
+          ],
+          "13": [
+            "melden"
+          ],
+          "14": [
+            "an"
+          ],
+          "15": [
+            "stellt"
+          ],
+          "16": [
+            "aus"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} das Bürgeramt {2}. (anrufen, ich)\n2. Bitte {3} Sie das Formular {4}. (ausfüllen, Sie-imperative)\n3. {5} du dich beim Bürgeramt {6}? (anmelden, du — present)\n4. Der Vermieter {7} den Nachweis {8}. (ausstellen, er)\n5. Wir {9} morgen das Amt {10}. (anrufen, wir)\n6. Bruno {11} das Formular schnell {12}. (ausfüllen, er)\n7. Wann {13} Sie sich {14}? (anmelden, Sie — present)\n8. Die Beamtin {15} sofort den Ausweis {16}. (ausstellen, sie = she)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze die richtige Form des trennbaren Verbs. Beachte die Satzklammer (Verb auf Position 2, Vorsilbe am Ende).",
+      "instructionsEn": "Fill in the correct form of the separable verb. Follow the Satzklammer rule (conjugated verb in position 2, prefix at the end).",
+      "title": "Separable verbs: anrufen, ausfüllen, ausstellen, anmelden"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "angerufen"
+          ],
+          "2": [
+            "ausgefüllt"
+          ],
+          "3": [
+            "angemeldet"
+          ],
+          "4": [
+            "angerufen"
+          ],
+          "5": [
+            "ausgestellt"
+          ],
+          "6": [
+            "ausgefüllt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich rufe das Bürgeramt an. → Ich habe das Bürgeramt {1}.\n2. Du füllst das Formular aus. → Du hast das Formular {2}.\n3. Er meldet sich an. → Er hat sich {3}.\n4. Wir rufen den Arzt an. → Wir haben den Arzt {4}.\n5. Anna stellt den Nachweis aus. → Anna hat den Nachweis {5}.\n6. Ihr füllt die Formulare aus. → Ihr habt die Formulare {6}.\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Schreibe jeden Satz im Perfekt. Merke: „ge-\" steht zwischen Vorsilbe und Stamm.",
+      "instructionsEn": "Rewrite each sentence in the Perfekt. Remember: ge- goes between the prefix and the stem.",
+      "title": "Separable verbs in the Perfekt"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "rufe"
+          ],
+          "2": [
+            "an"
+          ],
+          "3": [
+            "sprechen"
+          ],
+          "4": [
+            "hinterlassen"
+          ],
+          "5": [
+            "Störe"
+          ],
+          "6": [
+            "dauert"
+          ],
+          "7": [
+            "warten"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} später noch einmal {2}.\n2. Kann ich mit Frau Müller {3}?\n3. Kann ich eine Nachricht {4}?\n4. {5} ich gerade?\n5. Der Termin {6} ungefähr zwanzig Minuten.\n6. Bitte {7} Sie einen Moment.\n",
+        "type": "gap-text"
+      },
+      "id": "A7",
+      "instructions": "Ergänze das fehlende Verb aus: anrufen, sprechen, hinterlassen, stören, dauern, warten.",
+      "instructionsEn": "Fill in the missing verb from: anrufen, sprechen, hinterlassen, stören, dauern, warten.",
+      "skill": "redemittel",
+      "title": "Telephone phrases: fill in the verb"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "c",
+          "2": "f",
+          "3": "g",
+          "4": "e",
+          "5": "h",
+          "6": "d",
+          "7": "b",
+          "8": "a"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Vorname"
+          },
+          {
+            "key": "2",
+            "text": "Familienname"
+          },
+          {
+            "key": "3",
+            "text": "Geburtsdatum"
+          },
+          {
+            "key": "4",
+            "text": "Staatsangehörigkeit"
+          },
+          {
+            "key": "5",
+            "text": "Straße und Hausnummer"
+          },
+          {
+            "key": "6",
+            "text": "PLZ"
+          },
+          {
+            "key": "7",
+            "text": "Ort"
+          },
+          {
+            "key": "8",
+            "text": "Einzugsdatum"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Datum des Einzugs"
+          },
+          {
+            "key": "b",
+            "text": "Stadt"
+          },
+          {
+            "key": "c",
+            "text": "erster Name"
+          },
+          {
+            "key": "d",
+            "text": "Postleitzahl"
+          },
+          {
+            "key": "e",
+            "text": "Nationalität"
+          },
+          {
+            "key": "f",
+            "text": "Nachname"
+          },
+          {
+            "key": "g",
+            "text": "Tag, Monat, Jahr der Geburt"
+          },
+          {
+            "key": "h",
+            "text": "wo man wohnt (Straße)"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A8",
+      "title": "Official form vocabulary: match the field to its meaning"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Der"
+          ],
+          "2": [
+            "einen"
+          ],
+          "3": [
+            "dem"
+          ],
+          "4": [
+            "die"
+          ],
+          "5": [
+            "dem"
+          ],
+          "6": [
+            "Die"
+          ],
+          "7": [
+            "einem"
+          ],
+          "8": [
+            "die"
+          ],
+          "9": [
+            "der"
+          ],
+          "10": [
+            "Der"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Termin (m, Nom.) beginnt um neun Uhr.\n2. Ich brauche {2} Reisepass (m, Akk., indef.).\n3. Sie gibt {3} Beamten (m, Dat., def.) die Dokumente.\n4. Das Formular ist für {4} Anmeldung (f, Akk., def.).\n5. Er wartet bei {5} Schalter (m, Dat., def.).\n6. {6} Sachbearbeiterin (f, Nom.) ist sehr freundlich.\n7. Wir fahren mit {7} Bus (m, Dat., indef.).\n8. Hast du {8} Unterschrift (f, Akk., def.) vergessen?\n9. Ich gehe zu {9} Ausländerbehörde (f, Dat., def.).\n10. {10} Wohnungsgebernachweis (m, Nom.) ist fertig.\n",
+        "type": "gap-text"
+      },
+      "id": "A9",
+      "instructions": "Wähle den richtigen Artikel (bestimmt: der/die/das/den/dem; oder wie angegeben).",
+      "instructionsEn": "Choose the correct article (definite: der/die/das/den/dem; or as prompted).",
+      "title": "Mixed article drill: Nominativ / Akkusativ / Dativ"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "F"
+          ],
+          "2": [
+            "I"
+          ],
+          "3": [
+            "F"
+          ],
+          "4": [
+            "I"
+          ],
+          "5": [
+            "F",
+            "I"
+          ],
+          "6": [
+            "F"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Sehr geehrte Frau Müller, → {1}\n2. Lieber Tom, → {2}\n3. Mit freundlichen Grüßen → {3}\n4. Viele Grüße → {4}\n5. Vielen Dank im Voraus. → {5}\n6. Könnten Sie mir bitte helfen? → {6}\n",
+        "type": "gap-text"
+      },
+      "id": "A11",
+      "instructions": "Markiere jede Phrase mit F (formell) oder I (informell). Bonus: schreibe die jeweils andere Variante unter die Lücke.",
+      "instructionsEn": "Mark each phrase F (formal) or I (informal). Bonus: write the other register version below the gap.",
+      "title": "E-mail formulaic phrases: formal or informal?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "ersten März"
+          ],
+          "2": [
+            "achten November"
+          ],
+          "3": [
+            "fünfzehnten April"
+          ],
+          "4": [
+            "dreiundzwanzigsten Oktober"
+          ],
+          "5": [
+            "einunddreißigsten Dezember"
+          ],
+          "6": [
+            "zweiten Juli"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. 1.3. → am {1}\n2. 8.11. → am {2}\n3. 15.4. → am {3}\n4. 23.10. → am {4}\n5. 31.12. → am {5}\n6. 2.7. → am {6}\n",
+        "type": "gap-text"
+      },
+      "id": "A12",
+      "instructions": "Schreibe das Datum in Worten (gesprochene Form: „am … ten/sten\").",
+      "instructionsEn": "Write the date in words (spoken form: *am … ten/sten*).",
+      "title": "Numbers: dates (revision from L12)"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Tag"
+          ],
+          "2": [
+            "Name"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "tun"
+          ],
+          "5": [
+            "anmelden"
+          ],
+          "6": [
+            "einen"
+          ],
+          "7": [
+            "dauert"
+          ],
+          "8": [
+            "buchen"
+          ],
+          "9": [
+            "Dank"
+          ],
+          "10": [
+            "Wiederhören"
+          ]
+        },
+        "listLayout": true,
+        "text": "— Bürgeramt Mitte, guten {1}.\n— Guten Tag! Mein {2} ist Petra Sommer. Ich {3} eine Frage.\n— Ja, gerne. Was kann ich für Sie {4}?\n— Ich möchte mich {5}. Welche Dokumente brauche ich?\n— Sie brauchen Ihren Personalausweis und {6} Wohnungsgebernachweis.\n— Und wie lange {7} der Termin?\n— Ungefähr zwanzig Minuten. Möchten Sie online einen Termin {8}?\n— Ja, gerne. Vielen {9}!\n— Auf {10}!\n",
+        "type": "gap-text"
+      },
+      "id": "B1",
+      "instructions": "Ergänze die Lücken mit je einem Wort.",
+      "instructionsEn": "Fill in the gaps with one word each.",
+      "title": "Dialog ergänzen: Am Telefon"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "ist"
+          ],
+          "2": [
+            "sprechen"
+          ],
+          "3": [
+            "nicht erreichbar",
+            "beschäftigt",
+            "weg"
+          ],
+          "4": [
+            "Termin"
+          ],
+          "5": [
+            "kommen"
+          ],
+          "6": [
+            "hinterlassen"
+          ],
+          "7": [
+            "ihm"
+          ],
+          "8": [
+            "später",
+            "morgen"
+          ],
+          "9": [
+            "Wiederhören"
+          ]
+        },
+        "listLayout": true,
+        "text": "— Zahnarztpraxis Dr. Weber, guten Tag.\n— Guten Tag! Hier {1} Carla Bruni. Kann ich mit Herrn Doktor Weber {2}?\n— Es tut mir leid, er ist gerade {3}. Kann ich Ihnen helfen?\n— Ich habe am Freitag einen {4}. Ich kann leider nicht {5}.\n— Möchten Sie eine Nachricht {6}?\n— Ja, bitte. Könnten Sie {7} sagen, dass ich {8} wieder anrufe?\n— Natürlich. Auf {9}!\n— Auf Wiederhören!\n",
+        "type": "gap-text"
+      },
+      "id": "B2",
+      "title": "Dialog ergänzen: Eine Nachricht hinterlassen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "schicken"
+          ],
+          "2": [
+            "an"
+          ],
+          "3": [
+            "hat"
+          ],
+          "4": [
+            "das"
+          ],
+          "5": [
+            "am"
+          ],
+          "6": [
+            "aus"
+          ],
+          "7": [
+            "angerufen"
+          ],
+          "8": [
+            "mir"
+          ],
+          "9": [
+            "den"
+          ],
+          "10": [
+            "dem"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Könnten Sie mir das Formular {1}? (schickt → ?)\n2. Ich rufe das Bürgeramt morgen {2}. (an → prefix to end)\n3. Bruno {3} sich gestern beim Bürgeramt angemeldet. (meldet → ?)\n4. Die Beamtin gibt {4} Formular Bruno. (dem → Akkusativ)\n5. Ich habe einen Termin {5} Dienstag. (an → am)\n6. Bitte füllen Sie das Formular {6}. (ein → aus)\n7. Er hat das Amt {7}. (angeruft → ?)\n8. Könnten Sie bitte {8} helfen? (mich → mir)\n9. Ich brauche {9} Reisepass. (der → den)\n10. Sie wohnt seit {10} 1. Oktober in der Mozartstraße. (den → dem)\n",
+        "type": "gap-text"
+      },
+      "id": "B3",
+      "instructions": "Jeder Satz hat genau einen Fehler. Das falsche Wort steht als Lücke — schreibe die richtige Form.",
+      "instructionsEn": "Each sentence has exactly one mistake. The wrong word is shown as a gap — write the correct form.",
+      "title": "Finde den Fehler"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "e",
+          "2": "c",
+          "3": "h",
+          "4": "b",
+          "5": "f",
+          "6": "a",
+          "7": "g",
+          "8": "d"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Haben Sie einen Termin?"
+          },
+          {
+            "key": "2",
+            "text": "Welche Dokumente brauche ich?"
+          },
+          {
+            "key": "3",
+            "text": "Kann ich eine Nachricht hinterlassen?"
+          },
+          {
+            "key": "4",
+            "text": "Wie lange dauert der Termin?"
+          },
+          {
+            "key": "5",
+            "text": "Störe ich gerade?"
+          },
+          {
+            "key": "6",
+            "text": "Zusammen oder getrennt?"
+          },
+          {
+            "key": "7",
+            "text": "Ist Frau Koch erreichbar?"
+          },
+          {
+            "key": "8",
+            "text": "Soll ich Ihre Nummer notieren?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Ja, da vorne rechts."
+          },
+          {
+            "key": "b",
+            "text": "Etwa zwanzig Minuten."
+          },
+          {
+            "key": "c",
+            "text": "Reisepass und Wohnungsgebernachweis."
+          },
+          {
+            "key": "d",
+            "text": "Ja, ich rufe später noch einmal an."
+          },
+          {
+            "key": "e",
+            "text": "Ja, um 10 Uhr."
+          },
+          {
+            "key": "f",
+            "text": "Nein, kein Problem."
+          },
+          {
+            "key": "g",
+            "text": "Nein, sie ist leider nicht erreichbar."
+          },
+          {
+            "key": "h",
+            "text": "Ja, natürlich."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B4",
+      "title": "Frage und Antwort verbinden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              1,
+              0,
+              2,
+              3,
+              4
+            ],
+            "note": "Ich rufe das Bürgeramt morgen an.",
+            "tiles": [
+              "rufe",
+              "ich",
+              "das Bürgeramt",
+              "morgen",
+              "an"
+            ]
+          },
+          {
+            "answer": [
+              2,
+              1,
+              3,
+              4,
+              0,
+              5
+            ],
+            "note": "Bitte füllen Sie das Formular aus!",
+            "tiles": [
+              "Formular",
+              "füllen",
+              "bitte",
+              "Sie",
+              "das",
+              "aus"
+            ]
+          },
+          {
+            "answer": [
+              2,
+              3,
+              0,
+              1,
+              4
+            ],
+            "note": "Bruno bucht einen Termin online.",
+            "tiles": [
+              "einen",
+              "Termin",
+              "Bruno",
+              "bucht",
+              "online"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              4,
+              0,
+              2,
+              5,
+              3,
+              6
+            ],
+            "note": "Könnten Sie mir das Formular schicken?",
+            "tiles": [
+              "mir",
+              "Könnten",
+              "das",
+              "schicken",
+              "Sie",
+              "Formular",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              0,
+              2,
+              3
+            ],
+            "note": "Die Beamtin hat das Formular ausgefüllt.",
+            "tiles": [
+              "hat",
+              "die Beamtin",
+              "das Formular",
+              "ausgefüllt"
+            ]
+          },
+          {
+            "answer": [
+              2,
+              3,
+              4,
+              0,
+              1,
+              5
+            ],
+            "note": "Ich rufe Sie wegen der Anmeldung an.",
+            "tiles": [
+              "wegen",
+              "der Anmeldung",
+              "ich",
+              "rufe",
+              "Sie",
+              "an"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              0,
+              3,
+              2
+            ],
+            "note": "Der Wohnungsgebernachweis ist fertig.",
+            "tiles": [
+              "Wohnungsgebernachweis",
+              "der",
+              "fertig",
+              "ist"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              3,
+              2,
+              4,
+              0
+            ],
+            "note": "Ich möchte eine Nachricht hinterlassen.",
+            "tiles": [
+              "hinterlassen",
+              "ich",
+              "eine",
+              "möchte",
+              "Nachricht"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B5",
+      "instructions": "Bilde korrekte deutsche Sätze. Merke: die trennbare Vorsilbe steht am Ende; das Verb auf Position 2.",
+      "instructionsEn": "Build correct German sentences. Remember: separable prefix goes to the end; verb in position 2.",
+      "title": "Satzbau (word order)"
+    },
+    {
+      "block": "B",
+      "body": {
+        "buckets": [
+          {
+            "key": "amt",
+            "label": "Amt"
+          },
+          {
+            "key": "telefon",
+            "label": "Telefon"
+          },
+          {
+            "key": "email",
+            "label": "E-Mail"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "email",
+            "text": "Betreff"
+          },
+          {
+            "bucket": "amt",
+            "text": "Schalter"
+          },
+          {
+            "bucket": "telefon",
+            "text": "Auf Wiederhören"
+          },
+          {
+            "bucket": "amt",
+            "text": "Unterschrift"
+          },
+          {
+            "bucket": "email",
+            "text": "Mit freundlichen Grüßen"
+          },
+          {
+            "bucket": "amt",
+            "text": "Formular ausfüllen"
+          },
+          {
+            "bucket": "telefon",
+            "text": "Nachricht hinterlassen"
+          },
+          {
+            "bucket": "amt",
+            "text": "Warteraum"
+          },
+          {
+            "bucket": "email",
+            "text": "Anhang"
+          },
+          {
+            "bucket": "amt",
+            "text": "Termin"
+          },
+          {
+            "bucket": "email",
+            "text": "Sehr geehrte Damen und Herren"
+          },
+          {
+            "bucket": "amt",
+            "text": "Warteschlange"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "B6",
+      "instructions": "Sortiere diese 12 Wörter oder Phrasen in drei Spalten. Hinweis: „Termin\" kann sowohl im Amt- als auch im Telefon-Kontext vorkommen — beides ist okay.",
+      "instructionsEn": "Sort these 12 words or phrases into three columns. Note: Termin can appear in both Amt and Telefon contexts — accept in either.",
+      "title": "Categorizing: Amt, Telefon, or E-Mail?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "dem"
+          ],
+          "2": [
+            "der"
+          ],
+          "3": [
+            "dem"
+          ],
+          "4": [
+            "C"
+          ],
+          "5": [
+            "C"
+          ],
+          "6": [
+            "den"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich gebe {1} Mann das Formular. (der → should be Dativ)\n2. Sie hilft {2} Frau. (den → should be der, Dativ fem.)\n3. Wir fahren zu dem Termin mit {3} Bus. (den → dem)\n4. Ich schicke ihm den Brief. → {4}\n5. Der Termin passt mir nicht — ich brauche einen anderen Termin. → {5}\n6. Die Beamtin gibt {6} Reisepass Bruno zurück. (dem → Akkusativ)\n",
+        "type": "gap-text"
+      },
+      "id": "B7",
+      "instructions": "In jedem Satz ist ein Fall falsch. Korrigiere ihn. Aufgaben 4 und 5 sind korrekt (schreibe C).",
+      "instructionsEn": "In each sentence one case is wrong. Correct it. Items 4 and 5 are correct (write C).",
+      "title": "Finde den Fehler: Akkusativ oder Dativ?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "seit"
+          ],
+          "2": [
+            "mich"
+          ],
+          "3": [
+            "rufe"
+          ],
+          "4": [
+            "brauche"
+          ],
+          "5": [
+            "einen"
+          ],
+          "6": [
+            "einen"
+          ],
+          "7": [
+            "ins"
+          ],
+          "8": [
+            "dieses"
+          ],
+          "9": [
+            "aus"
+          ],
+          "10": [
+            "Ordnung"
+          ]
+        },
+        "listLayout": true,
+        "text": "Ich heiße Layla Hassan und ich wohne {1} dem 1. September in Berlin.\nJetzt muss ich {2} beim Bürgeramt anmelden. Ich {3} das Amt an\nund frage, welche Dokumente ich {4}. Die Sachbearbeiterin sagt: „Sie\nbrauchen Ihren Reisepass und {5} Wohnungsgebernachweis.\" Ich buche\n{6} Termin online. Am Montag gehe ich {7} Bürgeramt. Die Beamtin\nsagt: „Bitte füllen Sie {8} Formular aus.\" Ich fülle es {9} und\nunterschreibe. Die Beamtin prüft alles und sagt: „Alles in {10}!\"\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Fülle jede Lücke mit einem Wort.",
+      "instructionsEn": "Fill each gap with one word.",
+      "title": "Lückentext"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "seit"
+              },
+              {
+                "key": "b",
+                "text": "wegen"
+              },
+              {
+                "key": "c",
+                "text": "nach"
+              }
+            ],
+            "q": "Ich rufe (1) ____ der Anmeldung an. — I'm calling (1) ____ the registration.",
+            "why": "Ich rufe wegen … an — chunk for I'm calling about …."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "einen"
+              },
+              {
+                "key": "b",
+                "text": "ein"
+              },
+              {
+                "key": "c",
+                "text": "eine"
+              }
+            ],
+            "q": "Haben Sie (2) ____ Termin? — Do you have (2) ____ appointment?",
+            "why": "masc. indef. Akk."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Darf"
+              },
+              {
+                "key": "b",
+                "text": "Kann"
+              },
+              {
+                "key": "c",
+                "text": "Muss"
+              }
+            ],
+            "q": "(3) ____ ich bitte online buchen? — (3) ____ I please book online?",
+            "why": "Kann ich = Can I (asking for ability/permission)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "müsst"
+              },
+              {
+                "key": "b",
+                "text": "müssen"
+              },
+              {
+                "key": "c",
+                "text": "muss"
+              }
+            ],
+            "q": "Sie (4) ____ Ihren Reisepass und einen Wohnungsgebernachweis mitbringen. — You (4) ____ bring your passport and a landlord's confirmation of tenancy.",
+            "why": "Sie-form of müssen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "dauern"
+              },
+              {
+                "key": "b",
+                "text": "dauert"
+              },
+              {
+                "key": "c",
+                "text": "dauern Sie"
+              }
+            ],
+            "q": "Und wie lange (5) ____ das? — And how long does (5) ____ that take?",
+            "why": "er/sie/es-form of dauern."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "das"
+              },
+              {
+                "key": "b",
+                "text": "sich"
+              },
+              {
+                "key": "c",
+                "text": "ihn"
+              }
+            ],
+            "q": "Möchten Sie (6) ____ jetzt online buchen? — Would you like to book (6) ____ online now?",
+            "why": "ihn = den Termin (Akk masc.)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle die richtige Option (a, b oder c) für jede Lücke.",
+      "instructionsEn": "Choose the correct option (a, b, or c) for each gap.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "KÖNNTEN"
+          ],
+          "2": [
+            "NICHT"
+          ],
+          "3": [
+            "GERNE"
+          ],
+          "4": [
+            "DAUERT"
+          ],
+          "5": [
+            "IHREN"
+          ],
+          "6": [
+            "DABEI"
+          ],
+          "7": [
+            "HIER"
+          ],
+          "8": [
+            "UNTERSCHREIBEN"
+          ],
+          "9": [
+            "EINEN"
+          ],
+          "10": [
+            "KOMMEN"
+          ]
+        },
+        "bank": [
+          "AN",
+          "AUSFÜLLEN",
+          "DABEI",
+          "DAUERT",
+          "DEM",
+          "EINEN",
+          "GERNE",
+          "HIER",
+          "IHREN",
+          "KOMMEN",
+          "KÖNNTEN",
+          "NACHRICHT",
+          "NICHT",
+          "REISEPASS",
+          "UNTERSCHREIBEN"
+        ],
+        "text": "— Guten Morgen! {1} Sie dieses Formular bitte ausfüllen?\n— Ja, natürlich. Aber ich verstehe Frage 5 {2}.\n— Aber {3}! Das ist Ihr Einzugsdatum.\n— Ah, verstehe. Und wie lange {4} das alles?\n— Etwa zehn Minuten. Haben Sie {5} Reisepass {6}?\n— Ja, {7}. Und muss ich noch {8}?\n— Ja, bitte unterschreiben Sie hier. Möchten Sie {9} Termin für nächste Woche?\n— Ja, gerne. Kann ich {10}?\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Fünf Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps from the box. Five words are not needed. Each word may be used once.",
+      "title": "Sprachbausteine Teil 2 (word bank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Bruno wohnt in Mitte. — Bruno lives in Mitte.",
+            "why": "Bruno wohnt in Friedrichshain, not Mitte."
+          },
+          {
+            "answer": true,
+            "q": "Sein Vermieter heißt Herr Koch. — His landlord's name is Mr. Koch.",
+            "why": "Sein Vermieter heißt Herr Koch."
+          },
+          {
+            "answer": false,
+            "q": "Bruno hat keinen Wohnungsgebernachweis. — Bruno doesn't have a landlord's confirmation of tenancy.",
+            "why": "Er hat einen Wohnungsgebernachweis von Herrn Koch."
+          },
+          {
+            "answer": true,
+            "q": "Bruno bucht einen Termin für Dienstag. — Bruno books an appointment for Tuesday.",
+            "why": "Dienstag, 8. November, 9 Uhr."
+          },
+          {
+            "answer": false,
+            "q": "Bruno muss kein Formular ausfüllen. — Bruno doesn't have to fill out a form.",
+            "why": "Er füllt ein Formular aus."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Bruno ist neu in Berlin. Er kommt aus Blumenau (Santa Catarina) und\n> wohnt jetzt in Friedrichshain. Sein Vermieter heißt Herr Koch. Herr\n> Koch hat ihm schon einen Wohnungsgebernachweis gegeben.\n>\n> Jetzt ruft Bruno das Bürgeramt an. Die Sachbearbeiterin sagt: „Sie\n> brauchen Ihren Reisepass und den Wohnungsgebernachweis. Möchten Sie\n> online einen Termin buchen?\" Bruno sagt ja und bucht einen Termin\n> für Dienstag, den achten November, um neun Uhr.\n>\n> Am Dienstag geht Bruno ins Bürgeramt. Er wartet im Warteraum. Dann\n> kommt er an den Schalter. Die Beamtin sagt: „Guten Morgen! Bitte\n> füllen Sie dieses Formular aus.\" Bruno füllt das Formular aus:\n> Vorname, Familienname, Geburtsdatum, Geburtsort, Staatsangehörigkeit,\n> Adresse in Berlin. Er unterschreibt und gibt der Beamtin die\n> Dokumente.\n>\n> Die Beamtin prüft alles und sagt: „Alles in Ordnung. Willkommen in\n> Berlin, Herr Rodrigues!\" — „Vielen Dank!\" sagt Bruno. Er ist jetzt\n> offiziell in Berlin angemeldet.\n\nRichtig (R) oder falsch (F)?\n",
+      "title": "Lesen Text 1 — „Die Anmeldung\""
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "dem Bürgeramt."
+              },
+              {
+                "key": "b",
+                "text": "dem Vermieter."
+              },
+              {
+                "key": "c",
+                "text": "dem Finanzamt."
+              }
+            ],
+            "q": "Den Wohnungsgebernachweis bekommt man von … — You get the landlord's confirmation of tenancy from …",
+            "why": "vom Vermieter."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "kann man kommen."
+              },
+              {
+                "key": "b",
+                "text": "kostet es mehr."
+              },
+              {
+                "key": "c",
+                "text": "ist keine Beratung möglich."
+              }
+            ],
+            "q": "Ohne Termin … — Without an appointment …",
+            "why": "Ohne Termin können wir Sie leider nicht beraten."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "15 Euro."
+              },
+              {
+                "key": "b",
+                "text": "20 Euro."
+              },
+              {
+                "key": "c",
+                "text": "nichts."
+              }
+            ],
+            "q": "Die Anmeldung kostet … — Registration costs …",
+            "why": "kostenlos = free."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ungefähr eine Stunde."
+              },
+              {
+                "key": "b",
+                "text": "ungefähr 15–20 Minuten."
+              },
+              {
+                "key": "c",
+                "text": "ungefähr 5 Minuten."
+              }
+            ],
+            "q": "Ein Termin dauert … — An appointment lasts …",
+            "why": "ungefähr 15–20 Minuten."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Website extract:\n> **Bürgeramt Berlin — Häufige Fragen (FAQ)**\n> **Was brauche ich für die Anmeldung?** Sie brauchen einen gültigen Personalausweis oder Reisepass und einen Wohnungsgebernachweis. Diesen erhalten Sie von Ihrem Vermieter.\n> **Muss ich einen Termin machen?** Ja, Sie müssen online einen Termin buchen. Ohne Termin können wir Sie leider nicht beraten.\n> **Was kostet die Anmeldung?** Die Anmeldung ist kostenlos.\n> **Wie lange dauert ein Termin?** Ein Termin dauert ungefähr 15–20 Minuten.\n\nWähle a, b oder c.\n",
+      "title": "Lesen Text 2 — Bürgeramt-FAQ"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "an"
+          ],
+          "2": [
+            "mit"
+          ],
+          "3": [
+            "Familienname"
+          ],
+          "4": [
+            "Könnten Sie"
+          ],
+          "5": [
+            "mir"
+          ],
+          "6": [
+            "Auf Wiederhören!"
+          ],
+          "7": [
+            "füllen"
+          ],
+          "8": [
+            "aus"
+          ],
+          "9": [
+            "angerufen"
+          ],
+          "10": [
+            "einem"
+          ],
+          "11": [
+            "dritten Mai"
+          ],
+          "12": [
+            "an"
+          ],
+          "13": [
+            "Mit freundlichen Grüßen"
+          ],
+          "14": [
+            "muss"
+          ],
+          "15": [
+            "der"
+          ],
+          "16": [
+            "steht auf"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. anmelden (ich, present): Ich melde mich {1}.\n2. (L8) dative preposition for \"with\": {2}\n3. Formularfeld for surname: {3}\n4. Polite request starter (chunk from this lesson): {4}\n5. (L9) \"it suits me\" (passen): Das passt {5} gut.\n6. Telephone goodbye: {6}\n7. ausfüllen (Sie-imperative): Bitte {7} Sie das Formular {8}!\n8. (L11) Perfekt of anrufen (ich): Ich habe das Amt {9}.\n9. Dative of *ein* before masculine noun: {10}\n10. (L12) \"on the 3rd of May\" in German: am {11}\n11. \"I'm calling about my appointment\": Ich rufe wegen dem Termin {12}.\n12. Formal email closing: {13}\n13. (L7) \"I have to go\" (müssen): Ich {14} gehen.\n14. Dative of *die* (singular): {15}\n15. (L5) separable verb \"to get up\" (3rd person): er {16}\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Eine Antwort pro Aufgabe. Keine Notizen.",
+      "instructionsEn": "One answer per item. No notes.",
+      "title": "Gemischter Schnelltest (incl. earlier lessons)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "anrufen",
+              "ausfüllen",
+              "anmelden",
+              "kaufen"
+            ],
+            "odd": 3,
+            "why": "not a separable Amt/Telefon verb — the others all relate to official contexts."
+          },
+          {
+            "items": [
+              "Reisepass",
+              "Personalausweis",
+              "Formular",
+              "Kuchen"
+            ],
+            "odd": 3,
+            "why": "not a document (Kuchen = cake)."
+          },
+          {
+            "items": [
+              "Schalter",
+              "Warteraum",
+              "Bürgeramt",
+              "Apfel"
+            ],
+            "odd": 3,
+            "why": "not related to offices (Apfel = apple)."
+          },
+          {
+            "items": [
+              "Vorname",
+              "Familienname",
+              "Unterschrift",
+              "Tee"
+            ],
+            "odd": 3,
+            "why": "not a form field (Tee = tea)."
+          },
+          {
+            "items": [
+              "mit",
+              "zu",
+              "bei",
+              "essen"
+            ],
+            "odd": 3,
+            "why": "not a dative preposition (essen = to eat)."
+          },
+          {
+            "items": [
+              "mir",
+              "dir",
+              "ihm",
+              "ein"
+            ],
+            "odd": 3,
+            "why": "not a personal pronoun (ein = article)."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Streiche das Wort durch, das nicht passt.",
+      "instructionsEn": "Cross out the word that does not fit.",
+      "title": "Odd one out"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "sprichst"
+          ],
+          "2": [
+            "Töchter"
+          ],
+          "3": [
+            "einen"
+          ],
+          "4": [
+            "stehe"
+          ],
+          "5": [
+            "auf"
+          ],
+          "6": [
+            "muss"
+          ],
+          "7": [
+            "mit"
+          ],
+          "8": [
+            "ihr"
+          ],
+          "9": [
+            "Trinken"
+          ],
+          "10": [
+            "habe"
+          ],
+          "11": [
+            "ausgefüllt"
+          ],
+          "12": [
+            "ersten Oktober"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. (L1) du (sprechen) → du {1}\n2. (L2) Plural: die Tochter → die {2}\n3. (L3) Akkusativ: Ich nehme {3} Apfel (m, indef.).\n4. (L5) separable: Ich {4} um 7 Uhr {5}. (aufstehen)\n5. (L7) Modal: Er {6} das Formular ausfüllen. (müssen)\n6. (L8) Dative prep.: Ich fahre {7} dem Bus.\n7. (L9) Dative pronoun: Das Kleid gefällt {8} (her).\n8. (L10) Imperative (Sie): {9} Sie viel Wasser! (trinken)\n9. (L11) Perfekt: Ich {10} das Formular {11} (ausfüllen).\n10. (L12) Date: \"on the 1st of October\" → am {12}\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "title": "Wiederholung früherer Lektionen"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Der"
+          ],
+          "2": [
+            "einen"
+          ],
+          "3": [
+            "der"
+          ],
+          "4": [
+            "mir"
+          ],
+          "5": [
+            "uns"
+          ],
+          "6": [
+            "ihm"
+          ],
+          "7": [
+            "rufe"
+          ],
+          "8": [
+            "an"
+          ],
+          "9": [
+            "füllen"
+          ],
+          "10": [
+            "aus"
+          ],
+          "11": [
+            "meldet"
+          ],
+          "12": [
+            "an"
+          ],
+          "13": [
+            "Könnten"
+          ],
+          "14": [
+            "Auf Wiederhören!"
+          ],
+          "15": [
+            "Störe ich gerade?"
+          ],
+          "16": [
+            "das Formular, -e"
+          ],
+          "17": [
+            "der Termin, -e"
+          ],
+          "18": [
+            "der Personalausweis, -e"
+          ],
+          "19": [
+            "Sehr"
+          ],
+          "20": [
+            "fünfzehnten November"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Termin (m, Nom., def.) ist um 10 Uhr.\n2. Ich brauche {2} Reisepass (m, Akk., indef.).\n3. Ich gebe {3} Beamtin (f, Dat., def.) das Formular.\n4. Der Termin passt {4} nicht. (me)\n5. Können Sie {5} helfen? (us)\n6. Ich schicke {6} das Dokument. (him)\n7. Ich {7} das Bürgeramt {8}. (anrufen, ich)\n8. Bitte {9} Sie das Formular {10}! (ausfüllen, Sie-imp.)\n9. Er {11} sich {12}. (anmelden, er)\n10. „{13} Sie mir bitte das Formular schicken?\"\n11. {14} (telephone goodbye, formal)\n12. {15}? (\"Am I disturbing you?\")\n13. {16} (form, with article)\n14. {17} (appointment, with article)\n15. {18} (identity card, with article)\n16. {19} geehrte Frau Müller, (formal opening)\n17. 15.11. in words → am {20}\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (score yourself /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "a1-13",
+  "intro": "Blocks: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Answers in solutions.md. Tip: spread the blocks over several days — H and A today, B tomorrow, C and D after that.\n",
+  "lesson": "A1/13",
+  "level": "A1",
+  "summary": null,
+  "title": "A1 · Lektion 13 — Übungen",
+  "topic": null
+}

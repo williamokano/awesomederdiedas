@@ -1,0 +1,820 @@
+{
+  "category": "Geld & Verträge",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "erkennen",
+            "label": "Erkennen"
+          },
+          {
+            "key": "melden",
+            "label": "Melden"
+          },
+          {
+            "key": "schuetzen",
+            "label": "Schützen"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "erkennen",
+            "text": "eine verdächtige E-Mail erkennen"
+          },
+          {
+            "bucket": "erkennen",
+            "text": "den Absender genau prüfen"
+          },
+          {
+            "bucket": "erkennen",
+            "text": "einen falschen Link bemerken"
+          },
+          {
+            "bucket": "erkennen",
+            "text": "eine unbekannte Überweisung entdecken"
+          },
+          {
+            "bucket": "melden",
+            "text": "die Bank sofort informieren"
+          },
+          {
+            "bucket": "melden",
+            "text": "die Karte sperren lassen"
+          },
+          {
+            "bucket": "melden",
+            "text": "eine Anzeige bei der Polizei erstatten"
+          },
+          {
+            "bucket": "melden",
+            "text": "die Phishing-Mail weiterleiten"
+          },
+          {
+            "bucket": "schuetzen",
+            "text": "die PIN niemals weitergeben"
+          },
+          {
+            "bucket": "schuetzen",
+            "text": "ein neues Passwort wählen"
+          },
+          {
+            "bucket": "schuetzen",
+            "text": "die Kontoauszüge regelmäßig prüfen"
+          },
+          {
+            "bucket": "schuetzen",
+            "text": "eine Rückbuchung beantragen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Erkennen, melden oder schützen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Phishing-Mail"
+          },
+          {
+            "key": "2",
+            "text": "der Betrug"
+          },
+          {
+            "key": "3",
+            "text": "die Überweisung"
+          },
+          {
+            "key": "4",
+            "text": "die Kartensperrung"
+          },
+          {
+            "key": "5",
+            "text": "der Absender"
+          },
+          {
+            "key": "6",
+            "text": "die Anzeige"
+          },
+          {
+            "key": "7",
+            "text": "die PIN"
+          },
+          {
+            "key": "8",
+            "text": "die Rückbuchung"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "eine gefälschte E-Mail, die Daten stehlen will"
+          },
+          {
+            "key": "b",
+            "text": "die absichtliche Täuschung, um Geld zu bekommen"
+          },
+          {
+            "key": "c",
+            "text": "das Senden von Geld auf ein anderes Konto"
+          },
+          {
+            "key": "d",
+            "text": "das Blockieren einer gestohlenen oder missbrauchten Karte"
+          },
+          {
+            "key": "e",
+            "text": "die Person oder Adresse, von der eine Nachricht kommt"
+          },
+          {
+            "key": "f",
+            "text": "die offizielle Meldung einer Straftat bei der Polizei"
+          },
+          {
+            "key": "g",
+            "text": "der geheime Zahlencode für Karte oder Konto"
+          },
+          {
+            "key": "h",
+            "text": "die Rückerstattung einer falschen oder betrügerischen Zahlung"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "Hast"
+          ],
+          "3": [
+            "darf"
+          ],
+          "4": [
+            "Können"
+          ],
+          "5": [
+            "ist"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "habe"
+          ],
+          "8": [
+            "Ist"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} gestern eine verdächtige E-Mail bekommen. (haben, Perfekt)\n2. {2} du den Absender schon geprüft? (haben, Perfekt)\n3. Man {3} niemals seine PIN weitergeben. (dürfen, Präsens)\n4. {4} Sie mir bitte die Karte sperren? (können, Sie-Form)\n5. Falls eine Überweisung verdächtig {5}, sollte man die Bank informieren. (sein, Präsens)\n6. Die Bank {6} den Schaden vermutlich zurückerstatten. (werden, Futur I)\n7. Ich {7} schon Anzeige bei der Polizei erstattet. (haben, Perfekt)\n8. {8} die Karte schon gesperrt worden? (sein, Perfekt Passiv)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Den Betrug melden"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Phishing-Mail"
+          ],
+          "2": [
+            "Betrug"
+          ],
+          "3": [
+            "Überweisung"
+          ],
+          "4": [
+            "Kartensperrung"
+          ],
+          "5": [
+            "Absender"
+          ],
+          "6": [
+            "Rückbuchung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe eine gefälschte {1} bekommen, die aussieht wie von meiner Bank. (eine gefälschte E-Mail, die Daten stehlen will)\n2. So ein {2} kann sehr viel Geld kosten. (die absichtliche Täuschung, um Geld zu bekommen)\n3. Auf meinem Konto steht eine {3}, die ich nie gemacht habe. (das Senden von Geld auf ein anderes Konto)\n4. Nach dem Diebstahl habe ich sofort eine {4} beantragt. (das Blockieren der Karte)\n5. Der {5} der E-Mail sah verdächtig aus. (die Adresse, von der eine Nachricht kommt)\n6. Ich habe bei der Bank eine {6} für die falsche Zahlung beantragt. (die Rückerstattung einer falschen Zahlung)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "BETRUG"
+          ],
+          "2": [
+            "NACHRICHT"
+          ],
+          "3": [
+            "PIN"
+          ],
+          "4": [
+            "SUMME"
+          ],
+          "5": [
+            "RÜCKBUCHUNG"
+          ],
+          "6": [
+            "ANZEIGE"
+          ],
+          "7": [
+            "PASSWORT"
+          ],
+          "8": [
+            "ABSENDER"
+          ],
+          "9": [
+            "RUFEN"
+          ],
+          "10": [
+            "INFORMIEREN"
+          ]
+        },
+        "bank": [
+          "NACHRICHT",
+          "BETRUG",
+          "KREDITKARTE",
+          "PIN",
+          "VERSICHERUNG",
+          "SUMME",
+          "RÜCKBUCHUNG",
+          "RECHNUNG",
+          "ANZEIGE",
+          "PASSWORT",
+          "GUTHABEN",
+          "ABSENDER",
+          "RUFEN",
+          "INFORMIEREN"
+        ],
+        "text": "(am Telefon mit der Bank-Hotline)\n— Guten Tag, ich glaube, ich bin Opfer von {1} geworden.\n— Das tut mir leid. Was genau ist passiert?\n— Ich habe eine {2} bekommen, die aussah wie von Ihrer Bank.\n— Haben Sie auf einen Link geklickt oder Daten eingegeben?\n— Ja, leider habe ich meine {3} eingegeben.\n— Das ist sehr wichtig zu wissen. Wir sperren die Karte sofort.\nKönnen Sie mir noch die {4} der falschen Überweisung nennen?\n— Ja, es waren ungefähr 800 Euro.\n— Gut, wir prüfen das sofort. Ich veranlasse eine {5}.\n— Vielen Dank. Muss ich auch zur Polizei gehen?\n— Ja, das empfehlen wir. Erstatten Sie am besten eine {6}.\n— Mache ich gleich morgen früh.\n— Und ändern Sie bitte auch Ihr {7} für das Online-Banking.\n— Gut, das mache ich sofort.\n— Prüfen Sie in Zukunft immer den {8} genau, bevor Sie auf\neinen Link klicken.\n— Das werde ich machen.\n— Wenn Sie unsicher sind, {9} Sie uns lieber vorher an.\n— Gute Idee, danke für den Rat.\n— Wir {10} Sie, sobald die Rückbuchung bearbeitet ist.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Am Telefon mit der Bank-Hotline"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Betrug interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich glaube, ich bin Opfer von Betrug geworden."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal."
+              }
+            ],
+            "q": "Du willst der Bank sagen, dass du Opfer von Betrug geworden bist. — You want to tell the bank you've been the victim of fraud.",
+            "why": "Eine klare Aussage ist der übliche Einstieg beim Melden von Betrug."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Karten interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich frage lieber nicht nach."
+              },
+              {
+                "key": "c",
+                "text": "Sollte ich meine Karte sofort sperren lassen?"
+              }
+            ],
+            "q": "Du willst wissen, ob du sofort deine Karte sperren lassen solltest. — You want to know if you should block your card right away.",
+            "why": "Eine direkte Frage klärt schnell, ob eine Sperrung nötig ist."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich leite Ihnen die verdächtige E-Mail gleich weiter."
+              },
+              {
+                "key": "b",
+                "text": "E-Mails interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst der Bank die verdächtige E-Mail weiterleiten. — You want to forward the suspicious email to the bank.",
+            "why": "Eine klare Ankündigung hilft der Bank, die Phishing-Mail zu prüfen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Polizei interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Muss ich wegen des Betrugs auch zur Polizei gehen?"
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal, Hauptsache die Karte ist gesperrt."
+              }
+            ],
+            "q": "Du willst wissen, ob du wegen des Betrugs auch zur Polizei musst. — You want to know if you also need to go to the police because of the fraud.",
+            "why": "Eine direkte Frage klärt, ob zusätzlich eine Anzeige nötig ist."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Rückbuchungen interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Das ist mir zu kompliziert."
+              },
+              {
+                "key": "c",
+                "text": "Wie lange dauert die Rückbuchung ungefähr?"
+              }
+            ],
+            "q": "Du willst wissen, wie lange die Rückbuchung ungefähr dauert. — You want to know how long the chargeback will roughly take.",
+            "why": "Eine direkte Frage klärt, wann das Geld wieder auf dem Konto ist."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich habe mein Passwort für das Online-Banking schon geändert."
+              },
+              {
+                "key": "b",
+                "text": "Passwörter interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst der Bank sagen, dass du dein Passwort schon geändert hast. — You want to tell the bank you've already changed your password.",
+            "why": "Eine klare Aussage zeigt der Bank, dass du schon vorsorglich gehandelt hast."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Melden und schützen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt mit sein, Partizip am Ende",
+            "tiles": [
+              "Ich",
+              "bin",
+              "Opfer",
+              "von",
+              "Betrug",
+              "geworden"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Ja/Nein-Frage im Perfekt",
+            "tiles": [
+              "Haben",
+              "Sie",
+              "auf",
+              "einen",
+              "Link",
+              "geklickt",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Aussage, Verb an Position 2",
+            "tiles": [
+              "Wir",
+              "sperren",
+              "die",
+              "Karte",
+              "sofort"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Futur I, Zeitangabe an Position 1, Verb an Position 2",
+            "tiles": [
+              "Morgen",
+              "werde",
+              "ich",
+              "Anzeige",
+              "bei",
+              "der",
+              "Polizei",
+              "erstatten"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "W-Frage mit Verb an Position 2",
+            "tiles": [
+              "Wie",
+              "lange",
+              "dauert",
+              "die",
+              "Rückbuchung",
+              "eigentlich",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Ich",
+              "habe",
+              "mein",
+              "Passwort",
+              "sofort",
+              "geändert"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zum Betrug melden bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Banken fragen manchmal per E-Mail nach der PIN. — Banks sometimes ask for the PIN by email.",
+            "why": "Banken fragen niemals per E-Mail oder Telefon nach der PIN."
+          },
+          {
+            "answer": true,
+            "q": "Bei Verdacht auf Phishing sollte man sofort die Karte sperren lassen. — If phishing is suspected, you should block the card immediately.",
+            "why": "So steht es ausdrücklich in den Infos zu Betrug und Phishing."
+          },
+          {
+            "answer": false,
+            "q": "Eine Anzeige bei der Polizei lohnt sich nur bei sehr hohen Beträgen. — Reporting to the police is only worthwhile for very high amounts.",
+            "why": "Auch bei Online-Betrug sollte man unabhängig von der Höhe Anzeige erstatten."
+          },
+          {
+            "answer": false,
+            "q": "Eine Rückbuchung ist immer zu 100 Prozent garantiert. — A chargeback is always 100 percent guaranteed.",
+            "why": "Sie ist nicht immer garantiert, sondern hängt vom Einzelfall ab."
+          },
+          {
+            "answer": true,
+            "q": "Verdächtige E-Mails sollte man an die Bank weiterleiten statt sie zu beantworten. — Suspicious emails should be forwarded to the bank instead of being answered.",
+            "why": "„Verdächtige E-Mails: nicht beantworten, sondern an die Bank weiterleiten.“"
+          },
+          {
+            "answer": true,
+            "q": "Ein sicheres Passwort sollte man regelmäßig ändern. — A secure password should be changed regularly.",
+            "why": "„Passwort: ein sicheres Passwort sollte man regelmäßig ändern.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Betrug und Phishing**\n>\n> - **PIN:** Banken fragen **niemals** per E-Mail oder Telefon\n>   nach der PIN.\n> - **Bei Verdacht:** sofort die Karte über die europaweite\n>   Sperr-Hotline **116 116** sperren lassen.\n> - **Anzeige:** auch bei Online-Betrug sollte man Anzeige bei\n>   der Polizei erstatten.\n> - **Rückbuchung:** ist **nicht immer garantiert**, hängt vom\n>   Einzelfall ab.\n> - **Verdächtige E-Mails:** nicht beantworten, sondern an die\n>   Bank **weiterleiten**.\n> - **Passwort:** ein sicheres Passwort sollte man **regelmäßig\n>   ändern**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zu Betrug und Phishing lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach abwarten, ob etwas passiert."
+              },
+              {
+                "key": "b",
+                "text": "Sofort die Bank anrufen und die Karte sperren lassen."
+              },
+              {
+                "key": "c",
+                "text": "Die E-Mail löschen und nichts weiter unternehmen."
+              }
+            ],
+            "q": "Sie haben schon auf einen Phishing-Link geklickt und Ihre Daten eingegeben. — You've already clicked a phishing link and entered your data.",
+            "why": "Ein sofortiger Anruf verhindert oft größeren Schaden."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Abbuchung einfach ignorieren."
+              },
+              {
+                "key": "b",
+                "text": "Selbst versuchen, das Geld zurückzuholen."
+              },
+              {
+                "key": "c",
+                "text": "Die Bank informieren und eine Rückbuchung beantragen."
+              }
+            ],
+            "q": "Sie entdecken eine unbekannte Abbuchung auf Ihrem Kontoauszug. — You discover an unknown withdrawal on your bank statement.",
+            "why": "Nur die Bank kann eine Rückbuchung für eine unbekannte Abbuchung veranlassen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Auflegen und die Bank über die offizielle Nummer selbst anrufen."
+              },
+              {
+                "key": "b",
+                "text": "Sofort die PIN am Telefon nennen."
+              },
+              {
+                "key": "c",
+                "text": "Der Person alle Kontodaten geben."
+              }
+            ],
+            "q": "Am Telefon meldet sich jemand, der angeblich von Ihrer Bank ist und nach Ihrer PIN fragt. — Someone on the phone claims to be from your bank and asks for your PIN.",
+            "why": "Echte Banken fragen niemals am Telefon nach der PIN."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort auf den Link klicken, um zu sehen, was es ist."
+              },
+              {
+                "key": "b",
+                "text": "Den Link nicht anklicken und die SMS löschen oder melden."
+              },
+              {
+                "key": "c",
+                "text": "Die Nummer zurückrufen und Daten geben."
+              }
+            ],
+            "q": "Sie bekommen eine SMS mit einem Link von einer unbekannten Nummer. — You receive a text with a link from an unknown number.",
+            "why": "Ein unbekannter Link sollte nie angeklickt werden."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach eine neue Karte kaufen."
+              },
+              {
+                "key": "b",
+                "text": "Die Sperrung ignorieren."
+              },
+              {
+                "key": "c",
+                "text": "Die Bank-Hotline anrufen und nach dem Grund fragen."
+              }
+            ],
+            "q": "Ihre Kreditkarte wird im Ausland plötzlich gesperrt und Sie wissen nicht, warum. — Your credit card suddenly gets blocked abroad and you don't know why.",
+            "why": "Ein Anruf klärt schnell, ob die Sperrung wegen Betrugsverdachts erfolgte."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Schriftlich Widerspruch einlegen und eine Begründung verlangen."
+              },
+              {
+                "key": "b",
+                "text": "Den Verlust einfach akzeptieren."
+              },
+              {
+                "key": "c",
+                "text": "Die Bank wechseln, ohne nachzufragen."
+              }
+            ],
+            "q": "Ihre Rückbuchung wird von der Bank abgelehnt. — Your chargeback is rejected by the bank.",
+            "why": "Ein schriftlicher Widerspruch mit Begründung kann die Entscheidung noch ändern."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn beim Betrug etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "geklickt"
+          ],
+          "2": [
+            "entdeckt"
+          ],
+          "3": [
+            "aufgelegt"
+          ],
+          "4": [
+            "gelöscht"
+          ],
+          "5": [
+            "gesperrt"
+          ],
+          "6": [
+            "abgelehnt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe leider auf den Phishing-Link {1}. (angeklickt, Partizip)\n2. Auf meinem Konto habe ich eine unbekannte Abbuchung {2}. (bemerkt, Partizip)\n3. Am Telefon habe ich sofort {3}. (das Gespräch beendet, Partizip)\n4. Die verdächtige SMS habe ich sofort {4}. (entfernt, Partizip)\n5. Meine Kreditkarte wurde im Ausland plötzlich {5}. (blockiert, Partizip)\n6. Meine Rückbuchung wurde leider {6}. (nicht akzeptiert, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "darf"
+          ],
+          "3": [
+            "Phishing-Mail"
+          ],
+          "4": [
+            "Betrug"
+          ],
+          "5": [
+            "Überweisung"
+          ],
+          "6": [
+            "Kartensperrung"
+          ],
+          "7": [
+            "Absender"
+          ],
+          "8": [
+            "Rückbuchung"
+          ],
+          "9": [
+            "Können"
+          ],
+          "10": [
+            "Anzeige"
+          ],
+          "11": [
+            "geklickt"
+          ],
+          "12": [
+            "gesperrt"
+          ],
+          "13": [
+            "abgelehnt"
+          ],
+          "14": [
+            "Passwort"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} gestern eine verdächtige E-Mail bekommen. (have — Perfekt)\n2. Man {2} niemals seine PIN weitergeben. (may not — dürfen)\n3. Ich habe eine gefälschte {3} bekommen. (phishing email)\n4. So ein {4} kann sehr viel Geld kosten. (fraud)\n5. Auf meinem Konto steht eine {5}, die ich nie gemacht habe. (transfer)\n6. Nach dem Diebstahl habe ich sofort eine {6} beantragt. (card block)\n7. Der {7} der E-Mail sah verdächtig aus. (sender)\n8. Ich habe bei der Bank eine {8} beantragt. (chargeback)\n9. {9} Sie mir bitte die Karte sperren? (could — können, Sie-Form)\n10. Ich habe schon {10} bei der Polizei erstattet. (a report)\n11. Ich habe auf den Phishing-Link {11}. (clicked — Partizip)\n12. Meine Kreditkarte wurde im Ausland {12}. (blocked — Partizip)\n13. Meine Rückbuchung wurde leider {13}. (rejected — Partizip)\n14. Ein sicheres {14} sollte man regelmäßig ändern. (password)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-87-betrug-phishing-melden-a2",
+  "intro": "Eine Phishing-Mail sieht oft aus wie eine echte Nachricht von der Bank — und kann teuer werden, wenn man auf den Link klickt und Daten eingibt. Dieses Set übt genau das — eine verdächtige Nachricht erkennen, die Bank informieren, die Karte sperren lassen, und was zu tun ist, wenn schon Geld abgebucht wurde. Grammatik nach Bedarf: Modalverben, Perfekt und Futur I. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/87-betrug-phishing-melden-a2",
+  "level": "A2",
+  "summary": "Eine verdächtige Phishing-Mail erkennen, die Bank informieren, die Karte sperren lassen und Anzeige bei der Polizei erstatten — und was tun, wenn schon Geld vom Konto abgebucht wurde.",
+  "title": "Betrug und Phishing melden — A2",
+  "topic": "Betrug und Phishing melden"
+}

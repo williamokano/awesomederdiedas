@@ -1,0 +1,834 @@
+{
+  "category": "Geld & Verträge",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "tarif",
+            "label": "Der Tarif"
+          },
+          {
+            "key": "vertrag",
+            "label": "Der Vertrag"
+          },
+          {
+            "key": "nummer",
+            "label": "Die Nummer"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "tarif",
+            "text": "das Datenvolumen"
+          },
+          {
+            "bucket": "vertrag",
+            "text": "die Laufzeit"
+          },
+          {
+            "bucket": "nummer",
+            "text": "die Rufnummernmitnahme"
+          },
+          {
+            "bucket": "tarif",
+            "text": "die Flatrate"
+          },
+          {
+            "bucket": "vertrag",
+            "text": "die Kündigungsfrist"
+          },
+          {
+            "bucket": "nummer",
+            "text": "der alte Anbieter"
+          },
+          {
+            "bucket": "tarif",
+            "text": "die monatliche Grundgebühr"
+          },
+          {
+            "bucket": "vertrag",
+            "text": "unterschreiben"
+          },
+          {
+            "bucket": "nummer",
+            "text": "die Portierung"
+          },
+          {
+            "bucket": "tarif",
+            "text": "das Roaming"
+          },
+          {
+            "bucket": "vertrag",
+            "text": "die Mindestvertragslaufzeit"
+          },
+          {
+            "bucket": "nummer",
+            "text": "die Vorwahl"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Tarif, Vertrag oder Nummer?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Tarif"
+          },
+          {
+            "key": "2",
+            "text": "das Datenvolumen"
+          },
+          {
+            "key": "3",
+            "text": "die Laufzeit"
+          },
+          {
+            "key": "4",
+            "text": "die Rufnummernmitnahme"
+          },
+          {
+            "key": "5",
+            "text": "die Kündigungsfrist"
+          },
+          {
+            "key": "6",
+            "text": "der Anbieter"
+          },
+          {
+            "key": "7",
+            "text": "die SIM-Karte"
+          },
+          {
+            "key": "8",
+            "text": "die Grundgebühr"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "das Angebot mit bestimmten Leistungen und einem Preis"
+          },
+          {
+            "key": "b",
+            "text": "die Menge an mobilem Internet pro Monat"
+          },
+          {
+            "key": "c",
+            "text": "die Zeit, für die der Vertrag mindestens gilt"
+          },
+          {
+            "key": "d",
+            "text": "die alte Nummer beim neuen Anbieter weiter nutzen"
+          },
+          {
+            "key": "e",
+            "text": "die Zeit, die man vor der Kündigung einhalten muss"
+          },
+          {
+            "key": "f",
+            "text": "die Firma, bei der man den Vertrag hat"
+          },
+          {
+            "key": "g",
+            "text": "die kleine Karte mit der Telefonnummer im Handy"
+          },
+          {
+            "key": "h",
+            "text": "der feste monatliche Preis, unabhängig von der Nutzung"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "mehr"
+          ],
+          "2": [
+            "kürzer"
+          ],
+          "3": [
+            "am kürzesten"
+          ],
+          "4": [
+            "günstiger"
+          ],
+          "5": [
+            "schlechter"
+          ],
+          "6": [
+            "beste"
+          ],
+          "7": [
+            "teurer"
+          ],
+          "8": [
+            "länger"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Dieser Tarif hat {1} Datenvolumen als der andere. (viel, Komparativ)\n2. Die Laufzeit ist bei diesem Anbieter {2} als bei dem anderen. (kurz, Komparativ)\n3. Ohne Vertragsbindung ist die Kündigungsfrist {3}. (kurz, Superlativ)\n4. Dieser Tarif ist {4} als der mit Gerät. (günstig, Komparativ)\n5. Der Empfang ist hier draußen {5} als in der Stadt. (schlecht, Komparativ)\n6. Von allen drei Anbietern ist dieser der {6}. (gut, Superlativ)\n7. Mit mehr Datenvolumen wird der Tarif natürlich {7}. (teuer, Komparativ)\n8. Die Rufnummernmitnahme dauert oft {8} als gedacht. (lang, Komparativ)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze die Komparativform.",
+      "instructionsEn": "Fill in the comparative form.",
+      "title": "Tarife vergleichen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Datenvolumen"
+          ],
+          "2": [
+            "Laufzeit"
+          ],
+          "3": [
+            "mitnehmen"
+          ],
+          "4": [
+            "Kündigungsfrist"
+          ],
+          "5": [
+            "Grundgebühr"
+          ],
+          "6": [
+            "Roaming"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wie viel {1} habe ich pro Monat für mobiles Internet? (die Menge an Daten)\n2. Der Vertrag hat eine {2} von 24 Monaten. (die Mindestzeit)\n3. Ich möchte meine alte Nummer {3}. (beim neuen Anbieter weiterbehalten)\n4. Die {4} beträgt drei Monate zum Vertragsende. (die Zeit vor der Kündigung)\n5. Ohne Gerät zahle ich nur die {5}. (der feste monatliche Preis)\n6. Im Ausland ist {6} oft teurer als zu Hause. (die Handynutzung im Ausland)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "TARIF"
+          ],
+          "2": [
+            "MONAT"
+          ],
+          "3": [
+            "GIGABYTE"
+          ],
+          "4": [
+            "EMPFEHLEN"
+          ],
+          "5": [
+            "LAUFZEIT"
+          ],
+          "6": [
+            "DAFÜR"
+          ],
+          "7": [
+            "MITNEHMEN"
+          ],
+          "8": [
+            "PORTIERUNG"
+          ],
+          "9": [
+            "DAUERT"
+          ],
+          "10": [
+            "WOCHEN"
+          ]
+        },
+        "bank": [
+          "ANBIETER",
+          "TARIF",
+          "MONAT",
+          "GIGABYTE",
+          "EMPFEHLEN",
+          "LAUFZEIT",
+          "DAFÜR",
+          "MITNEHMEN",
+          "PORTIERUNG",
+          "DAUERT",
+          "WOCHEN",
+          "GERÄT",
+          "RECHNUNG",
+          "EMPFANG"
+        ],
+        "text": "— Guten Tag, ich suche einen neuen {1}.\n— Gerne, wie viel Datenvolumen brauchen Sie ungefähr im {2}?\n— Ich streame viel, vielleicht 20 {3}.\n— Dann würde ich Ihnen diesen Tarif {4}, mit 25 GB und\nTelefonflat.\n— Und wie lange ist die {5}?\n— 24 Monate, oder ohne Vertragsbindung {6} teurer.\n— Ich möchte meine alte Nummer gern {7}.\n— Kein Problem, das machen wir automatisch über die {8}.\n— Wie lange {9} das ungefähr?\n— Meist ein bis zwei {10}.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Beratung im Handyladen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Was würden Sie mir empfehlen, wenn ich viel streame?"
+              },
+              {
+                "key": "b",
+                "text": "Geben Sie mir einfach den teuersten Tarif."
+              },
+              {
+                "key": "c",
+                "text": "Datenvolumen ist mir egal."
+              }
+            ],
+            "q": "Du weißt noch nicht genau, wie viel Datenvolumen du brauchst. — You're not sure how much data you need.",
+            "why": "Eine offene Frage nach einer Empfehlung nutzt das Fachwissen der Beratung, statt zu raten."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Wie lange muss ich mich mindestens binden?"
+              },
+              {
+                "key": "c",
+                "text": "Ich unterschreibe einfach."
+              }
+            ],
+            "q": "Du möchtest wissen, wie lange der Vertrag mindestens läuft. — You want to know the minimum contract length.",
+            "why": "Die Laufzeit vorher zu klären verhindert spätere Überraschungen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Eine neue Nummer ist mir auch recht."
+              },
+              {
+                "key": "b",
+                "text": "Ich kümmere mich selbst um die Nummer."
+              },
+              {
+                "key": "c",
+                "text": "Ich möchte meine alte Nummer gern mitnehmen."
+              }
+            ],
+            "q": "Du möchtest deine alte Nummer behalten. — You want to keep your old number.",
+            "why": "Die Rufnummernmitnahme klar anzusprechen sorgt dafür, dass sie eingeleitet wird."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Könnten Sie das noch einmal langsamer erklären?"
+              },
+              {
+                "key": "b",
+                "text": "Einfach nicken und hoffen, dass es passt."
+              },
+              {
+                "key": "c",
+                "text": "Den Laden verlassen."
+              }
+            ],
+            "q": "Der Verkäufer erklärt einen Tarif sehr schnell und du verstehst nicht alles. — The salesperson explains a plan very fast and you don't follow everything.",
+            "why": "Eine höfliche Bitte um Wiederholung ist besser, als etwas Unverstandenes zu unterschreiben."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach nichts sagen und trotzdem unterschreiben."
+              },
+              {
+                "key": "b",
+                "text": "Könnte ich mir das noch einmal in Ruhe überlegen?"
+              },
+              {
+                "key": "c",
+                "text": "Sofort ablehnen, ohne einen Grund zu nennen."
+              }
+            ],
+            "q": "Du möchtest den Vertrag noch nicht sofort unterschreiben. — You don't want to sign the contract right away.",
+            "why": "Um Bedenkzeit zu bitten ist völlig normal, bevor man einen längerfristigen Vertrag unterschreibt."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich telefoniere sowieso nie im Ausland."
+              },
+              {
+                "key": "b",
+                "text": "Roaming interessiert mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Was kostet Roaming außerhalb der EU?"
+              }
+            ],
+            "q": "Du fragst nach den Kosten, wenn du im Ausland telefonierst. — You ask about costs when calling abroad.",
+            "why": "Eine konkrete Frage nach den Roaming-Kosten verhindert eine böse Überraschung auf der Rechnung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Im Handyladen fragen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "mit + Dativ für die Beschreibung",
+            "tiles": [
+              "Ich",
+              "suche",
+              "einen",
+              "neuen",
+              "Tarif",
+              "mit",
+              "viel",
+              "Datenvolumen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "reflexives Verb, Infinitiv am Ende",
+            "tiles": [
+              "Wie",
+              "lange",
+              "muss",
+              "ich",
+              "mich",
+              "mindestens",
+              "binden",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "trennbares Verb, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "meine",
+              "alte",
+              "Nummer",
+              "gern",
+              "mitnehmen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Vergleich mit als",
+            "tiles": [
+              "Dieser",
+              "Tarif",
+              "ist",
+              "günstiger",
+              "als",
+              "der",
+              "mit",
+              "Gerät"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Konjunktiv-II-Bitte, Infinitiv am Ende",
+            "tiles": [
+              "Könnten",
+              "Sie",
+              "mir",
+              "das",
+              "noch",
+              "einmal",
+              "erklären",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Präposition außerhalb + Genitiv",
+            "tiles": [
+              "Was",
+              "kostet",
+              "Roaming",
+              "außerhalb",
+              "der",
+              "EU",
+              "?"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze im Handyladen bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Plus hat mehr Datenvolumen als Basic. — Plus has more data than Basic.",
+            "why": "15 GB gegenüber 5 GB."
+          },
+          {
+            "answer": false,
+            "q": "Flex hat eine feste Laufzeit von 24 Monaten. — Flex has a fixed term of 24 months.",
+            "why": "Flex läuft ohne Vertragsbindung."
+          },
+          {
+            "answer": true,
+            "q": "Bei Basic und Plus beträgt die Kündigungsfrist drei Monate. — For Basic and Plus, the notice period is three months.",
+            "why": "So steht es ausdrücklich im Vergleich."
+          },
+          {
+            "answer": false,
+            "q": "Die Rufnummernmitnahme kostet bei Flex extra. — Number porting costs extra with Flex.",
+            "why": "Rufnummernmitnahme ist bei allen drei Tarifen kostenlos."
+          },
+          {
+            "answer": false,
+            "q": "Roaming außerhalb der EU ist bei allen Tarifen inklusive. — Roaming outside the EU is included in all plans.",
+            "why": "Außerhalb der EU kostet Roaming extra."
+          },
+          {
+            "answer": true,
+            "q": "Flex ist der teuerste der drei Tarife pro Monat. — Flex is the most expensive of the three plans per month.",
+            "why": "28 € gegenüber 15 € und 22 €."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Tarifvergleich — drei Angebote**\n>\n> | Tarif | Datenvolumen | Laufzeit | Preis/Monat |\n> |---|---|---|---|\n> | Basic | 5 GB | 24 Monate | 15 € |\n> | Plus | 15 GB | 24 Monate | 22 € |\n> | Flex | 10 GB | **ohne Vertragsbindung** | 28 € |\n>\n> - Bei **Flex** ist die Kündigungsfrist nur **1 Monat**, dafür ist\n>   der monatliche Preis höher.\n> - Bei **Basic** und **Plus** beträgt die Kündigungsfrist **3\n>   Monate** zum Vertragsende.\n> - Rufnummernmitnahme ist bei **allen drei Tarifen kostenlos**.\n> - Roaming in der EU ist bei allen Tarifen **inklusive**, außerhalb\n>   der EU kostet es extra.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Den Tarifvergleich lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Beim Anbieter nachfragen, woran es liegt."
+              },
+              {
+                "key": "b",
+                "text": "Einfach warten, ohne nachzufragen."
+              },
+              {
+                "key": "c",
+                "text": "Eine ganz neue Nummer akzeptieren."
+              }
+            ],
+            "q": "Deine alte Nummer wurde nach drei Wochen immer noch nicht übernommen. — Your old number still hasn't been ported after three weeks.",
+            "why": "Eine Nachfrage klärt, ob es ein technisches Problem gibt oder ob etwas fehlt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach zahlen, ohne nachzuschauen."
+              },
+              {
+                "key": "b",
+                "text": "Die Rechnung genau prüfen und beim Anbieter nach dem Grund fragen."
+              },
+              {
+                "key": "c",
+                "text": "Den Vertrag sofort kündigen, ohne nachzufragen."
+              }
+            ],
+            "q": "Die Rechnung ist deutlich höher als erwartet. — The bill is noticeably higher than expected.",
+            "why": "Erst prüfen, dann nachfragen — vielleicht ist es ein einmaliger Fehler oder ungeplantes Roaming."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Vertrag einfach nicht mehr bezahlen."
+              },
+              {
+                "key": "b",
+                "text": "Annehmen, dass gar nichts mehr geht."
+              },
+              {
+                "key": "c",
+                "text": "Trotzdem beim Anbieter nachfragen, ob eine Ausnahme möglich ist."
+              }
+            ],
+            "q": "Du hast die Kündigungsfrist knapp verpasst. — You've just missed the notice period.",
+            "why": "Nachfragen kostet nichts — manchmal gibt es eine Kulanzlösung, auch wenn es keine Garantie gibt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es einfach hinnehmen."
+              },
+              {
+                "key": "b",
+                "text": "Beim Anbieter nach der Netzabdeckung an deiner Adresse fragen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort ohne Nachfrage den Anbieter wechseln."
+              }
+            ],
+            "q": "Der Empfang zu Hause ist sehr schlecht. — Reception at home is very poor.",
+            "why": "Der Anbieter kann prüfen, ob es an der Netzabdeckung liegt und ob es Alternativen gibt."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach weiterzahlen."
+              },
+              {
+                "key": "b",
+                "text": "Ohne Nachfrage sofort kündigen."
+              },
+              {
+                "key": "c",
+                "text": "Freundlich beim Anbieter nachfragen und um Korrektur bitten."
+              }
+            ],
+            "q": "Im Vertrag steht eine Zusatzleistung, die du nie bestellt hast. — The contract lists an add-on you never ordered.",
+            "why": "Ein freundlicher Hinweis führt meist schnell zur Korrektur des Fehlers."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Frühzeitig beim Anbieter nach dem genauen Kündigungsweg fragen."
+              },
+              {
+                "key": "b",
+                "text": "Bis zum letzten Tag warten."
+              },
+              {
+                "key": "c",
+                "text": "Einfach die SIM-Karte wegwerfen."
+              }
+            ],
+            "q": "Du möchtest den Vertrag fristgerecht kündigen, weißt aber nicht genau, wie. — You want to cancel on time but aren't sure how.",
+            "why": "Früh nachzufragen gibt genug Zeit, die Kündigung form- und fristgerecht einzureichen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn etwas mit dem Vertrag nicht stimmt"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "portiert"
+          ],
+          "2": [
+            "Rechnung"
+          ],
+          "3": [
+            "Kündigungsfrist"
+          ],
+          "4": [
+            "Empfang"
+          ],
+          "5": [
+            "Zusatzleistung"
+          ],
+          "6": [
+            "fristgerecht"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Meine alte Nummer wurde noch nicht {1}. (übertragen zum neuen Anbieter)\n2. Die {2} war diesen Monat viel höher als sonst. (das Dokument mit dem zu zahlenden Betrag)\n3. Ich habe die {3} leider knapp verpasst. (die Zeit vor der Kündigung)\n4. Der {4} zu Hause ist leider sehr schlecht. (die Signalstärke fürs Telefonieren)\n5. Im Vertrag steht eine {5}, die ich nie bestellt habe. (ein zusätzlicher Service)\n6. Ich möchte den Vertrag {6} kündigen. (rechtzeitig, innerhalb der Frist)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "mehr"
+          ],
+          "2": [
+            "kürzer"
+          ],
+          "3": [
+            "Datenvolumen"
+          ],
+          "4": [
+            "Laufzeit"
+          ],
+          "5": [
+            "mitnehmen"
+          ],
+          "6": [
+            "Kündigungsfrist"
+          ],
+          "7": [
+            "Grundgebühr"
+          ],
+          "8": [
+            "Roaming"
+          ],
+          "9": [
+            "binden"
+          ],
+          "10": [
+            "portiert"
+          ],
+          "11": [
+            "Rechnung"
+          ],
+          "12": [
+            "verpasst"
+          ],
+          "13": [
+            "Empfang"
+          ],
+          "14": [
+            "Zusatzleistung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Dieser Tarif hat {1} Datenvolumen als der andere. (more)\n2. Die Laufzeit ist bei diesem Anbieter {2} als bei dem anderen. (shorter)\n3. Wie viel {3} habe ich pro Monat? (data volume)\n4. Der Vertrag hat eine {4} von 24 Monaten. (contract term)\n5. Ich möchte meine alte Nummer {5}. (take with me)\n6. Die {6} beträgt drei Monate. (notice period)\n7. Ohne Gerät zahle ich nur die {7}. (base fee)\n8. Im Ausland ist {8} oft teurer. (using your phone abroad)\n9. Wie lange muss ich mich mindestens {9}? (commit — Infinitiv)\n10. Meine alte Nummer wurde noch nicht {10}. (ported — Partizip)\n11. Die {11} war diesen Monat viel höher. (the bill)\n12. Ich habe die Kündigungsfrist knapp {12}. (missed — Partizip)\n13. Der {13} zu Hause ist sehr schlecht. (reception)\n14. Im Vertrag steht eine {14}, die ich nie bestellt habe. (add-on)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-47-handyvertrag-b1",
+  "intro": "Ein Handyvertrag klingt nach einer kleinen Entscheidung, hat aber viele Details: Datenvolumen, Laufzeit, Kündigungsfrist, und ob die alte Nummer mitgenommen werden kann. Dieses Set übt das Gespräch im Laden — Tarife vergleichen, Fragen stellen, sich entscheiden — und den Alltag danach: eine zu hohe Rechnung, eine verpasste Kündigungsfrist, ein Problem mit dem Empfang. Grammatik nach Bedarf: Komparativ beim Vergleichen, Nebensätze mit dass/wenn, höfliche Bitten mit Konjunktiv II. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/47-handyvertrag-b1",
+  "level": "B1",
+  "summary": "Im Laden den passenden Tarif finden, Laufzeit und Datenvolumen vergleichen, die alte Nummer mitnehmen — und was tun, wenn die Rechnung nicht stimmt.",
+  "title": "Handyvertrag abschließen — B1",
+  "topic": "Handyvertrag abschließen"
+}

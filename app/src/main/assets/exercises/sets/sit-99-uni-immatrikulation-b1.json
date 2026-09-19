@@ -1,0 +1,818 @@
+{
+  "category": "Arbeit & Studium",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "einschreiben",
+            "label": "Einschreiben"
+          },
+          {
+            "key": "pruefen",
+            "label": "Prüfen"
+          },
+          {
+            "key": "finanzieren",
+            "label": "Finanzieren"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "einschreiben",
+            "text": "sich immatrikulieren"
+          },
+          {
+            "bucket": "einschreiben",
+            "text": "Unterlagen einreichen"
+          },
+          {
+            "bucket": "einschreiben",
+            "text": "die Studienbescheinigung beantragen"
+          },
+          {
+            "bucket": "einschreiben",
+            "text": "sich zurückmelden"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "eine Prüfung anmelden"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "den Leistungsnachweis einreichen"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "die Prüfungsordnung lesen"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "Noten einsehen"
+          },
+          {
+            "bucket": "finanzieren",
+            "text": "einen BAföG-Antrag stellen"
+          },
+          {
+            "bucket": "finanzieren",
+            "text": "Einkommensnachweise einreichen"
+          },
+          {
+            "bucket": "finanzieren",
+            "text": "den Bescheid abwarten"
+          },
+          {
+            "bucket": "finanzieren",
+            "text": "den Förderungsbetrag überweisen bekommen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Einschreiben, prüfen oder finanzieren?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Immatrikulation"
+          },
+          {
+            "key": "2",
+            "text": "das Prüfungsamt"
+          },
+          {
+            "key": "3",
+            "text": "der BAföG-Antrag"
+          },
+          {
+            "key": "4",
+            "text": "die Studienbescheinigung"
+          },
+          {
+            "key": "5",
+            "text": "die Rückmeldung"
+          },
+          {
+            "key": "6",
+            "text": "der Leistungsnachweis"
+          },
+          {
+            "key": "7",
+            "text": "die Prüfungsordnung"
+          },
+          {
+            "key": "8",
+            "text": "die Exmatrikulation"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die offizielle Einschreibung an der Universität"
+          },
+          {
+            "key": "b",
+            "text": "die Stelle für Prüfungsanmeldung und Noten"
+          },
+          {
+            "key": "c",
+            "text": "der Antrag auf staatliche Studienförderung"
+          },
+          {
+            "key": "d",
+            "text": "der Nachweis, dass man an der Uni eingeschrieben ist"
+          },
+          {
+            "key": "e",
+            "text": "die Bestätigung für das nächste Semester"
+          },
+          {
+            "key": "f",
+            "text": "der Beleg für eine erbrachte Studienleistung"
+          },
+          {
+            "key": "g",
+            "text": "die Regeln für Prüfungen im Studiengang"
+          },
+          {
+            "key": "h",
+            "text": "das offizielle Ende des Studiums"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "muss"
+          ],
+          "4": [
+            "Ist"
+          ],
+          "5": [
+            "fehlt"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "habe"
+          ],
+          "8": [
+            "Können"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} mich letzte Woche immatrikuliert. (haben, Perfekt)\n2. {2} Sie mir bitte eine Studienbescheinigung ausstellen? (können, Sie-Form)\n3. Man {3} sich jedes Semester zurückmelden. (müssen, Präsens)\n4. {4} der BAföG-Antrag schon bearbeitet worden? (sein, Perfekt Passiv)\n5. Falls ein Leistungsnachweis {5}, kann ich nicht zur Prüfung zugelassen werden. (fehlen, Präsens)\n6. Das Prüfungsamt {6} mir die Noten rechtzeitig mitteilen. (werden, Futur I)\n7. Ich {7} schon meinen BAföG-Antrag gestellt. (haben, Perfekt)\n8. {8} Sie mir bitte die Prüfungsordnung erklären? (können, Sie-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Die Immatrikulation vorbereiten"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Immatrikulation"
+          ],
+          "2": [
+            "Prüfungsamt"
+          ],
+          "3": [
+            "BAföG-Antrag"
+          ],
+          "4": [
+            "Studienbescheinigung"
+          ],
+          "5": [
+            "Rückmeldung"
+          ],
+          "6": [
+            "Leistungsnachweis"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Für die {1} brauche ich meinen Schulabschluss. (die offizielle Einschreibung)\n2. Beim {2} melde ich mich für die Prüfung an. (die Stelle für Prüfungsanmeldung)\n3. Ich habe einen {3} gestellt, um mein Studium zu finanzieren. (der Antrag auf staatliche Förderung)\n4. Für die Kindergeldstelle brauche ich eine {4}. (der Nachweis der Einschreibung)\n5. Die {5} für das nächste Semester habe ich schon erledigt. (die Bestätigung für das nächste Semester)\n6. Ich brauche noch einen {6} aus dem letzten Seminar. (der Beleg für eine Studienleistung)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "IMMATRIKULIEREN"
+          ],
+          "2": [
+            "STUDIENBESCHEINIGUNG"
+          ],
+          "3": [
+            "ANMELDEN"
+          ],
+          "4": [
+            "LEISTUNGSNACHWEISE"
+          ],
+          "5": [
+            "PRÜFUNG"
+          ],
+          "6": [
+            "BAFÖG-ANTRAG"
+          ],
+          "7": [
+            "KONTOVERBINDUNG"
+          ],
+          "8": [
+            "PRÜFE"
+          ],
+          "9": [
+            "FREUE"
+          ],
+          "10": [
+            "WÜNSCHE"
+          ]
+        },
+        "bank": [
+          "IMMATRIKULIEREN",
+          "STUDIENBESCHEINIGUNG",
+          "SEMESTERTICKET",
+          "ANMELDEN",
+          "RÜCKMELDUNG",
+          "LEISTUNGSNACHWEISE",
+          "EXMATRIKULATION",
+          "PRÜFUNG",
+          "BAFÖG-ANTRAG",
+          "STUDIENGEBÜHR",
+          "KONTOVERBINDUNG",
+          "PRÜFE",
+          "FREUE",
+          "WÜNSCHE"
+        ],
+        "text": "(im Studierendensekretariat)\n— Guten Tag, ich möchte mich für das Studium {1}.\n— Gerne, haben Sie schon alle Unterlagen dabei?\n— Ja, hier ist mein Schulabschluss und der Zulassungsbescheid.\n— Perfekt, dann trage ich Sie jetzt ein. Brauchen Sie auch\neine {2}?\n— Ja, bitte, ich brauche sie für die Kindergeldstelle.\n— Kein Problem, die bekommen Sie gleich.\n(beim Prüfungsamt)\n— Guten Tag, ich möchte mich für die Prüfung in Statistik\n{3}.\n— Gerne. Haben Sie schon alle nötigen {4} eingereicht?\n— Ich glaube schon, aber können Sie das bitte noch einmal\nprüfen?\n— Klar, einen Moment. Ja, es fehlt noch der Nachweis aus dem\nPraktikum.\n— Oh, den reiche ich sofort nach.\n— Gut, dann steht der {5} nichts mehr im Weg.\n(beim BAföG-Amt)\n— Guten Tag, ich möchte einen {6} stellen.\n— Gerne, dafür brauche ich Ihre {7} und die\nEinkommensnachweise Ihrer Eltern.\n— Hier, bitte.\n— Danke, ich {8} Ihren Antrag jetzt.\n— Wie lange dauert die Bearbeitung ungefähr?\n— Meistens vier bis sechs Wochen.\n— Gut zu wissen. Ich {9} mich schon auf die finanzielle\nUnterstützung.\n— Das verstehe ich gut, das Studium ist ja nicht billig. Ich\n{10} Ihnen viel Erfolg im Studium.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Einschreiben, prüfen, finanzieren"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Studiengänge interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich möchte mich für das Studium immatrikulieren."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal."
+              }
+            ],
+            "q": "Du willst dem Studierendensekretariat sagen, dass du dich für das Studium einschreiben möchtest. — You want to tell the registrar's office you'd like to enroll in the program.",
+            "why": "Eine klare Aussage ist der übliche Einstieg bei der Einschreibung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich frage lieber nicht nach."
+              },
+              {
+                "key": "c",
+                "text": "Wie lange dauert die Bearbeitung meines BAföG-Antrags ungefähr?"
+              }
+            ],
+            "q": "Du willst wissen, wie lange die Bearbeitung deines BAföG-Antrags dauert. — You want to know how long processing your BAföG application takes.",
+            "why": "Eine direkte Frage klärt frühzeitig die finanzielle Planung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich möchte mich für die Prüfung in Statistik anmelden."
+              },
+              {
+                "key": "b",
+                "text": "Prüfungen interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst dem Prüfungsamt sagen, dass du dich für die Prüfung in Statistik anmelden möchtest. — You want to tell the exam office you'd like to register for the statistics exam.",
+            "why": "Eine klare Aussage ist der übliche Einstieg bei der Prüfungsanmeldung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bescheinigungen interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Kann ich auch eine Studienbescheinigung bekommen?"
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal, Hauptsache ich bin eingeschrieben."
+              }
+            ],
+            "q": "Du willst wissen, ob du auch eine Studienbescheinigung bekommen kannst. — You want to know if you can also get a certificate of enrollment.",
+            "why": "Eine direkte Frage klärt frühzeitig, ob die Bescheinigung mitausgestellt wird."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nachweise interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Das ist mir zu kompliziert."
+              },
+              {
+                "key": "c",
+                "text": "Fehlt mir noch ein Leistungsnachweis?"
+              }
+            ],
+            "q": "Du willst wissen, ob dir noch ein Leistungsnachweis fehlt. — You want to know if you're still missing a proof of academic performance.",
+            "why": "Eine direkte Frage klärt frühzeitig, ob die Anmeldung vollständig ist."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den reiche ich sofort nach."
+              },
+              {
+                "key": "b",
+                "text": "Nachweise interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst dem Prüfungsamt sagen, dass du den fehlenden Nachweis sofort nachreichst. — You want to tell the exam office you'll submit the missing document right away.",
+            "why": "Eine klare Zusage zeigt, dass die Anmeldung schnell vervollständigt wird."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Einschreiben und anmelden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Aussage, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "mich",
+              "für",
+              "das",
+              "Studium",
+              "immatrikulieren"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Ja/Nein-Frage im Präsens",
+            "tiles": [
+              "Haben",
+              "Sie",
+              "schon",
+              "alle",
+              "Unterlagen",
+              "dabei",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "trennbares Verb, Vorsilbe am Ende",
+            "tiles": [
+              "Wir",
+              "tragen",
+              "Sie",
+              "jetzt",
+              "ein"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Futur I, Zeitangabe an Position 1, Verb an Position 2",
+            "tiles": [
+              "Nächste",
+              "Woche",
+              "werde",
+              "ich",
+              "mich",
+              "zurückmelden"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "W-Frage mit Verb an Position 2",
+            "tiles": [
+              "Wie",
+              "lange",
+              "dauert",
+              "die",
+              "Bearbeitung",
+              "eigentlich",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Ich",
+              "habe",
+              "schon",
+              "meinen",
+              "BAföG-Antrag",
+              "gestellt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zur Immatrikulation bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Für die Immatrikulation braucht man meist Schulabschluss und Zulassungsbescheid. — Enrollment usually requires a school diploma and admission letter.",
+            "why": "So steht es ausdrücklich in den Infos zur Immatrikulation."
+          },
+          {
+            "answer": false,
+            "q": "Die Rückmeldung ist freiwillig und hat keine Konsequenzen. — Re-registration is voluntary and has no consequences.",
+            "why": "Sie muss fristgerecht erfolgen, sonst droht die Exmatrikulation."
+          },
+          {
+            "answer": true,
+            "q": "BAföG wird abhängig vom Einkommen der Eltern geprüft, nicht automatisch gewährt. — BAföG is assessed based on the parents' income, not automatically granted.",
+            "why": "„BAföG: wird abhängig vom Einkommen der Eltern geprüft, nicht automatisch gewährt.“"
+          },
+          {
+            "answer": false,
+            "q": "Eine Studienbescheinigung wird nie für Kindergeld oder Versicherung gebraucht. — A certificate of enrollment is never needed for child benefit or insurance.",
+            "why": "Sie wird oft für Kindergeld oder Versicherung gebraucht."
+          },
+          {
+            "answer": true,
+            "q": "Leistungsnachweise müssen oft vor der Prüfungsanmeldung vollständig vorliegen. — Proof of academic performance often has to be complete before exam registration.",
+            "why": "„Leistungsnachweise: müssen oft vor der Prüfungsanmeldung vollständig vorliegen.“"
+          },
+          {
+            "answer": false,
+            "q": "Die Prüfungsordnung hat keinerlei Bedeutung für die Prüfungen im Studiengang. — The examination regulations have no relevance to exams in the program.",
+            "why": "Sie legt die genauen Regeln für Prüfungen im Studiengang fest."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Uni: Immatrikulation, Prüfungsamt, BAföG**\n>\n> - **Immatrikulation:** braucht meist **Schulabschluss und\n>   Zulassungsbescheid**.\n> - **Rückmeldung:** muss jedes Semester **fristgerecht**\n>   erfolgen, sonst droht die Exmatrikulation.\n> - **BAföG:** wird **abhängig vom Einkommen der Eltern**\n>   geprüft, nicht automatisch gewährt.\n> - **Studienbescheinigung:** wird oft für **Kindergeld oder\n>   Versicherung** gebraucht.\n> - **Leistungsnachweise:** müssen oft **vor der\n>   Prüfungsanmeldung** vollständig vorliegen.\n> - **Prüfungsordnung:** legt die genauen **Regeln für\n>   Prüfungen** im Studiengang fest.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zur Immatrikulation lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach nichts tun und hoffen, dass es niemand merkt."
+              },
+              {
+                "key": "b",
+                "text": "Sofort beim Studierendensekretariat nachfragen, ob eine Nachfrist möglich ist."
+              },
+              {
+                "key": "c",
+                "text": "Das Studium komplett abbrechen."
+              }
+            ],
+            "q": "Sie haben die Frist zur Rückmeldung knapp verpasst. — You just barely missed the deadline for re-registration.",
+            "why": "Eine schnelle Nachfrage klärt, ob eine Nachfrist noch möglich ist."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sich für die Prüfung trotzdem einfach anmelden."
+              },
+              {
+                "key": "b",
+                "text": "Die Prüfung ganz auslassen."
+              },
+              {
+                "key": "c",
+                "text": "Den fehlenden Nachweis schnellstmöglich nachreichen."
+              }
+            ],
+            "q": "Kurz vor der Prüfungsanmeldung fehlt Ihnen noch ein Leistungsnachweis. — Right before exam registration, you're still missing a proof of academic performance.",
+            "why": "Ein schnelles Nachreichen sichert die Zulassung zur Prüfung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Ablehnungsgrund prüfen und gegebenenfalls Widerspruch einlegen."
+              },
+              {
+                "key": "b",
+                "text": "Sofort das Studium abbrechen."
+              },
+              {
+                "key": "c",
+                "text": "Den Bescheid einfach ignorieren."
+              }
+            ],
+            "q": "Ihr BAföG-Antrag wird abgelehnt. — Your BAföG application is rejected.",
+            "why": "Eine Prüfung des Ablehnungsgrunds zeigt, ob ein Widerspruch sinnvoll ist."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die falsche Bescheinigung einfach so verwenden."
+              },
+              {
+                "key": "b",
+                "text": "Beim Studierendensekretariat um eine Korrektur bitten."
+              },
+              {
+                "key": "c",
+                "text": "Sich die Bescheinigung selbst korrigieren."
+              }
+            ],
+            "q": "Ihre Studienbescheinigung wurde mit einem falschen Namen ausgestellt. — Your certificate of enrollment was issued with the wrong name.",
+            "why": "Eine Bitte um Korrektur beim Sekretariat ist der offizielle und richtige Weg."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es einfach so lassen, wie es ist."
+              },
+              {
+                "key": "b",
+                "text": "Sich beim Prüfungsamt beschweren, ohne den Grund zu nennen."
+              },
+              {
+                "key": "c",
+                "text": "Beim Prüfungsamt nach einem Nachholtermin fragen und den Grund erklären."
+              }
+            ],
+            "q": "Sie haben aus Versehen einen Prüfungstermin verpasst. — You accidentally missed an exam date.",
+            "why": "Eine Erklärung mit Nachfrage nach einem Nachholtermin ist der richtige Weg."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort beim Studierendensekretariat den Fehler klären lassen."
+              },
+              {
+                "key": "b",
+                "text": "Sich ein neues Studium suchen."
+              },
+              {
+                "key": "c",
+                "text": "Es einfach so hinnehmen."
+              }
+            ],
+            "q": "Sie werden aus Versehen exmatrikuliert. — You're accidentally de-registered.",
+            "why": "Eine sofortige Klärung beim Sekretariat korrigiert den Fehler am schnellsten."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn bei der Immatrikulation etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "versäumt"
+          ],
+          "2": [
+            "gefehlt"
+          ],
+          "3": [
+            "abgelehnt"
+          ],
+          "4": [
+            "ausgestellt"
+          ],
+          "5": [
+            "verpasst"
+          ],
+          "6": [
+            "exmatrikuliert"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe die Frist zur Rückmeldung leider knapp {1}. (nicht eingehalten, Partizip)\n2. Kurz vor der Anmeldung hat mir noch ein Leistungsnachweis {2}. (nicht vorgelegen, Partizip)\n3. Mein BAföG-Antrag wurde leider {3}. (nicht genehmigt, Partizip)\n4. Meine Studienbescheinigung wurde mit einem falschen Namen {4}. (herausgegeben, Partizip)\n5. Ich habe aus Versehen einen Prüfungstermin {5}. (nicht wahrgenommen, Partizip)\n6. Ich bin aus Versehen {6} worden. (aus der Uni entfernt, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "muss"
+          ],
+          "3": [
+            "Immatrikulation"
+          ],
+          "4": [
+            "Prüfungsamt"
+          ],
+          "5": [
+            "BAföG-Antrag"
+          ],
+          "6": [
+            "Studienbescheinigung"
+          ],
+          "7": [
+            "Rückmeldung"
+          ],
+          "8": [
+            "Leistungsnachweis"
+          ],
+          "9": [
+            "Können"
+          ],
+          "10": [
+            "versäumt"
+          ],
+          "11": [
+            "gefehlt"
+          ],
+          "12": [
+            "abgelehnt"
+          ],
+          "13": [
+            "ausgestellt"
+          ],
+          "14": [
+            "exmatrikuliert"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} mich letzte Woche immatrikuliert. (have — Perfekt)\n2. Man {2} sich jedes Semester zurückmelden. (must — müssen)\n3. Für die {3} brauche ich meinen Schulabschluss. (enrollment)\n4. Beim {4} melde ich mich für die Prüfung an. (exam office)\n5. Ich habe einen {5} gestellt, um mein Studium zu finanzieren. (BAföG application)\n6. Für die Kindergeldstelle brauche ich eine {6}. (certificate of enrollment)\n7. Die {7} für das nächste Semester habe ich schon erledigt. (re-registration)\n8. Ich brauche noch einen {8} aus dem letzten Seminar. (proof of performance)\n9. {9} Sie mir bitte eine Studienbescheinigung ausstellen? (could — können, Sie-Form)\n10. Ich habe die Frist zur Rückmeldung leider knapp {10}. (missed — Partizip)\n11. Kurz vor der Anmeldung hat mir noch ein Leistungsnachweis {11}. (was missing — Partizip)\n12. Mein BAföG-Antrag wurde leider {12}. (rejected — Partizip)\n13. Meine Studienbescheinigung wurde mit einem falschen Namen {13}. (issued — Partizip)\n14. Ich bin aus Versehen {14} worden. (de-registered — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-99-uni-immatrikulation-b1",
+  "intro": "Ein Studium beginnt mit viel Verwaltung: sich immatrikulieren, sich beim Prüfungsamt für Prüfungen anmelden und einen BAföG-Antrag stellen, um das Studium zu finanzieren. Dieses Set übt genau das — einschreiben, prüfen, finanzieren, und was zu tun ist, wenn ein Leistungsnachweis fehlt oder die Rückmeldung knapp verpasst wird. Grammatik nach Bedarf: Modalverben, Perfekt und Futur I. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/99-uni-immatrikulation-b1",
+  "level": "B1",
+  "summary": "Sich an der Uni immatrikulieren, sich beim Prüfungsamt für Prüfungen anmelden und einen BAföG-Antrag stellen — und was tun, wenn ein Leistungsnachweis fehlt oder die Rückmeldung knapp verpasst wird.",
+  "title": "Uni: Immatrikulation, Prüfungsamt, BAföG — B1",
+  "topic": "Uni: Immatrikulation, Prüfungsamt, BAföG"
+}

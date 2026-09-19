@@ -1,0 +1,820 @@
+{
+  "category": "Behörden & Formelles",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "einreichen",
+            "label": "Einreichen"
+          },
+          {
+            "key": "pruefen",
+            "label": "Prüfen"
+          },
+          {
+            "key": "nachqualifizieren",
+            "label": "Nachqualifizieren"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "einreichen",
+            "text": "den Antrag auf Anerkennung stellen"
+          },
+          {
+            "bucket": "einreichen",
+            "text": "die Zeugnisse einreichen"
+          },
+          {
+            "bucket": "einreichen",
+            "text": "eine beglaubigte Übersetzung beilegen"
+          },
+          {
+            "bucket": "einreichen",
+            "text": "den Lebenslauf beifügen"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "die Gleichwertigkeit prüfen"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "den Abschluss mit dem deutschen System vergleichen"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "fehlende Unterlagen nachfordern"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "den Bescheid abwarten"
+          },
+          {
+            "bucket": "nachqualifizieren",
+            "text": "eine Anpassungsmaßnahme absolvieren"
+          },
+          {
+            "bucket": "nachqualifizieren",
+            "text": "eine Kenntnisprüfung ablegen"
+          },
+          {
+            "bucket": "nachqualifizieren",
+            "text": "fehlende Kompetenzen nachweisen"
+          },
+          {
+            "bucket": "nachqualifizieren",
+            "text": "die volle Anerkennung erreichen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Einreichen, prüfen oder nachqualifizieren?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Anerkennung"
+          },
+          {
+            "key": "2",
+            "text": "der Abschluss"
+          },
+          {
+            "key": "3",
+            "text": "die Gleichwertigkeit"
+          },
+          {
+            "key": "4",
+            "text": "die Zeugnisbewertung"
+          },
+          {
+            "key": "5",
+            "text": "die beglaubigte Übersetzung"
+          },
+          {
+            "key": "6",
+            "text": "die Anerkennungsstelle"
+          },
+          {
+            "key": "7",
+            "text": "die Nachqualifizierung"
+          },
+          {
+            "key": "8",
+            "text": "der Anpassungslehrgang"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die offizielle Bestätigung, dass ein Abschluss gültig ist"
+          },
+          {
+            "key": "b",
+            "text": "das Zeugnis über eine abgeschlossene Ausbildung oder ein Studium"
+          },
+          {
+            "key": "c",
+            "text": "der Vergleich mit einem deutschen Abschluss"
+          },
+          {
+            "key": "d",
+            "text": "die Einschätzung eines ausländischen Zeugnisses"
+          },
+          {
+            "key": "e",
+            "text": "die amtlich bestätigte Übersetzung eines Dokuments"
+          },
+          {
+            "key": "f",
+            "text": "die zuständige Behörde für die Prüfung"
+          },
+          {
+            "key": "g",
+            "text": "zusätzliche Ausbildung bei fehlender Gleichwertigkeit"
+          },
+          {
+            "key": "h",
+            "text": "ein Kurs, um fehlende Kenntnisse nachzuholen"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "muss"
+          ],
+          "4": [
+            "Ist"
+          ],
+          "5": [
+            "vorliegt"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "habe"
+          ],
+          "8": [
+            "Können"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} letzte Woche den Antrag auf Anerkennung gestellt. (haben, Perfekt)\n2. {2} Sie mir bitte erklären, welche Unterlagen ich brauche? (können, Sie-Form)\n3. Man {3} die Zeugnisse beglaubigt übersetzen lassen. (müssen, Präsens)\n4. {4} die Gleichwertigkeit schon geprüft worden? (sein, Perfekt Passiv)\n5. Falls die Gleichwertigkeit nicht vollständig {5}, brauche ich eine Nachqualifizierung. (vorliegen, Präsens)\n6. Die Anerkennungsstelle {6} mir den Bescheid schriftlich schicken. (werden, Futur I)\n7. Ich {7} schon alle Unterlagen eingereicht. (haben, Perfekt)\n8. {8} Sie mir bitte den Unterschied erklären? (können, Sie-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Die Anerkennung planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Anerkennung"
+          ],
+          "2": [
+            "Abschluss"
+          ],
+          "3": [
+            "Gleichwertigkeit"
+          ],
+          "4": [
+            "Zeugnisbewertung"
+          ],
+          "5": [
+            "beglaubigte Übersetzung"
+          ],
+          "6": [
+            "Nachqualifizierung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich möchte die {1} meines ausländischen Abschlusses beantragen. (die offizielle Bestätigung der Gültigkeit)\n2. Mein {2} in Informatik wurde in meinem Heimatland erworben. (das Zeugnis über die Ausbildung)\n3. Die Behörde prüft die {3} mit dem deutschen System. (der Vergleich mit dem deutschen Abschluss)\n4. Für die {4} brauche ich mein Originalzeugnis. (die Einschätzung des Zeugnisses)\n5. Ich habe eine {5} meines Zeugnisses machen lassen. (die amtlich bestätigte Übersetzung)\n6. Falls nötig, mache ich eine {6}. (die zusätzliche Ausbildung)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "ANERKENNUNG"
+          ],
+          "2": [
+            "ABSCHLUSS"
+          ],
+          "3": [
+            "ÜBERSETZUNG"
+          ],
+          "4": [
+            "GLEICHWERTIGKEIT"
+          ],
+          "5": [
+            "ZEUGNISBEWERTUNG"
+          ],
+          "6": [
+            "MÜSSEN"
+          ],
+          "7": [
+            "ANPASSUNGSLEHRGANG"
+          ],
+          "8": [
+            "ARBEITEN"
+          ],
+          "9": [
+            "SCHICKE"
+          ],
+          "10": [
+            "GEDULD"
+          ]
+        },
+        "bank": [
+          "ANERKENNUNG",
+          "ABSCHLUSS",
+          "DIPLOM",
+          "ÜBERSETZUNG",
+          "BERUFSERFAHRUNG",
+          "GLEICHWERTIGKEIT",
+          "PRAKTIKUM",
+          "ZEUGNISBEWERTUNG",
+          "MÜSSEN",
+          "ANPASSUNGSLEHRGANG",
+          "SPRACHKURS",
+          "ARBEITEN",
+          "SCHICKE",
+          "GEDULD"
+        ],
+        "text": "(bei der Anerkennungsstelle)\n— Guten Tag, ich möchte die {1} meines Studienabschlusses\nbeantragen.\n— Gerne. Wo haben Sie Ihren {2} erworben?\n— In Brasilien, ich habe dort Ingenieurwissenschaften\nstudiert.\n— Gut, dann brauche ich Ihre Zeugnisse mit einer {3}.\n— Die habe ich schon machen lassen, hier sind sie.\n— Danke. Wir prüfen jetzt die {4} mit dem deutschen\nAbschluss.\n— Wie lange dauert diese Prüfung ungefähr?\n— Meistens zwischen drei und vier Monaten.\n(nach vier Monaten)\n— Guten Tag, ich habe eine Frage zu meinem Antrag.\n— Ihre {5} ist fertig. Ihr Abschluss ist leider nicht\nvollständig gleichwertig.\n— Oh, was bedeutet das für mich?\n— Sie {6} eine Nachqualifizierung machen, zum Beispiel einen\n{7}.\n— Und wie lange dauert so ein Lehrgang?\n— Das ist unterschiedlich, aber meist sechs bis zwölf Monate.\n— Verstehe. Kann ich in der Zeit trotzdem schon in meinem\nBeruf {8}?\n— Teilweise, das hängt von der Branche ab. Am besten {9} ich\nIhnen die genauen Details noch einmal schriftlich.\n— Das wäre super, vielen Dank für Ihre {10}.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Beantragen, prüfen, nachqualifizieren"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Anerkennungen interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich möchte die Anerkennung meines Abschlusses beantragen."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal."
+              }
+            ],
+            "q": "Du willst der Anerkennungsstelle sagen, dass du die Anerkennung deines Abschlusses beantragen möchtest. — You want to tell the recognition authority you'd like to apply for recognition of your degree.",
+            "why": "Eine klare Aussage ist der übliche Einstieg bei der Beantragung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich frage lieber nicht nach."
+              },
+              {
+                "key": "c",
+                "text": "Wie lange dauert die Prüfung der Gleichwertigkeit ungefähr?"
+              }
+            ],
+            "q": "Du willst wissen, wie lange die Prüfung der Gleichwertigkeit ungefähr dauert. — You want to know roughly how long the equivalence check takes.",
+            "why": "Eine direkte Frage klärt frühzeitig den Zeitrahmen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich habe meinen Abschluss in Brasilien erworben."
+              },
+              {
+                "key": "b",
+                "text": "Abschlüsse interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst der Anerkennungsstelle sagen, wo du deinen Abschluss erworben hast. — You want to tell the recognition authority where you earned your degree.",
+            "why": "Eine klare Angabe des Herkunftslandes ist bei der Prüfung nötig."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Berufe interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Kann ich während der Nachqualifizierung schon in meinem Beruf arbeiten?"
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal, Hauptsache ich habe irgendeine Arbeit."
+              }
+            ],
+            "q": "Du willst wissen, ob du während der Nachqualifizierung schon in deinem Beruf arbeiten kannst. — You want to know if you can already work in your profession during the bridging course.",
+            "why": "Eine direkte Frage klärt frühzeitig die berufliche Situation während dieser Zeit."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Lehrgänge interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Das ist mir zu kompliziert."
+              },
+              {
+                "key": "c",
+                "text": "Wie lange dauert so ein Anpassungslehrgang ungefähr?"
+              }
+            ],
+            "q": "Du willst wissen, wie lange ein Anpassungslehrgang ungefähr dauert. — You want to know roughly how long an adaptation course takes.",
+            "why": "Eine direkte Frage klärt frühzeitig die zeitliche Planung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Vielen Dank für Ihre Geduld."
+              },
+              {
+                "key": "b",
+                "text": "Geduld interessiert mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst dich bei der Sachbearbeiterin für ihre Geduld bedanken. — You want to thank the caseworker for her patience.",
+            "why": "Ein höflicher Dank passt zum Abschluss eines längeren Prozesses."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Beantragen und prüfen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Aussage, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "die",
+              "Anerkennung",
+              "meines",
+              "Abschlusses",
+              "beantragen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "W-Frage im Perfekt",
+            "tiles": [
+              "Wo",
+              "haben",
+              "Sie",
+              "Ihren",
+              "Abschluss",
+              "erworben",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Aussage, Verb an Position 2",
+            "tiles": [
+              "Wir",
+              "prüfen",
+              "jetzt",
+              "die",
+              "Gleichwertigkeit"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Futur I, Zeitangabe an Position 1, Verb an Position 2",
+            "tiles": [
+              "Nächste",
+              "Woche",
+              "werde",
+              "ich",
+              "die",
+              "Nachqualifizierung",
+              "beginnen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "W-Frage mit Verb an Position 2",
+            "tiles": [
+              "Wie",
+              "lange",
+              "dauert",
+              "die",
+              "Prüfung",
+              "eigentlich",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Ich",
+              "habe",
+              "alle",
+              "Unterlagen",
+              "schon",
+              "eingereicht"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zur Anerkennung bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Die Anerkennung kann man bei der zuständigen Anerkennungsstelle beantragen. — Recognition can be applied for at the responsible recognition authority.",
+            "why": "So steht es ausdrücklich in den Infos zur Anerkennung."
+          },
+          {
+            "answer": false,
+            "q": "Ausländische Zeugnisse müssen nie übersetzt werden. — Foreign certificates never need to be translated.",
+            "why": "Sie müssen oft beglaubigt übersetzt werden."
+          },
+          {
+            "answer": true,
+            "q": "Die Gleichwertigkeit wird mit einem deutschen Referenzberuf verglichen. — Equivalence is compared with a German reference profession.",
+            "why": "„Gleichwertigkeit: wird mit dem deutschen Referenzberuf verglichen.“"
+          },
+          {
+            "answer": false,
+            "q": "Bei teilweiser Gleichwertigkeit ist eine Nachqualifizierung nie nötig. — When equivalence is only partial, a bridging course is never needed.",
+            "why": "Bei teilweiser Gleichwertigkeit ist eine Nachqualifizierung oft nötig."
+          },
+          {
+            "answer": true,
+            "q": "Die Bearbeitungszeit kann mehrere Monate dauern. — Processing time can take several months.",
+            "why": "„Bearbeitungszeit: kann mehrere Monate dauern.“"
+          },
+          {
+            "answer": false,
+            "q": "Für reglementierte Berufe wie Ärztin oder Lehrer braucht man keine Anerkennung. — For regulated professions like doctor or teacher, no recognition is needed.",
+            "why": "Reglementierte Berufe brauchen oft zwingend eine Anerkennung."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Anerkennung ausländischer Abschlüsse**\n>\n> - **Antrag:** kann man bei der zuständigen\n>   **Anerkennungsstelle** stellen.\n> - **Zeugnisse:** müssen oft **beglaubigt übersetzt** werden.\n> - **Gleichwertigkeit:** wird mit dem **deutschen\n>   Referenzberuf** verglichen.\n> - **Nachqualifizierung:** ist bei **teilweiser\n>   Gleichwertigkeit** oft nötig.\n> - **Bearbeitungszeit:** kann **mehrere Monate** dauern.\n> - **Reglementierte Berufe:** (z. B. Ärztin, Lehrer) brauchen\n>   oft **zwingend** eine Anerkennung.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zur Anerkennung lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Beruf komplett aufgeben."
+              },
+              {
+                "key": "b",
+                "text": "Sich über die möglichen Wege zur Nachqualifizierung informieren."
+              },
+              {
+                "key": "c",
+                "text": "Den Bescheid einfach ignorieren."
+              }
+            ],
+            "q": "Ihr Abschluss wird nur teilweise anerkannt. — Your degree is only partially recognized.",
+            "why": "Eine Nachqualifizierung ist meist der schnellste Weg zur vollen Anerkennung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Antrag einfach zurückziehen."
+              },
+              {
+                "key": "b",
+                "text": "Die Unterlagen nie einreichen."
+              },
+              {
+                "key": "c",
+                "text": "Die fehlenden Unterlagen schnellstmöglich nachreichen."
+              }
+            ],
+            "q": "Die Anerkennungsstelle fordert fehlende Unterlagen nach. — The recognition authority requests missing documents.",
+            "why": "Ein schnelles Nachreichen beschleunigt die weitere Bearbeitung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Höflich nach dem aktuellen Bearbeitungsstand fragen."
+              },
+              {
+                "key": "b",
+                "text": "Einfach nichts mehr unternehmen."
+              },
+              {
+                "key": "c",
+                "text": "Einen komplett neuen Antrag woanders stellen."
+              }
+            ],
+            "q": "Die Bearbeitung Ihres Antrags dauert deutlich länger als angekündigt. — Processing your application takes much longer than announced.",
+            "why": "Eine höfliche Nachfrage klärt schnell den aktuellen Stand."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ganz auf die Anerkennung verzichten."
+              },
+              {
+                "key": "b",
+                "text": "Nach alternativen Anbietern oder einem späteren Kurstermin fragen."
+              },
+              {
+                "key": "c",
+                "text": "Sich einen falschen Nachweis besorgen."
+              }
+            ],
+            "q": "Der passende Anpassungslehrgang ist gerade nicht verfügbar. — The right adaptation course isn't currently available.",
+            "why": "Eine Nachfrage nach Alternativen hält den Weg zur Anerkennung offen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die fehlerhafte Übersetzung einfach so einreichen."
+              },
+              {
+                "key": "b",
+                "text": "Selbst versuchen, den Fehler zu korrigieren."
+              },
+              {
+                "key": "c",
+                "text": "Eine korrigierte Übersetzung beim Übersetzungsbüro anfordern."
+              }
+            ],
+            "q": "Sie merken, dass die beglaubigte Übersetzung fehlerhaft ist. — You notice the certified translation contains errors.",
+            "why": "Nur eine korrigierte beglaubigte Übersetzung wird von der Behörde akzeptiert."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Fristgerecht schriftlich Widerspruch einlegen."
+              },
+              {
+                "key": "b",
+                "text": "Den Bescheid einfach akzeptieren, ohne nachzufragen."
+              },
+              {
+                "key": "c",
+                "text": "Der Behörde eine wütende Nachricht schreiben."
+              }
+            ],
+            "q": "Sie sind mit dem Bescheid der Anerkennungsstelle nicht einverstanden. — You disagree with the recognition authority's decision.",
+            "why": "Ein fristgerechter schriftlicher Widerspruch ist der offizielle Weg zur Klärung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn bei der Anerkennung etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "anerkannt"
+          ],
+          "2": [
+            "nachgefordert"
+          ],
+          "3": [
+            "gedauert"
+          ],
+          "4": [
+            "ausgebucht"
+          ],
+          "5": [
+            "angefertigt"
+          ],
+          "6": [
+            "eingelegt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Mein Abschluss wurde leider nur teilweise {1}. (akzeptiert, Partizip)\n2. Die Anerkennungsstelle hat fehlende Unterlagen {2}. (verlangt, Partizip)\n3. Die Bearbeitung hat deutlich länger {3} als angekündigt. (gebraucht, Partizip)\n4. Der passende Lehrgang war schon {4}. (voll besetzt, Partizip)\n5. Die Übersetzung wurde leider fehlerhaft {5}. (falsch gemacht, Partizip)\n6. Gegen den Bescheid habe ich fristgerecht Widerspruch {6}. (eingereicht, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "muss"
+          ],
+          "3": [
+            "Anerkennung"
+          ],
+          "4": [
+            "Abschluss"
+          ],
+          "5": [
+            "Gleichwertigkeit"
+          ],
+          "6": [
+            "Zeugnisbewertung"
+          ],
+          "7": [
+            "beglaubigte Übersetzung"
+          ],
+          "8": [
+            "Nachqualifizierung"
+          ],
+          "9": [
+            "Können"
+          ],
+          "10": [
+            "anerkannt"
+          ],
+          "11": [
+            "gedauert"
+          ],
+          "12": [
+            "ausgebucht"
+          ],
+          "13": [
+            "angefertigt"
+          ],
+          "14": [
+            "eingelegt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} letzte Woche den Antrag auf Anerkennung gestellt. (have — Perfekt)\n2. Man {2} die Zeugnisse beglaubigt übersetzen lassen. (must — müssen)\n3. Ich möchte die {3} meines ausländischen Abschlusses beantragen. (recognition)\n4. Mein {4} in Informatik wurde in meinem Heimatland erworben. (degree)\n5. Die Behörde prüft die {5} mit dem deutschen System. (equivalence)\n6. Für die {6} brauche ich mein Originalzeugnis. (credential evaluation)\n7. Ich habe eine {7} meines Zeugnisses machen lassen. (certified translation)\n8. Falls nötig, mache ich eine {8}. (bridging course / additional qualification)\n9. {9} Sie mir bitte erklären, welche Unterlagen ich brauche? (could — können, Sie-Form)\n10. Mein Abschluss wurde leider nur teilweise {10}. (recognized — Partizip)\n11. Die Bearbeitung hat deutlich länger {11} als angekündigt. (taken — Partizip)\n12. Der passende Lehrgang war schon {12}. (fully booked — Partizip)\n13. Die Übersetzung wurde leider fehlerhaft {13}. (made — Partizip)\n14. Gegen den Bescheid habe ich fristgerecht Widerspruch {14}. (filed — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-93-anerkennung-abschluesse-b2",
+  "intro": "Ein ausländischer Abschluss muss oft erst anerkannt werden: den Antrag stellen, Zeugnisse mit beglaubigter Übersetzung einreichen und die Gleichwertigkeit prüfen lassen. Dieses Set übt genau das — einreichen, prüfen, nachqualifizieren, und was zu tun ist, wenn der Abschluss nur teilweise anerkannt wird. Grammatik nach Bedarf: Modalverben, Perfekt und Futur I. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/93-anerkennung-abschluesse-b2",
+  "level": "B2",
+  "summary": "Die Anerkennung eines ausländischen Abschlusses beantragen, Zeugnisse mit beglaubigter Übersetzung einreichen und die Gleichwertigkeit prüfen lassen — und was tun, wenn der Abschluss nur teilweise anerkannt wird.",
+  "title": "Anerkennung ausländischer Abschlüsse — B2",
+  "topic": "Anerkennung ausländischer Abschlüsse"
+}

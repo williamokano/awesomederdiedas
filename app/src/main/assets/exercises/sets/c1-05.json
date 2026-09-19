@@ -1,0 +1,1958 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es wurden 200 Personen befragt."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe 200 Personen befragt."
+              },
+              {
+                "key": "c",
+                "text": "Ich glaube, 200 Leute oder so wurden gefragt."
+              }
+            ],
+            "q": "Welcher Satz passt in eine Hausarbeit?",
+            "why": "Das Passiv „Es wurden … befragt\" rückt die Person in den Hintergrund."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Man kann das ja wohl kaum bestreiten."
+              },
+              {
+                "key": "b",
+                "text": "Das lässt sich nicht eindeutig beantworten."
+              },
+              {
+                "key": "c",
+                "text": "Ich finde, das ist total klar."
+              }
+            ],
+            "q": "Welcher Satz ist am sachlichsten?",
+            "why": "„Das lässt sich nicht eindeutig beantworten\" ist unpersönlich und vorsichtig."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich tu in dieser Arbeit untersuchen, ob …"
+              },
+              {
+                "key": "b",
+                "text": "In dieser Arbeit untersuche ich von mir, ob …"
+              },
+              {
+                "key": "c",
+                "text": "In dieser Arbeit wird untersucht, ob …"
+              }
+            ],
+            "q": "Welche Formulierung ist im Fachstil korrekt?",
+            "why": "Im Passiv lässt man den Urheber gerade weg: „wird untersucht\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die These lässt sich belegen."
+              },
+              {
+                "key": "b",
+                "text": "Die These ist sich belegen."
+              },
+              {
+                "key": "c",
+                "text": "Die These wird sich belegt."
+              }
+            ],
+            "q": "Welcher Satz nutzt einen korrekten Passiversatz?",
+            "why": "Passiversatz: „sich lassen\" + Infinitiv → „lässt sich belegen\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Auswertung wird abgeschlossen geworden."
+              },
+              {
+                "key": "b",
+                "text": "Die Auswertung ist abgeschlossen."
+              },
+              {
+                "key": "c",
+                "text": "Die Auswertung hat abgeschlossen."
+              }
+            ],
+            "q": "Welcher Satz ist ein korrektes Zustandspassiv?",
+            "why": "Zustandspassiv: „sein\" + Partizip II → „ist abgeschlossen\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A1",
+      "instructions": "Wähle die unpersönliche, wissenschaftliche Formulierung (a, b oder c).",
+      "title": "Unpersönlich formulieren — welcher Satz ist wissenschaftlich?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "wurden"
+          ],
+          "3": [
+            "worden"
+          ],
+          "4": [
+            "ist"
+          ],
+          "5": [
+            "lässt"
+          ],
+          "6": [
+            "hinterfragen"
+          ],
+          "7": [
+            "lösbar"
+          ],
+          "8": [
+            "wertet"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Hypothese {1} im zweiten Kapitel geprüft. (Vorgangspassiv Präsens)\n2. Die Daten {2} an 200 Personen erhoben. (Vorgangspassiv Präteritum)\n3. Die Studie ist im Frühjahr durchgeführt {3}. (Vorgangspassiv Perfekt)\n4. Die Auswertung {4} bereits abgeschlossen. (Zustandspassiv)\n5. Die These {5} sich mit den Daten belegen. (Passiversatz)\n6. Diese Annahme ist kritisch zu {6}. (Passiversatz)\n7. Das Problem ist mit dieser Methode {7}. (Passiversatz mit -bar)\n8. So {8} man die Daten aus. (man-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Setze das fehlende Wort ein (Passiv, Zustandspassiv oder Passiversatz). 8 Items.",
+      "title": "Passiv und Passiversatz bilden"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "lässt"
+          ],
+          "2": [
+            "zu"
+          ],
+          "3": [
+            "belegbar"
+          ],
+          "4": [
+            "lässt"
+          ],
+          "5": [
+            "lösbar"
+          ],
+          "6": [
+            "zu"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. „kann belegt werden\" → Die These {1} sich belegen.\n2. „kann belegt werden\" → Die These ist {2} belegen.\n3. „kann belegt werden\" → Die These ist {3}.\n4. „kann gelöst werden\" → Das Problem {4} sich lösen.\n5. „kann gelöst werden\" → Das Problem ist {5}.\n6. „kann beantwortet werden\" → Die Frage ist {6} beantworten.\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Forme den Passiversatz. Setze das fehlende Wort ein. 6 Items.",
+      "title": "Passiversatz: drei Alternativen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "aufgrund der Datenerhebung"
+              },
+              {
+                "key": "b",
+                "text": "wegen die Daten erheben"
+              },
+              {
+                "key": "c",
+                "text": "aufgrund dass Daten erhoben"
+              }
+            ],
+            "q": "„weil die Daten erhoben wurden\" — nominal:",
+            "why": "„aufgrund\" + Genitiv-Nomen: „aufgrund der Datenerhebung\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "nach durchführen die Studie"
+              },
+              {
+                "key": "b",
+                "text": "nach Durchführung der Studie"
+              },
+              {
+                "key": "c",
+                "text": "nachdem der Durchführung"
+              }
+            ],
+            "q": "„nachdem die Studie durchgeführt wurde\" — nominal:",
+            "why": "„nach Durchführung der Studie\" verdichtet den Nebensatz."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "trotz die kleine Stichprobe"
+              },
+              {
+                "key": "b",
+                "text": "wegen der kleinen Stichprobe"
+              },
+              {
+                "key": "c",
+                "text": "trotz der kleinen Stichprobe"
+              }
+            ],
+            "q": "„obwohl die Stichprobe klein war\" — nominal:",
+            "why": "„trotz\" + Genitiv: „trotz der kleinen Stichprobe\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "bei Anwendung der Methode"
+              },
+              {
+                "key": "b",
+                "text": "bei anwenden die Methode"
+              },
+              {
+                "key": "c",
+                "text": "wenn der Anwendung"
+              }
+            ],
+            "q": "„wenn die Methode angewendet wird\" — nominal:",
+            "why": "„bei Anwendung der Methode\" steht für den wenn-Satz."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Daten wurden ausgewertet."
+              },
+              {
+                "key": "b",
+                "text": "Die Vornahme der Durchführung der Auswertung der Daten erfolgte."
+              },
+              {
+                "key": "c",
+                "text": "Nach der Auswertung zeigt sich, dass …"
+              }
+            ],
+            "q": "Welcher Satz ist übernominalisiert (zu viele Nomen)?",
+            "why": "Vier gestapelte Nomen sind unlesbar — das ist die C1-Falle."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A4",
+      "instructions": "Wähle die korrekte nominale Entsprechung (a, b oder c).",
+      "title": "Nominalstil oder Verbalstil?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "aufgrund"
+          ],
+          "2": [
+            "Durchführung"
+          ],
+          "3": [
+            "während"
+          ],
+          "4": [
+            "trotz"
+          ],
+          "5": [
+            "Anwendung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. weil die Daten erhoben wurden → {1} der Datenerhebung\n2. nachdem die Studie durchgeführt wurde → nach {2} der Studie\n3. während man die Teilnehmer befragte → {3} der Befragung\n4. obwohl die Stichprobe klein war → {4} der kleinen Stichprobe\n5. wenn die Methode angewendet wird → bei {5} der Methode\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Forme in den Nominalstil um. Setze das fehlende Wort ein. 5 Items.",
+      "title": "Verbalstil → Nominalstil"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Daten deuten darauf hin, dass Schlaf wichtig ist."
+              },
+              {
+                "key": "b",
+                "text": "Das beweist eindeutig, dass Schlaf wichtig ist."
+              },
+              {
+                "key": "c",
+                "text": "Schlaf ist zu 100 % am wichtigsten."
+              }
+            ],
+            "q": "Welcher Satz formuliert vorsichtig (Hedging)?",
+            "why": "„deuten darauf hin\" schwächt die Aussage angemessen ab."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Alle Menschen reagieren gleich."
+              },
+              {
+                "key": "b",
+                "text": "Die meisten Menschen reagieren ähnlich."
+              },
+              {
+                "key": "c",
+                "text": "Jeder Mensch reagiert garantiert gleich."
+              }
+            ],
+            "q": "Welcher Satz ist angemessen vorsichtig?",
+            "why": "„Die meisten\" statt „alle\" — Hedging durch Quantifizierung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist definitiv der Grund."
+              },
+              {
+                "key": "b",
+                "text": "Das ist hundertprozentig der Grund."
+              },
+              {
+                "key": "c",
+                "text": "Das dürfte ein wesentlicher Grund sein."
+              }
+            ],
+            "q": "Welche Vermutung ist korrekt mit einem Modalverb formuliert?",
+            "why": "„dürfte … sein\" drückt eine begründete Vermutung aus."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das könnte zutreffen."
+              },
+              {
+                "key": "b",
+                "text": "Das könnte eventuell vielleicht unter Umständen so sein."
+              },
+              {
+                "key": "c",
+                "text": "Das deutet darauf hin, dass es definitiv so ist."
+              }
+            ],
+            "q": "Welcher Satz ist NICHT übertrieben gehedgt?",
+            "why": "Ein Hedge genügt: „Das könnte zutreffen.\" Mehrere widersprechen sich."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es ist sonnenklar, dass …"
+              },
+              {
+                "key": "b",
+                "text": "Es spricht einiges dafür, dass …"
+              },
+              {
+                "key": "c",
+                "text": "Jeder weiß doch, dass …"
+              }
+            ],
+            "q": "Welche Wendung markiert Distanz zu einer Behauptung?",
+            "why": "„Es spricht einiges dafür\" ist eine typische Hedging-Wendung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A6",
+      "instructions": "Wähle die wissenschaftlich vorsichtige (abgeschwächte) Formulierung.",
+      "title": "Hedging — welche Formulierung ist vorsichtig?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "dürfte"
+          ],
+          "2": [
+            "deuten"
+          ],
+          "3": [
+            "Vermutlich"
+          ],
+          "4": [
+            "wäre"
+          ],
+          "5": [
+            "tendenziell"
+          ],
+          "6": [
+            "dafür"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Modalverb der Vermutung: Das {1} zutreffen.\n2. Wendung: Die Daten {2} darauf hin, dass ein Zusammenhang besteht.\n3. Adverb: {3} spielt auch der soziale Hintergrund eine Rolle.\n4. Konjunktiv II: Es {4} verfehlt, daraus allgemeine Schlüsse zu ziehen.\n5. Adverb der Tendenz: Die These trifft {5} zu.\n6. Wendung: Es spricht einiges {6}, dass die Wirkung schwächer ist.\n",
+        "type": "gap-text"
+      },
+      "id": "A7",
+      "instructions": "Setze das passende Hedging-Mittel ein. 6 Items.",
+      "title": "Hedging-Mittel einsetzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "laut Schmidt"
+          },
+          {
+            "key": "2",
+            "text": "einer Studie zufolge"
+          },
+          {
+            "key": "3",
+            "text": "vgl."
+          },
+          {
+            "key": "4",
+            "text": "der Autor schreibt, der Effekt sei gering"
+          },
+          {
+            "key": "5",
+            "text": "im Anschluss an Müller"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "nach Schmidts Angaben"
+          },
+          {
+            "key": "b",
+            "text": "wie eine Studie zeigt"
+          },
+          {
+            "key": "c",
+            "text": "vergleiche (Verweis auf eine Quelle)"
+          },
+          {
+            "key": "d",
+            "text": "indirektes Zitat (Konjunktiv I)"
+          },
+          {
+            "key": "e",
+            "text": "aufbauend auf Müller"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A8",
+      "instructions": "Ordne jeder Wendung (1–5) die passende Erklärung (a–e) zu.",
+      "title": "Verweis-Wendungen — Funktion zuordnen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Schmidt schreibt, die Methode ist umstritten."
+              },
+              {
+                "key": "b",
+                "text": "Schmidt schreibt, die Methode sei umstritten."
+              },
+              {
+                "key": "c",
+                "text": "Schmidt schreibt, die Methode wäre umstritten."
+              }
+            ],
+            "q": "Schmidt: „Die Methode ist umstritten.\"",
+            "why": "Redewiedergabe → Konjunktiv I: „sei\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Müller stellt fest, es gebe keine eindeutigen Belege."
+              },
+              {
+                "key": "b",
+                "text": "Müller stellt fest, es gibt keine eindeutigen Belege."
+              },
+              {
+                "key": "c",
+                "text": "Müller stellt fest, es gäbe keine eindeutigen Belege."
+              }
+            ],
+            "q": "Müller: „Es gibt keine eindeutigen Belege.\"",
+            "why": "Konjunktiv I von „gibt\" → „gebe\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weber betont, man muss die Daten neu erheben."
+              },
+              {
+                "key": "b",
+                "text": "Weber betont, man müsse die Daten neu erheben."
+              },
+              {
+                "key": "c",
+                "text": "Weber betont, man müsste die Daten neu erheben."
+              }
+            ],
+            "q": "Weber: „Wir müssen die Daten neu erheben.\"",
+            "why": "Konjunktiv I von „muss\" → „müsse\"."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Der Autor räumt ein, die Studie hätte Schwächen."
+              },
+              {
+                "key": "b",
+                "text": "Der Autor räumt ein, die Studie hat Schwächen."
+              },
+              {
+                "key": "c",
+                "text": "Der Autor räumt ein, die Studie habe Schwächen."
+              }
+            ],
+            "q": "Der Autor: „Die Studie hat methodische Schwächen.\"",
+            "why": "Konjunktiv I von „hat\" → „habe\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Forscherin meint, das könne nicht stimmen."
+              },
+              {
+                "key": "b",
+                "text": "Die Forscherin meint, das kann nicht stimmen."
+              },
+              {
+                "key": "c",
+                "text": "Die Forscherin meint, das könnte nicht stimmen."
+              }
+            ],
+            "q": "Die Forscherin: „Das kann nicht stimmen.\"",
+            "why": "Konjunktiv I von „kann\" → „könne\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A9",
+      "instructions": "Wähle die korrekte indirekte Wiedergabe im Konjunktiv I (a, b oder c).",
+      "title": "Indirekte Rede: Konjunktiv I"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "durchgeführt"
+          ],
+          "2": [
+            "ziehen"
+          ],
+          "3": [
+            "stellen"
+          ],
+          "4": [
+            "genommen"
+          ],
+          "5": [
+            "Rolle"
+          ],
+          "6": [
+            "Anwendung"
+          ]
+        },
+        "bank": [
+          "durchgeführt",
+          "ziehen",
+          "stellen",
+          "genommen",
+          "Rolle",
+          "Anwendung",
+          "formuliert",
+          "gelesen",
+          "Frage"
+        ],
+        "text": "1. An 200 Personen wurde eine Studie {1}.\n2. Daraus lässt sich der Schluss {2}.\n3. Diese Annahme muss man in Frage {3}.\n4. Im Folgenden wird Bezug auf Müller {4}.\n5. Der soziale Hintergrund spielt eine wichtige {5}.\n6. Die Methode kommt häufig zur {6}.\n",
+        "type": "gap-bank"
+      },
+      "id": "A10",
+      "instructions": "Füll die 6 Lücken mit dem passenden Wort aus dem Kasten. Drei Wörter sind zu viel.",
+      "title": "Funktionsverbgefüge der Wissenschaftssprache"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Hypothese"
+          },
+          {
+            "key": "2",
+            "text": "der Befund"
+          },
+          {
+            "key": "3",
+            "text": "die Stichprobe"
+          },
+          {
+            "key": "4",
+            "text": "der Beleg"
+          },
+          {
+            "key": "5",
+            "text": "die Schlussfolgerung"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "eine begründete, noch zu prüfende Annahme"
+          },
+          {
+            "key": "b",
+            "text": "ein einzelnes Ergebnis einer Untersuchung"
+          },
+          {
+            "key": "c",
+            "text": "die Teilmenge, an der man Daten erhebt"
+          },
+          {
+            "key": "d",
+            "text": "der Nachweis für eine Behauptung"
+          },
+          {
+            "key": "e",
+            "text": "der logische Schluss aus den Befunden"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A11",
+      "instructions": "Ordne jedem Begriff (1–5) die passende Definition (a–e) zu.",
+      "title": "Abstrakter Wortschatz — Begriff und Definition"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "In dieser Arbeit wird die Hypothese geprüft.",
+            "tiles": [
+              "In",
+              "dieser",
+              "Arbeit",
+              "wird",
+              "die",
+              "Hypothese",
+              "geprüft"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Die Daten wurden an 200 Personen erhoben.",
+            "tiles": [
+              "Die",
+              "Daten",
+              "wurden",
+              "an",
+              "200",
+              "Personen",
+              "erhoben"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Die Auswertung der Daten ist abgeschlossen.",
+            "tiles": [
+              "Die",
+              "Auswertung",
+              "der",
+              "Daten",
+              "ist",
+              "abgeschlossen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Schmidt schreibt, der Effekt sei gering. (indirektes Zitat, Konjunktiv I)",
+            "tiles": [
+              "Schmidt",
+              "schreibt",
+              "der",
+              "Effekt",
+              "sei",
+              "gering"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A12",
+      "instructions": "Bring die Wörter in die richtige Reihenfolge.",
+      "title": "Satzbau: wissenschaftliche Sätze"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "wurde"
+          ],
+          "3": [
+            "deuten"
+          ],
+          "4": [
+            "dürfen"
+          ],
+          "5": [
+            "seien"
+          ],
+          "6": [
+            "ziehen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. In dieser Arbeit {1} untersucht, wie sich Schlafmangel auf die Konzentration auswirkt.\n2. Zu diesem Zweck {2} eine Studie an 200 Personen durchgeführt.\n3. Die Ergebnisse {3} darauf hin, dass Schlafmangel die Aufmerksamkeit verringert.\n4. Allerdings {4} die Befunde nicht verallgemeinert werden, da die Stichprobe klein war.\n5. Die Autoren betonen, weitere Untersuchungen {5} nötig.\n6. Insgesamt lässt sich der Schluss {6}, dass Schlaf eine zentrale Rolle spielt.\n",
+        "type": "gap-text"
+      },
+      "id": "B1",
+      "instructions": "Setze die passende Form ein (Passiv, Hedging, FVG, Konjunktiv I). 6 Items.",
+      "title": "Ein Abstract vervollständigen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Ergebnis ist aufschlussreich."
+              },
+              {
+                "key": "b",
+                "text": "Das Ergebnis ist mega interessant."
+              },
+              {
+                "key": "c",
+                "text": "Das Ergebnis ist der Hammer."
+              }
+            ],
+            "q": "In einer Hausarbeit:",
+            "why": "„aufschlussreich\" ist sachlich; die anderen Varianten sind umgangssprachlich."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die ältere Theorie ist einfach Quatsch."
+              },
+              {
+                "key": "b",
+                "text": "Die ältere Theorie ist voll daneben."
+              },
+              {
+                "key": "c",
+                "text": "Die ältere Theorie ist kritisch zu hinterfragen."
+              }
+            ],
+            "q": "In einem Fachartikel:",
+            "why": "„kritisch zu hinterfragen\" ist wissenschaftlich; die anderen sind Registerbrüche."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Man sieht klipp und klar, dass …"
+              },
+              {
+                "key": "b",
+                "text": "Es zeigt sich deutlich, dass …"
+              },
+              {
+                "key": "c",
+                "text": "Es ist klar wie Kloßbrühe, dass …"
+              }
+            ],
+            "q": "In einer Schlussfolgerung:",
+            "why": "„Es zeigt sich deutlich\" ist sachlich; die Redewendungen passen nicht ins Register."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Daten sind echt krass."
+              },
+              {
+                "key": "b",
+                "text": "Die Daten sind der Wahnsinn."
+              },
+              {
+                "key": "c",
+                "text": "Die Daten sind bemerkenswert."
+              }
+            ],
+            "q": "In der Ergebnisdarstellung:",
+            "why": "„bemerkenswert\" ist angemessen; die anderen sind umgangssprachlich."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Verfahren erwies sich als unzuverlässig."
+              },
+              {
+                "key": "b",
+                "text": "Das hat irgendwie nicht so richtig geklappt."
+              },
+              {
+                "key": "c",
+                "text": "Das ist voll in die Hose gegangen."
+              }
+            ],
+            "q": "In der Methodenbeschreibung:",
+            "why": "„erwies sich als unzuverlässig\" ist sachlich; die anderen sind Registerbrüche."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die Formulierung, die in einen wissenschaftlichen Text passt.",
+      "title": "Registerbruch erkennen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Studie beweist endgültig, dass …"
+              },
+              {
+                "key": "b",
+                "text": "Die Studie legt nahe, dass …"
+              },
+              {
+                "key": "c",
+                "text": "Die Studie zeigt zu 100 %, dass …"
+              }
+            ],
+            "q": "Eine einzige kleine Studie liegt vor. Wie formulierst du das Ergebnis?",
+            "why": "Bei kleiner Datenbasis ist „legt nahe\" angemessen vorsichtig."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "X verursacht definitiv Y."
+              },
+              {
+                "key": "b",
+                "text": "X dürfte zu Y beitragen."
+              },
+              {
+                "key": "c",
+                "text": "X hat null mit Y zu tun."
+              }
+            ],
+            "q": "Du vermutest einen Zusammenhang, bist aber nicht sicher.",
+            "why": "„dürfte … beitragen\" drückt eine vorsichtige Vermutung aus."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das gilt immer und überall."
+              },
+              {
+                "key": "b",
+                "text": "Das gilt zumindest unter bestimmten Bedingungen."
+              },
+              {
+                "key": "c",
+                "text": "Das gilt garantiert für jeden."
+              }
+            ],
+            "q": "Du willst eine These einschränken.",
+            "why": "„zumindest unter bestimmten Bedingungen\" schränkt die Geltung ein."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Hier wären weitere Untersuchungen nötig."
+              },
+              {
+                "key": "b",
+                "text": "Das ist eh alles längst geklärt."
+              },
+              {
+                "key": "c",
+                "text": "Da gibt es gar nichts mehr zu forschen."
+              }
+            ],
+            "q": "Du willst offenlassen, was noch unklar ist.",
+            "why": "„Hier wären weitere Untersuchungen nötig\" lässt die Frage angemessen offen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das könnte zutreffen."
+              },
+              {
+                "key": "b",
+                "text": "Das ist möglicherweise der Fall."
+              },
+              {
+                "key": "c",
+                "text": "Das könnte eventuell vielleicht unter Umständen der Fall sein."
+              }
+            ],
+            "q": "Welche Aussage stapelt zu viele Hedges?",
+            "why": "Mehrere Hedges hintereinander wirken unsicher statt vorsichtig."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B3",
+      "instructions": "Wähle die Formulierung, die im wissenschaftlichen Kontext am besten passt.",
+      "title": "Hedging im Kontext"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "a",
+          "3": "c",
+          "4": "d",
+          "5": "e"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "weil die Daten erhoben wurden"
+          },
+          {
+            "key": "2",
+            "text": "nachdem die Studie durchgeführt wurde"
+          },
+          {
+            "key": "3",
+            "text": "obwohl die Stichprobe klein war"
+          },
+          {
+            "key": "4",
+            "text": "wenn die Methode angewendet wird"
+          },
+          {
+            "key": "5",
+            "text": "während man die Teilnehmer befragte"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "nach Durchführung der Studie"
+          },
+          {
+            "key": "b",
+            "text": "aufgrund der Datenerhebung"
+          },
+          {
+            "key": "c",
+            "text": "trotz der kleinen Stichprobe"
+          },
+          {
+            "key": "d",
+            "text": "bei Anwendung der Methode"
+          },
+          {
+            "key": "e",
+            "text": "während der Befragung"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B4",
+      "instructions": "Ordne jedem Verbalstil-Ausdruck (1–5) die nominale Entsprechung (a–e) zu.",
+      "title": "Verbalstil und Nominalstil"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Auswertung wurde durchgeführt."
+              },
+              {
+                "key": "b",
+                "text": "Die Vornahme der Auswertungsdurchführung geschah."
+              },
+              {
+                "key": "c",
+                "text": "Es erfolgte die Durchführung der Vornahme der Auswertung."
+              }
+            ],
+            "q": "Übernominalisiert: „Die Vornahme der Durchführung der Auswertung erfolgte.\"",
+            "why": "Die Nomen-Kette wird zu einem klaren Passivsatz aufgelöst."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Diese Studie beweist zu 100 %, dass Kaffee gesund ist."
+              },
+              {
+                "key": "b",
+                "text": "Diese Studie deutet darauf hin, dass Kaffee gesundheitsfördernd sein könnte."
+              },
+              {
+                "key": "c",
+                "text": "Kaffee ist gesund, das weiß doch jeder."
+              }
+            ],
+            "q": "Scheinobjektiv: „Diese Studie beweist eindeutig, dass Kaffee gesund ist.\"",
+            "why": "„deutet darauf hin … könnte\" formuliert angemessen vorsichtig."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Ergebnisse sind voll der Wahnsinn."
+              },
+              {
+                "key": "b",
+                "text": "Die Ergebnisse sind bemerkenswert."
+              },
+              {
+                "key": "c",
+                "text": "Die Ergebnisse hauen einen um."
+              }
+            ],
+            "q": "Registerbruch: „Die Ergebnisse sind echt krass.\"",
+            "why": "„bemerkenswert\" passt ins wissenschaftliche Register."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Methode erscheint geeignet."
+              },
+              {
+                "key": "b",
+                "text": "Ich finde die Methode echt super."
+              },
+              {
+                "key": "c",
+                "text": "Meiner Meinung nach ist die Methode mega."
+              }
+            ],
+            "q": "Zu persönlich: „Ich denke, dass die Methode gut ist.\"",
+            "why": "„Die Methode erscheint geeignet\" ist unpersönlich und vorsichtig."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Daraus geben wir den Schluss, dass …"
+              },
+              {
+                "key": "b",
+                "text": "Daraus ziehen wir den Schluss, dass …"
+              },
+              {
+                "key": "c",
+                "text": "Daraus bauen wir den Schluss, dass …"
+              }
+            ],
+            "q": "Falsche Kollokation: „Daraus machen wir den Schluss, dass …\"",
+            "why": "Kollokation: „einen Schluss ziehen\", nicht „machen\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B5",
+      "instructions": "Wähle die beste wissenschaftliche Korrektur (a, b oder c).",
+      "title": "Finde die beste Korrektur"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "seien"
+          ],
+          "2": [
+            "gebe"
+          ],
+          "3": [
+            "müsse"
+          ],
+          "4": [
+            "sei"
+          ],
+          "5": [
+            "seien"
+          ],
+          "6": [
+            "habe"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. (sein, Plural) Müller stellt fest, die bisherigen Methoden {1} unzureichend.\n2. (geben) Er betont, es {2} keine eindeutigen Belege.\n3. (müssen) Weber argumentiert, man {3} die Daten neu erheben.\n4. (sein, Singular) Schmidt schreibt, der Effekt {4} gering.\n5. (sein, Plural) Die Autoren erklären, weitere Studien {5} nötig.\n6. (haben) Der Autor räumt ein, die Studie {6} methodische Schwächen.\n",
+        "type": "gap-text"
+      },
+      "id": "B6",
+      "instructions": "Setze das Verb in den Konjunktiv I (Form in Klammern). 6 Items.",
+      "title": "Indirekte Rede im Konjunktiv I"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Laut dem Schmidt ist der Effekt gering."
+              },
+              {
+                "key": "b",
+                "text": "Laut Schmidt ist der Effekt gering."
+              },
+              {
+                "key": "c",
+                "text": "Laut Schmidts ist der Effekt gering."
+              }
+            ],
+            "q": "Welcher Verweis ist korrekt?",
+            "why": "Bei Namen kein Artikel: „laut Schmidt\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Studie zufolge ist der Effekt gering."
+              },
+              {
+                "key": "b",
+                "text": "Der Studie zufolge ist der Effekt gering."
+              },
+              {
+                "key": "c",
+                "text": "Zufolge der Studie ist der Effekt gering."
+              }
+            ],
+            "q": "Welcher Satz mit „zufolge\" ist korrekt?",
+            "why": "„zufolge\" steht nach dem Wort und verlangt den Dativ: „der Studie zufolge\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er sagt, dass der Effekt ist gering."
+              },
+              {
+                "key": "b",
+                "text": "Er sagt, der Effekt sei gering."
+              },
+              {
+                "key": "c",
+                "text": "Er sagt: der Effekt sei gering."
+              }
+            ],
+            "q": "Welches indirekte Zitat ist korrekt?",
+            "why": "Indirektes Zitat: Konjunktiv I, Verb am Satzende bzw. nach dem Komma: „der Effekt sei gering\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Schmidt schreibt: „Der Effekt ist gering\" (2021, S. 5)."
+              },
+              {
+                "key": "b",
+                "text": "Schmidt schreibt der Effekt ist gering."
+              },
+              {
+                "key": "c",
+                "text": "Schmidt schreibt, dass der Effekt gering ist 2021."
+              }
+            ],
+            "q": "Welches direkte Zitat ist korrekt belegt?",
+            "why": "Direktes Zitat: wörtlich, in Anführungszeichen, mit Seitenangabe."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Eine konkrete Zahl aus einer fremden Studie."
+              },
+              {
+                "key": "b",
+                "text": "Eine fremde These, die man übernimmt."
+              },
+              {
+                "key": "c",
+                "text": "Eine allgemein bekannte Tatsache (Wasser siedet bei 100 °C)."
+              }
+            ],
+            "q": "Welche Aussage braucht KEINEN Beleg?",
+            "why": "Allgemein bekannte Tatsachen müssen nicht belegt werden; fremde Zahlen und Thesen schon."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B7",
+      "instructions": "Wähle die korrekte Form (a, b oder c).",
+      "title": "Korrekt zitieren und verweisen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "unpersönlich"
+          ],
+          "2": [
+            "man"
+          ],
+          "3": [
+            "Hedging"
+          ],
+          "4": [
+            "hin"
+          ],
+          "5": [
+            "Quelle"
+          ],
+          "6": [
+            "I"
+          ],
+          "7": [
+            "verdichtet"
+          ],
+          "8": [
+            "unlesbar"
+          ],
+          "9": [
+            "durchführen"
+          ],
+          "10": [
+            "lesbar"
+          ]
+        },
+        "listLayout": true,
+        "text": "Wissenschaftssprache hat eigene Regeln. Erstens schreibt man\n{1}: Statt „ich zeige\" heißt es „es wird gezeigt\"; das Passiv\nund das Pronomen {2} rücken die Person in den Hintergrund.\nZweitens formuliert man vorsichtig — dieses {3} gelingt mit\nModalverben wie „dürfte\" oder Wendungen wie „deutet darauf\n{4}\". Drittens muss man jede Behauptung mit einer {5}\nbelegen; beim Paraphrasieren verwendet man den Konjunktiv\n{6}. Der Nominalstil {7} Nebensätze zu Nomen, doch zu viele\nNomen machen den Text {8}. Zum Standard gehören außerdem\nFunktionsverbgefüge wie „eine Studie {9}\". Wer all diese\nMittel gezielt einsetzt, schreibt nicht nur korrekt, sondern\nauch {10}.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Füll jede Lücke mit **einem** passenden Wort. 10 Items.",
+      "title": "Lückentext: Merkmale der Wissenschaftssprache"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "werde"
+              },
+              {
+                "key": "c",
+                "text": "wurde geworden"
+              }
+            ],
+            "q": "In dieser Arbeit {1} untersucht, ob ein Zusammenhang besteht.",
+            "why": "Vorgangspassiv Präsens: „wird untersucht\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ist"
+              },
+              {
+                "key": "b",
+                "text": "lässt"
+              },
+              {
+                "key": "c",
+                "text": "wird"
+              }
+            ],
+            "q": "Die These {1} sich mit den Daten belegen.",
+            "why": "Passiversatz: „lässt sich belegen\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "beweisen"
+              },
+              {
+                "key": "b",
+                "text": "deuten"
+              },
+              {
+                "key": "c",
+                "text": "zeigen klar"
+              }
+            ],
+            "q": "Die Ergebnisse {1} darauf hin, dass die Wirkung schwächer ist.",
+            "why": "Hedging: „deuten darauf hin\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ist"
+              },
+              {
+                "key": "b",
+                "text": "sei"
+              },
+              {
+                "key": "c",
+                "text": "wäre"
+              }
+            ],
+            "q": "Müller schreibt, der Befund {1} nicht belastbar.",
+            "why": "Indirektes Zitat: Konjunktiv I „sei\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "zufolge"
+              },
+              {
+                "key": "b",
+                "text": "laut"
+              },
+              {
+                "key": "c",
+                "text": "gemäß den"
+              }
+            ],
+            "q": "Einer aktuellen Studie {1} hat die Mediennutzung zugenommen.",
+            "why": "„zufolge\" steht nach dem Dativ-Nomen: „einer Studie zufolge\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "machen"
+              },
+              {
+                "key": "b",
+                "text": "ziehen"
+              },
+              {
+                "key": "c",
+                "text": "geben"
+              }
+            ],
+            "q": "Daraus lässt sich der Schluss {1}, dass Schlaf wichtig ist.",
+            "why": "Kollokation: „einen Schluss ziehen\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle die passende Option (a, b oder c) für jede Lücke.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "UNPERSÖNLICH"
+          ],
+          "2": [
+            "GEZEIGT"
+          ],
+          "3": [
+            "VORSICHTIG"
+          ],
+          "4": [
+            "HIN"
+          ],
+          "5": [
+            "BELEGEN"
+          ],
+          "6": [
+            "KONJUNKTIV"
+          ],
+          "7": [
+            "NOMINALSTIL"
+          ],
+          "8": [
+            "UNLESBAR"
+          ],
+          "9": [
+            "DURCHFÜHREN"
+          ],
+          "10": [
+            "GEZIELT"
+          ]
+        },
+        "bank": [
+          "UNPERSÖNLICH",
+          "GEZEIGT",
+          "VORSICHTIG",
+          "HIN",
+          "BELEGEN",
+          "KONJUNKTIV",
+          "NOMINALSTIL",
+          "UNLESBAR",
+          "DURCHFÜHREN",
+          "GEZIELT",
+          "PERSÖNLICH",
+          "BEWIESEN",
+          "INDIKATIV",
+          "VERBALSTIL",
+          "LESBAR"
+        ],
+        "text": "Aus einem Schreibratgeber: „Wissenschaftssprache ist {1}: Sie\nrückt die Sache in den Vordergrund. Statt ‚ich zeige‘ schreibt man\n‚es wird {2}‘. Behauptungen formuliert man {3}, etwa mit ‚dürfte‘\noder ‚deutet darauf {4}‘. Jede fremde Aussage muss man {5}; beim\nParaphrasieren verwendet man den {6} I. Der {7} verdichtet\nNebensätze zu Nomen, doch zu viele Nomen machen den Text {8}.\nFunktionsverbgefüge wie ‚eine Studie {9}‘ gehören zum Standard.\nWer diese Mittel {10} einsetzt, schreibt klar und sachlich.\"\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Füll die 10 Lücken mit Wörtern aus dem Kasten. Fünf Wörter sind zu viel. Jedes Wort wird nur einmal benutzt.",
+      "title": "Sprachbausteine Teil 2 (Wortbank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Laut Text steckt hinter den Merkmalen der Wissenschaftssprache meist der Wille, den Leser abzuschrecken.",
+            "why": "„Hinter den meisten Merkmalen steht kein Wille zur Verschleierung, sondern das Bemühen um Sachlichkeit und Präzision.\""
+          },
+          {
+            "answer": true,
+            "q": "Der Text nennt drei auffällige Merkmale: Unpersönlichkeit, Nominalstil und Hedging.",
+            "why": "„Drei Merkmale fallen besonders auf: die Unpersönlichkeit …, der Nominalstil … und das Hedging.\""
+          },
+          {
+            "answer": false,
+            "q": "Die Übernominalisierung wird im Text als guter Stil empfohlen.",
+            "why": "„Die Übernominalisierung gilt zu Recht als Stilfehler.\""
+          },
+          {
+            "answer": true,
+            "q": "Gute Wissenschaftssprache ist laut Text die klarste, die der Gegenstand zulässt.",
+            "why": "„Gute Wissenschaftssprache ist deshalb nicht die komplizierteste, sondern die klarste, die der Gegenstand zulässt.\""
+          },
+          {
+            "answer": false,
+            "q": "Die Wissenschaftskommunikation möchte, dass Forschende ihre Erkenntnisse nur noch für Fachleute schreiben.",
+            "why": "Sie fordert, „dass Forschende ihre Erkenntnisse auch für die Öffentlichkeit verständlich machen.\""
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Wer zum ersten Mal einen wissenschaftlichen Artikel liest, hat oft den Eindruck, die Sprache solle ihn abschrecken. Lange Sätze, abstrakte Nomen, kein einziges „ich\" — Wissenschaftssprache wirkt distanziert und manchmal geradezu unzugänglich. Doch dieser Eindruck täuscht: Hinter den meisten Merkmalen steht kein Wille zur Verschleierung, sondern das Bemühen um Sachlichkeit und Präzision. Wenn eine Forscherin „es wird gezeigt\" schreibt statt „ich zeige\", rückt sie nicht sich selbst, sondern die Sache in den Mittelpunkt. Und wenn sie „die Ergebnisse deuten darauf hin\" schreibt statt „das beweist\", ist das keine Ausflucht, sondern wissenschaftliche Redlichkeit — denn Beweise sind in vielen Disziplinen selten.\n>\n> Drei Merkmale fallen besonders auf: die Unpersönlichkeit (Passiv und man), der Nominalstil (Nebensätze werden zu Nomen verdichtet) und das Hedging, das vorsichtige Formulieren mit Modalverben und Adverbien.\n>\n> Doch die Wissenschaftssprache hat auch eine Schattenseite. Viele Schreibende verwechseln Komplexität mit Qualität und produzieren Sätze, die niemand mehr versteht. Die Übernominalisierung gilt zu Recht als Stilfehler. Gute Wissenschaftssprache ist deshalb nicht die komplizierteste, sondern die klarste, die der Gegenstand zulässt.\n>\n> Genau hier setzt die Bewegung der Wissenschaftskommunikation an: Sie fordert, dass Forschende ihre Erkenntnisse auch für die Öffentlichkeit verständlich machen. Die Kunst besteht darin, präzise zu bleiben, ohne unverständlich zu werden.\n\nRichtig (R) oder Falsch (F)?\n",
+      "title": "Lesen Text 1 (Lesetext: Warum klingt Wissenschaft so kompliziert?)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sollte Wissenschaft verständlicher werden?"
+              },
+              {
+                "key": "b",
+                "text": "Sollte man Fachbegriffe ganz abschaffen?"
+              },
+              {
+                "key": "c",
+                "text": "Wer schreibt die besten Studien?"
+              }
+            ],
+            "q": "Was ist die Leitfrage der Diskussion?",
+            "why": "„Sollte Wissenschaft verständlicher werden?\" (Beitrag 1)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Fachsprache ist überflüssig."
+              },
+              {
+                "key": "b",
+                "text": "Fachsprache ist nötig, aber Ergebnisse sollten zusätzlich verständlich dargestellt werden."
+              },
+              {
+                "key": "c",
+                "text": "Nur Fachleute sollten Studien lesen dürfen."
+              }
+            ],
+            "q": "Welche Position vertritt Yusuf (Beitrag 2)?",
+            "why": "„die Fachsprache ist notwendig … Allerdings sollten Forschende ihre Ergebnisse zusätzlich allgemein verständlich darstellen.\""
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dass es zu wenige Studien gibt."
+              },
+              {
+                "key": "b",
+                "text": "Dass viele Studien wegen des Stils unlesbar sind."
+              },
+              {
+                "key": "c",
+                "text": "Dass Studien zu kurz sind."
+              }
+            ],
+            "q": "Worüber beschwert sich Mia (Beitrag 3)?",
+            "why": "„Ich finde die meisten Studien einfach unlesbar … liegt das nicht an mir, sondern am Stil.\""
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ein Fachbegriff ersetzt oft mehrere Sätze (Präzision)."
+              },
+              {
+                "key": "b",
+                "text": "Fachbegriffe klingen einfach klüger."
+              },
+              {
+                "key": "c",
+                "text": "Niemand soll Wissenschaft verstehen."
+              }
+            ],
+            "q": "Welches Argument bringt Bruno (Beitrag 4) für die Fachsprache?",
+            "why": "„Ein Fachbegriff sagt oft in einem Wort, wofür man sonst drei Sätze braucht.\""
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Lies die folgenden Forumsbeiträge und wähle a, b oder c.\n\n> **Beitrag 1 — Redaktion (Moderation):**\n> Liebe Community, in dieser Woche diskutieren wir die Frage: Sollte Wissenschaft verständlicher werden? Bitte belegen Sie Ihre Beiträge nach Möglichkeit mit Quellen.\n>\n> **Beitrag 2 — Dr. Yusuf El-Sayed:**\n> Aus meiner Sicht ist die Fachsprache notwendig, um präzise zu sein. Allerdings sollten Forschende ihre Ergebnisse zusätzlich allgemein verständlich darstellen. Beides schließt sich nicht aus.\n>\n> **Beitrag 3 — Mia_B:**\n> Ich finde die meisten Studien einfach unlesbar. Wenn ich einen Artikel dreimal lesen muss, liegt das nicht an mir, sondern am Stil. Mehr Wissenschaftskommunikation, bitte!\n>\n> **Beitrag 4 — Bruno_S:**\n> Stimmt schon, aber man darf Präzision nicht für Einfachheit opfern. Ein Fachbegriff sagt oft in einem Wort, wofür man sonst drei Sätze braucht.\n",
+      "title": "Lesen Text 2 (Forumsdiskussion: Soll Wissenschaft verständlicher werden?)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "werden"
+          ],
+          "2": [
+            "dürfte"
+          ],
+          "3": [
+            "Vermutlich"
+          ],
+          "4": [
+            "kommen"
+          ],
+          "5": [
+            "sei"
+          ],
+          "6": [
+            "lässt"
+          ],
+          "7": [
+            "beantworten"
+          ],
+          "8": [
+            "aufgrund"
+          ],
+          "9": [
+            "nach"
+          ],
+          "10": [
+            "Frage"
+          ],
+          "11": [
+            "Verfügung"
+          ],
+          "12": [
+            "habe"
+          ],
+          "13": [
+            "gebe"
+          ],
+          "14": [
+            "sachlich"
+          ],
+          "15": [
+            "Nebensatz"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Wissenschaftssprache (C1/05):**\n1. Unpersönlich: Die Daten {1} ausgewertet. (Vorgangspassiv)\n2. Hedging-Modalverb der Vermutung: Das {2} zutreffen.\n3. Hedging-Adverb: {3} spielt der Schlaf eine Rolle.\n4. FVG: zu dem Schluss {4}.\n5. Zitieren: Müller schreibt, der Effekt {5} gering. (Konjunktiv I)\n\n**Wiederholung (B2/02 Passiv und Alternativen):**\n6. (B2/02) Passiversatz mit „sich lassen\": Die These {6} sich belegen.\n7. (B2/02) Passiversatz mit „sein + zu\": Die Frage ist zu {7}.\n\n**Wiederholung (B2/01 Nominalstil):**\n8. (B2/01) „weil die Daten erhoben wurden\" → {8} der Datenerhebung.\n9. (B2/01) „nachdem die Studie durchgeführt wurde\" → {9} Durchführung der Studie.\n\n**Wiederholung (B2/08 Funktionsverbgefüge):**\n10. (B2/08) bezweifeln: in {10} stellen.\n11. (B2/08) anbieten: zur {11} stellen.\n\n**Wiederholung (B2/04 Indirekte Rede):**\n12. (B2/04) Indikativ „hat\" → Konjunktiv I: {12}.\n13. (B2/04) Indikativ „gibt\" → Konjunktiv I: {13}.\n\n**Wiederholung (C1/01 Register):**\n14. (C1/01) Das Register einer Hausarbeit ist {14}.\n15. (C1/02) Ein Satz im Satz heißt {15}.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Eine Minute pro Item. Keine Notizen. Items mit (B2/..) oder (C1/..) wiederholen frühere Lektionen. 15 Items.",
+      "title": "Gemischter Schnelltest"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "Imperativ",
+              "Passiv",
+              "man",
+              "sich lassen"
+            ],
+            "odd": 0,
+            "why": "Passiv, „man\" und „sich lassen\" sind Mittel der Unpersönlichkeit; der Imperativ gehört nicht dazu."
+          },
+          {
+            "items": [
+              "dürfte",
+              "könnte",
+              "machte",
+              "müsste"
+            ],
+            "odd": 2,
+            "why": "„dürfte/könnte/müsste\" drücken Vermutung aus (Hedging); „machte\" ist ein einfaches Präteritum."
+          },
+          {
+            "items": [
+              "vermutlich",
+              "definitiv",
+              "offenbar",
+              "möglicherweise"
+            ],
+            "odd": 1,
+            "why": "„definitiv\" ist ein Verstärker; die anderen drei sind Hedging-Adverbien (sie schwächen ab)."
+          },
+          {
+            "items": [
+              "Hypothese",
+              "These",
+              "Beweis",
+              "Annahme"
+            ],
+            "odd": 2,
+            "why": "Hypothese, These und Annahme sind noch zu prüfen; ein „Beweis\" ist bereits gesichert."
+          },
+          {
+            "items": [
+              "durchführen",
+              "ziehen",
+              "machen",
+              "nehmen"
+            ],
+            "odd": 2,
+            "why": "Studie durchführen, Schluss ziehen, Bezug nehmen sind Funktionsverbgefüge; „machen\" bildet hier keines."
+          },
+          {
+            "items": [
+              "laut",
+              "obwohl",
+              "zufolge",
+              "nach Ansicht von"
+            ],
+            "odd": 1,
+            "why": "„laut/zufolge/nach Ansicht von\" leiten Verweise ein; „obwohl\" ist ein konzessiver Konnektor."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum.",
+      "title": "Odd one out: Wissenschaftssprache"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Durchführung"
+          ],
+          "2": [
+            "trotz"
+          ],
+          "3": [
+            "lösbar"
+          ],
+          "4": [
+            "ist"
+          ],
+          "5": [
+            "müsse"
+          ],
+          "6": [
+            "könne"
+          ],
+          "7": [
+            "treffen"
+          ],
+          "8": [
+            "spielen"
+          ],
+          "9": [
+            "deuten"
+          ],
+          "10": [
+            "Übernominalisierung"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Aus B2/01 (Nominalstil):**\n1. „nachdem die Studie durchgeführt wurde\" → nach {1} der Studie.\n2. „obwohl die Stichprobe klein war\" → {2} der kleinen Stichprobe.\n\n**Aus B2/02 (Passiv und Alternativen):**\n3. Passiversatz mit -bar: Das Problem ist {3}.\n4. Zustandspassiv: Die Auswertung {4} abgeschlossen.\n\n**Aus B2/04 (Indirekte Rede):**\n5. „muss\" → Konjunktiv I: {5}.\n6. „kann\" → Konjunktiv I: {6}.\n\n**Aus B2/08 (Funktionsverbgefüge):**\n7. eine Entscheidung {7}.\n8. eine Rolle {8}.\n\n**Aus C1/05 (Wissenschaftssprache):**\n9. Hedging-Wendung statt „beweist\": Die Daten {9} darauf hin.\n10. Typischer Fehler: zu viele Nomen aneinanderreihen = {10}.\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Wiederholung früherer Lektionen. 10 Items.",
+      "title": "Rückblick: B2/01, B2/02, B2/04, B2/08, C1/05"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "lässt"
+          ],
+          "3": [
+            "lösbar"
+          ],
+          "4": [
+            "Man"
+          ],
+          "5": [
+            "aufgrund"
+          ],
+          "6": [
+            "Durchführung"
+          ],
+          "7": [
+            "drei"
+          ],
+          "8": [
+            "dürfte"
+          ],
+          "9": [
+            "deuten"
+          ],
+          "10": [
+            "tendenziell"
+          ],
+          "11": [
+            "Dativ"
+          ],
+          "12": [
+            "sei"
+          ],
+          "13": [
+            "gebe"
+          ],
+          "14": [
+            "durchführen"
+          ],
+          "15": [
+            "kommen"
+          ],
+          "16": [
+            "nehmen"
+          ],
+          "17": [
+            "Übernominalisierung"
+          ],
+          "18": [
+            "Scheinobjektivität"
+          ],
+          "19": [
+            "Register"
+          ],
+          "20": [
+            "Verfügung"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Unpersönlich formulieren:**\n1. Vorgangspassiv: Die Hypothese {1} geprüft.\n2. Passiversatz (sich lassen): Die These {2} sich belegen.\n3. Passiversatz (-bar): Das Problem ist {3}.\n4. man-Form: {4} wertet die Daten aus.\n\n**Nominalstil:**\n5. „weil\" → {5} der Datenerhebung.\n6. „nachdem\" → nach {6} der Studie.\n7. Maximal {7} Attribute pro Nominalphrase (Zahl als Wort).\n\n**Hedging:**\n8. Modalverb der Vermutung: {8}.\n9. Wendung: Die Daten {9} darauf hin.\n10. Adverb der Tendenz: Die These trifft {10} zu.\n\n**Verweise & Zitieren:**\n11. „zufolge\" verlangt den {11} (Kasus).\n12. Indirektes Zitat: Müller schreibt, der Effekt {12} gering.\n13. „gibt\" → Konjunktiv I: {13}.\n\n**FVG & Wortschatz:**\n14. eine Studie {14}.\n15. zu dem Schluss {15}.\n16. Bezug {16} auf.\n\n**Typische Fehler:**\n17. Zu viele Nomen = {17}.\n18. „beweist eindeutig\" = {18} (zu starke Sicherheit).\n19. „krass\" im Fachtext = {19}-bruch.\n\n**Wiederholung (B2/08):**\n20. (B2/08) anbieten: zur {20} stellen.\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (bewerte dich /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "c1-05",
+  "intro": "Blöcke: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Die Lösungen findest du in solutions.md. Tipp: Verteil die Blöcke über mehrere Tage — H und A am Tag 1, B am Tag 2, C am Tag 3, D am Tag 4 nach einer Pause.\n",
+  "lesson": "C1/05",
+  "level": "C1",
+  "summary": null,
+  "title": "C1 · Lektion 5 — Übungen (Wissenschaftssprache)",
+  "topic": null
+}

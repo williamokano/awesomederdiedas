@@ -1,0 +1,663 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "Gegenwart (Infinitiv I)",
+          "Vergangenheit (Infinitiv II)"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Er muss krank sein."
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "Er muss krank gewesen sein."
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "müssen (starke Vermutung)"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Er soll reich sein."
+                ],
+                "gap": 3
+              },
+              {
+                "answer": [
+                  "Er soll reich gewesen sein."
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "sollen (Gerücht)"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Er kann Recht haben."
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "Er kann Recht gehabt haben."
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "können (Möglichkeit)"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze den ganzen Satz mit dem passenden Modalverb.",
+      "instructionsEn": "Fill in the whole sentence with the appropriate modal verb.",
+      "title": "Gegenwart (Infinitiv I) und Vergangenheit (Infinitiv II)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "dürfte"
+          ],
+          "3": [
+            "könnte"
+          ],
+          "4": [
+            "soll"
+          ],
+          "5": [
+            "will"
+          ],
+          "6": [
+            "kann"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das Licht ist an. Sie {1} zu Hause sein. (starke Vermutung)\n2. Ich bin nicht sicher, aber sie {2} zu Hause sein. (vorsichtige Vermutung)\n3. Sie {3} zu Hause sein, aber vielleicht ist sie auch einkaufen. (Möglichkeit)\n4. Er {4} sehr talentiert sein, das sagen alle Kritiker. (Gerücht)\n5. Sie {5} die Wahrheit gesagt haben, aber ich zweifle daran. (Behauptung)\n6. Das {6} nicht wahr sein! (Unmöglichkeit)\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze das passende Modalverb (subjektive Bedeutung).",
+      "instructionsEn": "Fill in the appropriate modal verb (subjective meaning).",
+      "title": "Welches Modalverb passt zur Vermutung?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "soll"
+          ],
+          "2": [
+            "muss"
+          ],
+          "3": [
+            "könnte"
+          ],
+          "4": [
+            "mag"
+          ],
+          "5": [
+            "will"
+          ],
+          "6": [
+            "kann"
+          ],
+          "7": [
+            "dürfte"
+          ],
+          "8": [
+            "dürfte"
+          ]
+        },
+        "bank": [
+          "soll",
+          "muss",
+          "könnte",
+          "mag",
+          "will",
+          "kann",
+          "dürfte",
+          "dürfte",
+          "würde",
+          "möchte"
+        ],
+        "text": "Der neue Kollege ist sehr mysteriös. Er {1} früher bei einer\ngroßen Firma gearbeitet haben, das erzählt man sich. Er {2} sehr\nklug sein, seine Ideen sind immer gut. Er {3} aus dem Ausland\nkommen, sein Akzent klingt fremd. Niemand weiß es genau, aber er\n{4} auch einfach nur schüchtern sein. Er {5} den Chef schon\nlange gekannt haben, das behauptet er jedenfalls. Das Gerücht\n{6} nicht stimmen, so viele Zufälle gibt es nicht. Ich bin\nsicher: er {7} bald befördert werden. Jedenfalls {8} er ein\ninteressanter neuer Kollege sein.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Der neue Kollege"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "muss"
+              },
+              {
+                "key": "b",
+                "text": "soll"
+              },
+              {
+                "key": "c",
+                "text": "mag"
+              }
+            ],
+            "q": "(Ich bin fast sicher) Das Restaurant ___ schon geschlossen sein, es ist nach Mitternacht.",
+            "why": "Starke Vermutung → müssen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "muss"
+              },
+              {
+                "key": "b",
+                "text": "soll"
+              },
+              {
+                "key": "c",
+                "text": "könnte"
+              }
+            ],
+            "q": "(Das hört man so) Das neue Restaurant ___ fantastisch sein.",
+            "why": "Gerücht → sollen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "muss"
+              },
+              {
+                "key": "b",
+                "text": "soll"
+              },
+              {
+                "key": "c",
+                "text": "könnte"
+              }
+            ],
+            "q": "(Es ist nur eine Möglichkeit) Er ___ noch im Büro sein, ich bin nicht sicher.",
+            "why": "Möglichkeit → können/könnte."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "will"
+              },
+              {
+                "key": "b",
+                "text": "muss"
+              },
+              {
+                "key": "c",
+                "text": "mag"
+              }
+            ],
+            "q": "(Er behauptet es, aber ich glaube es nicht ganz) Er ___ das Spiel ohne Hilfe gewonnen haben.",
+            "why": "Bezweifelte Behauptung → wollen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "will"
+              },
+              {
+                "key": "b",
+                "text": "kann"
+              },
+              {
+                "key": "c",
+                "text": "soll"
+              }
+            ],
+            "q": "(Es ist unmöglich) Das ___ nicht wahr sein!",
+            "why": "Unmöglichkeit → nicht können."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "muss"
+              },
+              {
+                "key": "b",
+                "text": "soll"
+              },
+              {
+                "key": "c",
+                "text": "dürfte"
+              }
+            ],
+            "q": "(Vorsichtige Vermutung) Sie ___ schon angekommen sein.",
+            "why": "Vorsichtige Vermutung → dürfte."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Objektiv oder subjektiv? — Welches Modalverb passt?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "soll"
+              },
+              {
+                "key": "b",
+                "text": "muss"
+              },
+              {
+                "key": "c",
+                "text": "mag"
+              }
+            ],
+            "q": "Das Gemälde ___ letzte Woche gestohlen worden sein.",
+            "why": "Gerücht → sollen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "soll"
+              },
+              {
+                "key": "b",
+                "text": "muss"
+              },
+              {
+                "key": "c",
+                "text": "könnte"
+              }
+            ],
+            "q": "Die Polizei sagt, der Dieb ___ die Alarmanlage gekannt haben.",
+            "why": "Starke Schlussfolgerung aus Beweisen → müssen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "muss"
+              },
+              {
+                "key": "b",
+                "text": "soll"
+              },
+              {
+                "key": "c",
+                "text": "könnte"
+              }
+            ],
+            "q": "Es ___ auch ein Insider gewesen sein, das schließt niemand aus.",
+            "why": "Möglichkeit → können/könnte."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "will"
+              },
+              {
+                "key": "b",
+                "text": "muss"
+              },
+              {
+                "key": "c",
+                "text": "soll"
+              }
+            ],
+            "q": "Der Museumsdirektor ___ von nichts gewusst haben, so behauptet er.",
+            "why": "Bezweifelte Behauptung → wollen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "soll"
+              },
+              {
+                "key": "b",
+                "text": "dürfte"
+              },
+              {
+                "key": "c",
+                "text": "will"
+              }
+            ],
+            "q": "Das ___ eigentlich nicht passieren können, die Sicherheit war doch so gut.",
+            "why": "Vorsichtige Erwartung → dürfte."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "muss"
+              },
+              {
+                "key": "b",
+                "text": "soll"
+              },
+              {
+                "key": "c",
+                "text": "dürfte"
+              }
+            ],
+            "q": "Die Ermittler ___ bald eine Spur finden.",
+            "why": "Vorsichtige Erwartung → dürfte."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "muss"
+              },
+              {
+                "key": "b",
+                "text": "mag"
+              },
+              {
+                "key": "c",
+                "text": "will"
+              }
+            ],
+            "q": "Manche sagen, das Gemälde ___ nie echt gewesen sein.",
+            "why": "Zugeständnis/Möglichkeit → mögen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "muss"
+              },
+              {
+                "key": "b",
+                "text": "soll"
+              },
+              {
+                "key": "c",
+                "text": "mag"
+              }
+            ],
+            "q": "Am Ende ___ die Wahrheit ans Licht kommen.",
+            "why": "Unausweichlichkeit → müssen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct modal verb for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Das verschwundene Gemälde"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "soll"
+          ],
+          "2": [
+            "muss"
+          ],
+          "3": [
+            "soll"
+          ],
+          "4": [
+            "mag"
+          ],
+          "5": [
+            "will"
+          ],
+          "6": [
+            "kann"
+          ],
+          "7": [
+            "dürfte"
+          ],
+          "8": [
+            "dürfte"
+          ],
+          "9": [
+            "muss"
+          ],
+          "10": [
+            "mag"
+          ]
+        },
+        "bank": [
+          "soll",
+          "soll",
+          "muss",
+          "muss",
+          "kann",
+          "mag",
+          "mag",
+          "will",
+          "dürfte",
+          "dürfte",
+          "sollte",
+          "könnte"
+        ],
+        "text": "Im Büro gibt es viele Gerüchte. Die neue Chefin {1} sehr streng\nsein, das erzählen alle. Sie {2} schon viel Erfahrung haben, ihr\nLebenslauf ist beeindruckend. Manche sagen, sie {3} früher bei\neinem großen Konzern gearbeitet haben. Sie {4} auch einfach nur\nehrgeizig sein, das wäre auch möglich. Ein Kollege {5} sie schon\npersönlich kennen, das behauptet er. Das {6} aber nicht stimmen,\ner kennt doch niemanden aus dem Vorstand. Wir {7} es bald\nerfahren, das Meeting ist ja morgen. Jedenfalls {8} sie eine\ninteressante neue Chefin sein. Das {9} man wohl erst mit der\nZeit sehen. Aber ganz ehrlich: {10} das wirklich so wichtig sein?\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Two words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Gerüchte im Büro (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "dürfte"
+          ],
+          "3": [
+            "soll"
+          ],
+          "4": [
+            "will"
+          ],
+          "5": [
+            "kann"
+          ],
+          "6": [
+            "mag"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Er {1} zu Hause sein, das Licht brennt.\n2. Sie {2} schon angekommen sein, aber ich bin nicht ganz sicher.\n3. Das Konzert {3} fantastisch gewesen sein, das hört man überall.\n4. Er {4} die Wahrheit gesagt haben, aber ich habe Zweifel.\n5. Das {5} auch Zufall sein.\n6. Sie {6} Recht haben, das ist durchaus möglich.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze das passende Modalverb (subjektive Bedeutung).",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "dürfte"
+              },
+              {
+                "key": "b",
+                "text": "soll"
+              },
+              {
+                "key": "c",
+                "text": "mag"
+              }
+            ],
+            "q": "Das Auto ___ schon zehn Jahre alt sein, es sieht aber noch neu aus.",
+            "why": "Vorsichtige Vermutung → dürfte."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "muss"
+              },
+              {
+                "key": "b",
+                "text": "soll"
+              },
+              {
+                "key": "c",
+                "text": "könnte"
+              }
+            ],
+            "q": "Die Show ___ letztes Jahr ein großer Erfolg gewesen sein, das erzählt jeder.",
+            "why": "Gerücht → sollen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "muss"
+              },
+              {
+                "key": "b",
+                "text": "soll"
+              },
+              {
+                "key": "c",
+                "text": "könnte"
+              }
+            ],
+            "q": "Er ___ auch krank sein, das würde die Absage erklären.",
+            "why": "Möglichkeit → können/könnte."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "will"
+              },
+              {
+                "key": "b",
+                "text": "muss"
+              },
+              {
+                "key": "c",
+                "text": "mag"
+              }
+            ],
+            "q": "Sie ___ das Projekt allein fertiggestellt haben, aber ich glaube, ihr Team hat geholfen.",
+            "why": "Bezweifelte Behauptung → wollen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "will"
+              },
+              {
+                "key": "b",
+                "text": "kann"
+              },
+              {
+                "key": "c",
+                "text": "soll"
+              }
+            ],
+            "q": "Das ___ kein Zufall sein, dafür passiert es zu oft.",
+            "why": "Unmöglichkeit → nicht können."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "muss"
+              },
+              {
+                "key": "b",
+                "text": "soll"
+              },
+              {
+                "key": "c",
+                "text": "dürfte"
+              }
+            ],
+            "q": "Er ___ inzwischen zu Hause sein, die Fahrt dauert nicht lange.",
+            "why": "Vorsichtige Vermutung → dürfte."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-12-modalverben-b2",
+  "intro": "Standalone drill set, not tied to any lesson. Beyond their everyday (objektiv) meanings, the modal verbs have a second, subjektiv use for guesses, hearsay, and claims — same modal, no object case involved, just a different degree of certainty: müssen = a near-certain inference (Er muss zu Hause sein — the light is on), dürfte = a cautious assumption, können/könnte = a bare possibility, sollen = hearsay (\"people say\" — Er soll reich sein), wollen = a claim the speaker doubts (Er will das nicht gewusst haben), mögen = a concession (Er mag Recht haben). To talk about the past, the main verb becomes Infinitiv II (Partizip II + haben/sein): Er muss krank gewesen sein. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/12-modalverben-b2",
+  "level": "B2",
+  "summary": null,
+  "title": "Modalverben: Subjektive Bedeutung — B2",
+  "topic": "Modalverben"
+}

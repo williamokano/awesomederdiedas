@@ -1,0 +1,826 @@
+{
+  "category": "Freizeit & Kultur",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "vorher",
+            "label": "Vor dem Spiel"
+          },
+          {
+            "key": "stadion",
+            "label": "Im Stadion"
+          },
+          {
+            "key": "danach",
+            "label": "Nach dem Spiel"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "vorher",
+            "text": "Tickets online kaufen"
+          },
+          {
+            "bucket": "vorher",
+            "text": "die Anstoßzeit prüfen"
+          },
+          {
+            "bucket": "vorher",
+            "text": "einen Fanschal kaufen"
+          },
+          {
+            "bucket": "vorher",
+            "text": "sich mit Freunden treffen"
+          },
+          {
+            "bucket": "stadion",
+            "text": "durch die Einlasskontrolle gehen"
+          },
+          {
+            "bucket": "stadion",
+            "text": "den eigenen Platz suchen"
+          },
+          {
+            "bucket": "stadion",
+            "text": "die Mannschaft anfeuern"
+          },
+          {
+            "bucket": "stadion",
+            "text": "ein Tor bejubeln"
+          },
+          {
+            "bucket": "danach",
+            "text": "das Stadion verlassen"
+          },
+          {
+            "bucket": "danach",
+            "text": "über das Ergebnis diskutieren"
+          },
+          {
+            "bucket": "danach",
+            "text": "nach Hause fahren"
+          },
+          {
+            "bucket": "danach",
+            "text": "das nächste Spiel planen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Vor dem Spiel, im Stadion oder danach?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Fanblock"
+          },
+          {
+            "key": "2",
+            "text": "die Anstoßzeit"
+          },
+          {
+            "key": "3",
+            "text": "der Stehplatz"
+          },
+          {
+            "key": "4",
+            "text": "anfeuern"
+          },
+          {
+            "key": "5",
+            "text": "ein Tor schießen"
+          },
+          {
+            "key": "6",
+            "text": "die Halbzeitpause"
+          },
+          {
+            "key": "7",
+            "text": "das Unentschieden"
+          },
+          {
+            "key": "8",
+            "text": "die Einlasskontrolle"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "der Bereich im Stadion für die Fans einer Mannschaft"
+          },
+          {
+            "key": "b",
+            "text": "der Zeitpunkt, zu dem das Spiel beginnt"
+          },
+          {
+            "key": "c",
+            "text": "der Platz im Stadion ohne Sitzgelegenheit"
+          },
+          {
+            "key": "d",
+            "text": "die eigene Mannschaft laut unterstützen"
+          },
+          {
+            "key": "e",
+            "text": "einen Treffer erzielen"
+          },
+          {
+            "key": "f",
+            "text": "die Pause zwischen den beiden Spielhälften"
+          },
+          {
+            "key": "g",
+            "text": "ein Ergebnis ohne Sieger"
+          },
+          {
+            "key": "h",
+            "text": "die Sicherheitskontrolle am Stadioneingang"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "müssen"
+          ],
+          "2": [
+            "Kannst"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Sollen"
+          ],
+          "5": [
+            "schießt"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Soll"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir {1} die Tickets rechtzeitig kaufen. (Modalverb, wir-Form)\n2. {2} du mir sagen, wann die Anstoßzeit ist? (können, du-Form)\n3. Ich {3} schon die Tickets bestellt. (haben, Perfekt)\n4. {4} wir Stehplätze oder Sitzplätze nehmen? (sollen, wir-Form)\n5. Falls unsere Mannschaft ein Tor {5}, jubeln alle. (schießen, Präsens)\n6. Der Fanblock {6} die Mannschaft die ganze Zeit anfeuern. (werden, Futur I)\n7. Wir {7} schon ein Tor bejubelt. (haben, Perfekt)\n8. {8} ich meinen Fanschal mitnehmen? (sollen, ich-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Den Stadionbesuch planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Fanblock"
+          ],
+          "2": [
+            "Anstoßzeit"
+          ],
+          "3": [
+            "Stehplätze"
+          ],
+          "4": [
+            "Halbzeitpause"
+          ],
+          "5": [
+            "Unentschieden"
+          ],
+          "6": [
+            "Einlasskontrolle"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Unsere Plätze sind mitten im {1}. (der Bereich für Fans einer Mannschaft)\n2. Die {2} ist um 15:30 Uhr. (der Zeitpunkt, zu dem das Spiel beginnt)\n3. Wir haben {3} gekauft, die sind günstiger als Sitzplätze. (Plätze ohne Sitzgelegenheit)\n4. Während der {4} kaufen wir uns etwas zu essen. (die Pause zwischen den Spielhälften)\n5. Nach neunzig Minuten endete das Spiel mit einem {5}. (ein Ergebnis ohne Sieger)\n6. Vor dem Stadion gibt es eine strenge {6}. (die Sicherheitskontrolle am Eingang)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "TICKETS"
+          ],
+          "2": [
+            "ANSTOSSZEIT"
+          ],
+          "3": [
+            "STEHPLÄTZE"
+          ],
+          "4": [
+            "FANBLOCK"
+          ],
+          "5": [
+            "EINLASSKONTROLLE"
+          ],
+          "6": [
+            "SCHIESST"
+          ],
+          "7": [
+            "ANFEUERN"
+          ],
+          "8": [
+            "HALBZEITPAUSE"
+          ],
+          "9": [
+            "UNENTSCHIEDEN"
+          ],
+          "10": [
+            "WIRD"
+          ]
+        },
+        "bank": [
+          "TICKETS",
+          "ANSTOSSZEIT",
+          "STEHPLÄTZE",
+          "FANBLOCK",
+          "EINLASSKONTROLLE",
+          "SCHIESST",
+          "ANFEUERN",
+          "HALBZEITPAUSE",
+          "UNENTSCHIEDEN",
+          "WIRD",
+          "SCHIEDSRICHTER",
+          "VERLÄNGERUNG",
+          "TRIKOT",
+          "ELFMETER"
+        ],
+        "text": "— Hey, hast du schon {1} für das Spiel am Samstag?\n— Noch nicht, wann ist eigentlich die {2}?\n— Um 15:30 Uhr. Wollen wir {3} oder Sitzplätze nehmen?\n— Stehplätze, das ist im {4} viel lauter!\n(am Stadion)\n— Zeig mal deine Karte, wir müssen durch die {5}.\n— Kein Problem, ich habe alles dabei.\n— Schau, unsere Mannschaft {6} gerade ein Tor!\n— Ja! Jetzt müssen wir sie richtig {7}!\n— In der {8} holen wir uns noch was zu essen.\n— Gute Idee. Am Ende steht es leider {9} — schade.\n— Macht nichts, das nächste Spiel {10} bestimmt besser.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Tickets besorgen und im Stadion"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Tickets interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Hast du schon Tickets für das Spiel am Samstag?"
+              },
+              {
+                "key": "c",
+                "text": "Ich gehe sowieso nie ins Stadion."
+              }
+            ],
+            "q": "Du möchtest wissen, ob dein Freund schon Tickets hat. — You want to know whether your friend already has tickets.",
+            "why": "Eine direkte Frage klärt sofort, ob schon Tickets vorhanden sind."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zeiten sind mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Ich komme, wann ich will."
+              },
+              {
+                "key": "c",
+                "text": "Wann ist eigentlich die Anstoßzeit?"
+              }
+            ],
+            "q": "Du möchtest wissen, wann die Anstoßzeit ist. — You want to know the kickoff time.",
+            "why": "Eine konkrete Frage zur Anstoßzeit hilft bei der Planung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wollen wir Stehplätze oder Sitzplätze nehmen?"
+              },
+              {
+                "key": "b",
+                "text": "Plätze sind mir alle gleich."
+              },
+              {
+                "key": "c",
+                "text": "Ich setze mich einfach irgendwohin."
+              }
+            ],
+            "q": "Du möchtest zwischen Stehplätzen und Sitzplätzen wählen. — You want to choose between standing and seated tickets.",
+            "why": "Eine klare Frage klärt frühzeitig die Wahl der Plätze."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich zeige meine Karte nicht."
+              },
+              {
+                "key": "b",
+                "text": "Kein Problem, ich habe alles dabei."
+              },
+              {
+                "key": "c",
+                "text": "Kontrollen interessieren mich nicht."
+              }
+            ],
+            "q": "Am Eingang wirst du zur Einlasskontrolle gebeten. — You're asked to go through the entry check.",
+            "why": "Eine kooperative Antwort macht den Einlass schnell und unkompliziert."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Tore sind mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Ich klatsche vielleicht kurz."
+              },
+              {
+                "key": "c",
+                "text": "Jetzt müssen wir sie richtig anfeuern!"
+              }
+            ],
+            "q": "Deine Mannschaft schießt ein Tor. — Your team scores a goal.",
+            "why": "Ein Tor ist der perfekte Moment, die Mannschaft laut anzufeuern."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Macht nichts, das nächste Spiel wird bestimmt besser."
+              },
+              {
+                "key": "b",
+                "text": "Unentschieden ist das Schlimmste, was es gibt."
+              },
+              {
+                "key": "c",
+                "text": "Dann gehe ich nie wieder ins Stadion."
+              }
+            ],
+            "q": "Das Spiel endet unentschieden. — The game ends in a draw.",
+            "why": "Eine gelassene Reaktion passt besser zu einem normalen Spielergebnis."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Tickets und Plätze"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Ja/Nein-Frage im Perfekt",
+            "tiles": [
+              "Hast",
+              "du",
+              "schon",
+              "Tickets",
+              "für",
+              "das",
+              "Spiel",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "W-Frage mit sein",
+            "tiles": [
+              "Wann",
+              "ist",
+              "eigentlich",
+              "die",
+              "Anstoßzeit",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Frage mit Modalverb, Infinitiv am Ende",
+            "tiles": [
+              "Wollen",
+              "wir",
+              "Stehplätze",
+              "oder",
+              "Sitzplätze",
+              "nehmen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Nebensatz mit falls, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "unsere",
+              "Mannschaft",
+              "ein",
+              "Tor",
+              "schießt",
+              ",",
+              "jubeln",
+              "alle"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Hauptsatz mit Modalverb, Infinitiv am Ende",
+            "tiles": [
+              "Jetzt",
+              "müssen",
+              "wir",
+              "sie",
+              "richtig",
+              "anfeuern"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Wir",
+              "haben",
+              "schon",
+              "ein",
+              "Tor",
+              "bejubelt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze im Stadion bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Tickets sollte man am besten online im Voraus kaufen. — Tickets should best be bought online in advance.",
+            "why": "So steht es ausdrücklich in den Stadion-Infos."
+          },
+          {
+            "answer": false,
+            "q": "Der Einlass beginnt meist erst direkt beim Anstoß. — Entry usually only starts right at kickoff.",
+            "why": "Er beginnt meist schon eine Stunde vor Anstoß, nicht erst dann."
+          },
+          {
+            "answer": false,
+            "q": "Eigene Getränkeflaschen sind im Stadion meist erlaubt. — Bringing your own drink bottles is usually allowed in the stadium.",
+            "why": "Sie sind oft nicht erlaubt, Getränke gibt es im Stadion zu kaufen."
+          },
+          {
+            "answer": true,
+            "q": "Fanschal und Trikot kann man oft vor dem Stadion an Ständen kaufen. — Fan scarves and jerseys can often be bought at stands outside the stadium.",
+            "why": "„Fanschal und Trikot: viele kaufen sie vor dem Stadion an Ständen.“"
+          },
+          {
+            "answer": false,
+            "q": "Eine Verlängerung gibt es auch bei ganz normalen Ligaspielen. — Extra time also happens in ordinary league games.",
+            "why": "Verlängerung gibt es nur bei Pokalspielen, nicht in der regulären Liga."
+          },
+          {
+            "answer": true,
+            "q": "Nach dem Spiel können die Ausgänge stark überfüllt sein. — After the game, the exits can be very crowded.",
+            "why": "„Nach dem Spiel: die Ausgänge können stark überfüllt sein.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Stadionbesuch**\n>\n> - **Tickets:** am besten **online im Voraus** kaufen, an der\n>   Tageskasse oft ausverkauft.\n> - **Einlass:** meist **eine Stunde vor Anstoß**,\n>   Taschenkontrolle möglich.\n> - **Getränke und Essen:** eigene Flaschen sind oft **nicht\n>   erlaubt**, im Stadion erhältlich.\n> - **Fanschal und Trikot:** viele kaufen sie **vor dem\n>   Stadion** an Ständen.\n> - **Verlängerung:** gibt es nur bei **Pokalspielen**, nicht\n>   in der regulären Liga.\n> - **Nach dem Spiel:** die Ausgänge können **stark\n>   überfüllt** sein, etwas Geduld einplanen.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Stadion-Infos lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach zu Hause bleiben und nichts unternehmen."
+              },
+              {
+                "key": "b",
+                "text": "Nach einem Wiederverkauf oder einer Warteliste fragen."
+              },
+              {
+                "key": "c",
+                "text": "Ohne Ticket versuchen, sich hineinzuschmuggeln."
+              }
+            ],
+            "q": "Die Tickets sind schon ausverkauft. — The tickets are already sold out.",
+            "why": "Ein Wiederverkauf oder eine Warteliste ist der sichere und legale Weg zu einem Ticket."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach umdrehen und nach Hause gehen."
+              },
+              {
+                "key": "b",
+                "text": "Laut schimpfen, ohne dem Personal etwas zu zeigen."
+              },
+              {
+                "key": "c",
+                "text": "Ruhig bleiben und dem Personal das Problem zeigen."
+              }
+            ],
+            "q": "Beim Einlass funktioniert das digitale Ticket nicht. — The digital ticket doesn't work at entry.",
+            "why": "Ruhe und ein klarer Hinweis auf das Problem lösen es meist schnell."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Freundlich das Personal um Klärung bitten."
+              },
+              {
+                "key": "b",
+                "text": "Sich einfach mit der anderen Person streiten."
+              },
+              {
+                "key": "c",
+                "text": "Sich irgendwo anders hinsetzen, ohne zu fragen."
+              }
+            ],
+            "q": "Der eigene Platz ist bereits von jemand anderem besetzt. — Your own seat is already occupied by someone else.",
+            "why": "Das Personal kann den Platzkonflikt am schnellsten und fairsten klären."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Trotzdem ohne Schutz stundenlang im Regen bleiben."
+              },
+              {
+                "key": "b",
+                "text": "Eine Regenjacke anziehen oder sich unterstellen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort das Stadion verlassen, ohne es zu versuchen."
+              }
+            ],
+            "q": "Es beginnt während des Spiels stark zu regnen. — It starts raining heavily during the game.",
+            "why": "Regenjacke oder Unterstellen ist die praktikabelste Lösung, um weiterzuschauen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Panisch durch die Menge rennen."
+              },
+              {
+                "key": "b",
+                "text": "Einfach allein nach Hause fahren."
+              },
+              {
+                "key": "c",
+                "text": "An einem vereinbarten Treffpunkt warten."
+              }
+            ],
+            "q": "Man verliert in der Menge kurzzeitig seine Freunde. — You briefly lose your friends in the crowd.",
+            "why": "Ein vereinbarter Treffpunkt ist der zuverlässigste Weg, sich wiederzufinden."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Geduldig warten, statt zu drängeln."
+              },
+              {
+                "key": "b",
+                "text": "Sich rücksichtslos nach vorne drängeln."
+              },
+              {
+                "key": "c",
+                "text": "In Panik laut schreien."
+              }
+            ],
+            "q": "Nach dem Spiel sind alle Ausgänge extrem überfüllt. — After the game, all exits are extremely crowded.",
+            "why": "Geduld ist bei überfüllten Ausgängen die sicherste Reaktion."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn beim Stadionbesuch etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "ausverkauft"
+          ],
+          "2": [
+            "funktioniert"
+          ],
+          "3": [
+            "besetzt"
+          ],
+          "4": [
+            "untergestellt"
+          ],
+          "5": [
+            "verloren"
+          ],
+          "6": [
+            "gewartet"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Tickets waren leider schon {1}. (nichts mehr übrig, Partizip)\n2. Das digitale Ticket hat beim Einlass nicht {2}. (nicht richtig gearbeitet)\n3. Der Platz war schon {3}. (von jemandem eingenommen, Partizip)\n4. Wir haben uns bei Regen {4}. (Schutz gesucht, Partizip)\n5. Wir haben unsere Freunde kurz aus den Augen {5}. (nicht mehr gesehen, Partizip)\n6. Am Ausgang haben wir geduldig {6}. (nicht gedrängelt, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "müssen"
+          ],
+          "2": [
+            "Könntest"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Fanblock"
+          ],
+          "5": [
+            "Anstoßzeit"
+          ],
+          "6": [
+            "Stehplätze"
+          ],
+          "7": [
+            "Halbzeitpause"
+          ],
+          "8": [
+            "Unentschieden"
+          ],
+          "9": [
+            "Einlasskontrolle"
+          ],
+          "10": [
+            "ausverkauft"
+          ],
+          "11": [
+            "funktioniert"
+          ],
+          "12": [
+            "besetzt"
+          ],
+          "13": [
+            "untergestellt"
+          ],
+          "14": [
+            "gewartet"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir {1} die Tickets rechtzeitig kaufen. (must)\n2. {2} du mir sagen, wann die Anstoßzeit ist? (could — können)\n3. Ich {3} schon die Tickets bestellt. (have — Perfekt)\n4. Unsere Plätze sind mitten im {4}. (fan section)\n5. Die {5} ist um 15:30 Uhr. (kickoff time)\n6. Wir haben {6} gekauft. (standing spots)\n7. Während der {7} kaufen wir uns etwas zu essen. (halftime break)\n8. Nach neunzig Minuten endete das Spiel mit einem {8}. (draw)\n9. Vor dem Stadion gibt es eine strenge {9}. (entry check)\n10. Die Tickets waren leider schon {10}. (sold out — Partizip)\n11. Das digitale Ticket hat beim Einlass nicht {11}. (worked — Partizip)\n12. Der Platz war schon {12}. (occupied)\n13. Wir haben uns bei Regen {13}. (took shelter — Partizip)\n14. Am Ausgang haben wir geduldig {14}. (waited — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-68-fussballspiel-stadion-a2",
+  "intro": "Ein Stadionbesuch braucht ein bisschen Planung: rechtzeitig Tickets kaufen, die Anstoßzeit im Blick behalten, sich für Stehplatz oder Sitzplatz entscheiden — und ruhig bleiben, falls das Ticket beim Einlass mal nicht funktioniert. Dieses Set übt genau das: Tickets besorgen, durch die Einlasskontrolle gehen, die Mannschaft anfeuern, und was zu tun ist, wenn beim Stadionbesuch etwas schiefgeht. Grammatik nach Bedarf: Perfekt im Bericht, höfliche Fragen, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/68-fussballspiel-stadion-a2",
+  "level": "A2",
+  "summary": "Tickets kaufen, zwischen Stehplatz und Sitzplatz wählen, die Mannschaft anfeuern — und was tun, wenn das Ticket beim Einlass nicht funktioniert oder der Platz besetzt ist.",
+  "title": "Ein Fußballspiel im Stadion — A2",
+  "topic": "Ein Fußballspiel im Stadion"
+}

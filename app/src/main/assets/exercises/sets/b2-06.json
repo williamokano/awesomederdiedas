@@ -1,0 +1,1430 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "objektiv (Pflicht)"
+              },
+              {
+                "key": "b",
+                "text": "subjektiv (Vermutung)"
+              }
+            ],
+            "q": "Er muss jeden Tag um 6 Uhr aufstehen.",
+            "why": "Handlungsverb aufstehen + Pflicht → objektiv."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "objektiv (Pflicht)"
+              },
+              {
+                "key": "b",
+                "text": "subjektiv (Vermutung)"
+              }
+            ],
+            "q": "Bei dem Licht muss er zu Hause sein.",
+            "why": "Zustand (zu Hause sein) + Schluss aus Indizien → subjektiv."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "objektiv (Erlaubnis/Verbot)"
+              },
+              {
+                "key": "b",
+                "text": "subjektiv (Vermutung)"
+              }
+            ],
+            "q": "Du darfst hier nicht rauchen.",
+            "why": "Verbot → objektiv."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "objektiv (Erlaubnis)"
+              },
+              {
+                "key": "b",
+                "text": "subjektiv (Vermutung)"
+              }
+            ],
+            "q": "Sie dürfte um die vierzig sein.",
+            "why": "dürfte (Konj. II) + Schätzung → subjektiv."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "objektiv (Wunsch/Absicht)"
+              },
+              {
+                "key": "b",
+                "text": "subjektiv (Selbstbehauptung)"
+              }
+            ],
+            "q": "Er will ein neues Auto kaufen.",
+            "why": "Absicht/Wunsch + Handlungsverb kaufen → objektiv."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "objektiv (Wunsch/Absicht)"
+              },
+              {
+                "key": "b",
+                "text": "subjektiv (Selbstbehauptung)"
+              }
+            ],
+            "q": "Er will den Minister persönlich kennen.",
+            "why": "Behauptung über sich selbst (kennen = Zustand) → subjektiv."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A1",
+      "instructions": "Bestimme, ob das Modalverb objektiv (Tatsache) oder subjektiv (Vermutung/Einschätzung) gemeint ist. 6 Items.",
+      "title": "Objektiv oder subjektiv?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "kann nicht"
+          ],
+          "3": [
+            "dürfte"
+          ],
+          "4": [
+            "könnte"
+          ],
+          "5": [
+            "muss"
+          ],
+          "6": [
+            "kann nicht"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das Licht brennt und das Auto steht da — er {1} zu Hause sein. (fast sicher)\n2. Ich habe ihn gerade in Berlin gesehen — er {2} gleichzeitig in München sein. (ausgeschlossen)\n3. Das Paket ist schon unterwegs — es {3} morgen ankommen. (wahrscheinlich)\n4. Vielleicht hat er den Termin vergessen — das {4} sein. (möglich)\n5. Bei dem Stau {5} sie sich verspäten, anders geht es nicht. (fast sicher)\n6. Sie ist erst 25 — sie {6} schon Professorin sein. (ausgeschlossen)\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Setz das passende Modalverb ein (muss / dürfte / könnte / kann nicht). 6 Items.",
+      "title": "Sicherheitsskala einsetzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "soll"
+              },
+              {
+                "key": "b",
+                "text": "will"
+              }
+            ],
+            "q": "(Man sagt es:) Das neue Restaurant ____ ausgezeichnet sein.",
+            "why": "Gerücht / man sagt → sollen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "soll"
+              },
+              {
+                "key": "b",
+                "text": "will"
+              }
+            ],
+            "q": "(Er sagt von sich:) Der Zeuge ____ alles genau gesehen haben.",
+            "why": "Selbstbehauptung → wollen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "soll"
+              },
+              {
+                "key": "b",
+                "text": "will"
+              }
+            ],
+            "q": "(Man sagt es:) Die Firma ____ bald schließen.",
+            "why": "Gerücht → sollen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "soll"
+              },
+              {
+                "key": "b",
+                "text": "will"
+              }
+            ],
+            "q": "(Sie sagt von sich:) Sie ____ von nichts gewusst haben.",
+            "why": "Selbstbehauptung → wollen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "soll"
+              },
+              {
+                "key": "b",
+                "text": "will"
+              }
+            ],
+            "q": "(Die Leute erzählen:) Er ____ sehr reich sein.",
+            "why": "Hörensagen → sollen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "soll"
+              },
+              {
+                "key": "b",
+                "text": "will"
+              }
+            ],
+            "q": "(Er behauptet selbst:) Er ____ den Star persönlich kennen.",
+            "why": "Behauptung über sich selbst → wollen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A3",
+      "instructions": "Gerücht (man sagt) → sollen. Selbstbehauptung (er/sie sagt von sich) → wollen. Wähle die richtige Form. 6 Items.",
+      "title": "sollen oder wollen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "gewesen sein"
+          ],
+          "2": [
+            "vergessen haben"
+          ],
+          "3": [
+            "gewesen sein"
+          ],
+          "4": [
+            "gesehen haben"
+          ],
+          "5": [
+            "gewesen sein"
+          ],
+          "6": [
+            "gereist sein"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Er muss reich sein. → Er muss reich {1}. (sein)\n2. Sie dürfte den Termin vergessen. → Sie dürfte den Termin {2}. (vergessen)\n3. Er soll dort sein. → Er soll dort {3}.\n4. Er will alles sehen. → Er will alles {4}.\n5. Das kann ein Irrtum sein. → Das kann ein Irrtum {5}.\n6. Sie soll viel reisen. → Sie soll viel {6}.\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Setz die Vermutung in die Vergangenheit. Schreib das zweite Verb als Infinitiv Perfekt (Partizip II + sein/haben). 6 Items.",
+      "title": "Gegenwart → Vergangenheit (Infinitiv Perfekt)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "gegangen sein"
+          ],
+          "2": [
+            "verloren haben"
+          ],
+          "3": [
+            "gegangen sein"
+          ],
+          "4": [
+            "genommen haben"
+          ],
+          "5": [
+            "gelebt haben"
+          ],
+          "6": [
+            "geschlafen haben"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Bei dem Wetter kann er nicht zu Fuß {1} (gehen).\n2. Sie dürfte den Schlüssel {2} (verlieren).\n3. Er muss schon früher {3} (gehen), niemand hat ihn gesehen.\n4. Angeblich soll der Manager das Geld selbst {4} (nehmen).\n5. Sie soll früher in Paris {5} (leben).\n6. Bei dem Lärm kann sie unmöglich {6} (schlafen).\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Ergänze den Infinitiv Perfekt mit dem richtigen Hilfsverb (sein oder haben). 6 Items.",
+      "title": "sein oder haben im Infinitiv Perfekt?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Das muss stimmen."
+          },
+          {
+            "key": "2",
+            "text": "Das dürfte stimmen."
+          },
+          {
+            "key": "3",
+            "text": "Das könnte stimmen."
+          },
+          {
+            "key": "4",
+            "text": "Das kann nicht stimmen."
+          },
+          {
+            "key": "5",
+            "text": "Das mag stimmen, aber …"
+          },
+          {
+            "key": "6",
+            "text": "Das müsste eigentlich stimmen."
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "fast sicher (≈ 95 %)"
+          },
+          {
+            "key": "b",
+            "text": "wahrscheinlich (≈ 75 %)"
+          },
+          {
+            "key": "c",
+            "text": "möglich (≈ 50 %)"
+          },
+          {
+            "key": "d",
+            "text": "ausgeschlossen"
+          },
+          {
+            "key": "e",
+            "text": "Zugeständnis mit Einwand"
+          },
+          {
+            "key": "f",
+            "text": "begründete Erwartung"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A6",
+      "instructions": "Ordne jeder Aussage (1–6) den passenden Sicherheitsgrad (a–f) zu.",
+      "title": "Sicherheitsgrad zuordnen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "mag"
+          ],
+          "2": [
+            "mag"
+          ],
+          "3": [
+            "mag"
+          ],
+          "4": [
+            "mag"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das {1} stimmen, aber es ändert nichts an der Sache.\n2. Er {2} ein Experte sein, trotzdem irrt er sich hier.\n3. Sie {3} recht haben — beweisen kann sie es aber nicht.\n4. Das Argument {4} überzeugend klingen, doch die Zahlen fehlen.\n",
+        "type": "gap-text"
+      },
+      "id": "A7",
+      "instructions": "Ergänze mit mögen (mag) und einem passenden Gegensatz mit aber/trotzdem/doch. 4 Items.",
+      "title": "mögen als Zugeständnis"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Er muss sehr reich gewesen sein.",
+            "tiles": [
+              "er",
+              "muss",
+              "sehr",
+              "reich",
+              "gewesen",
+              "sein"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Sie dürfte den Termin vergessen haben.",
+            "tiles": [
+              "sie",
+              "dürfte",
+              "den",
+              "Termin",
+              "vergessen",
+              "haben"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Der Zeuge will alles gesehen haben.",
+            "tiles": [
+              "der",
+              "Zeuge",
+              "will",
+              "alles",
+              "gesehen",
+              "haben"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Er soll früher viel gereist sein.",
+            "tiles": [
+              "er",
+              "soll",
+              "früher",
+              "viel",
+              "gereist",
+              "sein"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A8",
+      "instructions": "Ordne die Wörter zu einem korrekten Satz.",
+      "title": "Satzbau: Vermutung über die Vergangenheit"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "darf"
+          ],
+          "2": [
+            "dürfte"
+          ],
+          "3": [
+            "dürfte"
+          ],
+          "4": [
+            "dürfen"
+          ],
+          "5": [
+            "dürfte"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Du {1} hier nicht parken, das ist verboten. (Erlaubnis/Verbot)\n2. Sie {2} schon zu Hause sein, es ist spät. (Vermutung)\n3. Der Brief {3} morgen ankommen. (Vermutung)\n4. Kinder {4} diesen Film nicht sehen. (Erlaubnis/Verbot)\n5. Er {5} um die fünfzig sein, schätze ich. (Vermutung)\n",
+        "type": "gap-text"
+      },
+      "id": "A9",
+      "instructions": "Vermutung → dürfte (Konj. II). Erlaubnis → darf. Setz die richtige Form ein. 5 Items.",
+      "title": "dürfte vs. darf"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "soll"
+          ],
+          "3": [
+            "will"
+          ],
+          "4": [
+            "könnte"
+          ],
+          "5": [
+            "kann nicht"
+          ],
+          "6": [
+            "dürfte"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Alles spricht dafür: Sie {1} die neue Chefin sein. (fast sicher)\n2. Man erzählt sich, er {2} im Lotto gewonnen haben. (Gerücht, Vergangenheit)\n3. Er behauptet, er {3} den Unfall gesehen haben. (Selbstbehauptung, Vergangenheit)\n4. Vielleicht ist es ein Missverständnis — das {4} sein. (möglich)\n5. Ich habe ihn gerade gesehen, er {5} schon weg sein. (ausgeschlossen)\n6. Das Paket ist unterwegs, es {6} bald da sein. (wahrscheinlich)\n",
+        "type": "gap-text"
+      },
+      "id": "A10",
+      "instructions": "Wähle muss / dürfte / könnte / kann nicht / soll / will je nach Kontext in Klammern. 6 Items.",
+      "title": "Modalverb passend zum Sicherheitsgrad"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "könnte"
+          ],
+          "3": [
+            "soll"
+          ],
+          "4": [
+            "will"
+          ],
+          "5": [
+            "mag"
+          ],
+          "6": [
+            "muss"
+          ],
+          "7": [
+            "könnte"
+          ],
+          "8": [
+            "sollten"
+          ]
+        },
+        "bank": [
+          "muss",
+          "könnte",
+          "soll",
+          "will",
+          "mag",
+          "muss",
+          "könnte",
+          "sollten",
+          "dürfte",
+          "darf"
+        ],
+        "text": "— Hast du die neue Kollegin gesehen? Die {1} eine echte Expertin sein, so sicher wie sie auftritt.\n— Vorsicht, das ist nur dein Eindruck. Sie {2} auch einfach selbstbewusst sein, das heißt noch nichts.\n— Man sagt, sie {3} früher bei Google gearbeitet haben.\n— „Man sagt\" — wer denn? Sie selbst {4} bei drei großen Firmen gewesen sein, behauptet sie zumindest.\n— Na ja, das {5} ja stimmen, aber überprüft hat es niemand.\n— Genau. Bei der Lücke im Lebenslauf {6} etwas passiert sein, das sie verschweigt.\n— Oder sie {7} im Ausland gewesen sein. Das steht oft nicht im CV.\n— Du hast recht, wir {8} sie einfach fragen, statt zu raten.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit dem passenden Modalverb. Zwei Wörter werden nicht gebraucht.",
+      "title": "Dialog ergänzen: Wer ist die neue Kollegin?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Er soll reich sein."
+          },
+          {
+            "key": "2",
+            "text": "Er will reich sein."
+          },
+          {
+            "key": "3",
+            "text": "Er muss reich sein."
+          },
+          {
+            "key": "4",
+            "text": "Er dürfte reich sein."
+          },
+          {
+            "key": "5",
+            "text": "Er kann nicht reich sein."
+          },
+          {
+            "key": "6",
+            "text": "Er mag reich sein, aber …"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Man sagt es (Gerücht)."
+          },
+          {
+            "key": "b",
+            "text": "Er behauptet es selbst (mit Zweifel)."
+          },
+          {
+            "key": "c",
+            "text": "Der Sprecher ist fast sicher."
+          },
+          {
+            "key": "d",
+            "text": "Der Sprecher hält es für wahrscheinlich."
+          },
+          {
+            "key": "e",
+            "text": "Der Sprecher schließt es aus."
+          },
+          {
+            "key": "f",
+            "text": "Der Sprecher gibt es zu, hat aber einen Einwand."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B5",
+      "instructions": "Ordne jeder Modalverb-Aussage (1–6) die richtige Bedeutung (a–f) zu.",
+      "title": "Aussage und Bedeutung verbinden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Das könnte ein Missverständnis sein.",
+            "tiles": [
+              "das",
+              "könnte",
+              "ein",
+              "Missverständnis",
+              "sein"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Ich glaube, dass er reich sein muss.",
+            "tiles": [
+              "ich",
+              "glaube",
+              "dass",
+              "er",
+              "reich",
+              "sein",
+              "muss"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Angeblich soll die Firma bald schließen.",
+            "tiles": [
+              "angeblich",
+              "soll",
+              "die",
+              "Firma",
+              "bald",
+              "schließen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Er will den Minister persönlich kennen.",
+            "tiles": [
+              "er",
+              "will",
+              "den",
+              "Minister",
+              "persönlich",
+              "kennen"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B6",
+      "instructions": "Ordne die Wörter zu einem korrekten Satz.",
+      "title": "Satzbau: subjektive Modalverben im Nebensatz und Hauptsatz"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "gegangen sein"
+          ],
+          "3": [
+            "will"
+          ],
+          "4": [
+            "gelesen haben"
+          ],
+          "5": [
+            "dürfte"
+          ],
+          "6": [
+            "gewartet haben"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. (objektiv) Er musste gehen. → (Vermutung) Er {1} schon {2} (gehen).\n2. (objektiv) Sie wollte das Buch lesen. → (Selbstbehauptung) Sie {3} das Buch {4} (lesen).\n3. (objektiv) Wir mussten lange warten. → (Vermutung) Sie {5} lange {6} (warten).\n",
+        "type": "gap-text"
+      },
+      "id": "B7",
+      "instructions": "Achtung: Hier sollen Vermutungen entstehen, keine Pflichten/Absichten. Setz das Modalverb ins Präsens und bilde den Infinitiv Perfekt. 3 Sätze (je 2 Lücken).",
+      "title": "Vom Präteritum (objektiv) zum Infinitiv Perfekt (subjektiv)"
+    },
+    {
+      "block": "B",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "muss",
+              "dürfte",
+              "könnte",
+              "darf"
+            ],
+            "odd": 3,
+            "why": "darf drückt Erlaubnis aus (objektiv); die anderen sind subjektive Vermutungsformen."
+          },
+          {
+            "items": [
+              "Gerücht",
+              "Vermutung",
+              "Beweis",
+              "Spekulation"
+            ],
+            "odd": 2,
+            "why": "Beweis ist gesicherte Information; die anderen sind ungesicherte Annahmen/Gerüchte."
+          },
+          {
+            "items": [
+              "angeblich",
+              "vermutlich",
+              "sicher",
+              "offenbar"
+            ],
+            "odd": 2,
+            "why": "sicher drückt Gewissheit aus; die anderen sind Unsicherheits-Adverbien."
+          },
+          {
+            "items": [
+              "skeptisch",
+              "misstrauisch",
+              "zweifelnd",
+              "glaubwürdig"
+            ],
+            "odd": 3,
+            "why": "glaubwürdig beschreibt vertrauenswürdige Information; die anderen beschreiben eine zweifelnde Haltung."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "B8",
+      "instructions": "Streich das Wort, das nicht in die Reihe passt, und erklär warum.",
+      "title": "Was passt nicht?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "dürfte"
+          ],
+          "2": [
+            "soll"
+          ],
+          "3": [
+            "soll"
+          ],
+          "4": [
+            "wiedergegeben"
+          ],
+          "5": [
+            "will"
+          ],
+          "6": [
+            "hält"
+          ],
+          "7": [
+            "Aussage"
+          ],
+          "8": [
+            "muss"
+          ],
+          "9": [
+            "könnte"
+          ],
+          "10": [
+            "Vermuten"
+          ]
+        },
+        "listLayout": true,
+        "text": "Gute Sprecher behaupten selten etwas mit absoluter Sicherheit. Sie sagen\nnicht „Der Plan ist gescheitert\", sondern „Der Plan (1) {1} gescheitert\nsein\" — eine begründete Vermutung. Im Journalismus schreibt eine seriöse\nZeitung: „Der Politiker (2) {2} Gelder angenommen haben.\" Das Wort\n(3) {3} macht klar: Hier wird ein Vorwurf (4) {4} (wiedergeben),\nnicht bewiesen. Behauptet der Politiker selbst, er habe nie Geld genommen,\nheißt es: „Er (5) {5} von nichts gewusst haben.\" Auch hier (6) {6}\nsich die Zeitung zurück und distanziert sich von der (7) {7}. Im Alltag\ngilt dasselbe: Wenn dein Kollege fehlt, (8) {8} er nicht gleich krank\nsein — er (9) {9} auch im Stau stecken. Wer seine Modalverben sorgfältig\nwählt, versteht den Unterschied zwischen Wissen und (10) {10}.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Fülle jede Lücke mit einem Wort. 10 Items.",
+      "title": "Lückentext: Die Kunst der vorsichtigen Vermutung"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "muss"
+              },
+              {
+                "key": "b",
+                "text": "musste"
+              },
+              {
+                "key": "c",
+                "text": "müsste zu"
+              }
+            ],
+            "q": "Bei dem Licht (1) ____ er zu Hause sein.",
+            "why": "Vermutung in der Gegenwart → muss + Infinitiv ohne zu; „musste\" wäre objektiv (Pflicht)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "will"
+              },
+              {
+                "key": "b",
+                "text": "soll"
+              },
+              {
+                "key": "c",
+                "text": "darf"
+              }
+            ],
+            "q": "Man erzählt sich, er (2) ____ im Lotto gewonnen haben.",
+            "why": "Gerücht (man erzählt) → sollen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "soll"
+              },
+              {
+                "key": "b",
+                "text": "muss"
+              },
+              {
+                "key": "c",
+                "text": "will"
+              }
+            ],
+            "q": "Er behauptet, er (3) ____ den Unfall gesehen haben.",
+            "why": "Selbstbehauptung (er behauptet von sich) → wollen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "kann nicht"
+              },
+              {
+                "key": "b",
+                "text": "muss"
+              },
+              {
+                "key": "c",
+                "text": "dürfte"
+              }
+            ],
+            "q": "Ich habe ihn gerade gesehen — er (4) ____ schon weg sein.",
+            "why": "ausgeschlossen → kann nicht."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "dürfte"
+              },
+              {
+                "key": "b",
+                "text": "darf"
+              },
+              {
+                "key": "c",
+                "text": "muss nicht"
+              }
+            ],
+            "q": "Das Paket ist unterwegs, es (5) ____ morgen ankommen.",
+            "why": "wahrscheinlich → dürfte (Konj. II); „darf\" wäre Erlaubnis."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "muss"
+              },
+              {
+                "key": "b",
+                "text": "mag"
+              },
+              {
+                "key": "c",
+                "text": "soll"
+              }
+            ],
+            "q": "Das (6) ____ stimmen, aber beweisen kann er es nicht.",
+            "why": "Zugeständnis mit Einwand (aber) → mögen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle die richtige Option (a, b oder c) für jede Lücke.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "MUSS"
+          ],
+          "2": [
+            "KANN"
+          ],
+          "3": [
+            "KÖNNTE"
+          ],
+          "4": [
+            "SOLL"
+          ],
+          "5": [
+            "MAG"
+          ],
+          "6": [
+            "KANN"
+          ],
+          "7": [
+            "WAR"
+          ],
+          "8": [
+            "WILL"
+          ],
+          "9": [
+            "WUSSTEN"
+          ],
+          "10": [
+            "SIND"
+          ]
+        },
+        "bank": [
+          "MUSS",
+          "KANN",
+          "KANN",
+          "KÖNNTE",
+          "SOLL",
+          "MAG",
+          "WAR",
+          "WILL",
+          "WUSSTEN",
+          "SIND",
+          "DARF",
+          "DÜRFTE",
+          "SOLLTE",
+          "WOLLTE",
+          "HATTE"
+        ],
+        "text": "Anna und Bruno betrachteten ein altes Foto. „Der Mann {1} reich\ngewesen sein\", sagte Anna. „Anders {2} man sich die Villa nicht\nerklären.\" Bruno blieb skeptisch: „Er {3} das Haus auch nur gemietet\nhaben.\" Auf der Rückseite stand eine Notiz. „Angeblich {4} dieser\nHerr ein Geschäftsmann gewesen sein\", las Bruno, „zumindest behauptet das\nder Verkäufer.\" Anna überlegte: „Er {5} ein Geschäftsmann gewesen\nsein, das schließe ich nicht aus. Aber er {6} nicht der Besitzer\ngewesen sein — seine Kleidung ist zu einfach.\" Bruno nickte: „Vermutlich\n{7} er nur ein Angestellter. Der Verkäufer {8} uns alles\nMögliche erzählen, um das Foto teuer zu verkaufen.\" Sicher {9} sie\nes nicht. „Egal\", sagte Anna, „die Geschichten, die wir uns ausdenken,\n{10} oft interessanter als die Wahrheit.\"\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Fünf Wörter werden nicht gebraucht.",
+      "title": "Sprachbausteine Teil 2 (Wortbank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Gute Sprecher behaupten meist alles mit absoluter Sicherheit.",
+            "why": "„Gute Sprecher behaupten selten etwas mit absoluter Sicherheit\"."
+          },
+          {
+            "answer": true,
+            "q": "Das Wort „soll\" zeigt, dass ein Vorwurf nur wiedergegeben, nicht bewiesen wird.",
+            "why": "„Das kleine Wort soll macht klar: Hier wird ein Vorwurf wiedergegeben, nicht bewiesen\"."
+          },
+          {
+            "answer": false,
+            "q": "Wenn jemand sagt „Er will von nichts gewusst haben\", gibt er ein Gerücht anderer wieder.",
+            "why": "wollen = Selbstbehauptung; der Politiker behauptet das selbst."
+          },
+          {
+            "answer": false,
+            "q": "Laut Text liegt richtig, wer beim Fehlen eines Kollegen vorschnell auf Krankheit schließt.",
+            "why": "„Wer vorschnell urteilt, liegt oft falsch\" — der Kollege könnte auch im Stau stecken."
+          },
+          {
+            "answer": true,
+            "q": "Der Text sieht vorsichtige Vermutungen als Zeichen von Reife.",
+            "why": "„Diese Vorsicht ist kein Zeichen von Schwäche, sondern von Reife\"."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Wer Nachrichten liest oder einer Diskussion folgt, merkt schnell: Gute Sprecher behaupten selten etwas mit absoluter Sicherheit. Stattdessen stufen sie ihre Aussagen ab. Sie sagen nicht „Der Plan ist gescheitert\", sondern „Der Plan **dürfte** gescheitert sein\" — und signalisieren damit, dass sie zwar eine begründete Vermutung haben, aber keinen endgültigen Beweis. Diese Vorsicht ist kein Zeichen von Schwäche, sondern von Reife.\n> Besonders deutlich wird das im Journalismus. Eine seriöse Zeitung schreibt: „Der Politiker **soll** Gelder angenommen haben.\" Das kleine Wort *soll* macht klar: Hier wird ein Vorwurf wiedergegeben, nicht bewiesen. Behauptet der Politiker selbst, er habe nie Geld genommen, heißt es: „Er **will** von nichts gewusst haben.\" Auch hier hält sich die Zeitung vornehm zurück — sie referiert nur seine Aussage und distanziert sich leise davon.\n> Auch über die Vergangenheit lässt sich vorsichtig urteilen. Statt „Sie hat den Termin vergessen\" sagt der reife Sprecher „Sie **dürfte** den Termin **vergessen haben**\" — er räumt ein, dass er sich irren könnte. Und wer ein Gerücht weitergibt, kennzeichnet es als solches: „Der Manager **soll** das Geld selbst **genommen haben**\", nicht „Der Manager hat das Geld genommen\". Der kleine Unterschied entscheidet darüber, ob man eine Tatsache behauptet oder nur eine Möglichkeit andeutet.\n> Im Alltag funktioniert dieselbe Logik. Wenn dein Kollege schon wieder fehlt, **muss** er nicht gleich krank sein — er **könnte** auch im Stau stecken. Wer vorschnell urteilt, liegt oft falsch. Wer dagegen seine Modalverben sorgfältig wählt, zeigt, dass er den Unterschied zwischen *Wissen* und *Vermuten* verstanden hat. Und genau das **dürfte** in jeder ernsthaften Diskussion mehr wert sein als die lauteste Behauptung.\n\nRichtig (R) oder falsch (F)?\n",
+      "title": "Lesen Text 1 (Die Kunst der vorsichtigen Vermutung)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Von den Stars selbst."
+              },
+              {
+                "key": "b",
+                "text": "Von einem Boulevardblatt mit anonymer Quelle."
+              },
+              {
+                "key": "c",
+                "text": "Von der Polizei."
+              }
+            ],
+            "q": "Woher stammt die Information über die Trennung?",
+            "why": "„das berichtet zumindest ein Boulevardblatt unter Berufung auf eine anonyme Quelle\"."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es bestätigt die Trennung."
+              },
+              {
+                "key": "b",
+                "text": "Es schweigt."
+              },
+              {
+                "key": "c",
+                "text": "Es dementiert die Gerüchte entschieden."
+              }
+            ],
+            "q": "Wie reagiert das Management der Stars?",
+            "why": "„Das Management der Stars dementiert die Gerüchte allerdings entschieden\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie will von einer Trennung nichts wissen."
+              },
+              {
+                "key": "b",
+                "text": "Sie bestätigt die Trennung."
+              },
+              {
+                "key": "c",
+                "text": "Sie ist im Ausland."
+              }
+            ],
+            "q": "Was sagt die Schauspielerin selbst?",
+            "why": "„Die Schauspielerin will von einer Trennung nichts wissen\" — Selbstbehauptung mit wollen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er muss in der Stadt sein."
+              },
+              {
+                "key": "b",
+                "text": "Er dürfte derzeit im Ausland sein."
+              },
+              {
+                "key": "c",
+                "text": "Er soll im Krankenhaus sein."
+              }
+            ],
+            "q": "Was vermutet der Sprecher über den Partner?",
+            "why": "„Ihr Partner dürfte derzeit ohnehin im Ausland sein\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "> Und nun zu den Klatschnachrichten des Tages. Ein bekanntes Schauspielerpaar\n> soll sich angeblich getrennt haben — das berichtet zumindest ein Boulevardblatt\n> unter Berufung auf eine anonyme Quelle. Die beiden sollen seit Wochen getrennt\n> wohnen. Das Management der Stars dementiert die Gerüchte allerdings entschieden:\n> Die Schauspielerin will von einer Trennung nichts wissen und spricht von reiner\n> Spekulation. Ihr Partner dürfte derzeit ohnehin im Ausland sein, wo er einen\n> Film dreht.\n\nWähle a, b oder c.\n",
+      "title": "Lesen Text 2 (Radiomeldung)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "dürfte"
+          ],
+          "3": [
+            "kann nicht"
+          ],
+          "4": [
+            "soll"
+          ],
+          "5": [
+            "will"
+          ],
+          "6": [
+            "gewesen sein"
+          ],
+          "7": [
+            "vergessen haben"
+          ],
+          "8": [
+            "muss"
+          ],
+          "9": [
+            "gegangen sein"
+          ],
+          "10": [
+            "gesehen haben"
+          ],
+          "11": [
+            "mag"
+          ],
+          "12": [
+            "darfst"
+          ],
+          "13": [
+            "könnte"
+          ],
+          "14": [
+            "Er muss reich gewesen sein."
+          ],
+          "15": [
+            "Sie soll viel gereist sein."
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Vermutung „fast sicher\": Er {1} reich sein.\n2. Vermutung „wahrscheinlich\": Sie {2} schon da sein.\n3. „ausgeschlossen\": Das {3} stimmen. (zwei Wörter)\n4. Gerücht: Er {4} reich sein. (man sagt)\n5. Selbstbehauptung: Er {5} alles gesehen haben. (er sagt von sich)\n6. Vergangenheit von „Er muss reich sein\": Er muss reich {6}.\n7. Vergangenheit von „Sie dürfte es vergessen\": Sie dürfte es {7}.\n8. (B1/07) Objektiv: Pflicht, Präsens, ich-Form von müssen: Ich {8} arbeiten.\n9. (B2/03) Infinitiv Perfekt von „gehen\": {9}\n10. (B2/03) Infinitiv Perfekt von „sehen\": {10}\n11. Zugeständnis: Das {11} stimmen, aber …\n12. (B1/07) Objektiv: Erlaubnis, du-Form von dürfen: Du {12} gehen.\n13. „möglich\": Das {13} ein Irrtum sein.\n14. Übersetze: „He must have been rich.\" → {14}\n15. Übersetze: „She is said to have travelled a lot.\" → {15}\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Eine Minute pro Item. Keine Notizen. Items mit (L<n>) wiederholen eine frühere Lektion. 15 Items.",
+      "title": "Gemischter Schnelltest"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "muss",
+              "dürfte",
+              "könnte",
+              "darf"
+            ],
+            "odd": 3,
+            "why": "darf = Erlaubnis (objektiv); die anderen sind subjektive Vermutungsformen."
+          },
+          {
+            "items": [
+              "soll",
+              "will",
+              "mag",
+              "musste"
+            ],
+            "odd": 3,
+            "why": "musste ist Präteritum (objektiv: Pflicht); die anderen sind subjektive Modalverben im Präsens."
+          },
+          {
+            "items": [
+              "Gerücht",
+              "Behauptung",
+              "Spekulation",
+              "Beweis"
+            ],
+            "odd": 3,
+            "why": "Beweis ist gesichert; die anderen sind ungeprüfte Aussagen."
+          },
+          {
+            "items": [
+              "angeblich",
+              "vermutlich",
+              "offenbar",
+              "bestimmt"
+            ],
+            "odd": 3,
+            "why": "bestimmt drückt Gewissheit aus; die anderen markieren Unsicherheit."
+          },
+          {
+            "items": [
+              "gewesen sein",
+              "gegangen sein",
+              "gesehen haben",
+              "musste gehen"
+            ],
+            "odd": 3,
+            "why": "„musste gehen\" ist objektives Präteritum; die anderen sind Infinitiv-Perfekt-Formen für subjektive Vermutungen."
+          },
+          {
+            "items": [
+              "skeptisch",
+              "misstrauisch",
+              "zweifelnd",
+              "glaubwürdig"
+            ],
+            "odd": 3,
+            "why": "glaubwürdig = vertrauenswürdig; die anderen beschreiben eine zweifelnde Haltung."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Streich das Wort, das nicht passt, und erklär warum.",
+      "title": "Odd one out"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "kann"
+          ],
+          "3": [
+            "darf"
+          ],
+          "4": [
+            "gekommen sein"
+          ],
+          "5": [
+            "gemacht haben"
+          ],
+          "6": [
+            "hätte"
+          ],
+          "7": [
+            "wäre"
+          ],
+          "8": [
+            "soll"
+          ],
+          "9": [
+            "will"
+          ],
+          "10": [
+            "habe"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Aus B1/07 (objektive Modalverben):**\n1. Pflicht: „Ich {1} (müssen) heute lange arbeiten.\"\n2. Fähigkeit: „Sie {2} (können) sehr gut Deutsch.\"\n3. Erlaubnis: „Hier {3} (dürfen) man nicht rauchen.\"\n\n**Aus B2/03 (Infinitiv Perfekt / Konjunktiv II der Vergangenheit):**\n4. Infinitiv Perfekt von „kommen\": {4}\n5. Infinitiv Perfekt von „machen\": {5}\n6. Konj. II Vergangenheit: „Ich {6} (haben) das nicht gemacht.\"\n7. Konj. II Vergangenheit: „Sie {7} (sein) früher gegangen.\"\n\n**Aus B2/04 (indirekte Rede mit sollen/wollen — Abgrenzung):**\n8. Gerücht (man sagt): Er {8} im Ausland sein.\n9. Selbstbehauptung (er sagt von sich): Er {9} alles gewusst haben.\n10. Indirekte Rede, Konjunktiv I von „haben\", er-Form: Er sagt, er {10} kein Geld.\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Wiederholung früherer Lektionen. 10 Items.",
+      "title": "Rückblick: B1/07, B2/03, B2/04"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "dürfte"
+          ],
+          "3": [
+            "könnte"
+          ],
+          "4": [
+            "kann nicht"
+          ],
+          "5": [
+            "soll"
+          ],
+          "6": [
+            "will"
+          ],
+          "7": [
+            "mag"
+          ],
+          "8": [
+            "gewesen sein"
+          ],
+          "9": [
+            "gereist sein"
+          ],
+          "10": [
+            "gekannt haben"
+          ],
+          "11": [
+            "musste"
+          ],
+          "12": [
+            "muss"
+          ],
+          "13": [
+            "dürfte"
+          ],
+          "14": [
+            "darfst"
+          ],
+          "15": [
+            "Er muss den Termin vergessen haben."
+          ],
+          "16": [
+            "Sie soll in Paris gelebt haben."
+          ],
+          "17": [
+            "Er will alles gesehen haben."
+          ],
+          "18": [
+            "Vermutung"
+          ],
+          "19": [
+            "Behauptung"
+          ],
+          "20": [
+            "geblieben sein"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Sicherheitsskala — setz das Modalverb ein:**\n1. „fast sicher\": Er {1} der Chef sein.\n2. „wahrscheinlich\": Sie {2} um die vierzig sein.\n3. „möglich\": Das {3} ein Missverständnis sein.\n4. „ausgeschlossen\": Das {4} wahr sein. (zwei Wörter)\n\n**sollen / wollen / mögen:**\n5. Gerücht: Er {5} sehr reich sein.\n6. Selbstbehauptung: Sie {6} den Star kennen.\n7. Zugeständnis: Das {7} stimmen, aber …\n\n**Vergangenheit (Infinitiv Perfekt):**\n8. „Er muss reich sein.\" → Er muss reich {8}.\n9. „Sie soll viel reisen.\" → Sie soll viel {9}.\n10. „Er will den Star kennen.\" → Er will den Star {10}.\n\n**Kontrast objektiv/subjektiv:**\n11. Objektiv (Pflicht, Präteritum): „Er {11} (müssen) gestern arbeiten.\"\n12. Subjektiv (Vermutung, Vergangenheit): „Er {12} gestern gearbeitet haben.\" (fast sicher)\n\n**dürfte vs. darf:**\n13. Vermutung: „Der Brief {13} morgen kommen.\"\n14. Erlaubnis: „Du {14} jetzt gehen.\"\n\n**Übersetzen:**\n15. „He must have forgotten the appointment.\" → {15}\n16. „She is said to have lived in Paris.\" → {16}\n17. „He claims to have seen everything.\" → {17}\n\n**Wortschatz:**\n18. Nomen zu „vermuten\": die {18}\n19. Nomen zu „behaupten\": die {19}\n20. (B2/03) Infinitiv Perfekt von „bleiben\": {20}\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (bewerte dich /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "b2-06",
+  "intro": "Blöcke: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Lösungen in solutions.md. Tipp: Verteil die Blöcke über mehrere Tage — H und A an Tag 1, B an Tag 2, C an Tag 3, D an Tag 4 nach einer Pause.\n",
+  "lesson": "B2/06",
+  "level": "B2",
+  "summary": null,
+  "title": "B2 · Lektion 6 — Übungen (Modalverben: subjektive Bedeutung)",
+  "topic": null
+}

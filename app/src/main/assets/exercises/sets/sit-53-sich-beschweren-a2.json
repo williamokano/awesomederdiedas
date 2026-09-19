@@ -1,0 +1,828 @@
+{
+  "category": "Soziales",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "beschreiben",
+            "label": "Sachlich beschreiben"
+          },
+          {
+            "key": "gefuehl",
+            "label": "Gefühl ausdrücken"
+          },
+          {
+            "key": "bitte",
+            "label": "Bitte formulieren"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "beschreiben",
+            "text": "Ich habe vor zwei Tagen dieses Gerät gekauft."
+          },
+          {
+            "bucket": "gefuehl",
+            "text": "Das ärgert mich ein bisschen."
+          },
+          {
+            "bucket": "bitte",
+            "text": "Könnten Sie das bitte prüfen?"
+          },
+          {
+            "bucket": "beschreiben",
+            "text": "Seit letzter Woche höre ich abends laute Musik."
+          },
+          {
+            "bucket": "gefuehl",
+            "text": "Das macht mir das Einschlafen schwer."
+          },
+          {
+            "bucket": "bitte",
+            "text": "Wäre es möglich, nach 22 Uhr leiser zu sein?"
+          },
+          {
+            "bucket": "beschreiben",
+            "text": "Die Rechnung stimmt nicht mit meiner Bestellung überein."
+          },
+          {
+            "bucket": "gefuehl",
+            "text": "Das verunsichert mich ein wenig."
+          },
+          {
+            "bucket": "bitte",
+            "text": "Könnten Sie die Rechnung bitte korrigieren?"
+          },
+          {
+            "bucket": "beschreiben",
+            "text": "Das Paket ist beschädigt angekommen."
+          },
+          {
+            "bucket": "gefuehl",
+            "text": "Das ist wirklich schade."
+          },
+          {
+            "bucket": "bitte",
+            "text": "Wäre ein Umtausch möglich?"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Sätze nach ihrer Funktion in einer Beschwerde.",
+      "instructionsEn": "Sort the 12 sentences by their function in a complaint.",
+      "title": "Beschreiben, Gefühl oder Bitte?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Beschwerde"
+          },
+          {
+            "key": "2",
+            "text": "reklamieren"
+          },
+          {
+            "key": "3",
+            "text": "das Anliegen"
+          },
+          {
+            "key": "4",
+            "text": "die Kulanz"
+          },
+          {
+            "key": "5",
+            "text": "sachlich"
+          },
+          {
+            "key": "6",
+            "text": "der Ton"
+          },
+          {
+            "key": "7",
+            "text": "eskalieren"
+          },
+          {
+            "key": "8",
+            "text": "nachvollziehbar"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "sagen, dass etwas nicht in Ordnung ist"
+          },
+          {
+            "key": "b",
+            "text": "eine Ware wegen eines Mangels zurückbringen oder melden"
+          },
+          {
+            "key": "c",
+            "text": "das, worum es einem geht — der Grund für das Gespräch"
+          },
+          {
+            "key": "d",
+            "text": "eine freiwillige Lösung, ohne dazu verpflichtet zu sein"
+          },
+          {
+            "key": "e",
+            "text": "ruhig, bei den Fakten bleibend, nicht emotional"
+          },
+          {
+            "key": "f",
+            "text": "wie etwas klingt oder gesagt wird"
+          },
+          {
+            "key": "g",
+            "text": "sich verschlimmern, größer werden"
+          },
+          {
+            "key": "h",
+            "text": "verständlich, gut zu verstehen"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Darf"
+          ],
+          "2": [
+            "war"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Können"
+          ],
+          "5": [
+            "stört"
+          ],
+          "6": [
+            "Wäre"
+          ],
+          "7": [
+            "habe"
+          ],
+          "8": [
+            "können"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} ich kurz etwas ansprechen? (dürfen, ich-Form)\n2. Das Gerät {2} schon nach zwei Tagen kaputt. (sein, Präteritum)\n3. Ich {3} die Rechnung genau geprüft. (haben, Perfekt)\n4. {4} Sie das bitte noch einmal überprüfen? (können, Sie-Form)\n5. Das {5} mich ehrlich gesagt ein bisschen. (stören, Präsens)\n6. {6} es möglich, das zu korrigieren? (sein, Konjunktiv II — wäre)\n7. Ich {7} Verständnis für die Situation. (haben, Präsens)\n8. Wir {8} das Problem gemeinsam lösen. (Modalverb, wir-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Ein Anliegen vorbringen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Anliegen"
+          ],
+          "2": [
+            "sachlich"
+          ],
+          "3": [
+            "Kulanz"
+          ],
+          "4": [
+            "reklamieren"
+          ],
+          "5": [
+            "eskalieren"
+          ],
+          "6": [
+            "nachvollziehbar"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich möchte kurz ein {1} ansprechen. (der Grund für das Gespräch)\n2. Ich bleibe lieber {2}, statt emotional zu werden. (ruhig, bei den Fakten)\n3. Der Verkäufer hat mir aus {3} das Geld zurückgegeben. (freiwillige Lösung ohne Pflicht)\n4. Bitte {4} Sie diesen Artikel, wenn Sie einen Mangel finden. (bei einem Mangel zurückgeben)\n5. Wenn niemand reagiert, kann das Problem schnell {5}. (größer werden)\n6. Ihr Ärger ist gut {6} — das würde mich auch stören. (verständlich)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "ZEIT"
+          ],
+          "2": [
+            "MUSIK"
+          ],
+          "3": [
+            "AUFGEFALLEN"
+          ],
+          "4": [
+            "SCHWER"
+          ],
+          "5": [
+            "ABSICHT"
+          ],
+          "6": [
+            "ANSPRECHEN"
+          ],
+          "7": [
+            "MÖGLICH"
+          ],
+          "8": [
+            "SELBSTVERSTÄNDLICH"
+          ],
+          "9": [
+            "NETT"
+          ],
+          "10": [
+            "RUHIG"
+          ]
+        },
+        "bank": [
+          "ZEIT",
+          "MUSIK",
+          "AUFGEFALLEN",
+          "SCHWER",
+          "ABSICHT",
+          "ANSPRECHEN",
+          "MÖGLICH",
+          "SELBSTVERSTÄNDLICH",
+          "NETT",
+          "RUHIG",
+          "LAUT",
+          "GELD",
+          "BESCHWERDE",
+          "STREIT"
+        ],
+        "text": "— Entschuldigung, hätten Sie kurz {1}?\n— Klar, was gibt's?\n— Seit letzter Woche höre ich abends laute {2} aus Ihrer\nWohnung.\n— Oh, das ist mir gar nicht {3}.\n— Das macht mir das Einschlafen ein bisschen {4}.\n— Das tut mir leid, das war nicht meine {5}.\n— Kein Problem, ich wollte es nur kurz {6}.\n— Wäre es {7}, nach 22 Uhr etwas leiser zu sein?\n— Klar, das mache ich {8} gern.\n— Vielen Dank, das ist wirklich {9} von Ihnen.\n— Gern, und danke, dass Sie es {10} angesprochen haben.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Beim Nachbarn wegen Lärm"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Entschuldigung, ich glaube, das ist nicht, was ich bestellt habe."
+              },
+              {
+                "key": "b",
+                "text": "Das ist ja wohl nicht Ihr Ernst!"
+              },
+              {
+                "key": "c",
+                "text": "Egal, ich esse es trotzdem."
+              }
+            ],
+            "q": "Im Restaurant wurde dir das falsche Gericht gebracht. — At the restaurant, you were served the wrong dish.",
+            "why": "Ein freundlicher, sachlicher Hinweis führt am schnellsten zur Korrektur."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ihr Laden verkauft nur Schrott."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe dieses Gerät vor zwei Tagen gekauft, und es funktioniert leider nicht."
+              },
+              {
+                "key": "c",
+                "text": "Ich sage nichts und werfe es einfach weg."
+              }
+            ],
+            "q": "Du hast ein defektes Gerät gekauft und bringst es zurück. — You bought a faulty device and return it.",
+            "why": "Fakten nennen, ohne zu übertreiben, führt am ehesten zu einer Lösung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist typisch für dich, immer dasselbe."
+              },
+              {
+                "key": "b",
+                "text": "Nichts sagen und die Aufgabe einfach liegen lassen."
+              },
+              {
+                "key": "c",
+                "text": "Mir ist aufgefallen, dass ich die Info zur Aufgabe nicht bekommen habe — können wir kurz klären, wie das passiert ist?"
+              }
+            ],
+            "q": "Ein Kollege hat dir versehentlich eine wichtige Aufgabe nicht weitergegeben. — A colleague accidentally didn't pass on an important task.",
+            "why": "Den Fokus auf das Ereignis statt auf die Person zu legen wirkt konstruktiv, nicht anklagend."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Mir ist aufgefallen, dass wir uns zweimal verpasst haben — ist alles in Ordnung bei dir?"
+              },
+              {
+                "key": "b",
+                "text": "Du bist einfach unzuverlässig."
+              },
+              {
+                "key": "c",
+                "text": "Nichts mehr mit ihr verabreden."
+              }
+            ],
+            "q": "Eine Freundin hat einen Termin mit dir zweimal ohne Absage verpasst. — A friend has missed a meetup with you twice without cancelling.",
+            "why": "Eine offene, nicht anklagende Frage lässt Raum für eine ehrliche Antwort."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie wollen mich wohl betrügen."
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, ich glaube, hier stimmt etwas nicht — könnten Sie das prüfen?"
+              },
+              {
+                "key": "c",
+                "text": "Einfach zahlen, um keinen Ärger zu machen."
+              }
+            ],
+            "q": "Die Rechnung im Café stimmt nicht mit deiner Bestellung überein. — The bill at the café doesn't match your order.",
+            "why": "Ein höflicher Hinweis mit Bitte um Prüfung ist der direkte Weg zur Korrektur."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Du machst das immer falsch."
+              },
+              {
+                "key": "b",
+                "text": "Einfach schmollen, ohne etwas zu sagen."
+              },
+              {
+                "key": "c",
+                "text": "Kann ich kurz etwas ansprechen, das mich beschäftigt?"
+              }
+            ],
+            "q": "Du möchtest jemandem sagen, dass dich etwas gestört hat, ohne die Stimmung zu ruinieren. — You want to tell someone something bothered you without ruining the mood.",
+            "why": "Um Erlaubnis zu bitten, etwas anzusprechen, öffnet das Gespräch, statt es zu belasten."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Den richtigen Ton treffen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "höfliche Frage vor dem eigentlichen Anliegen",
+            "tiles": [
+              "Darf",
+              "ich",
+              "kurz",
+              "etwas",
+              "ansprechen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "sachliche Beschreibung im Präteritum",
+            "tiles": [
+              "Das",
+              "Gerät",
+              "war",
+              "schon",
+              "nach",
+              "zwei",
+              "Tagen",
+              "kaputt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Gefühl ausdrücken, moderat formuliert",
+            "tiles": [
+              "Das",
+              "stört",
+              "mich",
+              "ehrlich",
+              "gesagt",
+              "ein",
+              "bisschen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Konjunktiv-II-Bitte, Infinitiv am Ende",
+            "tiles": [
+              "Könnten",
+              "Sie",
+              "das",
+              "bitte",
+              "noch",
+              "einmal",
+              "überprüfen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Konjunktiv-II-Frage, höfliche Bitte",
+            "tiles": [
+              "Wäre",
+              "es",
+              "möglich",
+              ",",
+              "leiser",
+              "zu",
+              "sein",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Verständnis zeigen entschärft den Ton",
+            "tiles": [
+              "Ich",
+              "habe",
+              "Verständnis",
+              "für",
+              "die",
+              "Situation"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze für eine höfliche Beschwerde bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Man sollte zuerst beschreiben, dann das Gefühl nennen, dann bitten. — You should first describe, then name the feeling, then ask.",
+            "why": "So steht es ausdrücklich im Artikel."
+          },
+          {
+            "answer": false,
+            "q": "Man soll besser über die Person sprechen als über das Ereignis. — It's better to talk about the person than the event.",
+            "why": "Der Artikel rät, über das Ereignis zu sprechen, nicht über die Person."
+          },
+          {
+            "answer": false,
+            "q": "Wörter wie „immer“ oder „nie“ machen ein Gespräch klarer. — Words like 'always' or 'never' make a conversation clearer.",
+            "why": "Übertreibungen machen es emotionaler, nicht klarer."
+          },
+          {
+            "answer": true,
+            "q": "Eine konkrete Bitte am Ende ist hilfreich. — A concrete request at the end is helpful.",
+            "why": "„Eine konkrete Bitte am Ende gibt dem Gegenüber etwas, worauf es reagieren kann.“"
+          },
+          {
+            "answer": false,
+            "q": "Der Zeitpunkt für das Gespräch spielt keine Rolle. — The timing of the conversation doesn't matter.",
+            "why": "Ein ruhiger Moment wird ausdrücklich empfohlen."
+          },
+          {
+            "answer": false,
+            "q": "Nachzufragen, wenn nichts passiert, ist unhöflich. — Following up when nothing happens is impolite.",
+            "why": "Höfliches Nachfragen ist laut Artikel ausdrücklich erlaubt."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **So beschwerst du dich richtig**\n>\n> - **Erst beschreiben, dann fühlen, dann bitten:** Was ist\n>   passiert? Was macht das mit dir? Was wünschst du dir?\n> - Sprich über das **Ereignis**, nicht über die **Person** — „das\n>   hat mich gestört“ statt „du bist immer so“.\n> - **Übertreibungen** wie „immer“ oder „nie“ machen ein Gespräch\n>   schneller emotional, nicht klarer.\n> - Eine **konkrete Bitte** am Ende gibt dem Gegenüber etwas, worauf\n>   es reagieren kann.\n> - **Zeitpunkt wählen:** ein ruhiger Moment ist besser als\n>   zwischen Tür und Angel.\n> - Wenn nichts passiert, darfst du **höflich nachfragen** — das\n>   ist kein zweites Mal unhöflich.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Den Ratgeberartikel lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ruhig bleiben und klarstellen, dass es dir um die Sache geht, nicht um Vorwürfe."
+              },
+              {
+                "key": "b",
+                "text": "Noch lauter werden."
+              },
+              {
+                "key": "c",
+                "text": "Sofort das Gespräch abbrechen."
+              }
+            ],
+            "q": "Die andere Person wird sofort defensiv und fühlt sich angegriffen. — The other person immediately gets defensive and feels attacked.",
+            "why": "Ruhe und eine Klarstellung nehmen der Situation die Schärfe."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort aufgeben."
+              },
+              {
+                "key": "b",
+                "text": "Nach ein paar Tagen höflich noch einmal nachfragen."
+              },
+              {
+                "key": "c",
+                "text": "Laut werden, um Aufmerksamkeit zu bekommen."
+              }
+            ],
+            "q": "Du hast dich beschwert, aber niemand reagiert. — You complained, but no one reacts.",
+            "why": "Höfliches Nachfragen ist völlig legitim, wenn sich nichts tut."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "So tun, als wäre nichts gewesen."
+              },
+              {
+                "key": "b",
+                "text": "Die Person trotzdem weiter beschuldigen."
+              },
+              {
+                "key": "c",
+                "text": "Dich entschuldigen und nach der richtigen Ansprechperson fragen."
+              }
+            ],
+            "q": "Du merkst, dass du dich bei der falschen Person beschwert hast. — You realize you complained to the wrong person.",
+            "why": "Eine kurze Entschuldigung und die Frage nach der richtigen Person klärt das Missverständnis."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ruhig erklären, dass das nicht deine Absicht war."
+              },
+              {
+                "key": "b",
+                "text": "Beleidigt sein und nichts mehr sagen."
+              },
+              {
+                "key": "c",
+                "text": "Die Absicht bestätigen, um nicht schwach zu wirken."
+              }
+            ],
+            "q": "Dein Anliegen wird völlig falsch verstanden und als Angriff aufgefasst. — Your point is completely misunderstood and taken as an attack.",
+            "why": "Eine ruhige Klarstellung der eigenen Absicht kann das Missverständnis meist auflösen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Genauso scharf zurückreagieren."
+              },
+              {
+                "key": "b",
+                "text": "Vor anderen Kollegen darüber reden."
+              },
+              {
+                "key": "c",
+                "text": "Ruhig bleiben und das Gespräch für später vertagen."
+              }
+            ],
+            "q": "Ein Kollege reagiert unangemessen scharf auf deine sachliche Bemerkung. — A colleague reacts inappropriately sharply to your factual remark.",
+            "why": "Ein Gespräch zu vertagen verhindert eine unnötige Eskalation."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das offen zugeben und dich kurz entschuldigen."
+              },
+              {
+                "key": "b",
+                "text": "So tun, als hättest du es nicht so gemeint."
+              },
+              {
+                "key": "c",
+                "text": "Auf der Übertreibung beharren."
+              }
+            ],
+            "q": "Du merkst, dass deine eigene Beschwerde übertrieben war. — You realize your own complaint was exaggerated.",
+            "why": "Einen eigenen Fehler zuzugeben zeigt Größe und beruhigt die Situation."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn die Beschwerde nicht gut ankommt"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "defensiv"
+          ],
+          "2": [
+            "reagiert"
+          ],
+          "3": [
+            "Ansprechperson"
+          ],
+          "4": [
+            "Angriff"
+          ],
+          "5": [
+            "scharf"
+          ],
+          "6": [
+            "übertrieben"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die andere Person wurde sofort {1} und fühlte sich angegriffen. (in Abwehrhaltung)\n2. Ich habe mich beschwert, aber niemand hat {2}. (reagieren, Perfekt)\n3. Ich habe mich leider bei der falschen {3} beschwert. (die zuständige Person)\n4. Mein Anliegen wurde als {4} aufgefasst. (ein Vorwurf, eine Attacke)\n5. Der Kollege hat unangemessen {5} reagiert. (mit viel Schärfe)\n6. Meine eigene Beschwerde war im Nachhinein etwas {6}. (zu stark ausgedrückt)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Darf"
+          ],
+          "2": [
+            "war"
+          ],
+          "3": [
+            "Könnten"
+          ],
+          "4": [
+            "stört"
+          ],
+          "5": [
+            "Wäre"
+          ],
+          "6": [
+            "Anliegen"
+          ],
+          "7": [
+            "sachlich"
+          ],
+          "8": [
+            "reklamieren"
+          ],
+          "9": [
+            "defensiv"
+          ],
+          "10": [
+            "reagiert"
+          ],
+          "11": [
+            "Ansprechperson"
+          ],
+          "12": [
+            "Angriff"
+          ],
+          "13": [
+            "scharf"
+          ],
+          "14": [
+            "übertrieben"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} ich kurz etwas ansprechen? (may — dürfen)\n2. Das Gerät {2} schon nach zwei Tagen kaputt. (was)\n3. {3} Sie das bitte noch einmal überprüfen? (could — können)\n4. Das {4} mich ehrlich gesagt ein bisschen. (bothers)\n5. {5} es möglich, das zu korrigieren? (would it be)\n6. Ich möchte kurz ein {6} ansprechen. (a matter / issue)\n7. Ich bleibe lieber {7}, statt emotional zu werden. (factual)\n8. Bitte {8} Sie diesen Artikel, wenn Sie einen Mangel finden. (make a complaint about — Infinitiv)\n9. Die andere Person wurde sofort {9}. (defensive)\n10. Ich habe mich beschwert, aber niemand hat {10}. (reacted — Partizip)\n11. Ich habe mich bei der falschen {11} beschwert. (contact person)\n12. Mein Anliegen wurde als {12} aufgefasst. (attack)\n13. Der Kollege hat unangemessen {13} reagiert. (sharply)\n14. Meine eigene Beschwerde war etwas {14}. (exaggerated)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-53-sich-beschweren-a2",
+  "intro": "Sich zu beschweren ist keine Konfrontation, sondern eine Fähigkeit: sachlich beschreiben, was passiert ist, kurz sagen, was einen stört, und konkret formulieren, was man sich wünscht. Dieses Set übt genau diesen Aufbau, quer durch mehrere Alltagssituationen — im Geschäft, beim Nachbarn, unter Kolleginnen — statt in nur einer. Grammatik nach Bedarf: Perfekt im Bericht, Nebensätze mit dass, höfliche Bitten mit Konjunktiv II. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/53-sich-beschweren-a2",
+  "level": "A2",
+  "summary": "Ein Anliegen ruhig und sachlich vorbringen — im Geschäft, beim Nachbarn, unter Kolleginnen — ohne unhöflich oder ohnmächtig zu wirken.",
+  "title": "Sich höflich beschweren — A2",
+  "topic": "Sich höflich beschweren"
+}

@@ -1,0 +1,864 @@
+{
+  "category": "Unterwegs",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "g",
+          "4": "d",
+          "5": "i",
+          "6": "e",
+          "7": "c",
+          "8": "j",
+          "9": "f",
+          "10": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Anschlusszug"
+          },
+          {
+            "key": "2",
+            "text": "das Gleis"
+          },
+          {
+            "key": "3",
+            "text": "die Fahrgastrechte"
+          },
+          {
+            "key": "4",
+            "text": "die Zugbindung"
+          },
+          {
+            "key": "5",
+            "text": "der Fahrplanwechsel"
+          },
+          {
+            "key": "6",
+            "text": "die Entschädigung"
+          },
+          {
+            "key": "7",
+            "text": "der Schienenersatzverkehr"
+          },
+          {
+            "key": "8",
+            "text": "die Sitzplatzreservierung"
+          },
+          {
+            "key": "9",
+            "text": "die Durchsage"
+          },
+          {
+            "key": "10",
+            "text": "das Sparpreis-Ticket"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Der Zug, in den du danach umsteigen musst."
+          },
+          {
+            "key": "b",
+            "text": "Wo der Zug hält — die Nummer steht auf der Anzeige."
+          },
+          {
+            "key": "c",
+            "text": "Bus statt Bahn, wenn die Strecke gesperrt ist."
+          },
+          {
+            "key": "d",
+            "text": "Die Regel, dass du genau diesen Zug nehmen musst."
+          },
+          {
+            "key": "e",
+            "text": "Geld zurück, wenn der Zug zu spät war."
+          },
+          {
+            "key": "f",
+            "text": "Die Ansage über Lautsprecher im Bahnhof oder Zug."
+          },
+          {
+            "key": "g",
+            "text": "Deine Ansprüche bei Verspätung und Ausfall."
+          },
+          {
+            "key": "h",
+            "text": "Ein günstiges Ticket, das nur für einen bestimmten Zug gilt."
+          },
+          {
+            "key": "i",
+            "text": "Der Tag, an dem die neuen Fahrpläne gelten."
+          },
+          {
+            "key": "j",
+            "text": "Der bestimmte Platz, den du im Voraus buchst."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A1",
+      "instructions": "Ordne jeden Begriff (1–10) seiner Erklärung (a–j) zu.",
+      "instructionsEn": "Match each term (1–10) with its explanation (a–j).",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Verspätung"
+          ],
+          "2": [
+            "fährt"
+          ],
+          "3": [
+            "geänderte"
+          ],
+          "4": [
+            "warten"
+          ],
+          "5": [
+            "fahren"
+          ],
+          "6": [
+            "Verständnis"
+          ],
+          "7": [
+            "steigen"
+          ],
+          "8": [
+            "halten"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. „Der ICE 573 nach München hat voraussichtlich 40 Minuten {1}.“\n2. „Der Zug {2} heute von Gleis 8 statt Gleis 3.“\n3. „Bitte beachten Sie die {3} Wagenreihung.“\n4. „Der Anschlusszug nach Nürnberg wird {4}.“\n5. „Wegen einer Streckensperrung {5} zwischen Fulda und Kassel Busse.“\n6. „Wir bitten um Ihr {6} für die Unannehmlichkeiten.“\n7. „Der Zug endet hier. Bitte {7} Sie alle aus.“\n8. „Bitte {8} Sie Ihre Fahrkarten bereit.“\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze das fehlende Wort.",
+      "instructionsEn": "Fill in the missing word.",
+      "title": "Durchsagen verstehen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "automat",
+            "label": "Automat / App"
+          },
+          {
+            "key": "schalter",
+            "label": "Reisezentrum / Schalter"
+          },
+          {
+            "key": "online",
+            "label": "Fahrgastrechte online"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "automat",
+            "text": "eine einfache Fahrkarte kaufen"
+          },
+          {
+            "bucket": "schalter",
+            "text": "eine komplizierte Verbindung mit drei Umstiegen buchen"
+          },
+          {
+            "bucket": "online",
+            "text": "Entschädigung nach 70 Minuten Verspätung beantragen"
+          },
+          {
+            "bucket": "automat",
+            "text": "eine Sitzplatzreservierung nachbuchen"
+          },
+          {
+            "bucket": "schalter",
+            "text": "ein Ticket umtauschen lassen"
+          },
+          {
+            "bucket": "online",
+            "text": "das Fahrgastrechte-Formular einreichen"
+          },
+          {
+            "bucket": "automat",
+            "text": "den aktuellen Fahrplan ansehen"
+          },
+          {
+            "bucket": "schalter",
+            "text": "sich bei Zugausfall neu verbinden lassen"
+          },
+          {
+            "bucket": "online",
+            "text": "Belege für Hotelkosten hochladen"
+          },
+          {
+            "bucket": "schalter",
+            "text": "eine BahnCard-Frage klären"
+          },
+          {
+            "bucket": "online",
+            "text": "den Status der Erstattung prüfen"
+          },
+          {
+            "bucket": "automat",
+            "text": "ein Handyticket kaufen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A3",
+      "instructions": "Sortiere die 12 Anliegen.",
+      "instructionsEn": "Sort the 12 matters.",
+      "title": "Wo klärst du das?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "hat"
+          ],
+          "2": [
+            "gehabt"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "verpasst"
+          ],
+          "5": [
+            "ist"
+          ],
+          "6": [
+            "abgefahren"
+          ],
+          "7": [
+            "habe"
+          ],
+          "8": [
+            "übernachtet"
+          ],
+          "9": [
+            "haben"
+          ],
+          "10": [
+            "belaufen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Mein Zug {1} 70 Minuten Verspätung {2}. (haben)\n2. Ich {3} den Anschluss in Fulda {4}. (verpassen)\n3. Der letzte Zug {5} schon {6}. (abfahren)\n4. Ich {7} im Hotel {8}. (übernachten)\n5. Die Kosten {9} sich auf 95 Euro {10}. (belaufen)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das Perfekt.",
+      "instructionsEn": "Fill in the perfect tense.",
+      "title": "Den Ablauf schildern: Perfekt"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "VERSPÄTUNG"
+          ],
+          "2": [
+            "ANSCHLUSS"
+          ],
+          "3": [
+            "FAHRKARTE"
+          ],
+          "4": [
+            "ZUGBINDUNG"
+          ],
+          "5": [
+            "ÜBERNACHTEN"
+          ],
+          "6": [
+            "ÜBERNIMMT"
+          ],
+          "7": [
+            "HEBEN"
+          ],
+          "8": [
+            "ZURÜCK"
+          ],
+          "9": [
+            "ANTRAG"
+          ],
+          "10": [
+            "FORMULAR"
+          ]
+        },
+        "bank": [
+          "VERSPÄTUNG",
+          "ANSCHLUSS",
+          "FAHRKARTE",
+          "ZUGBINDUNG",
+          "ÜBERNACHTEN",
+          "ÜBERNIMMT",
+          "HEBEN",
+          "ZURÜCK",
+          "ANTRAG",
+          "FORMULAR",
+          "WOHER",
+          "GLEIS",
+          "KAUFEN",
+          "WARTEN"
+        ],
+        "text": "— Guten Abend, wie kann ich helfen?\n— Mein Zug hatte 70 Minuten {1} und ich habe meinen {2}\nnach Kassel verpasst.\n— Das tut mir leid. Zeigen Sie mir bitte Ihre {3}?\n— Hier. Es ist ein Sparpreis-Ticket.\n— Bei einer Verspätung von über 20 Minuten entfällt die {4}.\nSie dürfen also einen anderen Zug nehmen.\n— Und wann fährt der nächste?\n— Heute leider nicht mehr. Der nächste geht morgen um 5:48 Uhr.\n— Und wo soll ich {5}?\n— Ab 60 Minuten Verspätung {6} die Bahn die Hotelkosten, wenn\ndie Weiterfahrt erst am nächsten Tag möglich ist. {7} Sie\nunbedingt die Rechnung auf.\n— Bekomme ich auch Geld {8}?\n— Ab 60 Minuten 25 Prozent des Fahrpreises. Den {9} stellen\nSie online oder mit diesem {10}.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Am Schalter: der Anschluss ist weg"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den vollen Fahrpreis."
+              },
+              {
+                "key": "b",
+                "text": "25 Prozent des Fahrpreises."
+              },
+              {
+                "key": "c",
+                "text": "Nichts, das ist zu wenig Verspätung."
+              }
+            ],
+            "q": "Dein Zug ist 65 Minuten zu spät. Wie viel bekommst du zurück? — Your train is 65 minutes late. How much do you get back?",
+            "why": "Ab 60 Minuten 25 %, ab 120 Minuten 50 %. Unter 60 Minuten gibt es keine Entschädigung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Du musst warten und genau diesen Zug nehmen."
+              },
+              {
+                "key": "b",
+                "text": "Du musst ein neues Ticket kaufen."
+              },
+              {
+                "key": "c",
+                "text": "Die Zugbindung entfällt — du darfst einen anderen Zug nehmen."
+              }
+            ],
+            "q": "Du hast ein Sparpreis-Ticket und dein Zug hat 30 Minuten Verspätung. — You have a saver ticket and your train is 30 minutes late.",
+            "why": "Ab 20 Minuten absehbarer Verspätung entfällt die Zugbindung. Das ist die wichtigste Regel für Sparpreis-Tickets."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Bahn übernimmt in der Regel die Hotelkosten — Rechnung aufheben."
+              },
+              {
+                "key": "b",
+                "text": "Du musst das Hotel selbst zahlen."
+              },
+              {
+                "key": "c",
+                "text": "Du musst am Bahnhof warten."
+              }
+            ],
+            "q": "Die Weiterfahrt ist erst am nächsten Morgen möglich. — You can only travel on the next morning.",
+            "why": "Ab 60 Minuten Verspätung und wenn die Weiterfahrt erst am Folgetag geht, trägt die Bahn die Übernachtung — mit Beleg."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Mein Zug war zu spät."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe den Anschluss nach Kassel verpasst. Welche Verbindung könnten Sie mir noch anbieten?"
+              },
+              {
+                "key": "c",
+                "text": "Was mache ich jetzt?"
+              }
+            ],
+            "q": "Du willst am Schalter einen neuen Anschluss. — You want a new connection at the counter.",
+            "why": "Sagen, was passiert ist, und konkret nach einer Alternative fragen — so bekommst du eine Verbindung statt Mitleid."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Ich steige aus."
+              },
+              {
+                "key": "c",
+                "text": "Mein ursprünglicher Zug hatte über 20 Minuten Verspätung, damit entfällt die Zugbindung."
+              }
+            ],
+            "q": "Der Schaffner sagt, dein Ticket gelte nicht in diesem Zug. — The conductor says your ticket isn't valid in this train.",
+            "why": "Die Regel ruhig benennen. Schaffner kennen sie — man muss sie nur nennen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Mit dem Fahrgastrechte-Formular, mit Ticket und Belegen, online oder per Post."
+              },
+              {
+                "key": "b",
+                "text": "Am Schalter bar auszahlen lassen."
+              },
+              {
+                "key": "c",
+                "text": "Beim Schaffner im Zug."
+              }
+            ],
+            "q": "Wie beantragst du die Entschädigung? — How do you claim compensation?",
+            "why": "Der Anspruch läuft über das Formular plus Nachweise — nicht über die Kasse am Bahnhof."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort.",
+      "instructionsEn": "Choose the correct answer.",
+      "title": "Was gilt, was sagst du?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Perfekt: habe … verpasst",
+            "tiles": [
+              "Ich",
+              "habe",
+              "meinen",
+              "Anschluss",
+              "in",
+              "Fulda",
+              "verpasst"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Konjunktiv II als höfliche Frage, Infinitiv am Ende",
+            "tiles": [
+              "Welche",
+              "Verbindung",
+              "könnten",
+              "Sie",
+              "mir",
+              "anbieten",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Verb an Position 2 nach der Zeitangabe",
+            "tiles": [
+              "Bei",
+              "über",
+              "20",
+              "Minuten",
+              "Verspätung",
+              "entfällt",
+              "die",
+              "Zugbindung"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Trennverb ab·fahren: ab am Ende",
+            "tiles": [
+              "Der",
+              "Zug",
+              "fährt",
+              "heute",
+              "von",
+              "Gleis",
+              "8",
+              "ab"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Modalverb an Position 2, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "eine",
+              "Entschädigung",
+              "beantragen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Höfliche Bitte: Infinitiv am Ende",
+            "tiles": [
+              "Könnten",
+              "Sie",
+              "mir",
+              "das",
+              "bitte",
+              "schriftlich",
+              "bestätigen",
+              "?"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze am Bahnhof bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Bei 45 Minuten Verspätung bekommt man 25 % zurück. — With a 45-minute delay you get 25 % back.",
+            "why": "Erst ab 60 Minuten."
+          },
+          {
+            "answer": true,
+            "q": "Bei 2,5 Stunden Verspätung sind es 50 %. — With a 2.5-hour delay it's 50 %.",
+            "why": "120 Minuten sind erreicht — also 50 %."
+          },
+          {
+            "answer": false,
+            "q": "Ein Ticket für 12 € bringt bei 60 Minuten Verspätung eine Auszahlung. — A €12 ticket pays out after a 60-minute delay.",
+            "why": "25 % von 12 € sind 3,00 € — unter der 4-Euro-Grenze."
+          },
+          {
+            "answer": true,
+            "q": "Die Zugbindung entfällt schon vor der Abfahrt, wenn 25 Minuten Verspätung absehbar sind. — The train restriction lapses before departure if a 25-minute delay is foreseeable.",
+            "why": "„bereits am Abfahrtsbahnhof … mehr als 20 Minuten absehbar“."
+          },
+          {
+            "answer": false,
+            "q": "Hotelkosten werden ohne Beleg erstattet. — Hotel costs are reimbursed without a receipt.",
+            "why": "„Belege sind beizufügen.“"
+          },
+          {
+            "answer": false,
+            "q": "Man kann den Antrag auch zwei Jahre später noch stellen. — You can still claim two years later.",
+            "why": "„innerhalb eines Jahres nach der Reise“."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Fahrgastrechte im Fernverkehr — Kurzübersicht**\n>\n> **Entschädigung bei Verspätung am Zielort**\n> - ab 60 Minuten: 25 % des Fahrpreises\n> - ab 120 Minuten: 50 % des Fahrpreises\n>\n> **Zugbindung**\n> Ist bereits am Abfahrtsbahnhof eine Verspätung von mehr als\n> 20 Minuten absehbar, entfällt die Zugbindung. Sie können einen\n> anderen Zug nutzen.\n>\n> **Übernachtung**\n> Ist die Weiterfahrt erst am Folgetag möglich, werden angemessene\n> Kosten für Übernachtung und Transfer übernommen. Belege sind\n> beizufügen.\n>\n> Hinweis: Beträge unter 4,00 € werden nicht ausgezahlt.\n> Anträge sind innerhalb eines Jahres nach der Reise zu stellen.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Fahrgastrechte lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Am Bahnhof warten."
+              },
+              {
+                "key": "b",
+                "text": "Hotel selbst buchen, Rechnung und Verspätungsnachweis aufheben und später einreichen."
+              },
+              {
+                "key": "c",
+                "text": "Ein Taxi nach Hause nehmen, egal was es kostet."
+              }
+            ],
+            "q": "Es ist 23 Uhr, kein Schalter offen, kein Zug mehr. — It's 11 pm, no counter open, no more trains.",
+            "why": "Selbst buchen und belegen ist der vorgesehene Weg — ohne Belege gibt es später nichts."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ein Foto von der Anzeigetafel machen."
+              },
+              {
+                "key": "b",
+                "text": "Sich die Verspätung vom Zugpersonal oder am Schalter bestätigen lassen."
+              },
+              {
+                "key": "c",
+                "text": "Nichts, das steht im System."
+              }
+            ],
+            "q": "Du brauchst einen Nachweis über die Verspätung. — You need proof of the delay.",
+            "why": "Die schriftliche Bestätigung ist der Beleg, den das Formular verlangt. Ein Foto hilft zusätzlich, ersetzt sie aber nicht."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Akzeptieren."
+              },
+              {
+                "key": "b",
+                "text": "Nochmal denselben Antrag schicken."
+              },
+              {
+                "key": "c",
+                "text": "Schriftlich widersprechen, Verspätungsnachweis beifügen und auf die Ankunftszeit am Zielort verweisen."
+              }
+            ],
+            "q": "Dein Antrag wird abgelehnt, obwohl der Zug 80 Minuten zu spät war. — Your claim is refused although the train was 80 minutes late.",
+            "why": "Entscheidend ist die Verspätung am ZIEL, nicht unterwegs — dieser Punkt klärt die meisten Ablehnungen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort das Zugpersonal ansprechen, bevor der Zug weiterfährt."
+              },
+              {
+                "key": "b",
+                "text": "Später beim Fundbüro fragen."
+              },
+              {
+                "key": "c",
+                "text": "Den Bus verpassen und im Zug bleiben."
+              }
+            ],
+            "q": "Der Ersatzbus fährt ab, aber dein Koffer ist noch im Zug. — The replacement bus is leaving but your suitcase is still on the train.",
+            "why": "Solange der Zug steht, ist es lösbar. Danach wird daraus ein Fundsachen-Fall über Wochen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Entschuldigung, ich glaube, das ist mein reservierter Platz — hier ist meine Reservierung."
+              },
+              {
+                "key": "b",
+                "text": "Stehen bleiben und nichts sagen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort den Schaffner rufen."
+              }
+            ],
+            "q": "Du hast eine Reservierung, aber jemand sitzt auf deinem Platz. — You have a reservation but someone is in your seat.",
+            "why": "Freundlich mit dem Beleg in der Hand — meist reicht das und niemand muss den Schaffner holen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Auf den nächsten Zug warten."
+              },
+              {
+                "key": "b",
+                "text": "Nach dem Abfahrtsort des Ersatzbusses fragen und die zusätzliche Fahrzeit einplanen."
+              },
+              {
+                "key": "c",
+                "text": "Ein eigenes Ticket für den Bus kaufen."
+              }
+            ],
+            "q": "Die Strecke ist gesperrt, es gibt Schienenersatzverkehr. — The line is closed, there's a rail replacement bus.",
+            "why": "Der Ersatzbus ist im Ticket enthalten. Wichtig ist nur, wo er abfährt und wie lange er braucht."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Was machst oder sagst du? Wähle a, b oder c.",
+      "instructionsEn": "What do you do or say? Choose a, b, or c.",
+      "title": "Der Ernstfall"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Bestätigung"
+          ],
+          "2": [
+            "entfällt"
+          ],
+          "3": [
+            "Entschädigung"
+          ],
+          "4": [
+            "übernimmt"
+          ],
+          "5": [
+            "fügen"
+          ],
+          "6": [
+            "widerspreche"
+          ],
+          "7": [
+            "Schienenersatzverkehr"
+          ],
+          "8": [
+            "Zielort"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich hätte gern eine {1} über die Verspätung. (schriftlicher Beleg)\n2. Bei über 20 Minuten Verspätung {2} die Zugbindung. (nicht mehr gelten)\n3. Ich möchte eine {3} beantragen. (Geld zurück)\n4. Die Bahn {4} die Hotelkosten. (bezahlen, formell)\n5. Bitte {5} Sie die Belege bei. (mitschicken)\n6. Ich {6} der Ablehnung. (nicht einverstanden sein, formell)\n7. Zwischen Fulda und Kassel fährt ein {7}. (Bus statt Bahn)\n8. Entscheidend ist die Ankunftszeit am {8}. (wo die Reise endet)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das fehlende Wort.",
+      "instructionsEn": "Fill in the missing word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "60"
+          ],
+          "2": [
+            "120"
+          ],
+          "3": [
+            "20"
+          ],
+          "4": [
+            "Zielort"
+          ],
+          "5": [
+            "Anschlusszug"
+          ],
+          "6": [
+            "Entschädigung"
+          ],
+          "7": [
+            "Schienenersatzverkehr"
+          ],
+          "8": [
+            "Fahrgastrechte"
+          ],
+          "9": [
+            "Sitzplatzreservierung"
+          ],
+          "10": [
+            "könnten"
+          ],
+          "11": [
+            "Bestätigung"
+          ],
+          "12": [
+            "beantragen"
+          ],
+          "13": [
+            "fügen"
+          ],
+          "14": [
+            "widerspreche"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Die Regeln (4 Punkte):**\n1. Ab {1} Minuten Verspätung gibt es 25 % zurück.\n2. Ab {2} Minuten sind es 50 %.\n3. Ab mehr als {3} Minuten absehbarer Verspätung entfällt die Zugbindung.\n4. Entscheidend ist die Verspätung am {4}, nicht unterwegs.\n\n**Wortschatz (5 Punkte):**\n5. Der Zug, in den du umsteigst: der {5}\n6. Geld zurück bei Verspätung: die {6}\n7. Bus statt Bahn bei Streckensperrung: der {7}\n8. Deine Ansprüche bei Verspätung: die {8}\n9. Der gebuchte Platz im Zug: die {9}\n\n**Redemittel (5 Punkte):**\n10. Am Schalter: „Welche Verbindung {10} Sie mir anbieten?“\n11. Beleg: „Ich hätte gern eine {11} über die Verspätung.“\n12. Antrag: „Ich möchte eine Entschädigung {12}.“\n13. Anlagen: „Bitte {13} Sie die Belege bei.“\n14. Ablehnung: „Ich {14} der Ablehnung.“\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die Lücken.",
+      "instructionsEn": "Fill in the gaps.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-10-am-bahnhof-b1",
+  "intro": "Ein Ticket kaufen kann jeder. Interessant wird es, wenn der Zug 70 Minuten zu spät ist, der Anschluss weg ist und niemand am Schalter steht. Dann zählt, ob du die Fahrgastrechte kennst und den Antrag richtig ausfüllst. Grammatik nach Bedarf: Passiv und Nominalstil in Durchsagen („wird bereitgestellt“, „mit einer Verspätung von“), Konjunktiv II für höfliche Bitten, Perfekt für den Ablauf. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/10-am-bahnhof-b1",
+  "level": "B1",
+  "summary": "Ticket kaufen, Anzeigen und Durchsagen verstehen — und bei Verspätung oder verpasstem Anschluss die Entschädigung tatsächlich bekommen.",
+  "title": "Am Bahnhof: Verspätung und Fahrgastrechte — B1",
+  "topic": "Am Bahnhof"
+}

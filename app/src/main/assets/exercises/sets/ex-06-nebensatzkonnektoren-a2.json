@@ -1,0 +1,783 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Ich bleibe zu Hause, weil ich krank bin.",
+            "tiles": [
+              "Ich bleibe zu Hause,",
+              "weil",
+              "ich",
+              "krank",
+              "bin."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Ich glaube, dass er Recht hat.",
+            "tiles": [
+              "Ich glaube,",
+              "dass",
+              "er",
+              "Recht",
+              "hat."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Wenn es regnet, bleibe ich zu Hause. — Nebensatz zuerst: Verb + Subjekt tauschen im Hauptsatz.",
+            "tiles": [
+              "Wenn",
+              "es",
+              "regnet,",
+              "bleibe",
+              "ich",
+              "zu Hause."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Er sagt, dass er müde ist.",
+            "tiles": [
+              "Er sagt,",
+              "dass",
+              "er",
+              "müde",
+              "ist."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Ich lerne Deutsch, weil ich nach Berlin ziehen möchte.",
+            "tiles": [
+              "Ich lerne Deutsch,",
+              "weil",
+              "ich",
+              "nach Berlin",
+              "ziehen möchte."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Wenn ich Zeit habe, rufe ich dich an.",
+            "tiles": [
+              "Wenn",
+              "ich",
+              "Zeit habe,",
+              "rufe",
+              "ich",
+              "dich an."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A1",
+      "instructions": "Bring die Wörter in die richtige Reihenfolge — das Verb steht am Ende des Nebensatzes.",
+      "instructionsEn": "Put the tiles in the right order — the finite verb goes to the end of the Nebensatz.",
+      "title": "Wortstellung im Nebensatz"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "weil"
+          ],
+          "2": [
+            "dass"
+          ],
+          "3": [
+            "Wenn"
+          ],
+          "4": [
+            "dass"
+          ],
+          "5": [
+            "weil"
+          ],
+          "6": [
+            "Wenn"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich bin müde, {1} ich schlecht geschlafen habe.\n2. Ich weiß, {2} du Recht hast.\n3. {3} ich Zeit habe, gehe ich schwimmen.\n4. Sie sagt, {4} sie morgen kommt.\n5. Wir bleiben drinnen, {5} es kalt ist.\n6. {6} die Sonne scheint, gehen wir spazieren.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze den richtigen Konnektor.",
+      "instructionsEn": "Fill in the correct connector.",
+      "title": "weil, dass oder wenn?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "weil"
+          ],
+          "2": [
+            "dass"
+          ],
+          "3": [
+            "Wenn"
+          ],
+          "4": [
+            "weil"
+          ],
+          "5": [
+            "dass"
+          ],
+          "6": [
+            "Wenn"
+          ],
+          "7": [
+            "dass"
+          ],
+          "8": [
+            "weil"
+          ]
+        },
+        "bank": [
+          "weil",
+          "dass",
+          "Wenn",
+          "weil",
+          "dass",
+          "Wenn",
+          "dass",
+          "weil",
+          "obwohl",
+          "ob"
+        ],
+        "text": "Ich bin heute glücklich, {1} ich eine gute Nachricht bekommen\nhabe. Meine Schwester hat mir geschrieben, {2} sie bald zu Besuch\nkommt. {3} sie ankommt, hole ich sie vom Bahnhof ab. Ich freue\nmich, {4} wir uns lange nicht gesehen haben. Sie hat gesagt, {5}\nsie zwei Wochen bleiben möchte. {6} sie hier ist, zeige ich ihr\ndie Stadt. Ich hoffe, {7} das Wetter schön bleibt. Meine Eltern\nfreuen sich auch, {8} sie ihre Tochter sehen.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Besuch von meiner Schwester"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "weil"
+              },
+              {
+                "key": "b",
+                "text": "dass"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Ich kann nicht kommen, ___ ich krank bin.",
+            "why": "Grund → weil."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "weil"
+              },
+              {
+                "key": "b",
+                "text": "dass"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Ich denke, ___ das eine gute Idee ist.",
+            "why": "Aussage/Meinung → dass."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weil"
+              },
+              {
+                "key": "b",
+                "text": "Dass"
+              },
+              {
+                "key": "c",
+                "text": "Wenn"
+              }
+            ],
+            "q": "___ ich nach Hause komme, koche ich immer.",
+            "why": "Wiederholte Bedingung ('jedes Mal, wenn') → Wenn."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "weil"
+              },
+              {
+                "key": "b",
+                "text": "dass"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Er ist traurig, ___ sein Hund krank ist.",
+            "why": "Grund → weil."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "weil"
+              },
+              {
+                "key": "b",
+                "text": "dass"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Es ist schön, ___ du hier bist.",
+            "why": "Aussage → dass."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weil"
+              },
+              {
+                "key": "b",
+                "text": "Dass"
+              },
+              {
+                "key": "c",
+                "text": "Wenn"
+              }
+            ],
+            "q": "___ es schneit, fahre ich Ski.",
+            "why": "Bedingung → Wenn."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle den richtigen Konnektor (a, b oder c).",
+      "instructionsEn": "Choose the correct connector (a, b, or c).",
+      "title": "Grund, Aussage oder Bedingung?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "weil"
+              },
+              {
+                "key": "b",
+                "text": "dass"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Ich ziehe um, ___ meine neue Wohnung größer ist.",
+            "why": "Grund → weil."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "weil"
+              },
+              {
+                "key": "b",
+                "text": "dass"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Ich hoffe, ___ der Umzug schnell geht.",
+            "why": "Aussage → dass."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weil"
+              },
+              {
+                "key": "b",
+                "text": "Dass"
+              },
+              {
+                "key": "c",
+                "text": "Wenn"
+              }
+            ],
+            "q": "___ ich die neue Wohnung sehe, freue ich mich.",
+            "why": "Bedingung/Zeitpunkt → Wenn."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "weil"
+              },
+              {
+                "key": "b",
+                "text": "dass"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Meine Freunde helfen mir, ___ sie Zeit haben.",
+            "why": "'immer wenn sie Zeit haben' → wenn."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "weil"
+              },
+              {
+                "key": "b",
+                "text": "dass"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Ich weiß, ___ der Umzug anstrengend wird.",
+            "why": "Aussage → dass."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "weil"
+              },
+              {
+                "key": "b",
+                "text": "dass"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Ich bin nervös, ___ so viel zu organisieren ist.",
+            "why": "Grund → weil."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weil"
+              },
+              {
+                "key": "b",
+                "text": "Dass"
+              },
+              {
+                "key": "c",
+                "text": "Wenn"
+              }
+            ],
+            "q": "___ alles gepackt ist, rufe ich den Umzugswagen.",
+            "why": "Zeitpunkt → Wenn."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "weil"
+              },
+              {
+                "key": "b",
+                "text": "dass"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Ich bin froh, ___ die neue Wohnung näher am Zentrum liegt.",
+            "why": "Aussage → dass."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct connector for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Mein Umzug"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "WEIL"
+          ],
+          "2": [
+            "WENN"
+          ],
+          "3": [
+            "DASS"
+          ],
+          "4": [
+            "DASS"
+          ],
+          "5": [
+            "WENN"
+          ],
+          "6": [
+            "OB"
+          ],
+          "7": [
+            "DASS"
+          ],
+          "8": [
+            "WENN"
+          ],
+          "9": [
+            "DASS"
+          ],
+          "10": [
+            "DASS"
+          ]
+        },
+        "bank": [
+          "WEIL",
+          "WENN",
+          "DASS",
+          "DASS",
+          "WENN",
+          "OB",
+          "DASS",
+          "WENN",
+          "DASS",
+          "DASS",
+          "OBWOHL",
+          "DAMIT",
+          "ALS"
+        ],
+        "text": "Ich rufe meine Oma an, {1} ich sie vermisse. Sie freut sich immer,\n{2} ich anrufe. Sie erzählt mir, {3} es ihr gut geht. Ich sage\nihr, {4} ich sie bald besuchen werde. {5} ich Zeit habe, fahre ich\nam Wochenende zu ihr. Sie fragt mich, {6} ich gesund esse. Ich\nantworte, {7} ich viel Gemüse esse. {8} sie das hört, ist sie\nzufrieden. Ich weiß, {9} sie sich Sorgen macht. Am Ende sage ich,\n{10} ich sie liebe.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Three words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Ein Telefonat mit der Oma (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Ich bin müde. Ich habe schlecht geschlafen. → Ich bin müde, weil ich schlecht geschlafen habe.",
+            "tiles": [
+              "Ich bin müde,",
+              "weil",
+              "ich",
+              "schlecht",
+              "geschlafen habe."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Ich weiß etwas. Er kommt morgen. → Ich weiß, dass er morgen kommt.",
+            "tiles": [
+              "Ich weiß,",
+              "dass",
+              "er",
+              "morgen",
+              "kommt."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Es regnet. Ich bleibe zu Hause. → Wenn es regnet, bleibe ich zu Hause.",
+            "tiles": [
+              "Wenn",
+              "es",
+              "regnet,",
+              "bleibe",
+              "ich",
+              "zu Hause."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Ich bin froh. Du bist da. → Ich bin froh, dass du da bist.",
+            "tiles": [
+              "Ich bin froh,",
+              "dass",
+              "du",
+              "da",
+              "bist."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Ich habe Hunger. Ich esse etwas. → Wenn ich Hunger habe, esse ich etwas.",
+            "tiles": [
+              "Wenn",
+              "ich",
+              "Hunger habe,",
+              "esse",
+              "ich",
+              "etwas."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "D1",
+      "instructions": "Verbinde die zwei Sätze mit dem passenden Konnektor. Bring die Wörter in die richtige Reihenfolge.",
+      "title": "Zwei Sätze zu einem verbinden"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "weil"
+              },
+              {
+                "key": "b",
+                "text": "dass"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Ich lerne Deutsch, ___ ich nach Deutschland ziehen möchte.",
+            "why": "Grund → weil."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "weil"
+              },
+              {
+                "key": "b",
+                "text": "dass"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Ich glaube, ___ es morgen regnet.",
+            "why": "Aussage → dass."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weil"
+              },
+              {
+                "key": "b",
+                "text": "Dass"
+              },
+              {
+                "key": "c",
+                "text": "Wenn"
+              }
+            ],
+            "q": "___ ich Geld habe, kaufe ich mir ein neues Auto.",
+            "why": "Bedingung → Wenn."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "weil"
+              },
+              {
+                "key": "b",
+                "text": "dass"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Ich bin traurig, ___ mein Freund wegzieht.",
+            "why": "Grund → weil."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "weil"
+              },
+              {
+                "key": "b",
+                "text": "dass"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Er hat mir gesagt, ___ er verheiratet ist.",
+            "why": "Aussage → dass."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "weil"
+              },
+              {
+                "key": "b",
+                "text": "dass"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Ich rufe dich an, ___ ich ankomme.",
+            "why": "Zeitpunkt → wenn."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct connector (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-06-nebensatzkonnektoren-a2",
+  "intro": "Standalone drill set, not tied to any lesson. A Nebensatzkonnektor (weil, dass, wenn …) sends the finite verb to the END of its clause. weil gives a reason, dass reports a statement/fact, wenn is conditional or repeated-temporal (\"whenever/if\"). If the Nebensatz comes FIRST, the main clause verb jumps right after the comma (subject and verb swap places). Blocks: A Basistraining (word order, then connector choice) → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/06-nebensatzkonnektoren-a2",
+  "level": "A2",
+  "summary": null,
+  "title": "Nebensätze mit weil, dass, wenn — A2",
+  "topic": "Nebensatzkonnektoren"
+}

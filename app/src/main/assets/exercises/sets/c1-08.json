@@ -1,0 +1,1674 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einleitung → These → Hauptteil (Pro/Contra) → Schlussfolgerung"
+              },
+              {
+                "key": "b",
+                "text": "Einleitung → These → Schluss → Hauptteil (Pro/Contra)"
+              },
+              {
+                "key": "c",
+                "text": "These → Einleitung → Hauptteil → Schluss"
+              }
+            ],
+            "q": "Welche Reihenfolge gehört zu einer linearen Erörterung?",
+            "why": "Standard: Einleitung + These → Hauptteil (Pro und Contra) → Schlussfolgerung (Synthese)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich finde, KI ist schlecht."
+              },
+              {
+                "key": "b",
+                "text": "Insgesamt zeigt sich, dass die These nur bedingt aufrechterhalten werden kann."
+              },
+              {
+                "key": "c",
+                "text": "Zum Schluss kann man sagen, dass KI schlecht ist."
+              }
+            ],
+            "q": "Welche Formulierung gehört in die Schlussfolgerung einer Erörterung?",
+            "why": "Schlussfolgerung = begründete Neubewertung (Synthese), nicht Wiederholung der Meinung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie listet alle Argumente auf."
+              },
+              {
+                "key": "b",
+                "text": "Sie formuliert die Schlussfolgerung."
+              },
+              {
+                "key": "c",
+                "text": "Sie führt zum Thema hin und nennt die These."
+              }
+            ],
+            "q": "Welche Funktion hat die Einleitung einer Erörterung?",
+            "why": "Einleitung: Hinführung zum Thema + Formulierung der These."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Eine differenzierte Hauptbehauptung, die im Hauptteil geprüft wird."
+              },
+              {
+                "key": "b",
+                "text": "Eine zufällige Behauptung ohne Begründung."
+              },
+              {
+                "key": "c",
+                "text": "Eine reine Meinung im Indikativ Präsens."
+              }
+            ],
+            "q": "Welche Aussage beschreibt eine These?",
+            "why": "Eine These ist eine differenzierte, begründete Hauptbehauptung, die der Hauptteil prüft."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "KI ist schlecht."
+              },
+              {
+                "key": "b",
+                "text": "KI kann den Präsenzunterricht ergänzen, aber nicht ersetzen — nur unter klaren Bedingungen."
+              },
+              {
+                "key": "c",
+                "text": "KI ist gut."
+              }
+            ],
+            "q": "Welche These ist am differenziertesten formuliert?",
+            "why": "Differenzierte Thesen nennen Bedingungen, schränken ein und sind weder eindeutig Ja noch eindeutig Nein."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A1",
+      "instructions": "Wähle die korrekte Reihenfolge der Bestandteile einer linearen Erörterung.",
+      "title": "Erörterung — welche Reihenfolge ist korrekt?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "dass"
+          ],
+          "2": [
+            "Schüler individuell gefördert werden können"
+          ],
+          "3": [
+            "Andererseits"
+          ],
+          "4": [
+            "jedoch"
+          ],
+          "5": [
+            "fehlt eine klare Regelung"
+          ],
+          "6": [
+            "nicht nur"
+          ],
+          "7": [
+            "sondern"
+          ],
+          "8": [
+            "auch"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Einerseits spricht für den KI-Einsatz, {1} {2} (Vorteil der Individualisierung).\n2. {3} birgt der Einsatz Risiken; {4} {5} für die Datensicherheit.\n3. Lernen braucht {6} Wissen, {7} {8} soziale Bindung. (Paar: nicht nur … sondern auch)\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Setze das passende Pendant ein. 8 Lücken.",
+      "title": "Konnektorenpaare ergänzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Linear = in der Reihenfolge des Originals; selektiv = nach Wichtigkeit geordnet."
+              },
+              {
+                "key": "b",
+                "text": "Linear = nach Wichtigkeit; selektiv = nach Reihenfolge des Originals."
+              },
+              {
+                "key": "c",
+                "text": "Linear = nur Einleitung; selektiv = nur Schluss."
+              }
+            ],
+            "q": "Was ist der Unterschied zwischen linearer und selektiver Zusammenfassung?",
+            "why": "Linear folgt der Reihenfolge; selektiv sortiert nach Wichtigkeit (für Abstract/Thesenpapier)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Paraphrasieren"
+              },
+              {
+                "key": "b",
+                "text": "Generalisieren"
+              },
+              {
+                "key": "c",
+                "text": "Wertung herausfiltern"
+              }
+            ],
+            "q": "Welche Reduktionsstrategie passt: „Im Schulversuch in Karlsruhe, Bremen und Hamburg\" → „Erste Schulversuche deuten darauf hin\"?",
+            "why": "Drei konkrete Beispiele werden zu einer allgemeinen Aussage zusammengefasst — Generalisierung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Paraphrasieren"
+              },
+              {
+                "key": "b",
+                "text": "Generalisieren"
+              },
+              {
+                "key": "c",
+                "text": "Wertungen herausfiltern"
+              }
+            ],
+            "q": "Welche Strategie ist es, „Das völlig missglückte Experiment zeigt, dass …\" → „Das Experiment zeigt, dass …\" umzuwandeln?",
+            "why": "Die Wertung „völlig missglückt\" wird herausgefiltert; nur der neutrale Sachverhalt bleibt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Originaltext reduzieren, ohne ihn zu verfälschen."
+              },
+              {
+                "key": "b",
+                "text": "Den Originaltext bewerten."
+              },
+              {
+                "key": "c",
+                "text": "Den Originaltext 1:1 mit anderen Worten wiederholen."
+              }
+            ],
+            "q": "Welche Aufgabe hat die Zusammenfassung?",
+            "why": "Zusammenfassen = Reduktion (typisch 1/5 bis 1/10 des Originalumfangs)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich finde den Artikel super."
+              },
+              {
+                "key": "b",
+                "text": "Im Mittelpunkt steht die These, dass KI ergänzen, aber nicht ersetzen kann."
+              },
+              {
+                "key": "c",
+                "text": "Leider ist der Artikel schlecht."
+              }
+            ],
+            "q": "Welche Formulierung gehört in eine Zusammenfassung?",
+            "why": "Zusammenfassungen berichten neutral; sie bewerten nicht mit „super\" oder „schlecht\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A3",
+      "instructions": "Wähle die korrekte Antwort (a, b oder c).",
+      "title": "Zusammenfassung — linear oder selektiv?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Meiner Auffassung"
+          ],
+          "2": [
+            "damit"
+          ],
+          "3": [
+            "Zwar"
+          ],
+          "4": [
+            "ist"
+          ],
+          "5": [
+            "jedoch"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} nach sollte KI nicht verboten, sondern curricular eingebettet werden.\n2. Dies lässt sich vor allem {2} begründen, dass Verbote den reflektierten Umgang verhindern.\n3. {3} {4} einzuräumen, dass Datenschutzrisiken bestehen — {5} lässt sich dies durch klare Regeln lösen.\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Setze die passenden Redemittel ein (Position, Begründung, Gegenposition, Schluss). 5 Lücken.",
+      "title": "Stellungnahme: Bausteine einsetzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ziel."
+              },
+              {
+                "key": "b",
+                "text": "Hintergrund."
+              },
+              {
+                "key": "c",
+                "text": "Ergebnisse."
+              }
+            ],
+            "q": "„Vor dem Hintergrund der wachsenden Verbreitung von KI-Tools an Schulen …\" — dies ist der Baustein …",
+            "why": "„Vor dem Hintergrund von …\" leitet den Baustein Hintergrund ein."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Hintergrund."
+              },
+              {
+                "key": "b",
+                "text": "Ziel."
+              },
+              {
+                "key": "c",
+                "text": "Schlussfolgerung."
+              }
+            ],
+            "q": "„Ziel der vorliegenden Arbeit ist es, zu untersuchen, inwiefern KI-Tutoren die Lernmotivation steigern.\" — dies ist der Baustein …",
+            "why": "„Ziel der vorliegenden Arbeit ist es …\" = Forschungsfrage / Ziel."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Methoden."
+              },
+              {
+                "key": "b",
+                "text": "Ergebnisse."
+              },
+              {
+                "key": "c",
+                "text": "Schlussfolgerung."
+              }
+            ],
+            "q": "„Methodisch stützt sich die Arbeit auf eine Online-Befragung von 200 Studierenden.\" — dies ist der Baustein …",
+            "why": "Stichprobe + Vorgehen = Methoden."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ziel."
+              },
+              {
+                "key": "b",
+                "text": "Methoden."
+              },
+              {
+                "key": "c",
+                "text": "Ergebnisse."
+              }
+            ],
+            "q": "„Die Ergebnisse deuten darauf hin, dass die Nutzung von KI-Tutoren mit gesteigerter Lernmotivation in Zusammenhang steht.\" — dies ist der Baustein …",
+            "why": "„Die Ergebnisse deuten darauf hin …\" leitet die Befunde ein."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ergebnisse."
+              },
+              {
+                "key": "b",
+                "text": "Methoden."
+              },
+              {
+                "key": "c",
+                "text": "Schlussfolgerung."
+              }
+            ],
+            "q": "„Daraus lässt sich der Schluss ziehen, dass KI eine sinnvolle Ergänzung sein kann.\" — dies ist der Baustein …",
+            "why": "„Daraus lässt sich der Schluss ziehen …\" = Schlussfolgerung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A5",
+      "instructions": "Welcher IMRD-Baustein passt an der markierten Stelle?",
+      "title": "Abstract (IMRD) — welcher Baustein fehlt?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "ist"
+          ],
+          "3": [
+            "stützt"
+          ],
+          "4": [
+            "deuten"
+          ],
+          "5": [
+            "lässt"
+          ]
+        },
+        "bank": [
+          "wird",
+          "ist",
+          "stützt",
+          "deuten",
+          "lässt",
+          "Ziel",
+          "Hintergrund",
+          "Methode",
+          "beweisen",
+          "sollte",
+          "muss"
+        ],
+        "text": "1. Vor dem Hintergrund der wachsenden KI-Verbreitung {1} der Frage nachgegangen, ob\nKI den Unterricht ergänzen kann.\n2. Es {2} zu untersuchen, inwiefern KI-Tutoren die Lernmotivation steigern.\n3. Methodisch {3} sich die Arbeit auf eine Online-Befragung von 200 Studierenden.\n4. Die Ergebnisse {4} darauf hin, dass die Lernmotivation leicht gesteigert wurde.\n5. Daraus {5} sich der Schluss ziehen, dass weitere Studien nötig sind.\n",
+        "type": "gap-bank"
+      },
+      "id": "A6",
+      "instructions": "Füll die 5 Lücken mit den passenden Bausteinen aus dem Kasten. Sechs Wörter sind zu viel.",
+      "title": "Abstract: IMRD-Bausteine in der richtigen Reihenfolge"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "e",
+          "5": "c"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Konnektorenpaar (Pro/Contra)"
+          },
+          {
+            "key": "2",
+            "text": "Rückverweis (Demonstrativpronomen)"
+          },
+          {
+            "key": "3",
+            "text": "Themenführung"
+          },
+          {
+            "key": "4",
+            "text": "Adverbiale Anknüpfung"
+          },
+          {
+            "key": "5",
+            "text": "Thematische Wiederaufnahme"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Im Folgenden wird die Methode erläutert."
+          },
+          {
+            "key": "b",
+            "text": "Einerseits … andererseits / zwar … jedoch"
+          },
+          {
+            "key": "c",
+            "text": "Mit Blick auf die eingangs formulierte These …"
+          },
+          {
+            "key": "d",
+            "text": "Diese Methode / jener Befund"
+          },
+          {
+            "key": "e",
+            "text": "Wie oben dargelegt wurde …"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A7",
+      "instructions": "Ordne jedes Kohärenzmittel (1–5) dem passenden Beispiel (a–e) zu.",
+      "title": "Kohärenzmittel — Funktion und Beispiel zuordnen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "oben"
+          ],
+          "2": [
+            "Im Folgenden"
+          ],
+          "3": [
+            "bereits"
+          ],
+          "4": [
+            "Abschließend"
+          ],
+          "5": [
+            "Diese"
+          ],
+          "6": [
+            "Anschließend"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die {1} genannte Stichprobe umfasste 200 Personen.\n2. {2} wird die Methodik erläutert.\n3. Wie {3} dargelegt wurde, ist die Datenlage noch dünn.\n4. {4} lässt sich festhalten, dass weitere Studien nötig sind.\n5. {5} Befunde werfen eine neue Frage auf.\n6. {6} gilt es, jene Befunde kritisch zu prüfen.\n",
+        "type": "gap-text"
+      },
+      "id": "A8",
+      "instructions": "Setze die passende Form ein (oben, Im Folgenden, bereits, Abschließend, Diese, Anschließend). 6 Lücken.",
+      "title": "Kohärenz: Rückverweise und Themenführungen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es lässt sich argumentieren, dass KI Risiken birgt, die einer Regulierung bedürfen."
+              },
+              {
+                "key": "b",
+                "text": "Ich finde, KI ist doof."
+              },
+              {
+                "key": "c",
+                "text": "KI ist echt krass."
+              }
+            ],
+            "q": "„Ich finde, KI ist schlecht.\" — Korrektur:",
+            "why": "Unpersönliche, vorsichtige Formulierung statt persönlicher Meinungsäußerung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das beweist zu 100 %, dass KI den Unterricht verdrängt."
+              },
+              {
+                "key": "b",
+                "text": "Die Ergebnisse deuten darauf hin, dass KI den Unterricht in Zukunft verändern könnte."
+              },
+              {
+                "key": "c",
+                "text": "KI verdrängt definitiv den Unterricht."
+              }
+            ],
+            "q": "„Das beweist eindeutig, dass KI den Unterricht verdrängt.\" — Korrektur:",
+            "why": "Hedging durch „deuten darauf hin\" + Modalverb „könnte\"."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Schmidt sagt, dass KI alles verändert."
+              },
+              {
+                "key": "b",
+                "text": "Schmidt meint, KI verändert alles total."
+              },
+              {
+                "key": "c",
+                "text": "Schmidt schreibt, KI verändere alle Bereiche."
+              }
+            ],
+            "q": "„Schmidt sagt, dass KI alles verändert.\" — Korrektur:",
+            "why": "Konjunktiv I „verändere\" markiert die fremde Aussage."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Argumentation des Autors bleibt an mehreren Stellen vage."
+              },
+              {
+                "key": "b",
+                "text": "Ich finde den Artikel doof."
+              },
+              {
+                "key": "c",
+                "text": "Die Wertung des Autors ist streng."
+              }
+            ],
+            "q": "„Leider ist der Artikel schlecht.\" — Korrektur (in einer Zusammenfassung):",
+            "why": "Zusammenfassen = berichten, nicht bewerten."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einerseits ist KI gut, andererseits ist KI gut."
+              },
+              {
+                "key": "b",
+                "text": "Einerseits ermöglicht KI Individualisierung, andererseits verstärkt sie Bildungsungleichheit."
+              },
+              {
+                "key": "c",
+                "text": "KI ist super."
+              }
+            ],
+            "q": "„Einerseits ist KI gut, andererseits ist KI gut.\" — Korrektur:",
+            "why": "Ein Konnektorenpaar muss gegensätzliche Richtungen markieren."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A9",
+      "instructions": "Wähle die wissenschaftlich-register-adäquate Korrektur.",
+      "title": "Häufige Fehler in der Textproduktion — Korrektur wählen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              1,
+              4,
+              3,
+              2,
+              0
+            ],
+            "note": "Einleitung/These → Pro → Contra → Schlussfolgerung.",
+            "tiles": [
+              "Demnach lässt sich festhalten, dass die These nur bedingt aufrechterhalten werden kann.",
+              "Im Folgenden wird die Frage untersucht, ob KI den Präsenzunterricht ersetzen sollte.",
+              "Andererseits ist einzuwenden, dass KI halluziniert und so verlässliche Aussagen gefährdet.",
+              "Zunächst spricht für den Einsatz, dass KI-Tutoren individuelles Lernen ermöglichen.",
+              "Die vorliegende Arbeit vertritt die These, dass KI den Unterricht ergänzen, jedoch nicht ersetzen kann."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A10",
+      "instructions": "Bring die folgenden Textteile in die sinnvolle Reihenfolge einer linearen Erörterung.",
+      "title": "Eine Erörterung in die richtige Reihenfolge bringen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Einerseits"
+          ],
+          "2": [
+            "andererseits"
+          ],
+          "3": [
+            "Zwar"
+          ],
+          "4": [
+            "jedoch"
+          ],
+          "5": [
+            "nicht nur"
+          ],
+          "6": [
+            "sondern auch"
+          ],
+          "7": [
+            "sowohl"
+          ],
+          "8": [
+            "als auch"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} ermöglicht KI Individualisierung, {2} verstärkt sie Ungleichheit.\n2. {3} ist KI heute leistungsfähig, {4} halluziniert sie noch in vielen Fällen.\n3. Lernen braucht {5} Wissen, {6} soziale Bindung.\n4. Verlage müssen {7} gedruckte {8} digitale Formate anbieten.\n",
+        "type": "gap-text"
+      },
+      "id": "B1",
+      "instructions": "Setze die passenden Konnektoren ein (einerseits/andererseits, zwar/jedoch, nicht nur/sondern auch, sowohl/als auch). 8 Items.",
+      "title": "Konnektorenpaare in einer Erörterung"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Autorin nennt verschiedene Einsatzmöglichkeiten von KI im Unterricht."
+              },
+              {
+                "key": "b",
+                "text": "KI kann Vokabeln erklären, Texte zusammenfassen, Rechenwege vorrechnen und Prüfungsfragen generieren."
+              },
+              {
+                "key": "c",
+                "text": "KI ist ein Alleskönner."
+              }
+            ],
+            "q": "Original: „KI kann Vokabeln erklären, Texte zusammenfassen, Rechenwege vorrechnen und Prüfungsfragen generieren.\" — beste Zusammenfassung:",
+            "why": "Generalisierung statt bloßer Wiedergabe der Beispielliste."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "In Karlsruhe zeigte sich, dass …"
+              },
+              {
+                "key": "b",
+                "text": "Erste Schulversuche deuten darauf hin, dass …"
+              },
+              {
+                "key": "c",
+                "text": "Schulversuche sind super."
+              }
+            ],
+            "q": "Original: „Im Schulversuch in Karlsruhe, Bremen und Hamburg zeigte sich, dass …\" — beste Zusammenfassung:",
+            "why": "Drei konkrete Beispiele werden zu einer allgemeinen Aussage zusammengefasst."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das völlig missglückte Experiment zeigt …"
+              },
+              {
+                "key": "b",
+                "text": "Das Experiment war doof."
+              },
+              {
+                "key": "c",
+                "text": "Das Experiment zeigt, dass …"
+              }
+            ],
+            "q": "Original: „Das völlig missglückte Experiment zeigt, dass …\" — beste Zusammenfassung:",
+            "why": "Wertung herausfiltern; neutraler Sachverhalt bleibt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Der Autor behandelt die Möglichkeiten und Grenzen von KI."
+              },
+              {
+                "key": "b",
+                "text": "Im Artikel geht es um KI und dann wird erklärt, was KI kann und wo KI Grenzen hat."
+              },
+              {
+                "key": "c",
+                "text": "KI kann alles und ist super."
+              }
+            ],
+            "q": "Original: „Im Artikel geht es um KI und dann wird erklärt, was KI kann und wo KI Grenzen hat.\" — beste Zusammenfassung:",
+            "why": "Verdichtung: zwei Aspekte (Möglichkeiten und Grenzen) statt linearer Aufzählung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Schmidt sagt, KI ist die Zukunft."
+              },
+              {
+                "key": "b",
+                "text": "Schmidt schreibt, die Zukunft gehöre KI."
+              },
+              {
+                "key": "c",
+                "text": "KI ist die Zukunft."
+              }
+            ],
+            "q": "Original: „Schmidt sagt, dass die Zukunft KI gehört.\" — beste Zusammenfassung:",
+            "why": "Indirekte Wiedergabe im Konjunktiv I: „gehöre\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die Zusammenfassung, die das Original am besten reduziert.",
+      "title": "Zusammenfassung: Reduktionsstrategien anwenden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "d",
+          "3": "b",
+          "4": "c",
+          "5": "e"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Position"
+          },
+          {
+            "key": "2",
+            "text": "Begründung mit Beispiel"
+          },
+          {
+            "key": "3",
+            "text": "Gegenposition würdigen"
+          },
+          {
+            "key": "4",
+            "text": "Schlussfolgerung"
+          },
+          {
+            "key": "5",
+            "text": "persönlicher Schlusssatz"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Meiner Auffassung nach sollte KI nicht verboten werden."
+          },
+          {
+            "key": "b",
+            "text": "Zwar ist einzuräumen, dass Datenschutzrisiken bestehen — jedoch …"
+          },
+          {
+            "key": "c",
+            "text": "Aus den genannten Gründen erscheint es mir überzeugend, dass …"
+          },
+          {
+            "key": "d",
+            "text": "Dies lässt sich vor allem damit begründen, dass Verbote in die informelle Nutzung drängen. Ein Beispiel hierfür ist …"
+          },
+          {
+            "key": "e",
+            "text": "Abschließend möchte ich betonen, dass …"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B3",
+      "instructions": "Ordne jedem Baustein (1–5) das passende Beispiel (a–e) zu.",
+      "title": "Stellungnahme: Strukturbausteine zuordnen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Vor dem"
+          ],
+          "2": [
+            "wird"
+          ],
+          "3": [
+            "Ziel"
+          ],
+          "4": [
+            "ist"
+          ],
+          "5": [
+            "Methodisch"
+          ],
+          "6": [
+            "stützt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Hintergrund der wachsenden KI-Verbreitung {2} der Frage nachgegangen, ob KI den Unterricht ergänzen kann.\n2. {3} der vorliegenden Arbeit {4} es, zu untersuchen, inwiefern KI-Tutoren die Lernmotivation steigern.\n3. {5} {6} sich die Arbeit auf eine Online-Befragung von 200 Studierenden.\n",
+        "type": "gap-text"
+      },
+      "id": "B4",
+      "instructions": "Setze die passenden Bausteine ein. 6 Items.",
+      "title": "Abstract: Bausteine konkret formulieren"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Im Folgenden wird die Methode erläutert. Die oben erwähnte Stichprobe umfasste 200 Personen."
+              },
+              {
+                "key": "b",
+                "text": "Jetzt komme ich zur Methode. Hier ist sie: 200 Personen wurden befragt."
+              },
+              {
+                "key": "c",
+                "text": "Methode. 200. Befragung. Fertig."
+              }
+            ],
+            "q": "Welche Version nutzt Themenführung und Rückverweis am besten?",
+            "why": "Themenführung („Im Folgenden wird … erläutert\") + Rückverweis („Die oben erwähnte …\")."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einerseits ist KI gut. Andererseits ist KI gut."
+              },
+              {
+                "key": "b",
+                "text": "Einerseits ermöglicht KI Individualisierung, andererseits verstärkt sie Bildungsungleichheit."
+              },
+              {
+                "key": "c",
+                "text": "KI ist gut und schlecht."
+              }
+            ],
+            "q": "Welche Version nutzt doppelt gepaarte Konnektoren korrekt?",
+            "why": "Gegensätzliche Richtungen im Konnektorenpaar."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das weiß man doch."
+              },
+              {
+                "key": "b",
+                "text": "Online-Befragung. Das war die Methode. Sie wurde gemacht."
+              },
+              {
+                "key": "c",
+                "text": "Wie bereits dargelegt wurde, stützt sich die Arbeit auf eine Online-Befragung."
+              }
+            ],
+            "q": "Welche Version nutzt adverbiale Anknüpfung („wie bereits dargelegt\") korrekt?",
+            "why": "Adverbiale Anknüpfung verweist auf den vorherigen Abschnitt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Mit Blick auf die eingangs formulierte These lässt sich nun eine Antwort geben."
+              },
+              {
+                "key": "b",
+                "text": "Also: ja oder nein?"
+              },
+              {
+                "key": "c",
+                "text": "KI. Schulen. Schluss."
+              }
+            ],
+            "q": "Welche Version nutzt thematische Wiederaufnahme?",
+            "why": "„Mit Blick auf die eingangs formulierte These …\" greift die einleitende These wieder auf."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "KI kann das. KI kann jenes. KI ist überall. KI ist toll."
+              },
+              {
+                "key": "b",
+                "text": "KI kann das und jenes. Diese Technologie ist überall und überaus nützlich."
+              },
+              {
+                "key": "c",
+                "text": "Das ist so. Das ist auch so. Das war schon immer so."
+              }
+            ],
+            "q": "Welche Version vermeidet Häufungen von Pronomen? (Rückverweis)",
+            "why": "Rückverweis durch Demonstrativpronomen + Variation („diese Technologie\")."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B5",
+      "instructions": "Wähle die kohärenteste Formulierung.",
+      "title": "Kohärenz im Text — welche Version ist kohärent?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "Einerseits"
+          ],
+          "3": [
+            "Andererseits"
+          ],
+          "4": [
+            "Anschließend"
+          ],
+          "5": [
+            "Insgesamt"
+          ]
+        },
+        "bank": [
+          "Einerseits",
+          "Anschließend",
+          "Andererseits",
+          "Insgesamt",
+          "wird",
+          "Abschließend",
+          "Jedoch",
+          "Trotz",
+          "Zwar",
+          "Deshalb"
+        ],
+        "text": "Im Folgenden {1} die Frage untersucht, ob KI den Präsenzunterricht\nersetzen sollte. {2} spricht für den KI-Einsatz, dass\nKI-Tutoren individualisiertes Lernen ermöglichen. {3} ist\neinzuwenden, dass KI noch zu oft halluziniert. {4} werden die\nArgumente gegeneinander abgewogen. {5} lässt sich festhalten,\ndass die These nur bedingt aufrechterhalten werden kann.\n",
+        "type": "gap-bank"
+      },
+      "id": "B6",
+      "instructions": "Füll die 5 Lücken mit Wörtern aus dem Kasten. Fünf Wörter sind zu viel.",
+      "title": "Eine Erörterung kohärent ergänzen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "die"
+          ],
+          "3": [
+            "könnte"
+          ],
+          "4": [
+            "deuten"
+          ],
+          "5": [
+            "sei"
+          ],
+          "6": [
+            "wurde"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Im Abstract {1} die Frage untersucht, ob KI {2} Lernmotivation steigern {3}.\n2. Die Ergebnisse {4} darauf hin, dass ein Zusammenhang besteht.\n3. Schmidt schreibt, die Methode {5} umstritten.\n4. Eine Studie {6} an 200 Studierenden durchgeführt.\n",
+        "type": "gap-text"
+      },
+      "id": "B7",
+      "instructions": "Setze die passenden Werkzeuge aus C1/05 ein (Passiv, Hedging, Konjunktiv I). 6 Items.",
+      "title": "C1/05-Werkzeuge integriert anwenden"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Erörterung"
+          ],
+          "2": [
+            "Schlussfolgerung"
+          ],
+          "3": [
+            "Zusammenfassung"
+          ],
+          "4": [
+            "verfälschen"
+          ],
+          "5": [
+            "Stellungnahme"
+          ],
+          "6": [
+            "mit Argumenten"
+          ],
+          "7": [
+            "IMRD"
+          ],
+          "8": [
+            "Methoden"
+          ],
+          "9": [
+            "sachlich"
+          ],
+          "10": [
+            "Verständlichkeit"
+          ]
+        },
+        "listLayout": true,
+        "text": "Die {1} prüft eine These an Pro- und Contra-Argumenten und kommt\nzu einer begründeten {2}. Die {3} reduziert einen Text,\nohne ihn zu {4}. Die {5} vertritt eine persönliche\nMeinung und begründet sie {6}. Das wissenschaftliche Abstract\ngliedert sich nach dem {7}-Schema (Hintergrund, Ziel, {8},\nErgebnisse, Schlussfolgerung). Allen vieren gemeinsam ist, dass\nsie {9} und kohärent formuliert sein müssen — sonst leidet\ndie {10}.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Füll jede Lücke mit **einem** passenden Wort. 10 Items.",
+      "title": "Lückentext: Die vier Textsorten im Vergleich"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "werde"
+              },
+              {
+                "key": "c",
+                "text": "wurde"
+              }
+            ],
+            "q": "Im Folgenden {1} die Frage untersucht, ob KI den Unterricht ergänzen kann.",
+            "why": "Vorgangspassiv Präsens: „wird … untersucht\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "argumentiert dafür"
+              },
+              {
+                "key": "b",
+                "text": "vertritt die These"
+              },
+              {
+                "key": "c",
+                "text": "sagt, dass"
+              }
+            ],
+            "q": "Die vorliegende Arbeit {1}, dass KI den Unterricht ergänzen, aber nicht ersetzen kann.",
+            "why": "„Die These vertreten\" ist die Standardformulierung für die Hauptbehauptung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "andererseits spreche die Sicherheit dagegen"
+              },
+              {
+                "key": "b",
+                "text": "Zwar brückt KI die Lücken nicht"
+              },
+              {
+                "key": "c",
+                "text": "dass KI in untersorgten Regionen eine Brücke sein kann"
+              }
+            ],
+            "q": "Einerseits spricht für KI, {1} (Brückenfunktion).",
+            "why": "„Einerseits …, dass …\" — Pro-Argument mit Konjunktion „dass\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sei"
+              },
+              {
+                "key": "b",
+                "text": "ist"
+              },
+              {
+                "key": "c",
+                "text": "wäre"
+              }
+            ],
+            "q": "Schmidt schreibt, die Methode {1} umstritten.",
+            "why": "Konjunktiv I der Redewiedergabe: „sei\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "beweisen"
+              },
+              {
+                "key": "b",
+                "text": "deuten"
+              },
+              {
+                "key": "c",
+                "text": "zeigen klar"
+              }
+            ],
+            "q": "Die Ergebnisse {1} darauf hin, dass ein Zusammenhang besteht.",
+            "why": "Hedging: „deuten darauf hin\"."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "behandelt die Studie"
+              },
+              {
+                "key": "b",
+                "text": "sind wichtig"
+              },
+              {
+                "key": "c",
+                "text": "enthält"
+              }
+            ],
+            "q": "Im Abstract {1} die fünf Bausteine Hintergrund, Ziel, Methoden, Ergebnisse und Schlussfolgerung.",
+            "why": "„… enthält …\" — Verb an der zweiten Stelle; Subjekt „die fünf Bausteine\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle die passende Option (a, b oder c) für jede Lücke.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "ERÖRTERUNG"
+          ],
+          "2": [
+            "SCHLUSS"
+          ],
+          "3": [
+            "PRO"
+          ],
+          "4": [
+            "ABGEWOGEN"
+          ],
+          "5": [
+            "WIEDERHOLEN"
+          ],
+          "6": [
+            "BEWERTEN"
+          ],
+          "7": [
+            "SCHEMA"
+          ],
+          "8": [
+            "IMRD"
+          ],
+          "9": [
+            "STEHT"
+          ],
+          "10": [
+            "GEZIELT"
+          ]
+        },
+        "bank": [
+          "ERÖRTERUNG",
+          "SCHLUSS",
+          "PRO",
+          "ABGEWOGEN",
+          "ABWÄGEN",
+          "WIEDERHOLEN",
+          "BEWERTEN",
+          "SCHEMA",
+          "IMRD",
+          "STEHT",
+          "ZEIT",
+          "WIRKEN",
+          "GEZIELT"
+        ],
+        "text": "Aus einem Schreibratgeber: „Eine gelungene {1} verbindet\nEinleitung, These, Hauptteil und {2}. Im Hauptteil werden\n{3} und Gegenargumente {4}. Die Schlussfolgerung darf die\nThese **nicht** {5}, sondern **neu** {6}. Auch das Abstract\nfolgt einem festen {7} — {8}, das für fünf Bausteine {9}. Wer all diese\nAnforderungen {10} umsetzt, schreibt auf C1-Niveau.\"\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Füll die 10 Lücken mit Wörtern aus dem Kasten. Drei Wörter sind zu viel. Jedes Wort wird nur einmal benutzt.",
+      "title": "Sprachbausteine Teil 2 (Wortbank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Laut Text hat sich das Leseverhalten in Deutschland in den vergangenen zwei Jahren kaum verändert.",
+            "why": "„In den vergangenen zwei Jahren hat sich das Leseverhalten in Deutschland spürbar verändert.\""
+          },
+          {
+            "answer": true,
+            "q": "Mehr als ein Drittel der 18- bis 29-Jährigen liest laut Erhebung überwiegend digital.",
+            "why": "„liest mehr als ein Drittel der 18- bis 29-Jährigen heute überwiegend digital.\""
+          },
+          {
+            "answer": false,
+            "q": "Gedruckte Bücher werden laut Text vor allem von Leser\\*innen unter 30 nachgefragt.",
+            "why": "„gedruckte Bücher vor allem von Leser\\*innen über 50 nachgefragt werden.\""
+          },
+          {
+            "answer": true,
+            "q": "Die Frage nach der Zukunft des gedruckten Buches wird laut Text auch in Feuilletons diskutiert.",
+            "why": "„Die Frage … wird in Feuilletons heiß diskutiert.\""
+          },
+          {
+            "answer": true,
+            "q": "Der Text nennt als Vertreter der einen Seite die Bindung an das Buch, als Vertreter der anderen Seite die praktischen Vorteile digitaler Angebote.",
+            "why": "„Die einen sehen eine emotionale Bindung an das Buch als gegeben an; die anderen betonen die praktischen Vorteile digitaler Angebote.\""
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> In den vergangenen zwei Jahren hat sich das Leseverhalten in Deutschland spürbar verändert. Einer Erhebung des Börsenvereins zufolge liest mehr als ein Drittel der 18- bis 29-Jährigen heute überwiegend digital, während gedruckte Bücher vor allem von Leser\\*innen über 50 nachgefragt werden. Die Frage, ob das gedruckte Buch dadurch an Bedeutung verliere, wird in Feuilletons heiß diskutiert — und zwar nicht erst seit gestern. Die einen sehen eine emotionale Bindung an das Buch als gegeben an; die anderen betonen die praktischen Vorteile digitaler Angebote.\n\nRichtig (R) oder Falsch (F)?\n",
+      "title": "Lesen Text 1 (Lesetext: Drei Standpunkte zur Zukunft des Lesens — Beitrag 1)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das gedruckte Buch hat den Kindle nicht verdrängt — und umgekehrt."
+              },
+              {
+                "key": "b",
+                "text": "Das gedruckte Buch ist tot."
+              },
+              {
+                "key": "c",
+                "text": "Nur das E-Book hat eine Zukunft."
+              }
+            ],
+            "q": "Welche Hauptaussage trifft der Sammelband?",
+            "why": "„Das gedruckte Buch hat den Kindle nicht verdrängt — und der Kindle wird das Buch nicht verdrängen.\""
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Pädagogisch, soziologisch, technologisch."
+              },
+              {
+                "key": "b",
+                "text": "Kulturkonservativ, marktwirtschaftlich, bildungswissenschaftlich."
+              },
+              {
+                "key": "c",
+                "text": "Historisch, literarisch, ökonomisch."
+              }
+            ],
+            "q": "Welche drei Blickwinkel nennt der Text?",
+            "why": "„ein kulturkonservativer, ein marktwirtschaftlicher und ein bildungswissenschaftlicher [Blickwinkel].\""
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es ist ein bloßer Informationsträger."
+              },
+              {
+                "key": "b",
+                "text": "Es ist eine historische Quelle."
+              },
+              {
+                "key": "c",
+                "text": "Es ist ein kulturelles Artefakt mit eigener Würde."
+              }
+            ],
+            "q": "Welche Funktion hat das Buch laut kulturkonservativem Beitrag?",
+            "why": "„ist das Buch mehr als ein Informationsträger; es sei ein kulturelles Artefakt, das durch seine Materialität eine eigene Würde erhält.\""
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Junge Leser\\*innen bevorzugen zwar digitale Texte, wählen aber für längere Lektüren weiterhin das gedruckte Buch."
+              },
+              {
+                "key": "b",
+                "text": "Junge Leser\\*innen lesen nur digital."
+              },
+              {
+                "key": "c",
+                "text": "Längere Lektüren finden ausschließlich digital statt."
+              }
+            ],
+            "q": "Was betont der bildungswissenschaftliche Beitrag?",
+            "why": "„dass junge Leser\\*innen zwar digitale Texte bevorzugen, aber für längere Lektüren weiterhin das gedruckte Buch wählen.\""
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Lies den folgenden Text und wähle a, b oder c.\n> *„Das gedruckte Buch hat den Kindle nicht verdrängt — und der Kindle wird das Buch nicht verdrängen.\"* So lautet die These eines neuen Sammelbandes zur Zukunft des Lesens. Im Folgenden werden drei Blickwinkel miteinander versöhnt: ein kulturkonservativer, ein marktwirtschaftlicher und ein bildungswissenschaftlicher. Dem kulturkonservativen Beitrag zufolge ist das Buch mehr als ein Informationsträger; es sei ein kulturelles Artefakt, das durch seine Materialität eine eigene Würde erhält. Der marktwirtschaftliche Beitrag argumentiert, dass Verlage sowohl gedruckte als auch digitale Formate anbieten müssen, um beide Zielgruppen zu erreichen. Der bildungswissenschaftliche Beitrag schließlich betont, dass junge Leser\\*innen zwar digitale Texte bevorzugen, aber für längere Lektüren weiterhin das gedruckte Buch wählen — eine Beobachtung, die in mehreren empirischen Studien Bestätigung findet.\n",
+      "title": "Lesen Text 2 (Beitrag 2 von Dr. El-Sayed: Sammelband-Rezension)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Erörterung"
+          ],
+          "2": [
+            "IMRD"
+          ],
+          "3": [
+            "Zusammenfassung"
+          ],
+          "4": [
+            "dürfte"
+          ],
+          "5": [
+            "sei"
+          ],
+          "6": [
+            "wurde"
+          ],
+          "7": [
+            "einerseits"
+          ],
+          "8": [
+            "andererseits"
+          ],
+          "9": [
+            "These"
+          ],
+          "10": [
+            "Neubewertung"
+          ],
+          "11": [
+            "Reduktion"
+          ],
+          "12": [
+            "subjektive"
+          ],
+          "13": [
+            "Stellungnahme"
+          ],
+          "14": [
+            "gehöre"
+          ],
+          "15": [
+            "Hypotaxe"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Textsorten (C1/08):**\n1. Der These-Antithese-These-Aufbau gehört zur {1}.\n2. Hintergrund-Ziel-Methoden-Ergebnisse-Schlussfolgerung heißt {2}-Schema.\n3. Linear oder selektiv: das ist die Wahl bei der {3}.\n\n**Werkzeuge (C1/05):**\n4. (C1/05) Hedging-Modalverb der Vermutung: Das {4} zutreffen.\n5. (C1/05) Zitieren: Müller schreibt, die Methode {5} umstritten. (Konjunktiv I)\n6. (C1/05) Unpersönlich: Es {6} eine Studie durchgeführt. (Vorgangspassiv Präsens)\n\n**Wiederholung (B2/05 Erörterung):**\n7. (B2/05) Konnektorenpaar Pro/Contra: {7} … {8}.\n8. (B2/05) Einleitung der Erörterung: Hinleitung + {9}.\n9. (B2/05) Schluss der Erörterung: begründete {10}, keine Wiederholung.\n\n**Wiederholung (B2/13 Zusammenfassung/Stellungnahme):**\n10. (B2/13) Zusammenfassung: {11}, nicht bewerten.\n11. (B2/13) Stellungnahme: {12} Begründung.\n12. (B2/13) Eine {13} kann auch eine Meinungsäußerung enthalten.\n\n**Wiederholung (B2/04 Indirekte Rede):**\n13. (B2/04) Konjunktiv I: Schmidt schreibt, die Zukunft {14} KI.\n\n**Wiederholung (C1/02 Komplexe Syntax):**\n14. (C1/02) Satzperiode mit eingebettetem Nebensatz: {15}.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Eine Minute pro Item. Keine Notizen. Items mit (B2/..) oder (C1/..) wiederholen frühere Lektionen. 15 Items.",
+      "title": "Gemischter Schnelltest"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "Erörterung",
+              "Zusammenfassung",
+              "Stellungnahme",
+              "Partizipialattribut"
+            ],
+            "odd": 3,
+            "why": "Erörterung, Zusammenfassung und Stellungnahme sind Textsorten; „Partizipialattribut\" ist ein sprachliches Mittel."
+          },
+          {
+            "items": [
+              "einerseits",
+              "andererseits",
+              "zwar",
+              "sowohl"
+            ],
+            "odd": 3,
+            "why": "„einerseits/andererseits\" und „zwar\" passen in einen Gegensatz; „sowohl\" eröffnet eine Aufzählung („sowohl … als auch\")."
+          },
+          {
+            "items": [
+              "Hintergrund",
+              "Ziel",
+              "These",
+              "Schlussfolgerung"
+            ],
+            "odd": 2,
+            "why": "Hintergrund, Ziel und Schlussfolgerung sind IMRD-Bausteine des Abstracts; „These\" gehört zur Erörterung."
+          },
+          {
+            "items": [
+              "wie oben erwähnt",
+              "im Folgenden",
+              "abschließend",
+              "gestern"
+            ],
+            "odd": 3,
+            "why": "Die drei ersten sind Kohärenzmittel; „gestern\" ist eine Zeitangabe."
+          },
+          {
+            "items": [
+              "Erörterung",
+              "Stellungnahme",
+              "Zusammenfassung",
+              "Partizip"
+            ],
+            "odd": 3,
+            "why": "Die drei ersten sind Textsorten; „Partizip\" ist eine grammatische Form."
+          },
+          {
+            "items": [
+              "einerseits",
+              "jedoch",
+              "andererseits",
+              "folglich"
+            ],
+            "odd": 3,
+            "why": "„einerseits/andererseits/jedoch\" markieren Gegensatz; „folglich\" markiert eine Folgerung."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum.",
+      "title": "Odd one out: Textsorten und Kohärenz"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "andererseits"
+          ],
+          "2": [
+            "geprüft"
+          ],
+          "3": [
+            "wiederholen"
+          ],
+          "4": [
+            "Reduktion"
+          ],
+          "5": [
+            "Begründung"
+          ],
+          "6": [
+            "müsse"
+          ],
+          "7": [
+            "sei"
+          ],
+          "8": [
+            "deuten"
+          ],
+          "9": [
+            "lässt"
+          ],
+          "10": [
+            "IMRD"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Aus B2/05 (Erörterung):**\n1. „Einerseits ist KI hilfreich, {1} birgt sie Risiken.\"\n2. „Die These wird im Hauptteil {2}.\"\n3. „Die Schlussfolgerung darf die These nicht {3}, sondern muss neu bewerten.\"\n\n**Aus B2/13 (Zusammenfassung/Stellungnahme):**\n4. Zusammenfassung: {4}, nicht Bewertung.\n5. Stellungnahme: persönliche Meinung + {5}.\n\n**Aus B2/04 (Indirekte Rede):**\n6. „muss\" → Konjunktiv I: {6}.\n7. „ist\" → Konjunktiv I: {7}.\n\n**Aus C1/05 (Wissenschaftssprache):**\n8. Hedging-Wendung: Die Daten {8} darauf hin.\n9. Passiversatz mit „sich lassen\": Die These {9} sich belegen.\n\n**Aus C1/08 (Textproduktion):**\n10. Das Abstract folgt dem {10}-Schema.\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Wiederholung früherer Lektionen. 10 Items.",
+      "title": "Rückblick: B2/05, B2/13, B2/04, C1/05, C1/08"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Hauptteil"
+          ],
+          "2": [
+            "einerseits"
+          ],
+          "3": [
+            "andererseits"
+          ],
+          "4": [
+            "Zwar"
+          ],
+          "5": [
+            "jedoch"
+          ],
+          "6": [
+            "Neubewertung"
+          ],
+          "7": [
+            "Reduktion"
+          ],
+          "8": [
+            "sei"
+          ],
+          "9": [
+            "allgemeine"
+          ],
+          "10": [
+            "Gegenposition"
+          ],
+          "11": [
+            "Meines"
+          ],
+          "12": [
+            "Hintergrund"
+          ],
+          "13": [
+            "Methoden"
+          ],
+          "14": [
+            "Schlussfolgerung"
+          ],
+          "15": [
+            "Im Folgenden"
+          ],
+          "16": [
+            "bereits"
+          ],
+          "17": [
+            "dürfte"
+          ],
+          "18": [
+            "wurde"
+          ],
+          "19": [
+            "sei"
+          ],
+          "20": [
+            "nicht nur"
+          ],
+          "21": [
+            "sondern auch"
+          ],
+          "22": [
+            "deuten"
+          ],
+          "23": [
+            "kommen"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Erörterung:**\n1. Aufbau-Reihenfolge: Einleitung → These → {1} → Schlussfolgerung.\n2. Konnektorenpaar Pro/Contra: {2} … {3}.\n3. Konnektorenpaar Einschränkung: {4} … {5}.\n4. Schlussfolgerung = begründete {6}.\n\n**Zusammenfassung:**\n5. Linear/selektiv: Zusammenfassung = {7}, nicht Bewertung.\n6. Fremdaussage im Konjunktiv I: Schmidt schreibt, KI {8} hilfreich.\n7. Generalisieren: aus konkreten Beispielen eine {9} Aussage machen.\n\n**Stellungnahme:**\n8. Vier Bausteine: Position → Begründung → {10} → Schluss.\n9. „Meiner Auffassung nach / {11} Erachtens\" leitet die Position ein.\n\n**Abstract (IMRD):**\n10. Erster Baustein: {12}.\n11. Dritter Baustein: {13}.\n12. Letzter Baustein: {14}.\n\n**Kohärenz:**\n13. Themenführung: „{15} wird die Methodik erläutert.\"\n14. Rückverweis: „wie {16} dargelegt\".\n\n**Bezug zu C1/05:**\n15. Hedging-Modalverb: Das {17} zutreffen.\n16. Unpersönliche Form: „Es {18} eine Studie durchgeführt.\"\n17. Konjunktiv I: Schmidt schreibt, die Methode {19} umstritten.\n\n**Wiederholung (B2/05):**\n18. (B2/05) Konnektorenpaar: {20} … {21}.\n\n**Wiederholung (C1/05):**\n19. (C1/05) Hedging-Wendung: Die Daten {22} darauf hin.\n20. (C1/05) Funktionsverbgefüge: zu dem Schluss {23}.\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (bewerte dich /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "c1-08",
+  "intro": "Blöcke: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Die Lösungen findest du in solutions.md. Tipp: Verteil die Blöcke über mehrere Tage — H und A am Tag 1, B am Tag 2, C am Tag 3, D am Tag 4 nach einer Pause. Schreib die Erörterung in B8c/C5 von Hand — du lernst dabei mehr als beim reinen Lesen.\n",
+  "lesson": "C1/08",
+  "level": "C1",
+  "summary": null,
+  "title": "C1 · Lektion 8 — Übungen (Textproduktion C1)",
+  "topic": null
+}

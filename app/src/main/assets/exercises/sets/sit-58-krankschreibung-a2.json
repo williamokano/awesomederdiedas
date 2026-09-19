@@ -1,0 +1,804 @@
+{
+  "category": "Sport & Gesundheit",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "krankmelden",
+            "label": "Krankmelden"
+          },
+          {
+            "key": "bescheinigung",
+            "label": "Die Bescheinigung"
+          },
+          {
+            "key": "rueckkehr",
+            "label": "Rückkehr"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "krankmelden",
+            "text": "sich krankmelden"
+          },
+          {
+            "bucket": "bescheinigung",
+            "text": "die AU-Bescheinigung"
+          },
+          {
+            "bucket": "rueckkehr",
+            "text": "gesundschreiben"
+          },
+          {
+            "bucket": "krankmelden",
+            "text": "vor Arbeitsbeginn anrufen"
+          },
+          {
+            "bucket": "bescheinigung",
+            "text": "der Krankenschein"
+          },
+          {
+            "bucket": "rueckkehr",
+            "text": "wieder einsatzbereit sein"
+          },
+          {
+            "bucket": "krankmelden",
+            "text": "die Symptome nennen"
+          },
+          {
+            "bucket": "bescheinigung",
+            "text": "einreichen"
+          },
+          {
+            "bucket": "rueckkehr",
+            "text": "am Montag wieder da sein"
+          },
+          {
+            "bucket": "krankmelden",
+            "text": "die Vertretung informieren"
+          },
+          {
+            "bucket": "bescheinigung",
+            "text": "die Diagnose"
+          },
+          {
+            "bucket": "rueckkehr",
+            "text": "die offenen Aufgaben übernehmen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Krankmelden, Bescheinigung oder Rückkehr?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "sich krankmelden"
+          },
+          {
+            "key": "2",
+            "text": "die AU-Bescheinigung"
+          },
+          {
+            "key": "3",
+            "text": "einreichen"
+          },
+          {
+            "key": "4",
+            "text": "die Genesung"
+          },
+          {
+            "key": "5",
+            "text": "die Vertretung"
+          },
+          {
+            "key": "6",
+            "text": "gesundschreiben"
+          },
+          {
+            "key": "7",
+            "text": "die Lohnfortzahlung"
+          },
+          {
+            "key": "8",
+            "text": "die Frist"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "dem Arbeitgeber mitteilen, dass man krank ist"
+          },
+          {
+            "key": "b",
+            "text": "das offizielle Attest, das die Arbeitsunfähigkeit bestätigt"
+          },
+          {
+            "key": "c",
+            "text": "ein Dokument bei der zuständigen Stelle abgeben"
+          },
+          {
+            "key": "d",
+            "text": "das Gesundwerden nach einer Krankheit"
+          },
+          {
+            "key": "e",
+            "text": "die Person, die während der Krankheit die Aufgaben übernimmt"
+          },
+          {
+            "key": "f",
+            "text": "vom Arzt bestätigt bekommen, dass man wieder arbeiten kann"
+          },
+          {
+            "key": "g",
+            "text": "das Gehalt, das trotz Krankheit weiterbezahlt wird"
+          },
+          {
+            "key": "h",
+            "text": "die Zeit, bis zu der etwas erledigt sein muss"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "habe"
+          ],
+          "3": [
+            "hat"
+          ],
+          "4": [
+            "Darf"
+          ],
+          "5": [
+            "werde"
+          ],
+          "6": [
+            "hat"
+          ],
+          "7": [
+            "will"
+          ],
+          "8": [
+            "Können"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} mich heute leider krankmelden. (müssen)\n2. Ich {2} seit gestern Abend Fieber. (haben, Präsens)\n3. Der Arzt {3} mich für drei Tage krankgeschrieben. (haben, Perfekt)\n4. {4} ich Ihnen die Bescheinigung per E-Mail schicken? (dürfen, ich-Form)\n5. Ich {5} versuchen, meine dringenden Aufgaben noch zu erklären. (werden, Futur I)\n6. Die Kollegin {6} sich bereit erklärt, mich zu vertreten. (haben, Perfekt)\n7. Ich {7} am Montag wieder da sein. (wollen, ich-Form)\n8. {8} Sie mir sagen, bis wann ich die Bescheinigung einreichen muss? (können, Sie-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Sich krankmelden"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "krankmelden"
+          ],
+          "2": [
+            "AU-Bescheinigung"
+          ],
+          "3": [
+            "Frist"
+          ],
+          "4": [
+            "Vertretung"
+          ],
+          "5": [
+            "Genesung"
+          ],
+          "6": [
+            "Lohnfortzahlung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich muss mich heute {1}, ich fühle mich nicht gut. (dem Arbeitgeber sagen, dass man krank ist)\n2. Der Arzt stellt mir eine {2} aus. (das offizielle Attest)\n3. Ich muss die Bescheinigung innerhalb der {3} einreichen. (die Zeit, bis zu der etwas erledigt sein muss)\n4. Meine {4} übernimmt in der Zwischenzeit meine Aufgaben. (die Person, die während der Krankheit einspringt)\n5. Nach der {5} melde ich mich wieder einsatzbereit. (das Gesundwerden)\n6. Auch während der Krankheit bekomme ich die {6}. (das weitergezahlte Gehalt)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "KRANKMELDEN"
+          ],
+          "2": [
+            "HAST"
+          ],
+          "3": [
+            "FIEBER"
+          ],
+          "4": [
+            "ARZT"
+          ],
+          "5": [
+            "MELDE"
+          ],
+          "6": [
+            "BESSERUNG"
+          ],
+          "7": [
+            "KRANKGESCHRIEBEN"
+          ],
+          "8": [
+            "BESCHEINIGUNG"
+          ],
+          "9": [
+            "SCHICKE"
+          ],
+          "10": [
+            "ERHOLE"
+          ]
+        },
+        "bank": [
+          "KRANKMELDEN",
+          "HAST",
+          "FIEBER",
+          "ARZT",
+          "MELDE",
+          "BESSERUNG",
+          "KRANKGESCHRIEBEN",
+          "BESCHEINIGUNG",
+          "SCHICKE",
+          "KURIER",
+          "ERHOLE",
+          "HUSTEN"
+        ],
+        "text": "— Guten Morgen, hier ist Lukas. Ich muss mich leider {1}.\n— Oh, das tut mir leid. Was {2} du?\n— Ich habe seit gestern Abend hohes {3}.\n— Warst du schon beim {4}?\n— Ich habe gleich einen Termin, ich {5} dann Bescheid.\n— Gut, gute {6}!\n(später)\n— Ich war beim Arzt, ich bin bis Freitag {7}.\n— Verstanden. Kannst du mir die {8} zuschicken?\n— Klar, ich {9} sie noch heute per E-Mail.\n— Danke, und {10} dich gut.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Der Anruf am Morgen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Guten Morgen, ich muss mich leider krankmelden."
+              },
+              {
+                "key": "b",
+                "text": "Ich komme heute nicht, fertig."
+              },
+              {
+                "key": "c",
+                "text": "Ich bin einfach mal weg."
+              }
+            ],
+            "q": "Du musst dich morgens krankmelden. — You need to call in sick in the morning.",
+            "why": "Ein kurzer, höflicher Anruf am Morgen ist die übliche und erwartete Form."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das geht Sie nichts an."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe seit gestern Abend hohes Fieber."
+              },
+              {
+                "key": "c",
+                "text": "Keine Ahnung, irgendwas eben."
+              }
+            ],
+            "q": "Der Chef fragt, was dir fehlt. — The boss asks what's wrong.",
+            "why": "Eine kurze, sachliche Angabe der Symptome reicht völlig aus."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bescheinigungen interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich schicke einfach irgendwas."
+              },
+              {
+                "key": "c",
+                "text": "Darf ich Ihnen die Bescheinigung per E-Mail schicken?"
+              }
+            ],
+            "q": "Du möchtest die Bescheinigung per E-Mail schicken. — You want to send the note by email.",
+            "why": "Eine höfliche Frage klärt den bevorzugten Weg der Übermittlung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Können Sie mir sagen, bis wann ich die Bescheinigung einreichen muss?"
+              },
+              {
+                "key": "b",
+                "text": "Fristen sind mir egal."
+              },
+              {
+                "key": "c",
+                "text": "Ich reiche das ein, wann ich Lust habe."
+              }
+            ],
+            "q": "Du möchtest wissen, bis wann die Bescheinigung eingereicht werden muss. — You want to know by when the note must be submitted.",
+            "why": "Nach der genauen Frist zu fragen verhindert Missverständnisse."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Vielleicht komme ich, vielleicht nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich bin am Montag wieder da."
+              },
+              {
+                "key": "c",
+                "text": "Rückkehr ist noch unklar, fragen Sie später."
+              }
+            ],
+            "q": "Du möchtest deine Rückkehr ankündigen. — You want to announce your return.",
+            "why": "Eine klare Ankündigung der Rückkehr hilft bei der Planung im Team."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nichts sagen und auflegen."
+              },
+              {
+                "key": "b",
+                "text": "Wünsche sind mir egal."
+              },
+              {
+                "key": "c",
+                "text": "Vielen Dank, das wünsche ich mir auch."
+              }
+            ],
+            "q": "Der Chef wünscht dir gute Besserung. — The boss wishes you a speedy recovery.",
+            "why": "Ein kurzer, freundlicher Dank ist die übliche Reaktion auf gute Wünsche."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Höflich mit dem Arbeitgeber sprechen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "reflexives Verb, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "muss",
+              "mich",
+              "leider",
+              "krankmelden"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "seit + Dativ für den Beginn",
+            "tiles": [
+              "Ich",
+              "habe",
+              "seit",
+              "gestern",
+              "Abend",
+              "Fieber"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Der",
+              "Arzt",
+              "hat",
+              "mich",
+              "krankgeschrieben"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Frage, Infinitiv am Ende",
+            "tiles": [
+              "Darf",
+              "ich",
+              "Ihnen",
+              "die",
+              "Bescheinigung",
+              "schicken",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Zeitangabe vor der Ortsangabe",
+            "tiles": [
+              "Ich",
+              "bin",
+              "am",
+              "Montag",
+              "wieder",
+              "da"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2
+            ],
+            "note": "Imperativ, reflexives Verb",
+            "tiles": [
+              "Erhole",
+              "dich",
+              "gut"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze beim Krankmelden bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Man soll sich telefonisch krankmelden, nicht nur per Nachricht. — You should call in sick by phone, not just by message.",
+            "why": "So steht es ausdrücklich im Handbuch."
+          },
+          {
+            "answer": false,
+            "q": "Die AU-Bescheinigung muss erst nach einer Woche vorliegen. — The doctor's note only needs to be submitted after a week.",
+            "why": "Sie muss spätestens am dritten Krankheitstag vorliegen."
+          },
+          {
+            "answer": false,
+            "q": "Nach sechs Wochen zahlt weiterhin nur der Arbeitgeber. — After six weeks, only the employer keeps paying.",
+            "why": "Ab dann zahlt die Krankenkasse Krankengeld."
+          },
+          {
+            "answer": true,
+            "q": "Die Rückkehr soll einen Tag vorher angekündigt werden. — The return should be announced one day in advance.",
+            "why": "„Die Rückkehr bitte einen Tag vorher ankündigen.“"
+          },
+          {
+            "answer": false,
+            "q": "Der Arbeitgeber kann die Diagnose des Arztes anzweifeln. — The employer can question the doctor's diagnosis.",
+            "why": "Bei Unsicherheiten entscheidet allein der Arzt, nicht der Arbeitgeber."
+          },
+          {
+            "answer": true,
+            "q": "Krankmeldungen sollen vor Arbeitsbeginn erfolgen. — Sick notifications should happen before work starts.",
+            "why": "„Bitte vor Arbeitsbeginn telefonisch krankmelden.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Mitarbeiterhandbuch — Krankmeldung**\n>\n> - Bitte **vor Arbeitsbeginn** telefonisch krankmelden, nicht nur\n>   per Nachricht.\n> - Die **AU-Bescheinigung** muss spätestens am **dritten\n>   Krankheitstag** vorliegen.\n> - Bei einer Krankheit von **mehr als sechs Wochen** ändert sich\n>   die Zahlung: dann zahlt die Krankenkasse **Krankengeld**.\n> - Die Rückkehr bitte **einen Tag vorher** ankündigen, damit die\n>   Vertretung übergeben werden kann.\n> - Bei **Unsicherheiten zur Diagnose** entscheidet allein der\n>   Arzt, nicht der Arbeitgeber.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Regelung im Mitarbeiterhandbuch lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Rechtzeitig Bescheid geben und eine neue Bescheinigung nachreichen."
+              },
+              {
+                "key": "b",
+                "text": "Einfach nichts sagen und hoffen, dass es niemand merkt."
+              },
+              {
+                "key": "c",
+                "text": "Erst am letzten Tag Bescheid geben."
+              }
+            ],
+            "q": "Deine Krankheit dauert länger als erwartet. — Your illness lasts longer than expected.",
+            "why": "Frühzeitig informieren und die neue Bescheinigung nachreichen ist der korrekte Weg."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "So tun, als hättest du sie schon geschickt."
+              },
+              {
+                "key": "b",
+                "text": "Dich entschuldigen und sie sofort nachreichen."
+              },
+              {
+                "key": "c",
+                "text": "Es einfach ignorieren."
+              }
+            ],
+            "q": "Du hast vergessen, die Bescheinigung rechtzeitig einzureichen. — You forgot to submit the note on time.",
+            "why": "Ehrlichkeit und schnelles Nachreichen sind der beste Weg, das Versäumnis zu korrigieren."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wütend werden."
+              },
+              {
+                "key": "b",
+                "text": "Detaillierte medizinische Informationen preisgeben, obwohl nicht nötig."
+              },
+              {
+                "key": "c",
+                "text": "Ruhig auf die ärztliche Bescheinigung verweisen."
+              }
+            ],
+            "q": "Der Chef stellt unangenehme Fragen zu deiner Abwesenheit. — Your boss asks uncomfortable questions about your absence.",
+            "why": "Die Bescheinigung ist der offizielle Nachweis — mehr Details muss man nicht preisgeben."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Beim Arzt nachfragen, ob eine frühere Rückkehr möglich ist."
+              },
+              {
+                "key": "b",
+                "text": "Einfach ohne Rücksprache früher zur Arbeit gehen."
+              },
+              {
+                "key": "c",
+                "text": "Zu Hause bleiben, obwohl es nicht mehr nötig wäre."
+              }
+            ],
+            "q": "Du fühlst dich schon früher besser, die Bescheinigung gilt aber noch länger. — You feel better early, but the note still covers more days.",
+            "why": "Der Arzt kann die Bescheinigung anpassen, wenn eine frühere Rückkehr wirklich möglich ist."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kurz per Nachricht die wichtigsten Punkte an die Vertretung erklären."
+              },
+              {
+                "key": "b",
+                "text": "Die Aufgabe einfach liegen lassen."
+              },
+              {
+                "key": "c",
+                "text": "Trotz Krankheit ins Büro gehen."
+              }
+            ],
+            "q": "Eine dringende Aufgabe muss während deiner Krankheit übergeben werden. — An urgent task must be handed off during your illness.",
+            "why": "Eine kurze schriftliche Übergabe ist möglich, ohne die eigene Genesung zu gefährden."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ruhig bleiben und auf die ärztliche Bescheinigung verweisen."
+              },
+              {
+                "key": "b",
+                "text": "Sich lautstark rechtfertigen."
+              },
+              {
+                "key": "c",
+                "text": "Den Kollegen ignorieren und wütend werden."
+              }
+            ],
+            "q": "Ein Kollege zweifelt öffentlich an, dass du wirklich krank bist. — A colleague publicly doubts that you're really sick.",
+            "why": "Die Bescheinigung ist der offizielle Beleg — ruhig darauf zu verweisen beendet die Diskussion meist schnell."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn es nicht ganz nach Plan läuft"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "länger"
+          ],
+          "2": [
+            "einzureichen"
+          ],
+          "3": [
+            "Fragen"
+          ],
+          "4": [
+            "gesund"
+          ],
+          "5": [
+            "übergeben"
+          ],
+          "6": [
+            "angezweifelt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Meine Krankheit hat {1} gedauert, als ich zuerst dachte. (mehr Zeit gebraucht)\n2. Ich habe vergessen, die Bescheinigung rechtzeitig {2}. (bei der Stelle abgeben)\n3. Mein Chef hat unangenehme {3} zu meiner Abwesenheit gestellt. (Nachfragen)\n4. Ich habe mich schon früher wieder {4} gefühlt. (nicht mehr krank)\n5. Eine dringende Aufgabe musste {5} werden. (an jemand anderen weitergegeben)\n6. Ein Kollege hat {6}, dass ich wirklich krank bin. (nicht geglaubt)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "habe"
+          ],
+          "3": [
+            "hat"
+          ],
+          "4": [
+            "Darf"
+          ],
+          "5": [
+            "krankmelden"
+          ],
+          "6": [
+            "Bescheinigung"
+          ],
+          "7": [
+            "Frist"
+          ],
+          "8": [
+            "Vertretung"
+          ],
+          "9": [
+            "Genesung"
+          ],
+          "10": [
+            "länger"
+          ],
+          "11": [
+            "rechtzeitig"
+          ],
+          "12": [
+            "gesund"
+          ],
+          "13": [
+            "übergeben"
+          ],
+          "14": [
+            "angezweifelt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} mich heute krankmelden. (must)\n2. Ich {2} seit gestern Fieber. (have — Präsens)\n3. Der Arzt {3} mich krankgeschrieben. (has — Perfekt)\n4. {4} ich Ihnen die Bescheinigung schicken? (may — dürfen)\n5. Ich muss mich heute {5}. (report sick — Infinitiv)\n6. Der Arzt stellt mir eine {6} aus. (doctor's note)\n7. Ich muss die Bescheinigung innerhalb der {7} einreichen. (deadline)\n8. Meine {8} übernimmt meine Aufgaben. (stand-in / cover)\n9. Nach der {9} melde ich mich wieder. (recovery)\n10. Meine Krankheit hat {10} gedauert als gedacht. (longer)\n11. Ich habe vergessen, die Bescheinigung {11} einzureichen. (on time)\n12. Ich habe mich schon früher {12} gefühlt. (healthy again)\n13. Eine Aufgabe musste {13} werden. (handed over — Partizip)\n14. Ein Kollege hat es {14}. (doubted — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-58-krankschreibung-a2",
+  "intro": "Krankmelden klingt einfach — kurz anrufen oder schreiben, bevor die Arbeit beginnt — hat aber feste Regeln: die AU-Bescheinigung muss rechtzeitig eingereicht werden, und bei längerer Krankheit ändern sich die Fristen. Dieses Set übt den Anruf am Morgen, das Einreichen der Bescheinigung, die Ankündigung der Rückkehr, und was zu tun ist, wenn die Krankheit länger dauert als gedacht. Grammatik nach Bedarf: Perfekt im Bericht, Nebensätze mit dass/falls, höfliche Formulierungen mit Konjunktiv II. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/58-krankschreibung-a2",
+  "level": "A2",
+  "summary": "Sich morgens rechtzeitig krankmelden, die AU-Bescheinigung fristgerecht einreichen, die Rückkehr ankündigen — und was tun, wenn die Krankheit länger dauert.",
+  "title": "Krankschreibung beim Arbeitgeber — A2",
+  "topic": "Krankschreibung beim Arbeitgeber"
+}

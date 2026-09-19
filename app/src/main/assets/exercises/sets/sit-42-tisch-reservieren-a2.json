@@ -1,0 +1,833 @@
+{
+  "category": "Essen & Trinken",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "telefon",
+            "label": "Am Telefon"
+          },
+          {
+            "key": "tuer",
+            "label": "An der Tür, ohne Reservierung"
+          },
+          {
+            "key": "online",
+            "label": "Online oder per App"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "telefon",
+            "text": "Ich hätte gern einen Tisch für heute Abend."
+          },
+          {
+            "bucket": "tuer",
+            "text": "Haben Sie noch einen Tisch frei, wir haben nicht reserviert."
+          },
+          {
+            "bucket": "online",
+            "text": "Ich fülle das Formular auf der Webseite aus."
+          },
+          {
+            "bucket": "telefon",
+            "text": "Auf welchen Namen darf ich die Reservierung notieren?"
+          },
+          {
+            "bucket": "tuer",
+            "text": "Wir sind spontan vorbeigekommen."
+          },
+          {
+            "bucket": "online",
+            "text": "Ich wähle die Uhrzeit im Buchungssystem aus."
+          },
+          {
+            "bucket": "telefon",
+            "text": "Guten Tag, ich würde gern einen Tisch reservieren."
+          },
+          {
+            "bucket": "tuer",
+            "text": "Können wir warten, bis ein Tisch frei wird?"
+          },
+          {
+            "bucket": "online",
+            "text": "Ich bekomme eine Bestätigung per E-Mail."
+          },
+          {
+            "bucket": "telefon",
+            "text": "Für wie viele Personen soll ich reservieren?"
+          },
+          {
+            "bucket": "tuer",
+            "text": "Gibt es noch Plätze an der Theke?"
+          },
+          {
+            "bucket": "online",
+            "text": "Ich klicke auf „Reservierung bestätigen“."
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Sätze.",
+      "instructionsEn": "Sort the 12 sentences.",
+      "title": "Wo sagt man das?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Reservierung"
+          },
+          {
+            "key": "2",
+            "text": "stornieren"
+          },
+          {
+            "key": "3",
+            "text": "umbuchen"
+          },
+          {
+            "key": "4",
+            "text": "die Warteliste"
+          },
+          {
+            "key": "5",
+            "text": "der Fensterplatz"
+          },
+          {
+            "key": "6",
+            "text": "drinnen sitzen"
+          },
+          {
+            "key": "7",
+            "text": "die No-Show-Gebühr"
+          },
+          {
+            "key": "8",
+            "text": "auf den Namen reservieren"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die Buchung eines Tisches im Voraus"
+          },
+          {
+            "key": "b",
+            "text": "eine Reservierung ganz absagen"
+          },
+          {
+            "key": "c",
+            "text": "eine Reservierung auf eine andere Zeit oder Anzahl ändern"
+          },
+          {
+            "key": "d",
+            "text": "die Liste für Gäste, die noch auf einen Tisch warten"
+          },
+          {
+            "key": "e",
+            "text": "ein Sitzplatz direkt am Fenster"
+          },
+          {
+            "key": "f",
+            "text": "im Innenraum sitzen, nicht auf der Terrasse"
+          },
+          {
+            "key": "g",
+            "text": "die Gebühr, wenn man ohne Absage einfach nicht erscheint"
+          },
+          {
+            "key": "h",
+            "text": "die Reservierung unter einem bestimmten Namen eintragen"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "möchte"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "brauchen"
+          ],
+          "4": [
+            "habe"
+          ],
+          "5": [
+            "wurde"
+          ],
+          "6": [
+            "Dürfen"
+          ],
+          "7": [
+            "nennt"
+          ],
+          "8": [
+            "möchte"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} gern einen Tisch für morgen Abend reservieren. (möchten, ich-Form)\n2. {2} Sie uns bitte auf den Namen Keller eintragen? (können, Sie-Form)\n3. Wir {3} einen Tisch für vier Personen um 19 Uhr. (brauchen, wir-Form)\n4. Letzte Woche {4} ich schon einmal hier reserviert. (haben, Perfekt)\n5. Die Reservierung {5} für 19 Uhr bestätigt. (werden, Passiv Präteritum)\n6. {6} wir auch draußen sitzen? (dürfen, wir-Form)\n7. Am Telefon {7} man die Uhrzeit und die Personenzahl. (nennen, man-Form)\n8. Ich {8} die Reservierung gern auf Freitag verschieben. (möchten, ich-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze die Verbform.",
+      "instructionsEn": "Fill in the verb form.",
+      "title": "Am Telefon reservieren"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "gebucht"
+          ],
+          "2": [
+            "stornieren"
+          ],
+          "3": [
+            "verschieben"
+          ],
+          "4": [
+            "Warteliste"
+          ],
+          "5": [
+            "Terrasse"
+          ],
+          "6": [
+            "No-Show-Gebühr",
+            "Nichterscheinensgebühr"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir haben für 19 Uhr einen Tisch {1}. (buchen, Partizip Perfekt)\n2. Falls wir nicht kommen können, müssen wir rechtzeitig {2}. (die Buchung ganz absagen)\n3. Könnten wir die Reservierung auf Samstag {3}? (auf eine andere Zeit ändern)\n4. Ohne Reservierung stehen wir vielleicht auf der {4}. (die Liste für Gäste ohne Tisch)\n5. Bei schönem Wetter sitzen wir lieber auf der {5}. (draußen vor dem Restaurant)\n6. Wer ohne Absage nicht erscheint, zahlt manchmal eine {6}. (die Gebühr dafür)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "RESERVIEREN"
+          ],
+          "2": [
+            "SOLL"
+          ],
+          "3": [
+            "VIERT"
+          ],
+          "4": [
+            "WÜRDE"
+          ],
+          "5": [
+            "PASST"
+          ],
+          "6": [
+            "NAMEN"
+          ],
+          "7": [
+            "TERRASSE"
+          ],
+          "8": [
+            "FENSTER"
+          ],
+          "9": [
+            "TRAGE"
+          ],
+          "10": [
+            "ÄNDERT"
+          ]
+        },
+        "bank": [
+          "RESERVIEREN",
+          "SOLL",
+          "VIERT",
+          "WÜRDE",
+          "PASST",
+          "NAMEN",
+          "TERRASSE",
+          "FENSTER",
+          "TRAGE",
+          "ÄNDERT",
+          "STORNIEREN",
+          "WARTELISTE",
+          "GEBÜHR",
+          "ABGESAGT"
+        ],
+        "text": "— Restaurant Lindenhof, guten Tag.\n— Guten Tag, ich hätte gern einen Tisch für heute Abend {1}.\n— Gerne, für wie viele Personen {2} ich reservieren?\n— Wir sind zu {3}.\n— Und um wie viel Uhr {4} es Ihnen passen?\n— Um 19 Uhr {5} uns das gut.\n— Sehr gern. Auf welchen {6} darf ich reservieren?\n— Keller, K-E-L-L-E-R.\n— Möchten Sie lieber drinnen oder auf der {7}?\n— Wenn möglich, drinnen am {8}.\n— Kein Problem. Ich {9} Sie für 19 Uhr, vier Personen, auf den Namen Keller ein.\n— Vielen Dank.\n— Gern geschehen. Falls sich etwas {10}, rufen Sie bitte noch einmal an.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Das Reservierungsgespräch"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich hätte gern einen Tisch für zwei Personen, wenn möglich."
+              },
+              {
+                "key": "b",
+                "text": "Gib mir einen Tisch!"
+              },
+              {
+                "key": "c",
+                "text": "Tisch, zwei Personen, jetzt."
+              }
+            ],
+            "q": "Du reservierst zum ersten Mal telefonisch. — You're booking a table by phone for the first time.",
+            "why": "Die Konjunktiv-II-Form „ich hätte gern“ ist die übliche höfliche Bitte am Telefon."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist falsch! Ändern Sie das sofort!"
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, ich glaube, da ist etwas durcheinandergekommen — ich hatte 19 Uhr gesagt."
+              },
+              {
+                "key": "c",
+                "text": "Egal, wir kommen trotzdem später."
+              }
+            ],
+            "q": "Die Reservierung ist auf eine andere Uhrzeit gebucht als gewünscht. — The reservation is booked for a different time than you wanted.",
+            "why": "Höflich auf den Fehler hinweisen bringt eher eine Lösung als ein Vorwurf."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir sind spontan mehr geworden — geht das noch?"
+              },
+              {
+                "key": "b",
+                "text": "Wir bringen einfach zwei Stühle mit."
+              },
+              {
+                "key": "c",
+                "text": "Das interessiert Sie nicht."
+              }
+            ],
+            "q": "Ihr seid jetzt zu sechst statt zu viert. — You are now six instead of four.",
+            "why": "Fragen statt eigenmächtig handeln, weil der Tisch für sechs vielleicht zu klein ist."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wäre es möglich, die Reservierung auf Sonntag zu verschieben?"
+              },
+              {
+                "key": "b",
+                "text": "Wir kommen jetzt an einem anderen Tag, das wissen Sie schon."
+              },
+              {
+                "key": "c",
+                "text": "Wir sagen einfach nicht Bescheid."
+              }
+            ],
+            "q": "Ihr müsst die Reservierung um zwei Tage verschieben. — You need to move the reservation two days later.",
+            "why": "Die Konjunktiv-II-Frage ist die höfliche Standardform für eine Bitte um Änderung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir kommen etwas später — halten Sie uns den Tisch bitte trotzdem?"
+              },
+              {
+                "key": "b",
+                "text": "Nichts sagen und einfach zu spät kommen."
+              },
+              {
+                "key": "c",
+                "text": "Die Reservierung streichen lassen."
+              }
+            ],
+            "q": "Ihr kommt zehn Minuten später als reserviert. — You'll arrive ten minutes later than booked.",
+            "why": "Ein kurzer Anruf verhindert, dass der Tisch an andere vergeben wird."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir kommen einfach nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich möchte die Reservierung für heute Abend leider stornieren."
+              },
+              {
+                "key": "c",
+                "text": "Vielleicht kommen wir, vielleicht nicht."
+              }
+            ],
+            "q": "Ihr müsst die Reservierung ganz absagen. — You need to cancel the reservation entirely.",
+            "why": "Eine klare Stornierung vermeidet eine mögliche No-Show-Gebühr."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Höflich am Telefon und im Restaurant"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "höfliche Bitte mit hätte gern",
+            "tiles": [
+              "Ich",
+              "hätte",
+              "gern",
+              "einen",
+              "Tisch",
+              "für",
+              "vier",
+              "Personen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Frage mit Modalverb an Position 2, Infinitiv am Ende",
+            "tiles": [
+              "Für",
+              "wie",
+              "viele",
+              "Personen",
+              "möchten",
+              "Sie",
+              "reservieren",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Konjunktiv-II-Bitte, Infinitiv am Ende",
+            "tiles": [
+              "Könnten",
+              "Sie",
+              "uns",
+              "einen",
+              "Tisch",
+              "am",
+              "Fenster",
+              "geben",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "möchte + Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "die",
+              "Reservierung",
+              "auf",
+              "Samstag",
+              "verschieben"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Leider auf Position 1, Verb auf Position 2, Infinitiv am Ende",
+            "tiles": [
+              "Leider",
+              "müssen",
+              "wir",
+              "die",
+              "Reservierung",
+              "stornieren"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Zeitangabe am Satzende",
+            "tiles": [
+              "Wir",
+              "kommen",
+              "leider",
+              "zehn",
+              "Minuten",
+              "später"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze am Telefon bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Ein reservierter Tisch wird 30 Minuten freigehalten. — A booked table is held for 30 minutes.",
+            "why": "„Tische werden 15 Minuten freigehalten.“"
+          },
+          {
+            "answer": true,
+            "q": "Ab sechs Personen braucht man eine schriftliche Bestätigung. — From six people on, a written confirmation is needed.",
+            "why": "So steht es ausdrücklich in den Regeln."
+          },
+          {
+            "answer": true,
+            "q": "Eine Stornierung zwei Stunden vorher ist noch rechtzeitig. — Cancelling two hours ahead is still on time.",
+            "why": "„Spätestens 2 Stunden vorher“ reicht genau noch."
+          },
+          {
+            "answer": false,
+            "q": "Änderungen der Personenzahl gehen nur per E-Mail. — Changes to the party size only work by email.",
+            "why": "Änderungen sollen telefonisch gemeldet werden, nicht per E-Mail."
+          },
+          {
+            "answer": false,
+            "q": "Bei Regen wird trotzdem auf der Terrasse serviert. — Even in rain, the terrace is served.",
+            "why": "Auf der Terrasse wird nur bei trockenem Wetter serviert."
+          },
+          {
+            "answer": true,
+            "q": "Nach 22 Uhr kann man nicht mehr reservieren. — After 10 pm you can no longer reserve.",
+            "why": "Reservierungen sind bis 22 Uhr möglich, danach gilt freie Platzwahl."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Restaurant Lindenhof — Reservierungen**\n>\n> - Tische werden **15 Minuten** freigehalten, danach an Wartende\n>   vergeben.\n> - Ab **6 Personen** ist eine schriftliche Bestätigung per E-Mail\n>   nötig.\n> - Stornierungen bitte **spätestens 2 Stunden vorher**, sonst wird\n>   eine **No-Show-Gebühr von 10 € pro Person** berechnet.\n> - Änderungen der Personenzahl bitte **telefonisch**, nicht per\n>   E-Mail.\n> - Auf der Terrasse wird **nur bei trockenem Wetter** serviert.\n> - Reservierungen sind **bis 22 Uhr** möglich, danach freie\n>   Platzwahl.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Reservierungsregeln lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Streiten und laut werden."
+              },
+              {
+                "key": "b",
+                "text": "Ruhig Namen und Uhrzeit nennen und um eine Lösung bitten — vielleicht wurde nur der Tag vertauscht."
+              },
+              {
+                "key": "c",
+                "text": "Sofort wieder gehen."
+              }
+            ],
+            "q": "Ihr kommt an, aber die Reservierung ist nicht im System. — You arrive but the reservation isn't in the system.",
+            "why": "Ruhig bleiben und die eigenen Angaben nennen führt am schnellsten zu einer Lösung — auch wenn der Fehler beim Restaurant liegt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Höflich fragen, ob ein größerer Tisch frei ist oder zwei Tische zusammengestellt werden können."
+              },
+              {
+                "key": "b",
+                "text": "Sich einfach woanders hinsetzen."
+              },
+              {
+                "key": "c",
+                "text": "Weggehen, ohne etwas zu sagen."
+              }
+            ],
+            "q": "Der reservierte Tisch ist eigentlich für zwei Personen, ihr seid aber vier. — The booked table is for two, but there are four of you.",
+            "why": "Eine höfliche Nachfrage lässt dem Personal die Möglichkeit, das Problem direkt zu lösen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Erwarten, dass der Tisch noch frei ist."
+              },
+              {
+                "key": "b",
+                "text": "Verständnis zeigen, falls der Tisch schon vergeben wurde, und nach einem neuen fragen."
+              },
+              {
+                "key": "c",
+                "text": "Sich beschweren, dass der Tisch weg ist."
+              }
+            ],
+            "q": "Ihr kommt 25 Minuten später an, ohne vorher angerufen zu haben. — You arrive 25 minutes late without having called ahead.",
+            "why": "Tische werden nach einer bestimmten Zeit an Wartende vergeben — ohne Anruf ist das Restaurant im Recht."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Erst am Tag selbst absagen."
+              },
+              {
+                "key": "b",
+                "text": "So früh wie möglich stornieren, damit der Tisch an andere vergeben werden kann."
+              },
+              {
+                "key": "c",
+                "text": "Gar nicht absagen."
+              }
+            ],
+            "q": "Ihr wisst schon eine Woche vorher, dass ihr nicht kommen könnt. — You already know a week ahead that you can't make it.",
+            "why": "Eine frühzeitige Absage gibt anderen Gästen die Chance auf den Platz."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Freundlich auf die Rechnung hinweisen und um Korrektur bitten."
+              },
+              {
+                "key": "b",
+                "text": "Einfach zahlen."
+              },
+              {
+                "key": "c",
+                "text": "Nie wieder hingehen, ohne etwas zu sagen."
+              }
+            ],
+            "q": "Beim Bezahlen seht ihr eine No-Show-Gebühr, obwohl ihr da wart. — On the bill you see a no-show fee, even though you showed up.",
+            "why": "Ein freundlicher Hinweis führt meist sofort zur Korrektur — ein Abrechnungsfehler ist kein böser Wille."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Trotzdem draußen bleiben."
+              },
+              {
+                "key": "b",
+                "text": "Freundlich fragen, ob drinnen noch ein Tisch frei ist."
+              },
+              {
+                "key": "c",
+                "text": "Das Restaurant verlassen."
+              }
+            ],
+            "q": "Ihr wolltet draußen sitzen, aber es hat kurzfristig angefangen zu regnen. — You wanted to sit outside, but it just started raining.",
+            "why": "Eine kurze Nachfrage löst das Problem meist ohne Wartezeit."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn beim Ankommen etwas nicht stimmt"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "System"
+          ],
+          "2": [
+            "spät"
+          ],
+          "3": [
+            "klein"
+          ],
+          "4": [
+            "stornieren"
+          ],
+          "5": [
+            "No-Show-Gebühr",
+            "Nichterscheinensgebühr"
+          ],
+          "6": [
+            "drinnen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Reservierung war nicht im {1}. (die Datenbank des Restaurants)\n2. Wir kamen ohne anzurufen zu {2}. (nicht rechtzeitig)\n3. Der Tisch war für unsere Gruppe zu {3}. (nicht groß genug)\n4. Bitte {4} Sie rechtzeitig, wenn Sie nicht kommen können. (die Buchung ganz absagen, Sie-Form)\n5. Auf der Rechnung stand eine {5}, obwohl wir da waren. (die Gebühr für Nichterscheinen)\n6. Bei Regen sitzen wir lieber {6} statt auf der Terrasse. (im Innenraum)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "möchte"
+          ],
+          "2": [
+            "möchten"
+          ],
+          "3": [
+            "viert"
+          ],
+          "4": [
+            "Könnten"
+          ],
+          "5": [
+            "Terrasse"
+          ],
+          "6": [
+            "gebucht"
+          ],
+          "7": [
+            "verschieben"
+          ],
+          "8": [
+            "stornieren"
+          ],
+          "9": [
+            "Warteliste"
+          ],
+          "10": [
+            "System"
+          ],
+          "11": [
+            "klein"
+          ],
+          "12": [
+            "später"
+          ],
+          "13": [
+            "No-Show-Gebühr",
+            "Nichterscheinensgebühr"
+          ],
+          "14": [
+            "drinnen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} gern einen Tisch für heute Abend reservieren. (would like)\n2. Für wie viele Personen {2} Sie reservieren? (want to)\n3. Wir sind zu {3}. (four, as a group)\n4. {4} Sie uns bitte auf den Namen Keller eintragen? (could — polite)\n5. Möchten Sie drinnen oder auf der {5} sitzen? (outdoor terrace)\n6. Wir haben für 19 Uhr einen Tisch {6}. (booked — Partizip)\n7. Könnten wir die Reservierung auf Samstag {7}? (reschedule)\n8. Falls wir nicht kommen können, müssen wir rechtzeitig {8}. (cancel)\n9. Ohne Reservierung stehen wir vielleicht auf der {9}. (waiting list)\n10. Die Reservierung war nicht im {10}. (the restaurant's database)\n11. Der Tisch war für unsere Gruppe zu {11}. (too small)\n12. Wir kommen leider zehn Minuten {12}. (later)\n13. Auf der Rechnung stand eine {13}, obwohl wir da waren. (no-show fee)\n14. Bei Regen sitzen wir lieber {14} statt auf der Terrasse. (inside)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-42-tisch-reservieren-a2",
+  "intro": "Einen Tisch zu reservieren ist unkompliziert, bis etwas dazwischenkommt: Ihr werdet mehr, die Uhrzeit passt plötzlich nicht mehr, oder ihr müsst ganz absagen. Dieses Set übt genau das — telefonisch reservieren, auf den Namen buchen, umbuchen und stornieren, dazu die kleinen Reibungen, die dabei entstehen: der Tisch ist nicht im System, die Reservierung war für eine andere Uhrzeit, ihr kommt zu spät. Grammatik nach Bedarf: Modalverben (können, möchten), höfliche Konjunktiv-II-Bitten (Könnten Sie …?, Wäre es möglich …?), Nebensätze mit falls/ob. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/42-tisch-reservieren-a2",
+  "level": "A2",
+  "summary": "Telefonisch einen Tisch reservieren, auf den Namen buchen, umbuchen, stornieren — und was tun, wenn beim Ankommen etwas nicht stimmt.",
+  "title": "Tisch reservieren und umbuchen — A2",
+  "topic": "Tisch reservieren"
+}

@@ -1,0 +1,959 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "der"
+          ],
+          "2": [
+            "die"
+          ],
+          "3": [
+            "das"
+          ],
+          "4": [
+            "die"
+          ],
+          "5": [
+            "den"
+          ],
+          "6": [
+            "die"
+          ],
+          "7": [
+            "das"
+          ],
+          "8": [
+            "die"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Nominativ:** maskulin: {1} · feminin: {2} · neutrum: {3} · Plural: {4}\n**Akkusativ:** maskulin: {5} · feminin: {6} · neutrum: {7} · Plural: {8}\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Ergänze alle acht Relativpronomen-Formen (Nominativ und Akkusativ).",
+      "instructionsEn": "Fill in all eight relative pronoun forms (Nominativ and Akkusativ).",
+      "title": "Relativpronomen: Tabelle"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "der"
+          ],
+          "2": [
+            "die"
+          ],
+          "3": [
+            "das"
+          ],
+          "4": [
+            "die"
+          ],
+          "5": [
+            "der"
+          ],
+          "6": [
+            "die"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das ist der Mann, {1} neben Anna arbeitet.\n2. Ich habe eine Freundin, {2} sehr klug ist.\n3. Das ist das Kind, {3} auf dem Spielplatz spielt.\n4. Die Leute, {4} dort sitzen, sind unsere Nachbarn.\n5. Er ist der Typ, {5} immer pünktlich ist.\n6. Sie ist die Frau, {6} die beste Pasta kocht.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze das richtige Relativpronomen (Nominativ: der / die / das / die). 6 Aufgaben.",
+      "instructionsEn": "Fill in the correct relative pronoun (Nominativ: der / die / das / die). 6 items.",
+      "title": "Relativsatz: Nominativ"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "den"
+          ],
+          "2": [
+            "die"
+          ],
+          "3": [
+            "das"
+          ],
+          "4": [
+            "die"
+          ],
+          "5": [
+            "den"
+          ],
+          "6": [
+            "die"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das ist der Film, {1} ich sehr gerne mag.\n2. Ich kenne die Frau, {2} du meinst.\n3. Das ist das Buch, {3} Bruno mir empfohlen hat.\n4. Die Kollegen, {4} ich kenne, sind alle nett.\n5. Er ist der Mensch, {5} ich am meisten mag.\n6. Das ist die Kollegin, {6} ich jeden Tag treffe.\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das richtige Relativpronomen (Akkusativ: den / die / das / die). 6 Aufgaben.",
+      "instructionsEn": "Fill in the correct relative pronoun (Akkusativ: den / die / das / die). 6 items.",
+      "title": "Relativsatz: Akkusativ"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "der"
+          ],
+          "2": [
+            "den"
+          ],
+          "3": [
+            "die"
+          ],
+          "4": [
+            "die"
+          ],
+          "5": [
+            "das"
+          ],
+          "6": [
+            "das"
+          ],
+          "7": [
+            "die"
+          ],
+          "8": [
+            "die"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das ist der Kollege, {1} immer hilfsbereit ist. (subject of *ist*)\n2. Das ist der Kollege, {2} alle im Team mögen. (object of *mögen*)\n3. Das ist die Frau, {3} neben mir wohnt. (subject of *wohnt*)\n4. Das ist die Frau, {4} ich gestern getroffen habe. (object of *treffen*)\n5. Das ist das Kind, {5} sehr lustig ist. (subject of *ist*)\n6. Das ist das Kind, {6} wir im Park gesehen haben. (object of *sehen*)\n7. Das sind die Leute, {7} hier wohnen. (subject of *wohnen*)\n8. Das sind die Leute, {8} ich kenne. (object of *kennen*)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Entscheide zuerst: Ist das Nomen im Relativsatz Subjekt (→ Nominativ) oder Objekt (→ Akkusativ)? 8 Aufgaben.",
+      "instructionsEn": "First decide: is the noun in the relative clause the subject (→ Nominativ) or the object (→ Akkusativ)? 8 items.",
+      "title": "Nominativ oder Akkusativ?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "der"
+          ],
+          "2": [
+            "den"
+          ],
+          "3": [
+            "die"
+          ],
+          "4": [
+            "das"
+          ]
+        },
+        "listLayout": true,
+        "text": "Mein Kollege Marko ist der Mensch, (1) {1} immer gute Laune hat.\nEr ist der Typ, (2) {2} ich sehr sympathisch finde.\nEr hat eine Schwester, (3) {3} noch in seiner Heimatstadt wohnt.\nDas ist das Café, (4) {4} er am liebsten besucht.\n",
+        "type": "gap-text"
+      },
+      "id": "A10",
+      "instructions": "Ergänze das richtige Relativpronomen (der / die / das / den). 4 Aufgaben.",
+      "instructionsEn": "Fill in the correct relative pronoun (der / die / das / den). 4 items.",
+      "title": "Mini-Lückentext: Relativpronomen im Kontext"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "die"
+          ],
+          "2": [
+            "der"
+          ],
+          "3": [
+            "die"
+          ],
+          "4": [
+            "die"
+          ],
+          "5": [
+            "den"
+          ],
+          "6": [
+            "das"
+          ],
+          "7": [
+            "die"
+          ],
+          "8": [
+            "das"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich mag die Kollegin, {1} immer lustig ist.\n2. Das ist der Freund, {2} mir gestern geholfen hat.\n3. Das ist die Stadt, {3} ich am liebsten besuche.\n4. Das sind die Fotos, {4} ich dir zeigen wollte.\n5. Er ist der Mensch, {5} alle im Büro kennen.\n6. Sie hat ein Auto, {6} sehr schnell ist.\n7. Das ist die Jacke, {7} ich im Kaufhaus gesehen habe.\n8. Das ist das Buch, {8} mich sehr interessiert.\n",
+        "type": "gap-text"
+      },
+      "id": "A12",
+      "instructions": "Entscheide zuerst: Nominativ oder Akkusativ? 8 Aufgaben.",
+      "instructionsEn": "First decide: Nominativ or Akkusativ? 8 items.",
+      "title": "Gesamtübung: Nom und Akk gemischt"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "der"
+          ],
+          "2": [
+            "der"
+          ],
+          "3": [
+            "die"
+          ],
+          "4": [
+            "die"
+          ]
+        },
+        "listLayout": true,
+        "text": "— Wer ist der Mann, (1) {1} dort neben Frau Weber steht?\n— Das ist Klaus, der neue Nachbar.\n— Ach, der Mann, (2) {2} im dritten Stock wohnt?\n— Genau! Und das ist seine Frau, (3) {3} aus Wien kommt.\n— Die Dame, (4) {4} wir gestern im Treppenhaus gesehen haben?\n— Ja, genau die!\n",
+        "type": "gap-text"
+      },
+      "id": "B1",
+      "instructions": "Ergänze das richtige Relativpronomen. 4 Aufgaben.",
+      "instructionsEn": "Fill in the correct relative pronoun. 4 items.",
+      "title": "Dialog ergänzen: Relativpronomen einsetzen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Das ist die Dame, ___"
+          },
+          {
+            "key": "2",
+            "text": "Das ist der Chef, ___"
+          },
+          {
+            "key": "3",
+            "text": "Das ist das Kind, ___"
+          },
+          {
+            "key": "4",
+            "text": "Das ist die Kollegin, ___"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "den alle im Team respektieren."
+          },
+          {
+            "key": "b",
+            "text": "die aus Wien kommt."
+          },
+          {
+            "key": "c",
+            "text": "die immer freundlich lächelt."
+          },
+          {
+            "key": "d",
+            "text": "das im Garten spielt."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B4",
+      "instructions": "Ordne jeden Satzanfang (1–4) dem passenden Relativsatz (a–d) zu.",
+      "instructionsEn": "Match each sentence beginning (1–4) to the correct relative clause (a–d).",
+      "title": "Zuordnen: Was passt zusammen?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "c",
+          "3": "d",
+          "4": "a",
+          "5": "e",
+          "6": "f"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "hilfsbereit"
+          },
+          {
+            "key": "2",
+            "text": "zuverlässig"
+          },
+          {
+            "key": "3",
+            "text": "schüchtern"
+          },
+          {
+            "key": "4",
+            "text": "stur"
+          },
+          {
+            "key": "5",
+            "text": "eingebildet"
+          },
+          {
+            "key": "6",
+            "text": "fleißig"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "stubborn"
+          },
+          {
+            "key": "b",
+            "text": "helpful"
+          },
+          {
+            "key": "c",
+            "text": "reliable"
+          },
+          {
+            "key": "d",
+            "text": "shy"
+          },
+          {
+            "key": "e",
+            "text": "conceited"
+          },
+          {
+            "key": "f",
+            "text": "hard-working"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B7",
+      "instructions": "Ordne jedes deutsche Adjektiv (1–6) seiner englischen Bedeutung (a–f) zu.",
+      "instructionsEn": "Match each German adjective (1–6) to its English meaning (a–f).",
+      "title": "Wortschatz: Charakter und Aussehen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "schlank"
+          ],
+          "2": [
+            "dunkle"
+          ],
+          "3": [
+            "die"
+          ],
+          "4": [
+            "hilfsbereit"
+          ],
+          "5": [
+            "der"
+          ],
+          "6": [
+            "die"
+          ],
+          "7": [
+            "das"
+          ],
+          "8": [
+            "die"
+          ],
+          "9": [
+            "den"
+          ],
+          "10": [
+            "mag"
+          ]
+        },
+        "listLayout": true,
+        "text": "Mein neuer Kollege heißt Jan. Er ist 30 Jahre alt und kommt aus\nHamburg. Er ist groß und (1) {1}, hat kurze (2) {2} Haare\nund braune Augen. Er trägt eine Brille, (3) {3} ihm sehr gut\nsteht. Jan ist sehr (4) {4} — er hilft allen Menschen gern. Er\nist genau der Kollege, (5) {5} immer gute Laune hat. In seiner\nFreizeit liest er gern Bücher, (6) {6} er in der Bibliothek\nausleiht. Er kocht auch sehr gut — er macht das Essen, (7) {7}\nalle lieben. Seine Mutter, (8) {8} aus Hamburg kommt, besucht\nihn jeden Monat. Jan ist der Mensch, (9) {9} ich in meinem Team\nam meisten (10) {10}.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Lies den Text und ergänze in jeder Lücke ein passendes Wort. 10 Aufgaben.",
+      "instructionsEn": "Read the text and fill in one suitable word in each gap. 10 items.",
+      "title": "Lückentext"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kollegin"
+              },
+              {
+                "key": "b",
+                "text": "Kollegen"
+              },
+              {
+                "key": "c",
+                "text": "Kollege"
+              }
+            ],
+            "q": "ich möchte Ihnen unsere neue (1) ___ vorstellen.",
+            "why": "The heading is about a new female colleague."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "arbeiten"
+              },
+              {
+                "key": "b",
+                "text": "arbeitest"
+              },
+              {
+                "key": "c",
+                "text": "arbeitet"
+              }
+            ],
+            "q": "Sie heißt Frau Müller und (2) ___ seit zwei Wochen in unserem Team.",
+            "why": "Subject Sie (3rd person sg.) → arbeitet."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "den"
+              },
+              {
+                "key": "b",
+                "text": "die"
+              },
+              {
+                "key": "c",
+                "text": "der"
+              }
+            ],
+            "q": "Sie ist die Kollegin, (3) ___ immer hilfsbereit und freundlich ist.",
+            "why": "die Kollegin is feminine Nominativ (subject of ist) → die."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sich"
+              },
+              {
+                "key": "b",
+                "text": "mich"
+              },
+              {
+                "key": "c",
+                "text": "ihm"
+              }
+            ],
+            "q": "Sie beschreibt (4) ___ als kreativ und zuverlässig.",
+            "why": "Reflexive pronoun for 3rd person (sie = formal Sie can be reflexive sich)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "den"
+              },
+              {
+                "key": "b",
+                "text": "die"
+              },
+              {
+                "key": "c",
+                "text": "das"
+              }
+            ],
+            "q": "Alle Mitarbeiter, (5) ___ sie schon kennengelernt haben, mögen sie sehr.",
+            "why": "Mitarbeiter is plural Nominativ (subject of haben) → die."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "uns"
+              },
+              {
+                "key": "b",
+                "text": "mich"
+              },
+              {
+                "key": "c",
+                "text": "sich"
+              }
+            ],
+            "q": "Wir freuen (6) ___ auf die Zusammenarbeit.",
+            "why": "wir freuen uns (fixed reflexive phrase)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Lies den Text und wähle die beste Option (a, b oder c) für jede Lücke.",
+      "instructionsEn": "Read the text and choose the best option (a, b, or c) for each gap.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "schlank"
+          ],
+          "2": [
+            "dunkle"
+          ],
+          "3": [
+            "der"
+          ],
+          "4": [
+            "den"
+          ],
+          "5": [
+            "das"
+          ],
+          "6": [
+            "kocht"
+          ],
+          "7": [
+            "die"
+          ],
+          "8": [
+            "studiert"
+          ],
+          "9": [
+            "spielt"
+          ],
+          "10": [
+            "fotografiert"
+          ]
+        },
+        "bank": [
+          "schlank",
+          "dunkle",
+          "der",
+          "den",
+          "das",
+          "kocht",
+          "die",
+          "studiert",
+          "spielt",
+          "fotografiert",
+          "groß",
+          "lange",
+          "schreibt",
+          "arbeitet",
+          "einen",
+          "tanzt",
+          "trinkt",
+          "reist",
+          "liest",
+          "singt"
+        ],
+        "text": "Mein Freund Noah ist 28 Jahre alt und kommt aus Hamburg.\nEr ist groß und (1) {1}, hat kurze (2) {2} Haare.\nNoah ist ein Mensch, (3) {3} immer hilfsbereit ist.\nEr ist der Freund, (4) {4} ich am meisten mag.\nSeine Lieblingsküche ist die italienische — das ist das Essen,\n(5) {5} er am liebsten (6) {6}.\nNoah hat eine Schwester, (7) {7} Medizin (8) {8}.\nIn seiner Freizeit (9) {9} er gern Fußball.\nEr hat auch ein tolles Hobby — er (10) {10} gern Landschaften.\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Zehn Wörter werden nicht gebraucht. Jedes Wort nur einmal.",
+      "instructionsEn": "Fill the 10 gaps using words from the box. Ten words are not needed. Each word once.",
+      "title": "Sprachbausteine Teil 2 (word bank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Marko arbeitet seit einem Jahr im Team.",
+            "why": "Er arbeitet seit zwei Monaten im Team, nicht einem Jahr."
+          },
+          {
+            "answer": true,
+            "q": "Marko hat grüne Augen.",
+            "why": "„Er trägt eine Brille, … grünen Augen\"."
+          },
+          {
+            "answer": false,
+            "q": "Im Büro mag ihn niemand.",
+            "why": "„Er ist auch der Kollege, den alle im Team mögen\"."
+          },
+          {
+            "answer": true,
+            "q": "Marko kocht gern italienisches Essen.",
+            "why": "„In seiner Freizeit … kocht italienisches Essen\"."
+          },
+          {
+            "answer": false,
+            "q": "Marko hat einen kleinen Bruder.",
+            "why": "Er hat eine kleine Schwester, nicht einen Bruder."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Mein Kollege Marko ist 32 Jahre alt. Er arbeitet seit zwei Monaten in unserem Team. Er ist ein großer, schlanker Mann mit kurzen dunklen Haaren und grünen Augen. Er trägt eine Brille, die ihm sehr gut steht.\n>\n> Marko ist der Typ, der immer fröhlich und optimistisch ist. Er ist auch der Kollege, den alle im Team mögen, weil er sehr hilfsbereit und geduldig ist. In seiner Freizeit spielt er gern Fußball und kocht italienisches Essen. Er macht die Pasta, die alle im Büro lieben.\n>\n> Am Wochenende geht Marko gern ins Kino. Er liebt die Filme, die lustig und ein bisschen verrückt sind. Marko hat eine kleine Schwester, die noch in seiner Heimatstadt studiert. Ich mag Marko sehr — er ist genau der Mensch, den ich in meinem Team brauche.\n\nRichtig (R) oder falsch (F)?\n",
+      "title": "Lesen Teil 1 (Mein Kollege Marko)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Aus Berlin."
+              },
+              {
+                "key": "b",
+                "text": "Aus Stuttgart."
+              },
+              {
+                "key": "c",
+                "text": "Aus Hamburg."
+              }
+            ],
+            "q": "Woher kommt Laura?",
+            "why": "„Sie … kommt aus Stuttgart\"."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie geht gern ins Kino."
+              },
+              {
+                "key": "b",
+                "text": "Sie liest viele Bücher."
+              },
+              {
+                "key": "c",
+                "text": "Sie malt Bilder und macht Musik."
+              }
+            ],
+            "q": "Was macht Laura in ihrer Freizeit?",
+            "why": "„sie malt gern Bilder und macht Musik\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Anna zieht in eine neue Wohnung."
+              },
+              {
+                "key": "b",
+                "text": "Lauras Mutter kommt zu Besuch."
+              },
+              {
+                "key": "c",
+                "text": "Laura fährt nach Stuttgart."
+              }
+            ],
+            "q": "Was wird nächsten Monat passieren?",
+            "why": "„Nächsten Monat besucht uns ihre Mutter\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "> Liebe Eva,\n> ich möchte dir von meiner neuen Mitbewohnerin Laura erzählen.\n> Sie ist 24 Jahre alt und kommt aus Stuttgart. Sie ist schlank und\n> hat lange rote Haare und braune Augen. Laura ist sehr kreativ —\n> sie malt gern Bilder und macht Musik. Sie ist die Person, die ich\n> mir als Mitbewohnerin immer gewünscht habe. Sie kocht auch sehr\n> gut! Nächsten Monat besucht uns ihre Mutter, die aus Stuttgart\n> kommt. Ich freue mich schon sehr darauf.\n> Viele Grüße, Anna\n\nWähle a, b oder c.\n",
+      "title": "Lesen Teil 2 (Brief von Anna)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "der"
+          ],
+          "2": [
+            "die"
+          ],
+          "3": [
+            "das"
+          ],
+          "4": [
+            "die"
+          ],
+          "5": [
+            "der"
+          ],
+          "6": [
+            "die"
+          ],
+          "7": [
+            "den"
+          ],
+          "8": [
+            "den"
+          ],
+          "9": [
+            "ein"
+          ],
+          "10": [
+            "er"
+          ],
+          "11": [
+            "Neffen"
+          ],
+          "12": [
+            "wird"
+          ],
+          "13": [
+            "Könnten"
+          ],
+          "14": [
+            "e"
+          ],
+          "15": [
+            "der"
+          ],
+          "16": [
+            "die"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das ist der Mann, {1} neben Anna arbeitet.\n2. Das ist die Frau, {2} Bruno kennt.\n3. Das ist das Haus, {3} sehr alt ist.\n4. Das sind die Leute, {4} ich gestern getroffen habe.\n5. Er ist der Kollege, {5} mir immer hilft.\n6. Das ist die Jacke, {6} Anna kaufen möchte.\n7. Ich kenne {7} Bruder von Anna. (Akk. → der → ___) (L3)\n8. Er sieht {8} Film gern. (Akk. → der → ___) (L3)\n9. Das ist {9} freundlich{10} Mann. (indef. Art. + Adj., mask. Nom.) (L8)\n10. Die Kinder meiner Schwester sind meine {11}. (L2)\n11. Anna {12} nächstes Jahr nach Wien fahren. (Futur I) (L12)\n12. {13} Sie mir bitte helfen? (Konjunktiv II, können) (L9)\n13. Er hat kurze, grau{14} Haare und blaue Augen. (L13)\n14. Das ist die Person, {15} ich am meisten vertraue. (Dativ — tricky! Skip if unsure.)\n15. Das ist die Freundin, {16} ich gestern angerufen habe.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Fülle jede Lücke mit dem richtigen Wort. Mit (L…) markierte Aufgaben wiederholen eine frühere Lektion. 15 Aufgaben.",
+      "instructionsEn": "Fill each gap with the correct word. Items marked (L…) review an earlier lesson. 15 items.",
+      "title": "Schnelltest"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "hilfsbereit",
+              "freundlich",
+              "faul",
+              "nett"
+            ],
+            "odd": 2,
+            "why": "faul is the only negative character trait; all others are positive."
+          },
+          {
+            "items": [
+              "Bruder",
+              "Schwester",
+              "Tante",
+              "Brille"
+            ],
+            "odd": 3,
+            "why": "Brille is not a family term; all others are family members."
+          },
+          {
+            "items": [
+              "Augen",
+              "Haare",
+              "Bart",
+              "Charakter"
+            ],
+            "odd": 3,
+            "why": "Charakter is not a physical feature; all others are body parts."
+          },
+          {
+            "items": [
+              "mögen",
+              "kennen",
+              "beschreiben",
+              "weil"
+            ],
+            "odd": 3,
+            "why": "weil is a conjunction (Konnektor) from A2/L3, not a verb like the others."
+          },
+          {
+            "items": [
+              "der",
+              "die",
+              "das",
+              "welch-"
+            ],
+            "odd": 3,
+            "why": "welch- is a question word (which?), not a relative pronoun."
+          },
+          {
+            "items": [
+              "hilfsbereit",
+              "zuverlässig",
+              "eingebildet",
+              "fleißig"
+            ],
+            "odd": 2,
+            "why": "eingebildet is the only negative trait; all others are positive."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Kreise in jeder Gruppe von vier Wörtern das Wort ein, das NICHT passt.",
+      "instructionsEn": "In each group of four, circle the word that does NOT belong.",
+      "title": "Odd-one-out"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "den"
+          ],
+          "2": [
+            "ein"
+          ],
+          "3": [
+            "freundlicher"
+          ],
+          "4": [
+            "kluge"
+          ],
+          "5": [
+            "wirst"
+          ],
+          "6": [
+            "machen"
+          ],
+          "7": [
+            "werden"
+          ],
+          "8": [
+            "Könnten"
+          ],
+          "9": [
+            "hätte"
+          ],
+          "10": [
+            "Großvater"
+          ],
+          "11": [
+            "Kinder"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Aus Lektion A1/L3 (Akkusativ):**\n1. Ich suche {1} alten Mann. (defin. Art. + Adj., mask. Akk.)\n2. Er kauft {2} schönes Kleid. (indef. Art. + Adj., neut. Akk.)\n\n**Aus Lektion A2/L8 (Adjektivdeklination):**\n3. Das ist ein {3} Mensch. (freundlich, mask. Nom. nach indef. Art.)\n4. Ich kenne die {4} Frau. (klug, fem. Akk. nach defin. Art.)\n\n**Aus Lektion A2/L12 (Futur I):**\n5. Was {5} du nächstes Wochenende {6}? (machen, Futur I)\n6. Wir {7} bald umziehen. (werden, Futur I)\n\n**Aus Lektion A2/L9 (Konjunktiv II):**\n7. {8} Sie mir bitte sagen, wo der Bahnhof ist? (können)\n8. Ich {9} gern eine Tasse Tee. (haben, Konjunktiv II)\n\n**Aus Lektion A1/L2 (Familie):**\n9. Der Vater meines Vaters ist mein {10}.\n10. Die {11} meiner Schwester sind meine Neffen und Nichten.\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Wiederholung früherer Lektionen. 10 Aufgaben.",
+      "instructionsEn": "Review of earlier lessons. 10 items.",
+      "title": "Rückblick: frühere Lektionen"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "der"
+          ],
+          "2": [
+            "die"
+          ],
+          "3": [
+            "das"
+          ],
+          "4": [
+            "die"
+          ],
+          "5": [
+            "der"
+          ],
+          "6": [
+            "die"
+          ],
+          "7": [
+            "das"
+          ],
+          "8": [
+            "den"
+          ],
+          "9": [
+            "Das ist die Frau, die im zweiten Stock wohnt."
+          ],
+          "10": [
+            "Ich kenne den Mann, den alle mögen."
+          ],
+          "11": [
+            "Das ist das Café, das den besten Kuchen hat."
+          ],
+          "12": [
+            "Das sind die Kollegen, die ich jeden Morgen treffe."
+          ],
+          "13": [
+            "hilfsbereit"
+          ],
+          "14": [
+            "schulterlange"
+          ],
+          "15": [
+            "stur"
+          ],
+          "16": [
+            "Brille"
+          ],
+          "17": [
+            "der"
+          ],
+          "18": [
+            "die"
+          ],
+          "19": [
+            "die"
+          ],
+          "20": [
+            "den"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Teil 1 — Relativpronomen wählen (8 Punkte):**\n1. Das ist der Freund, {1} mir immer hilft.\n2. Das ist die Frau, {2} alle kennen.\n3. Das ist das Buch, {3} sehr interessant ist.\n4. Das sind die Leute, {4} ich eingeladen habe.\n5. Ich mag den Kollegen, {5} immer gute Laune hat.\n6. Sie ist die Person, {6} ich am meisten mag.\n7. Das ist ein Kind, {7} sehr ruhig ist.\n8. Das ist der Mann, {8} du meinst.\n\n**Teil 2 — Satz umschreiben (4 Punkte):**\n9. Das ist die Frau. Sie wohnt im zweiten Stock. → {9}\n10. Ich kenne den Mann. Alle mögen ihn. → {10}\n11. Das ist das Café. Es hat den besten Kuchen. → {11}\n12. Das sind die Kollegen. Ich treffe sie jeden Morgen. → {12}\n\n**Teil 3 — Vokabular (4 Punkte):**\n13. He is very helpful. → Er ist sehr {13}.\n14. She has shoulder-length hair. → Sie hat {14} Haare.\n15. He is stubborn. → Er ist {15}.\n16. She wears glasses. → Sie trägt eine {16}.\n\n**Teil 4 — Finde den Fehler (4 Punkte):**\n17. Das ist der Mann, die neben mir arbeitet. → {17}\n18. Das ist die Frau, den ich kenne. → {18}\n19. Das sind die Leute, das ich gestern getroffen habe. → {19}\n20. Er ist der Kollege, der alle mögen. → {20}\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (/20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "a2-13",
+  "intro": "Blocks: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Answers in solutions.md. Tip: spread the blocks over several days — H and A on day 1, B on day 2, C on day 3, D on day 4 after a pause.\n",
+  "lesson": "A2/13",
+  "level": "A2",
+  "summary": null,
+  "title": "A2 · Lektion 13 — Übungen (Exercises)",
+  "topic": null
+}

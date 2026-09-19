@@ -1,0 +1,828 @@
+{
+  "category": "Unterwegs",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "abholen",
+            "label": "Abholen"
+          },
+          {
+            "key": "pruefen",
+            "label": "Prüfen"
+          },
+          {
+            "key": "zurueckgeben",
+            "label": "Zurückgeben"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "abholen",
+            "text": "den Mietvertrag unterschreiben"
+          },
+          {
+            "bucket": "abholen",
+            "text": "den Führerschein zeigen"
+          },
+          {
+            "bucket": "abholen",
+            "text": "die Versicherung wählen"
+          },
+          {
+            "bucket": "abholen",
+            "text": "die Schlüssel entgegennehmen"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "das Auto von außen begutachten"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "einen vorhandenen Kratzer fotografieren"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "das Übergabeprotokoll ausfüllen"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "den Tankfüllstand notieren"
+          },
+          {
+            "bucket": "zurueckgeben",
+            "text": "den Tank auffüllen"
+          },
+          {
+            "bucket": "zurueckgeben",
+            "text": "das Auto an der Abholstation zurückbringen"
+          },
+          {
+            "bucket": "zurueckgeben",
+            "text": "das Übergabeprotokoll vergleichen"
+          },
+          {
+            "bucket": "zurueckgeben",
+            "text": "die Endabrechnung erhalten"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Abholen, prüfen oder zurückgeben?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Autovermietung"
+          },
+          {
+            "key": "2",
+            "text": "das Übergabeprotokoll"
+          },
+          {
+            "key": "3",
+            "text": "die Vollkaskoversicherung"
+          },
+          {
+            "key": "4",
+            "text": "die Selbstbeteiligung"
+          },
+          {
+            "key": "5",
+            "text": "der Tankfüllstand"
+          },
+          {
+            "key": "6",
+            "text": "die Abholstation"
+          },
+          {
+            "key": "7",
+            "text": "ein vorhandener Kratzer"
+          },
+          {
+            "key": "8",
+            "text": "die Rückgabe"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die Firma, bei der man ein Auto mietet"
+          },
+          {
+            "key": "b",
+            "text": "das Dokument, das den Zustand des Autos bei Abholung festhält"
+          },
+          {
+            "key": "c",
+            "text": "die Versicherung, die fast alle Schäden abdeckt"
+          },
+          {
+            "key": "d",
+            "text": "der Betrag, den man bei einem Schaden selbst zahlen muss"
+          },
+          {
+            "key": "e",
+            "text": "wie voll der Tank bei Abholung und Rückgabe ist"
+          },
+          {
+            "key": "f",
+            "text": "der Ort, an dem man das Auto abholt"
+          },
+          {
+            "key": "g",
+            "text": "ein Schaden, der schon vor der Anmietung da war"
+          },
+          {
+            "key": "h",
+            "text": "das Zurückbringen des Mietwagens"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "müssen"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Sollen"
+          ],
+          "5": [
+            "ist"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Muss"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir {1} den Mietwagen um zehn Uhr abholen. (Modalverb, wir-Form)\n2. {2} Sie mir das Übergabeprotokoll zeigen? (können, Sie-Form)\n3. Ich {3} schon den Kratzer fotografiert. (haben, Perfekt)\n4. {4} wir die Vollkaskoversicherung dazubuchen? (sollen, wir-Form)\n5. Falls der Tank nicht voll {5}, zahlen wir extra. (sein, Präsens)\n6. Die Mitarbeiterin {6} uns das Auto gleich zeigen. (werden, Futur I)\n7. Wir {7} schon den Mietvertrag unterschrieben. (haben, Perfekt)\n8. {8} ich den Schaden sofort melden? (müssen, ich-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Die Abholung planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Autovermietung"
+          ],
+          "2": [
+            "Übergabeprotokoll"
+          ],
+          "3": [
+            "Vollkaskoversicherung"
+          ],
+          "4": [
+            "Selbstbeteiligung"
+          ],
+          "5": [
+            "Tankfüllstand"
+          ],
+          "6": [
+            "Rückgabe"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir mieten das Auto bei einer bekannten {1}. (die Firma, bei der man ein Auto mietet)\n2. Bei der Abholung füllen wir gemeinsam das {2} aus. (das Dokument über den Zustand des Autos)\n3. Mit der {3} sind fast alle Schäden abgedeckt. (die Versicherung gegen fast alle Schäden)\n4. Bei einem Schaden zahlen wir nur die {4}. (der Betrag, den man selbst zahlen muss)\n5. Wir notieren den {5} bei der Abholung genau. (wie voll der Tank ist)\n6. Bei der {6} vergleichen wir den Zustand mit dem Protokoll. (das Zurückbringen des Mietwagens)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "MIETWAGEN"
+          ],
+          "2": [
+            "MIETVERTRAG"
+          ],
+          "3": [
+            "VOLLKASKOVERSICHERUNG"
+          ],
+          "4": [
+            "SELBSTBETEILIGUNG"
+          ],
+          "5": [
+            "BEGUTACHTEN"
+          ],
+          "6": [
+            "KRATZER"
+          ],
+          "7": [
+            "VERMERKE"
+          ],
+          "8": [
+            "TANKFÜLLSTAND"
+          ],
+          "9": [
+            "LOSFAHREN"
+          ],
+          "10": [
+            "RÜCKGABE"
+          ]
+        },
+        "bank": [
+          "MIETWAGEN",
+          "MIETVERTRAG",
+          "VOLLKASKOVERSICHERUNG",
+          "SELBSTBETEILIGUNG",
+          "BEGUTACHTEN",
+          "KRATZER",
+          "VERMERKE",
+          "TANKFÜLLSTAND",
+          "LOSFAHREN",
+          "RÜCKGABE",
+          "ABHOLSTATION",
+          "KILOMETERSTAND",
+          "ZUSATZFAHRER",
+          "KAUTION"
+        ],
+        "text": "— Guten Tag, wir möchten unseren {1} abholen, die Reservierung\nläuft auf Schmidt.\n— Einen Moment, ich hole den {2} und Sie unterschreiben ihn\nbitte.\n— Gerne. Was ist eigentlich mit der {3} — ist die schon\ninklusive?\n— Nein, die können Sie gegen Aufpreis dazubuchen, dann sinkt\nIhre {4} auf null.\n— Gut, dann nehmen wir die.\n(bei der Fahrzeugübergabe)\n— Bevor wir losfahren, sollten wir das Auto kurz {5}.\n— Guter Punkt — schauen Sie, hier vorne ist schon ein {6}!\n— Stimmt, das {7} ich sofort im Übergabeprotokoll.\n— Und wie ist eigentlich der {8}?\n— Der Tank ist randvoll, das steht auch hier.\n— Perfekt, dann können wir {9}.\n— Vergessen Sie bei der {10} nicht, den Tank wieder\naufzufüllen!\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Beim Abholen des Mietwagens"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir kommen einfach vorbei, ohne Reservierung."
+              },
+              {
+                "key": "b",
+                "text": "Wir möchten unseren Mietwagen abholen, die Reservierung läuft auf Schmidt."
+              },
+              {
+                "key": "c",
+                "text": "Autos interessieren mich nicht."
+              }
+            ],
+            "q": "Du möchtest den reservierten Mietwagen abholen. — You want to pick up the reserved rental car.",
+            "why": "Ein konkreter Hinweis auf Name und Reservierung beschleunigt die Abholung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Versicherungen sind mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Ich zahle sowieso alles selbst."
+              },
+              {
+                "key": "c",
+                "text": "Ist die Vollkaskoversicherung schon inklusive?"
+              }
+            ],
+            "q": "Du möchtest wissen, ob die Vollkaskoversicherung schon inklusive ist. — You want to know if full coverage insurance is already included.",
+            "why": "Eine direkte Frage klärt sofort, ob zusätzliche Kosten entstehen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das sollten wir sofort im Übergabeprotokoll vermerken."
+              },
+              {
+                "key": "b",
+                "text": "Kratzer sind doch nicht so wichtig."
+              },
+              {
+                "key": "c",
+                "text": "Wir sagen einfach nichts und fahren los."
+              }
+            ],
+            "q": "Du entdeckst bei der Übergabe einen vorhandenen Kratzer. — You notice an existing scratch during the handover.",
+            "why": "Ein sofortiger Vermerk schützt vor Ärger bei der Rückgabe."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Selbstbeteiligung interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Wie hoch ist die Selbstbeteiligung bei einem Schaden?"
+              },
+              {
+                "key": "c",
+                "text": "Schäden zahle ich sowieso nie."
+              }
+            ],
+            "q": "Du möchtest wissen, wie hoch die Selbstbeteiligung bei einem Schaden ist. — You want to know how high the deductible is in case of damage.",
+            "why": "Eine klare Frage zur Selbstbeteiligung vermeidet spätere Überraschungen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Der Tank interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich fülle den Tank sowieso nie auf."
+              },
+              {
+                "key": "c",
+                "text": "Ist der Tankfüllstand schon im Protokoll notiert?"
+              }
+            ],
+            "q": "Du möchtest sicherstellen, dass der Tankfüllstand korrekt notiert wird. — You want to make sure the fuel level is correctly noted.",
+            "why": "Eine kurze Nachfrage sichert einen korrekten Eintrag im Protokoll."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wo genau soll ich das Auto bei der Rückgabe abgeben?"
+              },
+              {
+                "key": "b",
+                "text": "Rückgabe ist mir zu kompliziert."
+              },
+              {
+                "key": "c",
+                "text": "Ich stelle das Auto einfach irgendwo ab."
+              }
+            ],
+            "q": "Du möchtest wissen, wo du das Auto bei der Rückgabe abgeben musst. — You want to know where to return the car.",
+            "why": "Eine klare Frage zum Rückgabeort vermeidet Missverständnisse."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Abholen und Prüfen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "höfliche Aussage, Infinitiv am Ende",
+            "tiles": [
+              "Wir",
+              "möchten",
+              "unseren",
+              "Mietwagen",
+              "abholen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Ja/Nein-Frage mit sein",
+            "tiles": [
+              "Ist",
+              "die",
+              "Vollkaskoversicherung",
+              "schon",
+              "inklusive",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Konjunktiv II mit sollten, Infinitiv am Ende",
+            "tiles": [
+              "Das",
+              "sollten",
+              "wir",
+              "sofort",
+              "im",
+              "Übergabeprotokoll",
+              "vermerken"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Nebensatz mit falls, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "der",
+              "Tank",
+              "nicht",
+              "voll",
+              "ist",
+              ",",
+              "zahlen",
+              "wir",
+              "extra"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "W-Frage mit sein",
+            "tiles": [
+              "Wie",
+              "hoch",
+              "ist",
+              "die",
+              "Selbstbeteiligung",
+              "bei",
+              "einem",
+              "Schaden",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Wir",
+              "haben",
+              "den",
+              "Mietvertrag",
+              "schon",
+              "unterschrieben"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze beim Mietwagen bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Ein vorhandener Schaden sollte vor der Abfahrt im Protokoll dokumentiert werden. — An existing defect should be documented in the report before departure.",
+            "why": "So steht es ausdrücklich in den Mietwagen-Infos."
+          },
+          {
+            "answer": false,
+            "q": "Die Vollkaskoversicherung ist immer automatisch im Preis inklusive. — Full coverage insurance is always automatically included in the price.",
+            "why": "Sie ist meist gegen Aufpreis buchbar, nicht automatisch inklusive."
+          },
+          {
+            "answer": true,
+            "q": "Das Auto wird oft voll übernommen und voll zurückgegeben. — The car is often handed over full and returned full.",
+            "why": "„Tankregelung: das Auto wird oft voll übernommen und voll zurückgegeben.“"
+          },
+          {
+            "answer": false,
+            "q": "Ein Zusatzfahrer darf spontan ohne Anmeldung mitfahren. — An additional driver may ride along spontaneously without registration.",
+            "why": "Zusatzfahrer müssen meist vorab angemeldet werden."
+          },
+          {
+            "answer": true,
+            "q": "Das Mindestalter für einen Mietwagen liegt bei manchen Fahrzeugklassen bei 21 oder 25 Jahren. — The minimum age for a rental car is 21 or 25 for some vehicle classes.",
+            "why": "„Mindestalter: oft ab 21 oder 25 Jahren, je nach Fahrzeugklasse.“"
+          },
+          {
+            "answer": false,
+            "q": "Eine verspätete Rückgabe hat grundsätzlich keine Konsequenzen. — A late return has no consequences at all.",
+            "why": "Sie kann eine zusätzliche Gebühr kosten."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Mietwagen**\n>\n> - **Übergabeprotokoll:** jeder vorhandene Schaden sollte\n>   **vor der Abfahrt** dokumentiert werden.\n> - **Vollkaskoversicherung:** meist **gegen Aufpreis**\n>   buchbar, senkt die Selbstbeteiligung oft auf null.\n> - **Tankregelung:** das Auto wird oft **voll übernommen und\n>   voll zurückgegeben**.\n> - **Zusatzfahrer:** müssen meist **vorab angemeldet**\n>   werden.\n> - **Mindestalter:** oft **ab 21 oder 25 Jahren**, je nach\n>   Fahrzeugklasse.\n> - **Rückgabe:** eine verspätete Rückgabe kann eine\n>   **zusätzliche Gebühr** kosten.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Mietwagen-Infos lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach ohne Auto wieder nach Hause fahren."
+              },
+              {
+                "key": "b",
+                "text": "Nach einer gleichwertigen Alternative fragen."
+              },
+              {
+                "key": "c",
+                "text": "Laut am Schalter schimpfen, ohne nach Alternativen zu fragen."
+              }
+            ],
+            "q": "Beim Abholen ist der reservierte Mietwagen nicht verfügbar. — The reserved rental car isn't available at pickup.",
+            "why": "Eine Nachfrage nach einer gleichwertigen Alternative löst das Problem meist schnell."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weiterfahren und den Schaden ignorieren."
+              },
+              {
+                "key": "b",
+                "text": "Den Schaden erst bei der Rückgabe erwähnen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort anhalten, fotografieren und die Autovermietung informieren."
+              }
+            ],
+            "q": "Ein Schaden am Auto wird erst nach der Abfahrt entdeckt. — Damage to the car is only discovered after departure.",
+            "why": "Sofortiges Dokumentieren und Melden schützt vor späteren Missverständnissen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Auf das eigene Übergabeprotokoll und die Fotos verweisen."
+              },
+              {
+                "key": "b",
+                "text": "Den Schaden einfach kommentarlos bezahlen."
+              },
+              {
+                "key": "c",
+                "text": "Sich streiten, ohne Beweise vorzulegen."
+              }
+            ],
+            "q": "Bei der Rückgabe behauptet die Autovermietung einen neuen Schaden, den man nicht verursacht hat. — At return, the rental company claims a new defect you didn't cause.",
+            "why": "Das eigene Protokoll und Fotos sind der beste Beweis gegen eine falsche Behauptung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach losfahren, ohne etwas zu sagen."
+              },
+              {
+                "key": "b",
+                "text": "Das sofort im Protokoll vermerken lassen."
+              },
+              {
+                "key": "c",
+                "text": "Den fehlenden Sprit selbst stillschweigend akzeptieren."
+              }
+            ],
+            "q": "Der Tank ist bei der Abholung nicht ganz voll, obwohl es vereinbart war. — The tank isn't quite full at pickup, although it was agreed.",
+            "why": "Ein sofortiger Vermerk verhindert, dass man später dafür bezahlen muss."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die falsche Buchung einfach akzeptieren."
+              },
+              {
+                "key": "b",
+                "text": "Wortlos das Auto stehen lassen und gehen."
+              },
+              {
+                "key": "c",
+                "text": "Freundlich, aber bestimmt auf die Buchung verweisen und korrigieren lassen."
+              }
+            ],
+            "q": "Die gebuchte Vollkaskoversicherung wurde nicht korrekt eingetragen. — The booked full coverage insurance wasn't entered correctly.",
+            "why": "Ein Verweis auf die ursprüngliche Buchung führt meist zu einer schnellen Korrektur."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Autovermietung rechtzeitig vorher informieren."
+              },
+              {
+                "key": "b",
+                "text": "Einfach zu spät kommen, ohne Bescheid zu geben."
+              },
+              {
+                "key": "c",
+                "text": "Das Auto woanders abstellen und nichts sagen."
+              }
+            ],
+            "q": "Man kommt zur Rückgabe später als vereinbart. — You'll return the car later than agreed.",
+            "why": "Eine rechtzeitige Information vermeidet zusätzliche Probleme bei der Rückgabe."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn beim Mietwagen etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "verfügbar"
+          ],
+          "2": [
+            "fotografiert"
+          ],
+          "3": [
+            "verwiesen"
+          ],
+          "4": [
+            "voll"
+          ],
+          "5": [
+            "eingetragen"
+          ],
+          "6": [
+            "mitgeteilt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der reservierte Mietwagen war leider nicht {1}. (nicht zu bekommen)\n2. Wir haben den Schaden sofort {2}. (mit der Kamera festgehalten, Partizip)\n3. Wir haben auf unser eigenes Übergabeprotokoll {3}. (hingewiesen, Partizip)\n4. Der Tank war bei der Abholung nicht ganz {4}. (komplett gefüllt)\n5. Die Vollkaskoversicherung wurde falsch {5}. (im System festgehalten, Partizip)\n6. Wir haben die Verspätung rechtzeitig {6}. (Bescheid gegeben, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "müssen"
+          ],
+          "2": [
+            "Könnten"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Autovermietung"
+          ],
+          "5": [
+            "Übergabeprotokoll"
+          ],
+          "6": [
+            "Vollkaskoversicherung"
+          ],
+          "7": [
+            "Selbstbeteiligung"
+          ],
+          "8": [
+            "Tankfüllstand"
+          ],
+          "9": [
+            "Rückgabe"
+          ],
+          "10": [
+            "verfügbar"
+          ],
+          "11": [
+            "fotografiert"
+          ],
+          "12": [
+            "voll"
+          ],
+          "13": [
+            "eingetragen"
+          ],
+          "14": [
+            "mitgeteilt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir {1} den Mietwagen um zehn Uhr abholen. (must)\n2. {2} Sie mir das Übergabeprotokoll zeigen? (could — können)\n3. Ich {3} schon den Kratzer fotografiert. (have — Perfekt)\n4. Wir mieten das Auto bei einer bekannten {4}. (car rental company)\n5. Bei der Abholung füllen wir das {5} aus. (handover report)\n6. Mit der {6} sind fast alle Schäden abgedeckt. (full coverage insurance)\n7. Bei einem Schaden zahlen wir nur die {7}. (deductible)\n8. Wir notieren den {8} genau. (fuel level)\n9. Bei der {9} vergleichen wir den Zustand. (return)\n10. Der reservierte Mietwagen war leider nicht {10}. (available)\n11. Wir haben den Schaden sofort {11}. (photographed — Partizip)\n12. Der Tank war nicht ganz {12}. (full)\n13. Die Vollkaskoversicherung wurde falsch {13}. (entered — Partizip)\n14. Wir haben die Verspätung rechtzeitig {14}. (communicated — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-67-mietwagen-a2",
+  "intro": "Bevor der Mietwagen die Auffahrt verlässt, gibt es einiges zu klären: den Mietvertrag unterschreiben, sich für oder gegen die Vollkaskoversicherung entscheiden, und das Auto gemeinsam mit der Vermietung auf vorhandene Schäden prüfen. Dieses Set übt genau das — den Wagen abholen, einen Kratzer im Übergabeprotokoll vermerken, und was zu tun ist, wenn bei der Abholung oder Rückgabe etwas schiefgeht. Grammatik nach Bedarf: Perfekt im Bericht, höfliche Fragen, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/67-mietwagen-a2",
+  "level": "A2",
+  "summary": "Den Mietwagen abholen, die Versicherung klären, das Auto vor der Fahrt prüfen — und was tun, wenn ein Schaden auftaucht oder die Rückgabe sich verzögert.",
+  "title": "Mietwagen abholen und Schaden melden — A2",
+  "topic": "Mietwagen abholen und Schaden melden"
+}

@@ -1,0 +1,818 @@
+{
+  "category": "Soziales",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "freudig",
+            "label": "Zu freudigen Anlässen"
+          },
+          {
+            "key": "trauer",
+            "label": "Bei einem Trauerfall"
+          },
+          {
+            "key": "allgemein",
+            "label": "Allgemein"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "freudig",
+            "text": "zum Geburtstag gratulieren"
+          },
+          {
+            "bucket": "freudig",
+            "text": "eine Geburtstagskarte schreiben"
+          },
+          {
+            "bucket": "freudig",
+            "text": "ein Geschenk überreichen"
+          },
+          {
+            "bucket": "freudig",
+            "text": "sich für jemanden freuen"
+          },
+          {
+            "bucket": "trauer",
+            "text": "sein Beileid aussprechen"
+          },
+          {
+            "bucket": "trauer",
+            "text": "eine Beileidskarte schicken"
+          },
+          {
+            "bucket": "trauer",
+            "text": "die Anteilnahme zeigen"
+          },
+          {
+            "bucket": "trauer",
+            "text": "zur Beerdigung gehen"
+          },
+          {
+            "bucket": "allgemein",
+            "text": "die richtigen Worte finden"
+          },
+          {
+            "bucket": "allgemein",
+            "text": "persönlich vorbeikommen"
+          },
+          {
+            "bucket": "allgemein",
+            "text": "eine Nachricht schreiben"
+          },
+          {
+            "bucket": "allgemein",
+            "text": "aufmerksam zuhören"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Zu freudigen Anlässen, bei einem Trauerfall oder allgemein?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "gratulieren"
+          },
+          {
+            "key": "2",
+            "text": "herzlichen Glückwunsch"
+          },
+          {
+            "key": "3",
+            "text": "die Geburtstagskarte"
+          },
+          {
+            "key": "4",
+            "text": "kondolieren"
+          },
+          {
+            "key": "5",
+            "text": "das Beileid"
+          },
+          {
+            "key": "6",
+            "text": "der Trauerfall"
+          },
+          {
+            "key": "7",
+            "text": "die Anteilnahme"
+          },
+          {
+            "key": "8",
+            "text": "die Beileidskarte"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "jemandem zu einem freudigen Anlass Glück wünschen"
+          },
+          {
+            "key": "b",
+            "text": "der klassische Gratulationsspruch"
+          },
+          {
+            "key": "c",
+            "text": "die Karte zum Geburtstag"
+          },
+          {
+            "key": "d",
+            "text": "jemandem sein Beileid aussprechen"
+          },
+          {
+            "key": "e",
+            "text": "der Ausdruck der Anteilnahme bei einem Trauerfall"
+          },
+          {
+            "key": "f",
+            "text": "der Tod eines nahestehenden Menschen"
+          },
+          {
+            "key": "g",
+            "text": "das Mitgefühl mit einer trauernden Person"
+          },
+          {
+            "key": "h",
+            "text": "die Karte zum Ausdruck des Beileids"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "möchte"
+          ],
+          "2": [
+            "Kannst"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Sollen"
+          ],
+          "5": [
+            "verliert"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Soll"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} dir herzlich zum Geburtstag gratulieren. (möchten, ich-Form)\n2. {2} du mir helfen, die Karte auszusuchen? (können, du-Form)\n3. Ich {3} ihr schon eine Karte geschickt. (haben, Perfekt)\n4. {4} wir zur Beerdigung gehen? (sollen, wir-Form)\n5. Falls jemand einen nahen Menschen {5}, sollte man kondolieren. (verlieren, Präsens)\n6. Die Familie {6} sich sicher über die Anteilnahme freuen. (werden, Futur I)\n7. Wir {7} schon unser Beileid ausgesprochen. (haben, Perfekt)\n8. {8} ich noch eine Geburtstagskarte kaufen? (sollen, ich-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Die Worte finden"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "gratulieren"
+          ],
+          "2": [
+            "Herzlichen Glückwunsch"
+          ],
+          "3": [
+            "Geburtstagskarte"
+          ],
+          "4": [
+            "kondolieren"
+          ],
+          "5": [
+            "Beileid"
+          ],
+          "6": [
+            "Trauerfall"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Zum Geburtstag möchte ich dir herzlich {1}. (jemandem zu einem freudigen Anlass Glück wünschen, Infinitiv)\n2. „{2}!“ ist der klassische Satz zum Geburtstag. (der klassische Gratulationsspruch)\n3. Dazu schreibe ich noch eine {3}. (die Karte zum Geburtstag)\n4. Bei einem Trauerfall möchte ich der Familie {4}. (jemandem sein Beileid aussprechen, Infinitiv)\n5. Mein {5} gilt der ganzen Familie. (der Ausdruck der Anteilnahme)\n6. So ein {6} ist immer schwer zu verarbeiten. (der Tod eines nahestehenden Menschen)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "GLÜCKWUNSCH"
+          ],
+          "2": [
+            "KLEINIGKEIT"
+          ],
+          "3": [
+            "FREUE"
+          ],
+          "4": [
+            "BEILEID"
+          ],
+          "5": [
+            "TRAUERFALL"
+          ],
+          "6": [
+            "ANTEILNAHME"
+          ],
+          "7": [
+            "BEILEIDSKARTE"
+          ],
+          "8": [
+            "SAGEN"
+          ],
+          "9": [
+            "BRAUCHT"
+          ],
+          "10": [
+            "MACHE"
+          ]
+        },
+        "bank": [
+          "GLÜCKWUNSCH",
+          "KLEINIGKEIT",
+          "FREUE",
+          "BEILEID",
+          "TRAUERFALL",
+          "ANTEILNAHME",
+          "BEILEIDSKARTE",
+          "SAGEN",
+          "BRAUCHT",
+          "MACHE",
+          "GESCHENK",
+          "KARTE",
+          "FREUDE",
+          "TRAUER"
+        ],
+        "text": "— Hey, herzlichen {1} zum Geburtstag!\n— Oh, vielen Dank, das ist aber lieb von dir!\n— Ich habe dir noch eine kleine {2} mitgebracht.\n— Das wäre doch nicht nötig gewesen, aber ich freue mich\ntotal!\n— Ich {3} mich total für dich, dass du diesen tollen neuen\nJob bekommen hast.\n— Danke dir, das bedeutet mir viel.\n(ein paar Wochen später, bei einem Kollegen)\n— Ich habe gehört, dass dein Großvater gestorben ist. Ich\nmöchte dir mein {4} aussprechen.\n— Das ist sehr freundlich von dir, danke.\n— Falls du reden möchtest, bin ich jederzeit für dich da.\n— Das weiß ich zu schätzen. Der {5} kam für uns alle sehr\nüberraschend.\n— Ich kann mir vorstellen, wie schwer das für dich ist.\nMeine {6} gilt deiner ganzen Familie.\n— Danke, das hilft wirklich.\n— Soll ich euch eine {7} schicken, oder möchtest du das\nlieber persönlich {8}?\n— Eine Karte wäre schön, das können die anderen dann auch\nlesen.\n— Mache ich. Und falls ihr Hilfe {9}, meldet euch einfach.\n— Das {10} ich, danke dir.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Gratulieren und kondolieren"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Geburtstage interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Herzlichen Glückwunsch zum Geburtstag!"
+              },
+              {
+                "key": "c",
+                "text": "Ach, schon wieder ein Jahr älter."
+              }
+            ],
+            "q": "Du möchtest einem Freund zum Geburtstag gratulieren. — You want to congratulate a friend on their birthday.",
+            "why": "Eine herzliche Gratulation ist die übliche, freundliche Reaktion auf einen Geburtstag."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Jobs interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Das ist doch nichts Besonderes."
+              },
+              {
+                "key": "c",
+                "text": "Ich freue mich total für dich, dass du diesen tollen neuen Job bekommen hast."
+              }
+            ],
+            "q": "Du möchtest dich für den neuen Job eines Freundes freuen. — You want to express your joy about a friend's new job.",
+            "why": "Eine herzliche Mitfreude ist die passende Reaktion auf gute Neuigkeiten."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich möchte dir mein Beileid aussprechen."
+              },
+              {
+                "key": "b",
+                "text": "Beileid ist mir zu förmlich."
+              },
+              {
+                "key": "c",
+                "text": "Das interessiert mich eigentlich nicht."
+              }
+            ],
+            "q": "Du möchtest einem Kollegen dein Beileid aussprechen. — You want to offer your condolences to a colleague.",
+            "why": "Ein direkt ausgesprochenes Beileid ist die übliche und einfühlsame Reaktion."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Anteilnahme ist mir zu kompliziert."
+              },
+              {
+                "key": "b",
+                "text": "Meine Anteilnahme gilt deiner ganzen Familie."
+              },
+              {
+                "key": "c",
+                "text": "Das geht mich doch nichts an."
+              }
+            ],
+            "q": "Du möchtest deine Anteilnahme ausdrücken. — You want to express your sympathy.",
+            "why": "Eine ausgesprochene Anteilnahme zeigt echtes Mitgefühl mit der ganzen Familie."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Karten interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Das ist mir völlig egal."
+              },
+              {
+                "key": "c",
+                "text": "Soll ich euch eine Beileidskarte schicken, oder möchtest du das lieber persönlich sagen?"
+              }
+            ],
+            "q": "Du möchtest wissen, ob eine Beileidskarte oder ein persönliches Gespräch besser passt. — You want to know whether a sympathy card or a personal conversation is better.",
+            "why": "Eine rücksichtsvolle Nachfrage lässt der trauernden Person die Wahl."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das mache ich, danke dir."
+              },
+              {
+                "key": "b",
+                "text": "Hilfe brauche ich sowieso nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das interessiert mich nicht."
+              }
+            ],
+            "q": "Ein Freund bietet dir seine Hilfe an. — A friend offers you their help.",
+            "why": "Eine dankbare Annahme des Angebots ist die freundliche und passende Antwort."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Gratulieren und Anteilnahme zeigen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "feste Wendung, kein Verb nötig",
+            "tiles": [
+              "Herzlichen",
+              "Glückwunsch",
+              "zum",
+              "Geburtstag"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Hauptsatz, Verb an Position 2",
+            "tiles": [
+              "Ich",
+              "freue",
+              "mich",
+              "total",
+              "für",
+              "dich"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "höfliche Aussage, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "dir",
+              "mein",
+              "Beileid",
+              "aussprechen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Nebensatz mit falls, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "jemand",
+              "einen",
+              "nahen",
+              "Menschen",
+              "verliert",
+              ",",
+              "sollte",
+              "man",
+              "kondolieren"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Hauptsatz, Verb an Position 2",
+            "tiles": [
+              "Meine",
+              "Anteilnahme",
+              "gilt",
+              "deiner",
+              "ganzen",
+              "Familie"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Wir",
+              "haben",
+              "schon",
+              "unser",
+              "Beileid",
+              "ausgesprochen"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zum Gratulieren und Kondolieren bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Geburtstagsglückwünsche sollten am besten am Tag selbst kommen, spätestens innerhalb einer Woche. — Birthday wishes should ideally come on the day itself, at the latest within a week.",
+            "why": "So steht es ausdrücklich in den Infos zum Gratulieren."
+          },
+          {
+            "answer": false,
+            "q": "Beileid sollte man am besten erst nach mehreren Monaten aussprechen. — Condolences should ideally be offered only after several months.",
+            "why": "Es sollte möglichst bald nach dem Trauerfall ausgesprochen werden, nicht erst Monate später."
+          },
+          {
+            "answer": true,
+            "q": "Eine handschriftliche Beileidskarte wirkt persönlicher. — A handwritten sympathy card feels more personal.",
+            "why": "„Beileidskarte: wirkt persönlicher, wenn sie handschriftlich geschrieben ist.“"
+          },
+          {
+            "answer": false,
+            "q": "Lange, kunstvolle Reden sind bei einem Trauerfall immer wirkungsvoller als einfache, ehrliche Worte. — Long, elaborate speeches are always more effective than simple, honest words at a funeral.",
+            "why": "Einfache, ehrliche Worte sind oft wirkungsvoller als lange Reden."
+          },
+          {
+            "answer": false,
+            "q": "Ein Besuch der Trauerfeier ist eine Pflicht, die man unbedingt erfüllen muss. — Attending the funeral is a duty that must absolutely be fulfilled.",
+            "why": "Er ist eine schöne Geste, aber keine Pflicht."
+          },
+          {
+            "answer": true,
+            "q": "Nach der Beerdigung weiterhin Kontakt zu halten hilft der trauernden Familie oft am meisten. — Staying in touch after the funeral often helps the grieving family the most.",
+            "why": "„Nach der Beerdigung: weiterhin Kontakt halten hilft der trauernden Familie oft am meisten.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Gratulieren und kondolieren**\n>\n> - **Geburtstagsglückwünsche:** am besten **am Tag selbst**,\n>   spätestens innerhalb einer Woche.\n> - **Beileid:** sollte **möglichst bald** nach dem Trauerfall\n>   ausgesprochen werden.\n> - **Beileidskarte:** wirkt persönlicher, wenn sie\n>   **handschriftlich** geschrieben ist.\n> - **Worte:** einfache, ehrliche Worte sind oft\n>   **wirkungsvoller** als lange Reden.\n> - **Trauerfeier:** ein Besuch ist eine schöne Geste, aber\n>   **keine Pflicht**.\n> - **Nach der Beerdigung:** weiterhin **Kontakt halten**\n>   hilft der trauernden Familie oft am meisten.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zum Gratulieren und Kondolieren lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach gar nichts mehr sagen, aus Scham."
+              },
+              {
+                "key": "b",
+                "text": "Sich ehrlich entschuldigen und trotzdem noch herzlich gratulieren."
+              },
+              {
+                "key": "c",
+                "text": "So tun, als hätte man es gar nicht vergessen."
+              }
+            ],
+            "q": "Man vergisst, rechtzeitig zum Geburtstag zu gratulieren. — You forget to congratulate someone on their birthday in time.",
+            "why": "Eine ehrliche Entschuldigung mit nachträglicher Gratulation wird meist gut aufgenommen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Lieber gar nichts schreiben, aus Angst vor den falschen Worten."
+              },
+              {
+                "key": "b",
+                "text": "Eine unpersönliche Standardkarte ohne eigene Worte kaufen."
+              },
+              {
+                "key": "c",
+                "text": "Einfache, ehrliche Worte wählen statt nach der perfekten Formulierung zu suchen."
+              }
+            ],
+            "q": "Man findet einfach keine passenden Worte für ein Kondolenzschreiben. — You simply can't find the right words for a condolence letter.",
+            "why": "Einfache, ehrliche Worte kommen meist besser an als eine perfekt gesuchte Formulierung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Vorher freundlich nachfragen, ob ein Besuch passt."
+              },
+              {
+                "key": "b",
+                "text": "Einfach unangemeldet vorbeikommen."
+              },
+              {
+                "key": "c",
+                "text": "Aus Unsicherheit lieber gar nichts unternehmen."
+              }
+            ],
+            "q": "Man ist sich unsicher, ob ein Kondolenzbesuch gerade willkommen ist. — You're unsure whether a condolence visit is currently welcome.",
+            "why": "Eine freundliche Nachfrage zeigt Rücksicht auf die Situation der trauernden Person."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Karte gar nicht mehr übergeben, aus Verlegenheit."
+              },
+              {
+                "key": "b",
+                "text": "Sich für die Verspätung entschuldigen und die Karte trotzdem übergeben."
+              },
+              {
+                "key": "c",
+                "text": "So tun, als wäre die Karte pünktlich gewesen."
+              }
+            ],
+            "q": "Eine Geburtstagskarte kommt aus Versehen viel zu spät an. — A birthday card accidentally arrives much too late.",
+            "why": "Eine kurze Entschuldigung mit der verspäteten Karte wirkt ehrlich und sympathisch."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Aus Unsicherheit lieber ganz schweigen."
+              },
+              {
+                "key": "b",
+                "text": "Das Thema komplett vermeiden."
+              },
+              {
+                "key": "c",
+                "text": "Kurz die eigene Anteilnahme ausdrücken, auch ohne viele Worte."
+              }
+            ],
+            "q": "Man weiß nicht, ob man bei einem Trauerfall überhaupt etwas sagen soll. — You don't know whether to say anything at all in a case of bereavement.",
+            "why": "Auch wenige, ehrliche Worte der Anteilnahme werden meist sehr geschätzt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es locker nehmen, die Geste zählt mehr als die perfekte Formulierung."
+              },
+              {
+                "key": "b",
+                "text": "Sich den ganzen Tag darüber ärgern."
+              },
+              {
+                "key": "c",
+                "text": "Die Gratulation am liebsten zurücknehmen."
+              }
+            ],
+            "q": "Man merkt, dass die eigene Gratulation etwas unbeholfen klang. — You notice your own congratulations sounded a bit awkward.",
+            "why": "Die gute Absicht zählt meist mehr als eine perfekte Formulierung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn beim Gratulieren oder Kondolieren etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "gratulieren"
+          ],
+          "2": [
+            "gesucht"
+          ],
+          "3": [
+            "nachgefragt"
+          ],
+          "4": [
+            "angekommen"
+          ],
+          "5": [
+            "ausgedrückt"
+          ],
+          "6": [
+            "unbeholfen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe leider vergessen, rechtzeitig zu {1}. (Infinitiv)\n2. Ich habe lange nach den richtigen Worten {2}. (Partizip)\n3. Ich habe vorher freundlich {3}, ob ein Besuch passt. (Partizip)\n4. Die Karte ist leider viel zu spät {4}. (Partizip)\n5. Ich habe kurz meine Anteilnahme {5}. (Partizip)\n6. Meine Gratulation klang etwas {6}. (nicht ganz geschickt)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "möchte"
+          ],
+          "2": [
+            "Könntest"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "gratulieren"
+          ],
+          "5": [
+            "Herzlichen Glückwunsch"
+          ],
+          "6": [
+            "Geburtstagskarte"
+          ],
+          "7": [
+            "kondolieren"
+          ],
+          "8": [
+            "Beileid"
+          ],
+          "9": [
+            "Trauerfall"
+          ],
+          "10": [
+            "gratulieren"
+          ],
+          "11": [
+            "gesucht"
+          ],
+          "12": [
+            "nachgefragt"
+          ],
+          "13": [
+            "angekommen"
+          ],
+          "14": [
+            "ausgedrückt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} dir herzlich gratulieren. (would like)\n2. {2} du mir helfen, die Karte auszusuchen? (could — können)\n3. Ich {3} ihr schon eine Karte geschickt. (have — Perfekt)\n4. Zum Geburtstag möchte ich dir herzlich {4}. (congratulate — Infinitiv)\n5. „{5}!“ ist der klassische Satz zum Geburtstag. (congratulations)\n6. Dazu schreibe ich noch eine {6}. (birthday card)\n7. Bei einem Trauerfall möchte ich der Familie {7}. (offer condolences — Infinitiv)\n8. Mein {8} gilt der ganzen Familie. (sympathy)\n9. So ein {9} ist immer schwer zu verarbeiten. (bereavement)\n10. Ich habe vergessen, rechtzeitig zu {10}. (congratulate — Infinitiv)\n11. Ich habe lange nach den richtigen Worten {11}. (searched — Partizip)\n12. Ich habe vorher freundlich {12}, ob ein Besuch passt. (asked — Partizip)\n13. Die Karte ist leider viel zu spät {13}. (arrived — Partizip)\n14. Ich habe kurz meine Anteilnahme {14}. (expressed — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-83-gratulieren-kondolieren-a2",
+  "intro": "Ob Geburtstag oder Trauerfall — die passenden Worte zu finden ist nicht immer leicht: herzlich gratulieren, sich mit jemandem freuen, oder bei einem Trauerfall einfühlsam kondolieren. Dieses Set übt genau das — zu freudigen Anlässen gratulieren, bei einem Trauerfall die Anteilnahme ausdrücken, und was zu tun ist, wenn man unsicher ist, was man sagen soll. Grammatik nach Bedarf: Perfekt im Bericht, höfliche Fragen, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/83-gratulieren-kondolieren-a2",
+  "level": "A2",
+  "summary": "Zum Geburtstag gratulieren, sich für gute Neuigkeiten freuen, bei einem Trauerfall kondolieren — und was tun, wenn man die richtigen Worte nicht sofort findet.",
+  "title": "Gratulieren und kondolieren — A2",
+  "topic": "Gratulieren und kondolieren"
+}

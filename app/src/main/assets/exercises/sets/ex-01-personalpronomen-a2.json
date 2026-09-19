@@ -1,0 +1,691 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Sie"
+          ],
+          "2": [
+            "ihm"
+          ],
+          "3": [
+            "ihm"
+          ],
+          "4": [
+            "Sie"
+          ],
+          "5": [
+            "sie"
+          ],
+          "6": [
+            "sie"
+          ],
+          "7": [
+            "ihr"
+          ],
+          "8": [
+            "dich"
+          ]
+        },
+        "text": "Tim hat einen neuen Job. Seine Chefin heißt Frau Berger. {1} findet Tim\nsehr freundlich. Am ersten Arbeitstag zeigt Frau Berger {2} das Büro.\nTim hat viele Fragen, und seine Kollegen helfen {3} gern. Nach der\nArbeit ruft Tim seine Eltern an. {4} freuen sich sehr über die guten\nNeuigkeiten. Tims Freundin Lea wartet schon zu Hause. Als er ankommt,\numarmt er {5}. „Wie war dein Tag?\", fragt {6}. Tim erzählt {7} alles\nüber den neuen Job. Am Ende sagt Lea: „Ich bin stolz auf {8}!\"\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die richtigen Personalpronomen im Text.",
+      "instructionsEn": "Fill in the correct personal pronouns as you read the story.",
+      "skill": "case-endings",
+      "title": "Ein Tag mit Tim"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "ihn"
+              },
+              {
+                "key": "b",
+                "text": "ihm"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Der Kaffee ist fertig. Trinkst du ___ mit mir?",
+            "why": "trinken + Akkusativ; der Kaffee ist maskulin → ihn."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihr"
+              },
+              {
+                "key": "c",
+                "text": "ihnen"
+              }
+            ],
+            "q": "Meine Oma ist krank. Wir besuchen ___ im Krankenhaus.",
+            "why": "besuchen + Akkusativ → sie."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er"
+              },
+              {
+                "key": "b",
+                "text": "Ihn"
+              },
+              {
+                "key": "c",
+                "text": "Ihm"
+              }
+            ],
+            "q": "Der Film hat mir gut gefallen. ___ hat auch dir gefallen, oder?",
+            "why": "Subjekt von gefallen (Nominativ); der Film ist maskulin → Er."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihnen"
+              },
+              {
+                "key": "c",
+                "text": "ihr"
+              }
+            ],
+            "q": "Die Nachbarn sind neu hier. Wir zeigen ___ die Stadt.",
+            "why": "zeigen + Dativ; Nachbarn = Plural → ihnen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "mich"
+              },
+              {
+                "key": "b",
+                "text": "mir"
+              },
+              {
+                "key": "c",
+                "text": "ich"
+              }
+            ],
+            "q": "Ich habe die Prüfung bestanden! Gratulierst du ___?",
+            "why": "gratulieren + Dativ → mir."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "es"
+              },
+              {
+                "key": "b",
+                "text": "ihm"
+              },
+              {
+                "key": "c",
+                "text": "sie"
+              }
+            ],
+            "q": "Das Baby weint. Die Mutter nimmt ___ auf den Arm.",
+            "why": "nehmen + Akkusativ; das Baby ist neutrum → es."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c) — pay attention to which case the verb needs.",
+      "title": "Welcher Fall passt?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "mir"
+          ],
+          "2": [
+            "sie"
+          ],
+          "3": [
+            "ihr"
+          ],
+          "4": [
+            "sie"
+          ],
+          "5": [
+            "sie"
+          ],
+          "6": [
+            "ihr"
+          ],
+          "7": [
+            "mir"
+          ],
+          "8": [
+            "mir"
+          ],
+          "9": [
+            "ihm"
+          ],
+          "10": [
+            "dir"
+          ]
+        },
+        "bank": [
+          "mir",
+          "sie",
+          "ihr",
+          "sie",
+          "sie",
+          "ihr",
+          "mir",
+          "mir",
+          "ihm",
+          "dir",
+          "dich",
+          "euch"
+        ],
+        "text": "Sara ruft ihren Freund Mehmet an. „Hallo Mehmet, hier ist Sara. Kannst\ndu {1} kurz helfen?\" — „Klar, worum geht es?\", fragt Mehmet. „Meine\nSchwester hat morgen Geburtstag, und ich habe noch kein Geschenk für\n{2}.\" Mehmet überlegt. „Schenk {3} doch ein Buch! Sie liest gern,\noder?\" — „Stimmt! Ich rufe {4} später an und frage {5}, was sie sich\nwünscht.\" Am nächsten Tag besucht Sara ihre Schwester. Sie bringt {6}\ndas Buch mit. Ihre Schwester freut sich sehr: „Danke, das gefällt {7}\ntotal gut!\" Sara lacht: „Mehmet hat {8} die Idee gegeben. Du solltest\n{9} auch mal danken!\" Am Abend ruft die Schwester Mehmet an: „Das war\nwirklich nett von {10}.\"\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit den Wörtern aus dem Kasten.",
+      "instructionsEn": "Fill the 10 gaps using the words in the box.",
+      "title": "Lückentext: Ein Geschenk für die Schwester"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "d",
+          "3": "e",
+          "4": "a",
+          "5": "f",
+          "6": "c"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Meine Schwester sucht mich. Sie hat ___ gefunden."
+          },
+          {
+            "key": "2",
+            "text": "Du hast morgen Geburtstag. Ich schenke ___ ein Buch."
+          },
+          {
+            "key": "3",
+            "text": "Mein Vater hat einen neuen Hund. Ich finde ___ süß."
+          },
+          {
+            "key": "4",
+            "text": "Meine Tante wohnt allein. Ich schreibe ___ oft Briefe."
+          },
+          {
+            "key": "5",
+            "text": "Unsere Nachbarn mögen uns. Sie besuchen ___ oft."
+          },
+          {
+            "key": "6",
+            "text": "Die Gäste sind müde. Wir bringen ___ Kaffee."
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "ihr"
+          },
+          {
+            "key": "b",
+            "text": "mich"
+          },
+          {
+            "key": "c",
+            "text": "ihnen"
+          },
+          {
+            "key": "d",
+            "text": "dir"
+          },
+          {
+            "key": "e",
+            "text": "ihn"
+          },
+          {
+            "key": "f",
+            "text": "uns"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B2",
+      "instructions": "Ordne jedem Satzanfang das richtige Pronomen zu.",
+      "instructionsEn": "Match each sentence to the pronoun that correctly fills its gap.",
+      "title": "Sätze und Pronomen verbinden"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie"
+              },
+              {
+                "key": "b",
+                "text": "Ihr"
+              },
+              {
+                "key": "c",
+                "text": "Ihnen"
+              }
+            ],
+            "q": "Anna zieht nach Köln um. ___ hat dort eine neue Wohnung gefunden.",
+            "why": "Subjekt (Nominativ) → Sie."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihr"
+              },
+              {
+                "key": "c",
+                "text": "ihre"
+              }
+            ],
+            "q": "Die Wohnung gefällt ___ sehr gut.",
+            "why": "gefallen + Dativ → ihr."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihr"
+              },
+              {
+                "key": "c",
+                "text": "ihren"
+              }
+            ],
+            "q": "Annas beste Freundin Nina hilft ___ beim Umzug.",
+            "why": "helfen + Dativ → ihr."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "ihr"
+              },
+              {
+                "key": "b",
+                "text": "sie"
+              },
+              {
+                "key": "c",
+                "text": "ihre"
+              }
+            ],
+            "q": "Anna dankt ___ für die Hilfe und lädt sie zum Essen ein.",
+            "why": "danken + Dativ → ihr."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihnen"
+              },
+              {
+                "key": "c",
+                "text": "ihr"
+              }
+            ],
+            "q": "Die neuen Nachbarn sind sehr freundlich. Anna trifft ___ oft im Treppenhaus.",
+            "why": "treffen + Akkusativ; Nachbarn = Plural → sie."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "er"
+              },
+              {
+                "key": "b",
+                "text": "ihm"
+              },
+              {
+                "key": "c",
+                "text": "ihn"
+              }
+            ],
+            "q": "Ein Nachbar, Herr Klein, lädt Anna zum Kaffee ein. Anna besucht ___ am Sonntag.",
+            "why": "besuchen + Akkusativ → ihn."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihr"
+              },
+              {
+                "key": "c",
+                "text": "sich"
+              }
+            ],
+            "q": "Herr Klein erzählt Anna viel über die Stadt. Das interessiert ___ sehr.",
+            "why": "interessieren + Akkusativ; Anna ist feminin → sie."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihnen"
+              },
+              {
+                "key": "c",
+                "text": "ihr"
+              }
+            ],
+            "q": "Am Ende ruft Anna ihre Eltern an und erzählt ___ von ihrem neuen Leben.",
+            "why": "erzählen + Dativ; Eltern = Plural → ihnen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct word for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Annas Umzug"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "EUCH"
+          ],
+          "2": [
+            "MIR"
+          ],
+          "3": [
+            "MIR"
+          ],
+          "4": [
+            "IHR"
+          ],
+          "5": [
+            "IHN"
+          ],
+          "6": [
+            "MIR"
+          ],
+          "7": [
+            "SIE"
+          ],
+          "8": [
+            "MIR"
+          ],
+          "9": [
+            "EUCH"
+          ],
+          "10": [
+            "MICH"
+          ]
+        },
+        "bank": [
+          "EUCH",
+          "MIR",
+          "MIR",
+          "IHR",
+          "IHN",
+          "MIR",
+          "SIE",
+          "MIR",
+          "EUCH",
+          "MICH",
+          "DICH",
+          "UNS",
+          "IHM"
+        ],
+        "text": "Liebe Mama, lieber Papa, ich schreibe {1} aus meiner neuen Stadt! Die\nWohnung gefällt {2} sehr gut, auch wenn sie klein ist. Meine Kollegin\nJulia hat {3} beim Einzug geholfen — ich bin {4} sehr dankbar. Am\nWochenende habe ich meinen alten Schulfreund Ben getroffen. Ich habe\n{5} seit Jahren nicht gesehen! Er hat {6} viel über sein neues Leben\nerzählt. Meine neuen Nachbarn sind auch sehr nett. Ich habe {7} schon\nzum Kaffee eingeladen. Papa, kannst du {8} bitte meine alten Bücher\nschicken? Ich vermisse {9} beide sehr, aber es geht mir gut. Ruft {10}\nbald an!\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Three words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Ein Brief an die Familie (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "mir"
+          ],
+          "2": [
+            "sie"
+          ],
+          "3": [
+            "ihn"
+          ],
+          "4": [
+            "ihn"
+          ],
+          "5": [
+            "ihr"
+          ],
+          "6": [
+            "ihn"
+          ],
+          "7": [
+            "ihm"
+          ],
+          "8": [
+            "es"
+          ],
+          "9": [
+            "ihnen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe ein Problem. Kannst du {1} helfen?\n2. Das ist meine neue Katze. Ich habe {2} letzte Woche bekommen.\n3. Ich habe einen neuen Roman gekauft. Meine Schwester möchte {3} lesen. Ich gebe {4} {5}.\n4. Mein Kollege braucht den Bericht. Ich schicke {6} {7} per E-Mail.\n5. Die Kinder wünschen sich ein Haustier. Die Eltern schenken {8} {9} zu Weihnachten.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die richtigen Personalpronomen. Sätze 3–5 haben zwei Lücken.",
+      "instructionsEn": "Fill in the pronouns. Sentences 3–5 each need two pronoun objects — remember: the Akkusativ pronoun always comes before the Dativ pronoun (Ich gebe ihn ihr, not Ich gebe ihr ihn).",
+      "title": "Gemischte Wiederholung: zwei Pronomen im Satz"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "mich"
+              },
+              {
+                "key": "b",
+                "text": "mir"
+              },
+              {
+                "key": "c",
+                "text": "ich"
+              }
+            ],
+            "q": "Ich brauche deine Hilfe. Kannst du ___ morgen anrufen?",
+            "why": "anrufen + Akkusativ → mich."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihr"
+              },
+              {
+                "key": "c",
+                "text": "ihren"
+              }
+            ],
+            "q": "Die Blumen sind für meine Mutter. Ich schenke ___ Rosen.",
+            "why": "schenken + Dativ → ihr."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihnen"
+              },
+              {
+                "key": "c",
+                "text": "ihr"
+              }
+            ],
+            "q": "Wo sind meine Schlüssel? Hast du ___ gesehen?",
+            "why": "sehen + Akkusativ; Schlüssel = Plural → sie."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihnen"
+              },
+              {
+                "key": "c",
+                "text": "ihr"
+              }
+            ],
+            "q": "Unsere Gäste kommen bald. Wir zeigen ___ das Haus.",
+            "why": "zeigen + Dativ; Gäste = Plural → ihnen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es"
+              },
+              {
+                "key": "b",
+                "text": "Ihm"
+              },
+              {
+                "key": "c",
+                "text": "Sie"
+              }
+            ],
+            "q": "Das Konzert war super. ___ hat mir sehr gut gefallen.",
+            "why": "Subjekt von gefallen (Nominativ); das Konzert ist neutrum → Es."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "mich"
+              },
+              {
+                "key": "b",
+                "text": "mir"
+              },
+              {
+                "key": "c",
+                "text": "ich"
+              }
+            ],
+            "q": "Ich habe morgen ein Vorstellungsgespräch. Wünsch ___ Glück!",
+            "why": "wünschen + Dativ → mir."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-01-personalpronomen-a2",
+  "intro": "Standalone drill set, not tied to any lesson. Builds on the A1 set: mixed cases inside connected text (not isolated pairs), a matching puzzle, two Sprachbausteine exam-style exercises, and a final review with three two-pronoun sentences (Akkusativ before Dativ). Answers in solutions.md.\n",
+  "lesson": "EX/01-personalpronomen-a2",
+  "level": "A2",
+  "summary": null,
+  "title": "Personalpronomen: Nominativ, Akkusativ, Dativ — A2",
+  "topic": "Personalpronomen (Nominativ, Akkusativ, Dativ)"
+}

@@ -1,0 +1,830 @@
+{
+  "category": "Unterwegs",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "zimmer",
+            "label": "Im Zimmer"
+          },
+          {
+            "key": "rezeption",
+            "label": "An der Rezeption"
+          },
+          {
+            "key": "rechnung",
+            "label": "Auf der Rechnung"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "zimmer",
+            "text": "das Handtuch"
+          },
+          {
+            "bucket": "rezeption",
+            "text": "die Reservierung"
+          },
+          {
+            "bucket": "rechnung",
+            "text": "die Kurtaxe"
+          },
+          {
+            "bucket": "zimmer",
+            "text": "die Klimaanlage"
+          },
+          {
+            "bucket": "rezeption",
+            "text": "die Zimmerkarte"
+          },
+          {
+            "bucket": "rechnung",
+            "text": "die Minibar"
+          },
+          {
+            "bucket": "zimmer",
+            "text": "der Wasserkocher"
+          },
+          {
+            "bucket": "rezeption",
+            "text": "das Gepäckdepot"
+          },
+          {
+            "bucket": "rechnung",
+            "text": "der Frühstückspreis"
+          },
+          {
+            "bucket": "zimmer",
+            "text": "der Föhn"
+          },
+          {
+            "bucket": "rezeption",
+            "text": "der Weckruf"
+          },
+          {
+            "bucket": "rechnung",
+            "text": "die Endreinigung"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Zimmer, Rezeption oder Rechnung?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Ich habe eine Reservierung auf den Namen Marchetti."
+          },
+          {
+            "key": "2",
+            "text": "Wann gibt es Frühstück?"
+          },
+          {
+            "key": "3",
+            "text": "Wie ist das WLAN-Passwort?"
+          },
+          {
+            "key": "4",
+            "text": "Bis wann müssen wir auschecken?"
+          },
+          {
+            "key": "5",
+            "text": "Die Heizung funktioniert nicht."
+          },
+          {
+            "key": "6",
+            "text": "Können wir das Gepäck hierlassen?"
+          },
+          {
+            "key": "7",
+            "text": "Ist die Kurtaxe im Preis enthalten?"
+          },
+          {
+            "key": "8",
+            "text": "Könnten Sie uns um sieben wecken?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Einen Moment … ja, zwei Nächte, Doppelzimmer. Ihren Ausweis, bitte."
+          },
+          {
+            "key": "b",
+            "text": "Von 6:30 bis 10 Uhr im Raum neben der Lobby."
+          },
+          {
+            "key": "c",
+            "text": "Es steht auf der Rückseite der Zimmerkarte."
+          },
+          {
+            "key": "d",
+            "text": "Bis 11 Uhr, später gegen Aufpreis."
+          },
+          {
+            "key": "e",
+            "text": "Das tut mir leid, ich schicke gleich jemanden hoch."
+          },
+          {
+            "key": "f",
+            "text": "Natürlich, das Depot ist gleich links."
+          },
+          {
+            "key": "g",
+            "text": "Nein, die kommt mit 2,50 € pro Nacht dazu."
+          },
+          {
+            "key": "h",
+            "text": "Mache ich, ich trage den Weckruf ein."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jeder Frage eine passende Antwort zu.",
+      "instructionsEn": "Match each question with a fitting answer.",
+      "title": "Frage und Antwort an der Rezeption"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "ist"
+          ],
+          "2": [
+            "gegangen"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "genommen"
+          ],
+          "5": [
+            "lässt"
+          ],
+          "6": [
+            "haben"
+          ],
+          "7": [
+            "geschlafen"
+          ],
+          "8": [
+            "hat"
+          ],
+          "9": [
+            "gewechselt"
+          ],
+          "10": [
+            "war"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Heizung {1} die ganze Nacht nicht {2}. (gehen)\n2. Ich {3} aus der Minibar nichts {4}. (nehmen)\n3. Das Fenster {5} sich nicht schließen. (lassen, 3. Person Singular)\n4. Wir {6} wegen des Lärms kaum {7}. (schlafen)\n5. Jemand {8} das Handtuch nicht {9}. (wechseln)\n6. Der Föhn {10} kaputt. (sein, Präteritum)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Hilfsverb oder das Partizip.",
+      "instructionsEn": "Fill in the auxiliary or the participle.",
+      "title": "Was ist im Zimmer los? Perfekt"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "in der"
+          ],
+          "2": [
+            "in die"
+          ],
+          "3": [
+            "im"
+          ],
+          "4": [
+            "im"
+          ],
+          "5": [
+            "neben den"
+          ],
+          "6": [
+            "neben der"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Föhn liegt {1} Schublade. (in + der — Ort)\n2. Legen Sie die Zimmerkarte bitte {2} Halterung. (in + die — Richtung)\n3. Das Frühstück ist {3} Raum neben der Lobby. (in + dem, kurz)\n4. Ein Handtuch hängt {4} Bad. (in + dem, kurz)\n5. Bitte stellen Sie den Koffer {5} Schrank. (neben + den — Richtung)\n6. Das Gepäckdepot ist {6} Rezeption. (neben + der — Ort)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze die Präposition mit dem Artikel.",
+      "instructionsEn": "Fill in the preposition with the article.",
+      "title": "Wo im Zimmer? Wechselpräpositionen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "RESERVIERUNG"
+          ],
+          "2": [
+            "DOPPELZIMMER"
+          ],
+          "3": [
+            "AUSWEIS"
+          ],
+          "4": [
+            "KURTAXE"
+          ],
+          "5": [
+            "FRÜHSTÜCK"
+          ],
+          "6": [
+            "ZIMMERKARTE"
+          ],
+          "7": [
+            "WLAN"
+          ],
+          "8": [
+            "AUSCHECKEN"
+          ],
+          "9": [
+            "GEPÄCK"
+          ],
+          "10": [
+            "WECKEN"
+          ]
+        },
+        "bank": [
+          "RESERVIERUNG",
+          "DOPPELZIMMER",
+          "AUSWEIS",
+          "KURTAXE",
+          "FRÜHSTÜCK",
+          "ZIMMERKARTE",
+          "WLAN",
+          "AUSCHECKEN",
+          "GEPÄCK",
+          "WECKEN",
+          "MINIBAR",
+          "RECHNUNG",
+          "SCHLÜSSEL",
+          "EINZELZIMMER"
+        ],
+        "text": "— Guten Abend, ich habe eine {1} auf den Namen Marchetti.\n— Guten Abend. Einen Moment … ja, zwei Nächte, {2}. Darf ich\nIhren {3} sehen?\n— Hier, bitte. Ist die {4} im Preis enthalten?\n— Nein, die kommt mit 2,50 € pro Nacht dazu.\n— Alles klar. Wann gibt es {5}?\n— Von 6:30 bis 10 Uhr, im Raum neben der Lobby. Und hier ist Ihre\n{6}, Zimmer 214, zweiter Stock.\n— Danke. Wie ist das {7}-Passwort?\n— Es steht auf der Rückseite der Karte.\n— Und bis wann müssen wir {8}?\n— Bis 11 Uhr. Wenn Sie später wollen, sagen Sie einfach Bescheid,\ndas kostet 15 €. Das {9} können Sie danach hier lassen.\n— Sehr gut. Könnten Sie uns morgen um sieben {10}?\n— Mache ich, ich trage den Weckruf ein. Gute Nacht!\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Einchecken"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Guten Abend, ich habe eine Reservierung auf den Namen Marchetti."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe ein Zimmer."
+              },
+              {
+                "key": "c",
+                "text": "Marchetti."
+              }
+            ],
+            "q": "Du kommst an und willst einchecken. — You arrive and want to check in.",
+            "why": "Gruß, das Wort „Reservierung“ und der Name — damit ist der Vorgang sofort gefunden."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es ist kalt."
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, in Zimmer 214 geht die Heizung nicht — könnte jemand nachsehen?"
+              },
+              {
+                "key": "c",
+                "text": "Das Zimmer ist schlecht."
+              }
+            ],
+            "q": "Die Heizung geht nicht. — The heating isn't working.",
+            "why": "Zimmernummer, Problem und Bitte — so wird tatsächlich jemand geschickt."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir bleiben länger."
+              },
+              {
+                "key": "b",
+                "text": "Ich checke um zwei aus."
+              },
+              {
+                "key": "c",
+                "text": "Wäre ein späterer Check-out möglich? Unser Zug geht erst um 15 Uhr."
+              }
+            ],
+            "q": "Du willst später auschecken. — You want to check out later.",
+            "why": "Als Frage plus Grund — dann wird oft kulant entschieden, statt den Aufpreis zu verlangen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie haben falsch abgerechnet."
+              },
+              {
+                "key": "b",
+                "text": "Hier steht Minibar 6 € — daraus habe ich nichts genommen. Könnten Sie das bitte prüfen?"
+              },
+              {
+                "key": "c",
+                "text": "Ich zahle das nicht."
+              }
+            ],
+            "q": "Auf der Rechnung steht die Minibar, die du nicht benutzt hast. — The bill lists the minibar you didn't use.",
+            "why": "Auf die Zeile zeigen und um Prüfung bitten: Minibar-Fehler sind häufig und schnell korrigiert."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Könnten Sie uns bitte noch ein Handtuch aufs Zimmer bringen? 214."
+              },
+              {
+                "key": "b",
+                "text": "Wir haben zu wenig Handtücher."
+              },
+              {
+                "key": "c",
+                "text": "Ich hole mir eins."
+              }
+            ],
+            "q": "Du brauchst ein zusätzliches Handtuch. — You need an extra towel.",
+            "why": "Bitte plus Zimmernummer — der Rest passiert von selbst."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Zimmer ist unmöglich."
+              },
+              {
+                "key": "b",
+                "text": "Es ist sehr laut zum Hof hin — hätten Sie eventuell ein ruhigeres Zimmer frei?"
+              },
+              {
+                "key": "c",
+                "text": "Ich will ein anderes Zimmer."
+              }
+            ],
+            "q": "Es ist laut vom Hof und du willst ein anderes Zimmer. — It's noisy from the courtyard and you want another room.",
+            "why": "Grund nennen und höflich fragen — „hätten Sie eventuell“ macht ein Nein für beide leicht."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Was sagst du?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "auf + Akkusativ bei Reservierungen",
+            "tiles": [
+              "Ich",
+              "habe",
+              "eine",
+              "Reservierung",
+              "auf",
+              "den",
+              "Namen",
+              "Marchetti"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Modalverb an Position 3, Infinitiv am Ende",
+            "tiles": [
+              "Bis",
+              "wann",
+              "müssen",
+              "wir",
+              "auschecken",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Perfekt mit sein, Partizip am Ende",
+            "tiles": [
+              "Die",
+              "Heizung",
+              "ist",
+              "die",
+              "ganze",
+              "Nacht",
+              "nicht",
+              "gegangen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "aus + Dativ; Perfekt mit haben",
+            "tiles": [
+              "Aus",
+              "der",
+              "Minibar",
+              "habe",
+              "ich",
+              "nichts",
+              "genommen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Konjunktiv II an Position 1, Infinitiv am Ende",
+            "tiles": [
+              "Könnten",
+              "Sie",
+              "uns",
+              "um",
+              "sieben",
+              "wecken",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Komparativ ruhiger + Endung -es bei Neutrum",
+            "tiles": [
+              "Hätten",
+              "Sie",
+              "eventuell",
+              "ein",
+              "ruhigeres",
+              "Zimmer",
+              "frei",
+              "?"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze im Hotel bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Sonntags kann man bis 11 Uhr frühstücken. — On Sundays you can have breakfast until 11 am.",
+            "why": "„Sa/So bis 11 Uhr.“"
+          },
+          {
+            "answer": false,
+            "q": "Die Kurtaxe ist schon im Zimmerpreis. — The tourist tax is already in the room price.",
+            "why": "Sie ist ausdrücklich nicht enthalten."
+          },
+          {
+            "answer": false,
+            "q": "Für das WLAN zahlt man extra. — You pay extra for the wi-fi.",
+            "why": "„WLAN kostenlos.“"
+          },
+          {
+            "answer": true,
+            "q": "Nach dem Check-out kann man das Gepäck noch dalassen. — After check-out you can still leave your luggage.",
+            "why": "„Gepäckdepot … auch nach dem Check-out.“"
+          },
+          {
+            "answer": false,
+            "q": "Handtücher werden jeden Tag automatisch gewechselt. — Towels are changed automatically every day.",
+            "why": "Nur, wenn sie im Waschbecken liegen."
+          },
+          {
+            "answer": true,
+            "q": "Für den Parkplatz muss man das Kennzeichen angeben. — For the car park you have to give your number plate.",
+            "why": "„Anmeldung an der Rezeption nötig (Kennzeichen).“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Hotel Alte Post — Gästeinformation**\n>\n> - **Check-in ab 15 Uhr**, **Check-out bis 11 Uhr**. Später\n>   Check-out bis 14 Uhr **auf Anfrage, 15 €**.\n> - **Frühstück 6:30–10 Uhr** (Sa/So bis 11 Uhr), **14 € pro\n>   Person**, wenn nicht gebucht.\n> - **Kurtaxe 2,50 € pro Person und Nacht**, nicht im\n>   Zimmerpreis enthalten.\n> - **WLAN kostenlos**, Passwort auf der Zimmerkarte.\n> - **Gepäckdepot** neben der Rezeption, auch nach dem\n>   Check-out.\n> - **Zimmerreinigung täglich**; Handtuchwechsel nur, wenn das\n>   Handtuch **im Waschbecken** liegt.\n> - **Parkplatz 12 € pro Nacht**, Anmeldung an der Rezeption\n>   nötig (Kennzeichen).\n> - Stornierung **kostenfrei bis 18 Uhr am Anreisetag**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Hotelinformation lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ist das Zimmer vielleicht schon frei? Sonst lasse ich gern das Gepäck hier und komme später."
+              },
+              {
+                "key": "b",
+                "text": "Ich warte hier."
+              },
+              {
+                "key": "c",
+                "text": "Zwei Stunden sind zu lang."
+              }
+            ],
+            "q": "Du kommst um 13 Uhr an, Check-in ist ab 15 Uhr. — You arrive at 1 pm, check-in is from 3 pm.",
+            "why": "Fragen und gleich die Alternative anbieten — oft ist ein Zimmer schon fertig."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Damit leben."
+              },
+              {
+                "key": "b",
+                "text": "Ich hatte ein Doppelzimmer mit Blick zum Park gebucht — hier ist die Bestätigung. Was lässt sich machen?"
+              },
+              {
+                "key": "c",
+                "text": "Das ist eine Frechheit."
+              }
+            ],
+            "q": "Das Zimmer ist nicht das, was du gebucht hast. — The room isn't what you booked.",
+            "why": "Buchung, Beleg und offene Frage — so bekommst du entweder ein anderes Zimmer oder eine Anpassung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Selbst an der Nachbartür klopfen."
+              },
+              {
+                "key": "b",
+                "text": "Bis morgen warten."
+              },
+              {
+                "key": "c",
+                "text": "An der Rezeption anrufen — dafür ist der Nachtdienst da."
+              }
+            ],
+            "q": "Nachts ist es sehr laut, es ist zwei Uhr. — It's very loud at 2 am.",
+            "why": "Das Hotel regelt es; selbst zu klopfen macht aus einem Lärmproblem einen Streit."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zahlen und später schreiben."
+              },
+              {
+                "key": "b",
+                "text": "Könnten wir das kurz zusammen durchgehen? Ich komme auf einen anderen Betrag."
+              },
+              {
+                "key": "c",
+                "text": "Ich zahle nur die Hälfte."
+              }
+            ],
+            "q": "Beim Auschecken stimmt die Summe nicht. — At check-out the total is wrong.",
+            "why": "Gemeinsam durchgehen, solange ihr beide davorsteht — später ist es viel mühsamer."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort anrufen, das Zimmer und den Gegenstand nennen und nach dem Nachsenden fragen."
+              },
+              {
+                "key": "b",
+                "text": "Es abschreiben."
+              },
+              {
+                "key": "c",
+                "text": "Nächstes Mal danach fragen."
+              }
+            ],
+            "q": "Du hast etwas im Zimmer vergessen und bist schon weg. — You left something in the room and have already gone.",
+            "why": "Je früher, desto eher liegt es noch im Zimmer; Zimmernummer und Beschreibung sind alles, was sie brauchen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie haben mich nicht geweckt!"
+              },
+              {
+                "key": "b",
+                "text": "Der Weckruf für sieben Uhr ist leider nicht gekommen — können Sie schauen, ob er eingetragen war?"
+              },
+              {
+                "key": "c",
+                "text": "Nichts sagen."
+              }
+            ],
+            "q": "Der Weckruf kam nicht. — The wake-up call didn't come.",
+            "why": "Sachlich melden und um Prüfung bitten; oft war es ein Eintragungsfehler, den sie sofort sehen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn etwas nicht stimmt"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Reservierung"
+          ],
+          "2": [
+            "Kurtaxe"
+          ],
+          "3": [
+            "auschecken"
+          ],
+          "4": [
+            "Gepäck"
+          ],
+          "5": [
+            "Minibar"
+          ],
+          "6": [
+            "wecken"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe eine {1} auf den Namen Marchetti. (gebuchtes Zimmer)\n2. Die {2} kostet 2,50 € pro Nacht extra. (Abgabe für Übernachtungsgäste)\n3. Wir möchten später {3}. (das Zimmer verlassen und zahlen)\n4. Das {4} können wir hierlassen. (die Koffer)\n5. Aus der {5} habe ich nichts genommen. (kleiner Kühlschrank im Zimmer)\n6. Könnten Sie uns um sieben {6}? (aufwecken)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Reservierung"
+          ],
+          "2": [
+            "Ausweis"
+          ],
+          "3": [
+            "Kurtaxe"
+          ],
+          "4": [
+            "Frühstück"
+          ],
+          "5": [
+            "Zimmerkarte"
+          ],
+          "6": [
+            "WLAN"
+          ],
+          "7": [
+            "auschecken"
+          ],
+          "8": [
+            "Gepäck"
+          ],
+          "9": [
+            "gegangen"
+          ],
+          "10": [
+            "Minibar"
+          ],
+          "11": [
+            "Könnten"
+          ],
+          "12": [
+            "Hätten"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe eine {1} auf den Namen … (reservation)\n2. Darf ich Ihren {2} sehen? (ID)\n3. Ist die {3} im Preis enthalten? (tourist tax)\n4. Wann gibt es {4}? (breakfast)\n5. Hier ist Ihre {5}. (room card)\n6. Wie ist das {6}-Passwort? (wi-fi)\n7. Bis wann müssen wir {7}? (check out)\n8. Können wir das {8} hierlassen? (luggage)\n9. Die Heizung ist nicht {9}. (worked — gehen im Perfekt)\n10. Aus der {10} habe ich nichts genommen. (the small fridge in the room)\n11. {11} Sie uns um sieben wecken? (could you)\n12. {12} Sie eventuell ein ruhigeres Zimmer? (would you have)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-32-im-hotel-a2",
+  "intro": "Ein Hotelaufenthalt besteht aus drei Gesprächen an derselben Rezeption. Beim Einchecken geht es um Reservierung, Ausweis, Zimmernummer, Frühstückszeit und WLAN. In der Mitte kommt das, was im Zimmer nicht stimmt — die Heizung, der Lärm vom Hof, das fehlende Handtuch. Und beim Auschecken um die Rechnung: die Minibar, die man nicht angerührt hat, und die Frage, ob man das Gepäck noch ein paar Stunden dalassen darf. Grammatik nach Bedarf: Perfekt für das, was passiert ist, Wechselpräpositionen im Zimmer, höfliche Bitten mit könnten und würden. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/32-im-hotel-a2",
+  "level": "A2",
+  "summary": "Einchecken, nach Frühstück und WLAN fragen, ein Problem im Zimmer melden, spät auschecken und die Rechnung prüfen.",
+  "title": "Im Hotel — A2",
+  "topic": "Hotelaufenthalt"
+}

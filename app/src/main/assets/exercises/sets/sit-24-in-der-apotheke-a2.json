@@ -1,0 +1,814 @@
+{
+  "category": "Sport & Gesundheit",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "form",
+            "label": "Darreichungsform"
+          },
+          {
+            "key": "beschwerde",
+            "label": "Beschwerden"
+          },
+          {
+            "key": "papier",
+            "label": "Papier & Kasse"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "form",
+            "text": "die Tablette"
+          },
+          {
+            "bucket": "beschwerde",
+            "text": "die Halsschmerzen"
+          },
+          {
+            "bucket": "papier",
+            "text": "das Rezept"
+          },
+          {
+            "bucket": "form",
+            "text": "der Hustensaft"
+          },
+          {
+            "bucket": "beschwerde",
+            "text": "der Ausschlag"
+          },
+          {
+            "bucket": "papier",
+            "text": "die Zuzahlung"
+          },
+          {
+            "bucket": "form",
+            "text": "die Salbe"
+          },
+          {
+            "bucket": "beschwerde",
+            "text": "das Fieber"
+          },
+          {
+            "bucket": "papier",
+            "text": "die Versichertenkarte"
+          },
+          {
+            "bucket": "form",
+            "text": "das Nasenspray"
+          },
+          {
+            "bucket": "beschwerde",
+            "text": "der Durchfall"
+          },
+          {
+            "bucket": "papier",
+            "text": "der Beipackzettel"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Form, Beschwerde oder Papier?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Haben Sie ein Rezept dabei?"
+          },
+          {
+            "key": "2",
+            "text": "Wogegen brauchen Sie etwas?"
+          },
+          {
+            "key": "3",
+            "text": "Nehmen Sie sonst noch Medikamente?"
+          },
+          {
+            "key": "4",
+            "text": "Vertragen Sie Ibuprofen?"
+          },
+          {
+            "key": "5",
+            "text": "Darf es die große Packung sein?"
+          },
+          {
+            "key": "6",
+            "text": "Wie oft soll ich das nehmen?"
+          },
+          {
+            "key": "7",
+            "text": "Ist das rezeptfrei?"
+          },
+          {
+            "key": "8",
+            "text": "Wann bekomme ich es?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Ja, hier, und meine Versichertenkarte."
+          },
+          {
+            "key": "b",
+            "text": "Gegen Halsschmerzen und Husten."
+          },
+          {
+            "key": "c",
+            "text": "Nur eine Tablette gegen Bluthochdruck."
+          },
+          {
+            "key": "d",
+            "text": "Ja, das habe ich schon oft genommen."
+          },
+          {
+            "key": "e",
+            "text": "Nein danke, die kleine reicht."
+          },
+          {
+            "key": "f",
+            "text": "Dreimal täglich, jeweils nach dem Essen."
+          },
+          {
+            "key": "g",
+            "text": "Ja, dafür brauchen Sie kein Rezept."
+          },
+          {
+            "key": "h",
+            "text": "Ich bestelle es, morgen früh ist es da."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jeder Frage eine passende Antwort zu.",
+      "instructionsEn": "Match each question with a fitting answer.",
+      "title": "Frage und Antwort am Tresen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "tut"
+          ],
+          "2": [
+            "Fieber"
+          ],
+          "3": [
+            "verstopft"
+          ],
+          "4": [
+            "Kopfschmerzen"
+          ],
+          "5": [
+            "übel"
+          ],
+          "6": [
+            "Ausschlag"
+          ],
+          "7": [
+            "fühle"
+          ],
+          "8": [
+            "verletzt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Mir {1} der Hals weh. (wehtun, 3. Person Singular)\n2. Ich habe seit drei Tagen {2}. (Temperatur über 38 Grad)\n3. Meine Nase ist {3}. (man bekommt keine Luft)\n4. Ich habe starke {4}. (der Kopf schmerzt)\n5. Mir ist {5}. (man muss vielleicht brechen)\n6. Ich habe einen {6} am Arm. (rote Stellen auf der Haut)\n7. Ich {7} mich seit gestern schlapp. (fühlen, ich-Form)\n8. Ich habe mich am Fuß {8}. (verletzen, Perfekt-Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das fehlende Wort.",
+      "instructionsEn": "Fill in the missing word.",
+      "title": "Beschwerden beschreiben"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "dreimal"
+          ],
+          "2": [
+            "nach"
+          ],
+          "3": [
+            "Stunden"
+          ],
+          "4": [
+            "Tage"
+          ],
+          "5": [
+            "unter"
+          ],
+          "6": [
+            "zweimal"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Nehmen Sie {1} täglich eine Tablette. (3 ×)\n2. Bitte {2} dem Essen einnehmen. (danach)\n3. Zwischen zwei Tabletten sollten mindestens sechs {3} liegen. (Zeiteinheit)\n4. Nehmen Sie es höchstens drei {4} lang. (Zeiteinheit — kürzer als eine Woche)\n5. Für Kinder {5} 12 Jahren ist es nicht geeignet. (jünger als)\n6. Tragen Sie die Salbe {6} dünn auf. (2 ×)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze die Zeit- oder Mengenangabe.",
+      "instructionsEn": "Fill in the time or quantity expression.",
+      "title": "Dosierung: wie oft, wie viel, wie lange"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "GEGEN"
+          ],
+          "2": [
+            "FIEBER"
+          ],
+          "3": [
+            "MEDIKAMENTE"
+          ],
+          "4": [
+            "HUSTENSAFT"
+          ],
+          "5": [
+            "VERTRAGEN"
+          ],
+          "6": [
+            "DREIMAL"
+          ],
+          "7": [
+            "TAGE"
+          ],
+          "8": [
+            "REZEPTFREI"
+          ],
+          "9": [
+            "ARZT"
+          ],
+          "10": [
+            "BEIPACKZETTEL"
+          ]
+        },
+        "bank": [
+          "GEGEN",
+          "FIEBER",
+          "MEDIKAMENTE",
+          "HUSTENSAFT",
+          "VERTRAGEN",
+          "DREIMAL",
+          "TAGE",
+          "REZEPTFREI",
+          "ARZT",
+          "BEIPACKZETTEL",
+          "REZEPT",
+          "SALBE",
+          "WOCHEN",
+          "ZWEIMAL"
+        ],
+        "text": "— Guten Tag, was kann ich für Sie tun?\n— Guten Tag. Ich brauche etwas {1} Halsschmerzen und Husten.\n— Seit wann haben Sie die Beschwerden?\n— Seit drei Tagen. Und ich habe leichtes {2}, 38,2.\n— Nehmen Sie sonst noch {3}?\n— Nein, nichts.\n— Dann kann ich Ihnen Lutschtabletten und einen {4} geben.\nIbuprofen {5} Sie?\n— Ja, das habe ich schon oft genommen.\n— Gut. Nehmen Sie {6} täglich eine Tablette, immer nach dem\nEssen. Und höchstens drei {7} lang.\n— Alles klar. Ist das {8}?\n— Ja, dafür brauchen Sie kein Rezept.\n— Und wenn das Fieber bleibt?\n— Wenn es nach drei Tagen nicht besser wird, gehen Sie bitte zum\n{9}. Lesen Sie auch den {10} — vor allem wegen der\nNebenwirkungen.\n— Mache ich, danke!\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Erkältet am Tresen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Guten Tag, ich möchte dieses Rezept einlösen."
+              },
+              {
+                "key": "b",
+                "text": "Hier, bitte."
+              },
+              {
+                "key": "c",
+                "text": "Ich brauche das."
+              }
+            ],
+            "q": "Du kommst mit einem Rezept vom Arzt. — You come in with a prescription.",
+            "why": "„Ein Rezept einlösen“ ist genau das Verb dafür — der Rest des Gesprächs läuft danach von selbst."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Was gibt es denn so?"
+              },
+              {
+                "key": "b",
+                "text": "Ich brauche etwas gegen Halsschmerzen — was können Sie mir empfehlen?"
+              },
+              {
+                "key": "c",
+                "text": "Geben Sie mir das Beste."
+              }
+            ],
+            "q": "Du willst etwas ohne Rezept und weißt nicht, was. — You want something without a prescription and don't know what.",
+            "why": "Beschwerde nennen und um eine Empfehlung bitten: dafür ist die Beratung da."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Okay."
+              },
+              {
+                "key": "b",
+                "text": "Steht ja im Beipackzettel."
+              },
+              {
+                "key": "c",
+                "text": "Entschuldigung, wie oft am Tag soll ich das nehmen — und vor oder nach dem Essen?"
+              }
+            ],
+            "q": "Du verstehst die Dosierung nicht ganz. — You don't quite understand the dosage.",
+            "why": "Zwei konkrete Fragen statt einer vagen — genau die zwei Dinge, die man zu Hause vergisst."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich nehme schon eine Tablette gegen Bluthochdruck — passt das zusammen?"
+              },
+              {
+                "key": "b",
+                "text": "Ich nehme sonst nichts."
+              },
+              {
+                "key": "c",
+                "text": "Nichts sagen."
+              }
+            ],
+            "q": "Du nimmst schon ein anderes Medikament. — You're already taking another medicine.",
+            "why": "Wechselwirkungen sind der Hauptgrund für die Frage nach anderen Medikamenten — sag es von dir aus."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist Wucher."
+              },
+              {
+                "key": "b",
+                "text": "Gibt es das auch in einer kleineren Packung oder als günstigeres Präparat?"
+              },
+              {
+                "key": "c",
+                "text": "Ich kaufe es woanders."
+              }
+            ],
+            "q": "Die große Packung ist dir zu teuer. — The large pack is too expensive for you.",
+            "why": "Nach Packungsgröße und Alternativpräparat fragen — beides ist völlig üblich."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bis Montag warten."
+              },
+              {
+                "key": "b",
+                "text": "In die Klinik fahren."
+              },
+              {
+                "key": "c",
+                "text": "Den Notdienst suchen — welche Apotheke heute Notdienst hat, steht online und an jeder Apothekentür."
+              }
+            ],
+            "q": "Es ist Sonntag und alles hat zu. — It's Sunday and everything is closed.",
+            "why": "Der Apotheken-Notdienst ist genau dafür da; die Liste hängt an jeder Tür."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Was sagst du?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Modalverb an Position 2, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "dieses",
+              "Rezept",
+              "einlösen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "gegen + Akkusativ — die Standardformel für Beschwerden",
+            "tiles": [
+              "Ich",
+              "brauche",
+              "etwas",
+              "gegen",
+              "Halsschmerzen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "wehtun mit Dativ: mir — und weh steht am Satzende",
+            "tiles": [
+              "Mir",
+              "tut",
+              "seit",
+              "drei",
+              "Tagen",
+              "der",
+              "Hals",
+              "weh"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "W-Frage mit Modalverb, Infinitiv am Ende",
+            "tiles": [
+              "Wie",
+              "oft",
+              "soll",
+              "ich",
+              "das",
+              "nehmen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Sie-Imperativ: Verb zuerst, dann Sie",
+            "tiles": [
+              "Nehmen",
+              "Sie",
+              "dreimal",
+              "täglich",
+              "eine",
+              "Tablette"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Trennverb zusammen·passen: zusammen am Satzende",
+            "tiles": [
+              "Passt",
+              "das",
+              "mit",
+              "meinen",
+              "anderen",
+              "Medikamenten",
+              "zusammen",
+              "?"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze in der Apotheke bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Man darf höchstens drei Tabletten am Tag nehmen. — You may take at most three tablets a day.",
+            "why": "„Tageshöchstdosis 3 Tabletten.“"
+          },
+          {
+            "answer": false,
+            "q": "Zwei Tabletten kurz hintereinander sind in Ordnung. — Two tablets in quick succession are fine.",
+            "why": "Der Abstand muss mindestens 6 Stunden betragen."
+          },
+          {
+            "answer": false,
+            "q": "Ein zehnjähriges Kind darf das Mittel nehmen. — A ten-year-old may take this medicine.",
+            "why": "Nicht anwenden bei Kindern unter 12 Jahren."
+          },
+          {
+            "answer": false,
+            "q": "Man nimmt die Tablette am besten auf nüchternen Magen. — It's best taken on an empty stomach.",
+            "why": "„Einnahme … nach einer Mahlzeit.“"
+          },
+          {
+            "answer": true,
+            "q": "Bei Fieber sollte man nach drei Tagen zum Arzt. — With fever you should see a doctor after three days.",
+            "why": "„Ohne ärztlichen Rat nicht länger als 3 Tage bei Fieber.“"
+          },
+          {
+            "answer": true,
+            "q": "Wer Blutverdünner nimmt, sollte vorher fragen. — Anyone on blood thinners should ask first.",
+            "why": "„Wechselwirkung mit blutverdünnenden Mitteln möglich — bitte Rücksprache halten.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Grippal akut 400 mg — Kurzinformation**\n>\n> **Anwendungsgebiete:** leichte bis mäßig starke Schmerzen,\n> Fieber.\n>\n> **Dosierung Erwachsene:** 1 Tablette bis zu **3-mal täglich**,\n> Abstand mindestens **6 Stunden**. Tageshöchstdosis **3\n> Tabletten**.\n>\n> **Nicht anwenden bei:** Kindern **unter 12 Jahren**,\n> Magengeschwür, im **letzten Drittel der Schwangerschaft**.\n>\n> **Einnahme:** mit reichlich Wasser, **nach** einer Mahlzeit.\n>\n> **Ohne ärztlichen Rat nicht länger als 3 Tage** bei Fieber und\n> nicht länger als 4 Tage bei Schmerzen anwenden.\n>\n> **Häufige Nebenwirkungen:** Magenbeschwerden, Übelkeit.\n>\n> Wechselwirkung mit blutverdünnenden Mitteln möglich — bitte\n> Rücksprache halten.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Den Beipackzettel lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Gibt es ein anderes Präparat mit demselben Wirkstoff — oder wann kann ich es abholen?"
+              },
+              {
+                "key": "b",
+                "text": "Dann gehe ich woandershin."
+              },
+              {
+                "key": "c",
+                "text": "Wie kann das sein?"
+              }
+            ],
+            "q": "Das Medikament ist nicht lieferbar. — The medicine is out of stock.",
+            "why": "Wirkstoffgleiches Präparat oder Bestellung — das sind genau die zwei möglichen Lösungen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich habe meine Karte vergessen — kann ich sie nachreichen oder erst mal privat zahlen?"
+              },
+              {
+                "key": "b",
+                "text": "Ich habe sie zu Hause."
+              },
+              {
+                "key": "c",
+                "text": "Geht das auch ohne?"
+              }
+            ],
+            "q": "Du hast die Versichertenkarte vergessen. — You forgot your insurance card.",
+            "why": "Zwei Lösungen anbieten — nachreichen oder privat zahlen und später abrechnen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Dosis erhöhen."
+              },
+              {
+                "key": "b",
+                "text": "Zum Arzt gehen und sagen, was du genommen hast und wie lange."
+              },
+              {
+                "key": "c",
+                "text": "Ein zweites Mittel dazunehmen."
+              }
+            ],
+            "q": "Nach zwei Tagen geht es dir schlechter statt besser. — After two days you're worse, not better.",
+            "why": "Selbst mehr oder etwas dazu nehmen ist der häufigste Fehler; der Arzt braucht dafür deine Angaben."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weiter nehmen, das gibt sich."
+              },
+              {
+                "key": "b",
+                "text": "Absetzen und nichts sagen."
+              },
+              {
+                "key": "c",
+                "text": "In die Apotheke zurückgehen: „Mir ist davon übel geworden — gibt es eine Alternative?“"
+              }
+            ],
+            "q": "Du verträgst das Mittel nicht — dir wird übel. — You can't tolerate the medicine; you feel sick.",
+            "why": "Übelkeit steht als häufige Nebenwirkung im Beipackzettel; die Apotheke kennt die Alternativen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Selbst raten."
+              },
+              {
+                "key": "b",
+                "text": "Die Apotheke klärt das direkt mit der Praxis — frag, ob sie dort anrufen können."
+              },
+              {
+                "key": "c",
+                "text": "Ein neues Rezept holen."
+              }
+            ],
+            "q": "Der Arzt hat auf dem Rezept etwas Unleserliches geschrieben. — The doctor wrote something illegible on the prescription.",
+            "why": "Rückfragen bei der Praxis sind Alltag in der Apotheke und gehen meistens in fünf Minuten."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich zahle nicht."
+              },
+              {
+                "key": "b",
+                "text": "Darf ich fragen, wofür die 5 € sind? Ist das die gesetzliche Zuzahlung?"
+              },
+              {
+                "key": "c",
+                "text": "Das war letztes Mal nicht so."
+              }
+            ],
+            "q": "Du sollst 5 € Zuzahlung leisten und weißt nicht, warum. — You're asked for €5 and don't know why.",
+            "why": "Freundlich nach dem Grund fragen — meistens ist es die gesetzliche Zuzahlung, manchmal ein Aufpreis."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn es nicht glattgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "einlösen"
+          ],
+          "2": [
+            "lieferbar"
+          ],
+          "3": [
+            "Wirkstoff"
+          ],
+          "4": [
+            "Zuzahlung"
+          ],
+          "5": [
+            "Nebenwirkungen"
+          ],
+          "6": [
+            "Notdienst"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich möchte dieses Rezept {1}. (gegen Medikament tauschen)\n2. Das Mittel ist zurzeit nicht {2}. (nicht auf Lager)\n3. Gibt es ein Präparat mit demselben {3}? (die wirksame Substanz)\n4. Die gesetzliche {4} beträgt 5 €. (Eigenanteil des Patienten)\n5. Häufige {5} sind Übelkeit und Magenbeschwerden. (unerwünschte Wirkungen)\n6. Am Sonntag hilft der {6}. (Apotheke außerhalb der Öffnungszeiten)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "einlösen"
+          ],
+          "2": [
+            "gegen"
+          ],
+          "3": [
+            "tut"
+          ],
+          "4": [
+            "Fieber"
+          ],
+          "5": [
+            "rezeptfrei"
+          ],
+          "6": [
+            "dreimal"
+          ],
+          "7": [
+            "nach"
+          ],
+          "8": [
+            "empfehlen"
+          ],
+          "9": [
+            "Nebenwirkungen"
+          ],
+          "10": [
+            "lieferbar"
+          ],
+          "11": [
+            "Zuzahlung"
+          ],
+          "12": [
+            "Notdienst"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich möchte dieses Rezept {1}. (redeem)\n2. Ich brauche etwas {2} Halsschmerzen. (for / against)\n3. Mir {3} der Kopf weh. (hurts)\n4. Ich habe seit gestern {4}. (a temperature)\n5. Ist das {5}? (available without prescription)\n6. Nehmen Sie {6} täglich eine Tablette. (three times)\n7. Bitte {7} dem Essen einnehmen. (after)\n8. Was können Sie mir {8}? (recommend)\n9. Häufige {9} sind Übelkeit. (side effects)\n10. Das Mittel ist nicht {10}. (in stock)\n11. Die {11} beträgt 5 €. (statutory co-payment)\n12. Am Sonntag hilft der {12}. (emergency pharmacy service)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-24-in-der-apotheke-a2",
+  "intro": "Die Apotheke ist der Ort, an dem du am schnellsten Deutsch brauchst, wenn es dir schlecht geht. Dabei sind es immer dieselben Gespräche: Du löst ein Rezept ein und zahlst die Zuzahlung. Du beschreibst Beschwerden und lässt dich zu einem rezeptfreien Mittel beraten. Du fragst nach, wie oft und wie lange du etwas nehmen sollst. Und manchmal ist das Medikament nicht lieferbar, dann geht es um ein anderes Präparat oder um Bestellen und Abholen. Grammatik nach Bedarf: Beschwerden mit Dativ (mir tut … weh), Mengen und Zeitangaben, Modalverben und höfliche Fragen. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/24-in-der-apotheke-a2",
+  "level": "A2",
+  "summary": "Rezept einlösen, sich ohne Rezept beraten lassen, die Dosierung verstehen und fragen, wenn etwas nicht da ist.",
+  "title": "In der Apotheke — A2",
+  "topic": "In der Apotheke"
+}

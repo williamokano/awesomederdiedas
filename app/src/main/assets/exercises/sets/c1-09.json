@@ -1,0 +1,2036 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Im Folgenden möchte ich drei Punkte ansprechen."
+              },
+              {
+                "key": "b",
+                "text": "Zusammenfassend lässt sich sagen …"
+              },
+              {
+                "key": "c",
+                "text": "Damit komme ich zum Schluss."
+              }
+            ],
+            "q": "Womit leitet man einen Vortrag EIN?",
+            "why": "„Im Folgenden möchte ich …\" eröffnet den Vortrag und kündigt das Vorgehen an."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sehr geehrte Damen und Herren."
+              },
+              {
+                "key": "b",
+                "text": "Damit komme ich zu meinem zweiten Punkt."
+              },
+              {
+                "key": "c",
+                "text": "Vielen Dank für Ihre Aufmerksamkeit."
+              }
+            ],
+            "q": "Welcher Satz signalisiert eine ÜBERLEITUNG?",
+            "why": "„Damit komme ich zu …\" führt von einem Teil zum nächsten."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zunächst betrachte ich die Ursachen."
+              },
+              {
+                "key": "b",
+                "text": "Gegenstand meines Vortrags ist …"
+              },
+              {
+                "key": "c",
+                "text": "Zusammenfassend lässt sich festhalten, dass …"
+              }
+            ],
+            "q": "Welcher Satz gehört zum SCHLUSS?",
+            "why": "„Zusammenfassend lässt sich festhalten …\" fasst am Ende zusammen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zunächst …, anschließend …, abschließend …"
+              },
+              {
+                "key": "b",
+                "text": "Da würde ich widersprechen."
+              },
+              {
+                "key": "c",
+                "text": "Habe ich Sie richtig verstanden?"
+              }
+            ],
+            "q": "Womit kündigt man die GLIEDERUNG an?",
+            "why": "„Zunächst … anschließend … abschließend …\" gliedert den Hauptteil."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kommen wir nun zum nächsten Abschnitt."
+              },
+              {
+                "key": "b",
+                "text": "Besonders wichtig erscheint mir dieser Punkt."
+              },
+              {
+                "key": "c",
+                "text": "Ich komme zum Schluss."
+              }
+            ],
+            "q": "Welcher Satz HEBT etwas HERVOR?",
+            "why": "„Besonders wichtig erscheint mir …\" betont eine zentrale Aussage."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A1",
+      "instructions": "Wähle das Signal, das zur genannten Phase des Vortrags passt (a, b oder c).",
+      "title": "Gliederungssignale — welche Phase?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "grenze"
+          ],
+          "2": [
+            "werde"
+          ],
+          "3": [
+            "komme"
+          ],
+          "4": [
+            "stelle"
+          ],
+          "5": [
+            "ziehe"
+          ],
+          "6": [
+            "erscheint"
+          ],
+          "7": [
+            "lässt"
+          ],
+          "8": [
+            "kommen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Zunächst {1} ich das Thema ein. (eingrenzen, ich)\n2. Im Folgenden {2} ich drei Punkte ansprechen. (werden-Futur)\n3. Damit {3} ich zu meinem zweiten Punkt. (kommen)\n4. Anschließend {4} ich zwei Beispiele vor. (vorstellen)\n5. Abschließend {5} ich ein Fazit. (ziehen)\n6. Besonders wichtig {6} mir dieser Aspekt. (erscheinen)\n7. Zusammenfassend {7} sich festhalten, dass … (sich lassen)\n8. Soweit zu Teil eins; nun {8} wir zu Teil zwei. (kommen, wir)\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Nach einem vorangestellten Adverbiale steht das Verb an Position 2. Setze die richtige Verbform ein. 8 Items.",
+      "title": "Inversion: das Verb an Position 2"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Reden Sie jetzt!"
+              },
+              {
+                "key": "b",
+                "text": "Ich würde Sie bitten, zu beginnen."
+              },
+              {
+                "key": "c",
+                "text": "Sie sind dran, los."
+              }
+            ],
+            "q": "Du möchtest jemandem das Wort erteilen.",
+            "why": "Der Konjunktiv II „würde bitten\" wirkt höflich und souverän."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Stopp, jetzt rede ich!"
+              },
+              {
+                "key": "b",
+                "text": "Hören Sie auf."
+              },
+              {
+                "key": "c",
+                "text": "Gestatten Sie, dass ich kurz einhake?"
+              }
+            ],
+            "q": "Du musst eine Rednerin unterbrechen.",
+            "why": "„Gestatten Sie, dass ich einhake?\" unterbricht höflich."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie reden viel zu lang!"
+              },
+              {
+                "key": "b",
+                "text": "Ich müsste Sie bitten, sich kurzzufassen."
+              },
+              {
+                "key": "c",
+                "text": "Schluss jetzt."
+              }
+            ],
+            "q": "Du erinnerst an die begrenzte Redezeit.",
+            "why": "Der Konjunktiv II „müsste bitten\" mildert die Aufforderung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Habe ich Sie richtig verstanden, dass …?"
+              },
+              {
+                "key": "b",
+                "text": "Was wollen Sie eigentlich sagen?"
+              },
+              {
+                "key": "c",
+                "text": "Das war jetzt unklar."
+              }
+            ],
+            "q": "Du willst sichergehen, dass du richtig verstanden hast.",
+            "why": "„Habe ich Sie richtig verstanden, dass …?\" sichert rück und fasst zusammen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das gehört doch gar nicht hierher!"
+              },
+              {
+                "key": "b",
+                "text": "Kommen wir noch einmal auf die Ausgangsfrage zurück."
+              },
+              {
+                "key": "c",
+                "text": "Reden Sie nicht so viel Unsinn."
+              }
+            ],
+            "q": "Du möchtest zum Thema zurückführen.",
+            "why": "„Kommen wir noch einmal auf … zurück\" lenkt sachlich zum Thema."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A3",
+      "instructions": "Wähle die höfliche, moderationsgerechte Formulierung (a, b oder c).",
+      "title": "Moderieren — höflich formulieren"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "würde"
+          ],
+          "2": [
+            "Dürfte"
+          ],
+          "3": [
+            "Könnten"
+          ],
+          "4": [
+            "müsste"
+          ],
+          "5": [
+            "Würden"
+          ],
+          "6": [
+            "hätte"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. (werden) Ich {1} Sie bitten, zu beginnen.\n2. (dürfen) {2} ich Sie kurz unterbrechen?\n3. (können) {3} Sie das näher erläutern?\n4. (müssen) Ich {4} Sie bitten, zum Schluss zu kommen.\n5. (werden) {5} Sie bitte etwas lauter sprechen?\n6. (haben) Ich {6} da noch eine Nachfrage.\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Setze die höfliche Konjunktiv-II-Form ein (Grundverb in Klammern). 6 Items.",
+      "title": "Konjunktiv II der Höflichkeit"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "zumal"
+              },
+              {
+                "key": "b",
+                "text": "sofern"
+              },
+              {
+                "key": "c",
+                "text": "obwohl"
+              }
+            ],
+            "q": "Forschung sollte zugänglich sein, {…} sie öffentlich finanziert wird. (verstärkter Grund)",
+            "why": "„zumal\" verstärkt einen Grund („umso mehr, als\")."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofern"
+              },
+              {
+                "key": "b",
+                "text": "Zumal"
+              },
+              {
+                "key": "c",
+                "text": "Insofern"
+              }
+            ],
+            "q": "{…} die Daten stimmen, ist der Schluss berechtigt. (Bedingung)",
+            "why": "„sofern\" nennt eine Bedingung (= wenn)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sofern"
+              },
+              {
+                "key": "b",
+                "text": "insofern"
+              },
+              {
+                "key": "c",
+                "text": "zumal"
+              }
+            ],
+            "q": "Sie haben recht — {…} stimme ich Ihnen zu. (in dieser Hinsicht)",
+            "why": "„insofern\" heißt „in dieser Hinsicht\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zwar"
+              },
+              {
+                "key": "b",
+                "text": "Sofern"
+              },
+              {
+                "key": "c",
+                "text": "Insofern"
+              }
+            ],
+            "q": "{…} ist Fachsprache präzise, aber sie schließt viele aus. (Einräumung)",
+            "why": "„zwar … aber\" räumt ein und stellt dann die Gegenposition."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "aber"
+              },
+              {
+                "key": "b",
+                "text": "sondern"
+              },
+              {
+                "key": "c",
+                "text": "dennoch"
+              }
+            ],
+            "q": "Das überzeugt nicht nur inhaltlich, {…} auch rhetorisch.",
+            "why": "Korrelat ist „nicht nur … sondern auch\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A5",
+      "instructions": "Wähle den passenden Konnektor (a, b oder c).",
+      "title": "Argumentative Konnektoren"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "zumal"
+          ],
+          "2": [
+            "Sofern"
+          ],
+          "3": [
+            "insofern"
+          ],
+          "4": [
+            "aber"
+          ],
+          "5": [
+            "andererseits"
+          ],
+          "6": [
+            "sondern"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. (verstärkter Grund) Der Vortrag sollte kurz sein, {1} das Publikum müde ist.\n2. (Bedingung = wenn) {2} die Stichprobe groß genug ist, ist das Ergebnis aussagekräftig.\n3. (in dieser Hinsicht) Sie haben recht — {3} teile ich Ihre Einschätzung.\n4. (Gegenposition nach „zwar\") Zwar ist es präzise, {4} schwer verständlich.\n5. (zweite Seite) Einerseits braucht es Genauigkeit, {5} Verständlichkeit.\n6. (Korrelat zu „nicht nur\") Das gilt nicht nur fachlich, {6} auch öffentlich.\n",
+        "type": "gap-text"
+      },
+      "id": "A6",
+      "instructions": "Setze den passenden Konnektor ein (ein Wort). 6 Items.",
+      "title": "Konnektoren einsetzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist doch Unsinn."
+              },
+              {
+                "key": "b",
+                "text": "Da würde ich widersprechen."
+              },
+              {
+                "key": "c",
+                "text": "So ein Quatsch."
+              }
+            ],
+            "q": "Du bist anderer Meinung.",
+            "why": "„Da würde ich widersprechen\" ist höflich; die anderen sind Killerphrasen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Da haben Sie zwar recht, dennoch sehe ich ein Problem."
+              },
+              {
+                "key": "b",
+                "text": "Sie haben überhaupt keine Ahnung."
+              },
+              {
+                "key": "c",
+                "text": "Das stimmt einfach nicht."
+              }
+            ],
+            "q": "Du willst einräumen und dann widersprechen.",
+            "why": "Erst einräumen („zwar recht\"), dann sachlich widersprechen („dennoch\")."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Jeder weiß doch, dass das falsch ist."
+              },
+              {
+                "key": "b",
+                "text": "Man könnte einwenden, dass …"
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir zu blöd."
+              }
+            ],
+            "q": "Du möchtest einen Einwand vorsichtig einleiten.",
+            "why": "„Man könnte einwenden, dass …\" federt den Widerspruch ab."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wie meinen Sie das genau?"
+              },
+              {
+                "key": "b",
+                "text": "Reden Sie doch nicht so wirr."
+              },
+              {
+                "key": "c",
+                "text": "Das ergibt keinen Sinn."
+              }
+            ],
+            "q": "Du willst nachfragen statt anzugreifen.",
+            "why": "„Wie meinen Sie das genau?\" ist eine sachliche Nachfrage."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Da ist nichts dran."
+              },
+              {
+                "key": "b",
+                "text": "Zugegeben, das klingt überzeugend."
+              },
+              {
+                "key": "c",
+                "text": "Das interessiert mich nicht."
+              }
+            ],
+            "q": "Du gibst der anderen Seite ein Stück recht.",
+            "why": "„Zugegeben, …\" ist eine Konzession (man räumt etwas ein)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A7",
+      "instructions": "Wähle die diplomatische, sachliche Formulierung (a, b oder c).",
+      "title": "Diplomatisch widersprechen oder Killerphrase?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Im Folgenden möchte ich …"
+          },
+          {
+            "key": "2",
+            "text": "Damit komme ich zu meinem zweiten Punkt."
+          },
+          {
+            "key": "3",
+            "text": "Ich würde Sie bitten, zu beginnen."
+          },
+          {
+            "key": "4",
+            "text": "Da würde ich widersprechen."
+          },
+          {
+            "key": "5",
+            "text": "Zusammenfassend lässt sich sagen …"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Vortrag: einleiten"
+          },
+          {
+            "key": "b",
+            "text": "Vortrag: überleiten"
+          },
+          {
+            "key": "c",
+            "text": "Moderation: das Wort erteilen"
+          },
+          {
+            "key": "d",
+            "text": "Diskussion: diplomatisch widersprechen"
+          },
+          {
+            "key": "e",
+            "text": "Vortrag: zusammenfassen und schließen"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A8",
+      "instructions": "Ordne jedem Redemittel (1–5) die passende Funktion (a–e) zu.",
+      "title": "Redemittel — Funktion zuordnen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "rhetorische Frage"
+          },
+          {
+            "key": "2",
+            "text": "Dreierfigur"
+          },
+          {
+            "key": "3",
+            "text": "Anapher"
+          },
+          {
+            "key": "4",
+            "text": "Metapher"
+          },
+          {
+            "key": "5",
+            "text": "Hyperbel"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Wer hätte das gedacht?"
+          },
+          {
+            "key": "b",
+            "text": "kurz, klar, konkret"
+          },
+          {
+            "key": "c",
+            "text": "Wir forschen, wir prüfen, wir veröffentlichen."
+          },
+          {
+            "key": "d",
+            "text": "ein Meer von Daten"
+          },
+          {
+            "key": "e",
+            "text": "Das habe ich tausendmal gehört."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A9",
+      "instructions": "Ordne jedem rhetorischen Mittel (1–5) das passende Beispiel (a–e) zu.",
+      "title": "Rhetorische Mittel — Beispiel zuordnen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "geehrte"
+          ],
+          "2": [
+            "gliedert"
+          ],
+          "3": [
+            "komme"
+          ],
+          "4": [
+            "betonen"
+          ],
+          "5": [
+            "sagen"
+          ],
+          "6": [
+            "Aufmerksamkeit"
+          ]
+        },
+        "bank": [
+          "geehrte",
+          "gliedert",
+          "komme",
+          "betonen",
+          "sagen",
+          "Aufmerksamkeit",
+          "schreibt",
+          "vorliest",
+          "Begrüßung"
+        ],
+        "text": "1. Zur Begrüßung: „Sehr {1} Damen und Herren.\"\n2. Zur Gliederung: „Mein Vortrag {2} sich in drei Teile.\"\n3. Zur Überleitung: „Damit {3} ich zu Punkt zwei.\"\n4. Zur Hervorhebung: „Lassen Sie mich das {4}.\"\n5. Zum Schluss: „Zusammenfassend lässt sich {5}, dass …\"\n6. Zum Dank: „Vielen Dank für Ihre {6}.\"\n",
+        "type": "gap-bank"
+      },
+      "id": "A10",
+      "instructions": "Füll die 6 Lücken mit dem passenden Wort aus dem Kasten. Drei Wörter sind zu viel.",
+      "title": "Redemittel eines Vortrags"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Metapher"
+              },
+              {
+                "key": "b",
+                "text": "rhetorische Frage"
+              },
+              {
+                "key": "c",
+                "text": "Anapher"
+              }
+            ],
+            "q": "„Ein Ozean von Möglichkeiten liegt vor uns.\"",
+            "why": "Ein sprachliches Bild („Ozean von Möglichkeiten\") ist eine Metapher."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Hyperbel"
+              },
+              {
+                "key": "b",
+                "text": "Dreierfigur"
+              },
+              {
+                "key": "c",
+                "text": "Metapher"
+              }
+            ],
+            "q": "„schnell, sicher, sparsam\"",
+            "why": "Drei gleichrangige Glieder bilden eine Dreierfigur (hier zusätzlich mit Alliteration)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "rhetorische Frage"
+              },
+              {
+                "key": "b",
+                "text": "Anapher"
+              },
+              {
+                "key": "c",
+                "text": "Hyperbel"
+              }
+            ],
+            "q": "„Wer möchte das nicht?\"",
+            "why": "Die Frage erwartet keine Antwort, sondern Zustimmung — eine rhetorische Frage."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Metapher"
+              },
+              {
+                "key": "b",
+                "text": "Hyperbel"
+              },
+              {
+                "key": "c",
+                "text": "Dreierfigur"
+              }
+            ],
+            "q": "„Das habe ich tausendmal gesagt.\"",
+            "why": "Die bewusste Übertreibung („tausendmal\") ist eine Hyperbel."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Anapher"
+              },
+              {
+                "key": "b",
+                "text": "rhetorische Frage"
+              },
+              {
+                "key": "c",
+                "text": "Metapher"
+              }
+            ],
+            "q": "„Wir wollen erklären, wir wollen begeistern, wir wollen überzeugen.\"",
+            "why": "Die Wiederholung am Satzanfang („Wir wollen …\") ist eine Anapher."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A11",
+      "instructions": "Welches rhetorische Mittel liegt vor? Wähle a, b oder c.",
+      "title": "Rhetorisches Mittel erkennen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Im Folgenden möchte ich drei Punkte ansprechen. (Inversion nach Adverbiale)",
+            "tiles": [
+              "Im",
+              "Folgenden",
+              "möchte",
+              "ich",
+              "drei",
+              "Punkte",
+              "ansprechen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Ich würde Sie bitten, zu beginnen. (höfliche Moderation)",
+            "tiles": [
+              "Ich",
+              "würde",
+              "Sie",
+              "bitten",
+              "zu",
+              "beginnen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Da würde ich widersprechen. (diplomatischer Widerspruch)",
+            "tiles": [
+              "Da",
+              "würde",
+              "ich",
+              "widersprechen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Zusammenfassend lässt sich sagen, dass der Vortrag gelungen ist.",
+            "tiles": [
+              "Zusammenfassend",
+              "lässt",
+              "sich",
+              "sagen",
+              "dass",
+              "der",
+              "Vortrag",
+              "gelungen",
+              "ist"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A12",
+      "instructions": "Bring die Wörter in die richtige Reihenfolge.",
+      "title": "Satzbau: Vortrag und Diskussion"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "geehrte"
+          ],
+          "2": [
+            "Folgenden"
+          ],
+          "3": [
+            "Zunächst"
+          ],
+          "4": [
+            "Anschließend"
+          ],
+          "5": [
+            "Abschließend"
+          ],
+          "6": [
+            "komme"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Sehr {1} Damen und Herren, ich freue mich, heute zu Ihnen zu sprechen.\n2. Im {2} möchte ich drei Punkte ansprechen.\n3. {3} betrachte ich die Ausgangslage. (erster Schritt)\n4. {4} stelle ich zwei Beispiele vor. (zweiter Schritt)\n5. {5} ziehe ich ein Fazit. (letzter Schritt)\n6. Damit {6} ich nun zum ersten Punkt.\n",
+        "type": "gap-text"
+      },
+      "id": "B1",
+      "instructions": "Setze das passende Wort ein (Gliederungssignal oder Verbform). 6 Items.",
+      "title": "Eine Vortragseinleitung vervollständigen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das sehe ich anders."
+              },
+              {
+                "key": "b",
+                "text": "Ey, das ist ja voll daneben."
+              },
+              {
+                "key": "c",
+                "text": "So ein Blödsinn."
+              }
+            ],
+            "q": "Du bist anderer Meinung:",
+            "why": "„Das sehe ich anders\" ist sachlich; die anderen sind Registerbrüche."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Boah, keine Ahnung, was Sie wollen."
+              },
+              {
+                "key": "b",
+                "text": "Könnten Sie das näher erläutern?"
+              },
+              {
+                "key": "c",
+                "text": "Hä, was soll das?"
+              }
+            ],
+            "q": "Du verstehst die Frage nicht ganz:",
+            "why": "„Könnten Sie das näher erläutern?\" ist höflich und sachlich."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist mir jetzt zu blöd."
+              },
+              {
+                "key": "b",
+                "text": "Da hab ich echt null Bock drauf."
+              },
+              {
+                "key": "c",
+                "text": "Diesen Punkt möchte ich nicht weiter vertiefen."
+              }
+            ],
+            "q": "Du willst einen Punkt nicht weiter vertiefen:",
+            "why": "Die dritte Variante bleibt im sachlichen Register."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dieses Argument überzeugt mich nicht ganz."
+              },
+              {
+                "key": "b",
+                "text": "Das ist doch total an den Haaren herbeigezogen."
+              },
+              {
+                "key": "c",
+                "text": "Was für ein Schwachsinn."
+              }
+            ],
+            "q": "Du findest ein Argument schwach:",
+            "why": "„überzeugt mich nicht ganz\" ist diplomatisch und sachlich."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Da liegen Sie komplett falsch."
+              },
+              {
+                "key": "b",
+                "text": "Da würde ich widersprechen."
+              },
+              {
+                "key": "c",
+                "text": "Quatsch, das stimmt nicht."
+              }
+            ],
+            "q": "Du widersprichst höflich:",
+            "why": "Der Konjunktiv II „würde widersprechen\" federt den Widerspruch ab."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die Formulierung, die in eine sachliche Diskussion passt.",
+      "title": "Registerbruch in der Diskussion erkennen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie haben ja keine Ahnung."
+              },
+              {
+                "key": "b",
+                "text": "Danke für den Einwand — da würde ich allerdings widersprechen."
+              },
+              {
+                "key": "c",
+                "text": "Das diskutiere ich nicht."
+              }
+            ],
+            "q": "Jemand greift deine These scharf an. Wie reagierst du souverän?",
+            "why": "Erst bedanken, dann sachlich widersprechen — das wirkt souverän."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Da haben Sie zwar recht, dennoch bleibe ich bei meinem Standpunkt."
+              },
+              {
+                "key": "b",
+                "text": "Okay, dann haben Sie eben gewonnen."
+              },
+              {
+                "key": "c",
+                "text": "Nein, niemals."
+              }
+            ],
+            "q": "Du gibst zu, dass an einem Gegenargument etwas dran ist, hältst aber an deiner Position fest.",
+            "why": "Konzession („zwar recht\") + begründetes Festhalten („dennoch\")."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das gilt immer und überall."
+              },
+              {
+                "key": "b",
+                "text": "Das dürfte zumindest in vielen Fällen zutreffen."
+              },
+              {
+                "key": "c",
+                "text": "Das ist hundertprozentig so."
+              }
+            ],
+            "q": "Du willst eine Aussage einschränken, statt sie absolut zu behaupten.",
+            "why": "„dürfte … zumindest …\" schwächt die Aussage angemessen ab (Hedging)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "So, jetzt ist aber Schluss."
+              },
+              {
+                "key": "b",
+                "text": "Damit kommen wir zum Ende. Ich danke Ihnen für die Diskussion."
+              },
+              {
+                "key": "c",
+                "text": "Reden Sie endlich nicht mehr."
+              }
+            ],
+            "q": "Du moderierst und willst die Runde freundlich zum Ende bringen.",
+            "why": "„Damit kommen wir zum Ende … Ich danke Ihnen\" beendet höflich."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kommen wir noch einmal auf die Ausgangsfrage zurück."
+              },
+              {
+                "key": "b",
+                "text": "Das interessiert hier keinen."
+              },
+              {
+                "key": "c",
+                "text": "Thema verfehlt, setzen."
+              }
+            ],
+            "q": "Ein Beitrag schweift vom Thema ab. Wie führst du zurück?",
+            "why": "„Kommen wir noch einmal auf … zurück\" lenkt sachlich zurück."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B3",
+      "instructions": "Wähle die Reaktion, die im Kontext am besten passt (a, b oder c).",
+      "title": "Diplomatisch reagieren im Kontext"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Das ist doch Unsinn."
+          },
+          {
+            "key": "2",
+            "text": "Das stimmt einfach nicht."
+          },
+          {
+            "key": "3",
+            "text": "Sie haben keine Ahnung."
+          },
+          {
+            "key": "4",
+            "text": "Jeder weiß doch, dass …"
+          },
+          {
+            "key": "5",
+            "text": "So ein Quatsch."
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Das sehe ich etwas anders."
+          },
+          {
+            "key": "b",
+            "text": "Da würde ich widersprechen — und zwar deshalb: …"
+          },
+          {
+            "key": "c",
+            "text": "An diesem Punkt wäre ich eher anderer Ansicht."
+          },
+          {
+            "key": "d",
+            "text": "Es spricht einiges dafür, dass …"
+          },
+          {
+            "key": "e",
+            "text": "Das ließe sich auch anders sehen."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B4",
+      "instructions": "Ordne jeder Killerphrase (1–5) die diplomatische Entsprechung (a–e) zu.",
+      "title": "Killerphrase und diplomatische Alternative"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist in der Tat schwierig."
+              },
+              {
+                "key": "b",
+                "text": "Das ist halt einfach echt schwierig."
+              },
+              {
+                "key": "c",
+                "text": "Das ist so, ähm, ziemlich schwierig."
+              }
+            ],
+            "q": "Füllwörter: „Also das ist halt irgendwie so, ähm, schwierig.\"",
+            "why": "Füllwörter („halt\", „irgendwie\", „ähm\") streichen, klar formulieren."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist voll der Wahnsinn kompliziert."
+              },
+              {
+                "key": "b",
+                "text": "Das ist ausgesprochen komplex."
+              },
+              {
+                "key": "c",
+                "text": "Das ist echt krass kompliziert."
+              }
+            ],
+            "q": "Registerbruch: „Boah, das ist ja mega kompliziert.\"",
+            "why": "„ausgesprochen komplex\" passt ins sachliche Register."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er redet einfach noch schneller, um fertig zu werden."
+              },
+              {
+                "key": "b",
+                "text": "Er macht Pausen und lädt zu Fragen ein."
+              },
+              {
+                "key": "c",
+                "text": "Er liest den Rest schweigend von der Folie ab."
+              }
+            ],
+            "q": "Monolog: Der Redner spricht zehn Minuten ohne Pause weiter.",
+            "why": "Ein Vortrag ist Kommunikation: Pausen machen, das Publikum einbeziehen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er spricht frei und nutzt die Folie nur als Stütze."
+              },
+              {
+                "key": "b",
+                "text": "Er dreht sich ganz zur Leinwand und liest lauter."
+              },
+              {
+                "key": "c",
+                "text": "Er schreibt noch mehr Text auf die Folien."
+              }
+            ],
+            "q": "Ablesen: Der Redner liest jede Folie Wort für Wort vor.",
+            "why": "Folien sind Stütze, kein Skript — frei sprechen, Blickkontakt halten."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist eben so, basta."
+              },
+              {
+                "key": "b",
+                "text": "Das lässt sich damit begründen, dass …"
+              },
+              {
+                "key": "c",
+                "text": "Das ist nun mal Fakt."
+              }
+            ],
+            "q": "Unbegründet: „Das ist halt einfach so.\"",
+            "why": "Behauptungen begründen statt mit „halt\" abzutun."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B5",
+      "instructions": "Wähle die beste Korrektur des Auftrittsfehlers (a, b oder c).",
+      "title": "Finde die beste Korrektur"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Zwar"
+          ],
+          "2": [
+            "dennoch"
+          ],
+          "3": [
+            "trotzdem"
+          ],
+          "4": [
+            "gleichwohl"
+          ],
+          "5": [
+            "Einerseits"
+          ],
+          "6": [
+            "andererseits"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} ist die Fachsprache präzise, aber sie schließt viele aus. (Einräumung am Satzanfang)\n2. Da haben Sie zwar recht, {2} sehe ich ein anderes Problem.\n3. Ihr Punkt ist nachvollziehbar, {3} würde ich differenzieren. (neutral, Position 1)\n4. Zugegeben, das klingt überzeugend, {4} bleibt ein Einwand. (gehoben für „dennoch\")\n5. {5} braucht es Genauigkeit, andererseits Verständlichkeit.\n6. Einerseits überzeugt das Argument, {6} überzeugt es nicht ganz.\n",
+        "type": "gap-text"
+      },
+      "id": "B6",
+      "instructions": "Setze das passende Konzessiv-/Adversativwort ein. 6 Items.",
+      "title": "Konzession: einräumen und widersprechen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich würde Sie bitten, zu beginnen."
+              },
+              {
+                "key": "b",
+                "text": "Ich würde Sie bitten zu beginnen Sie."
+              },
+              {
+                "key": "c",
+                "text": "Ich würde Sie bitten, beginnen."
+              }
+            ],
+            "q": "Welche höfliche Bitte ist grammatisch korrekt?",
+            "why": "„bitten\" + Komma + „zu\"-Infinitiv: „Ich würde Sie bitten, zu beginnen.\""
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zwar es ist präzise, aber schwer."
+              },
+              {
+                "key": "b",
+                "text": "Zwar ist es präzise, aber schwer."
+              },
+              {
+                "key": "c",
+                "text": "Zwar das ist präzise, aber schwer."
+              }
+            ],
+            "q": "Welcher Satz nach „zwar\" ist korrekt (Inversion)?",
+            "why": "Nach „zwar\" steht das Verb an Position 2: „Zwar ist es …\"."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Forschung sollte zugänglich sein, zumal weil sie öffentlich finanziert wird."
+              },
+              {
+                "key": "b",
+                "text": "Forschung sollte zugänglich sein, zumal dass sie öffentlich finanziert wird."
+              },
+              {
+                "key": "c",
+                "text": "Forschung sollte zugänglich sein, zumal sie öffentlich finanziert wird."
+              }
+            ],
+            "q": "Welcher Konnektor ist korrekt verwendet?",
+            "why": "„zumal\" ersetzt „weil\" — nicht beides zusammen, kein „dass\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Gestatten Sie, dass ich einhake."
+              },
+              {
+                "key": "b",
+                "text": "Gestatten Sie, dass ich einhaken."
+              },
+              {
+                "key": "c",
+                "text": "Gestatten Sie, dass ich einhaken tue."
+              }
+            ],
+            "q": "Welcher dass-Satz beim Einhaken ist korrekt?",
+            "why": "Im dass-Satz steht das Verb am Ende und wird konjugiert: „… dass ich einhake\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "nicht nur inhaltlich, aber auch rhetorisch"
+              },
+              {
+                "key": "b",
+                "text": "nicht nur inhaltlich, sondern auch rhetorisch"
+              },
+              {
+                "key": "c",
+                "text": "nicht nur inhaltlich, sowie auch rhetorisch"
+              }
+            ],
+            "q": "Welche Korrelat-Verbindung ist korrekt?",
+            "why": "Das Korrelat lautet „nicht nur … sondern auch\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B7",
+      "instructions": "Wähle die korrekte Form (a, b oder c).",
+      "title": "Korrekt moderieren und argumentieren"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Frage"
+          ],
+          "2": [
+            "Gliederung"
+          ],
+          "3": [
+            "Überleitung"
+          ],
+          "4": [
+            "Pause"
+          ],
+          "5": [
+            "frei"
+          ],
+          "6": [
+            "Diskussion"
+          ],
+          "7": [
+            "Einwand"
+          ],
+          "8": [
+            "würde"
+          ],
+          "9": [
+            "Dreierfigur"
+          ],
+          "10": [
+            "bedankt"
+          ]
+        },
+        "listLayout": true,
+        "text": "Ein guter Vortrag beginnt nicht mit dem Stoff, sondern holt das\nPublikum ab. Schon der erste Satz, oft eine rhetorische {1},\nweckt die Aufmerksamkeit. Danach kündigt man die {2} an:\n„Zunächst …, anschließend …, abschließend …\". Zwischen den\nTeilen sorgt eine {3} für einen klaren Übergang. Wichtige\nAussagen hebt man hervor und macht danach eine bewusste {4},\ndenn Stille wirkt stärker als jedes Füllwort. Man liest nicht\nvom Blatt ab, sondern spricht {5} und nutzt nur Stichwörter.\nIn der anschließenden {6} bleibt man ruhig und bedankt sich\nfür jeden {7}. Wer widersprechen will, räumt zuerst etwas ein\nund formuliert dann höflich: „Da {8} ich widersprechen.\"\nRhetorische Mittel wie die {9} (drei kurze Glieder) wirken,\nsolange man sie dosiert. Am Ende fasst man zusammen und {10}\nsich für die Aufmerksamkeit.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Füll jede Lücke mit **einem** passenden Wort. 10 Items.",
+      "title": "Lückentext: Merkmale eines guten Vortrags"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "möchte"
+              },
+              {
+                "key": "b",
+                "text": "möchten"
+              },
+              {
+                "key": "c",
+                "text": "will geworden"
+              }
+            ],
+            "q": "Zunächst {1} ich die Ausgangslage skizzieren.",
+            "why": "Nach „Zunächst\" steht das Verb an Position 2: „möchte ich\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "werde"
+              },
+              {
+                "key": "b",
+                "text": "würde"
+              },
+              {
+                "key": "c",
+                "text": "wäre"
+              }
+            ],
+            "q": "Ich {1} Sie bitten, zu beginnen.",
+            "why": "Höfliche Bitte im Konjunktiv II: „würde … bitten\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "dennoch"
+              },
+              {
+                "key": "b",
+                "text": "weil"
+              },
+              {
+                "key": "c",
+                "text": "damit"
+              }
+            ],
+            "q": "Zwar ist Fachsprache präzise, {1} schließt sie viele aus.",
+            "why": "„zwar … dennoch\" verbindet Einräumung und Gegenposition."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "zumal"
+              },
+              {
+                "key": "b",
+                "text": "obwohl"
+              },
+              {
+                "key": "c",
+                "text": "sodass"
+              }
+            ],
+            "q": "Forschung sollte zugänglich sein, {1} sie öffentlich finanziert wird.",
+            "why": "„zumal\" verstärkt den Grund."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "wurde"
+              },
+              {
+                "key": "b",
+                "text": "würde"
+              },
+              {
+                "key": "c",
+                "text": "werden"
+              }
+            ],
+            "q": "Da {1} ich widersprechen.",
+            "why": "Diplomatischer Widerspruch im Konjunktiv II: „würde widersprechen\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "einhake"
+              },
+              {
+                "key": "b",
+                "text": "einhaken"
+              },
+              {
+                "key": "c",
+                "text": "eingehakt"
+              }
+            ],
+            "q": "Gestatten Sie, dass ich an dieser Stelle {1}.",
+            "why": "Im dass-Satz steht das konjugierte Verb am Ende: „… dass ich einhake\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle die passende Option (a, b oder c) für jede Lücke.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "FRAGE"
+          ],
+          "2": [
+            "GLIEDERUNG"
+          ],
+          "3": [
+            "FREI"
+          ],
+          "4": [
+            "PAUSEN"
+          ],
+          "5": [
+            "RUHIG"
+          ],
+          "6": [
+            "EINWAND"
+          ],
+          "7": [
+            "DIPLOMATISCH"
+          ],
+          "8": [
+            "KILLERPHRASEN"
+          ],
+          "9": [
+            "SPARSAM"
+          ],
+          "10": [
+            "GESPRÄCH"
+          ]
+        },
+        "bank": [
+          "FRAGE",
+          "GLIEDERUNG",
+          "FREI",
+          "PAUSEN",
+          "RUHIG",
+          "EINWAND",
+          "DIPLOMATISCH",
+          "KILLERPHRASEN",
+          "SPARSAM",
+          "GESPRÄCH",
+          "ANTWORT",
+          "MONOLOG",
+          "LAUT",
+          "ZUSTIMMUNG",
+          "ABLESEN"
+        ],
+        "text": "Aus einem Ratgeber für Vortrag und Diskussion: „Wer überzeugend\nvortragen will, sollte einige Regeln beachten. Holen Sie Ihr\nPublikum mit einer rhetorischen {1} ab. Kündigen Sie dann Ihre\n{2} an, damit alle dem Aufbau folgen können. Sprechen Sie {3}\nstatt abzulesen, und machen Sie bewusste {4}. In der Diskussion\nbleiben Sie {5}, auch wenn ein {6} kommt. Widersprechen Sie {7}:\nRäumen Sie zuerst etwas ein, bevor Sie Ihre Gegenposition nennen.\nVermeiden Sie {8} wie ‚So ein Quatsch‘. Setzen Sie rhetorische\nMittel gezielt, aber {9} ein. Wer all das beherzigt, hält nicht\nnur einen Vortrag, sondern führt ein {10} mit vielen zugleich.\"\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Füll die 10 Lücken mit Wörtern aus dem Kasten. Fünf Wörter sind zu viel. Jedes Wort wird nur einmal benutzt.",
+      "title": "Sprachbausteine Teil 2 (Wortbank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Laut Text ist die freie Rede eine angeborene Gabe, die man nicht lernen kann.",
+            "why": "„… ist die freie Rede eine erlernbare Fähigkeit, keine angeborene Gabe.\""
+          },
+          {
+            "answer": true,
+            "q": "Der Text nennt „Struktur schlägt Stoff\" als einen der zeitlosen Ratschläge.",
+            "why": "„Erstens: Struktur schlägt Stoff — ein klar gegliederter Vortrag bleibt im Gedächtnis.\""
+          },
+          {
+            "answer": false,
+            "q": "Erfahrene Redner füllen jede Pause mit Füllwörtern wie „ähm\".",
+            "why": "„… erfahrene Redner setzen die Stille gezielt ein, statt sie mit „ähm\" zu füllen.\""
+          },
+          {
+            "answer": true,
+            "q": "Laut Text werden rhetorische Mittel fragwürdig, wenn sie leere Behauptungen schmücken sollen.",
+            "why": "„… fragwürdig werden sie erst, wenn sie leere Behauptungen schmücken sollen.\""
+          },
+          {
+            "answer": false,
+            "q": "Der Text behauptet, alte rhetorische Einsichten seien heute völlig bedeutungslos geworden.",
+            "why": "Im Gegenteil: Sie erleben „heute eine Renaissance — etwa im Format des TED-Talks oder im Science Slam.\""
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Die Angst, vor anderen zu sprechen, gehört zu den am weitesten verbreiteten Ängsten überhaupt — manche Umfragen nennen sie noch vor der Angst vor dem Tod. Wer einen Vortrag hält, setzt sich aus und steht im Mittelpunkt. Und doch ist die freie Rede eine erlernbare Fähigkeit, keine angeborene Gabe. Schon in der Antike wurde sie systematisch gelehrt; Redner wie Cicero füllten ganze Bücher mit Ratschlägen, die im Kern bis heute gelten.\n>\n> Drei dieser Ratschläge sind besonders zeitlos. Erstens: Struktur schlägt Stoff — ein klar gegliederter Vortrag bleibt im Gedächtnis. Zweitens: Weniger ist mehr — wer das Publikum mit Zahlen und Folien überschüttet, erreicht das Gegenteil von Klarheit. Drittens: Die Pause ist ein Werkzeug — erfahrene Redner setzen die Stille gezielt ein, statt sie mit „ähm\" zu füllen.\n>\n> Hinzu kommen die rhetorischen Mittel, die eine Aussage nicht wahrer, aber wirkungsvoller machen. Sie sind weder Trick noch Manipulation, solange sie einem ehrlichen Anliegen dienen; fragwürdig werden sie erst, wenn sie leere Behauptungen schmücken sollen. Genau hier verläuft die Grenze zwischen Rhetorik und Demagogie.\n>\n> Bemerkenswert ist, dass diese alten Einsichten heute eine Renaissance erleben — etwa im Format des TED-Talks oder im Science Slam. Wer Inhalt und Form zusammenbringt, erreicht ein Publikum, das eine klassische Fachvorlesung nie erreicht hätte.\n\nRichtig (R) oder Falsch (F)?\n",
+      "title": "Lesen Text 1 (Lesetext: Die Kunst der freien Rede)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sollte freies Reden fester Bestandteil von Schule und Studium sein?"
+              },
+              {
+                "key": "b",
+                "text": "Sollte man Rhetorikkurse verbieten?"
+              },
+              {
+                "key": "c",
+                "text": "Wer hält die besten Vorträge?"
+              }
+            ],
+            "q": "Was ist die Leitfrage der Diskussion?",
+            "why": "„Sollte freies Reden ein fester Bestandteil von Schule und Studium sein?\" (Beitrag 1)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Mit dem Spaßfaktor."
+              },
+              {
+                "key": "b",
+                "text": "Mit der Chancengleichheit — sonst kommen kluge Leute nicht zu Wort."
+              },
+              {
+                "key": "c",
+                "text": "Mit niedrigeren Kosten."
+              }
+            ],
+            "q": "Womit begründet Hannah ihre Zustimmung?",
+            "why": "„Rhetorik gibt ihnen dieses Werkzeug — das ist eine Frage der Chancengleichheit.\""
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er lehnt das Reden-Üben völlig ab."
+              },
+              {
+                "key": "b",
+                "text": "Er hält Inhalt für unwichtig."
+              },
+              {
+                "key": "c",
+                "text": "Er stimmt grundsätzlich zu, betont aber: erst der Inhalt, dann die Form."
+              }
+            ],
+            "q": "Wie positioniert sich Tomáš?",
+            "why": "„Ich stimme im Grundsatz zu, würde aber differenzieren … Erst der Inhalt, dann die Form.\""
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Inhalt und Form gehören zusammen; ein unverständlicher Gedanke bleibt wirkungslos."
+              },
+              {
+                "key": "b",
+                "text": "Form ist völlig egal."
+              },
+              {
+                "key": "c",
+                "text": "Nur der Inhalt zählt."
+              }
+            ],
+            "q": "Welches Argument bringt Pavel?",
+            "why": "„Ein guter Gedanke, den niemand versteht, bleibt wirkungslos.\""
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Lies die folgenden Forumsbeiträge und wähle a, b oder c.\n\n> **Beitrag 1 — Moderation:**\n> Diese Woche diskutieren wir: Sollte freies Reden ein fester Bestandteil von Schule und Studium sein? Bitte begründen Sie Ihre Beiträge sachlich.\n>\n> **Beitrag 2 — Hannah:**\n> Aus meiner Sicht eindeutig ja. Viele kluge Menschen kommen nicht zu Wort, weil sie nie gelernt haben, frei zu sprechen. Rhetorik gibt ihnen dieses Werkzeug — das ist eine Frage der Chancengleichheit.\n>\n> **Beitrag 3 — Tomáš:**\n> Ich stimme im Grundsatz zu, würde aber differenzieren. Es bringt wenig, Techniken zu pauken, wenn man nichts zu sagen hat. Erst der Inhalt, dann die Form.\n>\n> **Beitrag 4 — Pavel:**\n> Beides gehört zusammen. Gerade weil der Inhalt wichtig ist, muss man ihn auch vermitteln können. Ein guter Gedanke, den niemand versteht, bleibt wirkungslos.\n",
+      "title": "Lesen Text 2 (Forumsdiskussion: Sollte man Reden üben?)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "grenze"
+          ],
+          "2": [
+            "Zusammenfassend"
+          ],
+          "3": [
+            "würde"
+          ],
+          "4": [
+            "würde"
+          ],
+          "5": [
+            "zumal"
+          ],
+          "6": [
+            "Dreierfigur"
+          ],
+          "7": [
+            "ähm"
+          ],
+          "8": [
+            "sondern"
+          ],
+          "9": [
+            "andererseits"
+          ],
+          "10": [
+            "sei"
+          ],
+          "11": [
+            "habe"
+          ],
+          "12": [
+            "sofern"
+          ],
+          "13": [
+            "sachlich"
+          ],
+          "14": [
+            "ja"
+          ],
+          "15": [
+            "mal"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Vortrag und Diskussion (C1/09):**\n1. Inversion: Zunächst {1} ich das Thema ein. (eingrenzen, ich)\n2. Schluss-Signal: {2} lässt sich sagen, dass …\n3. Moderation höflich: Ich {3} Sie bitten, zu beginnen.\n4. Diplomatisch: Da {4} ich widersprechen.\n5. Konnektor (verstärkter Grund): …, {5} sie öffentlich finanziert wird.\n6. Rhetorisches Mittel mit drei Gliedern: die {6}.\n7. Füllwort, das man vermeidet: {7}.\n\n**Wiederholung (B1/10 Zweiteilige Konnektoren):**\n8. (B1/10) nicht nur …, {8} auch.\n9. (B1/10) einerseits …, {9}.\n\n**Wiederholung (B2/04 Indirekte Rede):**\n10. (B2/04) „ist\" → Konjunktiv I: {10}.\n11. (B2/04) „hat\" → Konjunktiv I: {11}.\n\n**Wiederholung (B2/07 Konnektoren):**\n12. (B2/07) Bedingung (= wenn), gehoben: {12}.\n\n**Wiederholung (C1/01 Register):**\n13. (C1/01) Das Register eines Vortrags ist gehoben und {13}.\n\n**Wiederholung (C1/03 Modalpartikeln):**\n14. (C1/03) Partikel für gemeinsames Wissen: „Das ist {14} bekannt.\"\n15. (C1/03) Partikel für eine freundliche Aufforderung: „Komm {15} her!\"\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Eine Minute pro Item. Keine Notizen. Items mit (B1/..), (B2/..) oder (C1/..) wiederholen frühere Lektionen. 15 Items.",
+      "title": "Gemischter Schnelltest"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "Anapher",
+              "Metapher",
+              "Hyperbel",
+              "Argument"
+            ],
+            "odd": 3,
+            "why": "Anapher, Metapher und Hyperbel sind rhetorische Mittel; „Argument\" gehört zum Inhalt der Rede."
+          },
+          {
+            "items": [
+              "weil",
+              "da",
+              "zumal",
+              "sofern"
+            ],
+            "odd": 3,
+            "why": "„weil/da/zumal\" leiten einen Grund ein; „sofern\" nennt eine Bedingung (= wenn)."
+          },
+          {
+            "items": [
+              "Einleitung",
+              "Hauptteil",
+              "Schluss",
+              "Einwand"
+            ],
+            "odd": 3,
+            "why": "Einleitung, Hauptteil und Schluss sind Teile eines Vortrags; der „Einwand\" gehört zur Diskussion."
+          },
+          {
+            "items": [
+              "würde",
+              "könnte",
+              "dürfte",
+              "wurde"
+            ],
+            "odd": 3,
+            "why": "„würde/könnte/dürfte\" sind höfliche Konjunktiv-II-Formen; „wurde\" ist Indikativ Präteritum."
+          },
+          {
+            "items": [
+              "ähm",
+              "halt",
+              "irgendwie",
+              "deshalb"
+            ],
+            "odd": 3,
+            "why": "„ähm/halt/irgendwie\" sind Füllwörter; „deshalb\" ist ein sinntragender Konnektor."
+          },
+          {
+            "items": [
+              "moderieren",
+              "eröffnen",
+              "das Wort erteilen",
+              "ablesen"
+            ],
+            "odd": 3,
+            "why": "Moderieren, eröffnen und das Wort erteilen gehören zur Moderation; „ablesen\" ist ein Auftrittsfehler."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum.",
+      "title": "Odd one out: Vortrag und Diskussion"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "als"
+          ],
+          "2": [
+            "noch"
+          ],
+          "3": [
+            "könne"
+          ],
+          "4": [
+            "müsse"
+          ],
+          "5": [
+            "desto"
+          ],
+          "6": [
+            "sofern"
+          ],
+          "7": [
+            "ja"
+          ],
+          "8": [
+            "mal"
+          ],
+          "9": [
+            "Dreierfigur"
+          ],
+          "10": [
+            "würde"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Aus B1/10 (Zweiteilige Konnektoren):**\n1. sowohl … {1} auch.\n2. weder … {2}.\n\n**Aus B2/04 (Indirekte Rede):**\n3. „kann\" → Konjunktiv I: {3}.\n4. „muss\" → Konjunktiv I: {4}.\n\n**Aus B2/07 (Konnektoren für Profis):**\n5. Je mehr man übt, {5} sicherer spricht man.\n6. Bedingung (= wenn), gehoben: {6}.\n\n**Aus C1/03 (Modalpartikeln):**\n7. Partikel für gemeinsames Wissen: {7}.\n8. Partikel für eine freundliche Aufforderung: {8}.\n\n**Aus C1/09 (Vortrag und Diskussion):**\n9. Rhetorisches Mittel mit drei Gliedern: die {9}.\n10. Höflicher Widerspruch: Da {10} ich widersprechen.\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Wiederholung früherer Lektionen. 10 Items.",
+      "title": "Rückblick: B1/10, B2/04, B2/07, C1/03, C1/09"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "werde"
+          ],
+          "2": [
+            "Zunächst"
+          ],
+          "3": [
+            "Zusammenfassend"
+          ],
+          "4": [
+            "würde"
+          ],
+          "5": [
+            "einhake"
+          ],
+          "6": [
+            "Habe"
+          ],
+          "7": [
+            "zumal"
+          ],
+          "8": [
+            "Sofern"
+          ],
+          "9": [
+            "insofern"
+          ],
+          "10": [
+            "würde"
+          ],
+          "11": [
+            "dennoch"
+          ],
+          "12": [
+            "Killerphrasen"
+          ],
+          "13": [
+            "rhetorische"
+          ],
+          "14": [
+            "Dreierfigur"
+          ],
+          "15": [
+            "Metapher"
+          ],
+          "16": [
+            "ähm"
+          ],
+          "17": [
+            "Ablesen"
+          ],
+          "18": [
+            "Gespräch"
+          ],
+          "19": [
+            "sei"
+          ],
+          "20": [
+            "sondern"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Vortrag strukturieren:**\n1. Inversion: Im Folgenden {1} ich drei Punkte ansprechen.\n2. Gliederung (erster Schritt): {2} betrachte ich die Ursachen.\n3. Schluss-Signal: {3} lässt sich sagen.\n\n**Moderieren:**\n4. Höflich: Ich {4} Sie bitten, zu beginnen.\n5. Einhaken: Gestatten Sie, dass ich {5}.\n6. Rückversichern: {6} ich Sie richtig verstanden?\n\n**Argumentieren:**\n7. Verstärkter Grund: …, {7} sie öffentlich finanziert wird.\n8. Bedingung (= wenn): {8} die Daten stimmen.\n9. In dieser Hinsicht: …, {9} stimme ich zu.\n\n**Diplomatisch widersprechen:**\n10. Abfedern (Konjunktiv II): Da {10} ich widersprechen.\n11. Einräumen: Da haben Sie zwar recht, {11} …\n12. Vermeiden: abwertende, gesprächstötende Sätze heißen {12}.\n\n**Rhetorische Mittel:**\n13. Frage ohne erwartete Antwort: {13} Frage.\n14. Rhetorisches Mittel mit drei Gliedern: die {14}.\n15. Sprachliches Bild: {15}.\n\n**Typische Fehler:**\n16. Füllwort, das man vermeidet: {16}.\n17. Monoton vom Blatt: {17}.\n18. Ein Vortrag ist kein Monolog, sondern ein {18}.\n\n**Wiederholung:**\n19. (B2/04) „ist\" → Konjunktiv I: {19}.\n20. (B1/10) nicht nur …, {20} auch.\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (bewerte dich /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "c1-09",
+  "intro": "Blöcke: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Die Lösungen findest du in solutions.md. Tipp: Verteil die Blöcke über mehrere Tage — H und A am Tag 1, B am Tag 2, C am Tag 3, D am Tag 4 nach einer Pause. Sprich die Redemittel laut mit.\n",
+  "lesson": "C1/09",
+  "level": "C1",
+  "summary": null,
+  "title": "C1 · Lektion 9 — Übungen (Vortrag und Diskussion)",
+  "topic": null
+}

@@ -1,0 +1,1578 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "fährt"
+          ],
+          "2": [
+            "frei ist"
+          ],
+          "3": [
+            "ausfüllen muss"
+          ],
+          "4": [
+            "angerufen hat"
+          ],
+          "5": [
+            "buchen kann"
+          ],
+          "6": [
+            "inbegriffen ist"
+          ],
+          "7": [
+            "kommt"
+          ],
+          "8": [
+            "bekommen haben"
+          ]
+        },
+        "text": "1. Fährt der Zug? → Ich frage mich, ob der Zug {1}.\n2. Ist der Termin frei? → Könnten Sie sagen, ob der Termin {2}?\n3. Muss ich ein Formular ausfüllen? → Ich weiß nicht, ob ich ein Formular {3}.\n4. Hat Anna angerufen? → Er fragt, ob Anna {4}.\n5. Kann ich online buchen? → Wissen Sie, ob ich online {5}?\n6. Ist das Frühstück inbegriffen? → Dürfte ich fragen, ob das Frühstück {6}?\n7. Kommt er heute? → Ich weiß nicht, ob er heute {7}.\n8. Haben Sie meinen Brief bekommen? → Ich möchte wissen, ob Sie meinen Brief {8}.\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Transform each direct yes/no question into an indirect question using `ob`. Write the complete indirect question. 8 items.",
+      "title": "Indirekte Ja/Nein-Fragen mit `ob` — Grundübung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "fährt"
+          ],
+          "2": [
+            "dauert"
+          ],
+          "3": [
+            "ist"
+          ],
+          "4": [
+            "bedeutet"
+          ],
+          "5": [
+            "brauche"
+          ],
+          "6": [
+            "kostet"
+          ],
+          "7": [
+            "zuständig ist"
+          ],
+          "8": [
+            "abgelehnt wurde"
+          ]
+        },
+        "text": "1. Wann fährt der Zug? → Können Sie mir sagen, wann der Zug {1}?\n2. Wie lange dauert das? → Ich möchte wissen, wie lange das {2}.\n3. Wo ist das Büro? → Wissen Sie, wo das Büro {3}?\n4. Was bedeutet dieses Wort? → Ich verstehe nicht, was dieses Wort {4}.\n5. Welche Dokumente brauche ich? → Könnten Sie erklären, welche Dokumente ich {5}?\n6. Wie viel kostet das Zimmer? → Dürfte ich fragen, wie viel das Zimmer {6}?\n7. Wer ist zuständig? → Ich weiß nicht, wer {7}.\n8. Warum wurde mein Antrag abgelehnt? → Dürfte ich fragen, warum mein Antrag {8}?\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Transform each direct W-question into an indirect question. Remember: the verb goes to the END! 8 items.",
+      "title": "Indirekte W-Fragen — Verb ans Ende"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "kann"
+          ],
+          "2": [
+            "darf"
+          ],
+          "3": [
+            "muss"
+          ],
+          "4": [
+            "kann"
+          ],
+          "5": [
+            "muss"
+          ],
+          "6": [
+            "kann"
+          ]
+        },
+        "text": "1. Kann ich einen Termin machen? → Ich frage mich, ob ich einen Termin machen {1}.\n2. Darf ich jemanden mitbringen? → Dürfte ich fragen, ob ich jemanden mitbringen {2}?\n3. Muss ich das Formular ausfüllen? → Könnten Sie sagen, ob ich das Formular ausfüllen {3}?\n4. Kann ich die Unterlagen auch schicken? → Ich weiß nicht, ob ich die Unterlagen schicken {4}.\n5. Wie lange muss ich warten? → Könnten Sie mir sagen, wie lange ich warten {5}?\n6. Wo kann ich das Dokument abgeben? → Ich möchte wissen, wo ich das Dokument abgeben {6}.\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Complete the indirect questions. The modal verb goes to the very end! 6 items.",
+      "title": "Indirekte Fragen mit Modalverben"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "hat"
+          ],
+          "2": [
+            "ist"
+          ],
+          "3": [
+            "haben"
+          ],
+          "4": [
+            "ist"
+          ],
+          "5": [
+            "hat"
+          ],
+          "6": [
+            "hat"
+          ]
+        },
+        "text": "1. Hat er angerufen? → Fragen Sie, ob er angerufen {1}.\n2. Ist der Brief angekommen? → Ich weiß nicht, ob der Brief angekommen {2}.\n3. Haben Sie meinen Antrag bearbeitet? → Ich möchte wissen, ob Sie meinen Antrag bearbeitet {3}.\n4. Wann ist er abgefahren? → Könnten Sie sagen, wann er abgefahren {4}?\n5. Hat Anna die Unterlagen eingereicht? → Ich frage mich, ob Anna die Unterlagen eingereicht {5}.\n6. Wo hat er das gelernt? → Ich verstehe nicht, wo er das gelernt {6}.\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Transform each Perfekt question into an indirect question. The auxiliary verb (hat/ist) goes last! 6 items.",
+      "title": "Indirekte Fragen mit Perfekt"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "wann"
+          ],
+          "2": [
+            "wie viel"
+          ],
+          "3": [
+            "ob"
+          ],
+          "4": [
+            "wo"
+          ],
+          "5": [
+            "was"
+          ],
+          "6": [
+            "wo"
+          ],
+          "7": [
+            "ob"
+          ],
+          "8": [
+            "welche"
+          ]
+        },
+        "text": "1. Ich weiß nicht, {1} der Zug fährt. (Wann fährt der Zug?)\n2. Könnten Sie sagen, {2} das kostet? (Wie viel kostet das?)\n3. Ich frage mich, {3} das Büro geöffnet ist. (Ist das Büro geöffnet?)\n4. Wissen Sie, {4} der Fehler liegt? (Wo liegt der Fehler?)\n5. Dürfte ich fragen, {5} das bedeutet? (Was bedeutet das?)\n6. Ich möchte wissen, {6} ich den Antrag einreichen soll. (Wo soll ich den Antrag einreichen?)\n7. Es ist unklar, {7} ich einen Termin brauche. (Brauche ich einen Termin?)\n8. Könnten Sie erklären, {8} Dokumente ich mitbringen soll? (Welche Dokumente soll ich mitbringen?)\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Fill in either `ob` or the correct W-word (wann, wie, wo, was, warum, welche, wie viel). 8 items.",
+      "title": "`ob` oder W-Wort? — richtig einleiten"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Könnten"
+          ],
+          "2": [
+            "Dürfte"
+          ],
+          "3": [
+            "hätte"
+          ],
+          "4": [
+            "Würden"
+          ],
+          "5": [
+            "Wäre"
+          ],
+          "6": [
+            "Könnten"
+          ],
+          "7": [
+            "hätte"
+          ],
+          "8": [
+            "wäre"
+          ]
+        },
+        "text": "1. ______ Sie mir bitte helfen? (polite: could you)\n   → {1} Sie mir bitte helfen?\n2. ______ ich kurz fragen, wo die Toilette ist? (very polite: may I)\n   → {2} ich kurz fragen, wo die Toilette ist?\n3. Ich ______ gern einen Kaffee. (I would like)\n   → Ich {3} gern einen Kaffee.\n4. ______ Sie mir erklären, wie das funktioniert? (would you)\n   → {4} Sie mir erklären, wie das funktioniert?\n5. ______ es möglich, bis Freitag zu warten? (would it be)\n   → {5} es möglich, bis Freitag zu warten?\n6. ______ Sie mir Ihren Namen buchstabieren? (could you)\n   → {6} Sie mir Ihren Namen buchstabieren?\n7. Ich ______ gern ein Zimmer mit Frühstück. (I would like)\n   → Ich {7} gern ein Zimmer mit Frühstück.\n8. Das ______ sehr nett von Ihnen. (that would be)\n   → Das {8} sehr nett von Ihnen.\n",
+        "type": "gap-text"
+      },
+      "id": "A6",
+      "instructions": "Fill in the correct polite form. Choose from: könnten, würden, dürfte, hätte gern, wäre. 8 items.",
+      "title": "Höflichkeitsformen: `könnten`, `würden`, `dürfte`, `hätte gern`, `wäre`"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Ich frage mich, ob der Zug fährt.",
+            "why": "Correct: ob + verb at end (fährt)."
+          },
+          {
+            "answer": false,
+            "q": "Könnten Sie sagen, wann fährt der Zug?",
+            "why": "Error: verb-second word order in the indirect clause. Correct: wann der Zug fährt."
+          },
+          {
+            "answer": false,
+            "q": "Ich weiß nicht, ob kommt er heute.",
+            "why": "Error: word order. Correct: ob er heute kommt (verb at end)."
+          },
+          {
+            "answer": true,
+            "q": "Dürfte ich fragen, wie viel das kostet?",
+            "why": "Correct: wie viel + subject + verb at end."
+          },
+          {
+            "answer": false,
+            "q": "Wissen Sie, ob ich muss ein Formular ausfüllen?",
+            "why": "Error: modal goes last. Correct: ob ich ein Formular ausfüllen muss."
+          },
+          {
+            "answer": true,
+            "q": "Ich möchte wissen, ob Anna angerufen hat.",
+            "why": "Correct: Perfekt in indirect question — Partizip II + auxiliary last."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "A7",
+      "instructions": "Is the indirect question formed correctly? Answer R (richtig) oder F (falsch). If F, name the error.",
+      "title": "Grammatik-Check: Indirekte Frage richtig gebildet?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Ich weiß nicht, ob der Zug fährt. (ob → verb at end)",
+            "tiles": [
+              "Ich",
+              "weiß",
+              "nicht",
+              ",",
+              "ob",
+              "der",
+              "Zug",
+              "fährt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Könnten Sie mir sagen, wann der nächste Termin ist?",
+            "tiles": [
+              "Könnten",
+              "Sie",
+              "mir",
+              "sagen",
+              ",",
+              "wann",
+              "der",
+              "nächste",
+              "Termin",
+              "ist"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Dürfte ich fragen, ob ich jemanden mitbringen darf? (modal at end)",
+            "tiles": [
+              "Dürfte",
+              "ich",
+              "fragen",
+              ",",
+              "ob",
+              "ich",
+              "jemanden",
+              "mitbringen",
+              "darf"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Ich möchte wissen, wo das Büro ist.",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "wissen",
+              ",",
+              "wo",
+              "das",
+              "Büro",
+              "ist"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A8",
+      "instructions": "Put the words in the correct order to form a valid indirect question.",
+      "title": "Satzbau: Indirekte Fragen richtig ordnen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "inbegriffen ist"
+          ],
+          "2": [
+            "einziehen kann"
+          ],
+          "3": [
+            "gibt"
+          ],
+          "4": [
+            "kostet"
+          ],
+          "5": [
+            "geschickt hat"
+          ],
+          "6": [
+            "finde"
+          ]
+        },
+        "text": "1. Ist das Frühstück inbegriffen? (Ich wollte fragen, ob …)\n   → Ich wollte fragen, ob das Frühstück {1}.\n2. Wann kann ich einziehen? (Könnten Sie mir sagen, wann …)\n   → Könnten Sie mir sagen, wann ich {2}?\n3. Gibt es noch freie Zimmer? (Ich möchte wissen, ob …)\n   → Ich möchte wissen, ob es noch freie Zimmer {3}.\n4. Wie viel kostet eine Nacht? (Dürfte ich fragen, wie viel …)\n   → Dürfte ich fragen, wie viel eine Nacht {4}?\n5. Hat Anna die E-Mail geschickt? (Wissen Sie, ob …)\n   → Wissen Sie, ob Anna die E-Mail {5}?\n6. Wo finde ich das Formular? (Könnten Sie mir sagen, wo …)\n   → Könnten Sie mir sagen, wo ich das Formular {6}?\n",
+        "type": "gap-text"
+      },
+      "id": "A9",
+      "instructions": "Rewrite each direct question as a complete indirect question using the introductory phrase given. 6 items.",
+      "title": "Direkte → Indirekte Frage: Vollständige Umformung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Hier spricht"
+          ],
+          "2": [
+            "Würden"
+          ],
+          "3": [
+            "verbinde"
+          ],
+          "4": [
+            "Wiederhören"
+          ],
+          "5": [
+            "Hätten"
+          ],
+          "6": [
+            "störe"
+          ]
+        },
+        "text": "1. Am Telefon stellt man sich so vor: „{1} Anna Kowalski.\" (Hier spricht / Mein Name ist)\n2. Wenn man nicht versteht: „{2} Sie das bitte wiederholen?\" (Würden / Sollten)\n3. Wenn man verbunden wird: „Einen Moment bitte. Ich {3} Sie.\" (verbinde / sage)\n4. Am Ende eines formellen Telefongesprächs: „Auf {4}.\" (Wiederhören / Wiedersehen)\n5. Höflich nach der Zeit fragen: „{5} Sie einen Moment?\" (Hätten / Haben)\n6. Das Gespräch höflich eröffnen: „Ich hoffe, ich {6} Sie nicht.\" (störe / habe)\n",
+        "type": "gap-text"
+      },
+      "id": "A10",
+      "instructions": "Fill in the missing word or phrase for each formal phone convention. 6 items.",
+      "title": "Telefon-Formeln ergänzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "ob"
+          ],
+          "2": [
+            "Könnten"
+          ],
+          "3": [
+            "ob"
+          ],
+          "4": [
+            "ob"
+          ],
+          "5": [
+            "Dürfte"
+          ],
+          "6": [
+            "wo"
+          ],
+          "7": [
+            "mehr"
+          ],
+          "8": [
+            "Wäre"
+          ]
+        },
+        "text": "1. Ich weiß nicht, {1} ich persönlich kommen muss. (yes/no)\n2. {2} Sie mir erklären, wie das Formular auszufüllen ist? (polite: könnten/würden)\n3. Fragen Sie, {3} der Antrag schon bearbeitet wurde. (yes/no)\n4. Es ist unklar, {4} das Büro heute geöffnet ist. (yes/no)\n5. {5} ich kurz fragen, wann Sie Zeit haben? (very polite: dürfte)\n6. Ich möchte wissen, {6} das Gespräch stattfindet. (W-word: where)\n7. Wir hätten gern {7} Informationen über das Hotel. (more — adjective position)\n8. {8} es möglich, den Termin zu verschieben? (would it be)\n",
+        "type": "gap-text"
+      },
+      "id": "A11",
+      "instructions": "Fill in the correct element: `ob`, a W-word, or a polite form. 8 items.",
+      "title": "Gemischt: `ob`, W-Wort, Höflichkeitsform"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Könnten Sie"
+          ],
+          "2": [
+            "ob"
+          ],
+          "3": [
+            "Könnten"
+          ],
+          "4": [
+            "welche"
+          ],
+          "5": [
+            "wie lange"
+          ],
+          "6": [
+            "Haben"
+          ],
+          "7": [
+            "ob"
+          ],
+          "8": [
+            "Brauchen"
+          ]
+        },
+        "text": "— Guten Tag. {1} mir helfen?\n— Ja, natürlich. Was kann ich für Sie tun?\n— Ich wollte fragen, {2} ich meinen Aufenthaltstitel verlängern kann.\n— Dafür benötigen Sie einen Antrag. Haben Sie alle Unterlagen dabei?\n— Ich bin mir nicht sicher. {3} Sie mir sagen, {4} Dokumente ich brauche?\n— Sie brauchen Ihren Reisepass, ein Passfoto und den ausgefüllten Antrag.\n— Und dürfte ich fragen, {5} das ungefähr dauert?\n— Normalerweise zwei bis vier Wochen. {6} Sie noch Fragen?\n— Ja — ich wollte wissen, {7} ich den Status meines Antrags online verfolgen kann.\n— Leider nicht. Wir schreiben Ihnen. {8} Sie sonst noch etwas?\n— Nein, vielen Dank für Ihre Geduld.\n",
+        "type": "gap-text"
+      },
+      "id": "B1",
+      "instructions": "Fill in the 8 blanks with appropriate indirect questions or polite forms. Context: Bruno at the Bürgeramt counter.",
+      "title": "Dialog ergänzen: Am Schalter beim Bürgeramt"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich weiß nicht, ob der Zug fährt."
+              },
+              {
+                "key": "b",
+                "text": "Ich weiß nicht, ob fährt der Zug."
+              },
+              {
+                "key": "c",
+                "text": "Ich weiß nicht, ob der Zug fähren."
+              }
+            ],
+            "q": "Ich weiß nicht, ob fährt der Zug.",
+            "why": "Verb must go to the END of the ob-clause: ob der Zug fährt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Könnten Sie mir sagen, wann der Zug kommen?"
+              },
+              {
+                "key": "b",
+                "text": "Könnten Sie mir sagen, wann der Zug kommt?"
+              },
+              {
+                "key": "c",
+                "text": "Könnten Sie mir sagen, ob wann der Zug kommt?"
+              }
+            ],
+            "q": "Könnten Sie mir sagen, wann kommt der Zug?",
+            "why": "In an indirect W-question, the W-word stays, and the verb goes to the end."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich frage mich, ob ich das Formular ausfüllen muss."
+              },
+              {
+                "key": "b",
+                "text": "Ich frage mich, ob muss ich das Formular ausfüllen."
+              },
+              {
+                "key": "c",
+                "text": "Ich frage mich, ob ich das Formular muss ausfüllen."
+              }
+            ],
+            "q": "Ich frage mich, ob ich muss das Formular ausfüllen.",
+            "why": "Modal verb goes to the very end: ob ich das Formular ausfüllen muss."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich hätte gern einen Tee, bitte."
+              },
+              {
+                "key": "b",
+                "text": "Ich wäre gern einen Tee, bitte."
+              },
+              {
+                "key": "c",
+                "text": "Ich würde gern einen Tee, bitte."
+              }
+            ],
+            "q": "Ich habe gern einen Tee, bitte.",
+            "why": "The fixed polite phrase for ordering/requesting is `hätte gern` (Konjunktiv II of haben)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sollten Sie mir erklären, was das bedeutet?"
+              },
+              {
+                "key": "b",
+                "text": "Würden Sie mir erklären, was das bedeutet?"
+              },
+              {
+                "key": "c",
+                "text": "Dürften Sie mir erklären, was das bedeutet?"
+              }
+            ],
+            "q": "Wären Sie mir erklären, was das bedeutet?",
+            "why": "The correct polite request for `explain` is `Würden Sie mir erklären, …`"
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Each sentence contains exactly one error. Choose the correct version (a, b, or c).",
+      "title": "Finde den Fehler: Indirekte Fragen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "e",
+          "3": "c",
+          "4": "a",
+          "5": "d",
+          "6": "f"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Wann fährt der Zug?"
+          },
+          {
+            "key": "2",
+            "text": "Ist das Frühstück inbegriffen?"
+          },
+          {
+            "key": "3",
+            "text": "Wie viel kostet das Zimmer?"
+          },
+          {
+            "key": "4",
+            "text": "Hat er angerufen?"
+          },
+          {
+            "key": "5",
+            "text": "Kann ich online buchen?"
+          },
+          {
+            "key": "6",
+            "text": "Wo ist das Büro?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Ich möchte wissen, ob er angerufen hat."
+          },
+          {
+            "key": "b",
+            "text": "Könnten Sie mir sagen, wann der Zug fährt?"
+          },
+          {
+            "key": "c",
+            "text": "Dürfte ich fragen, wie viel das Zimmer kostet?"
+          },
+          {
+            "key": "d",
+            "text": "Wissen Sie, ob ich online buchen kann?"
+          },
+          {
+            "key": "e",
+            "text": "Ich wollte fragen, ob das Frühstück inbegriffen ist."
+          },
+          {
+            "key": "f",
+            "text": "Wissen Sie, wo das Büro ist?"
+          },
+          {
+            "key": "g",
+            "text": "Könnten Sie sagen, was der Zug kostet?"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B3",
+      "instructions": "Match each direct question (1–6) with its correct indirect form (a–g). One answer is not needed.",
+      "title": "Direkte Frage → Indirekte Frage verbinden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "buckets": [
+          {
+            "key": "order",
+            "label": "Bestellung / Anfrage"
+          },
+          {
+            "key": "indirect",
+            "label": "Indirekte Frage"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "order",
+            "text": "Ich hätte gern einen Kaffee."
+          },
+          {
+            "bucket": "indirect",
+            "text": "Ich möchte wissen, ob das Frühstück inbegriffen ist."
+          },
+          {
+            "bucket": "order",
+            "text": "Wir hätten gern zwei Zimmer."
+          },
+          {
+            "bucket": "indirect",
+            "text": "Könnten Sie mir sagen, wann der Zug fährt?"
+          },
+          {
+            "bucket": "order",
+            "text": "Ich hätte gern mehr Informationen."
+          },
+          {
+            "bucket": "indirect",
+            "text": "Ich weiß nicht, ob ich persönlich kommen muss."
+          },
+          {
+            "bucket": "indirect",
+            "text": "Dürfte ich kurz fragen, wie lange das dauert?"
+          },
+          {
+            "bucket": "order",
+            "text": "Würden Sie mir bitte helfen?"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "B4",
+      "instructions": "Sort each phrase into the correct category: Bestellung/Anfrage (ordering/requesting) or Indirekte Frage (indirect question).",
+      "title": "Höflichkeitsform sortieren"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Könnten Sie mir sagen, wann das Büro öffnet?",
+            "tiles": [
+              "Könnten",
+              "Sie",
+              "mir",
+              "sagen",
+              ",",
+              "wann",
+              "das",
+              "Büro",
+              "öffnet"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Ich wollte fragen, ob das Frühstück inbegriffen ist.",
+            "tiles": [
+              "Ich",
+              "wollte",
+              "fragen",
+              ",",
+              "ob",
+              "das",
+              "Frühstück",
+              "inbegriffen",
+              "ist"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Würden Sie das bitte wiederholen?",
+            "tiles": [
+              "Würden",
+              "Sie",
+              "das",
+              "bitte",
+              "wiederholen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Ich frage mich, ob ich einen Termin brauche.",
+            "tiles": [
+              "Ich",
+              "frage",
+              "mich",
+              ",",
+              "ob",
+              "ich",
+              "einen",
+              "Termin",
+              "brauche"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B5",
+      "instructions": "Put the words in the correct order to form a polite request or indirect question.",
+      "title": "Satzbau: Höfliche Anfragen richtig ordnen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Dürfte ich fragen, was das kostet?"
+          ],
+          "2": [
+            "Könnten Sie mir sagen, wann Sie fertig sind?"
+          ],
+          "3": [
+            "Ich wollte fragen, ob Sie meine E-Mail gelesen haben."
+          ],
+          "4": [
+            "Wissen Sie, wo der Chef ist?"
+          ],
+          "5": [
+            "Ich weiß nicht, ob ich das unterschreiben muss."
+          ],
+          "6": [
+            "Wäre es möglich, dass ich morgen komme?"
+          ]
+        },
+        "text": "1. „Was kostet das?\" → (Dürfte ich fragen, …)\n   {1}\n2. „Wann sind Sie fertig?\" → (Könnten Sie mir sagen, …)\n   {2}\n3. „Haben Sie meine E-Mail gelesen?\" → (Ich wollte fragen, ob …)\n   {3}\n4. „Wo ist der Chef?\" → (Wissen Sie, …)\n   {4}\n5. „Muss ich das unterschreiben?\" → (Ich weiß nicht, ob …)\n   {5}\n6. „Kann ich morgen kommen?\" → (Wäre es möglich, …)\n   {6}\n",
+        "type": "gap-text"
+      },
+      "id": "B6",
+      "instructions": "Rewrite each blunt question as a polite indirect question using the cue given. 6 items.",
+      "title": "Unhöflich → Höflich: Direkte Fragen umformulieren"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Hier spricht"
+          ],
+          "2": [
+            "störe"
+          ],
+          "3": [
+            "ob"
+          ],
+          "4": [
+            "Haben"
+          ],
+          "5": [
+            "dürfte"
+          ],
+          "6": [
+            "ob ich"
+          ]
+        },
+        "text": "— Guten Tag, {1} Anna Kowalski. Ich hoffe, ich {2} Sie nicht.\n— Guten Tag, Frau Kowalski. Nein, kein Problem.\n— Ich wollte fragen, {3} das Meeting morgen noch stattfindet.\n— Ja, das Meeting findet statt. {4} Sie noch andere Fragen?\n— Ja — {5} ich kurz fragen, {6} die Unterlagen vorher schicken soll?\n— Bitte schicken Sie die Unterlagen bis heute Abend.\n",
+        "type": "gap-text"
+      },
+      "id": "B7",
+      "instructions": "Fill in the 6 gaps in this formal phone conversation.",
+      "title": "Formeller Anruf: Lückentext"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ob noch Zimmer für ihren Zeitraum frei sind."
+              },
+              {
+                "key": "b",
+                "text": "Ob das Hotel einen Pool hat."
+              },
+              {
+                "key": "c",
+                "text": "Wie viel die Reise nach Wien kostet."
+              }
+            ],
+            "q": "Was möchte Anna zuerst wissen?",
+            "why": "\"Zunächst möchte ich wissen, ob noch Zimmer für diesen Zeitraum verfügbar sind.\""
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weil sie kein Auto hat."
+              },
+              {
+                "key": "b",
+                "text": "Weil sie nicht sicher ist, ob ein Fahrrad für das Stadtzentrum sinnvoll wäre."
+              },
+              {
+                "key": "c",
+                "text": "Weil sie das Fahrrad günstig findet."
+              }
+            ],
+            "q": "Warum fragt Anna nach einem Fahrrad?",
+            "why": "\"Ich bin mir nicht sicher, ob es sinnvoll wäre, ein Fahrrad zu mieten.\""
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weil sie das Hotel nicht mag."
+              },
+              {
+                "key": "b",
+                "text": "Weil das Hotel zu teuer ist."
+              },
+              {
+                "key": "c",
+                "text": "Weil sie nicht sicher ist, ob sie den dritten Tag dabei sein wird."
+              }
+            ],
+            "q": "Warum fragt Anna nach dem Stornierungsrecht?",
+            "why": "\"Ich weiß noch nicht genau, ob ich den dritten Tag (17. Juli) tatsächlich dabei sein werde.\""
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ein Einzelzimmer."
+              },
+              {
+                "key": "b",
+                "text": "Ein Doppelzimmer."
+              },
+              {
+                "key": "c",
+                "text": "Eine Suite."
+              }
+            ],
+            "q": "Welche Zimmerart möchte Anna buchen?",
+            "why": "\"würde ich gerne ein Einzelzimmer buchen.\""
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B8",
+      "instructions": "> Sehr geehrte Damen und Herren,\n>\n> ich interessiere mich für einen Aufenthalt in Ihrem Hotel vom 15. bis 18. Juli. Ich hätte einige Fragen, die ich gerne stellen würde.\n>\n> Zunächst möchte ich wissen, ob noch Zimmer für diesen Zeitraum verfügbar sind. Falls ja, würde ich gerne ein Einzelzimmer buchen. Außerdem wollte ich fragen, ob das Frühstück im Preis inbegriffen ist, oder ob man es separat dazubuchen muss.\n>\n> Des Weiteren dürfte ich kurz fragen, wie weit das Hotel vom Stadtzentrum entfernt ist. Ich bin mir nicht sicher, ob es sinnvoll wäre, ein Fahrrad zu mieten — ich wollte wissen, ob das Hotel Fahrräder verleiht oder ob Sie empfehlen könnten, wo man in der Nähe eines mieten kann.\n>\n> Könnten Sie mir außerdem erklären, bis wann die Buchung storniert werden kann? Ich weiß noch nicht genau, ob ich den dritten Tag (17. Juli) tatsächlich dabei sein werde, und ich wäre Ihnen sehr dankbar, wenn Sie mir das Stornierungsrecht für einen Tag erklären könnten.\n>\n> Ich würde mich über eine baldige Antwort sehr freuen.\n>\n> Mit freundlichen Grüßen,\n> Anna Kowalski\n\nWähle a, b oder c.\n",
+      "title": "Leseverstehen: Annas Brief ans Hotel"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "um"
+          ],
+          "2": [
+            "wissen"
+          ],
+          "3": [
+            "verfügbar"
+          ],
+          "4": [
+            "fragen"
+          ],
+          "5": [
+            "inbegriffen"
+          ],
+          "6": [
+            "fragen"
+          ],
+          "7": [
+            "ob"
+          ],
+          "8": [
+            "mieten"
+          ],
+          "9": [
+            "erklären"
+          ],
+          "10": [
+            "würde"
+          ]
+        },
+        "text": "Anna schreibt dem Hotel eine E-Mail, {1} einige Fragen zu klären. Zunächst\nmöchte sie {2}, ob noch Zimmer für den gewünschten Zeitraum {3} sind.\nSie wollte außerdem {4}, ob das Frühstück im Preis {5} ist. Des\nWeiteren dürfte sie kurz {6}, wie weit das Hotel vom Stadtzentrum\nentfernt ist. Sie ist sich nicht sicher, {7} es sinnvoll wäre, ein\nFahrrad zu {8}. Sie bittet das Hotel auch, ihr das Stornierungsrecht zu\n{9}. Am Ende schreibt sie, sie {10} sich über eine baldige Antwort freuen.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Fill each gap with one word. 10 gaps.",
+      "title": "Lückentext: Annas Brief ans Hotel"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "ob"
+              },
+              {
+                "key": "b",
+                "text": "wann"
+              },
+              {
+                "key": "c",
+                "text": "weil"
+              }
+            ],
+            "q": "Ich weiß nicht, ______ das Büro heute geöffnet ist.",
+            "why": "`ob` introduces indirect yes/no questions."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ob wann"
+              },
+              {
+                "key": "b",
+                "text": "wann"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Könnten Sie mir sagen, ______ der Zug fährt?",
+            "why": "A W-question uses the W-word directly: wann der Zug fährt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "gern"
+              },
+              {
+                "key": "b",
+                "text": "gerne haben"
+              },
+              {
+                "key": "c",
+                "text": "möchte"
+              }
+            ],
+            "q": "Ich hätte ______ einen Tisch für zwei Personen.",
+            "why": "The fixed polite phrase is `hätte gern` + noun (without a second verb)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Hätten"
+              },
+              {
+                "key": "b",
+                "text": "Würden"
+              },
+              {
+                "key": "c",
+                "text": "Wären"
+              }
+            ],
+            "q": "______ Sie mir erklären, was das bedeutet?",
+            "why": "`Würden Sie … erklären` is the standard polite request form."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "einreichen"
+              },
+              {
+                "key": "b",
+                "text": "eingereicht"
+              },
+              {
+                "key": "c",
+                "text": "reiche ein"
+              }
+            ],
+            "q": "Dürfte ich fragen, ob ich das Formular auch online {______} kann?",
+            "why": "After a modal verb (`kann`), use the bare infinitive: einreichen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "in einem persönlichen Gespräch"
+              },
+              {
+                "key": "b",
+                "text": "am Telefon"
+              },
+              {
+                "key": "c",
+                "text": "in einer E-Mail"
+              }
+            ],
+            "q": "Auf Wiederhören ist die richtige Form des Abschieds ______.",
+            "why": "`Auf Wiederhören` is the phone-specific farewell. In person: Auf Wiedersehen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Choose the correct option (a, b, or c) for each gap.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "OB"
+          ],
+          "2": [
+            "SIND"
+          ],
+          "3": [
+            "WISSEN"
+          ],
+          "4": [
+            "ERKLÄRT"
+          ],
+          "5": [
+            "WÜRDE"
+          ],
+          "6": [
+            "OB"
+          ],
+          "7": [
+            "INBEGRIFFEN"
+          ],
+          "8": [
+            "OB"
+          ],
+          "9": [
+            "KÖNNTE"
+          ],
+          "10": [
+            "WÄRE"
+          ]
+        },
+        "bank": [
+          "OB",
+          "SIND",
+          "WISSEN",
+          "ERKLÄRT",
+          "HÄTTE",
+          "OB",
+          "NICHT",
+          "INBEGRIFFEN",
+          "OB",
+          "KÖNNTE",
+          "WÄRE",
+          "WÜRDE",
+          "WIE",
+          "SCHREIBT",
+          "WENN"
+        ],
+        "text": "Anna ruft beim Hotel an. Sie fragt, {1} noch Zimmer frei {2}. Dann\nmöchte sie {3}, wie viel ein Einzelzimmer kostet. Der Mitarbeiter\n{4} ihr, dass ein Zimmer 90 Euro pro Nacht kostet. Anna {5} außerdem\ngern wissen, {6} das Frühstück inbegriffen ist. Der Mitarbeiter\nerklärt, dass das Frühstück im Preis {7} ist. Am Ende fragt Anna\nnoch, {8} sie den Termin verschieben {9}. Der Mitarbeiter sagt, das\nsei kein Problem. Anna bedankt sich höflich und sagt: „Das {10} sehr nett.\"\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Fill the 10 gaps. Five words are not needed.",
+      "title": "Sprachbausteine Teil 2 (Wortbank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Anna möchte ein Doppelzimmer buchen.",
+            "why": "\"würde ich gerne ein Einzelzimmer buchen.\""
+          },
+          {
+            "answer": true,
+            "q": "Anna fragt, ob das Frühstück inbegriffen ist.",
+            "why": "\"Außerdem wollte ich fragen, ob das Frühstück im Preis inbegriffen ist.\""
+          },
+          {
+            "answer": false,
+            "q": "Anna ist sicher, dass sie ein Fahrrad mieten wird.",
+            "why": "\"Ich bin mir nicht sicher, ob es sinnvoll wäre, ein Fahrrad zu mieten.\""
+          },
+          {
+            "answer": true,
+            "q": "Anna möchte wissen, ob sie die Buchung für einen Tag stornieren kann.",
+            "why": "\"ich wäre Ihnen sehr dankbar, wenn Sie mir das Stornierungsrecht für einen Tag erklären könnten.\""
+          },
+          {
+            "answer": false,
+            "q": "Anna weiß sicher, dass sie alle drei Tage dabei sein wird.",
+            "why": "\"Ich weiß noch nicht genau, ob ich den dritten Tag (17. Juli) tatsächlich dabei sein werde.\""
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Sehr geehrte Damen und Herren,\n>\n> ich interessiere mich für einen Aufenthalt in Ihrem Hotel vom 15. bis 18. Juli. Ich hätte einige Fragen, die ich gerne stellen würde.\n>\n> Zunächst möchte ich wissen, ob noch Zimmer für diesen Zeitraum verfügbar sind. Falls ja, würde ich gerne ein Einzelzimmer buchen. Außerdem wollte ich fragen, ob das Frühstück im Preis inbegriffen ist, oder ob man es separat dazubuchen muss.\n>\n> Des Weiteren dürfte ich kurz fragen, wie weit das Hotel vom Stadtzentrum entfernt ist. Ich bin mir nicht sicher, ob es sinnvoll wäre, ein Fahrrad zu mieten — ich wollte wissen, ob das Hotel Fahrräder verleiht oder ob Sie empfehlen könnten, wo man in der Nähe eines mieten kann.\n>\n> Könnten Sie mir außerdem erklären, bis wann die Buchung storniert werden kann? Ich weiß noch nicht genau, ob ich den dritten Tag (17. Juli) tatsächlich dabei sein werde, und ich wäre Ihnen sehr dankbar, wenn Sie mir das Stornierungsrecht für einen Tag erklären könnten.\n>\n> Ich würde mich über eine baldige Antwort sehr freuen.\n>\n> Mit freundlichen Grüßen,\n> Anna Kowalski\n\nRichtig (R) oder Falsch (F)?\n",
+      "title": "Leseverstehen: Annas Brief ans Hotel (Richtig / Falsch)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ab 15:00 Uhr."
+              },
+              {
+                "key": "b",
+                "text": "Ab 12:00 Uhr."
+              },
+              {
+                "key": "c",
+                "text": "Ab 18:00 Uhr."
+              }
+            ],
+            "q": "Ab wann ist das Zimmer normalerweise bereit?",
+            "why": "\"das Zimmer ab 15:00 Uhr bereitsteht.\""
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Haustiere sind grundsätzlich verboten."
+              },
+              {
+                "key": "b",
+                "text": "Kleine Hunde und Katzen sind willkommen, wenn man es vorher angibt."
+              },
+              {
+                "key": "c",
+                "text": "Nur Katzen sind erlaubt."
+              }
+            ],
+            "q": "Was gilt für Haustiere?",
+            "why": "\"kleine Hunde und Katzen sind willkommen, wenn Sie das bei der Buchung angeben.\""
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "2 km."
+              },
+              {
+                "key": "b",
+                "text": "1 km."
+              },
+              {
+                "key": "c",
+                "text": "500 Meter."
+              }
+            ],
+            "q": "Wie weit ist der nächste Bahnhof?",
+            "why": "\"Das Hotel liegt nur 500 Meter vom Westbahnhof entfernt.\""
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Damit der Aufenthalt optimal vorbereitet werden kann."
+              },
+              {
+                "key": "b",
+                "text": "Um den Preis anzupassen."
+              },
+              {
+                "key": "c",
+                "text": "Weil das gesetzlich vorgeschrieben ist."
+              }
+            ],
+            "q": "Warum bittet das Hotel die Gäste, besondere Anforderungen mitzuteilen?",
+            "why": "\"damit wir Ihren Aufenthalt optimal vorbereiten können.\""
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Read the FAQ text below. Choose the correct answer (a, b, or c).",
+      "title": "Leseverstehen: Hotelwebseite — Häufige Fragen (neuer Text)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "ob"
+          ],
+          "2": [
+            "ob"
+          ],
+          "3": [
+            "wann"
+          ],
+          "4": [
+            "fragen"
+          ],
+          "5": [
+            "gern"
+          ],
+          "6": [
+            "Würden"
+          ],
+          "7": [
+            "ob"
+          ],
+          "8": [
+            "sehr dankbar"
+          ],
+          "9": [
+            "Hier"
+          ],
+          "10": [
+            "Wiederhören"
+          ],
+          "11": [
+            "wiederholen"
+          ],
+          "12": [
+            "hätte"
+          ],
+          "13": [
+            "wäre"
+          ],
+          "14": [
+            "zu arbeiten"
+          ],
+          "15": [
+            "vorbereitet ist"
+          ]
+        },
+        "text": "1. Ich weiß nicht, {1} der Zug fährt. (yes/no → ob)\n2. Könnten Sie mir sagen, {2} das Büro geöffnet ist? (yes/no → ob)\n3. Ich möchte wissen, {3} der Termin stattfindet. (when → wann)\n4. Dürfte ich {4}, wie das Formular auszufüllen ist? (ask — infinitive)\n5. Ich hätte {5} einen Kaffee, bitte. (gern)\n6. {6} Sie mir erklären, was das bedeutet? (polite: Würden)\n7. Es ist unklar, {7} ich persönlich kommen muss. (yes/no → ob)\n8. Ich wäre Ihnen {8}, wenn Sie mir das erklären könnten. (sehr dankbar)\n9. Am Telefon: „{9} spricht Anna Kowalski.\" (Hier)\n10. Am Ende des Telefonats: „Auf {10}.\" (Wiederhören)\n11. Könnten Sie das bitte {11}? (wiederholen)\n12. (B1/03) Wenn ich mehr Zeit {12}, würde ich mehr üben. (hätte — Konj. II)\n13. (B1/03) Das {13} sehr nett von Ihnen. (polite form of sein: wäre)\n14. (B1/06) Ich lerne Deutsch, um in Berlin {14}. (arbeiten → zu+Inf)\n15. (B1/06) Sie schickt den Plan, damit das Team {15}. (vorbereitet sein)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Fill in the correct word or form. Items 12–15 review earlier topics: B1/03 (Konjunktiv II) and B1/06 (um … zu / damit). 15 items.",
+      "title": "Schnelltest: Indirekte Fragen + Höflichkeit + Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "ob",
+              "wann",
+              "wie",
+              "weil"
+            ],
+            "odd": 3,
+            "why": "`weil` introduces a reason clause, not an indirect question. ob/wann/wie all introduce indirect questions."
+          },
+          {
+            "items": [
+              "Könnten Sie",
+              "Würden Sie",
+              "Dürfte ich",
+              "Müssen Sie"
+            ],
+            "odd": 3,
+            "why": "`Müssen Sie` is a direct demand, not a polite Konjunktiv II form. The others are polite."
+          },
+          {
+            "items": [
+              "Auf Wiederhören",
+              "Auf Wiedersehen",
+              "Tschüss",
+              "Hier spricht"
+            ],
+            "odd": 3,
+            "why": "`Hier spricht` is a greeting formula (beginning of a call), not a farewell."
+          },
+          {
+            "items": [
+              "hätte gern",
+              "wäre",
+              "könnte",
+              "muss"
+            ],
+            "odd": 3,
+            "why": "`muss` is Präsens Indikativ, not Konjunktiv II. The others (hätte, wäre, könnte) are Konjunktiv II."
+          },
+          {
+            "items": [
+              "das Bürgeramt",
+              "der Antrag",
+              "das Dokument",
+              "das Fahrrad"
+            ],
+            "odd": 3,
+            "why": "`das Fahrrad` (bicycle) does not belong with official-office vocabulary."
+          },
+          {
+            "items": [
+              "erklären",
+              "wiederholen",
+              "buchstabieren",
+              "schlafen"
+            ],
+            "odd": 3,
+            "why": "`schlafen` (to sleep) is not a communication verb. The others are all used in polite communication."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Circle the word that does not belong. 6 groups.",
+      "title": "Wortschatz-Check: Das passt nicht!"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "hätte"
+          ],
+          "2": [
+            "würde"
+          ],
+          "3": [
+            "wäre"
+          ],
+          "4": [
+            "wäre"
+          ],
+          "5": [
+            "Wäre"
+          ],
+          "6": [
+            "auf"
+          ],
+          "7": [
+            "auf"
+          ],
+          "8": [
+            "über"
+          ],
+          "9": [
+            "über"
+          ],
+          "10": [
+            "für"
+          ]
+        },
+        "text": "B1/03 — Konjunktiv II:\n1. Wenn ich mehr Zeit {1}, würde ich öfter anrufen. (haben — Konj. II)\n2. Er {2} gerne mehr reisen, aber er hat kein Geld. (würde)\n3. Wenn ich du {3}, würde ich höflicher fragen. (wäre — Konj. II)\n4. Das {4} wirklich sehr nett von Ihnen. (sein — Konj. II)\n5. {5} es möglich, den Termin zu verschieben? (wäre — Konj. II)\n\nB1/08 — Verben mit Präpositionen II:\n6. Anna freut sich {6} die baldige Antwort. (auf)\n7. Er wartet {7} die Bestätigung. (auf)\n8. Ich frage mich, ob sie {8} das Problem nachgedacht hat. (über — nachdenken über)\n9. Bruno beschwert sich {9} die langen Wartezeiten. (über)\n10. Sie interessiert sich {10} den B2-Kurs. (für)\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Fill in the correct form. Items 1–5 review B1/03 (Konjunktiv II wishes and conditions); items 6–10 review B1/08 (Verben mit Präpositionen II). 10 items.",
+      "title": "Rückblick: B1/03 (Konjunktiv II) und B1/08 (Verben mit Präpositionen II)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "ob"
+          ],
+          "2": [
+            "wann"
+          ],
+          "3": [
+            "ob"
+          ],
+          "4": [
+            "fragen"
+          ],
+          "5": [
+            "gern"
+          ],
+          "6": [
+            "Würden"
+          ],
+          "7": [
+            "möglich"
+          ],
+          "8": [
+            "ob"
+          ],
+          "9": [
+            "wann"
+          ],
+          "10": [
+            "spricht"
+          ],
+          "11": [
+            "wo"
+          ],
+          "12": [
+            "wiederholen"
+          ],
+          "13": [
+            "angerufen hat"
+          ],
+          "14": [
+            "Dürfte"
+          ],
+          "15": [
+            "Wiederhören"
+          ],
+          "16": [
+            "sehr dankbar"
+          ],
+          "17": [
+            "muss"
+          ],
+          "18": [
+            "wo"
+          ],
+          "19": [
+            "mehr"
+          ],
+          "20": [
+            "wäre"
+          ]
+        },
+        "text": "1. Ich weiß nicht, {1} das Büro geöffnet ist. (ob)\n2. Könnten Sie mir sagen, {2} der Zug fährt? (when → wann)\n3. Ich frage mich, {3} ich persönlich kommen muss. (yes/no → ob)\n4. Dürfte ich {4}, wie das funktioniert? (fragen)\n5. Ich hätte {5} einen Tee, bitte. (gern)\n6. {6} Sie mir das bitte erklären? (Würden)\n7. Wäre es {7}, den Termin zu verschieben? (möglich)\n8. Ich wollte fragen, {8} das Frühstück inbegriffen ist. (ob)\n9. Es ist unklar, {9} die Unterlagen eingereicht werden müssen. (when → wann)\n10. Am Telefon: Hier {10} Anna Kowalski. (spricht)\n11. Ich möchte wissen, {11} ich das Dokument abgeben soll. (where → wo)\n12. Könnten Sie das bitte {12}? (wiederholen)\n13. Ich weiß nicht, ob er {13}. (angerufen hat — Perfekt, auxiliary last)\n14. {14} ich kurz fragen, ob Sie Zeit haben? (Dürfte)\n15. Am Ende des Anrufs: Auf {15}. (Wiederhören)\n16. Ich wäre Ihnen {16}, wenn Sie mir helfen könnten. (sehr dankbar)\n17. Sie fragt, ob ich das Formular ausfüllen {17}. (muss — modal at end)\n18. Wissen Sie, {18} das Büro ist? (where → wo)\n19. Ich hätte gern {19} Informationen, bitte. (mehr)\n20. Das {20} sehr nett von Ihnen. (wäre — Konjunktiv II)\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "instructions": "Fill in the correct form. 1 point per gap. 20 items.",
+      "title": "Selbsttest: Indirekte Fragen & Höflichkeit (20 Punkte)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "b1-09",
+  "intro": "Blocks: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Answers in solutions.md. Tip: H+A on day 1, B on day 2, C on day 3, D on day 4.\n",
+  "lesson": "B1/09",
+  "level": "B1",
+  "summary": null,
+  "title": "B1 · Lektion 9 — Übungen (Exercises)",
+  "topic": null
+}

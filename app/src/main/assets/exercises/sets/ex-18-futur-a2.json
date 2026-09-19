@@ -1,0 +1,677 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "werden + Infinitiv (kommen)"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "werde kommen"
+                ],
+                "gap": 1
+              }
+            ],
+            "label": "ich"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "wirst kommen"
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "du"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "wird kommen"
+                ],
+                "gap": 3
+              }
+            ],
+            "label": "er/sie/es"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "werden kommen"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "wir"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "werdet kommen"
+                ],
+                "gap": 5
+              }
+            ],
+            "label": "ihr"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "werden kommen"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "sie/Sie"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die Tabelle.",
+      "instructionsEn": "Complete the table.",
+      "title": "werden + Infinitiv"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "werde"
+          ],
+          "3": [
+            "werden"
+          ],
+          "4": [
+            "Wirst"
+          ],
+          "5": [
+            "werden"
+          ],
+          "6": [
+            "werdet"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Morgen {1} es regnen.\n2. Ich {2} nächstes Jahr nach Spanien reisen.\n3. Wir {3} bald ein neues Auto kaufen.\n4. {4} du mir helfen?\n5. Die Kinder {5} bald schlafen gehen.\n6. Ihr {6} das sicher schaffen.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze die richtige Form von werden.",
+      "instructionsEn": "Fill in the correct form of werden.",
+      "title": "Futur I bilden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "werde"
+          ],
+          "2": [
+            "werde"
+          ],
+          "3": [
+            "werde"
+          ],
+          "4": [
+            "werden"
+          ],
+          "5": [
+            "werden"
+          ],
+          "6": [
+            "werde"
+          ],
+          "7": [
+            "werden"
+          ],
+          "8": [
+            "werden"
+          ]
+        },
+        "bank": [
+          "werde",
+          "werde",
+          "werde",
+          "werde",
+          "werden",
+          "werden",
+          "werden",
+          "werden",
+          "wirst",
+          "wird"
+        ],
+        "text": "Nächstes Jahr {1} ich mein Studium beenden. Danach {2} ich einen\nJob suchen. Ich {3} wahrscheinlich in eine größere Stadt ziehen.\nMeine Freunde {4} mich sicher besuchen. Wir {5} zusammen\nreisen. Vielleicht {6} ich auch heiraten. Meine Eltern {7} sich\nsehr freuen. Das Leben {8} bestimmt spannend.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Meine Zukunftspläne"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "werde"
+              },
+              {
+                "key": "b",
+                "text": "wirst"
+              },
+              {
+                "key": "c",
+                "text": "wird"
+              }
+            ],
+            "q": "Morgen ___ ich einkaufen gehen.",
+            "why": "ich → werde."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "werde"
+              },
+              {
+                "key": "b",
+                "text": "werden"
+              },
+              {
+                "key": "c",
+                "text": "wird"
+              }
+            ],
+            "q": "Nächste Woche ___ wir in Urlaub fahren.",
+            "why": "wir → werden."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "werde"
+              },
+              {
+                "key": "b",
+                "text": "werdet"
+              },
+              {
+                "key": "c",
+                "text": "wird"
+              }
+            ],
+            "q": "Er ___ bald 30 Jahre alt.",
+            "why": "er → wird."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wirst"
+              },
+              {
+                "key": "b",
+                "text": "Wird"
+              },
+              {
+                "key": "c",
+                "text": "Werdet"
+              }
+            ],
+            "q": "___ du mir morgen helfen?",
+            "why": "du → wirst."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "werden"
+              },
+              {
+                "key": "c",
+                "text": "werde"
+              }
+            ],
+            "q": "Die Preise ___ wahrscheinlich steigen.",
+            "why": "die Preise (Plural) → werden."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "werde"
+              },
+              {
+                "key": "b",
+                "text": "werden"
+              },
+              {
+                "key": "c",
+                "text": "wird"
+              }
+            ],
+            "q": "Ich denke, es ___ bald schneien.",
+            "why": "es → wird."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Die richtige Form von werden"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "werden"
+              },
+              {
+                "key": "c",
+                "text": "werde"
+              }
+            ],
+            "q": "Morgen ___ die Sonne scheinen.",
+            "why": "die Sonne → wird."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "werden"
+              },
+              {
+                "key": "b",
+                "text": "wird"
+              },
+              {
+                "key": "c",
+                "text": "werde"
+              }
+            ],
+            "q": "Am Nachmittag ___ es wärmer.",
+            "why": "es → wird."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "werde"
+              },
+              {
+                "key": "c",
+                "text": "werden"
+              }
+            ],
+            "q": "Am Abend ___ ein paar Wolken aufziehen.",
+            "why": "Wolken (Plural) → werden."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "werden"
+              },
+              {
+                "key": "c",
+                "text": "werdet"
+              }
+            ],
+            "q": "Übermorgen ___ es wieder regnen.",
+            "why": "es → wird."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "werden"
+              },
+              {
+                "key": "c",
+                "text": "werde"
+              }
+            ],
+            "q": "Die Temperaturen ___ langsam sinken.",
+            "why": "die Temperaturen (Plural) → werden."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "wirst"
+              },
+              {
+                "key": "b",
+                "text": "wird"
+              },
+              {
+                "key": "c",
+                "text": "werde"
+              }
+            ],
+            "q": "Ich ___ morgen einen Regenschirm mitnehmen.",
+            "why": "ich → werde."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "werden"
+              },
+              {
+                "key": "c",
+                "text": "werdet"
+              }
+            ],
+            "q": "Wir ___ das Wochenende wohl drinnen verbringen.",
+            "why": "wir → werden."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "werden"
+              },
+              {
+                "key": "c",
+                "text": "werde"
+              }
+            ],
+            "q": "Am Ende ___ das Wetter wieder besser.",
+            "why": "das Wetter → wird."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct form of werden for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Wettervorhersage"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "werde"
+          ],
+          "2": [
+            "werde"
+          ],
+          "3": [
+            "wird"
+          ],
+          "4": [
+            "werden"
+          ],
+          "5": [
+            "werde"
+          ],
+          "6": [
+            "werden"
+          ],
+          "7": [
+            "werde"
+          ],
+          "8": [
+            "wird"
+          ],
+          "9": [
+            "werde"
+          ],
+          "10": [
+            "werde"
+          ]
+        },
+        "bank": [
+          "werde",
+          "werde",
+          "werde",
+          "werde",
+          "werde",
+          "werde",
+          "wird",
+          "wird",
+          "werden",
+          "werden",
+          "wirst",
+          "werdet"
+        ],
+        "text": "Nächstes Jahr {1} ich mehr Sport machen. Ich {2} auch gesünder\nessen. Meine Familie {3} mich dabei unterstützen. Wir {4}\nzusammen kochen. Ich {5} weniger Zeit am Handy verbringen. Meine\nFreunde {6} das sicher komisch finden. Aber ich {7} es trotzdem\nversuchen. Das neue Jahr {8} bestimmt aufregend. Ich {9} auch\nmehr reisen. Am Ende {10} ich stolz auf mich sein.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Two words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Neujahrsvorsätze (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "werde"
+          ],
+          "3": [
+            "werden"
+          ],
+          "4": [
+            "Wirst"
+          ],
+          "5": [
+            "werden"
+          ],
+          "6": [
+            "werdet"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Morgen {1} es regnen.\n2. Ich {2} nächstes Jahr umziehen.\n3. Wir {3} bald in Urlaub fahren.\n4. {4} du mir helfen?\n5. Die Kinder {5} bald größer.\n6. Ihr {6} das schaffen.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die richtige Form von werden.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "werde"
+              },
+              {
+                "key": "b",
+                "text": "wirst"
+              },
+              {
+                "key": "c",
+                "text": "wird"
+              }
+            ],
+            "q": "Morgen ___ ich früh aufstehen.",
+            "why": "ich → werde."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "werde"
+              },
+              {
+                "key": "b",
+                "text": "werden"
+              },
+              {
+                "key": "c",
+                "text": "wird"
+              }
+            ],
+            "q": "Nächstes Jahr ___ wir heiraten.",
+            "why": "wir → werden."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "werde"
+              },
+              {
+                "key": "b",
+                "text": "werdet"
+              },
+              {
+                "key": "c",
+                "text": "wird"
+              }
+            ],
+            "q": "Sie ___ bald fertig sein.",
+            "why": "sie (Singular) → wird."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Werdet"
+              },
+              {
+                "key": "b",
+                "text": "Wird"
+              },
+              {
+                "key": "c",
+                "text": "Wirst"
+              }
+            ],
+            "q": "___ ihr uns besuchen?",
+            "why": "ihr → werdet."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "werden"
+              },
+              {
+                "key": "c",
+                "text": "werde"
+              }
+            ],
+            "q": "Die Kosten ___ wahrscheinlich steigen.",
+            "why": "die Kosten (Plural) → werden."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "werde"
+              },
+              {
+                "key": "b",
+                "text": "werden"
+              },
+              {
+                "key": "c",
+                "text": "wird"
+              }
+            ],
+            "q": "Ich glaube, es ___ bald dunkel.",
+            "why": "es → wird."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-18-futur-a2",
+  "intro": "Standalone drill set, not tied to any lesson. German rarely needs a separate future tense — Präsens + a time word (Morgen fahre ich nach Berlin) is usually enough and is what native speakers actually say. Futur I (werden + Infinitiv at the end) shows up for predictions, promises, and firm intentions where the \"will happen\" nuance matters: Es wird morgen regnen. Nächstes Jahr werde ich mein Studium beenden. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/18-futur-a2",
+  "level": "A2",
+  "summary": null,
+  "title": "Futur I: werden + Infinitiv — A2",
+  "topic": "Futur I und II"
+}

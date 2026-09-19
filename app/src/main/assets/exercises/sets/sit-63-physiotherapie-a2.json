@@ -1,0 +1,836 @@
+{
+  "category": "Sport & Gesundheit",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "vorher",
+            "label": "Vor der Behandlung"
+          },
+          {
+            "key": "praxis",
+            "label": "In der Praxis"
+          },
+          {
+            "key": "zuhause",
+            "label": "Zu Hause"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "vorher",
+            "text": "die Verordnung vom Arzt holen"
+          },
+          {
+            "bucket": "vorher",
+            "text": "einen Termin vereinbaren"
+          },
+          {
+            "bucket": "vorher",
+            "text": "die Krankenkasse nach der Zuzahlung fragen"
+          },
+          {
+            "bucket": "vorher",
+            "text": "die Zuzahlung einplanen"
+          },
+          {
+            "bucket": "praxis",
+            "text": "die verspannten Muskeln massieren lassen"
+          },
+          {
+            "bucket": "praxis",
+            "text": "Übungen mit der Physiotherapeutin machen"
+          },
+          {
+            "bucket": "praxis",
+            "text": "die Beweglichkeit testen lassen"
+          },
+          {
+            "bucket": "praxis",
+            "text": "einen Folgetermin ausmachen"
+          },
+          {
+            "bucket": "zuhause",
+            "text": "die Übungen selbstständig wiederholen"
+          },
+          {
+            "bucket": "zuhause",
+            "text": "die Muskeln vorsichtig dehnen"
+          },
+          {
+            "bucket": "zuhause",
+            "text": "die Schmerzen beobachten"
+          },
+          {
+            "bucket": "zuhause",
+            "text": "das Rezept verlängern lassen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Vor der Behandlung, in der Praxis oder zu Hause?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Verordnung"
+          },
+          {
+            "key": "2",
+            "text": "die Behandlung"
+          },
+          {
+            "key": "3",
+            "text": "die Übung"
+          },
+          {
+            "key": "4",
+            "text": "die Zuzahlung"
+          },
+          {
+            "key": "5",
+            "text": "verspannt"
+          },
+          {
+            "key": "6",
+            "text": "dehnen"
+          },
+          {
+            "key": "7",
+            "text": "der Folgetermin"
+          },
+          {
+            "key": "8",
+            "text": "verlängern"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "das Rezept vom Arzt für die Physiotherapie"
+          },
+          {
+            "key": "b",
+            "text": "die einzelne Sitzung bei der Physiotherapeutin"
+          },
+          {
+            "key": "c",
+            "text": "die Bewegung zum Trainieren eines Körperteils"
+          },
+          {
+            "key": "d",
+            "text": "der Teil der Kosten, den man selbst bezahlt"
+          },
+          {
+            "key": "e",
+            "text": "mit schmerzhaft angespannten Muskeln"
+          },
+          {
+            "key": "f",
+            "text": "einen Muskel vorsichtig strecken"
+          },
+          {
+            "key": "g",
+            "text": "der nächste vereinbarte Termin"
+          },
+          {
+            "key": "h",
+            "text": "eine neue Verordnung für mehr Behandlungen bekommen"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Sollen"
+          ],
+          "5": [
+            "zunehmen"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Muss"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} noch eine Verordnung vom Arzt holen. (Modalverb, ich-Form)\n2. {2} Sie mir einen Termin für nächste Woche geben? (können, Sie-Form)\n3. Ich {3} schon drei Behandlungen gehabt. (haben, Perfekt)\n4. {4} wir mit den Dehnübungen beginnen? (sollen, wir-Form)\n5. Falls die Schmerzen {5}, sage ich sofort Bescheid. (zunehmen, Präsens)\n6. Die Physiotherapeutin {6} mir neue Übungen zeigen. (werden, Futur I)\n7. Die Übungen {7} mir schon geholfen. (haben, Perfekt)\n8. {8} ich die Übungen auch am Wochenende machen? (müssen, ich-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Die Behandlung planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Verordnung"
+          ],
+          "2": [
+            "Behandlung"
+          ],
+          "3": [
+            "verspannt"
+          ],
+          "4": [
+            "dehnen"
+          ],
+          "5": [
+            "Folgetermin"
+          ],
+          "6": [
+            "verlängern"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Für die Physiotherapie brauche ich eine {1} vom Arzt. (das Rezept für die Behandlung)\n2. Jede einzelne Sitzung bei der Physiotherapeutin nennt man eine {2}. (der Fachbegriff für die einzelne Sitzung)\n3. Meine Muskeln im Rücken sind stark {3}. (schmerzhaft angespannt)\n4. Zu Hause soll ich die Muskeln vorsichtig {4}. (langsam strecken)\n5. Am Ende der Behandlung vereinbaren wir gleich einen {5}. (der nächste Termin)\n6. Weil die Schmerzen noch nicht weg sind, lasse ich das Rezept {6}. (eine neue Verordnung bekommen, Infinitiv)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "REZEPT"
+          ],
+          "2": [
+            "VERORDNUNG"
+          ],
+          "3": [
+            "ZUZAHLUNG"
+          ],
+          "4": [
+            "TERMIN"
+          ],
+          "5": [
+            "VERSPANNT"
+          ],
+          "6": [
+            "ÜBUNGEN"
+          ],
+          "7": [
+            "LOCKERER"
+          ],
+          "8": [
+            "FOLGETERMIN"
+          ],
+          "9": [
+            "VERLÄNGERN"
+          ],
+          "10": [
+            "RATE"
+          ]
+        },
+        "bank": [
+          "REZEPT",
+          "VERORDNUNG",
+          "ZUZAHLUNG",
+          "TERMIN",
+          "VERSPANNT",
+          "ÜBUNGEN",
+          "LOCKERER",
+          "FOLGETERMIN",
+          "VERLÄNGERN",
+          "RATE",
+          "MASSAGE",
+          "SCHMERZTABLETTE",
+          "KRANKENSCHEIN",
+          "WARTEZIMMER"
+        ],
+        "text": "— Guten Tag, mein Rücken schmerzt seit Wochen. Können Sie mir\nein {1} für Physiotherapie ausstellen?\n— Natürlich, ich schreibe Ihnen eine {2} für sechs Behandlungen.\n— Muss ich dafür eine {3} bezahlen?\n— Ja, meistens zehn Prozent der Kosten.\n(in der Physiopraxis)\n— Guten Tag, ich habe eine Verordnung und möchte einen {4}\nvereinbaren.\n— Kein Problem, passt Ihnen Dienstag um 15 Uhr?\n— Ja, gut.\n(bei der ersten Behandlung)\n— Ihre Rückenmuskeln sind stark {5}. Ich zeige Ihnen ein paar\n{6} zum Selbermachen.\n— Wie oft soll ich die zu Hause wiederholen?\n— Am besten täglich, dann werden die Muskeln nach und nach {7}.\n— Und wann sehen wir uns wieder?\n— Am Ende der Sitzung machen wir gleich einen {8} aus.\n— Reichen die sechs Behandlungen, oder muss ich das Rezept {9}\nlassen?\n— Das sehen wir dann — falls nötig, {10} ich Ihnen zu einem\nneuen Arztbesuch.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Beim Arzt und in der Physiopraxis"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Rezepte interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Können Sie mir ein Rezept für Physiotherapie ausstellen?"
+              },
+              {
+                "key": "c",
+                "text": "Schreiben Sie mir irgendwas auf."
+              }
+            ],
+            "q": "Du möchtest den Arzt um ein Rezept für Physiotherapie bitten. — You want to ask the doctor for a referral to physiotherapy.",
+            "why": "Eine konkrete, höfliche Bitte ist der übliche Weg zu einem Rezept."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zahlen ist mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Kosten kümmern mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Muss ich für die Behandlung eine Zuzahlung leisten?"
+              }
+            ],
+            "q": "Du möchtest wissen, ob du eine Zuzahlung leisten musst. — You want to know whether you have to pay a co-payment.",
+            "why": "Eine klare Frage zu den Kosten vermeidet spätere Überraschungen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich möchte einen Termin für Physiotherapie vereinbaren."
+              },
+              {
+                "key": "b",
+                "text": "Termine sind mir zu kompliziert."
+              },
+              {
+                "key": "c",
+                "text": "Ich komme einfach vorbei, wann ich will."
+              }
+            ],
+            "q": "Du möchtest in der Praxis einen Termin vereinbaren. — You want to arrange an appointment at the practice.",
+            "why": "Eine höfliche, konkrete Anfrage ist der übliche Einstieg am Empfang."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Übungen mache ich sowieso nie."
+              },
+              {
+                "key": "b",
+                "text": "Ja, ich habe sie jeden Tag wiederholt."
+              },
+              {
+                "key": "c",
+                "text": "Das interessiert mich nicht."
+              }
+            ],
+            "q": "Die Physiotherapeutin fragt, ob du die Übungen zu Hause gemacht hast. — The physiotherapist asks whether you did the exercises at home.",
+            "why": "Eine ehrliche, konkrete Antwort hilft der Physiotherapeutin, die Behandlung anzupassen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Verlängern ist mir zu kompliziert."
+              },
+              {
+                "key": "b",
+                "text": "Rezepte sind mir egal."
+              },
+              {
+                "key": "c",
+                "text": "Kann das Rezept für weitere Behandlungen verlängert werden?"
+              }
+            ],
+            "q": "Du möchtest fragen, ob das Rezept verlängert werden kann. — You want to ask whether the referral can be extended.",
+            "why": "Eine direkte Frage klärt frühzeitig, ob mehr Behandlungen möglich sind."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Können wir gleich einen Folgetermin ausmachen?"
+              },
+              {
+                "key": "b",
+                "text": "Termine mache ich nie im Voraus."
+              },
+              {
+                "key": "c",
+                "text": "Ich rufe vielleicht irgendwann mal an."
+              }
+            ],
+            "q": "Du möchtest einen Folgetermin ausmachen. — You want to set up a follow-up appointment.",
+            "why": "Den Folgetermin gleich zu vereinbaren spart beiden Seiten Zeit und Aufwand."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Beim Arzt und in der Praxis"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "höfliche Frage, Infinitiv am Ende",
+            "tiles": [
+              "Können",
+              "Sie",
+              "mir",
+              "ein",
+              "Rezept",
+              "für",
+              "Physiotherapie",
+              "ausstellen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Bitte, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "einen",
+              "Termin",
+              "für",
+              "Physiotherapie",
+              "vereinbaren"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Frage mit Modalverb, Infinitiv am Ende",
+            "tiles": [
+              "Muss",
+              "ich",
+              "für",
+              "die",
+              "Behandlung",
+              "eine",
+              "Zuzahlung",
+              "leisten",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Nebensatz mit falls, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "die",
+              "Schmerzen",
+              "zunehmen",
+              ",",
+              "sage",
+              "ich",
+              "sofort",
+              "Bescheid"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Frage mit Modalverb, trennbares Verb am Ende",
+            "tiles": [
+              "Können",
+              "wir",
+              "gleich",
+              "einen",
+              "Folgetermin",
+              "ausmachen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Die",
+              "Übungen",
+              "haben",
+              "mir",
+              "schon",
+              "geholfen"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze bei der Physiotherapie bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Eine Verordnung gilt meist für sechs Behandlungen. — A referral is usually valid for six sessions.",
+            "why": "So steht es ausdrücklich in den Praxis-Infos."
+          },
+          {
+            "answer": false,
+            "q": "Die Zuzahlung beträgt normalerweise fünfzig Prozent der Kosten. — The co-payment is usually fifty percent of the costs.",
+            "why": "Sie beträgt in der Regel 10 % der Kosten, nicht 50 %."
+          },
+          {
+            "answer": true,
+            "q": "Die Behandlung sollte innerhalb von 14 Tagen nach der Verordnung beginnen. — Treatment should start within 14 days of the referral.",
+            "why": "„Termin: sollte innerhalb von 14 Tagen nach Ausstellung der Verordnung beginnen.“"
+          },
+          {
+            "answer": false,
+            "q": "Die Übungen sollten nur einmal im Monat wiederholt werden. — The exercises should only be repeated once a month.",
+            "why": "Sie sollten täglich wiederholt werden, nicht einmal im Monat."
+          },
+          {
+            "answer": false,
+            "q": "Ein verpasster Termin darf man auch noch am selben Tag kurzfristig absagen. — A missed appointment can be cancelled at short notice on the same day.",
+            "why": "Er sollte mindestens 24 Stunden vorher abgesagt werden."
+          },
+          {
+            "answer": true,
+            "q": "Der Folgetermin wird meistens am Ende jeder Sitzung vereinbart. — The follow-up appointment is usually arranged at the end of each session.",
+            "why": "„Folgetermin: wird meistens am Ende jeder Sitzung vereinbart.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Physiotherapie**\n>\n> - **Verordnung:** meist für **6 Behandlungen** gültig, danach\n>   neu verordnen lassen.\n> - **Zuzahlung:** in der Regel **10 % der Kosten** plus\n>   **10 Euro pro Verordnung**.\n> - **Termin:** sollte **innerhalb von 14 Tagen** nach\n>   Ausstellung der Verordnung beginnen.\n> - **Hausaufgaben:** die gezeigten Übungen sollten **täglich**\n>   wiederholt werden.\n> - **Verpasster Termin:** sollte **mindestens 24 Stunden\n>   vorher** abgesagt werden.\n> - **Folgetermin:** wird meistens **am Ende jeder Sitzung**\n>   vereinbart.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Praxis-Infos lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach nicht mehr zur Praxis gehen."
+              },
+              {
+                "key": "b",
+                "text": "Sofort nach einem Ersatztermin fragen."
+              },
+              {
+                "key": "c",
+                "text": "Laut in der Praxis schimpfen."
+              }
+            ],
+            "q": "Der Termin bei der Physiotherapeutin fällt kurzfristig aus. — The physiotherapy appointment is cancelled at short notice.",
+            "why": "Eine schnelle Nachfrage nach einem Ersatztermin hält die Behandlung auf Kurs."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach ohne Verordnung weiter zur Physiotherapie gehen."
+              },
+              {
+                "key": "b",
+                "text": "Die Schmerzen ignorieren."
+              },
+              {
+                "key": "c",
+                "text": "Einen neuen Termin beim Arzt für eine Folgeverordnung machen."
+              }
+            ],
+            "q": "Die Verordnung ist schon abgelaufen, aber die Schmerzen sind noch da. — The referral has already expired, but the pain remains.",
+            "why": "Eine neue Verordnung beim Arzt ist der korrekte Weg zu weiteren Behandlungen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort der Physiotherapeutin Bescheid sagen."
+              },
+              {
+                "key": "b",
+                "text": "Trotz starker Schmerzen einfach weitermachen."
+              },
+              {
+                "key": "c",
+                "text": "Die Übung heimlich auslassen, ohne etwas zu sagen."
+              }
+            ],
+            "q": "Eine Übung tut beim Ausführen richtig weh. — An exercise really hurts while doing it.",
+            "why": "Schmerzen sofort zu melden hilft, die Übung sicher anzupassen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Behandlung sofort komplett abbrechen."
+              },
+              {
+                "key": "b",
+                "text": "Bei der Krankenkasse nachfragen und den Grund klären."
+              },
+              {
+                "key": "c",
+                "text": "Einfach nicht mehr bezahlen."
+              }
+            ],
+            "q": "Die Krankenkasse übernimmt die Kosten plötzlich nicht mehr. — The health insurance suddenly stops covering the costs.",
+            "why": "Eine Nachfrage bei der Krankenkasse klärt meist schnell, woran es liegt."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach nicht erscheinen, ohne Bescheid zu geben."
+              },
+              {
+                "key": "b",
+                "text": "Den Termin ignorieren und hoffen, dass es niemand merkt."
+              },
+              {
+                "key": "c",
+                "text": "Rechtzeitig in der Praxis anrufen und absagen."
+              }
+            ],
+            "q": "Du kannst einen vereinbarten Termin nicht wahrnehmen. — You can't make a scheduled appointment.",
+            "why": "Rechtzeitiges Absagen ist höflich und vermeidet mögliche Ausfallgebühren."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Mit der Physiotherapeutin offen über die fehlende Besserung sprechen."
+              },
+              {
+                "key": "b",
+                "text": "Einfach weitermachen, ohne etwas zu sagen."
+              },
+              {
+                "key": "c",
+                "text": "Die Behandlung ohne Erklärung abbrechen."
+              }
+            ],
+            "q": "Nach mehreren Behandlungen hat sich noch nichts verbessert. — After several sessions, nothing has improved yet.",
+            "why": "Ein offenes Gespräch hilft, die Behandlung bei Bedarf anzupassen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn bei der Physiotherapie etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "ausgefallen"
+          ],
+          "2": [
+            "abgelaufen"
+          ],
+          "3": [
+            "wehgetan"
+          ],
+          "4": [
+            "übernommen"
+          ],
+          "5": [
+            "abgesagt"
+          ],
+          "6": [
+            "verbessert"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Termin ist kurzfristig {1}. (nicht stattgefunden, Partizip)\n2. Die Verordnung war schon {2}. (nicht mehr gültig)\n3. Die Übung hat mir richtig {3}. (Schmerzen verursacht, Partizip)\n4. Die Krankenkasse hat die Kosten plötzlich nicht mehr {4}. (bezahlt, Partizip)\n5. Ich habe den Termin rechtzeitig {5}. (storniert, Partizip)\n6. Nach mehreren Behandlungen hat sich noch nichts {6}. (besser geworden, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Könnten"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Verordnung"
+          ],
+          "5": [
+            "Behandlung"
+          ],
+          "6": [
+            "verspannt"
+          ],
+          "7": [
+            "dehnen"
+          ],
+          "8": [
+            "Folgetermin"
+          ],
+          "9": [
+            "verlängern"
+          ],
+          "10": [
+            "ausgefallen"
+          ],
+          "11": [
+            "abgelaufen"
+          ],
+          "12": [
+            "wehgetan"
+          ],
+          "13": [
+            "übernommen"
+          ],
+          "14": [
+            "verbessert"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} noch eine Verordnung vom Arzt holen. (must)\n2. {2} Sie mir einen Termin für nächste Woche geben? (could — können)\n3. Ich {3} schon drei Behandlungen gehabt. (have — Perfekt)\n4. Für die Physiotherapie brauche ich eine {4}. (referral)\n5. Jede Sitzung nennt man eine {5}. (treatment session)\n6. Meine Muskeln im Rücken sind stark {6}. (tense)\n7. Zu Hause soll ich die Muskeln vorsichtig {7}. (stretch — Infinitiv)\n8. Am Ende vereinbaren wir gleich einen {8}. (follow-up appointment)\n9. Ich lasse das Rezept {9}. (extend — Infinitiv)\n10. Der Termin ist kurzfristig {10}. (fell through — Partizip)\n11. Die Verordnung war schon {11}. (expired)\n12. Die Übung hat mir richtig {12}. (hurt — Partizip)\n13. Die Krankenkasse hat die Kosten nicht mehr {13}. (covered — Partizip)\n14. Nach mehreren Behandlungen hat sich noch nichts {14}. (improved — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-63-physiotherapie-a2",
+  "intro": "Nach der Verordnung vom Arzt beginnt die eigentliche Arbeit: Termine bei der Physiotherapeutin vereinbaren, die Übungen aus der Praxis zu Hause wiederholen, und geduldig bleiben, auch wenn mal ein Termin ausfällt oder eine Übung wehtut. Dieses Set übt genau das: die Verordnung erfragen, die Zuzahlung klären, mit der Physiotherapeutin über Fortschritte sprechen, und was zu tun ist, wenn etwas schiefgeht. Grammatik nach Bedarf: Perfekt im Bericht, höfliche Fragen, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/63-physiotherapie-a2",
+  "level": "A2",
+  "summary": "Die Verordnung beim Arzt holen, Termine vereinbaren, Übungen zu Hause wiederholen — und was tun, wenn ein Termin ausfällt oder die Schmerzen bleiben.",
+  "title": "Physiotherapie: Rezept, Termine, Übungen — A2",
+  "topic": "Physiotherapie: Rezept, Termine, Übungen"
+}

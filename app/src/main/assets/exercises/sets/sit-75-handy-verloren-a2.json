@@ -1,0 +1,834 @@
+{
+  "category": "Wenn etwas schiefgeht",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "sofort",
+            "label": "Sofort tun"
+          },
+          {
+            "key": "polizei",
+            "label": "Bei der Polizei"
+          },
+          {
+            "key": "danach",
+            "label": "Danach"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "sofort",
+            "text": "das Handy sperren lassen"
+          },
+          {
+            "bucket": "sofort",
+            "text": "die SIM-Karte sperren"
+          },
+          {
+            "bucket": "sofort",
+            "text": "die letzte Position prüfen"
+          },
+          {
+            "bucket": "sofort",
+            "text": "Freunde informieren"
+          },
+          {
+            "bucket": "polizei",
+            "text": "eine Anzeige erstatten"
+          },
+          {
+            "bucket": "polizei",
+            "text": "die IMEI-Nummer angeben"
+          },
+          {
+            "bucket": "polizei",
+            "text": "den Vorfall genau schildern"
+          },
+          {
+            "bucket": "polizei",
+            "text": "eine Kopie der Anzeige verlangen"
+          },
+          {
+            "bucket": "danach",
+            "text": "die Handyversicherung informieren"
+          },
+          {
+            "bucket": "danach",
+            "text": "ein neues Handy kaufen"
+          },
+          {
+            "bucket": "danach",
+            "text": "die Daten wiederherstellen"
+          },
+          {
+            "bucket": "danach",
+            "text": "im Fundbüro nachfragen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Sofort tun, bei der Polizei oder danach?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "sperren lassen"
+          },
+          {
+            "key": "2",
+            "text": "die SIM-Karte"
+          },
+          {
+            "key": "3",
+            "text": "die Anzeige erstatten"
+          },
+          {
+            "key": "4",
+            "text": "die Verlustanzeige"
+          },
+          {
+            "key": "5",
+            "text": "die IMEI-Nummer"
+          },
+          {
+            "key": "6",
+            "text": "das Fundbüro"
+          },
+          {
+            "key": "7",
+            "text": "die Handyversicherung"
+          },
+          {
+            "key": "8",
+            "text": "der Diebstahl"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "das Handy für andere unbenutzbar machen lassen"
+          },
+          {
+            "key": "b",
+            "text": "die Karte mit der Telefonnummer"
+          },
+          {
+            "key": "c",
+            "text": "einen Vorfall offiziell bei der Polizei melden"
+          },
+          {
+            "key": "d",
+            "text": "die schriftliche Meldung eines verlorenen Gegenstands"
+          },
+          {
+            "key": "e",
+            "text": "die eindeutige Seriennummer eines Handys"
+          },
+          {
+            "key": "f",
+            "text": "die Stelle, bei der gefundene Gegenstände abgegeben werden"
+          },
+          {
+            "key": "g",
+            "text": "die Versicherung gegen Verlust oder Diebstahl"
+          },
+          {
+            "key": "h",
+            "text": "wenn etwas gestohlen wurde, im Gegensatz zu verloren"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Muss"
+          ],
+          "5": [
+            "wird"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Soll"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} mein Handy sofort sperren lassen. (Modalverb, ich-Form)\n2. {2} Sie mir bei der Anzeige helfen? (können, Sie-Form)\n3. Ich {3} schon die SIM-Karte gesperrt. (haben, Perfekt)\n4. {4} ich die IMEI-Nummer angeben? (müssen, ich-Form)\n5. Falls das Handy gestohlen {5}, brauche ich eine Anzeige für die Versicherung. (werden, Präsens Passiv)\n6. Die Polizei {6} mir eine Kopie der Anzeige geben. (werden, Futur I)\n7. Wir {7} schon die Versicherung informiert. (haben, Perfekt)\n8. {8} ich das Handy auch beim Fundbüro melden? (sollen, ich-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Die Sperrung planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "sperren"
+          ],
+          "2": [
+            "SIM-Karte"
+          ],
+          "3": [
+            "erstatte"
+          ],
+          "4": [
+            "IMEI-Nummer"
+          ],
+          "5": [
+            "Fundbüro"
+          ],
+          "6": [
+            "Handyversicherung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Zuerst lasse ich mein Handy beim Anbieter {1}. (unbenutzbar machen, Infinitiv)\n2. Ohne {2} kann niemand mit meiner Nummer telefonieren. (die Karte mit der Telefonnummer)\n3. Bei der Polizei {3} ich eine Anzeige. (einen Vorfall offiziell melden, ich-Form)\n4. Für die Anzeige brauche ich die {4} meines Handys. (die eindeutige Seriennummer)\n5. Vielleicht wurde das Handy ja gefunden — ich frage im {5} nach. (die Stelle für gefundene Gegenstände)\n6. Zum Glück habe ich eine {6} abgeschlossen. (die Versicherung gegen Verlust oder Diebstahl)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "SPERREN"
+          ],
+          "2": [
+            "SIMKARTE"
+          ],
+          "3": [
+            "ANZEIGE"
+          ],
+          "4": [
+            "VERLUSTANZEIGE"
+          ],
+          "5": [
+            "IMEI"
+          ],
+          "6": [
+            "GERUTSCHT"
+          ],
+          "7": [
+            "DIEBSTAHL"
+          ],
+          "8": [
+            "HANDYVERSICHERUNG"
+          ],
+          "9": [
+            "STELLE"
+          ],
+          "10": [
+            "AUS"
+          ]
+        },
+        "bank": [
+          "SPERREN",
+          "SIMKARTE",
+          "ANZEIGE",
+          "VERLUSTANZEIGE",
+          "IMEI",
+          "GERUTSCHT",
+          "DIEBSTAHL",
+          "HANDYVERSICHERUNG",
+          "STELLE",
+          "AUS",
+          "FUNDBÜRO",
+          "GARANTIE",
+          "RECHNUNG",
+          "PASSWORT"
+        ],
+        "text": "— Guten Tag, ich habe mein Handy verloren und möchte es sofort\n{1} lassen.\n— Kein Problem, ich blockiere gleich Ihre {2}. Haben Sie die\nRufnummer zur Hand?\n— Ja, hier ist sie. Und was mache ich jetzt wegen des Handys\nselbst?\n— Am besten erstatten Sie eine {3} bei der Polizei, das\nbrauchen Sie auch für die Versicherung.\n(bei der Polizei)\n— Guten Tag, ich möchte eine {4} für mein verlorenes Handy\nmachen.\n— Kein Problem, haben Sie die {5} zur Hand?\n— Ja, die steht zum Glück noch auf der Verpackung.\n— Gut, dann schreibe ich das gleich auf. Wo genau haben Sie\nes zuletzt gesehen?\n— Im Bus, ich glaube, es ist mir aus der Tasche {6}.\n— Verstehe, ich notiere das als Verlust, nicht als {7}.\n— Bekomme ich eine Kopie für die {8}?\n— Natürlich, die {9} ich Ihnen gleich {10}.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Beim Anbieter und bei der Polizei"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Handys interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich möchte mein Handy sofort sperren lassen."
+              },
+              {
+                "key": "c",
+                "text": "Ich warte einfach ab, ob es sich meldet."
+              }
+            ],
+            "q": "Du möchtest dein verlorenes Handy sofort sperren lassen. — You want your lost phone blocked immediately.",
+            "why": "Ein schnelles Sperren verhindert Missbrauch durch andere."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Anzeigen sind mir zu kompliziert."
+              },
+              {
+                "key": "b",
+                "text": "Ich mache mir da keine Gedanken."
+              },
+              {
+                "key": "c",
+                "text": "Ich möchte eine Verlustanzeige für mein Handy machen."
+              }
+            ],
+            "q": "Du möchtest bei der Polizei eine Anzeige für dein verlorenes Handy machen. — You want to file a report with the police for your lost phone.",
+            "why": "Eine klare Aussage ist der übliche Einstieg bei der Polizei."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die IMEI-Nummer steht zum Glück noch auf der Verpackung."
+              },
+              {
+                "key": "b",
+                "text": "Nummern interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Ich habe keine Ahnung, was das ist."
+              }
+            ],
+            "q": "Die Polizei fragt nach der IMEI-Nummer. — The police ask for the IMEI number.",
+            "why": "Die Verpackung ist oft die einfachste Quelle für die IMEI-Nummer."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich beschuldige einfach jemanden, ohne sicher zu sein."
+              },
+              {
+                "key": "b",
+                "text": "Ich glaube, es ist mir einfach aus der Tasche gerutscht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal, Hauptsache neues Handy."
+              }
+            ],
+            "q": "Du möchtest wissen, ob es sich um einen Diebstahl oder einen Verlust handelt. — You want to know whether it's theft or simply loss.",
+            "why": "Eine ehrliche Einschätzung hilft der Polizei, den richtigen Vorfall zu erfassen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kopien interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Versicherungen brauche ich sowieso nicht."
+              },
+              {
+                "key": "c",
+                "text": "Bekomme ich eine Kopie für meine Handyversicherung?"
+              }
+            ],
+            "q": "Du möchtest eine Kopie der Anzeige für die Versicherung. — You want a copy of the report for the insurance.",
+            "why": "Eine direkte Frage stellt sicher, dass man die Kopie für die Versicherung bekommt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Könnte mein Handy vielleicht im Fundbüro abgegeben worden sein?"
+              },
+              {
+                "key": "b",
+                "text": "Fundbüros interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Ich gebe die Suche direkt auf."
+              }
+            ],
+            "q": "Du möchtest wissen, ob dein Handy vielleicht im Fundbüro abgegeben wurde. — You want to know whether your phone might have been turned in at the lost and found.",
+            "why": "Eine Nachfrage beim Fundbüro lohnt sich oft und ist einen Versuch wert."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Sperren und Anzeigen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Aussage, lassen-Konstruktion",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "mein",
+              "Handy",
+              "sofort",
+              "sperren",
+              "lassen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "höfliche Aussage, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "eine",
+              "Verlustanzeige",
+              "für",
+              "mein",
+              "Handy",
+              "machen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Ja/Nein-Frage mit haben",
+            "tiles": [
+              "Haben",
+              "Sie",
+              "die",
+              "IMEI-Nummer",
+              "zur",
+              "Hand",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Nebensatz im Passiv, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "das",
+              "Handy",
+              "gestohlen",
+              "wird",
+              ",",
+              "brauche",
+              "ich",
+              "eine",
+              "Anzeige"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Ja/Nein-Frage, Verb an Position 1",
+            "tiles": [
+              "Bekomme",
+              "ich",
+              "eine",
+              "Kopie",
+              "für",
+              "die",
+              "Versicherung",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Wir",
+              "haben",
+              "schon",
+              "die",
+              "Versicherung",
+              "informiert"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zum verlorenen Handy bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "SIM-Karte und Handy sollten innerhalb weniger Minuten gesperrt werden. — The SIM card and phone should be blocked within a few minutes.",
+            "why": "So steht es ausdrücklich in den Infos zum verlorenen Handy."
+          },
+          {
+            "answer": false,
+            "q": "Bei einfachem Verlust ist eine Anzeige grundsätzlich völlig sinnlos. — For a simple loss, filing a report is completely pointless.",
+            "why": "Sie wird empfohlen, zum Beispiel für die Versicherung, nicht als sinnlos eingestuft."
+          },
+          {
+            "answer": true,
+            "q": "Die IMEI-Nummer steht oft auf der Originalverpackung oder im Kaufbeleg. — The IMEI number is often on the original packaging or the receipt.",
+            "why": "„IMEI-Nummer: steht oft auf der Originalverpackung oder im Kaufbeleg.“"
+          },
+          {
+            "answer": false,
+            "q": "Beim Fundbüro nachzufragen lohnt sich nie. — Asking at the lost and found is never worthwhile.",
+            "why": "Es lohnt sich, da viele Handys dort abgegeben werden."
+          },
+          {
+            "answer": true,
+            "q": "Eine Handyversicherung übernimmt oft nur bei Diebstahl, nicht immer bei einfachem Verlust. — Phone insurance often only covers theft, not always simple loss.",
+            "why": "„Handyversicherung: übernimmt oft nur bei Diebstahl, nicht immer bei einfachem Verlust.“"
+          },
+          {
+            "answer": false,
+            "q": "Es gibt grundsätzlich keine Möglichkeit, Daten auf einem verlorenen Handy aus der Ferne zu löschen. — There's no way at all to remotely erase data on a lost phone.",
+            "why": "Viele Anbieter bieten eine Fernlöschfunktion an."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Handy verloren**\n>\n> - **Sofortmaßnahme:** SIM-Karte und Handy **innerhalb\n>   weniger Minuten** sperren lassen.\n> - **Anzeige:** bei Diebstahl **immer**, bei einfachem\n>   Verlust **empfohlen**, z. B. für die Versicherung.\n> - **IMEI-Nummer:** steht oft auf der **Originalverpackung**\n>   oder im Kaufbeleg.\n> - **Fundbüro:** lohnt sich nachzufragen, **viele Handys\n>   werden abgegeben**.\n> - **Handyversicherung:** übernimmt oft nur bei\n>   **Diebstahl**, nicht immer bei einfachem Verlust.\n> - **Daten:** viele Anbieter bieten eine\n>   **Fernlöschfunktion** für sensible Daten.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zum verlorenen Handy lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach gar nichts der Polizei sagen."
+              },
+              {
+                "key": "b",
+                "text": "Den vermutlichen Tagesablauf rekonstruieren und der Polizei möglichst genau schildern."
+              },
+              {
+                "key": "c",
+                "text": "Irgendeinen Ort raten, nur damit man etwas sagt."
+              }
+            ],
+            "q": "Man erinnert sich nicht mehr genau, wo das Handy verloren ging. — You can't quite remember where the phone was lost.",
+            "why": "Ein rekonstruierter Tagesablauf hilft der Polizei am meisten weiter."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Erstattung einfach aufgeben."
+              },
+              {
+                "key": "b",
+                "text": "Sich bei der Versicherung beschweren, ohne etwas nachzureichen."
+              },
+              {
+                "key": "c",
+                "text": "Schnellstmöglich die Anzeige nachreichen."
+              }
+            ],
+            "q": "Die Handyversicherung verlangt eine polizeiliche Anzeige, die man noch nicht hat. — The phone insurance requires a police report you don't have yet.",
+            "why": "Die fehlende Anzeige schnell nachzureichen ist der direkteste Weg zur Erstattung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort die Fernlöschfunktion nutzen, falls vorhanden."
+              },
+              {
+                "key": "b",
+                "text": "Sich keine weiteren Gedanken machen."
+              },
+              {
+                "key": "c",
+                "text": "Erst tagelang abwarten, bevor man etwas unternimmt."
+              }
+            ],
+            "q": "Auf dem verlorenen Handy waren sensible Daten gespeichert. — Sensitive data was stored on the lost phone.",
+            "why": "Eine sofortige Fernlöschung schützt die sensiblen Daten am wirksamsten."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach abwarten, ohne nachzufragen."
+              },
+              {
+                "key": "b",
+                "text": "Höflich, aber bestimmt auf einer schnellen Sperrung bestehen."
+              },
+              {
+                "key": "c",
+                "text": "Den Anbieter komplett wechseln, ohne nachzufragen."
+              }
+            ],
+            "q": "Der Anbieter sperrt die SIM-Karte nicht sofort. — The provider doesn't block the SIM card right away.",
+            "why": "Ein bestimmtes Nachfragen beschleunigt die dringend nötige Sperrung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Anzeige einfach bestehen lassen, ohne etwas zu sagen."
+              },
+              {
+                "key": "b",
+                "text": "Das gefundene Handy einfach weiter benutzen, ohne etwas zu klären."
+              },
+              {
+                "key": "c",
+                "text": "Die Anzeige bei der Polizei zurückziehen und die Sperrung aufheben lassen."
+              }
+            ],
+            "q": "Man findet das Handy Tage später doch noch wieder. — You find the phone again a few days later.",
+            "why": "Anzeige und Sperrung sollten aufgehoben werden, sobald das Handy wieder da ist."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Sachverhalt schriftlich schildern und Widerspruch einlegen."
+              },
+              {
+                "key": "b",
+                "text": "Die Ablehnung einfach akzeptieren."
+              },
+              {
+                "key": "c",
+                "text": "Sich nur mündlich beschweren, ohne etwas zu schreiben."
+              }
+            ],
+            "q": "Die Versicherung lehnt die Erstattung ab, weil angeblich Fahrlässigkeit vorlag. — The insurance refuses reimbursement, claiming negligence.",
+            "why": "Ein schriftlicher Widerspruch mit genauer Schilderung ist der wirksamste Weg zur Klärung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn beim verlorenen Handy etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "erinnert"
+          ],
+          "2": [
+            "bekommen"
+          ],
+          "3": [
+            "genutzt"
+          ],
+          "4": [
+            "gesperrt"
+          ],
+          "5": [
+            "gefunden"
+          ],
+          "6": [
+            "abgelehnt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe mich nicht mehr genau {1}, wo das Handy verloren ging. (Partizip reflexiv)\n2. Die Versicherung hat die Anzeige noch nicht {2}. (Partizip)\n3. Wir haben sofort die Fernlöschfunktion {3}. (Partizip)\n4. Der Anbieter hat die SIM-Karte nicht sofort {4}. (Partizip)\n5. Ich habe das Handy Tage später doch noch {5}. (Partizip)\n6. Die Versicherung hat die Erstattung {6}. (Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Könnten"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "sperren"
+          ],
+          "5": [
+            "SIM-Karte"
+          ],
+          "6": [
+            "Anzeige"
+          ],
+          "7": [
+            "IMEI-Nummer"
+          ],
+          "8": [
+            "Fundbüro"
+          ],
+          "9": [
+            "Handyversicherung"
+          ],
+          "10": [
+            "erinnert"
+          ],
+          "11": [
+            "bekommen"
+          ],
+          "12": [
+            "genutzt"
+          ],
+          "13": [
+            "gesperrt"
+          ],
+          "14": [
+            "abgelehnt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} mein Handy sofort sperren lassen. (must)\n2. {2} Sie mir bei der Anzeige helfen? (could — können)\n3. Ich {3} schon die SIM-Karte gesperrt. (have — Perfekt)\n4. Zuerst lasse ich mein Handy beim Anbieter {4}. (block — Infinitiv)\n5. Ohne {5} kann niemand mit meiner Nummer telefonieren. (SIM card)\n6. Bei der Polizei erstatte ich eine {6}. (report)\n7. Für die Anzeige brauche ich die {7} meines Handys. (serial number)\n8. Ich frage im {8} nach. (lost and found)\n9. Zum Glück habe ich eine {9} abgeschlossen. (phone insurance)\n10. Ich habe mich nicht mehr genau {10}, wo es verloren ging. (remembered — Partizip)\n11. Die Versicherung hat die Anzeige noch nicht {11}. (received — Partizip)\n12. Wir haben sofort die Fernlöschfunktion {12}. (used — Partizip)\n13. Der Anbieter hat die SIM-Karte nicht sofort {13}. (blocked — Partizip)\n14. Die Versicherung hat die Erstattung {14}. (rejected — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-75-handy-verloren-a2",
+  "intro": "Ist das Handy erst mal weg, zählt jede Minute: die SIM-Karte sperren lassen, bei der Polizei eine Verlustanzeige machen und die IMEI-Nummer bereithalten. Dieses Set übt genau das — das Handy sofort sperren lassen, den Vorfall bei der Polizei schildern, und was zu tun ist, wenn die Versicherung noch eine Anzeige verlangt oder das Handy Tage später doch wieder auftaucht. Grammatik nach Bedarf: Perfekt im Bericht, höfliche Fragen, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/75-handy-verloren-a2",
+  "level": "A2",
+  "summary": "Das Handy sperren lassen, bei der Polizei eine Verlustanzeige machen, die IMEI-Nummer angeben — und was tun, wenn die Versicherung eine Anzeige verlangt oder das Handy doch wieder auftaucht.",
+  "title": "Handy verloren: Anzeige bei der Polizei — A2",
+  "topic": "Handy verloren: Anzeige bei der Polizei"
+}

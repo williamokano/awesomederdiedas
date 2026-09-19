@@ -1,0 +1,1695 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "an"
+          ],
+          "2": [
+            "auf"
+          ],
+          "3": [
+            "für"
+          ],
+          "4": [
+            "über"
+          ],
+          "5": [
+            "um"
+          ],
+          "6": [
+            "von"
+          ],
+          "7": [
+            "vor"
+          ],
+          "8": [
+            "mit"
+          ],
+          "9": [
+            "zu"
+          ],
+          "10": [
+            "für"
+          ]
+        },
+        "text": "1. Ich denke oft {1} meinen Urlaub.\n2. Sie wartet schon lange {2} eine Antwort.\n3. Er interessiert sich sehr {3} Fotografie.\n4. Wir sprechen gerade {4} das neue Projekt.\n5. Ich kümmere mich {5} die Reservierung.\n6. Sie träumt {6} einer langen Reise.\n7. Ich fürchte mich {7} Prüfungen.\n8. Er beschäftigt sich den ganzen Tag {8} dem Bericht.\n9. Die Maßnahme trägt {9} einer besseren Kommunikation bei.\n10. Anna bedankt sich herzlich {10} die Einladung.\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Fill in the correct preposition. Choose from: an, auf, für, mit, über, um, von, vor, zu. 10 items.",
+      "title": "Verben mit Präpositionen — richtige Präposition wählen",
+      "track": "praepositionen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "den"
+          ],
+          "2": [
+            "eine"
+          ],
+          "3": [
+            "einer"
+          ],
+          "4": [
+            "das"
+          ],
+          "5": [
+            "dem"
+          ],
+          "6": [
+            "dem"
+          ],
+          "7": [
+            "das"
+          ],
+          "8": [
+            "der"
+          ]
+        },
+        "text": "1. Ich denke an ___ Film (m). → Ich denke an {1} Film.\n2. Sie wartet auf ___ Antwort (f). → Sie wartet auf {2} Antwort.\n3. Er träumt von ___ Reise (f). → Er träumt von {3} Reise.\n4. Wir sprechen über ___ Problem (n). → Wir sprechen über {4} Problem.\n5. Sie fürchtet sich vor ___ Hund (m). → Sie fürchtet sich vor {5} Hund.\n6. Ich beschäftige mich mit ___ Projekt (n). → Ich beschäftige mich mit {6} Projekt.\n7. Er kümmert sich um ___ Kind (n). → Er kümmert sich um {7} Kind.\n8. Das gehört zu ___ Konferenz (f). → Das gehört zu {8} Konferenz.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Fill in the correct article (definite or indefinite) after the preposition. Watch the case! 8 items.",
+      "title": "Kasus nach Präposition — Artikel ergänzen",
+      "track": "praepositionen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "an",
+            "label": "an (+ Akk.)"
+          },
+          {
+            "key": "auf",
+            "label": "auf (+ Akk.)"
+          },
+          {
+            "key": "ueber",
+            "label": "über (+ Akk.)"
+          },
+          {
+            "key": "von",
+            "label": "von (+ Dat.)"
+          },
+          {
+            "key": "fuer",
+            "label": "für (+ Akk.)"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "an",
+            "text": "denken"
+          },
+          {
+            "bucket": "an",
+            "text": "sich erinnern"
+          },
+          {
+            "bucket": "auf",
+            "text": "warten"
+          },
+          {
+            "bucket": "auf",
+            "text": "sich verlassen"
+          },
+          {
+            "bucket": "auf",
+            "text": "reagieren"
+          },
+          {
+            "bucket": "auf",
+            "text": "sich freuen (Zukunft)"
+          },
+          {
+            "bucket": "ueber",
+            "text": "sprechen"
+          },
+          {
+            "bucket": "ueber",
+            "text": "sich ärgern"
+          },
+          {
+            "bucket": "ueber",
+            "text": "nachdenken"
+          },
+          {
+            "bucket": "von",
+            "text": "träumen"
+          },
+          {
+            "bucket": "von",
+            "text": "abhängen"
+          },
+          {
+            "bucket": "von",
+            "text": "überzeugt sein"
+          },
+          {
+            "bucket": "fuer",
+            "text": "sich interessieren"
+          },
+          {
+            "bucket": "fuer",
+            "text": "sich bedanken"
+          },
+          {
+            "bucket": "fuer",
+            "text": "sorgen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A3",
+      "instructions": "Sort each verb into the correct preposition category.",
+      "title": "Verben sortieren — welche Präposition?",
+      "track": "praepositionen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "daran"
+          ],
+          "2": [
+            "darauf"
+          ],
+          "3": [
+            "darüber"
+          ],
+          "4": [
+            "dafür"
+          ],
+          "5": [
+            "damit"
+          ],
+          "6": [
+            "davon"
+          ],
+          "7": [
+            "davor"
+          ],
+          "8": [
+            "darum"
+          ],
+          "9": [
+            "dazu"
+          ],
+          "10": [
+            "darüber"
+          ]
+        },
+        "text": "1. Ich denke an den Film. → Ich denke {1}.\n2. Ich warte auf die Antwort. → Ich warte {2}.\n3. Ich freue mich über das Geschenk. → Ich freue mich {3}.\n4. Ich interessiere mich für das Thema. → Ich interessiere mich {4}.\n5. Ich beschäftige mich mit dem Problem. → Ich beschäftige mich {5}.\n6. Ich träume von einer Reise. → Ich träume {6}.\n7. Ich warne dich vor dem Risiko. → Ich warne dich {7}.\n8. Ich kümmere mich um die Aufgabe. → Ich kümmere mich {8}.\n9. Das gehört zum Konzept. → Das gehört {9}.\n10. Sie ärgert sich über das Ergebnis. → Sie ärgert sich {10}.\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Replace the underlined phrase with the correct Pronominaladverb. 10 items.",
+      "title": "Pronominaladverb bilden: `da(r)- + Präposition`",
+      "track": "praepositionen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Woran"
+          ],
+          "2": [
+            "Worauf"
+          ],
+          "3": [
+            "Worüber"
+          ],
+          "4": [
+            "Wovon"
+          ],
+          "5": [
+            "Wofür"
+          ],
+          "6": [
+            "Worum"
+          ],
+          "7": [
+            "Wovor"
+          ],
+          "8": [
+            "Womit"
+          ]
+        },
+        "text": "1. Ich denke an den Urlaub. → {1} denkst du?\n2. Ich warte auf den Bus. → {2} wartest du?\n3. Ich spreche über das Problem. → {3} sprichst du?\n4. Ich träume von einer Reise. → {4} träumst du?\n5. Er interessiert sich für Kunst. → {5} interessiert er sich?\n6. Sie kümmert sich um das Kind. → {6} kümmert sie sich?\n7. Er fürchtet sich vor der Prüfung. → {7} fürchtet er sich?\n8. Ich beschäftige mich mit dem Bericht. → {8} beschäftigst du dich?\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Form the correct `wo(r)-` question word for the underlined element. 8 items.",
+      "title": "`wo(r)- + Präposition` — Fragen bilden",
+      "track": "praepositionen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Ich denke daran, dass Pavel kommt. (Pavel = person → daran)",
+            "why": "Correct: 'daran' here is an anticipatory Korrelat before the dass-clause. The clause refers to an event/idea — not Pavel directly as a person."
+          },
+          {
+            "answer": true,
+            "q": "Ich denke daran, den Film zu sehen. (den Film = thing → daran)",
+            "why": "Den Film is a thing/idea — daran is correct."
+          },
+          {
+            "answer": true,
+            "q": "Auf wen wartest du? — Auf Pavel. (person → auf wen)",
+            "why": "Correct: for persons, use Präp + wen/wem, not wo(r)-."
+          },
+          {
+            "answer": false,
+            "q": "Worauf wartest du? — Auf Pavel.",
+            "why": "Pavel is a person, not a thing. Correct: Auf wen wartest du? → Auf Pavel."
+          },
+          {
+            "answer": true,
+            "q": "Sie ärgert sich darüber, dass es regnet. (es regnet = idea → darüber)",
+            "why": "Correct: dass-clause is an idea/concept — darüber as anticipatory Korrelat."
+          },
+          {
+            "answer": false,
+            "q": "Ich verlasse mich darauf ihn. (ihn = person)",
+            "why": "For persons: Ich verlasse mich auf ihn. Not 'darauf ihn' — darauf replaces the whole phrase."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "A6",
+      "instructions": "Is the pronoun/Pronominaladverb used correctly? Answer Richtig (R) oder Falsch (F).",
+      "title": "Person oder Sache? Richtig oder Falsch?",
+      "track": "praepositionen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "darüber"
+          ],
+          "2": [
+            "darüber"
+          ],
+          "3": [
+            "davon"
+          ],
+          "4": [
+            "darauf"
+          ],
+          "5": [
+            "davor"
+          ],
+          "6": [
+            "darauf"
+          ],
+          "7": [
+            "darüber"
+          ],
+          "8": [
+            "davon"
+          ]
+        },
+        "text": "1. Ich freue mich _____, dass du kommst. (sich freuen über)\n   → Ich freue mich {1}, dass du kommst.\n2. Ich ärgere mich _____, dass der Zug Verspätung hat. (sich ärgern über)\n   → Ich ärgere mich {2}, dass der Zug Verspätung hat.\n3. Ich bin _____ überzeugt, dass sie recht hat. (überzeugt sein von)\n   → Ich bin {3} überzeugt, dass sie recht hat.\n4. Es kommt _____ an, dass man pünktlich ist. (ankommen auf)\n   → Es kommt {4} an, dass man pünktlich ist.\n5. Ich warne dich _____, dass das gefährlich ist. (warnen vor)\n   → Ich warne dich {5}, dass das gefährlich ist.\n6. Er achtet _____, dass alle informiert sind. (achten auf)\n   → Er achtet {6}, dass alle informiert sind.\n7. Ich freue mich _____, dass Pavel den Kurs macht. (sich freuen über)\n   → Ich freue mich {7}, dass Pavel den Kurs macht.\n8. Es hängt _____ ab, wie viel Zeit wir haben. (abhängen von)\n   → Es hängt {8} ab, wie viel Zeit wir haben.\n",
+        "type": "gap-text"
+      },
+      "id": "A7",
+      "instructions": "Fill in the correct Pronominaladverb before the dass-clause. 8 items.",
+      "title": "Anticipatory `da(r)-` + `dass`-Satz",
+      "track": "praepositionen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "darauf"
+          ],
+          "2": [
+            "davor"
+          ],
+          "3": [
+            "darauf"
+          ],
+          "4": [
+            "darauf"
+          ],
+          "5": [
+            "darauf"
+          ],
+          "6": [
+            "davon"
+          ]
+        },
+        "text": "1. Ich freue mich _____, dich wiederzusehen. (sich freuen auf)\n   → Ich freue mich {1}, dich wiederzusehen.\n2. Ich warne dich _____, das allein zu machen. (warnen vor)\n   → Ich warne dich {2}, das allein zu machen.\n3. Er achtet _____, pünktlich zu sein. (achten auf)\n   → Er achtet {3}, pünktlich zu sein.\n4. Ich verlasse mich _____, rechtzeitig eine Antwort zu bekommen. (verlassen auf)\n   → Ich verlasse mich {4}, rechtzeitig eine Antwort zu bekommen.\n5. Sie freut sich _____, den Film zu sehen. (sich freuen auf)\n   → Sie freut sich {5}, den Film zu sehen.\n6. Er träumt _____, sein eigenes Unternehmen zu gründen. (träumen von)\n   → Er träumt {6}, sein eigenes Unternehmen zu gründen.\n",
+        "type": "gap-text"
+      },
+      "id": "A8",
+      "instructions": "Fill in the correct Pronominaladverb before the zu-Infinitive phrase. 6 items.",
+      "title": "Anticipatory `da(r)-` + `zu`-Infinitiv",
+      "track": "praepositionen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "sich bewerben"
+          },
+          {
+            "key": "2",
+            "text": "sich beschäftigen"
+          },
+          {
+            "key": "3",
+            "text": "abhängen"
+          },
+          {
+            "key": "4",
+            "text": "sich fürchten"
+          },
+          {
+            "key": "5",
+            "text": "beitragen"
+          },
+          {
+            "key": "6",
+            "text": "sich bedanken"
+          },
+          {
+            "key": "7",
+            "text": "reagieren"
+          },
+          {
+            "key": "8",
+            "text": "nachdenken"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "für / um"
+          },
+          {
+            "key": "b",
+            "text": "mit"
+          },
+          {
+            "key": "c",
+            "text": "von"
+          },
+          {
+            "key": "d",
+            "text": "vor"
+          },
+          {
+            "key": "e",
+            "text": "zu"
+          },
+          {
+            "key": "f",
+            "text": "für"
+          },
+          {
+            "key": "g",
+            "text": "auf"
+          },
+          {
+            "key": "h",
+            "text": "über"
+          },
+          {
+            "key": "i",
+            "text": "an"
+          },
+          {
+            "key": "j",
+            "text": "in"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A9",
+      "instructions": "Match each verb (1–8) with its fixed preposition (a–j). Two right-side options are not needed.",
+      "title": "Verb + Präposition kombinieren",
+      "track": "praepositionen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Ich freue mich darauf, den Film zu sehen.",
+            "tiles": [
+              "Ich",
+              "freue",
+              "mich",
+              "darauf",
+              ",",
+              "den",
+              "Film",
+              "zu",
+              "sehen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Es kommt darauf an, dass du pünktlich bist.",
+            "tiles": [
+              "Es",
+              "kommt",
+              "darauf",
+              "an",
+              ",",
+              "dass",
+              "du",
+              "pünktlich",
+              "bist"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Ich bin davon überzeugt, dass sie recht hat.",
+            "tiles": [
+              "Ich",
+              "bin",
+              "davon",
+              "überzeugt",
+              ",",
+              "dass",
+              "sie",
+              "recht",
+              "hat"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Worüber ärgerst du dich? (wo(r)-: thing/idea)",
+            "tiles": [
+              "Worüber",
+              "ärgerst",
+              "du",
+              "dich",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Woran denkst du gerade?",
+            "tiles": [
+              "Woran",
+              "denkst",
+              "du",
+              "gerade",
+              "?"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A10",
+      "instructions": "Put the words in the correct order.",
+      "title": "Satzbau: Satz mit Pronominaladverb richtig ordnen",
+      "track": "praepositionen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "darauf"
+          ],
+          "2": [
+            "darüber"
+          ],
+          "3": [
+            "darauf"
+          ],
+          "4": [
+            "darüber"
+          ],
+          "5": [
+            "darauf"
+          ],
+          "6": [
+            "darüber"
+          ]
+        },
+        "text": "1. Das Konzert ist morgen — ich freue mich _____! (future event)\n   → Ich freue mich {1}!\n2. Pavel hat mir einen Kaffee gemacht — ich freue mich _____. (already happened)\n   → Ich freue mich {2}.\n3. Tomáš kommt nächste Woche — ich freue mich _____. (future)\n   → Ich freue mich {3}.\n4. Der Film war gut — wir haben uns alle _____ gefreut. (past event)\n   → Wir haben uns alle {4} gefreut.\n5. Das Wochenende kommt — ich freue mich _____. (future)\n   → Ich freue mich {5}.\n6. Mia hat uns zum Essen eingeladen — wir freuen uns _____. (invitation received)\n   → Wir freuen uns {6}.\n",
+        "type": "gap-text"
+      },
+      "id": "A11",
+      "instructions": "Choose `darauf` or `darüber` and the correct preposition. 6 items.",
+      "title": "`sich freuen auf` vs. `sich freuen über` — richtig wählen",
+      "track": "praepositionen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "darüber"
+          ],
+          "2": [
+            "daran"
+          ],
+          "3": [
+            "darüber"
+          ],
+          "4": [
+            "darauf"
+          ],
+          "5": [
+            "Worüber"
+          ],
+          "6": [
+            "darüber"
+          ],
+          "7": [
+            "darauf"
+          ],
+          "8": [
+            "davon"
+          ]
+        },
+        "text": "Mia: Ich habe mich sehr {1} gefreut, diesen Film mit euch zu sehen. (über)\nTomáš: Ich auch! Ich denke schon die ganze Zeit {2}. (an den Film)\nPavel: Ich ärgere mich noch immer {3}, dass das Ende so offen war. (über)\nMia: Ich verstehe das. Aber ich finde, genau {4} kommt es an. (auf das offene Ende)\nTomáš: {5} redest du genau?\nMia: Ich meine, {6}, dass der Zuschauer selbst entscheidet.\nPavel: Ich verlasse mich immer {7}, dass es eine Erklärung gibt. (auf)\nTomáš: Ich träume {8}, einen Film wie diesen selbst zu drehen. (von)\n",
+        "type": "gap-text"
+      },
+      "id": "B1",
+      "instructions": "Fill in the correct Pronominaladverb. Context: Mia, Pavel und Tomáš nach dem Film. 8 items.",
+      "title": "Pronominaladverbien im Dialog — Gespräch über den Film",
+      "track": "praepositionen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Auf wen"
+              },
+              {
+                "key": "b",
+                "text": "Worauf"
+              },
+              {
+                "key": "c",
+                "text": "Auf was"
+              }
+            ],
+            "q": "_____ wartest du? — Auf meinen Bruder.",
+            "why": "Person (Bruder) → Auf wen? Not worauf (things only)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Auf wen"
+              },
+              {
+                "key": "b",
+                "text": "Worauf"
+              },
+              {
+                "key": "c",
+                "text": "Was"
+              }
+            ],
+            "q": "_____ wartest du? — Auf den nächsten Zug.",
+            "why": "Thing (Zug) → Worauf? Not auf wen (persons only)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "daran"
+              },
+              {
+                "key": "b",
+                "text": "daran sie"
+              },
+              {
+                "key": "c",
+                "text": "an sie"
+              }
+            ],
+            "q": "Ich denke an meine Mutter. → Ich denke _____.",
+            "why": "Person (Mutter) → Präp + Pronomen: an sie. Daran is for things."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "daran"
+              },
+              {
+                "key": "b",
+                "text": "an ihn"
+              },
+              {
+                "key": "c",
+                "text": "an es"
+              }
+            ],
+            "q": "Ich denke an den Urlaub. → Ich denke _____.",
+            "why": "Thing (Urlaub) → Pronominaladverb: daran."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Womit"
+              },
+              {
+                "key": "b",
+                "text": "Mit wem"
+              },
+              {
+                "key": "c",
+                "text": "Worüber"
+              }
+            ],
+            "q": "_____ sprichst du? — Mit Frau Weber. (mit wem oder womit?)",
+            "why": "Frau Weber is a person → Mit wem? Womit = with what (thing)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Mit wem"
+              },
+              {
+                "key": "b",
+                "text": "Worum"
+              },
+              {
+                "key": "c",
+                "text": "Womit"
+              }
+            ],
+            "q": "_____ beschäftigst du dich? — Mit dem Bericht.",
+            "why": "Thing (Bericht) → Womit? Mit wem = with whom (person)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Choose the correct form (a, b, or c).",
+      "title": "Person oder Sache? Richtige Form wählen",
+      "track": "praepositionen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Ich denke an ihn."
+          ],
+          "2": [
+            "Auf wen wartest du?"
+          ],
+          "3": [
+            "Ich bin davon überzeugt, dass Pavel recht hat."
+          ],
+          "4": [
+            "Ich freue mich über das Konzert gestern."
+          ],
+          "5": [
+            "Mit wem redest du?"
+          ],
+          "6": [
+            "Es hängt davon ab, wie viel Zeit wir haben."
+          ]
+        },
+        "text": "1. Ich denke daran ihm. (ihm = eine Person!)\n   Korrektur: {1}\n2. Worauf wartest du? — Auf Mia.\n   Korrektur: {2}\n3. Ich bin davon überzeugt, Pavel recht hat.\n   Korrektur: {3}\n4. Ich freue mich auf das Konzert gestern. (gestern = Vergangenheit!)\n   Korrektur: {4}\n5. Womit redest du? — Mit Anna.\n   Korrektur: {5}\n6. Es hängt darauf ab, wie viel Zeit wir haben. (abhängen von)\n   Korrektur: {6}\n",
+        "type": "gap-text"
+      },
+      "id": "B3",
+      "instructions": "Each sentence contains exactly one error. Find it and write the corrected sentence. 6 items.",
+      "title": "Finde den Fehler — Pronominaladverbien",
+      "track": "praepositionen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Ich freue mich darauf, Tomáš wiederzusehen.",
+            "tiles": [
+              "Ich",
+              "freue",
+              "mich",
+              "darauf",
+              ",",
+              "Tomáš",
+              "wiederzusehen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Ich bin davon überzeugt, dass das Projekt klappt.",
+            "tiles": [
+              "Ich",
+              "bin",
+              "davon",
+              "überzeugt",
+              ",",
+              "dass",
+              "das",
+              "Projekt",
+              "klappt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Es kommt darauf an, gut zu kommunizieren.",
+            "tiles": [
+              "Es",
+              "kommt",
+              "darauf",
+              "an",
+              ",",
+              "gut",
+              "zu",
+              "kommunizieren"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Ich warne dich davor, das allein zu tun.",
+            "tiles": [
+              "Ich",
+              "warne",
+              "dich",
+              "davor",
+              ",",
+              "das",
+              "allein",
+              "zu",
+              "tun"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B4",
+      "instructions": "Put the words in the correct order.",
+      "title": "Satzbau: `da(r)-` + `dass`-Satz / `zu`-Infinitiv",
+      "track": "praepositionen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "darauf"
+          ],
+          "2": [
+            "darüber"
+          ],
+          "3": [
+            "daran"
+          ],
+          "4": [
+            "dafür"
+          ],
+          "5": [
+            "darauf"
+          ],
+          "6": [
+            "davon"
+          ]
+        },
+        "text": "1. Ich freue mich auf das Wochenende.\n   → Ich freue mich {1}.\n2. Er ärgert sich über das Ergebnis.\n   → Er ärgert sich {2}.\n3. Wir denken an die Konferenz.\n   → Wir denken {3}.\n4. Sie interessiert sich für das Angebot.\n   → Sie interessiert sich {4}.\n5. Ich verlasse mich auf die Struktur.\n   → Ich verlasse mich {5}.\n6. Er träumt von einem eigenen Café.\n   → Er träumt {6}.\n",
+        "type": "gap-text"
+      },
+      "id": "B5",
+      "instructions": "Replace the underlined prepositional phrase with the correct Pronominaladverb. Rewrite the full sentence. 6 items.",
+      "title": "Umformung: Satz mit Nomen → Satz mit Pronominaladverb",
+      "track": "praepositionen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Wofür"
+          ],
+          "2": [
+            "dafür"
+          ],
+          "3": [
+            "Worauf"
+          ],
+          "4": [
+            "darauf"
+          ],
+          "5": [
+            "Wovon"
+          ],
+          "6": [
+            "davon"
+          ],
+          "7": [
+            "wofür"
+          ],
+          "8": [
+            "dafür"
+          ]
+        },
+        "text": "Frau Weber: {1} interessieren Sie sich in Ihrer Arbeit am meisten?\nAnna: Ich interessiere mich {2}, Projekte zu koordinieren und Teams zu verbinden.\nFrau Weber: {3} verlassen Sie sich, wenn es Probleme gibt?\nAnna: Ich verlasse mich {4}, dass mein Team offen kommuniziert.\nFrau Weber: {5} hängt Ihrer Meinung nach der Projekterfolg ab?\nAnna: Er hängt vor allem {6} ab, wie gut alle zusammenarbeiten.\nFrau Weber: Und {7} sorgen Sie hauptsächlich in Ihrer jetzigen Stelle?\nAnna: Ich sorge {8}, dass die Deadlines eingehalten werden.\n",
+        "type": "gap-text"
+      },
+      "id": "B6",
+      "instructions": "Fill in the 8 blanks with the correct Pronominaladverb or wo(r)-form. Context: Anna's job interview.",
+      "title": "Dialog ergänzen: Interview-Sprache mit Pronominaladverbien",
+      "track": "praepositionen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "c",
+          "2": "e",
+          "3": "b",
+          "4": "f",
+          "5": "a",
+          "6": "d"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Worüber habt ihr gesprochen?"
+          },
+          {
+            "key": "2",
+            "text": "Woran denkst du?"
+          },
+          {
+            "key": "3",
+            "text": "Wofür interessiert sich Pavel?"
+          },
+          {
+            "key": "4",
+            "text": "Worauf verlässt du dich?"
+          },
+          {
+            "key": "5",
+            "text": "Wovon träumt Tomáš?"
+          },
+          {
+            "key": "6",
+            "text": "Wovor hat Anna Angst?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Davon, sein eigenes Unternehmen zu gründen."
+          },
+          {
+            "key": "b",
+            "text": "Dafür, Kaffeerösten zu lernen."
+          },
+          {
+            "key": "c",
+            "text": "Darüber, dass das Ende des Films offen war."
+          },
+          {
+            "key": "d",
+            "text": "Davor, einen Fehler zu machen."
+          },
+          {
+            "key": "e",
+            "text": "Daran, den nächsten Filmabend zu planen."
+          },
+          {
+            "key": "f",
+            "text": "Darauf, klare Strukturen zu haben."
+          },
+          {
+            "key": "g",
+            "text": "Damit, morgen früh aufzustehen."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B7",
+      "instructions": "Match each question (1–6) with the correct answer (a–g). One answer is not needed.",
+      "title": "Frage und Antwort verbinden",
+      "track": "praepositionen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "darüber"
+          ],
+          "2": [
+            "darum"
+          ],
+          "3": [
+            "davon"
+          ],
+          "4": [
+            "davor"
+          ],
+          "5": [
+            "davon"
+          ]
+        },
+        "text": "1. Worüber hat sich Anna in ihrem ersten Jahr gefreut?\n   → Sie hat sich {1} gefreut, dass ihr Team ihr vertraut hat.\n2. Worum kümmert sich Anna hauptsächlich?\n   → Sie kümmert sich {2}, dass alle Projektschritte dokumentiert sind.\n3. Wovon hängt laut Anna der Erfolg eines Projekts ab?\n   → Er hängt {3} ab, wie sehr sich die Menschen aufeinander verlassen können.\n4. Wovor warnt Anna andere Berufseinsteiger?\n   → Sie warnt {4}, sich zu sehr unter Druck zu setzen.\n5. Wovon ist Anna überzeugt?\n   → Sie ist {5} überzeugt, dass offene Lernkulturen den Unterschied machen.\n",
+        "type": "gap-text"
+      },
+      "id": "B8",
+      "instructions": "Answer each question with a full sentence using a Pronominaladverb. 5 items.",
+      "title": "Leseverstehen: Annas Interview (Lesetext §7)",
+      "track": "praepositionen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "worüber"
+          ],
+          "2": [
+            "darauf"
+          ],
+          "3": [
+            "darum"
+          ],
+          "4": [
+            "dafür"
+          ],
+          "5": [
+            "davon"
+          ],
+          "6": [
+            "darauf"
+          ],
+          "7": [
+            "davon"
+          ],
+          "8": [
+            "davor"
+          ],
+          "9": [
+            "dazu"
+          ],
+          "10": [
+            "für"
+          ]
+        },
+        "text": "Anna Kowalski arbeitet seit einem Jahr als Junior-Projektkoordinatorin in\nBerlin. Im Interview erklärt sie, {1} sie sich in ihrem ersten Jahr am\nmeisten gefreut hat: Ihr Team hat ihr vertraut — sie freut sich jeden Tag\n{2}, ins Büro zu kommen.\n\nSie kümmert sich {3}, dass alle Projektschritte dokumentiert sind, und sie\nsorgt {4}, dass die Kommunikation zwischen den Teams funktioniert. Der\nErfolg eines Projekts hängt {5} ab, wie sehr sich alle aufeinander verlassen\nkönnen.\n\nAnna achtet immer {6}, eine vertrauensvolle Atmosphäre zu schaffen. Sie ist\nfest {7} überzeugt, dass Transparenz entscheidend ist. Sie warnt andere\nBerufseinsteiger {8}, sich zu sehr unter Druck zu setzen, und rät {9}, Fragen\nzu stellen. Sie interessiert sich sehr {10} offene Lernkulturen in Unternehmen.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Fill each gap with one word. 10 gaps.",
+      "title": "Lückentext: Annas Interview",
+      "track": "praepositionen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "darüber,"
+              },
+              {
+                "key": "b",
+                "text": "darauf,"
+              },
+              {
+                "key": "c",
+                "text": "daran,"
+              }
+            ],
+            "q": "Ich freue mich ______ dich wiederzusehen.",
+            "why": "sich freuen auf (future event) → darauf. sich freuen über = glad about something past/present."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "davon"
+              },
+              {
+                "key": "b",
+                "text": "daran"
+              },
+              {
+                "key": "c",
+                "text": "darauf"
+              }
+            ],
+            "q": "Es kommt ______ an, dass alle mitmachen.",
+            "why": "ankommen auf → darauf. 'Es kommt darauf an' is a fixed phrase."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wofür"
+              },
+              {
+                "key": "b",
+                "text": "Worüber"
+              },
+              {
+                "key": "c",
+                "text": "Wovon"
+              }
+            ],
+            "q": "______ interessierst du dich? — Für Fotografie.",
+            "why": "sich interessieren für → wofür? (asking about thing)"
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "darauf"
+              },
+              {
+                "key": "b",
+                "text": "daran"
+              },
+              {
+                "key": "c",
+                "text": "davon"
+              }
+            ],
+            "q": "Ich bin ______ überzeugt, dass sie recht hat.",
+            "why": "überzeugt sein von → davon. 'von' starts with consonant: da + von = davon."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "darauf"
+              },
+              {
+                "key": "b",
+                "text": "darüber"
+              },
+              {
+                "key": "c",
+                "text": "dafür"
+              }
+            ],
+            "q": "Er ärgert sich ______, dass der Zug wieder Verspätung hat.",
+            "why": "sich ärgern über → darüber. 'über' starts with vowel: dar + über = darüber."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Woran"
+              },
+              {
+                "key": "b",
+                "text": "Worauf"
+              },
+              {
+                "key": "c",
+                "text": "Wofür"
+              }
+            ],
+            "q": "______ verlässt du dich? — Auf klare Absprachen.",
+            "why": "sich verlassen auf → worauf? (thing/idea, not person)"
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Choose the correct option (a, b, or c) for each gap.",
+      "title": "Sprachbausteine Teil 1",
+      "track": "praepositionen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "DAFÜR"
+          ],
+          "2": [
+            "FÜR"
+          ],
+          "3": [
+            "DASS"
+          ],
+          "4": [
+            "DARAUF"
+          ],
+          "5": [
+            "DAVON"
+          ],
+          "6": [
+            "DARAUF"
+          ],
+          "7": [
+            "DAVON"
+          ],
+          "8": [
+            "DARAUF"
+          ],
+          "9": [
+            "DAVOR"
+          ],
+          "10": [
+            "NICHT"
+          ]
+        },
+        "bank": [
+          "DAFÜR",
+          "FÜR",
+          "DASS",
+          "DARAUF",
+          "DAVON",
+          "DAVON",
+          "DARAUF",
+          "DAVOR",
+          "NICHT",
+          "DARAUF",
+          "OBWOHL",
+          "DAMIT",
+          "DESWEGEN",
+          "DARÜBER",
+          "WOFÜR"
+        ],
+        "text": "Anna hat sich {1} beworben, weil sie sich {2} Projektmanagement interessiert.\nIm Gespräch erklärt sie, {3} sie sich {4} verlassen kann, strukturiert zu\narbeiten. Der Projekterfolg hängt {5} ab, wie gut das Team kommuniziert.\nSie achtet immer {6}, dass Deadlines eingehalten werden. Sie ist {7}\nüberzeugt, dass Transparenz wichtig ist. Sie freut sich {8}, jeden Tag ins\nBüro zu kommen. Sie warnt Berufseinsteiger {9}, sich zu sehr unter Druck zu\nsetzen. Wer Fragen hat, sollte sich {10} scheuen, sie zu stellen.\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Fill the 10 gaps. Five words are not needed.",
+      "title": "Sprachbausteine Teil 2 (Wortbank)",
+      "track": "praepositionen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Anna arbeitet seit zwei Jahren als Projektkoordinatorin.",
+            "why": "The text says: \"seit einem Jahr als Junior-Projektkoordinatorin.\""
+          },
+          {
+            "answer": true,
+            "q": "Anna war zunächst davon überzeugt, dass die Sprache eine Hürde sein würde.",
+            "why": "\"Ich war zunächst davon überzeugt, dass die Sprache eine große Hürde sein würde.\""
+          },
+          {
+            "answer": true,
+            "q": "Anna sorgt dafür, dass die Kommunikation zwischen den Teams funktioniert.",
+            "why": "\"ich sorge dafür, dass die Kommunikation zwischen den Teams funktioniert.\""
+          },
+          {
+            "answer": false,
+            "q": "Anna rät, keine Fragen zu stellen, um nicht unwissend zu wirken.",
+            "why": "She says the opposite: \"rate ich dazu, Fragen zu stellen — auch wenn man Angst davor hat.\""
+          },
+          {
+            "answer": true,
+            "q": "Anna glaubt, dass offene Lernkulturen den Unterschied machen.",
+            "why": "\"ich bin davon überzeugt, dass sie den Unterschied machen.\""
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> **Gründerzeit:** Frau Kowalski, worüber haben Sie sich in Ihrem ersten Jahr am meisten gefreut?\n>\n> **Anna:** Ich habe mich darüber gefreut, dass mein Team mir von Anfang an vertraut hat. Ich komme aus Russland, und ich war zunächst davon überzeugt, dass die Sprache eine große Hürde sein würde. Aber es hat gut geklappt. Ich freue mich jeden Tag darauf, ins Büro zu kommen.\n>\n> **Gründerzeit:** Worum kümmern Sie sich hauptsächlich?\n>\n> **Anna:** Ich kümmere mich darum, dass alle Projektschritte klar dokumentiert sind. Außerdem sorge ich dafür, dass die Kommunikation zwischen den Teams funktioniert. Es kommt oft darauf an, schnell auf neue Anforderungen zu reagieren. Das finde ich spannend.\n>\n> **Gründerzeit:** Wovon hängt Ihrer Meinung nach der Erfolg eines Projekts ab?\n>\n> **Anna:** Er hängt davon ab, wie sehr sich die Menschen aufeinander verlassen können. Ich achte immer darauf, eine vertrauensvolle Atmosphäre zu schaffen. Ich glaube fest daran, dass Transparenz entscheidend ist.\n>\n> **Gründerzeit:** Was empfehlen Sie anderen Berufseinsteigern?\n>\n> **Anna:** Ich warne davor, sich zu sehr unter Druck zu setzen. Gleichzeitig rate ich dazu, Fragen zu stellen — auch wenn man Angst davor hat, unwissend zu wirken. Ich interessiere mich sehr für offene Lernkulturen in Unternehmen, und ich bin davon überzeugt, dass sie den Unterschied machen.\n\nRichtig (R) oder Falsch (F)?\n",
+      "title": "Leseverstehen: Annas Interview (Richtig / Falsch)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Darüber, die Stelle bekannt zu geben."
+              },
+              {
+                "key": "b",
+                "text": "Über eine neue Partnerschaft mit einer ausländischen Firma."
+              },
+              {
+                "key": "c",
+                "text": "Darüber, dass alle Stellen besetzt sind."
+              }
+            ],
+            "q": "Worüber freut sich TechStart Berlin?",
+            "why": "\"TechStart Berlin freut sich darüber, bekannt zu geben, dass …\""
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Aus der Leitung von Marketing-Kampagnen."
+              },
+              {
+                "key": "b",
+                "text": "Aus der Koordination von Teams in vier Ländern."
+              },
+              {
+                "key": "c",
+                "text": "Aus der Entwicklung neuer Software."
+              }
+            ],
+            "q": "Woraus besteht die neue Stelle hauptsächlich?",
+            "why": "\"Die Stelle besteht daraus, Teams in vier Ländern zu koordinieren.\""
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bis zum 1. Oktober."
+              },
+              {
+                "key": "b",
+                "text": "Bis zum 30. August."
+              },
+              {
+                "key": "c",
+                "text": "Bis zum 15. September."
+              }
+            ],
+            "q": "Bis wann kann man sich bewerben?",
+            "why": "\"können sich bis zum 15. September darum bewerben.\""
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Darauf, motivierte Persönlichkeiten zu finden."
+              },
+              {
+                "key": "b",
+                "text": "Darauf, dass alle Bewerberinnen Deutsch können."
+              },
+              {
+                "key": "c",
+                "text": "Darauf, dass die Stelle schnell besetzt wird."
+              }
+            ],
+            "q": "Worauf verlässt sich TechStart Berlin?",
+            "why": "\"Wir verlassen uns darauf, motivierte Persönlichkeiten zu finden.\""
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Read the text below. Choose the correct answer (a, b, or c).",
+      "title": "Leseverstehen: Pressemitteilung (neuer Text)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "an"
+          ],
+          "2": [
+            "auf"
+          ],
+          "3": [
+            "für"
+          ],
+          "4": [
+            "daran"
+          ],
+          "5": [
+            "darauf"
+          ],
+          "6": [
+            "Worauf"
+          ],
+          "7": [
+            "Auf wen"
+          ],
+          "8": [
+            "darauf"
+          ],
+          "9": [
+            "davon"
+          ],
+          "10": [
+            "darüber"
+          ],
+          "11": [
+            "Wovon"
+          ],
+          "12": [
+            "um"
+          ],
+          "13": [
+            "zu bestehen"
+          ],
+          "14": [
+            "über das"
+          ],
+          "15": [
+            "der"
+          ]
+        },
+        "text": "1. Ich denke oft ___ die Reise. → Ich denke oft {1} die Reise. (Präposition: an)\n2. Wir warten ___ eine Antwort. → Wir warten {2} eine Antwort. (Präposition: auf)\n3. Sie interessiert sich ___ das Thema. → Sie interessiert sich {3} das Thema. (Präposition: für)\n4. Ich denke ___ (the trip — Pronominaladverb). → Ich denke {4}.\n5. Ich freue mich ___ (the weekend — future, Pronominaladverb). → Ich freue mich {5}.\n6. ___ wartest du? — Auf den Bus. (wo(r)-form for thing) → {6} wartest du?\n7. ___ wartest du? — Auf Mia. (person form) → {7} wartest du?\n8. Es kommt ___ an, dass du pünktlich bist. (Pronominaladverb: auf) → Es kommt {8} an.\n9. Ich bin ___ überzeugt, dass sie recht hat. (Pronominaladverb: von) → Ich bin {9} überzeugt.\n10. Ich ärgere mich ___, dass der Film kein Ende hatte. (Pronominaladverb: über) → Ich ärgere mich {10}.\n11. ___ hängt der Erfolg ab? — Von der Kommunikation. (wo(r)-form) → {11} hängt der Erfolg ab?\n12. Ich kümmere mich ___ das Kind. → Ich kümmere mich {12} das Kind. (Präposition: um + Akk)\n13. (B1/06) Ich hoffe, die Prüfung {13}. (bestehen — Infinitiv mit zu)\n14. (B1/05) Das ist das Thema, ___ wir gesprochen haben. (Relativpronomen + Präp: über das) → {14}\n15. (B1/05) Die Kollegin, ___ ich vertraue, heißt Mia. (Relativpronomen Dat: der) → {15}\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Fill in the correct word or form. Items 13–15 review B1/06 (Infinitiv mit zu) and B1/05 (Relativsätze). 15 items.",
+      "title": "Schnelltest: Verben mit Präpositionen + Pronominaladverbien + Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "denken an",
+              "träumen von",
+              "warten auf",
+              "schlafen"
+            ],
+            "odd": 3,
+            "why": "schlafen is a simple verb with no fixed preposition. The others are all verbs with fixed prepositions."
+          },
+          {
+            "items": [
+              "daran",
+              "darüber",
+              "darauf",
+              "daher"
+            ],
+            "odd": 3,
+            "why": "daher means 'therefore / from there' — it is not a Pronominaladverb replacing a prepositional phrase."
+          },
+          {
+            "items": [
+              "worauf",
+              "womit",
+              "worüber",
+              "warum"
+            ],
+            "odd": 3,
+            "why": "warum means 'why' (reason question) — it is not a wo(r)- Pronominaladverb."
+          },
+          {
+            "items": [
+              "sich freuen auf",
+              "sich freuen über",
+              "sich ärgern über",
+              "sich freuen an"
+            ],
+            "odd": 3,
+            "why": "sich freuen an does not exist in standard German. The correct forms are auf (future) and über (past/present)."
+          },
+          {
+            "items": [
+              "sich kümmern um",
+              "abhängen von",
+              "bestehen auf",
+              "kommen auf"
+            ],
+            "odd": 3,
+            "why": "kommen auf is not a standard fixed-preposition verb in this set. bestehen auf (= insist on) is the correct form."
+          },
+          {
+            "items": [
+              "Ich denke daran.",
+              "Ich warte darauf.",
+              "Ich freue mich darüber.",
+              "Ich denke daran ihn."
+            ],
+            "odd": 3,
+            "why": "Pronominaladverbien replace the whole Präp + Pronomen — you never combine daran + ihn. For persons: Ich denke an ihn."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Circle the word or phrase that does not belong. 6 groups.",
+      "title": "Wortschatz-Check: Das passt nicht!",
+      "track": "praepositionen"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "der"
+          ],
+          "2": [
+            "des"
+          ],
+          "3": [
+            "des"
+          ],
+          "4": [
+            "des"
+          ],
+          "5": [
+            "der"
+          ],
+          "6": [
+            "anzukommen"
+          ],
+          "7": [
+            "zu sein"
+          ],
+          "8": [
+            "zu üben"
+          ],
+          "9": [
+            "aufzustehen"
+          ],
+          "10": [
+            "Ihnen"
+          ]
+        },
+        "text": "B1/07 — Genitiv:\n1. Das ist das Büro {1} Chefin. (die Chefin — Genitiv)\n2. Wegen {2} schlechten Wetters bleiben wir zu Hause. (das Wetter — Genitiv nach wegen)\n3. Trotz {3} langen Meetings hat er alles geschafft. (das Meeting — Genitiv nach trotz)\n4. Das ist die Entscheidung {4} Teams. (das Team — Genitiv, n-Dekl. check: das Team, -s)\n5. Während {5} Sitzung darf man nicht telefonieren. (die Sitzung — Genitiv nach während)\n\nB1/06 — Infinitiv mit zu:\n6. Ich versuche, pünktlich {6}. (ankommen — separable!)\n7. Sie hofft, bald fertig {7}. (sein)\n8. Pavel beschließt, öfter {8}. (üben)\n9. Ich habe vor, morgen früh {9}. (aufstehen — separable!)\n10. Frau Weber empfiehlt {10}, die Richtlinien zu lesen. (formal Dativ: Ihnen)\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Fill in the correct form. Items 1–5 review B1/07 (Genitiv); items 6–10 review B1/06 (Infinitiv mit zu). 10 items.",
+      "title": "Rückblick: B1/07 (Genitiv) und B1/06 (Infinitiv mit zu)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "an"
+          ],
+          "2": [
+            "über"
+          ],
+          "3": [
+            "von"
+          ],
+          "4": [
+            "daran"
+          ],
+          "5": [
+            "darauf"
+          ],
+          "6": [
+            "darüber"
+          ],
+          "7": [
+            "davon"
+          ],
+          "8": [
+            "Worauf"
+          ],
+          "9": [
+            "Wofür"
+          ],
+          "10": [
+            "Auf wen"
+          ],
+          "11": [
+            "darauf"
+          ],
+          "12": [
+            "darauf"
+          ],
+          "13": [
+            "darauf"
+          ],
+          "14": [
+            "darüber"
+          ],
+          "15": [
+            "davor"
+          ],
+          "16": [
+            "darum"
+          ],
+          "17": [
+            "dafür"
+          ],
+          "18": [
+            "davon"
+          ],
+          "19": [
+            "wem"
+          ],
+          "20": [
+            "Womit"
+          ]
+        },
+        "text": "1. Ich denke oft ___ meinen letzten Urlaub. (Präposition) → {1}\n2. Wir sprechen ___ das neue Thema. (Präposition) → {2}\n3. Sie träumt ___ einer Weltreise. (Präposition) → {3}\n4. Ich denke ___ (Pronominaladverb für: an das Thema) → {4}\n5. Er freut sich ___ (Pronominaladverb für: auf das Konzert) → {5}\n6. Ich ärgere mich ___ (Pronominaladverb für: über das Ergebnis) → {6}\n7. Ich bin ___ überzeugt, dass sie recht hat. (Pronominaladverb: von) → {7}\n8. ___ wartest du? — Auf den Zug. (wo(r)-Form: thing) → {8}\n9. ___ interessiert sie sich? — Für Kunst. (wo(r)-Form: thing) → {9}\n10. ___ wartet er? — Auf Anna. (Form für Personen) → {10}\n11. Es kommt ___ an, pünktlich zu sein. (Pronominaladverb: auf) → {11}\n12. Ich verlasse mich ___, klare Strukturen zu haben. (Pronominaladverb: auf) → {12}\n13. Ich freue mich ___, dich wiederzusehen. (auf — Zukunft) → {13}\n14. Ich freue mich ___, dass du da bist. (über — aktuell) → {14}\n15. Er warnte mich ___, das zu tun. (Pronominaladverb: vor) → {15}\n16. Sie kümmert sich ___ (Pronominaladverb für: um das Kind) → {16}\n17. Ich bedanke mich ___ (Pronominaladverb für: für das Geschenk) → {17}\n18. Der Erfolg hängt ___ ab, wie alle zusammenarbeiten. (Pronominaladverb: von) → {18}\n19. Person-Frage: Mit ___ sprichst du? — Mit Mia. → {19}\n20. Sache-Frage: ___ beschäftigst du dich? — Mit dem Bericht. → {20}\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "instructions": "Fill in the correct form. 1 point per gap. 20 items.",
+      "title": "Selbsttest: Verben mit Präpositionen + Pronominaladverbien (20 Punkte)",
+      "track": "praepositionen"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "b1-08",
+  "intro": "Blocks: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Answers in solutions.md. Tip: H+A on day 1, B on day 2, C on day 3, D on day 4.\n",
+  "lesson": "B1/08",
+  "level": "B1",
+  "summary": null,
+  "title": "B1 · Lektion 8 — Übungen (Exercises)",
+  "topic": null
+}

@@ -1,0 +1,707 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "der Name",
+          "das Herz",
+          "der Gedanke"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "der Name"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "das Herz"
+                ],
+                "gap": 2
+              },
+              {
+                "answer": [
+                  "der Gedanke"
+                ],
+                "gap": 3
+              }
+            ],
+            "label": "Nom."
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "den Namen"
+                ],
+                "gap": 4
+              },
+              {
+                "answer": [
+                  "das Herz"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "den Gedanken"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "Akk."
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "dem Namen"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "dem Herzen"
+                ],
+                "gap": 8
+              },
+              {
+                "answer": [
+                  "dem Gedanken"
+                ],
+                "gap": 9
+              }
+            ],
+            "label": "Dat."
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "des Namens"
+                ],
+                "gap": 10
+              },
+              {
+                "answer": [
+                  "des Herzens"
+                ],
+                "gap": 11
+              },
+              {
+                "answer": [
+                  "des Gedankens"
+                ],
+                "gap": 12
+              }
+            ],
+            "label": "Gen."
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die Tabelle.",
+      "instructionsEn": "Complete the table — der Name and der Gedanke take -ns/-ns in the Genitiv (not just -n); das Herz stays unchanged in the Akkusativ but takes weak endings in Dativ/Genitiv.",
+      "skill": "case-endings",
+      "title": "Unregelmäßige Nomen: der Name, das Herz, der Gedanke"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Peters"
+          ],
+          "2": [
+            "Annas"
+          ],
+          "3": [
+            "Thomas'"
+          ],
+          "4": [
+            "Lenas"
+          ],
+          "5": [
+            "Max'"
+          ],
+          "6": [
+            "Julias"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Auto ist neu. (Peter)\n2. Das ist {2} Schwester. (Anna)\n3. {3} Wohnung ist sehr groß. (Thomas)\n4. Kennst du {4} neuen Freund? (Lena)\n5. {5} Bruder wohnt in Berlin. (Max)\n6. Das ist {6} Buch. (Julia)\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze den Genitiv des Eigennamens. Achtung bei Namen auf -s/-x/-z: Apostroph statt -s.",
+      "instructionsEn": "Fill in the Genitiv of the proper name. Names ending in -s/-x/-z take an apostrophe instead of -s.",
+      "skill": "case-endings",
+      "title": "Genitiv bei Eigennamen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "keine"
+          ],
+          "2": [
+            "kein"
+          ],
+          "3": [
+            "keinen"
+          ],
+          "4": [
+            "keinen"
+          ],
+          "5": [
+            "keine"
+          ],
+          "6": [
+            "keine"
+          ],
+          "7": [
+            "keiner"
+          ],
+          "8": [
+            "keine"
+          ]
+        },
+        "bank": [
+          "keine",
+          "kein",
+          "keinen",
+          "keinen",
+          "keine",
+          "keine",
+          "keiner",
+          "keine",
+          "keinem"
+        ],
+        "text": "Nach dem Umzug hat Paul {1} Möbel mehr. Er hat {2} Bett, nur eine\nMatratze auf dem Boden. Er kocht mit {3} Töpfen, weil er sie beim\nUmzug verloren hat. Seine Freunde helfen ihm mit {4} Sachen aus\nihrer eigenen Wohnung. „Ich habe {5} Ahnung, wo meine Kisten\nsind!\", sagt er. Zum Glück hat er {6} Probleme mit seinen neuen\nNachbarn. Er lädt sie zu {7} kleinen Party ein, obwohl er {8}\nStühle hat — alle müssen auf dem Boden sitzen.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box.",
+      "title": "Lückentext: Nach dem Umzug (kein in allen Fällen)"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "des"
+              },
+              {
+                "key": "c",
+                "text": "dem"
+              }
+            ],
+            "q": "Das ist das Auto ___ Bruders meiner Freundin.",
+            "why": "Bruder ist maskulin → des."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "des"
+              },
+              {
+                "key": "c",
+                "text": "dem"
+              }
+            ],
+            "q": "Der Name ___ Firma meines Vaters ist bekannt.",
+            "why": "Firma ist feminin → der."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "des"
+              },
+              {
+                "key": "c",
+                "text": "dem"
+              }
+            ],
+            "q": "Die Farbe ___ Autos meines Onkels gefällt mir.",
+            "why": "Auto ist neutrum → des."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "des"
+              },
+              {
+                "key": "c",
+                "text": "dem"
+              }
+            ],
+            "q": "Das Zimmer ___ Tochter unserer Nachbarn ist sehr ordentlich.",
+            "why": "Tochter ist feminin → der."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "des"
+              },
+              {
+                "key": "c",
+                "text": "dem"
+              }
+            ],
+            "q": "Der Chef ___ Firma meines Bruders ist sehr streng.",
+            "why": "Firma ist feminin → der."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "des"
+              },
+              {
+                "key": "c",
+                "text": "dem"
+              }
+            ],
+            "q": "Das Haus ___ Eltern meines besten Freundes ist riesig.",
+            "why": "Eltern = Plural → der."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c) — each Genitiv link agrees with its own noun, no matter how deep the chain.",
+      "title": "Genitivketten"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Der"
+              },
+              {
+                "key": "b",
+                "text": "Den"
+              },
+              {
+                "key": "c",
+                "text": "Des"
+              }
+            ],
+            "q": "___ Name ist mir nicht bekannt.",
+            "why": "Nominativ → Der."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "den"
+              },
+              {
+                "key": "c",
+                "text": "dem"
+              }
+            ],
+            "q": "Ich kenne ___ Namen nicht.",
+            "why": "Akkusativ, schwacher Nomen → den Namen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "des"
+              },
+              {
+                "key": "c",
+                "text": "dem"
+              }
+            ],
+            "q": "Die Bedeutung ___ Namens ist interessant.",
+            "why": "Genitiv → des Namens (nicht des Namen)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Peter"
+              },
+              {
+                "key": "b",
+                "text": "Peters"
+              },
+              {
+                "key": "c",
+                "text": "Peteres"
+              }
+            ],
+            "q": "___ Auto steht vor der Tür.",
+            "why": "Genitiv bei Eigennamen: -s, kein Apostroph nötig (Peter endet nicht auf s/x/z)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Anna"
+              },
+              {
+                "key": "b",
+                "text": "Annas"
+              },
+              {
+                "key": "c",
+                "text": "Annaes"
+              }
+            ],
+            "q": "Kennst du ___ Schwester?",
+            "why": "Genitiv bei Eigennamen → Annas."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sein"
+              },
+              {
+                "key": "b",
+                "text": "Seinen"
+              },
+              {
+                "key": "c",
+                "text": "Seines"
+              }
+            ],
+            "q": "___ Herz schlägt schnell.",
+            "why": "Nominativ neutrum → Sein."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sein"
+              },
+              {
+                "key": "b",
+                "text": "seinen"
+              },
+              {
+                "key": "c",
+                "text": "seinem"
+              }
+            ],
+            "q": "Der Arzt untersucht ___ Herz.",
+            "why": "Akkusativ; Herz bleibt unverändert (anders als andere schwache Nomen) → sein."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "das"
+              },
+              {
+                "key": "b",
+                "text": "des"
+              },
+              {
+                "key": "c",
+                "text": "dem"
+              }
+            ],
+            "q": "Die Ärztin spricht über die Funktion ___ Herzens.",
+            "why": "Genitiv → des Herzens."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct word for each gap (a, b, or c).",
+      "title": "Sprachbausteine Teil 1 — Name und Herz"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "ERNAS"
+          ],
+          "2": [
+            "ERNAS"
+          ],
+          "3": [
+            "SEINEN"
+          ],
+          "4": [
+            "SEINEN"
+          ],
+          "5": [
+            "KEINE"
+          ],
+          "6": [
+            "IHR"
+          ],
+          "7": [
+            "IHREM"
+          ],
+          "8": [
+            "IHRER"
+          ],
+          "9": [
+            "ERNAS"
+          ],
+          "10": [
+            "KEINE"
+          ]
+        },
+        "bank": [
+          "ERNAS",
+          "ERNAS",
+          "SEINEN",
+          "SEINEN",
+          "KEINE",
+          "IHR",
+          "IHREM",
+          "IHRER",
+          "ERNAS",
+          "KEINE",
+          "DEREN",
+          "KEINEN",
+          "IHREN"
+        ],
+        "text": "Meine Großmutter hieß Erna. {1} Kindheit war in Bayern. {2} Vater,\nmein Urgroßvater, war Bäcker. Ich kenne {3} Namen noch aus alten\nBriefen — leider habe ich {4} Namen nie im Familienbuch gefunden.\nErna hatte {5} Geschwister, war also ein Einzelkind. {6} Herz\ngehörte immer ihrer Heimatstadt. Nach {7} Tod fanden wir viele\nalte Fotos in {8} Wohnung. {9} Bruder, mein Großonkel, lebt heute\nnoch in München. Wir haben {10} Zeit, all diese Geschichten zu\nvergessen.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Three words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Familiengeschichte (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Toms"
+          ],
+          "2": [
+            "seinen"
+          ],
+          "3": [
+            "keine"
+          ],
+          "4": [
+            "des"
+          ],
+          "5": [
+            "Sein"
+          ],
+          "6": [
+            "Max'"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Auto ist neu. (Tom)\n2. Ich kenne {2} Namen nicht.\n3. Sie hat {3} Zeit für eine Pause.\n4. Das Herz {4} Patienten schlägt unregelmäßig.\n5. {5} Herz schlägt schnell, wenn er nervös ist.\n6. Ist das Annas Auto oder {6} Auto? (Max)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die richtige Form.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Tom"
+              },
+              {
+                "key": "b",
+                "text": "Toms"
+              },
+              {
+                "key": "c",
+                "text": "Tomes"
+              }
+            ],
+            "q": "___ Bruder wohnt in Köln.",
+            "why": "Genitiv bei Eigennamen → Toms."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "kein"
+              },
+              {
+                "key": "b",
+                "text": "keine"
+              },
+              {
+                "key": "c",
+                "text": "keinen"
+              }
+            ],
+            "q": "Ich habe ___ Ahnung, wo er ist.",
+            "why": "Ahnung ist feminin, Akkusativ → keine."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sein"
+              },
+              {
+                "key": "b",
+                "text": "seinen"
+              },
+              {
+                "key": "c",
+                "text": "seinem"
+              }
+            ],
+            "q": "Er hat ___ Namen vergessen.",
+            "why": "Akkusativ, schwacher Nomen → seinen Namen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "des"
+              },
+              {
+                "key": "c",
+                "text": "dem"
+              }
+            ],
+            "q": "Die Farbe ___ Herzens verändert sich nicht.",
+            "why": "Genitiv → des Herzens."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ihr"
+              },
+              {
+                "key": "b",
+                "text": "Ihre"
+              },
+              {
+                "key": "c",
+                "text": "Ihrem"
+              }
+            ],
+            "q": "___ Herz ist aus Gold, sagt man über sie.",
+            "why": "Nominativ neutrum → Ihr."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "des"
+              },
+              {
+                "key": "c",
+                "text": "dem"
+              }
+            ],
+            "q": "Das Auto ___ Chefin meines Vaters ist teuer.",
+            "why": "Chefin ist feminin, Genitiv → der."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-03-deklination-b2",
+  "intro": "Standalone drill set, not tied to any lesson. Closes out the Deklination topic with what's left after A2/B1: irregular weak nouns (der Name -> des Namens, not des Namen; das Herz, a neuter that mixes in weak endings in Dativ/Genitiv but stays unchanged in Akkusativ), Genitiv of proper names (Peters, Annas, Max' — apostrophe, not -s, after a name ending in s/x/z), kein across all cases, and Genitiv chains (das Auto des Bruders meiner Freundin). Answers in solutions.md.\n",
+  "lesson": "EX/03-deklination-b2",
+  "level": "B2",
+  "summary": null,
+  "title": "Unregelmäßige Nomen, Eigennamen, kein-Wörter & Genitivketten — B2",
+  "topic": "Deklination in allen Fällen (Nominativ, Akkusativ, Dativ, Genitiv)"
+}

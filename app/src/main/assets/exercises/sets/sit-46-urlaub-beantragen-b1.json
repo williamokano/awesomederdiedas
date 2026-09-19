@@ -1,0 +1,824 @@
+{
+  "category": "Arbeit & Studium",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "antrag",
+            "label": "Der Antrag"
+          },
+          {
+            "key": "vertretung",
+            "label": "Die Vertretung"
+          },
+          {
+            "key": "planung",
+            "label": "Die Planung"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "antrag",
+            "text": "das Formular ausfüllen"
+          },
+          {
+            "bucket": "vertretung",
+            "text": "die Aufgaben übernehmen"
+          },
+          {
+            "bucket": "planung",
+            "text": "der Brückentag"
+          },
+          {
+            "bucket": "antrag",
+            "text": "genehmigen"
+          },
+          {
+            "bucket": "vertretung",
+            "text": "einarbeiten"
+          },
+          {
+            "bucket": "planung",
+            "text": "der Resturlaub"
+          },
+          {
+            "bucket": "antrag",
+            "text": "ablehnen"
+          },
+          {
+            "bucket": "vertretung",
+            "text": "die Übergabe"
+          },
+          {
+            "bucket": "planung",
+            "text": "die Urlaubssperre"
+          },
+          {
+            "bucket": "antrag",
+            "text": "unterschreiben"
+          },
+          {
+            "bucket": "vertretung",
+            "text": "im Notfall erreichbar sein"
+          },
+          {
+            "bucket": "planung",
+            "text": "früh planen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Antrag, Vertretung oder Planung?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Urlaubsantrag"
+          },
+          {
+            "key": "2",
+            "text": "der Resturlaub"
+          },
+          {
+            "key": "3",
+            "text": "die Vertretung"
+          },
+          {
+            "key": "4",
+            "text": "der Brückentag"
+          },
+          {
+            "key": "5",
+            "text": "genehmigen"
+          },
+          {
+            "key": "6",
+            "text": "ablehnen"
+          },
+          {
+            "key": "7",
+            "text": "die Urlaubssperre"
+          },
+          {
+            "key": "8",
+            "text": "übertragen"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "das Formular, mit dem man Urlaub beantragt"
+          },
+          {
+            "key": "b",
+            "text": "die Urlaubstage, die man noch nicht genommen hat"
+          },
+          {
+            "key": "c",
+            "text": "die Person, die die Aufgaben während des Urlaubs übernimmt"
+          },
+          {
+            "key": "d",
+            "text": "ein einzelner Arbeitstag zwischen Feiertag und Wochenende"
+          },
+          {
+            "key": "e",
+            "text": "einen Antrag offiziell zustimmen"
+          },
+          {
+            "key": "f",
+            "text": "einen Antrag nicht annehmen"
+          },
+          {
+            "key": "g",
+            "text": "eine Zeit, in der kein Urlaub genommen werden darf"
+          },
+          {
+            "key": "h",
+            "text": "Resturlaub ins nächste Jahr mitnehmen"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "kann"
+          ],
+          "3": [
+            "hat"
+          ],
+          "4": [
+            "sollte"
+          ],
+          "5": [
+            "haben"
+          ],
+          "6": [
+            "Darf"
+          ],
+          "7": [
+            "wurde"
+          ],
+          "8": [
+            "müssen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} den Antrag mindestens vier Wochen vorher stellen. (müssen)\n2. Man {2} in der Urlaubssperre keinen Urlaub nehmen. (können, Verneinung)\n3. Meine Chefin {3} den Antrag letzte Woche genehmigt. (haben, Perfekt)\n4. Ich {4} noch eine Vertretung finden, bevor ich frage. (sollen)\n5. Zwei Kollegen {5} dieselbe Woche beantragt. (haben, Perfekt)\n6. {6} ich den Resturlaub ins nächste Jahr übertragen? (dürfen, ich-Form)\n7. Der Antrag {7} letztes Jahr leider abgelehnt. (werden, Passiv Präteritum)\n8. Wir {8} die Übergabe rechtzeitig vorbereiten. (Modalverb, wir-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Den Antrag stellen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Resturlaub"
+          ],
+          "2": [
+            "Brückentag"
+          ],
+          "3": [
+            "Aufgaben"
+          ],
+          "4": [
+            "Urlaubssperre"
+          ],
+          "5": [
+            "genehmigen"
+          ],
+          "6": [
+            "Übergabe"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe noch zehn Tage {1}. (die Urlaubstage, die noch übrig sind)\n2. Mit einem {2} bekommt man aus einem Feiertag eine ganze Woche frei. (der einzelne freie Tag dazwischen)\n3. Meine Kollegin übernimmt während meines Urlaubs meine {3}. (das, was zu meiner Arbeit gehört)\n4. Im Dezember gilt bei uns oft eine {4}, weil dann alle Kunden anrufen. (die Zeit ohne Urlaub)\n5. Lass den Antrag {5}, bevor du in Urlaub fährst. (offiziell zustimmen lassen, Infinitiv)\n6. Ohne {6} an die Kollegin weiß niemand, wo die Unterlagen liegen. (die Weitergabe der Aufgaben)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "URLAUBSANTRAG"
+          ],
+          "2": [
+            "URLAUB"
+          ],
+          "3": [
+            "VERTRETUNG"
+          ],
+          "4": [
+            "BEREIT"
+          ],
+          "5": [
+            "KUNDEN"
+          ],
+          "6": [
+            "WERDE"
+          ],
+          "7": [
+            "GENEHMIGE"
+          ],
+          "8": [
+            "HILFT"
+          ],
+          "9": [
+            "EIN"
+          ],
+          "10": [
+            "HEUTE"
+          ]
+        },
+        "bank": [
+          "URLAUBSANTRAG",
+          "URLAUB",
+          "VERTRETUNG",
+          "BEREIT",
+          "KUNDEN",
+          "WERDE",
+          "GENEHMIGE",
+          "HILFT",
+          "EIN",
+          "HEUTE",
+          "GEHALT",
+          "ARBEITSZEIT",
+          "KÜNDIGUNG",
+          "PROBEZEIT"
+        ],
+        "text": "— Hätten Sie kurz Zeit? Ich würde gern meinen {1} besprechen.\n— Klar, worum geht es?\n— Ich möchte vom 14. bis zum 25. Juli {2} nehmen.\n— Das ist eine wichtige Zeit für das Projekt. Haben Sie schon an\neine {3} gedacht?\n— Ja, Frau Berger hat sich {4} erklärt, meine Aufgaben zu\nübernehmen.\n— Gut, das erleichtert die Sache. Ist Frau Berger auch mit den\n{5} vertraut?\n— Ich {6} sie vorher gründlich einarbeiten.\n— Dann sehe ich kein Problem. Ich {7} den Antrag.\n— Vielen Dank, das {8} mir sehr.\n— Reichen Sie das Formular bitte noch offiziell {9}.\n— Mache ich noch {10}.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Das Gespräch mit der Chefin"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Hätten Sie kurz Zeit, meinen Urlaubsantrag zu besprechen?"
+              },
+              {
+                "key": "b",
+                "text": "Ich brauche jetzt sofort Urlaub."
+              },
+              {
+                "key": "c",
+                "text": "Ich nehme mir einfach die Woche frei."
+              }
+            ],
+            "q": "Du möchtest einen Termin für ein Urlaubsgespräch vereinbaren. — You want to arrange a time to discuss your leave.",
+            "why": "Eine höfliche Frage nach einem Termin ist der übliche erste Schritt vor einem solchen Gespräch."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist nicht mein Problem."
+              },
+              {
+                "key": "b",
+                "text": "Ja, Frau Berger hat sich bereit erklärt, meine Aufgaben zu übernehmen."
+              },
+              {
+                "key": "c",
+                "text": "Darüber habe ich noch nicht nachgedacht."
+              }
+            ],
+            "q": "Deine Chefin fragt, ob du eine Vertretung organisiert hast. — Your boss asks if you've arranged cover.",
+            "why": "Eine bereits organisierte Vertretung macht die Zustimmung viel wahrscheinlicher."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Könnte ich am Freitag nach Christi Himmelfahrt auch freinehmen?"
+              },
+              {
+                "key": "b",
+                "text": "Freitag komme ich einfach nicht."
+              },
+              {
+                "key": "c",
+                "text": "Der Freitag zählt doch sowieso nicht richtig."
+              }
+            ],
+            "q": "Du möchtest einen Brückentag vorschlagen. — You want to suggest a bridge day.",
+            "why": "Eine höfliche Frage macht deutlich, dass du um Erlaubnis bittest, nicht einfach ankündigst."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Trotzdem den Antrag stellen und abwarten."
+              },
+              {
+                "key": "b",
+                "text": "Kurz mit dem Kollegen sprechen, ob einer von euch die Woche verschieben kann."
+              },
+              {
+                "key": "c",
+                "text": "Sich beim Kollegen beschweren, dass er zu früh war."
+              }
+            ],
+            "q": "Ein Kollege hat schon für dieselbe Woche Urlaub beantragt. — A colleague has already requested leave for the same week.",
+            "why": "Eine direkte Absprache untereinander löst das Problem meist schneller als es der Chefin zu überlassen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Fragen, ob der Resturlaub ins nächste Jahr übertragen werden kann."
+              },
+              {
+                "key": "b",
+                "text": "Den Resturlaub einfach verfallen lassen."
+              },
+              {
+                "key": "c",
+                "text": "Sich beschweren, dass niemand daran erinnert hat."
+              }
+            ],
+            "q": "Dein Resturlaub läuft bald ab. — Your remaining leave is about to expire.",
+            "why": "Rechtzeitig nachzufragen ist der übliche Weg, um Resturlaub nicht verfallen zu lassen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ruhig nach dem Grund fragen und gemeinsam nach einer Alternative suchen."
+              },
+              {
+                "key": "b",
+                "text": "Trotzdem einfach in Urlaub fahren."
+              },
+              {
+                "key": "c",
+                "text": "Sofort kündigen."
+              }
+            ],
+            "q": "Deine Chefin lehnt den Antrag zunächst ab. — Your boss initially rejects the request.",
+            "why": "Eine ruhige Nachfrage nach dem Grund öffnet meist den Weg zu einem Kompromiss."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Höflich mit Vorgesetzten sprechen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Zeitraum mit von … bis, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "vom",
+              "14.",
+              "bis",
+              "zum",
+              "25.",
+              "Juli",
+              "Urlaub",
+              "nehmen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Perfekt-Frage, Partizip am Ende",
+            "tiles": [
+              "Haben",
+              "Sie",
+              "schon",
+              "an",
+              "eine",
+              "Vertretung",
+              "gedacht",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt mit reflexivem Verb, Partizip am Ende",
+            "tiles": [
+              "Frau",
+              "Berger",
+              "hat",
+              "sich",
+              "bereit",
+              "erklärt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Futur I, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "werde",
+              "sie",
+              "vorher",
+              "gründlich",
+              "einarbeiten"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "höfliche Konjunktiv-II-Frage",
+            "tiles": [
+              "Dürfte",
+              "ich",
+              "den",
+              "Resturlaub",
+              "übertragen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Passiv Präteritum, Partizip am Ende",
+            "tiles": [
+              "Der",
+              "Antrag",
+              "wurde",
+              "leider",
+              "abgelehnt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze im Urlaubsgespräch bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Der Antrag muss mindestens vier Wochen vorher gestellt werden. — The request must be submitted at least four weeks ahead.",
+            "why": "So steht es ausdrücklich in der Richtlinie."
+          },
+          {
+            "answer": false,
+            "q": "Im August gilt eine Urlaubssperre. — There's a leave freeze in August.",
+            "why": "Die Urlaubssperre gilt zwischen 1. November und 10. Januar."
+          },
+          {
+            "answer": true,
+            "q": "Resturlaub kann bis Ende März des Folgejahres genommen werden. — Remaining leave can be taken until the end of March the following year.",
+            "why": "„Resturlaub kann bis 31. März des Folgejahres genommen werden.“"
+          },
+          {
+            "answer": false,
+            "q": "Bei einer Überschneidung entscheidet immer die Chefin allein. — In case of overlap, the boss always decides alone.",
+            "why": "Wer zuerst beantragt hat, hat Vorrang — Absprachen untereinander sind ebenfalls möglich."
+          },
+          {
+            "answer": false,
+            "q": "Die Vertretung kann auch erst nach der Genehmigung benannt werden. — Cover can also be named only after approval.",
+            "why": "Die Vertretung muss vor der Genehmigung benannt werden."
+          },
+          {
+            "answer": true,
+            "q": "Brückentage zählen als normale Urlaubstage. — Bridge days count as regular leave days.",
+            "why": "„Brückentage werden wie normale Urlaubstage berechnet.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Interne Richtlinie — Urlaub**\n>\n> - Anträge bitte **mindestens 4 Wochen** vor Urlaubsbeginn stellen.\n> - Zwischen **1. November und 10. Januar** gilt in der\n>   Kundenbetreuung eine **Urlaubssperre**.\n> - Resturlaub kann bis **31. März** des Folgejahres genommen\n>   werden, danach verfällt er.\n> - Bei Überschneidungen mit Kolleginnen und Kollegen gilt: **wer\n>   zuerst beantragt hat**, hat Vorrang — Absprachen untereinander\n>   sind aber willkommen.\n> - Eine Vertretung muss **vor Genehmigung** des Antrags benannt\n>   werden.\n> - Brückentage werden **wie normale Urlaubstage** berechnet.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Urlaubsrichtlinie lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nach alternativen Terminen außerhalb der Sperre fragen."
+              },
+              {
+                "key": "b",
+                "text": "Trotzdem fahren."
+              },
+              {
+                "key": "c",
+                "text": "Sofort kündigen."
+              }
+            ],
+            "q": "Dein Antrag wird wegen der Urlaubssperre abgelehnt. — Your request is rejected due to a leave freeze.",
+            "why": "Eine Alternative außerhalb der Sperrzeit zu finden ist die naheliegende, konstruktive Lösung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den eigenen Antrag trotzdem einreichen, ohne etwas zu sagen."
+              },
+              {
+                "key": "b",
+                "text": "Mit ihm sprechen, ob eine Woche verschoben werden kann, oder die Chefin um eine Lösung bitten."
+              },
+              {
+                "key": "c",
+                "text": "Sich beim Kollegen beschweren."
+              }
+            ],
+            "q": "Ein Kollege hat für dieselbe Woche schon einen Antrag gestellt. — A colleague already requested the same week.",
+            "why": "Eine offene Absprache oder die Chefin einzubeziehen ist fairer als stillschweigend zu handeln."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach ohne Genehmigung fahren."
+              },
+              {
+                "key": "b",
+                "text": "So tun, als hättest du schon einen Antrag gestellt."
+              },
+              {
+                "key": "c",
+                "text": "Sofort den Antrag nachreichen und ehrlich erklären, dass du es vergessen hast."
+              }
+            ],
+            "q": "Du hast den Antrag vergessen und der Urlaub beginnt in zwei Wochen. — You forgot to submit the request and the leave starts in two weeks.",
+            "why": "Ehrlichkeit und schnelles Nachholen sind der beste Weg, das Problem noch zu lösen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Fragen, ob eine Verlängerung oder eine Auszahlung möglich ist."
+              },
+              {
+                "key": "b",
+                "text": "Nichts tun und den Urlaub verfallen lassen."
+              },
+              {
+                "key": "c",
+                "text": "Sich bei der Personalabteilung beschweren, ohne konkret zu fragen."
+              }
+            ],
+            "q": "Dein Resturlaub verfällt in wenigen Tagen. — Your remaining leave expires in a few days.",
+            "why": "Eine konkrete Nachfrage nach Verlängerung oder Auszahlung ist der sinnvolle erste Schritt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Urlaub einfach absagen."
+              },
+              {
+                "key": "b",
+                "text": "Schnell eine andere Vertretung suchen und die Chefin informieren."
+              },
+              {
+                "key": "c",
+                "text": "Nichts sagen und hoffen, dass es niemand merkt."
+              }
+            ],
+            "q": "Deine Vertretung sagt kurzfristig ab. — Your cover cancels at short notice.",
+            "why": "Eine neue Lösung zu suchen und offen zu informieren ist professioneller als zu schweigen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nie wieder ans Telefon gehen."
+              },
+              {
+                "key": "b",
+                "text": "Sofort zurück ins Büro fahren."
+              },
+              {
+                "key": "c",
+                "text": "Kurz helfen, wenn es wirklich dringend ist, und danach in Ruhe weiter Urlaub machen."
+              }
+            ],
+            "q": "Während deines Urlaubs ruft ein Kollege wegen einer dringenden Frage an. — During your leave, a colleague calls with an urgent question.",
+            "why": "Kurze Hilfe bei echten Notfällen ist üblich, ohne dass der ganze Urlaub darunter leiden muss."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn der Urlaub nicht wie geplant läuft"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Urlaubssperre"
+          ],
+          "2": [
+            "Urlaubsantrag"
+          ],
+          "3": [
+            "vergessen"
+          ],
+          "4": [
+            "Resturlaub"
+          ],
+          "5": [
+            "Vertretung"
+          ],
+          "6": [
+            "erreichbar"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Mein Antrag wurde wegen der {1} abgelehnt. (die Zeit ohne Urlaub)\n2. Ein Kollege hatte für dieselbe Woche schon einen {2} gestellt. (das Formular für den Urlaub)\n3. Ich habe den Antrag {3} und muss ihn jetzt schnell nachreichen. (nicht daran gedacht)\n4. Mein {4} verfällt bald, wenn ich ihn nicht bald nehme. (die übrigen Urlaubstage)\n5. Meine {5} hat kurzfristig abgesagt. (die Person, die meine Aufgaben übernimmt)\n6. Während des Urlaubs war ich für einen echten Notfall trotzdem kurz {6}. (per Telefon zu erreichen)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Resturlaub"
+          ],
+          "3": [
+            "Brückentag"
+          ],
+          "4": [
+            "Vertretung"
+          ],
+          "5": [
+            "bereit"
+          ],
+          "6": [
+            "werde"
+          ],
+          "7": [
+            "Darf"
+          ],
+          "8": [
+            "wurde"
+          ],
+          "9": [
+            "Urlaubssperre"
+          ],
+          "10": [
+            "genehmigen"
+          ],
+          "11": [
+            "Urlaubssperre"
+          ],
+          "12": [
+            "vergessen"
+          ],
+          "13": [
+            "Resturlaub"
+          ],
+          "14": [
+            "Vertretung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} den Antrag mindestens vier Wochen vorher stellen. (must)\n2. Ich habe noch zehn Tage {2}. (remaining leave)\n3. Mit einem {3} bekommt man aus einem Feiertag eine ganze Woche frei. (bridge day)\n4. Haben Sie schon an eine {4} gedacht? (cover / stand-in)\n5. Frau Berger hat sich {5} erklärt. (willing)\n6. Ich {6} sie vorher gründlich einarbeiten. (will — Futur I)\n7. {7} ich den Resturlaub übertragen? (may — dürfen)\n8. Der Antrag {8} letztes Jahr abgelehnt. (was — Passiv)\n9. Im Dezember gilt bei uns eine {9}. (leave freeze)\n10. Lass den Antrag {10}, bevor du fährst. (get it approved — Infinitiv)\n11. Mein Antrag wurde wegen der {11} abgelehnt. (leave freeze)\n12. Ich habe den Antrag {12} und muss ihn nachreichen. (forgotten — Partizip)\n13. Mein {13} verfällt bald. (remaining leave)\n14. Meine {14} hat kurzfristig abgesagt. (cover / stand-in)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-46-urlaub-beantragen-b1",
+  "intro": "Urlaub zu beantragen klingt nach reiner Formsache, ist es aber selten: Zwei Kolleginnen wollen dieselbe Woche, der Resturlaub läuft bald ab, und die Chefin sagt vielleicht erst einmal nein. Dieses Set übt den ganzen Ablauf — den Antrag stellen, eine Vertretung finden, Brückentage klug nutzen, und was zu tun ist, wenn etwas nicht klappt. Grammatik nach Bedarf: Perfekt und Präteritum im Bericht, Modalverben (müssen, dürfen, können), höfliche Bitten mit Konjunktiv II. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/46-urlaub-beantragen-b1",
+  "level": "B1",
+  "summary": "Einen Urlaubsantrag stellen, eine Vertretung organisieren, Brückentage nutzen und mit Kolleginnen und Kollegen die Termine absprechen.",
+  "title": "Urlaub beantragen — B1",
+  "topic": "Urlaub beantragen"
+}

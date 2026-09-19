@@ -1,0 +1,852 @@
+{
+  "category": "Wenn etwas schiefgeht",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "bar",
+            "label": "Bargeld"
+          },
+          {
+            "key": "karte",
+            "label": "Karte & Konto"
+          },
+          {
+            "key": "problem",
+            "label": "Wenn es klemmt"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "bar",
+            "text": "der Schein"
+          },
+          {
+            "bucket": "karte",
+            "text": "die EC-Karte"
+          },
+          {
+            "bucket": "problem",
+            "text": "die Karte wird abgelehnt"
+          },
+          {
+            "bucket": "bar",
+            "text": "die Münze"
+          },
+          {
+            "bucket": "karte",
+            "text": "die PIN"
+          },
+          {
+            "bucket": "problem",
+            "text": "das Konto ist gesperrt"
+          },
+          {
+            "bucket": "bar",
+            "text": "das Kleingeld"
+          },
+          {
+            "bucket": "karte",
+            "text": "die Kreditkarte"
+          },
+          {
+            "bucket": "problem",
+            "text": "der Automat behält die Karte"
+          },
+          {
+            "bucket": "bar",
+            "text": "das Wechselgeld"
+          },
+          {
+            "bucket": "karte",
+            "text": "der Kontostand"
+          },
+          {
+            "bucket": "problem",
+            "text": "das Portemonnaie ist weg"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Womit bezahlt man das?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "e",
+          "3": "a",
+          "4": "c",
+          "5": "h",
+          "6": "d",
+          "7": "g",
+          "8": "f"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Die Karte funktioniert nicht."
+          },
+          {
+            "key": "2",
+            "text": "Du hast nicht genug Bargeld dabei."
+          },
+          {
+            "key": "3",
+            "text": "Du suchst einen Geldautomaten."
+          },
+          {
+            "key": "4",
+            "text": "Der Automat hat deine Karte behalten."
+          },
+          {
+            "key": "5",
+            "text": "Du hast dein Portemonnaie vergessen."
+          },
+          {
+            "key": "6",
+            "text": "Du willst wissen, ob Karte geht."
+          },
+          {
+            "key": "7",
+            "text": "Du hast nur einen großen Schein."
+          },
+          {
+            "key": "8",
+            "text": "Du willst die Karte sperren lassen."
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Wo ist hier der nächste Geldautomat?"
+          },
+          {
+            "key": "b",
+            "text": "Entschuldigung, die Karte geht nicht. Kann ich bar zahlen?"
+          },
+          {
+            "key": "c",
+            "text": "Der Automat hat meine Karte eingezogen. An wen wende ich mich?"
+          },
+          {
+            "key": "d",
+            "text": "Kann ich mit Karte zahlen?"
+          },
+          {
+            "key": "e",
+            "text": "Ich habe leider nicht genug dabei. Können Sie zwei Sachen wieder abziehen?"
+          },
+          {
+            "key": "f",
+            "text": "Ich möchte meine Karte sperren lassen."
+          },
+          {
+            "key": "g",
+            "text": "Geht auch ein Fünfziger?"
+          },
+          {
+            "key": "h",
+            "text": "Entschuldigung, ich habe mein Portemonnaie vergessen. Ich hole es und komme gleich zurück."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jede Situation (1–8) dem passenden Satz (a–h) zu.",
+      "instructionsEn": "Match each situation (1–8) with the fitting sentence (a–h).",
+      "title": "Was sagst du wann?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Kann"
+          ],
+          "2": [
+            "muss"
+          ],
+          "3": [
+            "Könnten"
+          ],
+          "4": [
+            "möchte"
+          ],
+          "5": [
+            "kann"
+          ],
+          "6": [
+            "Darf"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} ich mit Karte zahlen? (Erlaubnis erfragen)\n2. Hier {2} man leider nur bar zahlen. (Zwang)\n3. {3} Sie es bitte noch einmal versuchen? (höfliche Bitte)\n4. Ich {4} die Karte sperren lassen. (Absicht)\n5. Am Sonntag {5} man in Deutschland kaum irgendwo Geld abheben. (Möglichkeit)\n6. {6} ich hier meine PIN eingeben? (Erlaubnis erfragen)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das passende Modalverb in der richtigen Form.",
+      "instructionsEn": "Fill in the fitting modal verb in the correct form.",
+      "title": "Modalverben in der Notlage"
+    },
+    {
+      "block": "A",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "der Schein",
+              "die Münze",
+              "das Kleingeld",
+              "die PIN"
+            ],
+            "odd": 3,
+            "why": "PIN gehört zur Karte, nicht zum Bargeld."
+          },
+          {
+            "items": [
+              "abheben",
+              "einzahlen",
+              "überweisen",
+              "vergessen"
+            ],
+            "odd": 3,
+            "why": "Die anderen drei sind Bankgeschäfte."
+          },
+          {
+            "items": [
+              "die EC-Karte",
+              "die Kreditkarte",
+              "die Kundenkarte",
+              "der Geldautomat"
+            ],
+            "odd": 3,
+            "why": "Der Geldautomat ist ein Gerät, keine Karte."
+          },
+          {
+            "items": [
+              "gesperrt",
+              "abgelehnt",
+              "eingezogen",
+              "gekauft"
+            ],
+            "odd": 3,
+            "why": "Die anderen drei beschreiben Probleme mit der Karte."
+          },
+          {
+            "items": [
+              "die Bank",
+              "die Sparkasse",
+              "die Filiale",
+              "die Apotheke"
+            ],
+            "odd": 3,
+            "why": "In der Apotheke bekommt man kein Konto."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "A4",
+      "instructions": "Ein Wort passt nicht in die Gruppe. Klicke es an.",
+      "instructionsEn": "One word does not belong in the group. Click it.",
+      "title": "Was passt nicht?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "ABGELEHNT"
+          ],
+          "2": [
+            "KÖNNTEN"
+          ],
+          "3": [
+            "HABEN"
+          ],
+          "4": [
+            "BARGELD"
+          ],
+          "5": [
+            "WEGLASSEN"
+          ],
+          "6": [
+            "ZIEHEN"
+          ],
+          "7": [
+            "GELDAUTOMAT"
+          ],
+          "8": [
+            "NEBEN"
+          ],
+          "9": [
+            "WORAN"
+          ],
+          "10": [
+            "LIMIT"
+          ]
+        },
+        "bank": [
+          "ABGELEHNT",
+          "KÖNNTEN",
+          "HABEN",
+          "BARGELD",
+          "WEGLASSEN",
+          "ZIEHEN",
+          "GELDAUTOMAT",
+          "NEBEN",
+          "WORAN",
+          "LIMIT",
+          "WOHER",
+          "KAUFEN",
+          "ZAHLEN",
+          "KONTO"
+        ],
+        "text": "— Das macht 42,80 Euro.\n— Mit Karte, bitte.\n— Einen Moment … die Karte wurde leider {1}.\n— Oh. {2} Sie es bitte noch einmal versuchen?\n— Gern. … Wieder nicht. {3} Sie es vielleicht mit einer anderen\nKarte?\n— Ich habe nur diese eine. Ich habe aber etwas {4} dabei —\ndreißig Euro.\n— Das reicht leider nicht. Möchten Sie etwas {5}?\n— Ja, {6} Sie bitte den Käse und die Schokolade wieder ab?\n— Kein Problem. Dann sind es 28,50 Euro.\n— Perfekt. Wo ist hier der nächste {7}? Ich komme später noch\neinmal.\n— Direkt vor dem Ausgang, {8} der Apotheke.\n— Danke. Und wissen Sie, {9} das mit meiner Karte sein kann?\n— Manchmal ist das {10} für den Tag erreicht. Fragen Sie am\nbesten bei Ihrer Bank nach.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "An der Kasse: die Karte geht nicht"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Lange diskutieren, warum das nicht sein kann."
+              },
+              {
+                "key": "b",
+                "text": "Ruhig bleiben, um einen zweiten Versuch bitten und gleich sagen, was du sonst tun kannst."
+              },
+              {
+                "key": "c",
+                "text": "Die Sachen liegen lassen und gehen."
+              }
+            ],
+            "q": "Die Karte wird abgelehnt und hinter dir wartet eine Schlange. — Your card is declined and there's a queue behind you.",
+            "why": "Ein zweiter Versuch plus eine Alternative löst die Situation in zwanzig Sekunden."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort die Sperrnummer anrufen und in der Filiale nachfragen."
+              },
+              {
+                "key": "b",
+                "text": "Am Automaten warten."
+              },
+              {
+                "key": "c",
+                "text": "Es am nächsten Tag noch einmal versuchen."
+              }
+            ],
+            "q": "Der Geldautomat zieht deine Karte ein. — The cash machine swallows your card.",
+            "why": "Eingezogene Karten werden nicht zurückgegeben. Sperren und Ersatzkarte beantragen ist der einzige Weg."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sagen, dass das heutzutage nicht geht."
+              },
+              {
+                "key": "b",
+                "text": "Erklären, dass du kurz Geld holst, und fragen, wo der nächste Automat ist."
+              },
+              {
+                "key": "c",
+                "text": "Warten, bis jemand hilft."
+              }
+            ],
+            "q": "Ein Restaurant nimmt nur Bargeld und du hast keins. — A restaurant takes cash only and you have none.",
+            "why": "Das ist völlig üblich in Deutschland — man sagt es und geht kurz zum Automaten."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kann ich bei Ihnen mit Karte zahlen?"
+              },
+              {
+                "key": "b",
+                "text": "Nehmen Sie Geld?"
+              },
+              {
+                "key": "c",
+                "text": "Ich habe kein Bargeld."
+              }
+            ],
+            "q": "Du willst wissen, ob du mit Karte zahlen kannst — bevor du bestellst. — You want to know if you can pay by card before ordering.",
+            "why": "Vorher fragen erspart die ganze Situation — und ist die einfachste Frage von allen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Schnell verschwinden."
+              },
+              {
+                "key": "b",
+                "text": "Sagen, dass du nichts dabeihast."
+              },
+              {
+                "key": "c",
+                "text": "Entschuldigung, ich habe mein Portemonnaie vergessen. Kann ich die Sachen kurz stehen lassen und in zehn Minuten wiederkommen?"
+              }
+            ],
+            "q": "Du hast dein Portemonnaie zu Hause vergessen. — You've left your wallet at home.",
+            "why": "Erklären und einen konkreten Vorschlag machen — fast überall wird das ohne Weiteres akzeptiert."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es liegt sicher am Geschäft."
+              },
+              {
+                "key": "b",
+                "text": "Vielleicht ist das Tageslimit erreicht — bei der Bank nachfragen."
+              },
+              {
+                "key": "c",
+                "text": "Die Karte wegwerfen."
+              }
+            ],
+            "q": "Deine Karte wird abgelehnt, obwohl Geld auf dem Konto ist. — Your card is declined although there's money in the account.",
+            "why": "Tageslimit und Sicherheitssperre sind die häufigsten Gründe — beides klärt nur die Bank."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Was tust du?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Ja/Nein-Frage: Verb an Position 1, Infinitiv am Ende",
+            "tiles": [
+              "Kann",
+              "ich",
+              "bei",
+              "Ihnen",
+              "mit",
+              "Karte",
+              "zahlen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Höfliche Bitte im Konjunktiv II",
+            "tiles": [
+              "Könnten",
+              "Sie",
+              "es",
+              "bitte",
+              "noch",
+              "einmal",
+              "versuchen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt: hat … eingezogen",
+            "tiles": [
+              "Der",
+              "Automat",
+              "hat",
+              "meine",
+              "Karte",
+              "eingezogen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Zwei Infinitive am Ende: sperren lassen",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "meine",
+              "Karte",
+              "sperren",
+              "lassen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "W-Frage: Fragewort, dann Verb",
+            "tiles": [
+              "Wo",
+              "ist",
+              "hier",
+              "der",
+              "nächste",
+              "Geldautomat",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "dabeihaben: dabei am Satzende",
+            "tiles": [
+              "Ich",
+              "habe",
+              "leider",
+              "nicht",
+              "genug",
+              "Bargeld",
+              "dabei"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Mit einer Karte einer anderen Bank kann man hier 800 € abheben. — With another bank's card you can withdraw €800 here.",
+            "why": "Bei fremden Karten liegt das Limit bei 500 €."
+          },
+          {
+            "answer": false,
+            "q": "Nach zwei falschen PIN-Eingaben ist die Karte gesperrt. — After two wrong PIN entries the card is blocked.",
+            "why": "Erst bei der dritten Falscheingabe."
+          },
+          {
+            "answer": false,
+            "q": "Eine eingezogene Karte bekommt man in der Filiale zurück. — You get a swallowed card back at the branch.",
+            "why": "„Eingezogene Karten werden nicht ausgehändigt.“"
+          },
+          {
+            "answer": true,
+            "q": "Die Sperrnummer erreicht man auch nachts. — The blocking hotline is reachable at night too.",
+            "why": "„rund um die Uhr“."
+          },
+          {
+            "answer": true,
+            "q": "Am Donnerstag ist die Filiale länger geöffnet. — On Thursday the branch is open longer.",
+            "why": "„Do bis 18:00 Uhr“ statt 16:00."
+          },
+          {
+            "answer": false,
+            "q": "Um Mitternacht kommt man an den Automaten. — At midnight you can get to the cash machine.",
+            "why": "Der Automatenraum ist nur 6:00–23:00 Uhr zugänglich."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Sparkasse — Hinweise am Geldautomaten**\n>\n> - Tageslimit: 1.000 € (bei Karten anderer Banken 500 €)\n> - Abhebungen mit Karten fremder Banken: 4,95 € Gebühr\n> - Bei dreimaliger Falscheingabe der PIN wird die Karte gesperrt\n>   und eingezogen.\n> - Eingezogene Karten werden nicht ausgehändigt. Bitte wenden Sie\n>   sich an Ihre Bank.\n> - Sperr-Notruf rund um die Uhr: 116 116\n>\n> Filiale geöffnet: Mo–Fr 9:00–16:00, Do bis 18:00 Uhr.\n> Der Automatenraum ist täglich 6:00–23:00 Uhr zugänglich.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Den Hinweis am Automaten lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Karte sofort über 116 116 sperren, dann die Bank wegen Notfallbargeld kontaktieren."
+              },
+              {
+                "key": "b",
+                "text": "Warten und hoffen, dass die Karte wieder auftaucht."
+              },
+              {
+                "key": "c",
+                "text": "Eine neue Karte online bestellen."
+              }
+            ],
+            "q": "Du bist im Ausland, die Karte ist weg und du hast kein Bargeld. — You're abroad, your card is gone and you have no cash.",
+            "why": "Erst sperren — das verhindert den Schaden. Danach kümmert sich die Bank um eine Notlösung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Abwarten, vielleicht klärt sich das."
+              },
+              {
+                "key": "b",
+                "text": "Sofort bei der Bank melden und der Abbuchung widersprechen."
+              },
+              {
+                "key": "c",
+                "text": "Das Konto kündigen."
+              }
+            ],
+            "q": "Auf deinem Kontoauszug steht eine Zahlung, die du nicht kennst. — There's a payment on your statement you don't recognise.",
+            "why": "Für den Widerspruch gegen eine Lastschrift gibt es eine Frist — je früher, desto einfacher."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Beleg aufheben, Uhrzeit und Automatennummer notieren und bei der Bank reklamieren."
+              },
+              {
+                "key": "b",
+                "text": "Es noch einmal versuchen."
+              },
+              {
+                "key": "c",
+                "text": "Nichts tun, das bucht sich zurück."
+              }
+            ],
+            "q": "Ein Automat zeigt „Vorgang abgebrochen“, aber Geld kam nicht — abgebucht wurde es trotzdem. — A machine says the transaction failed but the money was debited.",
+            "why": "Uhrzeit und Automatennummer sind die Angaben, mit denen die Bank den Vorgang findet."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Auf den Link klicken und die Daten eingeben."
+              },
+              {
+                "key": "b",
+                "text": "Nicht klicken — selbst die Nummer auf der Rückseite deiner Karte anrufen."
+              },
+              {
+                "key": "c",
+                "text": "Die SMS beantworten."
+              }
+            ],
+            "q": "Du bekommst eine SMS: „Ihr Konto wurde gesperrt, klicken Sie hier.“ — You get a text saying your account is blocked, click here.",
+            "why": "Banken schicken keine Links für Zugangsdaten. Immer selbst die bekannte Nummer wählen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Beim nächsten Mal daran denken."
+              },
+              {
+                "key": "b",
+                "text": "Bar zurückgeben, wenn du wieder Geld hast."
+              },
+              {
+                "key": "c",
+                "text": "Noch am selben Abend überweisen und kurz Bescheid geben."
+              }
+            ],
+            "q": "Freunde haben für dich mitbezahlt und du willst das Geld zurückgeben. — Friends paid for you and you want to pay them back.",
+            "why": "Sofort überweisen ist in Deutschland die Norm — und erspart beiden Seiten das Erinnern."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Auf dem Recht bestehen, damit zahlen zu dürfen."
+              },
+              {
+                "key": "b",
+                "text": "Fragen, ob EC-Karte oder Bargeld geht — viele deutsche Läden nehmen keine Kreditkarten."
+              },
+              {
+                "key": "c",
+                "text": "Den Einkauf abbrechen."
+              }
+            ],
+            "q": "Ein Laden akzeptiert deine ausländische Kreditkarte nicht. — A shop won't accept your foreign credit card.",
+            "why": "Kreditkarten sind in kleineren deutschen Läden oft gar nicht vorgesehen. Es gibt kein Recht darauf."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Was machst oder sagst du? Wähle a, b oder c.",
+      "instructionsEn": "What do you do or say? Choose a, b, or c.",
+      "title": "Der Ernstfall"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "abgelehnt"
+          ],
+          "2": [
+            "eingezogen"
+          ],
+          "3": [
+            "sperren"
+          ],
+          "4": [
+            "limit"
+          ],
+          "5": [
+            "dabei"
+          ],
+          "6": [
+            "abziehen",
+            "stornieren"
+          ],
+          "7": [
+            "widerspreche"
+          ],
+          "8": [
+            "überweise"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Karte wurde leider {1}. (nicht akzeptiert)\n2. Der Automat hat meine Karte {2}. (behalten, Partizip II)\n3. Ich möchte meine Karte {3} lassen. (unbrauchbar machen)\n4. Vielleicht ist das Tages{4} erreicht. (Höchstbetrag)\n5. Ich habe nicht genug Bargeld {5}. (bei mir)\n6. Können Sie zwei Sachen wieder {6}? (vom Bon nehmen)\n7. Ich {7} der Abbuchung. (nicht einverstanden sein)\n8. Ich {8} dir das Geld heute Abend. (Geld aufs Konto schicken)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das fehlende Wort.",
+      "instructionsEn": "Fill in the missing word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Karte"
+          ],
+          "2": [
+            "Könnten"
+          ],
+          "3": [
+            "abziehen",
+            "stornieren"
+          ],
+          "4": [
+            "Geldautomat"
+          ],
+          "5": [
+            "sperren"
+          ],
+          "6": [
+            "Portemonnaie"
+          ],
+          "7": [
+            "abgelehnt"
+          ],
+          "8": [
+            "eingezogen"
+          ],
+          "9": [
+            "Tageslimit"
+          ],
+          "10": [
+            "überweisen"
+          ],
+          "11": [
+            "116 116"
+          ],
+          "12": [
+            "Rückseite"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Redemittel (6 Punkte):**\n1. Vorher fragen: „Kann ich bei Ihnen mit {1} zahlen?“\n2. Zweiter Versuch: „{2} Sie es bitte noch einmal versuchen?“\n3. Weniger kaufen: „Können Sie zwei Sachen wieder {3}?“\n4. Automat suchen: „Wo ist hier der nächste {4}?“\n5. Karte sperren: „Ich möchte meine Karte {5} lassen.“\n6. Vergessen: „Ich habe mein {6} vergessen.“\n\n**Wortschatz (4 Punkte):**\n7. Die Karte wurde nicht akzeptiert: sie wurde {7}.\n8. Der Automat hat sie behalten: sie wurde {8}.\n9. Der Höchstbetrag pro Tag: das {9}\n10. Geld aufs Konto von jemandem schicken: {10}\n\n**Sicherheit (2 Punkte):**\n11. Sperr-Notruf in Deutschland: {11}\n12. Bei einer SMS mit Link: nicht klicken, sondern selbst die Nummer auf\nder {12} der Karte anrufen.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die Lücken.",
+      "instructionsEn": "Fill in the gaps.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-11-karte-abgelehnt-a2",
+  "intro": "Deutschland und das Bargeld: Genau dann, wenn du keins dabeihast, steht „Nur Barzahlung“ an der Kasse. Dieses Set übt die kleinen Notfälle rund ums Bezahlen — Karte abgelehnt, Automat schluckt die Karte, Portemonnaie vergessen, Konto gesperrt. Es geht weniger um Grammatik als um die Sätze, die dich aus der Situation bringen, ohne dass es peinlich wird. Grammatik nach Bedarf: Modalverben (können, müssen, dürfen), höfliche Bitten und Perfekt. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/11-karte-abgelehnt-a2",
+  "level": "A2",
+  "summary": "Die Karte wird abgelehnt, der Automat behält sie, du hast kein Bargeld dabei — was du in dem Moment sagst und tust.",
+  "title": "Karte abgelehnt, Automat streikt — A2",
+  "topic": "Wenn das Geld klemmt"
+}

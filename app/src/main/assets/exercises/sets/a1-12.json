@@ -1,0 +1,1765 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Februar"
+          ],
+          "2": [
+            "Mai"
+          ],
+          "3": [
+            "Juli"
+          ],
+          "4": [
+            "September"
+          ],
+          "5": [
+            "Dezember"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Januar · {1} · März · April · {2} · Juni\n2. {3} · August · {4} · Oktober · November · {5}\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die fehlenden Monate in der richtigen Reihenfolge.",
+      "instructionsEn": "Fill in the missing months in the correct order.",
+      "title": "Monate: Lücken füllen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "Ordinalstamm",
+          "Der/Die/Das … (Nominativ)"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "erst-"
+                ],
+                "gap": 1,
+                "given": "erst-"
+              },
+              {
+                "answer": [
+                  "erste"
+                ],
+                "gap": 2,
+                "given": "erste"
+              }
+            ],
+            "label": "1"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "zweit-"
+                ],
+                "gap": 3
+              },
+              {
+                "answer": [
+                  "zweite"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "2"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "dritt-"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "dritte"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "3"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "viert-"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "vierte"
+                ],
+                "gap": 8
+              }
+            ],
+            "label": "4"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "siebt-"
+                ],
+                "gap": 9
+              },
+              {
+                "answer": [
+                  "siebte"
+                ],
+                "gap": 10
+              }
+            ],
+            "label": "7"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "acht-"
+                ],
+                "gap": 11
+              },
+              {
+                "answer": [
+                  "achte"
+                ],
+                "gap": 12
+              }
+            ],
+            "label": "8"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "elft-"
+                ],
+                "gap": 13
+              },
+              {
+                "answer": [
+                  "elfte"
+                ],
+                "gap": 14
+              }
+            ],
+            "label": "11"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "zwanzigst-"
+                ],
+                "gap": 15
+              },
+              {
+                "answer": [
+                  "zwanzigste"
+                ],
+                "gap": 16
+              }
+            ],
+            "label": "20"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "einunddreißigst-"
+                ],
+                "gap": 17
+              },
+              {
+                "answer": [
+                  "einunddreißigste"
+                ],
+                "gap": 18
+              }
+            ],
+            "label": "31"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A2",
+      "instructions": "Schreibe den Ordinalstamm und die volle Nominativform.",
+      "instructionsEn": "Write the ordinal number stem and the full nominative form.",
+      "title": "Ordinalzahlen: Stamm + Nominativform"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "ersten"
+          ],
+          "2": [
+            "zweiten"
+          ],
+          "3": [
+            "fünften"
+          ],
+          "4": [
+            "siebten"
+          ],
+          "5": [
+            "achten"
+          ],
+          "6": [
+            "zehnten"
+          ],
+          "7": [
+            "elften"
+          ],
+          "8": [
+            "zwanzigsten"
+          ],
+          "9": [
+            "einundzwanzigsten"
+          ],
+          "10": [
+            "einunddreißigsten"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. 1. Januar → am {1} Januar\n2. 2. März → am {2} März\n3. 5. April → am {3} April\n4. 7. August → am {4} August\n5. 8. Juni → am {5} Juni\n6. 10. Oktober → am {6} Oktober\n7. 11. November → am {7} November\n8. 20. Dezember → am {8} Dezember\n9. 21. Februar → am {9} Februar\n10. 31. Juli → am {10} Juli\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Schreibe die Daten mit „am + Ordinalzahl (Dativform)\". Beispiel: 3. Mai → am dritten Mai.",
+      "instructionsEn": "Write out the dates using `am + ordinal (dative form)`. Example: 3. Mai → am dritten Mai.",
+      "title": "Datum lesen: „am + Dativ\""
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "1. Oktober"
+          ],
+          "2": [
+            "12. März"
+          ],
+          "3": [
+            "30. Juni"
+          ],
+          "4": [
+            "18. November"
+          ],
+          "5": [
+            "22. Juli"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. am ersten Oktober → {1}\n2. am zwölften März → {2}\n3. am dreißigsten Juni → {3}\n4. am achtzehnten November → {4}\n5. am zweiundzwanzigsten Juli → {5}\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Schreibe das Datum in Ziffern (z. B. am dritten Mai → 3. Mai).",
+      "instructionsEn": "Write the date in digits (e.g., am dritten Mai → 3. Mai).",
+      "title": "Datum schreiben: Wörter → Ziffern"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Am"
+          ],
+          "2": [
+            "Im"
+          ],
+          "3": [
+            "um"
+          ],
+          "4": [
+            "nach"
+          ],
+          "5": [
+            "Im"
+          ],
+          "6": [
+            "vor"
+          ],
+          "7": [
+            "Am"
+          ],
+          "8": [
+            "am"
+          ],
+          "9": [
+            "im"
+          ],
+          "10": [
+            "um"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Montag habe ich einen Termin.\n2. {2} Januar ist es kalt.\n3. Die Party beginnt {3} acht Uhr.\n4. Wir essen {4} dem Kurs. (= after)\n5. {5} Sommer fahren wir an den See.\n6. Ich dusche {6} dem Frühstück. (= before)\n7. {7} Abend gehen wir ins Kino.\n8. Er kommt {8} Freitag.\n9. Frohe Weihnachten! Das ist {9} Dezember.\n10. Das Konzert ist {10} halb neun.\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Ergänze die richtige temporale Präposition.",
+      "instructionsEn": "Fill in the correct temporal preposition.",
+      "title": "Präposition: im, am, um, vor, nach?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Vor dem"
+          ],
+          "2": [
+            "nach dem"
+          ],
+          "3": [
+            "vor der"
+          ],
+          "4": [
+            "Vor der"
+          ],
+          "5": [
+            "vor der"
+          ],
+          "6": [
+            "nach dem"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Essen wasche ich mir die Hände.\n2. Die Feier ist {2} Konzert — zuerst spielen wir, dann feiern wir.\n3. Ich rufe dich {3} Party an und sage dir, wo wir uns treffen.\n4. {4} Arbeit gehe ich ins Fitnessstudio, dann dusche ich und fahre ins Büro.\n5. Wir treffen uns {5} Vorlesung und gehen dann zusammen in den Hörsaal.\n6. Er kommt {6} Deutschkurs ins Café — der Unterricht endet um 18 Uhr.\n",
+        "type": "gap-text"
+      },
+      "id": "A6",
+      "instructions": "Ergänze „vor dem\", „vor der\", „nach dem\" oder „nach der\".",
+      "instructionsEn": "Fill in `vor dem`, `vor der`, `nach dem`, or `nach der`.",
+      "title": "Präposition + Nomen: vor oder nach?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "lade"
+          ],
+          "2": [
+            "ein"
+          ],
+          "3": [
+            "Lädst"
+          ],
+          "4": [
+            "ein"
+          ],
+          "5": [
+            "lädt"
+          ],
+          "6": [
+            "ein"
+          ],
+          "7": [
+            "laden"
+          ],
+          "8": [
+            "ein"
+          ],
+          "9": [
+            "Ladet"
+          ],
+          "10": [
+            "ein"
+          ],
+          "11": [
+            "laden"
+          ],
+          "12": [
+            "ein"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} meine Familie {2}.\n2. {3} du auch Bruno {4}?\n3. Frau Weber {5} alle Kollegen {6}.\n4. Wir {7} euch herzlich {8}.\n5. {9} ihr auch eure Nachbarn {10}?\n6. Meine Eltern {11} mich {12}.\n",
+        "type": "gap-text"
+      },
+      "id": "A7",
+      "instructions": "Ergänze die richtige Form von „einladen\" (trennbar!).",
+      "instructionsEn": "Fill in the correct form of `einladen` (separable!).",
+      "title": "`einladen`: konjugieren"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "passt"
+          ],
+          "2": [
+            "feiern"
+          ],
+          "3": [
+            "schicke"
+          ],
+          "4": [
+            "absagen"
+          ],
+          "5": [
+            "Passt"
+          ],
+          "6": [
+            "plant"
+          ],
+          "7": [
+            "feiert"
+          ],
+          "8": [
+            "schicken"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das {1} (passen) mir gut. Der Termin ist okay.\n2. Wir {2} (feiern) heute Annas Geburtstag.\n3. Ich {3} (schicken) dir eine Einladung.\n4. Leider muss ich {4} (absagen). Ich habe schon einen Termin.\n5. {5} (passen) euch der dreizehnte Mai?\n6. Was {6} (planen) ihr für das Wochenende?\n7. Er {7} (feiern) gern. Er macht oft Partys.\n8. Wir {8} (schicken) Ihnen die Einladung per E-Mail.\n",
+        "type": "gap-text"
+      },
+      "id": "A8",
+      "instructions": "Ergänze die richtige Form des Verbs in Klammern.",
+      "instructionsEn": "Fill in the correct form of the verb in brackets.",
+      "title": "Verben im Satz: passen, feiern, schicken, planen, absagen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "geht"
+          ],
+          "2": [
+            "kann"
+          ],
+          "3": [
+            "schon"
+          ],
+          "4": [
+            "leider"
+          ],
+          "5": [
+            "Geht"
+          ],
+          "6": [
+            "absagen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das {1} leider nicht. (kommt / geht / macht)\n2. Ich {2} leider nicht kommen. (habe / kann / will) — polite refusal\n3. Ich habe {3} einen Termin. (schon / noch / auch)\n4. Das passt mir {4} nicht. (leider / gern / immer)\n5. {5} es auch am Samstag? (Geht / Passt / Kann)\n6. Ich muss den Termin leider {6}. (einladen / absagen / stattfinden)\n",
+        "type": "gap-text"
+      },
+      "id": "A9",
+      "instructions": "Ergänze das passende Wort aus der Klammer.",
+      "instructionsEn": "Fill in the appropriate word from the bracket.",
+      "title": "Termine ablehnen: Sätze ergänzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Der Arzttermin ist am Mittwoch, dem dritten Oktober, um zehn Uhr dreißig.",
+            "Der Arzttermin ist am Mittwoch, dem dritten Oktober, um halb elf."
+          ],
+          "2": [
+            "Der Deutschkurs ist am Dienstag, dem achten November, um achtzehn Uhr."
+          ],
+          "3": [
+            "Die Geburtstagsfeier ist am Samstag, dem einundzwanzigsten Mai, um neunzehn Uhr."
+          ],
+          "4": [
+            "Das Konzert ist am Freitag, dem ersten Dezember, um zwanzig Uhr dreißig.",
+            "Das Konzert ist am Freitag, dem ersten Dezember, um halb neun."
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Arzttermin — Mittwoch, 3. Oktober — 10:30 → {1}\n2. Deutschkurs — Dienstag, 8. November — 18:00 → {2}\n3. Geburtstagsfeier — Samstag, 21. Mai — 19:00 → {3}\n4. Konzert — Freitag, 1. Dezember — 20:30 → {4}\n",
+        "type": "gap-text"
+      },
+      "id": "A10",
+      "instructions": "Schreibe vollständige Sätze mit Datum und Uhrzeit. Beispiel: (Party — 14. Juni — 20:00) → Die Party findet am vierzehnten Juni um zwanzig Uhr statt.",
+      "instructionsEn": "Write full sentences with the date and time given. Example: (Party — 14. Juni — 20:00) → Die Party findet am vierzehnten Juni um zwanzig Uhr statt.",
+      "title": "Datum + Uhrzeit kombinieren"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "f",
+          "2": "e",
+          "3": "a",
+          "4": "c",
+          "5": "d",
+          "6": "b"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Herzlichen Glückwunsch zum Geburtstag!"
+          },
+          {
+            "key": "2",
+            "text": "Frohe Weihnachten!"
+          },
+          {
+            "key": "3",
+            "text": "Frohes Neues Jahr!"
+          },
+          {
+            "key": "4",
+            "text": "Frohe Ostern!"
+          },
+          {
+            "key": "5",
+            "text": "Herzlichen Glückwunsch zur Hochzeit!"
+          },
+          {
+            "key": "6",
+            "text": "Herzlichen Glückwunsch zur Geburt!"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "1. Januar"
+          },
+          {
+            "key": "b",
+            "text": "Geburt eines Kindes"
+          },
+          {
+            "key": "c",
+            "text": "März/April"
+          },
+          {
+            "key": "d",
+            "text": "Hochzeit"
+          },
+          {
+            "key": "e",
+            "text": "25. Dezember"
+          },
+          {
+            "key": "f",
+            "text": "Geburtstag"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A11",
+      "instructions": "Ordne die Phrase dem passenden Anlass zu.",
+      "instructionsEn": "Match the phrase with the occasion.",
+      "title": "Glückwünsche: Welcher Anlass?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Party",
+            "Feier"
+          ],
+          "2": [
+            "denn",
+            "genau",
+            "das"
+          ],
+          "3": [
+            "sechzehnten"
+          ],
+          "4": [
+            "passt"
+          ],
+          "5": [
+            "schon einen Termin",
+            "leider keine Zeit"
+          ],
+          "6": [
+            "Siebzehnten"
+          ],
+          "7": [
+            "passt",
+            "geht"
+          ],
+          "8": [
+            "gern"
+          ],
+          "9": [
+            "schicke"
+          ],
+          "10": [
+            "Herzlichen"
+          ]
+        },
+        "listLayout": true,
+        "text": "— He, Luisa! Ich mache eine {1} am Samstag.\n— Oh, toll! Wann {2}?\n— Am {3} Juli, um neun Uhr abends.\n— Hm, der Sechzehnte … das {4} mir leider nicht. Ich habe {5}.\n— Schade! Und am {6}?\n— Ja, der Siebzehnte {7}! Ich komme {8}!\n— Super! Ich {9} dir eine Einladung.\n— Danke! {10} Glückwunsch schon mal!\n",
+        "type": "gap-text"
+      },
+      "id": "B1",
+      "instructions": "Fülle die Lücken.",
+      "instructionsEn": "Fill in the blanks.",
+      "title": "Dialog ergänzen: Einladung zur Party"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Sie"
+          ],
+          "2": [
+            "gern",
+            "bitte"
+          ],
+          "3": [
+            "Ihnen"
+          ],
+          "4": [
+            "wie viel"
+          ],
+          "5": [
+            "zehn Uhr dreißig",
+            "halb elf"
+          ],
+          "6": [
+            "passt"
+          ],
+          "7": [
+            "Namen"
+          ],
+          "8": [
+            "Wiederhören"
+          ]
+        },
+        "listLayout": true,
+        "text": "— Guten Tag, Praxis Dr. Hoffmann. Was kann ich für {1} tun?\n— Ich möchte {2} einen Termin.\n— Gern. Passt {3} Donnerstag, der vierte März?\n— Um {4} Uhr?\n— Um {5}.\n— Ja, das {6} gut.\n— Sehr gut. Darf ich Ihren {7} bitte?\n— Weber, Frau Weber.\n— Danke. Auf {8}, Frau Weber!\n",
+        "type": "gap-text"
+      },
+      "id": "B2",
+      "title": "Dialog ergänzen: Arzttermin (formal)"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "am"
+          ],
+          "2": [
+            "zwanzigsten"
+          ],
+          "3": [
+            "im"
+          ],
+          "4": [
+            "am"
+          ],
+          "5": [
+            "meine Freunde"
+          ],
+          "6": [
+            "Gute"
+          ],
+          "7": [
+            "lädt"
+          ],
+          "8": [
+            "leider nicht"
+          ],
+          "9": [
+            "machen wir"
+          ],
+          "10": [
+            "leider"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Mein Geburtstag ist {1} dreizehnten Mai. (im → ?)\n2. Die Party findet am {2} Juni statt. (zwanzig → ?)\n3. Wir feiern {3} Sommer Geburtstag. (in → ?)\n4. Das Konzert beginnt {4} Abend. (um → ?)\n5. Ich lade {5} zur Party ein. (meinen Freunden → ?)\n6. Herzlichen Glückwunsch zum Geburtstag, ich wünsche dir alles {6}! (gut → ?)\n7. Er {7} alle Kollegen ein. (lädet → ?)\n8. Das passt mir {8}. (nicht leider → ?)\n9. Nach dem Essen {9} Musik. (wir machen → ?)\n10. Ich habe schon einen Termin — ich kann {10} nicht kommen. (nicht kommen leider → ?)\n",
+        "type": "gap-text"
+      },
+      "id": "B3",
+      "instructions": "Jeder Satz hat genau einen Fehler. Das falsche Wort steht als Lücke — schreibe die richtige Form.",
+      "instructionsEn": "Each sentence has exactly one mistake. The wrong word is shown as a gap — write the correct form.",
+      "title": "Finde den Fehler"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "c",
+          "2": "e",
+          "3": "b",
+          "4": "a",
+          "5": "d",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Wann hast du Geburtstag?"
+          },
+          {
+            "key": "2",
+            "text": "Kannst du am Freitag kommen?"
+          },
+          {
+            "key": "3",
+            "text": "Um wie viel Uhr beginnt die Party?"
+          },
+          {
+            "key": "4",
+            "text": "Passt dir der elfte Mai?"
+          },
+          {
+            "key": "5",
+            "text": "Was sagst du zum Geburtstag?"
+          },
+          {
+            "key": "6",
+            "text": "Welcher Monat kommt nach Juni?"
+          },
+          {
+            "key": "7",
+            "text": "In welchem Monat ist Weihnachten?"
+          },
+          {
+            "key": "8",
+            "text": "Was machst du nach der Party?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Ja, der Elfte passt mir gut."
+          },
+          {
+            "key": "b",
+            "text": "Um halb acht."
+          },
+          {
+            "key": "c",
+            "text": "Am zweiten August."
+          },
+          {
+            "key": "d",
+            "text": "Ich wünsche dir alles Gute!"
+          },
+          {
+            "key": "e",
+            "text": "Nein, leider nicht — ich habe einen Termin."
+          },
+          {
+            "key": "f",
+            "text": "Juli."
+          },
+          {
+            "key": "g",
+            "text": "Im Dezember."
+          },
+          {
+            "key": "h",
+            "text": "Ich gehe nach Hause und schlafe."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B4",
+      "title": "Frage und Antwort verbinden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              2,
+              1,
+              3,
+              4,
+              5
+            ],
+            "note": "Am Montag habe ich einen Termin.",
+            "tiles": [
+              "am",
+              "habe",
+              "Montag",
+              "ich",
+              "einen",
+              "Termin"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              0,
+              3,
+              2,
+              4
+            ],
+            "note": "Im Juli feiern wir Geburtstag.",
+            "tiles": [
+              "Juli",
+              "im",
+              "wir",
+              "feiern",
+              "Geburtstag"
+            ]
+          },
+          {
+            "answer": [
+              2,
+              4,
+              5,
+              0,
+              1,
+              3
+            ],
+            "note": "Die Party beginnt um neun Uhr.",
+            "tiles": [
+              "um",
+              "neun",
+              "die",
+              "Uhr",
+              "Party",
+              "beginnt"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              3,
+              2,
+              0
+            ],
+            "note": "Das geht leider nicht.",
+            "tiles": [
+              "nicht",
+              "das",
+              "leider",
+              "geht"
+            ]
+          },
+          {
+            "answer": [
+              3,
+              4,
+              0,
+              2,
+              1
+            ],
+            "note": "Wir laden euch herzlich ein.",
+            "tiles": [
+              "euch",
+              "ein",
+              "herzlich",
+              "wir",
+              "laden"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              2,
+              3,
+              1,
+              4,
+              5,
+              6
+            ],
+            "note": "Nach der Arbeit kommt er ins Café.",
+            "tiles": [
+              "nach",
+              "kommt",
+              "der",
+              "Arbeit",
+              "er",
+              "ins",
+              "Café"
+            ]
+          },
+          {
+            "answer": [
+              2,
+              0,
+              3,
+              1,
+              4
+            ],
+            "note": "Ich schicke dir eine Einladung.",
+            "tiles": [
+              "schicke",
+              "eine",
+              "ich",
+              "dir",
+              "Einladung"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              3,
+              4,
+              0,
+              2,
+              5,
+              6
+            ],
+            "note": "Passt es Ihnen am dritten Mai?",
+            "tiles": [
+              "am",
+              "passt",
+              "dritten",
+              "es",
+              "Ihnen",
+              "Mai",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              4,
+              5,
+              1,
+              3,
+              2
+            ],
+            "note": "Vor dem Spiel spielen wir Fußball.",
+            "tiles": [
+              "vor",
+              "spielen",
+              "Fußball",
+              "wir",
+              "dem",
+              "Spiel"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              3,
+              2,
+              0
+            ],
+            "note": "Herzlichen Glückwunsch zum Geburtstag!",
+            "tiles": [
+              "Geburtstag",
+              "herzlichen",
+              "zum",
+              "Glückwunsch"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B5",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge. Verb auf Position 2.",
+      "instructionsEn": "Put the words in the correct order. Verb in position 2.",
+      "skill": "word-order",
+      "title": "Satzbau"
+    },
+    {
+      "block": "B",
+      "body": {
+        "columns": [
+          "Jahreszeit",
+          "Deutsch-Feiertag (Beispiel)"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Winter"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "Weihnachten (25. Dezember)",
+                  "Silvester",
+                  "Neujahr"
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "Dezember – Februar"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Frühling"
+                ],
+                "gap": 3
+              },
+              {
+                "answer": [
+                  "Ostern",
+                  "Ostern (März/April)"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "März – Mai"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Sommer"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "(kein großer nationaler Feiertag)",
+                  "Sommerfest"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "Juni – August"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Herbst"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "Tag der Deutschen Einheit (3. Oktober)"
+                ],
+                "gap": 8
+              }
+            ],
+            "label": "September – November"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "B6",
+      "instructions": "Ergänze die Jahreszeit und antworte: Welcher deutsche Feiertag fällt in diese Jahreszeit?",
+      "instructionsEn": "Fill in the season, then answer: Which German holiday falls in that season?",
+      "title": "Jahreszeiten und Monate"
+    },
+    {
+      "block": "B",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "Geburtstag",
+              "Party",
+              "Einladung",
+              "Supermarkt"
+            ],
+            "odd": 3,
+            "why": "not a celebration or event (Supermarkt = supermarket)"
+          },
+          {
+            "items": [
+              "Weihnachten",
+              "Ostern",
+              "Silvester",
+              "Montag"
+            ],
+            "odd": 3,
+            "why": "not a holiday (Montag = a weekday)"
+          },
+          {
+            "items": [
+              "im",
+              "am",
+              "um",
+              "weil"
+            ],
+            "odd": 3,
+            "why": "not a temporal preposition (weil = subordinating conjunction)"
+          },
+          {
+            "items": [
+              "Januar",
+              "März",
+              "Sommer",
+              "Oktober"
+            ],
+            "odd": 2,
+            "why": "not a month (Sommer = a season)"
+          },
+          {
+            "items": [
+              "feiern",
+              "einladen",
+              "gratulieren",
+              "kaufen"
+            ],
+            "odd": 3,
+            "why": "not a celebration/socializing verb (kaufen = to buy)"
+          },
+          {
+            "items": [
+              "vor",
+              "nach",
+              "herzlich",
+              "während"
+            ],
+            "odd": 2,
+            "why": "not a temporal preposition (herzlich = an adjective/adverb)"
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "B7",
+      "title": "Was passt nicht?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "bin"
+          ],
+          "2": [
+            "ist"
+          ],
+          "3": [
+            "am"
+          ],
+          "4": [
+            "um"
+          ],
+          "5": [
+            "bei"
+          ],
+          "6": [
+            "ein"
+          ],
+          "7": [
+            "auch"
+          ],
+          "8": [
+            "schicke"
+          ],
+          "9": [
+            "bitte"
+          ],
+          "10": [
+            "auf"
+          ]
+        },
+        "text": "Hallo, ich {1} Anna und ich mache eine Party! Mein Geburtstag {2} am dreizehnten Mai. Die Feier ist {3} Samstag, dem vierzehnten Mai, {4} neunzehn Uhr. Sie findet {5} mir zu Hause statt. Ich lade alle meine Freunde {6}. Kannst du {7} kommen? Ich {8} dir eine Einladung. Bitte sag mir {9} Bescheid, ob du kommen kannst. Ich freue mich {10} die Party!\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Fülle jede Lücke mit einem Wort.",
+      "instructionsEn": "Fill each gap with one word.",
+      "title": "Lückentext (10 Lücken)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "laden"
+              },
+              {
+                "key": "b",
+                "text": "lädst"
+              },
+              {
+                "key": "c",
+                "text": "lade"
+              }
+            ],
+            "q": "ich (1) ______ dich herzlich zu meiner Geburtstagsfeier ein. — I (1) ______ you warmly to my birthday party.",
+            "why": "ich-form of einladen; the separable prefix ein appears later, so the stem is lade."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "am"
+              },
+              {
+                "key": "b",
+                "text": "im"
+              },
+              {
+                "key": "c",
+                "text": "um"
+              }
+            ],
+            "q": "Die Party findet (2) ______ Samstag, (3) ______ achten März, statt. — The party takes place (2) ______ Saturday, (3) ______ eighth of March.",
+            "why": "specific day of the week → am."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "dem"
+              },
+              {
+                "key": "b",
+                "text": "der"
+              },
+              {
+                "key": "c",
+                "text": "des"
+              }
+            ],
+            "q": "... Samstag, (3) ______ achten März, statt. — ... Saturday, (3) ______ eighth of March.",
+            "why": "am Samstag, dem achten März — the date after a day name takes dative → dem."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er"
+              },
+              {
+                "key": "b",
+                "text": "Sie"
+              },
+              {
+                "key": "c",
+                "text": "Es"
+              }
+            ],
+            "q": "(4) ______ beginnt die Feier um 20 Uhr. — (4) ______ the celebration starts at 8 pm.",
+            "why": "impersonal subject: Es beginnt um 20 Uhr."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "bitte"
+              },
+              {
+                "key": "b",
+                "text": "gern"
+              },
+              {
+                "key": "c",
+                "text": "schon"
+              }
+            ],
+            "q": "Bitte sag mir (5) ______ Bescheid, ob du kommen (6) ______. — Please let me know (5) ______ whether you can come (6) ______.",
+            "why": "polite request: sag mir bitte Bescheid."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "kann"
+              },
+              {
+                "key": "b",
+                "text": "kannst"
+              },
+              {
+                "key": "c",
+                "text": "können"
+              }
+            ],
+            "q": "... ob du kommen (6) ______. — ... whether you can come (6) ______.",
+            "why": "du-form of können: kannst."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle die richtige Option (a, b oder c) für jede Lücke.",
+      "instructionsEn": "Choose the correct option (a, b, or c) for each gap.",
+      "title": "Sprachbausteine Teil 1 (6 Lücken, je 3 Optionen)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "BEGINNT"
+          ],
+          "2": [
+            "AM"
+          ],
+          "3": [
+            "STATT"
+          ],
+          "4": [
+            "EINLADUNG"
+          ],
+          "5": [
+            "PASST"
+          ],
+          "6": [
+            "LEIDER"
+          ],
+          "7": [
+            "FEIERT"
+          ],
+          "8": [
+            "BESCHEID"
+          ],
+          "9": [
+            "HERZLICHEN"
+          ],
+          "10": [
+            "GEBURTSTAG"
+          ]
+        },
+        "bank": [
+          "AM",
+          "BEGINNT",
+          "BESCHEID",
+          "EINLADUNG",
+          "FEIERT",
+          "FROHES",
+          "GEBURTSTAG",
+          "HERZLICHEN",
+          "IM",
+          "LEIDER",
+          "PASST",
+          "SCHICKE",
+          "STATT",
+          "UHR",
+          "UND"
+        ],
+        "text": "— Wann {1} Luisas Party eigentlich?\n— Die Feier findet {2} Samstagabend {3}. Sie schreibt im Chat,\n  dass sie uns eine {4} schickt.\n— {5} das dir? Ich habe {6} einen Termin — ich kann nicht kommen.\n— Oh schade! Ich gehe hin. Luisa {7} immer so toll!\n— Dann sag ihr {8} von mir: {9} Glückwunsch zum {10}!\n— Mache ich!\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Fünf Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps using words from the box. Five words are not needed. Each word may be used once.",
+      "title": "Sprachbausteine Teil 2 (Wortkasten, 10 Lücken, 5 Distraktoren)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Anna hat am Samstag, dem siebzehnten Juni, Geburtstag. — Anna has her birthday on Saturday, the seventeenth of June.",
+            "why": "Der Lesetext sagt: „am Samstag, dem siebzehnten Juni, Geburtstag\"."
+          },
+          {
+            "answer": true,
+            "q": "Die Feier findet am achtzehnten Juni statt. — The celebration takes place on the eighteenth of June.",
+            "why": "„Die Feier findet am achtzehnten Juni … statt\"."
+          },
+          {
+            "answer": false,
+            "q": "Die Party ist im Restaurant. — The party is at the restaurant.",
+            "why": "„bei mir zu Hause\", nicht im Restaurant."
+          },
+          {
+            "answer": true,
+            "q": "Die Feier beginnt um achtzehn Uhr. — The celebration begins at six pm.",
+            "why": "„um achtzehn Uhr\"."
+          },
+          {
+            "answer": true,
+            "q": "Gäste sollen bis zum zehnten Juni antworten. — Guests should reply by the tenth of June.",
+            "why": "„bis zum zehnten Juni Bescheid\"."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Liebe Familie,\n>\n> ich lade euch herzlich zu meiner Geburtstagsfeier ein! Ich habe am\n> Samstag, dem siebzehnten Juni, Geburtstag — ich werde 30! Die Feier\n> findet am Abend statt: am achtzehnten Juni, einem Sonntag, um\n> achtzehn Uhr. Die Party ist bei mir zu Hause, in der Mozartstraße 4.\n>\n> Bitte sagt mir bis zum zehnten Juni Bescheid, ob ihr kommen könnt.\n>\n> Ich freue mich auf euch!\n>\n> Viele Grüße,\n> Anna\n\nRichtig (R) oder falsch (F)?\n",
+      "title": "Lesen Text 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Eine Hochzeit"
+              },
+              {
+                "key": "b",
+                "text": "Ein Geburtstag"
+              },
+              {
+                "key": "c",
+                "text": "Ostern"
+              }
+            ],
+            "q": "Was wird am 5. August gefeiert? — What is being celebrated on August 5th?",
+            "why": "„wir feiern … unsere Hochzeit\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zu Hause"
+              },
+              {
+                "key": "b",
+                "text": "Im Restaurant"
+              },
+              {
+                "key": "c",
+                "text": "Im Park"
+              }
+            ],
+            "q": "Wo findet die Feier statt? — Where is the celebration taking place?",
+            "why": "„im Restaurant „Zur Sonne\"\"."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Um 12 Uhr"
+              },
+              {
+                "key": "b",
+                "text": "Um 20 Uhr"
+              },
+              {
+                "key": "c",
+                "text": "Um 15 Uhr"
+              }
+            ],
+            "q": "Um wie viel Uhr beginnt die Veranstaltung? — At what time does the event start?",
+            "why": "15:00 Uhr."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bis zum 20. Juli"
+              },
+              {
+                "key": "b",
+                "text": "Bis zum 5. August"
+              },
+              {
+                "key": "c",
+                "text": "Bis zum 12. August"
+              }
+            ],
+            "q": "Bis wann muss man antworten? — By when does one have to reply?",
+            "why": "„bis zum 20. Juli Bescheid\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "> **Einladung!**\n>\n> Liebe Freunde und Familie,\n>\n> wir feiern am Samstag, dem 5. August, unsere Hochzeit!\n> Die Feier beginnt um 15:00 Uhr im Restaurant „Zur Sonne\",\n> Hauptstraße 12, München.\n>\n> Bitte gebt uns bis zum 20. Juli Bescheid.\n>\n> Herzliche Grüße,\n> Mia & Jonas\n\nChoose a, b, or c.\n",
+      "title": "Lesen Text 2 — Einladungskarte"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Juni"
+          ],
+          "2": [
+            "am dritten Oktober"
+          ],
+          "3": [
+            "steht"
+          ],
+          "4": [
+            "auf"
+          ],
+          "5": [
+            "im"
+          ],
+          "6": [
+            "nicht"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "gefeiert"
+          ],
+          "9": [
+            "zwanzigsten"
+          ],
+          "10": [
+            "kann"
+          ],
+          "11": [
+            "die Einladung"
+          ],
+          "12": [
+            "muss"
+          ],
+          "13": [
+            "um"
+          ],
+          "14": [
+            "einen"
+          ],
+          "15": [
+            "Frohe Weihnachten!"
+          ],
+          "16": [
+            "im"
+          ],
+          "17": [
+            "Dieser"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. „am\" + Datum: „am dreizehnten …\" — which month comes after Mai? → {1}\n2. 3. Oktober spoken → {2}\n3. (L5) Separable verb in a sentence: „Sie {3} um 7 Uhr {4}.\" (aufstehen)\n4. Temporal preposition for months: {5} März\n5. „Das passt mir leider {6}.\" (one word to complete)\n6. (L11) Perfekt: „Wir {7} gestern Geburtstag {8}.\" (feiern)\n7. Ordinal from 20: der zwanzigste … dative → am {9}\n8. (L6) „Ich {10} leider nicht kommen.\" (können — polite refusal)\n9. The German word for „invitation\" (with article) → {11}\n10. (L7) „Ich {12} heute Abend arbeiten.\" (müssen)\n11. Temporal preposition for clock time: {13} acht Uhr\n12. (L2) „Er hat {14} Bruder.\" (indefinite article, masc. acc.)\n13. \"Merry Christmas!\" → {15}\n14. Temporal preposition for seasons: {16} Sommer\n15. (L9) Demonstrative: „{17} Rock gefällt mir nicht.\" (dieser, Nom.)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Eine Antwort pro Aufgabe. Keine Notizen.",
+      "instructionsEn": "One answer per item. No notes.",
+      "title": "Gemischter Schnelltest (15 Punkte)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "Januar",
+              "März",
+              "Sommer",
+              "Oktober"
+            ],
+            "odd": 2,
+            "why": "Sommer is a season, not a month"
+          },
+          {
+            "items": [
+              "Geburtstag",
+              "Weihnachten",
+              "Ostern",
+              "Kalender"
+            ],
+            "odd": 3,
+            "why": "Kalender is an object, not a celebration/holiday"
+          },
+          {
+            "items": [
+              "am",
+              "im",
+              "um",
+              "weil"
+            ],
+            "odd": 3,
+            "why": "weil is a subordinating conjunction, not a preposition"
+          },
+          {
+            "items": [
+              "feiern",
+              "einladen",
+              "gratulieren",
+              "schlafen"
+            ],
+            "odd": 3,
+            "why": "schlafen (to sleep) is unrelated to celebrating or inviting"
+          },
+          {
+            "items": [
+              "Einladung",
+              "Termin",
+              "Geschenk",
+              "regnen"
+            ],
+            "odd": 3,
+            "why": "regnen (to rain) is a weather verb, not an event/object"
+          },
+          {
+            "items": [
+              "erst",
+              "zweit",
+              "dritt",
+              "siebzehn"
+            ],
+            "odd": 3,
+            "why": "siebzehn is a cardinal number; the others are ordinal stems"
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Streiche das Wort durch, das nicht passt, und sage warum.",
+      "instructionsEn": "Cross out the word that doesn't fit and say why.",
+      "title": "Odd one out (6 Gruppen)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "bin"
+          ],
+          "2": [
+            "gegangen"
+          ],
+          "3": [
+            "fährt"
+          ],
+          "4": [
+            "ab"
+          ],
+          "5": [
+            "muss"
+          ],
+          "6": [
+            "mit dem"
+          ],
+          "7": [
+            "gern"
+          ],
+          "8": [
+            "Kopfschmerzen"
+          ],
+          "9": [
+            "gibt"
+          ],
+          "10": [
+            "kostet"
+          ],
+          "11": [
+            "—"
+          ],
+          "12": [
+            "Woher kommen Sie?"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. (L11) „Ich {1} gestern ins Kino {2}.\" (gehen — Perfekt)\n2. (L5) „Der Zug {3} um 8:15 {4}.\" (abfahren — Präsens)\n3. (L7) „Sie {5} jetzt lernen.\" (müssen)\n4. (L8) „Er fährt {6} Bus zur Arbeit.\" (preposition + article → mit + Dat.)\n5. (L6) „Was machst du {7}?\" (gern / lieber / am liebsten — for liking)\n6. (L10) „Ich habe {8}.\" (say you have a headache — die Kopfschmerzen)\n7. (L4) „Es {9} in der Küche einen Tisch.\" (es gibt)\n8. (L3) „Was {10} der Apfelkuchen?\" (kosten — er-form)\n9. (L2) „Hast du {11} Geschwister?\" (any — ask yes/no)\n10. (L1) Formal: \"Where are you from?\" → {12}\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "title": "Wiederholung früherer Lektionen (10 Punkte)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "ersten"
+          ],
+          "2": [
+            "dritten"
+          ],
+          "3": [
+            "siebten"
+          ],
+          "4": [
+            "zwanzigsten"
+          ],
+          "5": [
+            "am"
+          ],
+          "6": [
+            "im"
+          ],
+          "7": [
+            "um"
+          ],
+          "8": [
+            "nach"
+          ],
+          "9": [
+            "lädt"
+          ],
+          "10": [
+            "ein"
+          ],
+          "11": [
+            "feiern"
+          ],
+          "12": [
+            "Herzlichen Glückwunsch zum Geburtstag!"
+          ],
+          "13": [
+            "Ich kann leider nicht kommen."
+          ],
+          "14": [
+            "Das passt mir gut."
+          ],
+          "15": [
+            "schicke"
+          ],
+          "16": [
+            "Juli"
+          ],
+          "17": [
+            "November"
+          ],
+          "18": [
+            "Die Feier findet am achtzehnten Juni statt."
+          ],
+          "19": [
+            "am"
+          ],
+          "20": [
+            "Frohe Weihnachten!"
+          ],
+          "21": [
+            "Frohes Neues Jahr!"
+          ],
+          "22": [
+            "Herzlichen Glückwunsch zum Geburtstag!"
+          ]
+        },
+        "listLayout": true,
+        "text": "Dates:\n1. 1. Mai → am {1}\n2. 3. Oktober → am {2}\n3. 7. März → am {3}\n4. 20. November → am {4}\n\nPrepositions:\n5. {5} Freitag\n6. {6} Sommer\n7. {7} 19 Uhr\n8. {8} dem Essen (after)\n\nVerbs:\n9. einladen – er-form: er {9} … {10}\n10. feiern – wir-form: wir {11}\n\nPhrases:\n11. \"Happy birthday!\" (warm form) → {12}\n12. \"I'm afraid I can't come.\" → {13}\n13. \"That suits me well.\" → {14}\n14. „Ich {15} dir eine Einladung.\" (schicken – ich-form)\n\nMonths:\n15. Which month comes before August? → {16}\n16. Which month comes after Oktober? → {17}\n\nSentences:\n17. am – findet – achtzehnten – die – Juni – Feier – statt → {18}\n18. „Hast du {19} Zeit?\" (Samstag — use preposition!)\n19. \"Merry Christmas!\" + \"Happy New Year!\" → {20} / {21}\n20. What do you say when someone has a birthday? (one full sentence) → {22}\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (/20) — Termine und Feste"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "a1-12",
+  "intro": "Blocks: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Answers in solutions.md. Tip: spread the blocks over several days — H and A today, B tomorrow, C and D after that.\n",
+  "lesson": "A1/12",
+  "level": "A1",
+  "summary": null,
+  "title": "A1 · Lektion 12 — Übungen",
+  "topic": null
+}

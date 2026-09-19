@@ -1,0 +1,822 @@
+{
+  "category": "Essen & Trinken",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "backen",
+            "label": "Aus dem Ofen"
+          },
+          {
+            "key": "trinken",
+            "label": "Zum Trinken"
+          },
+          {
+            "key": "drumherum",
+            "label": "Drumherum"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "backen",
+            "text": "das Croissant"
+          },
+          {
+            "bucket": "trinken",
+            "text": "der Milchkaffee"
+          },
+          {
+            "bucket": "drumherum",
+            "text": "der Pappbecher"
+          },
+          {
+            "bucket": "backen",
+            "text": "die Laugenstange"
+          },
+          {
+            "bucket": "trinken",
+            "text": "der Espresso"
+          },
+          {
+            "bucket": "drumherum",
+            "text": "die Serviette"
+          },
+          {
+            "bucket": "backen",
+            "text": "das Käsebrötchen"
+          },
+          {
+            "bucket": "trinken",
+            "text": "die heiße Schokolade"
+          },
+          {
+            "bucket": "drumherum",
+            "text": "die Papiertüte"
+          },
+          {
+            "bucket": "backen",
+            "text": "der Streuselkuchen"
+          },
+          {
+            "bucket": "trinken",
+            "text": "der Apfelsaft"
+          },
+          {
+            "bucket": "drumherum",
+            "text": "der Deckel"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Was steht wo in der Auslage?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Zum Hieressen oder zum Mitnehmen?"
+          },
+          {
+            "key": "2",
+            "text": "Soll ich es Ihnen warm machen?"
+          },
+          {
+            "key": "3",
+            "text": "Darf es sonst noch etwas sein?"
+          },
+          {
+            "key": "4",
+            "text": "Brauchen Sie eine Tüte?"
+          },
+          {
+            "key": "5",
+            "text": "Karte oder bar?"
+          },
+          {
+            "key": "6",
+            "text": "Welche Größe darf es sein?"
+          },
+          {
+            "key": "7",
+            "text": "Mit Hafermilch?"
+          },
+          {
+            "key": "8",
+            "text": "Haben Sie es vielleicht klein?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Zum Mitnehmen, bitte."
+          },
+          {
+            "key": "b",
+            "text": "Ja, gern, kurz in den Ofen."
+          },
+          {
+            "key": "c",
+            "text": "Nein danke, das war alles."
+          },
+          {
+            "key": "d",
+            "text": "Nein, ich habe eine dabei."
+          },
+          {
+            "key": "e",
+            "text": "Mit Karte, bitte."
+          },
+          {
+            "key": "f",
+            "text": "Einmal mittel, bitte."
+          },
+          {
+            "key": "g",
+            "text": "Ja, bitte, mit Hafer."
+          },
+          {
+            "key": "h",
+            "text": "Moment, ich schaue mal — nein, nur den Schein."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jeder Frage der Bedienung eine passende Antwort zu.",
+      "instructionsEn": "Match each question from the counter with a fitting answer.",
+      "title": "Die Frage und deine Antwort"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "einen"
+          ],
+          "2": [
+            "ein"
+          ],
+          "3": [
+            "zweimal"
+          ],
+          "4": [
+            "ein"
+          ],
+          "5": [
+            "eine"
+          ],
+          "6": [
+            "einen"
+          ],
+          "7": [
+            "drei"
+          ],
+          "8": [
+            "keinen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich hätte gern {1} Kaffee, bitte. (der Kaffee → Akkusativ)\n2. Und dazu {2} Croissant. (das Croissant → Akkusativ)\n3. Bitte {3} die Laugenstange. (2 × — am Tresen sagt man …mal)\n4. Ich nehme {4} Stück Streuselkuchen. (das Stück → Akkusativ)\n5. Haben Sie noch {5} Brezel? (die Brezel → Akkusativ)\n6. Geben Sie mir bitte {6} halben Liter Milch. (der Liter → Akkusativ)\n7. Dazu noch {7} Käsebrötchen, bitte. (Zahl 3)\n8. Ich möchte {8} Zucker, danke. (Verneinung von einen)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze die Mengenangabe oder den Artikel im Akkusativ.",
+      "instructionsEn": "Fill in the quantity expression or the accusative article.",
+      "title": "Einmal, zweimal, ein Stück"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "aufbacken"
+          ],
+          "2": [
+            "nehme"
+          ],
+          "3": [
+            "mit"
+          ],
+          "4": [
+            "packt"
+          ],
+          "5": [
+            "ein"
+          ],
+          "6": [
+            "zumachen"
+          ],
+          "7": [
+            "räumen"
+          ],
+          "8": [
+            "weg"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Soll ich Ihnen das Brötchen kurz {1}? (aufbacken — Infinitiv nach soll)\n2. Ich {2} das Croissant {3}. (mitnehmen, ich-Form)\n3. Die Bedienung {4} den Kuchen {5}. (einpacken, sie-Form)\n4. Können Sie den Becher bitte {6}? (zumachen — Infinitiv nach können)\n5. Wir {7} das Tablett selbst {8}. (wegräumen, wir-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das Verb in der richtigen Form. Die Vorsilbe gehört ans Satzende.",
+      "instructionsEn": "Fill in the verb in the correct form. The prefix goes to the end of the clause.",
+      "title": "Trennbare Verben am Tresen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "SEIN"
+          ],
+          "2": [
+            "MACHEN"
+          ],
+          "3": [
+            "MITNEHMEN"
+          ],
+          "4": [
+            "GRÖSSE"
+          ],
+          "5": [
+            "SONST"
+          ],
+          "6": [
+            "ALLES"
+          ],
+          "7": [
+            "TÜTE"
+          ],
+          "8": [
+            "DABEI"
+          ],
+          "9": [
+            "BAR"
+          ],
+          "10": [
+            "AUF"
+          ]
+        },
+        "bank": [
+          "SEIN",
+          "MACHEN",
+          "MITNEHMEN",
+          "GRÖSSE",
+          "SONST",
+          "ALLES",
+          "TÜTE",
+          "DABEI",
+          "BAR",
+          "AUF",
+          "TELLER",
+          "TASSE",
+          "STÜCK",
+          "GERN"
+        ],
+        "text": "— Guten Morgen, was darf es {1}?\n— Guten Morgen. Ich hätte gern zwei Käsebrötchen und einen\nMilchkaffee.\n— Soll ich Ihnen die Brötchen kurz warm {2}?\n— Ja, gern.\n— Und der Kaffee — zum Hieressen oder zum {3}?\n— Zum Mitnehmen, bitte.\n— Welche {4} darf es sein?\n— Mittel, bitte. Und mit Hafermilch, wenn Sie haben.\n— Haben wir. Darf es {5} noch etwas sein?\n— Nein danke, das war {6}.\n— Brauchen Sie eine {7}?\n— Nein, ich habe eine {8}.\n— Dann macht das 7,40 €. Karte oder {9}?\n— Mit Karte, bitte.\n— Gern. Der Kaffee kommt gleich, ich rufe Sie {10}.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Bäckerei, kurz vor neun"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Hier, bitte."
+              },
+              {
+                "key": "b",
+                "text": "Zum Hieressen, bitte."
+              },
+              {
+                "key": "c",
+                "text": "Mir egal."
+              }
+            ],
+            "q": "„Zum Hieressen oder zum Mitnehmen?“ Du willst dich hinsetzen. — You want to sit down.",
+            "why": "Die Antwort greift ein Wort aus der Frage auf — das ist am Tresen das Übliche."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nein danke, das war alles."
+              },
+              {
+                "key": "b",
+                "text": "Nein."
+              },
+              {
+                "key": "c",
+                "text": "Ich weiß nicht."
+              }
+            ],
+            "q": "„Darf es sonst noch etwas sein?“ Du willst nichts mehr. — You don't want anything else.",
+            "why": "„Das war alles“ ist die Standardformel und schließt die Bestellung sauber ab."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kein Milch."
+              },
+              {
+                "key": "b",
+                "text": "Nicht Milch, bitte."
+              },
+              {
+                "key": "c",
+                "text": "Schwarz, bitte — ohne Milch."
+              }
+            ],
+            "q": "Du willst den Kaffee ohne Milch. — You want the coffee without milk.",
+            "why": "„Schwarz“ ist das Fachwort; nach ohne steht der Akkusativ ohne Artikel."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Haben Sie noch Brezeln?"
+              },
+              {
+                "key": "b",
+                "text": "Gibt es Brezeln?"
+              },
+              {
+                "key": "c",
+                "text": "Wo sind die Brezeln?"
+              }
+            ],
+            "q": "Du willst wissen, ob noch Brezeln da sind. — You want to know whether there are any pretzels left.",
+            "why": "Mit „noch“ fragst du nach dem Rest — genau das willst du wissen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nein."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe leider nur einen Fünfziger, tut mir leid."
+              },
+              {
+                "key": "c",
+                "text": "Das ist Ihr Problem."
+              }
+            ],
+            "q": "Die Bedienung fragt: „Haben Sie es klein?“ Du hast nur einen 50er. — You only have a €50 note.",
+            "why": "Kurz erklären statt nur verneinen — die Bedienung weiß dann, womit sie rechnet."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Schnell, bitte!"
+              },
+              {
+                "key": "b",
+                "text": "Zahlen!"
+              },
+              {
+                "key": "c",
+                "text": "Ich zahle mit Karte — geht das kontaktlos?"
+              }
+            ],
+            "q": "Du hast es eilig und willst nur schnell zahlen. — You're in a hurry and just want to pay.",
+            "why": "Sag, wie du zahlen willst; „schnell“ und „zahlen!“ klingen unhöflich."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Was antwortest du?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "hätte gern — die Standardformel beim Bestellen",
+            "tiles": [
+              "Ich",
+              "hätte",
+              "gern",
+              "einen",
+              "Kaffee"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Modalverb an Position 1, Infinitiv am Ende",
+            "tiles": [
+              "Können",
+              "Sie",
+              "das",
+              "bitte",
+              "warm",
+              "machen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Kurzantwort ohne Verb — am Tresen völlig normal",
+            "tiles": [
+              "Zum",
+              "Mitnehmen",
+              ",",
+              "bitte"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Trennverb mit·nehmen: mit am Satzende, nicht davor",
+            "tiles": [
+              "Ich",
+              "nehme",
+              "das",
+              "Croissant",
+              "doch",
+              "nicht",
+              "mit"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "würden + Infinitiv am Ende — besonders höflich",
+            "tiles": [
+              "Würden",
+              "Sie",
+              "mir",
+              "bitte",
+              "eine",
+              "Tüte",
+              "geben",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Der weiche Einstieg für eine Reklamation",
+            "tiles": [
+              "Entschuldigung",
+              ",",
+              "ich",
+              "glaube",
+              ",",
+              "da",
+              "stimmt",
+              "etwas",
+              "nicht"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze am Tresen bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Mit eigenem Becher zahlt man weniger. — With your own cup you pay less.",
+            "why": "„mit eigenem Becher 30 Cent günstiger“."
+          },
+          {
+            "answer": false,
+            "q": "Man kann das Brötchen auch später noch aufbacken lassen. — You can still have the roll warmed up later.",
+            "why": "„bitte bei der Bestellung sagen, nachträglich geht es nicht“."
+          },
+          {
+            "answer": false,
+            "q": "Die Papiertüte ist kostenlos. — The paper bag is free.",
+            "why": "Sie kostet 10 Cent."
+          },
+          {
+            "answer": true,
+            "q": "Einen Kaffee für 3,20 € kann man nicht mit Karte zahlen. — A €3.20 coffee cannot be paid by card.",
+            "why": "Kartenzahlung gibt es erst ab 5 €."
+          },
+          {
+            "answer": true,
+            "q": "Eine Torte für Samstag bestellt man am besten am Donnerstag. — A cake for Saturday is best ordered on Thursday.",
+            "why": "Zwei Tage vorher — von Samstag aus gerechnet ist das der Donnerstag."
+          },
+          {
+            "answer": false,
+            "q": "Um 10 Uhr darf man sich mit einem Kaffee an einen Tisch setzen. — At 10 am you may sit at a table with just a coffee.",
+            "why": "Bis 11 Uhr sind die Tische nur für Gäste mit Frühstück."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Bäckerei Sommer — Hinweise**\n>\n> - **Coffee to go:** mit eigenem Becher **30 Cent günstiger**.\n>   Becher bitte sauber und vor der Bestellung abgeben.\n> - Belegte Brötchen backen wir gern auf — bitte **bei der\n>   Bestellung** sagen, nachträglich geht es nicht.\n> - Papiertüten kosten **10 Cent**, Stofftaschen 2,50 €.\n> - **Kartenzahlung ab 5 €.** Darunter bitte bar.\n> - Kuchenbestellungen für Feiern: **zwei Tage vorher**, telefonisch\n>   oder am Tresen.\n> - Tische im Café sind bis 11 Uhr nur für Gäste mit Frühstück.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Das Schild am Tresen lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist falsch."
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, ich hatte ihn schwarz bestellt — können Sie ihn noch mal machen?"
+              },
+              {
+                "key": "c",
+                "text": "Egal, ich trinke ihn so."
+              }
+            ],
+            "q": "Du wolltest den Kaffee schwarz, er kommt mit Milch. — You wanted black coffee, it comes with milk.",
+            "why": "Sagen, was du bestellt hattest, und um die Korrektur bitten — freundlich und eindeutig."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nichts machen."
+              },
+              {
+                "key": "b",
+                "text": "Sie haben mich betrogen."
+              },
+              {
+                "key": "c",
+                "text": "Zurückgehen: „Entschuldigung, ich hatte drei bestellt, in der Tüte sind nur zwei.“"
+              }
+            ],
+            "q": "Du merkst erst draußen, dass ein Brötchen fehlt. — Outside you notice one roll is missing.",
+            "why": "Zahl gegen Zahl — das lässt sich sofort prüfen, ohne dass jemand sich angegriffen fühlt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Können Sie das Croissant bitte wieder rausnehmen? Ich nehme es doch nicht."
+              },
+              {
+                "key": "b",
+                "text": "Nehmen Sie das weg."
+              },
+              {
+                "key": "c",
+                "text": "Ich zahle es einfach nicht."
+              }
+            ],
+            "q": "Du hast bestellt, willst ein Teil aber doch nicht. — You've ordered but don't want one item after all.",
+            "why": "Solange nicht bezahlt ist, ist das völlig normal — kurz sagen und begründen reicht."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Der ist ja steinalt!"
+              },
+              {
+                "key": "b",
+                "text": "Ist der von heute? Sonst nehme ich lieber ein Croissant."
+              },
+              {
+                "key": "c",
+                "text": "Nichts sagen und trotzdem nehmen."
+              }
+            ],
+            "q": "Das Stück Kuchen sieht alt aus. — The piece of cake looks stale.",
+            "why": "Eine Frage plus Alternative — du bekommst eine Antwort und niemand verliert das Gesicht."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie haben falsch gerechnet."
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, hier steht ein Saft — den hatte ich nicht. Können Sie das noch mal prüfen?"
+              },
+              {
+                "key": "c",
+                "text": "Ich gehe einfach."
+              }
+            ],
+            "q": "Auf dem Bon steht ein Getränk, das du nicht hattest. — The receipt shows a drink you didn't have.",
+            "why": "Auf die Zeile zeigen und um eine Prüfung bitten, statt einen Vorwurf zu machen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist gefährlich, ich beschwere mich!"
+              },
+              {
+                "key": "b",
+                "text": "Egal."
+              },
+              {
+                "key": "c",
+                "text": "Der Deckel sitzt nicht richtig, es läuft aus — haben Sie einen anderen Becher?"
+              }
+            ],
+            "q": "Der Becher ist undicht und du hast dich fast verbrüht. — The cup leaks and you nearly scalded yourself.",
+            "why": "Problem nennen und die Lösung gleich vorschlagen — so geht es am schnellsten."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Etwas stimmt nicht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "schwarz"
+          ],
+          "2": [
+            "fehlt"
+          ],
+          "3": [
+            "prüfen"
+          ],
+          "4": [
+            "doch"
+          ],
+          "5": [
+            "sitzt"
+          ],
+          "6": [
+            "Bon"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Entschuldigung, ich hatte den Kaffee {1} bestellt. (ohne Milch)\n2. In der Tüte {2} ein Brötchen. (es ist nicht da)\n3. Können Sie das bitte noch mal {3}? (kontrollieren)\n4. Ich nehme das Croissant {4} nicht. (ich habe meine Meinung geändert)\n5. Der Deckel {5} nicht richtig. (ist nicht fest drauf)\n6. Auf dem {6} steht ein Getränk zu viel. (der Kassenzettel)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Mitnehmen"
+          ],
+          "2": [
+            "machen"
+          ],
+          "3": [
+            "sein"
+          ],
+          "4": [
+            "alles"
+          ],
+          "5": [
+            "Tüte"
+          ],
+          "6": [
+            "dabei"
+          ],
+          "7": [
+            "Größe"
+          ],
+          "8": [
+            "zum"
+          ],
+          "9": [
+            "bar"
+          ],
+          "10": [
+            "einpacken"
+          ],
+          "11": [
+            "nicht"
+          ],
+          "12": [
+            "doch"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Zum Hieressen oder zum {1}? (to take away)\n2. Soll ich es Ihnen warm {2}? (heat it up)\n3. Darf es sonst noch etwas {3}? (anything else?)\n4. Nein danke, das war {4}. (that was everything)\n5. Brauchen Sie eine {5}? (a bag)\n6. Nein, ich habe eine {6}. (I have got one with me)\n7. Welche {7} darf es sein? (size)\n8. Ich hätte gern einen Kaffee {8} Mitnehmen. (zu + dem)\n9. Karte oder {9}? (cash)\n10. Können Sie das bitte {10}? (wrap it up)\n11. Entschuldigung, da stimmt etwas {11}. (something is wrong)\n12. Ich nehme es {12} nicht, tut mir leid. (after all / on second thought)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-17-am-tresen-a2",
+  "intro": "Nicht das Restaurant mit Kellner, sondern der Tresen: Bäckerei, Coffee-Shop, Imbiss. Die Bedienung stellt hier immer dieselben vier oder fünf Fragen — „Zum Hieressen oder zum Mitnehmen?“, „Soll ich es Ihnen warm machen?“, „Darf es sonst noch etwas sein?“, „Brauchen Sie eine Tüte?“, „Karte oder bar?“ — und du musst sie schnell verstehen und kurz beantworten. Dazu: was du sagst, wenn der Kaffee mit Milch kommt, obwohl du ihn schwarz wolltest, wenn du ein Teil doch nicht willst, oder wenn du merkst, dass du zu viel bezahlt hast. Grammatik nach Bedarf: Akkusativ, Mengenangaben, trennbare Verben und höfliche Bitten mit hätte und würde. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/17-am-tresen-a2",
+  "level": "A2",
+  "summary": "Zum Hieressen oder zum Mitnehmen, warm machen, noch etwas dazu, Tüte, zahlen — und was du sagst, wenn etwas falsch ist.",
+  "title": "Am Tresen: Bäckerei und Coffee to go — A2",
+  "topic": "Bestellen am Tresen"
+}

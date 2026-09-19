@@ -1,0 +1,753 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "Partizip II",
+          "Hilfsverb"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "aufgestanden"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "sein"
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "aufstehen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "eingekauft"
+                ],
+                "gap": 3
+              },
+              {
+                "answer": [
+                  "haben"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "einkaufen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "angerufen"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "haben"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "anrufen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "angekommen"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "sein"
+                ],
+                "gap": 8
+              }
+            ],
+            "label": "ankommen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "verstanden"
+                ],
+                "gap": 9
+              },
+              {
+                "answer": [
+                  "haben"
+                ],
+                "gap": 10
+              }
+            ],
+            "label": "verstehen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "besucht"
+                ],
+                "gap": 11
+              },
+              {
+                "answer": [
+                  "haben"
+                ],
+                "gap": 12
+              }
+            ],
+            "label": "besuchen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "erklärt"
+                ],
+                "gap": 13
+              },
+              {
+                "answer": [
+                  "haben"
+                ],
+                "gap": 14
+              }
+            ],
+            "label": "erklären"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "weggefahren"
+                ],
+                "gap": 15
+              },
+              {
+                "answer": [
+                  "sein"
+                ],
+                "gap": 16
+              }
+            ],
+            "label": "wegfahren"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze das Partizip II und das Hilfsverb.",
+      "instructionsEn": "Fill in the Partizip II and the auxiliary.",
+      "skill": "conjugation",
+      "title": "Partizip II: trennbar vs. untrennbar"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "umfahren"
+          ],
+          "2": [
+            "umgefahren"
+          ],
+          "3": [
+            "übersetzt"
+          ],
+          "4": [
+            "übergesetzt"
+          ],
+          "5": [
+            "umfahren"
+          ],
+          "6": [
+            "umgefahren"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Er ist mit dem Auto um den Stau herumgefahren. Er hat den Stau {1}.\n2. Der Lastwagen hat das Verkehrsschild {2}.\n3. Die Dolmetscherin hat den Vortrag simultan {3}.\n4. Der Bootsführer hat die Touristen zur Insel {4}.\n5. Der Fahrer hat vorsichtig das Loch in der Straße {5}.\n6. Beim Unfall hat der Bus fast einen Baum {6}.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze das richtige Partizip II. Der Kontext entscheidet, ob das Präfix trennbar oder untrennbar ist.",
+      "instructionsEn": "Fill in the correct Partizip II — context decides whether the prefix is separable or inseparable here.",
+      "title": "Präfixe mit zwei Bedeutungen: umfahren, übersetzen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "aufgestanden"
+          ],
+          "2": [
+            "aufgeräumt"
+          ],
+          "3": [
+            "angerufen"
+          ],
+          "4": [
+            "verstanden"
+          ],
+          "5": [
+            "angekommen"
+          ],
+          "6": [
+            "eingekauft"
+          ],
+          "7": [
+            "besucht"
+          ],
+          "8": [
+            "geredet"
+          ]
+        },
+        "bank": [
+          "aufgestanden",
+          "aufgeräumt",
+          "angerufen",
+          "verstanden",
+          "angekommen",
+          "eingekauft",
+          "besucht",
+          "geredet",
+          "erklärt",
+          "gekauft"
+        ],
+        "text": "Heute Morgen bin ich spät {1}. Ich habe schnell die Wohnung {2}.\nAuf dem Weg zur Arbeit habe ich meine Chefin {3}. Sie hat meine\nVerspätung sofort {4}. Ich bin pünktlich im Büro {5}. Nach der\nArbeit habe ich noch Brot {6}. Am Abend habe ich einen Freund\n{7}. Wir haben lange {8}.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Ein chaotischer Tag"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "geaufmacht"
+              },
+              {
+                "key": "b",
+                "text": "aufgemacht"
+              },
+              {
+                "key": "c",
+                "text": "aufmachtgen"
+              }
+            ],
+            "q": "Ich habe das Fenster ___.",
+            "why": "trennbar: ge- zwischen Präfix und Stamm."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "geerklärt"
+              },
+              {
+                "key": "b",
+                "text": "erklärtge"
+              },
+              {
+                "key": "c",
+                "text": "erklärt"
+              }
+            ],
+            "q": "Er hat die Aufgabe ___.",
+            "why": "untrennbar (er-): kein ge-."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "angekommen"
+              },
+              {
+                "key": "b",
+                "text": "gekommenan"
+              },
+              {
+                "key": "c",
+                "text": "ankommgen"
+              }
+            ],
+            "q": "Wir sind spät ___.",
+            "why": "trennbar: ge- zwischen Präfix und Stamm."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "gebesucht"
+              },
+              {
+                "key": "b",
+                "text": "besucht"
+              },
+              {
+                "key": "c",
+                "text": "besuchtge"
+              }
+            ],
+            "q": "Sie hat ihre Oma ___.",
+            "why": "untrennbar (be-): kein ge-."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "gestandenauf"
+              },
+              {
+                "key": "b",
+                "text": "aufstandgen"
+              },
+              {
+                "key": "c",
+                "text": "aufgestanden"
+              }
+            ],
+            "q": "Ich bin heute früh ___.",
+            "why": "trennbar: ge- zwischen Präfix und Stamm."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "besichtigt"
+              },
+              {
+                "key": "b",
+                "text": "besichtigtge"
+              },
+              {
+                "key": "c",
+                "text": "gebesichtigt"
+              }
+            ],
+            "q": "Wir haben das Museum ___.",
+            "why": "untrennbar (be-): kein ge-."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Das richtige Partizip II bilden"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "geaufräumt"
+              },
+              {
+                "key": "b",
+                "text": "aufgeräumt"
+              },
+              {
+                "key": "c",
+                "text": "räumtaufge"
+              }
+            ],
+            "q": "Wir haben letzten Monat unsere Wohnung ___.",
+            "why": "aufräumen: trennbar → aufgeräumt."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "gepacktein"
+              },
+              {
+                "key": "b",
+                "text": "geeinpackt"
+              },
+              {
+                "key": "c",
+                "text": "eingepackt"
+              }
+            ],
+            "q": "Ich habe alle Kisten ___.",
+            "why": "einpacken: trennbar → eingepackt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "geholfen"
+              },
+              {
+                "key": "b",
+                "text": "helfgen"
+              },
+              {
+                "key": "c",
+                "text": "gehilft"
+              }
+            ],
+            "q": "Meine Freunde haben mir ___.",
+            "why": "helfen: unregelmäßig → geholfen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "gebestellt"
+              },
+              {
+                "key": "b",
+                "text": "bestellt"
+              },
+              {
+                "key": "c",
+                "text": "bestelltge"
+              }
+            ],
+            "q": "Wir haben den Umzugswagen ___.",
+            "why": "bestellen: untrennbar (be-) → kein ge-."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "gestandenauf"
+              },
+              {
+                "key": "b",
+                "text": "aufstandgen"
+              },
+              {
+                "key": "c",
+                "text": "aufgestanden"
+              }
+            ],
+            "q": "Am Umzugstag sind wir früh ___.",
+            "why": "aufstehen: trennbar → aufgestanden."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "begrüßt"
+              },
+              {
+                "key": "b",
+                "text": "gebegrüßt"
+              },
+              {
+                "key": "c",
+                "text": "begrüßtge"
+              }
+            ],
+            "q": "Die Nachbarn haben uns ___.",
+            "why": "begrüßen: untrennbar (be-) → kein ge-."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "gezogenein"
+              },
+              {
+                "key": "b",
+                "text": "eingezogen"
+              },
+              {
+                "key": "c",
+                "text": "einziehtgen"
+              }
+            ],
+            "q": "Wir sind in die neue Wohnung ___.",
+            "why": "einziehen: trennbar → eingezogen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "gebautauf"
+              },
+              {
+                "key": "b",
+                "text": "aufbautgen"
+              },
+              {
+                "key": "c",
+                "text": "aufgebaut"
+              }
+            ],
+            "q": "Am Ende haben wir alles ___.",
+            "why": "aufbauen: trennbar → aufgebaut."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct Partizip II for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Ein Umzug"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "BEOBACHTET"
+          ],
+          "2": [
+            "GEFAHREN"
+          ],
+          "3": [
+            "UMGEFAHREN"
+          ],
+          "4": [
+            "UMFAHREN"
+          ],
+          "5": [
+            "ANGEKOMMEN"
+          ],
+          "6": [
+            "UNTERSUCHT"
+          ],
+          "7": [
+            "BESCHRIEBEN"
+          ],
+          "8": [
+            "ENTSCHULDIGT"
+          ],
+          "9": [
+            "GEMACHT"
+          ],
+          "10": [
+            "AUFGENOMMEN"
+          ]
+        },
+        "bank": [
+          "BEOBACHTET",
+          "GEFAHREN",
+          "UMGEFAHREN",
+          "UMFAHREN",
+          "ANGEKOMMEN",
+          "UNTERSUCHT",
+          "BESCHRIEBEN",
+          "ENTSCHULDIGT",
+          "GEMACHT",
+          "AUFGENOMMEN",
+          "GEUMFAHREN",
+          "BESUCHTGE",
+          "ANGERUFEN"
+        ],
+        "text": "Gestern habe ich einen Unfall {1}. Ein Fahrer ist zu schnell {2}.\nEr hat ein Verkehrsschild {3}. Zum Glück hat er die Fußgänger\n{4}. Die Polizei ist schnell {5}. Ein Beamter hat den Unfall\ngenau {6}. Die Zeugen haben alles genau {7}. Der Fahrer hat sich\nsofort {8}. Ein anderer Zeuge hat Fotos {9}. Am Ende hat die\nPolizei den Bericht {10}.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Three words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Ein Verkehrsunfall (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "aufgemacht"
+          ],
+          "2": [
+            "angekommen"
+          ],
+          "3": [
+            "erklärt"
+          ],
+          "4": [
+            "verkauft"
+          ],
+          "5": [
+            "aufgestanden"
+          ],
+          "6": [
+            "besucht"
+          ],
+          "7": [
+            "umgefahren"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe die Tür {1}. (aufmachen)\n2. Wir sind pünktlich {2}. (ankommen)\n3. Er hat mir alles {3}. (erklären)\n4. Sie haben das Auto {4}. (verkaufen)\n5. Ich bin früh {5}. (aufstehen)\n6. Wir haben unsere Oma {6}. (besuchen)\n7. Der Fahrer hat den Ball fast {7}. (umfahren, trennbar)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze das Partizip II.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "geanmacht"
+              },
+              {
+                "key": "b",
+                "text": "anmachtge"
+              },
+              {
+                "key": "c",
+                "text": "angemacht"
+              }
+            ],
+            "q": "Ich habe das Licht ___.",
+            "why": "anmachen: trennbar → angemacht."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "beantwortet"
+              },
+              {
+                "key": "b",
+                "text": "gebeantwortet"
+              },
+              {
+                "key": "c",
+                "text": "beantwortetge"
+              }
+            ],
+            "q": "Er hat die Frage ___.",
+            "why": "beantworten: untrennbar (be-) → kein ge-."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "gekommen"
+              },
+              {
+                "key": "b",
+                "text": "angekommen"
+              },
+              {
+                "key": "c",
+                "text": "ankgekommen"
+              }
+            ],
+            "q": "Wir sind zu spät ___.",
+            "why": "ankommen: trennbar → angekommen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "gevergessen"
+              },
+              {
+                "key": "b",
+                "text": "vergessenge"
+              },
+              {
+                "key": "c",
+                "text": "vergessen"
+              }
+            ],
+            "q": "Sie hat den Termin ___.",
+            "why": "vergessen: untrennbar (ver-) → kein ge-."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "aufgemacht"
+              },
+              {
+                "key": "b",
+                "text": "geaufmacht"
+              },
+              {
+                "key": "c",
+                "text": "machtaufge"
+              }
+            ],
+            "q": "Ich habe die Kiste ___.",
+            "why": "aufmachen: trennbar → aufgemacht."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "geinformiert"
+              },
+              {
+                "key": "b",
+                "text": "informiert"
+              },
+              {
+                "key": "c",
+                "text": "informiertge"
+              }
+            ],
+            "q": "Wir haben den Chef ___.",
+            "why": "-ieren-Verben bekommen nie ge-."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-10-trennbare-verben-a2",
+  "intro": "Standalone drill set, not tied to any lesson. Builds on the A1 set with the Perfekt: a separable verb inserts -ge- BETWEEN the prefix and the stem (aufstehen -> aufgestanden), an inseparable verb never takes ge- at all (verstehen -> verstanden). A handful of prefixes (um-, über-, durch-, unter-) can be EITHER, with a different meaning each way — umfahren separable (\"fährt … um\") means to knock something over; umfahren inseparable (\"umfährt\") means to drive around it. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/10-trennbare-verben-a2",
+  "level": "A2",
+  "summary": null,
+  "title": "Perfekt trennbarer/untrennbarer Verben & Präfixe mit zwei Bedeutungen — A2",
+  "topic": "Trennbare und untrennbare Verben"
+}

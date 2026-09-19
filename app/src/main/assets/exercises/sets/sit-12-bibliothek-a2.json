@@ -1,0 +1,1011 @@
+{
+  "category": "Freizeit & Kultur",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "a",
+          "3": "e",
+          "4": "d",
+          "5": "c",
+          "6": "h",
+          "7": "g",
+          "8": "f"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Bibliotheksausweis"
+          },
+          {
+            "key": "2",
+            "text": "die Leihfrist"
+          },
+          {
+            "key": "3",
+            "text": "die Verlängerung"
+          },
+          {
+            "key": "4",
+            "text": "die Vormerkung"
+          },
+          {
+            "key": "5",
+            "text": "die Mahngebühr"
+          },
+          {
+            "key": "6",
+            "text": "der Lesesaal"
+          },
+          {
+            "key": "7",
+            "text": "die Fernleihe"
+          },
+          {
+            "key": "8",
+            "text": "die Signatur"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Wie lange du ein Buch behalten darfst."
+          },
+          {
+            "key": "b",
+            "text": "Die Karte, mit der du ausleihen kannst."
+          },
+          {
+            "key": "c",
+            "text": "Was du zahlst, wenn du zu spät zurückgibst."
+          },
+          {
+            "key": "d",
+            "text": "Wenn du dir ein ausgeliehenes Buch reservierst."
+          },
+          {
+            "key": "e",
+            "text": "Mehr Zeit für ein Buch, das du noch brauchst."
+          },
+          {
+            "key": "f",
+            "text": "Die Nummer, mit der du das Buch im Regal findest."
+          },
+          {
+            "key": "g",
+            "text": "Ein Buch aus einer anderen Bibliothek bestellen."
+          },
+          {
+            "key": "h",
+            "text": "Der Raum zum Lesen und Arbeiten, ohne Ausleihe."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A1",
+      "instructions": "Ordne jeden Begriff (1–8) seiner Erklärung (a–h) zu.",
+      "instructionsEn": "Match each term (1–8) with its explanation (a–h).",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "leihe"
+          ],
+          "2": [
+            "aus"
+          ],
+          "3": [
+            "Geben"
+          ],
+          "4": [
+            "zurück"
+          ],
+          "5": [
+            "verlängern"
+          ],
+          "6": [
+            "merke"
+          ],
+          "7": [
+            "vor"
+          ],
+          "8": [
+            "macht"
+          ],
+          "9": [
+            "auf"
+          ],
+          "10": [
+            "bringen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} drei Bücher {2}. (ausleihen)\n2. {3} Sie die Bücher bitte bis Freitag {4}. (zurückgeben)\n3. Kann ich die Leihfrist online {5}? (verlängern — kein trennbares Verb)\n4. Ich {6} mir den neuen Roman {7}. (vormerken)\n5. Die Bibliothek {8} um zehn Uhr {9}. (aufmachen)\n6. Bitte {10} Sie Ihren Ausweis mit. (mitbringen)\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze das Verb in der richtigen Form. Achte auf die Vorsilbe.",
+      "instructionsEn": "Fill in the verb in the correct form. Watch the prefix.",
+      "title": "Trennbare Verben in der Bibliothek"
+    },
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "theke",
+            "label": "An der Theke"
+          },
+          {
+            "key": "online",
+            "label": "Im Online-Konto"
+          },
+          {
+            "key": "lesesaal",
+            "label": "Im Lesesaal"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "theke",
+            "text": "den Ausweis beantragen"
+          },
+          {
+            "bucket": "online",
+            "text": "die Leihfrist verlängern"
+          },
+          {
+            "bucket": "lesesaal",
+            "text": "in Ruhe arbeiten"
+          },
+          {
+            "bucket": "theke",
+            "text": "Bücher zurückgeben"
+          },
+          {
+            "bucket": "online",
+            "text": "ein Buch vormerken"
+          },
+          {
+            "bucket": "lesesaal",
+            "text": "Zeitschriften lesen"
+          },
+          {
+            "bucket": "theke",
+            "text": "eine Mahngebühr bezahlen"
+          },
+          {
+            "bucket": "online",
+            "text": "sehen, wann die Frist abläuft"
+          },
+          {
+            "bucket": "lesesaal",
+            "text": "einen Laptop benutzen"
+          },
+          {
+            "bucket": "theke",
+            "text": "nach einem Buch fragen"
+          },
+          {
+            "bucket": "online",
+            "text": "eine Fernleihe bestellen"
+          },
+          {
+            "bucket": "lesesaal",
+            "text": "Nachschlagewerke benutzen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A3",
+      "instructions": "Sortiere die 12 Tätigkeiten.",
+      "instructionsEn": "Sort the 12 activities.",
+      "title": "Wo machst du das?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "bis"
+          ],
+          "2": [
+            "innerhalb"
+          ],
+          "3": [
+            "für"
+          ],
+          "4": [
+            "von"
+          ],
+          "5": [
+            "Ab"
+          ],
+          "6": [
+            "ab"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Bücher sind {1} zum 14. Juni ausgeliehen.\n2. Sie können die Frist {2} von vier Wochen zweimal verlängern.\n3. Der Ausweis gilt {3} ein Jahr.\n4. Wir haben {4} Montag bis Samstag geöffnet.\n5. {5} 18 Uhr ist der Lesesaal ruhiger.\n6. Die Gebühr fällt {6} dem ersten Tag der Überschreitung an.\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze die passende Präposition oder Wendung.",
+      "instructionsEn": "Fill in the fitting preposition or phrase.",
+      "title": "Zeitangaben"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "AUSWEIS"
+          ],
+          "2": [
+            "PERSONALAUSWEIS"
+          ],
+          "3": [
+            "MELDEFORMULAR"
+          ],
+          "4": [
+            "GILT"
+          ],
+          "5": [
+            "STUDIENBESCHEINIGUNG"
+          ],
+          "6": [
+            "AUSLEIHEN"
+          ],
+          "7": [
+            "LEIHFRIST"
+          ],
+          "8": [
+            "VERLÄNGERN"
+          ],
+          "9": [
+            "GEBEN"
+          ],
+          "10": [
+            "MAHNGEBÜHREN"
+          ]
+        },
+        "bank": [
+          "AUSWEIS",
+          "PERSONALAUSWEIS",
+          "MELDEFORMULAR",
+          "GILT",
+          "STUDIENBESCHEINIGUNG",
+          "AUSLEIHEN",
+          "LEIHFRIST",
+          "VERLÄNGERN",
+          "GEBEN",
+          "MAHNGEBÜHREN",
+          "WOHER",
+          "LESEN",
+          "KAUFEN",
+          "BRINGEN"
+        ],
+        "text": "— Guten Tag, ich möchte einen Bibliotheks{1} beantragen.\n— Gern. Haben Sie einen {2} und eine Meldebescheinigung dabei?\n— Den Ausweis ja, die Meldebescheinigung nicht. Reicht mein\n{3}?\n— Ja, wenn Ihre Adresse darauf steht. Der Ausweis {4} ein Jahr\nund kostet 15 Euro.\n— Und für Studierende?\n— Dann sind es 8 Euro. Haben Sie eine {5}?\n— Ja, hier. Wie viele Bücher darf ich {6}?\n— Bis zu zwanzig, die {7} beträgt vier Wochen.\n— Kann ich {8} auch online?\n— Ja, zweimal, über Ihr Online-Konto. Bitte {9} Sie Ihre\nBücher rechtzeitig zurück — sonst fallen {10} an.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "An der Theke: Ausweis beantragen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wo sind die Bücher?"
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, haben Sie „Der Vorleser“ von Bernhard Schlink?"
+              },
+              {
+                "key": "c",
+                "text": "Ich brauche ein Buch."
+              }
+            ],
+            "q": "Du suchst ein bestimmtes Buch. — You're looking for a particular book.",
+            "why": "Titel und Autor nennen — damit findet die Auskunft das Buch in Sekunden."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Könnte ich es vormerken lassen?"
+              },
+              {
+                "key": "b",
+                "text": "Wann kommt es zurück?"
+              },
+              {
+                "key": "c",
+                "text": "Dann kaufe ich es."
+              }
+            ],
+            "q": "Das Buch ist ausgeliehen. — The book is on loan.",
+            "why": "Vormerken ist der eingebaute Weg — du wirst benachrichtigt, sobald es zurück ist."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich behalte es einfach."
+              },
+              {
+                "key": "b",
+                "text": "Kann ich die Leihfrist verlängern?"
+              },
+              {
+                "key": "c",
+                "text": "Ich gebe es später zurück."
+              }
+            ],
+            "q": "Du brauchst ein Buch länger. — You need a book for longer.",
+            "why": "Verlängern ist kostenlos und geht meist online — einfach behalten kostet Gebühren."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kurz leise sprechen."
+              },
+              {
+                "key": "b",
+                "text": "Sofort stumm schalten und zum Telefonieren hinausgehen."
+              },
+              {
+                "key": "c",
+                "text": "Das Gespräch wegdrücken und weiterarbeiten."
+              }
+            ],
+            "q": "Im Lesesaal klingelt dein Handy. — Your phone rings in the reading room.",
+            "why": "Im Lesesaal wird nicht telefoniert — hinausgehen ist die einzige akzeptierte Lösung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Gibt es den Titel auch als Hörbuch?"
+              },
+              {
+                "key": "b",
+                "text": "Haben Sie was zum Hören?"
+              },
+              {
+                "key": "c",
+                "text": "Ich lese nicht gern."
+              }
+            ],
+            "q": "Du willst wissen, ob es das Buch auch als Hörbuch gibt. — You want to know if the book is available as an audiobook.",
+            "why": "Konkret nach dem Format fragen — Bibliotheken haben oft beides plus E-Book."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dann fahre ich dorthin."
+              },
+              {
+                "key": "b",
+                "text": "Wäre eine Fernleihe möglich?"
+              },
+              {
+                "key": "c",
+                "text": "Dann geht es nicht."
+              }
+            ],
+            "q": "Ein Buch aus einer anderen Stadt wäre nötig. — A book from another city would be needed.",
+            "why": "Die Fernleihe holt Bücher aus anderen Bibliotheken — gegen eine kleine Gebühr."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Was sagst du?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Modalverb an Position 2, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "einen",
+              "Bibliotheksausweis",
+              "beantragen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Ja/Nein-Frage, Infinitiv am Ende",
+            "tiles": [
+              "Kann",
+              "ich",
+              "die",
+              "Leihfrist",
+              "online",
+              "verlängern",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Trennverb aus·leihen: aus am Ende",
+            "tiles": [
+              "Ich",
+              "leihe",
+              "drei",
+              "Bücher",
+              "aus"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Zwei Infinitive am Ende: vormerken lassen",
+            "tiles": [
+              "Könnte",
+              "ich",
+              "das",
+              "Buch",
+              "vormerken",
+              "lassen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Zustandspassiv: sind … ausgeliehen",
+            "tiles": [
+              "Die",
+              "Bücher",
+              "sind",
+              "bis",
+              "zum",
+              "14.",
+              "Juni",
+              "ausgeliehen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Imperativ mit Sie, zurück am Satzende",
+            "tiles": [
+              "Bitte",
+              "geben",
+              "Sie",
+              "die",
+              "Bücher",
+              "rechtzeitig",
+              "zurück"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze in der Bibliothek bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Eine Studentin zahlt 8 € im Jahr. — A student pays €8 a year.",
+            "why": "„ermäßigt (Studierende, Azubis): 8 €“."
+          },
+          {
+            "answer": false,
+            "q": "Eine DVD kann man zweimal verlängern. — You can renew a DVD twice.",
+            "why": "„DVDs und Zeitschriften: 1 Woche, nicht verlängerbar“."
+          },
+          {
+            "answer": true,
+            "q": "Zwei Bücher, eine Woche zu spät, kosten 1,00 €. — Two books, one week late, cost €1.00.",
+            "why": "0,50 € pro Medium und Woche × 2 Medien."
+          },
+          {
+            "answer": false,
+            "q": "Am Samstag ist der Lesesaal bis 14:00 Uhr offen. — On Saturday the reading room is open until 14:00.",
+            "why": "Der Lesesaal schließt eine halbe Stunde früher, also um 13:30 Uhr."
+          },
+          {
+            "answer": false,
+            "q": "Ein 16-Jähriger zahlt die ermäßigte Gebühr. — A 16-year-old pays the reduced fee.",
+            "why": "Bis 18 ist es kostenlos, nicht ermäßigt."
+          },
+          {
+            "answer": false,
+            "q": "Bei Verlust zahlt man nur den Preis des Buches. — If you lose a book you only pay its price.",
+            "why": "Wiederbeschaffungswert plus 10 € Bearbeitungsgebühr."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Stadtbibliothek — Benutzung auf einen Blick**\n>\n> **Ausweis**\n> - Jahresgebühr: 15 € · ermäßigt (Studierende, Azubis): 8 €\n> - Kinder und Jugendliche bis 18: kostenlos\n> - Mitzubringen: Personalausweis oder Reisepass mit Meldeadresse\n>\n> **Ausleihe**\n> - bis zu 20 Medien gleichzeitig\n> - Leihfrist: 4 Wochen, zweimal verlängerbar\n> - DVDs und Zeitschriften: 1 Woche, nicht verlängerbar\n>\n> **Gebühren**\n> - Mahngebühr ab dem ersten Tag der Überschreitung: 0,50 € pro\n>   Medium und Woche\n> - Ersatz bei Verlust: Wiederbeschaffungswert plus 10 € Bearbeitung\n>\n> Öffnungszeiten: Mo–Fr 10:00–19:00, Sa 10:00–14:00. Der Lesesaal\n> schließt jeweils eine halbe Stunde früher.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Benutzungsordnung lesen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "ABTEILUNG"
+          ],
+          "2": [
+            "BEI"
+          ],
+          "3": [
+            "AUSGELIEHEN"
+          ],
+          "4": [
+            "ZURÜCK"
+          ],
+          "5": [
+            "VORMERKEN"
+          ],
+          "6": [
+            "ANDERES"
+          ],
+          "7": [
+            "SIGNATUR"
+          ],
+          "8": [
+            "EINFACHER"
+          ],
+          "9": [
+            "NIVEAU"
+          ],
+          "10": [
+            "DANK"
+          ]
+        },
+        "bank": [
+          "ABTEILUNG",
+          "BEI",
+          "AUSGELIEHEN",
+          "ZURÜCK",
+          "VORMERKEN",
+          "ANDERES",
+          "SIGNATUR",
+          "EINFACHER",
+          "NIVEAU",
+          "DANK",
+          "WOHER",
+          "ETAGE",
+          "LESEN",
+          "KAUFEN"
+        ],
+        "text": "— Entschuldigung, in welcher {1} finde ich Romane auf Deutsch?\n— Erster Stock, {2} den Fenstern. Suchen Sie etwas Bestimmtes?\n— Ja, „Der Vorleser“. Steht der da?\n— Moment, ich schaue nach … Der ist gerade {3}.\n— Und wann kommt er {4}?\n— Am Donnerstag. Soll ich ihn für Sie {5}?\n— Sehr gern. Gibt es von dem Autor noch etwas {6}?\n— Ja, zwei Titel — die stehen unter der {7} SCHL.\n— Super, danke. Eine Frage noch: Ich lerne Deutsch. Haben Sie etwas\nin {8} Sprache?\n— Klar, wir haben ein ganzes Regal mit Lektüren nach {9}.\nA2 wäre für Sie vielleicht passend.\n— Perfekt. Vielen {10}!\n",
+        "type": "gap-bank"
+      },
+      "id": "B5",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "An der Auskunft und im Regal"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Könnt ihr bitte etwas leiser sein? Ich versuche zu lernen."
+              },
+              {
+                "key": "b",
+                "text": "Seid mal still!"
+              },
+              {
+                "key": "c",
+                "text": "Hier ist eine Bibliothek!"
+              }
+            ],
+            "q": "Zwei Leute unterhalten sich laut neben dir im Lesesaal. — Two people are talking loudly next to you in the reading room.",
+            "why": "Bitte plus Begründung — das kommt fast immer gut an und klingt nicht wie eine Zurechtweisung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sich einfach hinsetzen."
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, ist der Platz noch frei?"
+              },
+              {
+                "key": "c",
+                "text": "Gehört das jemandem?"
+              }
+            ],
+            "q": "Am Nachbartisch ist ein Platz frei und alle anderen sind besetzt. — The seat at the next table is free and everything else is taken.",
+            "why": "„Ist der Platz noch frei?“ ist die Standardfrage — kurz und in jeder Situation richtig."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Alles liegen lassen und gehen."
+              },
+              {
+                "key": "b",
+                "text": "Die Nachbarin fragen: „Könnten Sie kurz auf meine Sachen aufpassen? Ich bin in fünf Minuten zurück.“"
+              },
+              {
+                "key": "c",
+                "text": "Einen Zettel hinlegen."
+              }
+            ],
+            "q": "Du musst kurz weg und willst deinen Platz behalten. — You need to step out and want to keep your seat.",
+            "why": "Kurz fragen ist üblich — und sicherer, als Laptop und Tasche unbeaufsichtigt zu lassen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weiterschauen."
+              },
+              {
+                "key": "b",
+                "text": "Zur Seite gehen und sagen: „Bitte, gehen Sie ruhig vor.“"
+              },
+              {
+                "key": "c",
+                "text": "Fragen, was er sucht."
+              }
+            ],
+            "q": "Jemand sucht sichtlich etwas im Regal, in dem du gerade stehst. — Someone is clearly searching the shelf you're standing at.",
+            "why": "Platz machen und es kurz sagen — mehr braucht es im Regal nicht."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Klar, ich schicke sie dir nachher. Wie ist deine Nummer?"
+              },
+              {
+                "key": "b",
+                "text": "Nein."
+              },
+              {
+                "key": "c",
+                "text": "Ich weiß nicht."
+              }
+            ],
+            "q": "Eine Mitstudentin fragt, ob sie deine Mitschrift kopieren darf. — A fellow student asks to copy your notes.",
+            "why": "Zusagen und gleich klären, wie — so wird aus der Bitte tatsächlich etwas."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kann man das auch am Computer lesen?"
+              },
+              {
+                "key": "b",
+                "text": "Gibt es den Titel auch als E-Book?"
+              },
+              {
+                "key": "c",
+                "text": "Habt ihr Internet?"
+              }
+            ],
+            "q": "Du willst wissen, ob es das Buch auch digital gibt. — You want to know if the book is also available digitally.",
+            "why": "„E-Book“ ist auch im Deutschen das übliche Wort — viele Bibliotheken haben eine Onleihe."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B6",
+      "instructions": "Was sagst du zu einer anderen Person in der Bibliothek?",
+      "instructionsEn": "What do you say to another person in the library?",
+      "title": "Kurze Begegnungen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bücher zurückbringen, die Gebühr zahlen und ab jetzt die Erinnerungsmail aktivieren."
+              },
+              {
+                "key": "b",
+                "text": "Warten, bis eine Mahnung kommt."
+              },
+              {
+                "key": "c",
+                "text": "Die Bücher anonym in den Rückgabekasten werfen."
+              }
+            ],
+            "q": "Die Frist ist seit zwei Wochen abgelaufen. — The loan period expired two weeks ago.",
+            "why": "Die Gebühr wächst pro Woche. Zurückbringen stoppt sie sofort — und die Erinnerungsmail verhindert die Wiederholung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nichts sagen und hoffen."
+              },
+              {
+                "key": "b",
+                "text": "Es an der Theke ansprechen und fragen, wie der Schaden geregelt wird."
+              },
+              {
+                "key": "c",
+                "text": "Selbst kleben und zurückgeben."
+              }
+            ],
+            "q": "Ein Buch ist beschädigt zurückgekommen — von dir. — A book came back damaged, by you.",
+            "why": "Selbst reparieren macht es meist schlimmer. Ansprechen ist billiger als ein später entdeckter Schaden."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ein neues Exemplar kaufen und einfach abgeben."
+              },
+              {
+                "key": "b",
+                "text": "Den Verlust melden und nach dem Wiederbeschaffungswert fragen."
+              },
+              {
+                "key": "c",
+                "text": "Warten."
+              }
+            ],
+            "q": "Du hast das Buch verloren. — You've lost the book.",
+            "why": "Die Bibliothek entscheidet, ob ein Ersatzexemplar akzeptiert wird — vorher fragen erspart doppelte Kosten."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nichts ausleihen."
+              },
+              {
+                "key": "b",
+                "text": "Den Ausweis einer Freundin nehmen."
+              },
+              {
+                "key": "c",
+                "text": "Fragen, ob es mit Personalausweis oder der Ausweisnummer geht."
+              }
+            ],
+            "q": "Du hast deinen Ausweis vergessen. — You've forgotten your library card.",
+            "why": "Meist reicht ein Lichtbildausweis oder die Nummer — fremde Ausweise sind nicht erlaubt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Freundlich darauf hinweisen oder das Personal ansprechen."
+              },
+              {
+                "key": "b",
+                "text": "Auch laut werden."
+              },
+              {
+                "key": "c",
+                "text": "Den Platz wechseln."
+              }
+            ],
+            "q": "Jemand telefoniert laut im Lesesaal. — Someone is talking loudly on the phone in the reading room.",
+            "why": "Ein kurzer Hinweis reicht meistens. Dafür gibt es im Zweifel das Personal."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Anrufen und fragen, ob die Abholfrist verlängert werden kann."
+              },
+              {
+                "key": "b",
+                "text": "Nichts tun, es wartet schon."
+              },
+              {
+                "key": "c",
+                "text": "Die Vormerkung löschen."
+              }
+            ],
+            "q": "Das vorgemerkte Buch ist da, aber du bist im Urlaub. — Your reserved book has arrived but you're on holiday.",
+            "why": "Vorgemerkte Bücher werden nach wenigen Tagen weitergegeben — ein Anruf sichert es dir."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Was machst oder sagst du? Wähle a, b oder c.",
+      "instructionsEn": "What do you do or say? Choose a, b, or c.",
+      "title": "Der Ernstfall"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Leihfrist"
+          ],
+          "2": [
+            "Mahngebühren"
+          ],
+          "3": [
+            "vormerken"
+          ],
+          "4": [
+            "verlängern"
+          ],
+          "5": [
+            "verloren"
+          ],
+          "6": [
+            "Wiederbeschaffungswert"
+          ],
+          "7": [
+            "Lesesaal"
+          ],
+          "8": [
+            "Fernleihe"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die {1} ist leider schon abgelaufen. (wie lange man das Buch behalten darf)\n2. Dann fallen {2} an. (Kosten bei zu später Rückgabe)\n3. Ich möchte das Buch {3}. (reservieren, trennbar)\n4. Kann ich die Frist noch {4}? (mehr Zeit bekommen)\n5. Ich habe das Buch leider {5}. (nicht mehr finden können)\n6. Was ist der {6}? (was ein Ersatz kosten würde)\n7. Im {7} bitte nicht telefonieren. (Raum zum Arbeiten)\n8. Könnten Sie das Buch per {8} bestellen? (aus einer anderen Bibliothek)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das fehlende Wort.",
+      "instructionsEn": "Fill in the missing word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Bibliotheksausweis"
+          ],
+          "2": [
+            "Leihfrist"
+          ],
+          "3": [
+            "Mahngebühr"
+          ],
+          "4": [
+            "Fernleihe"
+          ],
+          "5": [
+            "Lesesaal"
+          ],
+          "6": [
+            "leihe"
+          ],
+          "7": [
+            "zurück"
+          ],
+          "8": [
+            "merke"
+          ],
+          "9": [
+            "auf"
+          ],
+          "10": [
+            "verlängern"
+          ],
+          "11": [
+            "vormerken"
+          ],
+          "12": [
+            "Fernleihe"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Wortschatz (5 Punkte):**\n1. Die Karte zum Ausleihen: der {1}\n2. Wie lange du das Buch behalten darfst: die {2}\n3. Kosten bei zu später Rückgabe: die {3}\n4. Ein Buch aus einer anderen Bibliothek bestellen: die {4}\n5. Der ruhige Raum zum Arbeiten: der {5}\n\n**Trennbare Verben (4 Punkte):**\n6. Ich {6} drei Bücher aus. (ausleihen)\n7. Bitte geben Sie die Bücher rechtzeitig {7}. (zurückgeben)\n8. Ich {8} mir den Roman vor. (vormerken)\n9. Die Bibliothek macht um zehn Uhr {9}. (aufmachen)\n\n**Redemittel (3 Punkte):**\n10. „Kann ich die Leihfrist online {10}?“\n11. „Könnte ich das Buch {11} lassen?“\n12. „Wäre eine {12} möglich?“\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die Lücken.",
+      "instructionsEn": "Fill in the gaps.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-12-bibliothek-a2",
+  "intro": "Die Stadtbibliothek ist einer der günstigsten Orte zum Deutschlernen — und einer der ersten, an denen man einen Ausweis beantragen kann, ohne dass es kompliziert wird. Dieses Set übt das Praktische: anmelden, ausleihen, verlängern, vormerken, im Lesesaal arbeiten. Grammatik nach Bedarf: trennbare Verben (ausleihen, zurückgeben, verlängern, vormerken), Zeitangaben mit „bis“ und „innerhalb von“, höfliche Fragen. Block C: Frist abgelaufen, Buch beschädigt, Ausweis vergessen. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/12-bibliothek-a2",
+  "level": "A2",
+  "summary": "Ausweis beantragen, ausleihen und verlängern, den Lesesaal nutzen — und reagieren, wenn die Frist abgelaufen oder das Buch beschädigt ist.",
+  "title": "In der Bibliothek — A2",
+  "topic": "In der Bibliothek"
+}

@@ -1,0 +1,824 @@
+{
+  "category": "Soziales",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "aussuchen",
+            "label": "Aussuchen"
+          },
+          {
+            "key": "einpacken",
+            "label": "Einpacken"
+          },
+          {
+            "key": "ueberreichen",
+            "label": "Überreichen"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "aussuchen",
+            "text": "eine Geschenkidee finden"
+          },
+          {
+            "bucket": "aussuchen",
+            "text": "den Geschmack der Person bedenken"
+          },
+          {
+            "bucket": "aussuchen",
+            "text": "ein Budget festlegen"
+          },
+          {
+            "bucket": "aussuchen",
+            "text": "zwischen mehreren Geschenken vergleichen"
+          },
+          {
+            "bucket": "einpacken",
+            "text": "Geschenkpapier kaufen"
+          },
+          {
+            "bucket": "einpacken",
+            "text": "das Geschenk sorgfältig einpacken"
+          },
+          {
+            "bucket": "einpacken",
+            "text": "eine Schleife binden"
+          },
+          {
+            "bucket": "einpacken",
+            "text": "eine Grußkarte dazulegen"
+          },
+          {
+            "bucket": "ueberreichen",
+            "text": "das Geschenk überreichen"
+          },
+          {
+            "bucket": "ueberreichen",
+            "text": "alles Gute wünschen"
+          },
+          {
+            "bucket": "ueberreichen",
+            "text": "sich über die Reaktion freuen"
+          },
+          {
+            "bucket": "ueberreichen",
+            "text": "den Kassenbon für den Umtausch aufheben"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Aussuchen, einpacken oder überreichen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "das Geschenk"
+          },
+          {
+            "key": "2",
+            "text": "die Geschenkidee"
+          },
+          {
+            "key": "3",
+            "text": "das Geschenkpapier"
+          },
+          {
+            "key": "4",
+            "text": "die Grußkarte"
+          },
+          {
+            "key": "5",
+            "text": "der Geschenkgutschein"
+          },
+          {
+            "key": "6",
+            "text": "der Kassenbon"
+          },
+          {
+            "key": "7",
+            "text": "der Umtausch"
+          },
+          {
+            "key": "8",
+            "text": "die Verpackung"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "etwas, das man jemandem schenkt"
+          },
+          {
+            "key": "b",
+            "text": "ein Vorschlag, was man schenken könnte"
+          },
+          {
+            "key": "c",
+            "text": "das Papier, mit dem man ein Geschenk einpackt"
+          },
+          {
+            "key": "d",
+            "text": "eine kleine Karte mit guten Wünschen"
+          },
+          {
+            "key": "e",
+            "text": "ein Gutschein, den man verschenken kann"
+          },
+          {
+            "key": "f",
+            "text": "der Beleg über einen Kauf"
+          },
+          {
+            "key": "g",
+            "text": "das Zurückbringen und Tauschen einer Ware"
+          },
+          {
+            "key": "h",
+            "text": "das, was ein Geschenk von außen umgibt"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "Hast"
+          ],
+          "3": [
+            "soll"
+          ],
+          "4": [
+            "Können"
+          ],
+          "5": [
+            "passt"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "habe"
+          ],
+          "8": [
+            "Ist"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} noch keine Geschenkidee für meine Schwester. (haben, Präsens)\n2. {2} du das Geschenk schon eingepackt? (haben, Perfekt)\n3. Man {3} den Kassenbon für den Umtausch aufheben. (sollen, Präsens)\n4. {4} Sie mir bitte ein schönes Geschenkpapier zeigen? (können, Sie-Form)\n5. Falls das Geschenk nicht {5}, kann man es umtauschen. (passen, Präsens)\n6. Meine Freundin {6} sich sicher sehr über das Geschenk freuen. (werden, Futur I)\n7. Ich {7} schon eine Grußkarte geschrieben. (haben, Perfekt)\n8. {8} das Geschenk schon eingepackt worden? (sein, Perfekt Passiv)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Das Geschenk vorbereiten"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Geschenkidee"
+          ],
+          "2": [
+            "Geschenkpapier"
+          ],
+          "3": [
+            "Grußkarte"
+          ],
+          "4": [
+            "Kassenbon"
+          ],
+          "5": [
+            "Geschenkgutschein"
+          ],
+          "6": [
+            "Verpackung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich suche noch eine gute {1} für meinen Vater. (ein Vorschlag, was man schenken könnte)\n2. Zum Einpacken brauche ich noch {2}. (das Papier für Geschenke)\n3. Ich schreibe noch schnell eine {3} dazu. (eine Karte mit guten Wünschen)\n4. Falls es nicht gefällt, kann man es mit dem {4} zurückbringen. (der Beleg über den Kauf)\n5. Ich habe stattdessen einen {5} gekauft. (ein Gutschein zum Verschenken)\n6. Die {6} war so schön, dass ich sie fast nicht öffnen wollte. (das, was das Geschenk umgibt)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "GESCHENK"
+          ],
+          "2": [
+            "GESCHENKIDEE"
+          ],
+          "3": [
+            "EINPACKEN"
+          ],
+          "4": [
+            "GESCHENKPAPIER"
+          ],
+          "5": [
+            "GRUSSKARTE"
+          ],
+          "6": [
+            "KASSENBON"
+          ],
+          "7": [
+            "ÜBERREICHE"
+          ],
+          "8": [
+            "VERPACKT"
+          ],
+          "9": [
+            "UMTAUSCH"
+          ],
+          "10": [
+            "FREUDE"
+          ]
+        },
+        "bank": [
+          "GESCHENK",
+          "GESCHENKIDEE",
+          "RABATT",
+          "EINPACKEN",
+          "GESCHENKPAPIER",
+          "GESCHENKGUTSCHEIN",
+          "GRUSSKARTE",
+          "KASSENBON",
+          "VERPACKUNG",
+          "ÜBERREICHE",
+          "GESCHENKKORB",
+          "VERPACKT",
+          "UMTAUSCH",
+          "FREUDE"
+        ],
+        "text": "(im Geschäft)\n— Guten Tag, ich suche ein {1} für meine Mutter.\n— Gerne, haben Sie schon eine {2}?\n— Nicht wirklich, sie mag Bücher und Tee.\n— Wie wäre es mit diesem schönen Teeset?\n— Das gefällt mir! Können Sie es mir bitte {3}?\n— Natürlich, welches {4} möchten Sie denn?\n— Das rote, bitte, mit einer Schleife.\n— Gerne. Möchten Sie auch eine {5} dazulegen?\n— Ja, bitte, die mit den Blumen.\n— Bitte sehr. Und hier ist Ihr {6}, falls Sie etwas umtauschen\nmöchten.\n— Vielen Dank, den hebe ich gut auf.\n(zu Hause, beim Überreichen)\n— Herzlichen Glückwunsch, Mama! Ich {7} dir dieses kleine\nGeschenk.\n— Oh, wie schön {8}! Vielen Dank!\n— Falls es dir nicht gefällt, kannst du es zum {9}\nzurückbringen.\n— Deine Reaktion macht mir so viel {10}.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Aussuchen, einpacken, überreichen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Geschenke interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich suche ein Geschenk für meine Mutter."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal."
+              }
+            ],
+            "q": "Du willst der Verkäuferin sagen, dass du ein Geschenk für deine Mutter suchst. — You want to tell the shop assistant you're looking for a gift for your mother.",
+            "why": "Eine klare Aussage ist der übliche Einstieg beim Kauf eines Geschenks."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich frage lieber nicht nach."
+              },
+              {
+                "key": "c",
+                "text": "Können Sie mir das Geschenk bitte einpacken?"
+              }
+            ],
+            "q": "Du willst wissen, ob du das Geschenk einpacken lassen kannst. — You want to know if you can have the gift wrapped.",
+            "why": "Eine höfliche Frage klärt, ob ein Einpackservice angeboten wird."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das rote Geschenkpapier, bitte, mit einer Schleife."
+              },
+              {
+                "key": "b",
+                "text": "Farben interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst der Verkäuferin sagen, welches Geschenkpapier du möchtest. — You want to tell the shop assistant which wrapping paper you want.",
+            "why": "Eine klare Angabe hilft der Verkäuferin beim passenden Einpacken."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Umtausch interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Kann ich das Geschenk später umtauschen, falls es nicht gefällt?"
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal, Hauptsache es sieht schön aus."
+              }
+            ],
+            "q": "Du willst wissen, ob du das Geschenk später umtauschen kannst. — You want to know if you can exchange the gift later.",
+            "why": "Eine direkte Frage klärt frühzeitig die Umtauschmöglichkeiten."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Preise interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Das ist mir zu kompliziert."
+              },
+              {
+                "key": "c",
+                "text": "Wie viel kostet das Geschenk eigentlich ungefähr?"
+              }
+            ],
+            "q": "Du willst wissen, wie viel das Geschenk ungefähr kostet. — You want to know roughly how much the gift costs.",
+            "why": "Eine direkte Frage klärt frühzeitig das Budget."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Herzlichen Glückwunsch, Mama, ich wünsche dir alles Gute!"
+              },
+              {
+                "key": "b",
+                "text": "Glückwünsche interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst deiner Mutter beim Überreichen alles Gute wünschen. — You want to wish your mother all the best while handing over the gift.",
+            "why": "Eine herzliche Formulierung passt zum feierlichen Moment des Überreichens."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Aussuchen und einpacken"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Aussage, Verb an Position 2",
+            "tiles": [
+              "Ich",
+              "suche",
+              "ein",
+              "Geschenk",
+              "für",
+              "meine",
+              "Mutter"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Frage mit Modalverb",
+            "tiles": [
+              "Können",
+              "Sie",
+              "es",
+              "mir",
+              "bitte",
+              "einpacken",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Ich",
+              "habe",
+              "schon",
+              "eine",
+              "Grußkarte",
+              "geschrieben"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Futur I, Zeitangabe an Position 1, Verb an Position 2",
+            "tiles": [
+              "Morgen",
+              "werde",
+              "ich",
+              "das",
+              "Geschenk",
+              "überreichen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "W-Frage mit Verb an Position 2",
+            "tiles": [
+              "Wie",
+              "viel",
+              "kostet",
+              "das",
+              "Geschenk",
+              "eigentlich",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Perfekt, reflexiv, Partizip am Ende",
+            "tiles": [
+              "Sie",
+              "hat",
+              "sich",
+              "riesig",
+              "über",
+              "das",
+              "Geschenk",
+              "gefreut"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zum Geschenk bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Bei einer guten Geschenkidee sollte man vor allem die Interessen der Person bedenken. — When choosing a good gift idea, you should mainly consider the person's interests.",
+            "why": "So steht es ausdrücklich in den Infos zum Geschenk."
+          },
+          {
+            "answer": false,
+            "q": "Viele Geschäfte bieten überhaupt keinen Einpackservice an. — Many shops offer no gift-wrapping service at all.",
+            "why": "Viele Geschäfte bieten einen kostenlosen oder günstigen Einpackservice an."
+          },
+          {
+            "answer": true,
+            "q": "Den Kassenbon sollte man für einen möglichen Umtausch gut aufbewahren. — You should keep the receipt safe in case you need to exchange the gift.",
+            "why": "„Kassenbon: sollte man für einen möglichen Umtausch gut aufbewahren.“"
+          },
+          {
+            "answer": false,
+            "q": "Ein Umtausch ist auch ohne Kassenbon immer problemlos möglich. — An exchange is always possible without any problem even without a receipt.",
+            "why": "Ein Umtausch ist meist nur mit Kassenbon möglich."
+          },
+          {
+            "answer": true,
+            "q": "Ein Geschenkgutschein ist eine gute Alternative, wenn man unsicher ist. — A gift voucher is a good alternative when you're unsure.",
+            "why": "„Geschenkgutschein: eine gute Alternative, wenn man sich unsicher ist.“"
+          },
+          {
+            "answer": false,
+            "q": "Eine persönliche Grußkarte macht ein Geschenk nicht schöner. — A personal greeting card doesn't make a gift nicer.",
+            "why": "Eine persönliche Karte macht ein Geschenk noch schöner, nicht weniger schön."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Ein Geschenk aussuchen und überreichen**\n>\n> - **Geschenkidee:** am besten die **Interessen der Person**\n>   bedenken, nicht nur den Preis.\n> - **Geschenkpapier:** viele Geschäfte bieten einen\n>   **kostenlosen oder günstigen Einpackservice** an.\n> - **Kassenbon:** sollte man für einen möglichen Umtausch\n>   **gut aufbewahren**.\n> - **Umtausch:** ist meist nur **mit Kassenbon** möglich.\n> - **Geschenkgutschein:** eine gute Alternative, wenn man sich\n>   **unsicher** ist.\n> - **Grußkarte:** eine persönliche Karte macht ein Geschenk\n>   **noch schöner**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zum Geschenk lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach nichts sagen und das falsche Geschenk trotzdem geben."
+              },
+              {
+                "key": "b",
+                "text": "Schnell noch umtauschen oder ein passenderes Geschenk besorgen."
+              },
+              {
+                "key": "c",
+                "text": "Die Feier komplett verpassen."
+              }
+            ],
+            "q": "Sie merken kurz vor der Feier, dass Sie das falsche Geschenk gekauft haben. — You notice shortly before the party that you bought the wrong gift.",
+            "why": "Ein schneller Umtausch löst das Problem noch rechtzeitig vor der Feier."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Geschenk einfach wegwerfen."
+              },
+              {
+                "key": "b",
+                "text": "Sich beim Geschäft beschweren, ohne nachzufragen."
+              },
+              {
+                "key": "c",
+                "text": "Höflich nachfragen, ob ein Umtausch auch ohne Bon möglich ist."
+              }
+            ],
+            "q": "Sie haben Ihren Kassenbon verloren und möchten das Geschenk umtauschen. — You've lost your receipt and want to exchange the gift.",
+            "why": "Manche Geschäfte erlauben einen Umtausch auch ohne Kassenbon, zum Beispiel gegen Gutschrift."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ruhig anbieten, es gemeinsam umzutauschen."
+              },
+              {
+                "key": "b",
+                "text": "Beleidigt sein und die Person kritisieren."
+              },
+              {
+                "key": "c",
+                "text": "Das Geschenk sofort zurückverlangen."
+              }
+            ],
+            "q": "Der beschenkten Person gefällt das Geschenk offensichtlich nicht. — The person clearly doesn't like the gift.",
+            "why": "Ein ruhiges Angebot nimmt der Situation die Peinlichkeit."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Geschenk einfach ohne Papier überreichen."
+              },
+              {
+                "key": "b",
+                "text": "Neues Geschenkpapier holen und es noch einmal versuchen."
+              },
+              {
+                "key": "c",
+                "text": "Das Geschenk gar nicht mehr überreichen."
+              }
+            ],
+            "q": "Beim Einpacken reißt das Geschenkpapier. — The wrapping paper tears while you're wrapping the gift.",
+            "why": "Neues Papier löst das Problem am einfachsten."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Geschenk einfach zurückschicken."
+              },
+              {
+                "key": "b",
+                "text": "Nichts sagen und so tun, als gäbe es kein Geschenk."
+              },
+              {
+                "key": "c",
+                "text": "Der Person ehrlich erklären, dass das Geschenk noch unterwegs ist."
+              }
+            ],
+            "q": "Ihr online bestelltes Geschenk kommt erst nach der Feier an. — Your gift ordered online only arrives after the party.",
+            "why": "Eine ehrliche Erklärung wird meist mit Verständnis aufgenommen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Gemeinsam überlegen, ob eines umgetauscht werden kann."
+              },
+              {
+                "key": "b",
+                "text": "So tun, als wäre nichts passiert."
+              },
+              {
+                "key": "c",
+                "text": "Sich gegenseitig Vorwürfe machen."
+              }
+            ],
+            "q": "Zwei Personen schenken der gleichen Person versehentlich dasselbe Geschenk. — Two people accidentally give the same person the same gift.",
+            "why": "Eine gemeinsame Lösung ist entspannter als gegenseitige Vorwürfe."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn beim Geschenk etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "gekauft"
+          ],
+          "2": [
+            "verloren"
+          ],
+          "3": [
+            "gefallen"
+          ],
+          "4": [
+            "gerissen"
+          ],
+          "5": [
+            "angekommen"
+          ],
+          "6": [
+            "entschieden"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe leider das falsche Geschenk {1}. (erworben, Partizip)\n2. Meinen Kassenbon habe ich leider {2}. (nicht mehr da, Partizip)\n3. Das Geschenk hat ihr offensichtlich nicht {3}. (nicht gemocht, Partizip)\n4. Beim Einpacken ist das Geschenkpapier {4}. (beschädigt, Partizip)\n5. Mein online bestelltes Geschenk ist noch nicht {5}. (nicht eingetroffen, Partizip)\n6. Wir haben uns beide für das gleiche Geschenk {6}. (gewählt, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "soll"
+          ],
+          "3": [
+            "Geschenkidee"
+          ],
+          "4": [
+            "Geschenkpapier"
+          ],
+          "5": [
+            "Grußkarte"
+          ],
+          "6": [
+            "Kassenbon"
+          ],
+          "7": [
+            "Geschenkgutschein"
+          ],
+          "8": [
+            "Verpackung"
+          ],
+          "9": [
+            "Können"
+          ],
+          "10": [
+            "gekauft"
+          ],
+          "11": [
+            "verloren"
+          ],
+          "12": [
+            "gefallen"
+          ],
+          "13": [
+            "gerissen"
+          ],
+          "14": [
+            "angekommen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} noch keine Geschenkidee für meine Schwester. (have — Präsens)\n2. Man {2} den Kassenbon für den Umtausch aufheben. (should — sollen)\n3. Ich suche noch eine gute {3} für meinen Vater. (gift idea)\n4. Zum Einpacken brauche ich noch {4}. (wrapping paper)\n5. Ich schreibe noch schnell eine {5} dazu. (greeting card)\n6. Falls es nicht gefällt, kann man es mit dem {6} zurückbringen. (receipt)\n7. Ich habe stattdessen einen {7} gekauft. (gift voucher)\n8. Die {8} war so schön, dass ich sie fast nicht öffnen wollte. (wrapping)\n9. {9} Sie mir bitte ein schönes Geschenkpapier zeigen? (could — können, Sie-Form)\n10. Ich habe leider das falsche Geschenk {10}. (bought — Partizip)\n11. Meinen Kassenbon habe ich leider {11}. (lost — Partizip)\n12. Das Geschenk hat ihr offensichtlich nicht {12}. (pleased — Partizip)\n13. Beim Einpacken ist das Geschenkpapier {13}. (torn — Partizip)\n14. Mein online bestelltes Geschenk ist noch nicht {14}. (arrived — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-89-geschenk-aussuchen-a2",
+  "intro": "Ein gutes Geschenk braucht Vorbereitung: eine passende Geschenkidee finden, es im Geschäft einpacken lassen, vielleicht eine Grußkarte dazulegen und den Kassenbon für den Fall des Umtauschs aufheben. Dieses Set übt genau das — aussuchen, einpacken, überreichen, und was zu tun ist, wenn das Geschenkpapier reißt oder das Geschenk nicht gefällt. Grammatik nach Bedarf: Modalverben, Perfekt und Futur I. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/89-geschenk-aussuchen-a2",
+  "level": "A2",
+  "summary": "Eine passende Geschenkidee finden, das Geschenk kaufen und einpacken lassen und es feierlich überreichen — und was tun, wenn das Papier reißt oder das Geschenk nicht gefällt.",
+  "title": "Ein Geschenk aussuchen und überreichen — A2",
+  "topic": "Ein Geschenk aussuchen und überreichen"
+}

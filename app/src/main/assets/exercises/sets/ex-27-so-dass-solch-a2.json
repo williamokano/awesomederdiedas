@@ -1,0 +1,811 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Der Kaffee war so heiß, dass ich mir den Mund verbrannt habe.",
+            "tiles": [
+              "Der Kaffee war",
+              "so heiß,",
+              "dass",
+              "ich",
+              "mir den Mund verbrannt habe."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Sie spricht so leise, dass man sie kaum hört.",
+            "tiles": [
+              "Sie",
+              "spricht",
+              "so leise,",
+              "dass",
+              "man sie kaum hört."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Das Konzert war so laut, dass mir die Ohren wehtaten.",
+            "tiles": [
+              "Das Konzert war",
+              "so laut,",
+              "dass",
+              "mir",
+              "die Ohren wehtaten."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Ich hatte so viel Arbeit, dass ich das Mittagessen vergessen habe.",
+            "tiles": [
+              "Ich hatte",
+              "so viel Arbeit,",
+              "dass",
+              "ich",
+              "das Mittagessen vergessen habe."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Der Film war so langweilig, dass wir früher gegangen sind.",
+            "tiles": [
+              "Der Film war",
+              "so langweilig,",
+              "dass",
+              "wir",
+              "früher gegangen sind."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A1",
+      "instructions": "Bring die Kacheln in die richtige Reihenfolge. Im dass-Satz steht das Verb am Ende.",
+      "instructionsEn": "Put the tiles in order. In the dass-clause the verb goes to the end.",
+      "title": "so … dass — Satzbau"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "So ein"
+          ],
+          "2": [
+            "so einen"
+          ],
+          "3": [
+            "So eine"
+          ],
+          "4": [
+            "so ein"
+          ],
+          "5": [
+            "so einem"
+          ],
+          "6": [
+            "So eine"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Wetter! Es regnet schon den ganzen Tag.\n2. Ich hätte auch gern {2} großen Garten.\n3. {3} nette Kollegin findet man selten.\n4. Warum hast du {4} teures Handy gekauft?\n5. Mit {5} Chef möchte ich nicht arbeiten.\n6. {6} Chance bekommst du nur einmal.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze so ein, so eine oder so einen (wie der unbestimmte Artikel).",
+      "instructionsEn": "Fill in so ein, so eine, or so einen (like the indefinite article).",
+      "title": "so ein, so eine oder so einen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "fad"
+          ],
+          "2": [
+            "lang"
+          ],
+          "3": [
+            "spannend"
+          ],
+          "4": [
+            "kalt"
+          ],
+          "5": [
+            "leicht"
+          ],
+          "6": [
+            "müde"
+          ]
+        },
+        "bank": [
+          "fad",
+          "lang",
+          "spannend",
+          "kalt",
+          "leicht",
+          "müde",
+          "teuer"
+        ],
+        "text": "1. Die Suppe war so {1}, dass ich noch Salz dazugeben musste.\n2. Der Weg war so {2}, dass wir drei Stunden gebraucht haben.\n3. Das Buch ist so {3}, dass ich es an einem Tag gelesen habe.\n4. Draußen ist es so {4}, dass die Straßen leer sind.\n5. Der Test war so {5}, dass fast alle bestanden haben.\n6. Er war so {6}, dass er sofort eingeschlafen ist.\n",
+        "type": "gap-bank"
+      },
+      "id": "A3",
+      "instructions": "Fülle die 6 Lücken mit den Adjektiven aus dem Kasten. Ein Wort bleibt übrig.",
+      "instructionsEn": "Fill the 6 gaps with the adjectives from the box. One word is left over.",
+      "title": "Welches Adjektiv passt in so … dass?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "so ein"
+          ],
+          "2": [
+            "so"
+          ],
+          "3": [
+            "dass"
+          ],
+          "4": [
+            "so"
+          ],
+          "5": [
+            "dass"
+          ],
+          "6": [
+            "so"
+          ],
+          "7": [
+            "dass"
+          ],
+          "8": [
+            "So einen"
+          ]
+        },
+        "text": "Gestern war {1} chaotischer Tag! Am Morgen hat mein Wecker {2}\nleise geklingelt, {3} ich ihn nicht gehört habe. Der Bus war {4}\nvoll, {5} ich stehen musste. Im Büro hatte ich {6} viele E-Mails,\n{7} ich bis abends gearbeitet habe. {8} Tag will ich nicht noch\neinmal erleben.\n",
+        "type": "gap-text"
+      },
+      "id": "B1",
+      "instructions": "Ergänze so, dass oder so ein / so eine / so einen.",
+      "instructionsEn": "Fill in so, dass, or so ein / so eine / so einen.",
+      "title": "Lückentext: Ein verrückter Tag"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "so ein"
+              },
+              {
+                "key": "b",
+                "text": "so"
+              },
+              {
+                "key": "c",
+                "text": "solch"
+              }
+            ],
+            "q": "Es war ___ warm, dass wir im Freien essen konnten.",
+            "why": "so + Adjektiv (warm) → so."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "weil"
+              },
+              {
+                "key": "b",
+                "text": "damit"
+              },
+              {
+                "key": "c",
+                "text": "dass"
+              }
+            ],
+            "q": "Es war so warm, ___ wir im Freien essen konnten.",
+            "why": "Folge nach so + Adjektiv → dass."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "So ein"
+              },
+              {
+                "key": "b",
+                "text": "So"
+              },
+              {
+                "key": "c",
+                "text": "So eine"
+              }
+            ],
+            "q": "___ Glück hast du nicht jeden Tag!",
+            "why": "so ein + Nomen (das Glück) → So ein."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "so"
+              },
+              {
+                "key": "b",
+                "text": "so eine"
+              },
+              {
+                "key": "c",
+                "text": "so ein"
+              }
+            ],
+            "q": "Ich möchte auch ___ Fahrrad wie deins.",
+            "why": "das Fahrrad → so ein Fahrrad."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "so"
+              },
+              {
+                "key": "b",
+                "text": "so ein"
+              },
+              {
+                "key": "c",
+                "text": "so einen"
+              }
+            ],
+            "q": "Der Koffer war ___ schwer, dass ich ihn nicht heben konnte.",
+            "why": "so + Adjektiv (schwer) → so."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "so ein"
+              },
+              {
+                "key": "b",
+                "text": "so einem"
+              },
+              {
+                "key": "c",
+                "text": "so eine"
+              }
+            ],
+            "q": "Mit ___ Auto würde ich gern eine Reise machen.",
+            "why": "mit + Dativ, das Auto → mit so einem Auto."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "so"
+              },
+              {
+                "key": "b",
+                "text": "so eine"
+              },
+              {
+                "key": "c",
+                "text": "solche"
+              }
+            ],
+            "q": "Ich hatte ___ viele Fragen, dass die Stunde nicht gereicht hat.",
+            "why": "so viele + Nomen … dass → so."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "So ein"
+              },
+              {
+                "key": "b",
+                "text": "So eine"
+              },
+              {
+                "key": "c",
+                "text": "So"
+              }
+            ],
+            "q": "___ schöne Aussicht hatte ich lange nicht mehr.",
+            "why": "die Aussicht (feminin) → So eine."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Lösung (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "so, dass oder so ein?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "so ein"
+              },
+              {
+                "key": "b",
+                "text": "solches"
+              },
+              {
+                "key": "c",
+                "text": "so"
+              }
+            ],
+            "q": "Das Lokal war ___ voll, dass wir keinen Platz bekamen.",
+            "why": "so + Adjektiv → so."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "So ein"
+              },
+              {
+                "key": "b",
+                "text": "So einen"
+              },
+              {
+                "key": "c",
+                "text": "So eine"
+              }
+            ],
+            "q": "___ langen Abend hatten wir schon lange nicht mehr.",
+            "why": "Akkusativ, der Abend → So einen langen Abend."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "so ein"
+              },
+              {
+                "key": "b",
+                "text": "solch"
+              },
+              {
+                "key": "c",
+                "text": "so"
+              }
+            ],
+            "q": "Der Nachtisch sah ___ gut aus, dass alle einen bestellten.",
+            "why": "so + Adjektiv (gut) → so."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "dass"
+              },
+              {
+                "key": "b",
+                "text": "weil"
+              },
+              {
+                "key": "c",
+                "text": "obwohl"
+              }
+            ],
+            "q": "Wir hatten so einen netten Kellner, ___ wir extra Trinkgeld gaben.",
+            "why": "Folge → dass."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "So ein"
+              },
+              {
+                "key": "b",
+                "text": "So einen"
+              },
+              {
+                "key": "c",
+                "text": "So eine"
+              }
+            ],
+            "q": "___ Portion schaffe ich nie allein.",
+            "why": "die Portion (feminin, Nominativ) → So eine."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "so eine"
+              },
+              {
+                "key": "b",
+                "text": "so"
+              },
+              {
+                "key": "c",
+                "text": "solche"
+              }
+            ],
+            "q": "Die Musik war ___ laut, dass wir uns anschreien mussten.",
+            "why": "so + Adjektiv (laut) → so."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "so einem"
+              },
+              {
+                "key": "b",
+                "text": "so ein"
+              },
+              {
+                "key": "c",
+                "text": "so einen"
+              }
+            ],
+            "q": "Mit ___ Blick auf den Fluss schmeckt sogar das einfache Essen gut.",
+            "why": "mit + Dativ, der Blick → mit so einem Blick."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "solche"
+              },
+              {
+                "key": "b",
+                "text": "so"
+              },
+              {
+                "key": "c",
+                "text": "so eine"
+              }
+            ],
+            "q": "Es gab ___ viele Vorspeisen, dass wir das Hauptgericht fast nicht mehr geschafft haben.",
+            "why": "so viele + Nomen → so."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle für jede Lücke die richtige Lösung (a, b oder c).",
+      "instructionsEn": "Choose the correct option for each gap (a, b, or c).",
+      "title": "Sprachbausteine Teil 1 — Ein Restaurantbesuch"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "so ein"
+          ],
+          "2": [
+            "so"
+          ],
+          "3": [
+            "dass"
+          ],
+          "4": [
+            "so"
+          ],
+          "5": [
+            "dass"
+          ],
+          "6": [
+            "so"
+          ],
+          "7": [
+            "dass"
+          ],
+          "8": [
+            "so einen"
+          ],
+          "9": [
+            "So ein"
+          ],
+          "10": [
+            "so"
+          ]
+        },
+        "bank": [
+          "so ein",
+          "so",
+          "dass",
+          "so",
+          "dass",
+          "so",
+          "dass",
+          "so einen",
+          "So ein",
+          "so",
+          "solche",
+          "weil",
+          "so eine"
+        ],
+        "text": "Wir hatten {1} tolles Wochenende am Meer. Das Wasser war {2} klar,\n{3} man bis auf den Grund sehen konnte. Am Samstag schien die\nSonne {4} stark, {5} wir uns alle einen Sonnenbrand geholt haben.\nAbends gab es {6} frischen Fisch, {7} wir zweimal nachbestellt\nhaben. Unser Zimmer hatte {8} schönen Balkon, dass wir dort\ngefrühstückt haben. {9} Wochenende möchte ich bald wiederholen.\nIch habe schon lange nicht mehr {10} gut geschlafen.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fülle die 10 Lücken. Drei Wörter im Kasten bleiben übrig.",
+      "instructionsEn": "Fill the 10 gaps. Three words in the box are left over.",
+      "title": "Sprachbausteine Teil 2 — Ein Wochenende am Meer (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Die Prüfung war so schwer, dass die Hälfte durchgefallen ist.",
+            "tiles": [
+              "Die Prüfung war",
+              "so schwer,",
+              "dass",
+              "die Hälfte",
+              "durchgefallen ist."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Wir hatten so einen Stau, dass wir den Flug verpasst haben.",
+            "tiles": [
+              "Wir hatten",
+              "so einen Stau,",
+              "dass",
+              "wir",
+              "den Flug verpasst haben."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "So eine Gelegenheit kommt so schnell nicht wieder.",
+            "tiles": [
+              "So eine",
+              "Gelegenheit",
+              "kommt",
+              "so schnell",
+              "nicht wieder."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Es hat so stark geschneit, dass die Schule ausgefallen ist.",
+            "tiles": [
+              "Es hat",
+              "so stark",
+              "geschneit,",
+              "dass",
+              "die Schule ausgefallen ist."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "D1",
+      "instructions": "Bring die Kacheln in die richtige Reihenfolge.",
+      "instructionsEn": "Put the tiles in the correct order.",
+      "title": "Wiederholung: Satzbau"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "so ein"
+              },
+              {
+                "key": "b",
+                "text": "solch"
+              },
+              {
+                "key": "c",
+                "text": "so"
+              }
+            ],
+            "q": "Der Rucksack war ___ schwer, dass mein Rücken wehtat.",
+            "why": "so + Adjektiv → so."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "dass"
+              },
+              {
+                "key": "b",
+                "text": "weil"
+              },
+              {
+                "key": "c",
+                "text": "damit"
+              }
+            ],
+            "q": "Der Rucksack war so schwer, ___ mein Rücken wehtat.",
+            "why": "Folge nach so + Adjektiv → dass."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "So ein"
+              },
+              {
+                "key": "b",
+                "text": "So eine"
+              },
+              {
+                "key": "c",
+                "text": "So einen"
+              }
+            ],
+            "q": "___ Regen habe ich seit Jahren nicht gesehen.",
+            "why": "Akkusativ, der Regen → So einen Regen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "so eine"
+              },
+              {
+                "key": "b",
+                "text": "so ein"
+              },
+              {
+                "key": "c",
+                "text": "so einen"
+              }
+            ],
+            "q": "Ich wünsche mir auch ___ ruhige Wohnung.",
+            "why": "die Wohnung (feminin, Akkusativ) → so eine."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "solche"
+              },
+              {
+                "key": "b",
+                "text": "so"
+              },
+              {
+                "key": "c",
+                "text": "so eine"
+              }
+            ],
+            "q": "Es waren ___ viele Leute da, dass wir uns verloren haben.",
+            "why": "so viele + Nomen … dass → so."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "so einem"
+              },
+              {
+                "key": "b",
+                "text": "so ein"
+              },
+              {
+                "key": "c",
+                "text": "so einen"
+              }
+            ],
+            "q": "Mit ___ Nachbarn hat man keine ruhige Minute.",
+            "why": "mit + Dativ, der Nachbar → mit so einem Nachbarn."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Wähle die richtige Lösung (a, b oder c). Das ist dein Abschlusscheck für dieses Set.",
+      "instructionsEn": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-27-so-dass-solch-a2",
+  "intro": "Mit so … dass drückt man eine Folge aus: so + Adjektiv oder Adverb im Hauptsatz, dann ein dass-Nebensatz mit dem Verb am Ende. Es war so kalt, dass wir zu Hause blieben. Er spricht so schnell, dass ich nichts verstehe. Auch mit Mengen: Ich habe so viele Termine, dass ich keine Zeit habe. Mit so ein / so eine / so einen + Nomen sagt man solch ein / so etwas wie das — oft als Ausruf: So ein Pech! So ein schönes Haus! So ein- wird wie der unbestimmte Artikel dekliniert (so ein Mann, so eine Frau, so einen Tag). Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/27-so-dass-solch-a2",
+  "level": "A2",
+  "summary": null,
+  "title": "so … dass und so ein — A2",
+  "topic": "so … dass / solch-"
+}

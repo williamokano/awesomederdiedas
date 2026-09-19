@@ -1,0 +1,655 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "Zeitform",
+          "Passivsatz (das Haus / bauen)"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Das Haus wird gebaut."
+                ],
+                "gap": 1
+              }
+            ],
+            "label": "Präsens"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Das Haus wurde gebaut."
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "Präteritum"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Das Haus ist gebaut worden."
+                ],
+                "gap": 3
+              }
+            ],
+            "label": "Perfekt"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Das Haus wird gebaut werden."
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "Futur I"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze den ganzen Passivsatz in der angegebenen Zeitform.",
+      "instructionsEn": "Fill in the whole passive sentence in the given tense.",
+      "title": "Ein Satz, alle Zeitformen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "werden"
+          ],
+          "2": [
+            "werden"
+          ],
+          "3": [
+            "wurde"
+          ],
+          "4": [
+            "ist"
+          ],
+          "5": [
+            "wird"
+          ],
+          "6": [
+            "sind"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Lehrer korrigiert die Tests. → Die Tests {1} korrigiert.\n2. Die Firma stellt neue Mitarbeiter ein. → Neue Mitarbeiter {2} eingestellt.\n3. Man baute die Brücke 1990. → Die Brücke {3} 1990 gebaut.\n4. Die Sekretärin hat den Brief geschrieben. → Der Brief {4} geschrieben worden.\n5. Der Koch kocht das Essen. → Das Essen {5} gekocht.\n6. Die Kinder haben die Blumen gepflanzt. → Die Blumen {6} gepflanzt worden.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze das Passiv-Hilfsverb (wird, werden, wurde oder ist).",
+      "instructionsEn": "Fill in the passive auxiliary (wird, werden, wurde, or ist).",
+      "title": "Aktiv → Passiv"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "wird"
+          ],
+          "3": [
+            "wurde"
+          ],
+          "4": [
+            "wird"
+          ],
+          "5": [
+            "wurde"
+          ],
+          "6": [
+            "werden"
+          ],
+          "7": [
+            "soll"
+          ],
+          "8": [
+            "wird"
+          ]
+        },
+        "bank": [
+          "wird",
+          "wird",
+          "wurde",
+          "wird",
+          "wurde",
+          "werden",
+          "soll",
+          "wird",
+          "war",
+          "waren"
+        ],
+        "text": "In dieser Bäckerei {1} jeden Morgen frisches Brot gebacken. Der\nTeig {2} schon um vier Uhr vorbereitet. Früher {3} das Brot noch\nvon Hand geknetet. Heute {4} eine Maschine benutzt. Letztes Jahr\n{5} ein neuer Ofen gekauft. Die Rezepte {6} seit Generationen\nweitergegeben. Nächstes Jahr {7} die Bäckerei renoviert werden.\nDie Kunden sagen, hier {8} das beste Brot der Stadt gebacken.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Die neue Bäckerei"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "ist"
+              },
+              {
+                "key": "c",
+                "text": "wurde"
+              }
+            ],
+            "q": "Der Laden ___ gerade geöffnet. (Der Verkäufer macht die Tür gerade auf.)",
+            "why": "Vorgang (Prozess) → werden."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "ist"
+              },
+              {
+                "key": "c",
+                "text": "war"
+              }
+            ],
+            "q": "Der Laden ___ schon geöffnet. (Die Tür steht schon offen.)",
+            "why": "Zustand (Ergebnis) → sein."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "ist"
+              },
+              {
+                "key": "c",
+                "text": "wurde"
+              }
+            ],
+            "q": "Das Fenster ___ gestern repariert. (Der Handwerker hat es gemacht.)",
+            "why": "Vorgang, Präteritum → wurde."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "ist"
+              },
+              {
+                "key": "b",
+                "text": "wird"
+              },
+              {
+                "key": "c",
+                "text": "wurde"
+              }
+            ],
+            "q": "Das Fenster ___ jetzt repariert. (Man sieht das fertige Ergebnis.)",
+            "why": "Zustand → sein."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ist"
+              },
+              {
+                "key": "b",
+                "text": "wird"
+              },
+              {
+                "key": "c",
+                "text": "war"
+              }
+            ],
+            "q": "Die Party ___ gerade vorbereitet.",
+            "why": "Vorgang → werden."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "wurde"
+              },
+              {
+                "key": "c",
+                "text": "ist"
+              }
+            ],
+            "q": "Alles ___ schon vorbereitet, die Gäste können kommen.",
+            "why": "Zustand → sein."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Vorgangspassiv oder Zustandspassiv?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "werden"
+              },
+              {
+                "key": "b",
+                "text": "wurden"
+              },
+              {
+                "key": "c",
+                "text": "sind"
+              }
+            ],
+            "q": "In dieser Fabrik ___ täglich 500 Autos produziert.",
+            "why": "Vorgang, Präsens → werden."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "werden"
+              },
+              {
+                "key": "b",
+                "text": "wurden"
+              },
+              {
+                "key": "c",
+                "text": "sind"
+              }
+            ],
+            "q": "Früher ___ hier nur 100 Autos pro Tag hergestellt.",
+            "why": "Vorgang, Präteritum → wurden."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "wurde"
+              },
+              {
+                "key": "c",
+                "text": "ist"
+              }
+            ],
+            "q": "Die neue Maschine ___ letzten Monat installiert worden.",
+            "why": "Vorgang, Perfekt → ist … worden."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "wurde"
+              },
+              {
+                "key": "c",
+                "text": "ist"
+              }
+            ],
+            "q": "Die Qualität ___ streng kontrolliert.",
+            "why": "Vorgang, Präsens → wird."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "kann"
+              },
+              {
+                "key": "b",
+                "text": "muss"
+              },
+              {
+                "key": "c",
+                "text": "darf"
+              }
+            ],
+            "q": "Jedes Auto ___ vor der Auslieferung getestet werden.",
+            "why": "Notwendigkeit im Passiv mit Modalverb → müssen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "müssen"
+              },
+              {
+                "key": "b",
+                "text": "sollen"
+              },
+              {
+                "key": "c",
+                "text": "können"
+              }
+            ],
+            "q": "Fehlerhafte Teile ___ sofort ersetzt werden.",
+            "why": "Möglichkeit im Passiv mit Modalverb → können."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "kann"
+              },
+              {
+                "key": "b",
+                "text": "soll"
+              },
+              {
+                "key": "c",
+                "text": "darf"
+              }
+            ],
+            "q": "Die Produktion ___ nächstes Jahr erhöht werden.",
+            "why": "Plan/Absicht im Passiv mit Modalverb → sollen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "werden"
+              },
+              {
+                "key": "b",
+                "text": "wurden"
+              },
+              {
+                "key": "c",
+                "text": "sind"
+              }
+            ],
+            "q": "Am Ende des Tages ___ die Maschinen ausgeschaltet.",
+            "why": "Vorgang, Präsens → werden."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct answer for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Die Autofabrik"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "wurde"
+          ],
+          "2": [
+            "wurde"
+          ],
+          "3": [
+            "wurden"
+          ],
+          "4": [
+            "wurde"
+          ],
+          "5": [
+            "sind"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "wird"
+          ],
+          "8": [
+            "sind"
+          ],
+          "9": [
+            "wird"
+          ],
+          "10": [
+            "wird"
+          ]
+        },
+        "bank": [
+          "wurde",
+          "wurde",
+          "wurde",
+          "wurden",
+          "sind",
+          "sind",
+          "wird",
+          "wird",
+          "wird",
+          "wird",
+          "war",
+          "waren"
+        ],
+        "text": "Die Berliner Mauer {1} 1961 gebaut. Sie {2} fast 30 Jahre lang\nbewacht. Viele Menschen {3} an der Flucht gehindert. 1989 {4}\ndie Mauer geöffnet. Seitdem {5} große Teile der Mauer abgerissen\nworden. Ein kleiner Teil {6} als Denkmal erhalten. Heute {7} die\nEast Side Gallery von Touristen besucht. Viele Kunstwerke {8}\ndort gemalt worden. Die Mauer {9} weltweit als Symbol der\nTeilung gesehen. Ihr Fall {10} als historisches Ereignis\ngefeiert.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Two words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Die Berliner Mauer (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "wurde"
+          ],
+          "3": [
+            "ist"
+          ],
+          "4": [
+            "muss"
+          ],
+          "5": [
+            "ist"
+          ],
+          "6": [
+            "werden"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das Brot {1} jeden Morgen frisch gebacken.\n2. Gestern {2} das Auto repariert.\n3. Der Brief {3} schon geschrieben worden.\n4. Die Aufgabe {4} bis Freitag erledigt werden.\n5. Die Tür {5} schon geöffnet, du kannst reingehen.\n6. Die Fenster {6} gerade geputzt.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze das Passiv-Hilfsverb oder das passende Modalverb.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "ist"
+              },
+              {
+                "key": "c",
+                "text": "wurde"
+              }
+            ],
+            "q": "Das Essen ___ gerade gekocht.",
+            "why": "Vorgang → werden."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "ist"
+              },
+              {
+                "key": "c",
+                "text": "wurde"
+              }
+            ],
+            "q": "Das Essen ___ schon fertig gekocht, wir können essen.",
+            "why": "Zustand → sein."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "ist"
+              },
+              {
+                "key": "c",
+                "text": "wurde"
+              }
+            ],
+            "q": "Die Rechnung ___ letzte Woche bezahlt.",
+            "why": "Vorgang, Präteritum → wurde."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "muss"
+              },
+              {
+                "key": "b",
+                "text": "kann"
+              },
+              {
+                "key": "c",
+                "text": "darf"
+              }
+            ],
+            "q": "Die Aufgabe ___ heute noch fertig gemacht werden.",
+            "why": "Notwendigkeit im Passiv mit Modalverb → müssen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "muss"
+              },
+              {
+                "key": "b",
+                "text": "kann"
+              },
+              {
+                "key": "c",
+                "text": "soll"
+              }
+            ],
+            "q": "Das Fenster ___ nicht geöffnet werden, es ist kaputt.",
+            "why": "Möglichkeit (negiert) im Passiv mit Modalverb → können."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "wurde"
+              },
+              {
+                "key": "c",
+                "text": "ist"
+              }
+            ],
+            "q": "Der Kuchen ___ schon gegessen.",
+            "why": "Zustand → sein."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-13-passiv-b1",
+  "intro": "Standalone drill set, not tied to any lesson. The Passiv shifts focus from who does something to what happens to it: Der Lehrer korrigiert die Tests (Aktiv) → Die Tests werden korrigiert (Passiv) — the doer can still be named with von + Dativ, but is often left out entirely. Vorgangspassiv (werden + Partizip II) describes the process itself across every tense (wird/wurde/ist … worden gebaut). A separate form, Zustandspassiv (sein + Partizip II), describes only the resulting state (Die Tür ist geöffnet — it's already open, no more opening happening). Modal verbs combine with the Passiv too: Die Aufgabe muss erledigt werden. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/13-passiv-b1",
+  "level": "B1",
+  "summary": null,
+  "title": "Passiv: Vorgang, Zustand und Modalverben — B1",
+  "topic": "Passiv"
+}

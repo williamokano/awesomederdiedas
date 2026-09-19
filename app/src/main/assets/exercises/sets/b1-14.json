@@ -1,0 +1,1588 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Die Stelle bei TechStart GmbH ist in Berlin-Mitte.",
+            "why": "\"TechStart GmbH, Berlin-Mitte\" — stated in the job ad."
+          },
+          {
+            "answer": false,
+            "q": "Man muss für die Stelle mindestens 3 Jahre Berufserfahrung haben.",
+            "why": "The ad asks for \"Teamfähigkeit und eigenverantwortliches Arbeiten\" but no specific years of experience are mentioned."
+          },
+          {
+            "answer": true,
+            "q": "Das Gehalt beträgt zwischen 2.800 und 3.200 Euro brutto im Monat.",
+            "why": "\"Attraktives Gehalt (2.800–3.200 € brutto/Monat)\""
+          },
+          {
+            "answer": true,
+            "q": "Man darf zwei Tage pro Woche im Homeoffice arbeiten.",
+            "why": "\"Flexibles Homeoffice-Modell (2 Tage/Woche)\""
+          },
+          {
+            "answer": false,
+            "q": "Die Bewerbungsunterlagen müssen per Post geschickt werden.",
+            "why": "The ad says \"per E-Mail an bewerbung@techstart-berlin.de\" — not by post."
+          },
+          {
+            "answer": false,
+            "q": "Die Stelle erfordert Kenntnisse in Grafikdesign.",
+            "why": "Grafikdesign is not mentioned in the ad. Only Office-Programme (Word, Excel, PowerPoint) are listed."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "A1",
+      "instructions": "> **Wir suchen Sie! — Marketingassistent/in (m/w/d) in Berlin**\n>\n> **Unternehmen:** TechStart GmbH, Berlin-Mitte\n> **Beginn:** ab sofort\n> **Umfang:** Vollzeit (40 Std./Woche)\n>\n> **Ihre Aufgaben:**\n> - Betreuung unserer Social-Media-Kanäle (Instagram, LinkedIn)\n> - Erstellung von Marketingmaterialien auf Deutsch und Englisch\n> - Kommunikation mit Kunden per E-Mail und Telefon\n> - Unterstützung des Teams bei Events und Messen\n>\n> **Ihr Profil:**\n> - Abgeschlossene Ausbildung oder Studium im Bereich Marketing, Kommunikation oder verwandten Fächern\n> - Sehr gute Deutschkenntnisse (mindestens B2), gute Englischkenntnisse\n> - Erfahrung mit Office-Programmen (Word, Excel, PowerPoint)\n> - Teamfähigkeit und eigenverantwortliches Arbeiten\n>\n> **Wir bieten:**\n> - Attraktives Gehalt (2.800–3.200 € brutto/Monat)\n> - Flexibles Homeoffice-Modell (2 Tage/Woche)\n> - Betriebliche Altersvorsorge\n> - Moderne Büroräume in zentraler Lage\n>\n> **Bewerbung:** Bitte senden Sie Ihre vollständigen Unterlagen (Anschreiben + Lebenslauf + Zeugnisse) bis zum **30. Juni 2026** per E-Mail an: bewerbung@techstart-berlin.de\n>\n> *Wir freuen uns auf Ihre Bewerbung!*\n\nRichtig (R) oder Falsch (F)? Items not mentioned in the ad count as Falsch (F).\n",
+      "title": "Lesen Teil 1 — Stellenanzeige (Text 1): Richtig / Falsch"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Englisch B1 und Deutsch B1."
+              },
+              {
+                "key": "b",
+                "text": "Deutsch mindestens B2 und gute Englischkenntnisse."
+              },
+              {
+                "key": "c",
+                "text": "Nur sehr gute Deutschkenntnisse, kein Englisch nötig."
+              }
+            ],
+            "q": "Welche Sprachkenntnisse werden für die Stelle mindestens verlangt?",
+            "why": "\"Sehr gute Deutschkenntnisse (mindestens B2), gute Englischkenntnisse\""
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nur einen Lebenslauf."
+              },
+              {
+                "key": "b",
+                "text": "Anschreiben, Lebenslauf und Zeugnisse."
+              },
+              {
+                "key": "c",
+                "text": "Ein Motivationsschreiben und Fotos."
+              }
+            ],
+            "q": "Was muss man mit der Bewerbung einschicken?",
+            "why": "\"vollständigen Unterlagen (Anschreiben + Lebenslauf + Zeugnisse)\""
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bis zum 20. Juni 2026."
+              },
+              {
+                "key": "b",
+                "text": "Bis zum 30. Juli 2026."
+              },
+              {
+                "key": "c",
+                "text": "Bis zum 30. Juni 2026."
+              }
+            ],
+            "q": "Bis wann muss die Bewerbung eingereicht werden?",
+            "why": "\"bis zum 30. Juni 2026\""
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A2",
+      "instructions": "Choose the correct answer (a, b, or c) based on Text 1 (Stellenanzeige).",
+      "title": "Lesen Teil 1 — Stellenanzeige: Leseverstehen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Im Jahr 2025 haben mehr als 200.000 Menschen weltweit ein Deutschzertifikat abgelegt.",
+            "why": "\"über 200.000 Menschen weltweit ein Deutschzertifikat abgelegt — ein neuer Rekord.\""
+          },
+          {
+            "answer": false,
+            "q": "Das B2-Zertifikat ist das am häufigsten abgelegte Niveau.",
+            "why": "\"Das B1-Zertifikat ist dabei das am häufigsten abgelegte Niveau.\""
+          },
+          {
+            "answer": false,
+            "q": "Ein Goethe B1-Test kostet überall auf der Welt gleich viel.",
+            "why": "\"kostet je nach Land zwischen 100 und 250 Euro\" — the price varies by country."
+          },
+          {
+            "answer": true,
+            "q": "Das Goethe-Institut plant, die Bearbeitungszeit ab 2027 auf zwei Wochen zu verkürzen.",
+            "why": "\"Das Goethe-Institut hat versprochen, die Bearbeitungszeit ab 2027 auf zwei Wochen zu verkürzen.\""
+          },
+          {
+            "answer": true,
+            "q": "Derzeit dauert die Ergebnisbekanntgabe vier bis sechs Wochen.",
+            "why": "\"Derzeit dauert es vier bis sechs Wochen, bis Kandidatinnen und Kandidaten ihr offizielles Zeugnis erhalten.\""
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "A3",
+      "instructions": "> **Immer mehr Menschen lernen Deutsch — und warum das Zertifikat wichtig ist**\n>\n> *Berlin, 14. Juni 2026* — Nach aktuellen Zahlen des Goethe-Instituts haben im Jahr 2025 über 200.000 Menschen weltweit ein Deutschzertifikat abgelegt — ein neuer Rekord. Besonders stark ist das Wachstum in Asien und Lateinamerika.\n>\n> Das B1-Zertifikat ist dabei das am häufigsten abgelegte Niveau. „Mit einem B1 kann man in Deutschland arbeiten, studieren und sich im Alltag selbstständig verständigen\", erklärt Dr. Hilde Bauer, Leiterin des Goethe-Instituts Berlin. „Es ist der Schlüssel zur gesellschaftlichen Teilhabe.\"\n>\n> Allerdings sind die Prüfungen nicht kostenlos: Ein Goethe B1-Test kostet je nach Land zwischen 100 und 250 Euro. Viele Lernende bereiten sich mit Online-Kursen vor, weil diese günstiger sind als Präsenzkurse. Das Goethe-Institut bietet seit 2023 auch einen vollständig digitalen Testweg an.\n>\n> Kritik gibt es allerdings an der Dauer der Ergebnisbekanntgabe: Derzeit dauert es vier bis sechs Wochen, bis Kandidatinnen und Kandidaten ihr offizielles Zeugnis erhalten. Mehrere Sprachschulen fordern deshalb schnellere digitale Verfahren. Das Goethe-Institut hat versprochen, die Bearbeitungszeit ab 2027 auf zwei Wochen zu verkürzen.\n\nRichtig (R) oder Falsch (F)?\n",
+      "title": "Lesen Teil 2 — Zeitungsartikel (Text 2): Richtig / Falsch"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es ist zu schwer für die meisten Lernenden."
+              },
+              {
+                "key": "b",
+                "text": "Es ist \"der Schlüssel zur gesellschaftlichen Teilhabe.\""
+              },
+              {
+                "key": "c",
+                "text": "Es ist nur für Studierende geeignet."
+              }
+            ],
+            "q": "Was sagt Dr. Hilde Bauer über das B1-Zertifikat?",
+            "why": "\"Es ist der Schlüssel zur gesellschaftlichen Teilhabe.\" — Zitat von Dr. Hilde Bauer."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weil Online-Kurse qualitativ besser sind."
+              },
+              {
+                "key": "b",
+                "text": "Weil Online-Kurse günstiger sind als Präsenzkurse."
+              },
+              {
+                "key": "c",
+                "text": "Weil es keine Präsenzkurse mehr gibt."
+              }
+            ],
+            "q": "Warum bereiten sich viele Lernende mit Online-Kursen vor?",
+            "why": "\"weil diese günstiger sind als Präsenzkurse.\""
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Prüfungen sind zu schwer."
+              },
+              {
+                "key": "b",
+                "text": "Die Kursgebühren sind zu hoch."
+              },
+              {
+                "key": "c",
+                "text": "Die Ergebnisbekanntgabe dauert zu lange."
+              }
+            ],
+            "q": "Was kritisieren Sprachschulen laut dem Artikel?",
+            "why": "\"Mehrere Sprachschulen fordern deshalb schnellere digitale Verfahren.\""
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A4",
+      "instructions": "Choose the correct answer (a, b, or c) based on Text 2 (Zeitungsartikel).",
+      "title": "Lesen Teil 2 — Zeitungsartikel: Leseverstehen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Anna hat diese E-Mail an Bruno geschrieben.",
+            "why": "The email is from Anna to Mia (mia.becker@gmail.com), not to Bruno."
+          },
+          {
+            "answer": true,
+            "q": "Pavel fand den Hörteil schwierig, weil die Sprecher sehr schnell gesprochen haben.",
+            "why": "\"der Hörteil für ihn der schwierigste Teil war, weil die Sprecher sehr schnell gesprochen haben.\""
+          },
+          {
+            "answer": false,
+            "q": "Pavel fand den Leseteil insgesamt sehr schwierig.",
+            "why": "\"Den Leseteil fand er dagegen gut machbar\" — machbar means manageable, not very difficult."
+          },
+          {
+            "answer": true,
+            "q": "Tomáš schlägt vor, dass alle zusammen feiern gehen.",
+            "why": "\"Tomáš schlägt vor, dass wir alle zusammen feiern gehen.\""
+          },
+          {
+            "answer": false,
+            "q": "Anna schreibt, dass Pavels Erfolg Zufall war.",
+            "why": "Anna writes that it is \"ein gutes Beispiel dafür, dass regelmäßiges Üben und Vorbereitung den Unterschied machen\" — the opposite of chance."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "A5",
+      "instructions": "> **Von:** anna.kowalski@email.de\n> **An:** mia.becker@gmail.com\n> **Betreff:** Wie war Pavels Prüfung?\n>\n> Liebe Mia,\n>\n> ich habe heute kurz mit Pavel gesprochen — er klang wirklich erleichtert! Er hat mir erzählt, dass der Hörteil für ihn der schwierigste Teil war, weil die Sprecher sehr schnell gesprochen haben. Den Leseteil fand er dagegen gut machbar, obwohl ein Text über Stadtplanung sehr fachsprachlich war.\n>\n> Das Schreiben lief gut: Er hatte schon eine klare Struktur im Kopf und musste keine Zeit damit verschwenden, über den Aufbau nachzudenken. Er ist wirklich ein gutes Beispiel dafür, dass regelmäßiges Üben und Vorbereitung den Unterschied machen.\n>\n> Was machst du am Wochenende? Tomáš schlägt vor, dass wir alle zusammen feiern gehen — ob du Zeit hast?\n>\n> Viele Grüße,\n> Anna\n\nRichtig (R) oder Falsch (F)?\n",
+      "title": "Lesen Teil 3 — Persönliche E-Mail (Text 3): Richtig / Falsch"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sehr nervös und unsicher."
+              },
+              {
+                "key": "b",
+                "text": "Erleichtert."
+              },
+              {
+                "key": "c",
+                "text": "Traurig, weil er nicht bestanden hat."
+              }
+            ],
+            "q": "Wie klingt Pavel laut Anna bei dem Telefongespräch?",
+            "why": "\"er klang wirklich erleichtert!\""
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Eine Gliederung machen."
+              },
+              {
+                "key": "b",
+                "text": "Über den Aufbau nachdenken."
+              },
+              {
+                "key": "c",
+                "text": "Den Betreff schreiben."
+              }
+            ],
+            "q": "Was hat Pavel beim Schreiben nicht tun müssen?",
+            "why": "\"Er hatte schon eine klare Struktur im Kopf und musste keine Zeit damit verschwenden, über den Aufbau nachzudenken.\""
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er war zu lang."
+              },
+              {
+                "key": "b",
+                "text": "Er war sehr fachsprachlich."
+              },
+              {
+                "key": "c",
+                "text": "Die Fragen waren unklar."
+              }
+            ],
+            "q": "Warum war ein Text im Leseteil schwierig?",
+            "why": "\"obwohl ein Text über Stadtplanung sehr fachsprachlich war.\""
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A6",
+      "instructions": "Choose the correct answer (a, b, or c) based on Text 3 (E-Mail).",
+      "title": "Lesen Teil 3 — Persönliche E-Mail: Leseverstehen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Ergebnis"
+          ],
+          "2": [
+            "Rekord"
+          ],
+          "3": [
+            "Zeugnis"
+          ],
+          "4": [
+            "Teilhabe"
+          ],
+          "5": [
+            "Präsenzkurs"
+          ]
+        },
+        "text": "1. Das Ergebnis einer Prüfung = das {1}\n2. Der höchste je erreichte Wert = der {2}\n3. Ein offizielles Dokument über eine bestandene Prüfung = das {3}\n4. Die Möglichkeit, an der Gesellschaft teilzunehmen = die gesellschaftliche {4}\n5. Ein Kurs, der im Kursraum stattfindet (Gegenteil von Online-Kurs) = der {5}\n",
+        "type": "gap-text"
+      },
+      "id": "A7",
+      "instructions": "Find the correct word from the article (Text 2) for each definition. 5 items.",
+      "title": "Lesen — Wortschatz erschließen (Zeitungsartikel)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "c",
+          "2": "a",
+          "3": "b"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Text 1 (lesson.md §7, erster Text)"
+          },
+          {
+            "key": "2",
+            "text": "Text 2 (lesson.md §7, zweiter Text)"
+          },
+          {
+            "key": "3",
+            "text": "Text 3 (lesson.md §7, dritter Text)"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Zeitungsartikel / Pressebericht"
+          },
+          {
+            "key": "b",
+            "text": "Persönliche E-Mail"
+          },
+          {
+            "key": "c",
+            "text": "Stellenanzeige / Jobanzeige"
+          },
+          {
+            "key": "d",
+            "text": "Formelle Beschwerde"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A8",
+      "instructions": "Match each text (1–3) to its text type (a–d). One text type is not needed.",
+      "title": "Lesen — Drei Texte und ihre Textsorte"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "war"
+          ],
+          "2": [
+            "ging"
+          ],
+          "3": [
+            "schrieb"
+          ],
+          "4": [
+            "warteten"
+          ],
+          "5": [
+            "stand"
+          ],
+          "6": [
+            "fuhr"
+          ]
+        },
+        "text": "1. Als Pavel ein Kind {1}, {2} er oft in den Park. (sein / gehen)\n2. Die Lehrerin {3} die Aufgaben an die Tafel. (schreiben)\n3. Wir {4} lange auf die Ergebnisse. (warten)\n4. Tomáš {5} früh auf und {6} um 7 Uhr los. (aufstehen / fahren)\n",
+        "type": "gap-text"
+      },
+      "id": "B1",
+      "instructions": "Fill in the Präteritum form of each verb in brackets. 4 items, 6 gaps.",
+      "title": "Sprachbausteine — B1/01 Präteritum"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "obwohl"
+              },
+              {
+                "key": "b",
+                "text": "trotzdem"
+              },
+              {
+                "key": "c",
+                "text": "deshalb"
+              }
+            ],
+            "q": "Pavel war nervös, ______ er sich gut vorbereitet hatte.",
+            "why": "'obwohl' (although) introduces a subordinate clause — verb goes to the end."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Obwohl"
+              },
+              {
+                "key": "b",
+                "text": "Trotzdem"
+              },
+              {
+                "key": "c",
+                "text": "Weil"
+              }
+            ],
+            "q": "Er hatte wenig geschlafen. ______ war er konzentriert.",
+            "why": "'Trotzdem' (nevertheless) is an adverb — triggers subject-verb inversion."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Trotzdem"
+              },
+              {
+                "key": "b",
+                "text": "Darum"
+              },
+              {
+                "key": "c",
+                "text": "Obwohl"
+              }
+            ],
+            "q": "______ die Aufgabe schwer war, löste Bruno sie richtig.",
+            "why": "'Obwohl' starts a subordinate clause (verb at end)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Trotzdem"
+              },
+              {
+                "key": "b",
+                "text": "Obwohl"
+              },
+              {
+                "key": "c",
+                "text": "Weil"
+              }
+            ],
+            "q": "Anna hatte Lampenfieber. ______ sprach sie sehr fließend.",
+            "why": "'Trotzdem' (nevertheless) connects two main clauses as an adverb."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Choose the correct connector (a, b, or c) for each gap. 4 items.",
+      "title": "Sprachbausteine — B1/02 obwohl / trotzdem"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "hätte"
+          ],
+          "2": [
+            "würde"
+          ],
+          "3": [
+            "wäre"
+          ],
+          "4": [
+            "könnte"
+          ],
+          "5": [
+            "würde"
+          ],
+          "6": [
+            "hätte"
+          ]
+        },
+        "text": "1. Wenn ich mehr Zeit {1}, {2} ich jeden Tag Vokabeln lernen. (haben / lernen)\n2. Wenn Pavel nicht so nervös {3}, {4} er noch besser sprechen. (sein / können)\n3. Anna {5} gerne nach Wien fahren, wenn sie Urlaub {6}. (fahren/wünschen — würde-Form / haben)\n",
+        "type": "gap-text"
+      },
+      "id": "B3",
+      "instructions": "Fill in the Konjunktiv II form (würde/hätte/wäre). 3 items, 6 gaps.",
+      "title": "Sprachbausteine — B1/03 Konjunktiv II"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "abgespielt"
+          ],
+          "3": [
+            "wurden"
+          ],
+          "4": [
+            "korrigiert"
+          ],
+          "5": [
+            "werden"
+          ],
+          "6": [
+            "bekanntgegeben"
+          ]
+        },
+        "text": "1. Man spielt den Hörtext zweimal ab. (Passiv Präsens) → Der Hörtext {1} zweimal {2}. (abspielen)\n2. Die Lehrerin korrigierte die Aufgaben. (Passiv Präteritum) → Die Aufgaben {3} von der Lehrerin {4}. (korrigieren)\n3. Man gibt die Ergebnisse nach vier Wochen bekannt. (Passiv Präsens) → Die Ergebnisse {5} nach vier Wochen {6}. (bekanntgeben)\n",
+        "type": "gap-text"
+      },
+      "id": "B4",
+      "instructions": "Rewrite each active sentence in Passiv Präsens or Präteritum as indicated. 6 gaps.",
+      "title": "Sprachbausteine — B1/04 Passiv"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "den"
+          ],
+          "2": [
+            "das"
+          ],
+          "3": [
+            "die"
+          ],
+          "4": [
+            "der"
+          ],
+          "5": [
+            "dessen"
+          ]
+        },
+        "text": "1. Der Prüfer, {1} Pavel sehr sympathisch fand, sprach langsam und deutlich.\n2. Das Zertifikat, {2} Pavel heute bekommen hat, ist international anerkannt.\n3. Die Kandidaten, {3} die Prüfung bestanden haben, bekommen ein Zeugnis.\n4. Das ist die Technik, mit {4} Bruno die Prüfung bestanden hat.\n5. Der Sprachkurs, {5} Gebühr 180 Euro beträgt, beginnt nächste Woche.\n",
+        "type": "gap-text"
+      },
+      "id": "B5",
+      "instructions": "Fill in the correct relative pronoun (der/die/das/dem/den/dessen/deren). 5 items.",
+      "title": "Sprachbausteine — B1/05 Relativsätze"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "um"
+          ],
+          "2": [
+            "zu"
+          ],
+          "3": [
+            "damit"
+          ],
+          "4": [
+            "um"
+          ],
+          "5": [
+            "zu"
+          ],
+          "6": [
+            "damit"
+          ],
+          "7": [
+            "um"
+          ]
+        },
+        "text": "1. Pavel lernt Deutsch, {1} in Deutschland arbeiten {2} können.\n2. Der Lehrer spricht langsamer, {3} alle Lernenden ihn verstehen.\n3. Anna macht eine Gliederung, {4} keine Zeit {5} verschwenden.\n4. Der Prüfer wiederholt die Aufgabe, {6} Pavel sie besser versteht.\n5. Tomáš lernt Deutsch, {7} Geschäftsgespräche auf Deutsch führen zu können.\n",
+        "type": "gap-text"
+      },
+      "id": "B6",
+      "instructions": "Fill in \"um\", \"zu\", or \"damit\" in each gap. 5 items, 9 gaps.",
+      "title": "Sprachbausteine — B1/06 um … zu / damit"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "der"
+          ],
+          "2": [
+            "der"
+          ],
+          "3": [
+            "der"
+          ],
+          "4": [
+            "des"
+          ],
+          "5": [
+            "der"
+          ],
+          "6": [
+            "des"
+          ]
+        },
+        "text": "1. Die Ergebnisse {1} Prüfung kommen nach vier Wochen. (die Prüfung — f.)\n2. Wegen {2} hohen Kosten bereiten sich viele online vor. (die Kosten — Pl.)\n3. Trotz {3} Nervosität bestand Pavel die Prüfung. (die Nervosität — f.)\n4. Das Niveau {4} Zertifikats ist international anerkannt. (das Zertifikat — n.)\n5. Während {5} Prüfung darf man nicht sprechen. (die Prüfung — f.)\n6. Die Bearbeitungszeit {6} Tests beträgt vier bis sechs Wochen. (der Test — m.)\n",
+        "type": "gap-text"
+      },
+      "id": "B7",
+      "instructions": "Fill in the correct Genitiv form (article or preposition). 6 items.",
+      "title": "Sprachbausteine — B1/07 Genitiv"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "darüber"
+          ],
+          "2": [
+            "daran"
+          ],
+          "3": [
+            "Worüber"
+          ],
+          "4": [
+            "darauf"
+          ],
+          "5": [
+            "Womit"
+          ]
+        },
+        "text": "1. Die Prüfung ist bestanden — ich freue mich sehr {1}. (über → da(r)- + über)\n2. Pavel denkt oft an die Zeit zurück, als er anfing. → Er denkt oft {2} zurück. (an → da(r)- + an)\n3. {3} sprechen Anna und Mia gerade? — Über die Prüfungsergebnisse. (worüber)\n4. Das Zeugnis? Ich warte schon lange {4}. (darauf)\n5. {5} ist Pavel zufrieden? — Mit dem Ergebnis. (womit)\n",
+        "type": "gap-text"
+      },
+      "id": "B8",
+      "instructions": "Fill in the correct Pronominaladverb (da(r)- + Präposition) or question form (wo(r)- + Präposition). 5 items.",
+      "title": "Sprachbausteine — B1/08 Pronominaladverbien"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "wann"
+          ],
+          "2": [
+            "anfängt"
+          ],
+          "3": [
+            "wo"
+          ],
+          "4": [
+            "ist"
+          ],
+          "5": [
+            "ob"
+          ],
+          "6": [
+            "hat"
+          ],
+          "7": [
+            "dauert"
+          ],
+          "8": [
+            "was"
+          ],
+          "9": [
+            "muss"
+          ]
+        },
+        "text": "1. Wann fängt die Prüfung an? → Können Sie mir sagen, {1} die Prüfung {2}?\n2. Wo ist der Prüfungssaal? → Ich würde gerne wissen, {3} der Prüfungssaal {4}.\n3. Hat Pavel bestanden? → Ich möchte wissen, {5} Pavel bestanden {6}.\n4. Wie lange dauert die Prüfung? → Könnten Sie mir erklären, wie lange die Prüfung {7}?\n5. Was muss man mitbringen? → Dürfte ich fragen, {8} man mitbringen {9}?\n",
+        "type": "gap-text"
+      },
+      "id": "B9",
+      "instructions": "Rewrite each direct question as an indirect question. Fill in the missing word(s). 5 items.",
+      "title": "Sprachbausteine — B1/09 Indirekte Fragen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "entweder … oder"
+              },
+              {
+                "key": "b",
+                "text": "sowohl … als auch"
+              },
+              {
+                "key": "c",
+                "text": "weder … noch"
+              }
+            ],
+            "q": "Das Zertifikat ist ______ nützlich für die Arbeit ______ für das Studium.",
+            "why": "'sowohl … als auch' (both … and) expresses that both options are true simultaneously."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "nicht nur … sondern auch"
+              },
+              {
+                "key": "b",
+                "text": "sowohl … als auch"
+              },
+              {
+                "key": "c",
+                "text": "weder … noch"
+              }
+            ],
+            "q": "Ich habe ______ Zeit zum Lernen ______ Geld für einen Kurs. (negative both)",
+            "why": "'weder … noch' (neither … nor) negates both elements."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "zwar … aber"
+              },
+              {
+                "key": "b",
+                "text": "entweder … oder"
+              },
+              {
+                "key": "c",
+                "text": "sowohl … als auch"
+              }
+            ],
+            "q": "Die Prüfung war ______ schwer, ______ ich habe gut abgeschnitten. (concession)",
+            "why": "'zwar … aber' (admittedly … but) expresses concession."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "weder … noch"
+              },
+              {
+                "key": "b",
+                "text": "entweder … oder"
+              },
+              {
+                "key": "c",
+                "text": "sowohl … als auch"
+              }
+            ],
+            "q": "Man kann das Zertifikat ______ persönlich ablegen ______ online machen.",
+            "why": "'entweder … oder' (either … or) presents two alternatives."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "nicht nur … sondern auch"
+              },
+              {
+                "key": "b",
+                "text": "weder … noch"
+              },
+              {
+                "key": "c",
+                "text": "entweder … oder"
+              }
+            ],
+            "q": "Das war ______ anstrengend ______ sehr lehrreich.",
+            "why": "'nicht nur … sondern auch' (not only … but also) adds emphasis to the second element."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B10",
+      "instructions": "Choose the correct pair of connectors (a, b, or c). 5 items.",
+      "title": "Sprachbausteine — B1/10 Zweiteilige Konnektoren"
+    },
+    {
+      "block": "B",
+      "body": {
+        "buckets": [
+          {
+            "key": "formell",
+            "label": "Formell (Bewerbung / Anschreiben)"
+          },
+          {
+            "key": "informell",
+            "label": "Informell (zu vermeiden in der Bewerbung)"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "formell",
+            "text": "Hiermit bewerbe ich mich um die ausgeschriebene Stelle."
+          },
+          {
+            "bucket": "informell",
+            "text": "Ich will diesen Job!"
+          },
+          {
+            "bucket": "formell",
+            "text": "Ich verfüge über ausgeprägte Teamfähigkeit."
+          },
+          {
+            "bucket": "informell",
+            "text": "Ich bin super gut im Team."
+          },
+          {
+            "bucket": "formell",
+            "text": "Ich war zuständig für die Betreuung von Kunden."
+          },
+          {
+            "bucket": "informell",
+            "text": "Ich hab Kunden geholfen."
+          },
+          {
+            "bucket": "formell",
+            "text": "Über eine Einladung zum Vorstellungsgespräch würde ich mich sehr freuen."
+          },
+          {
+            "bucket": "informell",
+            "text": "Ruf mich an!"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "B11",
+      "instructions": "Sort each phrase into the correct register for a job application.",
+      "title": "Sprachbausteine — B1/11 Bewerbungssprache: Formell oder informell?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Das Lernen"
+          ],
+          "2": [
+            "Bewerbung"
+          ],
+          "3": [
+            "Erstellen"
+          ],
+          "4": [
+            "Bekanntgabe"
+          ],
+          "5": [
+            "Bezahlen"
+          ],
+          "6": [
+            "Nachfrage"
+          ]
+        },
+        "text": "1. {1} von Fremdsprachen ist in der Arbeitswelt wichtig. (lernen → das …)\n2. Die {2} bei TechStart ist sehr attraktiv. (sich bewerben → die …)\n3. Das {3} einer Gliederung hilft beim Schreiben. (erstellen → das …)\n4. Die {4} der Ergebnisse dauert vier bis sechs Wochen. (bekanntgeben → die …)\n5. Das {5} der Prüfungsgebühr ist online möglich. (bezahlen → das …)\n6. Die {6} nach Deutschkursen steigt jedes Jahr. (nachfragen → die …)\n",
+        "type": "gap-text"
+      },
+      "id": "B12",
+      "instructions": "Convert the verb or adjective in brackets into a noun. 6 items.",
+      "title": "Sprachbausteine — B1/12 Nominalisierung"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "c",
+          "2": "d",
+          "3": "a",
+          "4": "e",
+          "5": "f",
+          "6": "b"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Betreff"
+          },
+          {
+            "key": "2",
+            "text": "Anrede"
+          },
+          {
+            "key": "3",
+            "text": "Bezugssatz"
+          },
+          {
+            "key": "4",
+            "text": "Bitte / Forderung"
+          },
+          {
+            "key": "5",
+            "text": "Schlusssatz"
+          },
+          {
+            "key": "6",
+            "text": "Grußformel"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Ich schreibe Ihnen bezüglich meiner Bewerbung vom 10. Juni."
+          },
+          {
+            "key": "b",
+            "text": "Mit freundlichen Grüßen"
+          },
+          {
+            "key": "c",
+            "text": "Bewerbung um die Stelle als Marketingassistentin"
+          },
+          {
+            "key": "d",
+            "text": "Sehr geehrte Frau Becker,"
+          },
+          {
+            "key": "e",
+            "text": "Ich bitte Sie daher um eine Rückmeldung bis zum 30. Juni."
+          },
+          {
+            "key": "f",
+            "text": "Ich freue mich auf Ihre Antwort."
+          },
+          {
+            "key": "g",
+            "text": "Hallo und guten Tag!"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B13",
+      "instructions": "Match each email part (1–6) with the correct example (a–g). One example is not needed.",
+      "title": "Sprachbausteine — B1/13 Schreiben-Redemittel: Teile einer formellen E-Mail"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "BETREFF"
+          ],
+          "2": [
+            "SEHR GEEHRTE"
+          ],
+          "3": [
+            "SCHREIBE"
+          ],
+          "4": [
+            "ERHALTEN"
+          ],
+          "5": [
+            "OB"
+          ],
+          "6": [
+            "FRAGEN"
+          ],
+          "7": [
+            "DA"
+          ],
+          "8": [
+            "DAHER"
+          ],
+          "9": [
+            "FREUE"
+          ],
+          "10": [
+            "FREUNDLICHEN"
+          ]
+        },
+        "bank": [
+          "BETREFF",
+          "SEHR GEEHRTE",
+          "SCHREIBE",
+          "ERHALTEN",
+          "OB",
+          "FRAGEN",
+          "DA",
+          "DAHER",
+          "FREUE",
+          "FREUNDLICHEN",
+          "HALLO",
+          "LIEBE",
+          "WEIL",
+          "TSCHÜSS",
+          "DANKE"
+        ],
+        "text": "{1}: Anfrage bezüglich der Goethe B1-Prüfung\n\n{2} Damen und Herren,\n\nich {3} Ihnen bezüglich des Prüfungstermins am 28. Juni 2026. Leider habe\nich meine Anmeldebestätigung bis heute nicht {4}. Könnten Sie mir bitte\nmitteilen, {5} ich mich noch rechtzeitig angemeldet habe?\n\nAußerdem möchte ich {6}, ob es möglich ist, einen anderen Termin zu wählen,\n{7} ich an diesem Tag verhindert bin. Ich bitte Sie {8} um eine schnelle\nRückmeldung.\n\nIch {9} mich auf Ihre Antwort.\n\nMit {10} Grüßen,\nAnna Kowalski\n",
+        "type": "gap-bank"
+      },
+      "id": "C1",
+      "instructions": "Fill the 10 gaps in this formal email. Five words in the box are not needed.",
+      "title": "Schreiben Teil 1 — Formelle E-Mail: Wortbank (Goethe-Format)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "buckets": [
+          {
+            "key": "formell",
+            "label": "Formell (E-Mail / Brief)"
+          },
+          {
+            "key": "informell",
+            "label": "Informell (Nachricht / Forenbeitrag)"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "formell",
+            "text": "Sehr geehrte Damen und Herren,"
+          },
+          {
+            "bucket": "informell",
+            "text": "Hey, wie geht es dir?"
+          },
+          {
+            "bucket": "formell",
+            "text": "Mit freundlichen Grüßen"
+          },
+          {
+            "bucket": "informell",
+            "text": "Bis bald!"
+          },
+          {
+            "bucket": "formell",
+            "text": "Ich schreibe Ihnen bezüglich …"
+          },
+          {
+            "bucket": "informell",
+            "text": "Danke für deine Nachricht!"
+          },
+          {
+            "bucket": "formell",
+            "text": "Ich bitte Sie daher um eine Rückmeldung."
+          },
+          {
+            "bucket": "informell",
+            "text": "Liebe Mia,"
+          },
+          {
+            "bucket": "formell",
+            "text": "Betreff: Beschwerde wegen …"
+          },
+          {
+            "bucket": "informell",
+            "text": "Viele Grüße!"
+          },
+          {
+            "bucket": "formell",
+            "text": "Ich freue mich auf Ihre Antwort."
+          },
+          {
+            "bucket": "informell",
+            "text": "Schreib mir bald!"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "C2",
+      "instructions": "Sort each phrase into the correct register category. 12 items.",
+      "title": "Schreiben — Formell oder informell? Phrasen zuordnen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "MEINER"
+          ],
+          "2": [
+            "MACHEN"
+          ],
+          "3": [
+            "ZUM"
+          ],
+          "4": [
+            "BERUF"
+          ],
+          "5": [
+            "AUSSERDEM"
+          ],
+          "6": [
+            "VERSTEHEN"
+          ],
+          "7": [
+            "ALLERDINGS"
+          ],
+          "8": [
+            "ES GIBT"
+          ],
+          "9": [
+            "ABER"
+          ],
+          "10": [
+            "INSGESAMT"
+          ]
+        },
+        "bank": [
+          "MEINER",
+          "MACHEN",
+          "ZUM",
+          "BERUF",
+          "AUSSERDEM",
+          "VERSTEHEN",
+          "ALLERDINGS",
+          "ES GIBT",
+          "ABER",
+          "INSGESAMT",
+          "OBWOHL",
+          "TROTZDEM",
+          "WEIL",
+          "HALLO",
+          "TSCHÜSS"
+        ],
+        "text": "{1} Meinung nach ist das Lernen einer Fremdsprache eine der besten\nInvestitionen, die man {2} kann. {3} einen entwickelt man sprachliche\nFähigkeiten, die man im {4} und im Studium braucht. {5} ist es\neine großartige Möglichkeit, andere Kulturen besser zu {6}.\n\n{7} sind die Kosten für Sprachkurse manchmal sehr hoch. {8} zwar\ngünstigere Online-Kurse, {9} sie erfordern viel Eigendisziplin.\n\n{10} denke ich, dass es sich auf jeden Fall lohnt, Deutsch zu lernen!\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Fill the 10 gaps in this forum post reply. Five words are not needed.",
+      "title": "Schreiben Teil 2 — Forenbeitrag: Wortbank (Goethe-Format)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Anna hat einen Bachelor-Abschluss in Kommunikationswissenschaften.",
+            "why": "\"Ich habe einen Bachelor-Abschluss in Kommunikationswissenschaften.\""
+          },
+          {
+            "answer": false,
+            "q": "Anna hat drei Jahre Berufserfahrung.",
+            "why": "\"zwei Jahre Berufserfahrung\" — not three."
+          },
+          {
+            "answer": false,
+            "q": "Annas Deutschkenntnisse sind auf C1-Niveau.",
+            "why": "\"Meine Deutschkenntnisse sind auf B2-Niveau\" — B2, not C1."
+          },
+          {
+            "answer": true,
+            "q": "Anna freut sich über eine Einladung zum Vorstellungsgespräch.",
+            "why": "\"Über eine Einladung zu einem persönlichen Gespräch würde ich mich sehr freuen.\""
+          },
+          {
+            "answer": true,
+            "q": "Das Anschreiben hat einen Betreff.",
+            "why": "The letter starts with \"Betreff: Bewerbung um die Stelle als Marketingassistentin …\""
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "Read the model cover letter below and decide: Richtig (R) oder Falsch (F)?",
+      "title": "Schreiben — Muster-Anschreiben lesen (Richtig / Falsch)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Für die Buchhaltung und das Personalmanagement."
+              },
+              {
+                "key": "b",
+                "text": "Für die Betreuung von Social-Media-Kanälen und die Erstellung von Inhalten."
+              },
+              {
+                "key": "c",
+                "text": "Für die Organisation von Events und Messen."
+              }
+            ],
+            "q": "Wofür war Anna in ihrer bisherigen Tätigkeit zuständig?",
+            "why": "\"war ich zuständig für die Betreuung von Social-Media-Kanälen und die Erstellung von Inhalten.\""
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "B1 (Grundkenntnisse)."
+              },
+              {
+                "key": "b",
+                "text": "B2 (gut)."
+              },
+              {
+                "key": "c",
+                "text": "C1 (fließend)."
+              }
+            ],
+            "q": "Wie ist Annas Englisch laut dem Anschreiben?",
+            "why": "\"mein Englisch ist fließend (C1).\""
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "In einer Zeitung."
+              },
+              {
+                "key": "b",
+                "text": "Auf der Website des Unternehmens."
+              },
+              {
+                "key": "c",
+                "text": "Im Radio."
+              }
+            ],
+            "q": "Wo hat Anna die Stellenanzeige gefunden?",
+            "why": "\"Ihre Stellenanzeige auf Ihrer Website gelesen\""
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Read the model cover letter (C4a) again. Choose the correct answer (a, b, or c).",
+      "title": "Schreiben — Muster-Anschreiben: Detailverstehen"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "war"
+          ],
+          "2": [
+            "wartete"
+          ],
+          "3": [
+            "trotzdem"
+          ],
+          "4": [
+            "obwohl"
+          ],
+          "5": [
+            "hätte"
+          ],
+          "6": [
+            "wurde"
+          ],
+          "7": [
+            "vorgelesen"
+          ],
+          "8": [
+            "für das"
+          ],
+          "9": [
+            "um"
+          ],
+          "10": [
+            "der"
+          ],
+          "11": [
+            "darauf"
+          ],
+          "12": [
+            "wann"
+          ],
+          "13": [
+            "sowohl"
+          ],
+          "14": [
+            "als auch"
+          ],
+          "15": [
+            "bewerbe"
+          ]
+        },
+        "text": "1. (B1/01) Als Pavel ein Kind {1}, spielte er oft Fußball. (sein — Präteritum)\n2. (B1/01) Er {2} lange auf das Ergebnis. (warten — Präteritum)\n3. (B1/02) Die Prüfung war schwer, {3} Pavel bestand sie. (trotzdem — Adverb)\n4. (B1/02) Er war nervös, {4} er gut vorbereitet war. (obwohl — Konj.)\n5. (B1/03) Wenn ich mehr Zeit {5}, würde ich öfter üben. (haben — Konj. II)\n6. (B1/04) Der Text {6} zweimal {7}. (vorlesen — Passiv Präteritum)\n7. (B1/05) Das ist das Zertifikat, {8} ich monatelang gelernt habe. (worauf? → für das)\n8. (B1/06) Pavel lernt Deutsch, {9} in Berlin arbeiten zu können. (purpose → um)\n9. (B1/07) Wegen {10} Prüfung konnte er nicht kommen. (die Prüfung — Genitiv f.)\n10. (B1/08) Ich freue mich {11}. (auf das Ergebnis → Pronominaladverb: darauf)\n11. (B1/09) Könnten Sie mir sagen, {12} die Prüfung anfängt? (wann — indirekte Frage)\n12. (B1/10) Das Zertifikat ist {13} für die Arbeit {14} für das Studium nützlich. (sowohl … als auch)\n13. (B1/11) Ich {15} mich hiermit um die Stelle als Assistentin. (sich bewerben — ich-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Fill in the correct word or form. Each item tests one B1 grammar topic — the label in brackets tells you which lesson to revisit if you get it wrong. 1 point per gap. 15 items.\n",
+      "title": "Schnelltest: Eine Lücke pro B1-Grammatikthema (15 Punkte)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "das Zertifikat",
+              "die Prüfung",
+              "das Ergebnis",
+              "die Miete"
+            ],
+            "odd": 3,
+            "why": "\"die Miete\" (rent) is a housing term, not an exam/language learning term."
+          },
+          {
+            "items": [
+              "Sehr geehrte Damen und Herren,",
+              "Mit freundlichen Grüßen",
+              "Ich schreibe Ihnen bezüglich …",
+              "Hey, wie geht es dir?"
+            ],
+            "odd": 3,
+            "why": "\"Hey, wie geht es dir?\" is informal — all others are formal email phrases."
+          },
+          {
+            "items": [
+              "obwohl",
+              "trotzdem",
+              "weil",
+              "zwar … aber"
+            ],
+            "odd": 2,
+            "why": "\"weil\" (because) expresses cause; the others (obwohl, trotzdem, zwar…aber) all express concession or contrast."
+          },
+          {
+            "items": [
+              "darauf",
+              "daran",
+              "womit",
+              "darüber"
+            ],
+            "odd": 2,
+            "why": "\"womit\" is an interrogative Pronominaladverb (wo-form); the others are da-forms used in statements."
+          },
+          {
+            "items": [
+              "das Lernen",
+              "die Bewerbung",
+              "die Bekanntgabe",
+              "das Passiv"
+            ],
+            "odd": 3,
+            "why": "\"das Passiv\" is a grammar term; the others are nominalizations derived from verbs."
+          },
+          {
+            "items": [
+              "sowohl … als auch",
+              "entweder … oder",
+              "nicht nur … sondern auch",
+              "wegen … trotz"
+            ],
+            "odd": 3,
+            "why": "\"wegen … trotz\" is not a pair of correlative connectors; the others are genuine zweiteilige Konnektoren."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Circle the word that does not belong in each group. 6 groups.",
+      "title": "Wortschatz-Check: Das passt nicht! (B1-Wiederholung)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "obwohl"
+          },
+          {
+            "key": "2",
+            "text": "trotzdem"
+          },
+          {
+            "key": "3",
+            "text": "sowohl … als auch"
+          },
+          {
+            "key": "4",
+            "text": "weder … noch"
+          },
+          {
+            "key": "5",
+            "text": "um … zu"
+          },
+          {
+            "key": "6",
+            "text": "damit"
+          },
+          {
+            "key": "7",
+            "text": "nicht nur … sondern auch"
+          },
+          {
+            "key": "8",
+            "text": "zwar … aber"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Konzessiv-Subjunktor (Verb ans Ende)"
+          },
+          {
+            "key": "b",
+            "text": "Konzessiv-Adverb (Verb-Zweit)"
+          },
+          {
+            "key": "c",
+            "text": "additive Verbindung beider Elemente"
+          },
+          {
+            "key": "d",
+            "text": "doppelte Verneinung beider Elemente"
+          },
+          {
+            "key": "e",
+            "text": "Zweck / Ziel (gleiche Subjekte)"
+          },
+          {
+            "key": "f",
+            "text": "Zweck / Ziel (verschiedene Subjekte)"
+          },
+          {
+            "key": "g",
+            "text": "betonte Hinzufügung (emphasized addition)"
+          },
+          {
+            "key": "h",
+            "text": "Einräumung mit Gegensatz (concession + contrast)"
+          },
+          {
+            "key": "i",
+            "text": "temporaler Konnektor (time sequence)"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "D3",
+      "instructions": "Match each connector (1–8) with its function (a–i). One function is not needed.",
+      "title": "Rückblick: B1-Konnektoren und ihre Funktion (8 Paare)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "war"
+          ],
+          "2": [
+            "schrieb"
+          ],
+          "3": [
+            "trotzdem"
+          ],
+          "4": [
+            "obwohl"
+          ],
+          "5": [
+            "hätte"
+          ],
+          "6": [
+            "würde"
+          ],
+          "7": [
+            "werden"
+          ],
+          "8": [
+            "veröffentlicht"
+          ],
+          "9": [
+            "wo"
+          ],
+          "10": [
+            "um"
+          ],
+          "11": [
+            "der"
+          ],
+          "12": [
+            "des"
+          ],
+          "13": [
+            "daran"
+          ],
+          "14": [
+            "ob"
+          ],
+          "15": [
+            "ist"
+          ],
+          "16": [
+            "sowohl"
+          ],
+          "17": [
+            "als auch"
+          ],
+          "18": [
+            "bewerbe"
+          ],
+          "19": [
+            "verfüge"
+          ],
+          "20": [
+            "Lernen"
+          ]
+        },
+        "text": "1. (B1/01) Als Pavel jung {1}, wohnte er in Brünn. (sein — Prät.)\n2. (B1/01) Die Lehrerin {2} die Aufgaben an die Tafel. (schreiben — Prät.)\n3. (B1/02) Er hatte keine Vorbereitung, {3} bestand er die Prüfung. (nevertheless)\n4. (B1/02) Er war müde, {4} er weiterlernte. (obwohl — Subj.)\n5. (B1/03) Wenn Anna mehr Freizeit {5}, {6} sie öfter Deutsch lesen. (haben / würde + lesen)\n6. (B1/04) Die Prüfungsergebnisse {7} online {8}. (veröffentlichen — Passiv Präsens)\n7. (B1/05) Das ist das Goethe-Institut, {9} Pavel seine Prüfung abgelegt hat. (wo — relative adverb)\n8. (B1/06) Tomáš lernt Deutsch, {10} Geschäftsgespräche führen zu können. (um)\n9. (B1/07) Wegen {11} langen Wartezeit schrieb Anna eine Beschwerde. (die Wartezeit — Gen. f.)\n10. (B1/07) Die Qualität {12} Unterrichts ließ zu wünschen übrig. (der Unterricht — Gen. m.)\n11. (B1/08) Pavel denkt oft {13} zurück. (an die schönen Momente in Berlin → daran)\n12. (B1/09) Ich möchte wissen, {14} Pavel die Prüfung bestanden hat. (ob)\n13. (B1/09) Könnten Sie mir erklären, wo der Prüfungssaal {15}? (ist)\n14. (B1/10) Das Zertifikat ist {16} für den Beruf {17} für das Studium wichtig. (sowohl … als auch)\n15. (B1/11) Hiermit {18} ich mich um die Stelle als Assistentin. (sich bewerben — ich)\n16. (B1/11) Ich {19} über ausgeprägte Kommunikationsfähigkeit. (verfügen — ich)\n17. (B1/12) Das {20} von Fremdsprachen öffnet viele Türen. (lernen → Nominalisierung)\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "instructions": "Fill in the correct word or form. 1 point per gap. 20 items. Covers all B1 grammar topics.",
+      "title": "Selbsttest: Gesamtwiederholung B1 (20 Punkte)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "b1-14",
+  "intro": "Willkommen zum Abschluss des B1-Kurses! This is a full mock exam sitting. Blocks: H Hören → A Lesen (exam simulation) → B Sprachbausteine (grammar review per topic) → C Schreiben (exam simulation) → D Selbsttest & Wiederholung. Answers in solutions.md. Tip: H on day 1, A on day 2, B on day 3, C+D on day 4. Aim for 80 %+ on D4 before moving to B2.\n",
+  "lesson": "B1/14",
+  "level": "B1",
+  "summary": null,
+  "title": "B1 · Lektion 14 — Übungen: Wiederholung & Prüfungstraining B1",
+  "topic": null
+}

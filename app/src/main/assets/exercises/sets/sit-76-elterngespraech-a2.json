@@ -1,0 +1,842 @@
+{
+  "category": "Arbeit & Studium",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "vorher",
+            "label": "Vor dem Gespräch"
+          },
+          {
+            "key": "gespraech",
+            "label": "Im Gespräch"
+          },
+          {
+            "key": "klassenfahrt",
+            "label": "Rund um die Klassenfahrt"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "vorher",
+            "text": "einen Termin für ein Elterngespräch vereinbaren"
+          },
+          {
+            "bucket": "vorher",
+            "text": "sich Notizen machen"
+          },
+          {
+            "bucket": "vorher",
+            "text": "Fragen vorbereiten"
+          },
+          {
+            "bucket": "vorher",
+            "text": "pünktlich erscheinen"
+          },
+          {
+            "bucket": "gespraech",
+            "text": "über die Fehlzeiten sprechen"
+          },
+          {
+            "bucket": "gespraech",
+            "text": "nach den Noten fragen"
+          },
+          {
+            "bucket": "gespraech",
+            "text": "Sorgen ansprechen"
+          },
+          {
+            "bucket": "gespraech",
+            "text": "gemeinsam eine Lösung finden"
+          },
+          {
+            "bucket": "klassenfahrt",
+            "text": "die Einverständniserklärung unterschreiben"
+          },
+          {
+            "bucket": "klassenfahrt",
+            "text": "den Kostenbeitrag überweisen"
+          },
+          {
+            "bucket": "klassenfahrt",
+            "text": "die Packliste durchgehen"
+          },
+          {
+            "bucket": "klassenfahrt",
+            "text": "das Kind am Bus verabschieden"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Vor dem Gespräch, im Gespräch oder rund um die Klassenfahrt?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "das Elterngespräch"
+          },
+          {
+            "key": "2",
+            "text": "die Entschuldigung"
+          },
+          {
+            "key": "3",
+            "text": "die Klassenfahrt"
+          },
+          {
+            "key": "4",
+            "text": "die Einverständniserklärung"
+          },
+          {
+            "key": "5",
+            "text": "die Klassenlehrerin"
+          },
+          {
+            "key": "6",
+            "text": "die Fehlzeit"
+          },
+          {
+            "key": "7",
+            "text": "der Elternsprechtag"
+          },
+          {
+            "key": "8",
+            "text": "das Zeugnis"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "das Gespräch zwischen Eltern und Lehrkraft über das Kind"
+          },
+          {
+            "key": "b",
+            "text": "die schriftliche Mitteilung über eine Fehlzeit"
+          },
+          {
+            "key": "c",
+            "text": "die gemeinsame Reise der Klasse"
+          },
+          {
+            "key": "d",
+            "text": "das unterschriebene Formular zur Zustimmung"
+          },
+          {
+            "key": "e",
+            "text": "die Lehrerin, die für die Klasse hauptverantwortlich ist"
+          },
+          {
+            "key": "f",
+            "text": "die Zeit, in der ein Kind nicht in der Schule war"
+          },
+          {
+            "key": "g",
+            "text": "der feste Termin für Elterngespräche"
+          },
+          {
+            "key": "h",
+            "text": "das offizielle Dokument mit den Schulnoten"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Haben"
+          ],
+          "5": [
+            "wird"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Habe"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} noch einen Termin für das Elterngespräch vereinbaren. (Modalverb, ich-Form)\n2. {2} Sie mir sagen, wann der Elternsprechtag ist? (können, Sie-Form)\n3. Ich {3} schon eine Entschuldigung geschrieben. (haben, Perfekt)\n4. {4} wir die Einverständniserklärung schon unterschrieben? (haben, wir-Form)\n5. Falls mein Kind krank {5}, schreibe ich sofort eine Entschuldigung. (werden, Präsens)\n6. Die Klassenlehrerin {6} sich nach dem Gespräch noch einmal melden. (werden, Futur I)\n7. Wir {7} schon über die Klassenfahrt gesprochen. (haben, Perfekt)\n8. {8} ich den Kostenbeitrag schon überwiesen? (haben, ich-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Das Gespräch planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Elterngespräch"
+          ],
+          "2": [
+            "Entschuldigung"
+          ],
+          "3": [
+            "Klassenfahrt"
+          ],
+          "4": [
+            "Einverständniserklärung"
+          ],
+          "5": [
+            "Klassenlehrerin"
+          ],
+          "6": [
+            "Zeugnis"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Einmal im Halbjahr findet ein {1} zwischen Eltern und Lehrkraft statt. (das Gespräch über das Kind)\n2. Bei Krankheit schreibe ich der Schule eine {2}. (die schriftliche Mitteilung über eine Fehlzeit)\n3. Nächste Woche fährt die Klasse auf {3}. (die gemeinsame Reise der Klasse)\n4. Für die Fahrt muss ich noch eine {4} unterschreiben. (das Formular zur Zustimmung)\n5. Bei Fragen wende ich mich am besten an die {5}. (die hauptverantwortliche Lehrerin)\n6. Am Ende des Schuljahres bekommt mein Kind das {6}. (das Dokument mit den Noten)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "ELTERNGESPRÄCH"
+          ],
+          "2": [
+            "FEHLZEITEN"
+          ],
+          "3": [
+            "ENTSCHULDIGUNG"
+          ],
+          "4": [
+            "KLASSENFAHRT"
+          ],
+          "5": [
+            "EINVERSTÄNDNISERKLÄRUNG"
+          ],
+          "6": [
+            "BEGLEITPERSON"
+          ],
+          "7": [
+            "ERREICHEN"
+          ],
+          "8": [
+            "OFFENE"
+          ],
+          "9": [
+            "FREUE"
+          ],
+          "10": [
+            "SCHÖN"
+          ]
+        },
+        "bank": [
+          "ELTERNGESPRÄCH",
+          "FEHLZEITEN",
+          "ENTSCHULDIGUNG",
+          "KLASSENFAHRT",
+          "EINVERSTÄNDNISERKLÄRUNG",
+          "BEGLEITPERSON",
+          "ERREICHEN",
+          "OFFENE",
+          "FREUE",
+          "SCHÖN",
+          "ZEUGNIS",
+          "ELTERNSPRECHTAG",
+          "HAUSAUFGABEN",
+          "KLASSENLEHRERIN"
+        ],
+        "text": "— Guten Tag, schön, dass Sie zum {1} kommen konnten.\n— Gerne, ich wollte sowieso mal über die {2} meines Sohnes\nsprechen.\n— Ja, genau das wollte ich auch ansprechen. Er hat in\nletzter Zeit oft gefehlt.\n— Stimmt, er war krank, ich habe aber jedes Mal eine {3}\ngeschickt.\n— Das ist auch alles angekommen, keine Sorge. Wie sieht es\ndenn mit seinen Noten aus?\n— Ich habe gehört, dass es in Mathe etwas holpert.\n— Ja, da könnte er noch etwas mehr üben. Übrigens, haben Sie\nschon von der {4} nächsten Monat gehört?\n— Ja, dafür muss ich noch die {5} unterschreiben, oder?\n— Genau, und bitte auch den Kostenbeitrag rechtzeitig\nüberweisen.\n— Mache ich. Wer ist eigentlich als {6} mit dabei?\n— Ich und noch zwei Kollegen.\n— Gut zu wissen. Falls es Probleme gibt, kann ich Sie dann\n{7}?\n— Natürlich, meine Nummer haben Sie ja.\n— Perfekt, vielen Dank für das {8} Gespräch!\n— Gerne, ich {9} mich schon auf die Klassenfahrt, das wird\nbestimmt {10}.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Beim Elterngespräch"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Termine interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Könnte ich einen Termin für ein Elterngespräch bekommen?"
+              },
+              {
+                "key": "c",
+                "text": "Ich komme einfach unangemeldet vorbei."
+              }
+            ],
+            "q": "Du möchtest einen Termin für ein Elterngespräch vereinbaren. — You want to arrange a parent-teacher meeting.",
+            "why": "Eine höfliche, konkrete Frage ist der übliche Weg zu einem Termin."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Fehlzeiten sind mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Krankheit ist doch keine Ausrede."
+              },
+              {
+                "key": "c",
+                "text": "Er war krank, ich habe aber jedes Mal eine Entschuldigung geschickt."
+              }
+            ],
+            "q": "Die Lehrerin spricht die Fehlzeiten deines Kindes an. — The teacher brings up your child's absences.",
+            "why": "Eine sachliche Erklärung mit Verweis auf die Entschuldigungen klärt die Situation."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Muss ich die Einverständniserklärung schon diese Woche unterschreiben?"
+              },
+              {
+                "key": "b",
+                "text": "Formulare unterschreibe ich sowieso nie."
+              },
+              {
+                "key": "c",
+                "text": "Das interessiert mich alles nicht."
+              }
+            ],
+            "q": "Du möchtest wissen, ob die Einverständniserklärung schon fällig ist. — You want to know whether the consent form is due already.",
+            "why": "Eine direkte Frage klärt den Zeitrahmen für die Unterschrift."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Begleitpersonen sind mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Wer ist eigentlich als Begleitperson mit dabei?"
+              },
+              {
+                "key": "c",
+                "text": "Ich vertraue da einfach blind."
+              }
+            ],
+            "q": "Du möchtest wissen, wer als Begleitperson bei der Klassenfahrt mitkommt. — You want to know who's coming along as a chaperone on the class trip.",
+            "why": "Eine direkte Frage zu den Begleitpersonen ist völlig normal und beruhigend für Eltern."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Noten interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Das wird schon irgendwie werden."
+              },
+              {
+                "key": "c",
+                "text": "Wie sieht es denn mit seinen Noten aus?"
+              }
+            ],
+            "q": "Du möchtest wissen, wie es mit den Noten deines Kindes aussieht. — You want to know how your child's grades are.",
+            "why": "Eine direkte Frage zu den Noten zeigt echtes Interesse am Fortschritt des Kindes."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Vielen Dank für das offene Gespräch!"
+              },
+              {
+                "key": "b",
+                "text": "Das Gespräch war doch nichts Besonderes."
+              },
+              {
+                "key": "c",
+                "text": "Gespräche interessieren mich nicht."
+              }
+            ],
+            "q": "Du möchtest dich für das offene Gespräch bedanken. — You want to thank the teacher for the open conversation.",
+            "why": "Ein herzlicher Dank ist der übliche und freundliche Abschluss eines Elterngesprächs."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Im Elterngespräch"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "höfliche Frage mit Konjunktiv II",
+            "tiles": [
+              "Könnte",
+              "ich",
+              "einen",
+              "Termin",
+              "für",
+              "ein",
+              "Elterngespräch",
+              "bekommen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Ich",
+              "habe",
+              "jedes",
+              "Mal",
+              "eine",
+              "Entschuldigung",
+              "geschickt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Frage mit Modalverb, Infinitiv am Ende",
+            "tiles": [
+              "Muss",
+              "ich",
+              "die",
+              "Einverständniserklärung",
+              "diese",
+              "Woche",
+              "unterschreiben",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "note": "Nebensatz mit falls, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "mein",
+              "Kind",
+              "krank",
+              "wird",
+              ",",
+              "schreibe",
+              "ich",
+              "sofort",
+              "eine",
+              "Entschuldigung"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "W-Frage mit sein",
+            "tiles": [
+              "Wer",
+              "ist",
+              "eigentlich",
+              "als",
+              "Begleitperson",
+              "mit",
+              "dabei",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Wir",
+              "haben",
+              "schon",
+              "über",
+              "die",
+              "Klassenfahrt",
+              "gesprochen"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zum Elterngespräch bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Eine Entschuldigung sollte innerhalb von drei Tagen nach der Fehlzeit eingereicht werden. — An excuse note should be submitted within three days of the absence.",
+            "why": "So steht es ausdrücklich in den Schul-Infos."
+          },
+          {
+            "answer": false,
+            "q": "Ein Elterngespräch ist ausschließlich am festen Elternsprechtag möglich. — A parent-teacher meeting is only possible on the fixed parents' day.",
+            "why": "Es kann auch außerhalb des Elternsprechtags vereinbart werden, nicht nur an diesem Tag."
+          },
+          {
+            "answer": true,
+            "q": "Die Einverständniserklärung muss vor der Klassenfahrt unterschrieben abgegeben werden. — The consent form must be signed and submitted before the class trip.",
+            "why": "„Einverständniserklärung: muss vor der Klassenfahrt unterschrieben abgegeben werden.“"
+          },
+          {
+            "answer": false,
+            "q": "Der Kostenbeitrag muss immer sofort in einer Summe bezahlt werden. — The contribution must always be paid immediately in one lump sum.",
+            "why": "Er kann bei Bedarf oft in Raten gezahlt werden, nicht nur auf einmal."
+          },
+          {
+            "answer": true,
+            "q": "Das Zeugnis wird meist am Ende des Schulhalbjahres ausgegeben. — Report cards are usually issued at the end of the school half-year.",
+            "why": "„Zeugnis: wird meist am Ende des Schulhalbjahres ausgegeben.“"
+          },
+          {
+            "answer": false,
+            "q": "Bei einer Klassenfahrt ist normalerweise nur eine einzige Lehrkraft als Begleitung dabei. — Usually only a single teacher accompanies a class trip.",
+            "why": "Meist sind mehrere Lehrkräfte als Begleitpersonen dabei."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Schule und Eltern**\n>\n> - **Entschuldigung:** sollte **innerhalb von 3 Tagen** nach\n>   der Fehlzeit eingereicht werden.\n> - **Elterngespräch:** kann auch **außerhalb des\n>   Elternsprechtags** vereinbart werden.\n> - **Einverständniserklärung:** muss **vor der Klassenfahrt**\n>   unterschrieben abgegeben werden.\n> - **Kostenbeitrag:** kann bei Bedarf oft **in Raten**\n>   gezahlt werden.\n> - **Zeugnis:** wird meist **am Ende des Schulhalbjahres**\n>   ausgegeben.\n> - **Begleitpersonen:** bei einer Klassenfahrt sind meist\n>   **mehrere Lehrkräfte** dabei.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Schul-Infos lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Fehlzeit einfach unentschuldigt stehen lassen."
+              },
+              {
+                "key": "b",
+                "text": "Sie sofort nachreichen und sich kurz erklären."
+              },
+              {
+                "key": "c",
+                "text": "So tun, als wäre nichts passiert."
+              }
+            ],
+            "q": "Die Entschuldigung wurde vergessen abzugeben. — The excuse note was forgotten and never handed in.",
+            "why": "Ein schnelles Nachreichen mit kurzer Erklärung klärt die Sache unkompliziert."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach gar nicht zum Gespräch erscheinen."
+              },
+              {
+                "key": "b",
+                "text": "Sich beschweren, ohne eine Alternative vorzuschlagen."
+              },
+              {
+                "key": "c",
+                "text": "Höflich um einen alternativen Termin bitten."
+              }
+            ],
+            "q": "Der vorgeschlagene Termin für das Elterngespräch passt gar nicht. — The suggested meeting time doesn't work at all.",
+            "why": "Eine höfliche Bitte um einen anderen Termin ist der übliche und faire Weg."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie sofort suchen oder ein neues Formular anfordern."
+              },
+              {
+                "key": "b",
+                "text": "Das Kind einfach ohne Formular mitfahren lassen."
+              },
+              {
+                "key": "c",
+                "text": "Die Klassenfahrt komplett absagen."
+              }
+            ],
+            "q": "Die Einverständniserklärung für die Klassenfahrt wird kurz vor der Abreise noch vermisst. — The consent form for the class trip is still missing shortly before departure.",
+            "why": "Ein neues Formular anzufordern löst das Problem schnell und unkompliziert."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort das Gespräch abbrechen."
+              },
+              {
+                "key": "b",
+                "text": "Ruhig zuhören und gemeinsam nach Lösungen suchen."
+              },
+              {
+                "key": "c",
+                "text": "Die Probleme einfach herunterspielen."
+              }
+            ],
+            "q": "Beim Elterngespräch kommen unerwartet ernste Probleme zur Sprache. — Unexpectedly serious issues come up during the meeting.",
+            "why": "Ruhiges Zuhören und gemeinsames Suchen nach Lösungen ist der konstruktivste Weg."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Kind einfach zwingen mitzufahren, ohne zu fragen."
+              },
+              {
+                "key": "b",
+                "text": "Sofort die Anmeldung stornieren, ohne nachzufragen."
+              },
+              {
+                "key": "c",
+                "text": "In Ruhe mit dem Kind über die Gründe sprechen."
+              }
+            ],
+            "q": "Das Kind möchte plötzlich nicht mehr an der Klassenfahrt teilnehmen. — The child suddenly doesn't want to go on the class trip anymore.",
+            "why": "Ein ruhiges Gespräch über die Gründe klärt, was wirklich dahintersteckt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Offen mit der Klassenlehrerin über eine Ratenzahlung sprechen."
+              },
+              {
+                "key": "b",
+                "text": "Das Kind einfach nicht mitfahren lassen, ohne Bescheid zu geben."
+              },
+              {
+                "key": "c",
+                "text": "Die Situation ignorieren und hoffen, dass es sich löst."
+              }
+            ],
+            "q": "Der Kostenbeitrag für die Klassenfahrt kann kurzfristig nicht bezahlt werden. — The contribution for the class trip can't be paid on short notice.",
+            "why": "Ein offenes Gespräch über eine Ratenzahlung ist die praktischste Lösung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn rund um Schule und Klassenfahrt etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "abgegeben"
+          ],
+          "2": [
+            "gepasst"
+          ],
+          "3": [
+            "vermisst"
+          ],
+          "4": [
+            "gekommen"
+          ],
+          "5": [
+            "geändert"
+          ],
+          "6": [
+            "gesprochen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Entschuldigung wurde versehentlich nicht {1}. (nicht eingereicht, Partizip)\n2. Der vorgeschlagene Termin hat leider nicht {2}. (zeitlich nicht funktioniert)\n3. Die Einverständniserklärung wurde kurz vor der Abreise {3}. (nicht auffindbar, Partizip)\n4. Beim Gespräch sind unerwartet ernste Probleme zur Sprache {4}. (aufgetaucht, Partizip)\n5. Das Kind hat plötzlich die Meinung {5}. (gewechselt, Partizip)\n6. Wir haben offen über eine Ratenzahlung {6}. (geredet, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Könnten"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Elterngespräch"
+          ],
+          "5": [
+            "Entschuldigung"
+          ],
+          "6": [
+            "Klassenfahrt"
+          ],
+          "7": [
+            "Einverständniserklärung"
+          ],
+          "8": [
+            "Klassenlehrerin"
+          ],
+          "9": [
+            "Zeugnis"
+          ],
+          "10": [
+            "abgegeben"
+          ],
+          "11": [
+            "gepasst"
+          ],
+          "12": [
+            "vermisst"
+          ],
+          "13": [
+            "gekommen"
+          ],
+          "14": [
+            "gesprochen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} noch einen Termin vereinbaren. (must)\n2. {2} Sie mir sagen, wann der Elternsprechtag ist? (could — können)\n3. Ich {3} schon eine Entschuldigung geschrieben. (have — Perfekt)\n4. Einmal im Halbjahr findet ein {4} statt. (parent-teacher meeting)\n5. Bei Krankheit schreibe ich eine {5}. (excuse note)\n6. Nächste Woche fährt die Klasse auf {6}. (class trip)\n7. Für die Fahrt muss ich eine {7} unterschreiben. (consent form)\n8. Bei Fragen wende ich mich an die {8}. (homeroom teacher)\n9. Am Ende des Schuljahres bekommt mein Kind das {9}. (report card)\n10. Die Entschuldigung wurde versehentlich nicht {10}. (submitted — Partizip)\n11. Der vorgeschlagene Termin hat leider nicht {11}. (worked out)\n12. Die Einverständniserklärung wurde kurz vor der Abreise {12}. (missing — Partizip)\n13. Beim Gespräch sind ernste Probleme zur Sprache {13}. (come up — Partizip)\n14. Wir haben offen über eine Ratenzahlung {14}. (talked — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-76-elterngespraech-a2",
+  "intro": "Der Schulalltag der Kinder bringt auch für Eltern einiges mit sich: ein Elterngespräch vereinbaren, eine Entschuldigung für Fehlzeiten schreiben, die Einverständniserklärung für die Klassenfahrt unterschreiben. Dieses Set übt genau das — im Elterngespräch über Fehlzeiten und Noten sprechen, die Klassenfahrt organisieren, und was zu tun ist, wenn ein Termin nicht passt oder das Kind plötzlich nicht mitfahren möchte. Grammatik nach Bedarf: Perfekt im Bericht, höfliche Fragen, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/76-elterngespraech-a2",
+  "level": "A2",
+  "summary": "Ein Elterngespräch führen, Fehlzeiten entschuldigen, die Einverständniserklärung für die Klassenfahrt unterschreiben — und was tun, wenn ein Termin nicht passt oder das Kind plötzlich nicht mitfahren möchte.",
+  "title": "In der Schule: Elterngespräch, Entschuldigung, Klassenfahrt — A2",
+  "topic": "In der Schule: Elterngespräch, Entschuldigung, Klassenfahrt"
+}

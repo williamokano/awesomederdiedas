@@ -1,0 +1,826 @@
+{
+  "category": "Einkaufen",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "suchen",
+            "label": "Suchen"
+          },
+          {
+            "key": "kaufen",
+            "label": "Kaufen"
+          },
+          {
+            "key": "nichtvorraetig",
+            "label": "Wenn nicht vorrätig"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "suchen",
+            "text": "nach einem Genre fragen"
+          },
+          {
+            "bucket": "suchen",
+            "text": "sich beraten lassen"
+          },
+          {
+            "bucket": "suchen",
+            "text": "eine Leseprobe lesen"
+          },
+          {
+            "bucket": "suchen",
+            "text": "eine Neuerscheinung entdecken"
+          },
+          {
+            "bucket": "kaufen",
+            "text": "zwischen Taschenbuch und gebundener Ausgabe wählen"
+          },
+          {
+            "bucket": "kaufen",
+            "text": "an der Kasse bezahlen"
+          },
+          {
+            "bucket": "kaufen",
+            "text": "eine Geschenkverpackung wünschen"
+          },
+          {
+            "bucket": "kaufen",
+            "text": "eine Quittung verlangen"
+          },
+          {
+            "bucket": "nichtvorraetig",
+            "text": "erfahren, dass ein Buch vergriffen ist"
+          },
+          {
+            "bucket": "nichtvorraetig",
+            "text": "das Buch bestellen"
+          },
+          {
+            "bucket": "nichtvorraetig",
+            "text": "die Lieferzeit erfragen"
+          },
+          {
+            "bucket": "nichtvorraetig",
+            "text": "sich benachrichtigen lassen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Suchen, kaufen oder wenn nicht vorrätig?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Buchhandlung"
+          },
+          {
+            "key": "2",
+            "text": "die Neuerscheinung"
+          },
+          {
+            "key": "3",
+            "text": "vergriffen"
+          },
+          {
+            "key": "4",
+            "text": "die gebundene Ausgabe"
+          },
+          {
+            "key": "5",
+            "text": "das Taschenbuch"
+          },
+          {
+            "key": "6",
+            "text": "sich beraten lassen"
+          },
+          {
+            "key": "7",
+            "text": "die Leseprobe"
+          },
+          {
+            "key": "8",
+            "text": "bestellen"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "der Laden, in dem man Bücher kauft"
+          },
+          {
+            "key": "b",
+            "text": "ein gerade neu veröffentlichtes Buch"
+          },
+          {
+            "key": "c",
+            "text": "nicht mehr auf Lager und aktuell nicht lieferbar"
+          },
+          {
+            "key": "d",
+            "text": "die feste, stabile Buchausgabe"
+          },
+          {
+            "key": "e",
+            "text": "die kleinere, günstigere Buchausgabe"
+          },
+          {
+            "key": "f",
+            "text": "sich vom Personal Empfehlungen geben lassen"
+          },
+          {
+            "key": "g",
+            "text": "ein kurzer Textausschnitt zum Reinlesen"
+          },
+          {
+            "key": "h",
+            "text": "ein nicht vorrätiges Buch extra kommen lassen"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Sollen"
+          ],
+          "5": [
+            "ist"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Kann"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} ein Geschenk für meine Schwester suchen. (Modalverb, ich-Form)\n2. {2} Sie mir einen guten Krimi empfehlen? (können, Sie-Form)\n3. Ich {3} schon drei Bücher von diesem Autor gelesen. (haben, Perfekt)\n4. {4} wir uns noch etwas beraten lassen? (sollen, wir-Form)\n5. Falls das Buch nicht vorrätig {5}, bestelle ich es online. (sein, Präsens)\n6. Die Buchhändlerin {6} mir das Buch reservieren. (werden, Futur I)\n7. Wir {7} schon die Leseprobe gelesen. (haben, Perfekt)\n8. {8} ich das Buch auch in gebundener Ausgabe bekommen? (können, ich-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Den Buchkauf planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Buchhandlung"
+          ],
+          "2": [
+            "Neuerscheinung"
+          ],
+          "3": [
+            "vergriffen"
+          ],
+          "4": [
+            "gebundene Ausgabe"
+          ],
+          "5": [
+            "Taschenbuch"
+          ],
+          "6": [
+            "Leseprobe"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. In der {1} finden wir bestimmt das passende Buch. (der Laden für Bücher)\n2. Dieser Roman ist eine echte {2} — er ist erst letzte Woche erschienen. (ein gerade neu veröffentlichtes Buch)\n3. Leider ist das Buch gerade {3} und muss bestellt werden. (nicht mehr auf Lager)\n4. Ich nehme lieber die {4}, die hält länger. (die feste, stabile Buchausgabe)\n5. Für unterwegs ist ein {5} praktischer und leichter. (die kleinere, günstigere Buchausgabe)\n6. Bevor ich kaufe, lese ich immer erst eine {6}. (ein kurzer Textausschnitt zum Reinlesen)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "EMPFEHLEN"
+          ],
+          "2": [
+            "NEUERSCHEINUNG"
+          ],
+          "3": [
+            "GEBUNDENE"
+          ],
+          "4": [
+            "HOCHWERTIGER"
+          ],
+          "5": [
+            "LESEPROBE"
+          ],
+          "6": [
+            "VERGRIFFEN"
+          ],
+          "7": [
+            "BESTELLEN"
+          ],
+          "8": [
+            "LIEFERZEIT"
+          ],
+          "9": [
+            "NEHME"
+          ],
+          "10": [
+            "BENACHRICHTIGEN"
+          ]
+        },
+        "bank": [
+          "EMPFEHLEN",
+          "NEUERSCHEINUNG",
+          "GEBUNDENE",
+          "HOCHWERTIGER",
+          "LESEPROBE",
+          "VERGRIFFEN",
+          "BESTELLEN",
+          "LIEFERZEIT",
+          "NEHME",
+          "BENACHRICHTIGEN",
+          "TASCHENBUCH",
+          "SIGNIERT",
+          "RATGEBER",
+          "GESCHENKPAPIER"
+        ],
+        "text": "— Guten Tag, ich suche ein Geschenk für meine Schwester. Können\nSie mir etwas {1}?\n— Gerne, was liest sie denn am liebsten?\n— Vor allem Krimis. Haben Sie eine aktuelle {2}?\n— Ja, dieser hier ist erst letzte Woche erschienen und sehr\nbeliebt.\n— Perfekt. Gibt es den auch als {3} Ausgabe, oder nur als\nTaschenbuch?\n— Beides — welche Ausgabe möchten Sie?\n— Ich nehme die gebundene Ausgabe, die wirkt {4} als Geschenk.\n— Gute Wahl. Möchten Sie vorher noch eine {5} lesen?\n— Nein, danke, das reicht mir schon.\n(am nächsten Tag, andere Buchhandlung)\n— Guten Tag, ich suche „Der Sommer der Wale\" — haben Sie das\nnoch?\n— Leider ist das gerade {6}, aber ich kann es für Sie {7}.\n— Wie lange dauert die {8} ungefähr?\n— Etwa drei bis vier Werktage.\n— Gut, dann {9} ich es. Können Sie mich {10}, sobald es da\nist?\n— Natürlich, gerne per E-Mail.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "In der Buchhandlung"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bücher interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Können Sie mir etwas empfehlen?"
+              },
+              {
+                "key": "c",
+                "text": "Ich finde das schon alleine."
+              }
+            ],
+            "q": "Du möchtest dich in der Buchhandlung beraten lassen. — You want advice at the bookshop.",
+            "why": "Eine höfliche, direkte Bitte um Empfehlung ist der übliche Einstieg in der Buchhandlung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Neuerscheinungen interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Neue Bücher sind mir zu teuer."
+              },
+              {
+                "key": "c",
+                "text": "Haben Sie eine aktuelle Neuerscheinung von diesem Autor?"
+              }
+            ],
+            "q": "Du möchtest wissen, ob es eine aktuelle Neuerscheinung gibt. — You want to know if there's a current new release.",
+            "why": "Eine konkrete Frage nach einer Neuerscheinung führt direkt zum Ziel."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Gibt es das Buch auch als gebundene Ausgabe?"
+              },
+              {
+                "key": "b",
+                "text": "Ausgaben sind mir alle gleich."
+              },
+              {
+                "key": "c",
+                "text": "Ich nehme einfach irgendeine."
+              }
+            ],
+            "q": "Du möchtest zwischen Taschenbuch und gebundener Ausgabe wählen. — You want to choose between paperback and hardcover.",
+            "why": "Eine konkrete Nachfrage klärt, welche Ausgaben verfügbar sind."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Leseproben interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Kann ich vorher kurz reinlesen?"
+              },
+              {
+                "key": "c",
+                "text": "Ich kaufe sowieso blind."
+              }
+            ],
+            "q": "Du möchtest vor dem Kauf eine Leseprobe lesen. — You want to read a sample before buying.",
+            "why": "Eine kurze Nachfrage ist der übliche Weg zu einer Leseprobe."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dann eben nicht."
+              },
+              {
+                "key": "b",
+                "text": "Das ist mir egal."
+              },
+              {
+                "key": "c",
+                "text": "Können Sie es für mich bestellen?"
+              }
+            ],
+            "q": "Die Verkäuferin sagt, das gewünschte Buch ist vergriffen. — The seller says the desired book is out of stock.",
+            "why": "Eine Nachfrage zur Bestellung ist die naheliegende Lösung bei einem vergriffenen Buch."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wie lange dauert die Lieferzeit ungefähr?"
+              },
+              {
+                "key": "b",
+                "text": "Ich warte einfach, wie lange es dauert."
+              },
+              {
+                "key": "c",
+                "text": "Lieferzeiten interessieren mich nicht."
+              }
+            ],
+            "q": "Du möchtest wissen, wie lange die Lieferzeit für ein bestelltes Buch ist. — You want to know the delivery time for an ordered book.",
+            "why": "Eine direkte Frage zur Lieferzeit hilft bei der Planung des Geschenks."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Beraten lassen und wählen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "höfliche Frage, Infinitiv am Ende",
+            "tiles": [
+              "Können",
+              "Sie",
+              "mir",
+              "etwas",
+              "empfehlen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Frage mit haben",
+            "tiles": [
+              "Haben",
+              "Sie",
+              "eine",
+              "aktuelle",
+              "Neuerscheinung",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Frage mit es gibt",
+            "tiles": [
+              "Gibt",
+              "es",
+              "das",
+              "Buch",
+              "auch",
+              "gebunden",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Nebensatz mit falls, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "das",
+              "Buch",
+              "nicht",
+              "vorrätig",
+              "ist",
+              ",",
+              "bestelle",
+              "ich",
+              "es"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Frage, Infinitiv am Ende",
+            "tiles": [
+              "Können",
+              "Sie",
+              "es",
+              "für",
+              "mich",
+              "bestellen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Ich",
+              "habe",
+              "die",
+              "Leseprobe",
+              "schon",
+              "gelesen"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze in der Buchhandlung bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Ein vergriffenes Buch kann meist innerhalb von drei bis vier Werktagen geliefert werden. — An out-of-stock book can usually be delivered within three to four working days.",
+            "why": "So steht es ausdrücklich in den Buchhandlungs-Infos."
+          },
+          {
+            "answer": false,
+            "q": "Geschenkverpackung kostet in den meisten Buchhandlungen extra. — Gift wrapping costs extra in most bookshops.",
+            "why": "Sie ist in vielen Buchhandlungen kostenlos, nicht kostenpflichtig."
+          },
+          {
+            "answer": false,
+            "q": "Signierte Exemplare bekommt man jederzeit, ganz ohne besonderen Anlass. — Signed copies are available anytime, without a special occasion.",
+            "why": "Sie gibt es nur bei besonderen Lesungen oder Events."
+          },
+          {
+            "answer": true,
+            "q": "Unbeschädigte Bücher können meist innerhalb von 14 Tagen zurückgegeben werden. — Undamaged books can usually be returned within 14 days.",
+            "why": "„Rückgabe: unbeschädigte Bücher können meist innerhalb von 14 Tagen zurückgegeben werden.“"
+          },
+          {
+            "answer": true,
+            "q": "Eine Leseprobe liegt oft schon im Laden aus. — A sample excerpt is often already available in the shop.",
+            "why": "„Leseprobe: liegt oft schon im Laden aus oder online verfügbar.“"
+          },
+          {
+            "answer": false,
+            "q": "Eine Mitgliedskarte bringt in der Regel keinerlei Vorteile. — A membership card usually brings no benefits at all.",
+            "why": "Sie bringt meist einen Rabatt für Stammkunden."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Buchhandlung**\n>\n> - **Bestellung:** ein vergriffenes Buch kann meist innerhalb\n>   von **3–4 Werktagen** geliefert werden.\n> - **Geschenkverpackung:** in vielen Buchhandlungen\n>   **kostenlos**.\n> - **Leseprobe:** liegt oft schon **im Laden aus** oder online\n>   verfügbar.\n> - **Signierte Exemplare:** nur bei besonderen **Lesungen oder\n>   Events** erhältlich.\n> - **Rückgabe:** unbeschädigte Bücher können meist\n>   **innerhalb von 14 Tagen** zurückgegeben werden.\n> - **Mitgliedskarte:** viele Buchhandlungen bieten einen\n>   **Rabatt für Stammkunden**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Buchhandlungs-Infos lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Buch einfach vergessen und nie wieder lesen."
+              },
+              {
+                "key": "b",
+                "text": "Nach einer anderen Ausgabe oder einem Antiquariat fragen."
+              },
+              {
+                "key": "c",
+                "text": "Sich bei der Buchhandlung laut beschweren, ohne nach Alternativen zu fragen."
+              }
+            ],
+            "q": "Das gewünschte Buch ist überall vergriffen. — The desired book is out of stock everywhere.",
+            "why": "Ein Antiquariat oder eine andere Ausgabe ist oft eine gute Alternative bei einem vergriffenen Buch."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach endlos weiter warten, ohne nachzufragen."
+              },
+              {
+                "key": "b",
+                "text": "Die Bestellung sofort stornieren, ohne nachzufragen."
+              },
+              {
+                "key": "c",
+                "text": "Höflich in der Buchhandlung nach dem Stand der Bestellung fragen."
+              }
+            ],
+            "q": "Ein bestelltes Buch kommt viel später als angekündigt an. — An ordered book arrives much later than announced.",
+            "why": "Eine höfliche Nachfrage klärt meist schnell, woran es liegt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es zur Buchhandlung zurückbringen und umtauschen."
+              },
+              {
+                "key": "b",
+                "text": "Die fehlenden Seiten einfach ignorieren."
+              },
+              {
+                "key": "c",
+                "text": "Das Buch trotzdem behalten und nichts sagen."
+              }
+            ],
+            "q": "Das gelieferte Buch hat einen Druckfehler oder fehlende Seiten. — The delivered book has a printing error or missing pages.",
+            "why": "Ein Umtausch ist bei einem defekten Exemplar die naheliegende Lösung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das falsche Buch einfach behalten."
+              },
+              {
+                "key": "b",
+                "text": "Es innerhalb der Rückgabefrist unbeschädigt zurückbringen."
+              },
+              {
+                "key": "c",
+                "text": "Es verschenken, auch wenn es das falsche ist."
+              }
+            ],
+            "q": "Man hat aus Versehen das falsche Buch gekauft. — You accidentally bought the wrong book.",
+            "why": "Eine rechtzeitige, unbeschädigte Rückgabe löst das Problem am einfachsten."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ohne Verpackung gehen und sich ärgern."
+              },
+              {
+                "key": "b",
+                "text": "Das Geschenk einfach so übergeben, ohne zu fragen."
+              },
+              {
+                "key": "c",
+                "text": "Freundlich nach einer Alternative fragen, z. B. selbst verpacken."
+              }
+            ],
+            "q": "Die gewünschte Geschenkverpackung ist gerade nicht verfügbar. — The desired gift wrapping isn't available right now.",
+            "why": "Eine freundliche Nachfrage nach einer Alternative findet meist eine Lösung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Buchhandlung kontaktieren und um Hilfe bitten."
+              },
+              {
+                "key": "b",
+                "text": "Die Leseprobe einfach vergessen."
+              },
+              {
+                "key": "c",
+                "text": "Sich online öffentlich beschweren, ohne die Buchhandlung zu kontaktieren."
+              }
+            ],
+            "q": "Eine online bestellte Leseprobe funktioniert nicht. — An online-ordered sample excerpt doesn't work.",
+            "why": "Der direkte Kontakt zur Buchhandlung löst technische Probleme meist am schnellsten."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn beim Buchkauf etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "vergriffen"
+          ],
+          "2": [
+            "angekommen"
+          ],
+          "3": [
+            "Druckfehler"
+          ],
+          "4": [
+            "gekauft"
+          ],
+          "5": [
+            "verfügbar"
+          ],
+          "6": [
+            "funktioniert"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das Buch war überall {1}. (nicht mehr erhältlich)\n2. Die Bestellung ist viel später als angekündigt {2}. (dort eingetroffen, Partizip)\n3. Das gelieferte Buch hatte einen {3}. (Fehler beim Drucken)\n4. Ich habe aus Versehen das falsche Buch {4}. (erworben, Partizip)\n5. Die gewünschte Geschenkverpackung war nicht {5}. (nicht vorhanden)\n6. Die online bestellte Leseprobe hat nicht {6}. (nicht richtig gearbeitet)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Könnten"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Buchhandlung"
+          ],
+          "5": [
+            "Neuerscheinung"
+          ],
+          "6": [
+            "vergriffen"
+          ],
+          "7": [
+            "gebundene Ausgabe"
+          ],
+          "8": [
+            "Taschenbuch"
+          ],
+          "9": [
+            "Leseprobe"
+          ],
+          "10": [
+            "vergriffen"
+          ],
+          "11": [
+            "angekommen"
+          ],
+          "12": [
+            "Druckfehler"
+          ],
+          "13": [
+            "gekauft"
+          ],
+          "14": [
+            "verfügbar"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} ein Geschenk für meine Schwester suchen. (must)\n2. {2} Sie mir einen guten Krimi empfehlen? (could — können)\n3. Ich {3} schon drei Bücher von diesem Autor gelesen. (have — Perfekt)\n4. In der {4} finden wir bestimmt das passende Buch. (bookshop)\n5. Dieser Roman ist eine echte {5}. (new release)\n6. Leider ist das Buch gerade {6}. (out of stock)\n7. Ich nehme lieber die {7}. (hardcover edition)\n8. Für unterwegs ist ein {8} praktischer. (paperback)\n9. Bevor ich kaufe, lese ich immer erst eine {9}. (sample excerpt)\n10. Das Buch war überall {10}. (out of stock)\n11. Die Bestellung ist viel später {11}. (arrived — Partizip)\n12. Das gelieferte Buch hatte einen {12}. (printing error)\n13. Ich habe aus Versehen das falsche Buch {13}. (bought — Partizip)\n14. Die Geschenkverpackung war nicht {14}. (available)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-66-ein-buch-kaufen-a2",
+  "intro": "Ein Buch als Geschenk zu finden braucht manchmal etwas Beratung: nach einem Genre fragen, eine Neuerscheinung entdecken, zwischen Taschenbuch und gebundener Ausgabe wählen — und geduldig bleiben, wenn das gewünschte Buch gerade vergriffen ist. Dieses Set übt genau das: sich beraten lassen, eine Leseprobe lesen, ein Buch bestellen, und was zu tun ist, wenn beim Kauf etwas schiefgeht. Grammatik nach Bedarf: Perfekt im Bericht, höfliche Fragen, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/66-ein-buch-kaufen-a2",
+  "level": "A2",
+  "summary": "Sich in der Buchhandlung beraten lassen, zwischen Taschenbuch und gebundener Ausgabe wählen — und was tun, wenn das gewünschte Buch vergriffen ist.",
+  "title": "Ein Buch kaufen — A2",
+  "topic": "Ein Buch kaufen"
+}

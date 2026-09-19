@@ -1,0 +1,814 @@
+{
+  "category": "Sport & Gesundheit",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "zahn",
+            "label": "Zahn & Mund"
+          },
+          {
+            "key": "behandlung",
+            "label": "Behandlung"
+          },
+          {
+            "key": "papier",
+            "label": "Papier & Kosten"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "zahn",
+            "text": "der Backenzahn"
+          },
+          {
+            "bucket": "behandlung",
+            "text": "die Betäubung"
+          },
+          {
+            "bucket": "papier",
+            "text": "das Bonusheft"
+          },
+          {
+            "bucket": "zahn",
+            "text": "das Zahnfleisch"
+          },
+          {
+            "bucket": "behandlung",
+            "text": "die Füllung"
+          },
+          {
+            "bucket": "papier",
+            "text": "der Heil- und Kostenplan"
+          },
+          {
+            "bucket": "zahn",
+            "text": "der Weisheitszahn"
+          },
+          {
+            "bucket": "behandlung",
+            "text": "die Wurzelbehandlung"
+          },
+          {
+            "bucket": "papier",
+            "text": "der Eigenanteil"
+          },
+          {
+            "bucket": "zahn",
+            "text": "der Zahnschmelz"
+          },
+          {
+            "bucket": "behandlung",
+            "text": "die Zahnreinigung"
+          },
+          {
+            "bucket": "papier",
+            "text": "die Versichertenkarte"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Zahn, Behandlung oder Papier?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Kontrolle"
+          },
+          {
+            "key": "2",
+            "text": "die Füllung"
+          },
+          {
+            "key": "3",
+            "text": "die Betäubung"
+          },
+          {
+            "key": "4",
+            "text": "die Krone"
+          },
+          {
+            "key": "5",
+            "text": "das Bonusheft"
+          },
+          {
+            "key": "6",
+            "text": "der Heil- und Kostenplan"
+          },
+          {
+            "key": "7",
+            "text": "der Eigenanteil"
+          },
+          {
+            "key": "8",
+            "text": "die professionelle Zahnreinigung"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "der Routinetermin, meist zweimal im Jahr"
+          },
+          {
+            "key": "b",
+            "text": "das Material, mit dem ein Loch verschlossen wird"
+          },
+          {
+            "key": "c",
+            "text": "die Spritze, damit du nichts spürst"
+          },
+          {
+            "key": "d",
+            "text": "der Ersatz für einen stark zerstörten Zahn"
+          },
+          {
+            "key": "e",
+            "text": "das Heft, in dem jede Kontrolle abgestempelt wird"
+          },
+          {
+            "key": "f",
+            "text": "das Papier, das vor der Behandlung die Kosten aufschlüsselt"
+          },
+          {
+            "key": "g",
+            "text": "der Teil der Kosten, den du selbst zahlst"
+          },
+          {
+            "key": "h",
+            "text": "die gründliche Reinigung, die die Kasse meist nicht zahlt"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "tut"
+          ],
+          "2": [
+            "wenn"
+          ],
+          "3": [
+            "Beißen"
+          ],
+          "4": [
+            "Zahnfleisch"
+          ],
+          "5": [
+            "seit"
+          ],
+          "6": [
+            "rausgefallen"
+          ],
+          "7": [
+            "gegen"
+          ],
+          "8": [
+            "in"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Mir {1} ein Zahn weh, oben rechts hinten. (wehtun, 3. Person Singular)\n2. Es zieht, {2} ich etwas Kaltes trinke. (Bedingung / immer dann)\n3. Beim {3} tut es besonders weh. (auf etwas kauen)\n4. Das {4} blutet beim Zähneputzen. (das Fleisch um die Zähne)\n5. Der Schmerz ist {5} drei Tagen da. (Zeitpunkt in der Vergangenheit bis jetzt)\n6. Ein Stück von der Füllung ist {6}. (herausgefallen: raus…)\n7. Der Zahn ist {7} Kälte sehr empfindlich. (Präposition: reagiert auf)\n8. Es pocht, vor allem {8} der Nacht. (Präposition: während)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das fehlende Wort.",
+      "instructionsEn": "Fill in the missing word.",
+      "title": "Wo und wie tut es weh?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "machen"
+          ],
+          "2": [
+            "wenn"
+          ],
+          "3": [
+            "Betäubung"
+          ],
+          "4": [
+            "schlucken"
+          ],
+          "5": [
+            "hält"
+          ],
+          "6": [
+            "nichts"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Bitte {1} Sie den Mund weit auf. (aufmachen, Sie-Imperativ)\n2. Sagen Sie Bescheid, {2} es wehtut. (Bedingung)\n3. Möchten Sie eine {3}? (die Spritze)\n4. Bitte nicht {4} — der Speichel stört sonst. (den Speichel hinunterbefördern)\n5. Die Betäubung {5} etwa zwei Stunden an. (anhalten, 3. Person Singular)\n6. Essen Sie in der nächsten Stunde bitte {6}. (kein Essen)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze die Anweisung oder die Frage.",
+      "instructionsEn": "Fill in the instruction or question.",
+      "title": "Im Behandlungsstuhl"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "TERMIN"
+          ],
+          "2": [
+            "SEIT"
+          ],
+          "3": [
+            "BEISSEN"
+          ],
+          "4": [
+            "BACKENZAHN"
+          ],
+          "5": [
+            "NOTFALLTERMIN"
+          ],
+          "6": [
+            "MITBRINGEN"
+          ],
+          "7": [
+            "BONUSHEFT"
+          ],
+          "8": [
+            "AUF"
+          ],
+          "9": [
+            "BETÄUBUNG"
+          ],
+          "10": [
+            "WENN"
+          ]
+        },
+        "bank": [
+          "TERMIN",
+          "SEIT",
+          "BEISSEN",
+          "BACKENZAHN",
+          "NOTFALLTERMIN",
+          "MITBRINGEN",
+          "BONUSHEFT",
+          "AUF",
+          "BETÄUBUNG",
+          "WENN",
+          "KRONE",
+          "PLAN",
+          "UNTEN",
+          "SPRITZE"
+        ],
+        "text": "— Praxis Dr. Lange, guten Tag.\n— Guten Tag, Marchetti. Ich hätte gern einen {1}, ich habe\nZahnschmerzen.\n— Seit wann denn?\n— {2} drei Tagen. Es zieht, wenn ich etwas Kaltes trinke, und\nbeim {3} tut es weh.\n— Oben oder unten?\n— Oben rechts, der hintere {4}.\n— Wir haben einen {5} um 15:40, geht das?\n— Ja, das passt. Muss ich etwas {6}?\n— Nur die Versichertenkarte und, falls Sie es haben, das\n{7}.\n*(in der Praxis)*\n— So, bitte einmal den Mund weit {8}. … Da ist ein Loch, das\nmachen wir gleich. Möchten Sie eine {9}?\n— Ja, bitte.\n— Gut. Sagen Sie Bescheid, {10} etwas wehtut.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Anruf und Termin"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich brauche einen Termin."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe seit drei Tagen starke Zahnschmerzen — haben Sie heute noch einen Notfalltermin?"
+              },
+              {
+                "key": "c",
+                "text": "Wann haben Sie frei?"
+              }
+            ],
+            "q": "Du rufst an und hast starke Schmerzen. — You ring up and are in a lot of pain.",
+            "why": "Dauer, Stärke und das Wort „Notfalltermin“ — damit landest du im richtigen Terminfach."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Oben rechts, der hintere Backenzahn."
+              },
+              {
+                "key": "b",
+                "text": "Hinten."
+              },
+              {
+                "key": "c",
+                "text": "Ein Zahn."
+              }
+            ],
+            "q": "Die Sprechstundenhilfe fragt, wo es wehtut. — The receptionist asks where it hurts.",
+            "why": "Oben/unten, links/rechts und welcher Zahn — mehr braucht die Praxis nicht, weniger reicht nicht."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Manchmal."
+              },
+              {
+                "key": "b",
+                "text": "Es tut immer weh."
+              },
+              {
+                "key": "c",
+                "text": "Es zieht, wenn ich etwas Kaltes trinke, und nachts pocht es."
+              }
+            ],
+            "q": "Du willst beschreiben, wann der Schmerz kommt. — You want to describe when the pain occurs.",
+            "why": "Auslöser und Tageszeit sind für die Diagnose wichtiger als die Stärke."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ja, bitte — und wie lange hält die an?"
+              },
+              {
+                "key": "b",
+                "text": "Ist mir egal."
+              },
+              {
+                "key": "c",
+                "text": "Muss das sein?"
+              }
+            ],
+            "q": "Man fragt, ob du eine Betäubung möchtest. — You're asked whether you want an anaesthetic.",
+            "why": "Zusagen und gleich die praktische Frage klären: danach willst du wissen, ab wann du wieder essen kannst."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Machen Sie einfach."
+              },
+              {
+                "key": "b",
+                "text": "Darf ich den mitnehmen und bei meiner Kasse einreichen? Wie hoch wäre mein Eigenanteil ungefähr?"
+              },
+              {
+                "key": "c",
+                "text": "Das ist zu teuer."
+              }
+            ],
+            "q": "Für eine Krone bekommst du einen Kostenplan. — For a crown you're given a treatment and cost plan.",
+            "why": "Genau dafür ist der Plan da: einreichen, Zuschuss klären, dann entscheiden."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Durchhalten."
+              },
+              {
+                "key": "b",
+                "text": "Die Hand heben und es sagen, sobald es geht."
+              },
+              {
+                "key": "c",
+                "text": "Den Kopf wegdrehen."
+              }
+            ],
+            "q": "Es tut während der Behandlung weh. — It hurts during the treatment.",
+            "why": "Die Praxis rechnet damit — Handzeichen ist das vereinbarte Signal, und meistens wird nachbetäubt."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Was sagst du?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "wehtun mit Dativ: mir — weh steht am Satzende",
+            "tiles": [
+              "Mir",
+              "tut",
+              "ein",
+              "Zahn",
+              "weh"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Nach wenn steht das Verb am Ende",
+            "tiles": [
+              "Es",
+              "zieht",
+              ",",
+              "wenn",
+              "ich",
+              "etwas",
+              "Kaltes",
+              "trinke"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "seit + Dativ, und im Deutschen mit Präsens",
+            "tiles": [
+              "Ich",
+              "habe",
+              "seit",
+              "drei",
+              "Tagen",
+              "Schmerzen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Trennverb aufmachen: auf am Satzende",
+            "tiles": [
+              "Bitte",
+              "machen",
+              "Sie",
+              "den",
+              "Mund",
+              "weit",
+              "auf"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Ja/Nein-Frage: Verb an Position 1",
+            "tiles": [
+              "Haben",
+              "Sie",
+              "heute",
+              "noch",
+              "einen",
+              "Notfalltermin",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Konjunktiv II wäre — höflicher als ist",
+            "tiles": [
+              "Wie",
+              "hoch",
+              "wäre",
+              "mein",
+              "Eigenanteil",
+              "?"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze beim Zahnarzt bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Die halbjährliche Kontrolle zahlt die Kasse. — The half-yearly check-up is covered by the health insurer.",
+            "why": "„Kontrolle zweimal jährlich, von der Kasse übernommen.“"
+          },
+          {
+            "answer": false,
+            "q": "Die Zahnreinigung ist im Kassenbeitrag enthalten. — The professional cleaning is included in the insurance.",
+            "why": "Sie ist in der Regel Selbstzahlerleistung, 95 €."
+          },
+          {
+            "answer": false,
+            "q": "Den Kostenplan reicht man erst nach der Behandlung ein. — The cost plan is submitted after the treatment.",
+            "why": "„Bitte vor Behandlungsbeginn bei der Krankenkasse einreichen.“"
+          },
+          {
+            "answer": true,
+            "q": "Mittwoch um halb neun kommt man ohne Termin dran. — On Wednesday at 8:30 you can come without an appointment.",
+            "why": "Notfallsprechstunde Mo–Fr 8–9 Uhr, ohne Termin."
+          },
+          {
+            "answer": false,
+            "q": "Eine Absage am Morgen des Termins ist kostenlos. — Cancelling on the morning of the appointment is free.",
+            "why": "Absagen müssen spätestens 24 Stunden vorher kommen."
+          },
+          {
+            "answer": true,
+            "q": "Nach der Spritze sollte man zwei Stunden warten, bevor man isst. — After the injection you should wait two hours before eating.",
+            "why": "„Nach einer Betäubung bitte zwei Stunden nichts essen.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Zahnarztpraxis Dr. Lange — Informationen**\n>\n> - **Kontrolle** zweimal jährlich, von der Kasse übernommen.\n>   Stempel ins **Bonusheft** — lückenlos geführt erhöht das\n>   den Zuschuss bei Zahnersatz.\n> - **Professionelle Zahnreinigung 95 €**, in der Regel\n>   **Selbstzahlerleistung**; einige Kassen erstatten anteilig.\n> - Bei **Zahnersatz** (Krone, Brücke) erstellen wir einen\n>   **Heil- und Kostenplan**. Bitte **vor** Behandlungsbeginn bei\n>   der Krankenkasse einreichen.\n> - **Notfallsprechstunde** Mo–Fr **8–9 Uhr**, ohne Termin. Am\n>   Wochenende gilt der **zahnärztliche Notdienst**.\n> - **Absagen** bitte **spätestens 24 Stunden** vorher, sonst\n>   berechnen wir die Ausfallzeit.\n> - Nach einer Betäubung bitte **zwei Stunden nichts essen**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Den Praxisaushang lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sechs Wochen warten."
+              },
+              {
+                "key": "b",
+                "text": "In die Notaufnahme fahren."
+              },
+              {
+                "key": "c",
+                "text": "Nach der Notfallsprechstunde fragen — morgens ohne Termin geht es meistens."
+              }
+            ],
+            "q": "Der nächste freie Termin ist in sechs Wochen, du hast starke Schmerzen. — The next appointment is in six weeks and you're in bad pain.",
+            "why": "Fast jede Praxis hat ein Notfallfenster; danach zu fragen ist genau der richtige Schritt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nichts sagen und die Zähne zusammenbeißen."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe ziemlich Angst — können Sie mir kurz sagen, was Sie jetzt machen?"
+              },
+              {
+                "key": "c",
+                "text": "Den Termin absagen."
+              }
+            ],
+            "q": "Du hast Angst vor der Behandlung. — You're afraid of the treatment.",
+            "why": "Angst benennen und um Erklärung bitten: das Vorgehen zu kennen nimmt den größten Teil davon."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Hand heben: „Das spüre ich noch deutlich.“"
+              },
+              {
+                "key": "b",
+                "text": "Warten, bis es vorbei ist."
+              },
+              {
+                "key": "c",
+                "text": "Selbst mehr verlangen."
+              }
+            ],
+            "q": "Die Betäubung wirkt nicht richtig. — The anaesthetic isn't working properly.",
+            "why": "Sofort melden — nachbetäuben ist Routine, aber nur wenn die Praxis es weiß."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Unterschreiben und hoffen."
+              },
+              {
+                "key": "b",
+                "text": "Gibt es eine günstigere Variante, die die Kasse stärker bezuschusst? Ich würde den Plan gern erst einreichen."
+              },
+              {
+                "key": "c",
+                "text": "Zu einer anderen Praxis wechseln."
+              }
+            ],
+            "q": "Der Kostenvoranschlag ist viel höher als erwartet. — The cost estimate is much higher than expected.",
+            "why": "Nach der Regelversorgung fragen und erst einreichen — beides ist üblich und ändert oft den Eigenanteil."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Abwarten, das gibt sich."
+              },
+              {
+                "key": "b",
+                "text": "Anrufen: „Die Füllung von Dienstag stört beim Beißen — kann jemand kurz drüberschleifen?“"
+              },
+              {
+                "key": "c",
+                "text": "Selbst daran herumdrücken."
+              }
+            ],
+            "q": "Nach der Füllung tut der Zahn beim Beißen weh. — After the filling the tooth hurts when you bite.",
+            "why": "Eine zu hohe Füllung ist häufig und in fünf Minuten korrigiert — das gehört zur Behandlung dazu."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach nicht hingehen."
+              },
+              {
+                "key": "b",
+                "text": "Erst morgen früh absagen."
+              },
+              {
+                "key": "c",
+                "text": "Heute anrufen und absagen — sonst wird die Ausfallzeit berechnet."
+              }
+            ],
+            "q": "Du kannst den Termin morgen nicht wahrnehmen. — You can't make tomorrow's appointment.",
+            "why": "24 Stunden vorher ist die Grenze; ein Anruf heute kostet nichts, morgen kostet er."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Heikle Momente"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Notfalltermin"
+          ],
+          "2": [
+            "Kostenplan"
+          ],
+          "3": [
+            "Krankenkasse"
+          ],
+          "4": [
+            "Eigenanteil"
+          ],
+          "5": [
+            "Bonusheft"
+          ],
+          "6": [
+            "Betäubung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich brauche heute einen {1}. (Termin ohne Vorlauf, bei Schmerzen)\n2. Für die Krone bekomme ich einen {2}. (Papier mit den Kosten)\n3. Den reiche ich vorher bei der {3} ein. (Versicherung für Gesundheit)\n4. Mein {4} ist der Teil, den ich selbst zahle. (Selbstbeteiligung)\n5. Das {5} muss lückenlos gestempelt sein. (Heft mit den Kontrollen)\n6. Nach der {6} darf ich zwei Stunden nichts essen. (die Spritze)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "tut"
+          ],
+          "2": [
+            "wenn"
+          ],
+          "3": [
+            "seit"
+          ],
+          "4": [
+            "Beißen"
+          ],
+          "5": [
+            "Backenzahn"
+          ],
+          "6": [
+            "Notfalltermin"
+          ],
+          "7": [
+            "auf"
+          ],
+          "8": [
+            "Betäubung"
+          ],
+          "9": [
+            "Kostenplan"
+          ],
+          "10": [
+            "Eigenanteil"
+          ],
+          "11": [
+            "Bonusheft"
+          ],
+          "12": [
+            "vorher"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Mir {1} ein Zahn weh. (hurts)\n2. Es zieht, {2} ich etwas Kaltes trinke. (when / whenever)\n3. Ich habe {3} drei Tagen Schmerzen. (for — since)\n4. Beim {4} tut es besonders weh. (biting)\n5. Oben rechts, der hintere {5}. (molar)\n6. Haben Sie einen {6}? (emergency appointment)\n7. Bitte machen Sie den Mund weit {7}. (open — Vorsilbe)\n8. Möchten Sie eine {8}? (anaesthetic)\n9. Für die Krone gibt es einen {9}. (treatment and cost plan)\n10. Wie hoch ist mein {10}? (own share of the cost)\n11. Das {11} muss gestempelt sein. (bonus booklet)\n12. Absagen bitte 24 Stunden {12}. (beforehand)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-29-beim-zahnarzt-a2",
+  "intro": "Beim Zahnarzt musst du zwei Dinge auf Deutsch können: genau sagen, wo und wie es wehtut, und verstehen, was die Behandlung kostet. Das erste braucht ein paar Wörter mehr als „Zahnschmerzen“ — oben oder unten, links oder rechts, bei Kälte oder beim Beißen, seit wann. Das zweite ist typisch deutsch: Kontrolle und Füllung zahlt die Kasse, bei Krone und Zahnersatz gibt es einen Heil- und Kostenplan, und das Bonusheft entscheidet über den Zuschuss. Grammatik nach Bedarf: Beschwerden mit Dativ, Wechselpräpositionen am Körper, Nebensätze mit wenn und seit. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/29-beim-zahnarzt-a2",
+  "level": "A2",
+  "summary": "Schmerzen am Telefon schildern, Kontrolle und Behandlung, Betäubung, Kostenvoranschlag und Bonusheft.",
+  "title": "Beim Zahnarzt — A2",
+  "topic": "Zahnarztbesuch"
+}

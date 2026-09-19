@@ -1,0 +1,826 @@
+{
+  "category": "Freizeit & Kultur",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "eingang",
+            "label": "Am Eingang"
+          },
+          {
+            "key": "wasser",
+            "label": "Im Wasser"
+          },
+          {
+            "key": "wiese",
+            "label": "Auf der Liegewiese"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "eingang",
+            "text": "die Kasse"
+          },
+          {
+            "bucket": "wasser",
+            "text": "der Nichtschwimmerbereich"
+          },
+          {
+            "bucket": "wiese",
+            "text": "das Handtuch"
+          },
+          {
+            "bucket": "eingang",
+            "text": "das Schließfach"
+          },
+          {
+            "bucket": "wasser",
+            "text": "der Sprungturm"
+          },
+          {
+            "bucket": "wiese",
+            "text": "die Sonnencreme"
+          },
+          {
+            "bucket": "eingang",
+            "text": "die Eintrittskarte"
+          },
+          {
+            "bucket": "wasser",
+            "text": "der Rettungsring"
+          },
+          {
+            "bucket": "wiese",
+            "text": "die Picknickdecke"
+          },
+          {
+            "bucket": "eingang",
+            "text": "die Umkleide"
+          },
+          {
+            "bucket": "wasser",
+            "text": "das Becken"
+          },
+          {
+            "bucket": "wiese",
+            "text": "der Sonnenschirm"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Wo im Freibad?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Eintritt"
+          },
+          {
+            "key": "2",
+            "text": "das Schließfach"
+          },
+          {
+            "key": "3",
+            "text": "der Bademeister"
+          },
+          {
+            "key": "4",
+            "text": "die Liegewiese"
+          },
+          {
+            "key": "5",
+            "text": "der Nichtschwimmerbereich"
+          },
+          {
+            "key": "6",
+            "text": "der Rettungsring"
+          },
+          {
+            "key": "7",
+            "text": "die Badeordnung"
+          },
+          {
+            "key": "8",
+            "text": "der Pfiff"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "der Preis, um ins Freibad zu dürfen"
+          },
+          {
+            "key": "b",
+            "text": "der kleine, abschließbare Schrank für Wertsachen"
+          },
+          {
+            "key": "c",
+            "text": "die Person, die auf die Sicherheit im Wasser achtet"
+          },
+          {
+            "key": "d",
+            "text": "die Wiese, auf der man sich in die Sonne legt"
+          },
+          {
+            "key": "e",
+            "text": "der Teil vom Becken für Leute, die nicht gut schwimmen"
+          },
+          {
+            "key": "f",
+            "text": "der Ring, mit dem man jemandem im Wasser helfen kann"
+          },
+          {
+            "key": "g",
+            "text": "die Regeln, die im Freibad gelten"
+          },
+          {
+            "key": "h",
+            "text": "das Signal des Bademeisters, wenn etwas nicht erlaubt ist"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "in"
+          ],
+          "2": [
+            "in"
+          ],
+          "3": [
+            "in"
+          ],
+          "4": [
+            "auf"
+          ],
+          "5": [
+            "in"
+          ],
+          "6": [
+            "in"
+          ],
+          "7": [
+            "in"
+          ],
+          "8": [
+            "an"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich lege die Sachen {1} das Schließfach. (Wechselpräposition, Akkusativ)\n2. Meine Tasche liegt jetzt {2} dem Schließfach. (Wechselpräposition, Dativ)\n3. Die Kinder bleiben {3} dem Nichtschwimmerbereich. (Wechselpräposition, Dativ)\n4. Wir legen die Decke {4} die Wiese. (Wechselpräposition, Akkusativ)\n5. Er springt {5} das Becken. (Wechselpräposition, Akkusativ)\n6. Wir liegen den ganzen Nachmittag {6} der Sonne. (Wechselpräposition, Dativ)\n7. Sie geht {7} die Umkleide, um sich umzuziehen. (Wechselpräposition, Akkusativ)\n8. Der Bademeister steht {8} dem Becken und beobachtet alles. (Wechselpräposition, Dativ)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze die richtige Präposition.",
+      "instructionsEn": "Fill in the correct preposition.",
+      "title": "Am Eingang und im Wasser"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Schließfach"
+          ],
+          "2": [
+            "Nichtschwimmerbereich"
+          ],
+          "3": [
+            "Bademeister"
+          ],
+          "4": [
+            "Liegewiese"
+          ],
+          "5": [
+            "Sonnencreme"
+          ],
+          "6": [
+            "Kasse"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich brauche eine Münze für das {1}. (der abschließbare Schrank)\n2. Kinder, die nicht gut schwimmen können, bleiben im {2}. (der Bereich für Nichtschwimmer)\n3. Der {3} pfeift, wenn jemand zu nah am Sprungturm ist. (die Person, die aufpasst)\n4. Wir legen unsere Decke auf die {4}. (der Ort zum Sonnen)\n5. Ohne {5} bekommt man schnell einen Sonnenbrand. (der Schutz für die Haut)\n6. An der {6} bezahlt man den Eintritt. (der Ort zum Bezahlen)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "EINTRITTSKARTEN"
+          ],
+          "2": [
+            "KINDER"
+          ],
+          "3": [
+            "KIND"
+          ],
+          "4": [
+            "SCHLIESSFACH"
+          ],
+          "5": [
+            "KOSTET"
+          ],
+          "6": [
+            "WIEDER"
+          ],
+          "7": [
+            "BEREICH"
+          ],
+          "8": [
+            "NEBEN"
+          ],
+          "9": [
+            "HINTER"
+          ],
+          "10": [
+            "DAHINTER"
+          ]
+        },
+        "bank": [
+          "EINTRITTSKARTEN",
+          "KINDER",
+          "KIND",
+          "SCHLIESSFACH",
+          "KOSTET",
+          "WIEDER",
+          "BEREICH",
+          "NEBEN",
+          "HINTER",
+          "DAHINTER",
+          "SPRUNGTURM",
+          "UMKLEIDE",
+          "HANDTUCH",
+          "SONNIG"
+        ],
+        "text": "— Guten Tag, zwei {1}, bitte.\n— Für Erwachsene oder {2}?\n— Ein Erwachsener und ein {3}, er ist neun.\n— Das macht acht Euro. Möchten Sie auch ein {4} für die Sachen?\n— Ja, gern. Wie viel {5} das?\n— Eine Euro-Münze, die Sie am Ende {6} zurückbekommen.\n— Perfekt. Und wo ist der {7} für Nichtschwimmer?\n— Gleich links, direkt {8} dem großen Becken.\n— Vielen Dank. Ist die Liegewiese auch {9} dem Kiosk?\n— Ja, direkt {10}.\n— Super, danke für die Auskunft.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "An der Kasse"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Entschuldigung, ist hier noch frei?"
+              },
+              {
+                "key": "b",
+                "text": "Ich setze mich einfach hin."
+              },
+              {
+                "key": "c",
+                "text": "Sie müssen mir Platz machen."
+              }
+            ],
+            "q": "Du möchtest fragen, ob der Platz neben jemandem frei ist. — You want to ask if the spot next to someone is free.",
+            "why": "Eine kurze, höfliche Frage ist auf einer Liegewiese völlig normal, bevor man sich niedersetzt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Entschuldigung, könnte ich mir vielleicht etwas Sonnencreme leihen?"
+              },
+              {
+                "key": "b",
+                "text": "Geben Sie mir die Sonnencreme."
+              },
+              {
+                "key": "c",
+                "text": "Einfach nehmen, ohne zu fragen."
+              }
+            ],
+            "q": "Du hast keine Sonnencreme dabei und siehst jemanden mit einer Flasche. — You forgot sunscreen and see someone with a bottle.",
+            "why": "Eine höfliche Bitte mit Konjunktiv II ist die passende Form, um Fremde um etwas zu bitten."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ignorieren und weitermachen."
+              },
+              {
+                "key": "b",
+                "text": "Sofort aufhören und schauen, was gemeint ist."
+              },
+              {
+                "key": "c",
+                "text": "Zurückrufen, dass alles in Ordnung ist."
+              }
+            ],
+            "q": "Der Bademeister pfeift in deine Richtung. — The lifeguard whistles in your direction.",
+            "why": "Der Pfiff des Bademeisters bedeutet immer, sofort auf ihn zu achten — Sicherheit geht vor."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Könnten Sie kurz auf meine Sachen aufpassen, während ich schwimmen gehe?"
+              },
+              {
+                "key": "b",
+                "text": "Passen Sie auf meine Sachen auf."
+              },
+              {
+                "key": "c",
+                "text": "Die Sachen einfach so liegen lassen."
+              }
+            ],
+            "q": "Du möchtest kurz ins Wasser und jemanden bitten, auf deine Sachen aufzupassen. — You want a quick swim and ask someone to watch your things.",
+            "why": "Die höfliche Bitte mit Konjunktiv II ist Standard, wenn man Fremde um einen Gefallen bittet."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weiter im Wasser bleiben."
+              },
+              {
+                "key": "b",
+                "text": "Sofort aus dem Wasser gehen und auf Anweisungen des Bademeisters achten."
+              },
+              {
+                "key": "c",
+                "text": "Abwarten und schauen, ob es näher kommt."
+              }
+            ],
+            "q": "Es donnert plötzlich in der Ferne. — There's a sudden rumble of thunder in the distance.",
+            "why": "Bei Gewitter gilt: sofort raus aus dem Wasser — das ist keine Situation zum Abwarten."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kurz freundlich antworten und ein bisschen plaudern."
+              },
+              {
+                "key": "b",
+                "text": "So tun, als hättest du nichts gehört."
+              },
+              {
+                "key": "c",
+                "text": "Sofort aufstehen und weggehen."
+              }
+            ],
+            "q": "Jemand neben dir auf der Wiese spricht dich freundlich an. — Someone next to you on the lawn talks to you in a friendly way.",
+            "why": "Ein kurzes freundliches Gespräch ist im Freibad ganz normal und gehört zum Alltag dort."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Höflich im Freibad"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Frage vor dem Hinsetzen",
+            "tiles": [
+              "Entschuldigung",
+              ",",
+              "ist",
+              "hier",
+              "noch",
+              "frei",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Konjunktiv-II-Bitte, trennbares Verb am Ende",
+            "tiles": [
+              "Könnten",
+              "Sie",
+              "kurz",
+              "auf",
+              "meine",
+              "Sachen",
+              "aufpassen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Wechselpräposition mit Akkusativ, in + das = ins",
+            "tiles": [
+              "Ich",
+              "lege",
+              "die",
+              "Sachen",
+              "ins",
+              "Schließfach"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Wechselpräposition mit Dativ, in + dem = im",
+            "tiles": [
+              "Die",
+              "Kinder",
+              "bleiben",
+              "im",
+              "Nichtschwimmerbereich"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Zeitangabe vorne, Modalverb an Position 2",
+            "tiles": [
+              "Bei",
+              "Gewitter",
+              "muss",
+              "man",
+              "sofort",
+              "raus",
+              "aus",
+              "dem",
+              "Wasser"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Wechselpräposition mit Akkusativ",
+            "tiles": [
+              "Wir",
+              "legen",
+              "die",
+              "Decke",
+              "auf",
+              "die",
+              "Wiese"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze am See bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Kinder bis 14 Jahre zahlen weniger Eintritt als Erwachsene. — Children up to 14 pay less admission than adults.",
+            "why": "Erwachsene 4 €, Kinder 2 €."
+          },
+          {
+            "answer": false,
+            "q": "Man darf ohne Erlaubnis vom Sprungturm springen. — Anyone may jump off the diving tower without permission.",
+            "why": "Springen ist nur mit Erlaubnis des Bademeisters erlaubt."
+          },
+          {
+            "answer": false,
+            "q": "Bei Gewitter bleibt das Becken trotzdem geöffnet. — During a thunderstorm the pool stays open anyway.",
+            "why": "Bei Gewitter wird das Becken sofort geräumt."
+          },
+          {
+            "answer": true,
+            "q": "Für das Schließfach braucht man eine Ein-Euro-Münze. — A one-euro coin is needed for the locker.",
+            "why": "So steht es ausdrücklich in der Badeordnung."
+          },
+          {
+            "answer": false,
+            "q": "Glasflaschen sind überall im Freibad erlaubt. — Glass bottles are allowed everywhere in the pool area.",
+            "why": "Glasflaschen sind auf dem gesamten Gelände nicht erlaubt."
+          },
+          {
+            "answer": false,
+            "q": "Das Freibad hat auch im Winter geöffnet. — The outdoor pool is also open in winter.",
+            "why": "Geöffnet ist nur von Mai bis September."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Freibad Seeblick — Badeordnung**\n>\n> - Eintritt: Erwachsene **4 €**, Kinder bis 14 Jahre **2 €**.\n> - Nichtschwimmer bitte **nur im Nichtschwimmerbereich** (bis 1,20 m\n>   Tiefe).\n> - Springen vom Sprungturm **nur mit Erlaubnis** des Bademeisters.\n> - Bei **Gewitter** wird das Becken sofort geräumt, das Freibad\n>   bleibt geschlossen, bis der Bademeister es freigibt.\n> - Schließfächer: **1-Euro-Münze**, wird am Ende zurückerstattet.\n> - Glasflaschen sind auf dem gesamten Gelände **nicht erlaubt**.\n> - Öffnungszeiten: **Mai bis September, 9–20 Uhr**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Badeordnung lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach nach Hause gehen."
+              },
+              {
+                "key": "b",
+                "text": "Sofort zum Personal gehen und Bescheid geben."
+              },
+              {
+                "key": "c",
+                "text": "Versuchen, das Schließfach selbst aufzubrechen."
+              }
+            ],
+            "q": "Du hast den Schlüssel für das Schließfach verloren. — You've lost the locker key.",
+            "why": "Das Personal kann helfen, das Fach zu öffnen — eigenständig aufzubrechen ist weder erlaubt noch nötig."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Trotzdem noch schnell weiterschwimmen."
+              },
+              {
+                "key": "b",
+                "text": "Sofort aus dem Wasser gehen und Anweisungen folgen."
+              },
+              {
+                "key": "c",
+                "text": "Fragen, ob es wirklich nötig ist."
+              }
+            ],
+            "q": "Es zieht plötzlich ein Gewitter auf und der Bademeister pfeift alle aus dem Wasser. — A storm suddenly rolls in and the lifeguard whistles everyone out of the water.",
+            "why": "Bei Gewitter zählt jede Sekunde — sofortiges Befolgen der Anweisung ist hier die einzig richtige Reaktion."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "In den Schatten gehen und, falls nötig, um Sonnencreme oder ein Kühlgel bitten."
+              },
+              {
+                "key": "b",
+                "text": "Einfach weiter in der Sonne liegen."
+              },
+              {
+                "key": "c",
+                "text": "Nichts tun und hoffen, dass es besser wird."
+              }
+            ],
+            "q": "Du hast einen Sonnenbrand bekommen, weil du die Sonnencreme vergessen hast. — You got sunburnt because you forgot sunscreen.",
+            "why": "Aus der Sonne gehen und sich um die Haut kümmern ist die naheliegende Reaktion."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Freundlich sagen, dass das eure Decke ist, und höflich bitten aufzustehen."
+              },
+              {
+                "key": "b",
+                "text": "Sich einfach danebenlegen."
+              },
+              {
+                "key": "c",
+                "text": "Laut werden."
+              }
+            ],
+            "q": "Als ihr zurückkommt, liegt jemand anderes auf eurer Picknickdecke. — When you come back, someone else is lying on your picnic blanket.",
+            "why": "Ein freundlicher, klarer Hinweis klärt das Missverständnis meist sofort."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kurz erklären und fragen, ob du später zahlen oder es holen kannst."
+              },
+              {
+                "key": "b",
+                "text": "Einfach reingehen, ohne zu bezahlen."
+              },
+              {
+                "key": "c",
+                "text": "Wortlos wieder umdrehen."
+              }
+            ],
+            "q": "An der Kasse merkst du, dass du dein Geld vergessen hast. — At the ticket counter you notice you forgot your money.",
+            "why": "Eine ehrliche, kurze Erklärung ist der einfachste Weg — vielleicht gibt es eine unkomplizierte Lösung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort den Bademeister rufen."
+              },
+              {
+                "key": "b",
+                "text": "Selbst versuchen, das Kind ohne Hilfe zu retten."
+              },
+              {
+                "key": "c",
+                "text": "Nichts tun, es ist nicht dein Kind."
+              }
+            ],
+            "q": "Ein Kind aus einer anderen Familie scheint Hilfe im Nichtschwimmerbereich zu brauchen. — A child from another family seems to need help in the non-swimmer area.",
+            "why": "Der Bademeister ist genau für solche Situationen ausgebildet — sofort rufen ist der richtige erste Schritt."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn etwas nicht nach Plan läuft"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Schlüssel"
+          ],
+          "2": [
+            "Gewitter"
+          ],
+          "3": [
+            "Sonnenbrand"
+          ],
+          "4": [
+            "Picknickdecke"
+          ],
+          "5": [
+            "Geld"
+          ],
+          "6": [
+            "Bademeister"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe den {1} für das Schließfach verloren. (das Metallstück zum Aufschließen)\n2. Bei einem {2} muss das Becken sofort geräumt werden. (Blitz und Donner)\n3. Ohne Sonnencreme bekommt man schnell einen {3}. (rote, schmerzende Haut von der Sonne)\n4. Jemand liegt schon auf unserer {4}. (das Tuch zum Picknicken)\n5. An der Kasse habe ich gemerkt, dass ich mein {5} vergessen hatte. (Bargeld)\n6. Der {6} ist genau für solche Notfälle ausgebildet. (die Person, die im Wasser aufpasst)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "in"
+          ],
+          "2": [
+            "in"
+          ],
+          "3": [
+            "auf"
+          ],
+          "4": [
+            "frei"
+          ],
+          "5": [
+            "aufpassen"
+          ],
+          "6": [
+            "Schließfach"
+          ],
+          "7": [
+            "Nichtschwimmerbereich"
+          ],
+          "8": [
+            "Bademeister"
+          ],
+          "9": [
+            "Sonnencreme"
+          ],
+          "10": [
+            "Gewitter"
+          ],
+          "11": [
+            "Schlüssel"
+          ],
+          "12": [
+            "Picknickdecke"
+          ],
+          "13": [
+            "Geld"
+          ],
+          "14": [
+            "Bademeister"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich lege die Sachen {1} das Schließfach. (into — Akkusativ)\n2. Die Kinder bleiben {2} dem Nichtschwimmerbereich. (in — Dativ)\n3. Wir legen die Decke {3} die Wiese. (onto — Akkusativ)\n4. Entschuldigung, ist hier noch {4}? (free)\n5. Könnten Sie kurz auf meine Sachen {5}? (watch — aufpassen, Infinitiv)\n6. Ich brauche eine Münze für das {6}. (locker)\n7. Kinder bleiben im {7}. (non-swimmer area)\n8. Der {8} pfeift, wenn etwas nicht erlaubt ist. (lifeguard)\n9. Ohne {9} bekommt man schnell einen Sonnenbrand. (sunscreen)\n10. Bei {10} wird das Becken sofort geräumt. (a thunderstorm)\n11. Ich habe den {11} für das Schließfach verloren. (key)\n12. Jemand liegt schon auf unserer {12}. (picnic blanket)\n13. An der Kasse habe ich mein {13} vergessen. (cash)\n14. Der {14} ist für solche Notfälle ausgebildet. (lifeguard)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-45-freibad-a2",
+  "intro": "Ein Nachmittag im Freibad oder am See klingt einfach, hat aber seine eigenen kleinen Regeln: wo man bezahlt, wo das Schließfach ist, wo Nichtschwimmer bleiben müssen, und was der Pfiff des Bademeisters bedeutet. Dazu der Smalltalk, der dazugehört — jemanden fragen, ob der Platz neben ihm frei ist, sich Sonnencreme leihen, kurz auf die Sachen von jemandem aufpassen. Grammatik nach Bedarf: Wechselpräpositionen (in, auf, an + Dativ/Akkusativ), Imperativ bei Regeln, höfliche Bitten. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/45-freibad-a2",
+  "level": "A2",
+  "summary": "Eintritt kaufen, das Schließfach finden, die Badeordnung verstehen und mit anderen auf der Liegewiese ins Gespräch kommen.",
+  "title": "Am See und im Freibad — A2",
+  "topic": "Am See und im Freibad"
+}

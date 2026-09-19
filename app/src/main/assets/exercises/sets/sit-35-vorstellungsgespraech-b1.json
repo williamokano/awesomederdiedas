@@ -1,0 +1,839 @@
+{
+  "category": "Arbeit & Studium",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "papier",
+            "label": "Bewerbungsunterlagen"
+          },
+          {
+            "key": "person",
+            "label": "Über dich"
+          },
+          {
+            "key": "vertrag",
+            "label": "Konditionen"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "papier",
+            "text": "der Lebenslauf"
+          },
+          {
+            "bucket": "person",
+            "text": "die Stärke"
+          },
+          {
+            "bucket": "vertrag",
+            "text": "die Probezeit"
+          },
+          {
+            "bucket": "papier",
+            "text": "das Anschreiben"
+          },
+          {
+            "bucket": "person",
+            "text": "die Berufserfahrung"
+          },
+          {
+            "bucket": "vertrag",
+            "text": "das Bruttogehalt"
+          },
+          {
+            "bucket": "papier",
+            "text": "das Arbeitszeugnis"
+          },
+          {
+            "bucket": "person",
+            "text": "die Weiterbildung"
+          },
+          {
+            "bucket": "vertrag",
+            "text": "die Kündigungsfrist"
+          },
+          {
+            "bucket": "papier",
+            "text": "das Zertifikat"
+          },
+          {
+            "bucket": "person",
+            "text": "die Lücke im Lebenslauf"
+          },
+          {
+            "bucket": "vertrag",
+            "text": "die Gleitzeit"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Begriffe.",
+      "instructionsEn": "Sort the 12 terms.",
+      "title": "Papier, Person oder Vertrag?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Erzählen Sie etwas über sich."
+          },
+          {
+            "key": "2",
+            "text": "Warum bewerben Sie sich gerade bei uns?"
+          },
+          {
+            "key": "3",
+            "text": "Was sind Ihre Stärken?"
+          },
+          {
+            "key": "4",
+            "text": "Und Ihre Schwächen?"
+          },
+          {
+            "key": "5",
+            "text": "Warum sind Sie 2024 ein Jahr nicht berufstätig gewesen?"
+          },
+          {
+            "key": "6",
+            "text": "Wo sehen Sie sich in fünf Jahren?"
+          },
+          {
+            "key": "7",
+            "text": "Welche Gehaltsvorstellung haben Sie?"
+          },
+          {
+            "key": "8",
+            "text": "Haben Sie noch Fragen?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Ich bin gelernte Physiotherapeutin und arbeite seit vier Jahren in einer Reha-Klinik."
+          },
+          {
+            "key": "b",
+            "text": "Weil Sie mit Sportlern arbeiten — das ist genau der Bereich, in dem ich mich spezialisiert habe."
+          },
+          {
+            "key": "c",
+            "text": "Ich arbeite sehr strukturiert und komme mit schwierigen Patienten gut zurecht."
+          },
+          {
+            "key": "d",
+            "text": "Ich sage zu selten Nein. Ich arbeite daran, Aufgaben früher abzugeben."
+          },
+          {
+            "key": "e",
+            "text": "Ich habe ein Jahr Elternzeit genommen und in der Zeit eine Weiterbildung gemacht."
+          },
+          {
+            "key": "f",
+            "text": "Fachlich weiter im selben Bereich, gern mit einem eigenen Schwerpunkt."
+          },
+          {
+            "key": "g",
+            "text": "Auf Basis meiner Erfahrung stelle ich mir 46.000 € brutto im Jahr vor."
+          },
+          {
+            "key": "h",
+            "text": "Ja: Wie sieht die Einarbeitung in den ersten Wochen aus?"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jeder typischen Frage eine gute Antwort zu.",
+      "instructionsEn": "Match each typical question with a good answer.",
+      "title": "Die Frage und eine gute Antwort"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "arbeite"
+          ],
+          "3": [
+            "arbeitete"
+          ],
+          "4": [
+            "bin"
+          ],
+          "5": [
+            "habe"
+          ],
+          "6": [
+            "mache"
+          ],
+          "7": [
+            "werde"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} Physiotherapie gelernt und {2} seit vier Jahren in einer Klinik. (haben / arbeiten)\n2. Von 2019 bis 2022 {3} ich in einer Praxis in Porto. (arbeiten, Präteritum)\n3. 2023 {4} ich nach Deutschland gezogen. (sein — Hilfsverb im Perfekt)\n4. Danach {5} ich ein halbes Jahr die Sprache gelernt. (haben — Hilfsverb)\n5. Zurzeit {6} ich eine Weiterbildung in Sporttherapie. (machen, ich-Form)\n6. Nächstes Jahr {7} ich die Prüfung ablegen. (werden — Futur)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze die Verbform.",
+      "instructionsEn": "Fill in the verb form.",
+      "title": "Den Werdegang erzählen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "weil"
+          ],
+          "2": [
+            "Obwohl"
+          ],
+          "3": [
+            "dass"
+          ],
+          "4": [
+            "weil"
+          ],
+          "5": [
+            "Falls"
+          ],
+          "6": [
+            "obwohl"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich bewerbe mich bei Ihnen, {1} Sie mit Sportlern arbeiten. (Grund)\n2. {2} ich noch keine Leitungserfahrung habe, traue ich mir die Aufgabe zu. (Gegensatz)\n3. Ich glaube, {3} ich gut ins Team passe. (Inhaltssatz)\n4. Ich habe die Weiterbildung gemacht, {4} ich mich spezialisieren wollte. (Grund)\n5. {5} Sie mir die Stelle anbieten, könnte ich zum 1. Juli anfangen. (Bedingung, formeller)\n6. Ich sage zu selten Nein, {6} ich daran arbeite. (Gegensatz, mit Komma und Verb am Ende)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze den passenden Konnektor.",
+      "instructionsEn": "Fill in the fitting connector.",
+      "title": "Begründen und einräumen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "SICH"
+          ],
+          "2": [
+            "WEITERBILDUNG"
+          ],
+          "3": [
+            "WEIL"
+          ],
+          "4": [
+            "STÄRKEN"
+          ],
+          "5": [
+            "SCHWÄCHEN"
+          ],
+          "6": [
+            "ABZUGEBEN"
+          ],
+          "7": [
+            "LEBENSLAUF"
+          ],
+          "8": [
+            "ELTERNZEIT"
+          ],
+          "9": [
+            "GEHALTSVORSTELLUNG"
+          ],
+          "10": [
+            "FRAGEN"
+          ]
+        },
+        "bank": [
+          "SICH",
+          "WEITERBILDUNG",
+          "WEIL",
+          "STÄRKEN",
+          "SCHWÄCHEN",
+          "ABZUGEBEN",
+          "LEBENSLAUF",
+          "ELTERNZEIT",
+          "GEHALTSVORSTELLUNG",
+          "FRAGEN",
+          "PROBEZEIT",
+          "ZEUGNIS",
+          "DASS",
+          "ANTWORTEN"
+        ],
+        "text": "— Schön, dass Sie da sind. Erzählen Sie doch kurz etwas über\n{1}.\n— Gern. Ich bin gelernte Physiotherapeutin und arbeite seit vier\nJahren in einer Reha-Klinik. Zurzeit mache ich eine\n{2} in Sporttherapie.\n— Warum bewerben Sie sich gerade bei uns?\n— {3} Sie mit Sportlern arbeiten — genau darauf habe ich mich\nspezialisiert.\n— Was würden Sie als Ihre {4} bezeichnen?\n— Ich arbeite strukturiert und komme mit schwierigen Patienten gut\nzurecht.\n— Und Ihre {5}?\n— Ich sage zu selten Nein. Ich arbeite daran, Aufgaben früher\n{6}.\n— In Ihrem {7} ist 2024 ein Jahr offen.\n— Ja, ich war in {8} und habe in der Zeit die Weiterbildung\nbegonnen.\n— Welche {9} haben Sie?\n— Auf Basis meiner Erfahrung stelle ich mir 46.000 € brutto vor.\n— Gut. Haben Sie noch {10}?\n— Ja: Wie sieht die Einarbeitung in den ersten Wochen aus?\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Das Gespräch"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Was möchten Sie denn wissen?"
+              },
+              {
+                "key": "b",
+                "text": "Ich bin 1994 in Porto geboren, habe zwei Geschwister und wohne seit 2023 hier."
+              },
+              {
+                "key": "c",
+                "text": "Ich bin gelernte Physiotherapeutin, arbeite seit vier Jahren in der Reha und mache gerade eine Weiterbildung in Sporttherapie."
+              }
+            ],
+            "q": "„Erzählen Sie etwas über sich.“ — Tell us about yourself.",
+            "why": "Beruflich antworten, nicht privat — drei Sätze über Ausbildung, Erfahrung und aktuellen Stand."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weil Sie mit Sportlern arbeiten — genau darauf habe ich mich spezialisiert."
+              },
+              {
+                "key": "b",
+                "text": "Weil ich eine neue Stelle suche."
+              },
+              {
+                "key": "c",
+                "text": "Weil Sie ein bekanntes Unternehmen sind."
+              }
+            ],
+            "q": "„Warum bewerben Sie sich gerade bei uns?“ — Why us?",
+            "why": "Etwas Konkretes über diesen Arbeitgeber, verbunden mit deinem Profil — alles andere passt auf jede Firma."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich bin ein Perfektionist."
+              },
+              {
+                "key": "b",
+                "text": "Ich sage zu selten Nein. Ich arbeite daran, Aufgaben früher abzugeben."
+              },
+              {
+                "key": "c",
+                "text": "Ich habe eigentlich keine."
+              }
+            ],
+            "q": "„Was ist Ihre größte Schwäche?“ — Your biggest weakness?",
+            "why": "Eine echte Schwäche plus das, was du dagegen tust — „Perfektionist“ hören sie zehnmal am Tag."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das war eine private Sache."
+              },
+              {
+                "key": "b",
+                "text": "Da habe ich nichts gemacht."
+              },
+              {
+                "key": "c",
+                "text": "Ich war in Elternzeit und habe in der Zeit die Weiterbildung begonnen."
+              }
+            ],
+            "q": "Im Lebenslauf ist ein Jahr offen. — There's a year missing in your CV.",
+            "why": "Die Lücke benennen und zeigen, was in der Zeit passiert ist — ausweichen macht sie größer, als sie ist."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Was zahlen Sie denn?"
+              },
+              {
+                "key": "b",
+                "text": "Auf Basis meiner Erfahrung stelle ich mir 46.000 € brutto im Jahr vor."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir nicht so wichtig."
+              }
+            ],
+            "q": "Nach der Gehaltsvorstellung gefragt. — Asked about your salary expectation.",
+            "why": "Eine Zahl mit Begründung: zurückzufragen wirkt unvorbereitet, „nicht wichtig“ kostet dich bares Geld."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nein, alles klar."
+              },
+              {
+                "key": "b",
+                "text": "Wie viel Urlaub gibt es?"
+              },
+              {
+                "key": "c",
+                "text": "Ja: Wie sieht die Einarbeitung in den ersten Wochen aus, und wer wäre mein direkter Ansprechpartner?"
+              }
+            ],
+            "q": "„Haben Sie noch Fragen?“ — Do you have any questions?",
+            "why": "Fragen zur Arbeit selbst zeigen Interesse; „keine Fragen“ liest sich als Desinteresse."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Wie antwortest du?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "seit + Dativ, im Deutschen mit Präsens",
+            "tiles": [
+              "Ich",
+              "arbeite",
+              "seit",
+              "vier",
+              "Jahren",
+              "in",
+              "einer",
+              "Reha-Klinik"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "note": "Nach weil steht das Verb am Ende",
+            "tiles": [
+              "Ich",
+              "bewerbe",
+              "mich",
+              "bei",
+              "Ihnen",
+              ",",
+              "weil",
+              "Sie",
+              "mit",
+              "Sportlern",
+              "arbeiten"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "note": "Nebensatz zuerst; zutrauen: zu am Satzende",
+            "tiles": [
+              "Obwohl",
+              "ich",
+              "keine",
+              "Leitungserfahrung",
+              "habe",
+              ",",
+              "traue",
+              "ich",
+              "mir",
+              "die",
+              "Aufgabe",
+              "zu"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "arbeiten an + Infinitivsatz mit zu; bei Trennverben: ab·zu·geben",
+            "tiles": [
+              "Ich",
+              "arbeite",
+              "daran",
+              ",",
+              "Aufgaben",
+              "früher",
+              "abzugeben"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "sich etwas vorstellen: vor am Satzende",
+            "tiles": [
+              "Ich",
+              "stelle",
+              "mir",
+              "46.000",
+              "€",
+              "brutto",
+              "im",
+              "Jahr",
+              "vor"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Konjunktiv II könnte, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "könnte",
+              "zum",
+              "1.",
+              "Juli",
+              "anfangen"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze fürs Gespräch bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Man kann auch mit 30 Stunden pro Woche anfangen. — You can also start with 30 hours a week.",
+            "why": "Teilzeit ist ab 25 Stunden möglich."
+          },
+          {
+            "answer": false,
+            "q": "Das 13. Monatsgehalt gibt es ab dem ersten Monat. — The 13th salary is paid from the first month.",
+            "why": "Erst nach der Probezeit."
+          },
+          {
+            "answer": true,
+            "q": "In der Probezeit gilt eine Kündigungsfrist von zwei Wochen. — During probation the notice period is two weeks.",
+            "why": "„Probezeit 6 Monate, Kündigungsfrist in dieser Zeit 2 Wochen.“"
+          },
+          {
+            "answer": false,
+            "q": "B1-Deutsch reicht für die Bewerbung. — B1 German is enough to apply.",
+            "why": "Verlangt wird mindestens B2."
+          },
+          {
+            "answer": false,
+            "q": "Ein Anschreiben muss man mitschicken. — You have to include a cover letter.",
+            "why": "„Ein Anschreiben ist nicht erforderlich.“"
+          },
+          {
+            "answer": true,
+            "q": "Für Weiterbildungen gibt es jährlich Geld. — There's an annual budget for further training.",
+            "why": "„Weiterbildungsbudget 1.500 € pro Jahr.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Physiotherapeut/in (m/w/d) — Sportzentrum Nord**\n>\n> - **Vollzeit 38,5 Std./Woche**, Teilzeit ab 25 Std. möglich.\n> - **Gehalt:** 42.000–48.000 € brutto/Jahr je nach Erfahrung,\n>   **13. Monatsgehalt** nach der Probezeit.\n> - **Probezeit 6 Monate**, Kündigungsfrist in dieser Zeit\n>   **2 Wochen**.\n> - **30 Tage Urlaub**, **Gleitzeit** zwischen 7 und 20 Uhr.\n> - Voraussetzung: abgeschlossene Ausbildung, **Deutsch\n>   mindestens B2**, Berufserfahrung von Vorteil.\n> - **Weiterbildungsbudget 1.500 € pro Jahr.**\n> - Bewerbung mit **Lebenslauf und Zeugnissen**; ein Anschreiben\n>   ist **nicht** erforderlich.\n> - Rückmeldung **innerhalb von 10 Werktagen**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Stellenanzeige lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Irgendetwas antworten."
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, meinen Sie damit die fachliche Erfahrung oder die Führungserfahrung?"
+              },
+              {
+                "key": "c",
+                "text": "Das habe ich nicht verstanden."
+              }
+            ],
+            "q": "Du verstehst eine Frage nicht ganz. — You don't quite understand a question.",
+            "why": "Mit einer Rückfrage, die zwei Lesarten anbietet, bekommst du Klarheit — und wirkst dabei präzise."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Damit habe ich noch nicht gearbeitet, aber ich habe mich in Ähnliches schnell eingearbeitet — zum Beispiel …"
+              },
+              {
+                "key": "b",
+                "text": "Ja, das kann ich auch."
+              },
+              {
+                "key": "c",
+                "text": "Nein, das kann ich nicht."
+              }
+            ],
+            "q": "Man fragt nach etwas, das du nicht kannst. — You're asked about something you can't do.",
+            "why": "Ehrlich sein und ein Beispiel für schnelles Einarbeiten liefern; eine Behauptung fliegt spätestens im ersten Monat auf."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Darüber möchte ich noch nicht sprechen."
+              },
+              {
+                "key": "b",
+                "text": "Ich nenne gern eine Zahl: 46.000 € brutto. Könnten Sie mir vorher kurz sagen, wie der Aufgabenbereich genau aussieht?"
+              },
+              {
+                "key": "c",
+                "text": "Was ist denn üblich?"
+              }
+            ],
+            "q": "Die Gehaltsfrage kommt sehr früh. — The salary question comes very early.",
+            "why": "Antworten und trotzdem nach dem Aufgabenzuschnitt fragen — das hält beide Seiten im Gespräch."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Diese Frage würde ich lieber nicht beantworten — an der Stelle selbst bin ich sehr interessiert."
+              },
+              {
+                "key": "b",
+                "text": "Das dürfen Sie nicht fragen."
+              },
+              {
+                "key": "c",
+                "text": "Nein, ganz sicher nicht."
+              }
+            ],
+            "q": "Man fragt, ob du Kinder planst. — You're asked whether you plan to have children.",
+            "why": "Die Frage ist unzulässig; freundlich umlenken schützt dich, ohne die Stelle zu verspielen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nichts sagen und zusagen."
+              },
+              {
+                "key": "b",
+                "text": "Das Gespräch abbrechen."
+              },
+              {
+                "key": "c",
+                "text": "Zu Ende führen, ehrlich nachfragen, was dich stört, und dich hinterher zeitnah melden."
+              }
+            ],
+            "q": "Du merkst, dass die Stelle doch nicht passt. — You realise the job doesn't suit you after all.",
+            "why": "Nachfragen räumt Missverständnisse oft aus — und wenn nicht, ist eine saubere Absage die bessere Visitenkarte."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weiter warten."
+              },
+              {
+                "key": "b",
+                "text": "Freundlich nachfassen: Bezug auf das Gespräch, Interesse bekräftigen, nach dem Stand fragen."
+              },
+              {
+                "key": "c",
+                "text": "Absagen."
+              }
+            ],
+            "q": "Nach zwei Wochen kommt keine Rückmeldung. — After two weeks there's no reply.",
+            "why": "Die Anzeige nennt zehn Werktage; danach ist eine kurze, freundliche Nachfrage genau richtig."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Unangenehme Momente"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Lebenslauf"
+          ],
+          "2": [
+            "Elternzeit"
+          ],
+          "3": [
+            "Gehaltsvorstellung"
+          ],
+          "4": [
+            "Probezeit"
+          ],
+          "5": [
+            "Weiterbildung"
+          ],
+          "6": [
+            "abzugeben"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Im {1} ist 2024 ein Jahr offen. (die Übersicht über den Werdegang)\n2. Ich war ein Jahr in {2}. (Zeit zu Hause nach der Geburt)\n3. Meine {3} liegt bei 46.000 € brutto. (was ich verdienen möchte)\n4. Die {4} dauert sechs Monate. (die erste Zeit im neuen Job)\n5. Zurzeit mache ich eine {5}. (fachlicher Kurs neben dem Beruf)\n6. Ich arbeite daran, Aufgaben früher {6}. (delegieren, Infinitiv mit zu)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "seit"
+          ],
+          "2": [
+            "Weiterbildung"
+          ],
+          "3": [
+            "weil"
+          ],
+          "4": [
+            "Stärken"
+          ],
+          "5": [
+            "Schwächen"
+          ],
+          "6": [
+            "abzugeben"
+          ],
+          "7": [
+            "Lebenslauf"
+          ],
+          "8": [
+            "Elternzeit"
+          ],
+          "9": [
+            "Gehaltsvorstellung"
+          ],
+          "10": [
+            "Probezeit"
+          ],
+          "11": [
+            "Obwohl"
+          ],
+          "12": [
+            "könnte"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich arbeite {1} vier Jahren in einer Klinik. (for — since)\n2. Zurzeit mache ich eine {2}. (further training)\n3. Ich bewerbe mich bei Ihnen, {3} Sie mit Sportlern arbeiten. (because)\n4. Was sind Ihre {4}? (strengths)\n5. Und Ihre {5}? (weaknesses)\n6. Ich arbeite daran, Aufgaben früher {6}. (to hand over)\n7. Im {7} ist ein Jahr offen. (CV)\n8. Ich war in {8}. (parental leave)\n9. Meine {9} liegt bei 46.000 €. (salary expectation)\n10. Die {10} dauert sechs Monate. (probation period)\n11. {11} ich keine Leitungserfahrung habe, traue ich mir das zu. (although)\n12. Ich {12} zum 1. Juli anfangen. (could — Konjunktiv II)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-35-vorstellungsgespraech-b1",
+  "intro": "Im deutschen Vorstellungsgespräch kommen fast immer dieselben sechs Fragen: Erzählen Sie etwas über sich. Warum gerade wir? Was sind Ihre Stärken und Schwächen? Was war Ihre größte Herausforderung? Wo sehen Sie sich in fünf Jahren? Und am Ende: Haben Sie noch Fragen? Auf jede gibt es eine gute und eine schlechte Antwort — und die schlechte ist meistens die zu allgemeine. Dazu kommt das, was viele am unangenehmsten finden: eine Lücke im Lebenslauf erklären und über Geld sprechen. Grammatik nach Bedarf: Perfekt und Präteritum im Berufsverlauf, Nebensätze mit weil, obwohl und dass, Konjunktiv II für Höflichkeit. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/35-vorstellungsgespraech-b1",
+  "level": "B1",
+  "summary": "Sich vorstellen, über Stärken und Schwächen reden, Lücken erklären, nach Gehalt fragen und selbst gute Fragen stellen.",
+  "title": "Vorstellungsgespräch — B1",
+  "topic": "Bewerbungsgespräch"
+}

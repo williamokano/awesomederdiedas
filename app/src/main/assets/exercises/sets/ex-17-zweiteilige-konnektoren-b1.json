@@ -1,0 +1,666 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "Konnektor",
+          "Beispielsatz"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Er ist nicht nur klug, sondern auch fleißig."
+                ],
+                "gap": 1
+              }
+            ],
+            "label": "nicht nur … sondern auch"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Sie spricht sowohl Deutsch als auch Englisch."
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "sowohl … als auch"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Wir fahren entweder mit dem Auto oder mit dem Zug."
+                ],
+                "gap": 3
+              }
+            ],
+            "label": "entweder … oder"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Er hat weder Zeit noch Lust."
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "weder … noch"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Das Wetter ist zwar kalt, aber sonnig."
+                ],
+                "gap": 5
+              }
+            ],
+            "label": "zwar … aber"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze den vollständigen Beispielsatz.",
+      "instructionsEn": "Fill in the whole example sentence.",
+      "title": "Die fünf Konnektorenpaare"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "sondern"
+          ],
+          "2": [
+            "als"
+          ],
+          "3": [
+            "oder"
+          ],
+          "4": [
+            "noch"
+          ],
+          "5": [
+            "aber"
+          ],
+          "6": [
+            "als"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Sie ist nicht nur intelligent, {1} auch sehr freundlich.\n2. Wir gehen sowohl ins Kino {2} auch ins Museum.\n3. Du kannst entweder Tee {3} Kaffee bestellen.\n4. Er hat weder Geld {4} Zeit.\n5. Das Essen ist zwar teuer, {5} sehr lecker.\n6. Sowohl meine Mutter {6} auch mein Vater kommen zur Feier.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze den zweiten Teil des Konnektors.",
+      "instructionsEn": "Fill in the second half of the connector.",
+      "title": "Der zweite Teil des Konnektors"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "als"
+          ],
+          "2": [
+            "oder"
+          ],
+          "3": [
+            "noch"
+          ],
+          "4": [
+            "aber"
+          ],
+          "5": [
+            "sondern"
+          ],
+          "6": [
+            "als"
+          ],
+          "7": [
+            "oder"
+          ],
+          "8": [
+            "noch"
+          ]
+        },
+        "bank": [
+          "als",
+          "als",
+          "oder",
+          "oder",
+          "noch",
+          "noch",
+          "aber",
+          "sondern",
+          "und",
+          "dann"
+        ],
+        "text": "Ich möchte sowohl Berge {1} auch das Meer sehen. Ich habe\nentweder Zeit im Sommer {2} im Winter. Weder das Wetter {3} das\nBudget spielen eine große Rolle. Zwar ist die Reise teuer, {4}\nsie lohnt sich. Ich möchte nicht nur reisen, {5} auch neue\nMenschen kennenlernen. Sowohl meine Freunde {6} auch meine\nFamilie unterstützen mich. Entweder buche ich einen Flug {7}\neine Zugfahrkarte. Weder Regen {8} Kälte können mich aufhalten.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Meine Traumreise"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "noch hat er Lust."
+              },
+              {
+                "key": "b",
+                "text": "noch er hat Lust."
+              },
+              {
+                "key": "c",
+                "text": "noch Lust hat er."
+              }
+            ],
+            "q": "Er hat weder Zeit,",
+            "why": "Nach 'noch' (zwei Sätze verbunden): Inversion, Verb vor Subjekt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "aber bleibt sie lange."
+              },
+              {
+                "key": "b",
+                "text": "aber sie bleibt lange."
+              },
+              {
+                "key": "c",
+                "text": "aber lange sie bleibt."
+              }
+            ],
+            "q": "Sie kommt zwar später,",
+            "why": "Nach 'aber' keine Inversion, normale Satzstellung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "sondern bleiben wir zu Hause."
+              },
+              {
+                "key": "b",
+                "text": "sondern zu Hause wir bleiben."
+              },
+              {
+                "key": "c",
+                "text": "sondern wir bleiben zu Hause."
+              }
+            ],
+            "q": "Wir gehen nicht ins Kino,",
+            "why": "Nach 'sondern' keine Inversion."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "oder du bleibst zu Hause."
+              },
+              {
+                "key": "b",
+                "text": "oder bleibst du zu Hause."
+              },
+              {
+                "key": "c",
+                "text": "oder zu Hause bleibst du."
+              }
+            ],
+            "q": "Du kannst kommen,",
+            "why": "Nach 'oder' keine Inversion."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "noch er spielt Tennis."
+              },
+              {
+                "key": "b",
+                "text": "noch spielt er Tennis."
+              },
+              {
+                "key": "c",
+                "text": "noch Tennis er spielt."
+              }
+            ],
+            "q": "Er spielt weder Fußball,",
+            "why": "Nach 'noch' (zwei Sätze verbunden): Inversion, Verb vor Subjekt."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "sondern ist sie auch fleißig."
+              },
+              {
+                "key": "b",
+                "text": "sondern auch fleißig sie ist."
+              },
+              {
+                "key": "c",
+                "text": "sondern sie ist auch fleißig."
+              }
+            ],
+            "q": "Sie ist nicht nur klug,",
+            "why": "Nach 'sondern' keine Inversion."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Fortsetzung (a, b oder c).",
+      "instructionsEn": "Choose the correct continuation (a, b, or c).",
+      "title": "Inversion nach weder…noch"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "als auch"
+              },
+              {
+                "key": "b",
+                "text": "sondern auch"
+              },
+              {
+                "key": "c",
+                "text": "oder"
+              }
+            ],
+            "q": "Die Wohnung ist sowohl günstig, ___ zentral gelegen.",
+            "why": "sowohl … als auch."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "oder"
+              },
+              {
+                "key": "b",
+                "text": "sondern"
+              },
+              {
+                "key": "c",
+                "text": "als auch"
+              }
+            ],
+            "q": "Sie ist nicht nur groß, ___ auch hell.",
+            "why": "nicht nur … sondern auch."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "noch"
+              },
+              {
+                "key": "b",
+                "text": "aber"
+              },
+              {
+                "key": "c",
+                "text": "oder"
+              }
+            ],
+            "q": "Wir können entweder heute besichtigen ___ morgen.",
+            "why": "entweder … oder."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "noch"
+              },
+              {
+                "key": "b",
+                "text": "oder"
+              },
+              {
+                "key": "c",
+                "text": "aber"
+              }
+            ],
+            "q": "Der Vermieter hat weder geantwortet, ___ zurückgerufen.",
+            "why": "weder … noch."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sondern"
+              },
+              {
+                "key": "b",
+                "text": "aber"
+              },
+              {
+                "key": "c",
+                "text": "noch"
+              }
+            ],
+            "q": "Die Miete ist zwar hoch, ___ die Lage ist perfekt.",
+            "why": "zwar … aber."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "oder"
+              },
+              {
+                "key": "b",
+                "text": "noch"
+              },
+              {
+                "key": "c",
+                "text": "als"
+              }
+            ],
+            "q": "Wir haben sowohl das Bad ___ auch die Küche besichtigt.",
+            "why": "sowohl … als auch."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "noch"
+              },
+              {
+                "key": "b",
+                "text": "aber"
+              },
+              {
+                "key": "c",
+                "text": "sondern"
+              }
+            ],
+            "q": "Der Vertrag ist weder unterschrieben, ___ bestätigt.",
+            "why": "weder … noch."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "oder"
+              },
+              {
+                "key": "b",
+                "text": "sondern"
+              },
+              {
+                "key": "c",
+                "text": "als auch"
+              }
+            ],
+            "q": "Am Ende war die Wohnung nicht nur schön, ___ auch bezahlbar.",
+            "why": "nicht nur … sondern auch."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct second half of the connector (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Die Wohnungssuche"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "als"
+          ],
+          "2": [
+            "oder"
+          ],
+          "3": [
+            "noch"
+          ],
+          "4": [
+            "aber"
+          ],
+          "5": [
+            "sondern"
+          ],
+          "6": [
+            "als"
+          ],
+          "7": [
+            "oder"
+          ],
+          "8": [
+            "noch"
+          ],
+          "9": [
+            "aber"
+          ],
+          "10": [
+            "sondern"
+          ]
+        },
+        "bank": [
+          "als",
+          "als",
+          "oder",
+          "oder",
+          "noch",
+          "noch",
+          "aber",
+          "aber",
+          "sondern",
+          "sondern",
+          "und",
+          "dann"
+        ],
+        "text": "Ich möchte sowohl Berge {1} auch das Meer sehen. Ich habe\nentweder Zeit im Sommer {2} im Winter. Weder das Wetter {3} das\nBudget spielen eine große Rolle. Zwar ist die Reise teuer, {4}\nsie lohnt sich. Ich möchte nicht nur reisen, {5} auch neue\nMenschen kennenlernen. Sowohl meine Freunde {6} auch meine\nFamilie unterstützen mich. Entweder buche ich einen Flug {7}\neine Zugfahrkarte. Weder Regen {8} Kälte können mich aufhalten.\nZwar bin ich aufgeregt, {9} auch ein bisschen nervös. Nicht nur\ndie Reise selbst, {10} auch die Vorbereitung macht Spaß.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Two words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Meine Traumreise, Teil 2 (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "als"
+          ],
+          "2": [
+            "noch"
+          ],
+          "3": [
+            "aber"
+          ],
+          "4": [
+            "oder"
+          ],
+          "5": [
+            "sondern"
+          ],
+          "6": [
+            "als"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Sie spricht sowohl Deutsch {1} auch Französisch.\n2. Wir haben weder Zeit {2} Geld.\n3. Er ist zwar müde, {3} zufrieden.\n4. Ich nehme entweder den Bus {4} das Fahrrad.\n5. Das Buch ist nicht nur spannend, {5} auch lehrreich.\n6. Sowohl der Chef {6} auch die Kollegen loben die Arbeit.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze den zweiten Teil des Konnektors.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "als auch"
+              },
+              {
+                "key": "b",
+                "text": "sondern auch"
+              },
+              {
+                "key": "c",
+                "text": "oder"
+              }
+            ],
+            "q": "Sie ist sowohl freundlich, ___ hilfsbereit.",
+            "why": "sowohl … als auch."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "oder"
+              },
+              {
+                "key": "b",
+                "text": "sondern"
+              },
+              {
+                "key": "c",
+                "text": "als auch"
+              }
+            ],
+            "q": "Er ist nicht nur nett, ___ auch lustig.",
+            "why": "nicht nur … sondern auch."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "noch"
+              },
+              {
+                "key": "b",
+                "text": "aber"
+              },
+              {
+                "key": "c",
+                "text": "oder"
+              }
+            ],
+            "q": "Wir fahren entweder mit dem Zug ___ mit dem Auto.",
+            "why": "entweder … oder."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "noch"
+              },
+              {
+                "key": "b",
+                "text": "oder"
+              },
+              {
+                "key": "c",
+                "text": "aber"
+              }
+            ],
+            "q": "Sie hat weder angerufen, ___ geschrieben.",
+            "why": "weder … noch."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sondern"
+              },
+              {
+                "key": "b",
+                "text": "aber"
+              },
+              {
+                "key": "c",
+                "text": "noch"
+              }
+            ],
+            "q": "Das Essen ist zwar einfach, ___ lecker.",
+            "why": "zwar … aber."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "oder"
+              },
+              {
+                "key": "b",
+                "text": "noch"
+              },
+              {
+                "key": "c",
+                "text": "als"
+              }
+            ],
+            "q": "Wir besuchen sowohl das Museum ___ auch den Park.",
+            "why": "sowohl … als auch."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct second half (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-17-zweiteilige-konnektoren-b1",
+  "intro": "Standalone drill set, not tied to any lesson. Five connectors always come in two parts, one before each item being linked: sowohl … als auch (both … and), nicht nur … sondern auch (not only … but also), entweder … oder (either … or), weder … noch (neither … nor), zwar … aber (indeed/it's true … but). Most behave like normal coordinating conjunctions — no change to word order. weder … noch is the exception: when it links two full clauses, the clause after noch gets Verb-Subjekt-Inversion (Er hat weder Zeit, noch hat er Lust), unlike aber/oder/sondern in the same position. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/17-zweiteilige-konnektoren-b1",
+  "level": "B1",
+  "summary": null,
+  "title": "Zweiteilige Konnektoren — B1",
+  "topic": "Zweiteilige Konnektoren"
+}

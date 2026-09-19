@@ -1,0 +1,436 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "exam",
+      "body": {
+        "answers": {
+          "1": "E",
+          "2": "A",
+          "3": "C",
+          "4": "B",
+          "5": "D"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Sie möchten informell Deutsch sprechen und neue Leute kennenlernen — kostenlos."
+          },
+          {
+            "key": "2",
+            "text": "Sie suchen eine Wohnung oder ein Zimmer zur Miete."
+          },
+          {
+            "key": "3",
+            "text": "Sie müssen am nächsten Montagnachmittag zum Arzt."
+          },
+          {
+            "key": "4",
+            "text": "Sie möchten abends an einem offiziellen Deutschkurs teilnehmen."
+          },
+          {
+            "key": "5",
+            "text": "Sie möchten ein gebrauchtes Fahrrad kaufen."
+          }
+        ],
+        "right": [
+          {
+            "key": "A",
+            "text": "A — ZIMMER ZU VERMIETEN: 18 m², ruhig, hell — 380 € warm"
+          },
+          {
+            "key": "B",
+            "text": "B — DEUTSCHKURS A1: Mo/Mi 18–20 Uhr, VHS Mitte — 120 €"
+          },
+          {
+            "key": "C",
+            "text": "C — ARZTPRAXIS DR. WEBER: Mo/Di/Do 8–12 & 14–18 Uhr"
+          },
+          {
+            "key": "D",
+            "text": "D — FAHRRAD ZU VERKAUFEN: Damenfahrrad blau — 80 €"
+          },
+          {
+            "key": "E",
+            "text": "E — SPRACHCAFÉ: Do 16 Uhr, Café Central — kostenlos"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "exam-L4",
+      "instructions": "Welche Anzeige (A–E) passt zu welcher Situation (1–5)? Ordnen Sie zu.",
+      "instructionsEn": "Which notice (A–E) matches which situation (1–5)? Match them.",
+      "title": "Aufgabe 4 — Anzeigen und Aushänge"
+    },
+    {
+      "block": "exam",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Aus Hamburg"
+              },
+              {
+                "key": "b",
+                "text": "Aus Mexiko"
+              },
+              {
+                "key": "c",
+                "text": "Aus Spanien"
+              }
+            ],
+            "q": "Woher kommt Carlos?",
+            "why": "Carlos kommt aus Mexiko."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Lehrer"
+              },
+              {
+                "key": "b",
+                "text": "Arzt"
+              },
+              {
+                "key": "c",
+                "text": "Koch"
+              }
+            ],
+            "q": "Was ist Carlos von Beruf?",
+            "why": "Carlos arbeitet als Koch in einem Restaurant."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Am Montag und Dienstag"
+              },
+              {
+                "key": "b",
+                "text": "Am Mittwoch und Donnerstag"
+              },
+              {
+                "key": "c",
+                "text": "Am Samstag und Sonntag"
+              }
+            ],
+            "q": "Wann hat Carlos frei?",
+            "why": "Am Montag und Dienstag hat Carlos frei."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Montags um 11 Uhr"
+              },
+              {
+                "key": "b",
+                "text": "Montags um 9 Uhr"
+              },
+              {
+                "key": "c",
+                "text": "Dienstags um 9 Uhr"
+              }
+            ],
+            "q": "Wann beginnt sein Deutschkurs?",
+            "why": "Sein Kurs ist montags um 9 Uhr."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "In Hamburg"
+              },
+              {
+                "key": "b",
+                "text": "In Deutschland"
+              },
+              {
+                "key": "c",
+                "text": "In Mexiko"
+              }
+            ],
+            "q": "Wo sind Carlos' Frau und Kinder jetzt?",
+            "why": "Carlos' Frau und Kinder sind noch in Mexiko."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "exam-L5",
+      "instructions": "Lesen Sie den Text und wählen Sie die richtige Antwort (a, b oder c).\n\n> **Carlos Fernández — Vorstellung**\n> Hallo, mein Name ist Carlos Fernández. Ich komme aus Mexiko, aus Guadalajara. Ich bin verheiratet und habe zwei Kinder. Ich arbeite als Koch in einem Restaurant in Hamburg. Ich habe am Montag und am Dienstag frei. Montags um 9 Uhr habe ich meinen Deutschkurs. Meine Frau und meine Kinder sind noch in Mexiko.\n",
+      "instructionsEn": "Read the text and choose the correct answer (a, b, or c).\n\n> **Carlos Fernández — Vorstellung**\n> Hello, my name is Carlos Fernández. I come from Mexico, from Guadalajara. I am married and have two children. I work as a cook in a restaurant in Hamburg. I have Mondays and Tuesdays off. On Mondays at 9 o'clock I have my German course. My wife and my children are still in Mexico.\n",
+      "title": "Aufgabe 5 — Kurze Texte: Carlos Fernández"
+    },
+    {
+      "block": "exam",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Yuki Tanaka kommt aus Korea.",
+            "why": "Yuki kommt aus Japan (Geburtsort: Osaka, Japan)."
+          },
+          {
+            "answer": true,
+            "q": "Sie wohnt in Berlin.",
+            "why": "Wohnort: Berlin. ✓"
+          },
+          {
+            "answer": true,
+            "q": "Sie ist am 14. März 1995 geboren.",
+            "why": "Geburtsdatum: 14. März 1995. ✓"
+          },
+          {
+            "answer": false,
+            "q": "Ihr Kurs beginnt im Oktober.",
+            "why": "Der Kurs beginnt am 5. September — nicht im Oktober."
+          },
+          {
+            "answer": true,
+            "q": "Ihre E-Mail-Adresse ist yuki.tanaka@mail.de.",
+            "why": "E-Mail: yuki.tanaka@mail.de. ✓"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "exam-L6",
+      "instructions": "Lesen Sie das Anmeldeformular und entscheiden Sie: richtig (R) oder falsch (F)?\n\n> **Sprachschule Berlin-Mitte — Anmeldeformular**\n> Vorname: Yuki\n> Nachname: Tanaka\n> Geburtsdatum: 14. März 1995\n> Geburtsort: Osaka, Japan\n> Wohnort: Berlin, Friedrichstraße 22\n> E-Mail: yuki.tanaka@mail.de\n> Kursbeginn: 5. September 2026\n> Kurs: Deutsch A1.2 (Vormittag)\n",
+      "instructionsEn": "Read the registration form and decide: true (R) or false (F)?\n\n> **Sprachschule Berlin-Mitte — Anmeldeformular**\n> First name: Yuki\n> Last name: Tanaka\n> Date of birth: 14 March 1995\n> Place of birth: Osaka, Japan\n> Place of residence: Berlin, Friedrichstraße 22\n> E-mail: yuki.tanaka@mail.de\n> Course start: 5 September 2026\n> Course: German A1.2 (morning)\n",
+      "title": "Aufgabe 6 — Formular lesen: Yuki Tanaka"
+    },
+    {
+      "block": "exam",
+      "body": {
+        "answers": {
+          "1": "Selin",
+          "2": "Lisa",
+          "3": "Marco"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Wer hat gerade ein Baby bekommen?"
+          },
+          {
+            "key": "2",
+            "text": "Wer kann heute nicht zum Sport kommen?"
+          },
+          {
+            "key": "3",
+            "text": "Wer möchte am Samstag einkaufen gehen?"
+          }
+        ],
+        "right": [
+          {
+            "key": "Lisa",
+            "text": "Lisa"
+          },
+          {
+            "key": "Marco",
+            "text": "Marco"
+          },
+          {
+            "key": "Selin",
+            "text": "Selin"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "exam-L7",
+      "instructions": "Lesen Sie die drei Nachrichten. Welche Nachricht passt zu welcher Frage? Ordnen Sie zu (Lisa · Marco · Selin).\n\n> **Lisa (17:42):** Hallo Anna! Ich kann heute leider nicht zum Sport kommen — ich habe Kopfschmerzen und bleibe zu Hause. Bis morgen!\n>\n> **Marco (18:05):** Hi Anna, ich gehe am Samstag gern einkaufen. Hast du Zeit? Wir können zusammen in die Stadt fahren. Treffen wir uns um 10 Uhr am Bahnhof?\n>\n> **Selin (19:20):** Liebe Anna, ich habe eine tolle Neuigkeit: Mein Bruder hat letzte Woche ein Baby bekommen! Es heißt Mia. Kommst du am Sonntag zu Besuch?\n",
+      "instructionsEn": "Read the three messages. Which message matches which question? Match them (Lisa · Marco · Selin).\n\n> **Lisa (17:42):** Hi Anna! I can't come to sports today — I have a headache and I'm staying home. See you tomorrow!\n>\n> **Marco (18:05):** Hi Anna, I'd like to go shopping on Saturday. Do you have time? We could go to the city together. Shall we meet at 10 at the station?\n>\n> **Selin (19:20):** Dear Anna, I have great news: my brother had a baby last week! Her name is Mia. Can you come visit on Sunday?\n",
+      "title": "Aufgabe 7 — Nachrichten lesen"
+    },
+    {
+      "block": "exam",
+      "body": {
+        "answers": {
+          "1": [
+            "bin"
+          ],
+          "2": [
+            "haben"
+          ],
+          "3": [
+            "zum"
+          ],
+          "4": [
+            "hat"
+          ],
+          "5": [
+            "gekauft"
+          ],
+          "6": [
+            "Welches"
+          ],
+          "7": [
+            "mit"
+          ],
+          "8": [
+            "bitte"
+          ],
+          "9": [
+            "mir"
+          ],
+          "10": [
+            "stehst"
+          ],
+          "11": [
+            "bin"
+          ],
+          "12": [
+            "gewesen"
+          ]
+        },
+        "text": "1. Ich {1} aus Brasilien.\n2. Wir {2} zwei Kinder.\n3. Was möchtest du {3} Mittagessen essen?\n4. Er {4} ein neues Fahrrad {5}.\n5. {6} Programm läuft jetzt?\n6. Ich fahre {7} dem Bus zur Arbeit.\n7. Kannst du mir {8} helfen?\n8. Die Schuhe passen {9} nicht.\n9. Wann {10} du morgens auf?\n10. Ich {11} gestern sehr müde {12}.\n",
+        "type": "gap-text"
+      },
+      "id": "exam-B12",
+      "instructions": "Ergänzen Sie jede Lücke mit dem richtigen Wort. Lücken 4/5 und 11/12 brauchen je zwei Wörter (Perfekt).",
+      "instructionsEn": "Fill each gap with the correct word. Gaps 4/5 and 11/12 each need two words (Perfekt).",
+      "title": "Aufgabe 12 — Lückentext: Grammatik gemischt"
+    },
+    {
+      "block": "exam",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Trennverb auf·stehen: auf an letzter Stelle",
+            "tiles": [
+              "Ich",
+              "stehe",
+              "um",
+              "sieben",
+              "Uhr",
+              "auf"
+            ]
+          },
+          {
+            "alt": [
+              [
+                0,
+                1,
+                3,
+                4,
+                2,
+                5,
+                6
+              ]
+            ],
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Modalverbsatz: Infinitiv am Ende; bitte auch nach Namen möglich",
+            "tiles": [
+              "Können",
+              "Sie",
+              "bitte",
+              "Ihren",
+              "Namen",
+              "buchstabieren",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt: hat … gekauft",
+            "tiles": [
+              "Meine",
+              "Mutter",
+              "hat",
+              "gestern",
+              "Obst",
+              "gekauft"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Perfekt mit sein; abgefahren am Ende",
+            "tiles": [
+              "Der",
+              "Zug",
+              "ist",
+              "um",
+              "14:32",
+              "Uhr",
+              "abgefahren"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Reflexiv: freue mich; Akkusativ: auf den Sommer",
+            "tiles": [
+              "Ich",
+              "freue",
+              "mich",
+              "sehr",
+              "auf",
+              "den",
+              "Sommer"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "exam-B15",
+      "instructions": "Bringen Sie die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Aufgabe 15 — Satzbau"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "a1-14",
+  "intro": "Vollständiger Probeexamen im Format Start Deutsch 1 / telc A1. Führen Sie den ganzen Test in einer Sitzung durch: Hören 20 Min. · Lesen 25 Min. · Schreiben 20 Min. · Sprechen 15 Min. Schauen Sie erst nach dem Abschluss aller Teile in solutions.md.\n",
+  "lesson": "A1/14",
+  "level": "A1",
+  "summary": null,
+  "title": "A1 · Lektion 14 — Prüfungstraining A1 (Mock Exam)",
+  "topic": null
+}

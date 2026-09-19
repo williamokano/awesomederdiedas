@@ -1,0 +1,832 @@
+{
+  "category": "Soziales",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "erkennen",
+            "label": "Das Problem erkennen"
+          },
+          {
+            "key": "aussprechen",
+            "label": "Sich aussprechen"
+          },
+          {
+            "key": "versoehnen",
+            "label": "Sich versöhnen"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "erkennen",
+            "text": "merken, dass etwas nicht stimmt"
+          },
+          {
+            "bucket": "erkennen",
+            "text": "über das Missverständnis nachdenken"
+          },
+          {
+            "bucket": "erkennen",
+            "text": "die eigene Reaktion überdenken"
+          },
+          {
+            "bucket": "erkennen",
+            "text": "den Mut zum Gespräch fassen"
+          },
+          {
+            "bucket": "aussprechen",
+            "text": "den anderen um ein Gespräch bitten"
+          },
+          {
+            "bucket": "aussprechen",
+            "text": "die eigene Sicht erklären"
+          },
+          {
+            "bucket": "aussprechen",
+            "text": "aufmerksam zuhören"
+          },
+          {
+            "bucket": "aussprechen",
+            "text": "das Missverständnis aufklären"
+          },
+          {
+            "bucket": "versoehnen",
+            "text": "sich entschuldigen"
+          },
+          {
+            "bucket": "versoehnen",
+            "text": "um Verzeihung bitten"
+          },
+          {
+            "bucket": "versoehnen",
+            "text": "es wieder gutmachen"
+          },
+          {
+            "bucket": "versoehnen",
+            "text": "sich wieder vertragen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Das Problem erkennen, sich aussprechen oder sich versöhnen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "sich entschuldigen"
+          },
+          {
+            "key": "2",
+            "text": "das Missverständnis"
+          },
+          {
+            "key": "3",
+            "text": "jemanden verletzen"
+          },
+          {
+            "key": "4",
+            "text": "es wieder gutmachen"
+          },
+          {
+            "key": "5",
+            "text": "unabsichtlich"
+          },
+          {
+            "key": "6",
+            "text": "verzeihen"
+          },
+          {
+            "key": "7",
+            "text": "sich aussprechen"
+          },
+          {
+            "key": "8",
+            "text": "die Versöhnung"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "um Verzeihung bitten"
+          },
+          {
+            "key": "b",
+            "text": "wenn zwei Personen etwas unterschiedlich verstehen"
+          },
+          {
+            "key": "c",
+            "text": "jemandem emotional wehtun"
+          },
+          {
+            "key": "d",
+            "text": "einen Fehler ausgleichen"
+          },
+          {
+            "key": "e",
+            "text": "nicht mit Absicht, aus Versehen"
+          },
+          {
+            "key": "f",
+            "text": "jemandem einen Fehler nicht mehr übelnehmen"
+          },
+          {
+            "key": "g",
+            "text": "offen über ein Problem reden"
+          },
+          {
+            "key": "h",
+            "text": "das Wiedergutmachen einer Freundschaft nach einem Streit"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Kannst"
+          ],
+          "5": [
+            "gibt"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Kann"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} mich bei dir entschuldigen. (Modalverb, ich-Form)\n2. {2} wir uns kurz aussprechen? (können, wir-Form)\n3. Ich {3} dich nicht verletzen wollen. (haben, Perfekt)\n4. {4} du mir verzeihen? (können, du-Form)\n5. Falls es ein Missverständnis {5}, sollten wir darüber reden. (geben, Präsens)\n6. Unsere Freundschaft {6} sich bald wieder normalisieren. (werden, Futur I)\n7. Wir {7} schon darüber gesprochen. (haben, Perfekt)\n8. {8} ich das wieder gutmachen? (können, ich-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Das Gespräch planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "entschuldige"
+          ],
+          "2": [
+            "Missverständnis"
+          ],
+          "3": [
+            "verletzen"
+          ],
+          "4": [
+            "unabsichtlich"
+          ],
+          "5": [
+            "verzeihen"
+          ],
+          "6": [
+            "Versöhnung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} mich, dass ich so reagiert habe. (um Verzeihung bitten, ich-Form)\n2. Das war einfach ein dummes {2} zwischen uns. (wenn zwei Personen etwas unterschiedlich verstehen)\n3. Ich wollte dich auf keinen Fall {3}. (jemandem emotional wehtun, Infinitiv)\n4. Das habe ich wirklich ganz {4} gesagt. (nicht mit Absicht)\n5. Kannst du mir diesen Fehler {5}? (jemandem einen Fehler nicht mehr übelnehmen)\n6. Nach dem Gespräch war die {6} endlich perfekt. (das Wiedergutmachen einer Freundschaft)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "ENTSCHULDIGEN"
+          ],
+          "2": [
+            "MISSVERSTÄNDNIS"
+          ],
+          "3": [
+            "VERLETZT"
+          ],
+          "4": [
+            "UNABSICHTLICH"
+          ],
+          "5": [
+            "VERLETZEN"
+          ],
+          "6": [
+            "AUSGESPROCHEN"
+          ],
+          "7": [
+            "VERZEIHEN"
+          ],
+          "8": [
+            "VERTRAGEN"
+          ],
+          "9": [
+            "FEIERN"
+          ],
+          "10": [
+            "VERSÖHNUNG"
+          ]
+        },
+        "bank": [
+          "ENTSCHULDIGEN",
+          "MISSVERSTÄNDNIS",
+          "VERLETZT",
+          "UNABSICHTLICH",
+          "VERLETZEN",
+          "AUSGESPROCHEN",
+          "VERZEIHEN",
+          "VERTRAGEN",
+          "FEIERN",
+          "VERSÖHNUNG",
+          "STREIT",
+          "ÄRGER",
+          "GESPRÄCH",
+          "FREUNDSCHAFT"
+        ],
+        "text": "— Hey, hast du kurz Zeit? Ich möchte mich bei dir {1}.\n— Klar, was ist denn los?\n— Ich glaube, da gab es ein {2} zwischen uns wegen der\nNachricht neulich.\n— Ehrlich gesagt, ich war schon ziemlich {3}, als ich das\ngelesen habe.\n— Das tut mir leid, das war überhaupt nicht so gemeint, das\nkam total {4} raus.\n— Ach so, das wusste ich gar nicht.\n— Genau, ich wollte dich auf keinen Fall {5}.\n— Okay, das erklärt einiges. Danke, dass du dich {6} hast.\n— Kannst du mir das {7}?\n— Klar, kein Problem, das ist jetzt geklärt.\n— Puh, ich bin so erleichtert, dass wir uns wieder {8}\nhaben.\n— Ich auch! Lass uns das mit einem Kaffee {9}.\n— Gute Idee, so ein Gespräch ist der beste Weg zur {10}.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Sich entschuldigen und aussprechen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Entschuldigungen interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich möchte mich bei dir entschuldigen."
+              },
+              {
+                "key": "c",
+                "text": "Ich habe sowieso nichts falsch gemacht."
+              }
+            ],
+            "q": "Du möchtest dich bei einem Freund entschuldigen. — You want to apologize to a friend.",
+            "why": "Eine direkte, ehrliche Entschuldigung ist der beste Einstieg ins Gespräch."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Missverständnisse gibt es bei mir nie."
+              },
+              {
+                "key": "b",
+                "text": "Das ist doch egal, warum wir uns gestritten haben."
+              },
+              {
+                "key": "c",
+                "text": "Ich glaube, da gab es ein Missverständnis zwischen uns."
+              }
+            ],
+            "q": "Du vermutest, dass ein Missverständnis der Grund für den Streit war. — You suspect a misunderstanding caused the argument.",
+            "why": "Diese Vermutung offen anzusprechen öffnet den Weg zur Klärung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das tut mir leid, das war überhaupt nicht so gemeint."
+              },
+              {
+                "key": "b",
+                "text": "Das ist doch nicht so schlimm, stell dich nicht an."
+              },
+              {
+                "key": "c",
+                "text": "Gefühle interessieren mich nicht."
+              }
+            ],
+            "q": "Dein Freund war verletzt von einer Nachricht. — Your friend was hurt by a message.",
+            "why": "Mitgefühl und eine klare Erklärung nehmen dem Missverständnis die Schärfe."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Absicht oder nicht, ist doch egal."
+              },
+              {
+                "key": "b",
+                "text": "Das kam total unabsichtlich raus, ich wollte dich nicht verletzen."
+              },
+              {
+                "key": "c",
+                "text": "Ich erkläre mich sowieso nie."
+              }
+            ],
+            "q": "Du möchtest erklären, dass etwas unabsichtlich passiert ist. — You want to explain that something happened unintentionally.",
+            "why": "Eine klare Erklärung der Absichtslosigkeit hilft, das Missverständnis aufzuklären."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Verzeihen interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Du musst mir sowieso nichts verzeihen."
+              },
+              {
+                "key": "c",
+                "text": "Kannst du mir das verzeihen?"
+              }
+            ],
+            "q": "Du möchtest um Verzeihung bitten. — You want to ask for forgiveness.",
+            "why": "Eine direkte Bitte um Verzeihung ist der ehrlichste Weg zur Versöhnung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich bin so erleichtert, dass wir uns wieder vertragen haben."
+              },
+              {
+                "key": "b",
+                "text": "Das war doch nicht der Rede wert."
+              },
+              {
+                "key": "c",
+                "text": "Versöhnung interessiert mich nicht."
+              }
+            ],
+            "q": "Ihr habt euch ausgesprochen und wieder vertragen. — You've talked it out and made up.",
+            "why": "Erleichterung über die gelungene Versöhnung ist eine natürliche und passende Reaktion."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Entschuldigen und Aufklären"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "höfliche Aussage, reflexives Verb",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "mich",
+              "bei",
+              "dir",
+              "entschuldigen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Hauptsatz mit dass-freiem Nebensatz",
+            "tiles": [
+              "Ich",
+              "glaube",
+              ",",
+              "da",
+              "gab",
+              "es",
+              "ein",
+              "Missverständnis"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "feste Wendung mit tun",
+            "tiles": [
+              "Das",
+              "tut",
+              "mir",
+              "leid",
+              ",",
+              "das",
+              "war",
+              "nicht",
+              "so",
+              "gemeint"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Nebensatz mit falls, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "es",
+              "ein",
+              "Missverständnis",
+              "gibt",
+              ",",
+              "sollten",
+              "wir",
+              "darüber",
+              "reden"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Frage mit Modalverb, Infinitiv am Ende",
+            "tiles": [
+              "Kannst",
+              "du",
+              "mir",
+              "das",
+              "verzeihen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Wir",
+              "haben",
+              "uns",
+              "wieder",
+              "vertragen"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zur Versöhnung bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Eine ehrliche Entschuldigung nennt konkret, was falsch war. — An honest apology names specifically what went wrong.",
+            "why": "So steht es ausdrücklich in den Infos zum Entschuldigen."
+          },
+          {
+            "answer": false,
+            "q": "Man sollte sich am besten mitten im lautesten Streit entschuldigen. — The best time to apologize is right in the middle of the loudest argument.",
+            "why": "Am besten so bald wie möglich, aber gerade nicht mitten im Streit."
+          },
+          {
+            "answer": true,
+            "q": "Zuhören ist genauso wichtig wie das eigene Erklären. — Listening is just as important as explaining your own side.",
+            "why": "„Zuhören: genauso wichtig wie das eigene Erklären.“"
+          },
+          {
+            "answer": false,
+            "q": "Eine kleine Geste zur Wiedergutmachung ist überflüssig und wirkt unnötig. — A small gesture of amends is superfluous and unnecessary.",
+            "why": "Sie zeigt gerade, dass die Entschuldigung ernst gemeint ist."
+          },
+          {
+            "answer": true,
+            "q": "Verzeihen braucht manchmal Zeit, das sollte man respektieren. — Forgiving sometimes takes time, and that should be respected.",
+            "why": "„Verzeihen: braucht manchmal Zeit, das sollte man respektieren.“"
+          },
+          {
+            "answer": false,
+            "q": "Nach einer Versöhnung sollte man das Thema regelmäßig wieder aufwärmen. — After making up, the topic should be regularly brought up again.",
+            "why": "Es sollte gerade nicht wieder aufgewärmt werden, wenn es geklärt ist."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Sich entschuldigen**\n>\n> - **Ehrliche Entschuldigung:** nennt konkret, **was falsch\n>   war**, statt allgemein zu bleiben.\n> - **Zeitpunkt:** am besten **so bald wie möglich**, aber\n>   nicht mitten im Streit.\n> - **Zuhören:** genauso wichtig wie das eigene **Erklären**.\n> - **Wiedergutmachung:** eine kleine Geste zeigt, dass es\n>   **ernst gemeint** ist.\n> - **Verzeihen:** braucht manchmal **Zeit**, das sollte man\n>   respektieren.\n> - **Nach der Versöhnung:** das Thema **nicht wieder\n>   aufwärmen**, wenn es geklärt ist.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zum Entschuldigen lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort beleidigt reagieren und das Gespräch abbrechen."
+              },
+              {
+                "key": "b",
+                "text": "Geduldig bleiben und ihm Zeit zum Nachdenken geben."
+              },
+              {
+                "key": "c",
+                "text": "Die Entschuldigung wütend zurückziehen."
+              }
+            ],
+            "q": "Der Freund reagiert zunächst kühl auf die Entschuldigung. — The friend initially reacts coolly to the apology.",
+            "why": "Geduld und Zeit geben den Raum, den eine ehrliche Verarbeitung manchmal braucht."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das neue Thema einfach ignorieren."
+              },
+              {
+                "key": "b",
+                "text": "Sofort das Gespräch beenden."
+              },
+              {
+                "key": "c",
+                "text": "Ruhig auch dieses Thema ansprechen, statt es zu ignorieren."
+              }
+            ],
+            "q": "Beim Gespräch kommt ein weiteres, bisher unausgesprochenes Problem zur Sprache. — During the talk, another unspoken issue comes up.",
+            "why": "Ein offenes Ansprechen aller Themen führt zu einer echten Klärung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Entschuldigung noch einmal klarer und konkreter wiederholen."
+              },
+              {
+                "key": "b",
+                "text": "Einfach aufgeben und nichts mehr sagen."
+              },
+              {
+                "key": "c",
+                "text": "Dem anderen die Schuld geben, dass er es falsch verstanden hat."
+              }
+            ],
+            "q": "Man merkt, dass die eigene Entschuldigung selbst missverständlich war. — You notice your own apology was itself confusing.",
+            "why": "Eine klarere Wiederholung stellt sicher, dass die Botschaft wirklich ankommt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Trotzdem sofort auf ein Gespräch bestehen."
+              },
+              {
+                "key": "b",
+                "text": "Den Wunsch respektieren und zu einem späteren Zeitpunkt fragen."
+              },
+              {
+                "key": "c",
+                "text": "Beleidigt sein und das Thema komplett fallen lassen."
+              }
+            ],
+            "q": "Der andere möchte im Moment gar nicht reden. — The other person doesn't want to talk right now.",
+            "why": "Den Wunsch nach Abstand zu respektieren zeigt echten Respekt für den anderen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach davon ausgehen, dass alles gut ist."
+              },
+              {
+                "key": "b",
+                "text": "Das Thema nie wieder ansprechen, aus Angst vor der Antwort."
+              },
+              {
+                "key": "c",
+                "text": "Freundlich nachfragen, ob wirklich alles geklärt ist."
+              }
+            ],
+            "q": "Man ist sich unsicher, ob die Entschuldigung überhaupt angenommen wurde. — You're unsure whether the apology was even accepted.",
+            "why": "Eine freundliche Nachfrage schafft Klarheit, statt im Ungewissen zu bleiben."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ruhig daran erinnern, dass man sich doch schon ausgesprochen hat."
+              },
+              {
+                "key": "b",
+                "text": "Sofort wieder wütend werden."
+              },
+              {
+                "key": "c",
+                "text": "Das alte Thema kommentarlos weiter diskutieren, ohne es anzusprechen."
+              }
+            ],
+            "q": "Nach der Versöhnung wird das alte Thema doch wieder aufgewärmt. — After reconciling, the old topic is brought up again anyway.",
+            "why": "Eine ruhige Erinnerung an die bereits erfolgte Klärung verhindert einen neuen Streit."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn beim Klären des Missverständnisses etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "reagiert"
+          ],
+          "2": [
+            "gekommen"
+          ],
+          "3": [
+            "missverständlich"
+          ],
+          "4": [
+            "reden"
+          ],
+          "5": [
+            "nachgefragt"
+          ],
+          "6": [
+            "aufgewärmt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Freund hat zunächst kühl {1}. (Partizip)\n2. Ein weiteres Problem ist zur Sprache {2}. (Partizip)\n3. Die Entschuldigung war selbst {3}. (verwirrend formuliert)\n4. Der andere wollte im Moment nicht {4}. (Infinitiv)\n5. Ich habe freundlich {5}, ob alles geklärt ist. (Partizip)\n6. Das alte Thema wurde doch wieder {6}. (Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Könnten"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "entschuldige"
+          ],
+          "5": [
+            "Missverständnis"
+          ],
+          "6": [
+            "verletzen"
+          ],
+          "7": [
+            "unabsichtlich"
+          ],
+          "8": [
+            "verzeihen"
+          ],
+          "9": [
+            "Versöhnung"
+          ],
+          "10": [
+            "reagiert"
+          ],
+          "11": [
+            "gekommen"
+          ],
+          "12": [
+            "missverständlich"
+          ],
+          "13": [
+            "nachgefragt"
+          ],
+          "14": [
+            "aufgewärmt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} mich bei dir entschuldigen. (must)\n2. {2} wir uns kurz aussprechen? (could — können)\n3. Ich {3} dich nicht verletzen wollen. (have — Perfekt)\n4. Ich {4} mich, dass ich so reagiert habe. (apologize — ich-Form)\n5. Das war ein dummes {5} zwischen uns. (misunderstanding)\n6. Ich wollte dich nicht {6}. (hurt — Infinitiv)\n7. Das habe ich ganz {7} gesagt. (unintentionally)\n8. Kannst du mir das {8}? (forgive — Infinitiv)\n9. Nach dem Gespräch war die {9} perfekt. (reconciliation)\n10. Der Freund hat zunächst kühl {10}. (reacted — Partizip)\n11. Ein weiteres Problem ist zur Sprache {11}. (come up — Partizip)\n12. Die Entschuldigung war selbst {12}. (confusing)\n13. Ich habe freundlich {13}, ob alles geklärt ist. (asked — Partizip)\n14. Das alte Thema wurde doch wieder {14}. (brought up — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-77-missverstaendnis-klaeren-a2",
+  "intro": "Ein dummes Missverständnis kann schnell zu Ärger zwischen Freunden führen — meist hilft nur ein ehrliches Gespräch: sich entschuldigen, erklären, wie es wirklich gemeint war, und um Verzeihung bitten. Dieses Set übt genau das — sich aussprechen, ein Missverständnis klären, und was zu tun ist, wenn der andere zunächst kühl reagiert oder gerade nicht reden möchte. Grammatik nach Bedarf: Perfekt im Bericht, höfliche Fragen, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/77-missverstaendnis-klaeren-a2",
+  "level": "A2",
+  "summary": "Sich bei einem Freund entschuldigen, ein Missverständnis aufklären, um Verzeihung bitten — und was tun, wenn der andere zunächst kühl reagiert oder nicht reden möchte.",
+  "title": "Sich entschuldigen und ein Missverständnis klären — A2",
+  "topic": "Sich entschuldigen und ein Missverständnis klären"
+}

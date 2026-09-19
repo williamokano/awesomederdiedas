@@ -1,0 +1,736 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "maskulin",
+          "feminin",
+          "neutral",
+          "Plural"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "der Mann"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "die Frau"
+                ],
+                "gap": 2
+              },
+              {
+                "answer": [
+                  "das Kind"
+                ],
+                "gap": 3
+              },
+              {
+                "answer": [
+                  "die Leute"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "Nom."
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "den Mann"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "die Frau"
+                ],
+                "gap": 6
+              },
+              {
+                "answer": [
+                  "das Kind"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "die Leute"
+                ],
+                "gap": 8
+              }
+            ],
+            "label": "Akk."
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "dem Mann"
+                ],
+                "gap": 9
+              },
+              {
+                "answer": [
+                  "der Frau"
+                ],
+                "gap": 10
+              },
+              {
+                "answer": [
+                  "dem Kind"
+                ],
+                "gap": 11
+              },
+              {
+                "answer": [
+                  "den Leuten"
+                ],
+                "gap": 12
+              }
+            ],
+            "label": "Dat."
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "des Mannes"
+                ],
+                "gap": 13
+              },
+              {
+                "answer": [
+                  "der Frau"
+                ],
+                "gap": 14
+              },
+              {
+                "answer": [
+                  "des Kindes"
+                ],
+                "gap": 15
+              },
+              {
+                "answer": [
+                  "der Leute"
+                ],
+                "gap": 16
+              }
+            ],
+            "label": "Gen."
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die Tabelle.",
+      "instructionsEn": "Complete the table.",
+      "skill": "case-endings",
+      "title": "Der bestimmte Artikel in allen Fällen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "einen"
+          ],
+          "2": [
+            "ein"
+          ],
+          "3": [
+            "eine"
+          ],
+          "4": [
+            "einem"
+          ],
+          "5": [
+            "einer"
+          ],
+          "6": [
+            "Einem"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe {1} Bruder.\n2. Er kauft {2} Auto.\n3. Wir suchen {3} Wohnung.\n4. Ich gebe {4} Freund mein Buch.\n5. Sie hilft {5} Frau im Rollstuhl.\n6. {6} Kind schmeckt die Suppe nicht.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze die richtige Form von ein.",
+      "instructionsEn": "Fill in the correct form of ein.",
+      "skill": "case-endings",
+      "title": "Der unbestimmte Artikel: ein, eine, ein"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "den Schülern"
+          ],
+          "2": [
+            "den Kindern"
+          ],
+          "3": [
+            "den Stunden"
+          ],
+          "4": [
+            "den Eltern"
+          ],
+          "5": [
+            "den Freunden"
+          ],
+          "6": [
+            "den Kollegen"
+          ],
+          "7": [
+            "den Nachbarn"
+          ],
+          "8": [
+            "den Eltern"
+          ]
+        },
+        "bank": [
+          "den Schülern",
+          "den Kindern",
+          "den Stunden",
+          "den Eltern",
+          "den Freunden",
+          "den Kollegen",
+          "den Nachbarn",
+          "den Eltern"
+        ],
+        "text": "Die Lehrerin hilft {1}. Sie gibt {2} neue Bücher. Nach {3} geht sie\nnach Hause. Sie spricht mit {4} über die Prüfung. Am Wochenende\ntrifft sie sich mit {5}. Sie erzählt {6} von ihrer Arbeit. Sie\nwinkt {7} freundlich zu, wenn sie im Treppenhaus sind. Am Abend\nschreibt sie {8} noch eine Nachricht.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken. Denk an die Dativ-Plural-Regel: -n am Ende, außer das Wort endet schon auf -n oder -s.",
+      "instructionsEn": "Fill the 8 gaps — remember the Dativ Plural rule: add -n, unless the word already ends in -n or -s.",
+      "title": "Lückentext: Die Lehrerin (Dativ Plural)"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "des"
+              },
+              {
+                "key": "c",
+                "text": "dem"
+              }
+            ],
+            "q": "Das Auto ___ Lehrers ist neu.",
+            "why": "Genitiv maskulin → des; das Nomen bekommt -s (Lehrers)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "des"
+              },
+              {
+                "key": "c",
+                "text": "dem"
+              }
+            ],
+            "q": "Die Tasche ___ Frau ist rot.",
+            "why": "Genitiv feminin → der; das Nomen bleibt unverändert."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "des"
+              },
+              {
+                "key": "b",
+                "text": "dem"
+              },
+              {
+                "key": "c",
+                "text": "der"
+              }
+            ],
+            "q": "Das Spielzeug ___ Kindes liegt im Garten.",
+            "why": "Genitiv neutrum → des; Kind bekommt -es (leichter auszusprechen als Kinds)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "die"
+              },
+              {
+                "key": "b",
+                "text": "den"
+              },
+              {
+                "key": "c",
+                "text": "der"
+              }
+            ],
+            "q": "Die Namen ___ Leute sind mir bekannt.",
+            "why": "Genitiv Plural → der."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "des"
+              },
+              {
+                "key": "b",
+                "text": "dem"
+              },
+              {
+                "key": "c",
+                "text": "der"
+              }
+            ],
+            "q": "Der Titel ___ Buches ist interessant.",
+            "why": "Genitiv neutrum → des; Buch bekommt -es."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "des"
+              },
+              {
+                "key": "b",
+                "text": "dem"
+              },
+              {
+                "key": "c",
+                "text": "der"
+              }
+            ],
+            "q": "Die Farbe ___ Autos gefällt mir.",
+            "why": "Genitiv neutrum → des; Auto bekommt nur -s (endet schon auf Vokal)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Genitiv-Vorschau: des, der, des, der"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die"
+              },
+              {
+                "key": "b",
+                "text": "Der"
+              },
+              {
+                "key": "c",
+                "text": "Das"
+              }
+            ],
+            "q": "___ Stadt hat viele Parks.",
+            "why": "Nominativ feminin → Die."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "die"
+              },
+              {
+                "key": "c",
+                "text": "das"
+              }
+            ],
+            "q": "Ich besuche ___ Museum.",
+            "why": "Akkusativ neutrum → das."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "den"
+              },
+              {
+                "key": "b",
+                "text": "dem"
+              },
+              {
+                "key": "c",
+                "text": "der"
+              }
+            ],
+            "q": "Wir fahren mit ___ Bus in die Stadt.",
+            "why": "mit + Dativ maskulin → dem."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "die"
+              },
+              {
+                "key": "c",
+                "text": "den"
+              }
+            ],
+            "q": "Am Ende ___ Straße steht ein altes Gebäude.",
+            "why": "Genitiv feminin → der."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ein"
+              },
+              {
+                "key": "b",
+                "text": "eine"
+              },
+              {
+                "key": "c",
+                "text": "einen"
+              }
+            ],
+            "q": "Ich kaufe ___ Postkarte für meine Oma.",
+            "why": "Akkusativ feminin → eine."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "ein"
+              },
+              {
+                "key": "b",
+                "text": "einen"
+              },
+              {
+                "key": "c",
+                "text": "einem"
+              }
+            ],
+            "q": "Ich spreche mit ___ Verkäufer im Laden.",
+            "why": "mit + Dativ maskulin → einem."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "die"
+              },
+              {
+                "key": "c",
+                "text": "den"
+              }
+            ],
+            "q": "Das Zentrum ___ Stadt ist immer voll.",
+            "why": "Genitiv feminin → der."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ein"
+              },
+              {
+                "key": "b",
+                "text": "einem"
+              },
+              {
+                "key": "c",
+                "text": "eine"
+              }
+            ],
+            "q": "Am Abend gehen wir zu ___ Konzert.",
+            "why": "zu + Dativ neutrum → einem."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct word for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Ein Tag in der Stadt"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "DER"
+          ],
+          "2": [
+            "DEN"
+          ],
+          "3": [
+            "DAS"
+          ],
+          "4": [
+            "DEM"
+          ],
+          "5": [
+            "DES"
+          ],
+          "6": [
+            "DIE"
+          ],
+          "7": [
+            "DER"
+          ],
+          "8": [
+            "DES"
+          ],
+          "9": [
+            "DIE"
+          ],
+          "10": [
+            "DEN"
+          ]
+        },
+        "bank": [
+          "DER",
+          "DEN",
+          "DAS",
+          "DEM",
+          "DES",
+          "DIE",
+          "DER",
+          "DES",
+          "DIE",
+          "DEN",
+          "EINE",
+          "EINEM",
+          "DIESER"
+        ],
+        "text": "{1} Bäcker steht jeden Morgen um vier Uhr auf. Er bereitet {2} Teig\nfür {3} frische Brot vor. Zuerst hilft er {4} Kollegen beim\nAufheizen {5} Ofens. Dann öffnet er {6} Tür {7} Bäckerei. Der Duft\n{8} frischen Brotes zieht durch {9} ganze Straße. Um sechs Uhr\nbegrüßt er {10} ersten Kunden.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Three words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Der Tag eines Bäckers (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Der"
+          ],
+          "2": [
+            "die"
+          ],
+          "3": [
+            "dem"
+          ],
+          "4": [
+            "des"
+          ],
+          "5": [
+            "Die"
+          ],
+          "6": [
+            "den"
+          ],
+          "7": [
+            "der"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Mann trägt einen Koffer.\n2. Ich sehe {2} Frau am Bahnhof.\n3. Wir geben {3} Kind ein Eis.\n4. Die Tür {4} Hauses ist blau.\n5. {5} Kinder spielen im Park.\n6. Ich helfe {6} Kindern beim Aufräumen.\n7. Die Mutter {7} Kinder ist Lehrerin.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze den richtigen bestimmten Artikel.",
+      "instructionsEn": "Fill in the correct definite article, in all four cases.",
+      "title": "Gemischte Wiederholung: alle vier Fälle"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Der"
+              },
+              {
+                "key": "b",
+                "text": "Die"
+              },
+              {
+                "key": "c",
+                "text": "Das"
+              }
+            ],
+            "q": "___ Auto steht vor dem Haus.",
+            "why": "Nominativ neutrum → Das."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "ein"
+              },
+              {
+                "key": "b",
+                "text": "einen"
+              },
+              {
+                "key": "c",
+                "text": "eine"
+              }
+            ],
+            "q": "Ich kaufe ___ Brot.",
+            "why": "Akkusativ neutrum → ein."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "den"
+              },
+              {
+                "key": "b",
+                "text": "dem"
+              },
+              {
+                "key": "c",
+                "text": "der"
+              }
+            ],
+            "q": "Sie spricht mit ___ Lehrer.",
+            "why": "mit + Dativ maskulin → dem."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "des"
+              },
+              {
+                "key": "c",
+                "text": "dem"
+              }
+            ],
+            "q": "Das ist das Auto ___ Nachbarn.",
+            "why": "Genitiv maskulin → des (Nachbar ist ein schwacher Nomen: des Nachbarn)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "die"
+              },
+              {
+                "key": "c",
+                "text": "den"
+              }
+            ],
+            "q": "Ich sehe ___ Kinder im Garten.",
+            "why": "Akkusativ Plural → die."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "die"
+              },
+              {
+                "key": "b",
+                "text": "der"
+              },
+              {
+                "key": "c",
+                "text": "den"
+              }
+            ],
+            "q": "Wir danken ___ Eltern für die Hilfe.",
+            "why": "danken + Dativ Plural → den."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-03-deklination-a2",
+  "intro": "Standalone drill set, not tied to any lesson. Consolidates der/die/das and ein/eine/ein across all four cases in one place, including the Dativ Plural -n rule (die Kinder -> den Kindern) and a first look at the Genitiv (des Mannes, der Frau). Blocks: A Basistraining (the full table, then indefinite article) → B Vertiefung (Dativ Plural, then Genitiv) → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/03-deklination-a2",
+  "level": "A2",
+  "summary": null,
+  "title": "Artikeldeklination in allen Fällen (mit Genitiv-Vorschau) — A2",
+  "topic": "Deklination in allen Fällen (Nominativ, Akkusativ, Dativ, Genitiv)"
+}

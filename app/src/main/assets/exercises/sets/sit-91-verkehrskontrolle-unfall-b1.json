@@ -1,0 +1,808 @@
+{
+  "category": "Unterwegs",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "kontrolliert",
+            "label": "Kontrolliert werden"
+          },
+          {
+            "key": "melden",
+            "label": "Einen Unfall melden"
+          },
+          {
+            "key": "sichern",
+            "label": "Sich sichern"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "kontrolliert",
+            "text": "den Führerschein zeigen"
+          },
+          {
+            "bucket": "kontrolliert",
+            "text": "die Fahrzeugpapiere vorzeigen"
+          },
+          {
+            "bucket": "kontrolliert",
+            "text": "einen Alkoholtest machen"
+          },
+          {
+            "bucket": "kontrolliert",
+            "text": "ruhig am Straßenrand anhalten"
+          },
+          {
+            "bucket": "melden",
+            "text": "die Unfallstelle sichern"
+          },
+          {
+            "bucket": "melden",
+            "text": "die Polizei rufen"
+          },
+          {
+            "bucket": "melden",
+            "text": "einen Unfallbericht ausfüllen"
+          },
+          {
+            "bucket": "melden",
+            "text": "Zeugen notieren"
+          },
+          {
+            "bucket": "sichern",
+            "text": "das Warndreieck aufstellen"
+          },
+          {
+            "bucket": "sichern",
+            "text": "die Warnweste anziehen"
+          },
+          {
+            "bucket": "sichern",
+            "text": "die Versicherungskarte zeigen"
+          },
+          {
+            "bucket": "sichern",
+            "text": "Fotos von den Schäden machen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Kontrolliert werden, einen Unfall melden oder sich sichern?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Verkehrskontrolle"
+          },
+          {
+            "key": "2",
+            "text": "die Fahrzeugpapiere"
+          },
+          {
+            "key": "3",
+            "text": "der Unfall"
+          },
+          {
+            "key": "4",
+            "text": "die Unfallstelle"
+          },
+          {
+            "key": "5",
+            "text": "der Unfallbericht"
+          },
+          {
+            "key": "6",
+            "text": "der Alkoholtest"
+          },
+          {
+            "key": "7",
+            "text": "das Warndreieck"
+          },
+          {
+            "key": "8",
+            "text": "die Versicherungskarte"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die Überprüfung durch die Polizei im Straßenverkehr"
+          },
+          {
+            "key": "b",
+            "text": "die Dokumente, die zum Auto gehören"
+          },
+          {
+            "key": "c",
+            "text": "ein plötzliches, ungewolltes Ereignis im Verkehr"
+          },
+          {
+            "key": "d",
+            "text": "der Ort, an dem der Unfall passiert ist"
+          },
+          {
+            "key": "e",
+            "text": "das schriftliche Protokoll über den Unfall"
+          },
+          {
+            "key": "f",
+            "text": "die Prüfung, ob jemand Alkohol getrunken hat"
+          },
+          {
+            "key": "g",
+            "text": "ein Zeichen, das andere vor einer Gefahr warnt"
+          },
+          {
+            "key": "h",
+            "text": "der Nachweis über die Kfz-Versicherung"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "hat"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "soll"
+          ],
+          "4": [
+            "Ist"
+          ],
+          "5": [
+            "ist"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "habe"
+          ],
+          "8": [
+            "Können"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Polizei {1} mich gestern kontrolliert. (haben, Perfekt)\n2. {2} Sie mir bitte Ihren Führerschein zeigen? (können, Sie-Form)\n3. Man {3} bei einem Unfall immer die Unfallstelle sichern. (sollen, Präsens)\n4. {4} schon ein Unfallbericht ausgefüllt worden? (sein, Perfekt Passiv)\n5. Falls jemand verletzt {5}, muss man sofort die Rettung rufen. (sein, Präsens)\n6. Der Polizist {6} den Alkoholtest gleich hier machen. (werden, Futur I)\n7. Ich {7} schon die Versicherungskarte gezeigt. (haben, Perfekt)\n8. {8} Sie mir bitte die Fahrzeugpapiere zeigen? (können, Sie-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Die Kontrolle und der Unfall"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Verkehrskontrolle"
+          ],
+          "2": [
+            "Unfallstelle"
+          ],
+          "3": [
+            "Unfallbericht"
+          ],
+          "4": [
+            "Alkoholtest"
+          ],
+          "5": [
+            "Warndreieck"
+          ],
+          "6": [
+            "Versicherungskarte"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Bei einer {1} müssen Sie den Führerschein zeigen. (die Überprüfung durch die Polizei)\n2. Nach dem Unfall habe ich sofort die {2} gesichert. (der Ort des Unfalls)\n3. Ich habe einen {3} für die Versicherung ausgefüllt. (das Protokoll über den Unfall)\n4. Der Polizist wollte einen {4} bei mir machen. (die Prüfung auf Alkohol)\n5. Ich habe das {5} auf die Straße gestellt. (das Warnzeichen)\n6. Bitte zeigen Sie mir Ihre {6}. (der Nachweis über die Kfz-Versicherung)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "VERKEHRSKONTROLLE"
+          ],
+          "2": [
+            "FAHRZEUGPAPIERE"
+          ],
+          "3": [
+            "ALKOHOLTEST"
+          ],
+          "4": [
+            "WARNDREIECK"
+          ],
+          "5": [
+            "SICHERN"
+          ],
+          "6": [
+            "VERSICHERUNGSKARTE"
+          ],
+          "7": [
+            "UNFALLBERICHT"
+          ],
+          "8": [
+            "RUFEN"
+          ],
+          "9": [
+            "NOTIEREN"
+          ],
+          "10": [
+            "SCHICKE"
+          ]
+        },
+        "bank": [
+          "VERKEHRSKONTROLLE",
+          "FAHRZEUGPAPIERE",
+          "GESCHWINDIGKEIT",
+          "ALKOHOLTEST",
+          "BUSSGELD",
+          "WARNDREIECK",
+          "SICHERN",
+          "VERSICHERUNGSKARTE",
+          "ABSCHLEPPWAGEN",
+          "UNFALLBERICHT",
+          "ZEUGE",
+          "RUFEN",
+          "NOTIEREN",
+          "SCHICKE"
+        ],
+        "text": "(Verkehrskontrolle)\n— Guten Tag, das ist eine {1}. Bitte Ihren Führerschein und\ndie {2}.\n— Hier, bitte.\n— Danke. Ich muss auch kurz einen {3} machen, das ist bei uns\nRoutine.\n— Kein Problem.\n— Alles in Ordnung, Sie können weiterfahren.\n(kurz danach, ein kleiner Unfall)\n— Oh nein, ich bin gerade in ein anderes Auto gefahren!\n— Bleiben Sie ruhig. Stellen Sie zuerst das {4} auf.\n— Mache ich sofort.\n— Ist jemand verletzt?\n— Nein, zum Glück nicht.\n— Gut, dann {5} wir die Unfallstelle und tauschen die Daten\naus.\n— Ich zeige Ihnen gleich meine {6}.\n— Danke. Machen wir auch ein paar Fotos für den {7}?\n— Ja, gute Idee.\n— Sollen wir die Polizei {8}?\n— Bei so einem kleinen Schaden ist das nicht unbedingt nötig.\n— Gut, dann {9} wir noch schnell die Kontaktdaten und die\nAdressen.\n— Perfekt. Ich {10} Ihnen dann meinen Versicherungsnachweis\nper E-Mail.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Kontrolle und Unfall an einem Tag"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Führerscheine interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Hier ist mein Führerschein, bitte."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal."
+              }
+            ],
+            "q": "Du willst der Polizei bei der Verkehrskontrolle deinen Führerschein zeigen. — You want to show the police your license during the traffic stop.",
+            "why": "Eine klare, höfliche Aussage ist der übliche Ablauf bei einer Verkehrskontrolle."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich frage lieber nicht nach."
+              },
+              {
+                "key": "c",
+                "text": "Müssen wir bei diesem kleinen Schaden die Polizei rufen?"
+              }
+            ],
+            "q": "Du willst wissen, ob ihr bei dem kleinen Unfall die Polizei rufen müsst. — You want to know if you need to call the police for the small accident.",
+            "why": "Eine direkte Frage klärt, ob eine polizeiliche Meldung nötig ist."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zum Glück ist niemand verletzt."
+              },
+              {
+                "key": "b",
+                "text": "Verletzungen interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst der anderen Person nach dem Unfall sagen, dass niemand verletzt ist. — You want to tell the other person after the accident that no one is hurt.",
+            "why": "Eine klare Aussage beruhigt die Situation nach dem Schreck."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Warndreiecke interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Soll ich zuerst das Warndreieck aufstellen?"
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal, Hauptsache ich fahre weiter."
+              }
+            ],
+            "q": "Du willst wissen, ob du zuerst das Warndreieck aufstellen sollst. — You want to know if you should put up the warning triangle first.",
+            "why": "Eine direkte Frage klärt den sicheren nächsten Schritt."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Fotos interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Das ist mir zu kompliziert."
+              },
+              {
+                "key": "c",
+                "text": "Sollen wir auch ein paar Fotos für den Unfallbericht machen?"
+              }
+            ],
+            "q": "Du willst wissen, ob ihr für den Unfallbericht auch Fotos machen sollt. — You want to know if you should also take photos for the accident report.",
+            "why": "Eine direkte Frage sichert gute Beweise für die Versicherung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich zeige Ihnen gleich meine Versicherungskarte."
+              },
+              {
+                "key": "b",
+                "text": "Versicherungen interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst der anderen Person deine Versicherungskarte zeigen. — You want to show the other person your insurance card.",
+            "why": "Eine klare Ankündigung erleichtert den geordneten Datenaustausch."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Kontrolle und Unfall"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Aussage, Verb an Position 2",
+            "tiles": [
+              "Das",
+              "ist",
+              "eine",
+              "Verkehrskontrolle"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Frage mit Modalverb",
+            "tiles": [
+              "Können",
+              "Sie",
+              "mir",
+              "Ihren",
+              "Führerschein",
+              "zeigen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Aussage, Verb an Position 2",
+            "tiles": [
+              "Wir",
+              "sichern",
+              "zuerst",
+              "die",
+              "Unfallstelle"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Futur I, Zeitangabe an Position 1, Verb an Position 2",
+            "tiles": [
+              "Morgen",
+              "werde",
+              "ich",
+              "den",
+              "Unfallbericht",
+              "abschicken"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Ja/Nein-Frage mit sein",
+            "tiles": [
+              "Ist",
+              "eigentlich",
+              "jemand",
+              "verletzt",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Ich",
+              "habe",
+              "die",
+              "Versicherungskarte",
+              "schon",
+              "gezeigt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zur Kontrolle und zum Unfall bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Bei einer Verkehrskontrolle muss man Führerschein und Fahrzeugpapiere vorzeigen. — At a traffic stop you must show your license and vehicle documents.",
+            "why": "So steht es ausdrücklich in den Infos zur Kontrolle."
+          },
+          {
+            "answer": false,
+            "q": "Bei Verletzten muss man die Polizei nicht rufen. — You don't need to call the police when someone is injured.",
+            "why": "Bei Verletzten oder größerem Schaden muss man immer die Polizei rufen."
+          },
+          {
+            "answer": true,
+            "q": "Ein Warndreieck sollte man bei jedem Unfall auf der Straße aufstellen. — A warning triangle should be set up on the road at every accident.",
+            "why": "„Warndreieck: sollte man bei jedem Unfall auf der Straße aufstellen.“"
+          },
+          {
+            "answer": false,
+            "q": "Die Polizei darf bei einer Verkehrskontrolle keinen Alkoholtest verlangen. — The police are not allowed to request a breathalyzer test at a traffic stop.",
+            "why": "Die Polizei darf ihn bei einer Verkehrskontrolle verlangen."
+          },
+          {
+            "answer": true,
+            "q": "Ein Unfallbericht hilft der Versicherung, den Schaden schneller zu klären. — An accident report helps the insurance settle the claim faster.",
+            "why": "„Unfallbericht: hilft der Versicherung, den Schaden schneller zu klären.“"
+          },
+          {
+            "answer": false,
+            "q": "Fotos vom Unfall sind für die Versicherung völlig nutzlos. — Photos of the accident are completely useless for the insurance.",
+            "why": "Fotos sind bei einem Unfall ein guter Beweis für die Versicherung."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Verkehrskontrolle und Unfall melden**\n>\n> - **Verkehrskontrolle:** man muss **Führerschein und\n>   Fahrzeugpapiere** vorzeigen.\n> - **Unfall:** bei Verletzten oder größerem Schaden muss man\n>   **immer die Polizei** rufen.\n> - **Warndreieck:** sollte man bei jedem Unfall **auf der\n>   Straße** aufstellen.\n> - **Alkoholtest:** die Polizei **darf ihn verlangen** bei\n>   einer Verkehrskontrolle.\n> - **Unfallbericht:** hilft der Versicherung, den Schaden\n>   **schneller zu klären**.\n> - **Fotos:** sind bei einem Unfall ein **guter Beweis** für\n>   die Versicherung.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zur Kontrolle und zum Unfall lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach weiterfahren, als wäre nichts."
+              },
+              {
+                "key": "b",
+                "text": "Der Polizei ehrlich sagen, dass Sie ihn zu Hause vergessen haben."
+              },
+              {
+                "key": "c",
+                "text": "Einen falschen Ausweis zeigen."
+              }
+            ],
+            "q": "Sie haben Ihren Führerschein bei der Kontrolle vergessen. — You forgot your license for the traffic stop.",
+            "why": "Ehrlichkeit ist der einzig sichere Weg, das offen zu klären."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach wegfahren."
+              },
+              {
+                "key": "b",
+                "text": "Die Person laut beschimpfen."
+              },
+              {
+                "key": "c",
+                "text": "Die Polizei rufen, damit die Daten offiziell aufgenommen werden."
+              }
+            ],
+            "q": "Der Unfallgegner weigert sich, seine Daten auszutauschen. — The other driver refuses to exchange their information.",
+            "why": "Die Polizei kann die nötigen Daten notfalls offiziell aufnehmen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sich das Kennzeichen merken und sofort die Polizei rufen."
+              },
+              {
+                "key": "b",
+                "text": "Nichts tun und den Schaden selbst bezahlen."
+              },
+              {
+                "key": "c",
+                "text": "Dem Auto gefährlich hinterherfahren."
+              }
+            ],
+            "q": "Der andere Fahrer fährt nach dem Unfall einfach weg. — The other driver simply drives away after the accident.",
+            "why": "Das Kennzeichen hilft der Polizei, die Fahrerflucht aufzuklären."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Der Polizei widersprechen und den Test verweigern."
+              },
+              {
+                "key": "b",
+                "text": "Ruhig bleiben und die weiteren Anweisungen der Polizei befolgen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort wegfahren."
+              }
+            ],
+            "q": "Der Alkoholtest zeigt einen leicht positiven Wert. — The breathalyzer shows a slightly positive result.",
+            "why": "Ruhiges Verhalten ist in dieser Situation der sicherste Weg."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sich laut streiten, bis jemand nachgibt."
+              },
+              {
+                "key": "b",
+                "text": "Sofort selbst die volle Schuld übernehmen."
+              },
+              {
+                "key": "c",
+                "text": "Die Situation sachlich dokumentieren und die Versicherungen entscheiden lassen."
+              }
+            ],
+            "q": "Sie sind sich mit dem Unfallgegner über die Schuldfrage nicht einig. — You and the other driver disagree about who's at fault.",
+            "why": "Eine sachliche Dokumentation überlässt die Klärung den zuständigen Stellen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sich möglichst genau an das Aussehen und die Aussage erinnern und es notieren."
+              },
+              {
+                "key": "b",
+                "text": "Den Vorfall einfach vergessen."
+              },
+              {
+                "key": "c",
+                "text": "Sich einen Zeugen ausdenken."
+              }
+            ],
+            "q": "Ein wichtiger Zeuge verschwindet, bevor Sie seine Daten notieren konnten. — An important witness leaves before you could note their details.",
+            "why": "Eine genaue Notiz zur Erinnerung ist besser als gar keine Angabe."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn bei der Kontrolle oder dem Unfall etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "vergessen"
+          ],
+          "2": [
+            "ausgetauscht"
+          ],
+          "3": [
+            "weggefahren"
+          ],
+          "4": [
+            "ausgefallen"
+          ],
+          "5": [
+            "geeinigt"
+          ],
+          "6": [
+            "verschwunden"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe meinen Führerschein leider zu Hause {1}. (nicht dabei, Partizip)\n2. Der Unfallgegner hat seine Daten nicht {2}. (nicht weitergegeben, Partizip)\n3. Der andere Fahrer ist einfach {3}. (nicht geblieben, Partizip)\n4. Der Alkoholtest ist leicht positiv {4}. (ergeben, Partizip)\n5. Wir haben uns über die Schuldfrage nicht {5}. (nicht übereingekommen, Partizip)\n6. Der Zeuge ist leider schon {6}. (nicht mehr da, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "hat"
+          ],
+          "2": [
+            "soll"
+          ],
+          "3": [
+            "Verkehrskontrolle"
+          ],
+          "4": [
+            "Unfallstelle"
+          ],
+          "5": [
+            "Unfallbericht"
+          ],
+          "6": [
+            "Alkoholtest"
+          ],
+          "7": [
+            "Warndreieck"
+          ],
+          "8": [
+            "Versicherungskarte"
+          ],
+          "9": [
+            "Können"
+          ],
+          "10": [
+            "vergessen"
+          ],
+          "11": [
+            "weggefahren"
+          ],
+          "12": [
+            "ausgefallen"
+          ],
+          "13": [
+            "geeinigt"
+          ],
+          "14": [
+            "verschwunden"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Polizei {1} mich gestern kontrolliert. (has — Perfekt)\n2. Man {2} bei einem Unfall immer die Unfallstelle sichern. (should — sollen)\n3. Bei einer {3} müssen Sie den Führerschein zeigen. (traffic stop)\n4. Nach dem Unfall habe ich sofort die {4} gesichert. (accident scene)\n5. Ich habe einen {5} für die Versicherung ausgefüllt. (accident report)\n6. Der Polizist wollte einen {6} bei mir machen. (breathalyzer test)\n7. Ich habe das {7} auf die Straße gestellt. (warning triangle)\n8. Bitte zeigen Sie mir Ihre {8}. (insurance card)\n9. {9} Sie mir bitte Ihren Führerschein zeigen? (could — können, Sie-Form)\n10. Ich habe meinen Führerschein leider zu Hause {10}. (forgotten — Partizip)\n11. Der andere Fahrer ist einfach {11}. (driven off — Partizip)\n12. Der Alkoholtest ist leicht positiv {12}. (turned out — Partizip)\n13. Wir haben uns über die Schuldfrage nicht {13}. (agreed — Partizip)\n14. Der Zeuge ist leider schon {14}. (disappeared — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-91-verkehrskontrolle-unfall-b1",
+  "intro": "Eine Verkehrskontrolle und ein kleiner Unfall können am selben Tag passieren: Führerschein und Fahrzeugpapiere zeigen, vielleicht einen Alkoholtest machen, und nach einem Unfall die Unfallstelle sichern, Daten austauschen und den Unfallbericht ausfüllen. Dieses Set übt genau das — kontrolliert werden, einen Unfall melden, sich sichern, und was zu tun ist, wenn der Führerschein fehlt oder der Unfallgegner nicht mitmacht. Grammatik nach Bedarf: Modalverben, Perfekt und Futur I. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/91-verkehrskontrolle-unfall-b1",
+  "level": "B1",
+  "summary": "Bei einer Verkehrskontrolle Führerschein und Papiere zeigen, nach einem Unfall die Unfallstelle sichern und die Daten austauschen — und was tun, wenn der Führerschein fehlt oder der Unfallgegner nicht mitmacht.",
+  "title": "Verkehrskontrolle und Unfall melden — B1",
+  "topic": "Verkehrskontrolle und Unfall melden"
+}

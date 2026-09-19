@@ -1,0 +1,829 @@
+{
+  "category": "Einkaufen",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "hin",
+            "label": "Paket bekommen"
+          },
+          {
+            "key": "zurueck",
+            "label": "Paket zurückschicken"
+          },
+          {
+            "key": "problem",
+            "label": "Wenn etwas fehlt"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "hin",
+            "text": "die Benachrichtigungskarte"
+          },
+          {
+            "bucket": "zurueck",
+            "text": "das Retourenlabel"
+          },
+          {
+            "bucket": "problem",
+            "text": "der Nachforschungsauftrag"
+          },
+          {
+            "bucket": "hin",
+            "text": "die Packstation"
+          },
+          {
+            "bucket": "zurueck",
+            "text": "die Widerrufsfrist"
+          },
+          {
+            "bucket": "problem",
+            "text": "der Transportschaden"
+          },
+          {
+            "bucket": "hin",
+            "text": "die Sendungsnummer"
+          },
+          {
+            "bucket": "zurueck",
+            "text": "der Einlieferungsbeleg"
+          },
+          {
+            "bucket": "problem",
+            "text": "die Zustellbestätigung"
+          },
+          {
+            "bucket": "hin",
+            "text": "die Abholfrist"
+          },
+          {
+            "bucket": "zurueck",
+            "text": "der Rücksendeschein"
+          },
+          {
+            "bucket": "problem",
+            "text": "der Ablageort"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Begriffe.",
+      "instructionsEn": "Sort the 12 terms.",
+      "title": "Hinweg, Rückweg oder Problem?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Benachrichtigungskarte"
+          },
+          {
+            "key": "2",
+            "text": "die Abholfrist"
+          },
+          {
+            "key": "3",
+            "text": "die Packstation"
+          },
+          {
+            "key": "4",
+            "text": "die Vollmacht"
+          },
+          {
+            "key": "5",
+            "text": "das Retourenlabel"
+          },
+          {
+            "key": "6",
+            "text": "der Einlieferungsbeleg"
+          },
+          {
+            "key": "7",
+            "text": "der Ablageort"
+          },
+          {
+            "key": "8",
+            "text": "der Nachforschungsauftrag"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "der Zettel im Briefkasten, der sagt, wo dein Paket ist"
+          },
+          {
+            "key": "b",
+            "text": "die Zeit, in der du es abholen musst, meist sieben Werktage"
+          },
+          {
+            "key": "c",
+            "text": "der Automat, aus dem du rund um die Uhr abholst"
+          },
+          {
+            "key": "d",
+            "text": "die schriftliche Erlaubnis, dass jemand anderes es abholt"
+          },
+          {
+            "key": "e",
+            "text": "der Aufkleber, mit dem die Rücksendung frei ist"
+          },
+          {
+            "key": "f",
+            "text": "der Beleg, dass du es wirklich abgegeben hast"
+          },
+          {
+            "key": "g",
+            "text": "die Stelle, an der der Bote es ohne dich abstellt"
+          },
+          {
+            "key": "h",
+            "text": "die offizielle Suche nach einem verschwundenen Paket"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "hat"
+          ],
+          "2": [
+            "geklingelt"
+          ],
+          "3": [
+            "bin"
+          ],
+          "4": [
+            "gewesen"
+          ],
+          "5": [
+            "wurde"
+          ],
+          "6": [
+            "abgegeben"
+          ],
+          "7": [
+            "hat"
+          ],
+          "8": [
+            "gelegen"
+          ],
+          "9": [
+            "habe"
+          ],
+          "10": [
+            "abgeholt"
+          ],
+          "11": [
+            "ist"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Bote {1} gestern zweimal {2}. (klingeln)\n2. Ich {3} leider nicht zu Hause {4}. (sein)\n3. Das Paket {5} beim Nachbarn {6}. (abgeben — Passiv Präteritum: wurde … abgegeben)\n4. Die Karte {7} im Briefkasten {8}. (liegen)\n5. Ich {9} die Sendung heute {10}. (abholen, Perfekt)\n6. Die Rücksendung {11} kostenlos. (sein, Präsens)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Hilfsverb oder das Partizip.",
+      "instructionsEn": "Fill in the auxiliary or the participle.",
+      "title": "Was ist mit dem Paket passiert?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "im"
+          ],
+          "2": [
+            "zum"
+          ],
+          "3": [
+            "auf den"
+          ],
+          "4": [
+            "auf dem"
+          ],
+          "5": [
+            "in die"
+          ],
+          "6": [
+            "in der"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Karte lag {1} Briefkasten. (in + dem, kurz — Ort)\n2. Der Bote hat das Paket {2} Nachbarn gebracht. (zu + dem, kurz — Richtung)\n3. Ich lege den Ausweis {3} Tisch. (auf + den — Richtung)\n4. Der Ausweis liegt {4} Tisch. (auf + dem, kurz — Ort)\n5. Ich bringe die Rücksendung {5} Filiale. (in + die — Richtung)\n6. Das Paket steht {6} Packstation, Fach 214. (in + der — Ort)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze die Präposition mit dem Artikel.",
+      "instructionsEn": "Fill in the preposition with the article.",
+      "title": "Wohin und wo? Wechselpräpositionen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "ABHOLEN"
+          ],
+          "2": [
+            "BENACHRICHTIGUNGSKARTE"
+          ],
+          "3": [
+            "AUSWEIS"
+          ],
+          "4": [
+            "ABHOLFRIST"
+          ],
+          "5": [
+            "WERKTAGE"
+          ],
+          "6": [
+            "VOLLMACHT"
+          ],
+          "7": [
+            "RÜCKSENDUNG"
+          ],
+          "8": [
+            "RETOURENLABEL"
+          ],
+          "9": [
+            "BELEG"
+          ],
+          "10": [
+            "FALLS"
+          ]
+        },
+        "bank": [
+          "ABHOLEN",
+          "BENACHRICHTIGUNGSKARTE",
+          "AUSWEIS",
+          "ABHOLFRIST",
+          "WERKTAGE",
+          "VOLLMACHT",
+          "RÜCKSENDUNG",
+          "RETOURENLABEL",
+          "BELEG",
+          "FALLS",
+          "WOCHEN",
+          "PAKET",
+          "OBWOHL",
+          "KARTE"
+        ],
+        "text": "— Guten Tag, ich möchte ein Paket {1}. Hier ist die\n{2}.\n— Danke. Und Ihren {3}, bitte.\n— Hier. — Sagen Sie, wie lange ist eigentlich die {4}?\n— Sieben {5}. Danach geht die Sendung zurück an den Absender.\n— Gut zu wissen. Kann meine Nachbarin es auch abholen, wenn ich\narbeite?\n— Nur mit einer {6} und ihrem Ausweis.\n— Verstehe. — Ich hätte noch eine {7}: Diese Hose passt nicht.\n— Haben Sie ein {8} dabei?\n— Ja, ich habe es ausgedruckt.\n— Perfekt, dann klebe ich es drauf. Sie bekommen einen\n{9} — heben Sie den auf, {10} das Paket unterwegs\nverloren geht.\n— Mache ich, danke!\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "In der Filiale"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Guten Tag, ich möchte ein Paket abholen. Hier ist die Benachrichtigungskarte."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe ein Paket."
+              },
+              {
+                "key": "c",
+                "text": "Hier."
+              }
+            ],
+            "q": "Du kommst mit der Karte in die Filiale. — You come to the branch with the card.",
+            "why": "Anliegen und Karte in einem Zug — danach fehlt nur noch der Ausweis."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wie lange kann ich warten?"
+              },
+              {
+                "key": "b",
+                "text": "Wie lange ist die Abholfrist?"
+              },
+              {
+                "key": "c",
+                "text": "Wann muss ich kommen?"
+              }
+            ],
+            "q": "Du willst wissen, wie lange du Zeit hast. — You want to know how long you have.",
+            "why": "„Abholfrist“ ist das Wort, das auf jeder Karte steht — damit bekommst du sofort die richtige Antwort."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Meine Nachbarin kommt einfach vorbei."
+              },
+              {
+                "key": "b",
+                "text": "Ich schicke jemanden."
+              },
+              {
+                "key": "c",
+                "text": "Ich schreibe ihr eine Vollmacht — reicht das zusammen mit ihrem Ausweis?"
+              }
+            ],
+            "q": "Deine Nachbarin soll das Paket holen. — Your neighbour is to collect the parcel.",
+            "why": "Vollmacht plus Ausweis ist genau die Kombination, die verlangt wird; einfach vorbeischicken klappt nicht."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Einlieferungsbeleg aufheben, bis die Erstattung da ist."
+              },
+              {
+                "key": "b",
+                "text": "Ein Foto vom Paket machen."
+              },
+              {
+                "key": "c",
+                "text": "Dem Händler schreiben, dass es unterwegs ist."
+              }
+            ],
+            "q": "Du schickst etwas zurück und willst sichergehen. — You're returning something and want to be safe.",
+            "why": "Der Beleg ist der einzige Nachweis, dass du es abgegeben hast — ohne ihn stehst du im Streitfall schlecht da."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Warten."
+              },
+              {
+                "key": "b",
+                "text": "Mit der Sendungsnummer nachschauen, was genau eingetragen ist, und beim Nachbarn fragen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort Anzeige erstatten."
+              }
+            ],
+            "q": "Auf der Karte steht ein Ablageort, den du nicht findest. — The card names a drop-off place you can't find.",
+            "why": "Die Sendungsnummer zeigt den eingetragenen Ort; sehr oft steht es bei einem Nachbarn, der nicht auf der Karte steht."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nichts bestellen."
+              },
+              {
+                "key": "b",
+                "text": "An die Packstation liefern lassen — dort kannst du rund um die Uhr abholen."
+              },
+              {
+                "key": "c",
+                "text": "Immer beim Nachbarn abgeben lassen."
+              }
+            ],
+            "q": "Du bist tagsüber nie zu Hause. — You're never home during the day.",
+            "why": "Die Packstation ist genau für diesen Fall gemacht und spart dem Nachbarn den Dauerdienst."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Was sagst du?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Modalverb an Position 2, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "ein",
+              "Paket",
+              "abholen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt mit haben, Partizip am Ende",
+            "tiles": [
+              "Der",
+              "Bote",
+              "hat",
+              "gestern",
+              "zweimal",
+              "geklingelt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Passiv Präteritum: wurde + Partizip am Ende",
+            "tiles": [
+              "Das",
+              "Paket",
+              "wurde",
+              "beim",
+              "Nachbarn",
+              "abgegeben"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "W-Frage: Fragewort, dann Verb",
+            "tiles": [
+              "Wie",
+              "lange",
+              "ist",
+              "die",
+              "Abholfrist",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "note": "aufheben: auf am Ende; nach falls steht das Verb am Ende",
+            "tiles": [
+              "Heben",
+              "Sie",
+              "den",
+              "Beleg",
+              "auf",
+              ",",
+              "falls",
+              "das",
+              "Paket",
+              "verloren",
+              "geht"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "in + Akkusativ, weil es eine Richtung ist",
+            "tiles": [
+              "Ich",
+              "bringe",
+              "die",
+              "Rücksendung",
+              "morgen",
+              "in",
+              "die",
+              "Filiale"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze rund um das Paket bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Das Paket liegt beim Nachbarn. — The parcel is at the neighbour's.",
+            "why": "Angekreuzt ist die Filiale Lindenweg 22."
+          },
+          {
+            "answer": false,
+            "q": "Man kann es noch am selben Tag abholen. — You can collect it the same day.",
+            "why": "„Abholung ab morgen, 9 Uhr.“"
+          },
+          {
+            "answer": true,
+            "q": "Ohne Ausweis bekommt man das Paket nicht. — Without ID you won't get the parcel.",
+            "why": "„Bitte Ausweis und diese Karte mitbringen.“"
+          },
+          {
+            "answer": false,
+            "q": "Der Partner kann es ohne Weiteres abholen. — Your partner can simply collect it.",
+            "why": "Andere Personen brauchen eine schriftliche Vollmacht und ihren Ausweis."
+          },
+          {
+            "answer": false,
+            "q": "Samstagnachmittag ist die Filiale offen. — The branch is open on Saturday afternoon.",
+            "why": "Samstags nur von 9 bis 13 Uhr."
+          },
+          {
+            "answer": true,
+            "q": "Ein beschädigtes Paket soll man in der Filiale öffnen. — A damaged parcel should be opened at the branch.",
+            "why": "„Bei Beschädigung bitte vor Ort melden und im Beisein der Mitarbeitenden öffnen.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Benachrichtigung — wir waren da**\n>\n> Sendung **1Z998877665**, Empfänger: C. Marchetti\n>\n> Wir haben Sie **heute nicht angetroffen**. Ihre Sendung liegt:\n>\n> **☑ in der Filiale** Lindenweg 22 (Schreibwaren Kern)\n> ☐ beim Nachbarn ☐ in der Packstation\n>\n> - **Abholung ab morgen, 9 Uhr.** Bitte **Ausweis** und diese\n>   Karte mitbringen.\n> - **Abholfrist: 7 Werktage.** Danach geht die Sendung an den\n>   Absender zurück.\n> - Abholung durch **andere Personen** nur mit **schriftlicher\n>   Vollmacht** und deren Ausweis.\n> - Öffnungszeiten Filiale: **Mo–Fr 9–18, Sa 9–13 Uhr.**\n> - **Nachsendung** an eine andere Adresse ist **nicht** möglich.\n> - Bei **Beschädigung** bitte **vor Ort** melden und im Beisein\n>   der Mitarbeitenden öffnen.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Benachrichtigungskarte lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Beim Händler reklamieren, dass nichts geliefert wurde."
+              },
+              {
+                "key": "b",
+                "text": "Warten, es taucht schon auf."
+              },
+              {
+                "key": "c",
+                "text": "Erst Nachbarn und Ablageorte prüfen, dann beim Zusteller die Zustellbestätigung anfordern und einen Nachforschungsauftrag stellen."
+              }
+            ],
+            "q": "Die Sendung gilt als zugestellt, du hast aber nichts. — The parcel is marked delivered but you have nothing.",
+            "why": "Die Unterschrift auf der Zustellbestätigung zeigt oft sofort, wer es angenommen hat."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Annahme verweigern oder es vor Ort im Beisein der Mitarbeitenden öffnen und den Schaden protokollieren lassen."
+              },
+              {
+                "key": "b",
+                "text": "Zu Hause öffnen und dann anrufen."
+              },
+              {
+                "key": "c",
+                "text": "Trotzdem annehmen und hoffen."
+              }
+            ],
+            "q": "Das Paket ist sichtbar beschädigt. — The parcel is visibly damaged.",
+            "why": "Nach der Annahme wird ein Transportschaden schwer nachweisbar — vor Ort protokollieren ist der Punkt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Frist verstreichen lassen."
+              },
+              {
+                "key": "b",
+                "text": "Jemandem eine Vollmacht schreiben — der Ausweis dieser Person genügt dazu."
+              },
+              {
+                "key": "c",
+                "text": "In der Filiale anrufen und um Verlängerung bitten."
+              }
+            ],
+            "q": "Die Abholfrist läuft morgen ab und du bist krank. — The collection deadline ends tomorrow and you're ill.",
+            "why": "Die Vollmacht ist der vorgesehene Weg; eine Fristverlängerung gibt es in der Regel nicht."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Noch länger warten."
+              },
+              {
+                "key": "b",
+                "text": "Die Zahlung zurückbuchen lassen."
+              },
+              {
+                "key": "c",
+                "text": "Den Einlieferungsbeleg mit Datum und Sendungsnummer schicken und um Prüfung bis zu einem konkreten Datum bitten."
+              }
+            ],
+            "q": "Du hast die Rücksendung abgegeben, aber keine Erstattung bekommen. — You returned the item but got no refund.",
+            "why": "Beleg plus Frist ist der wirksame erste Schritt; die Rückbuchung kommt erst danach infrage."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nichts tun."
+              },
+              {
+                "key": "b",
+                "text": "Beim Zusteller widersprechen, dass dort abgelegt wird, und stattdessen Filiale oder Packstation als Ziel angeben."
+              },
+              {
+                "key": "c",
+                "text": "Den Boten ansprechen und schimpfen."
+              }
+            ],
+            "q": "Der Bote stellt Pakete immer in den offenen Hausflur. — The courier always leaves parcels in the open hallway.",
+            "why": "Der Ablageort lässt sich ausschließen; das löst das Problem dauerhaft statt nur für heute."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort dem Händler schreiben, mit Sendungsnummer und Beschreibung, und um Rücksendung bitten."
+              },
+              {
+                "key": "b",
+                "text": "Abwarten, ob es auffällt."
+              },
+              {
+                "key": "c",
+                "text": "Nichts sagen und neu bestellen."
+              }
+            ],
+            "q": "Du hast versehentlich das falsche Teil zurückgeschickt. — You accidentally sent back the wrong item.",
+            "why": "Früh melden, solange das Paket noch zuzuordnen ist — danach wird es sehr mühsam."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn das Paket Ärger macht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Benachrichtigungskarte"
+          ],
+          "2": [
+            "Abholfrist"
+          ],
+          "3": [
+            "Vollmacht"
+          ],
+          "4": [
+            "Retourenlabel"
+          ],
+          "5": [
+            "Beleg"
+          ],
+          "6": [
+            "Nachforschungsauftrag"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Im Briefkasten lag eine {1}. (Zettel: wir waren da)\n2. Die {2} beträgt sieben Werktage. (Zeit zum Abholen)\n3. Meine Nachbarin braucht eine {3}. (schriftliche Erlaubnis)\n4. Für die Rücksendung brauche ich ein {4}. (Aufkleber für die Retoure)\n5. Heben Sie den {5} auf. (Nachweis, dass Sie es abgegeben haben)\n6. Ich stelle einen {6}. (offizielle Suche nach dem Paket)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "abholen"
+          ],
+          "2": [
+            "Benachrichtigungskarte"
+          ],
+          "3": [
+            "Abholfrist"
+          ],
+          "4": [
+            "Werktage"
+          ],
+          "5": [
+            "Vollmacht"
+          ],
+          "6": [
+            "Retourenlabel"
+          ],
+          "7": [
+            "Beleg"
+          ],
+          "8": [
+            "geklingelt"
+          ],
+          "9": [
+            "wurde"
+          ],
+          "10": [
+            "Packstation"
+          ],
+          "11": [
+            "Falls"
+          ],
+          "12": [
+            "Nachforschungsauftrag"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich möchte ein Paket {1}. (collect)\n2. Hier ist die {2}. (notification card)\n3. Wie lange ist die {3}? (collection period)\n4. Sieben {4}. (working days)\n5. Meine Nachbarin braucht eine {5}. (written authorisation)\n6. Für die Retoure brauche ich ein {6}. (return label)\n7. Heben Sie den {7} auf. (proof of posting)\n8. Der Bote hat zweimal {8}. (rung — Partizip)\n9. Das Paket {9} beim Nachbarn abgegeben. (was — Passiv Präteritum)\n10. Ich lasse es an die {10} liefern. (parcel locker)\n11. {11} das Paket verloren geht, brauche ich den Beleg. (in case)\n12. Ich stelle einen {12}. (tracing request)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-38-paket-abholen-a2",
+  "intro": "Kaum etwas passiert im deutschen Alltag so oft wie das: Du warst nicht da, im Briefkasten liegt eine Benachrichtigungskarte, und jetzt musst du herausfinden, wo dein Paket ist — beim Nachbarn, in der Filiale oder in der Packstation. Dazu kommt der Rückweg: etwas zurückschicken, das Retourenlabel, die Frist. Und die zwei Ärgerfälle, die jeder einmal hat: Das Paket ist beschädigt, oder es gilt als zugestellt und ist trotzdem nirgends. Grammatik nach Bedarf: Perfekt und Passiv, Wechselpräpositionen, Nebensätze mit falls und obwohl. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/38-paket-abholen-a2",
+  "level": "A2",
+  "summary": "Benachrichtigungskarte, Filiale und Packstation, Vollmacht für Nachbarn, Retoure — und was gilt, wenn das Paket kaputt oder weg ist.",
+  "title": "Paket abholen und zurückschicken — A2",
+  "topic": "Pakete und Retouren"
+}

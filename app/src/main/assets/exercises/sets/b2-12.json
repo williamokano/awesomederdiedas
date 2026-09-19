@@ -1,0 +1,1524 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "c",
+          "2": "f",
+          "3": "e",
+          "4": "a",
+          "5": "d",
+          "6": "b"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die These"
+          },
+          {
+            "key": "2",
+            "text": "das Argument"
+          },
+          {
+            "key": "3",
+            "text": "der Beleg"
+          },
+          {
+            "key": "4",
+            "text": "das Beispiel"
+          },
+          {
+            "key": "5",
+            "text": "die Schlussfolgerung"
+          },
+          {
+            "key": "6",
+            "text": "das Fazit"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "ein konkreter Fall, der das Argument veranschaulicht"
+          },
+          {
+            "key": "b",
+            "text": "das abschließende Ergebnis der Erörterung"
+          },
+          {
+            "key": "c",
+            "text": "die aufgestellte Behauptung, der Standpunkt"
+          },
+          {
+            "key": "d",
+            "text": "das, was aus den Argumenten folgt"
+          },
+          {
+            "key": "e",
+            "text": "ein Nachweis, eine Quelle, eine Studie"
+          },
+          {
+            "key": "f",
+            "text": "ein Grund, der für oder gegen etwas spricht"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A1",
+      "instructions": "Ordne jeden Begriff (1–6) der richtigen Bedeutung (a–f) zu.",
+      "title": "Vokabular der Argumentation zuordnen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Ich bin der Ansicht"
+          ],
+          "2": [
+            "Meiner Meinung nach"
+          ],
+          "3": [
+            "Meines Erachtens"
+          ],
+          "4": [
+            "Meiner Auffassung nach"
+          ],
+          "5": [
+            "Ich bin der Ansicht"
+          ],
+          "6": [
+            "Meines Erachtens"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1}, dass Homeoffice mehr Vorteile als Nachteile hat.\n2. {2} überwiegen die Vorteile, sofern klare Regeln bestehen.\n3. {3} fehlt im Artikel ein entscheidender Vergleich.\n4. {4} sollten Leserbriefe immer mit Belegen versehen sein.\n5. {5}, dass die Stadt neue Radwege braucht.\n6. {6} ist eine autofreie Innenstadt sinnvoll.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Setze das passende Redemittel ein (Ich bin der Ansicht / Meiner Meinung nach / Meines Erachtens / Meiner Auffassung nach). 6 Items.",
+      "title": "Redemittel der Position"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Einleitung"
+          ],
+          "2": [
+            "These"
+          ],
+          "3": [
+            "Hauptteil"
+          ],
+          "4": [
+            "Beleg"
+          ],
+          "5": [
+            "Beispiel"
+          ],
+          "6": [
+            "Widerlegung"
+          ],
+          "7": [
+            "Schluss"
+          ],
+          "8": [
+            "Fazit"
+          ],
+          "9": [
+            "Argumente"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die {1} führt zum Thema hin und nennt die strittige Frage.\n2. Am Ende der Einleitung steht die {2} — die klare Position.\n3. Im {3} bringst du Pro-Argumente mit Belegen.\n4. Ein {4} ist eine Quelle oder Studie, die das Argument stützt.\n5. Ein konkretes Fallbeispiel nennt man auch kurz {5}.\n6. Die {6} entkräftet das wichtigste Contra-Argument.\n7. Der {7} fasst die Erörterung zusammen und zieht das {8}.\n8. Im Schluss stehen keine neuen {9} mehr.\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Setze das passende Wort ein (These, Argument, Beleg, Beispiel, Fazit, Widerlegung, Einleitung, Hauptteil, Schluss). 8 Items, 9 Lücken.",
+      "title": "Architektur der Erörterung — Lücken füllen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zusammenfassend lässt sich sagen, dass …"
+              },
+              {
+                "key": "b",
+                "text": "Ich bin der Ansicht, dass …"
+              },
+              {
+                "key": "c",
+                "text": "Andererseits …"
+              }
+            ],
+            "q": "Du willst deine persönliche Meinung klar formulieren. Welches Redemittel passt am besten?",
+            "why": "\"Ich bin der Ansicht, dass …\" ist die klassische Einleitung einer Position."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einerseits …, andererseits …"
+              },
+              {
+                "key": "b",
+                "text": "Zusammenfassend lässt sich sagen, dass …"
+              },
+              {
+                "key": "c",
+                "text": "Diesem Argument ist entgegenzuhalten, dass …"
+              }
+            ],
+            "q": "Du willst Pro und Contra gegenüberstellen. Welches Redemittel passt?",
+            "why": "\"Einerseits …, andererseits …\" ist die Standardformel für Pro/Contra."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es spricht für …, dass …"
+              },
+              {
+                "key": "b",
+                "text": "Alles in allem …"
+              },
+              {
+                "key": "c",
+                "text": "Diesem Argument ist entgegenzuhalten, dass …"
+              }
+            ],
+            "q": "Du willst das wichtigste Contra-Argument entkräften. Welches Redemittel passt?",
+            "why": "\"Diesem Argument ist entgegenzuhalten, dass …\" leitet eine Widerlegung ein."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Andererseits …"
+              },
+              {
+                "key": "b",
+                "text": "Als Beleg dient …"
+              },
+              {
+                "key": "c",
+                "text": "Zusammenfassend lässt sich sagen, dass …"
+              }
+            ],
+            "q": "Du willst deine Erörterung sauber abschließen. Welches Redemittel passt?",
+            "why": "\"Zusammenfassend lässt sich sagen, dass …\" leitet das Fazit ein."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ein wichtiges Argument ist, dass …"
+              },
+              {
+                "key": "b",
+                "text": "Als Beleg dient eine Studie der TU Berlin."
+              },
+              {
+                "key": "c",
+                "text": "Diesem Argument ist entgegenzuhalten, dass …"
+              }
+            ],
+            "q": "Du willst eine Quelle nennen. Welches Redemittel passt?",
+            "why": "\"Als Beleg dient …\" leitet eine Quelle ein."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es spricht gegen …, dass …"
+              },
+              {
+                "key": "b",
+                "text": "Es spricht für …, dass …"
+              },
+              {
+                "key": "c",
+                "text": "Zwar …, aber …"
+              }
+            ],
+            "q": "Du willst einen Vorteil benennen. Welches Redemittel passt?",
+            "why": "\"Es spricht für …, dass …\" benennt einen Vorteil."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A4",
+      "instructions": "Wähle das passende Redemittel (a, b oder c).",
+      "title": "Welches Redemittel passt?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "sondern auch"
+          ],
+          "2": [
+            "als auch"
+          ],
+          "3": [
+            "oder"
+          ],
+          "4": [
+            "noch"
+          ],
+          "5": [
+            "aber"
+          ],
+          "6": [
+            "aber"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Nicht nur die Arbeitgeber, {1} die Beschäftigten profitieren.\n2. Sowohl die Umwelt {2} die Anwohner profitieren.\n3. Entweder führen wir Teamtage ein, {3} die Kommunikation leidet.\n4. Weder die Chefin {4} das Team möchte zurück ins Büro.\n5. Zwar ist Homeoffice praktisch, {5} es ersetzt nicht den persönlichen Kontakt.\n6. Das Argument hat zwar Berechtigung, {6} es lässt sich leicht widerlegen.\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Setze den passenden zweiten Teil ein (sondern auch / als auch / oder / noch / aber). 6 Items.",
+      "title": "Zweiteilige Konnektoren ergänzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Ich bin der Ansicht, dass Homeoffice Vorteile hat.",
+            "tiles": [
+              "Ich",
+              "bin",
+              "der",
+              "Ansicht",
+              "dass",
+              "Homeoffice",
+              "Vorteile",
+              "hat"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Meiner Meinung nach überwiegen die Vorteile.",
+            "tiles": [
+              "Meiner",
+              "Meinung",
+              "nach",
+              "überwiegen",
+              "die",
+              "Vorteile"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Zusammenfassend lässt sich sagen, dass das Modell funktioniert.",
+            "tiles": [
+              "Zusammenfassend",
+              "lässt",
+              "sich",
+              "sagen",
+              "dass",
+              "das",
+              "Modell",
+              "funktioniert"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A6",
+      "instructions": "Bring die Wörter in die richtige Reihenfolge.",
+      "title": "Satzbau: Einleitung einer Erörterung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Obwohl"
+          ],
+          "2": [
+            "dennoch"
+          ],
+          "3": [
+            "Je"
+          ],
+          "4": [
+            "desto"
+          ],
+          "5": [
+            "Sofern"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} viele Beschäftigte Homeoffice wünschen, bleiben die meisten im Büro.\n2. Die Erfahrungen sind zwar gemischt, {2} überwiegen die positiven Berichte.\n3. {3} länger die Beschäftigten im Homeoffice arbeiten, {4} besser organisieren sie sich.\n4. {5} klare Regeln bestehen, ist Homeoffice sinnvoll.\n",
+        "type": "gap-text"
+      },
+      "id": "A7",
+      "instructions": "Setze den passenden Konnektor ein (obwohl / dennoch / je … desto / indem / sofern). 4 Items, 5 Lücken.",
+      "title": "Konnektoren aus B2/07 einsetzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Pro-Argument"
+              },
+              {
+                "key": "b",
+                "text": "Contra-Argument"
+              },
+              {
+                "key": "c",
+                "text": "Neutrale Feststellung"
+              }
+            ],
+            "q": "„Homeoffice spart Pendelzeit.\"",
+            "why": "Eine Zeitersparnis ist ein Vorteil von Homeoffice."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Pro-Argument"
+              },
+              {
+                "key": "b",
+                "text": "Contra-Argument"
+              },
+              {
+                "key": "c",
+                "text": "Neutrale Feststellung"
+              }
+            ],
+            "q": "„Homeoffice führt zu sozialer Isolation.\"",
+            "why": "Isolation ist ein Nachteil von Homeoffice."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Pro-Argument"
+              },
+              {
+                "key": "b",
+                "text": "Contra-Argument"
+              },
+              {
+                "key": "c",
+                "text": "Neutrale Feststellung"
+              }
+            ],
+            "q": "„Viele Beschäftigte arbeiten seit 2020 im Homeoffice.\"",
+            "why": "Die Aussage beschreibt eine Tatsache, ohne sie zu bewerten."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Pro-Argument"
+              },
+              {
+                "key": "b",
+                "text": "Contra-Argument"
+              },
+              {
+                "key": "c",
+                "text": "Neutrale Feststellung"
+              }
+            ],
+            "q": "„Eine autofreie Innenstadt verbessert die Luftqualität.\"",
+            "why": "Eine bessere Luftqualität ist ein Vorteil — also ein Pro-Argument."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Pro-Argument"
+              },
+              {
+                "key": "b",
+                "text": "Contra-Argument"
+              },
+              {
+                "key": "c",
+                "text": "Neutrale Feststellung"
+              }
+            ],
+            "q": "„Kleine Geschäfte fürchten Umsatzeinbußen durch autofreie Innenstädte.\"",
+            "why": "Umsatzeinbußen sind ein Nachteil — also ein Contra-Argument."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A8",
+      "instructions": "Wähle: handelt es sich um ein Pro-Argument (a), ein Contra-Argument (b) oder eine neutrale Feststellung (c)?",
+      "title": "Pro oder Contra?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "position",
+            "label": "Position beziehen"
+          },
+          {
+            "key": "argument",
+            "label": "Argument einleiten / stützen / widerlegen"
+          },
+          {
+            "key": "fazit",
+            "label": "Fazit / Abschluss"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "position",
+            "text": "Ich bin der Ansicht, dass …"
+          },
+          {
+            "bucket": "position",
+            "text": "Meiner Meinung nach …"
+          },
+          {
+            "bucket": "position",
+            "text": "Meines Erachtens …"
+          },
+          {
+            "bucket": "argument",
+            "text": "Einerseits …, andererseits …"
+          },
+          {
+            "bucket": "argument",
+            "text": "Es spricht für …, dass …"
+          },
+          {
+            "bucket": "argument",
+            "text": "Als Beleg dient …"
+          },
+          {
+            "bucket": "argument",
+            "text": "Diesem Argument ist entgegenzuhalten, dass …"
+          },
+          {
+            "bucket": "fazit",
+            "text": "Zusammenfassend lässt sich sagen, dass …"
+          },
+          {
+            "bucket": "fazit",
+            "text": "Alles in allem …"
+          },
+          {
+            "bucket": "fazit",
+            "text": "Es bleibt festzuhalten, dass …"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A9",
+      "instructions": "Ordne jedes Redemittel der richtigen Aufgabe zu.",
+      "title": "Argumentations-Werkzeuge sortieren"
+    },
+    {
+      "block": "A",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "These",
+              "Argument",
+              "Beleg",
+              "Dekoration"
+            ],
+            "odd": 3,
+            "why": "Dekoration gehört nicht in eine Erörterung; These, Argument und Beleg sind die drei Säulen."
+          },
+          {
+            "items": [
+              "Einleitung",
+              "Hauptteil",
+              "Schluss",
+              "Zwischenüberschrift"
+            ],
+            "odd": 3,
+            "why": "Die Zwischenüberschrift ist kein Architektur-Teil; Einleitung, Hauptteil und Schluss sind die drei Hauptteile."
+          },
+          {
+            "items": [
+              "Meiner Meinung nach",
+              "Ich bin der Ansicht",
+              "Meines Erachtens",
+              "Wie geht's?"
+            ],
+            "odd": 3,
+            "why": "„Wie geht's?\" ist Smalltalk, kein Position-Redemittel; die anderen drei leiten eine Meinung ein."
+          },
+          {
+            "items": [
+              "Zusammenfassend",
+              "Alles in allem",
+              "Es bleibt festzuhalten",
+              "Einerseits"
+            ],
+            "odd": 3,
+            "why": "\"Einerseits\" leitet eine Gegenüberstellung ein, kein Fazit; die anderen drei schließen die Erörterung ab."
+          },
+          {
+            "items": [
+              "Sowohl … als auch",
+              "Nicht nur … sondern auch",
+              "Weder … noch",
+              "Entweder … oder … mit aber"
+            ],
+            "odd": 3,
+            "why": "Die Kombination „entweder … oder … mit aber\" bricht die Wortpaar-Regel; die anderen drei sind feste Paare."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "A10",
+      "instructions": "Streiche den Ausdruck, der nicht zu den anderen passt, und erkläre warum.",
+      "title": "Was passt nicht in die Erörterung?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Ich bin der Ansicht"
+          ],
+          "2": [
+            "Dafür"
+          ],
+          "3": [
+            "Dagegen"
+          ],
+          "4": [
+            "Als Beleg"
+          ],
+          "5": [
+            "Als Beispiel"
+          ],
+          "6": [
+            "Diesem"
+          ],
+          "7": [
+            "Zusammenfassend"
+          ],
+          "8": [
+            "sofern"
+          ]
+        },
+        "bank": [
+          "Ich bin der Ansicht",
+          "Dafür",
+          "Dagegen",
+          "Als Beleg",
+          "Als Beispiel",
+          "Diesem",
+          "Zusammenfassend",
+          "sofern",
+          "Meines Erachtens",
+          "Entweder"
+        ],
+        "text": "{1}, dass Homeoffice mehr Vorteile als Nachteile hat. {2} spricht die bessere\nVereinbarkeit von Beruf und Familie. {3} spricht die fehlende Teamkommunikation.\n{4} dient eine Studie der TU Berlin aus dem Jahr 2024. {5} lässt sich eine Mutter aus\nHamburg nennen, die durch Homeoffice wieder in Vollzeit arbeiten kann. {6} Argument ist\nentgegenzuhalten, dass regelmäßige Teamtage die Isolation ausgleichen. {7} lässt sich\nsagen, dass das Homeoffice — {8} klare Regeln bestehen — eine sinnvolle Ergänzung ist.\n",
+        "type": "gap-bank"
+      },
+      "id": "A11",
+      "instructions": "Füll die 8 Lücken mit Redemitteln aus dem Kasten. Zwei Ausdrücke sind zu viel.",
+      "title": "Redemittel im Kontext einsetzen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Bezug nehmend"
+          ],
+          "2": [
+            "Einerseits"
+          ],
+          "3": [
+            "andererseits"
+          ],
+          "4": [
+            "Ich bin der Ansicht"
+          ],
+          "5": [
+            "Dafür spricht"
+          ],
+          "6": [
+            "Dagegen spricht"
+          ],
+          "7": [
+            "Als Beleg"
+          ],
+          "8": [
+            "Diesem Argument ist entgegenzuhalten"
+          ],
+          "9": [
+            "Zusammenfassend"
+          ],
+          "10": [
+            "Alles in allem"
+          ]
+        },
+        "listLayout": true,
+        "text": "Sehr geehrte Redaktion,\n{1} auf Ihren Artikel vom 5. Mai möchte ich kurz reagieren.\n{2} finde ich die Grundidee überzeugend, {3} vermisse ich konkrete Belege.\n{4}, dass das Vorhaben nur dann sinnvoll ist, wenn die Anwohner rechtzeitig\neingebunden werden. {5}, dass die Luftqualität messbar besser wird. {6},\ndass kleine Geschäfte zunächst Umsatzeinbußen befürchten. {7} dient eine Studie\naus Wien, wo die Umsätze nach der Umstellung gestiegen sind. {8}, dass die\nErfahrungen aus Wien das Gegenteil der Befürchtungen zeigen.\n{9} lässt sich sagen, dass die Vorteile überwiegen.\n{10} sollte die Diskussion mit mehr Daten und weniger Polemik geführt werden.\n",
+        "type": "gap-text"
+      },
+      "id": "B4",
+      "instructions": "Füll die 10 Lücken mit passenden Redemitteln (Ich bin der Ansicht / Meiner Meinung nach / einerseits / andererseits / Dafür spricht / Dagegen spricht / Als Beleg / Diesem Argument ist entgegenzuhalten / Zusammenfassend / Alles in allem).",
+      "title": "Leserbrief — Redemittel einsetzen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich bin der Ansicht, dass autofreie Innenstädte sinnvoll sind."
+              },
+              {
+                "key": "b",
+                "text": "Als Beleg dient eine Studie aus Wien."
+              },
+              {
+                "key": "c",
+                "text": "Zusammenfassend lässt sich sagen, dass die Vorteile überwiegen."
+              }
+            ],
+            "q": "Einleitung:",
+            "why": "Die klare Position gehört in die Einleitung (als These)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ein wichtiges Argument ist die Zeitersparnis."
+              },
+              {
+                "key": "b",
+                "text": "Andererseits bezweifle ich, dass die Geschäfte profitieren."
+              },
+              {
+                "key": "c",
+                "text": "Alles in allem überwiegen die Vorteile."
+              }
+            ],
+            "q": "Hauptteil (Pro-Argument + Beleg):",
+            "why": "Pro-Argumente stehen im Hauptteil; „alles in allem\" gehört ins Fazit."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einerseits überzeugt das Argument, andererseits fehlt der Beleg."
+              },
+              {
+                "key": "b",
+                "text": "Diesem Argument ist entgegenzuhalten, dass …"
+              },
+              {
+                "key": "c",
+                "text": "Zusammenfassend lässt sich sagen, dass …"
+              }
+            ],
+            "q": "Schluss (Fazit):",
+            "why": "\"Zusammenfassend lässt sich sagen, dass …\" leitet das Fazit ein."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Als Beleg dient eine Studie."
+              },
+              {
+                "key": "b",
+                "text": "Diesem Argument ist entgegenzuhalten, dass die Erfahrung das Gegenteil zeigt."
+              },
+              {
+                "key": "c",
+                "text": "Meiner Meinung nach ist das überzeugend."
+              }
+            ],
+            "q": "Widerlegung des wichtigsten Contra-Arguments:",
+            "why": "\"Diesem Argument ist entgegenzuhalten, dass …\" leitet eine Widerlegung ein."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B5",
+      "instructions": "Ordne den Satz (a, b oder c) der richtigen Sektion der Erörterung zu.",
+      "title": "Welcher Satz passt in welche Sektion?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "a",
+          "5": "a",
+          "6": "a"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "obwohl"
+          },
+          {
+            "key": "2",
+            "text": "dennoch"
+          },
+          {
+            "key": "3",
+            "text": "sowohl … als auch"
+          },
+          {
+            "key": "4",
+            "text": "je … desto"
+          },
+          {
+            "key": "5",
+            "text": "indem"
+          },
+          {
+            "key": "6",
+            "text": "sofern"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Subjunktion (Nebensatz, Verb am Ende)"
+          },
+          {
+            "key": "b",
+            "text": "Konjunktionaladverb (Hauptsatz, Inversion)"
+          },
+          {
+            "key": "c",
+            "text": "zweiteiliger Konnektor (Position 0, keine Inversion)"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B6",
+      "instructions": "Ordne jeden Konnektor (1–6) seiner Wortstellungs-Klasse (a–c) zu.",
+      "title": "Konnektoren-Klassen zuordnen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Ich bin der Ansicht"
+          ],
+          "2": [
+            "Dafür"
+          ],
+          "3": [
+            "Als Beleg"
+          ],
+          "4": [
+            "Diesem Argument ist entgegenzuhalten"
+          ],
+          "5": [
+            "Zwar"
+          ],
+          "6": [
+            "aber"
+          ],
+          "7": [
+            "Zusammenfassend"
+          ],
+          "8": [
+            "sofern"
+          ]
+        },
+        "bank": [
+          "Ich bin der Ansicht",
+          "Dafür",
+          "Als Beleg",
+          "Diesem Argument ist entgegenzuhalten",
+          "Zwar",
+          "aber",
+          "Zusammenfassend",
+          "sofern",
+          "Einerseits",
+          "Meines Erachtens"
+        ],
+        "text": "{1}, dass Homeoffice mehr Vor- als Nachteile hat. {2} spricht vor allem die messbare\nZeitersparnis. {3} dient eine Studie der TU Berlin aus 2024. Allerdings gibt es auch\nGegenargumente: So leidet die Teamkommunikation. {4}, dass regelmäßige Teamtage diese\nLücke schließen. {5} ist das Homeoffice praktisch, {6} es ersetzt nicht den persönlichen\nKontakt. {7} lässt sich sagen, dass das Homeoffice — {8} klare Regeln bestehen —\neine sinnvolle Ergänzung zum Büroalltag ist.\n",
+        "type": "gap-bank"
+      },
+      "id": "B7",
+      "instructions": "Füll die 8 Lücken mit Bausteinen aus dem Kasten. Zwei Wörter sind zu viel.",
+      "title": "Erörterung ergänzen — Bausteine einsetzen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Einerseits"
+          ],
+          "2": [
+            "Andererseits"
+          ],
+          "3": [
+            "spricht"
+          ],
+          "4": [
+            "spricht"
+          ],
+          "5": [
+            "belegen"
+          ],
+          "6": [
+            "Struktur"
+          ],
+          "7": [
+            "Erörterung"
+          ],
+          "8": [
+            "Obwohl"
+          ],
+          "9": [
+            "indem"
+          ],
+          "10": [
+            "Je"
+          ]
+        },
+        "listLayout": true,
+        "text": "Eine Tageszeitung lebt von Meinungen, aber auch vom Streit um sie. (1) {1} ist diese\nVielfalt ein Zeichen für eine lebendige Demokratie. (2) {2} beklagen Redaktionen seit\nJahren, dass viele Briefe nicht mehr enthalten als eine bloße Behauptung. **Dafür\n(3) {3}**, dass die Zeitung ohne Leserbriefe an Lebendigkeit verliert. **Dagegen\n(4) {4}**, dass die meisten Zuschriften weder Belege noch Beispiele enthalten. Wer\n„Homeoffice ist schlecht\" schreibt, ohne zu sagen, **wodurch** es schlecht ist und\n**welche Studien** das (5) {5}, bewegt die Debatte kein Stück. **Meiner Meinung\nnach** liegt das Problem nicht in den Meinungen selbst, sondern in der fehlenden\n(6) {6}. Ein guter Leserbrief folgt der gleichen Architektur wie eine (7) {7}:\nThese, Argumente, Gegenargument, Fazit. (8) {8} nicht jeder Leserbrief perfekt sein\nmuss, so steigt doch die Qualität der Debatte, (9) {9} die Zeitung kurze Leitfäden\nveröffentlicht. (10) {10} mehr gute Briefe erscheinen, desto lebendiger wird die\nöffentliche Debatte.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Füll jede Lücke mit einem passenden Wort (Redemittel, Nomen oder Konnektor). 10 Items.",
+      "title": "Lückentext: Streitkultur in der Redaktion (Lesetext)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "bin"
+              },
+              {
+                "key": "b",
+                "text": "glaube"
+              },
+              {
+                "key": "c",
+                "text": "habe"
+              }
+            ],
+            "q": "Ich _______ der Ansicht, dass Homeoffice mehr Vorteile als Nachteile hat.",
+            "why": "\"Ich bin der Ansicht, dass …\" ist die formelle Standardformel."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "zu"
+              },
+              {
+                "key": "b",
+                "text": "nach"
+              },
+              {
+                "key": "c",
+                "text": "von"
+              }
+            ],
+            "q": "Meiner Meinung _______ überwiegen die Vorteile.",
+            "why": "\"Meiner Meinung nach\" ist eine feste Präpositionalkonstruktion."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Für Beispiel"
+              },
+              {
+                "key": "b",
+                "text": "Zum Beispiel"
+              },
+              {
+                "key": "c",
+                "text": "Als Beispiel"
+              }
+            ],
+            "q": "_______ dient eine Studie der TU Berlin aus dem Jahr 2024.",
+            "why": "\"Als Beleg/Beispiel dient …\" ist die korrekte Formel."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zusammenfassend"
+              },
+              {
+                "key": "b",
+                "text": "Zusammengefasst"
+              },
+              {
+                "key": "c",
+                "text": "Zusammen"
+              }
+            ],
+            "q": "_______ lässt sich sagen, dass die Vorteile überwiegen.",
+            "why": "\"Zusammenfassend lässt sich sagen, dass …\" ist die Standard-Fazit-Formel."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Trotzdem"
+              },
+              {
+                "key": "b",
+                "text": "Obwohl"
+              },
+              {
+                "key": "c",
+                "text": "Dennoch"
+              }
+            ],
+            "q": "_______ nicht jeder Leserbrief perfekt sein muss, so steigt die Qualität der Debatte.",
+            "why": "\"Obwohl\" leitet einen Nebensatz ein (Verb am Ende); „trotzdem\" und „dennoch\" sind Hauptsatz-Adverbien."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "hat"
+              },
+              {
+                "key": "c",
+                "text": "ist"
+              }
+            ],
+            "q": "Diesem Argument _______ entgegenzuhalten, dass die Erfahrung das Gegenteil zeigt.",
+            "why": "\"Diesem Argument ist entgegenzuhalten, dass …\" ist die feste Passiv-Formel."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle die richtige Option (a, b oder c) für jede Lücke.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "BIN"
+          ],
+          "2": [
+            "SPRICHT"
+          ],
+          "3": [
+            "SPRICHT"
+          ],
+          "4": [
+            "ALS"
+          ],
+          "5": [
+            "IST"
+          ],
+          "6": [
+            "ZWAR"
+          ],
+          "7": [
+            "DENNOCH"
+          ],
+          "8": [
+            "SOFERN"
+          ],
+          "9": [
+            "LÄSST"
+          ],
+          "10": [
+            "ZUSAMMENFASSEND"
+          ]
+        },
+        "bank": [
+          "BIN",
+          "SPRICHT",
+          "SPRICHT",
+          "ALS",
+          "IST",
+          "ZWAR",
+          "DENNOCH",
+          "SOFERN",
+          "LÄSST",
+          "ZUSAMMENFASSEND",
+          "MEINUNG",
+          "NACHDEM",
+          "EINANDER",
+          "SONDERN",
+          "WEDER"
+        ],
+        "text": "Aus einem Leserbrief an die Redaktion: „Ich {1} der Ansicht, dass die autofreie\nInnenstadt mehr Vorteile als Nachteile hat. Dafür {2} vor allem die messbar bessere\nLuftqualität. Dagegen {3}, dass kleine Geschäfte zunächst Umsatzeinbußen befürchten.\n{4} Beleg dient eine Studie aus Wien, wo die Umsätze nach der Umstellung gestiegen sind.\nDiesem Argument {5} entgegenzuhalten, dass die Erfahrungen aus Wien das Gegenteil\nder Befürchtungen zeigen. {6} sind die Erfahrungen gemischt, {7} überwiegen die\npositiven Berichte. {8} die Redaktion solche Beispiele abdruckt, {9} sich die\nDebatte versachlichen. {10} lässt sich sagen, dass die Vorteile überwiegen.\"\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Füll die 10 Lücken mit Wörtern aus dem Kasten. Fünf Wörter sind zu viel. Jedes Wort wird nur einmal benutzt.",
+      "title": "Sprachbausteine Teil 2 (Wortbank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Im Lesetext wird gesagt, dass die meisten Leserbriefe Belege und Beispiele enthalten.",
+            "why": "„die meisten Zuschriften weder Belege noch Beispiele enthalten\"."
+          },
+          {
+            "answer": true,
+            "q": "Laut Lesetext ist ein guter Leserbrief wie eine kleine Erörterung aufgebaut.",
+            "why": "„Ein guter Leserbrief folgt der gleichen Architektur wie eine Erörterung\"."
+          },
+          {
+            "answer": false,
+            "q": "Der Verfasser des Lesetextes hält Leserbriefe grundsätzlich für überflüssig.",
+            "why": "Er sagt, dass „die Zeitung ohne Leserbriefe an Lebendigkeit verliert\" — er befürwortet sie."
+          },
+          {
+            "answer": true,
+            "q": "Die Zeitung sollte laut Text kurze Leitfäden für gute Zuschriften veröffentlichen.",
+            "why": "„indem die Zeitung kurze Leitfäden für gute Zuschriften veröffentlicht\"."
+          },
+          {
+            "answer": false,
+            "q": "Der Lesetext empfiehlt, in Leserbriefen keine Belege zu nennen.",
+            "why": "Er empfiehlt das Gegenteil: „ohne zu sagen, wodurch es schlecht ist und welche Studien das belegen, bewegt die Debatte kein Stück\"."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Eine Tageszeitung lebt von Meinungen — aber sie lebt auch vom Streit um sie. Jeden Tag erscheinen Dutzende Leserbriefe zu kontroversen Themen: autofreie Innenstädte, Tempolimit, Mietendeckel, KI in der Schule. **Einerseits** ist diese Vielfalt ein Zeichen für eine lebendige Demokratie. **Andererseits** beklagen Redaktionen seit Jahren, dass viele Briefe nicht mehr enthalten als eine bloße Behauptung.\n> **Dafür spricht**, dass die Zeitung ohne Leserbriefe an Lebendigkeit verliert. Leserinnen und Leser erwarten, dass ihre Stimme zählt. **Dagegen spricht**, dass die meisten Zuschriften weder Belege noch Beispiele enthalten. Wer schreibt „Homeoffice ist schlecht\", ohne zu sagen, **wodurch** es schlecht ist und **welche Studien** das belegen, bewegt die Debatte kein Stück.\n> **Meiner Meinung nach** liegt das Problem nicht in den Meinungen selbst, sondern in der fehlenden Struktur. Ein guter Leserbrief folgt der gleichen Architektur wie eine Erörterung: **These** (klare Position), **Argumente** (mit Belegen), **Gegenargument** (ernst genommen und widerlegt), **Fazit** (kurz und klar). **Sowohl** die Redaktion als auch die Lesenden profitieren, wenn diese Struktur eingehalten wird.\n> **Obwohl** nicht jeder Leserbrief perfekt sein muss, **so steigt** doch die Qualität der Debatte, **indem** die Zeitung kurze Leitfäden für gute Zuschriften veröffentlicht. **Sofern** die Redaktion solche Hilfen anbietet, **werden** Leserbriefe zu dem, was sie sein sollten: kleine, gut begründete Erörterungen. **Je** mehr gute Briefe erscheinen, **desto** lebendiger wird die öffentliche Debatte — **es sei denn**, die Bereitschaft zum Argumentieren geht weiter zurück.\n\nRichtig (R) oder falsch (F)?\n",
+      "title": "Lesen Text 1 (Lesetext: Streitkultur in der Redaktion)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie lehnt autofreie Innenstädte ab."
+              },
+              {
+                "key": "b",
+                "text": "Sie befürwortet autofreie Innenstädte unter Bedingungen."
+              },
+              {
+                "key": "c",
+                "text": "Sie hat keine Meinung."
+              }
+            ],
+            "q": "Welche Position vertritt die Verfasserin?",
+            "why": "„mehr Vorteile als Nachteile hat, sofern die Umstellung sorgfältig geplant wird\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Eine Studie der Handelskammer aus 2023."
+              },
+              {
+                "key": "b",
+                "text": "Eine Studie der TU Berlin aus 2024."
+              },
+              {
+                "key": "c",
+                "text": "Eigene Erfahrungen."
+              }
+            ],
+            "q": "Welches Argument nennt die Verfasserin als Beleg für ihre Skepsis?",
+            "why": "„Als Beleg für meine Skepsis dient eine Studie der Handelskammer aus dem Jahr 2023\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie ignoriert es."
+              },
+              {
+                "key": "b",
+                "text": "Sie widerlegt es mit dem Beispiel Wien."
+              },
+              {
+                "key": "c",
+                "text": "Sie stimmt ihm vollständig zu."
+              }
+            ],
+            "q": "Wie geht die Verfasserin mit dem Contra-Argument um?",
+            "why": "„Diesem Argument ist jedoch entgegenzuhalten, dass die Erfahrungen aus Wien das Gegenteil zeigen\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Anwohner müssen rechtzeitig eingebunden werden."
+              },
+              {
+                "key": "b",
+                "text": "Die Geschäfte müssen schließen."
+              },
+              {
+                "key": "c",
+                "text": "Es darf keine Studie geben."
+              }
+            ],
+            "q": "Welche Bedingung nennt die Verfasserin im Fazit?",
+            "why": "„sofern die Anwohner rechtzeitig eingebunden werden\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Lies das folgende Schreiben und wähle a, b oder c.\n\n> **Leserbrief zur geplanten autofreien Innenstadt**\n> Sehr geehrte Redaktion, mit Interesse habe ich Ihren Artikel vom 4. Mai gelesen. Ich bin\n> der Ansicht, dass die Idee einer autofreien Innenstadt mehr Vorteile als Nachteile hat,\n> sofern die Umstellung sorgfältig geplant wird. Einerseits überzeugt das Argument der\n> besseren Luftqualität, andererseits bezweifle ich, dass die Geschäfte davon profitieren.\n> Als Beleg für meine Skepsis dient eine Studie der Handelskammer aus dem Jahr 2023. Diesem\n> Argument ist jedoch entgegenzuhalten, dass die Erfahrungen aus Wien das Gegenteil zeigen.\n> Zusammenfassend lässt sich sagen, dass die Vorteile überwiegen, sofern die Anwohner\n> rechtzeitig eingebunden werden. Ich würde mich freuen, wenn die Redaktion in Zukunft\n> auch die positiven Beispiele aus anderen Städten berücksichtigen würde.\n> Mit freundlichen Grüßen, Anna Berg\n",
+      "title": "Lesen Text 2 (neuer Text: Auszug aus einem Leserbrief)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Schlussfolgerung"
+          ],
+          "2": [
+            "Fazit"
+          ],
+          "3": [
+            "Vorurteil"
+          ],
+          "4": [
+            "Widerlegung"
+          ],
+          "5": [
+            "Ich bin der Ansicht"
+          ],
+          "6": [
+            "Meiner Meinung nach"
+          ],
+          "7": [
+            "Einerseits"
+          ],
+          "8": [
+            "andererseits"
+          ],
+          "9": [
+            "Zusammenfassend"
+          ],
+          "10": [
+            "Nicht nur"
+          ],
+          "11": [
+            "Zwar"
+          ],
+          "12": [
+            "noch"
+          ],
+          "13": [
+            "treffen"
+          ],
+          "14": [
+            "desto"
+          ],
+          "15": [
+            "sowohl … als auch"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Argumentations-Vokabular:**\n1. „Das, was aus den Argumenten folgt\" = die {1}\n2. „Das abschließende Ergebnis\" = das {2}\n3. „Eine Meinung ohne Prüfung\" = ein {3}\n4. „Ein Argument entkräften\" = eine {4} leisten\n\n**Redemittel der Stellungnahme:**\n5. Klare Position formell: „{5}, dass …\"\n6. Persönliche Meinung: „{6} überwiegen die Vorteile.\"\n7. Gegenüberstellung: „{7} …, {8} …\"\n8. Fazit: „{9} lässt sich sagen, dass …\"\n\n**Zweiteilige Konnektoren:**\n9. „{10} …, sondern auch …\"\n10. „{11} …, aber …\"\n11. „Weder …, {12}\"\n\n**Wiederholung:**\n12. (B2/08) Funktionsverb zu „eine Entscheidung …\": {13}\n13. (B2/07) „Je mehr …, {14} besser …\"\n14. (B1/10) Wortpaar zu „beide Seiten\": {15}\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Eine Minute pro Item. Keine Notizen. Items mit (B2/xx) bzw. (B1/xx) wiederholen eine frühere Lektion. 15 Items.",
+      "title": "Gemischter Schnelltest"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "These",
+              "Argument",
+              "Beleg",
+              "Dekoration"
+            ],
+            "odd": 3,
+            "why": "Dekoration gehört nicht in eine Erörterung; These, Argument und Beleg sind die drei Säulen."
+          },
+          {
+            "items": [
+              "Ich bin der Ansicht",
+              "Meiner Meinung nach",
+              "Meines Erachtens",
+              "Zusammenfassend"
+            ],
+            "odd": 3,
+            "why": "\"Zusammenfassend\" leitet das Fazit ein, kein Position-Redemittel; die anderen drei beziehen Position."
+          },
+          {
+            "items": [
+              "Einleitung",
+              "Hauptteil",
+              "Schluss",
+              "Überschrift"
+            ],
+            "odd": 3,
+            "why": "Überschrift ist kein Architektur-Teil; die anderen drei sind die Hauptteile einer Erörterung."
+          },
+          {
+            "items": [
+              "Meines Erachtens",
+              "Meiner Meinung nach",
+              "Meiner Auffassung nach",
+              "Meines Eracht"
+            ],
+            "odd": 3,
+            "why": "\"Meines Eracht\" ist eine falsche Form; korrekt ist „meines Erachtens\" (Genitiv Singular von „die Ansicht\")."
+          },
+          {
+            "items": [
+              "sowohl … als auch",
+              "nicht nur … sondern auch",
+              "weder … noch",
+              "zwar … aber mit und"
+            ],
+            "odd": 3,
+            "why": "„Zwar … aber mit und\" bricht die Wortpaar-Regel; die anderen drei sind feste Paare."
+          },
+          {
+            "items": [
+              "Es spricht für",
+              "Es spricht gegen",
+              "Dafür spricht",
+              "Mir spricht"
+            ],
+            "odd": 3,
+            "why": "\"Mir spricht\" gibt es in dieser Redemittel-Klasse nicht; die anderen drei sind Standard-Formeln für Pro/Contra."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum.",
+      "title": "Odd one out"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "desto"
+          ],
+          "2": [
+            "indem"
+          ],
+          "3": [
+            "Falls"
+          ],
+          "4": [
+            "es sei denn"
+          ],
+          "5": [
+            "treffen"
+          ],
+          "6": [
+            "an"
+          ],
+          "7": [
+            "Bezug"
+          ],
+          "8": [
+            "Verfügung"
+          ],
+          "9": [
+            "Sowohl"
+          ],
+          "10": [
+            "als auch"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Aus B2/07 (Konnektoren für Profis):**\n1. „Je mehr du übst, {1} besser wirst du.\"\n2. Man lernt eine Sprache, {2} man sie benutzt.\n3. {3} die Daten rechtzeitig vorliegen, schaffen wir es.\n4. Wir liefern Freitag, {4}, es treten Probleme auf.\n\n**Aus B2/08 (Funktionsverbgefüge):**\n5. „eine Entscheidung {5}\".\n6. „Kritik {6} dem Plan üben\".\n7. „{7} nehmen auf Ihren Brief\".\n8. „zur {8} stehen\".\n\n**Aus B1/10 (Zweiteilige Konnektoren):**\n9. „{9} die Beschäftigten, {10} die Firma profitieren.\"\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Wiederholung früherer Lektionen. 10 Items.",
+      "title": "Rückblick: B2/07, B2/08, B1/10"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Einleitung"
+          ],
+          "2": [
+            "Hauptteil"
+          ],
+          "3": [
+            "Fazit"
+          ],
+          "4": [
+            "Argumente"
+          ],
+          "5": [
+            "Ich bin der Ansicht"
+          ],
+          "6": [
+            "Einerseits"
+          ],
+          "7": [
+            "andererseits"
+          ],
+          "8": [
+            "Zusammenfassend"
+          ],
+          "9": [
+            "ist"
+          ],
+          "10": [
+            "sondern"
+          ],
+          "11": [
+            "Entweder"
+          ],
+          "12": [
+            "oder"
+          ],
+          "13": [
+            "aber"
+          ],
+          "14": [
+            "Obwohl"
+          ],
+          "15": [
+            "desto"
+          ],
+          "16": [
+            "Zwar"
+          ],
+          "17": [
+            "aber"
+          ],
+          "18": [
+            "spricht"
+          ],
+          "19": [
+            "Ich"
+          ],
+          "20": [
+            "stellen"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Architektur der Erörterung:**\n1. Die {1} führt zum Thema hin und nennt die These.\n2. Der {2} bringt Pro-Argumente mit Belegen.\n3. Der Schluss enthält das {3}.\n4. Im Schluss stehen keine neuen {4} mehr.\n\n**Redemittel der Stellungnahme:**\n5. Klare Position formell: „{5}, dass …\"\n6. Gegenüberstellung: „{6} …, {7} …\"\n7. Fazit: „{8} lässt sich sagen, dass …\"\n8. Widerlegung: „Diesem Argument {9} entgegenzuhalten, dass …\"\n\n**Zweiteilige Konnektoren:**\n9. „Nicht nur …, {10} auch …\"\n10. „{11} …, {12} …\" (= entweder … oder)\n11. „Zwar …, {13}\"\n\n**Konnektoren aus B2/07:**\n12. „{14} viele Beschäftigte Homeoffice wünschen, bleiben die meisten im Büro.\"\n13. „Je mehr Homeoffice, {15} besser organisieren sich die Beschäftigten.\"\n\n**Wortstellung:**\n14. „{16} ist Homeoffice praktisch, {17} es ersetzt nicht den Kontakt.\"\n\n**Umformen:**\n15. „Homeoffice spart Zeit.\" → „Es {18} für Homeoffice, dass die Konzentration steigt.\"\n16. „Ich finde Homeoffice gut.\" → „{19} bin der Ansicht, dass Homeoffice gut ist.\"\n\n**Wiederholung:**\n17. (B2/08) Funktionsverb zu „eine Frage …\": {20}\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (bewerte dich /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "b2-12",
+  "intro": "Blöcke: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Die Lösungen findest du in solutions.md. Tipp: Verteil die Blöcke über mehrere Tage — H und A am Tag 1, B am Tag 2, C am Tag 3, D am Tag 4 nach einer Pause.\n",
+  "lesson": "B2/12",
+  "level": "B2",
+  "summary": null,
+  "title": "B2 · Lektion 12 — Übungen (Argumentieren und Erörtern)",
+  "topic": null
+}

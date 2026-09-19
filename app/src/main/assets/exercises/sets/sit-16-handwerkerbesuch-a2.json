@@ -1,0 +1,831 @@
+{
+  "category": "Wohnen & Nachbarschaft",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "ablesen",
+            "label": "Ablesen & Prüfen"
+          },
+          {
+            "key": "reparatur",
+            "label": "Reparatur"
+          },
+          {
+            "key": "einbau",
+            "label": "Einbau & Wartung"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "ablesen",
+            "text": "den Wasserzähler ablesen"
+          },
+          {
+            "bucket": "reparatur",
+            "text": "den verstopften Abfluss frei machen"
+          },
+          {
+            "bucket": "einbau",
+            "text": "die Therme warten"
+          },
+          {
+            "bucket": "ablesen",
+            "text": "den Stromzähler ablesen"
+          },
+          {
+            "bucket": "reparatur",
+            "text": "die tropfende Armatur wechseln"
+          },
+          {
+            "bucket": "einbau",
+            "text": "einen neuen Rauchmelder anbringen"
+          },
+          {
+            "bucket": "ablesen",
+            "text": "die Rauchmelder prüfen"
+          },
+          {
+            "bucket": "reparatur",
+            "text": "das kaputte Fenster reparieren"
+          },
+          {
+            "bucket": "einbau",
+            "text": "die Heizung entlüften"
+          },
+          {
+            "bucket": "ablesen",
+            "text": "den Heizkostenverteiler ablesen"
+          },
+          {
+            "bucket": "reparatur",
+            "text": "die defekte Steckdose austauschen"
+          },
+          {
+            "bucket": "einbau",
+            "text": "einen Filter erneuern"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Anlässe.",
+      "instructionsEn": "Sort the 12 reasons for a visit.",
+      "title": "Wer kommt wofür?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "der"
+          ],
+          "2": [
+            "die"
+          ],
+          "3": [
+            "im"
+          ],
+          "4": [
+            "der"
+          ],
+          "5": [
+            "den"
+          ],
+          "6": [
+            "der"
+          ],
+          "7": [
+            "im"
+          ],
+          "8": [
+            "dem"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Abfluss ist in {1} Küche verstopft. (Wo?)\n2. Kommen Sie bitte in {2} Küche. (Wohin?)\n3. Der Zähler hängt {3} Flur, links neben der Tür. (Wo? — in + dem, kurz)\n4. Der Rauchmelder ist an {4} Decke im Schlafzimmer. (Wo?)\n5. Stellen Sie den Werkzeugkoffer bitte auf {5} Boden. (Wohin?)\n6. Das Wasser steht unter {6} Spüle. (Wo?)\n7. Die Therme hängt {7} Bad. (Wo? — in + dem, kurz)\n8. Gehen wir ins Bad — die Armatur tropft über {8} Waschbecken. (Wo?)\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze den richtigen Artikel im Dativ (Wo?) oder Akkusativ (Wohin?).",
+      "instructionsEn": "Fill in the correct article: dative (where?) or accusative (where to?).",
+      "title": "Wo ist das Problem? Wechselpräpositionen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "e",
+          "3": "f",
+          "4": "c",
+          "5": "a",
+          "6": "h",
+          "7": "d",
+          "8": "g"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Guten Tag, Kern von der Firma Wagner — Sie haben einen Termin?"
+          },
+          {
+            "key": "2",
+            "text": "Wo ist denn das Problem?"
+          },
+          {
+            "key": "3",
+            "text": "Seit wann geht das so?"
+          },
+          {
+            "key": "4",
+            "text": "Haben Sie schon selbst etwas versucht?"
+          },
+          {
+            "key": "5",
+            "text": "Wo hängt der Zähler?"
+          },
+          {
+            "key": "6",
+            "text": "Kann ich hier Wasser anstellen?"
+          },
+          {
+            "key": "7",
+            "text": "Haben Sie einen Lappen für mich?"
+          },
+          {
+            "key": "8",
+            "text": "Würden Sie hier bitte unterschreiben?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Im Flur, links neben der Wohnungstür."
+          },
+          {
+            "key": "b",
+            "text": "Ja, kommen Sie herein."
+          },
+          {
+            "key": "c",
+            "text": "Ja, mit einer Saugglocke — hat aber nichts gebracht."
+          },
+          {
+            "key": "d",
+            "text": "Klar, einen Moment, ich hole einen."
+          },
+          {
+            "key": "e",
+            "text": "In der Küche, der Abfluss ist verstopft."
+          },
+          {
+            "key": "f",
+            "text": "Seit vorgestern Abend."
+          },
+          {
+            "key": "g",
+            "text": "Natürlich. Wo genau?"
+          },
+          {
+            "key": "h",
+            "text": "Ja, der Haupthahn ist unter der Spüle."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A3",
+      "instructions": "Ordne jede Frage (1–8) der passenden Antwort (a–h) zu.",
+      "instructionsEn": "Match each question (1–8) with the fitting answer (a–h).",
+      "title": "Frage und Antwort an der Tür"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "probiert"
+          ],
+          "3": [
+            "haben"
+          ],
+          "4": [
+            "gereinigt"
+          ],
+          "5": [
+            "ist"
+          ],
+          "6": [
+            "abgelaufen"
+          ],
+          "7": [
+            "hat"
+          ],
+          "8": [
+            "gepiept"
+          ],
+          "9": [
+            "habe"
+          ],
+          "10": [
+            "gemeldet"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} es mit einer Saugglocke {2}. (probieren)\n2. Wir {3} den Filter letzte Woche {4}. (reinigen)\n3. Das Wasser {5} plötzlich nicht mehr {6}. (ablaufen)\n4. Der Rauchmelder {7} dreimal {8}. (piepen)\n5. Ich {9} das schon vor zwei Wochen {10}. (melden)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das Perfekt.",
+      "instructionsEn": "Fill in the perfect tense.",
+      "title": "Was haben Sie schon versucht? Perfekt"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "HEREIN"
+          ],
+          "2": [
+            "AB"
+          ],
+          "3": [
+            "WANN"
+          ],
+          "4": [
+            "VERSUCHT"
+          ],
+          "5": [
+            "GEBRACHT"
+          ],
+          "6": [
+            "AUSRÄUMEN"
+          ],
+          "7": [
+            "VERSTOPFER"
+          ],
+          "8": [
+            "ZAHLEN"
+          ],
+          "9": [
+            "UNTERSCHREIBEN"
+          ],
+          "10": [
+            "WAR"
+          ]
+        },
+        "bank": [
+          "HEREIN",
+          "AB",
+          "WANN",
+          "VERSUCHT",
+          "GEBRACHT",
+          "AUSRÄUMEN",
+          "VERSTOPFER",
+          "ZAHLEN",
+          "UNTERSCHREIBEN",
+          "WAR",
+          "WOHER",
+          "KOMMEN",
+          "RECHNUNG",
+          "GEBEN"
+        ],
+        "text": "— Guten Tag, Kern von der Firma Wagner. Wegen des Abflusses?\n— Ja, genau. Kommen Sie bitte {1}.\n— Danke. Wo ist das Problem denn?\n— In der Küche. Das Wasser läuft gar nicht mehr {2}.\n— Seit {3}?\n— Seit vorgestern Abend.\n— Haben Sie schon selbst etwas {4}?\n— Ja, mit einer Saugglocke, aber das hat nichts {5}.\n— Verstehe. Ich schaue mir das mal an. Darf ich hier den Schrank\nkurz {6}?\n— Natürlich, ich mache Ihnen Platz.\n*(zwanzig Minuten später)*\n— So, das war ein {7} im Siphon. Jetzt läuft es wieder.\n— Super, vielen Dank! Muss ich etwas {8}?\n— Nein, das geht über die Hausverwaltung. Würden Sie mir hier\nbitte {9}? Das ist nur der Nachweis, dass ich da {10}.\n— Gern.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "An der Tür und in der Küche"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kommen Sie rein."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe nichts bestellt."
+              },
+              {
+                "key": "c",
+                "text": "Guten Tag. Von welcher Firma sind Sie? Ich hatte eine Ankündigung für heute."
+              }
+            ],
+            "q": "Jemand klingelt und sagt, er komme wegen der Rauchmelder. — Someone rings and says they've come about the smoke detectors.",
+            "why": "Kurz nach Firma und Anlass fragen — das ist üblich und schützt dich, ohne unhöflich zu sein."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "In der Küche, der Abfluss ist verstopft. Kommen Sie, ich zeige es Ihnen."
+              },
+              {
+                "key": "b",
+                "text": "Da hinten."
+              },
+              {
+                "key": "c",
+                "text": "Sie finden das schon."
+              }
+            ],
+            "q": "Er fragt, wo das Problem ist. — He asks where the problem is.",
+            "why": "Ort plus Problem plus hingehen — in einem Satz ist die halbe Diagnose erledigt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nein, dafür sind Sie ja da."
+              },
+              {
+                "key": "b",
+                "text": "Ja, mit einer Saugglocke — hat aber nichts gebracht."
+              },
+              {
+                "key": "c",
+                "text": "Ich weiß nicht."
+              }
+            ],
+            "q": "Er fragt: „Haben Sie schon etwas versucht?“ — He asks whether you have already tried something.",
+            "why": "Was du schon probiert hast, spart ihm einen Arbeitsschritt — deshalb fragt er."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Soll ich den Schrank ausräumen?"
+              },
+              {
+                "key": "b",
+                "text": "Machen Sie mal."
+              },
+              {
+                "key": "c",
+                "text": "Passen Sie auf meine Sachen auf."
+              }
+            ],
+            "q": "Er braucht Platz und du willst helfen. — He needs space and you want to help.",
+            "why": "Hilfe anbieten statt abwarten — bei Küche und Bad muss meistens etwas weggeräumt werden."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich unterschreibe nichts."
+              },
+              {
+                "key": "b",
+                "text": "Gern. Was genau bestätige ich damit?"
+              },
+              {
+                "key": "c",
+                "text": "Einfach unterschreiben."
+              }
+            ],
+            "q": "Am Ende sollst du unterschreiben. — At the end you're asked to sign.",
+            "why": "Kurz fragen, was du bestätigst — meistens nur den Besuch, manchmal aber auch die Leistung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Was kostet das?"
+              },
+              {
+                "key": "b",
+                "text": "Ich zahle nichts."
+              },
+              {
+                "key": "c",
+                "text": "Geht das über die Hausverwaltung oder muss ich das selbst zahlen?"
+              }
+            ],
+            "q": "Du willst wissen, ob du zahlen musst. — You want to know whether you have to pay.",
+            "why": "Die Frage trennt die zwei Fälle sauber — und du erfährst gleich, ob eine Rechnung kommt."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Was sagst du?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Imperativ mit Sie, herein am Ende",
+            "tiles": [
+              "Kommen",
+              "Sie",
+              "bitte",
+              "herein"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Trennverb ab·laufen: ab am Satzende",
+            "tiles": [
+              "Das",
+              "Wasser",
+              "läuft",
+              "gar",
+              "nicht",
+              "mehr",
+              "ab"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Perfekt: habe … probiert",
+            "tiles": [
+              "Ich",
+              "habe",
+              "es",
+              "mit",
+              "einer",
+              "Saugglocke",
+              "probiert"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Modalverb an Position 1, Infinitiv am Ende",
+            "tiles": [
+              "Soll",
+              "ich",
+              "den",
+              "Schrank",
+              "ausräumen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Wo? → Dativ (im Flur, neben der Tür)",
+            "tiles": [
+              "Der",
+              "Zähler",
+              "hängt",
+              "im",
+              "Flur",
+              "neben",
+              "der",
+              "Tür"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "W-Frage: Fragewort, dann Verb",
+            "tiles": [
+              "Was",
+              "genau",
+              "bestätige",
+              "ich",
+              "damit",
+              "?"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Der Termin ist auf einen bestimmten Zeitpunkt festgelegt. — The appointment is set for a precise time.",
+            "why": "Es ist ein Zeitfenster von 8:00 bis 13:00 Uhr."
+          },
+          {
+            "answer": true,
+            "q": "Man muss die Rauchmelder frei machen. — You have to clear space around the smoke detectors.",
+            "why": "„die Heizkörper sowie die Rauchmelder frei stehen“."
+          },
+          {
+            "answer": false,
+            "q": "Ein zweiter Termin kostet nichts. — A second appointment is free.",
+            "why": "„Ein Ersatztermin ist kostenpflichtig (45,00 €).“"
+          },
+          {
+            "answer": true,
+            "q": "Man kann den Schlüssel bei einer Nachbarin lassen. — You can leave the key with a neighbour.",
+            "why": "Steht ausdrücklich als Möglichkeit."
+          },
+          {
+            "answer": false,
+            "q": "Man muss den Ausweis der Mitarbeiter extra verlangen. — You have to ask the staff for ID.",
+            "why": "Sie weisen sich „unaufgefordert“ aus — von selbst."
+          },
+          {
+            "answer": false,
+            "q": "Die Arbeiten dauern etwa eine Stunde pro Wohnung. — The work takes about an hour per flat.",
+            "why": "„etwa 15 Minuten pro Wohnung“."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Technik-Service Wagner GmbH — Terminankündigung**\n>\n> Sehr geehrte Mieterinnen und Mieter,\n>\n> am **Mittwoch, 15.07.2026, zwischen 8:00 und 13:00 Uhr** führen\n> wir in Ihrer Wohnung folgende Arbeiten durch:\n>\n> - Ablesung der Heizkostenverteiler\n> - Funktionsprüfung der Rauchmelder\n>\n> Bitte sorgen Sie dafür, dass alle Räume zugänglich sind und die\n> Heizkörper sowie die Rauchmelder frei stehen. Die Arbeiten dauern\n> etwa 15 Minuten pro Wohnung.\n>\n> Sind Sie verhindert, geben Sie bitte einer Nachbarin den Schlüssel\n> oder melden Sie sich bis Montag unter 030 / 88 77 66.\n> Ein Ersatztermin ist kostenpflichtig (45,00 €).\n>\n> Unsere Mitarbeiter weisen sich unaufgefordert aus. Lassen Sie\n> niemanden ohne Ausweis in Ihre Wohnung.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Den Zettel im Briefkasten lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nach dem Ausweis fragen und bei der Verwaltung anrufen, bevor du aufmachst."
+              },
+              {
+                "key": "b",
+                "text": "Reinlassen, er wird schon von der Firma sein."
+              },
+              {
+                "key": "c",
+                "text": "Gar nicht öffnen."
+              }
+            ],
+            "q": "Jemand steht vor der Tür, den du nicht erwartet hast, und will rein. — Someone unexpected is at the door and wants to come in.",
+            "why": "Ausweis verlangen ist ausdrücklich vorgesehen. Ein kurzer Anruf klärt den Rest."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weiter warten."
+              },
+              {
+                "key": "b",
+                "text": "Anrufen und festhalten lassen, dass du da warst — sonst gilt es als versäumt."
+              },
+              {
+                "key": "c",
+                "text": "Nichts tun, sie melden sich schon."
+              }
+            ],
+            "q": "Das Zeitfenster ist 8–13 Uhr, um 13:30 war niemand da. — The window was 8–13 and nobody came.",
+            "why": "Sonst zählt es als deine Nichtanwesenheit, und der Ersatztermin kostet 45 Euro."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Selbst nachziehen."
+              },
+              {
+                "key": "b",
+                "text": "Noch am selben Tag anrufen und sagen, dass das Problem geblieben ist."
+              },
+              {
+                "key": "c",
+                "text": "Eine Woche abwarten."
+              }
+            ],
+            "q": "Nach der Reparatur tropft es weiter. — After the repair it still drips.",
+            "why": "Am selben Tag ist es klar dieselbe Sache. Später wird daraus schnell ein neuer Auftrag."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Unterschreiben, um Streit zu vermeiden."
+              },
+              {
+                "key": "b",
+                "text": "Nicht unterschreiben und gehen lassen."
+              },
+              {
+                "key": "c",
+                "text": "Unterschreiben und danebenschreiben, was noch offen ist."
+              }
+            ],
+            "q": "Er will unterschrieben haben, dass alles in Ordnung ist — ist es aber nicht. — He wants you to sign that everything is fine, but it isn't.",
+            "why": "Den Besuch bestätigen, den Mangel aber schriftlich vermerken — beides geht auf demselben Zettel."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort ansprechen, ein Foto machen und es auf dem Zettel vermerken lassen."
+              },
+              {
+                "key": "b",
+                "text": "Später der Verwaltung schreiben."
+              },
+              {
+                "key": "c",
+                "text": "Selbst reparieren."
+              }
+            ],
+            "q": "Beim Arbeiten geht etwas kaputt. — Something gets damaged during the work.",
+            "why": "Solange er da ist, lässt sich der Schaden zuordnen. Danach steht Aussage gegen Aussage."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nicken."
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, könnten Sie das noch einmal langsamer sagen?"
+              },
+              {
+                "key": "c",
+                "text": "Später jemanden fragen."
+              }
+            ],
+            "q": "Du verstehst nicht, was er erklärt hat. — You didn't understand his explanation.",
+            "why": "Nachfragen ist normal — besonders wenn es darum geht, was du künftig anders machen sollst."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Was machst oder sagst du? Wähle a, b oder c.",
+      "instructionsEn": "What do you do or say? Choose a, b, or c.",
+      "title": "Wenn es nicht rundläuft"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "ausweisen"
+          ],
+          "2": [
+            "niemand"
+          ],
+          "3": [
+            "geblieben"
+          ],
+          "4": [
+            "Zettel",
+            "Beleg"
+          ],
+          "5": [
+            "Schaden"
+          ],
+          "6": [
+            "langsamer"
+          ],
+          "7": [
+            "Hausverwaltung"
+          ],
+          "8": [
+            "Platz"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Könnten Sie sich bitte {1}? (den Ausweis zeigen)\n2. Ich war den ganzen Vormittag da, es kam {2}. (keine Person)\n3. Das Problem ist leider {3}. (immer noch da)\n4. Ich unterschreibe den {4}, aber ich schreibe dazu, was offen ist.\n5. Beim Arbeiten ist ein {5} entstanden. (etwas ist kaputtgegangen)\n6. Könnten Sie das bitte noch einmal {6} sagen? (nicht so schnell)\n7. Geht das über die {7} oder zahle ich selbst?\n8. Ich mache Ihnen {8}. (Raum schaffen)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das fehlende Wort.",
+      "instructionsEn": "Fill in the missing word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Firma"
+          ],
+          "2": [
+            "ausweisen"
+          ],
+          "3": [
+            "herein"
+          ],
+          "4": [
+            "Platz"
+          ],
+          "5": [
+            "der"
+          ],
+          "6": [
+            "die"
+          ],
+          "7": [
+            "ab"
+          ],
+          "8": [
+            "probiert"
+          ],
+          "9": [
+            "bestätige"
+          ],
+          "10": [
+            "Hausverwaltung"
+          ],
+          "11": [
+            "geblieben"
+          ],
+          "12": [
+            "langsamer"
+          ]
+        },
+        "listLayout": true,
+        "text": "**An der Tür (4 Punkte):**\n1. „Von welcher {1} sind Sie?“\n2. „Könnten Sie sich bitte {2}?“\n3. „Kommen Sie bitte {3}.“\n4. „Ich mache Ihnen {4}.“\n\n**Das Problem zeigen (4 Punkte):**\n5. Der Abfluss ist in {5} Küche verstopft. (Artikel)\n6. Kommen Sie bitte in {6} Küche. (Artikel)\n7. „Das Wasser läuft gar nicht mehr {7}.“\n8. „Ich habe es mit einer Saugglocke {8}.“ (Perfekt)\n\n**Am Ende (4 Punkte):**\n9. „Was genau {9} ich damit?“ (mit der Unterschrift)\n10. „Geht das über die {10} oder zahle ich selbst?“\n11. „Das Problem ist leider {11}.“ (nicht weg)\n12. „Könnten Sie das bitte {12} sagen?“ (nicht so schnell)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die Lücken.",
+      "instructionsEn": "Fill in the gaps.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-16-handwerkerbesuch-a2",
+  "intro": "Jemand steht vor der Tür und will in deine Wohnung: Zählerablesung, Rauchmelderprüfung, ein verstopfter Abfluss, die Therme. Das Gespräch dauert zehn Minuten und besteht fast nur aus vier Dingen — begrüßen und einlassen, zeigen wo es ist, Rückfragen beantworten („Seit wann?“, „Haben Sie schon etwas versucht?“) und am Ende hören, was gemacht wurde. Grammatik nach Bedarf: Wechselpräpositionen (in der Küche / in die Küche), Perfekt, Imperativ und höfliche Bitten. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/16-handwerkerbesuch-a2",
+  "level": "A2",
+  "summary": "Termin annehmen, die Tür aufmachen, zeigen wo das Problem ist, Rückfragen beantworten und am Ende unterschreiben.",
+  "title": "Der Handwerker kommt — A2",
+  "topic": "Handwerkerbesuch"
+}

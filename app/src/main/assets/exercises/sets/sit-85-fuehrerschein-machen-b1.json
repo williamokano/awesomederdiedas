@@ -1,0 +1,828 @@
+{
+  "category": "Unterwegs",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "anmelden",
+            "label": "Anmelden"
+          },
+          {
+            "key": "ueben",
+            "label": "Üben"
+          },
+          {
+            "key": "pruefen",
+            "label": "Prüfen"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "anmelden",
+            "text": "sich bei der Fahrschule anmelden"
+          },
+          {
+            "bucket": "anmelden",
+            "text": "den Sehtest machen"
+          },
+          {
+            "bucket": "anmelden",
+            "text": "den Erste-Hilfe-Kurs besuchen"
+          },
+          {
+            "bucket": "anmelden",
+            "text": "Passfotos mitbringen"
+          },
+          {
+            "bucket": "ueben",
+            "text": "Fahrstunden nehmen"
+          },
+          {
+            "bucket": "ueben",
+            "text": "den Theorieunterricht besuchen"
+          },
+          {
+            "bucket": "ueben",
+            "text": "Verkehrsschilder lernen"
+          },
+          {
+            "bucket": "ueben",
+            "text": "mit dem Fahrlehrer üben"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "die Theorieprüfung ablegen"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "die praktische Prüfung machen"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "den Führerschein bekommen"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "die Prüfungsgebühr bezahlen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Anmelden, üben oder prüfen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Fahrschule"
+          },
+          {
+            "key": "2",
+            "text": "der Fahrlehrer"
+          },
+          {
+            "key": "3",
+            "text": "die Theorieprüfung"
+          },
+          {
+            "key": "4",
+            "text": "die praktische Prüfung"
+          },
+          {
+            "key": "5",
+            "text": "der Sehtest"
+          },
+          {
+            "key": "6",
+            "text": "der Erste-Hilfe-Kurs"
+          },
+          {
+            "key": "7",
+            "text": "die Fahrstunde"
+          },
+          {
+            "key": "8",
+            "text": "der Führerschein"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die Schule, in der man das Autofahren lernt"
+          },
+          {
+            "key": "b",
+            "text": "die Person, die das Fahren unterrichtet"
+          },
+          {
+            "key": "c",
+            "text": "der schriftliche Test zu den Verkehrsregeln"
+          },
+          {
+            "key": "d",
+            "text": "die Fahrt mit einem Prüfer im echten Straßenverkehr"
+          },
+          {
+            "key": "e",
+            "text": "der Test, ob man gut genug sieht"
+          },
+          {
+            "key": "f",
+            "text": "der Kurs, in dem man Erste Hilfe lernt"
+          },
+          {
+            "key": "g",
+            "text": "eine einzelne Übungsfahrt mit dem Fahrlehrer"
+          },
+          {
+            "key": "h",
+            "text": "das Dokument, das zum Autofahren berechtigt"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Hast"
+          ],
+          "3": [
+            "braucht"
+          ],
+          "4": [
+            "Können"
+          ],
+          "5": [
+            "hat"
+          ],
+          "6": [
+            "werde"
+          ],
+          "7": [
+            "Hast"
+          ],
+          "8": [
+            "darf"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} mich zuerst bei der Fahrschule anmelden. (müssen, ich-Form)\n2. {2} du schon den Sehtest gemacht? (haben, Perfekt)\n3. Für den Führerschein {3} man einen Erste-Hilfe-Kurs. (brauchen, Präsens)\n4. {4} wir heute eine Fahrstunde nehmen? (können, wir-Form)\n5. Der Fahrlehrer {5} mir die Verkehrsschilder erklärt. (haben, Perfekt)\n6. Nächste Woche {6} ich die Theorieprüfung ablegen. (werden, Futur I)\n7. {7} du die praktische Prüfung schon bestanden? (haben, Perfekt)\n8. Ohne Führerschein {8} man in Deutschland nicht Auto fahren. (dürfen, Präsens)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Den Führerschein planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Fahrschule"
+          ],
+          "2": [
+            "Fahrlehrer"
+          ],
+          "3": [
+            "Sehtest"
+          ],
+          "4": [
+            "Erste-Hilfe-Kurs"
+          ],
+          "5": [
+            "Fahrstunde"
+          ],
+          "6": [
+            "Theorieprüfung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich möchte den Führerschein machen und melde mich bei der {1} an. (die Schule, in der man das Autofahren lernt)\n2. Mein {2} zeigt mir, wie man richtig einparkt. (die Person, die das Fahren unterrichtet)\n3. Morgen mache ich den {3}, um zu prüfen, ob ich gut genug sehe. (der Test fürs Sehen)\n4. Im {4} lerne ich, wie man bei einem Unfall hilft. (der Kurs zur Ersten Hilfe)\n5. Die {5} dauert 45 Minuten und kostet ungefähr 50 Euro. (eine einzelne Übungsfahrt)\n6. Zuerst muss ich die {6} bestehen, bevor ich Fahrstunden im Straßenverkehr nehmen darf. (der schriftliche Test zu den Verkehrsregeln)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "FAHRSCHULE"
+          ],
+          "2": [
+            "SEHTEST"
+          ],
+          "3": [
+            "PASSFOTO"
+          ],
+          "4": [
+            "THEORIEUNTERRICHT"
+          ],
+          "5": [
+            "THEORIESTUNDEN"
+          ],
+          "6": [
+            "THEORIEPRÜFUNG"
+          ],
+          "7": [
+            "BUCHE"
+          ],
+          "8": [
+            "FAHRSTUNDE"
+          ],
+          "9": [
+            "AUSBILDUNG"
+          ],
+          "10": [
+            "FÜHRERSCHEIN"
+          ]
+        },
+        "bank": [
+          "FAHRSCHULE",
+          "THEORIEPRÜFUNG",
+          "PASSFOTO",
+          "FAHRZEUG",
+          "SEHTEST",
+          "VERSICHERUNG",
+          "THEORIEUNTERRICHT",
+          "BUCHE",
+          "KENNZEICHEN",
+          "FAHRSTUNDE",
+          "THEORIESTUNDEN",
+          "WERKSTATT",
+          "AUSBILDUNG",
+          "FÜHRERSCHEIN"
+        ],
+        "text": "— Guten Tag, ich möchte mich für den Führerschein bei Ihrer {1}\nanmelden.\n— Gerne, haben Sie schon einen {2} gemacht?\n— Nein, noch nicht. Wo kann ich den machen?\n— Beim Augenarzt oder Optiker. Und haben Sie schon einen\nErste-Hilfe-Kurs besucht?\n— Ja, den habe ich letzte Woche gemacht.\n— Perfekt. Dann brauche ich noch ein {3} und Ihren\nPersonalausweis.\n(Theorieunterricht)\n— Wann beginnt der {4}?\n— Nächsten Montag um 18 Uhr. Sie müssen mindestens 14 {5}\nbesuchen.\n— Und wie viele Fahrstunden brauche ich, bevor ich die Prüfung\nmachen darf?\n— Das ist unterschiedlich, meistens zwischen 15 und 25.\n(nach einigen Wochen)\n— Ich fühle mich bereit für die {6}.\n— Gut, dann {7} ich Ihnen einen Termin beim TÜV.\n— Und wann kann ich die praktische Prüfung machen?\n— Erst nach der bestandenen Theorieprüfung.\n— Wie lange dauert eine einzelne {8}?\n— 45 Minuten.\n— Was kostet eigentlich die ganze {9}?\n— Das hängt von der Anzahl der Fahrstunden ab, aber rechnen Sie\nmit 1500 bis 2500 Euro.\n— Und wann bekomme ich dann endlich meinen {10}?\n— Direkt nach der bestandenen praktischen Prüfung.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Anmelden, lernen, prüfen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Der Führerschein interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Was brauche ich, bevor ich mit dem Theorieunterricht beginnen kann?"
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst wissen, was du brauchst, bevor der Theorieunterricht beginnt. — You want to know what you need before theory class starts.",
+            "why": "Eine direkte Frage klärt, welche Unterlagen und Termine vorher nötig sind."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Fehlerpunkte interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich frage da lieber nicht nach."
+              },
+              {
+                "key": "c",
+                "text": "Wie viele Fehlerpunkte darf ich bei der Theorieprüfung höchstens haben?"
+              }
+            ],
+            "q": "Du willst wissen, wie viele Fehlerpunkte bei der Theorieprüfung erlaubt sind. — You want to know how many error points are allowed on the theory exam.",
+            "why": "Eine direkte Frage klärt frühzeitig, wie streng die Prüfung bewertet wird."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wo findet eigentlich die praktische Prüfung statt?"
+              },
+              {
+                "key": "b",
+                "text": "Das ist mir egal, Hauptsache ich bestehe."
+              },
+              {
+                "key": "c",
+                "text": "Prüfungen interessieren mich nicht."
+              }
+            ],
+            "q": "Du willst wissen, wo die praktische Prüfung stattfindet. — You want to know where the practical exam takes place.",
+            "why": "Eine direkte Frage klärt, wie die Prüfungssituation genau aussieht."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Prüfungen interessieren mich sowieso nicht mehr."
+              },
+              {
+                "key": "b",
+                "text": "Kann ich die Prüfung nach einer Wartezeit wiederholen?"
+              },
+              {
+                "key": "c",
+                "text": "Dann gebe ich den Führerschein eben auf."
+              }
+            ],
+            "q": "Du bist bei der Theorieprüfung durchgefallen und willst wissen, was jetzt passiert. — You failed the theory exam and want to know what happens now.",
+            "why": "Eine ruhige Nachfrage klärt die nächsten Schritte nach einer nicht bestandenen Prüfung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich fahre da lieber ganz allein hin."
+              },
+              {
+                "key": "c",
+                "text": "Wer begleitet mich eigentlich bei der praktischen Prüfung?"
+              }
+            ],
+            "q": "Du willst wissen, wer dich bei der praktischen Prüfung begleitet. — You want to know who accompanies you during the practical exam.",
+            "why": "Eine direkte Frage klärt, wer während der Fahrt im Auto sitzt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wie lange dauert eine Fahrstunde eigentlich meistens?"
+              },
+              {
+                "key": "b",
+                "text": "Fahrstunden interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst wissen, wie lange eine Fahrstunde meistens dauert. — You want to know how long a driving lesson usually lasts.",
+            "why": "Eine direkte Frage klärt frühzeitig, wie die Fahrstunden zeitlich geplant sind."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Anmelden und lernen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Aussage, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "mich",
+              "bei",
+              "der",
+              "Fahrschule",
+              "anmelden"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Ja/Nein-Frage im Perfekt",
+            "tiles": [
+              "Haben",
+              "Sie",
+              "schon",
+              "einen",
+              "Sehtest",
+              "gemacht",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Aussage mit man, Verb an Position 2",
+            "tiles": [
+              "Für",
+              "den",
+              "Führerschein",
+              "braucht",
+              "man",
+              "einen",
+              "Erste-Hilfe-Kurs"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Futur I, Zeitangabe an Position 1, Verb an Position 2",
+            "tiles": [
+              "Nächste",
+              "Woche",
+              "werde",
+              "ich",
+              "die",
+              "Theorieprüfung",
+              "ablegen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "W-Frage mit Modalverb",
+            "tiles": [
+              "Wie",
+              "viele",
+              "Fehlerpunkte",
+              "darf",
+              "ich",
+              "höchstens",
+              "haben",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Perfekt mit sein, Partizip am Ende",
+            "tiles": [
+              "Ich",
+              "bin",
+              "bei",
+              "der",
+              "ersten",
+              "Prüfung",
+              "durchgefallen"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zum Führerschein bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Man darf den Führerschein mit Begleitetem Fahren schon mit 17 Jahren machen. — You can get a license with accompanied driving already at 17.",
+            "why": "So steht es ausdrücklich in den Infos zum Führerschein."
+          },
+          {
+            "answer": false,
+            "q": "Der Erste-Hilfe-Kurs ist erst nach der praktischen Prüfung nötig. — The first aid course is only needed after the practical exam.",
+            "why": "Er ist schon vor der Anmeldung nötig, nicht erst danach."
+          },
+          {
+            "answer": true,
+            "q": "Bei der Theorieprüfung darf man höchstens 10 Fehlerpunkte haben. — On the theory exam you may have at most 10 error points.",
+            "why": "„Theorieprüfung: […] bestanden ist man mit maximal 10 Fehlerpunkten.“"
+          },
+          {
+            "answer": false,
+            "q": "Man braucht keinen Sehtest, wenn man schon eine Brille trägt. — You don't need an eye test if you already wear glasses.",
+            "why": "Der Sehtest ist für alle Pflicht, unabhängig von einer Brille."
+          },
+          {
+            "answer": false,
+            "q": "Die ganze Fahrausbildung kostet in der Regel nur etwa 200 Euro. — The whole driving education usually costs only about 200 euros.",
+            "why": "Sie kostet oft zwischen 1500 und 2500 Euro, nicht nur 200 Euro."
+          },
+          {
+            "answer": true,
+            "q": "Der deutsche Führerschein gilt in der ganzen EU. — The German driver's license is valid across the whole EU.",
+            "why": "„Gültigkeit: der deutsche Führerschein gilt EU-weit.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Führerschein machen**\n>\n> - **Mindestalter:** mit **Begleitetem Fahren** ab **17\n>   Jahren**, ohne Begleitung ab 18 Jahren.\n> - **Voraussetzungen:** vor der Anmeldung braucht man einen\n>   **Sehtest** und einen **Erste-Hilfe-Kurs**.\n> - **Theorieprüfung:** hat **30 Fragen**, bestanden ist man mit\n>   **maximal 10 Fehlerpunkten**.\n> - **Theorieunterricht:** mindestens **14 Theoriestunden** vor\n>   der Prüfung.\n> - **Kosten:** die ganze Ausbildung kostet oft zwischen **1500\n>   und 2500 Euro**.\n> - **Gültigkeit:** der deutsche Führerschein gilt **EU-weit**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zum Führerschein lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Man verliert automatisch alle bisherigen Fahrstunden."
+              },
+              {
+                "key": "b",
+                "text": "Man kann die Prüfung nach einer Wartezeit erneut ablegen."
+              },
+              {
+                "key": "c",
+                "text": "Man muss von vorne mit dem Sehtest beginnen."
+              }
+            ],
+            "q": "Du bist bei der Theorieprüfung durchgefallen. — You failed the theory exam.",
+            "why": "Eine nicht bestandene Theorieprüfung kann nach einer Wartezeit wiederholt werden."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Der Führerschein wird trotzdem ausgestellt."
+              },
+              {
+                "key": "b",
+                "text": "Man darf es nie wieder versuchen."
+              },
+              {
+                "key": "c",
+                "text": "Man muss weitere Fahrstunden nehmen und die Prüfung wiederholen."
+              }
+            ],
+            "q": "Bei der praktischen Prüfung machst du einen schweren Fehler und fällst durch. — You make a serious mistake during the practical exam and fail.",
+            "why": "Nach einer nicht bestandenen praktischen Prüfung übt man weiter und wiederholt sie."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Eine Brille oder Kontaktlinsen tragen und den Test wiederholen."
+              },
+              {
+                "key": "b",
+                "text": "Den Führerschein trotzdem ohne Sehtest beantragen."
+              },
+              {
+                "key": "c",
+                "text": "Auf den Führerschein ganz verzichten."
+              }
+            ],
+            "q": "Du bestehst den Sehtest ohne Brille nicht. — You don't pass the eye test without glasses.",
+            "why": "Mit Sehhilfe kann der Sehtest problemlos wiederholt und bestanden werden."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach nicht erscheinen, ohne Bescheid zu geben."
+              },
+              {
+                "key": "b",
+                "text": "Rechtzeitig bei der Fahrschule absagen."
+              },
+              {
+                "key": "c",
+                "text": "Die Fahrstunde von einer Freundin machen lassen."
+              }
+            ],
+            "q": "Du wirst krank und kannst eine geplante Fahrstunde nicht wahrnehmen. — You get sick and can't make a scheduled driving lesson.",
+            "why": "Eine rechtzeitige Absage vermeidet unnötige Kosten und Missverständnisse."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Anmeldung bei der Fahrschule komplett neu machen."
+              },
+              {
+                "key": "b",
+                "text": "Ein Jahr warten, bevor man es erneut versuchen darf."
+              },
+              {
+                "key": "c",
+                "text": "Einen neuen Termin vereinbaren und eventuell eine Gebühr zahlen."
+              }
+            ],
+            "q": "Du verpasst aus Versehen den Termin für die Theorieprüfung. — You accidentally miss the appointment for the theory exam.",
+            "why": "Ein verpasster Termin lässt sich meist gegen eine Gebühr neu vereinbaren."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Verlust bei der Führerscheinstelle melden und einen Ersatz beantragen."
+              },
+              {
+                "key": "b",
+                "text": "Einfach ohne Führerschein weiterfahren."
+              },
+              {
+                "key": "c",
+                "text": "Eine neue Theorieprüfung ablegen."
+              }
+            ],
+            "q": "Du verlierst deinen frisch ausgestellten Führerschein. — You lose your freshly issued driver's license.",
+            "why": "Nur eine Meldung bei der Führerscheinstelle ermöglicht einen offiziellen Ersatz."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn beim Führerschein etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "durchgefallen"
+          ],
+          "2": [
+            "gemacht"
+          ],
+          "3": [
+            "bestanden"
+          ],
+          "4": [
+            "abgesagt"
+          ],
+          "5": [
+            "verpasst"
+          ],
+          "6": [
+            "verloren"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich bin bei der Theorieprüfung leider {1}. (nicht bestanden, Partizip)\n2. Bei der praktischen Prüfung habe ich einen Fehler {2}. (verursacht, Partizip)\n3. Ohne Brille habe ich den Sehtest nicht {3}. (geschafft, Partizip)\n4. Die Fahrstunde habe ich rechtzeitig {4}. (storniert, Partizip)\n5. Den Termin beim TÜV habe ich aus Versehen {5}. (nicht wahrgenommen, Partizip)\n6. Meinen Führerschein habe ich leider {6}. (nicht mehr gefunden, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Sehtest"
+          ],
+          "3": [
+            "Erste-Hilfe-Kurs"
+          ],
+          "4": [
+            "Fahrlehrer"
+          ],
+          "5": [
+            "Fahrstunde"
+          ],
+          "6": [
+            "Theorieunterricht"
+          ],
+          "7": [
+            "Theorieprüfung"
+          ],
+          "8": [
+            "brauche"
+          ],
+          "9": [
+            "praktische Prüfung"
+          ],
+          "10": [
+            "durchgefallen"
+          ],
+          "11": [
+            "bestanden"
+          ],
+          "12": [
+            "Führerschein"
+          ],
+          "13": [
+            "gilt"
+          ],
+          "14": [
+            "Ausbildung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} mich zuerst bei der Fahrschule anmelden. (must)\n2. Ich brauche einen {2}, bevor ich die Theorieprüfung mache. (eye test)\n3. Vor der Anmeldung besuche ich einen {3}. (first aid course)\n4. Mein {4} zeigt mir, wie man einparkt. (driving instructor)\n5. Die {5} dauert meistens 45 Minuten. (driving lesson)\n6. Ich lerne die Verkehrsschilder im {6}. (theory class)\n7. Bei der {7} darf ich höchstens 10 Fehlerpunkte haben. (theory exam)\n8. Nach dem Theorieunterricht {8} ich viele Fahrstunden. (need — Präsens)\n9. Die {9} findet im echten Straßenverkehr statt. (practical exam)\n10. Ich bin bei der ersten Prüfung leider {10}. (failed — Partizip)\n11. Beim zweiten Versuch habe ich sie {11}. (passed — Partizip)\n12. Endlich bekomme ich meinen {12}. (driver's license)\n13. Der Führerschein {13} in der ganzen EU. (is valid — gelten, Präsens)\n14. Die ganze {14} kostet oft über 1500 Euro. (training)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-85-fuehrerschein-machen-b1",
+  "intro": "Der Weg zum Führerschein hat viele Stationen: sich bei der Fahrschule anmelden, den Sehtest und den Erste-Hilfe-Kurs machen, den Theorieunterricht besuchen, Fahrstunden nehmen und am Ende zwei Prüfungen bestehen. Dieses Set übt genau das — anmelden, üben, prüfen, und was zu tun ist, wenn man bei der Theorie- oder der praktischen Prüfung durchfällt. Grammatik nach Bedarf: Modalverben, Perfekt und Futur I. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/85-fuehrerschein-machen-b1",
+  "level": "B1",
+  "summary": "Sich bei der Fahrschule anmelden, Sehtest und Erste-Hilfe-Kurs machen, Fahrstunden nehmen und die Theorie- und die praktische Prüfung bestehen — und was tun, wenn man bei einer Prüfung durchfällt.",
+  "title": "Führerschein machen — B1",
+  "topic": "Führerschein machen"
+}

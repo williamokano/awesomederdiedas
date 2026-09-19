@@ -1,0 +1,846 @@
+{
+  "category": "Einkaufen",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "besichtigen",
+            "label": "Besichtigen"
+          },
+          {
+            "key": "verhandeln",
+            "label": "Verhandeln"
+          },
+          {
+            "key": "kaufen",
+            "label": "Kaufen"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "besichtigen",
+            "text": "den Gebrauchtwagen begutachten"
+          },
+          {
+            "bucket": "besichtigen",
+            "text": "eine Probefahrt machen"
+          },
+          {
+            "bucket": "besichtigen",
+            "text": "den Kilometerstand prüfen"
+          },
+          {
+            "bucket": "besichtigen",
+            "text": "den TÜV-Bericht ansehen"
+          },
+          {
+            "bucket": "verhandeln",
+            "text": "nach dem Preis fragen"
+          },
+          {
+            "bucket": "verhandeln",
+            "text": "über den Preis handeln"
+          },
+          {
+            "bucket": "verhandeln",
+            "text": "nach Vorschäden fragen"
+          },
+          {
+            "bucket": "verhandeln",
+            "text": "sich Bedenkzeit erbitten"
+          },
+          {
+            "bucket": "kaufen",
+            "text": "den Kaufvertrag unterschreiben"
+          },
+          {
+            "bucket": "kaufen",
+            "text": "den Kaufpreis überweisen"
+          },
+          {
+            "bucket": "kaufen",
+            "text": "die Zulassung beantragen"
+          },
+          {
+            "bucket": "kaufen",
+            "text": "die Schlüssel entgegennehmen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Besichtigen, verhandeln oder kaufen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Gebrauchtwagen"
+          },
+          {
+            "key": "2",
+            "text": "die Probefahrt"
+          },
+          {
+            "key": "3",
+            "text": "der Kilometerstand"
+          },
+          {
+            "key": "4",
+            "text": "der TÜV"
+          },
+          {
+            "key": "5",
+            "text": "der Unfallwagen"
+          },
+          {
+            "key": "6",
+            "text": "handeln"
+          },
+          {
+            "key": "7",
+            "text": "der Kaufvertrag"
+          },
+          {
+            "key": "8",
+            "text": "die Zulassung"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "ein bereits gefahrenes, gebrauchtes Auto"
+          },
+          {
+            "key": "b",
+            "text": "das Testen des Autos vor dem Kauf"
+          },
+          {
+            "key": "c",
+            "text": "die gefahrenen Kilometer laut Tacho"
+          },
+          {
+            "key": "d",
+            "text": "die Pflichtprüfung für die Verkehrssicherheit"
+          },
+          {
+            "key": "e",
+            "text": "ein Auto mit einem früheren Unfallschaden"
+          },
+          {
+            "key": "f",
+            "text": "über den Preis verhandeln"
+          },
+          {
+            "key": "g",
+            "text": "das schriftliche Dokument über den Autokauf"
+          },
+          {
+            "key": "h",
+            "text": "die amtliche Anmeldung des Fahrzeugs"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "möchte"
+          ],
+          "2": [
+            "Darf"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Können"
+          ],
+          "5": [
+            "hat"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Ist"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} vor dem Kauf eine Probefahrt machen. (möchten, ich-Form)\n2. {2} ich mir den TÜV-Bericht ansehen? (dürfen, ich-Form)\n3. Ich {3} schon eine Probefahrt gemacht. (haben, Perfekt)\n4. {4} wir noch über den Preis verhandeln? (können, wir-Form)\n5. Falls der Wagen einen Unfallschaden {5}, kaufe ich ihn nicht. (haben, Präsens)\n6. Der Verkäufer {6} mir noch den Kaufvertrag zeigen. (werden, Futur I)\n7. Wir {7} schon über den Preis gehandelt. (haben, Perfekt)\n8. {8} der Kilometerstand schon geprüft worden? (sein, Perfekt Passiv)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Den Kauf planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Gebrauchtwagen"
+          ],
+          "2": [
+            "Probefahrt"
+          ],
+          "3": [
+            "Kilometerstand"
+          ],
+          "4": [
+            "TÜV"
+          ],
+          "5": [
+            "Unfallwagen"
+          ],
+          "6": [
+            "Kaufvertrag"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir schauen uns heute einen {1} an. (ein bereits gefahrenes, gebrauchtes Auto)\n2. Vor dem Kauf machen wir eine {2}. (das Testen des Autos vor dem Kauf)\n3. Der {3} steht bei 80.000 Kilometern. (die gefahrenen Kilometer laut Tacho)\n4. Der {4} ist noch zwei Jahre gültig. (die Pflichtprüfung für die Verkehrssicherheit)\n5. Wir fragen sicherheitshalber, ob es ein {5} war. (ein Auto mit einem früheren Unfallschaden)\n6. Am Ende unterschreiben wir den {6}. (das Dokument über den Autokauf)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "GEBRAUCHTWAGEN"
+          ],
+          "2": [
+            "PROBEFAHRT"
+          ],
+          "3": [
+            "KILOMETERSTAND"
+          ],
+          "4": [
+            "TÜV"
+          ],
+          "5": [
+            "UNFALLWAGEN"
+          ],
+          "6": [
+            "VERHANDELN"
+          ],
+          "7": [
+            "KAUFVERTRAG"
+          ],
+          "8": [
+            "ZULASSUNG"
+          ],
+          "9": [
+            "ÜBERWEISE"
+          ],
+          "10": [
+            "GEBE"
+          ]
+        },
+        "bank": [
+          "GEBRAUCHTWAGEN",
+          "PROBEFAHRT",
+          "KILOMETERSTAND",
+          "TÜV",
+          "UNFALLWAGEN",
+          "VERHANDELN",
+          "KAUFVERTRAG",
+          "ZULASSUNG",
+          "ÜBERWEISE",
+          "GEBE",
+          "SERVICEHEFT",
+          "VERSICHERUNG",
+          "WERKSTATT",
+          "FÜHRERSCHEIN"
+        ],
+        "text": "— Guten Tag, wir würden uns gerne den {1} ansehen, den Sie\ninseriert haben.\n— Natürlich, hier steht er. Möchten Sie gleich eine {2}\nmachen?\n— Gerne. Wie hoch ist eigentlich der {3}?\n— Etwa 80.000 Kilometer, alles im Serviceheft dokumentiert.\n— Und wie lange ist der {4} noch gültig?\n— Noch zwei Jahre, kein Problem.\n— War der Wagen schon mal in einen Unfall verwickelt, also\nein {5}?\n— Nein, absolut nicht, das kann ich Ihnen versichern.\n— Gut zu wissen. Können wir noch etwas über den Preis {6}?\n— Klar, was hätten Sie sich denn vorgestellt?\n— Vielleicht 500 Euro weniger?\n— Das geht in Ordnung. Dann setzen wir gleich den {7} auf.\n— Perfekt. Wie läuft dann die {8} des Autos?\n— Das übernehme ich für Sie, dauert meist nur ein paar Tage.\n— Super, dann {9} ich Ihnen jetzt gleich das Geld.\n— Und ich {10} Ihnen die Schlüssel.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Beim Gebrauchtwagenkauf"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Gebrauchtwagen interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Wir würden uns gerne den Gebrauchtwagen ansehen, den Sie inseriert haben."
+              },
+              {
+                "key": "c",
+                "text": "Ich kaufe sowieso nur neue Autos."
+              }
+            ],
+            "q": "Du möchtest einen inserierten Gebrauchtwagen besichtigen. — You want to view an advertised used car.",
+            "why": "Eine höfliche, konkrete Anfrage ist der übliche Einstieg bei der Besichtigung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Probefahrten sind mir zu aufwendig."
+              },
+              {
+                "key": "b",
+                "text": "Ich fahre sowieso nie Probe."
+              },
+              {
+                "key": "c",
+                "text": "Können wir vor dem Kauf eine Probefahrt machen?"
+              }
+            ],
+            "q": "Du möchtest vor dem Kauf eine Probefahrt machen. — You want a test drive before buying.",
+            "why": "Eine Probefahrt vor dem Kauf ist völlig normal und wichtig."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "War der Wagen schon mal in einen Unfall verwickelt?"
+              },
+              {
+                "key": "b",
+                "text": "Unfälle interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal, Hauptsache günstig."
+              }
+            ],
+            "q": "Du möchtest wissen, ob der Wagen ein Unfallwagen ist. — You want to know whether the car has been in an accident.",
+            "why": "Eine direkte Frage zu Unfallschäden ist beim Gebrauchtwagenkauf unverzichtbar."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Preise sind mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Können wir noch etwas über den Preis verhandeln?"
+              },
+              {
+                "key": "c",
+                "text": "Ich zahle sowieso, was verlangt wird."
+              }
+            ],
+            "q": "Du möchtest über den Preis verhandeln. — You want to negotiate the price.",
+            "why": "Beim Gebrauchtwagenkauf ist Verhandeln völlig üblich."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "TÜV interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich prüfe das sowieso nie."
+              },
+              {
+                "key": "c",
+                "text": "Wie lange ist der TÜV noch gültig?"
+              }
+            ],
+            "q": "Du möchtest wissen, wie lange der TÜV noch gültig ist. — You want to know how long the safety inspection is still valid.",
+            "why": "Der TÜV-Status ist ein wichtiges Kriterium beim Gebrauchtwagenkauf."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Perfekt, dann setzen wir gleich den Kaufvertrag auf."
+              },
+              {
+                "key": "b",
+                "text": "Verträge interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das eilt doch nicht."
+              }
+            ],
+            "q": "Der Kauf ist erfolgreich abgeschlossen. — The purchase has been successfully completed.",
+            "why": "Nach einer erfolgreichen Verhandlung folgt direkt der schriftliche Kaufvertrag."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Besichtigen und Verhandeln"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Konjunktiv II mit würden, Infinitiv am Ende",
+            "tiles": [
+              "Wir",
+              "würden",
+              "uns",
+              "gerne",
+              "den",
+              "Gebrauchtwagen",
+              "ansehen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Frage mit Modalverb, Infinitiv am Ende",
+            "tiles": [
+              "Können",
+              "wir",
+              "vor",
+              "dem",
+              "Kauf",
+              "eine",
+              "Probefahrt",
+              "machen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Ja/Nein-Frage im Perfekt",
+            "tiles": [
+              "War",
+              "der",
+              "Wagen",
+              "schon",
+              "mal",
+              "in",
+              "einen",
+              "Unfall",
+              "verwickelt",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "note": "Nebensatz mit falls, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "der",
+              "Wagen",
+              "einen",
+              "Unfallschaden",
+              "hat",
+              ",",
+              "kaufe",
+              "ich",
+              "ihn",
+              "nicht"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "W-Frage mit sein",
+            "tiles": [
+              "Wie",
+              "lange",
+              "ist",
+              "der",
+              "TÜV",
+              "noch",
+              "gültig",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Wir",
+              "haben",
+              "schon",
+              "über",
+              "den",
+              "Preis",
+              "gehandelt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze beim Autokauf bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Eine Probefahrt sollte man unbedingt vor dem Kauf machen. — A test drive should definitely be done before buying.",
+            "why": "So steht es ausdrücklich in den Infos zum Gebrauchtwagenkauf."
+          },
+          {
+            "answer": false,
+            "q": "Der Kilometerstand muss auf keinen Fall mit dem Serviceheft abgeglichen werden. — The mileage should never be checked against the service book.",
+            "why": "Er sollte mit dem Serviceheft abgeglichen werden, nicht ignoriert werden."
+          },
+          {
+            "answer": true,
+            "q": "Der TÜV sollte beim Kauf noch mindestens ein Jahr gültig sein. — The safety inspection should still be valid for at least a year at purchase.",
+            "why": "„TÜV: sollte noch mindestens ein Jahr gültig sein.“"
+          },
+          {
+            "answer": false,
+            "q": "Ein mündlicher Kaufvertrag reicht beim Autokauf völlig aus. — A verbal purchase agreement is completely sufficient for buying a car.",
+            "why": "Der Kaufvertrag sollte immer schriftlich sein, mündliche Absprachen reichen nicht."
+          },
+          {
+            "answer": true,
+            "q": "Der Verkäufer muss bekannte Unfallschäden wahrheitsgemäß angeben. — The seller must truthfully disclose known accident damage.",
+            "why": "„Vorschäden: der Verkäufer muss bekannte Unfallschäden wahrheitsgemäß angeben.“"
+          },
+          {
+            "answer": false,
+            "q": "Die Zulassung kann niemals gleichzeitig mit dem Kauf erledigt werden. — Registration can never be handled at the same time as the purchase.",
+            "why": "Sie kann oft direkt beim Kauf mit erledigt werden."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Gebrauchtwagenkauf**\n>\n> - **Probefahrt:** unbedingt **vor dem Kauf** machen, am\n>   besten auf verschiedenen Straßentypen.\n> - **Kilometerstand:** mit dem **Serviceheft** abgleichen.\n> - **TÜV:** sollte noch **mindestens ein Jahr** gültig sein.\n> - **Kaufvertrag:** immer **schriftlich**, mündliche\n>   Absprachen reichen nicht.\n> - **Vorschäden:** der Verkäufer muss bekannte\n>   Unfallschäden **wahrheitsgemäß angeben**.\n> - **Zulassung:** kann oft **direkt beim Kauf** mit erledigt\n>   werden.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zum Gebrauchtwagenkauf lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Geräusch einfach ignorieren."
+              },
+              {
+                "key": "b",
+                "text": "Das Geräusch ansprechen und gegebenenfalls einen unabhängigen Prüfer hinzuziehen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort einen ganz anderen Wagen kaufen, ohne nachzufragen."
+              }
+            ],
+            "q": "Bei der Probefahrt fällt ein ungewöhnliches Geräusch auf. — An unusual noise is noticed during the test drive.",
+            "why": "Ein unabhängiger Prüfer klärt objektiv, ob das Geräusch ein Problem ist."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Schaden kommentarlos akzeptieren."
+              },
+              {
+                "key": "b",
+                "text": "Trotzdem kaufen und hoffen, dass es nicht so schlimm ist."
+              },
+              {
+                "key": "c",
+                "text": "Vom Kauf zurücktreten oder auf eine Nachbesserung des Preises bestehen."
+              }
+            ],
+            "q": "Der Verkäufer verschweigt offensichtlich einen bekannten Unfallschaden. — The seller is obviously concealing a known accident.",
+            "why": "Ein verschwiegener Schaden rechtfertigt den Rücktritt oder eine Preisanpassung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Prüfen, ob eine Garantie oder Gewährleistung greift."
+              },
+              {
+                "key": "b",
+                "text": "Den Mangel einfach selbst bezahlen, ohne nachzufragen."
+              },
+              {
+                "key": "c",
+                "text": "Den Wagen sofort verkaufen, ohne den Verkäufer zu informieren."
+              }
+            ],
+            "q": "Nach dem Kauf entdeckt man einen Mangel, der vorher nicht sichtbar war. — After the purchase, a previously invisible defect is discovered.",
+            "why": "Eine Garantie oder Gewährleistung kann die Reparaturkosten übernehmen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sich auf einen mündlichen Vertrag einlassen."
+              },
+              {
+                "key": "b",
+                "text": "Freundlich, aber bestimmt auf einem schriftlichen Vertrag bestehen."
+              },
+              {
+                "key": "c",
+                "text": "Den Kauf sofort ganz absagen."
+              }
+            ],
+            "q": "Der Verkäufer möchte den Kaufvertrag nur mündlich abschließen. — The seller wants to close the deal only verbally.",
+            "why": "Ein schriftlicher Vertrag schützt beide Seiten und ist beim Autokauf üblich."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach endlos weiter warten, ohne nachzufragen."
+              },
+              {
+                "key": "b",
+                "text": "Den Wagen ohne Zulassung fahren."
+              },
+              {
+                "key": "c",
+                "text": "Sich direkt bei der Zulassungsstelle nach dem Status erkundigen."
+              }
+            ],
+            "q": "Die Zulassung verzögert sich unerwartet. — The registration is unexpectedly delayed.",
+            "why": "Eine Nachfrage bei der Zulassungsstelle klärt schnell, woran es liegt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Verkäufer kontaktieren und um Aufklärung bitten."
+              },
+              {
+                "key": "b",
+                "text": "Einfach nichts sagen und den Wagen behalten."
+              },
+              {
+                "key": "c",
+                "text": "Sofort eine Anzeige erstatten, ohne nachzufragen."
+              }
+            ],
+            "q": "Man merkt erst zu Hause, dass der Kilometerstand nicht zum Serviceheft passt. — Only at home do you notice the mileage doesn't match the service book.",
+            "why": "Eine Nachfrage beim Verkäufer klärt zunächst, ob es einen einfachen Grund gibt."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn beim Autokauf etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "aufgefallen"
+          ],
+          "2": [
+            "verschwiegen"
+          ],
+          "3": [
+            "entdeckt"
+          ],
+          "4": [
+            "abschließen"
+          ],
+          "5": [
+            "verzögert"
+          ],
+          "6": [
+            "gepasst"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Bei der Probefahrt ist ein ungewöhnliches Geräusch {1}. (bemerkt worden, Partizip)\n2. Der Verkäufer hat den Unfallschaden {2}. (nicht erwähnt, Partizip)\n3. Nach dem Kauf haben wir einen Mangel {3}. (gefunden, Partizip)\n4. Der Verkäufer wollte den Vertrag nur mündlich {4}. (unterschreiben, Infinitiv)\n5. Die Zulassung hat sich unerwartet {5}. (später als geplant, Partizip)\n6. Der Kilometerstand hat nicht zum Serviceheft {6}. (übereingestimmt)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "möchte"
+          ],
+          "2": [
+            "Darf"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Gebrauchtwagen"
+          ],
+          "5": [
+            "Probefahrt"
+          ],
+          "6": [
+            "Kilometerstand"
+          ],
+          "7": [
+            "TÜV"
+          ],
+          "8": [
+            "Unfallwagen"
+          ],
+          "9": [
+            "Kaufvertrag"
+          ],
+          "10": [
+            "aufgefallen"
+          ],
+          "11": [
+            "verschwiegen"
+          ],
+          "12": [
+            "entdeckt"
+          ],
+          "13": [
+            "verzögert"
+          ],
+          "14": [
+            "gepasst"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} vor dem Kauf eine Probefahrt machen. (would like)\n2. {2} ich mir den TÜV-Bericht ansehen? (may — dürfen)\n3. Ich {3} schon eine Probefahrt gemacht. (have — Perfekt)\n4. Wir schauen uns heute einen {4} an. (used car)\n5. Vor dem Kauf machen wir eine {5}. (test drive)\n6. Der {6} steht bei 80.000 Kilometern. (mileage)\n7. Der {7} ist noch zwei Jahre gültig. (safety inspection)\n8. Wir fragen, ob es ein {8} war. (accident car)\n9. Am Ende unterschreiben wir den {9}. (purchase contract)\n10. Bei der Probefahrt ist ein Geräusch {10}. (noticed — Partizip)\n11. Der Verkäufer hat den Unfallschaden {11}. (concealed — Partizip)\n12. Nach dem Kauf haben wir einen Mangel {12}. (discovered — Partizip)\n13. Die Zulassung hat sich unerwartet {13}. (delayed — Partizip)\n14. Der Kilometerstand hat nicht zum Serviceheft {14}. (matched)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-78-auto-kaufen-b1",
+  "intro": "Beim Gebrauchtwagenkauf zählt jedes Detail: eine Probefahrt machen, den Kilometerstand mit dem Serviceheft abgleichen, nach dem TÜV und möglichen Unfallschäden fragen, und am Ende über den Preis verhandeln. Dieses Set übt genau das — den Wagen besichtigen, verhandeln, den Kaufvertrag abschließen, und was zu tun ist, wenn bei der Probefahrt etwas auffällt oder der Verkäufer einen Schaden verschweigt. Grammatik nach Bedarf: Perfekt und Passiv im Bericht, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/78-auto-kaufen-b1",
+  "level": "B1",
+  "summary": "Einen Gebrauchtwagen besichtigen, eine Probefahrt machen, über den Preis verhandeln — und was tun, wenn ein Geräusch auffällt oder ein Unfallschaden verschwiegen wurde.",
+  "title": "Ein Auto kaufen — B1",
+  "topic": "Ein Auto kaufen"
+}

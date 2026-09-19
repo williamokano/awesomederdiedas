@@ -1,0 +1,714 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "werden + Partizip II + haben (machen)",
+          "werden + Partizip II + sein (ankommen)"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "werde gemacht haben"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "werde angekommen sein"
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "ich"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "wirst gemacht haben"
+                ],
+                "gap": 3
+              },
+              {
+                "answer": [
+                  "wirst angekommen sein"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "du"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "wird gemacht haben"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "wird angekommen sein"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "er/sie/es"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "werden gemacht haben"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "werden angekommen sein"
+                ],
+                "gap": 8
+              }
+            ],
+            "label": "wir"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "werdet gemacht haben"
+                ],
+                "gap": 9
+              },
+              {
+                "answer": [
+                  "werdet angekommen sein"
+                ],
+                "gap": 10
+              }
+            ],
+            "label": "ihr"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "werden gemacht haben"
+                ],
+                "gap": 11
+              },
+              {
+                "answer": [
+                  "werden angekommen sein"
+                ],
+                "gap": 12
+              }
+            ],
+            "label": "sie/Sie"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die Tabelle.",
+      "instructionsEn": "Complete the table.",
+      "title": "werden + Partizip II + haben/sein"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "werde"
+          ],
+          "2": [
+            "wird"
+          ],
+          "3": [
+            "werden"
+          ],
+          "4": [
+            "wirst"
+          ],
+          "5": [
+            "wird"
+          ],
+          "6": [
+            "werdet"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Bis nächsten Montag {1} ich das Projekt beendet haben.\n2. In zwei Stunden {2} der Zug angekommen sein.\n3. Bis Ende des Jahres {3} wir das Haus gebaut haben.\n4. Bis dahin {4} du sicher schon gegessen haben.\n5. Bis morgen {5} sie die Prüfung bestanden haben.\n6. Bis zum Abend {6} ihr die Arbeit erledigt haben.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze die richtige Form von werden.",
+      "instructionsEn": "Fill in the correct form of werden.",
+      "title": "Futur II bilden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "werde"
+          ],
+          "2": [
+            "wird"
+          ],
+          "3": [
+            "werden"
+          ],
+          "4": [
+            "werden"
+          ],
+          "5": [
+            "wird"
+          ],
+          "6": [
+            "werde"
+          ],
+          "7": [
+            "werden"
+          ],
+          "8": [
+            "wird"
+          ]
+        },
+        "bank": [
+          "werde",
+          "werde",
+          "wird",
+          "wird",
+          "wird",
+          "werden",
+          "werden",
+          "werden",
+          "wirst",
+          "werdet"
+        ],
+        "text": "Bis zum Ende des Jahres {1} ich mein Studium beendet haben.\nMeine Schwester {2} bis dahin schon geheiratet haben. Meine\nEltern {3} bis Weihnachten das neue Haus gebaut haben. Wir {4}\nbis dann sicher schon umgezogen sein. Mein Bruder {5} bis Sommer\nseinen Führerschein gemacht haben. Ich {6} bis dahin auch schon\neinen Job gefunden haben. Meine Freunde {7} bis dahin viele\nneue Erfahrungen gesammelt haben. Das Jahr {8} bestimmt\nspannend gewesen sein.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Bis zum Ende des Jahres"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich werde das Auto morgen kaufen."
+              },
+              {
+                "key": "b",
+                "text": "Ich werde das Auto morgen gekauft haben."
+              },
+              {
+                "key": "c",
+                "text": "Ich habe das Auto morgen gekauft."
+              }
+            ],
+            "q": "Bilde den Satz im Futur I: Ich (das Auto / kaufen) — morgen.",
+            "why": "Futur I (einfache Vorhersage) → werden + Infinitiv."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich habe das Auto bis nächste Woche gekauft."
+              },
+              {
+                "key": "b",
+                "text": "Ich werde das Auto bis nächste Woche gekauft haben."
+              },
+              {
+                "key": "c",
+                "text": "Ich werde das Auto bis nächste Woche kaufen."
+              }
+            ],
+            "q": "Bilde den Satz im Futur II: Ich (das Auto / kaufen) — bis nächste Woche.",
+            "why": "Futur II (abgeschlossen bis zu einem Zeitpunkt) → werden + Partizip II + haben."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Der Zug ist in einer Stunde angekommen."
+              },
+              {
+                "key": "b",
+                "text": "Der Zug wird in einer Stunde angekommen sein."
+              },
+              {
+                "key": "c",
+                "text": "Der Zug wird in einer Stunde ankommen."
+              }
+            ],
+            "q": "Bilde den Satz im Futur I: Der Zug (ankommen) — in einer Stunde.",
+            "why": "Futur I (einfache Vorhersage) → werden + Infinitiv."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Der Zug wird bis 18 Uhr angekommen sein."
+              },
+              {
+                "key": "b",
+                "text": "Der Zug wird bis 18 Uhr ankommen."
+              },
+              {
+                "key": "c",
+                "text": "Der Zug ist bis 18 Uhr angekommen."
+              }
+            ],
+            "q": "Bilde den Satz im Futur II: Der Zug (ankommen) — bis 18 Uhr.",
+            "why": "Futur II (abgeschlossen bis zu einem Zeitpunkt) → werden + Partizip II + sein."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir haben das Projekt nächstes Jahr beendet."
+              },
+              {
+                "key": "b",
+                "text": "Wir werden das Projekt nächstes Jahr beenden."
+              },
+              {
+                "key": "c",
+                "text": "Wir werden das Projekt nächstes Jahr beendet haben."
+              }
+            ],
+            "q": "Bilde den Satz im Futur I: Wir (das Projekt / beenden) — nächstes Jahr.",
+            "why": "Futur I (einfache Vorhersage) → werden + Infinitiv."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir werden das Projekt bis Ende des Jahres beenden."
+              },
+              {
+                "key": "b",
+                "text": "Wir haben das Projekt bis Ende des Jahres beendet."
+              },
+              {
+                "key": "c",
+                "text": "Wir werden das Projekt bis Ende des Jahres beendet haben."
+              }
+            ],
+            "q": "Bilde den Satz im Futur II: Wir (das Projekt / beenden) — bis Ende des Jahres.",
+            "why": "Futur II (abgeschlossen bis zu einem Zeitpunkt) → werden + Partizip II + haben."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Futur I oder Futur II?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "auf den Markt gebracht haben"
+              },
+              {
+                "key": "b",
+                "text": "auf den Markt bringen"
+              },
+              {
+                "key": "c",
+                "text": "auf den Markt gebracht"
+              }
+            ],
+            "q": "Bis Ende des Jahres wird die Firma ein neues Produkt ___.",
+            "why": "Futur II (abgeschlossen bis Ende des Jahres) → Partizip II + haben."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "eröffnet haben"
+              },
+              {
+                "key": "b",
+                "text": "eröffnen"
+              },
+              {
+                "key": "c",
+                "text": "eröffnet"
+              }
+            ],
+            "q": "Nächsten Monat wird die Firma eine neue Filiale ___.",
+            "why": "Futur I (einfache Vorhersage) → Infinitiv."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "sammeln"
+              },
+              {
+                "key": "b",
+                "text": "gesammelt"
+              },
+              {
+                "key": "c",
+                "text": "gesammelt haben"
+              }
+            ],
+            "q": "Bis 2030 werden die Mitarbeiter mehr Erfahrung ___.",
+            "why": "Futur II (abgeschlossen bis 2030) → Partizip II + haben."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "treffen"
+              },
+              {
+                "key": "b",
+                "text": "getroffen haben"
+              },
+              {
+                "key": "c",
+                "text": "getroffen"
+              }
+            ],
+            "q": "Morgen wird der Chef eine wichtige Entscheidung ___.",
+            "why": "Futur I (einfache Vorhersage) → Infinitiv."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "fertigstellen"
+              },
+              {
+                "key": "b",
+                "text": "fertiggestellt haben"
+              },
+              {
+                "key": "c",
+                "text": "fertiggestellt"
+              }
+            ],
+            "q": "Bis nächsten Freitag werden wir das Angebot ___.",
+            "why": "Futur II (abgeschlossen bis Freitag) → Partizip II + haben."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "gehalten haben"
+              },
+              {
+                "key": "b",
+                "text": "gehalten"
+              },
+              {
+                "key": "c",
+                "text": "halten"
+              }
+            ],
+            "q": "Übermorgen wird das Team die Präsentation ___.",
+            "why": "Futur I (einfache Vorhersage) → Infinitiv."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "steigern"
+              },
+              {
+                "key": "b",
+                "text": "gesteigert haben"
+              },
+              {
+                "key": "c",
+                "text": "gesteigert"
+              }
+            ],
+            "q": "Bis zum nächsten Quartal werden sie den Umsatz ___.",
+            "why": "Futur II (abgeschlossen bis zum Quartal) → Partizip II + haben."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "anrufen"
+              },
+              {
+                "key": "b",
+                "text": "angerufen haben"
+              },
+              {
+                "key": "c",
+                "text": "angerufen"
+              }
+            ],
+            "q": "Nächste Woche wird der Kunde ___.",
+            "why": "Futur I (einfache Vorhersage) → Infinitiv."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct verb ending for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Zukunftspläne einer Firma"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "werde"
+          ],
+          "2": [
+            "werde"
+          ],
+          "3": [
+            "wird"
+          ],
+          "4": [
+            "werden"
+          ],
+          "5": [
+            "werde"
+          ],
+          "6": [
+            "werden"
+          ],
+          "7": [
+            "werde"
+          ],
+          "8": [
+            "wird"
+          ],
+          "9": [
+            "werde"
+          ],
+          "10": [
+            "werde"
+          ]
+        },
+        "bank": [
+          "werde",
+          "werde",
+          "werde",
+          "werde",
+          "werde",
+          "werde",
+          "wird",
+          "wird",
+          "werden",
+          "werden",
+          "wirst",
+          "werdet"
+        ],
+        "text": "Bis 2030 {1} ich viele Ziele erreicht haben. Ich {2} mein\neigenes Unternehmen gegründet haben. Meine Familie {3} mich\ndabei unterstützt haben. Wir {4} zusammen viele Erfolge\ngefeiert haben. Ich {5} auch eine neue Sprache gelernt haben.\nMeine Freunde {6} mich sicher besucht haben. Ich {7} hoffentlich\ngesund geblieben sein. Die Welt {8} sich bis dahin verändert\nhaben. Ich {9} stolz auf meinen Weg zurückblicken. Am Ende {10}\nich zufrieden gewesen sein.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Two words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Persönliche Meilensteine bis 2030 (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "werde"
+          ],
+          "2": [
+            "wird"
+          ],
+          "3": [
+            "werden"
+          ],
+          "4": [
+            "werde"
+          ],
+          "5": [
+            "wird"
+          ],
+          "6": [
+            "werdet"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Bis morgen {1} ich das Buch gelesen haben.\n2. Der Zug {2} in einer Stunde ankommen.\n3. Bis Ende des Jahres {3} wir das Haus gebaut haben.\n4. Morgen {4} ich einkaufen gehen.\n5. Bis Freitag {5} sie die Prüfung bestanden haben.\n6. Nächste Woche {6} ihr uns besuchen.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die richtige Form von werden.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "fertiggestellt haben"
+              },
+              {
+                "key": "b",
+                "text": "fertigstellen"
+              },
+              {
+                "key": "c",
+                "text": "fertiggestellt"
+              }
+            ],
+            "q": "Bis nächste Woche wird sie das Projekt ___.",
+            "why": "Futur II (abgeschlossen bis nächste Woche) → Partizip II + haben."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "angerufen haben"
+              },
+              {
+                "key": "b",
+                "text": "anrufen"
+              },
+              {
+                "key": "c",
+                "text": "angerufen"
+              }
+            ],
+            "q": "Morgen wird er uns ___.",
+            "why": "Futur I (einfache Vorhersage) → Infinitiv."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "erreichen"
+              },
+              {
+                "key": "b",
+                "text": "erreicht"
+              },
+              {
+                "key": "c",
+                "text": "erreicht haben"
+              }
+            ],
+            "q": "Bis 2025 werden wir viel ___.",
+            "why": "Futur II (abgeschlossen bis 2025) → Partizip II + haben."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "beginnen"
+              },
+              {
+                "key": "b",
+                "text": "begonnen haben"
+              },
+              {
+                "key": "c",
+                "text": "begonnen"
+              }
+            ],
+            "q": "Nächste Woche wird das Team die Arbeit ___.",
+            "why": "Futur I (einfache Vorhersage) → Infinitiv."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "treffen"
+              },
+              {
+                "key": "b",
+                "text": "getroffen haben"
+              },
+              {
+                "key": "c",
+                "text": "getroffen"
+              }
+            ],
+            "q": "Bis Freitag werden sie die Entscheidung ___.",
+            "why": "Futur II (abgeschlossen bis Freitag) → Partizip II + haben."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "geschrieben haben"
+              },
+              {
+                "key": "b",
+                "text": "geschrieben"
+              },
+              {
+                "key": "c",
+                "text": "schreiben"
+              }
+            ],
+            "q": "Übermorgen wird sie die Prüfung ___.",
+            "why": "Futur I (einfache Vorhersage) → Infinitiv."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct verb ending (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-18-futur-b1",
+  "intro": "Standalone drill set, not tied to any lesson. Futur II (werden + Partizip II + haben/sein) says something will be DONE by a certain future point — not just happening, but finished: Bis nächsten Montag werde ich das Projekt beendet haben. It contrasts with Futur I (werden + bare Infinitiv), which just predicts the action itself: Morgen werde ich das Projekt beenden. Both stay rarer than Präsens + time word in everyday speech, but Futur II is genuinely useful for \"by then, X will already have happened.\" Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/18-futur-b1",
+  "level": "B1",
+  "summary": null,
+  "title": "Futur II: bis dahin abgeschlossen — B1",
+  "topic": "Futur I und II"
+}

@@ -1,0 +1,830 @@
+{
+  "category": "Wohnen & Nachbarschaft",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "feststellen",
+            "label": "Den Mangel feststellen"
+          },
+          {
+            "key": "melden",
+            "label": "Melden"
+          },
+          {
+            "key": "danach",
+            "label": "Nach der Meldung"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "feststellen",
+            "text": "Schimmel an der Wand entdecken"
+          },
+          {
+            "bucket": "feststellen",
+            "text": "einen Wasserschaden bemerken"
+          },
+          {
+            "bucket": "feststellen",
+            "text": "die ausgefallene Heizung prüfen"
+          },
+          {
+            "bucket": "feststellen",
+            "text": "Beweisfotos machen"
+          },
+          {
+            "bucket": "melden",
+            "text": "eine Mängelanzeige schreiben"
+          },
+          {
+            "bucket": "melden",
+            "text": "eine Frist setzen"
+          },
+          {
+            "bucket": "melden",
+            "text": "den Vermieter kontaktieren"
+          },
+          {
+            "bucket": "melden",
+            "text": "den Mangel genau beschreiben"
+          },
+          {
+            "bucket": "danach",
+            "text": "auf eine Reaktion warten"
+          },
+          {
+            "bucket": "danach",
+            "text": "die Mietminderung berechnen"
+          },
+          {
+            "bucket": "danach",
+            "text": "den Handwerker ins Haus lassen"
+          },
+          {
+            "bucket": "danach",
+            "text": "die Reparatur überprüfen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Feststellen, melden oder danach?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Mangel"
+          },
+          {
+            "key": "2",
+            "text": "die Mängelanzeige"
+          },
+          {
+            "key": "3",
+            "text": "eine Frist setzen"
+          },
+          {
+            "key": "4",
+            "text": "die Mietminderung"
+          },
+          {
+            "key": "5",
+            "text": "der Schimmel"
+          },
+          {
+            "key": "6",
+            "text": "der Wasserschaden"
+          },
+          {
+            "key": "7",
+            "text": "die Heizung ausfallen"
+          },
+          {
+            "key": "8",
+            "text": "das Beweisfoto"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "ein Problem oder Defekt in der Wohnung"
+          },
+          {
+            "key": "b",
+            "text": "die schriftliche Meldung eines Mangels an den Vermieter"
+          },
+          {
+            "key": "c",
+            "text": "einen Termin zur Behebung des Mangels festlegen"
+          },
+          {
+            "key": "d",
+            "text": "die zeitweise Reduzierung der Miete wegen eines Mangels"
+          },
+          {
+            "key": "e",
+            "text": "der Pilzbefall an Wänden, oft durch Feuchtigkeit"
+          },
+          {
+            "key": "f",
+            "text": "der Schaden durch ausgelaufenes Wasser"
+          },
+          {
+            "key": "g",
+            "text": "wenn die Heizung nicht mehr funktioniert"
+          },
+          {
+            "key": "h",
+            "text": "ein Foto zur Dokumentation eines Schadens"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Können"
+          ],
+          "5": [
+            "behoben"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Ist"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} den Mangel schriftlich melden. (Modalverb, ich-Form)\n2. {2} Sie mir eine Frist zur Behebung setzen? (können, Sie-Form)\n3. Ich {3} schon Beweisfotos gemacht. (haben, Perfekt)\n4. {4} wir die Miete mindern? (können, wir-Form)\n5. Falls der Schaden nicht {5} wird, mindern wir die Miete. (beheben, Partizip)\n6. Der Vermieter {6} sich um die Reparatur kümmern. (werden, Futur I)\n7. Wir {7} schon die Mängelanzeige geschickt. (haben, Perfekt)\n8. {8} der Schimmel schon entfernt worden? (sein, Perfekt Passiv)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Die Meldung planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Mangel"
+          ],
+          "2": [
+            "Mängelanzeige"
+          ],
+          "3": [
+            "Mietminderung"
+          ],
+          "4": [
+            "Schimmel"
+          ],
+          "5": [
+            "Wasserschaden"
+          ],
+          "6": [
+            "Beweisfoto"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ein Defekt in der Wohnung heißt offiziell ein {1}. (ein Problem oder Defekt in der Wohnung)\n2. Diesen Mangel melden wir dem Vermieter mit einer {2}. (die schriftliche Meldung eines Mangels)\n3. Wird der Mangel nicht behoben, können wir die {3} verlangen. (die zeitweise Reduzierung der Miete)\n4. An der Wand im Bad ist deutlich {4} zu sehen. (der Pilzbefall durch Feuchtigkeit)\n5. Im Keller haben wir einen {5} entdeckt. (der Schaden durch ausgelaufenes Wasser)\n6. Zur Dokumentation machen wir sofort ein {6}. (ein Foto zur Dokumentation eines Schadens)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "MÄNGEL"
+          ],
+          "2": [
+            "SCHIMMEL"
+          ],
+          "3": [
+            "AUSGEFALLEN"
+          ],
+          "4": [
+            "BEWEISFOTOS"
+          ],
+          "5": [
+            "MÄNGELANZEIGE"
+          ],
+          "6": [
+            "FRIST"
+          ],
+          "7": [
+            "MIETMINDERUNG"
+          ],
+          "8": [
+            "KÜMMERE"
+          ],
+          "9": [
+            "BEKANNT"
+          ],
+          "10": [
+            "REPARIEREN"
+          ]
+        },
+        "bank": [
+          "MÄNGEL",
+          "SCHIMMEL",
+          "AUSGEFALLEN",
+          "BEWEISFOTOS",
+          "MÄNGELANZEIGE",
+          "FRIST",
+          "MIETMINDERUNG",
+          "KÜMMERE",
+          "BEKANNT",
+          "REPARIEREN",
+          "KAUTION",
+          "NEBENKOSTEN",
+          "HAUSVERWALTUNG",
+          "VERSICHERUNG"
+        ],
+        "text": "— Guten Tag, ich möchte Ihnen ein paar {1} in meiner Wohnung\nmelden.\n— Was ist denn los?\n— An der Wand im Bad ist deutlich {2} zu sehen, die Heizung im\nWohnzimmer ist {3}, und im Keller gibt es einen Wasserschaden.\n— Oh, das tut mir leid. Haben Sie schon {4} gemacht?\n— Ja, ich schicke Ihnen die gleich mit einer schriftlichen\n{5}.\n— Gut, ich veranlasse dann eine Reparatur.\n— Können Sie mir dafür eine {6} setzen, bis wann das erledigt\nsein soll?\n— Sagen wir zwei Wochen, ist das in Ordnung?\n— Ja, das reicht. Falls es länger dauert, muss ich sonst über\neine {7} nachdenken.\n— Das verstehe ich. Ich {8} mich gleich morgen um einen\nHandwerker.\n— Danke. Und der Wasserschaden im Keller — ist der auch schon\n{9}?\n— Ja, den lassen wir parallel {10}.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Mängel beim Vermieter melden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Mängel sind mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Ich möchte Ihnen ein paar Mängel in meiner Wohnung melden."
+              },
+              {
+                "key": "c",
+                "text": "Ich beschwere mich einfach woanders."
+              }
+            ],
+            "q": "Du möchtest dem Vermieter mehrere Mängel melden. — You want to report several defects to your landlord.",
+            "why": "Eine direkte, sachliche Meldung an den Vermieter ist der übliche und wirksame erste Schritt."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wasserschäden interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Das ist doch nicht mein Problem."
+              },
+              {
+                "key": "c",
+                "text": "Ist Ihnen der Wasserschaden im Keller schon bekannt?"
+              }
+            ],
+            "q": "Du möchtest wissen, ob der Vermieter schon von dem Wasserschaden weiß. — You want to know whether the landlord already knows about the water damage.",
+            "why": "Eine direkte Nachfrage klärt, ob der Vermieter bereits informiert ist."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Können Sie mir eine Frist setzen, bis wann das erledigt sein soll?"
+              },
+              {
+                "key": "b",
+                "text": "Fristen sind mir zu kompliziert."
+              },
+              {
+                "key": "c",
+                "text": "Ich warte einfach unbegrenzt."
+              }
+            ],
+            "q": "Du möchtest eine Frist zur Behebung des Mangels setzen. — You want to set a deadline for fixing the defect.",
+            "why": "Eine klare Frist gibt beiden Seiten Sicherheit über den Zeitrahmen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dann mache ich einfach gar nichts."
+              },
+              {
+                "key": "b",
+                "text": "Dann muss ich über eine Mietminderung nachdenken."
+              },
+              {
+                "key": "c",
+                "text": "Dann ziehe ich sofort aus, ohne etwas zu sagen."
+              }
+            ],
+            "q": "Der Mangel wird nicht innerhalb der Frist behoben. — The defect isn't fixed within the deadline.",
+            "why": "Eine Mietminderung ist die übliche nächste Konsequenz bei einer verpassten Frist."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Fotos sind mir zu aufwendig."
+              },
+              {
+                "key": "b",
+                "text": "Beweise brauche ich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Ich schicke Ihnen die Beweisfotos mit einer schriftlichen Mängelanzeige."
+              }
+            ],
+            "q": "Du möchtest dem Vermieter Beweisfotos schicken. — You want to send the landlord photo evidence.",
+            "why": "Fotos zusammen mit einer schriftlichen Anzeige dokumentieren den Mangel eindeutig."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wann kann der Handwerker vorbeikommen?"
+              },
+              {
+                "key": "b",
+                "text": "Handwerker interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Ich repariere das lieber selbst."
+              }
+            ],
+            "q": "Du möchtest wissen, wann der Handwerker kommt. — You want to know when the tradesperson is coming.",
+            "why": "Eine konkrete Frage zum Termin hilft bei der eigenen Planung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Melden und Fristen setzen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Aussage, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "Ihnen",
+              "ein",
+              "paar",
+              "Mängel",
+              "melden"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Ja/Nein-Frage mit sein",
+            "tiles": [
+              "Ist",
+              "Ihnen",
+              "der",
+              "Wasserschaden",
+              "schon",
+              "bekannt",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Frage, Infinitiv am Ende",
+            "tiles": [
+              "Können",
+              "Sie",
+              "mir",
+              "eine",
+              "Frist",
+              "setzen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "note": "Nebensatz im Passiv, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "der",
+              "Schaden",
+              "nicht",
+              "behoben",
+              "wird",
+              ",",
+              "mindern",
+              "wir",
+              "die",
+              "Miete"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Hauptsatz, Verb an Position 2",
+            "tiles": [
+              "Ich",
+              "schicke",
+              "Ihnen",
+              "die",
+              "Beweisfotos",
+              "sofort"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Wir",
+              "haben",
+              "schon",
+              "die",
+              "Mängelanzeige",
+              "geschickt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zur Mängelmeldung bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Eine Mängelanzeige sollte schriftlich erfolgen, am besten mit Fotos. — A defect notice should be in writing, ideally with photos.",
+            "why": "So steht es ausdrücklich in den Infos zur Mängelmeldung."
+          },
+          {
+            "answer": false,
+            "q": "Für die Behebung eines Mangels gibt man dem Vermieter üblicherweise gar keine Frist. — For fixing a defect, you usually give the landlord no deadline at all.",
+            "why": "Üblich sind zwei bis vier Wochen, nicht gar keine Frist."
+          },
+          {
+            "answer": true,
+            "q": "Eine Mietminderung ist erst zulässig, wenn der Mangel nachweislich gemeldet wurde. — Rent reduction is only permitted once the defect has been demonstrably reported.",
+            "why": "„Mietminderung: erst zulässig, wenn der Mangel nachweislich gemeldet wurde.“"
+          },
+          {
+            "answer": false,
+            "q": "Schimmel entsteht immer ausschließlich durch falsches Lüften, nie durch einen Baumangel. — Mold is always caused exclusively by improper ventilation, never by a structural defect.",
+            "why": "Schimmel kann auf falsches Lüften hinweisen, aber ebenso auf einen Baumangel."
+          },
+          {
+            "answer": true,
+            "q": "Ein Heizungsausfall im Winter sollte sofort gemeldet werden, notfalls auch telefonisch. — A heating failure in winter should be reported immediately, by phone if necessary.",
+            "why": "„Notfälle wie ein Heizungsausfall im Winter: sofort melden, auch telefonisch.“"
+          },
+          {
+            "answer": false,
+            "q": "Reparaturkosten trägt grundsätzlich immer der Mieter. — Repair costs are always borne by the tenant.",
+            "why": "Sie trägt in der Regel der Vermieter, außer bei selbst verursachten Schäden."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Mängel melden**\n>\n> - **Mängelanzeige:** sollte **schriftlich** erfolgen, am\n>   besten mit Fotos.\n> - **Frist:** üblich sind **zwei bis vier Wochen**, je nach\n>   Schwere des Mangels.\n> - **Mietminderung:** erst zulässig, wenn der Mangel\n>   **nachweislich gemeldet** wurde.\n> - **Schimmel:** kann auf **falsches Lüften** hinweisen, aber\n>   auch auf einen Baumangel.\n> - **Notfälle** wie ein Heizungsausfall im Winter: **sofort**\n>   melden, auch telefonisch.\n> - **Reparaturkosten:** trägt in der Regel **der Vermieter**,\n>   außer bei selbst verursachten Schäden.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zur Mängelmeldung lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach abwarten, ohne weiter zu handeln."
+              },
+              {
+                "key": "b",
+                "text": "Nach Ablauf der Frist die Mietminderung ankündigen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort ausziehen, ohne etwas zu unternehmen."
+              }
+            ],
+            "q": "Der Vermieter reagiert nicht auf die schriftliche Mängelanzeige. — The landlord doesn't respond to the written defect notice.",
+            "why": "Nach Ablauf der gesetzten Frist ist eine Mietminderung die logische nächste Konsequenz."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Schimmel einfach selbst wegwischen und nichts weiter sagen."
+              },
+              {
+                "key": "b",
+                "text": "Abwarten, bis er von allein verschwindet."
+              },
+              {
+                "key": "c",
+                "text": "Den Mangel erneut dringlich melden und auf Gesundheitsrisiken hinweisen."
+              }
+            ],
+            "q": "Der Schimmel breitet sich trotz Meldung weiter aus. — The mold keeps spreading despite the report.",
+            "why": "Eine erneute, dringliche Meldung mit Hinweis auf Gesundheitsrisiken erhöht den Druck."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sachlich widersprechen und gegebenenfalls einen Gutachter vorschlagen."
+              },
+              {
+                "key": "b",
+                "text": "Die Behauptung kommentarlos akzeptieren."
+              },
+              {
+                "key": "c",
+                "text": "Sich laut streiten, ohne Argumente vorzubringen."
+              }
+            ],
+            "q": "Der Vermieter behauptet, der Schimmel sei durch falsches Lüften selbst verursacht. — The landlord claims the mold was caused by improper ventilation.",
+            "why": "Ein sachlicher Widerspruch mit einem Gutachter klärt die tatsächliche Ursache."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach bis zum nächsten Werktag warten."
+              },
+              {
+                "key": "b",
+                "text": "Sofort, notfalls telefonisch, melden und auf die Dringlichkeit hinweisen."
+              },
+              {
+                "key": "c",
+                "text": "Sich selbst eine neue Heizung kaufen, ohne Bescheid zu geben."
+              }
+            ],
+            "q": "Die Heizung fällt mitten im Winter aus. — The heating fails in the middle of winter.",
+            "why": "Ein Heizungsausfall im Winter ist ein Notfall und muss sofort gemeldet werden."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Handwerker einfach vergessen."
+              },
+              {
+                "key": "b",
+                "text": "Sich woanders eine neue Wohnung suchen."
+              },
+              {
+                "key": "c",
+                "text": "Beim Vermieter nach dem Stand der Reparatur nachfragen."
+              }
+            ],
+            "q": "Der Handwerker kommt trotz vereinbarter Frist nicht. — The tradesperson doesn't come despite the agreed deadline.",
+            "why": "Eine Nachfrage beim Vermieter klärt schnell, woran es hakt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sich bei einem Mieterverein informieren."
+              },
+              {
+                "key": "b",
+                "text": "Einfach irgendeinen Betrag raten."
+              },
+              {
+                "key": "c",
+                "text": "Die Miete komplett einbehalten, ohne sich zu informieren."
+              }
+            ],
+            "q": "Man ist sich unsicher, wie hoch die Mietminderung ausfallen darf. — You're unsure how much rent reduction is allowed.",
+            "why": "Ein Mieterverein kennt die üblichen Richtwerte für eine angemessene Mietminderung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn bei der Mängelmeldung etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "geantwortet"
+          ],
+          "2": [
+            "ausgebreitet"
+          ],
+          "3": [
+            "gegeben"
+          ],
+          "4": [
+            "ausgefallen"
+          ],
+          "5": [
+            "gekommen"
+          ],
+          "6": [
+            "informiert"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Vermieter hat auf die Mängelanzeige nicht {1}. (nicht geantwortet, Partizip)\n2. Der Schimmel hat sich trotz Meldung weiter {2}. (größer geworden, Partizip)\n3. Der Vermieter hat uns die Schuld für den Schimmel {3}. (zugeschrieben, Partizip)\n4. Die Heizung ist mitten im Winter {4}. (nicht mehr in Betrieb, Partizip)\n5. Der Handwerker ist trotz Frist nicht {5}. (nicht erschienen, Partizip)\n6. Wir haben uns bei einem Mieterverein {6}. (Rat geholt, Partizip reflexiv)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Könnten"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Mangel"
+          ],
+          "5": [
+            "Mängelanzeige"
+          ],
+          "6": [
+            "Mietminderung"
+          ],
+          "7": [
+            "Schimmel"
+          ],
+          "8": [
+            "Wasserschaden"
+          ],
+          "9": [
+            "Beweisfoto"
+          ],
+          "10": [
+            "geantwortet"
+          ],
+          "11": [
+            "ausgebreitet"
+          ],
+          "12": [
+            "gegeben"
+          ],
+          "13": [
+            "ausgefallen"
+          ],
+          "14": [
+            "gekommen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} den Mangel schriftlich melden. (must)\n2. {2} Sie mir eine Frist setzen? (could — können)\n3. Ich {3} schon Beweisfotos gemacht. (have — Perfekt)\n4. Ein Defekt in der Wohnung heißt offiziell ein {4}. (defect)\n5. Diesen Mangel melden wir mit einer {5}. (written notice of defect)\n6. Wird der Mangel nicht behoben, verlangen wir die {6}. (rent reduction)\n7. An der Wand ist deutlich {7} zu sehen. (mold)\n8. Im Keller haben wir einen {8} entdeckt. (water damage)\n9. Zur Dokumentation machen wir ein {9}. (evidence photo)\n10. Der Vermieter hat auf die Mängelanzeige nicht {10}. (responded — Partizip)\n11. Der Schimmel hat sich weiter {11}. (spread — Partizip)\n12. Der Vermieter hat uns die Schuld {12}. (given — Partizip)\n13. Die Heizung ist mitten im Winter {13}. (failed — Partizip)\n14. Der Handwerker ist trotz Frist nicht {14}. (come — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-69-maengel-melden-b1",
+  "intro": "Schimmel an der Wand, ein Wasserschaden im Keller oder eine ausgefallene Heizung — solche Mängel sollten schriftlich gemeldet werden, am besten mit Fotos und einer klaren Frist zur Behebung. Dieses Set übt genau das: einen Mangel melden, eine Frist setzen, mit einer möglichen Mietminderung drohen, und was zu tun ist, wenn der Vermieter nicht reagiert oder ein Notfall wie ein Heizungsausfall im Winter auftritt. Grammatik nach Bedarf: Passiv im Bericht, Perfekt, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/69-maengel-melden-b1",
+  "level": "B1",
+  "summary": "Einen Mangel schriftlich melden, eine Frist setzen, Beweisfotos schicken — und was tun, wenn der Vermieter nicht reagiert oder die Heizung mitten im Winter ausfällt.",
+  "title": "Mängel melden: Heizung, Schimmel, Wasserschaden — B1",
+  "topic": "Mängel melden: Heizung, Schimmel, Wasserschaden"
+}

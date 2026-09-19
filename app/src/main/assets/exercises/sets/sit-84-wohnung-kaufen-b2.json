@@ -1,0 +1,830 @@
+{
+  "category": "Einkaufen",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "besichtigen",
+            "label": "Besichtigen"
+          },
+          {
+            "key": "finanzieren",
+            "label": "Finanzieren"
+          },
+          {
+            "key": "kaufen",
+            "label": "Kaufen"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "besichtigen",
+            "text": "die Eigentumswohnung besichtigen"
+          },
+          {
+            "bucket": "besichtigen",
+            "text": "den Energieausweis einsehen"
+          },
+          {
+            "bucket": "besichtigen",
+            "text": "den Zustand prüfen"
+          },
+          {
+            "bucket": "besichtigen",
+            "text": "Fragen zum Hausgeld stellen"
+          },
+          {
+            "bucket": "finanzieren",
+            "text": "die Finanzierung klären"
+          },
+          {
+            "bucket": "finanzieren",
+            "text": "die Kaufnebenkosten berechnen"
+          },
+          {
+            "bucket": "finanzieren",
+            "text": "die Grunderwerbsteuer einplanen"
+          },
+          {
+            "bucket": "finanzieren",
+            "text": "ein Bankgespräch vereinbaren"
+          },
+          {
+            "bucket": "kaufen",
+            "text": "den Notartermin vereinbaren"
+          },
+          {
+            "bucket": "kaufen",
+            "text": "den Kaufvertrag unterschreiben"
+          },
+          {
+            "bucket": "kaufen",
+            "text": "die Eintragung ins Grundbuch beantragen"
+          },
+          {
+            "bucket": "kaufen",
+            "text": "die Schlüssel übernehmen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Besichtigen, finanzieren oder kaufen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Eigentumswohnung"
+          },
+          {
+            "key": "2",
+            "text": "der Notartermin"
+          },
+          {
+            "key": "3",
+            "text": "die Kaufnebenkosten"
+          },
+          {
+            "key": "4",
+            "text": "die Grunderwerbsteuer"
+          },
+          {
+            "key": "5",
+            "text": "die Finanzierung"
+          },
+          {
+            "key": "6",
+            "text": "das Grundbuch"
+          },
+          {
+            "key": "7",
+            "text": "der Energieausweis"
+          },
+          {
+            "key": "8",
+            "text": "das Hausgeld"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "eine Wohnung, die man kauft statt mietet"
+          },
+          {
+            "key": "b",
+            "text": "der Termin zur Beurkundung des Kaufvertrags"
+          },
+          {
+            "key": "c",
+            "text": "zusätzliche Kosten neben dem Kaufpreis"
+          },
+          {
+            "key": "d",
+            "text": "die Steuer beim Immobilienkauf"
+          },
+          {
+            "key": "e",
+            "text": "die Planung, wie der Kauf bezahlt wird"
+          },
+          {
+            "key": "f",
+            "text": "das amtliche Register für Eigentum an Immobilien"
+          },
+          {
+            "key": "g",
+            "text": "das Dokument über den Energieverbrauch der Wohnung"
+          },
+          {
+            "key": "h",
+            "text": "die monatlichen Kosten für die Gemeinschaft der Eigentümer"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "müssen"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "haben"
+          ],
+          "4": [
+            "Müssen"
+          ],
+          "5": [
+            "sind"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Ist"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir {1} die Finanzierung vorher klären. (müssen, wir-Form)\n2. {2} Sie uns den Energieausweis zeigen? (können, Sie-Form)\n3. Wir {3} schon eine Bank für die Finanzierung gefunden. (haben, Perfekt)\n4. {4} wir noch einen Notartermin vereinbaren? (müssen, wir-Form)\n5. Falls die Kaufnebenkosten höher {5}, müssen wir mehr Eigenkapital einbringen. (sein, Präsens)\n6. Der Notar {6} den Kaufvertrag vorher zuschicken. (werden, Futur I)\n7. Wir {7} schon die Eintragung ins Grundbuch beantragt. (haben, Perfekt)\n8. {8} das Hausgeld schon berechnet worden? (sein, Perfekt Passiv)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Den Kauf planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Eigentumswohnung"
+          ],
+          "2": [
+            "Notartermin"
+          ],
+          "3": [
+            "Kaufnebenkosten"
+          ],
+          "4": [
+            "Grunderwerbsteuer"
+          ],
+          "5": [
+            "Finanzierung"
+          ],
+          "6": [
+            "Grundbuch"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir möchten eine {1} in der Innenstadt kaufen. (eine Wohnung, die man kauft statt mietet)\n2. Für die Beurkundung brauchen wir einen {2}. (der Termin zur Beurkundung des Kaufvertrags)\n3. Neben dem Kaufpreis fallen noch {3} an. (zusätzliche Kosten neben dem Kaufpreis)\n4. Zu den Nebenkosten zählt auch die {4}. (die Steuer beim Immobilienkauf)\n5. Vor dem Kauf müssen wir die {5} klären. (die Planung, wie der Kauf bezahlt wird)\n6. Nach dem Kauf werden wir ins {6} eingetragen. (das amtliche Register für Eigentum)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "EIGENTUMSWOHNUNG"
+          ],
+          "2": [
+            "ENERGIEAUSWEIS"
+          ],
+          "3": [
+            "HAUSGELD"
+          ],
+          "4": [
+            "FINANZIERUNG"
+          ],
+          "5": [
+            "KAUFNEBENKOSTEN"
+          ],
+          "6": [
+            "GRUNDERWERBSTEUER"
+          ],
+          "7": [
+            "NOTARTERMINS"
+          ],
+          "8": [
+            "BEANTRAGE"
+          ],
+          "9": [
+            "GRUNDBUCH"
+          ],
+          "10": [
+            "INFORMIERE"
+          ]
+        },
+        "bank": [
+          "EIGENTUMSWOHNUNG",
+          "ENERGIEAUSWEIS",
+          "HAUSGELD",
+          "FINANZIERUNG",
+          "KAUFNEBENKOSTEN",
+          "GRUNDERWERBSTEUER",
+          "NOTARTERMINS",
+          "BEANTRAGE",
+          "GRUNDBUCH",
+          "INFORMIERE",
+          "MAKLER",
+          "GRUNDSTÜCK",
+          "MIETVERTRAG",
+          "IMMOBILIE"
+        ],
+        "text": "— Guten Tag, wir würden uns gerne die {1} ansehen, die zum\nVerkauf steht.\n— Natürlich, kommen Sie mit. Hier ist übrigens auch gleich\nder {2}, falls Sie den Energieverbrauch sehen möchten.\n— Danke, das interessiert uns sehr. Und wie hoch ist\neigentlich das monatliche {3}?\n— Etwa 250 Euro, das deckt die Instandhaltung und\nVerwaltung.\n(bei der Bank)\n— Guten Tag, wir möchten die {4} für den Kauf einer\nEigentumswohnung besprechen.\n— Gerne. Haben Sie schon eine Vorstellung von den {5}?\n— Ungefähr, aber wir sind uns bei der {6} noch unsicher.\n— Die liegt in der Regel bei etwa sechs Prozent des\nKaufpreises.\n— Gut zu wissen, danke.\n(beim Notar)\n— Guten Tag, wir sind heute wegen des {7} hier.\n— Perfekt, dann gehen wir gleich den Kaufvertrag durch.\nNach der Unterschrift {8} ich die Eintragung ins {9}.\n— Wie lange dauert das ungefähr?\n— Meistens ein paar Wochen. Ich {10} Sie, sobald alles\nerledigt ist.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Besichtigen, finanzieren, beurkunden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Eigentumswohnungen interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Wir würden uns gerne die Eigentumswohnung ansehen, die zum Verkauf steht."
+              },
+              {
+                "key": "c",
+                "text": "Ich kaufe sowieso nur Häuser."
+              }
+            ],
+            "q": "Du möchtest eine inserierte Eigentumswohnung besichtigen. — You want to view an advertised condo.",
+            "why": "Eine höfliche, konkrete Anfrage ist der übliche Einstieg bei der Besichtigung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Hausgeld interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Kosten sind mir egal."
+              },
+              {
+                "key": "c",
+                "text": "Wie hoch ist eigentlich das monatliche Hausgeld?"
+              }
+            ],
+            "q": "Du möchtest wissen, wie hoch das monatliche Hausgeld ist. — You want to know the monthly maintenance fee.",
+            "why": "Eine direkte Frage klärt die laufenden Kosten der Eigentumswohnung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir möchten die Finanzierung für den Kauf einer Eigentumswohnung besprechen."
+              },
+              {
+                "key": "b",
+                "text": "Finanzierung ist mir zu kompliziert."
+              },
+              {
+                "key": "c",
+                "text": "Ich zahle sowieso alles bar."
+              }
+            ],
+            "q": "Du möchtest bei der Bank die Finanzierung besprechen. — You want to discuss financing with the bank.",
+            "why": "Eine klare Aussage ist der übliche Einstieg beim Bankgespräch."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Steuern interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Wie hoch ist eigentlich die Grunderwerbsteuer?"
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du möchtest wissen, wie hoch die Grunderwerbsteuer ist. — You want to know how high the property transfer tax is.",
+            "why": "Eine direkte Frage klärt frühzeitig diese wichtige Nebenkostenposition."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Verträge interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Das eilt doch nicht."
+              },
+              {
+                "key": "c",
+                "text": "Dann gehen wir gleich den Kaufvertrag durch."
+              }
+            ],
+            "q": "Du bist beim Notartermin und möchtest den Kaufvertrag durchgehen. — You're at the notary appointment and want to go through the contract.",
+            "why": "Ein direkter Vorschlag ist der übliche Beginn des Notartermins."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wie lange dauert die Eintragung ins Grundbuch ungefähr?"
+              },
+              {
+                "key": "b",
+                "text": "Das Grundbuch interessiert mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Ich frage da lieber nicht nach."
+              }
+            ],
+            "q": "Du möchtest wissen, wie lange die Grundbucheintragung dauert. — You want to know how long the land register entry takes.",
+            "why": "Eine direkte Frage klärt, wann der Kauf endgültig abgeschlossen ist."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Besichtigen und Finanzieren"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Konjunktiv II mit würden, Infinitiv am Ende",
+            "tiles": [
+              "Wir",
+              "würden",
+              "uns",
+              "gerne",
+              "die",
+              "Eigentumswohnung",
+              "ansehen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "W-Frage mit sein",
+            "tiles": [
+              "Wie",
+              "hoch",
+              "ist",
+              "eigentlich",
+              "das",
+              "monatliche",
+              "Hausgeld",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "höfliche Aussage, Infinitiv am Ende",
+            "tiles": [
+              "Wir",
+              "möchten",
+              "die",
+              "Finanzierung",
+              "besprechen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Nebensatz mit falls, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "die",
+              "Kaufnebenkosten",
+              "höher",
+              "sind",
+              ",",
+              "brauchen",
+              "wir",
+              "mehr",
+              "Eigenkapital"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "W-Frage mit Verb an Position 2",
+            "tiles": [
+              "Wie",
+              "lange",
+              "dauert",
+              "die",
+              "Eintragung",
+              "ins",
+              "Grundbuch",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Wir",
+              "haben",
+              "schon",
+              "die",
+              "Eintragung",
+              "beantragt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zum Wohnungskauf bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Die Kaufnebenkosten liegen meist zwischen 10 und 15 Prozent des Kaufpreises. — Closing costs are usually between 10 and 15 percent of the purchase price.",
+            "why": "So steht es ausdrücklich in den Infos zum Wohnungskauf."
+          },
+          {
+            "answer": false,
+            "q": "Die Grunderwerbsteuer ist in ganz Deutschland exakt gleich hoch. — The property transfer tax is exactly the same everywhere in Germany.",
+            "why": "Sie liegt je nach Bundesland zwischen 3,5 und 6,5 Prozent, nicht überall gleich."
+          },
+          {
+            "answer": true,
+            "q": "Ein Notartermin ist beim Immobilienkauf gesetzlich vorgeschrieben. — A notary appointment is legally required for a property purchase.",
+            "why": "„Notartermin: ist beim Immobilienkauf gesetzlich vorgeschrieben.“"
+          },
+          {
+            "answer": false,
+            "q": "Die Grundbucheintragung ist meist noch am selben Tag abgeschlossen. — The land register entry is usually completed the same day.",
+            "why": "Sie dauert oft mehrere Wochen, nicht nur einen Tag."
+          },
+          {
+            "answer": true,
+            "q": "Das Hausgeld deckt unter anderem Instandhaltung und Verwaltung. — The maintenance fee covers upkeep and administration, among other things.",
+            "why": "„Hausgeld: deckt unter anderem Instandhaltung und Verwaltung.“"
+          },
+          {
+            "answer": false,
+            "q": "Der Energieausweis muss erst nach dem Einzug vorgelegt werden. — The energy certificate only needs to be shown after moving in.",
+            "why": "Er muss spätestens bei der Besichtigung vorgelegt werden, nicht erst nach dem Einzug."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Eine Wohnung kaufen**\n>\n> - **Kaufnebenkosten:** liegen meist zwischen **10 und 15\n>   Prozent** des Kaufpreises.\n> - **Grunderwerbsteuer:** je nach Bundesland zwischen **3,5\n>   und 6,5 Prozent**.\n> - **Notartermin:** ist beim Immobilienkauf **gesetzlich\n>   vorgeschrieben**.\n> - **Grundbucheintragung:** dauert oft **mehrere Wochen**.\n> - **Hausgeld:** deckt unter anderem **Instandhaltung und\n>   Verwaltung**.\n> - **Energieausweis:** muss dem Käufer **spätestens bei der\n>   Besichtigung** vorgelegt werden.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zum Wohnungskauf lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort den Kauf komplett aufgeben."
+              },
+              {
+                "key": "b",
+                "text": "Bei mehreren anderen Banken Angebote einholen."
+              },
+              {
+                "key": "c",
+                "text": "Sich mit einem viel zu hohen Zinssatz zufriedengeben."
+              }
+            ],
+            "q": "Die Bank lehnt die Finanzierung überraschend ab. — The bank unexpectedly rejects the financing.",
+            "why": "Mehrere Angebote zu vergleichen erhöht die Chance auf eine passende Finanzierung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Fehler ignorieren und trotzdem unterschreiben."
+              },
+              {
+                "key": "b",
+                "text": "Den Notartermin wortlos verlassen."
+              },
+              {
+                "key": "c",
+                "text": "Den Fehler sofort ansprechen und die Beurkundung verschieben lassen."
+              }
+            ],
+            "q": "Beim Notartermin fällt ein Fehler im Kaufvertrag auf. — An error in the contract is noticed at the notary appointment.",
+            "why": "Ein sofort angesprochener Fehler verhindert einen fehlerhaften Vertrag."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Finanzierung mit der Bank neu durchrechnen."
+              },
+              {
+                "key": "b",
+                "text": "Den Kauf trotzdem ohne Anpassung durchziehen."
+              },
+              {
+                "key": "c",
+                "text": "Die höheren Kosten einfach ignorieren."
+              }
+            ],
+            "q": "Die tatsächlichen Kaufnebenkosten sind höher als ursprünglich berechnet. — The actual closing costs are higher than originally calculated.",
+            "why": "Eine neue Berechnung mit der Bank sichert eine solide Finanzierung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach endlos weiter warten, ohne nachzufragen."
+              },
+              {
+                "key": "b",
+                "text": "Beim Grundbuchamt höflich nach dem Bearbeitungsstand fragen."
+              },
+              {
+                "key": "c",
+                "text": "Den Kauf für gescheitert erklären."
+              }
+            ],
+            "q": "Die Eintragung ins Grundbuch verzögert sich erheblich. — The land register entry is significantly delayed.",
+            "why": "Eine höfliche Nachfrage klärt meist schnell, woran die Verzögerung liegt."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Mangel selbst bezahlen, ohne nachzufragen."
+              },
+              {
+                "key": "b",
+                "text": "Den Verkäufer beschuldigen, ohne die Rechtslage zu prüfen."
+              },
+              {
+                "key": "c",
+                "text": "Prüfen, ob eine Gewährleistung besteht."
+              }
+            ],
+            "q": "Nach dem Einzug zeigt sich ein Mangel, der beim Kauf nicht sichtbar war. — After moving in, a defect appears that wasn't visible at purchase.",
+            "why": "Eine Prüfung der Gewährleistung klärt, ob der Verkäufer haftet."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sich die Begründung in der Eigentümerversammlung genau erklären lassen."
+              },
+              {
+                "key": "b",
+                "text": "Die Erhöhung kommentarlos akzeptieren."
+              },
+              {
+                "key": "c",
+                "text": "Sofort ausziehen, ohne nachzufragen."
+              }
+            ],
+            "q": "Das Hausgeld wird plötzlich deutlich erhöht. — The maintenance fee is suddenly raised significantly.",
+            "why": "Eine genaue Erklärung in der Eigentümerversammlung klärt, ob die Erhöhung gerechtfertigt ist."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn beim Wohnungskauf etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "abgelehnt"
+          ],
+          "2": [
+            "aufgefallen"
+          ],
+          "3": [
+            "berechnet"
+          ],
+          "4": [
+            "verzögert"
+          ],
+          "5": [
+            "entdeckt"
+          ],
+          "6": [
+            "erhöht"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Bank hat die Finanzierung überraschend {1}. (nicht genehmigt, Partizip)\n2. Beim Notartermin ist ein Fehler {2}. (bemerkt worden, Partizip)\n3. Die Kaufnebenkosten waren höher als ursprünglich {3}. (kalkuliert, Partizip)\n4. Die Eintragung ins Grundbuch hat sich erheblich {4}. (später als geplant, Partizip)\n5. Nach dem Einzug haben wir einen Mangel {5}. (gefunden, Partizip)\n6. Das Hausgeld wurde plötzlich deutlich {6}. (höher gesetzt, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "müssen"
+          ],
+          "2": [
+            "Könnten"
+          ],
+          "3": [
+            "haben"
+          ],
+          "4": [
+            "Eigentumswohnung"
+          ],
+          "5": [
+            "Notartermin"
+          ],
+          "6": [
+            "Kaufnebenkosten"
+          ],
+          "7": [
+            "Grunderwerbsteuer"
+          ],
+          "8": [
+            "Finanzierung"
+          ],
+          "9": [
+            "Grundbuch"
+          ],
+          "10": [
+            "abgelehnt"
+          ],
+          "11": [
+            "aufgefallen"
+          ],
+          "12": [
+            "berechnet"
+          ],
+          "13": [
+            "verzögert"
+          ],
+          "14": [
+            "erhöht"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir {1} die Finanzierung vorher klären. (must)\n2. {2} Sie uns den Energieausweis zeigen? (could — können)\n3. Wir {3} schon eine Bank gefunden. (have — Perfekt)\n4. Wir möchten eine {4} kaufen. (condo)\n5. Für die Beurkundung brauchen wir einen {5}. (notary appointment)\n6. Neben dem Kaufpreis fallen noch {6} an. (closing costs)\n7. Zu den Nebenkosten zählt auch die {7}. (property transfer tax)\n8. Vor dem Kauf müssen wir die {8} klären. (financing)\n9. Nach dem Kauf werden wir ins {9} eingetragen. (land register)\n10. Die Bank hat die Finanzierung überraschend {10}. (rejected — Partizip)\n11. Beim Notartermin ist ein Fehler {11}. (noticed — Partizip)\n12. Die Kaufnebenkosten waren höher als ursprünglich {12}. (calculated — Partizip)\n13. Die Eintragung ins Grundbuch hat sich erheblich {13}. (delayed — Partizip)\n14. Das Hausgeld wurde plötzlich deutlich {14}. (increased — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-84-wohnung-kaufen-b2",
+  "intro": "Der Kauf einer Eigentumswohnung braucht Vorbereitung: die Wohnung besichtigen, die Finanzierung mit der Bank klären, die Kaufnebenkosten und die Grunderwerbsteuer einplanen, und am Ende den Notartermin wahrnehmen. Dieses Set übt genau das — besichtigen, finanzieren, kaufen, und was zu tun ist, wenn die Bank die Finanzierung ablehnt oder sich die Grundbucheintragung verzögert. Grammatik nach Bedarf: Perfekt und Passiv im Bericht, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/84-wohnung-kaufen-b2",
+  "level": "B2",
+  "summary": "Eine Eigentumswohnung besichtigen, die Finanzierung mit der Bank klären, den Notartermin wahrnehmen — und was tun, wenn die Bank ablehnt oder sich die Grundbucheintragung verzögert.",
+  "title": "Eine Wohnung kaufen — B2",
+  "topic": "Eine Wohnung kaufen"
+}

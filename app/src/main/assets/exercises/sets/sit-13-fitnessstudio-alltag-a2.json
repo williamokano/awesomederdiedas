@@ -1,0 +1,840 @@
+{
+  "category": "Sport & Gesundheit",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "geraet",
+            "label": "Gerät"
+          },
+          {
+            "key": "uebung",
+            "label": "Übung"
+          },
+          {
+            "key": "zubehoer",
+            "label": "Zubehör & Ort"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "geraet",
+            "text": "das Laufband"
+          },
+          {
+            "bucket": "uebung",
+            "text": "die Kniebeuge"
+          },
+          {
+            "bucket": "zubehoer",
+            "text": "die Matte"
+          },
+          {
+            "bucket": "geraet",
+            "text": "die Beinpresse"
+          },
+          {
+            "bucket": "uebung",
+            "text": "der Klimmzug"
+          },
+          {
+            "bucket": "zubehoer",
+            "text": "das Handtuch"
+          },
+          {
+            "bucket": "geraet",
+            "text": "der Crosstrainer"
+          },
+          {
+            "bucket": "uebung",
+            "text": "das Bankdrücken"
+          },
+          {
+            "bucket": "zubehoer",
+            "text": "der Spind"
+          },
+          {
+            "bucket": "geraet",
+            "text": "das Rudergerät"
+          },
+          {
+            "bucket": "uebung",
+            "text": "der Ausfallschritt"
+          },
+          {
+            "bucket": "zubehoer",
+            "text": "die Umkleide"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Gerät, Übung oder Zubehör?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "a",
+          "3": "g",
+          "4": "d",
+          "5": "e",
+          "6": "h",
+          "7": "c",
+          "8": "f"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Jemand steht neben dem Gerät, du weißt nicht, ob es frei ist."
+          },
+          {
+            "key": "2",
+            "text": "Du willst wissen, wie lange es noch dauert."
+          },
+          {
+            "key": "3",
+            "text": "Du möchtest das Gerät zwischen den Sätzen mitbenutzen."
+          },
+          {
+            "key": "4",
+            "text": "Du brauchst jemanden, der beim Bankdrücken aufpasst."
+          },
+          {
+            "key": "5",
+            "text": "Du bist fertig und gehst weg."
+          },
+          {
+            "key": "6",
+            "text": "Du willst wissen, wie ein Gerät funktioniert."
+          },
+          {
+            "key": "7",
+            "text": "Jemand gibt dir einen Tipp, den du nicht willst."
+          },
+          {
+            "key": "8",
+            "text": "Du möchtest die Scheiben, die jemand liegen gelassen hat."
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Wie viele Sätze hast du noch?"
+          },
+          {
+            "key": "b",
+            "text": "Bist du hier noch dran?"
+          },
+          {
+            "key": "c",
+            "text": "Danke, ich probiere es erst mal so."
+          },
+          {
+            "key": "d",
+            "text": "Kannst du mir kurz Hilfestellung geben?"
+          },
+          {
+            "key": "e",
+            "text": "Ich bin fertig, du kannst."
+          },
+          {
+            "key": "f",
+            "text": "Brauchst du die Scheiben noch?"
+          },
+          {
+            "key": "g",
+            "text": "Können wir uns abwechseln?"
+          },
+          {
+            "key": "h",
+            "text": "Entschuldigung, kannst du mir zeigen, wie das Gerät geht?"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jede Situation (1–8) dem passenden Satz (a–h) zu.",
+      "instructionsEn": "Match each situation (1–8) with the fitting sentence (a–h).",
+      "title": "Was sagst du wann?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Sätze"
+          ],
+          "2": [
+            "Wiederholungen"
+          ],
+          "3": [
+            "Scheibe"
+          ],
+          "4": [
+            "Pause"
+          ],
+          "5": [
+            "wärme"
+          ],
+          "6": [
+            "dehne"
+          ],
+          "7": [
+            "abwischen"
+          ],
+          "8": [
+            "wegräumen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich mache drei {1} mit je zehn Wiederholungen. (Trainingsdurchgang)\n2. Wie viele {2} machst du pro Satz? (wie oft man die Übung wiederholt)\n3. Kannst du mir eine {3} abnehmen? Das ist zu schwer. (Gewicht an der Stange)\n4. Zwischen den Sätzen mache ich eine Minute {4}. (kurz nichts tun)\n5. Ich {5} mich zehn Minuten auf dem Laufband auf. (vor dem Training)\n6. Nach dem Training {6} ich mich noch. (Muskeln lang machen)\n7. Bitte das Gerät nach dem Training {7}. (sauber machen)\n8. Die Scheiben bitte wieder {8}. (an ihren Platz bringen)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das fehlende Wort.",
+      "instructionsEn": "Fill in the missing word.",
+      "title": "Sätze, Wiederholungen, Gewicht"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "wärme"
+          ],
+          "2": [
+            "auf"
+          ],
+          "3": [
+            "Wischst"
+          ],
+          "4": [
+            "ab"
+          ],
+          "5": [
+            "wechseln"
+          ],
+          "6": [
+            "ab"
+          ],
+          "7": [
+            "Räumst"
+          ],
+          "8": [
+            "weg"
+          ],
+          "9": [
+            "mache"
+          ],
+          "10": [
+            "höre"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} mich zuerst zehn Minuten {2}. (aufwärmen)\n2. {3} du das Gerät bitte {4}? (abwischen)\n3. Wir {5} uns beim Gerät {6}. (abwechseln)\n4. {7} du die Scheiben nachher bitte {8}? (wegräumen)\n5. Ich {9} noch zwei Sätze, dann {10} ich auf. (machen / aufhören)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das Verb in der richtigen Form. Achte auf die Vorsilbe.",
+      "instructionsEn": "Fill in the verb in the correct form. Watch the prefix.",
+      "title": "Trennbare Verben auf der Trainingsfläche"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "DRAN"
+          ],
+          "2": [
+            "SÄTZE"
+          ],
+          "3": [
+            "ABWECHSELN"
+          ],
+          "4": [
+            "DRAUF"
+          ],
+          "5": [
+            "SCHEIBE"
+          ],
+          "6": [
+            "HILFESTELLUNG"
+          ],
+          "7": [
+            "FERTIG"
+          ],
+          "8": [
+            "WEIT"
+          ],
+          "9": [
+            "TIPP"
+          ],
+          "10": [
+            "WISCHE"
+          ]
+        },
+        "bank": [
+          "DRAN",
+          "SÄTZE",
+          "ABWECHSELN",
+          "DRAUF",
+          "SCHEIBE",
+          "HILFESTELLUNG",
+          "FERTIG",
+          "WEIT",
+          "TIPP",
+          "WISCHE",
+          "WOHER",
+          "PAUSE",
+          "GEWICHT",
+          "ANFANGEN"
+        ],
+        "text": "— Entschuldigung, bist du hier noch {1}?\n— Ja, ich habe noch zwei {2}.\n— Alles klar. Können wir uns {3}?\n— Klar, leg dich einfach dazwischen.\n— Danke! Wie viel hast du {4}?\n— Sechzig Kilo. Soll ich dir eine {5} abnehmen?\n— Ja, gern, zehn weniger wären gut.\n*(später)*\n— Du, kannst du mir kurz {6} geben? Ich mache jetzt schwerer.\n— Mach ich. Sag Bescheid, wenn du {7} bist.\n*(nach dem Satz)*\n— Danke dir! Übrigens: Beim letzten waren deine Ellenbogen ziemlich\n{8}.\n— Oh, danke für den {9}. Ich achte drauf.\n— Gern. Ich bin durch — ich {10} noch schnell ab.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Am Gerät: kurze Wortwechsel"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kann ich die Bank haben?"
+              },
+              {
+                "key": "b",
+                "text": "Bist du hier noch dran?"
+              },
+              {
+                "key": "c",
+                "text": "Benutzt du das?"
+              }
+            ],
+            "q": "Jemand sitzt auf der Bank, macht aber gerade nichts. — Someone is on the bench but not doing anything right now.",
+            "why": "„Bist du noch dran?“ ist die Standardfrage im Studio — kurz, freundlich, ohne Druck."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich nehme das jetzt."
+              },
+              {
+                "key": "b",
+                "text": "Wann bist du fertig?"
+              },
+              {
+                "key": "c",
+                "text": "Können wir uns abwechseln?"
+              }
+            ],
+            "q": "Du willst zwischen den Sätzen des anderen trainieren. — You want to train between the other person's sets.",
+            "why": "Sich abwechseln ist völlig üblich — man fragt, statt zu warten oder zu drängeln."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kannst du mir kurz Hilfestellung geben?"
+              },
+              {
+                "key": "b",
+                "text": "Pass mal auf."
+              },
+              {
+                "key": "c",
+                "text": "Ich brauche Hilfe."
+              }
+            ],
+            "q": "Du brauchst jemanden, der beim schweren Satz aufpasst. — You need someone to watch you on a heavy set.",
+            "why": "„Hilfestellung geben“ ist der feste Ausdruck. „Ich brauche Hilfe“ klingt nach Notfall."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Lass mich in Ruhe."
+              },
+              {
+                "key": "b",
+                "text": "Danke, ich probiere es erst mal so."
+              },
+              {
+                "key": "c",
+                "text": "Ich weiß, was ich mache."
+              }
+            ],
+            "q": "Jemand erklärt dir ungefragt deine Übung. Du willst es allein probieren. — Someone gives unsolicited advice. You'd rather try alone.",
+            "why": "Freundlich abwehren, ohne den anderen abzuwerten — der Satz beendet das Gespräch ohne Konflikt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das macht schon jemand."
+              },
+              {
+                "key": "b",
+                "text": "Kurz abwischen, bevor du gehst."
+              },
+              {
+                "key": "c",
+                "text": "Nur bei den Geräten mit Polster."
+              }
+            ],
+            "q": "Du gehst und das Gerät ist verschwitzt. — You're leaving and the machine is sweaty.",
+            "why": "Abwischen ist im deutschen Studio Pflicht, nicht Höflichkeit — dafür hängen überall Papiertücher."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wie viel hast du drauf?"
+              },
+              {
+                "key": "b",
+                "text": "Wie schwer bist du?"
+              },
+              {
+                "key": "c",
+                "text": "Was machst du für ein Gewicht?"
+              }
+            ],
+            "q": "Du willst wissen, wie viel Gewicht auf der Stange ist. — You want to know how much weight is on the bar.",
+            "why": "„Wie viel hast du drauf?“ ist die knappe Studio-Formel für das Gewicht auf der Stange."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die Variante, die auf der Trainingsfläche natürlich klingt.",
+      "instructionsEn": "Choose the variant that sounds natural on the gym floor.",
+      "title": "Wie sagt man das im Studio?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Ja/Nein-Frage: Verb an Position 1",
+            "tiles": [
+              "Bist",
+              "du",
+              "hier",
+              "noch",
+              "dran",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "W-Frage: Fragewort, dann Verb",
+            "tiles": [
+              "Wie",
+              "viele",
+              "Sätze",
+              "hast",
+              "du",
+              "noch",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Modalverb an Position 1, Infinitiv am Ende",
+            "tiles": [
+              "Kannst",
+              "du",
+              "mir",
+              "kurz",
+              "Hilfestellung",
+              "geben",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Trennverb auf·wärmen: auf am Satzende",
+            "tiles": [
+              "Ich",
+              "wärme",
+              "mich",
+              "zehn",
+              "Minuten",
+              "auf"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Trennverb ab·wischen: ab am Satzende",
+            "tiles": [
+              "Wischst",
+              "du",
+              "das",
+              "Gerät",
+              "bitte",
+              "ab",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Nach dann folgt das Verb — Inversion",
+            "tiles": [
+              "Ich",
+              "mache",
+              "noch",
+              "zwei",
+              "Sätze",
+              ",",
+              "dann",
+              "bin",
+              "ich",
+              "fertig"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze im Studio bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Man muss die Geräte nach dem Training sauber machen. — You have to clean the machines after use.",
+            "why": "„Bitte Geräte und Bänke nach der Benutzung abwischen.“"
+          },
+          {
+            "answer": false,
+            "q": "Um 18 Uhr darf man 40 Minuten auf dem Laufband bleiben. — At 6 pm you may stay 40 minutes on the treadmill.",
+            "why": "Zwischen 17 und 20 Uhr sind die Cardiogeräte auf 20 Minuten begrenzt."
+          },
+          {
+            "answer": false,
+            "q": "Ein Handtuch auf dem Polster ist freiwillig. — A towel on the pad is optional.",
+            "why": "„Handtuch auf Polstern ist Pflicht.“"
+          },
+          {
+            "answer": true,
+            "q": "Man darf filmen, solange niemand anderes zu sehen ist. — You may film as long as nobody else is visible.",
+            "why": "„nur, wenn keine anderen Personen im Bild sind“."
+          },
+          {
+            "answer": false,
+            "q": "Einen Kurs kann man eine Stunde vorher noch absagen. — You can cancel a class an hour beforehand.",
+            "why": "Stornierung nur bis 2 Stunden vorher."
+          },
+          {
+            "answer": true,
+            "q": "Wer nicht zum Kurs kommt, zahlt 5 €. — Whoever misses a booked class pays €5.",
+            "why": "„Bei Nichterscheinen wird eine Gebühr von 5 € berechnet.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **FitBase — Regeln auf der Trainingsfläche**\n>\n> - Bitte Geräte und Bänke nach der Benutzung **abwischen**.\n>   Papiertücher und Desinfektionsmittel stehen an den Säulen.\n> - Hanteln und Scheiben bitte **wieder wegräumen**.\n> - Handtuch auf Polstern ist Pflicht.\n> - Straßenschuhe sind auf der Fläche nicht erlaubt.\n> - Zwischen 17 und 20 Uhr bitten wir, Geräte **zu teilen** und die\n>   Cardiogeräte auf 20 Minuten zu begrenzen.\n> - Handyvideos nur, wenn keine anderen Personen im Bild sind.\n>\n> Kurse: Anmeldung über die App, Stornierung bis 2 Stunden vorher.\n> Bei Nichterscheinen wird eine Gebühr von 5 € berechnet.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Studioregeln lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist mein Gerät!"
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, ich war noch dran — ich habe nur kurz was getrunken. Machen wir abwechselnd?"
+              },
+              {
+                "key": "c",
+                "text": "Nichts sagen und woanders trainieren."
+              }
+            ],
+            "q": "Du warst kurz an der Wasserflasche, jetzt trainiert jemand an deinem Gerät. — You stepped away for water and now someone is on your machine.",
+            "why": "Kurz erklären und gleich eine Lösung anbieten — so wird aus dem Missverständnis kein Streit."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Entschuldigung, machst du noch Sätze? Sonst würde ich die Bank kurz nehmen."
+              },
+              {
+                "key": "b",
+                "text": "Kannst du bitte aufstehen?"
+              },
+              {
+                "key": "c",
+                "text": "Beim Personal beschweren."
+              }
+            ],
+            "q": "Jemand macht seit zwanzig Minuten Pause auf der Bank und ist am Handy. — Someone has been on their phone on the bench for twenty minutes.",
+            "why": "Die Frage lässt ihm einen Ausweg und sagt trotzdem klar, was du willst."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Laut kommentieren."
+              },
+              {
+                "key": "b",
+                "text": "Entweder selbst wegräumen oder freundlich fragen: „Brauchst du die noch?“"
+              },
+              {
+                "key": "c",
+                "text": "Ein Foto machen und posten."
+              }
+            ],
+            "q": "Jemand hat die Scheiben nicht weggeräumt. — Someone left the plates on the bar.",
+            "why": "Die Frage klärt in einem Satz, ob die Person noch trainiert — und wenn nicht, räumst du eben ab."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Satz zu Ende machen."
+              },
+              {
+                "key": "b",
+                "text": "Sofort aufhören und beim Trainer nachfragen."
+              },
+              {
+                "key": "c",
+                "text": "Weniger Gewicht nehmen und weitermachen."
+              }
+            ],
+            "q": "Bei einer Übung tut dein Rücken plötzlich weh. — Your back suddenly hurts during an exercise.",
+            "why": "Bei Schmerz sofort abbrechen. Die Trainer im Studio sind genau dafür da."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Danke, aber ich komme klar. Ich frage, wenn ich etwas wissen möchte."
+              },
+              {
+                "key": "b",
+                "text": "Nichts sagen und es aushalten."
+              },
+              {
+                "key": "c",
+                "text": "Zurück korrigieren."
+              }
+            ],
+            "q": "Jemand korrigiert dich ständig ungefragt. — Someone keeps correcting you unasked.",
+            "why": "Freundlich, aber eindeutig — und die Tür für echte Fragen bleibt offen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ausprobieren und hoffen."
+              },
+              {
+                "key": "b",
+                "text": "Ein Video suchen."
+              },
+              {
+                "key": "c",
+                "text": "Einen Trainer oder jemanden daneben fragen: „Kannst du mir zeigen, wie das geht?“"
+              }
+            ],
+            "q": "Du willst ein Gerät benutzen, weißt aber nicht wie. — You want to use a machine but don't know how.",
+            "why": "Fragen ist im Studio normal — und billiger als eine falsch ausgeführte Übung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Was sagst du? Wähle a, b oder c.",
+      "instructionsEn": "What do you say? Choose a, b, or c.",
+      "title": "Kleine Reibereien"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "dran"
+          ],
+          "2": [
+            "abwechselnd"
+          ],
+          "3": [
+            "noch"
+          ],
+          "4": [
+            "Tipp"
+          ],
+          "5": [
+            "klar"
+          ],
+          "6": [
+            "höre"
+          ],
+          "7": [
+            "geht"
+          ],
+          "8": [
+            "wische"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Entschuldigung, ich war noch {1}. (das Gerät benutzen)\n2. Machen wir {2}? (einer nach dem anderen)\n3. Brauchst du die Scheiben {3}? (weiterhin)\n4. Danke für den {4}, ich achte drauf. (guter Hinweis)\n5. Danke, aber ich komme {5}. (allein zurechtkommen)\n6. Mir tut der Rücken weh — ich {6} lieber auf. (beenden, trennbar)\n7. Kannst du mir zeigen, wie das Gerät {7}? (funktioniert, umgangssprachlich)\n8. Ich {8} das Gerät noch schnell ab. (sauber machen)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das fehlende Wort.",
+      "instructionsEn": "Fill in the missing word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "dran"
+          ],
+          "2": [
+            "Sätze"
+          ],
+          "3": [
+            "abwechseln"
+          ],
+          "4": [
+            "Hilfestellung"
+          ],
+          "5": [
+            "drauf"
+          ],
+          "6": [
+            "noch"
+          ],
+          "7": [
+            "Satz"
+          ],
+          "8": [
+            "Wiederholung"
+          ],
+          "9": [
+            "Scheibe"
+          ],
+          "10": [
+            "aufwärmen"
+          ],
+          "11": [
+            "abwischen"
+          ],
+          "12": [
+            "wegräumen"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Die Standardsätze (6 Punkte):**\n1. „Bist du hier noch {1}?“\n2. „Wie viele {2} hast du noch?“\n3. „Können wir uns {3}?“\n4. „Kannst du mir kurz {4} geben?“\n5. „Wie viel hast du {5}?“\n6. „Brauchst du die Scheiben {6}?“\n\n**Wortschatz (4 Punkte):**\n7. Ein Trainingsdurchgang: der {7}\n8. Wie oft man die Übung im Satz macht: die {8}\n9. Das Gewicht an der Stange: die {9}\n10. Vor dem Training: sich {10}\n\n**Die Regeln (2 Punkte):**\n11. Nach dem Training das Gerät {11}.\n12. Hanteln und Scheiben wieder {12}.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die Lücken.",
+      "instructionsEn": "Fill in the gaps.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-13-fitnessstudio-alltag-a2",
+  "intro": "Nicht der Vertrag, sondern die Trainingsfläche. Hier geht es um die kurzen Sätze, die im Studio dauernd fallen: „Bist du hier noch dran?“, „Wie viele Sätze hast du noch?“, „Kann ich mich dazwischenlegen?“, „Kannst du mir kurz Hilfestellung geben?“ — dazu Tipps geben, Tipps höflich abwehren und die ungeschriebenen Regeln (Gerät abwischen, Scheiben wegräumen). Grammatik nach Bedarf: du-Form, trennbare Verben, Modalverben für Bitten. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/13-fitnessstudio-alltag-a2",
+  "level": "A2",
+  "summary": "Ist das Gerät noch besetzt, wie viele Sätze noch, kannst du mir Hilfestellung geben — die Sätze, die auf der Trainingsfläche wirklich fallen.",
+  "title": "Im Fitnessstudio: trainieren und reden — A2",
+  "topic": "Trainieren im Studio"
+}

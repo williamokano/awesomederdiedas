@@ -1,0 +1,839 @@
+{
+  "category": "Unterwegs",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "teil",
+            "label": "Teil am Auto"
+          },
+          {
+            "key": "panne",
+            "label": "Was kaputtgehen kann"
+          },
+          {
+            "key": "werkstatt",
+            "label": "In der Werkstatt"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "teil",
+            "text": "der Reifen"
+          },
+          {
+            "bucket": "panne",
+            "text": "die Batterie ist leer"
+          },
+          {
+            "bucket": "werkstatt",
+            "text": "der Kostenvoranschlag"
+          },
+          {
+            "bucket": "teil",
+            "text": "die Bremse"
+          },
+          {
+            "bucket": "panne",
+            "text": "der Motor springt nicht an"
+          },
+          {
+            "bucket": "werkstatt",
+            "text": "der Termin"
+          },
+          {
+            "bucket": "teil",
+            "text": "der Scheinwerfer"
+          },
+          {
+            "bucket": "panne",
+            "text": "der Reifen ist platt"
+          },
+          {
+            "bucket": "werkstatt",
+            "text": "das Ersatzteil"
+          },
+          {
+            "bucket": "teil",
+            "text": "der Kofferraum"
+          },
+          {
+            "bucket": "panne",
+            "text": "das Warndreieck fehlt"
+          },
+          {
+            "bucket": "werkstatt",
+            "text": "die Rechnung"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Auto, Panne oder Werkstatt?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "auf"
+          ],
+          "2": [
+            "an"
+          ],
+          "3": [
+            "auf"
+          ],
+          "4": [
+            "zwischen"
+          ],
+          "5": [
+            "auf"
+          ],
+          "6": [
+            "an"
+          ],
+          "7": [
+            "auf"
+          ],
+          "8": [
+            "auf dem"
+          ]
+        },
+        "cues": {
+          "8": "Präposition + Artikel"
+        },
+        "listLayout": true,
+        "text": "1. Ich stehe {1} der Autobahn A9, Richtung München.\n2. Ich bin {2} der Ausfahrt Nürnberg-Süd.\n3. Das Auto steht {3} dem Standstreifen.\n4. Ich bin {4} Kilometer 43 und 44.\n5. Wir sind {5} einer Landstraße, ohne Ortsschild.\n6. Ich stehe {6} einer Tankstelle, direkt neben der Luftpumpe.\n7. Das Auto ist {7} einem Parkplatz an der Raststätte.\n8. Ich bin {8} Weg nach Leipzig.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze die richtige Präposition.",
+      "instructionsEn": "Fill in the correct preposition.",
+      "title": "Wo stehst du? Präpositionen des Ortes"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "e",
+          "5": "c",
+          "6": "g",
+          "7": "h",
+          "8": "f"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Wo genau befinden Sie sich?"
+          },
+          {
+            "key": "2",
+            "text": "Was ist mit dem Fahrzeug?"
+          },
+          {
+            "key": "3",
+            "text": "Sind Sie in Sicherheit?"
+          },
+          {
+            "key": "4",
+            "text": "Haben Sie ein Ersatzrad dabei?"
+          },
+          {
+            "key": "5",
+            "text": "Wie lautet Ihr Kennzeichen?"
+          },
+          {
+            "key": "6",
+            "text": "Sind Sie ADAC-Mitglied?"
+          },
+          {
+            "key": "7",
+            "text": "Wie viele Personen sind im Auto?"
+          },
+          {
+            "key": "8",
+            "text": "Wie lange dauert es ungefähr?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Ja, wir stehen hinter der Leitplanke."
+          },
+          {
+            "key": "b",
+            "text": "Auf der A9 Richtung München, kurz vor der Ausfahrt Nürnberg-Süd."
+          },
+          {
+            "key": "c",
+            "text": "M-AB 1234."
+          },
+          {
+            "key": "d",
+            "text": "Der vordere linke Reifen ist platt."
+          },
+          {
+            "key": "e",
+            "text": "Nein, nur ein Pannenset."
+          },
+          {
+            "key": "f",
+            "text": "Etwa 45 Minuten, der Wagen ist schon unterwegs."
+          },
+          {
+            "key": "g",
+            "text": "Ja, seit drei Jahren."
+          },
+          {
+            "key": "h",
+            "text": "Zwei Erwachsene und ein Kind."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A3",
+      "instructions": "Ordne jede Frage (1–8) der passenden Antwort (a–h) zu.",
+      "instructionsEn": "Match each question (1–8) with the fitting answer (a–h).",
+      "title": "Frage und Antwort am Pannentelefon"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "ist"
+          ],
+          "2": [
+            "geplatzt"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "angehalten"
+          ],
+          "5": [
+            "habe"
+          ],
+          "6": [
+            "aufgestellt"
+          ],
+          "7": [
+            "ist"
+          ],
+          "8": [
+            "ausgegangen"
+          ],
+          "9": [
+            "haben"
+          ],
+          "10": [
+            "gewartet"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Reifen {1} plötzlich {2}. (platzen — sein)\n2. Ich {3} sofort rechts {4}. (anhalten — haben)\n3. Das Warndreieck {5} ich hinter dem Auto {6}. (aufstellen — haben)\n4. Der Motor {7} einfach {8}. (ausgehen — sein)\n5. Wir {9} zwei Stunden {10}. (warten — haben)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das Perfekt (haben oder sein + Partizip II).",
+      "instructionsEn": "Fill in the perfect tense (haben or sein + past participle).",
+      "title": "Was ist passiert? Perfekt"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "PANNE"
+          ],
+          "2": [
+            "BEFINDEN"
+          ],
+          "3": [
+            "KURZ"
+          ],
+          "4": [
+            "FAHRZEUG"
+          ],
+          "5": [
+            "PLATT"
+          ],
+          "6": [
+            "SICHERHEIT"
+          ],
+          "7": [
+            "LEITPLANKE"
+          ],
+          "8": [
+            "KENNZEICHEN"
+          ],
+          "9": [
+            "BLEIBEN"
+          ],
+          "10": [
+            "EIN"
+          ]
+        },
+        "bank": [
+          "PANNE",
+          "BEFINDEN",
+          "KURZ",
+          "FAHRZEUG",
+          "PLATT",
+          "SICHERHEIT",
+          "LEITPLANKE",
+          "KENNZEICHEN",
+          "BLEIBEN",
+          "EIN",
+          "WOHER",
+          "MOTOR",
+          "AUS",
+          "FAHREN"
+        ],
+        "text": "— ADAC Pannenhilfe, guten Tag.\n— Guten Tag, ich habe eine {1}.\n— Wo genau {2} Sie sich?\n— Auf der A9 Richtung München, {3} vor der Ausfahrt Nürnberg-Süd.\n— Was ist mit dem {4}?\n— Der vordere linke Reifen ist {5}.\n— Sind Sie in {6}?\n— Ja, wir stehen hinter der {7}.\n— Gut. Wie lautet Ihr {8}?\n— M-AB 1234.\n— Danke. Ein Wagen ist in etwa 45 Minuten bei Ihnen. Bitte {9} Sie\nim Auto und schalten Sie die Warnblinkanlage {10}.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Anruf beim Pannendienst"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort stark bremsen."
+              },
+              {
+                "key": "b",
+                "text": "Warnblinkanlage an, langsam auf den Standstreifen, Warnweste anziehen."
+              },
+              {
+                "key": "c",
+                "text": "Den ADAC anrufen, während du weiterfährst."
+              }
+            ],
+            "q": "Der Reifen platzt auf der Autobahn. Was zuerst? — Your tyre bursts on the motorway. What first?",
+            "why": "Erst sicher anhalten und sichtbar werden — telefonieren kommt danach."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Hinter der Leitplanke."
+              },
+              {
+                "key": "b",
+                "text": "Im Auto, angeschnallt."
+              },
+              {
+                "key": "c",
+                "text": "Neben dem Auto."
+              }
+            ],
+            "q": "Du stehst auf dem Standstreifen. Wo wartest du? — You're on the hard shoulder. Where do you wait?",
+            "why": "Auf der Autobahn ist der Platz hinter der Leitplanke der sicherste — nicht im Auto und nicht daneben."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Irgendwo auf der Autobahn."
+              },
+              {
+                "key": "b",
+                "text": "Ich weiß nicht genau."
+              },
+              {
+                "key": "c",
+                "text": "A9 Richtung München, zwischen Kilometer 43 und 44."
+              }
+            ],
+            "q": "Der Mitarbeiter fragt nach dem Standort. — The operator asks for your location.",
+            "why": "Autobahn, Fahrtrichtung und Kilometer — mit diesen drei Angaben wird man gefunden."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dann kann ich nicht anrufen."
+              },
+              {
+                "key": "b",
+                "text": "Ich bin kein Mitglied. Was kostet der Einsatz?"
+              },
+              {
+                "key": "c",
+                "text": "Ich sage einfach, dass ich Mitglied bin."
+              }
+            ],
+            "q": "Du bist kein ADAC-Mitglied. — You're not an ADAC member.",
+            "why": "Nichtmitglieder bekommen auch Hilfe — sie zahlen den Einsatz. Also direkt nach dem Preis fragen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Machen Sie einfach alles."
+              },
+              {
+                "key": "b",
+                "text": "Nein, auf keinen Fall."
+              },
+              {
+                "key": "c",
+                "text": "Könnten Sie mir vorher einen Kostenvoranschlag machen?"
+              }
+            ],
+            "q": "Die Werkstatt fragt, ob sie die Bremsen gleich mitmachen soll. — The garage asks whether to do the brakes as well.",
+            "why": "Vor der Zusage immer den Kostenvoranschlag verlangen — danach ist der Preis kaum noch verhandelbar."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bis wann kann ich den Wagen heute abholen?"
+              },
+              {
+                "key": "b",
+                "text": "Ich komme irgendwann."
+              },
+              {
+                "key": "c",
+                "text": "Bringen Sie es mir."
+              }
+            ],
+            "q": "Das Auto ist fertig und du willst es abholen. — The car is ready and you want to pick it up.",
+            "why": "Konkret nach der Uhrzeit fragen — Werkstätten schließen oft früh."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Reaktion.",
+      "instructionsEn": "Choose the right reaction.",
+      "title": "Was machst oder sagst du?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Verb an Position 2",
+            "tiles": [
+              "Ich",
+              "habe",
+              "eine",
+              "Panne",
+              "auf",
+              "der",
+              "A9"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Adjektive vor dem Nomen, Verb an Position 2",
+            "tiles": [
+              "Der",
+              "vordere",
+              "linke",
+              "Reifen",
+              "ist",
+              "platt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Höfliche Bitte: Infinitiv am Ende",
+            "tiles": [
+              "Könnten",
+              "Sie",
+              "mir",
+              "einen",
+              "Kostenvoranschlag",
+              "machen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "zwischen + Dativ",
+            "tiles": [
+              "Ich",
+              "stehe",
+              "zwischen",
+              "Kilometer",
+              "43",
+              "und",
+              "44"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "W-Frage: Fragewort, dann Verb",
+            "tiles": [
+              "Wie",
+              "lange",
+              "dauert",
+              "die",
+              "Reparatur",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Perfekt mit sein: ist … ausgegangen",
+            "tiles": [
+              "Der",
+              "Motor",
+              "ist",
+              "einfach",
+              "ausgegangen"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze am Telefon bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Nur der Reifen zu wechseln kostet 124,00 €. — Replacing only the tyre costs €124.00.",
+            "why": "Positionen 1 und 2 zusammen: 89,00 + 35,00 = 124,00 €."
+          },
+          {
+            "answer": false,
+            "q": "Die Bremsbeläge werden auf jeden Fall gewechselt. — The brake pads will definitely be replaced.",
+            "why": "Positionen 3 und 4 nur „nach Ihrer ausdrücklichen Zustimmung“."
+          },
+          {
+            "answer": false,
+            "q": "Zu den Preisen kommt noch die Mehrwertsteuer dazu. — VAT still has to be added to the prices.",
+            "why": "„inkl. 19 % MwSt.“ — sie ist schon drin."
+          },
+          {
+            "answer": false,
+            "q": "Am Samstagnachmittag kann man das Auto abholen. — You can pick the car up on Saturday afternoon.",
+            "why": "Samstag nur bis 12:00 Uhr."
+          },
+          {
+            "answer": true,
+            "q": "Der Kostenvoranschlag gilt bis Ende Juni. — The estimate is valid until the end of June.",
+            "why": "14 Tage ab 14.06. — also bis zum 28.06."
+          },
+          {
+            "answer": false,
+            "q": "Der Ölwechsel ist teurer als der neue Reifen. — The oil change costs more than the new tyre.",
+            "why": "Ölwechsel 79,00 € < Reifen 89,00 €."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Kfz-Werkstatt Berger — Kostenvoranschlag Nr. 2041**\n> Fahrzeug: VW Golf, Kennzeichen M-AB 1234\n> Datum: 14.06.2026\n>\n> Position 1: Reifen vorne links (Ersatz) — 89,00 €\n> Position 2: Montage und Auswuchten — 35,00 €\n> Position 3: Bremsbeläge vorne (empfohlen) — 145,00 €\n> Position 4: Ölwechsel (empfohlen) — 79,00 €\n>\n> Zwischensumme (Positionen 1–2): 124,00 €\n> Gesamtsumme mit Empfehlungen: 348,00 €\n> Alle Preise inkl. 19 % MwSt.\n>\n> Hinweis: Der Kostenvoranschlag ist 14 Tage gültig. Positionen 3\n> und 4 führen wir nur nach Ihrer ausdrücklichen Zustimmung aus.\n> Abholung: Mo–Fr bis 17:00 Uhr, Sa bis 12:00 Uhr.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Den Kostenvoranschlag lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort noch einmal anrufen und zuerst Standort und Kennzeichen nennen."
+              },
+              {
+                "key": "b",
+                "text": "Warten, bis sie zurückrufen."
+              },
+              {
+                "key": "c",
+                "text": "Zu Fuß zur nächsten Ausfahrt gehen."
+              }
+            ],
+            "q": "Du hast kaum Empfang und das Gespräch bricht ab. — You have almost no signal and the call drops.",
+            "why": "Die zwei wichtigsten Angaben zuerst — falls das Gespräch wieder abbricht, reichen sie schon."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sagen Sie einfach ja."
+              },
+              {
+                "key": "b",
+                "text": "Woran liegt das genau? Bitte schicken Sie mir das schriftlich, bevor Sie weitermachen."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal."
+              }
+            ],
+            "q": "Die Werkstatt ruft an: Es wird 120 € teurer als im Kostenvoranschlag. — The garage calls: it will be €120 more than estimated.",
+            "why": "Begründung verlangen und schriftlich bestätigen lassen — mündliche Zusagen sind später schwer zu belegen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich warte einfach hier."
+              },
+              {
+                "key": "b",
+                "text": "Kann ich das Auto morgen abholen? Und gibt es hier einen Bus oder ein Taxi?"
+              },
+              {
+                "key": "c",
+                "text": "Ich nehme das Auto so mit."
+              }
+            ],
+            "q": "Das Auto muss über Nacht bleiben und du musst nach Hause. — The car has to stay overnight and you need to get home.",
+            "why": "Zwei Fragen auf einmal: neuer Abholtermin und wie du wegkommst."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Geräusch ist noch da. Ich bringe den Wagen morgen wieder — die Reparatur war doch dafür."
+              },
+              {
+                "key": "b",
+                "text": "Sie haben schlecht gearbeitet."
+              },
+              {
+                "key": "c",
+                "text": "Ich fahre zu einer anderen Werkstatt."
+              }
+            ],
+            "q": "Nach der Reparatur macht der Wagen dasselbe Geräusch wie vorher. — After the repair the car makes the same noise as before.",
+            "why": "Sachlich sagen, dass das Problem geblieben ist, und auf die bezahlte Reparatur verweisen — dafür gibt es Gewährleistung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das zahle ich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Bekomme ich eine Rechnung? Meine Versicherung übernimmt vielleicht einen Teil."
+              },
+              {
+                "key": "c",
+                "text": "Zu teuer, ich rufe jemand anderen."
+              }
+            ],
+            "q": "Du bist kein Mitglied und der Einsatz kostet 199 €. — You're not a member and the callout costs €199.",
+            "why": "Rechnung verlangen — Schutzbrief oder Kfz-Versicherung erstatten den Einsatz oft."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Im dunklen Auto sitzen bleiben."
+              },
+              {
+                "key": "b",
+                "text": "Warnweste anziehen, Warndreieck aufstellen, dann anrufen und den Ort so genau wie möglich beschreiben."
+              },
+              {
+                "key": "c",
+                "text": "Losgehen und Hilfe suchen."
+              }
+            ],
+            "q": "Du stehst nachts allein auf einer Landstraße. — You're alone on a country road at night.",
+            "why": "Sichtbar werden, dann telefonieren. Weglaufen macht dich unauffindbar."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Was machst oder sagst du? Wähle a, b oder c.",
+      "instructionsEn": "What do you do or say? Choose a, b, or c.",
+      "title": "Der Ernstfall"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Empfang"
+          ],
+          "2": [
+            "schriftlich"
+          ],
+          "3": [
+            "teurer"
+          ],
+          "4": [
+            "abholen"
+          ],
+          "5": [
+            "Geräusch"
+          ],
+          "6": [
+            "Rechnung"
+          ],
+          "7": [
+            "Warnweste"
+          ],
+          "8": [
+            "Warndreieck"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe hier fast keinen {1}. (Handysignal)\n2. Bitte schicken Sie mir das {2}, bevor Sie weitermachen. (nicht mündlich)\n3. Die Reparatur wird {3} als im Kostenvoranschlag. (mehr kosten)\n4. Kann ich den Wagen morgen {4}? (holen kommen)\n5. Das {5} ist immer noch da. (was man hört)\n6. Bekomme ich bitte eine {6}? Meine Versicherung übernimmt das vielleicht. (Beleg über die Kosten)\n7. Ich ziehe zuerst die {7} an. (gelbe Sicherheitskleidung)\n8. Das {8} stelle ich hinter dem Auto auf. (rotes Dreieck)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das fehlende Wort.",
+      "instructionsEn": "Fill in the missing word.",
+      "title": "Die richtigen Wörter fürs Problem"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "auf"
+          ],
+          "2": [
+            "an"
+          ],
+          "3": [
+            "zwischen"
+          ],
+          "4": [
+            "auf"
+          ],
+          "5": [
+            "Panne"
+          ],
+          "6": [
+            "platt"
+          ],
+          "7": [
+            "Kostenvoranschlag"
+          ],
+          "8": [
+            "abholen"
+          ],
+          "9": [
+            "Rechnung"
+          ],
+          "10": [
+            "Warnweste"
+          ],
+          "11": [
+            "Warndreieck"
+          ],
+          "12": [
+            "Leitplanke"
+          ],
+          "13": [
+            "ist"
+          ],
+          "14": [
+            "habe"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Standort beschreiben (4 Punkte):**\n1. Ich stehe {1} der A9, Richtung München.\n2. Ich bin {2} der Ausfahrt Nürnberg-Süd.\n3. Ich stehe {3} Kilometer 43 und 44.\n4. Das Auto steht {4} dem Standstreifen.\n\n**Redemittel (5 Punkte):**\n5. Problem melden: „Ich habe eine {5}.“\n6. Reifen: „Der vordere linke Reifen ist {6}.“\n7. Vor der Reparatur: „Könnten Sie mir einen {7} machen?“\n8. Abholung: „Bis wann kann ich den Wagen heute {8}?“\n9. Kosten belegen: „Bekomme ich bitte eine {9}?“\n\n**Sicherheit (3 Punkte):**\n10. Zuerst anziehen: die {10}\n11. Hinter dem Auto aufstellen: das {11}\n12. Auf der Autobahn wartet man hinter der {12}.\n\n**Perfekt (2 Punkte):**\n13. Der Reifen {13} geplatzt. (sein oder haben?)\n14. Ich {14} sofort angehalten. (sein oder haben?)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die Lücken.",
+      "instructionsEn": "Fill in the gaps.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-05-reifenpanne-a2",
+  "intro": "Das Auto steht, und du musst am Telefon erklären, wo du bist und was los ist. Genau diese zwei Dinge — Standort und Problem — entscheiden, wie schnell Hilfe kommt. Dazu die Werkstatt: Termin, Kostenvoranschlag, Abholung. Grammatik nach Bedarf: Präpositionen des Ortes (auf der A9, an der Ausfahrt, zwischen … und …), Perfekt für das, was passiert ist, und höfliche Bitten. Block C ist der Ernstfall: kein Empfang, die Reparatur wird teurer als gesagt, das Auto bleibt über Nacht. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/05-reifenpanne-a2",
+  "level": "A2",
+  "summary": "Eine Panne melden, den Standort beschreiben, den ADAC rufen und in der Werkstatt einen Kostenvoranschlag verstehen.",
+  "title": "Reifenpanne und Werkstatt — A2",
+  "topic": "Panne unterwegs"
+}

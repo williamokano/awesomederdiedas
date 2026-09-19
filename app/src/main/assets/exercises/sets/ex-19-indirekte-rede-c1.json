@@ -1,0 +1,655 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "Direkte Rede (Plural)",
+          "Ersatzform (Konjunktiv II)"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "sie hätten nichts gesehen"
+                ],
+                "gap": 1
+              }
+            ],
+            "label": "Wir haben nichts gesehen."
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "sie gingen jetzt"
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "Wir gehen jetzt."
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "sie kämen später"
+                ],
+                "gap": 3
+              }
+            ],
+            "label": "Wir kommen später."
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "sie würden das machen"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "Wir machen das."
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die Konjunktiv-II-Ersatzform.",
+      "instructionsEn": "Fill in the Konjunktiv II replacement form.",
+      "title": "Wenn Konjunktiv I = Indikativ: die Ersatzform"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "hätten"
+          ],
+          "2": [
+            "gingen"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "kämen"
+          ],
+          "5": [
+            "sei"
+          ],
+          "6": [
+            "würden"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Zeugen sagten: \"Wir haben nichts gesehen.\" → Die Zeugen sagten, sie {1} nichts gesehen.\n2. Die Kinder sagten: \"Wir gehen jetzt.\" → Die Kinder sagten, sie {2} jetzt.\n3. Er sagte: \"Ich habe recht.\" → Er sagte, er {3} recht.\n4. Die Nachbarn sagten: \"Wir kommen später.\" → Die Nachbarn sagten, sie {4} später.\n5. Sie sagte: \"Ich bin fertig.\" → Sie sagte, sie {5} fertig.\n6. Die Mitarbeiter sagten: \"Wir machen das.\" → Die Mitarbeiter sagten, sie {6} das machen.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze die richtige Form.",
+      "instructionsEn": "Fill in the correct form.",
+      "title": "Konjunktiv I oder Ersatzform?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "werde"
+          ],
+          "2": [
+            "sei"
+          ],
+          "3": [
+            "seien"
+          ],
+          "4": [
+            "würden"
+          ],
+          "5": [
+            "sei"
+          ],
+          "6": [
+            "würden"
+          ],
+          "7": [
+            "werde"
+          ],
+          "8": [
+            "seien"
+          ]
+        },
+        "bank": [
+          "werde",
+          "werde",
+          "sei",
+          "sei",
+          "seien",
+          "seien",
+          "würden",
+          "würden",
+          "hätten",
+          "wären"
+        ],
+        "text": "Der Sprecher erklärte, die Firma {1} neue Mitarbeiter einstellen.\nEr sagte, der Gewinn {2} gestiegen. Die Mitarbeiter berichteten,\nsie {3} zufrieden. Sie sagten, sie {4} mehr Geld verdienen. Der\nSprecher meinte, die Konkurrenz {5} stark. Die Analysten sagten,\ndie Aktien {6} steigen. Er fügte hinzu, das Unternehmen {7}\nexpandieren. Die Kunden beschwerten sich, dass die Preise {8}\ngestiegen.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Der Firmensprecher"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "habe"
+              },
+              {
+                "key": "b",
+                "text": "hätten"
+              },
+              {
+                "key": "c",
+                "text": "hat"
+              }
+            ],
+            "q": "Er sagt: 'Ich habe Zeit.' → Er sagt, er ___ Zeit.",
+            "why": "3. Person Singular → Konjunktiv I reicht (habe)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "haben"
+              },
+              {
+                "key": "b",
+                "text": "hätten"
+              },
+              {
+                "key": "c",
+                "text": "habe"
+              }
+            ],
+            "q": "Sie sagen: 'Wir haben Zeit.' → Sie sagen, sie ___ Zeit.",
+            "why": "Plural, identisch mit Indikativ → Ersatzform (hätten)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "kommt"
+              },
+              {
+                "key": "b",
+                "text": "kämen"
+              },
+              {
+                "key": "c",
+                "text": "komme"
+              }
+            ],
+            "q": "Er sagt: 'Ich komme morgen.' → Er sagt, er ___ morgen.",
+            "why": "3. Person Singular → Konjunktiv I reicht (komme)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "kämen"
+              },
+              {
+                "key": "b",
+                "text": "kommen"
+              },
+              {
+                "key": "c",
+                "text": "komme"
+              }
+            ],
+            "q": "Sie sagen: 'Wir kommen morgen.' → Sie sagen, sie ___ morgen.",
+            "why": "Plural, identisch mit Indikativ → Ersatzform (kämen)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ist"
+              },
+              {
+                "key": "b",
+                "text": "sei"
+              },
+              {
+                "key": "c",
+                "text": "wäre"
+              }
+            ],
+            "q": "Sie sagt: 'Ich bin fertig.' → Sie sagt, sie ___ fertig.",
+            "why": "3. Person Singular → Konjunktiv I reicht (sei)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "wären"
+              },
+              {
+                "key": "b",
+                "text": "sind"
+              },
+              {
+                "key": "c",
+                "text": "seien"
+              }
+            ],
+            "q": "Sie sagen: 'Wir sind fertig.' → Sie sagen, sie ___ fertig.",
+            "why": "sein hat auch im Plural eine eigene Konjunktiv-I-Form (seien) — keine Ersatzform nötig."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "3. Person Singular oder Plural?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "würden fordern"
+              },
+              {
+                "key": "b",
+                "text": "fordern"
+              },
+              {
+                "key": "c",
+                "text": "forderten"
+              }
+            ],
+            "q": "Der Gewerkschaftssprecher erklärte, die Arbeiter ___ höhere Löhne.",
+            "why": "Plural, identisch mit Indikativ → würde-Ersatzform."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sind"
+              },
+              {
+                "key": "b",
+                "text": "seien"
+              },
+              {
+                "key": "c",
+                "text": "wären"
+              }
+            ],
+            "q": "Er sagte, die Verhandlungen ___ schwierig.",
+            "why": "sein hat auch im Plural eine eigene Konjunktiv-I-Form."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "gibt"
+              },
+              {
+                "key": "b",
+                "text": "gäbe"
+              },
+              {
+                "key": "c",
+                "text": "gebe"
+              }
+            ],
+            "q": "Ein Journalist fragte, ob es bald eine Lösung ___.",
+            "why": "3. Person Singular → Konjunktiv I reicht (gebe)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sei"
+              },
+              {
+                "key": "b",
+                "text": "ist"
+              },
+              {
+                "key": "c",
+                "text": "wäre"
+              }
+            ],
+            "q": "Der Sprecher antwortete, das Unternehmen ___ verhandlungsbereit.",
+            "why": "3. Person Singular → Konjunktiv I."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "geben auf"
+              },
+              {
+                "key": "b",
+                "text": "würden aufgeben"
+              },
+              {
+                "key": "c",
+                "text": "gäben auf"
+              }
+            ],
+            "q": "Die Arbeiter sagten, sie ___ nicht aufgeben.",
+            "why": "Plural, identisch mit Indikativ → würde-Ersatzform."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "dauert"
+              },
+              {
+                "key": "b",
+                "text": "dauerte"
+              },
+              {
+                "key": "c",
+                "text": "dauere"
+              }
+            ],
+            "q": "Man fragte sich, wie lange der Streik ___.",
+            "why": "3. Person Singular → Konjunktiv I (indirekte Frage, Verb am Ende)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sollen"
+              },
+              {
+                "key": "b",
+                "text": "sollten"
+              },
+              {
+                "key": "c",
+                "text": "würden sollen"
+              }
+            ],
+            "q": "Der Chef sagte, die Mitarbeiter ___ zur Arbeit zurückkehren.",
+            "why": "Aufforderung in indirekter Rede → sollen (hier im Konjunktiv II: sollten)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sei"
+              },
+              {
+                "key": "b",
+                "text": "ist"
+              },
+              {
+                "key": "c",
+                "text": "wäre"
+              }
+            ],
+            "q": "Am Ende berichtete die Presse, der Streik ___ beendet.",
+            "why": "3. Person Singular → Konjunktiv I."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct form for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Nachrichten: Der Streik"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "werde"
+          ],
+          "2": [
+            "seien"
+          ],
+          "3": [
+            "würden"
+          ],
+          "4": [
+            "sei"
+          ],
+          "5": [
+            "sollten"
+          ],
+          "6": [
+            "sei"
+          ],
+          "7": [
+            "gebe"
+          ],
+          "8": [
+            "würden"
+          ],
+          "9": [
+            "sei"
+          ],
+          "10": [
+            "sei"
+          ]
+        },
+        "bank": [
+          "sei",
+          "sei",
+          "sei",
+          "sei",
+          "werde",
+          "seien",
+          "würden",
+          "würden",
+          "sollten",
+          "gebe",
+          "hätten",
+          "wären"
+        ],
+        "text": "Der Präsident sagte, die Wirtschaft {1} sich erholen. Er\nerklärte, die Reformen {2} notwendig. Die Minister sagten, sie\n{3} das Gesetz unterstützen. Der Präsident betonte, das Land {4}\nstark. Er sagte, die Bürger {5} Vertrauen haben. Die Opposition\nerklärte, sie {6} dagegen. Ein Reporter fragte, ob es neue Pläne\n{7}. Der Präsident antwortete, die Pläne {8} bald vorgestellt.\nDie Presse berichtete, die Rede {9} gut angekommen. Am Ende\nsagte der Präsident, er {10} zuversichtlich.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Two words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Die Rede des Präsidenten (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "hätten"
+          ],
+          "3": [
+            "sei"
+          ],
+          "4": [
+            "seien"
+          ],
+          "5": [
+            "komme"
+          ],
+          "6": [
+            "kämen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Er sagt, er {1} Zeit.\n2. Sie sagen, sie {2} Zeit.\n3. Sie sagt, sie {3} fertig.\n4. Sie sagen, sie {4} fertig.\n5. Er sagt, er {5} morgen.\n6. Sie sagen, sie {6} morgen.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die richtige Form.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sei"
+              },
+              {
+                "key": "b",
+                "text": "ist"
+              },
+              {
+                "key": "c",
+                "text": "wäre"
+              }
+            ],
+            "q": "Er sagt: 'Ich bin bereit.' → Er sagt, er ___ bereit.",
+            "why": "3. Person Singular → Konjunktiv I."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sind"
+              },
+              {
+                "key": "b",
+                "text": "seien"
+              },
+              {
+                "key": "c",
+                "text": "wären"
+              }
+            ],
+            "q": "Sie sagen: 'Wir sind bereit.' → Sie sagen, sie ___ bereit.",
+            "why": "sein hat auch im Plural eine eigene Konjunktiv-I-Form."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "hat"
+              },
+              {
+                "key": "b",
+                "text": "hätte"
+              },
+              {
+                "key": "c",
+                "text": "habe"
+              }
+            ],
+            "q": "Er sagt: 'Ich habe recht.' → Er sagt, er ___ recht.",
+            "why": "3. Person Singular → Konjunktiv I."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "hätten"
+              },
+              {
+                "key": "b",
+                "text": "haben"
+              },
+              {
+                "key": "c",
+                "text": "habe"
+              }
+            ],
+            "q": "Sie sagen: 'Wir haben recht.' → Sie sagen, sie ___ recht.",
+            "why": "Plural, identisch mit Indikativ → Ersatzform."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "geht"
+              },
+              {
+                "key": "b",
+                "text": "gehe"
+              },
+              {
+                "key": "c",
+                "text": "ginge"
+              }
+            ],
+            "q": "Er sagt: 'Ich gehe jetzt.' → Er sagt, er ___ jetzt.",
+            "why": "3. Person Singular → Konjunktiv I."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "gehen"
+              },
+              {
+                "key": "b",
+                "text": "gehe"
+              },
+              {
+                "key": "c",
+                "text": "gingen"
+              }
+            ],
+            "q": "Sie sagen: 'Wir gehen jetzt.' → Sie sagen, sie ___ jetzt.",
+            "why": "Plural, identisch mit Indikativ → Ersatzform."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-19-indirekte-rede-c1",
+  "intro": "Standalone drill set, not tied to any lesson. Konjunktiv I only works as a marker of reported speech where it's actually distinct from the Indikativ — reliably true for 3rd person singular (er komme, er habe, er sei) but not for wir/sie(Pl.), where most verbs' Konjunktiv I form is identical to the Indikativ (wir kommen = wir kommen). When that happens, German switches to Konjunktiv II instead: sie kämen, sie hätten — or, for weak verbs whose Konjunktiv II also collides with their own Präteritum, to würde + Infinitiv (sie würden fordern). sein is the one verb whose plural Konjunktiv I (seien) stays distinct, so no swap is needed there. This set also covers reported yes/no and w-questions (ob/wie/wann + verb-final) and reported commands (sollen + Infinitiv). Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/19-indirekte-rede-c1",
+  "level": "C1",
+  "summary": null,
+  "title": "Indirekte Rede: Konjunktiv I vs. Ersatzform — C1",
+  "topic": "Indirekte Rede"
+}

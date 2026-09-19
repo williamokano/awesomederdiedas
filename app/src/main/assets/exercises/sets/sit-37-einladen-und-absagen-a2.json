@@ -1,0 +1,810 @@
+{
+  "category": "Soziales",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "einladen",
+            "label": "Einladen"
+          },
+          {
+            "key": "zusagen",
+            "label": "Zusagen"
+          },
+          {
+            "key": "absagen",
+            "label": "Absagen"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "einladen",
+            "text": "Hast du am Samstag schon etwas vor?"
+          },
+          {
+            "bucket": "zusagen",
+            "text": "Sehr gern, ich freue mich!"
+          },
+          {
+            "bucket": "absagen",
+            "text": "Das ist lieb, aber ich schaffe es leider nicht."
+          },
+          {
+            "bucket": "einladen",
+            "text": "Wir feiern meinen Geburtstag — kommst du?"
+          },
+          {
+            "bucket": "zusagen",
+            "text": "Ich bin dabei."
+          },
+          {
+            "bucket": "absagen",
+            "text": "Da bin ich leider schon verabredet."
+          },
+          {
+            "bucket": "einladen",
+            "text": "Ich würde dich gern einladen."
+          },
+          {
+            "bucket": "zusagen",
+            "text": "Klar, um wie viel Uhr?"
+          },
+          {
+            "bucket": "absagen",
+            "text": "Diesmal wird es leider nichts."
+          },
+          {
+            "bucket": "einladen",
+            "text": "Sag Bescheid, ob es dir passt."
+          },
+          {
+            "bucket": "zusagen",
+            "text": "Passt perfekt, ich komme."
+          },
+          {
+            "bucket": "absagen",
+            "text": "Können wir es verschieben?"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Sätze.",
+      "instructionsEn": "Sort the 12 sentences.",
+      "title": "Einladen, zusagen oder absagen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Hast du Samstagabend Zeit? Wir grillen."
+          },
+          {
+            "key": "2",
+            "text": "Soll ich etwas mitbringen?"
+          },
+          {
+            "key": "3",
+            "text": "Kommst du zu meinem Geburtstag?"
+          },
+          {
+            "key": "4",
+            "text": "Passt dir Donnerstag um acht?"
+          },
+          {
+            "key": "5",
+            "text": "Wir gehen nachher noch was trinken — kommst du mit?"
+          },
+          {
+            "key": "6",
+            "text": "Können wir auf nächste Woche verschieben?"
+          },
+          {
+            "key": "7",
+            "text": "Tut mir leid, ich habe es total vergessen."
+          },
+          {
+            "key": "8",
+            "text": "Herzlichen Glückwunsch nachträglich!"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Sehr gern! Was soll ich mitbringen?"
+          },
+          {
+            "key": "b",
+            "text": "Einen Salat wäre super, alles andere haben wir."
+          },
+          {
+            "key": "c",
+            "text": "Unbedingt. Sag mir nur, wann und wo."
+          },
+          {
+            "key": "d",
+            "text": "Donnerstag ist schlecht, Freitag ginge."
+          },
+          {
+            "key": "e",
+            "text": "Heute schaffe ich es leider nicht, ich muss früh raus."
+          },
+          {
+            "key": "f",
+            "text": "Klar, bei mir passt jeder Tag außer Mittwoch."
+          },
+          {
+            "key": "g",
+            "text": "Kein Problem, das kann passieren. Holen wir nach!"
+          },
+          {
+            "key": "h",
+            "text": "Danke dir! Wir feiern noch am Wochenende, komm doch vorbei."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jeder Einladung eine passende Antwort zu.",
+      "instructionsEn": "Match each invitation with a fitting answer.",
+      "title": "Einladung und Antwort"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "würde"
+          ],
+          "2": [
+            "Hättest"
+          ],
+          "3": [
+            "ginge"
+          ],
+          "4": [
+            "wäre"
+          ],
+          "5": [
+            "Würde"
+          ],
+          "6": [
+            "könnte"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} dich gern einladen. (werden)\n2. {2} du Samstag Zeit? (haben)\n3. Freitag {3} bei mir. (gehen im Konjunktiv II)\n4. Das {4} super. (sein)\n5. {5} es dir etwas ausmachen, wenn wir eine Stunde später anfangen? (werden)\n6. Ich {6} sonst am Sonntag. (können)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze die Konjunktiv-II-Form.",
+      "instructionsEn": "Fill in the Konjunktiv II form.",
+      "title": "Höflich mit Konjunktiv II"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "aber"
+          ],
+          "2": [
+            "weil"
+          ],
+          "3": [
+            "verabredet"
+          ],
+          "4": [
+            "verschieben"
+          ],
+          "5": [
+            "tut"
+          ],
+          "6": [
+            "nachholen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das ist lieb, {1} ich schaffe es leider nicht. (Gegensatz, Hauptsatz)\n2. Ich kann nicht kommen, {2} ich an dem Wochenende arbeite. (Grund)\n3. Da bin ich leider schon {3}. (ich habe schon einen Termin)\n4. Können wir es {4}? (auf einen anderen Termin legen)\n5. Es {5} mir wirklich leid. (tun, 3. Person Singular)\n6. Lass es uns {6}! (später doch noch machen)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das fehlende Wort.",
+      "instructionsEn": "Fill in the missing word.",
+      "title": "Absagen: Bedauern, Grund, Vorschlag"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "VOR"
+          ],
+          "2": [
+            "GERN"
+          ],
+          "3": [
+            "MITBRINGEN"
+          ],
+          "4": [
+            "WÄRE"
+          ],
+          "5": [
+            "ABER"
+          ],
+          "6": [
+            "ARBEITEN"
+          ],
+          "7": [
+            "KÖNNEN"
+          ],
+          "8": [
+            "PASST"
+          ],
+          "9": [
+            "KLINGT"
+          ],
+          "10": [
+            "WIRKLICH"
+          ]
+        },
+        "bank": [
+          "VOR",
+          "GERN",
+          "MITBRINGEN",
+          "WÄRE",
+          "ABER",
+          "ARBEITEN",
+          "KÖNNEN",
+          "PASST",
+          "KLINGT",
+          "WIRKLICH",
+          "WEIL",
+          "HABEN",
+          "SPÄTER",
+          "GEHT"
+        ],
+        "text": "— Du, hast du Samstagabend schon etwas {1}? Wir grillen bei uns\nim Hof.\n— Nein, da bin ich frei. Sehr {2}!\n— Super. Ab sechs, dritter Stock, klingel einfach.\n— Soll ich etwas {3}?\n— Ein Salat {4} super, alles andere haben wir.\n— Mache ich.\n*(die zweite Antwort)*\n— Das ist lieb, {5} ich schaffe es leider nicht. Ich muss an dem\nWochenende {6}.\n— Schade!\n— Ja, wirklich. {7} wir es auf nächste Woche verschieben? Bei mir\n{8} jeder Tag außer Mittwoch.\n— Klar, machen wir. Dann sagen wir Freitag?\n— Freitag {9} perfekt. Und diesmal bringe ich den Salat\n{10} mit.\n— Abgemacht!\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Die Einladung und zwei Antworten"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir grillen Samstag."
+              },
+              {
+                "key": "b",
+                "text": "Hast du Samstagabend schon etwas vor? Wir grillen bei uns im Hof, ab sechs."
+              },
+              {
+                "key": "c",
+                "text": "Komm doch mal vorbei."
+              }
+            ],
+            "q": "Du willst jemanden zum Grillen einladen. — You want to invite someone to a barbecue.",
+            "why": "Erst nach der Zeit fragen, dann Anlass, Ort und Uhrzeit — daraus wird eine Einladung, die man annehmen kann."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sehr gern! Soll ich etwas mitbringen?"
+              },
+              {
+                "key": "b",
+                "text": "Okay."
+              },
+              {
+                "key": "c",
+                "text": "Mal sehen."
+              }
+            ],
+            "q": "Du sagst zu. — You accept.",
+            "why": "Freude zeigen und gleich das Praktische klären — „mal sehen“ liest sich als halbe Absage."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nein, ich kann nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe keine Lust."
+              },
+              {
+                "key": "c",
+                "text": "Das ist lieb, aber ich schaffe es leider nicht — ich muss an dem Wochenende arbeiten. Können wir es verschieben?"
+              }
+            ],
+            "q": "Du kannst nicht und willst höflich absagen. — You can't make it and want to decline politely.",
+            "why": "Bedauern, kurzer Grund, Gegenvorschlag: die drei Teile, ohne die eine deutsche Absage schroff wirkt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das geht dich nichts an."
+              },
+              {
+                "key": "b",
+                "text": "Da kann ich leider nicht — aber lass uns bald etwas ausmachen."
+              },
+              {
+                "key": "c",
+                "text": "Ich habe was anderes vor."
+              }
+            ],
+            "q": "Du willst nicht sagen, warum du nicht kannst. — You don't want to say why you can't come.",
+            "why": "Ein Grund ist nett, aber keine Pflicht; wichtig ist das Bedauern plus der Wille zum nächsten Mal."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Später schreiben."
+              },
+              {
+                "key": "b",
+                "text": "Sofort anrufen oder schreiben, entschuldigen und den Grund kurz nennen."
+              },
+              {
+                "key": "c",
+                "text": "Gar nicht absagen."
+              }
+            ],
+            "q": "Du musst zwei Stunden vorher absagen. — You have to cancel two hours beforehand.",
+            "why": "Je später die Absage, desto wichtiger ist, dass sie sofort kommt — der Gastgeber plant mit dir."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zusagen und dann absagen."
+              },
+              {
+                "key": "b",
+                "text": "Danke für die Einladung! Diesmal wird es leider nichts — beim nächsten Mal gern."
+              },
+              {
+                "key": "c",
+                "text": "Nicht antworten."
+              }
+            ],
+            "q": "Jemand lädt dich ein und du willst wirklich nicht. — Someone invites you and you genuinely don't want to go.",
+            "why": "Freundlich absagen ist völlig in Ordnung; zusagen und später kneifen kostet dagegen Vertrauen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Wie sagst du das?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "vorhaben: vor am Satzende",
+            "tiles": [
+              "Hast",
+              "du",
+              "am",
+              "Samstag",
+              "schon",
+              "etwas",
+              "vor",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Konjunktiv II würde, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "würde",
+              "dich",
+              "gern",
+              "einladen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Modalverb an Position 1, Infinitiv am Ende",
+            "tiles": [
+              "Soll",
+              "ich",
+              "etwas",
+              "mitbringen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Nach weil steht das Modalverb ganz am Ende",
+            "tiles": [
+              "Ich",
+              "kann",
+              "leider",
+              "nicht",
+              ",",
+              "weil",
+              "ich",
+              "arbeiten",
+              "muss"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "verschieben auf + Akkusativ",
+            "tiles": [
+              "Können",
+              "wir",
+              "es",
+              "auf",
+              "nächste",
+              "Woche",
+              "verschieben",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "leidtun mit Dativ: mir — leid steht am Satzende",
+            "tiles": [
+              "Es",
+              "tut",
+              "mir",
+              "wirklich",
+              "leid"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze für Einladungen bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Man soll bis Mittwoch zu- oder absagen. — You should reply by Wednesday.",
+            "why": "„Bitte bis Mittwoch kurz Bescheid geben, ob ihr kommt.“"
+          },
+          {
+            "answer": false,
+            "q": "Jeder soll Essen und Getränke mitbringen. — Everyone should bring food and drinks.",
+            "why": "Essen und Getränke sind da; nur Nachtisch wäre willkommen."
+          },
+          {
+            "answer": true,
+            "q": "Wer Nachtisch mitbringt, soll das vorher sagen. — Anyone bringing dessert should say so beforehand.",
+            "why": "„bitte kurz melden, damit wir nicht fünf Kuchen haben“."
+          },
+          {
+            "answer": false,
+            "q": "Ein Geschenk wird erwartet. — A present is expected.",
+            "why": "„Kein Geschenk nötig, wirklich nicht.“"
+          },
+          {
+            "answer": false,
+            "q": "Um 23 Uhr feiert man noch im Hof. — At 11 pm you're still celebrating in the courtyard.",
+            "why": "Ab 22 Uhr geht es wegen der Nachbarn nach drinnen."
+          },
+          {
+            "answer": false,
+            "q": "Wer erst um 21 Uhr kann, soll lieber absagen. — Anyone who can only come at 9 pm should decline.",
+            "why": "„Wer später kommt, ist trotzdem willkommen.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Einladung — Carlas Einstand**\n>\n> Endlich ausgepackt! Ich lade euch zum Einstand ein.\n>\n> **Samstag, 12. Juli, ab 18 Uhr**, Lindenweg 8, 3. OG rechts.\n> Bei gutem Wetter sind wir **im Hof**, sonst in der Wohnung.\n>\n> - **Essen und Getränke** sind da. Wer etwas beisteuern will:\n>   **Nachtisch** wäre schön — bitte kurz melden, damit wir nicht\n>   fünf Kuchen haben.\n> - **Kein Geschenk nötig**, wirklich nicht.\n> - **Kinder** sind herzlich willkommen.\n> - **Ab 22 Uhr** gehen wir wegen der Nachbarn nach drinnen.\n> - Bitte **bis Mittwoch** kurz Bescheid geben, ob ihr kommt —\n>   wegen der Einkaufsmenge.\n> - Wer später kommt, ist trotzdem willkommen; **klingelt einfach**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Einladung lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nichts sagen und hoffen, dass es niemandem auffällt."
+              },
+              {
+                "key": "b",
+                "text": "So tun, als wärst du krank gewesen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort schreiben: „Es tut mir wirklich leid, ich habe es total vergessen. Kann ich es wiedergutmachen?“"
+              }
+            ],
+            "q": "Du hast den Termin komplett vergessen. — You completely forgot the date.",
+            "why": "Ehrlich und sofort — eine erfundene Krankheit fliegt oft auf und kostet mehr als das Versäumnis."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "So früh wie möglich absagen, sich entschuldigen und einen neuen Termin anbieten."
+              },
+              {
+                "key": "b",
+                "text": "Am Tag selbst absagen."
+              },
+              {
+                "key": "c",
+                "text": "Hingehen und schlechte Laune haben."
+              }
+            ],
+            "q": "Du hast zugesagt, willst aber nicht mehr. — You accepted but no longer want to go.",
+            "why": "Früh absagen ist zumutbar; spät abzusagen trifft den Gastgeber, der schon eingekauft hat."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Beleidigt sein."
+              },
+              {
+                "key": "b",
+                "text": "Beiläufig nachfragen: „Ich habe von dem Fest gehört — findet das noch statt?“"
+              },
+              {
+                "key": "c",
+                "text": "Einfach hingehen."
+              }
+            ],
+            "q": "Du bist versehentlich nicht eingeladen worden. — You weren't invited, apparently by accident.",
+            "why": "Eine offene Frage lässt beiden die Möglichkeit, es unkompliziert zu klären."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Absagen, ohne etwas zu sagen."
+              },
+              {
+                "key": "b",
+                "text": "Das Essen ist mir gerade zu teuer — aber ich komme sehr gern danach auf ein Getränk dazu."
+              },
+              {
+                "key": "c",
+                "text": "Trotzdem mitgehen und sich verschulden."
+              }
+            ],
+            "q": "Man lädt dich zu etwas ein, das du dir nicht leisten kannst. — You're invited to something you can't afford.",
+            "why": "Offen und ohne Drama: der Vorschlag, später dazuzukommen, hält dich im Kreis."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Eine lange Geschichte erfinden."
+              },
+              {
+                "key": "b",
+                "text": "Es war eine blöde Woche, ich habe es schlicht verschwitzt. Das war nicht in Ordnung — ich lade dich diese Woche ein."
+              },
+              {
+                "key": "c",
+                "text": "Das Thema wechseln."
+              }
+            ],
+            "q": "Der Gastgeber fragt nach, warum du nicht gekommen bist. — The host asks why you didn't come.",
+            "why": "Kurz, ehrlich, mit Wiedergutmachung — mehr will niemand hören."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nicht mehr einladen."
+              },
+              {
+                "key": "b",
+                "text": "Vorwürfe machen."
+              },
+              {
+                "key": "c",
+                "text": "Kein Problem — sag du mir einfach, wann es dir passt, dann plane ich danach."
+              }
+            ],
+            "q": "Jemand sagt dir zum dritten Mal ab. — Someone cancels on you for the third time.",
+            "why": "Den Ball zurückgeben statt Vorwürfe: so bleibt die Tür offen und du planst nicht wieder umsonst."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn es peinlich wird"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "vor"
+          ],
+          "2": [
+            "verabredet"
+          ],
+          "3": [
+            "verschieben"
+          ],
+          "4": [
+            "leid"
+          ],
+          "5": [
+            "vergessen"
+          ],
+          "6": [
+            "nachholen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Hast du am Samstag schon etwas {1}? (geplant)\n2. Da bin ich leider schon {2}. (ich habe einen Termin)\n3. Können wir es {3}? (auf einen anderen Tag legen)\n4. Es tut mir wirklich {4}. (Bedauern)\n5. Ich habe es total {5}. (nicht daran gedacht, Partizip)\n6. Lass es uns {6}! (später doch noch machen)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "vor"
+          ],
+          "2": [
+            "würde"
+          ],
+          "3": [
+            "Soll"
+          ],
+          "4": [
+            "gern"
+          ],
+          "5": [
+            "aber"
+          ],
+          "6": [
+            "weil"
+          ],
+          "7": [
+            "verabredet"
+          ],
+          "8": [
+            "verschieben"
+          ],
+          "9": [
+            "ginge"
+          ],
+          "10": [
+            "leid"
+          ],
+          "11": [
+            "vergessen"
+          ],
+          "12": [
+            "nachholen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Hast du Samstag schon etwas {1}? (planned)\n2. Ich {2} dich gern einladen. (would like to)\n3. {3} ich etwas mitbringen? (shall I)\n4. Sehr {4}, ich freue mich! (gladly)\n5. Das ist lieb, {5} ich schaffe es nicht. (but)\n6. Ich kann nicht, {6} ich arbeiten muss. (because)\n7. Da bin ich schon {7}. (busy — have plans with someone)\n8. Können wir es {8}? (postpone)\n9. Freitag {9} bei mir. (would work — gehen im Konjunktiv II)\n10. Es tut mir wirklich {10}. (sorry)\n11. Ich habe es total {11}. (forgotten)\n12. Lass es uns {12}! (make up for it later)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-37-einladen-und-absagen-a2",
+  "intro": "Eine Einladung auf Deutsch ist eine kleine Kette fester Formeln, und wer sie kennt, wirkt sofort sicherer. Einladen heißt: Anlass, Tag, Uhrzeit, Ort — und die Frage, ob man etwas mitbringen soll. Zusagen heißt: freuen und bestätigen. Absagen ist der schwierigste Teil, weil ein bloßes Nein im Deutschen hart klingt: Es braucht ein Bedauern, einen kurzen Grund und möglichst einen Gegenvorschlag. Dazu kommen die Sonderfälle — kurzfristig absagen, einen Termin verschieben, und sich entschuldigen, wenn man einfach nicht aufgetaucht ist. Grammatik nach Bedarf: Konjunktiv II, Nebensätze mit weil und dass, Zeitangaben und Wortstellung. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/37-einladen-und-absagen-a2",
+  "level": "A2",
+  "summary": "Jemanden einladen, zusagen, höflich absagen, verschieben — und sich entschuldigen, wenn man es vergessen hat.",
+  "title": "Einladen, zusagen, absagen — A2",
+  "topic": "Einladungen"
+}

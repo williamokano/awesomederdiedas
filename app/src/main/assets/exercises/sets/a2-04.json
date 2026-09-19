@@ -1,0 +1,1572 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "ist"
+          ],
+          "2": [
+            "sind"
+          ],
+          "3": [
+            "bekomme"
+          ],
+          "4": [
+            "ist"
+          ],
+          "5": [
+            "hat"
+          ],
+          "6": [
+            "hat"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Er ruft an. → Er ruft an, wenn er fertig {1}.\n2. Wir fangen an. → Wir fangen an, wenn alle da {2}.\n3. Ich schreibe noch mal. → Ich schreibe noch mal, wenn ich keine Antwort {3}.\n4. Sie ist glücklich. → Sie ist glücklich, wenn die Arbeit interessant {4}.\n5. Herr Keller hilft. → Herr Keller hilft, wenn man Fragen {5}.\n6. Bruno geht in die Kantine. → Bruno geht in die Kantine, wenn er Hunger {6}.\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Move the verb to the correct position in the `wenn`-clause. Write the final verb.",
+      "title": "`wenn`-Sätze: Verben ans Ende"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "ist"
+          ],
+          "2": [
+            "lernt"
+          ],
+          "3": [
+            "vereinbart"
+          ],
+          "4": [
+            "hilft"
+          ],
+          "5": [
+            "verdiene"
+          ],
+          "6": [
+            "versteht"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Bruno ist pünktlich, wenn der Zug kommt. → Wenn der Zug kommt, {1} Bruno pünktlich.\n2. Sie lernt schnell, wenn sie jeden Tag übt. → Wenn sie jeden Tag übt, {2} sie schnell.\n3. Herr Steinmeyer vereinbart einen Termin, wenn die Unterlagen da sind. → Wenn die Unterlagen da sind, {3} Herr Steinmeyer einen Termin.\n4. Anna hilft Bruno, wenn er Probleme hat. → Wenn er Probleme hat, {4} Anna Bruno.\n5. Ich verdiene mehr, wenn ich Vollzeit arbeite. → Wenn ich Vollzeit arbeite, {5} ich mehr.\n6. Man versteht viel, wenn man aufmerksam zuhört. → Wenn man aufmerksam zuhört, {6} man viel.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Rewrite each sentence with the `wenn`-clause first. The gap is the main-clause verb (which comes immediately after the comma).",
+      "title": "`wenn`-Satz vorne: Inversion"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "kann"
+          ],
+          "2": [
+            "vereinbaren will"
+          ],
+          "3": [
+            "bekommen will"
+          ],
+          "4": [
+            "arbeiten müssen"
+          ],
+          "5": [
+            "helfen kannst"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wenn ich früher aufhören {1} (aufhören können), komme ich pünktlich.\n2. Wenn man einen Termin {2} (vereinbaren wollen), muss man anrufen.\n3. Wenn er die Stelle {3} (bekommen wollen), muss er sich bewerben.\n4. Wenn wir morgen nicht {4} (arbeiten müssen), gehen wir ins Café.\n5. Wenn du mir {5} (helfen können), wäre das super.\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Complete the `wenn`-clause with the correct form of the modal verb (infinitive before modal, both at the end).",
+      "title": "`wenn`-Satz mit Modalverb"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "geschickt"
+          ],
+          "2": [
+            "hat"
+          ],
+          "3": [
+            "eingereicht"
+          ],
+          "4": [
+            "hat"
+          ],
+          "5": [
+            "gelesen"
+          ],
+          "6": [
+            "habe"
+          ],
+          "7": [
+            "beworben"
+          ],
+          "8": [
+            "hat"
+          ],
+          "9": [
+            "angefangen"
+          ],
+          "10": [
+            "hat"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wenn Bruno die E-Mail {1} {2}, wartet er auf eine Antwort.\n2. Wenn Frau Weber die Unterlagen {3} {4}, vereinbaren wir einen Termin.\n3. Wenn ich den Lebenslauf {5} {6}, rufe ich an.\n4. Wenn er sich {7} {8}, braucht er Informationen über die Firma.\n5. Wenn der Kurs {9} {10}, kaufe ich ein neues Buch.\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Complete the `wenn`-clause using the Perfekt. Each item has two gaps (Partizip II + auxiliary).",
+      "title": "`wenn`-Satz mit Perfekt"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Koch"
+          ],
+          "2": [
+            "Programmiererin"
+          ],
+          "3": [
+            "Student"
+          ],
+          "4": [
+            "Koordinatorin"
+          ],
+          "5": [
+            "Mechaniker"
+          ],
+          "6": [
+            "Lehrerin"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Er hat fünf Jahre als {1} in einem Restaurant gearbeitet.\n2. Sie ist als {2} bei einer Softwarefirma tätig.\n3. Ich bin als {3} eingeschrieben — ich studiere Informatik.\n4. Bruno möchte als IT-Assistent arbeiten. Frau Weber arbeitet als {4}.\n5. Er fährt Autos und arbeitet als {5}.\n6. Sie unterrichtet Deutsch und arbeitet als {6}.\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Fill in the correct profession noun (no article!) after `als`.",
+      "title": "`als` + Berufsbezeichnung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Ich arbeite als eine Ärztin.",
+            "why": "Ich arbeite als **Ärztin** (no article after `als` with profession)."
+          },
+          {
+            "answer": true,
+            "q": "Er hat als Journalist gearbeitet.",
+            "why": "Correct."
+          },
+          {
+            "answer": false,
+            "q": "Sie ist als die Managerin angestellt.",
+            "why": "Sie ist als **Managerin** angestellt (no definite article after `als`)."
+          },
+          {
+            "answer": true,
+            "q": "Wir arbeiten als Kollegen zusammen.",
+            "why": "`als Kollegen` = as colleagues (plural noun, no article needed)."
+          },
+          {
+            "answer": false,
+            "q": "Er war als ein Koch tätig.",
+            "why": "Er war als **Koch** tätig (no article after `als`)."
+          },
+          {
+            "answer": true,
+            "q": "Anna möchte als Lehrerin arbeiten.",
+            "why": "Correct."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "A6",
+      "instructions": "Mark each sentence R (richtig) or F (falsch).",
+      "title": "`als` mit Verb: richtig oder falsch?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Lehrerin"
+          ],
+          "2": [
+            "Arzt"
+          ],
+          "3": [
+            "Köchin"
+          ],
+          "4": [
+            "Programmierer"
+          ],
+          "5": [
+            "Verkäuferin"
+          ],
+          "6": [
+            "Buchhalter"
+          ],
+          "7": [
+            "Krankenpflegerin"
+          ],
+          "8": [
+            "Journalist"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. der Lehrer → die {1}\n2. die Ärztin → der {2}\n3. der Koch → die {3}\n4. die Programmiererin → der {4}\n5. der Verkäufer → die {5}\n6. die Buchhalterin → der {6}\n7. der Krankenpfleger → die {7}\n8. die Journalistin → der {8}\n",
+        "type": "gap-text"
+      },
+      "id": "A7",
+      "instructions": "Give the opposite-gender form of each profession.",
+      "title": "Berufe: welche Form?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "c",
+          "2": "b",
+          "3": "a",
+          "4": "g",
+          "5": "d",
+          "6": "e",
+          "7": "h",
+          "8": "f"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Das schreibe ich und schicke es an die Firma, wenn ich mich bewerbe."
+          },
+          {
+            "key": "2",
+            "text": "Dort arbeiten viele Leute an Schreibtischen."
+          },
+          {
+            "key": "3",
+            "text": "Hier treffen sich Kollegen, um Dinge zu besprechen."
+          },
+          {
+            "key": "4",
+            "text": "Das bekomme ich jeden Monat für meine Arbeit."
+          },
+          {
+            "key": "5",
+            "text": "Er bezahlt mich — ich arbeite für ihn."
+          },
+          {
+            "key": "6",
+            "text": "Mit ihm oder ihr arbeite ich jeden Tag zusammen."
+          },
+          {
+            "key": "7",
+            "text": "Hier kann ich eine Pause machen und etwas essen."
+          },
+          {
+            "key": "8",
+            "text": "Das ist das Gespräch, das ich vor dem ersten Arbeitstag habe."
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die Besprechung"
+          },
+          {
+            "key": "b",
+            "text": "das Büro"
+          },
+          {
+            "key": "c",
+            "text": "die Bewerbung"
+          },
+          {
+            "key": "d",
+            "text": "der Arbeitgeber"
+          },
+          {
+            "key": "e",
+            "text": "der Kollege / die Kollegin"
+          },
+          {
+            "key": "f",
+            "text": "das Vorstellungsgespräch"
+          },
+          {
+            "key": "g",
+            "text": "das Gehalt"
+          },
+          {
+            "key": "h",
+            "text": "die Kantine"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A8",
+      "instructions": "Match each definition (1–8) to the correct noun (a–h).",
+      "title": "Wortschatz Arbeitswelt: was passt?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "arbeitet"
+          ],
+          "2": [
+            "fängt"
+          ],
+          "3": [
+            "bewerbe mich"
+          ],
+          "4": [
+            "verdient"
+          ],
+          "5": [
+            "vereinbaren"
+          ],
+          "6": [
+            "stellt"
+          ],
+          "7": [
+            "reicht"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Er {1} (arbeiten) seit drei Jahren als Ingenieur.\n2. Wann {2} (anfangen) dein Arbeitstag?\n3. Ich {3} (sich bewerben) für die Stelle als Buchhalter.\n4. Sie {4} (verdienen) sehr gut in ihrer neuen Stelle.\n5. Wir {5} (vereinbaren) einen Termin für Montag.\n6. Der Chef {6} (einstellen) zwei neue Mitarbeiter.\n7. Bruno {7} (einreichen) seine Unterlagen bis Freitag.\n",
+        "type": "gap-text"
+      },
+      "id": "A9",
+      "instructions": "Schreibe die richtige Verbform.",
+      "instructionsEn": "Write the correct verb form.",
+      "title": "Konjugation: Verben zur Arbeit"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "weil"
+          ],
+          "2": [
+            "will"
+          ],
+          "3": [
+            "wenn",
+            "weil"
+          ],
+          "4": [
+            "ist"
+          ],
+          "5": [
+            "weil"
+          ],
+          "6": [
+            "braucht"
+          ],
+          "7": [
+            "Wenn"
+          ],
+          "8": [
+            "hast"
+          ],
+          "9": [
+            "weil"
+          ],
+          "10": [
+            "hat"
+          ],
+          "11": [
+            "wenn"
+          ],
+          "12": [
+            "bekommt"
+          ],
+          "13": [
+            "weil"
+          ],
+          "14": [
+            "dauert"
+          ],
+          "15": [
+            "Wenn"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Er lernt viel, {1} er die Prüfung bestehen {2} (bestehen wollen).\n2. Ich bin glücklich, {3} meine Arbeit interessant {4} (sein).\n3. Bruno sucht einen Job, {5} er Geld {6} (brauchen).\n4. {7} du Zeit {8} (haben), können wir einen Kaffee trinken.\n5. Sie kommt zu spät, {9} der Bus Verspätung {10} (haben).\n6. Er schreibt eine E-Mail, {11} er keine Antwort {12} (bekommen).\n7. Wir bleiben im Büro, {13} die Besprechung so lange {14} (dauern).\n8. {15} man viel übt, lernt man schnell.\n",
+        "type": "gap-text"
+      },
+      "id": "A10",
+      "instructions": "Wähle „wenn\" oder „weil\" und ergänze die Lücke mit dem Verb (Infinitiv + Modalverb oder finites Verb, am Ende des Satzes).",
+      "instructionsEn": "Choose `wenn` or `weil` and complete the gap with the verb (infinitive + modal or finite verb, at the end of the clause).",
+      "title": "`wenn` oder `weil`?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "fängt"
+          ],
+          "2": [
+            "an"
+          ],
+          "3": [
+            "Hörst"
+          ],
+          "4": [
+            "auf"
+          ],
+          "5": [
+            "rufen"
+          ],
+          "6": [
+            "an"
+          ],
+          "7": [
+            "kauft"
+          ],
+          "8": [
+            "ein"
+          ],
+          "9": [
+            "stehst"
+          ],
+          "10": [
+            "auf"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Bruno {1} um neun Uhr {2} (anfangen).\n2. {3} du nach der Arbeit {4}? (aufhören)\n3. Wir {5} morgen {6}. (anrufen)\n4. Sie {7} jeden Tag im Supermarkt {8}. (einkaufen)\n5. Wann {9} du {10}? (aufstehen)\n",
+        "type": "gap-text"
+      },
+      "id": "A11",
+      "instructions": "Jede Aufgabe hat zwei Lücken: das konjugierte Verb (Position 2) und die trennbare Vorsilbe (am Satzende).",
+      "instructionsEn": "Each item has two gaps: the conjugated verb (position 2) and the separable prefix (end of clause).",
+      "title": "Satzklammer recap: Trennbare Verben (L5 review)"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Stelle"
+          ],
+          "2": [
+            "Erfahrung"
+          ],
+          "3": [
+            "als"
+          ],
+          "4": [
+            "Unterlagen"
+          ],
+          "5": [
+            "wenn"
+          ],
+          "6": [
+            "wenn"
+          ],
+          "7": [
+            "Unterlagen"
+          ]
+        },
+        "bank": [
+          "wenn",
+          "als",
+          "weil",
+          "Stelle",
+          "Bewerbung",
+          "Unterlagen",
+          "Erfahrung",
+          "ob",
+          "Gehalt",
+          "wenn",
+          "Unterlagen"
+        ],
+        "text": "— Entschuldigung, ich interessiere mich für die {1} als Buchhalter.\n— Ja, bitte. Haben Sie schon {2} in diesem Bereich?\n— Ja, ich habe zwei Jahre {3} Buchhalter bei einer kleinen Firma gearbeitet.\n— Sehr gut. Wann können Sie Ihre {4} schicken?\n— Ich schicke Ihnen alles bis morgen, {5} es Ihnen recht ist.\n— Das wäre ideal. Wir melden uns, {6} die {7} da sind.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 7 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht.",
+      "instructionsEn": "Fill in the 7 gaps with words from the box. Four words are not needed.",
+      "title": "Dialog ergänzen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "kommt er"
+          ],
+          "2": [
+            "als Ärztin"
+          ],
+          "3": [
+            "kann ich"
+          ],
+          "4": [
+            "beworben"
+          ],
+          "5": [
+            "sind"
+          ],
+          "6": [
+            "da sind"
+          ],
+          "7": [
+            "Jahre"
+          ],
+          "8": [
+            "verdiene"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wenn er fertig ist, {1} sofort. (er kommt → ?)\n2. Ich arbeite {2} in Hamburg. (als eine Ärztin → ?)\n3. Wenn ich keine Arbeit finde, {3} die Miete nicht zahlen. (ich kann → ?)\n4. Sie hat sich für die neue Stelle {4}. (bewerben → ?)\n5. Er macht Überstunden, wenn viele Gäste da {5}. (ist → ?)\n6. Wir vereinbaren einen Termin, wenn die Unterlagen {6}. (sind da → ?)\n7. Ich habe drei {7} als Lehrer gearbeitet. (Jahr → ?)\n8. Als Student {8} ich kein Geld. (bin → ?)\n",
+        "type": "gap-text"
+      },
+      "id": "B2",
+      "instructions": "Jeder Satz hat genau einen Fehler. Das falsche Wort oder die falsche Position steht als Lücke — schreibe die richtige Form.",
+      "instructionsEn": "Each sentence has exactly one mistake. The wrong word/position is shown as a gap — write the correct form.",
+      "title": "Finde den Fehler"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Wenn"
+          ],
+          "2": [
+            "weil"
+          ],
+          "3": [
+            "Deshalb"
+          ],
+          "4": [
+            "Wenn"
+          ],
+          "5": [
+            "weil"
+          ],
+          "6": [
+            "Wenn"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe viel Erfahrung. → {1} ich viel Erfahrung habe, bekomme ich die Stelle.\n2. Er braucht Geld. → Er arbeitet viel, {2} er Geld braucht.\n3. Sie hat eine gute Bewerbung geschrieben. → {3} bekommt sie das Vorstellungsgespräch.\n4. Du lernst viel. → {4} du viel lernst, sprichst du bald gut Deutsch.\n5. Der Bus kommt zu spät. → Ich bin nicht pünktlich, {5} der Bus zu spät kommt.\n6. Herr Steinmeyer bekommt die Unterlagen bis Montag. → {6} er die Unterlagen bis Montag bekommt, vereinbart er einen Termin.\n",
+        "type": "gap-text"
+      },
+      "id": "B3",
+      "instructions": "Verbinde mit dem angegebenen Konnektor. Die Lücke ist der Konnektor (und ggf. das Verb am Ende des wenn-Satzes).",
+      "instructionsEn": "Combine using the connector given. The gap is the connector (and any required verb at the end of the wenn-clause).",
+      "title": "Sätze verbinden: `wenn`, `weil`, `deshalb`"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "c",
+          "2": "a",
+          "3": "f",
+          "4": "d",
+          "5": "e",
+          "6": "h",
+          "7": "b",
+          "8": "g"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Was machen Sie von Beruf?"
+          },
+          {
+            "key": "2",
+            "text": "Wo arbeiten Sie?"
+          },
+          {
+            "key": "3",
+            "text": "Wann beginnt Ihr Arbeitstag?"
+          },
+          {
+            "key": "4",
+            "text": "Haben Sie Berufserfahrung?"
+          },
+          {
+            "key": "5",
+            "text": "Warum bewerben Sie sich bei uns?"
+          },
+          {
+            "key": "6",
+            "text": "Was sind Ihre Stärken?"
+          },
+          {
+            "key": "7",
+            "text": "Wann sind Sie verfügbar?"
+          },
+          {
+            "key": "8",
+            "text": "Wie lange machen Sie Pause?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Ich arbeite in einem Büro in Berlin-Mitte."
+          },
+          {
+            "key": "b",
+            "text": "Ab dem ersten März."
+          },
+          {
+            "key": "c",
+            "text": "Ich bin von Beruf Ingenieurin."
+          },
+          {
+            "key": "d",
+            "text": "Ja, ich habe drei Jahre als Koordinatorin gearbeitet."
+          },
+          {
+            "key": "e",
+            "text": "Weil ich die Firma sehr interessant finde."
+          },
+          {
+            "key": "f",
+            "text": "Um neun Uhr."
+          },
+          {
+            "key": "g",
+            "text": "Eine Stunde, von zwölf bis dreizehn Uhr."
+          },
+          {
+            "key": "h",
+            "text": "Ich bin sehr organisiert und arbeite gut im Team."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B4",
+      "instructions": "Ordne jede Frage (1–8) der passenden Antwort (a–h) zu.",
+      "instructionsEn": "Match each question (1–8) to the correct answer (a–h).",
+      "title": "Fragen und Antworten zuordnen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              2,
+              5,
+              1,
+              3,
+              4,
+              6
+            ],
+            "note": "Wenn er fertig ist, kommt er sofort.",
+            "tiles": [
+              "wenn",
+              "ist",
+              "er",
+              "kommt",
+              "er",
+              "fertig",
+              "sofort"
+            ]
+          },
+          {
+            "answer": [
+              4,
+              6,
+              1,
+              2,
+              0,
+              3,
+              7,
+              5
+            ],
+            "note": "Wenn ich keinen Hunger habe, esse ich nichts.",
+            "tiles": [
+              "habe",
+              "keinen",
+              "Hunger",
+              "esse",
+              "wenn",
+              "nichts",
+              "ich",
+              "ich"
+            ]
+          },
+          {
+            "answer": [
+              4,
+              6,
+              7,
+              8,
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Wenn ich Glück habe, finde ich einen Job. (Also: Ich bin glücklich, wenn ich einen Job finde.)",
+            "tiles": [
+              "finde",
+              "ich",
+              "einen",
+              "Job",
+              "wenn",
+              "glücklich",
+              "ich",
+              "Glück",
+              "habe",
+              "bin"
+            ]
+          },
+          {
+            "answer": [
+              4,
+              0,
+              1,
+              2,
+              3,
+              5,
+              6
+            ],
+            "note": "Wenn sie Fragen hat, hilft ihr Laura.",
+            "tiles": [
+              "sie",
+              "Fragen",
+              "hat",
+              "hilft",
+              "wenn",
+              "ihr",
+              "Laura"
+            ]
+          },
+          {
+            "answer": [
+              7,
+              5,
+              8,
+              0,
+              1,
+              2,
+              6,
+              4,
+              3,
+              9
+            ],
+            "note": "Wenn Sie die Unterlagen bis Montag einreichen, rufen wir an.",
+            "tiles": [
+              "Unterlagen",
+              "bis",
+              "Montag",
+              "wir",
+              "rufen",
+              "Sie",
+              "einreichen",
+              "wenn",
+              "die",
+              "an"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B5",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the right order.",
+      "title": "Satzbau: `wenn`-Sätze"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "g",
+          "2": "a",
+          "3": "b",
+          "4": "d",
+          "5": "c",
+          "6": "f",
+          "7": "e",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "We are looking for a qualified engineer."
+          },
+          {
+            "key": "2",
+            "text": "Please send your CV and cover letter."
+          },
+          {
+            "key": "3",
+            "text": "We offer a competitive salary."
+          },
+          {
+            "key": "4",
+            "text": "You have at least two years of experience."
+          },
+          {
+            "key": "5",
+            "text": "The position starts on 1 March."
+          },
+          {
+            "key": "6",
+            "text": "Full-time or part-time possible."
+          },
+          {
+            "key": "7",
+            "text": "We look forward to your application."
+          },
+          {
+            "key": "8",
+            "text": "Please contact us by telephone."
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Bitte schicken Sie Ihren Lebenslauf und Ihr Anschreiben."
+          },
+          {
+            "key": "b",
+            "text": "Wir bieten ein gutes Gehalt."
+          },
+          {
+            "key": "c",
+            "text": "Die Stelle beginnt am 1. März."
+          },
+          {
+            "key": "d",
+            "text": "Sie haben mindestens zwei Jahre Berufserfahrung."
+          },
+          {
+            "key": "e",
+            "text": "Wir freuen uns auf Ihre Bewerbung."
+          },
+          {
+            "key": "f",
+            "text": "Vollzeit oder Teilzeit möglich."
+          },
+          {
+            "key": "g",
+            "text": "Wir suchen einen qualifizierten Ingenieur."
+          },
+          {
+            "key": "h",
+            "text": "Bitte melden Sie sich telefonisch."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B8",
+      "instructions": "Ordne die englischen Stellenanzeigen-Phrasen (1–8) den deutschen Entsprechungen (a–h) zu.",
+      "instructionsEn": "Match the English job ad phrases (1–8) to the German equivalents (a–h).",
+      "title": "Wie heißt das auf Deutsch?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "als"
+          ],
+          "2": [
+            "auf"
+          ],
+          "3": [
+            "Kollegen"
+          ],
+          "4": [
+            "arbeitet"
+          ],
+          "5": [
+            "beginnt"
+          ],
+          "6": [
+            "Hunger"
+          ],
+          "7": [
+            "Besprechung"
+          ],
+          "8": [
+            "verstanden"
+          ],
+          "9": [
+            "nichts"
+          ],
+          "10": [
+            "laufen"
+          ]
+        },
+        "listLayout": true,
+        "text": "Bruno hat eine Stelle {1} IT-Assistent bei einer Softwarefirma gefunden. Heute ist sein erster Arbeitstag. Er steht um sieben Uhr {2} und fährt mit der U-Bahn ins Büro. Sein Chef, Herr Keller, stellt ihm die {3} vor. Brunos Kollegin Laura {4} als Programmiererin. Der Arbeitstag {5} um neun Uhr. Wenn Bruno {6} hat, geht er in die Kantine. Am Nachmittag hat er an einer {7} teilgenommen. Er hat nicht alles {8}, aber das macht {9}. Wenn die ersten Wochen gut {10}, möchte er langfristig bei der Firma bleiben.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Fülle jede Lücke mit einem Wort.",
+      "instructionsEn": "Fill each gap with one word.",
+      "title": "Lückentext"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "bewerbe"
+              },
+              {
+                "key": "b",
+                "text": "bewirbst"
+              },
+              {
+                "key": "c",
+                "text": "bewirbt"
+              }
+            ],
+            "q": "ich (1) ____ mich für die Stelle als IT-Assistent in Ihrer Firma.",
+            "why": "ich-Form von sich bewerben."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "wie"
+              },
+              {
+                "key": "b",
+                "text": "als"
+              },
+              {
+                "key": "c",
+                "text": "ob"
+              }
+            ],
+            "q": "Ich habe zwei Jahre (2) ____ Programmierer bei einer kleinen Firma (3) ____.",
+            "why": "als + Berufsbezeichnung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "gearbeitet"
+              },
+              {
+                "key": "b",
+                "text": "arbeite"
+              },
+              {
+                "key": "c",
+                "text": "arbeitete"
+              }
+            ],
+            "q": "Welche Form passt: gearbeitet / arbeite / arbeitete?",
+            "why": "Perfekt: habe … gearbeitet."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "noch"
+              },
+              {
+                "key": "b",
+                "text": "schon"
+              },
+              {
+                "key": "c",
+                "text": "nie"
+              }
+            ],
+            "q": "Wenn die Stelle (4) ____ frei ist, würde ich sehr gern ein Vorstellungsgespräch vereinbaren.",
+            "why": "noch = still."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "reiche"
+              },
+              {
+                "key": "b",
+                "text": "reichen"
+              },
+              {
+                "key": "c",
+                "text": "reichst"
+              }
+            ],
+            "q": "Ich (5) ____ meine Unterlagen bis Ende der Woche ein.",
+            "why": "ich-Form von einreichen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "habt"
+              },
+              {
+                "key": "b",
+                "text": "haben"
+              },
+              {
+                "key": "c",
+                "text": "hat"
+              }
+            ],
+            "q": "Wenn Sie Fragen (6) ____, melden Sie sich bitte telefonisch.",
+            "why": "Sie-Form von haben (formal plural)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle die richtige Option (a, b oder c) für jede Lücke.",
+      "instructionsEn": "Choose the correct option (a, b, or c) for each gap.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "ARBEITE"
+          ],
+          "2": [
+            "BEI"
+          ],
+          "3": [
+            "BEGINNT"
+          ],
+          "4": [
+            "BÜRO"
+          ],
+          "5": [
+            "KOLLEGEN"
+          ],
+          "6": [
+            "ZUSAMMEN"
+          ],
+          "7": [
+            "WENN"
+          ],
+          "8": [
+            "KANTINE"
+          ],
+          "9": [
+            "PAUSE"
+          ],
+          "10": [
+            "GEHALT"
+          ]
+        },
+        "bank": [
+          "ALS",
+          "ARBEITE",
+          "AUSBILDUNG",
+          "BEI",
+          "BEWERBUNG",
+          "BÜRO",
+          "BEGINNT",
+          "CHEF",
+          "CHEFIN",
+          "FEIERABEND",
+          "GEHALT",
+          "KANTINE",
+          "KOLLEGEN",
+          "LANGE",
+          "PAUSE",
+          "STELLE",
+          "TEILZEIT",
+          "VOLLZEIT",
+          "WENN",
+          "ZUSAMMEN"
+        ],
+        "text": "Guten Tag! Ich heiße Petra Schmidt und ich {1} als Buchhalterin {2} einer mittelgroßen Firma in Frankfurt. Mein Arbeitstag {3} um acht Uhr dreißig. Ich sitze im {4} im dritten Stock. Meine {5} sind sehr nett — wir arbeiten gut {6}. {7} ich Hunger habe, gehe ich in die {8}. Ich mache eine kurze {9} von zwölf bis dreizehn Uhr. Das {10} ist gut — ich bin insgesamt sehr zufrieden.\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Zehn Wörter werden nicht gebraucht. Jedes Wort nur einmal.",
+      "instructionsEn": "Fill the 10 gaps from the box. Ten words are not needed. Each word once.",
+      "title": "Sprachbausteine Teil 2 (word bank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Bruno fährt mit dem Bus zur Arbeit.",
+            "why": "He travels by U-Bahn (metro), not bus."
+          },
+          {
+            "answer": true,
+            "q": "Brunos Kollegin Laura ist Programmiererin.",
+            "why": "Laura arbeitet als Programmiererin."
+          },
+          {
+            "answer": false,
+            "q": "Bruno arbeitet von neun bis vierzehn Uhr ohne Pause.",
+            "why": "He works from 9:00 to 13:00 with a one-hour break."
+          },
+          {
+            "answer": true,
+            "q": "Bruno hat an einer Besprechung teilgenommen.",
+            "why": "He participated in a Besprechung."
+          },
+          {
+            "answer": false,
+            "q": "Bruno möchte nicht lange bei der Firma bleiben.",
+            "why": "He wants to stay long-term (langfristig) if the first weeks go well."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Bruno hat Glück gehabt: Er hat eine Stelle als IT-Assistent bei einer kleinen Softwarefirma in Berlin gefunden. Heute ist sein erster Arbeitstag.\n>\n> Er steht um sieben Uhr auf und fährt mit der U-Bahn ins Büro. Wenn der Zug pünktlich kommt, braucht er nur zwanzig Minuten. Sein Chef, Herr Keller, begrüßt ihn freundlich und stellt ihm die Kolleginnen und Kollegen vor. Brunos Kollegin Laura arbeitet als Programmiererin. Sie erklärt ihm, dass er, wenn er Fragen hat, immer fragen kann.\n>\n> Der Arbeitstag beginnt um neun Uhr. Bruno hat von neun bis dreizehn Uhr gearbeitet, dann hat er eine Stunde Pause gemacht. Wenn er Hunger hat, geht er in die Kantine. Am Nachmittag hat er an einer Besprechung teilgenommen. Er hat nicht alles verstanden, aber das macht nichts — wenn man neu ist, braucht man Zeit.\n>\n> Am Ende des Tages ist Bruno müde, aber zufrieden. Wenn die ersten Wochen gut laufen, möchte er langfristig bei der Firma bleiben. Er schreibt Anna eine Nachricht: „Erster Tag super! Wenn du Zeit hast, erzähle ich dir alles beim Kaffee.\"\n\nRichtig (R) oder Falsch (F)?\n",
+      "title": "Lesen Text 1 (Brunos erster Arbeitstag)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Programmiererin"
+              },
+              {
+                "key": "b",
+                "text": "Bürokauffrau/-mann"
+              },
+              {
+                "key": "c",
+                "text": "Buchhalterin"
+              }
+            ],
+            "q": "Was ist die Stelle?",
+            "why": "Bürokauffrau/-mann."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "20 Stunden"
+              },
+              {
+                "key": "b",
+                "text": "30 Stunden"
+              },
+              {
+                "key": "c",
+                "text": "40 Stunden"
+              }
+            ],
+            "q": "Wie viele Stunden pro Woche ist die Stelle?",
+            "why": "40 Stunden."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "fünf Jahre Erfahrung"
+              },
+              {
+                "key": "b",
+                "text": "mindestens ein Jahr Erfahrung"
+              },
+              {
+                "key": "c",
+                "text": "keine Erfahrung"
+              }
+            ],
+            "q": "Was braucht man für diese Stelle?",
+            "why": "mindestens 1 Jahr."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "bis 20. Juni"
+              },
+              {
+                "key": "b",
+                "text": "bis 30. Juni"
+              },
+              {
+                "key": "c",
+                "text": "bis 1. Juli"
+              }
+            ],
+            "q": "Bis wann muss man sich bewerben?",
+            "why": "bis 30. Juni."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "per Post"
+              },
+              {
+                "key": "b",
+                "text": "persönlich"
+              },
+              {
+                "key": "c",
+                "text": "per E-Mail"
+              }
+            ],
+            "q": "Wie schickt man die Bewerbung?",
+            "why": "per E-Mail."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "> **Wir suchen: Bürokauffrau / Bürokaufmann (Vollzeit)**\n> **Ihre Aufgaben:** Kundenkontakt per Telefon und E-Mail; Terminplanung und Büroorganisation; Bearbeitung von Rechnungen.\n> **Ihr Profil:** Abgeschlossene Ausbildung als Bürokauffrau/-mann; mindestens 1 Jahr Berufserfahrung; gute Deutschkenntnisse (mindestens B1); teamfähig und pünktlich.\n> **Wir bieten:** Vollzeitstelle (40 Stunden/Woche); gutes Gehalt; 28 Tage Urlaub.\n> **Bewerbungen bitte per E-Mail bis 30. Juni.**\n\nWähle a, b oder c.\n",
+      "title": "Lesen Text 2 (Stellenanzeige)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "als"
+          ],
+          "2": [
+            "last"
+          ],
+          "3": [
+            "before"
+          ],
+          "4": [
+            "weil"
+          ],
+          "5": [
+            "Deshalb",
+            "Darum",
+            "Deswegen"
+          ],
+          "6": [
+            "Lehrerin"
+          ],
+          "7": [
+            "Arzt"
+          ],
+          "8": [
+            "the job interview"
+          ],
+          "9": [
+            "CV",
+            "résumé",
+            "resume"
+          ],
+          "10": [
+            "wollte"
+          ],
+          "11": [
+            "eingereicht"
+          ],
+          "12": [
+            "bekommen hat"
+          ],
+          "13": [
+            "aufgestanden"
+          ],
+          "14": [
+            "2"
+          ],
+          "15": [
+            "dass"
+          ],
+          "16": [
+            "ist"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. „Ich arbeite {1} Lehrerin.\" (which particle?)\n2. Verb position in a `wenn`-clause: position {2}.\n3. Wenn-clause first → main clause verb comes {3} (before/after) the subject.\n4. (L3) „Ich komme zu spät, {4} der Bus gestreikt hat.\"\n5. (L3) „Er ist müde. {5} geht er früh schlafen.\"\n6. Feminine form: der Lehrer → {6}\n7. Masculine form: die Ärztin → {7}\n8. das Vorstellungsgespräch → English: {8}\n9. der Lebenslauf → English: {9}\n10. (L7) „Ich {10} als Kind oft Fußball spielen.\" (modal Präteritum of wollen)\n11. (L11) Partizip II of einreichen: {11}\n12. „Wenn er die Stelle {12}, ruft er an.\" (Perfekt of bekommen)\n13. (L5) aufstehen → Partizip II: {13}\n14. (L1) Verb position in a W-question: position {14}\n15. (L3) „Ich finde, {15} Deutsch interessant {16} (sein).\" (dass-clause)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Eine Minute pro Aufgabe. Keine Notizen.",
+      "instructionsEn": "One minute per item. No notes.",
+      "title": "Gemischter Schnelltest"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "Lehrer",
+              "Ärztin",
+              "Büro",
+              "Koch"
+            ],
+            "odd": 2,
+            "why": "das Büro is a place; the others are professions (Berufe)."
+          },
+          {
+            "items": [
+              "Bewerbung",
+              "Lebenslauf",
+              "Pause",
+              "Anschreiben"
+            ],
+            "odd": 2,
+            "why": "die Pause is a break; the others are application documents."
+          },
+          {
+            "items": [
+              "wenn",
+              "weil",
+              "deshalb",
+              "nach"
+            ],
+            "odd": 3,
+            "why": "nach is a preposition; the others are connectors."
+          },
+          {
+            "items": [
+              "Gehalt",
+              "Kantine",
+              "verdienen",
+              "bezahlen"
+            ],
+            "odd": 1,
+            "why": "die Kantine is a place; the others relate to money/payment."
+          },
+          {
+            "items": [
+              "Vollzeit",
+              "Teilzeit",
+              "Überstunden",
+              "Vorstellungsgespräch"
+            ],
+            "odd": 3,
+            "why": "Vorstellungsgespräch is an event; the others are types of working hours."
+          },
+          {
+            "items": [
+              "einreichen",
+              "kündigen",
+              "einstellen",
+              "sprechen"
+            ],
+            "odd": 3,
+            "why": "sprechen is a general verb; the others are work-specific verbs."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Kreise das Wort ein, das nicht passt, und sage warum.",
+      "instructionsEn": "Circle the word that doesn't belong and say why.",
+      "title": "Odd one out"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "dass"
+          ],
+          "2": [
+            "findet"
+          ],
+          "3": [
+            "weil"
+          ],
+          "4": [
+            "ist"
+          ],
+          "5": [
+            "Wenn"
+          ],
+          "6": [
+            "hat"
+          ],
+          "7": [
+            "dass"
+          ],
+          "8": [
+            "gearbeitet hat"
+          ],
+          "9": [
+            "wenn"
+          ],
+          "10": [
+            "bekomme"
+          ],
+          "11": [
+            "dass"
+          ],
+          "12": [
+            "wollen"
+          ],
+          "13": [
+            "Wenn"
+          ],
+          "14": [
+            "eingereicht sind"
+          ],
+          "15": [
+            "weil"
+          ],
+          "16": [
+            "wohnt"
+          ],
+          "17": [
+            "ob"
+          ],
+          "18": [
+            "ist"
+          ],
+          "19": [
+            "Wenn"
+          ],
+          "20": [
+            "zusammenarbeiten kann"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich glaube, {1} Bruno bald einen Job {2} (finden).\n2. Er ist nervös, {3} das Vorstellungsgespräch morgen {4} (sein).\n3. {5} man viel Erfahrung {6} (haben), ist es leichter, eine Stelle zu finden.\n4. Sie erklärt, {7} sie als Koordinatorin drei Jahre {8} (gearbeitet haben).\n5. Ich schreibe noch mal, {9} ich keine Antwort {10} (bekommen).\n6. Wir freuen uns, {11} Sie sich bewerben {12} (wollen).\n7. {13} die Unterlagen {14} (eingereicht sein), melden wir uns.\n8. Er lernt Deutsch, {15} er in Berlin {16} (wohnen).\n9. Frau Weber fragt, {17} die Stelle noch frei {18} (sein).\n10. {19} man gut {20} (zusammenarbeiten können), ist die Arbeit leichter.\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Ergänze jeden Satz mit dem richtigen Konnektor („wenn\", „weil\", „dass\", „ob\") und setze das Verb ans Ende. Jede Aufgabe hat zwei Lücken.",
+      "instructionsEn": "Complete each sentence with the correct connector (`wenn`, `weil`, `dass`, `ob`) and put the verb at the end. Each item has two gaps.",
+      "title": "Rückblick: Subordinate clauses"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "die Bewerbung"
+          ],
+          "2": [
+            "der Lebenslauf"
+          ],
+          "3": [
+            "das Vorstellungsgespräch"
+          ],
+          "4": [
+            "das Gehalt"
+          ],
+          "5": [
+            "die Kollegin"
+          ],
+          "6": [
+            "Sie arbeitet als Krankenpflegerin."
+          ],
+          "7": [
+            "Er hat als Student in Berlin studiert."
+          ],
+          "8": [
+            "Ich habe als Manager gearbeitet."
+          ],
+          "9": [
+            "wenn"
+          ],
+          "10": [
+            "bekommen hat"
+          ],
+          "11": [
+            "Wenn die Stelle frei ist"
+          ],
+          "12": [
+            "komme ich sofort"
+          ],
+          "13": [
+            "weil"
+          ],
+          "14": [
+            "weil"
+          ],
+          "15": [
+            "last",
+            "final"
+          ],
+          "16": [
+            "Er ist müde, weil er viel gearbeitet hat."
+          ],
+          "17": [
+            "Ich habe keine Erfahrung. Deshalb lerne ich viel."
+          ],
+          "18": [
+            "Seid"
+          ],
+          "19": [
+            "beworben"
+          ],
+          "20": [
+            "musste"
+          ],
+          "21": [
+            "hört"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Vocabulary (5 points):**\n1. the application → {1}\n2. the CV → {2}\n3. the job interview → {3}\n4. the salary → {4}\n5. the colleague (f) → {5}\n\n**`als` + profession (3 points):**\n6. She works as a nurse. → {6}\n7. He studied as a student in Berlin. → {7}\n8. I have worked as a manager. → {8}\n\n**`wenn`-clauses (6 points):**\n9. „Er schreibt, {9} er keine Antwort {10} (nicht bekommen haben).\" (wenn-clause)\n10. „{11}, bewerbe ich mich sofort.\" (wenn at front)\n11. Correct: „Wenn ich Zeit habe, {12}.\" (inversion)\n12. „Ich bin nervös, (wenn/weil) das Gespräch morgen ist.\" → {13}\n13. „Ich lerne viel, (wenn/weil) ich die Prüfung bestehen will.\" → {14}\n14. Verb `ist` is in position {15} of the `wenn`-clause.\n\n**Review (6 points):**\n15. (L3) Connect with `weil`: „Er ist müde. / Er hat viel gearbeitet.\" → {16}\n16. (L3) Connect with `deshalb`: „Ich habe keine Erfahrung. / Ich lerne viel.\" → {17}\n17. (L1) „{18} (sein) ihr aus Brasilien?\" (yes/no question)\n18. (L11) Perfekt of `bewerben (sich)`: Ich habe mich {19}.\n19. (L7) Modal Präteritum: „Sie {20} (müssen) früh aufstehen.\"\n20. (L5) „Bruno hört um 17 Uhr auf.\" (present tense) — verb form: {21}\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (score yourself /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "a2-04",
+  "intro": "Blocks: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Answers in solutions.md. Tip: spread the blocks over several days — H and A on day 1, B on day 2, C on day 3, D on day 4 after a pause.\n",
+  "lesson": "A2/04",
+  "level": "A2",
+  "summary": null,
+  "title": "A2 · Lektion 4 — Übungen (Exercises)",
+  "topic": null
+}

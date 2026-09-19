@@ -1,0 +1,844 @@
+{
+  "category": "Geld & Verträge",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "frist",
+            "label": "Zeit & Frist"
+          },
+          {
+            "key": "form",
+            "label": "Form & Weg"
+          },
+          {
+            "key": "folge",
+            "label": "Was danach kommt"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "frist",
+            "text": "die Kündigungsfrist"
+          },
+          {
+            "bucket": "form",
+            "text": "der Kündigungsbutton"
+          },
+          {
+            "bucket": "folge",
+            "text": "die Kündigungsbestätigung"
+          },
+          {
+            "bucket": "frist",
+            "text": "die Mindestlaufzeit"
+          },
+          {
+            "bucket": "form",
+            "text": "das Einschreiben"
+          },
+          {
+            "bucket": "folge",
+            "text": "die Schlussrechnung"
+          },
+          {
+            "bucket": "frist",
+            "text": "die automatische Verlängerung"
+          },
+          {
+            "bucket": "form",
+            "text": "die Textform"
+          },
+          {
+            "bucket": "folge",
+            "text": "die Rückerstattung"
+          },
+          {
+            "bucket": "frist",
+            "text": "der Kündigungstermin"
+          },
+          {
+            "bucket": "form",
+            "text": "die Kundennummer"
+          },
+          {
+            "bucket": "folge",
+            "text": "der Anbieterwechsel"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Begriffe.",
+      "instructionsEn": "Sort the 12 terms.",
+      "title": "Frist, Form oder Folge?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Mindestlaufzeit"
+          },
+          {
+            "key": "2",
+            "text": "die Kündigungsfrist"
+          },
+          {
+            "key": "3",
+            "text": "die automatische Verlängerung"
+          },
+          {
+            "key": "4",
+            "text": "das Sonderkündigungsrecht"
+          },
+          {
+            "key": "5",
+            "text": "die Textform"
+          },
+          {
+            "key": "6",
+            "text": "der Kündigungsbutton"
+          },
+          {
+            "key": "7",
+            "text": "die Kündigungsbestätigung"
+          },
+          {
+            "key": "8",
+            "text": "die Schlussrechnung"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die Zeit, in der du auf jeden Fall gebunden bist, oft 24 Monate"
+          },
+          {
+            "key": "b",
+            "text": "wie lange vorher du kündigen musst, meist ein bis drei Monate"
+          },
+          {
+            "key": "c",
+            "text": "der Vertrag läuft weiter, wenn niemand rechtzeitig kündigt"
+          },
+          {
+            "key": "d",
+            "text": "das Recht, sofort zu kündigen, etwa bei Preiserhöhung oder Umzug"
+          },
+          {
+            "key": "e",
+            "text": "Mail oder Formular reichen, eine Unterschrift ist nicht nötig"
+          },
+          {
+            "key": "f",
+            "text": "die Schaltfläche, die es auf Vertragsseiten geben muss"
+          },
+          {
+            "key": "g",
+            "text": "die Antwort, in der der Anbieter das Vertragsende schriftlich nennt"
+          },
+          {
+            "key": "h",
+            "text": "die letzte Abrechnung nach dem Vertragsende"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "kündige"
+          ],
+          "2": [
+            "Bestätigung"
+          ],
+          "3": [
+            "Kundennummer"
+          ],
+          "4": [
+            "verlängert"
+          ],
+          "5": [
+            "mache"
+          ],
+          "6": [
+            "ziehen"
+          ],
+          "7": [
+            "wird"
+          ],
+          "8": [
+            "werden"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Hiermit {1} ich meinen Vertrag zum nächstmöglichen Termin. (kündigen, ich-Form)\n2. Ich bitte um eine schriftliche {2} des Vertragsendes. (Substantiv zu bestätigen)\n3. Meine {3} lautet 4711-8890. (die Nummer des Kunden)\n4. Der Vertrag {4} sich automatisch um zwölf Monate. (verlängern, reflexiv)\n5. Ich {5} von meinem Sonderkündigungsrecht Gebrauch. (machen, ich-Form)\n6. Bitte {6} Sie keine weiteren Beträge ein. (einziehen, Sie-Imperativ)\n7. Das Lastschriftmandat {7} hiermit widerrufen. (Passiv Präsens)\n8. Weitere Beträge {8} nach dem 31.05. nicht mehr eingezogen. (Passiv Präsens, Plural)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze die passende Form.",
+      "instructionsEn": "Fill in the fitting form.",
+      "title": "Formeln aus dem Kündigungsschreiben"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Da"
+          ],
+          "2": [
+            "sodass"
+          ],
+          "3": [
+            "Obwohl"
+          ],
+          "4": [
+            "Falls"
+          ],
+          "5": [
+            "damit"
+          ],
+          "6": [
+            "Da"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Sie den Preis erhöht haben, steht mir ein Sonderkündigungsrecht zu. (Grund, formell)\n2. Ich habe fristgerecht gekündigt, {2} der Vertrag am 31.05. endet. (Folge)\n3. {3} ich rechtzeitig gekündigt habe, wurde mir der Beitrag abgebucht. (Gegensatz)\n4. {4} Sie die Kündigung nicht erhalten haben, sende ich sie erneut. (Bedingung)\n5. Ich habe per Einschreiben gekündigt, {5} ich einen Nachweis habe. (Zweck)\n6. {6} ich umgezogen bin, kann ich den Anschluss nicht mehr nutzen. (Grund, formell)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze den passenden Konnektor.",
+      "instructionsEn": "Fill in the fitting connector.",
+      "title": "Nebensätze: da, sodass, obwohl, falls"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "KÜNDIGUNG"
+          ],
+          "2": [
+            "VERLÄNGERUNG"
+          ],
+          "3": [
+            "ANGEBOT"
+          ],
+          "4": [
+            "LAUFZEIT"
+          ],
+          "5": [
+            "BINDEN"
+          ],
+          "6": [
+            "ENTSCHEIDUNG"
+          ],
+          "7": [
+            "VERTRAGSENDE"
+          ],
+          "8": [
+            "BESTÄTIGUNG"
+          ],
+          "9": [
+            "ZIEHEN"
+          ],
+          "10": [
+            "SCHLUSSRECHNUNG"
+          ]
+        },
+        "bank": [
+          "KÜNDIGUNG",
+          "VERLÄNGERUNG",
+          "ANGEBOT",
+          "LAUFZEIT",
+          "BINDEN",
+          "ENTSCHEIDUNG",
+          "VERTRAGSENDE",
+          "BESTÄTIGUNG",
+          "ZIEHEN",
+          "SCHLUSSRECHNUNG",
+          "FRIST",
+          "RECHNUNG",
+          "TARIF",
+          "NUMMER"
+        ],
+        "text": "— Guten Tag, Herr Marchetti, Telekom-Kundenservice. Wir haben Ihre\n{1} erhalten. Darf ich fragen, warum Sie uns verlassen?\n— Der Preis ist nach der {2} deutlich gestiegen, und ich\nbrauche mehr Datenvolumen.\n— Verstehe. Ich könnte Ihnen ein neues {3} machen: 20 GB für\ndenselben Preis, dafür wieder 24 Monate {4}.\n— Danke, aber ich möchte mich nicht wieder so lange {5}.\n— Auch mit zwölf Monaten?\n— Nein, ich bleibe bei der {6}. Können Sie mir bitte das\ngenaue {7} nennen?\n— Der 31. Mai. Sie erhalten die {8} per Mail.\n— Gut. Und bitte {9} Sie danach keine Beiträge mehr ein.\n— Selbstverständlich. Die {10} kommt Anfang Juni.\n— Danke, dann bis dahin.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Der Rückhalteanruf"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Hiermit kündige ich meinen Vertrag zum nächstmöglichen Termin."
+              },
+              {
+                "key": "b",
+                "text": "Ich will irgendwann raus."
+              },
+              {
+                "key": "c",
+                "text": "Bitte kündigen Sie meinen Vertrag."
+              }
+            ],
+            "q": "Du kündigst und weißt das genaue Datum nicht. — You're cancelling and don't know the exact date.",
+            "why": "„Zum nächstmöglichen Termin“ ist genau für diesen Fall gemacht — der Anbieter rechnet das Datum aus."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich hoffe, Sie haben es bekommen."
+              },
+              {
+                "key": "b",
+                "text": "Ich bitte Sie, mir das Vertragsende schriftlich zu bestätigen."
+              },
+              {
+                "key": "c",
+                "text": "Sagen Sie Bescheid."
+              }
+            ],
+            "q": "Du willst sichergehen, dass die Kündigung angekommen ist. — You want to be sure the cancellation arrived.",
+            "why": "Ohne schriftliche Bestätigung kannst du später nichts belegen — deshalb gehört die Bitte in jedes Schreiben."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist mir zu teuer."
+              },
+              {
+                "key": "b",
+                "text": "Ich zahle die Erhöhung nicht."
+              },
+              {
+                "key": "c",
+                "text": "Da Sie den Preis zum 01.04. erhöht haben, mache ich von meinem Sonderkündigungsrecht Gebrauch."
+              }
+            ],
+            "q": "Der Preis wurde erhöht, du willst sofort raus. — The price went up and you want out immediately.",
+            "why": "Grund und Rechtsgrundlage in einem Satz — daraufhin wird die Kündigung fast immer akzeptiert."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Danke, aber ich bleibe bei meiner Entscheidung. Bitte bestätigen Sie mir das Vertragsende."
+              },
+              {
+                "key": "b",
+                "text": "Vielleicht, schicken Sie mal was."
+              },
+              {
+                "key": "c",
+                "text": "Rufen Sie mich nicht mehr an."
+              }
+            ],
+            "q": "Am Telefon wird dir ein besseres Angebot gemacht. — On the phone you're offered a better deal.",
+            "why": "Freundlich, aber endgültig — und gleich zurück zum Punkt, der dich interessiert."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich bin umgezogen, machen Sie was."
+              },
+              {
+                "key": "b",
+                "text": "Da an meiner neuen Adresse kein Anschluss verfügbar ist, kündige ich zum 30.06. Eine Bestätigung des Vermieters liegt bei."
+              },
+              {
+                "key": "c",
+                "text": "Ich brauche den Vertrag nicht mehr."
+              }
+            ],
+            "q": "Du ziehst um und kannst den Anschluss nicht mitnehmen. — You're moving and can't take the connection with you.",
+            "why": "Grund, Datum und Nachweis zusammen — sonst wird der Vertrag einfach mitgenommen statt beendet."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist Betrug."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe gekündigt!"
+              },
+              {
+                "key": "c",
+                "text": "Der Vertrag endete am 31.05.; am 03.06. wurden erneut 29,99 € abgebucht. Ich bitte um Rückerstattung bis zum 20.06."
+              }
+            ],
+            "q": "Nach der Kündigung wird weiter abgebucht. — Money is still being debited after the cancellation.",
+            "why": "Zwei Daten, ein Betrag, eine Frist — so kann die Buchhaltung es sofort prüfen und erledigen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Wie formulierst du das?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Nach hiermit folgt sofort das Verb",
+            "tiles": [
+              "Hiermit",
+              "kündige",
+              "ich",
+              "meinen",
+              "Vertrag",
+              "zum",
+              "nächstmöglichen",
+              "Termin"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Infinitivsatz mit zu — zu + Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "bitte",
+              "Sie",
+              ",",
+              "mir",
+              "das",
+              "Vertragsende",
+              "schriftlich",
+              "zu",
+              "bestätigen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Nebensatz zuerst, dann das Verb des Hauptsatzes",
+            "tiles": [
+              "Da",
+              "Sie",
+              "den",
+              "Preis",
+              "erhöht",
+              "haben",
+              ",",
+              "kündige",
+              "ich",
+              "fristlos"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Passiv: wird + Partizip am Ende",
+            "tiles": [
+              "Das",
+              "Lastschriftmandat",
+              "wird",
+              "hiermit",
+              "widerrufen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "note": "Nach sodass steht das Verb am Ende",
+            "tiles": [
+              "Ich",
+              "habe",
+              "fristgerecht",
+              "gekündigt",
+              ",",
+              "sodass",
+              "der",
+              "Vertrag",
+              "am",
+              "31.05.",
+              "endet"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "um + Akkusativ — und immer mit konkretem Datum",
+            "tiles": [
+              "Ich",
+              "bitte",
+              "um",
+              "Rückerstattung",
+              "bis",
+              "zum",
+              "20.06."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Formelle Sätze bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Nach zwei Jahren kann man mit einem Monat Frist kündigen. — After two years you can cancel with one month's notice.",
+            "why": "Nach der Mindestlaufzeit läuft der Vertrag unbefristet, kündbar mit einem Monat Frist."
+          },
+          {
+            "answer": false,
+            "q": "Die Kündigung muss unterschrieben und per Post geschickt werden. — The cancellation must be signed and posted.",
+            "why": "Textform genügt; eine Unterschrift ist ausdrücklich nicht erforderlich."
+          },
+          {
+            "answer": true,
+            "q": "Nach einer Preiserhöhung hat man vier Wochen Zeit für die Sonderkündigung. — After a price rise you have four weeks for the special cancellation.",
+            "why": "„Sonderkündigungsrecht von vier Wochen ab Zugang der Mitteilung“."
+          },
+          {
+            "answer": false,
+            "q": "Der Anbieter muss die Kündigung nicht bestätigen. — The provider doesn't have to confirm the cancellation.",
+            "why": "Er bestätigt Eingang und Vertragsende in Textform innerhalb von 14 Tagen."
+          },
+          {
+            "answer": false,
+            "q": "Bei einem Umzug ins Ausland reicht ein Monat Frist. — For a move abroad one month's notice is enough.",
+            "why": "Dort gelten drei Monate und ein Nachweis."
+          },
+          {
+            "answer": true,
+            "q": "Die Schlussrechnung kann noch einen Monat nach Vertragsende kommen. — The final bill may still arrive a month after the contract ends.",
+            "why": "Sie wird spätestens sechs Wochen nach Vertragsende erstellt."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Mobilfunkvertrag „Smart 10“ — Auszug**\n>\n> - **Mindestlaufzeit:** 24 Monate ab Freischaltung.\n> - Danach **automatische Verlängerung auf unbestimmte Zeit**,\n>   kündbar mit **einem Monat** Frist zu jedem Termin.\n> - Die Kündigung bedarf der **Textform** (Mail, Formular,\n>   Kündigungsbutton). Eine Unterschrift ist **nicht**\n>   erforderlich.\n> - Bei **Preiserhöhungen** besteht ein **Sonderkündigungsrecht**\n>   von **vier Wochen** ab Zugang der Mitteilung.\n> - Der Anbieter bestätigt den Eingang der Kündigung und das\n>   Vertragsende **in Textform innerhalb von 14 Tagen**.\n> - Bei **Umzug** ins Ausland: Kündigung mit **drei Monaten**\n>   Frist, Nachweis erforderlich.\n> - Die **Schlussrechnung** wird spätestens **sechs Wochen** nach\n>   Vertragsende erstellt.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Vertragsbedingungen lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Noch länger warten."
+              },
+              {
+                "key": "b",
+                "text": "Erneut schreiben, auf die 14-Tage-Regel verweisen, die Kündigung als Kopie beilegen und eine Frist setzen."
+              },
+              {
+                "key": "c",
+                "text": "Die Zahlungen einfach einstellen."
+              }
+            ],
+            "q": "Nach drei Wochen kommt keine Bestätigung. — After three weeks there's no confirmation.",
+            "why": "Zahlungen einzustellen bringt dir eine Mahnung; ein zweites Schreiben mit Frist bringt dir die Bestätigung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das stimmt nicht."
+              },
+              {
+                "key": "b",
+                "text": "Meine Kündigung ging am 28.02. über Ihren Kündigungsbutton ein; die Eingangsbestätigung habe ich als PDF. Ich füge sie bei."
+              },
+              {
+                "key": "c",
+                "text": "Ich habe damals gekündigt."
+              }
+            ],
+            "q": "Der Anbieter behauptet, die Kündigung sei zu spät gekommen. — The provider claims the cancellation came too late.",
+            "why": "Datum, Weg und Beleg — genau deshalb sollte man die Bestätigungsseite immer speichern."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Gut, danke."
+              },
+              {
+                "key": "b",
+                "text": "Können Sie mir das bitte gleich in Textform an meine Mailadresse schicken?"
+              },
+              {
+                "key": "c",
+                "text": "Ich glaube Ihnen nicht."
+              }
+            ],
+            "q": "Am Telefon wird die Kündigung angeblich schon erledigt. — On the phone you're told it's already been dealt with.",
+            "why": "Ein Telefonat ist kein Beleg; die Bitte um Textform ist normal und wird selten abgelehnt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Rückerstattung mit Frist verlangen und, falls nötig, die Lastschrift bei der Bank zurückgeben lassen."
+              },
+              {
+                "key": "b",
+                "text": "Das Konto kündigen."
+              },
+              {
+                "key": "c",
+                "text": "Den Betrag abschreiben."
+              }
+            ],
+            "q": "Nach dem Vertragsende wird noch einmal abgebucht. — Money is debited once more after the contract ends.",
+            "why": "Eine Lastschrift kann acht Wochen lang zurückgegeben werden — aber schreib den Anbieter zuerst an."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zahlen und Ruhe haben."
+              },
+              {
+                "key": "b",
+                "text": "Ich bitte Sie um die vertragliche Grundlage für diese Gebühr. In den Bedingungen finde ich dazu nichts."
+              },
+              {
+                "key": "c",
+                "text": "Das ist illegal."
+              }
+            ],
+            "q": "Man verlangt eine Gebühr für die Kündigung. — You're charged a fee for cancelling.",
+            "why": "Nach der Grundlage fragen statt zu urteilen — meistens verschwindet die Gebühr an dieser Stelle."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Trotzdem behaupten, rechtzeitig gekündigt zu haben."
+              },
+              {
+                "key": "b",
+                "text": "Nichts tun."
+              },
+              {
+                "key": "c",
+                "text": "Zum nächstmöglichen Termin kündigen und fragen, ob eine frühere Beendigung kulanterweise möglich ist."
+              }
+            ],
+            "q": "Du hast die Frist wirklich verpasst. — You genuinely missed the deadline.",
+            "why": "Sofort für den nächsten Termin kündigen — und nach Kulanz fragen kostet nichts."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn der Anbieter mauert"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Sonderkündigungsrecht"
+          ],
+          "2": [
+            "verlängert"
+          ],
+          "3": [
+            "Textform"
+          ],
+          "4": [
+            "Rückerstattung"
+          ],
+          "5": [
+            "Schlussrechnung"
+          ],
+          "6": [
+            "Frist"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Bei einer Preiserhöhung habe ich ein {1}. (Recht, sofort zu kündigen)\n2. Der Vertrag {2} sich automatisch um zwölf Monate. (wird länger)\n3. Eine Mail genügt — es gilt die {3}. (keine Unterschrift nötig)\n4. Ich bitte um {4} des zu viel gezahlten Betrags. (Geld zurück)\n5. Die {5} kommt sechs Wochen nach Vertragsende. (die letzte Abrechnung)\n6. Ich habe die {6} leider verpasst. (der letzte Tag zum Kündigen)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "kündige"
+          ],
+          "2": [
+            "Kundennummer"
+          ],
+          "3": [
+            "Kündigungsfrist"
+          ],
+          "4": [
+            "Mindestlaufzeit"
+          ],
+          "5": [
+            "verlängert"
+          ],
+          "6": [
+            "Textform"
+          ],
+          "7": [
+            "Kündigungsbutton"
+          ],
+          "8": [
+            "Sonderkündigungsrecht"
+          ],
+          "9": [
+            "Bestätigung"
+          ],
+          "10": [
+            "Schlussrechnung"
+          ],
+          "11": [
+            "Rückerstattung"
+          ],
+          "12": [
+            "Da"
+          ],
+          "13": [
+            "sodass"
+          ],
+          "14": [
+            "wird"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Hiermit {1} ich meinen Vertrag zum nächstmöglichen Termin. (I cancel)\n2. Meine {2} lautet 4711-8890. (customer number)\n3. Die {3} beträgt einen Monat. (notice period)\n4. Die {4} sind 24 Monate. (minimum term)\n5. Der Vertrag {5} sich automatisch. (renews)\n6. Es gilt die {6} — keine Unterschrift nötig. (text form)\n7. Auf der Website gibt es einen {7}. (cancellation button)\n8. Bei Preiserhöhung habe ich ein {8}. (right to special cancellation)\n9. Ich bitte um eine schriftliche {9}. (confirmation)\n10. Die {10} kommt nach Vertragsende. (final bill)\n11. Ich bitte um {11} bis zum 20.06. (refund)\n12. {12} Sie den Preis erhöht haben, kündige ich. (since — formal)\n13. Ich habe fristgerecht gekündigt, {13} der Vertrag am 31.05. endet. (so that)\n14. Das Lastschriftmandat {14} hiermit widerrufen. (Passiv: is)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-23-vertraege-kuendigen-b1",
+  "intro": "Handyvertrag, Stromanbieter, Fitness-App, Zeitschriftenabo: Kündigen ist in Deutschland selten schwer, aber fast immer formal. Es geht um drei Dinge — die Frist (wann musst du spätestens raus sein), die Form (Text reicht heute, aber der Nachweis zählt) und die Bestätigung (ohne sie hast du nichts in der Hand). Dazu kommen die Sonderfälle: Umzug, Preiserhöhung, ein Sonderkündigungsrecht — und der Anruf, in dem dir ein besseres Angebot gemacht wird, damit du bleibst. Grammatik nach Bedarf: Konjunktiv II, Passiv, Nebensätze mit da, sodass und obwohl, feste Formeln im Geschäftsbrief. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/23-vertraege-kuendigen-b1",
+  "level": "B1",
+  "summary": "Die Frist finden, richtig kündigen, den Kündigungsbutton nutzen, Rückhalteangebote abwehren und die Bestätigung einfordern.",
+  "title": "Verträge kündigen: Handy, Strom, Abo — B1",
+  "topic": "Verträge kündigen"
+}
