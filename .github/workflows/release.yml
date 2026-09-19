@@ -77,6 +77,9 @@ jobs:
           mkdir dist
           cp app/build/outputs/bundle/release/app-release.aab "dist/derdiedas-${{ steps.version.outputs.name }}.aab"
           cp app/build/outputs/apk/release/app-release.apk "dist/derdiedas-${{ steps.version.outputs.name }}.apk"
+          # R8 mapping for the APK. Play gets its own copy from inside the .aab,
+          # but sideloaded crashes can only be read with this file.
+          cp app/build/outputs/mapping/release/mapping.txt "dist/derdiedas-${{ steps.version.outputs.name }}-mapping.txt"
 
       - uses: actions/upload-artifact@v7
         with:
@@ -118,10 +121,11 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           TAG: ${{ inputs.tag }}
           APK: dist/derdiedas-${{ needs.build.outputs.version }}.apk
+          MAPPING: dist/derdiedas-${{ needs.build.outputs.version }}-mapping.txt
         run: |
           # "Create Release" already made the release with the changelog; create it only if missing
           if ! gh release view "$TAG" --repo "$GITHUB_REPOSITORY" > /dev/null 2>&1; then
             gh release create "$TAG" --repo "$GITHUB_REPOSITORY" \
               --title "Der Die Das ${TAG#v}" --generate-notes --verify-tag
           fi
-          gh release upload "$TAG" "$APK" --repo "$GITHUB_REPOSITORY" --clobber
+          gh release upload "$TAG" "$APK" "$MAPPING" --repo "$GITHUB_REPOSITORY" --clobber

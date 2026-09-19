@@ -1,21 +1,13 @@
-# Add project specific ProGuard rules here.
-# You can control the set of applied configuration files using the
-# proguardFiles setting in build.gradle.
-#
-# For more details, see
-#   http://developer.android.com/guide/developing/tools/proguard.html
+# R8 rules for the release build. The defaults from proguard-android-optimize.txt
+# plus the consumer rules shipped by AndroidX cover almost everything here: the app
+# has no reflection, no reflective serialization and no JNI.
 
-# If your project uses WebView with JS, uncomment the following
-# and specify the fully qualified class name to the JavaScript interface
-# class:
-#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
-#   public *;
-#}
+# Keep line numbers so Play Console and the mapping file produce readable stack
+# traces, while still hiding the original source file names.
+-keepattributes SourceFile,LineNumberTable
+-renamesourcefileattribute SourceFile
 
-# Uncomment this to preserve the line number information for
-# debugging stack traces.
-#-keepattributes SourceFile,LineNumberTable
-
-# If you keep the line number information, uncomment this to
-# hide the original source file name.
-#-renamesourcefileattribute SourceFile
+# Room looks up the generated <Database>_Impl class by name at runtime.
+# room-runtime ships this rule as a consumer rule; keeping it here means the app
+# does not silently break if that ever changes.
+-keep class * extends androidx.room.RoomDatabase { <init>(); }
