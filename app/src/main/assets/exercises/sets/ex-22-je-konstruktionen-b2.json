@@ -1,0 +1,825 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Je größer das Risiko, desto höher die erwartete Rendite. (Ellipse: das Verb ist fällt in beiden Teilen weg.)",
+            "tiles": [
+              "Je größer",
+              "das Risiko,",
+              "desto höher",
+              "die erwartete Rendite."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Je komplexer ein Verfahren ist, desto anfälliger ist es für Fehler.",
+            "tiles": [
+              "Je komplexer",
+              "ein Verfahren ist,",
+              "desto anfälliger",
+              "ist es für Fehler."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Je knapper die Ressourcen werden, umso stärker steigt der Preis.",
+            "tiles": [
+              "Je knapper",
+              "die Ressourcen werden,",
+              "umso stärker",
+              "steigt der Preis."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Je genauer die Vorgaben formuliert sind, desto weniger Spielraum bleibt bei der Umsetzung.",
+            "tiles": [
+              "Je genauer",
+              "die Vorgaben formuliert sind,",
+              "desto weniger Spielraum",
+              "bleibt bei der Umsetzung."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A1",
+      "instructions": "Bring die Kacheln in die richtige Reihenfolge. Im gehobenen Stil kann der desto-Teil ohne finites Verb stehen (Ellipse).",
+      "instructionsEn": "Put the tiles in order. In elevated style the desto-clause can drop its finite verb (ellipsis).",
+      "title": "je … desto — auch ohne Verb im desto-Teil"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Je nach"
+          ],
+          "2": [
+            "Je nachdem"
+          ],
+          "3": [
+            "desto",
+            "umso"
+          ],
+          "4": [
+            "je nach"
+          ],
+          "5": [
+            "Je nachdem"
+          ],
+          "6": [
+            "desto",
+            "umso"
+          ],
+          "7": [
+            "je nach"
+          ],
+          "8": [
+            "Je nachdem"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Auslegung des Vertrags ergeben sich unterschiedliche Ansprüche.\n2. {2}, wie man die Klausel auslegt, ergeben sich unterschiedliche Ansprüche.\n3. Je höher die Investitionen ausfallen, {3} länger dauert die Amortisation.\n4. Die Fördersumme richtet sich {4} Einkommen der Antragsteller.\n5. {5}, ob der Antrag vollständig ist, verzögert sich die Bearbeitung um Wochen.\n6. Je sorgfältiger die Unterlagen geprüft werden, {6} geringer ist das Risiko einer Ablehnung.\n7. Die Kündigungsfrist variiert {7} Dauer der Betriebszugehörigkeit.\n8. {8}, inwieweit die Behörde mitzieht, kann sich das Projekt um Jahre verschieben.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze je nach (+ Nomen), je nachdem (+ Nebensatz) oder desto/umso.",
+      "instructionsEn": "Fill in je nach (+ noun), je nachdem (+ clause), or desto/umso.",
+      "title": "je nach, je nachdem oder desto/umso?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "c",
+          "2": "a",
+          "3": "b",
+          "4": "d"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Je nachdem, wie das Wetter ist, wird die Ernte besser oder schlechter."
+          },
+          {
+            "key": "2",
+            "text": "Je nachdem, wie viel Erfahrung jemand hat, fällt das Gehalt höher aus."
+          },
+          {
+            "key": "3",
+            "text": "Je nachdem, wie die Konjunktur läuft, steigen oder sinken die Steuereinnahmen."
+          },
+          {
+            "key": "4",
+            "text": "Je nachdem, wie man den Begriff definiert, ändert sich das Ergebnis."
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Das Gehalt ist abhängig von der Berufserfahrung."
+          },
+          {
+            "key": "b",
+            "text": "Die Steuereinnahmen schwanken je nach Konjunkturlage."
+          },
+          {
+            "key": "c",
+            "text": "Die Ernte fällt je nach Witterung unterschiedlich aus."
+          },
+          {
+            "key": "d",
+            "text": "Das Ergebnis hängt von der Definition des Begriffs ab."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A3",
+      "instructions": "Ordne jedem je nachdem-Satz die passende Nominalstil-Variante mit je nach / abhängig von zu.",
+      "instructionsEn": "Match each je nachdem clause to its nominal-style paraphrase with je nach / abhängig von.",
+      "title": "Nebensatz ↔ Nominalstil"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Je nach"
+          ],
+          "2": [
+            "Je nachdem"
+          ],
+          "3": [
+            "Je"
+          ],
+          "4": [
+            "desto"
+          ],
+          "5": [
+            "je nach"
+          ],
+          "6": [
+            "Je nachdem"
+          ],
+          "7": [
+            "Je"
+          ],
+          "8": [
+            "umso"
+          ]
+        },
+        "bank": [
+          "Je nach",
+          "Je nachdem",
+          "Je",
+          "desto",
+          "je nach",
+          "Je nachdem",
+          "Je",
+          "umso",
+          "sofern",
+          "obwohl"
+        ],
+        "text": "Die neue Betriebsvereinbarung regelt das mobile Arbeiten flexibel.\n{1} Tätigkeit sind ein bis vier Homeoffice-Tage pro Woche möglich.\n{2}, ob Kundenkontakt nötig ist, entscheidet die Teamleitung über\nAusnahmen. {3} mehr Verantwortung eine Stelle trägt, {4} genauer\nwird die Anwesenheit dokumentiert. Die Ausstattung wird {5} Bedarf\ngestellt. {6}, wie gut die Technik zu Hause funktioniert, sinkt\noder steigt die Zahl der Störungen. {7} länger die Regelung läuft,\n{8} klarer zeigt sich, was sich bewährt hat.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter bleiben übrig.",
+      "instructionsEn": "Fill the 8 gaps with the words from the box. Two words are left over.",
+      "title": "Lückentext: Homeoffice-Regelung im Betrieb"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "je"
+              },
+              {
+                "key": "b",
+                "text": "desto"
+              },
+              {
+                "key": "c",
+                "text": "umso mehr"
+              }
+            ],
+            "q": "Gehobener Schriftstil mit Ellipse: Je höher die Auflage, ___ niedriger der Stückpreis.",
+            "why": "desto/umso + Komparativ; das Verb ist wird in beiden Teilen weggelassen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Abhängig von dem Einkommen ist …"
+              },
+              {
+                "key": "b",
+                "text": "Je nach, wie das Einkommen …"
+              },
+              {
+                "key": "c",
+                "text": "Abhängig vom Einkommen …"
+              }
+            ],
+            "q": "Welche Umformung von 'Je nachdem, wie hoch das Einkommen ist, …' ist korrekt?",
+            "why": "je nachdem + Nebensatz → abhängig von / je nach + Nomen. je nach steht nie vor einem Nebensatz."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "je nach"
+              },
+              {
+                "key": "b",
+                "text": "je nachdem"
+              },
+              {
+                "key": "c",
+                "text": "je"
+              }
+            ],
+            "q": "Indirekte Rede: Der Sprecher sagte, ___ Kassenlage werde investiert oder gespart.",
+            "why": "Vor dem Nomen Kassenlage → je nach + Dativ."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "das finite Verb, wie im normalen Aussagesatz"
+              },
+              {
+                "key": "b",
+                "text": "das Subjekt die Verantwortung"
+              },
+              {
+                "key": "c",
+                "text": "desto größer — dann folgt das finite Verb (wird)"
+              }
+            ],
+            "q": "Satz: 'Je mehr Daten erhoben werden, desto größer wird die Verantwortung.' Was besetzt Position 1 im Hauptsatz?",
+            "why": "desto + Komparativ besetzt Position 1 des Hauptsatzes, dann folgt das finite Verb."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Je nachdem, ob der Auftrag dringend ist, …"
+              },
+              {
+                "key": "b",
+                "text": "Je nachdem der Auftrag ist, …"
+              },
+              {
+                "key": "c",
+                "text": "Je nach ob der Auftrag dringend ist, …"
+              }
+            ],
+            "q": "Welcher Satz ist korrekt?",
+            "why": "je nachdem verlangt ob oder ein W-Wort; 'je nachdem der …' und 'je nach ob …' gibt es nicht."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "je nachdem"
+              },
+              {
+                "key": "b",
+                "text": "je nach"
+              },
+              {
+                "key": "c",
+                "text": "je"
+              }
+            ],
+            "q": "Formregister: Die Bearbeitungszeit variiert ___ Komplexität des Falls.",
+            "why": "Vor dem Nomen Komplexität → je nach + Dativ."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Lücke = desto/umso; in beiden Teilen fehlt ist (zulässige Ellipse)."
+              },
+              {
+                "key": "b",
+                "text": "Lücke = je; nur im je-Teil fehlt das Verb."
+              },
+              {
+                "key": "c",
+                "text": "Der Satz ist ungrammatisch."
+              }
+            ],
+            "q": "Satz: 'Je enger der Zeitplan, ___ höher das Fehlerrisiko.' Was trifft zu?",
+            "why": "Die Doppelellipse des Verbs ist ist in dieser sprichwortartigen Form Standard; die Lücke braucht desto oder umso."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Je nach"
+              },
+              {
+                "key": "b",
+                "text": "Je nachdem"
+              },
+              {
+                "key": "c",
+                "text": "Je"
+              }
+            ],
+            "q": "___, inwieweit sich die Rahmenbedingungen ändern, muss der Plan angepasst werden.",
+            "why": "Vor dem Nebensatz mit inwieweit → je nachdem, Verb (ändern) am Ende."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die korrekte oder die stilistisch bessere Variante (a, b oder c).",
+      "instructionsEn": "Choose the correct or the stylistically better variant (a, b, or c).",
+      "title": "Feinheiten: Form und Register"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Je nachdem"
+              },
+              {
+                "key": "b",
+                "text": "Je"
+              },
+              {
+                "key": "c",
+                "text": "Je nach"
+              }
+            ],
+            "q": "___ Projektphase wechseln die Ansprechpartner im Team.",
+            "why": "Vor dem Nomen Projektphase → je nach + Dativ."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Desto"
+              },
+              {
+                "key": "b",
+                "text": "Je"
+              },
+              {
+                "key": "c",
+                "text": "Umso"
+              }
+            ],
+            "q": "___ enger der Zeitrahmen wird, desto mehr Aufgaben werden ausgelagert.",
+            "why": "Erster Teil → Je + Komparativ."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "je"
+              },
+              {
+                "key": "b",
+                "text": "so"
+              },
+              {
+                "key": "c",
+                "text": "desto"
+              }
+            ],
+            "q": "Je enger der Zeitrahmen wird, ___ mehr Aufgaben werden ausgelagert.",
+            "why": "Zweiter Teil → desto/umso."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Je nachdem"
+              },
+              {
+                "key": "b",
+                "text": "Je nach"
+              },
+              {
+                "key": "c",
+                "text": "Je"
+              }
+            ],
+            "q": "___, ob die Freigabe rechtzeitig erfolgt, verschiebt sich der Rollout.",
+            "why": "Vor dem Nebensatz mit ob → je nachdem."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "je nachdem"
+              },
+              {
+                "key": "b",
+                "text": "je"
+              },
+              {
+                "key": "c",
+                "text": "je nach"
+              }
+            ],
+            "q": "Der Aufwand für die Dokumentation fällt ___ Fachbereich sehr unterschiedlich aus.",
+            "why": "Vor dem Nomen Fachbereich → je nach + Dativ."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "je"
+              },
+              {
+                "key": "b",
+                "text": "umso"
+              },
+              {
+                "key": "c",
+                "text": "als"
+              }
+            ],
+            "q": "Je früher Risiken erkannt werden, ___ geringer sind die Folgekosten.",
+            "why": "Zweiter Teil → umso (= desto)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Je nachdem"
+              },
+              {
+                "key": "b",
+                "text": "Je nach"
+              },
+              {
+                "key": "c",
+                "text": "Desto"
+              }
+            ],
+            "q": "___, wie belastbar die Zahlen sind, wird die Prognose angepasst.",
+            "why": "Vor dem Nebensatz mit wie → je nachdem."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "je nachdem"
+              },
+              {
+                "key": "b",
+                "text": "je nach"
+              },
+              {
+                "key": "c",
+                "text": "je"
+              }
+            ],
+            "q": "Die Priorität einer Meldung richtet sich ___ Schweregrad.",
+            "why": "Vor dem Nomen Schweregrad → je nach + Dativ."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle für jede Lücke die richtige Lösung (a, b oder c).",
+      "instructionsEn": "Choose the correct option for each gap (a, b, or c).",
+      "title": "Sprachbausteine Teil 1 — Aus einem Projektbericht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Je nachdem"
+          ],
+          "2": [
+            "Je nach"
+          ],
+          "3": [
+            "Je"
+          ],
+          "4": [
+            "desto"
+          ],
+          "5": [
+            "je nach"
+          ],
+          "6": [
+            "Je nachdem"
+          ],
+          "7": [
+            "Je"
+          ],
+          "8": [
+            "umso"
+          ],
+          "9": [
+            "vom"
+          ],
+          "10": [
+            "Je nachdem"
+          ]
+        },
+        "bank": [
+          "Je nachdem",
+          "Je nach",
+          "Je",
+          "desto",
+          "je nach",
+          "Je nachdem",
+          "Je",
+          "umso",
+          "vom",
+          "Je nachdem",
+          "sofern",
+          "obwohl",
+          "trotzdem"
+        ],
+        "text": "Ob sich eine Weiterbildung lohnt, lässt sich nicht pauschal sagen.\n{1}, welches Ziel man verfolgt, kommen sehr verschiedene Formate\ninfrage. {2} Vorbildung fällt der Einstieg leichter oder schwerer.\n{3} klarer das Lernziel ist, {4} gezielter kann man ein Angebot\nwählen. Die Kosten unterscheiden sich stark {5} Anbieter und\nRegion. {6}, ob der Arbeitgeber die Zeit anrechnet, bleibt mehr\noder weniger Freizeit für das Lernen. {7} mehr Praxisbezug ein\nKurs hat, {8} nachhaltiger ist der Effekt. Der passende Rhythmus\nhängt außerdem {9} Lerntyp ab. {10}, wie diszipliniert man ist,\nreicht ein loser Plan oder es braucht feste Termine.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fülle die 10 Lücken. Drei Wörter im Kasten bleiben übrig.",
+      "instructionsEn": "Fill the 10 gaps. Three words in the box are left over.",
+      "title": "Sprachbausteine Teil 2 — Aus einem Ratgebertext (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Je transparenter die Kriterien sind, desto leichter lässt sich eine Entscheidung begründen.",
+            "tiles": [
+              "Je transparenter",
+              "die Kriterien sind,",
+              "desto leichter",
+              "lässt sich eine Entscheidung begründen."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Je nachdem, wie die Prüfung ausfällt, wird das Produkt freigegeben oder nachgebessert.",
+            "tiles": [
+              "Je nachdem,",
+              "wie die Prüfung ausfällt,",
+              "wird das Produkt",
+              "freigegeben oder nachgebessert."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Je nach Rechtslage kann die Frist unterschiedlich lang sein. (je nach + Nomen, kein Verb im je-Teil.)",
+            "tiles": [
+              "Je nach Rechtslage",
+              "kann die Frist",
+              "unterschiedlich lang",
+              "sein."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Je stärker der Wettbewerb zunimmt, umso wichtiger wird eine klare Positionierung.",
+            "tiles": [
+              "Je stärker",
+              "der Wettbewerb zunimmt,",
+              "umso wichtiger",
+              "wird eine klare Positionierung."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Wie hoch die Nachzahlung ausfällt, ist je nach Verbrauch sehr verschieden.",
+            "tiles": [
+              "Wie hoch die Nachzahlung ausfällt,",
+              "ist",
+              "je nach Verbrauch",
+              "sehr verschieden."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "D1",
+      "instructions": "Bring die Kacheln in die richtige Reihenfolge.",
+      "instructionsEn": "Put the tiles in the correct order.",
+      "title": "Wiederholung: Satzbau gemischt"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "je"
+              },
+              {
+                "key": "b",
+                "text": "so"
+              },
+              {
+                "key": "c",
+                "text": "desto"
+              }
+            ],
+            "q": "Ellipse, gehobener Stil: Je dichter das Netz, ___ kürzer die Wartezeiten.",
+            "why": "desto/umso + Komparativ; das Verb sind fällt weg."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wie sich"
+              },
+              {
+                "key": "b",
+                "text": "ob sich"
+              },
+              {
+                "key": "c",
+                "text": "je nach"
+              }
+            ],
+            "q": "Je nachdem, ___ die Nachfrage entwickelt, wird die Produktion hochgefahren.",
+            "why": "je nachdem + W-Wort (wie); das reflexive Verb entwickelt steht am Ende."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Prämie richtet sich je nachdem Ergebnis."
+              },
+              {
+                "key": "b",
+                "text": "Die Prämie richtet sich je nach, wie das Ergebnis."
+              },
+              {
+                "key": "c",
+                "text": "Die Prämie richtet sich je nach Ergebnis."
+              }
+            ],
+            "q": "Nominalstil-Umformung von 'Die Prämie richtet sich danach, wie gut das Ergebnis ist.':",
+            "why": "je nach + Nomen (Ergebnis); je nachdem steht nie direkt vor einem Nomen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Je nach"
+              },
+              {
+                "key": "b",
+                "text": "Je nachdem"
+              },
+              {
+                "key": "c",
+                "text": "Je"
+              }
+            ],
+            "q": "___ Vertragsart gelten andere Kündigungsfristen.",
+            "why": "Vor dem Nomen Vertragsart → je nach + Dativ."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "je"
+              },
+              {
+                "key": "b",
+                "text": "umso"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Je konsequenter gespart wird, ___ schneller ist der Kredit getilgt.",
+            "why": "Zweiter Teil → umso/desto + Komparativ."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "…, inwieweit die Mittel reichen, …"
+              },
+              {
+                "key": "b",
+                "text": "…, die Mittel reichen, …"
+              },
+              {
+                "key": "c",
+                "text": "…, je nach die Mittel, …"
+              }
+            ],
+            "q": "Welche Fortsetzung von 'Je nachdem, …' ist grammatisch möglich?",
+            "why": "je nachdem braucht ob / ein W-Wort (hier inwieweit) + Verb am Ende."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Wähle die richtige Lösung (a, b oder c). Das ist dein Abschlusscheck für dieses Set.",
+      "instructionsEn": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-22-je-konstruktionen-b2",
+  "intro": "Die drei je-Strukturen im formelleren Gebrauch. je … desto/umso + Komparativ bleibt gleich gebaut (je-Nebensatz mit Verb am Ende, desto-Teil mit Verb-Zweit), wird aber mit abstrakteren Komparativen und längerem Mittelfeld kombiniert; gehoben steht der desto-Teil auch ohne finites Verb (Je größer das Risiko, desto höher die Rendite.). je nachdem, ob / wie / inwieweit … leitet einen Nebensatz ein und erscheint häufig in indirekter Rede und in Berichten. je nach + Dativ steht vor abstrakten Nomen (je nach Sachlage, je nach Auslegung, je nach Konjunktur) und entspricht dem Nominalstil abhängig von / in Abhängigkeit von. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/22-je-konstruktionen-b2",
+  "level": "B2",
+  "summary": null,
+  "title": "je … desto, je nachdem, je nach — B2",
+  "topic": "Je-Konstruktionen"
+}

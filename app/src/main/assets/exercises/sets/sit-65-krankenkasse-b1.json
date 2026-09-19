@@ -1,0 +1,830 @@
+{
+  "category": "Behörden & Formelles",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "anmelden",
+            "label": "Anmelden"
+          },
+          {
+            "key": "wechseln",
+            "label": "Wechseln"
+          },
+          {
+            "key": "wissen",
+            "label": "Wissen"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "anmelden",
+            "text": "eine neue Stelle antreten und sich anmelden"
+          },
+          {
+            "bucket": "anmelden",
+            "text": "die Gesundheitskarte beantragen"
+          },
+          {
+            "bucket": "anmelden",
+            "text": "Familienangehörige mitversichern"
+          },
+          {
+            "bucket": "anmelden",
+            "text": "die Mitgliedsbescheinigung anfordern"
+          },
+          {
+            "bucket": "wechseln",
+            "text": "eine neue Krankenkasse auswählen"
+          },
+          {
+            "bucket": "wechseln",
+            "text": "die Kündigungsfrist beachten"
+          },
+          {
+            "bucket": "wechseln",
+            "text": "die Bindungsfrist prüfen"
+          },
+          {
+            "bucket": "wechseln",
+            "text": "den Kassenwechsel schriftlich beantragen"
+          },
+          {
+            "bucket": "wissen",
+            "text": "den Zusatzbeitrag vergleichen"
+          },
+          {
+            "bucket": "wissen",
+            "text": "das Sonderkündigungsrecht nutzen"
+          },
+          {
+            "bucket": "wissen",
+            "text": "die Leistungen der Kassen vergleichen"
+          },
+          {
+            "bucket": "wissen",
+            "text": "sich über Extraleistungen informieren"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Anmelden, wechseln oder wissen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Mitgliedsbescheinigung"
+          },
+          {
+            "key": "2",
+            "text": "der Kassenwechsel"
+          },
+          {
+            "key": "3",
+            "text": "die Kündigungsfrist"
+          },
+          {
+            "key": "4",
+            "text": "die Bindungsfrist"
+          },
+          {
+            "key": "5",
+            "text": "der Zusatzbeitrag"
+          },
+          {
+            "key": "6",
+            "text": "die Familienversicherung"
+          },
+          {
+            "key": "7",
+            "text": "die Gesundheitskarte"
+          },
+          {
+            "key": "8",
+            "text": "das Sonderkündigungsrecht"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "der Nachweis, dass man bei einer Krankenkasse versichert ist"
+          },
+          {
+            "key": "b",
+            "text": "der Wechsel von einer Krankenkasse zu einer anderen"
+          },
+          {
+            "key": "c",
+            "text": "der Zeitraum, den man vor dem Wechsel einhalten muss"
+          },
+          {
+            "key": "d",
+            "text": "die Mindestzeit, die man bei einer Kasse bleiben muss"
+          },
+          {
+            "key": "e",
+            "text": "der individuelle Extra-Beitrag jeder Krankenkasse"
+          },
+          {
+            "key": "f",
+            "text": "die kostenlose Mitversicherung von Ehepartner und Kindern"
+          },
+          {
+            "key": "g",
+            "text": "die Chipkarte für Arztbesuche"
+          },
+          {
+            "key": "h",
+            "text": "das Recht, bei einer Beitragserhöhung sofort zu kündigen"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Sollen"
+          ],
+          "5": [
+            "steigt"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Habe"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} mich innerhalb von zwei Wochen bei der neuen Kasse anmelden. (Modalverb, ich-Form)\n2. {2} Sie mir eine Mitgliedsbescheinigung ausstellen? (können, Sie-Form)\n3. Ich {3} schon die Kündigung eingereicht. (haben, Perfekt)\n4. {4} wir den Zusatzbeitrag vorher vergleichen? (sollen, wir-Form)\n5. Falls der Beitrag {5}, kann man sonderkündigen. (steigen, Präsens)\n6. Die neue Kasse {6} sich um die Kündigung bei der alten kümmern. (werden, Futur I)\n7. Wir {7} schon die Familienversicherung beantragt. (haben, Perfekt)\n8. {8} ich die Bindungsfrist schon erfüllt? (haben, ich-Form Perfekt)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Die Anmeldung planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Gesundheitskarte"
+          ],
+          "2": [
+            "Kündigungsfrist"
+          ],
+          "3": [
+            "Bindungsfrist"
+          ],
+          "4": [
+            "Sonderkündigungsrecht"
+          ],
+          "5": [
+            "Familienversicherung"
+          ],
+          "6": [
+            "Zusatzbeitrag"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Beim Arztbesuch braucht man die elektronische {1}. (die Chipkarte für Arztbesuche)\n2. Wer die Kasse wechseln möchte, muss die {2} einhalten. (der Zeitraum vor dem Wechsel)\n3. Viele Kassen verlangen eine {3} von mindestens 18 Monaten. (die Mindestzeit bei einer Kasse)\n4. Bei einer Beitragserhöhung gilt oft ein {4}. (das Recht auf sofortige Kündigung)\n5. Ehepartner und Kinder können oft kostenlos über die {5} mitversichert werden. (die kostenlose Mitversicherung von Angehörigen)\n6. Jede Kasse verlangt einen unterschiedlich hohen {6}. (der individuelle Extra-Beitrag)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "MITGLIEDSBESCHEINIGUNG"
+          ],
+          "2": [
+            "ANGEMELDET"
+          ],
+          "3": [
+            "FAMILIENVERSICHERUNG"
+          ],
+          "4": [
+            "WECHSELN"
+          ],
+          "5": [
+            "BINDUNGSFRIST"
+          ],
+          "6": [
+            "KÜNDIGUNGSFRIST"
+          ],
+          "7": [
+            "ZUSATZBEITRAG"
+          ],
+          "8": [
+            "SONDERKÜNDIGUNGSRECHT"
+          ],
+          "9": [
+            "POST"
+          ],
+          "10": [
+            "KASSENWECHSEL"
+          ]
+        },
+        "bank": [
+          "MITGLIEDSBESCHEINIGUNG",
+          "ANGEMELDET",
+          "FAMILIENVERSICHERUNG",
+          "WECHSELN",
+          "BINDUNGSFRIST",
+          "KÜNDIGUNGSFRIST",
+          "ZUSATZBEITRAG",
+          "SONDERKÜNDIGUNGSRECHT",
+          "POST",
+          "KASSENWECHSEL",
+          "GESUNDHEITSKARTE",
+          "BEITRAGSSATZ",
+          "VERSICHERTENNUMMER",
+          "LEISTUNGSKATALOG"
+        ],
+        "text": "— Guten Tag, ich habe eine neue Stelle angetreten und brauche\neine {1} für meinen Arbeitgeber.\n— Kein Problem, ich stelle Ihnen die gleich aus. Sind Sie schon\nbei uns {2}?\n— Ja, seit letzter Woche. Können Sie auch meine Frau über die\n{3} mitversichern?\n— Klar, dafür brauche ich nur ihre Daten.\n(Telefonat bei der alten Kasse)\n— Guten Tag, ich möchte zu einer anderen Krankenkasse {4}.\n— Kein Problem, dafür gilt bei uns eine {5} von 18 Monaten —\ndie haben Sie erfüllt.\n— Gut, und wie lange ist die {6}?\n— Zwei Monate zum Monatsende.\n— Perfekt. Ich habe auch gehört, dass Ihr {7} gerade gestiegen\nist — gilt da nicht ein {8}?\n— Stimmt, dann können Sie tatsächlich sofort außerordentlich\nkündigen.\n— Super, dann schicke ich Ihnen die Kündigung noch heute per\n{9}.\n— Alles klar, die neue Kasse kümmert sich dann um den {10}.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Bei der neuen Kasse und beim Wechsel"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bescheinigungen brauche ich sowieso nicht."
+              },
+              {
+                "key": "b",
+                "text": "Können Sie mir eine Mitgliedsbescheinigung für meinen Arbeitgeber ausstellen?"
+              },
+              {
+                "key": "c",
+                "text": "Stellen Sie mir irgendein Dokument aus."
+              }
+            ],
+            "q": "Du möchtest bei der neuen Krankenkasse eine Mitgliedsbescheinigung für den Arbeitgeber anfordern. — You want to request a membership certificate for your employer.",
+            "why": "Eine konkrete, höfliche Bitte nennt genau, welches Dokument gebraucht wird."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Familie interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Versicherung ist Privatsache."
+              },
+              {
+                "key": "c",
+                "text": "Kann meine Familie über mich mitversichert werden?"
+              }
+            ],
+            "q": "Du möchtest wissen, ob deine Familie über dich mitversichert werden kann. — You want to know whether your family can be co-insured through you.",
+            "why": "Eine direkte Frage klärt sofort, ob die Familienversicherung möglich ist."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich möchte zu einer anderen Krankenkasse wechseln."
+              },
+              {
+                "key": "b",
+                "text": "Kassen sind mir alle gleich."
+              },
+              {
+                "key": "c",
+                "text": "Wechseln ist mir zu kompliziert."
+              }
+            ],
+            "q": "Du möchtest zu einer anderen Krankenkasse wechseln. — You want to switch to a different health insurance provider.",
+            "why": "Eine klare Aussage ist der übliche Einstieg beim Kassenwechsel."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Fristen interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Wie lange ist die Kündigungsfrist bei Ihnen?"
+              },
+              {
+                "key": "c",
+                "text": "Ich kündige einfach, wann ich will."
+              }
+            ],
+            "q": "Du möchtest fragen, wie lange die Kündigungsfrist ist. — You want to ask how long the notice period is.",
+            "why": "Eine konkrete Frage zur Frist hilft bei der Planung des Wechsels."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Beiträge sind mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Das ist wohl so, da kann man nichts machen."
+              },
+              {
+                "key": "c",
+                "text": "Gilt da nicht ein Sonderkündigungsrecht?"
+              }
+            ],
+            "q": "Der Zusatzbeitrag deiner Kasse ist plötzlich gestiegen. — Your insurer's supplementary contribution has suddenly increased.",
+            "why": "Eine Beitragserhöhung löst häufig ein Sonderkündigungsrecht aus, das man nutzen kann."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Habe ich die Bindungsfrist schon erfüllt?"
+              },
+              {
+                "key": "b",
+                "text": "Bindungsfristen interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Ich wechsle sowieso nie die Kasse."
+              }
+            ],
+            "q": "Du möchtest wissen, ob die Bindungsfrist schon erfüllt ist. — You want to know whether the minimum commitment period is already over.",
+            "why": "Eine direkte Nachfrage klärt sicher, ob ein Wechsel schon möglich ist."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Anmelden und wechseln"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Frage, Infinitiv am Ende",
+            "tiles": [
+              "Können",
+              "Sie",
+              "mir",
+              "eine",
+              "Mitgliedsbescheinigung",
+              "ausstellen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Passiv mit Modalverb, Partizip + werden am Ende",
+            "tiles": [
+              "Kann",
+              "meine",
+              "Familie",
+              "über",
+              "mich",
+              "mitversichert",
+              "werden",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Aussage, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "zu",
+              "einer",
+              "anderen",
+              "Krankenkasse",
+              "wechseln"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Nebensatz mit falls, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "der",
+              "Beitrag",
+              "steigt",
+              ",",
+              "kann",
+              "man",
+              "sonderkündigen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "W-Frage mit sein",
+            "tiles": [
+              "Wie",
+              "lange",
+              "ist",
+              "die",
+              "Kündigungsfrist",
+              "bei",
+              "Ihnen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Ich",
+              "habe",
+              "die",
+              "Bindungsfrist",
+              "schon",
+              "erfüllt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zur Krankenkasse bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Man muss sich innerhalb von zwei Wochen bei der neuen Stelle anmelden. — You must register within two weeks of starting a new job.",
+            "why": "So steht es ausdrücklich in den Kassen-Infos."
+          },
+          {
+            "answer": false,
+            "q": "Die Bindungsfrist beträgt in der Regel nur einen Monat. — The minimum commitment period is usually only one month.",
+            "why": "Sie beträgt mindestens 18 Monate, nicht einen Monat."
+          },
+          {
+            "answer": true,
+            "q": "Die Kündigungsfrist beträgt normalerweise zwei Monate zum Monatsende. — The notice period is usually two months to the end of the month.",
+            "why": "„Kündigungsfrist: in der Regel 2 Monate zum Monatsende.“"
+          },
+          {
+            "answer": false,
+            "q": "Bei einer Beitragserhöhung gibt es kein Sonderkündigungsrecht. — There is no special right of termination when contributions increase.",
+            "why": "Bei einer Beitragserhöhung ist ein Sonderkündigungsrecht gerade vorgesehen."
+          },
+          {
+            "answer": false,
+            "q": "Die Familienversicherung ist immer kostenpflichtig, unabhängig vom Einkommen des Partners. — Family co-insurance always costs money, regardless of the partner's income.",
+            "why": "Sie ist kostenlos, wenn der Ehepartner wenig oder gar nicht verdient."
+          },
+          {
+            "answer": true,
+            "q": "Die Gesundheitskarte wird nach der Anmeldung automatisch zugeschickt. — The health card is sent automatically after registration.",
+            "why": "„Gesundheitskarte: wird nach der Anmeldung automatisch zugeschickt.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Krankenkasse**\n>\n> - **Anmeldung:** bei neuer Stelle **innerhalb von 2 Wochen**\n>   über den Arbeitgeber.\n> - **Bindungsfrist:** mindestens **18 Monate** bei derselben\n>   Kasse.\n> - **Kündigungsfrist:** in der Regel **2 Monate zum\n>   Monatsende**.\n> - **Sonderkündigungsrecht:** bei einer **Beitragserhöhung**\n>   sofort möglich.\n> - **Familienversicherung:** kostenlos, wenn der Ehepartner\n>   **wenig oder gar nicht verdient**.\n> - **Gesundheitskarte:** wird nach der Anmeldung\n>   **automatisch zugeschickt**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Kassen-Infos lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach abwarten, ohne nachzufragen."
+              },
+              {
+                "key": "b",
+                "text": "Schriftlich bei der alten Kasse nachfragen und den Kündigungsnachweis verlangen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort bei einer dritten Kasse einen neuen Antrag stellen."
+              }
+            ],
+            "q": "Die alte Kasse bestätigt die Kündigung nicht rechtzeitig. — The old insurer doesn't confirm the cancellation in time.",
+            "why": "Eine schriftliche Nachfrage sorgt für einen belastbaren Nachweis der Kündigung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Arbeitgeber einfach nicht informieren."
+              },
+              {
+                "key": "b",
+                "text": "Abwarten und nichts weiter unternehmen."
+              },
+              {
+                "key": "c",
+                "text": "Bei der Kasse nach einer schnelleren Zusendung fragen, z. B. per E-Mail."
+              }
+            ],
+            "q": "Die Mitgliedsbescheinigung kommt nicht rechtzeitig beim Arbeitgeber an. — The membership certificate doesn't reach the employer in time.",
+            "why": "Eine schnellere Zusendung, etwa per E-Mail, löst das Zeitproblem meist sofort."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sich bei der Kasse nach dem Sonderkündigungsrecht erkundigen."
+              },
+              {
+                "key": "b",
+                "text": "Den höheren Beitrag stillschweigend akzeptieren."
+              },
+              {
+                "key": "c",
+                "text": "Die Kasse sofort ohne Nachfrage wechseln, ohne die Fristen zu prüfen."
+              }
+            ],
+            "q": "Der Zusatzbeitrag wird erhöht, ohne dass man informiert wurde. — The supplementary contribution is raised without prior notice.",
+            "why": "Eine Beitragserhöhung löst meist ein Sonderkündigungsrecht aus, das man nutzen sollte."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Ablehnung einfach so hinnehmen."
+              },
+              {
+                "key": "b",
+                "text": "Nach den genauen Einkommensgrenzen fragen und Alternativen prüfen."
+              },
+              {
+                "key": "c",
+                "text": "Ärgerlich bei der Kasse anrufen und auflegen."
+              }
+            ],
+            "q": "Die Familienversicherung wird abgelehnt, weil das Einkommen zu hoch war. — Family co-insurance is refused because the income was too high.",
+            "why": "Die genauen Grenzen zu erfragen zeigt, ob Alternativen wie eine eigene Versicherung nötig sind."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach ohne Karte zum Arzt gehen und hoffen, dass es klappt."
+              },
+              {
+                "key": "b",
+                "text": "Abwarten, bis die Karte irgendwann von selbst ankommt."
+              },
+              {
+                "key": "c",
+                "text": "Bei der Kasse nachfragen und eine Ersatzkarte beantragen."
+              }
+            ],
+            "q": "Die neue Gesundheitskarte kommt nicht an. — The new health card doesn't arrive.",
+            "why": "Eine Nachfrage bei der Kasse ist der direkteste Weg zu einer Ersatzkarte."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bei der Kasse nach dem genauen Ablaufdatum der Bindungsfrist fragen."
+              },
+              {
+                "key": "b",
+                "text": "Trotzdem sofort kündigen, ohne nachzufragen."
+              },
+              {
+                "key": "c",
+                "text": "Die Bindungsfrist einfach ignorieren."
+              }
+            ],
+            "q": "Man hat versehentlich die Bindungsfrist noch nicht erfüllt. — You accidentally haven't yet completed the minimum commitment period.",
+            "why": "Das genaue Ablaufdatum zu erfragen verhindert eine ungültige Kündigung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn bei der Krankenkasse etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "bestätigt"
+          ],
+          "2": [
+            "eingetroffen"
+          ],
+          "3": [
+            "erhöht"
+          ],
+          "4": [
+            "abgelehnt"
+          ],
+          "5": [
+            "angekommen"
+          ],
+          "6": [
+            "abgelaufen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die alte Kasse hat die Kündigung nicht rechtzeitig {1}. (schriftlich zugesagt, Partizip)\n2. Die Bescheinigung ist beim Arbeitgeber nicht rechtzeitig {2}. (dort angelangt, Partizip)\n3. Der Beitrag wurde {3}, ohne dass man informiert wurde. (höher gemacht, Partizip)\n4. Die Familienversicherung wurde {4}, weil das Einkommen zu hoch war. (nicht genehmigt, Partizip)\n5. Die neue Gesundheitskarte ist nicht {5}. (dort eingetroffen, Partizip)\n6. Die Bindungsfrist war noch nicht {6}. (zu Ende, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Könnten"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Gesundheitskarte"
+          ],
+          "5": [
+            "Kündigungsfrist"
+          ],
+          "6": [
+            "Bindungsfrist"
+          ],
+          "7": [
+            "Sonderkündigungsrecht"
+          ],
+          "8": [
+            "Familienversicherung"
+          ],
+          "9": [
+            "Zusatzbeitrag"
+          ],
+          "10": [
+            "bestätigt"
+          ],
+          "11": [
+            "eingetroffen"
+          ],
+          "12": [
+            "erhöht"
+          ],
+          "13": [
+            "abgelehnt"
+          ],
+          "14": [
+            "abgelaufen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} mich innerhalb von zwei Wochen anmelden. (must)\n2. {2} Sie mir eine Mitgliedsbescheinigung ausstellen? (could — können)\n3. Ich {3} schon die Kündigung eingereicht. (have — Perfekt)\n4. Beim Arztbesuch braucht man die elektronische {4}. (health card)\n5. Wer wechseln möchte, muss die {5} einhalten. (notice period)\n6. Viele Kassen verlangen eine {6} von mindestens 18 Monaten. (minimum commitment period)\n7. Bei einer Beitragserhöhung gilt oft ein {7}. (special right of termination)\n8. Ehepartner und Kinder können über die {8} mitversichert werden. (family co-insurance)\n9. Jede Kasse verlangt einen unterschiedlichen {9}. (supplementary contribution)\n10. Die alte Kasse hat die Kündigung nicht rechtzeitig {10}. (confirmed — Partizip)\n11. Die Bescheinigung ist nicht rechtzeitig {11}. (arrived — Partizip)\n12. Der Beitrag wurde {12}, ohne dass man informiert wurde. (increased — Partizip)\n13. Die Familienversicherung wurde {13}. (rejected — Partizip)\n14. Die Bindungsfrist war noch nicht {14}. (expired — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-65-krankenkasse-b1",
+  "intro": "Bei einer neuen Stelle muss man sich innerhalb von zwei Wochen bei einer Krankenkasse anmelden, und wer wechseln möchte, muss Bindungsfrist, Kündigungsfrist und Zusatzbeitrag im Blick behalten. Dieses Set übt genau das: sich anmelden, die Familie mitversichern, die Kasse wechseln, und was zu tun ist, wenn der Beitrag steigt oder eine Bescheinigung nicht rechtzeitig ankommt. Grammatik nach Bedarf: Perfekt im Bericht, Passiv mit Modalverb, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/65-krankenkasse-b1",
+  "level": "B1",
+  "summary": "Sich bei einer neuen Krankenkasse anmelden, die Familie mitversichern, die Kasse wechseln — und was tun, wenn der Zusatzbeitrag steigt oder die Bescheinigung nicht ankommt.",
+  "title": "Krankenkasse: anmelden und wechseln — B1",
+  "topic": "Krankenkasse: anmelden und wechseln"
+}

@@ -1,0 +1,2158 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Gericht untersucht die Verfassungsmäßigkeit."
+              },
+              {
+                "key": "b",
+                "text": "Das Gericht prüft die Verfassungsmäßigkeit."
+              },
+              {
+                "key": "c",
+                "text": "Das Gericht testet die Verfassungsmäßigkeit."
+              }
+            ],
+            "q": "Was sagt der Richter im Prozess?",
+            "why": "Gerichte „prüfen\" — formell, kontrollierend."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir testen das Verhalten der Wölfe."
+              },
+              {
+                "key": "b",
+                "text": "Wir prüfen das Verhalten der Wölfe."
+              },
+              {
+                "key": "c",
+                "text": "Wir erforschen das Verhalten der Wölfe."
+              }
+            ],
+            "q": "Was sagt der Wissenschaftler über ein neues Thema?",
+            "why": "Einen neuen Bereich wissenschaftlich erschließen = „erforschen\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir testen die App mit zwanzig Nutzern."
+              },
+              {
+                "key": "b",
+                "text": "Wir prüfen die App mit zwanzig Nutzern."
+              },
+              {
+                "key": "c",
+                "text": "Wir erforschen die App mit zwanzig Nutzern."
+              }
+            ],
+            "q": "Was macht das IT-Team mit der neuen App?",
+            "why": "Eine Software „testet\" man unter realen Bedingungen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir vermeiden die Veranstaltung."
+              },
+              {
+                "key": "b",
+                "text": "Wir unterbinden die Veranstaltung."
+              },
+              {
+                "key": "c",
+                "text": "Wir umgehen die Veranstaltung."
+              }
+            ],
+            "q": "Was sagt der Behördenleiter über eine unerlaubte Veranstaltung?",
+            "why": "Eine Behörde „unterbindet\" — aktiv, obrigkeitlich."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "umgehen"
+              },
+              {
+                "key": "b",
+                "text": "vermeiden"
+              },
+              {
+                "key": "c",
+                "text": "unterbinden"
+              }
+            ],
+            "q": "Welches Verb passt: „Der Pilot versuchte, den Sturm zu ___.\"",
+            "why": "Einen Sturm kann man nicht „unterbinden\" (kein Verursacher); man „vermeidet\" ihn (bewusst fernbleiben)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A1",
+      "instructions": "Wähle das Verb, das am besten passt (a, b oder c).",
+      "title": "Nahezu-synonyme Verben — das richtige Verb wählen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Problem"
+              },
+              {
+                "key": "b",
+                "text": "Aufgabe"
+              },
+              {
+                "key": "c",
+                "text": "Herausforderung"
+              }
+            ],
+            "q": "Welches Nomen passt am besten im Satz: „Diese Woche steht eine schwere ___ an.\"",
+            "why": "Sachlich, zu bearbeiten: „Aufgabe\"."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Schwierigkeit"
+              },
+              {
+                "key": "b",
+                "text": "Problem"
+              },
+              {
+                "key": "c",
+                "text": "Herausforderung"
+              }
+            ],
+            "q": "Welches Nomen passt in einem positiven Kontext: „Wir freuen uns auf die ___ mit dem internationalen Team.\"",
+            "why": "Positiv, wertend: „Herausforderung\"."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Probleme"
+              },
+              {
+                "key": "b",
+                "text": "Aufgaben"
+              },
+              {
+                "key": "c",
+                "text": "Schwierigkeiten"
+              }
+            ],
+            "q": "Welches Nomen passt in einem vorsichtigen Kontext: „Beim Umzug gab es einige ___.\"",
+            "why": "Vorsichtig, abwägend: „Schwierigkeiten\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Gründe"
+              },
+              {
+                "key": "b",
+                "text": "Ursachen"
+              },
+              {
+                "key": "c",
+                "text": "Anlässe"
+              }
+            ],
+            "q": "Welches Nomen passt in einem physikalischen Kontext: „Die ___ des Erdbebens ist unklar.\"",
+            "why": "Physischer Auslöser: „Ursache\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ursache"
+              },
+              {
+                "key": "b",
+                "text": "Veranlassung"
+              },
+              {
+                "key": "c",
+                "text": "Anlass"
+              }
+            ],
+            "q": "Welches Nomen passt in einem förmlichen Kontext: „Die ___ des Gesetzes liegt zehn Jahre zurück.\"",
+            "why": "Sehr förmlich, amtlich: „Veranlassung\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A2",
+      "instructions": "Wähle das Nomen, das am besten passt (a, b oder c).",
+      "title": "Nahezu-synonyme Nomen — das richtige Nomen wählen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "tatsächlich, eigentlich"
+              },
+              {
+                "key": "b",
+                "text": "gegenwärtig, derzeit"
+              },
+              {
+                "key": "c",
+                "text": "aktuell im Sinne von „in Mode\""
+              }
+            ],
+            "q": "Was bedeutet „aktuell\" im Deutschen?",
+            "why": "„aktuell\" = gegenwärtig, derzeit. NICHT „actually\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "vielleicht, möglicherweise"
+              },
+              {
+                "key": "b",
+                "text": "schließlich, am Ende"
+              },
+              {
+                "key": "c",
+                "text": "gegeben, sicher"
+              }
+            ],
+            "q": "Was bedeutet „eventuell\" im Deutschen?",
+            "why": "„eventuell\" = vielleicht. NICHT „eventually\"."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "sich bewusst werden"
+              },
+              {
+                "key": "b",
+                "text": "begreifen, verstehen"
+              },
+              {
+                "key": "c",
+                "text": "verwirklichen, in die Tat umsetzen"
+              }
+            ],
+            "q": "Was bedeutet „realisieren\" im Deutschen?",
+            "why": "„realisieren\" = verwirklichen. NICHT „to realize\" (= begreifen)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "mitfühlen, bemitleiden"
+              },
+              {
+                "key": "b",
+                "text": "sich positiv zeigen für"
+              },
+              {
+                "key": "c",
+                "text": "jemanden sympathisch finden"
+              }
+            ],
+            "q": "Was bedeutet „sympathisieren\" im Deutschen?",
+            "why": "„sympathisieren\" = sich positiv zeigen für. NICHT „to sympathize\" (= mitfühlen)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "vernünftig"
+              },
+              {
+                "key": "b",
+                "text": "empfindlich, feinfühlig"
+              },
+              {
+                "key": "c",
+                "text": "sensationalistisch"
+              }
+            ],
+            "q": "Was bedeutet „sensibel\" im Deutschen?",
+            "why": "„sensibel\" = empfindlich. NICHT „sensible\" (= vernünftig)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A3",
+      "instructions": "Wähle die korrekte deutsche Bedeutung (a, b oder c).",
+      "title": "Falsche Freunde — die richtige deutsche Bedeutung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "untersucht"
+          ],
+          "2": [
+            "erforscht"
+          ],
+          "3": [
+            "prüft"
+          ],
+          "4": [
+            "testen"
+          ],
+          "5": [
+            "erforscht"
+          ],
+          "6": [
+            "prüft"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Polizei {1} den Unfall.\n2. Ein Forscherteam {2} die Lebensweise einer bisher unbekannten Volksgruppe.\n3. Das Finanzamt {3} die Steuererklärung.\n4. Wir {4} die neue App mit zwanzig Nutzern.\n5. Ein Historiker {5} die Ursachen des Ersten Weltkriegs.\n6. Das Gericht {6} die Verfassungsmäßigkeit des neuen Gesetzes.\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Setze das passende Verb ein. 6 Items.",
+      "title": "Verben einsetzen: untersuchen / erforschen / prüfen / testen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Problem"
+          ],
+          "2": [
+            "Aufgabe"
+          ],
+          "3": [
+            "Herausforderung"
+          ],
+          "4": [
+            "Schwierigkeiten"
+          ],
+          "5": [
+            "Ursache"
+          ],
+          "6": [
+            "Problem"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das {1} ist, dass die Software jeden Tag abstürzt.\n2. Diese Woche steht eine schwere {2} an.\n3. Wir freuen uns auf die {3}, mit einem internationalen Team zu arbeiten.\n4. Beim Umzug gab es einige {4}.\n5. Die {5} ist, dass die Serverlast zu hoch ist.\n6. Das ist ein {6}, das wir schnell lösen müssen.\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Setze das passende Nomen ein. 6 Items.",
+      "title": "Nomen einsetzen: Problem / Aufgabe / Herausforderung / Schwierigkeit / Ursache"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "erforschen"
+          },
+          {
+            "key": "2",
+            "text": "prüfen"
+          },
+          {
+            "key": "3",
+            "text": "testen"
+          },
+          {
+            "key": "4",
+            "text": "unterbinden"
+          },
+          {
+            "key": "5",
+            "text": "einräumen"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "einen Bereich wissenschaftlich neu erschließen"
+          },
+          {
+            "key": "b",
+            "text": "eine Sache auf ihre Eignung kontrollieren"
+          },
+          {
+            "key": "c",
+            "text": "unter realen Bedingungen erproben"
+          },
+          {
+            "key": "d",
+            "text": "aktiv stoppen, nicht zulassen"
+          },
+          {
+            "key": "e",
+            "text": "etwas zugestehen, anerkennen"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A6",
+      "instructions": "Ordne jedem Verb (1–5) die passende Bedeutung (a–e) zu.",
+      "title": "Verben: Bedeutung zuordnen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "e",
+          "3": "a",
+          "4": "d",
+          "5": "c"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "das Problem"
+          },
+          {
+            "key": "2",
+            "text": "die Aufgabe"
+          },
+          {
+            "key": "3",
+            "text": "die Herausforderung"
+          },
+          {
+            "key": "4",
+            "text": "die Schwierigkeit"
+          },
+          {
+            "key": "5",
+            "text": "die Veranlassung"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "annehmen"
+          },
+          {
+            "key": "b",
+            "text": "lösen"
+          },
+          {
+            "key": "c",
+            "text": "treffen"
+          },
+          {
+            "key": "d",
+            "text": "bewältigen"
+          },
+          {
+            "key": "e",
+            "text": "bearbeiten"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A7",
+      "instructions": "Ordne jedem Nomen (1–5) das typische Verb (a–e) zu.",
+      "title": "Nomen: typisches Verb zuordnen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er ist verstorben."
+              },
+              {
+                "key": "b",
+                "text": "Er hat ins Gras gebissen."
+              },
+              {
+                "key": "c",
+                "text": "Er ist abgekratzt."
+              }
+            ],
+            "q": "In einer Todesanzeige:",
+            "why": "„verstorben\" ist gehoben und passt in eine Todesanzeige."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist doch Quatsch."
+              },
+              {
+                "key": "b",
+                "text": "Das ist nicht haltbar."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mega daneben."
+              }
+            ],
+            "q": "Im Geschäftsbrief:",
+            "why": "„nicht haltbar\" ist sachlich; „Quatsch\" und „mega daneben\" sind Registerbrüche."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich hege Befürchtungen."
+              },
+              {
+                "key": "b",
+                "text": "Ich trage Bedenken."
+              },
+              {
+                "key": "c",
+                "text": "Ich mache mir Sorgen."
+              }
+            ],
+            "q": "Im Smalltalk:",
+            "why": "„Sorgen machen\" passt zum Smalltalk; „Befürchtungen hegen\" und „Bedenken tragen\" sind zu förmlich."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Daten sind bemerkenswert."
+              },
+              {
+                "key": "b",
+                "text": "Die Daten sind krass."
+              },
+              {
+                "key": "c",
+                "text": "Die Daten sind der Hammer."
+              }
+            ],
+            "q": "In einer wissenschaftlichen Hausarbeit:",
+            "why": "„bemerkenswert\" passt ins wissenschaftliche Register."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das war der totale Triumph."
+              },
+              {
+                "key": "b",
+                "text": "Das war ein wichtiger Erfolg."
+              },
+              {
+                "key": "c",
+                "text": "Das war ein riesen Sieg."
+              }
+            ],
+            "q": "In einer Pressemitteilung:",
+            "why": "„wichtiger Erfolg\" ist sachlich und angemessen für eine Pressemitteilung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A8",
+      "instructions": "Wähle die Variante mit der passenden Konnotation für den Kontext.",
+      "title": "Konnotation — das richtige Register wählen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Eigentlich"
+          ],
+          "2": [
+            "erkenne"
+          ],
+          "3": [
+            "Schließlich"
+          ],
+          "4": [
+            "fühle"
+          ],
+          "5": [
+            "vernünftige"
+          ],
+          "6": [
+            "Koch"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. „Actually, ich habe heute keine Zeit.\" → {1} habe ich heute keine Zeit.\n2. „Ich realisiere jetzt erst, dass das falsch war.\" → Ich {2} jetzt erst, dass das falsch war.\n3. „Eventually schaffe ich das.\" → {3} schaffe ich das.\n4. „Ich sympathisiere mit ihr in ihrem Schmerz.\" → Ich {4} mit ihr.\n5. „Das ist eine sensible Lösung.\" → Das ist eine {5} Lösung.\n6. „Der Chef hat das Menü gekocht.\" (chef = ?) → Der {6} hat das Menü gekocht.\n",
+        "type": "gap-text"
+      },
+      "id": "A9",
+      "instructions": "Setze das richtige deutsche Wort ein. 6 Items.",
+      "title": "Falsche Freunde korrigieren"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sorry, muss absagen."
+              },
+              {
+                "key": "b",
+                "text": "Leider muss ich den Termin absagen."
+              },
+              {
+                "key": "c",
+                "text": "Krass stressig gerade, sage ab."
+              }
+            ],
+            "q": "In einem Geschäftsbrief an einen Kunden:",
+            "why": "„Leider muss ich den Termin absagen\" ist förmlich und passend."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich bedaure, Ihnen mitteilen zu müssen …"
+              },
+              {
+                "key": "b",
+                "text": "Tut mir leid, aber …"
+              },
+              {
+                "key": "c",
+                "text": "Hiermit teile ich Ihnen mit …"
+              }
+            ],
+            "q": "In einer WhatsApp an einen Freund:",
+            "why": "„Tut mir leid, aber\" passt in die informelle WhatsApp."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Hiermit wird Folgendes verfügt: …"
+              },
+              {
+                "key": "b",
+                "text": "Ich sage mal so: …"
+              },
+              {
+                "key": "c",
+                "text": "Im Großen und Ganzen …"
+              }
+            ],
+            "q": "In einem Behördentext:",
+            "why": "„Hiermit wird verfügt\" ist der amtliche Ton eines Behördentextes."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es ist nicht hinzunehmen, dass …"
+              },
+              {
+                "key": "b",
+                "text": "Find ich voll daneben, dass …"
+              },
+              {
+                "key": "c",
+                "text": "Naja, vielleicht ist es ja so, dass …"
+              }
+            ],
+            "q": "In einem Leserbrief:",
+            "why": "„nicht hinzunehmen\" passt zum pointierten Ton eines Leserbriefs."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sehr geehrte Frau Kollegin, hiermit …"
+              },
+              {
+                "key": "b",
+                "text": "Liebe Sarah, ich wollte dir kurz sagen, dass …"
+              },
+              {
+                "key": "c",
+                "text": "Yo, digga, …"
+              }
+            ],
+            "q": "In einer privaten Mail an eine Kollegin:",
+            "why": "„Liebe Sarah\" passt zur privaten, aber sachlichen Mail an eine bekannte Kollegin."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A10",
+      "instructions": "Wähle die angemessene Formulierung für den Kontext (a, b oder c).",
+      "title": "Registergerechte Wortwahl"
+    },
+    {
+      "block": "A",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "untersuchen",
+              "erforschen",
+              "prüfen",
+              "bestehen"
+            ],
+            "odd": 3,
+            "why": "„bestehen\" ist kein Synonym für „systematisch mit einer Sache umgehen\"; die anderen drei sind es."
+          },
+          {
+            "items": [
+              "vermeiden",
+              "umgehen",
+              "unterbinden",
+              "akzeptieren"
+            ],
+            "odd": 3,
+            "why": "„akzeptieren\" ist das Gegenteil der anderen drei (etwas zulassen statt vermeiden)."
+          },
+          {
+            "items": [
+              "Problem",
+              "Aufgabe",
+              "Herausforderung",
+              "Frage"
+            ],
+            "odd": 3,
+            "why": "„Frage\" beantwortet man; „Problem / Aufgabe / Herausforderung\" löst / bearbeitet / meistert man."
+          },
+          {
+            "items": [
+              "Grund",
+              "Ursache",
+              "Anlass",
+              "Zweck"
+            ],
+            "odd": 3,
+            "why": "„Zweck\" ist eine Absicht (Ziel); die anderen drei sind Auslöser / Erklärungen."
+          },
+          {
+            "items": [
+              "Meinung",
+              "Auffassung",
+              "Ansicht",
+              "Beweis"
+            ],
+            "odd": 3,
+            "why": "„Beweis\" ist ein Nachweis; die anderen drei sind subjektive Standpunkte."
+          },
+          {
+            "items": [
+              "aktuell",
+              "sensibel",
+              "eventuell",
+              "sorgfältig"
+            ],
+            "odd": 3,
+            "why": "„aktuell / sensibel / eventuell\" sind klassische falsche Freunde; „sorgfältig\" nicht."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "A11",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum.",
+      "title": "Odd one out: Synonyme Gruppen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Die Polizei untersucht den Unfall.",
+            "tiles": [
+              "Die",
+              "Polizei",
+              "untersucht",
+              "den",
+              "Unfall"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Wir freuen uns auf die Herausforderung.",
+            "tiles": [
+              "Wir",
+              "freuen",
+              "uns",
+              "auf",
+              "die",
+              "Herausforderung"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Die Ursache des Brandes ist unklar.",
+            "tiles": [
+              "Die",
+              "Ursache",
+              "des",
+              "Brandes",
+              "ist",
+              "unklar"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Er hat Bedenken wegen des Vertrags.",
+            "tiles": [
+              "Er",
+              "hat",
+              "Bedenken",
+              "wegen",
+              "des",
+              "Vertrags"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A12",
+      "instructions": "Bring die Wörter in die richtige Reihenfolge.",
+      "title": "Satzbau: Synonyme im Satz"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "erforscht"
+              },
+              {
+                "key": "b",
+                "text": "prüft"
+              },
+              {
+                "key": "c",
+                "text": "untersucht"
+              }
+            ],
+            "q": "Der Arzt ___ den Patienten gründlich.",
+            "why": "Ärzte „untersuchen\" Patienten — systematisch."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "erforscht"
+              },
+              {
+                "key": "b",
+                "text": "prüft"
+              },
+              {
+                "key": "c",
+                "text": "testet"
+              }
+            ],
+            "q": "Der Wissenschaftler ___ seit Jahren das Verhalten von Bienen.",
+            "why": "Wissenschaftler „erforschen\" ein Thema — über Jahre, neu."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "erforscht"
+              },
+              {
+                "key": "b",
+                "text": "testet"
+              },
+              {
+                "key": "c",
+                "text": "prüft"
+              }
+            ],
+            "q": "Die Firma ___ das neue Medikament an Mäusen.",
+            "why": "Medikamente „testet\" man — unter realen Bedingungen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "erforscht"
+              },
+              {
+                "key": "b",
+                "text": "prüft"
+              },
+              {
+                "key": "c",
+                "text": "testet"
+              }
+            ],
+            "q": "Das Finanzamt ___ die Steuererklärung.",
+            "why": "Behörden „prüfen\" — formal, kontrollierend."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "vermeidet"
+              },
+              {
+                "key": "b",
+                "text": "umgeht"
+              },
+              {
+                "key": "c",
+                "text": "unterbindet"
+              }
+            ],
+            "q": "Die Polizei ___ den Schwarzmarkt.",
+            "why": "Die Polizei „unterbindet\" — aktiv, obrigkeitlich."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B1",
+      "instructions": "Wähle das passende Verb (a, b oder c).",
+      "title": "Das richtige Verb im Kontext"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "erlaubt"
+          ],
+          "2": [
+            "gestattet"
+          ],
+          "3": [
+            "räumt"
+          ],
+          "4": [
+            "lässt"
+          ],
+          "5": [
+            "gestattet"
+          ],
+          "6": [
+            "erlauben"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. (sachlich, alltagsnah) Die Chefin {1} ihr Homeoffice.\n2. (sehr förmlich, amtlich) Die Behörde {2} die Veranstaltung.\n3. (kooperativ, anerkennend) Im Gespräch {3} der Professor ein: „Das ist ein guter Punkt.\"\n4. (passiv, juristisch) Das Verfahren {4} keine Ausnahmen.\n5. (förmlich, gehoben) Das Gericht {5} dem Kläger die Berufung.\n6. (neutral, sachlich) Wir {6} den Schülern, ihre Jacken an der Garderobe aufzuhängen.\n",
+        "type": "gap-text"
+      },
+      "id": "B2",
+      "instructions": "Setze das passende Verb ein (erlauben / gestatten / zulassen / einräumen). 6 Items.",
+      "title": "Erlaubnis-Verben im richtigen Register"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Folgen"
+              },
+              {
+                "key": "b",
+                "text": "Auswirkungen"
+              },
+              {
+                "key": "c",
+                "text": "Konsequenzen"
+              }
+            ],
+            "q": "Im Geschäftsbrief: „Die ___ des neuen Gesetzes auf den Arbeitsmarkt sind erheblich.\"",
+            "why": "„Auswirkungen\" passt fachlich-deskriptiv."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ergebnisse"
+              },
+              {
+                "key": "b",
+                "text": "Auswirkungen"
+              },
+              {
+                "key": "c",
+                "text": "Konsequenzen"
+              }
+            ],
+            "q": "In einer Warnung: „Die ___ sind unabsehbar.\"",
+            "why": "„Konsequenzen\" wertet warnend, oft negativ."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Folgen"
+              },
+              {
+                "key": "b",
+                "text": "Auswirkungen"
+              },
+              {
+                "key": "c",
+                "text": "Konsequenzen"
+              }
+            ],
+            "q": "Im philosophischen Kontext: „Die ___ des Ersten Weltkriegs sind bis heute umstritten.\"",
+            "why": "„Folgen\" passt — zeitliche / logische Nachwirkung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ergebnis"
+              },
+              {
+                "key": "b",
+                "text": "Folge"
+              },
+              {
+                "key": "c",
+                "text": "Konsequenz"
+              }
+            ],
+            "q": "In einem positiven Kontext: „Das ___ war ein voller Erfolg.\"",
+            "why": "„Ergebnis\" passt — sachlich, neutral."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Meinung"
+              },
+              {
+                "key": "b",
+                "text": "Ansicht"
+              },
+              {
+                "key": "c",
+                "text": "Auffassung"
+              }
+            ],
+            "q": "In einem gehobenen Kontext: „Ich vertrete die ___, dass das so nicht funktioniert.\"",
+            "why": "„Auffassung\" passt — gehoben, klar konturiert."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B3",
+      "instructions": "Wähle das passende Nomen (a, b oder c).",
+      "title": "Das richtige Nomen im Kontext"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "aktuell"
+          },
+          {
+            "key": "2",
+            "text": "sensibel"
+          },
+          {
+            "key": "3",
+            "text": "eventuell"
+          },
+          {
+            "key": "4",
+            "text": "realisieren"
+          },
+          {
+            "key": "5",
+            "text": "sympathisieren"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "gegenwärtig, derzeit"
+          },
+          {
+            "key": "b",
+            "text": "empfindlich, feinfühlig"
+          },
+          {
+            "key": "c",
+            "text": "vielleicht, möglicherweise"
+          },
+          {
+            "key": "d",
+            "text": "verwirklichen, in die Tat umsetzen"
+          },
+          {
+            "key": "e",
+            "text": "sich positiv zeigen für"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B4",
+      "instructions": "Ordne jedem Wort (1–5) die korrekte deutsche Bedeutung (a–e) zu.",
+      "title": "Falsche Freunde — Wort und Bedeutung"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist tatsächlich eine gute Idee."
+              },
+              {
+                "key": "b",
+                "text": "Das ist eigentlich eine gute Idee."
+              },
+              {
+                "key": "c",
+                "text": "Das ist aktuell eine gute Idee."
+              }
+            ],
+            "q": "Englisch: „That is actually a good idea.\" — Deutscher Ersatz:",
+            "why": "„tatsächlich\" entspricht „actually\" (= „in Wirklichkeit\"). „eigentlich\" ist auch möglich."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Eventuell kommen wir an."
+              },
+              {
+                "key": "b",
+                "text": "Schließlich kommen wir an."
+              },
+              {
+                "key": "c",
+                "text": "Schlussendlich kommen wir an."
+              }
+            ],
+            "q": "Englisch: „Eventually we will arrive.\" — Deutscher Ersatz:",
+            "why": "„eventually\" = „schließlich\" / „am Ende\", nicht „eventuell\" (= vielleicht)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich habe die Wahrheit endlich realisiert."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe die Wahrheit endlich verwirklicht."
+              },
+              {
+                "key": "c",
+                "text": "Ich habe die Wahrheit endlich erkannt."
+              }
+            ],
+            "q": "Englisch: „I finally realized the truth.\" — Deutscher Ersatz:",
+            "why": "„to realize\" (im Sinn von „begreifen\") = „erkennen\", nicht „verwirklichen\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er ist ein vernünftiger Mensch."
+              },
+              {
+                "key": "b",
+                "text": "Er ist ein sensibler Mensch."
+              },
+              {
+                "key": "c",
+                "text": "Er ist ein empfindlicher Mensch."
+              }
+            ],
+            "q": "Englisch: „He is a sensible person.\" — Deutscher Ersatz:",
+            "why": "„sensible\" (EN) = „vernünftig\", nicht „sensibel\" (= empfindlich)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich sympathisiere mit dir."
+              },
+              {
+                "key": "b",
+                "text": "Ich fühle mit dir."
+              },
+              {
+                "key": "c",
+                "text": "Ich mag dich."
+              }
+            ],
+            "q": "Englisch: „I sympathize with you.\" — Deutscher Ersatz:",
+            "why": "„to sympathize\" = „mitfühlen\", nicht „sympathisieren\" (= sich positiv zeigen für)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B5",
+      "instructions": "Wähle das deutsche Wort, das die Bedeutung des englischen Wortes korrekt wiedergibt.",
+      "title": "Finde den richtigen Ersatz (falsche Freunde)"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "verstorben"
+          ],
+          "2": [
+            "ins Gras gebissen"
+          ],
+          "3": [
+            "trage"
+          ],
+          "4": [
+            "bemerkenswert"
+          ],
+          "5": [
+            "Auffassung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. (förmlich): „Er ist gestorben.\" → Er ist {1}.\n2. (salopp): „Er ist verstorben.\" → Er hat {2}.\n3. (förmlich): „Ich habe Angst.\" → Ich {3} Bedenken.\n4. (wissenschaftlich): „Das Ergebnis ist super.\" → Das Ergebnis ist {4}.\n5. (förmlich): „Ich finde das nicht gut.\" → Ich bin der {5}, dass das so nicht funktioniert.\n",
+        "type": "gap-text"
+      },
+      "id": "B6",
+      "instructions": "Forme die Sätze ins angegebene Register um. 5 Items.",
+      "title": "Konnotation im Satz — Register anpassen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "eine starke Meinung haben"
+              },
+              {
+                "key": "b",
+                "text": "eine dezidierte Meinung haben"
+              },
+              {
+                "key": "c",
+                "text": "eine schwere Meinung haben"
+              }
+            ],
+            "q": "Welche Kollokation ist korrekt?",
+            "why": "„stark\" kollokiert nicht mit „Meinung\"; „dezidiert\" passt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "eine schwierige Frage stellen"
+              },
+              {
+                "key": "b",
+                "text": "eine starke Frage stellen"
+              },
+              {
+                "key": "c",
+                "text": "eine große Frage stellen"
+              }
+            ],
+            "q": "Welche Kollokation ist korrekt?",
+            "why": "„schwierige Frage\" ist korrekt; „starke Frage\" kollokiert nicht."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "eine schwierige Aufgabe übernehmen"
+              },
+              {
+                "key": "b",
+                "text": "eine schwierige Aufgabe machen"
+              },
+              {
+                "key": "c",
+                "text": "eine schwierige Aufgabe bauen"
+              }
+            ],
+            "q": "Welche Kollokation ist korrekt?",
+            "why": "„eine Aufgabe übernehmen / bewältigen / erledigen\" — nicht „machen\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "einen Grund bauen"
+              },
+              {
+                "key": "b",
+                "text": "einen Grund angeben"
+              },
+              {
+                "key": "c",
+                "text": "einen Grund realisieren"
+              }
+            ],
+            "q": "Welche Kollokation ist korrekt?",
+            "why": "„einen Grund angeben / nennen / vermuten\" — nicht „bauen\" / „realisieren\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "eine Ursache ermitteln"
+              },
+              {
+                "key": "b",
+                "text": "eine Ursache angeben"
+              },
+              {
+                "key": "c",
+                "text": "eine Ursache tun"
+              }
+            ],
+            "q": "Welche Kollokation ist korrekt?",
+            "why": "„eine Ursache ermitteln / suchen / beseitigen\" — nicht „angeben\" / „tun\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B7",
+      "instructions": "Wähle die korrekte Kollokation (a, b oder c).",
+      "title": "Kollokationen prüfen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist mega wichtig für mich."
+              },
+              {
+                "key": "b",
+                "text": "Das ist von zentraler Bedeutung für mich."
+              },
+              {
+                "key": "c",
+                "text": "Das ist voll krass wichtig."
+              }
+            ],
+            "q": "In einer Bewerbung:",
+            "why": "„zentraler Bedeutung\" passt zum Register einer Bewerbung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Methode ist echt gut."
+              },
+              {
+                "key": "b",
+                "text": "Die Methode ist mega cool."
+              },
+              {
+                "key": "c",
+                "text": "Die Methode erweist sich als geeignet."
+              }
+            ],
+            "q": "In einer wissenschaftlichen Hausarbeit:",
+            "why": "„erweist sich als geeignet\" passt zum wissenschaftlichen Register."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er ist verstorben."
+              },
+              {
+                "key": "b",
+                "text": "Er hat ins Gras gebissen."
+              },
+              {
+                "key": "c",
+                "text": "Er ist abgekratzt."
+              }
+            ],
+            "q": "In einer Todesanzeige:",
+            "why": "„verstorben\" ist angemessen; die anderen Varianten sind abwertend."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sorry, hab verschissen."
+              },
+              {
+                "key": "b",
+                "text": "Wir bitten, den Fehler zu entschuldigen."
+              },
+              {
+                "key": "c",
+                "text": "Sorry, mein Fehler."
+              }
+            ],
+            "q": "In einer Geschäfts-E-Mail:",
+            "why": "„bitten, den Fehler zu entschuldigen\" passt zur förmlichen E-Mail."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er verstarb im 87. Lebensjahr."
+              },
+              {
+                "key": "b",
+                "text": "Er starb im 87. Lebensjahr."
+              },
+              {
+                "key": "c",
+                "text": "Er verschied."
+              }
+            ],
+            "q": "In einem Roman:",
+            "why": "In Romanen wird „starb\" dem „verstarb\" vorgezogen — schlichter, literarisch."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B8",
+      "instructions": "Wähle die angemessene Version (a, b oder c).",
+      "title": "Registerbruch erkennen und korrigieren"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "ernst"
+          ],
+          "2": [
+            "bearbeiten"
+          ],
+          "3": [
+            "positiv"
+          ],
+          "4": [
+            "überwinden"
+          ],
+          "5": [
+            "wissenschaftlich"
+          ],
+          "6": [
+            "Register"
+          ],
+          "7": [
+            "salopp"
+          ],
+          "8": [
+            "realisieren"
+          ],
+          "9": [
+            "Englischen"
+          ],
+          "10": [
+            "kultiviert"
+          ]
+        },
+        "listLayout": true,
+        "text": "Auf C1-Niveau braucht man nicht **ein** Wort für eine Sache,\nsondern **mehrere** — und die Wahl ist eine Frage der **Wertung**.\n*Problem* klingt {1} und zu lösen, *Aufgabe* klingt neutral und zu\n{2}, *Herausforderung* klingt {3} und wertend,\n*Schwierigkeit* klingt vorsichtig und zu {4}. Bei den Verben\ngilt: *untersuchen* ist systematisch, *erforschen* ist {5},\n*prüfen* ist formell und *testen* ist praktisch. Wer das\n{6} der Wörter nicht beachtet, klingt im Geschäftsbrief\n{7} oder im Smalltalk pathetisch. Falsche Freunde wie *aktuell*\noder *{8}* schleichen sich oft ein, wenn man\nunbewusst aus dem {9} übersetzt. Wer Synonyme bewusst wählt,\nschreibt nicht nur korrekt, sondern {10}.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Füll jede Lücke mit **einem** passenden Wort. 10 Items.",
+      "title": "Lückentext: Synonymik und Konnotation"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "prüft"
+              },
+              {
+                "key": "b",
+                "text": "untersucht"
+              },
+              {
+                "key": "c",
+                "text": "testet"
+              }
+            ],
+            "q": "Das Gericht {1} die Verfassungsmäßigkeit des Gesetzes.",
+            "why": "Gerichte „prüfen\" — formal, kontrollierend."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "prüfen"
+              },
+              {
+                "key": "b",
+                "text": "testen"
+              },
+              {
+                "key": "c",
+                "text": "erforschen"
+              }
+            ],
+            "q": "Wir {1} die App mit zwanzig Nutzern.",
+            "why": "Apps „testet\" man — praktisch, unter realen Bedingungen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Herausforderung"
+              },
+              {
+                "key": "b",
+                "text": "Schwierigkeit"
+              },
+              {
+                "key": "c",
+                "text": "Aufgabe"
+              }
+            ],
+            "q": "Diese Woche steht eine schwere {1} an.",
+            "why": "Sachlich, zu bearbeiten: „Aufgabe\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Herausforderung"
+              },
+              {
+                "key": "b",
+                "text": "Schwierigkeit"
+              },
+              {
+                "key": "c",
+                "text": "Aufgabe"
+              }
+            ],
+            "q": "Wir freuen uns auf die {1} mit dem internationalen Team.",
+            "why": "Positiv, wertend: „Herausforderung\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Gründe"
+              },
+              {
+                "key": "b",
+                "text": "Ursachen"
+              },
+              {
+                "key": "c",
+                "text": "Anlässe"
+              }
+            ],
+            "q": "Die {1} des Erdbebens ist unklar.",
+            "why": "Physischer Auslöser: „Ursache\"."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Schließlich"
+              },
+              {
+                "key": "b",
+                "text": "Keinesfalls"
+              },
+              {
+                "key": "c",
+                "text": "Eventuell"
+              }
+            ],
+            "q": "„{1}“ bedeutet im Deutschen „vielleicht\".",
+            "why": "„eventuell\" heißt „vielleicht\"; „schließlich\" entspricht „eventually\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle die passende Option (a, b oder c) für jede Lücke.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "ERSATZ"
+          ],
+          "2": [
+            "PROBLEM"
+          ],
+          "3": [
+            "BEWERTET"
+          ],
+          "4": [
+            "LÖST"
+          ],
+          "5": [
+            "NIMMT"
+          ],
+          "6": [
+            "UNTERSUCHEN"
+          ],
+          "7": [
+            "TESTEN"
+          ],
+          "8": [
+            "FALSCHE FREUNDE"
+          ],
+          "9": [
+            "EIGENTLICH"
+          ],
+          "10": [
+            "ERKENNEN"
+          ]
+        },
+        "bank": [
+          "ERSATZ",
+          "PROBLEM",
+          "BEWERTET",
+          "LÖST",
+          "NIMMT",
+          "UNTERSUCHEN",
+          "TESTEN",
+          "FALSCHE FREUNDE",
+          "EIGENTLICH",
+          "ERKENNEN",
+          "REGISTER",
+          "VERMEIDEN",
+          "KONTEXT",
+          "FOLGE",
+          "ÜBERNEHMEN"
+        ],
+        "text": "In einem Sprachblog steht: „Synonymik ist mehr als nur\n{1}. Wer C1 schreibt, muss zwischen {2},\n*Aufgabe*, *Herausforderung* und *Schwierigkeit*\nunterscheiden — jedes Wort {3} die Sache anders. Ein\n*Problem* {4} man, eine *Aufgabe* bearbeitet man, eine\n*Herausforderung* {5} man an, eine *Schwierigkeit* überwindet\nman. Bei den Verben gilt: *{6}* ist systematisch,\n*erforschen* ist wissenschaftlich, *prüfen* ist formell,\n*{7}* ist praktisch. Auch {8} zählen: *aktuell*\nheißt NICHT ‚{9}‘, und *realisieren* heißt ‚verwirklichen‘,\nnicht ‚{10}‘. Wer das beachtet, schreibt präzise.\"\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Füll die 10 Lücken mit Wörtern aus dem Kasten. Fünf Wörter sind zu viel. Jedes Wort wird nur einmal benutzt.",
+      "title": "Sprachbausteine Teil 2 (Wortbank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Laut Text sind die vielen scheinbar synonymen Wörter im Deutschen wirklich austauschbar.",
+            "why": "„Für ein und dieselbe Sache gibt es im Deutschen oft mehrere Wörter — und sie sind nicht einfach austauschbar.\""
+          },
+          {
+            "answer": true,
+            "q": "„Problem\" klingt laut Text ernst und zu lösen.",
+            "why": "„Problem klingt ernst und zu lösen.\""
+          },
+          {
+            "answer": false,
+            "q": "„Aufgabe\" klingt laut Text motivierend und wertend.",
+            "why": "„Aufgabe klingt sachlich und zu bearbeiten\"; „Herausforderung\" klingt motivierend und wertend."
+          },
+          {
+            "answer": true,
+            "q": "„Veranlassung\" stammt laut Text aus der Verwaltungssprache.",
+            "why": "„Veranlassung aus der Verwaltungssprache.\""
+          },
+          {
+            "answer": false,
+            "q": "Der Text behauptet, die Wortwahl sei eine rein grammatische Frage.",
+            "why": "„Die Wahl des Wortes ist also nie neutral — sie ist eine soziale Handlung.\""
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Wer eine Sprache auf höherem Niveau beherrschen will, steht früher oder später vor einer merkwürdigen Beobachtung: Für ein und dieselbe Sache gibt es im Deutschen oft mehrere Wörter — und sie sind nicht einfach austauschbar. Wer „ein Problem\" sagen will, kann auch „eine Aufgabe\", „eine Herausforderung\" oder „eine Schwierigkeit\" sagen. Auf den ersten Blick wirkt das überflüssig.\n>\n> Bei genauerer Betrachtung zeigt sich jedoch: Die scheinbar synonymen Wörter sind fein kalibriert. Problem klingt ernst und zu lösen, Aufgabe klingt sachlich und zu bearbeiten, Herausforderung klingt motivierend und anzunehmen, Schwierigkeit klingt vorsichtig und zu überwinden. Wer die Wahl hat, kann dosieren — und damit den Text an Sprecher, Situation und Wirkung anpassen.\n>\n> Diese Feinjustierung hat eine lange sprachgeschichtliche Wurzel. Viele der heute synonym wirkenden Wörter stammen aus unterschiedlichen Kontexten — Veranlassung aus der Verwaltungssprache, Überzeugung aus der religiösen Sprache der Reformationszeit. Das Deutsche hat über die Jahrhunderte hinweg Wörter aus verschiedenen Quellen aufgenommen und sie nebeneinander weiterverwendet, ohne sie anzugleichen.\n>\n> Wer diese Wahl nicht trifft, schreibt zwar korrekt, aber ungenau. Wer einem Kunden schreibt „Ihr Anliegen ist eine schwierige Herausforderung\", mischt Schwierigkeit und Herausforderung und signalisiert Unsicherheit. Die Wahl des Wortes ist also nie neutral — sie ist eine soziale Handlung, die Wertung, Beziehung und Wirkung mittransportiert.\n\nRichtig (R) oder Falsch (F)?\n",
+      "title": "Lesen Text 1 (Lesetext: Warum gibt es im Deutschen so viele „synonyme\" Wörter?)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sollte das Deutsche vereinfacht werden?"
+              },
+              {
+                "key": "b",
+                "text": "Ist der Wortreichtum des Deutschen eine Bereicherung oder unnötiger Ballast?"
+              },
+              {
+                "key": "c",
+                "text": "Welches Wort ist am wichtigsten?"
+              }
+            ],
+            "q": "Was ist die Leitfrage der Diskussion?",
+            "why": "„Ist der Wortreichtum des Deutschen eine Bereicherung oder unnötiger Ballast?\" (Beitrag 1)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wortreichtum ist eine Bereicherung, aber man muss die Wörter kennen."
+              },
+              {
+                "key": "b",
+                "text": "Wortreichtum ist unnötiger Ballast."
+              },
+              {
+                "key": "c",
+                "text": "Nur Muttersprachler beherrschen den Wortreichtum."
+              }
+            ],
+            "q": "Welche Position vertritt Yusuf (Beitrag 2)?",
+            "why": "„der Wortreichtum ist eine echte Bereicherung … Allerdings muss man die Wörter tatsächlich kennen.\""
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dass es im Englischen zu wenige Wörter gibt."
+              },
+              {
+                "key": "b",
+                "text": "Dass die vielen feinen Unterschiede sie überfordern."
+              },
+              {
+                "key": "c",
+                "text": "Dass das Deutsche zu einfach ist."
+              }
+            ],
+            "q": "Was kritisiert Anna (Beitrag 3)?",
+            "why": "„Diese vielen feinen Unterschiede machen das Deutsche unnötig kompliziert.\""
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Im Beruf hilft ihm die feine Wortwahl bei Verhandlungen."
+              },
+              {
+                "key": "b",
+                "text": "Wortreichtum macht Texte länger."
+              },
+              {
+                "key": "c",
+                "text": "Wortreichtum ist nur in der Literatur nützlich."
+              }
+            ],
+            "q": "Welches Argument bringt Bruno (Beitrag 4) für den Wortreichtum?",
+            "why": "„Gerade im Beruf hilft mir die feine Wortwahl … Wortwahl ist Verhandlung.\""
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Lies die folgenden Forumsbeiträge und wähle a, b oder c.\n\n> **Beitrag 1 — Redaktion (Moderation):**\n> Liebe Community, in dieser Woche diskutieren wir die Frage: Ist der Wortreichtum des Deutschen eine Bereicherung oder unnötiger Ballast? Bitte belegen Sie Ihre Beiträge nach Möglichkeit mit Beispielen.\n>\n> **Beitrag 2 — Dr. Yusuf El-Sayed:**\n> Aus meiner Sicht ist der Wortreichtum eine echte Bereicherung. Wer zwischen „Problem\", „Aufgabe\", „Herausforderung\" und „Schwierigkeit\" unterscheidet, kann seine Aussage viel feiner kalibrieren. Allerdings muss man die Wörter tatsächlich kennen.\n>\n> **Beitrag 3 — Anna_K:**\n> Ich finde das überfordert mich total. Im Englischen sagt man einfach „challenge\" und fertig. Diese vielen feinen Unterschiede machen das Deutsche unnötig kompliziert.\n>\n> **Beitrag 4 — Bruno_S:**\n> Ich sehe das anders. Gerade im Beruf hilft mir die feine Wortwahl: Wenn ich meinem Chef sage „Das ist eine Herausforderung\" statt „Das ist ein Problem\", klingt das gleich ganz anders. Wortwahl ist Verhandlung.\n",
+      "title": "Lesen Text 2 (Forumsdiskussion: Wortreichtum — Bereicherung oder Ballast?)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "ernst"
+          ],
+          "2": [
+            "Ursache"
+          ],
+          "3": [
+            "gegenwärtig"
+          ],
+          "4": [
+            "verwirklichen"
+          ],
+          "5": [
+            "Register"
+          ],
+          "6": [
+            "to realize"
+          ],
+          "7": [
+            "actually"
+          ],
+          "8": [
+            "förmlichen"
+          ],
+          "9": [
+            "Register"
+          ],
+          "10": [
+            "deuten"
+          ],
+          "11": [
+            "dürfte"
+          ],
+          "12": [
+            "durchführen"
+          ],
+          "13": [
+            "nehmen"
+          ],
+          "14": [
+            "ab-"
+          ],
+          "15": [
+            "miss-"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Synonymik (C1/07):**\n1. „Problem\" klingt {1} und zu lösen, „Herausforderung\" klingt positiv und wertend.\n2. „Grund\" ist eine logische Erklärung, „{2}\" eine physische.\n3. „Aktuell\" heißt im Deutschen „{3}\", nicht „actually\".\n4. „Realisieren\" heißt im Deutschen „{4}\", nicht „begreifen\".\n5. Konnotation hat mit {5} zu tun — gehoben, sachlich, salopp.\n\n**Wiederholung (C1/04 Idiomatik und Kollokationen):**\n6. (C1/04) Falscher Freund: „realisieren\" ≠ „{6}\" (= begreifen).\n7. (C1/04) Falscher Freund: „aktuell\" ≠ „{7}\" (= eigentlich).\n\n**Wiederholung (C1/01 Stil und Register):**\n8. (C1/01) Ein Geschäftsbrief ist im {8} Register geschrieben.\n9. (C1/01) Jugendsprache in einer Bewerbung ist ein {9}-bruch.\n\n**Wiederholung (C1/05 Wissenschaftssprache):**\n10. (C1/05) Hedging: „Die Daten {10} darauf hin, dass …\"\n11. (C1/05) Hedging-Modalverb: „Das {11} zutreffen.\"\n\n**Wiederholung (B2/08 Funktionsverbgefüge):**\n12. (B2/08) eine Studie {12}.\n13. (B2/08) Bezug {13} auf.\n\n**Wiederholung (B2/09 Wortbildung):**\n14. (B2/09) Vorsilbe mit Bedeutung „weg\": {14}.\n15. (B2/09) Vorsilbe mit Bedeutung „falsch\": {15}.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Eine Minute pro Item. Keine Notizen. Items mit (B2/..) oder (C1/..) wiederholen frühere Lektionen. 15 Items.",
+      "title": "Gemischter Schnelltest"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "versterben",
+              "sterben",
+              "abkratzen",
+              "hinscheiden"
+            ],
+            "odd": 2,
+            "why": "„abkratzen\" ist salopp und abwertend; die anderen drei sind neutral bis gehoben."
+          },
+          {
+            "items": [
+              "dürfte",
+              "könnte",
+              "müsste",
+              "war"
+            ],
+            "odd": 3,
+            "why": "„war\" ist einfaches Präteritum; die anderen drei sind Hedging-Modalverben."
+          },
+          {
+            "items": [
+              "Problem",
+              "Aufgabe",
+              "Herausforderung",
+              "Triumph"
+            ],
+            "odd": 3,
+            "why": "„Triumph\" wertet positiv und gehört zum Erfolg-Feld; die anderen drei sind Schwierigkeits-Begriffe."
+          },
+          {
+            "items": [
+              "laut",
+              "zufolge",
+              "gemäß",
+              "weil"
+            ],
+            "odd": 3,
+            "why": "„weil\" ist ein kausaler Konnektor; die anderen drei leiten Verweise ein."
+          },
+          {
+            "items": [
+              "aktuell",
+              "sensibel",
+              "eventuell",
+              "sorgfältig"
+            ],
+            "odd": 3,
+            "why": "„aktuell / sensibel / eventuell\" sind falsche Freunde; „sorgfältig\" nicht."
+          },
+          {
+            "items": [
+              "Meinung",
+              "Auffassung",
+              "Ansicht",
+              "Überzeugung",
+              "Beweis"
+            ],
+            "odd": 4,
+            "why": "„Beweis\" ist ein Nachweis; die anderen vier sind subjektive Standpunkte."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum.",
+      "title": "Odd one out: Synonymik und Konnotation"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "durchführen"
+          ],
+          "2": [
+            "kommen"
+          ],
+          "3": [
+            "soziale"
+          ],
+          "4": [
+            "Register"
+          ],
+          "5": [
+            "actually"
+          ],
+          "6": [
+            "to realize"
+          ],
+          "7": [
+            "ziehen"
+          ],
+          "8": [
+            "deuten"
+          ],
+          "9": [
+            "Nomen"
+          ],
+          "10": [
+            "Herausforderung"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Aus B2/08 (Funktionsverbgefüge):**\n1. eine Studie {1}.\n2. zu dem Schluss {2}.\n\n**Aus C1/01 (Stil und Register):**\n3. Register ist die {3} Seite der Sprache.\n4. Jugendsprache im Geschäftsbrief ist ein {4}-bruch.\n\n**Aus C1/04 (Idiomatik und Kollokationen):**\n5. Falscher Freund: „aktuell\" ≠ „{5}\".\n6. Falscher Freund: „realisieren\" ≠ „{6}\" (= begreifen).\n7. Kollokation: einen Schluss {7}.\n\n**Aus C1/05 (Wissenschaftssprache):**\n8. Hedging: Die Daten {8} darauf hin.\n9. Übernominalisierung = zu viele {9}.\n\n**Aus C1/07 (Synonymik):**\n10. „Problem\" klingt ernst, „{10}\" klingt positiv und wertend.\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Wiederholung früherer Lektionen. 10 Items.",
+      "title": "Rückblick: B2/08, C1/01, C1/04, C1/05"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "erforschen"
+          ],
+          "2": [
+            "prüfen"
+          ],
+          "3": [
+            "testen"
+          ],
+          "4": [
+            "unterbinden"
+          ],
+          "5": [
+            "ernst"
+          ],
+          "6": [
+            "Ursache"
+          ],
+          "7": [
+            "Auffassung"
+          ],
+          "8": [
+            "gegenwärtig"
+          ],
+          "9": [
+            "verwirklichen"
+          ],
+          "10": [
+            "vielleicht"
+          ],
+          "11": [
+            "gehoben"
+          ],
+          "12": [
+            "salopp"
+          ],
+          "13": [
+            "positiv"
+          ],
+          "14": [
+            "Meinung"
+          ],
+          "15": [
+            "Kontext"
+          ],
+          "16": [
+            "Register"
+          ],
+          "17": [
+            "Kollokations"
+          ],
+          "18": [
+            "deuten"
+          ],
+          "19": [
+            "Nomen"
+          ],
+          "20": [
+            "durchführen"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Nahezu-synonyme Verben:**\n1. Wissenschaftlich neu erschließen: {1}.\n2. Formell kontrollieren: {2}.\n3. Praktisch erproben: {3}.\n4. Aktiv stoppen: {4}.\n\n**Nahezu-synonyme Nomen:**\n5. „Problem\" klingt {5}, „Herausforderung\" klingt positiv.\n6. „Grund\" ist logisch, „{6}\" ist physisch.\n7. „Meinung\" ist alltagsnah, „{7}\" ist gehoben.\n\n**Falsche Freunde:**\n8. „Aktuell\" heißt im Deutschen „{8}\", nicht „actually\".\n9. „Realisieren\" heißt im Deutschen „{9}\", nicht „begreifen\".\n10. „Eventuell\" heißt im Deutschen „{10}\", nicht „eventually\".\n\n**Konnotation und Register:**\n11. „Versterben\" ist {11} (gehoben / neutral / salopp).\n12. „Ins Gras beißen\" ist {12}.\n13. „Triumph\" wertet {13} (positiv / negativ / neutral).\n\n**Kollokation:**\n14. Eine starke {14} hat man nicht — richtig: eine dezidierte Meinung.\n\n**Wortfeld:**\n15. „Ursache\" / „Anlass\" / „Veranlassung\" / „Grund\" — die Frage nach dem {15} entscheidet die Wahl.\n\n**Typische Fehler:**\n16. Saloppe Wörter im Fachtext = {16}-bruch.\n17. Falsche Kollokation = {17}-bruch.\n\n**Wiederholung (C1/05):**\n18. (C1/05) Hedging: Die Daten {18} darauf hin.\n19. (C1/05) Übernominalisierung = zu viele {19}.\n\n**Wiederholung (B2/08):**\n20. (B2/08) eine Studie {20}.\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (bewerte dich /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "c1-07",
+  "intro": "Blöcke: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Die Lösungen findest du in solutions.md. Tipp: Verteil die Blöcke über mehrere Tage — H und A am Tag 1, B am Tag 2, C am Tag 3, D am Tag 4 nach einer Pause.\n",
+  "lesson": "C1/07",
+  "level": "C1",
+  "summary": null,
+  "title": "C1 · Lektion 7 — Übungen (Synonymik und Bedeutungsnuancen)",
+  "topic": null
+}

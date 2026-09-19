@@ -1,0 +1,705 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "maskulin",
+          "feminin",
+          "neutral",
+          "Plural"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "der gute Mann"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "die gute Frau"
+                ],
+                "gap": 2
+              },
+              {
+                "answer": [
+                  "das gute Kind"
+                ],
+                "gap": 3
+              },
+              {
+                "answer": [
+                  "die guten Leute"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "Nom."
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "den guten Mann"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "die gute Frau"
+                ],
+                "gap": 6
+              },
+              {
+                "answer": [
+                  "das gute Kind"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "die guten Leute"
+                ],
+                "gap": 8
+              }
+            ],
+            "label": "Akk."
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "dem guten Mann"
+                ],
+                "gap": 9
+              },
+              {
+                "answer": [
+                  "der guten Frau"
+                ],
+                "gap": 10
+              },
+              {
+                "answer": [
+                  "dem guten Kind"
+                ],
+                "gap": 11
+              },
+              {
+                "answer": [
+                  "den guten Leuten"
+                ],
+                "gap": 12
+              }
+            ],
+            "label": "Dat."
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die Tabelle mit gut + Mann/Frau/Kind/Leute.",
+      "instructionsEn": "Complete the table with gut + Mann/Frau/Kind/Leute.",
+      "skill": "case-endings",
+      "title": "Schwache Endung nach dem bestimmten Artikel"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "er"
+          ],
+          "2": [
+            "en"
+          ],
+          "3": [
+            "en"
+          ],
+          "4": [
+            "e"
+          ],
+          "5": [
+            "es"
+          ],
+          "6": [
+            "en"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das ist ein gut{1} Mann.\n2. Ich habe einen gut{2} Mann getroffen.\n3. Ich spreche mit einem gut{3} Mann.\n4. Das ist eine gut{4} Frau.\n5. Das ist ein gut{5} Kind.\n6. Ich helfe einem gut{6} Kind.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze die richtige Endung von gut.",
+      "instructionsEn": "Fill in the correct ending of gut. Watch maskulin Nominativ (-er) and neutral (-es) — that's where ein and der differ.",
+      "skill": "case-endings",
+      "title": "Gemischte Endung nach ein"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "neuer"
+          ],
+          "2": [
+            "neue"
+          ],
+          "3": [
+            "neues"
+          ],
+          "4": [
+            "neue"
+          ],
+          "5": [
+            "neuen"
+          ],
+          "6": [
+            "neuen"
+          ],
+          "7": [
+            "neue"
+          ],
+          "8": [
+            "neue"
+          ]
+        },
+        "bank": [
+          "neuer",
+          "neue",
+          "neues",
+          "neue",
+          "neuen",
+          "neuen",
+          "neue",
+          "neue"
+        ],
+        "text": "Heute kommt ein {1} Schüler in unsere Klasse. Der {2} Schüler\nheißt Elias. Er hat ein {3} Buch dabei. Ich finde das {4} Buch\ninteressant. Die Lehrerin gibt ihm einen {5} Stift. Er nimmt den\n{6} Stift und bedankt sich. Am Ende des Tages hat er schon eine\n{7} Freundin gefunden. Die {8} Freundin heißt Mia.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box — all forms of neu.",
+      "title": "Lückentext: Ein neuer Schüler"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "en"
+              },
+              {
+                "key": "b",
+                "text": "er"
+              },
+              {
+                "key": "c",
+                "text": "e"
+              }
+            ],
+            "q": "Ich trinke gern einen heiß___ Kaffee.",
+            "why": "gemischt, Akkusativ maskulin → -en."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "er"
+              },
+              {
+                "key": "c",
+                "text": "en"
+              }
+            ],
+            "q": "Der heiß___ Kaffee auf dem Tisch ist für dich.",
+            "why": "schwach, Nominativ maskulin → -e (nicht -er wie nach ein)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "es"
+              },
+              {
+                "key": "b",
+                "text": "e"
+              },
+              {
+                "key": "c",
+                "text": "en"
+              }
+            ],
+            "q": "Ich möchte ein neu___ Auto kaufen.",
+            "why": "gemischt, neutrum → -es."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "es"
+              },
+              {
+                "key": "b",
+                "text": "e"
+              },
+              {
+                "key": "c",
+                "text": "en"
+              }
+            ],
+            "q": "Das neu___ Auto dort gehört meinem Bruder.",
+            "why": "schwach, neutrum → -e (nicht -es wie nach ein)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "er"
+              },
+              {
+                "key": "b",
+                "text": "e"
+              },
+              {
+                "key": "c",
+                "text": "en"
+              }
+            ],
+            "q": "Ein schön___ Tag beginnt.",
+            "why": "gemischt, Nominativ maskulin → -er."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "er"
+              },
+              {
+                "key": "b",
+                "text": "e"
+              },
+              {
+                "key": "c",
+                "text": "en"
+              }
+            ],
+            "q": "Der schön___ Tag ist schon vorbei.",
+            "why": "schwach, Nominativ maskulin → -e."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Endung (a, b oder c).",
+      "instructionsEn": "Choose the correct ending (a, b, or c).",
+      "title": "der oder ein — welche Endung?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "er"
+              },
+              {
+                "key": "b",
+                "text": "e"
+              },
+              {
+                "key": "c",
+                "text": "en"
+              }
+            ],
+            "q": "Wir haben einen neu___ Kollegen bekommen.",
+            "why": "gemischt, Akkusativ maskulin → -en."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "er"
+              },
+              {
+                "key": "c",
+                "text": "en"
+              }
+            ],
+            "q": "Der neu___ Kollege heißt Marco.",
+            "why": "schwach, Nominativ maskulin → -e."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "er"
+              },
+              {
+                "key": "b",
+                "text": "e"
+              },
+              {
+                "key": "c",
+                "text": "en"
+              }
+            ],
+            "q": "Er hat eine gut___ Idee vorgeschlagen.",
+            "why": "gemischt, feminin → -e."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "er"
+              },
+              {
+                "key": "c",
+                "text": "en"
+              }
+            ],
+            "q": "Die gut___ Idee gefällt allen.",
+            "why": "schwach, feminin → -e."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "es"
+              }
+            ],
+            "q": "Wir haben ein neu___ Projekt gestartet.",
+            "why": "gemischt, neutrum → -es."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "es"
+              },
+              {
+                "key": "c",
+                "text": "en"
+              }
+            ],
+            "q": "Das neu___ Projekt läuft gut.",
+            "why": "schwach, neutrum → -e."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Marco arbeitet mit einem klein___ Team zusammen.",
+            "why": "Dativ (alle Genera) → -en."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "es"
+              }
+            ],
+            "q": "Das klein___ Team ist sehr effizient.",
+            "why": "schwach, neutrum → -e."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct ending for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Der neue Kollege"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "NEUES"
+          ],
+          "2": [
+            "NEUE"
+          ],
+          "3": [
+            "GROSSE"
+          ],
+          "4": [
+            "FRISCHEN"
+          ],
+          "5": [
+            "FRISCHE"
+          ],
+          "6": [
+            "SAFTIGES"
+          ],
+          "7": [
+            "SAFTIGE"
+          ],
+          "8": [
+            "LECKEREN"
+          ],
+          "9": [
+            "LECKERE"
+          ],
+          "10": [
+            "SCHÖNER"
+          ]
+        },
+        "bank": [
+          "NEUES",
+          "NEUE",
+          "GROSSE",
+          "FRISCHEN",
+          "FRISCHE",
+          "SAFTIGES",
+          "SAFTIGE",
+          "LECKEREN",
+          "LECKERE",
+          "SCHÖNER",
+          "SCHÖNE",
+          "NEUEN",
+          "GUTES"
+        ],
+        "text": "Wir gehen in ein {1} Restaurant. Das {2} Restaurant hat gute\nBewertungen. Der Kellner bringt eine {3} Speisekarte. Ich bestelle\neinen {4} Salat. Der {5} Salat schmeckt hervorragend. Mein Freund\nbestellt ein {6} Steak. Das {7} Steak ist perfekt gebraten. Zum\nNachtisch teilen wir einen {8} Kuchen. Der {9} Kuchen ist\nhausgemacht. Es war ein {10} Abend.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Three words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Im Restaurant (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "en"
+          ],
+          "2": [
+            "e"
+          ],
+          "3": [
+            "es"
+          ],
+          "4": [
+            "e"
+          ],
+          "5": [
+            "e"
+          ],
+          "6": [
+            "e"
+          ],
+          "7": [
+            "en"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich kaufe einen rot{1} Apfel.\n2. Der rot{2} Apfel schmeckt süß.\n3. Sie trägt ein blau{3} Kleid.\n4. Das blau{4} Kleid steht ihr gut.\n5. Wir besuchen eine alt{5} Stadt.\n6. Die alt{6} Stadt hat viele Touristen.\n7. Ich habe einen klein{7} Hund gesehen.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die richtige Endung.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "er"
+              },
+              {
+                "key": "b",
+                "text": "e"
+              },
+              {
+                "key": "c",
+                "text": "en"
+              }
+            ],
+            "q": "Ich trinke einen heiß___ Tee.",
+            "why": "gemischt, Akkusativ maskulin → -en."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "er"
+              },
+              {
+                "key": "c",
+                "text": "en"
+              }
+            ],
+            "q": "Der heiß___ Tee ist fertig.",
+            "why": "schwach, Nominativ maskulin → -e."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "es"
+              }
+            ],
+            "q": "Sie hat ein schnell___ Auto.",
+            "why": "gemischt, neutrum → -es."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "es"
+              },
+              {
+                "key": "c",
+                "text": "en"
+              }
+            ],
+            "q": "Das schnell___ Auto gehört ihr.",
+            "why": "schwach, neutrum → -e."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "en"
+              },
+              {
+                "key": "b",
+                "text": "e"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Wir kaufen eine modern___ Wohnung.",
+            "why": "gemischt, feminin → -e."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "e"
+              },
+              {
+                "key": "b",
+                "text": "en"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Ein lang___ Tag liegt vor uns.",
+            "why": "gemischt, Nominativ maskulin → -er."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct ending (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-05-adjektivdeklination-a2",
+  "intro": "Standalone drill set, not tied to any lesson. After der/die/das (the article already shows gender+case), the adjective just adds -e or -en — \"schwache\" endings. After ein/eine/ein (the article is silent in maskulin Nominativ and neutral Nominativ/Akkusativ), the adjective has to show it instead — \"gemischte\" endings: ein GUTER Mann, ein GUTES Kind. Everywhere else, ein and der behave the same. Blocks: A Basistraining (the two tables) → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/05-adjektivdeklination-a2",
+  "level": "A2",
+  "summary": null,
+  "title": "Adjektivendungen nach der/ein — A2",
+  "topic": "Adjektivdeklination (schwach, gemischt, stark)"
+}

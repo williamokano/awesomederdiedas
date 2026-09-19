@@ -1,0 +1,303 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "exam",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Im Jahr 2025 lag der Frauenanteil in den Vorständen bei 36 Prozent.",
+            "why": "\"Im Jahr 2025 lag der Frauenanteil in den Vorständen der 30 größten deutschen Unternehmen bei 36 Prozent.\""
+          },
+          {
+            "answer": false,
+            "q": "Das Ziel von 40 Prozent Frauenanteil wurde bis Ende 2025 erreicht.",
+            "why": "\"Ursprünglich hatte die Bundesregierung eine Quote von 40 Prozent bis Ende 2025 angepeilt — dieses Ziel wurde klar verfehlt.\""
+          },
+          {
+            "answer": false,
+            "q": "Auch auf der mittleren Managementebene ist der Frauenanteil gestiegen.",
+            "why": "\"Dort stagniert der Frauenanteil seit drei Jahren bei etwa 28 Prozent.\""
+          },
+          {
+            "answer": true,
+            "q": "Die Studienautorinnen und -autoren führen die Stagnation unter anderem auf die Doppelbelastung zurück.",
+            "why": "\"Viele Expertinnen und Experten führen dies auf die Doppelbelastung durch Familie und Beruf zurück.\""
+          },
+          {
+            "answer": false,
+            "q": "Laut Berger lässt sich der Trend nur durch verbindliche Quoten ändern.",
+            "why": "Die Autoren fordern Quoten UND flexiblere Arbeitszeitmodelle UND Ausbau der Kinderbetreuung — nicht nur Quoten."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "exam-L5",
+      "instructions": "> **Mehr Frauen in Führungspositionen — aber langsamer als versprochen**\n>\n> *Berlin, 12. März 2026* — Im Jahr 2025 lag der Frauenanteil in den Vorständen der 30 größten deutschen Unternehmen bei 36 Prozent. Das geht aus dem neuen „Führungsmonitor\" des Deutschen Instituts für Wirtschaftsforschung (DIW) hervor. Gegenüber dem Vorjahr ist das ein Anstieg um drei Prozentpunkte.\n>\n> „Die Entwicklung ist positiv, aber sie verläuft deutlich langsamer als geplant\", sagt Dr. Hilde Berger, Studienleiterin am DIW. „Ursprünglich hatte die Bundesregierung eine Quote von 40 Prozent bis Ende 2025 angepeilt — dieses Ziel wurde klar verfehlt.\"\n>\n> Während in den Vorständen großer Konzerne durchaus Fortschritte zu verzeichnen sind, sieht es auf der mittleren Managementebene anders aus: Dort stagniert der Frauenanteil seit drei Jahren bei etwa 28 Prozent. Viele Expertinnen und Experten führen dies auf die Doppelbelastung durch Familie und Beruf zurück. „Solange sich die Rahmenbedingungen nicht grundlegend ändern, werden qualifizierte Frauen weiterhin den Weg in die Chefetagen meiden\", erklärt Berger.\n>\n> Die Studienautoren fordern daher verbindliche Quoten auch für die zweite und dritte Führungsebene, flexiblere Arbeitszeitmodelle und einen Ausbau der betrieblichen Kinderbetreuung. Nur so ließe sich der Trend nachhaltig verändern.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "> **More women in leadership positions — but slower than promised**\n>\n> *Berlin, 12 March 2026* — In 2025, the share of women on the executive boards of the 30 largest German companies was 36 percent. This is reported in the new \"Leadership Monitor\" published by the German Institute for Economic Research (DIW). Compared to the previous year, this represents an increase of three percentage points.\n>\n> \"The development is positive, but it is clearly proceeding more slowly than planned,\" says Dr. Hilde Berger, study director at DIW. \"Originally, the federal government had aimed for a quota of 40 percent by the end of 2025 — this target was clearly missed.\"\n>\n> While progress is certainly being made on the executive boards of large corporations, the situation at middle management level looks different: there, the share of women has stagnated at around 28 percent for three years. Many experts attribute this to the double burden of family and career. \"As long as the basic conditions do not change fundamentally, qualified women will continue to avoid the path to the top,\" Berger explains.\n>\n> The study authors therefore demand binding quotas also for the second and third management levels, more flexible working-time models, and an expansion of company childcare. Only in this way could the trend be changed sustainably.\n\nTrue (R) or false (F)?\n",
+      "title": "Aufgabe 5 — Zeitungsartikel (Text 1): Richtig / Falsch"
+    },
+    {
+      "block": "exam",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie verläuft zu langsam."
+              },
+              {
+                "key": "b",
+                "text": "Sie ist rückläufig."
+              },
+              {
+                "key": "c",
+                "text": "Sie ist schneller als erwartet."
+              }
+            ],
+            "q": "Welche Aussage macht Dr. Hilde Berger über die Entwicklung der letzten Jahre?",
+            "why": "\"Die Entwicklung ist positiv, aber sie verläuft deutlich langsamer als geplant.\""
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Bundesregierung"
+              },
+              {
+                "key": "b",
+                "text": "Das Deutsche Institut für Wirtschaftsforschung"
+              },
+              {
+                "key": "c",
+                "text": "Die 30 größten deutschen Unternehmen"
+              }
+            ],
+            "q": "Wer hat den „Führungsmonitor\" veröffentlicht?",
+            "why": "Das geht aus dem neuen „Führungsmonitor\" des Deutschen Instituts für Wirtschaftsforschung (DIW) hervor."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Mehr flexible Arbeitszeitmodelle und Quoten auf mehreren Ebenen"
+              },
+              {
+                "key": "b",
+                "text": "Eine Quote von 50 Prozent ab 2027"
+              },
+              {
+                "key": "c",
+                "text": "Mehr Teilzeitstellen für Frauen"
+              }
+            ],
+            "q": "Was fordern die Studienautorinnen und -autoren?",
+            "why": "\"verbindliche Quoten auch für die zweite und dritte Führungsebene, flexiblere Arbeitszeitmodelle und einen Ausbau der betrieblichen Kinderbetreuung.\""
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "exam-L6",
+      "instructions": "> **Mehr Frauen in Führungspositionen — aber langsamer als versprochen**\n>\n> *Berlin, 12. März 2026* — Im Jahr 2025 lag der Frauenanteil in den Vorständen der 30 größten deutschen Unternehmen bei 36 Prozent. Das geht aus dem neuen „Führungsmonitor\" des Deutschen Instituts für Wirtschaftsforschung (DIW) hervor. Gegenüber dem Vorjahr ist das ein Anstieg um drei Prozentpunkte.\n>\n> „Die Entwicklung ist positiv, aber sie verläuft deutlich langsamer als geplant\", sagt Dr. Hilde Berger, Studienleiterin am DIW. „Ursprünglich hatte die Bundesregierung eine Quote von 40 Prozent bis Ende 2025 angepeilt — dieses Ziel wurde klar verfehlt.\"\n>\n> Während in den Vorständen großer Konzerne durchaus Fortschritte zu verzeichnen sind, sieht es auf der mittleren Managementebene anders aus: Dort stagniert der Frauenanteil seit drei Jahren bei etwa 28 Prozent. Viele Expertinnen und Experten führen dies auf die Doppelbelastung durch Familie und Beruf zurück. „Solange sich die Rahmenbedingungen nicht grundlegend ändern, werden qualifizierte Frauen weiterhin den Weg in die Chefetagen meiden\", erklärt Berger.\n>\n> Die Studienautoren fordern daher verbindliche Quoten auch für die zweite und dritte Führungsebene, flexiblere Arbeitszeitmodelle und einen Ausbau der betrieblichen Kinderbetreuung. Nur so ließe sich der Trend nachhaltig verändern.\n\nWählen Sie die richtige Antwort (a, b oder c).\n",
+      "instructionsEn": "> **More women in leadership positions — but slower than promised**\n>\n> *Berlin, 12 March 2026* — In 2025, the share of women on the executive boards of the 30 largest German companies was 36 percent. This is reported in the new \"Leadership Monitor\" published by the German Institute for Economic Research (DIW). Compared to the previous year, this represents an increase of three percentage points.\n>\n> \"The development is positive, but it is clearly proceeding more slowly than planned,\" says Dr. Hilde Berger, study director at DIW. \"Originally, the federal government had aimed for a quota of 40 percent by the end of 2025 — this target was clearly missed.\"\n>\n> While progress is certainly being made on the executive boards of large corporations, the situation at middle management level looks different: there, the share of women has stagnated at around 28 percent for three years. Many experts attribute this to the double burden of family and career. \"As long as the basic conditions do not change fundamentally, qualified women will continue to avoid the path to the top,\" Berger explains.\n>\n> The study authors therefore demand binding quotas also for the second and third management levels, more flexible working-time models, and an expansion of company childcare. Only in this way could the trend be changed sustainably.\n\nChoose the correct answer (a, b, or c).\n",
+      "title": "Aufgabe 6 — Zeitungsartikel (Text 1): Leseverstehen"
+    },
+    {
+      "block": "exam",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "d",
+          "3": "c",
+          "4": "e"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Beitrag 1 — Sandra_Kr (Arbeitgeberin, Personalabteilung)"
+          },
+          {
+            "key": "2",
+            "text": "Beitrag 2 — Tom-Meier (Softwareentwickler, remote)"
+          },
+          {
+            "key": "3",
+            "text": "Beitrag 3 — Dr. Eva Nowak (Arbeitspsychologin)"
+          },
+          {
+            "key": "4",
+            "text": "Beitrag 4 — Layla.B (Studentin, Werkstudentin)"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "A — Sie schätzt die Flexibilität, vermisst aber den persönlichen Kontakt im Team."
+          },
+          {
+            "key": "b",
+            "text": "B — Sie würde gern dauerhaft von zu Hause arbeiten, ohne je ins Büro zu kommen."
+          },
+          {
+            "key": "c",
+            "text": "C — Sie sieht sowohl Vor- als auch Nachteile und betont die Rolle der Arbeitgeber."
+          },
+          {
+            "key": "d",
+            "text": "D — Sie spart Pendelzeit und schätzt die Konzentration, wünscht sich aber Hybrid."
+          },
+          {
+            "key": "e",
+            "text": "E — Sie bevorzugt ein Hybridmodell, weil ihr Studium und Job unter einen Hut müssen."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "exam-L7",
+      "instructions": "> **Thema: Sollte Homeoffice zur Regel werden?**\n>\n> **Beitrag 1 — Sandra_Kr (Arbeitgeberin, Personalabteilung):**\n> Wir haben in unserer Firma vor zwei Jahren vollständig auf Homeoffice umgestellt. Die Produktivität ist gestiegen, die Fluktuationsrate ist gesunken, und unsere Bewerberinnen und Bewerber schätzen die Flexibilität. Allerdings fehlt vielen Mitarbeitenden der persönliche Austausch — Kreativität leidet, wenn man sich nie persönlich begegnet.\n>\n> **Beitrag 2 — Tom-Meier (Softwareentwickler, remote):**\n> Für mich ist Homeoffice ein Segen. Ich spare täglich zwei Stunden Pendelzeit und kann mich zu Hause viel besser konzentrieren. Was ich aber vermisse, sind die kleinen Gespräche auf dem Flur — die „Flurfunk\"-Informationen, die für die Projektarbeit wichtig sind. Ein Hybridmodell wäre für mich ideal.\n>\n> **Beitrag 3 — Dr. Eva Nowak (Arbeitspsychologin):**\n> Aus psychologischer Sicht ist die Lage differenzierter. Einige Studien zeigen, dass dauerhaftes Homeoffice zu Vereinsamung und Erschöpfung führen kann. Andere belegen, dass die Work-Life-Balance deutlich verbessert wird. Entscheidend ist, ob die Arbeitgeber die nötige Infrastruktur und die klaren Erwartungen schaffen.\n>\n> **Beitrag 4 — Layla.B (Studentin, Werkstudentin):**\n> Als Werkstudentin finde ich Hybrid am besten. Vollständig im Homeoffice fehlt mir der Kontakt zu den Kolleginnen und Kollegen; vollständig im Büro passt nicht zu meinen Vorlesungszeiten. Zwei Tage Büro, drei Tage Homeoffice wäre perfekt.\n\nWelche Aussage (a–e) passt zu welchem Forumsbeitrag (1–4)? Eine Aussage passt nicht.\n",
+      "instructionsEn": "> **Topic: Should homeoffice become the rule?**\n>\n> **Post 1 — Sandra_Kr (employer, HR department):**\n> Two years ago, our company switched entirely to homeoffice. Productivity has risen, the fluctuation rate has fallen, and our applicants appreciate the flexibility. However, many employees miss the personal exchange — creativity suffers when people never meet in person.\n>\n> **Post 2 — Tom-Meier (software developer, remote):**\n> For me, homeoffice is a blessing. I save two hours of commuting every day and can concentrate much better at home. What I do miss, however, are the small conversations in the hallway — the \"corridor chat\" information that is important for project work. A hybrid model would be ideal for me.\n>\n> **Post 3 — Dr. Eva Nowak (work psychologist):**\n> From a psychological perspective, the situation is more nuanced. Some studies show that permanent homeoffice can lead to isolation and exhaustion. Others show that work-life balance is significantly improved. The decisive factor is whether employers create the necessary infrastructure and clear expectations.\n>\n> **Post 4 — Layla.B (student, working student):**\n> As a working student, I find hybrid the best option. Working completely from home, I miss the contact with colleagues; working entirely in the office doesn't fit my lecture schedule. Two days in the office, three days homeoffice would be perfect.\n\nWhich statement (a–e) fits which forum post (1–4)? One statement does not fit.\n",
+      "title": "Aufgabe 7 — Forumsbeiträge zuordnen (Text 2)"
+    },
+    {
+      "block": "exam",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "kommt zu dem Ergebnis"
+              },
+              {
+                "key": "b",
+                "text": "geht zu dem Ergebnis"
+              },
+              {
+                "key": "c",
+                "text": "macht zu dem Ergebnis"
+              }
+            ],
+            "q": "Eine Studie der Universität Zürich _______ (1), dass Schlaf eine entscheidende Rolle spielt.",
+            "why": "\"kommt zu dem Ergebnis\" ist die feste Verbindung — *zu dem Ergebnis kommen*."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "schnitteten"
+              },
+              {
+                "key": "b",
+                "text": "schnitten"
+              },
+              {
+                "key": "c",
+                "text": "haben geschnitten"
+              }
+            ],
+            "q": "Die Probandinnen und Probanden _______ (2) im Durchschnitt 23 Prozent besser ab.",
+            "why": "Präteritum von *abschneiden* ist *schnitt(en) ab* — starkes Verb (schneiden → schnitt), Plural *schnitten*."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "darüber zurück"
+              },
+              {
+                "key": "b",
+                "text": "daran zurück"
+              },
+              {
+                "key": "c",
+                "text": "darauf zurück"
+              }
+            ],
+            "q": "Die Forscherinnen und Forscher führen das _______ (3), dass im Schlaf Vokabeln verfestigt werden.",
+            "why": "„zurückführen auf + Akk.\" → Pronominaladverb *darauf* (Sache)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "scheinen"
+              },
+              {
+                "key": "b",
+                "text": "scheint"
+              },
+              {
+                "key": "c",
+                "text": "scheinen sich"
+              }
+            ],
+            "q": "Insbesondere die Tiefschlafphasen _______ (4) dabei von Bedeutung zu sein.",
+            "why": "„scheinen + zu + Inf.\" mit Pluralsubjekt (*die Tiefschlafphasen*) → *scheinen* (nicht *scheint*); *scheinen* ist nicht reflexiv (also nicht *scheinen sich*)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "bevor"
+              },
+              {
+                "key": "b",
+                "text": "vor"
+              },
+              {
+                "key": "c",
+                "text": "während"
+              }
+            ],
+            "q": "Die Autorinnen und Autoren empfehlen, neue Lerninhalte kurz _______ (5) dem Schlafengehen zu wiederholen.",
+            "why": "Präposition *vor* + Dativ: *vor dem Schlafengehen*."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "worden"
+              },
+              {
+                "key": "b",
+                "text": "wurde"
+              },
+              {
+                "key": "c",
+                "text": "wird"
+              }
+            ],
+            "q": "So _______ (6) die Konsolidierung unterstützt.",
+            "why": "Generelles Statement (Präsens) → Passiv Präsens: *wird … unterstützt*."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "exam-L8",
+      "instructions": "> **Der Einfluss von Schlaf auf das Sprachenlernen**\n>\n> Eine Studie der Universität Zürich aus dem Jahr 2025 kommt zu dem Ergebnis, dass Schlaf eine entscheidende Rolle beim Erlernen einer Fremdsprache spielt. Die Forscherinnen und Forscher untersuchten 120 Studierende über einen Zeitraum von acht Wochen. Die Probandinnen und Probanden, die nach dem Lernen mindestens sieben Stunden schliefen, schnitten bei Grammatiktests im Durchschnitt 23 Prozent besser ab als die Vergleichsgruppe mit weniger Schlaf.\n>\n> Die Wissenschaftlerinnen und Wissenschaftler führen das darauf zurück, dass im Schlaf neu gelernte Vokabeln und grammatische Strukturen im Langzeitgedächtnis verfestigt werden. Insbesondere die Tiefschlafphasen scheinen dabei von Bedeutung zu sein.\n>\n> Die Autorinnen und Autoren empfehlen, neue Lerninhalte möglichst kurz vor dem Schlafengehen zu wiederholen, um die Konsolidierung zu unterstützen.\n\nWählen Sie für jede Lücke (1–6) die richtige Antwort (a, b oder c).\n",
+      "instructionsEn": "> **The influence of sleep on language learning**\n>\n> A 2025 study by the University of Zurich concludes that sleep plays a decisive role in learning a foreign language. The researchers examined 120 students over a period of eight weeks. The test subjects who slept at least seven hours after learning performed on average 23 percent better on grammar tests than the comparison group with less sleep.\n>\n> The scientists attribute this to the fact that newly learned vocabulary and grammatical structures are consolidated in long-term memory during sleep. The deep-sleep phases in particular seem to be of importance here.\n>\n> The authors recommend reviewing new learning content as shortly as possible before going to sleep, in order to support consolidation.\n\nChoose the correct answer (a, b, or c) for each gap (1–6).\n",
+      "title": "Aufgabe 8 — Wissenschaftlicher Text (Text 3): Lücken ergänzen"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "b2-14",
+  "intro": "Vollständiger Probeexamen im Format Goethe-Zertifikat B2 / telc Deutsch B2. Führen Sie den ganzen Test in einer Sitzung durch: Hören 30 Min. · Lesen 80 Min. · Schreiben 80 Min. · Sprechen 15 Min. (paarweise). Schauen Sie erst nach dem Abschluss aller Teile in solutions.md.\n",
+  "lesson": "B2/14",
+  "level": "B2",
+  "summary": null,
+  "title": "B2 · Lektion 14 — Übungen: Wiederholung & Prüfungstraining B2",
+  "topic": null
+}

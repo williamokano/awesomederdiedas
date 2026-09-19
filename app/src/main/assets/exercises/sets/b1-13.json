@@ -1,0 +1,1586 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "formell",
+            "label": "Formell (E-Mail / Brief)"
+          },
+          {
+            "key": "informell",
+            "label": "Informell (Nachricht / Chat)"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "formell",
+            "text": "Sehr geehrte Damen und Herren,"
+          },
+          {
+            "bucket": "informell",
+            "text": "Hey, wie geht's?"
+          },
+          {
+            "bucket": "formell",
+            "text": "Mit freundlichen Grüßen"
+          },
+          {
+            "bucket": "informell",
+            "text": "Bis bald!"
+          },
+          {
+            "bucket": "formell",
+            "text": "Ich schreibe Ihnen bezüglich …"
+          },
+          {
+            "bucket": "informell",
+            "text": "Ich wollte dir kurz sagen, dass …"
+          },
+          {
+            "bucket": "formell",
+            "text": "Ich bitte Sie um eine Rückmeldung."
+          },
+          {
+            "bucket": "informell",
+            "text": "Liebe Anna,"
+          },
+          {
+            "bucket": "formell",
+            "text": "Betreff: Beschwerde wegen …"
+          },
+          {
+            "bucket": "informell",
+            "text": "Viele Grüße!"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sort each phrase into the correct register category.",
+      "title": "Formell oder informell? — Register zuordnen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "f",
+          "2": "d",
+          "3": "b",
+          "4": "c",
+          "5": "e",
+          "6": "a"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Betreff"
+          },
+          {
+            "key": "2",
+            "text": "Anrede"
+          },
+          {
+            "key": "3",
+            "text": "Bezugssatz"
+          },
+          {
+            "key": "4",
+            "text": "Hauptteil"
+          },
+          {
+            "key": "5",
+            "text": "Schlusssatz"
+          },
+          {
+            "key": "6",
+            "text": "Grußformel"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Mit freundlichen Grüßen"
+          },
+          {
+            "key": "b",
+            "text": "Ich schreibe Ihnen bezüglich meines Aufenthalts vom 8. Juni."
+          },
+          {
+            "key": "c",
+            "text": "Der Zustand des Zimmers ließ leider zu wünschen übrig."
+          },
+          {
+            "key": "d",
+            "text": "Sehr geehrte Frau Weber,"
+          },
+          {
+            "key": "e",
+            "text": "Ich freue mich auf Ihre Antwort."
+          },
+          {
+            "key": "f",
+            "text": "Beschwerde wegen mangelhafter Zimmerqualität"
+          },
+          {
+            "key": "g",
+            "text": "Hallo und guten Tag!"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Match each part of a formal email (1–6) with its correct example (a–g). One example is not needed.",
+      "title": "E-Mail-Teile zuordnen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "geehrte"
+          ],
+          "2": [
+            "schreibe"
+          ],
+          "3": [
+            "mitteilen"
+          ],
+          "4": [
+            "wünschen"
+          ],
+          "5": [
+            "daher"
+          ],
+          "6": [
+            "Antwort"
+          ],
+          "7": [
+            "Juni"
+          ],
+          "8": [
+            "Grüßen"
+          ]
+        },
+        "text": "1. Sehr {1} Damen und Herren,\n2. Ich {2} Ihnen bezüglich meiner Bestellung vom 5. Juni.\n3. Ich möchte Ihnen {3}, dass das Produkt beschädigt war.\n4. Der Service ließ leider zu {4} übrig.\n5. Ich bitte Sie {5} um eine Rückerstattung.\n6. Ich freue mich auf Ihre {6}.\n7. Ich bitte um eine Rückmeldung bis zum 30. {7}.\n8. Mit freundlichen {8},\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Complete each formal phrase with one word. 8 items.",
+      "title": "Formelle Phrasen vervollständigen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Sehr geehrte"
+          ],
+          "2": [
+            "ließ"
+          ],
+          "3": [
+            "bitte"
+          ],
+          "4": [
+            "freue mich"
+          ],
+          "5": [
+            "Grüßen"
+          ],
+          "6": [
+            "bezüglich"
+          ]
+        },
+        "text": "1. Hallo! → {1} Damen und Herren,\n2. Ich find das echt nicht gut. → Der Service {2} leider zu wünschen übrig.\n3. Ich will mein Geld zurück. → Ich {3} Sie daher um eine Rückerstattung.\n4. Schreib mir mal! → Ich {4} auf Ihre Antwort.\n5. Tschüss, Anna → Mit freundlichen {5}, Anna Kowalski\n6. Hey — wegen meiner Bestellung: → Betreff: Anfrage {6} meiner Bestellung vom …\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Rewrite each informal phrase in formal register. 6 items.",
+      "title": "Register-Transformation: informell → formell"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Lieber"
+          ],
+          "2": [
+            "Nachricht"
+          ],
+          "3": [
+            "sagen"
+          ],
+          "4": [
+            "Lust"
+          ],
+          "5": [
+            "Grüße"
+          ],
+          "6": [
+            "bald"
+          ]
+        },
+        "text": "1. {1} Bruno,\n2. Danke für deine letzte {2}!\n3. Ich wollte dir kurz {3}, dass ich nächste Woche nach Wien fahre.\n4. Was machst du am Wochenende? Hast du {4}?\n5. Viele {5}!\n6. Bis {6}!\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Complete each informal message phrase. 6 items.",
+      "title": "Informelle Phrasen — Lücken füllen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              3,
+              1,
+              4,
+              2,
+              0
+            ],
+            "note": "Correct order: Betreff → Anrede → Hauptteil (Bezug+Inhalt+Bitte) → Schlusssatz → Grußformel.",
+            "tiles": [
+              "Mit freundlichen Grüßen, Anna Kowalski",
+              "Sehr geehrte Damen und Herren,",
+              "Ich freue mich auf Ihre Antwort.",
+              "Betreff: Beschwerde wegen mangelhafter Zimmerqualität",
+              "Ich schreibe Ihnen bezüglich meines Aufenthalts vom 8. Juni. Der Zustand des Zimmers ließ leider zu wünschen übrig. Ich bitte Sie daher um eine Rückerstattung."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A6",
+      "instructions": "A formal complaint email has been scrambled. Put the five parts in the correct order (drag or number 1–5).",
+      "title": "Formelle E-Mail in die richtige Reihenfolge bringen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "In einer formellen E-Mail schreibt man immer einen Betreff.",
+            "why": "Correct — the Betreff is mandatory in German formal emails."
+          },
+          {
+            "answer": false,
+            "q": "Man kann eine formelle E-Mail mit „Hallo!\" beginnen.",
+            "why": "\"Hallo!\" is too informal. Use \"Sehr geehrte/r …\" or \"Sehr geehrte Damen und Herren,\"."
+          },
+          {
+            "answer": true,
+            "q": "Die Grußformel „Mit freundlichen Grüßen\" steht am Ende einer formellen Mail.",
+            "why": "Correct — this is the standard formal closing formula in German."
+          },
+          {
+            "answer": true,
+            "q": "In einer informellen Nachricht kann man „Liebe Anna,\" als Anrede benutzen.",
+            "why": "Correct — Liebe/r + Vorname is standard for informal messages."
+          },
+          {
+            "answer": false,
+            "q": "Den vollen Namen schreibt man nach der Grußformel nicht, wenn man die Person gut kennt.",
+            "why": "In formal correspondence, always write your full name after the closing formula."
+          },
+          {
+            "answer": true,
+            "q": "Wenn man den Namen nicht kennt, schreibt man „Sehr geehrte Damen und Herren,\".",
+            "why": "Correct — this is the standard anonymous formal salutation."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "A7",
+      "instructions": "Is each statement about formal email conventions correct? Answer R (richtig) oder F (falsch).",
+      "title": "E-Mail-Regeln: Richtig oder Falsch?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Hallo zusammen!"
+              },
+              {
+                "key": "b",
+                "text": "Sehr geehrte Damen und Herren,"
+              },
+              {
+                "key": "c",
+                "text": "Liebe Hotelleitung,"
+              }
+            ],
+            "q": "Du schreibst eine formelle Beschwerde an ein Hotel, kennst aber keinen Namen.",
+            "why": "When no name is known, the standard formal opening is: Sehr geehrte Damen und Herren,"
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sehr geehrte Frau Becker,"
+              },
+              {
+                "key": "b",
+                "text": "Liebe Mia,"
+              },
+              {
+                "key": "c",
+                "text": "Guten Tag, Mia Becker,"
+              }
+            ],
+            "q": "Du schreibst eine informelle Nachricht an deine Freundin Mia.",
+            "why": "\"Liebe Mia,\" is the standard informal salutation for a female friend."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Hey, Herr Steinmeyer,"
+              },
+              {
+                "key": "b",
+                "text": "Lieber Friedrich,"
+              },
+              {
+                "key": "c",
+                "text": "Sehr geehrter Herr Steinmeyer,"
+              }
+            ],
+            "q": "Du schreibst an Herrn Steinmeyer, den du nicht persönlich kennst.",
+            "why": "\"Sehr geehrter Herr [Nachname],\" is the correct formal salutation for a male addressee."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Liebe Frau Weber,"
+              },
+              {
+                "key": "b",
+                "text": "Hey Frau Weber!"
+              },
+              {
+                "key": "c",
+                "text": "Sehr geehrte Frau Weber,"
+              }
+            ],
+            "q": "Du schreibst an deine Lehrerin Frau Weber, die du gut kennst, aber im Unterricht siezen.",
+            "why": "\"Liebe Frau Weber,\" is semi-formal — correct when you know the person but maintain Sie."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Guten Tag, Frau Müller,"
+              },
+              {
+                "key": "b",
+                "text": "Sehr geehrte Frau Müller,"
+              },
+              {
+                "key": "c",
+                "text": "Liebe Frau Müller,"
+              }
+            ],
+            "q": "Du schreibst eine Anfrage an eine Firma und kennst den Namen der Ansprechperson.",
+            "why": "\"Sehr geehrte Frau [Name],\" is the standard formal greeting for a known female contact."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A8",
+      "instructions": "Choose the correct salutation for each situation (a, b, or c). 5 items.",
+      "title": "Anrede wählen: Welche Anrede ist korrekt?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "BETREFF"
+          ],
+          "2": [
+            "SEHR GEEHRTE"
+          ],
+          "3": [
+            "SCHREIBE"
+          ],
+          "4": [
+            "BESCHRIEBENEN"
+          ],
+          "5": [
+            "WÜNSCHEN"
+          ],
+          "6": [
+            "DAHER"
+          ],
+          "7": [
+            "ANTWORT"
+          ],
+          "8": [
+            "FREUNDLICHEN"
+          ]
+        },
+        "bank": [
+          "BETREFF",
+          "SEHR GEEHRTE",
+          "SCHREIBE",
+          "BESCHRIEBENEN",
+          "WÜNSCHEN",
+          "DAHER",
+          "ANTWORT",
+          "FREUNDLICHEN",
+          "HALLO",
+          "LIEBE",
+          "TSCHÜSS"
+        ],
+        "text": "{1}: Beschwerde wegen mangelhafter Zimmerqualität\n\n{2} Damen und Herren,\n\nich {3} Ihnen bezüglich meines Aufenthalts vom 8. bis 10. Juni 2026 in\nIhrem Hotel. Leider entsprach der Zustand des Zimmers nicht den {4}\nStandards. Der Service ließ ebenfalls zu {5} übrig.\n\nIch bitte Sie {6} um eine Rückerstattung des Zimmerpreises. Ich freue\nmich auf Ihre {7}.\n\nMit {8} Grüßen,\nAnna Kowalski\n",
+        "type": "gap-bank"
+      },
+      "id": "A9",
+      "instructions": "Fill the 8 gaps in the formal complaint email. Three words in the box are not needed.",
+      "skill": "cloze-in-context",
+      "title": "Formelle Beschwerdemail: Lücken füllen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Zum einen"
+          ],
+          "2": [
+            "Zum anderen"
+          ],
+          "3": [
+            "Außerdem"
+          ],
+          "4": [
+            "Allerdings"
+          ],
+          "5": [
+            "Insgesamt"
+          ],
+          "6": [
+            "Abschließend"
+          ]
+        },
+        "text": "1. {1} gibt es in einer Großstadt viele Jobmöglichkeiten.\n2. {2} ist das Kulturangebot sehr reich.\n3. {3} bieten Großstädte ein sehr gutes Verkehrsnetz.\n4. {4} sind die Mieten sehr hoch.\n5. {5} denke ich, dass Großstädte viele Chancen bieten.\n6. {6} möchte ich sagen, dass man gut vorbereitet sein muss.\n",
+        "type": "gap-text"
+      },
+      "id": "A10",
+      "instructions": "Fill in the correct connector from the box. Each connector is used once. (zum einen, zum anderen, außerdem, allerdings, insgesamt, abschließend) 6 items.",
+      "title": "Konnektoren im Schreiben und Sprechen einsetzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Thema"
+          ],
+          "2": [
+            "weil"
+          ],
+          "3": [
+            "Vorteil"
+          ],
+          "4": [
+            "Außerdem"
+          ],
+          "5": [
+            "Allerdings"
+          ],
+          "6": [
+            "Nachteil"
+          ],
+          "7": [
+            "Insgesamt"
+          ],
+          "8": [
+            "Aufmerksamkeit"
+          ]
+        },
+        "text": "1. Ich möchte über das {1} Großstädte sprechen.\n2. Das Thema ist wichtig, {2} viele Menschen heute in Großstädten leben.\n3. Ein {3} ist, dass man dort viele Jobmöglichkeiten hat.\n4. {4} gibt es ein reiches Kulturangebot.\n5. {5} sind die Lebenshaltungskosten sehr hoch.\n6. Ein weiterer {6} ist der tägliche Lärm und Stress.\n7. {7} denke ich, dass Großstädte viele Chancen bieten.\n8. Vielen Dank für Ihre {8}.\n",
+        "type": "gap-text"
+      },
+      "id": "A11",
+      "instructions": "Complete each presentation phrase with the correct word or phrase. 8 items.",
+      "skill": "redemittel",
+      "title": "Präsentation-Redemittel einsetzen (Sprechen B1 Teil 2)"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Meiner"
+          ],
+          "2": [
+            "Zum"
+          ],
+          "3": [
+            "zum"
+          ],
+          "4": [
+            "Allerdings"
+          ],
+          "5": [
+            "stimmt"
+          ],
+          "6": [
+            "aber"
+          ],
+          "7": [
+            "Insgesamt"
+          ],
+          "8": [
+            "meinen"
+          ]
+        },
+        "text": "{1} Meinung nach bieten Großstädte mehr Vorteile als Nachteile.\n{2} einen gibt es dort viele Jobmöglichkeiten; {3} anderen ist das\nkulturelle Angebot enorm. {4} ist die Konkurrenz in der Stadt stärker.\nEs {5} zwar, dass die Mieten hoch sind, {6} man findet auch gut bezahlte\nJobs. {7} denke ich, dass ein Umzug in die Stadt für junge Menschen\nwertvoll ist. Was {8} Sie dazu?\n",
+        "type": "gap-text"
+      },
+      "id": "B1",
+      "instructions": "Fill the 8 blanks in this forum post with the correct word or phrase.",
+      "title": "Forenbeitrag ergänzen: Schreib-Konnektoren"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich bin der Überzeugung, dass Großstädte besser sind."
+              },
+              {
+                "key": "b",
+                "text": "Ich bin der Überzeugung, Großstädte sind besser."
+              },
+              {
+                "key": "c",
+                "text": "Ich bin der Überzeugung, Großstädte besser sind."
+              }
+            ],
+            "q": "Fehler: „Ich bin der Überzeugung, das Großstädte besser sind.\"",
+            "why": "After 'dass' the verb goes to the end: dass Großstädte besser sind. Also 'dass' not 'das'."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Mit freundlicher Grüßen,"
+              },
+              {
+                "key": "b",
+                "text": "Mit freundlichen Grüßen,"
+              },
+              {
+                "key": "c",
+                "text": "Mit freundlich Grüßen,"
+              }
+            ],
+            "q": "Fehler: „Mit freundliche Grüßen,\"",
+            "why": "Dative plural after 'mit': freundlichen Grüßen. This formula is fixed — memorise it."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich schreibe Ihnen bezüglich meiner Frage."
+              },
+              {
+                "key": "b",
+                "text": "Ich schreibe an Sie bezüglich meiner Frage."
+              },
+              {
+                "key": "c",
+                "text": "Ich schreibe Ihr bezüglich meiner Frage."
+              }
+            ],
+            "q": "Fehler: „Ich schreibe Sie bezüglich meiner Frage.\"",
+            "why": "'schreiben' takes Dative for the recipient: 'Ich schreibe Ihnen.' Not 'Ich schreibe Sie.'"
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Abschließend möchte ich sagen, dass Großstädte wichtig sind."
+              },
+              {
+                "key": "b",
+                "text": "Abschließend ich möchte, dass Großstädte wichtig sind."
+              },
+              {
+                "key": "c",
+                "text": "Abschließend sagen ich möchte, dass Großstädte wichtig sind."
+              }
+            ],
+            "q": "Fehler: „Abschließend ich möchte sagen, dass Großstädte wichtig sind.\"",
+            "why": "When an adverb (Abschließend) starts the sentence, the verb comes second: möchte → ich (inversion)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ein Nachteil ist, dass der Lärm in der Stadt laut ist."
+              },
+              {
+                "key": "b",
+                "text": "Ein Nachteil ist der Lärm in der Stadt."
+              },
+              {
+                "key": "c",
+                "text": "Ein Nachteil ist: der Lärm in der Stadt laut."
+              }
+            ],
+            "q": "Fehler: „Ein Nachteil ist, der Lärm in der Stadt.\"",
+            "why": "'Ein Nachteil ist [Nomen].' — no 'dass' needed when followed directly by a noun phrase."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Each sentence contains one error. Choose the correct version (a, b, or c).",
+      "title": "Finde den Fehler — Register und Struktur"
+    },
+    {
+      "block": "B",
+      "body": {
+        "buckets": [
+          {
+            "key": "addition",
+            "label": "Addition / Ergänzung"
+          },
+          {
+            "key": "contrast",
+            "label": "Kontrast / Einschränkung"
+          },
+          {
+            "key": "conclusion",
+            "label": "Fazit / Schluss"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "addition",
+            "text": "außerdem"
+          },
+          {
+            "bucket": "contrast",
+            "text": "allerdings"
+          },
+          {
+            "bucket": "conclusion",
+            "text": "insgesamt"
+          },
+          {
+            "bucket": "addition",
+            "text": "zum anderen"
+          },
+          {
+            "bucket": "contrast",
+            "text": "andererseits"
+          },
+          {
+            "bucket": "conclusion",
+            "text": "abschließend"
+          },
+          {
+            "bucket": "addition",
+            "text": "sowohl … als auch"
+          },
+          {
+            "bucket": "contrast",
+            "text": "zwar … aber"
+          },
+          {
+            "bucket": "conclusion",
+            "text": "meiner Meinung nach überwiegen …"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "B3",
+      "instructions": "Sort each connector into the correct function category.",
+      "title": "Konnektoren nach Funktion sortieren"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              1,
+              4,
+              3,
+              2,
+              0
+            ],
+            "note": "Forum post structure: Themenaussage → Begründung → Konzession → Fazit → Call to action.",
+            "tiles": [
+              "Was meinen Sie dazu? Ich würde mich über Ihre Erfahrungen freuen.",
+              "Meiner Meinung nach bieten Großstädte mehr Chancen als Risiken.",
+              "Insgesamt denke ich, dass ein Umzug in die Stadt lohnenswert ist.",
+              "Allerdings sind die Lebenshaltungskosten ein echtes Problem.",
+              "Zum einen gibt es viele Jobmöglichkeiten; außerdem ist das Kulturangebot enorm."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B4",
+      "instructions": "A forum post has been scrambled. Put the five parts in the correct order (1 = first, 5 = last).",
+      "title": "Forenbeitrag in die richtige Reihenfolge bringen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "c",
+          "2": "e",
+          "3": "d",
+          "4": "b",
+          "5": "a"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Einleitung — Thema nennen"
+          },
+          {
+            "key": "2",
+            "text": "Einleitung — Wichtigkeit begründen"
+          },
+          {
+            "key": "3",
+            "text": "Vorteil nennen"
+          },
+          {
+            "key": "4",
+            "text": "Nachteil nennen"
+          },
+          {
+            "key": "5",
+            "text": "Fazit"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Insgesamt denke ich, dass …"
+          },
+          {
+            "key": "b",
+            "text": "Allerdings / Ein Nachteil ist, dass …"
+          },
+          {
+            "key": "c",
+            "text": "Ich möchte über das Thema … sprechen."
+          },
+          {
+            "key": "d",
+            "text": "Ein Vorteil ist, dass … / Einerseits …"
+          },
+          {
+            "key": "e",
+            "text": "Das Thema ist wichtig, weil …"
+          },
+          {
+            "key": "f",
+            "text": "Vielen Dank für Ihre Aufmerksamkeit."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B5",
+      "instructions": "Match each presentation phase (1–5) with the correct Redemittel (a–f). One Redemittel is not needed.",
+      "title": "Präsentation-Phasen und Redemittel verbinden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Der Autor ist von Berlin nach Brünn gezogen.",
+            "why": "The author (Pavel) moved from Brünn to Berlin, not the other way around."
+          },
+          {
+            "answer": true,
+            "q": "In Berlin hat Pavel schnell Arbeit als Barista gefunden.",
+            "why": "\"Ich selbst habe in Berlin schnell eine Arbeit als Barista gefunden.\""
+          },
+          {
+            "answer": false,
+            "q": "Der Autor nennt drei Vorteile von Großstädten.",
+            "why": "Pavel names two advantages: job opportunities and cultural offering. The transport network is in Dialog A, not the Lesetext."
+          },
+          {
+            "answer": true,
+            "q": "Pavel erwähnt, dass die Mieten in Berlin gestiegen sind.",
+            "why": "\"Die Mieten in Berlin sind in den letzten Jahren stark gestiegen.\""
+          },
+          {
+            "answer": true,
+            "q": "Der Autor empfiehlt, finanziell gut vorbereitet zu sein.",
+            "why": "\"Wegen der höheren Kosten sollte man allerdings finanziell gut vorbereitet sein.\""
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B6",
+      "instructions": "> **Stadtleben.de — Forenbeitrag von „Pavel_B1\"**\n>\n> **Thema: Soll man in eine Großstadt ziehen?**\n>\n> Ich bin vor drei Jahren von Brünn nach Berlin gezogen und möchte meine Erfahrungen teilen. Meiner Meinung nach bieten Großstädte mehr Möglichkeiten, als man auf den ersten Blick sieht.\n>\n> Zum einen gibt es in einer Großstadt sehr viele Jobmöglichkeiten in verschiedenen Branchen. Ich selbst habe in Berlin schnell eine Arbeit als Barista gefunden und konnte mich beruflich weiterentwickeln. Zum anderen ist das kulturelle Angebot enorm: Theater, Konzerte, Ausstellungen — in Brünn gab es das auch, aber in Berlin ist die Auswahl einfach größer.\n>\n> Allerdings sind die Lebenshaltungskosten in einer Großstadt deutlich höher. Die Mieten in Berlin sind in den letzten Jahren stark gestiegen, und wer kein festes Einkommen hat, hat es schwer. Außerdem ist der Alltag in der Stadt manchmal sehr stressig: Es gibt immer Lärm, immer Trubel.\n>\n> Insgesamt denke ich, dass der Umzug in eine Großstadt für junge Menschen sehr wertvoll ist — zumindest für einige Jahre. Man lernt, selbstständig zu sein, und trifft Menschen aus aller Welt. Wegen der höheren Kosten sollte man allerdings finanziell gut vorbereitet sein.\n>\n> Was meinen Sie? Haben Sie ähnliche Erfahrungen gemacht?\n\nRichtig (R) oder Falsch (F)?\n",
+      "title": "Forenbeitrag: Richtig oder Falsch? (Lesetext §7)"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Thema"
+          ],
+          "2": [
+            "wichtig"
+          ],
+          "3": [
+            "Zum"
+          ],
+          "4": [
+            "Außerdem"
+          ],
+          "5": [
+            "Allerdings"
+          ],
+          "6": [
+            "trennen"
+          ],
+          "7": [
+            "Nachteil"
+          ],
+          "8": [
+            "Insgesamt"
+          ]
+        },
+        "text": "Ich möchte über das {1} Homeoffice sprechen. Das Thema ist {2}, weil\nimmer mehr Menschen von zu Hause arbeiten. {3} einen bietet Homeoffice mehr\nFlexibilität. {4} spart man Zeit, weil der Arbeitsweg entfällt. {5}\nkann es schwieriger sein, Berufs- und Privatleben zu {6}. Ein weiterer\n{7} ist, dass man soziale Kontakte mit Kollegen vermisst. {8} denke ich,\ndass Homeoffice gut funktioniert, wenn man sich selbst gut organisieren kann.\n",
+        "type": "gap-text"
+      },
+      "id": "B7",
+      "instructions": "You are planning a B1 presentation on the topic 'Homeoffice — Vorteile und Nachteile'. Fill in each gap with the correct connector or phrase. 8 items.",
+      "title": "Präsentation planen: Phasen mit Redemitteln verbinden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Großstädte bieten mehr Möglichkeiten, als man auf den ersten Blick sieht."
+              },
+              {
+                "key": "b",
+                "text": "Großstädte sind nur für reiche Menschen geeignet."
+              },
+              {
+                "key": "c",
+                "text": "Brünn ist besser als Berlin."
+              }
+            ],
+            "q": "Was ist das Hauptargument des Autors?",
+            "why": "\"Meiner Meinung nach bieten Großstädte mehr Möglichkeiten, als man auf den ersten Blick sieht.\""
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es gibt zu wenig Jobs."
+              },
+              {
+                "key": "b",
+                "text": "Die Lebenshaltungskosten sind deutlich höher."
+              },
+              {
+                "key": "c",
+                "text": "Das Kulturangebot ist klein."
+              }
+            ],
+            "q": "Was ist laut dem Autor ein Nachteil der Großstadt?",
+            "why": "\"Allerdings sind die Lebenshaltungskosten in einer Großstadt deutlich höher.\""
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Für immer."
+              },
+              {
+                "key": "b",
+                "text": "Nur für ein Jahr."
+              },
+              {
+                "key": "c",
+                "text": "Für einige Jahre."
+              }
+            ],
+            "q": "Wie lange soll man laut dem Autor in einer Großstadt leben?",
+            "why": "\"zumindest für einige Jahre\""
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Themenaussage, Begründung, Konzession, Fazit und Call to action."
+              },
+              {
+                "key": "b",
+                "text": "Nur Themenaussage und Fazit."
+              },
+              {
+                "key": "c",
+                "text": "Nur Begründung und Konzession."
+              }
+            ],
+            "q": "Welche Struktur-Elemente eines Forenbeitrags kommen im Text vor?",
+            "why": "All five elements are present: Themenaussage (Meinung), Begründung (Vorteile), Konzession (Allerdings), Fazit (Insgesamt), Call to action (Was meinen Sie?)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B8",
+      "instructions": "> **Stadtleben.de — Forenbeitrag von „Pavel_B1\"**\n>\n> **Thema: Soll man in eine Großstadt ziehen?**\n>\n> Ich bin vor drei Jahren von Brünn nach Berlin gezogen und möchte meine Erfahrungen teilen. Meiner Meinung nach bieten Großstädte mehr Möglichkeiten, als man auf den ersten Blick sieht.\n>\n> Zum einen gibt es in einer Großstadt sehr viele Jobmöglichkeiten in verschiedenen Branchen. Ich selbst habe in Berlin schnell eine Arbeit als Barista gefunden und konnte mich beruflich weiterentwickeln. Zum anderen ist das kulturelle Angebot enorm: Theater, Konzerte, Ausstellungen — in Brünn gab es das auch, aber in Berlin ist die Auswahl einfach größer.\n>\n> Allerdings sind die Lebenshaltungskosten in einer Großstadt deutlich höher. Die Mieten in Berlin sind in den letzten Jahren stark gestiegen, und wer kein festes Einkommen hat, hat es schwer. Außerdem ist der Alltag in der Stadt manchmal sehr stressig: Es gibt immer Lärm, immer Trubel.\n>\n> Insgesamt denke ich, dass der Umzug in eine Großstadt für junge Menschen sehr wertvoll ist — zumindest für einige Jahre. Man lernt, selbstständig zu sein, und trifft Menschen aus aller Welt. Wegen der höheren Kosten sollte man allerdings finanziell gut vorbereitet sein.\n>\n> Was meinen Sie? Haben Sie ähnliche Erfahrungen gemacht?\n\nWähle a, b oder c.\n",
+      "title": "Leseverstehen: Forenbeitrag (Lesetext §7)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "ziehen"
+          ],
+          "2": [
+            "Meinung"
+          ],
+          "3": [
+            "Blick"
+          ],
+          "4": [
+            "gibt"
+          ],
+          "5": [
+            "Allerdings"
+          ],
+          "6": [
+            "sind"
+          ],
+          "7": [
+            "stressig"
+          ],
+          "8": [
+            "wertvoll"
+          ],
+          "9": [
+            "selbstständig"
+          ],
+          "10": [
+            "vorbereitet"
+          ]
+        },
+        "text": "Pavel hat sich vor drei Jahren entschieden, von Brünn nach Berlin zu {1}.\nEr schreibt in einem Forenbeitrag, dass Großstädte seiner {2} nach mehr\nMöglichkeiten bieten, als man auf den ersten {3} sieht. Zum einen {4}\nes viele Jobmöglichkeiten; außerdem ist das Kulturangebot enorm.\n{5} sind die Lebenshaltungskosten deutlich höher, und die Mieten in\nBerlin {6} in den letzten Jahren stark gestiegen. Außerdem ist der\nAlltag in der Stadt manchmal sehr {7}. Insgesamt denkt Pavel, dass der\nUmzug für junge Menschen {8} ist — zumindest für einige Jahre. Man lernt,\n{9} zu sein, und trifft Menschen aus aller Welt. Wegen der höheren Kosten\nsollte man aber finanziell gut {10} sein.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Fill each gap with one word. 10 gaps.",
+      "title": "Lückentext: Forenbeitrag über Großstädte"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "bezüglich"
+              },
+              {
+                "key": "b",
+                "text": "über"
+              },
+              {
+                "key": "c",
+                "text": "wegen von"
+              }
+            ],
+            "q": "Ich schreibe Ihnen ______ meines Aufenthalts in Ihrem Hotel.",
+            "why": "'bezüglich' (+ Genitiv) is the standard formal opening: Ich schreibe Ihnen bezüglich …"
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "wünscht"
+              },
+              {
+                "key": "b",
+                "text": "wünschen"
+              },
+              {
+                "key": "c",
+                "text": "wünsche"
+              }
+            ],
+            "q": "Der Service ließ leider zu ______ übrig.",
+            "why": "Fixed phrase: 'zu wünschen übrig lassen' — the infinitive 'wünschen' is required here."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "dann"
+              },
+              {
+                "key": "b",
+                "text": "deshalb"
+              },
+              {
+                "key": "c",
+                "text": "daher"
+              }
+            ],
+            "q": "Ich bitte Sie ______ um eine Rückerstattung.",
+            "why": "'daher' (therefore) is the standard connector before the request in formal complaints. 'deshalb' is also possible but 'daher' is more formal."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Insgesamt"
+              },
+              {
+                "key": "b",
+                "text": "Abschließend"
+              },
+              {
+                "key": "c",
+                "text": "Außerdem"
+              }
+            ],
+            "q": "______ denke ich, dass ein Umzug in die Stadt wertvoll ist.",
+            "why": "'Insgesamt' (overall / all in all) introduces the final assessment in a presentation or forum post."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "wegen"
+              },
+              {
+                "key": "b",
+                "text": "weil"
+              },
+              {
+                "key": "c",
+                "text": "deshalb"
+              }
+            ],
+            "q": "Das Thema ist wichtig, ______ viele Menschen in Großstädten leben.",
+            "why": "'weil' introduces a subordinate clause (verb at end). 'wegen' takes Genitiv + noun phrase, not a clause."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dame"
+              },
+              {
+                "key": "b",
+                "text": "Dämchen"
+              },
+              {
+                "key": "c",
+                "text": "Damen"
+              }
+            ],
+            "q": "Sehr geehrte ______ und Herren,",
+            "why": "The fixed formula is 'Sehr geehrte Damen und Herren,' — plural Damen is required."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Choose the correct option (a, b, or c) for each gap.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "SCHREIBEN"
+          ],
+          "2": [
+            "BETREFF"
+          ],
+          "3": [
+            "ANREDE"
+          ],
+          "4": [
+            "HAUPTTEIL"
+          ],
+          "5": [
+            "SCHLUSSSATZ"
+          ],
+          "6": [
+            "GRUSSFORMEL"
+          ],
+          "7": [
+            "GRÜSSEN"
+          ],
+          "8": [
+            "VIELE"
+          ],
+          "9": [
+            "BALD"
+          ],
+          "10": [
+            "MERKMAL"
+          ]
+        },
+        "bank": [
+          "SCHREIBEN",
+          "BETREFF",
+          "ANREDE",
+          "HAUPTTEIL",
+          "SCHLUSSSATZ",
+          "GRUSSFORMEL",
+          "GRÜSSEN",
+          "VIELE",
+          "BALD",
+          "MERKMAL",
+          "FEHLER",
+          "PROBLEM",
+          "KURS",
+          "HALLO",
+          "TSCHÜSS"
+        ],
+        "text": "Mia hält einen Workshop über formelles {1} auf Deutsch. Sie erklärt,\ndass eine formelle E-Mail immer einen {2} haben muss. Die {3} lautet\n„Sehr geehrte Damen und Herren,\" wenn man den Namen nicht kennt. Im\n{4} nennt man den Grund des Schreibens und das konkrete Anliegen.\nZum Schluss schreibt man einen {5}, zum Beispiel: „Ich freue mich auf\nIhre Antwort.\" Danach folgt die {6}: „Mit freundlichen {7}.\" Eine\ninformelle Nachricht dagegen beginnt mit „Liebe Anna,\" und endet mit\n„{8} Grüße\" oder „Bis {9}!\" Das wichtigste {10} beim formellen\nSchreiben ist das Register.\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Fill the 10 gaps. Five words are not needed.",
+      "title": "Sprachbausteine Teil 2 (Wortbank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Der Autor ist seit fünf Jahren in Berlin.",
+            "why": "\"Ich bin vor drei Jahren von Brünn nach Berlin gezogen\" — three years, not five."
+          },
+          {
+            "answer": true,
+            "q": "Pavel findet, dass das Kulturangebot in Berlin größer ist als in Brünn.",
+            "why": "\"in Berlin ist die Auswahl einfach größer.\""
+          },
+          {
+            "answer": false,
+            "q": "Laut dem Autor ist die Konkurrenz auf dem Arbeitsmarkt in Großstädten geringer.",
+            "why": "The Lesetext does not mention weaker competition. In Dialog A Pavel says competition is stronger."
+          },
+          {
+            "answer": true,
+            "q": "Pavel empfiehlt, finanziell gut vorbereitet zu sein, bevor man in eine Großstadt zieht.",
+            "why": "\"Wegen der höheren Kosten sollte man allerdings finanziell gut vorbereitet sein.\""
+          },
+          {
+            "answer": true,
+            "q": "Der Forenbeitrag endet mit einer Frage an die Leser.",
+            "why": "\"Was meinen Sie? Haben Sie ähnliche Erfahrungen gemacht?\""
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> **Stadtleben.de — Forenbeitrag von „Pavel_B1\"**\n>\n> **Thema: Soll man in eine Großstadt ziehen?**\n>\n> Ich bin vor drei Jahren von Brünn nach Berlin gezogen und möchte meine Erfahrungen teilen. Meiner Meinung nach bieten Großstädte mehr Möglichkeiten, als man auf den ersten Blick sieht.\n>\n> Zum einen gibt es in einer Großstadt sehr viele Jobmöglichkeiten in verschiedenen Branchen. Ich selbst habe in Berlin schnell eine Arbeit als Barista gefunden und konnte mich beruflich weiterentwickeln. Zum anderen ist das kulturelle Angebot enorm: Theater, Konzerte, Ausstellungen — in Brünn gab es das auch, aber in Berlin ist die Auswahl einfach größer.\n>\n> Allerdings sind die Lebenshaltungskosten in einer Großstadt deutlich höher. Die Mieten in Berlin sind in den letzten Jahren stark gestiegen, und wer kein festes Einkommen hat, hat es schwer. Außerdem ist der Alltag in der Stadt manchmal sehr stressig: Es gibt immer Lärm, immer Trubel.\n>\n> Insgesamt denke ich, dass der Umzug in eine Großstadt für junge Menschen sehr wertvoll ist — zumindest für einige Jahre. Man lernt, selbstständig zu sein, und trifft Menschen aus aller Welt. Wegen der höheren Kosten sollte man allerdings finanziell gut vorbereitet sein.\n>\n> Was meinen Sie? Haben Sie ähnliche Erfahrungen gemacht?\n\nRichtig (R) oder Falsch (F)?\n",
+      "title": "Leseverstehen: Forenbeitrag (Richtig / Falsch)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er hat das falsche Produkt erhalten."
+              },
+              {
+                "key": "b",
+                "text": "Er möchte einen Laptop bestellen."
+              },
+              {
+                "key": "c",
+                "text": "Er möchte den Preis verhandeln."
+              }
+            ],
+            "q": "Warum schreibt Bruno diese E-Mail?",
+            "why": "\"ich schreibe Ihnen bezüglich meiner Bestellung … ich habe statt des bestellten Laptops ein völlig anderes Gerät erhalten.\""
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es war kaputt und nicht reparierbar."
+              },
+              {
+                "key": "b",
+                "text": "Es war das falsche Gerät und bereits benutzt."
+              },
+              {
+                "key": "c",
+                "text": "Es war zu teuer."
+              }
+            ],
+            "q": "Was war das Problem mit dem gelieferten Gerät?",
+            "why": "\"statt des bestellten Laptops ein völlig anderes Gerät … bereits benutzt und wies deutliche Gebrauchsspuren auf.\""
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einen Gutschein."
+              },
+              {
+                "key": "b",
+                "text": "Ein neues Gerät in anderer Farbe."
+              },
+              {
+                "key": "c",
+                "text": "Eine vollständige Rückerstattung."
+              }
+            ],
+            "q": "Was fordert Bruno als Alternative zur Rücksendung?",
+            "why": "\"Falls dies nicht möglich ist, bitte ich um eine vollständige Rückerstattung des Kaufpreises.\""
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bis zum 25. Juni."
+              },
+              {
+                "key": "b",
+                "text": "Bis zum 30. Juni."
+              },
+              {
+                "key": "c",
+                "text": "Bis zum 12. Juni."
+              }
+            ],
+            "q": "Bis wann erwartet Bruno eine Antwort?",
+            "why": "\"Ich erwarte Ihre Rückmeldung bis zum 25. Juni 2026.\""
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Read the formal complaint email below. Choose the correct answer (a, b, or c).",
+      "title": "Leseverstehen: Neue Beschwerdemail (neuer Text)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "bezüglich"
+          ],
+          "2": [
+            "geehrte"
+          ],
+          "3": [
+            "wünschen"
+          ],
+          "4": [
+            "daher"
+          ],
+          "5": [
+            "Antwort"
+          ],
+          "6": [
+            "freundlichen"
+          ],
+          "7": [
+            "Zum"
+          ],
+          "8": [
+            "Allerdings"
+          ],
+          "9": [
+            "Insgesamt"
+          ],
+          "10": [
+            "Überzeugung"
+          ],
+          "11": [
+            "bewerbe"
+          ],
+          "12": [
+            "um"
+          ],
+          "13": [
+            "Zimmers"
+          ],
+          "14": [
+            "sowohl"
+          ],
+          "15": [
+            "als auch"
+          ]
+        },
+        "text": "1. Ich schreibe Ihnen {1} meines Aufenthalts in Ihrem Hotel. (Bezug-Präposition)\n2. Sehr {2} Damen und Herren, (formelle Anrede — Adjektiv)\n3. Der Service ließ leider zu {3} übrig. (formelle Beschwerde-Phrase)\n4. Ich bitte Sie {4} um eine Rückerstattung. (Konnektor: therefore)\n5. Ich freue mich auf Ihre {5}. (Schlusssatz-Nomen)\n6. Mit {6} Grüßen, (feste Formel — Dativ Plural)\n7. {7} einen gibt es in Großstädten viele Jobs. (zweiteiliger Konnektor)\n8. {8} sind die Mieten sehr hoch. (Konnektor für Einschränkung)\n9. {9} denke ich, dass Großstädte wertvoll sind. (Fazit-Konnektor)\n10. Ich bin der {10}, dass Großstädte mehr Vorteile bieten. (Meinungsausdruck-Nomen)\n11. (L11) Hiermit {11} ich mich um die Stelle als Koordinatorin. (sich bewerben — ich-Form)\n12. (B1/06) Ich schreibe Ihnen, {12} mich für das Angebot zu bedanken. (um … zu: purpose)\n13. (B1/07) Die Qualität des {13} ließ zu wünschen übrig. (Genitiv: n. Sg. → \"Zimmers\")\n14. (B1/10) Das Thema ist {14} interessant {15} wichtig. (sowohl … als auch)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Fill in the correct word or form. Items 12–15 review grammar from B1/06–B1/12. 15 items.",
+      "title": "Schnelltest: Schreiben & Sprechen + Grammatik-Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "der Betreff",
+              "die Anrede",
+              "die Grußformel",
+              "der Lärm"
+            ],
+            "odd": 3,
+            "why": "der Lärm (noise) is not a part of a formal email structure — the others all are."
+          },
+          {
+            "items": [
+              "Sehr geehrte Damen und Herren,",
+              "Mit freundlichen Grüßen",
+              "Hallo!",
+              "Ich schreibe Ihnen bezüglich …"
+            ],
+            "odd": 2,
+            "why": "'Hallo!' is informal — completely unsuitable for a formal letter. The others are formal email phrases."
+          },
+          {
+            "items": [
+              "außerdem",
+              "allerdings",
+              "insgesamt",
+              "bezüglich"
+            ],
+            "odd": 3,
+            "why": "'bezüglich' is a formal preposition, not a discourse connector. The others (außerdem, allerdings, insgesamt) are connectors."
+          },
+          {
+            "items": [
+              "Einerseits",
+              "Zum einen",
+              "Ich bin der Überzeugung",
+              "Abschließend"
+            ],
+            "odd": 3,
+            "why": "'Abschließend' introduces a conclusion; the others introduce the first part of a two-sided argument."
+          },
+          {
+            "items": [
+              "die Beschwerde",
+              "die Anfrage",
+              "das Anliegen",
+              "das Kulturangebot"
+            ],
+            "odd": 3,
+            "why": "das Kulturangebot (cultural offering) is a topic word; the others are formal communication concepts."
+          },
+          {
+            "items": [
+              "Liebe Anna,",
+              "Hi Bruno,",
+              "Bis bald!",
+              "Ich schreibe Ihnen bezüglich"
+            ],
+            "odd": 3,
+            "why": "'Ich schreibe Ihnen bezüglich …' is formal (Sie-form). The others are all informal."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Circle the word that does not belong. 6 groups.",
+      "title": "Wortschatz-Check: Das passt nicht!"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "des"
+          ],
+          "2": [
+            "der"
+          ],
+          "3": [
+            "des"
+          ],
+          "4": [
+            "kostet"
+          ],
+          "5": [
+            "schicken"
+          ],
+          "6": [
+            "zufrieden"
+          ],
+          "7": [
+            "sowohl"
+          ],
+          "8": [
+            "aber"
+          ],
+          "9": [
+            "Schreiben"
+          ],
+          "10": [
+            "Vorteile"
+          ]
+        },
+        "text": "B1/07 — Genitiv:\n1. Die Qualität {1} Schreibens hängt vom Register ab. (das Schreiben — Genitiv n.)\n2. Wegen {2} hohen Mieten zieht man vielleicht aufs Land. (Pl. Genitiv)\n3. Trotz {3} Lärms wohne ich gerne in der Stadt. (m. Genitiv Sg.)\n\nB1/09 — Höflichkeit / Indirekte Fragen:\n4. Direkt: „Was kostet das?\" → Höflich: Könnten Sie mir sagen, wie viel das {4}?\n5. Direkt: „Wann schicken Sie die Antwort?\" → Höflich: Ich würde gerne wissen, wann Sie die Antwort {5}.\n6. Könnte ich fragen, ob Sie mit dem Service {6} waren? (zufrieden — Vergangenheit)\n\nB1/10–B1/12 — Konnektoren & Nominalisierung:\n7. Das Thema ist {7} aktuell als auch wichtig für B1-Lernende. (sowohl)\n8. Er wohnt zwar gerne in der Stadt, {8} die Miete ist zu hoch. (aber)\n9. Das {9} von Forenbeiträgen erfordert gute Schreibkenntnisse. (Verb → Nomen: schreiben)\n10. Die {10} von Großstädten: mehr Jobs und Kultur. (B1/12 Nominalisierung: Vorteil — Pl.)\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Fill in the correct form. Items 1–3 = B1/07 Genitiv; items 4–6 = B1/09 Höflichkeit; items 7–10 = B1/10–B1/12 Konnektoren und Nominalisierung. 10 items.",
+      "title": "Rückblick: B1/07–B1/12 — Grammatik im Kontext"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "geehrte"
+          ],
+          "2": [
+            "schreibe"
+          ],
+          "3": [
+            "wünschen"
+          ],
+          "4": [
+            "daher"
+          ],
+          "5": [
+            "Grüßen"
+          ],
+          "6": [
+            "Antwort"
+          ],
+          "7": [
+            "Anna"
+          ],
+          "8": [
+            "bald"
+          ],
+          "9": [
+            "Thema"
+          ],
+          "10": [
+            "Zum"
+          ],
+          "11": [
+            "Außerdem"
+          ],
+          "12": [
+            "Allerdings"
+          ],
+          "13": [
+            "Insgesamt"
+          ],
+          "14": [
+            "Überzeugung"
+          ],
+          "15": [
+            "Aufmerksamkeit"
+          ],
+          "16": [
+            "Was"
+          ],
+          "17": [
+            "Thema"
+          ],
+          "18": [
+            "Vorteil"
+          ],
+          "19": [
+            "Meinung"
+          ],
+          "20": [
+            "Beschwerde"
+          ]
+        },
+        "text": "1. Sehr {1} Damen und Herren, (formelle Anrede)\n2. Ich {2} Ihnen bezüglich meines Aufenthalts. (Verb in formeller Bezugsformel)\n3. Der Service ließ leider zu {3} übrig. (feste Beschwerdeformel)\n4. Ich bitte Sie {4} um eine Rückerstattung. (Konnektor: therefore)\n5. Mit freundlichen {5}, (Grußformel — Plural)\n6. Ich freue mich auf Ihre {6}. (Schlusssatz)\n7. Liebe {7}, (informelle Anrede — weiblich)\n8. Bis {8}! (informeller Abschluss)\n9. Ich möchte über das {9} Großstädte sprechen. (Einleitung Präsentation — Nomen)\n10. {10} einen gibt es viele Jobmöglichkeiten. (zweiteiliger Konnektor — Teil 1)\n11. {11} ist das Kulturangebot sehr reich. (Additionkonnektor)\n12. {12} sind die Lebenshaltungskosten hoch. (Kontrast-/Einschränkungskonnektor)\n13. {13} denke ich, dass Großstädte wertvoll sind. (Fazit-Konnektor)\n14. Ich bin der {14}, dass Großstädte mehr Vorteile bieten. (Meinungsformulierung)\n15. Vielen Dank für Ihre {15}. (Abschluss einer Präsentation)\n16. {16} meinen Sie dazu? (Diskussions-Phrase)\n17. Das {17} ist wichtig, weil … (Einleitung Präsentation — das Thema)\n18. Ein {18} ist, dass man in einer Großstadt leicht Arbeit findet. (Vorteil)\n19. Meiner {19} nach bieten Großstädte mehr Chancen. (Meinungsformulierung — Genitiv)\n20. Betreff: {20} wegen mangelhafter Zimmerqualität (erster Teil des Betreffs)\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "instructions": "Fill in the correct word or form. 1 point per gap. 20 items.",
+      "title": "Selbsttest: Schreiben und Sprechen B1 (20 Punkte)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "b1-13",
+  "intro": "Blocks: H Hören → A Basistraining (formelle/informelle E-Mail) → B Vertiefung (Forenbeiträge & informelles Schreiben) → C Prüfungstraining (Sprechen + Lesen + Schreiben) → D Wiederholung & Selbsttest. Answers in solutions.md. Tip: H+A on day 1, B on day 2, C on day 3, D on day 4.\n",
+  "lesson": "B1/13",
+  "level": "B1",
+  "summary": null,
+  "title": "B1 · Lektion 13 — Übungen: Schreiben und Sprechen B1",
+  "topic": null
+}

@@ -1,0 +1,816 @@
+{
+  "category": "Geld & Verträge",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "pruefen",
+            "label": "Prüfen"
+          },
+          {
+            "key": "widersprechen",
+            "label": "Widersprechen"
+          },
+          {
+            "key": "klaeren",
+            "label": "Klären"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "pruefen",
+            "text": "die Mahnung genau lesen"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "die Rechnung mit dem Zahlungsbeleg vergleichen"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "das Datum der Überweisung prüfen"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "den Betrag kontrollieren"
+          },
+          {
+            "bucket": "widersprechen",
+            "text": "schriftlich widersprechen"
+          },
+          {
+            "bucket": "widersprechen",
+            "text": "den Zahlungsbeleg beilegen"
+          },
+          {
+            "bucket": "widersprechen",
+            "text": "die Frist beachten"
+          },
+          {
+            "bucket": "widersprechen",
+            "text": "eine Kopie behalten"
+          },
+          {
+            "bucket": "klaeren",
+            "text": "beim Unternehmen anrufen"
+          },
+          {
+            "bucket": "klaeren",
+            "text": "die Mahngebühr ansprechen"
+          },
+          {
+            "bucket": "klaeren",
+            "text": "eine Bestätigung verlangen"
+          },
+          {
+            "bucket": "klaeren",
+            "text": "das Inkassobüro informieren"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Prüfen, widersprechen oder klären?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Mahnung"
+          },
+          {
+            "key": "2",
+            "text": "die Rechnung"
+          },
+          {
+            "key": "3",
+            "text": "der Zahlungsbeleg"
+          },
+          {
+            "key": "4",
+            "text": "die Überweisung"
+          },
+          {
+            "key": "5",
+            "text": "die Mahngebühr"
+          },
+          {
+            "key": "6",
+            "text": "der Widerspruch"
+          },
+          {
+            "key": "7",
+            "text": "die Frist"
+          },
+          {
+            "key": "8",
+            "text": "das Inkassobüro"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die schriftliche Erinnerung an eine offene Zahlung"
+          },
+          {
+            "key": "b",
+            "text": "das Dokument über einen zu zahlenden Betrag"
+          },
+          {
+            "key": "c",
+            "text": "der Nachweis, dass man schon bezahlt hat"
+          },
+          {
+            "key": "d",
+            "text": "das Senden von Geld auf ein anderes Konto"
+          },
+          {
+            "key": "e",
+            "text": "die zusätzlichen Kosten für eine Mahnung"
+          },
+          {
+            "key": "f",
+            "text": "der schriftliche Einspruch gegen eine Forderung"
+          },
+          {
+            "key": "g",
+            "text": "der letzte Termin für eine Reaktion"
+          },
+          {
+            "key": "h",
+            "text": "die Firma, die offene Forderungen eintreibt"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "soll"
+          ],
+          "4": [
+            "Ist"
+          ],
+          "5": [
+            "ist"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "habe"
+          ],
+          "8": [
+            "Können"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} die Rechnung schon vor zwei Wochen bezahlt. (haben, Perfekt)\n2. {2} Sie mir bitte den Zahlungsbeleg schicken? (können, Sie-Form)\n3. Man {3} bei einer falschen Mahnung schriftlich widersprechen. (sollen, Präsens)\n4. {4} die Zahlung schon verbucht worden? (sein, Perfekt Passiv)\n5. Falls die Mahnung falsch {5}, muss ich schnell reagieren. (sein, Präsens)\n6. Das Unternehmen {6} die Zahlung sicher noch einmal prüfen. (werden, Futur I)\n7. Ich {7} schon Widerspruch eingelegt. (haben, Perfekt)\n8. {8} Sie mir bitte die Mahngebühr erklären? (können, Sie-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Die falsche Mahnung klären"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Mahnung"
+          ],
+          "2": [
+            "Rechnung"
+          ],
+          "3": [
+            "Zahlungsbeleg"
+          ],
+          "4": [
+            "Überweisung"
+          ],
+          "5": [
+            "Mahngebühr"
+          ],
+          "6": [
+            "Widerspruch"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe eine {1} bekommen, obwohl ich schon bezahlt habe. (die schriftliche Erinnerung an eine offene Zahlung)\n2. Ich habe die {2} pünktlich bezahlt. (das Dokument über den zu zahlenden Betrag)\n3. Zum Glück habe ich noch den {3}. (der Nachweis über die Zahlung)\n4. Die {4} habe ich vor drei Wochen gemacht. (das Senden von Geld auf ein anderes Konto)\n5. Ich verstehe nicht, warum ich eine {5} zahlen soll. (die zusätzlichen Kosten für eine Mahnung)\n6. Ich habe schriftlich {6} eingelegt. (der Einspruch gegen eine Forderung)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "MAHNUNG"
+          ],
+          "2": [
+            "ZAHLUNGSBELEG"
+          ],
+          "3": [
+            "ÜBERWEISUNG"
+          ],
+          "4": [
+            "MAHNGEBÜHR"
+          ],
+          "5": [
+            "FORDERUNG"
+          ],
+          "6": [
+            "WIDERSPRUCH"
+          ],
+          "7": [
+            "INKASSOBÜROS"
+          ],
+          "8": [
+            "BESTÄTIGEN"
+          ],
+          "9": [
+            "SCHICKE"
+          ],
+          "10": [
+            "HILFE"
+          ]
+        },
+        "bank": [
+          "MAHNUNG",
+          "ZAHLUNGSBELEG",
+          "RECHNUNGSNUMMER",
+          "ÜBERWEISUNG",
+          "KUNDENNUMMER",
+          "MAHNGEBÜHR",
+          "LASTSCHRIFT",
+          "FORDERUNG",
+          "KONTOAUSZUG",
+          "WIDERSPRUCH",
+          "INKASSOBÜROS",
+          "BESTÄTIGEN",
+          "SCHICKE",
+          "HILFE"
+        ],
+        "text": "(am Telefon mit dem Kundenservice)\n— Guten Tag, ich habe eine {1} bekommen, obwohl ich die\nRechnung schon bezahlt habe.\n— Das tut mir leid. Haben Sie einen {2} zur Hand?\n— Ja, ich habe die {3} vor drei Wochen gemacht.\n— Können Sie mir das genaue Datum nennen?\n— Der 3. Mai.\n— Danke, ich prüfe das gleich in unserem System.\n(kurze Pause)\n— Sie haben recht, die Zahlung ist bei uns eingegangen. Das\ntut mir leid.\n— Muss ich jetzt trotzdem die {4} bezahlen?\n— Nein, die Mahnung war ein Fehler unsererseits, die {5}\nentfällt komplett.\n— Gut zu wissen. Und was ist mit dem {6}, den ich schon\neingelegt habe?\n— Der ist damit erledigt, das ist kein Problem.\n— Vielen Dank. Ich hätte mir sonst Sorgen wegen eines {7}\ngemacht.\n— Das ist verständlich, aber das wäre bei uns gar nicht so\nweit gekommen.\n— Können Sie mir das bitte schriftlich {8}?\n— Ja, natürlich, ich {9} Ihnen gleich eine Bestätigung per\nE-Mail.\n— Perfekt, vielen Dank für Ihre {10}.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Am Telefon mit dem Kundenservice"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Mahnungen interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe eine Mahnung bekommen, obwohl ich die Rechnung schon bezahlt habe."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal."
+              }
+            ],
+            "q": "Du willst dem Kundenservice sagen, dass du eine Mahnung bekommen hast, obwohl du schon bezahlt hast. — You want to tell customer service you got a dunning notice even though you already paid.",
+            "why": "Eine klare Aussage ist der übliche Einstieg beim Klären einer falschen Mahnung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich frage lieber nicht nach."
+              },
+              {
+                "key": "c",
+                "text": "Muss ich jetzt trotzdem die Mahngebühr bezahlen?"
+              }
+            ],
+            "q": "Du willst wissen, ob du trotzdem die Mahngebühr bezahlen musst. — You want to know if you still have to pay the dunning fee.",
+            "why": "Eine direkte Frage klärt frühzeitig, ob zusätzliche Kosten entstehen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich habe die Überweisung am 3. Mai gemacht."
+              },
+              {
+                "key": "b",
+                "text": "Daten interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst dem Kundenservice das genaue Datum deiner Überweisung nennen. — You want to tell customer service the exact date of your transfer.",
+            "why": "Eine genaue Angabe hilft dem Kundenservice bei der Prüfung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Widersprüche interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ist mein Widerspruch damit erledigt?"
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal, Hauptsache ich zahle nichts mehr."
+              }
+            ],
+            "q": "Du willst wissen, ob dein Widerspruch damit erledigt ist. — You want to know if your objection is resolved with this.",
+            "why": "Eine direkte Frage klärt, ob der Vorgang abgeschlossen ist."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Inkassobüros interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Das ist mir zu kompliziert."
+              },
+              {
+                "key": "c",
+                "text": "Muss ich mir wegen eines Inkassobüros Sorgen machen?"
+              }
+            ],
+            "q": "Du willst wissen, ob du dir wegen eines Inkassobüros Sorgen machen musst. — You want to know if you need to worry about a debt collection agency.",
+            "why": "Eine direkte Frage klärt, ob die Angelegenheit weiter eskaliert."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Vielen Dank für Ihre Hilfe."
+              },
+              {
+                "key": "b",
+                "text": "Hilfe interessiert mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst dem Kundenservice für die Hilfe danken. — You want to thank customer service for their help.",
+            "why": "Ein höflicher Dank passt zum Abschluss eines geklärten Missverständnisses."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Prüfen und klären"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Ich",
+              "habe",
+              "die",
+              "Rechnung",
+              "schon",
+              "bezahlt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Ja/Nein-Frage im Präsens",
+            "tiles": [
+              "Haben",
+              "Sie",
+              "einen",
+              "Zahlungsbeleg",
+              "zur",
+              "Hand",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Aussage, Verb an Position 2",
+            "tiles": [
+              "Wir",
+              "prüfen",
+              "das",
+              "gleich",
+              "in",
+              "unserem",
+              "System"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Futur I, Zeitangabe an Position 1, Verb an Position 2",
+            "tiles": [
+              "Morgen",
+              "werde",
+              "ich",
+              "Widerspruch",
+              "einlegen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "W-Frage mit sein",
+            "tiles": [
+              "Wie",
+              "hoch",
+              "ist",
+              "eigentlich",
+              "die",
+              "Mahngebühr",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Ich",
+              "habe",
+              "schon",
+              "Widerspruch",
+              "eingelegt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zur Mahnung bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Eine Mahnung sollte man immer genau prüfen, bevor man zahlt. — You should always check a dunning notice carefully before paying.",
+            "why": "So steht es ausdrücklich in den Infos zur falschen Mahnung."
+          },
+          {
+            "answer": false,
+            "q": "Einen Zahlungsbeleg braucht man nach der Überweisung nie mehr. — You never need proof of payment again after the transfer.",
+            "why": "Man sollte ihn nach jeder Überweisung aufbewahren."
+          },
+          {
+            "answer": true,
+            "q": "Ein Widerspruch sollte immer schriftlich und fristgerecht erfolgen. — An objection should always be made in writing and within the deadline.",
+            "why": "„Widerspruch: sollte man immer schriftlich und fristgerecht einlegen.“"
+          },
+          {
+            "answer": false,
+            "q": "Eine Mahngebühr muss man immer bezahlen, auch bei einem Fehler des Unternehmens. — You always have to pay a dunning fee, even if the company made the mistake.",
+            "why": "Sie entfällt oft, wenn die Mahnung ein Fehler des Unternehmens war."
+          },
+          {
+            "answer": true,
+            "q": "Ein Inkassobüro darf nur bei tatsächlich offenen Forderungen tätig werden. — A debt collection agency may only act on genuinely outstanding claims.",
+            "why": "„Inkassobüro: kann nur bei tatsächlich offenen Forderungen tätig werden.“"
+          },
+          {
+            "answer": false,
+            "q": "Bei Unsicherheit sollte man einfach sofort zahlen, ohne nachzufragen. — If unsure, you should just pay immediately without asking.",
+            "why": "Man sollte beim Kundenservice nachfragen, bevor man zahlt."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Falsche Mahnung**\n>\n> - **Mahnung:** sollte man **immer genau prüfen**, bevor man\n>   zahlt.\n> - **Zahlungsbeleg:** sollte man nach jeder Überweisung\n>   **aufbewahren**.\n> - **Widerspruch:** sollte man immer **schriftlich und\n>   fristgerecht** einlegen.\n> - **Mahngebühr:** entfällt oft, wenn die Mahnung ein\n>   **Fehler des Unternehmens** war.\n> - **Inkassobüro:** kann nur bei **tatsächlich offenen\n>   Forderungen** tätig werden.\n> - **Bei Unsicherheit:** sollte man beim Kundenservice\n>   **nachfragen, bevor man zahlt**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zur falschen Mahnung lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Mahnung einfach bezahlen, obwohl Sie schon bezahlt haben."
+              },
+              {
+                "key": "b",
+                "text": "Den Kontoauszug der Bank als Nachweis nutzen."
+              },
+              {
+                "key": "c",
+                "text": "Die Mahnung komplett ignorieren."
+              }
+            ],
+            "q": "Sie finden Ihren Zahlungsbeleg nicht mehr. — You can't find your proof of payment anymore.",
+            "why": "Der Kontoauszug zeigt die Zahlung genauso zuverlässig wie der Beleg."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die neue Mahnung einfach bezahlen."
+              },
+              {
+                "key": "b",
+                "text": "Sich nicht mehr melden."
+              },
+              {
+                "key": "c",
+                "text": "Erneut Kontakt aufnehmen und auf die vorherige Klärung verweisen."
+              }
+            ],
+            "q": "Obwohl das Missverständnis geklärt wurde, kommt eine weitere Mahnung. — Even though the misunderstanding was cleared up, another dunning notice arrives.",
+            "why": "Ein Verweis auf die vorherige Klärung löst das Missverständnis schnell auf."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dem Inkassobüro den Zahlungsbeleg zusenden und den Fehler erklären."
+              },
+              {
+                "key": "b",
+                "text": "Die Forderung einfach bezahlen, ohne nachzufragen."
+              },
+              {
+                "key": "c",
+                "text": "Das Schreiben ignorieren."
+              }
+            ],
+            "q": "Ein Inkassobüro meldet sich wegen der angeblich offenen Rechnung. — A debt collection agency contacts you about the allegedly outstanding bill.",
+            "why": "Der Zahlungsbeleg klärt die Sache direkt gegenüber dem Inkassobüro."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Gebühr einfach bezahlen, um Ruhe zu haben."
+              },
+              {
+                "key": "b",
+                "text": "Noch einmal schriftlich auf die vorherige Zusage hinweisen."
+              },
+              {
+                "key": "c",
+                "text": "Das Unternehmen wechseln, ohne sich zu beschweren."
+              }
+            ],
+            "q": "Die Mahngebühr wird trotz Zusage nicht storniert. — The dunning fee isn't cancelled despite the promise.",
+            "why": "Ein schriftlicher Hinweis auf die Zusage klärt die Sache verbindlich."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den falschen Betrag einfach bezahlen."
+              },
+              {
+                "key": "b",
+                "text": "Die Mahnung komplett ignorieren."
+              },
+              {
+                "key": "c",
+                "text": "Den korrekten Betrag mit Belegen nachweisen."
+              }
+            ],
+            "q": "In der Mahnung steht ein deutlich zu hoher Betrag. — The dunning notice shows a clearly too-high amount.",
+            "why": "Belege beweisen den tatsächlich korrekten Betrag."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort schriftlich widersprechen, auch wenn noch nicht alle Unterlagen vollständig sind."
+              },
+              {
+                "key": "b",
+                "text": "Einfach abwarten, bis die Frist verstrichen ist."
+              },
+              {
+                "key": "c",
+                "text": "Den Widerspruch erst nach der Frist einreichen."
+              }
+            ],
+            "q": "Die Frist für Ihren Widerspruch läuft bald ab. — The deadline for your objection is about to expire.",
+            "why": "Ein fristgerechter Widerspruch sichert die eigenen Rechte, auch mit unvollständigen Unterlagen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn bei der Mahnung etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "verlegt"
+          ],
+          "2": [
+            "erhalten"
+          ],
+          "3": [
+            "gemeldet"
+          ],
+          "4": [
+            "storniert"
+          ],
+          "5": [
+            "angegeben"
+          ],
+          "6": [
+            "abgelaufen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Meinen Zahlungsbeleg habe ich leider {1}. (nicht mehr gefunden, Partizip)\n2. Trotz der Klärung habe ich eine weitere Mahnung {2}. (bekommen, Partizip)\n3. Das Inkassobüro hat sich wegen der Rechnung {3}. (in Kontakt getreten, Partizip)\n4. Die Mahngebühr wurde trotz Zusage nicht {4}. (rückgängig gemacht, Partizip)\n5. In der Mahnung war ein viel zu hoher Betrag {5}. (notiert, Partizip)\n6. Die Frist für den Widerspruch ist fast {6}. (fast vorbei, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "soll"
+          ],
+          "3": [
+            "Mahnung"
+          ],
+          "4": [
+            "Rechnung"
+          ],
+          "5": [
+            "Zahlungsbeleg"
+          ],
+          "6": [
+            "Überweisung"
+          ],
+          "7": [
+            "Mahngebühr"
+          ],
+          "8": [
+            "Widerspruch"
+          ],
+          "9": [
+            "Können"
+          ],
+          "10": [
+            "verlegt"
+          ],
+          "11": [
+            "erhalten"
+          ],
+          "12": [
+            "gemeldet"
+          ],
+          "13": [
+            "storniert"
+          ],
+          "14": [
+            "abgelaufen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} die Rechnung schon vor zwei Wochen bezahlt. (have — Perfekt)\n2. Man {2} bei einer falschen Mahnung schriftlich widersprechen. (should — sollen)\n3. Ich habe eine {3} bekommen, obwohl ich schon bezahlt habe. (dunning notice)\n4. Ich habe die {4} pünktlich bezahlt. (invoice)\n5. Zum Glück habe ich noch den {5}. (proof of payment)\n6. Die {6} habe ich vor drei Wochen gemacht. (transfer)\n7. Ich verstehe nicht, warum ich eine {7} zahlen soll. (dunning fee)\n8. Ich habe schriftlich {8} eingelegt. (objection)\n9. {9} Sie mir bitte den Zahlungsbeleg schicken? (could — können, Sie-Form)\n10. Meinen Zahlungsbeleg habe ich leider {10}. (misplaced — Partizip)\n11. Trotz der Klärung habe ich eine weitere Mahnung {11}. (received — Partizip)\n12. Das Inkassobüro hat sich wegen der Rechnung {12}. (contacted — Partizip)\n13. Die Mahngebühr wurde trotz Zusage nicht {13}. (cancelled — Partizip)\n14. Die Frist für den Widerspruch ist fast {14}. (expired — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-95-falsche-mahnung-a2",
+  "intro": "Manchmal kommt eine Mahnung, obwohl man längst bezahlt hat: die Mahnung genau prüfen, den Zahlungsbeleg heraussuchen und beim Unternehmen anrufen oder schriftlich widersprechen. Dieses Set übt genau das — prüfen, widersprechen, klären, und was zu tun ist, wenn trotz Klärung eine zweite Mahnung kommt oder sich ein Inkassobüro meldet. Grammatik nach Bedarf: Modalverben, Perfekt und Futur I. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/95-falsche-mahnung-a2",
+  "level": "A2",
+  "summary": "Eine Mahnung genau prüfen, den Zahlungsbeleg vorlegen und schriftlich widersprechen — und was tun, wenn trotz Klärung eine zweite Mahnung kommt oder sich ein Inkassobüro meldet.",
+  "title": "Falsche Mahnung — A2",
+  "topic": "Falsche Mahnung"
+}

@@ -1,0 +1,1688 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "doch"
+              },
+              {
+                "key": "b",
+                "text": "eben"
+              },
+              {
+                "key": "c",
+                "text": "wohl"
+              }
+            ],
+            "q": "Wirkung: Bekräftigung, sanftes Drängen.",
+            "why": "„Komm doch mit!\" — doch drückt Bekräftigung und sanftes Drängen aus."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "halt"
+              },
+              {
+                "key": "b",
+                "text": "ja"
+              },
+              {
+                "key": "c",
+                "text": "schon"
+              }
+            ],
+            "q": "Wirkung: gemeinsames Wissen, Bekanntheit.",
+            "why": "„Du weißt ja, wie das ist.\" — ja erinnert an gemeinsames Wissen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "mal"
+              },
+              {
+                "key": "b",
+                "text": "schon"
+              },
+              {
+                "key": "c",
+                "text": "halt"
+              }
+            ],
+            "q": "Wirkung: Resignation, „so ist es eben\".",
+            "why": "„Das ist halt so.\" — halt drückt begründende Resignation aus."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wohl"
+              },
+              {
+                "key": "b",
+                "text": "eigentlich"
+              },
+              {
+                "key": "c",
+                "text": "mal"
+              }
+            ],
+            "q": "Wirkung: vorsichtige Vermutung.",
+            "why": "„Er wird wohl krank sein.\" — wohl drückt eine vorsichtige Vermutung aus."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "doch"
+              },
+              {
+                "key": "b",
+                "text": "ebenso"
+              },
+              {
+                "key": "c",
+                "text": "mal"
+              }
+            ],
+            "q": "Wirkung: Auflockerung, sanfte Bitte.",
+            "why": "„Schau mal her.\" — mal lockert eine Bitte auf."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ja"
+              },
+              {
+                "key": "b",
+                "text": "schon"
+              },
+              {
+                "key": "c",
+                "text": "doch"
+              }
+            ],
+            "q": "Wirkung: Zugeständnis mit Einschränkung („aber …\").",
+            "why": "„Das stimmt schon, aber …\" — schon leitet ein Zugeständnis ein."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "mal"
+              },
+              {
+                "key": "b",
+                "text": "eben"
+              },
+              {
+                "key": "c",
+                "text": "eigentlich"
+              }
+            ],
+            "q": "Wirkung: sachliche Resignation, „so ist die Realität\".",
+            "why": "„Das ist eben nicht einfach\" — eben drückt sachliche Resignation aus."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "mal"
+              },
+              {
+                "key": "b",
+                "text": "schon"
+              },
+              {
+                "key": "c",
+                "text": "eigentlich"
+              }
+            ],
+            "q": "Wirkung: Reflexion, Korrektur einer Aussage.",
+            "why": "„Eigentlich wollte ich das ja nicht\" — eigentlich leitet eine Reflexion ein."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A1",
+      "instructions": "Wähle die passende Modalpartikel (a, b oder c) zur angegebenen Wirkung.",
+      "title": "Welche Modalpartikel passt zur beschriebenen Wirkung?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "doch"
+          ],
+          "2": [
+            "mal"
+          ],
+          "3": [
+            "ja"
+          ],
+          "4": [
+            "halt"
+          ],
+          "5": [
+            "eben"
+          ],
+          "6": [
+            "schon"
+          ],
+          "7": [
+            "wohl"
+          ],
+          "8": [
+            "Eigentlich"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. „Komm {1} mit ins Kino!\" (Bekräftigung, werbend)\n2. „Schau {2} …\" (Auflockerung)\n3. „Du weißt {3}, wie das ist.\" (Bekanntheit)\n4. „Das ist {4} so.\" (Resignation)\n5. „Es ist {5} nicht einfach.\" (sachliche Resignation)\n6. „Das stimmt {6}, aber …\" (Zugeständnis)\n7. „Er wird {7} krank sein.\" (Vermutung)\n8. „{8} wollte ich das ja nicht.\" (Reflexion)\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Setze die passende Modalpartikel ein. 8 Items.",
+      "title": "Modalpartikeln in Sätze einsetzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "doch"
+          },
+          {
+            "key": "2",
+            "text": "mal"
+          },
+          {
+            "key": "3",
+            "text": "wohl"
+          },
+          {
+            "key": "4",
+            "text": "schon"
+          },
+          {
+            "key": "5",
+            "text": "eigentlich"
+          },
+          {
+            "key": "6",
+            "text": "halt"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "„Komm ____ mit!\" — werbend, bekräftigend."
+          },
+          {
+            "key": "b",
+            "text": "„Schau ____ her.\" — sanfte Bitte."
+          },
+          {
+            "key": "c",
+            "text": "„Er wird ____ krank sein.\" — vorsichtige Vermutung."
+          },
+          {
+            "key": "d",
+            "text": "„Das stimmt ____, aber …\" — Zugeständnis."
+          },
+          {
+            "key": "e",
+            "text": "„____ wollte ich das ja nicht.\" — Reflexion."
+          },
+          {
+            "key": "f",
+            "text": "„Das ist ____ so.\" — Resignation."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A3",
+      "instructions": "Ordne jeder Modalpartikel (1–6) das passende Beispielsatzpaar (a–f) zu.",
+      "title": "Modalpartikel — Bedeutung — Beispielsatz"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "mal"
+          ],
+          "2": [
+            "mal"
+          ],
+          "3": [
+            "schon"
+          ],
+          "4": [
+            "ja"
+          ],
+          "5": [
+            "eigentlich"
+          ],
+          "6": [
+            "wohl"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. „Ich würde sagen mal, dass das funktioniert.\" → „Ich würde {1} sagen, dass …\"\n2. „Kannst du herkommen mal?\" → „Kannst du {2} herkommen?\"\n3. „Ich weiß, dass schon er das gesagt hat.\" → „Ich weiß, dass er das {3} gesagt hat.\"\n4. „Du weißt ja, wie das ist.\" → Position korrekt. Bleibt: „Du weißt {4}, wie das ist.\"\n5. „Eigentlich, was willst du?\" (formell) → „Was wollen Sie {5}?\"\n6. „Er wird wohl morgen kommen.\" → Position korrekt. Bleibt: „Er wird {6} morgen kommen.\"\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Setze die Modalpartikel an die richtige Stelle (Mittelfeld). 6 Items.",
+      "title": "Mittelfeld-Stellung der Modalpartikel"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "weil"
+          },
+          {
+            "key": "2",
+            "text": "wahrscheinlich"
+          },
+          {
+            "key": "3",
+            "text": "halt"
+          },
+          {
+            "key": "4",
+            "text": "obwohl"
+          },
+          {
+            "key": "5",
+            "text": "eigentlich"
+          },
+          {
+            "key": "6",
+            "text": "vermutlich"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Konjunktion (verbindet Sätze)"
+          },
+          {
+            "key": "b",
+            "text": "Adverb (modifiziert das Verb, eigene Bedeutung)"
+          },
+          {
+            "key": "c",
+            "text": "Modalpartikel (färbt die Sprechhaltung)"
+          },
+          {
+            "key": "d",
+            "text": "Konjunktion (verbindet Sätze)"
+          },
+          {
+            "key": "e",
+            "text": "Modalpartikel (färbt die Sprechhaltung)"
+          },
+          {
+            "key": "f",
+            "text": "Adverb (modifiziert das Verb, eigene Bedeutung)"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A5",
+      "instructions": "Ordne jedem Wort (1–6) die passende Wortart zu (a–f).",
+      "title": "Modalpartikel, Konjunktion oder Adverb?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Hätten"
+          ],
+          "2": [
+            "vielleicht"
+          ],
+          "3": [
+            "mal"
+          ],
+          "4": [
+            "bis morgen"
+          ],
+          "5": [
+            "damit"
+          ],
+          "6": [
+            "mal"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. „Haben Sie eine Visitenkarte?\" → „{1} Sie {2} eine Visitenkarte?\"\n2. „Können Sie das übersetzen?\" → „Könnten Sie das {3} übersetzen?\"\n3. „Schicken Sie mir die Unterlagen.\" → „Würden Sie mir die Unterlagen {4} zukommen lassen?\"\n4. „Sind Sie einverstanden?\" → „Wären Sie {5} einverstanden?\"\n5. „Darf ich Sie stören?\" → „Dürfte ich Sie {6} kurz stören?\"\n",
+        "type": "gap-text"
+      },
+      "id": "A6",
+      "instructions": "Forme die direkten Bitten in höfliche Bitten mit Konjunktiv II + Modalpartikel um. 5 Items.",
+      "title": "Konjunktiv II + Modalpartikel"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "mal"
+          ],
+          "2": [
+            "Hätten"
+          ],
+          "3": [
+            "vielleicht doch"
+          ],
+          "4": [
+            "vielleicht"
+          ],
+          "5": [
+            "fragen"
+          ]
+        },
+        "bank": [
+          "mal",
+          "Hätten",
+          "vielleicht doch",
+          "fragen",
+          "stellen",
+          "vielleicht",
+          "doch",
+          "endlich"
+        ],
+        "text": "1. „Ich würde {1} vorschlagen, dass wir das Thema vertagen.\"\n2. „{2} Sie {3} einen Moment Zeit für mich?\"\n3. „Könnten wir {4} mal die Karte sehen?\"\n4. „Dürfte ich Sie mal kurz was {5}?\"\n",
+        "type": "gap-bank"
+      },
+      "id": "A7",
+      "instructions": "Füll die 5 Lücken mit der passenden Form aus dem Kasten. Drei Elemente sind zu viel.",
+      "title": "Konjunktiv II + Modalpartikel: Höflichkeitsmuster"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "„Sehr geehrte Frau Weber, ich bin halt der Meinung, dass …\"\""
+              },
+              {
+                "key": "b",
+                "text": "„Sehr geehrte Frau Weber, ich bin der Meinung, dass …\"\""
+              },
+              {
+                "key": "c",
+                "text": "„Sehr geehrte Frau Weber, ich bin ja der Meinung, dass …\"\""
+              }
+            ],
+            "q": "In einer formellen E-Mail an den Vorgesetzten:",
+            "why": "„halt\" und „ja\" sind umgangssprachliche/abtönende Modalpartikeln; im formellen Register weglassen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "„Würden Sie mir bitte das Salz reichen?\"\""
+              },
+              {
+                "key": "b",
+                "text": "„Kannst du mir mal das Salz reichen?\"\""
+              },
+              {
+                "key": "c",
+                "text": "„Ich bitte Sie, mir das Salz zu reichen.\"\""
+              }
+            ],
+            "q": "In einer WhatsApp an einen Freund (informell):",
+            "why": "„mal\" und „du\" passen zur WhatsApp unter Freunden. „Würden Sie\" und „ich bitte Sie\" sind zu förmlich."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "„Ich bin halt teamfähig und belastbar.\"\""
+              },
+              {
+                "key": "b",
+                "text": "„Ich bin teamfähig und belastbar.\"\""
+              },
+              {
+                "key": "c",
+                "text": "„Ich bin dann mal teamfähig, oder?\"\""
+              }
+            ],
+            "q": "In einer Bewerbung (gehoben):",
+            "why": "Im Lebenslauf keine Modalpartikeln. Variante a ist umgangssprachlich, c ist ironisch-schlampig."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "„Goethe war halt ein Genie.\"\""
+              },
+              {
+                "key": "b",
+                "text": "„Goethe war wohl ein Genie.\"\""
+              },
+              {
+                "key": "c",
+                "text": "„Goethe war zweifellos eine herausragende Persönlichkeit der deutschen Literaturgeschichte.\"\""
+              }
+            ],
+            "q": "In einem Aufsatz über Goethe (fachsprachlich):",
+            "why": "Im fachsprachlichen Register keine Modalpartikeln — stattdessen Adverbien wie „zweifellos\"."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "„Er ist halt gestorben.\"\""
+              },
+              {
+                "key": "b",
+                "text": "„Er ist gestorben.\"\""
+              },
+              {
+                "key": "c",
+                "text": "„Er ist verstorben.\"\""
+              }
+            ],
+            "q": "In einer Todesanzeige (Trauerregister):",
+            "why": "„verstorben\" ist das Register der Todesanzeige. „halt\" wirkt respektlos; „gestorben\" zu direkt."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A8",
+      "instructions": "Welche Variante passt zur angegebenen Situation? Wähle (a), (b) oder (c).",
+      "title": "Registerbruch: Modalpartikel im falschen Register"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Komm doch mit ins Kino.",
+            "tiles": [
+              "Komm",
+              "doch",
+              "mit",
+              "ins",
+              "Kino"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Du weißt ja, wie das ist.",
+            "tiles": [
+              "Du",
+              "weißt",
+              "ja",
+              "wie",
+              "das",
+              "ist"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Er wird wohl morgen kommen.",
+            "tiles": [
+              "Er",
+              "wird",
+              "wohl",
+              "morgen",
+              "kommen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Ich würde mal sagen, dass das geht.",
+            "tiles": [
+              "Ich",
+              "würde",
+              "mal",
+              "sagen",
+              "dass",
+              "das",
+              "geht"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A9",
+      "instructions": "Bring die Wörter in die richtige Reihenfolge. Die Modalpartikel steht direkt nach dem finiten Verb.",
+      "title": "Satzbau: Modalpartikel im Mittelfeld"
+    },
+    {
+      "block": "A",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "doch",
+              "ja",
+              "mal",
+              "wohl"
+            ],
+            "odd": 3,
+            "why": "„wohl\" drückt Vermutung aus, nicht Aufforderung. Die anderen drei wirken auffordernd-bekräftigend."
+          },
+          {
+            "items": [
+              "halt",
+              "eben",
+              "eigentlich",
+              "schon"
+            ],
+            "odd": 2,
+            "why": "„eigentlich\" drückt Reflexion aus, nicht Resignation oder Zugeständnis."
+          },
+          {
+            "items": [
+              "wohl",
+              "schon",
+              "eigentlich",
+              "ja"
+            ],
+            "odd": 1,
+            "why": "„schon\" drückt Zugeständnis aus, nicht Vermutung. Die anderen drei wirken vorsichtig-zurückhaltend."
+          },
+          {
+            "items": [
+              "halt",
+              "schon",
+              "eben",
+              "doch"
+            ],
+            "odd": 3,
+            "why": "„doch\" drückt Bekräftigung aus, nicht Resignation oder Zugeständnis."
+          },
+          {
+            "items": [
+              "ja",
+              "halt",
+              "mal",
+              "wohl"
+            ],
+            "odd": 0,
+            "why": "„ja\" drückt Bekanntheit aus. Die anderen drei sind auffordernd / vermutung."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "A10",
+      "instructions": "Streiche die Modalpartikel, die nicht zur angegebenen Wirkung passt, und erkläre warum.",
+      "title": "Welche Modalpartikel passt nicht zur Wirkung?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Rückmeldung"
+          ],
+          "2": [
+            "möchte"
+          ],
+          "3": [
+            "würde"
+          ],
+          "4": [
+            "zukommen"
+          ],
+          "5": [
+            "passt"
+          ],
+          "6": [
+            "vielleicht"
+          ],
+          "7": [
+            "doch"
+          ]
+        },
+        "bank": [
+          "Rückmeldung",
+          "möchte",
+          "würde",
+          "zukommen",
+          "passt",
+          "vielleicht",
+          "doch",
+          "halt",
+          "sicher",
+          "selbstverständlich",
+          "eben",
+          "mal"
+        ],
+        "text": "Sehr geehrte Frau Doktor Hoffmann,\nvielen Dank für Ihre {1}. Ich {2} Ihnen gerne mitteilen,\ndass der Schriftsatz im Wesentlichen fertig ist. Ich {3}\nIhnen das Manuskript heute Nachmittag {4} lassen — wenn\ndas für Sie so {5}. Hätten Sie {6} {7} einen Moment\nZeit für eine telefonische Rückfrage am Vormittag?\nMit freundlichen Grüßen,\nTomáš Novák\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Füll die 7 Lücken mit der passenden Form aus dem Kasten. Fünf Elemente sind zu viel.",
+      "title": "Formelle E-Mail mit Modalpartikeln (sparsam!)"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "halt"
+              },
+              {
+                "key": "b",
+                "text": "ja"
+              },
+              {
+                "key": "c",
+                "text": "schon"
+              }
+            ],
+            "q": "„Ich weiß, ____ du heute viel zu tun hast.\" (Erinnerung an Bekanntes)",
+            "why": "„ja\" erinnert an gemeinsames Wissen. „halt\" ist Resignation; „schon\" wäre Zugeständnis."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "halt"
+              },
+              {
+                "key": "b",
+                "text": "doch"
+              },
+              {
+                "key": "c",
+                "text": "mal"
+              }
+            ],
+            "q": "„Ich bleibe zu Hause, weil ich ____ müde bin.\" (Resignation)",
+            "why": "„halt\" drückt begründende Resignation aus. „doch\" wäre Bekräftigung; „mal\" Auflockerung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "halt"
+              },
+              {
+                "key": "b",
+                "text": "schon"
+              },
+              {
+                "key": "c",
+                "text": "mal"
+              }
+            ],
+            "q": "„Wenn du ____ Zeit hast, ruf mich an.\" (sanfte Bitte)",
+            "why": "„mal\" lockert eine Bitte auf. „halt\" wäre Resignation; „schon\" Zugeständnis."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wohl"
+              },
+              {
+                "key": "b",
+                "text": "ja"
+              },
+              {
+                "key": "c",
+                "text": "doch"
+              }
+            ],
+            "q": "„Er kommt ____ nicht.\" (vorsichtige Vermutung)",
+            "why": "„wohl\" drückt eine vorsichtige Vermutung aus. „ja\" und „doch\" wären Bekanntheit / Bekräftigung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "wohl"
+              },
+              {
+                "key": "b",
+                "text": "schon"
+              },
+              {
+                "key": "c",
+                "text": "halt"
+              }
+            ],
+            "q": "„Das stimmt ____, aber wir müssen trotzdem weitermachen.\" (Zugeständnis)",
+            "why": "„schon\" leitet ein Zugeständnis ein. „wohl\" wäre Vermutung; „halt\" Resignation."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B3",
+      "instructions": "Wähle die Modalpartikel (a, b oder c), die im Kontext am besten passt.",
+      "title": "Welche Modalpartikel passt in den Kontext?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "halt"
+          ],
+          "2": [
+            "eigentlich"
+          ],
+          "3": [
+            "mal"
+          ],
+          "4": [
+            "wohl"
+          ],
+          "5": [
+            "ja"
+          ],
+          "6": [
+            "ja"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich bleibe zu Hause, weil ich {1} müde bin. (Resignation)\n2. Es ist schade, dass du {2} nicht kommen kannst. (Reflexion)\n3. Wenn du {3} Zeit hast, ruf mich an. (sanfte Bitte)\n4. Er kommt {4} nicht. (Vermutung)\n5. Ich weiß, dass du {5} viel zu tun hast. (Bekanntheit)\n6. Obwohl er {6} krank ist, kommt er zur Arbeit. (Bekanntheit)\n",
+        "type": "gap-text"
+      },
+      "id": "B5",
+      "instructions": "Setze je eine passende Modalpartikel ein. 6 Items.",
+      "title": "Modalpartikeln in Nebensätzen (Konnektoren)"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "halt vs. eben"
+          },
+          {
+            "key": "2",
+            "text": "doch vs. mal"
+          },
+          {
+            "key": "3",
+            "text": "ja vs. doch"
+          },
+          {
+            "key": "4",
+            "text": "wohl vs. eigentlich"
+          },
+          {
+            "key": "5",
+            "text": "schon vs. ja"
+          },
+          {
+            "key": "6",
+            "text": "halt vs. schon"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "beide Resignation — halt begründend, eben sachlich-feststellend"
+          },
+          {
+            "key": "b",
+            "text": "beide auffordernd — doch drängend-werbend, mal auflockernd"
+          },
+          {
+            "key": "c",
+            "text": "beide Bekanntes vorausgesetzt — ja erinnert, doch bekräftigt"
+          },
+          {
+            "key": "d",
+            "text": "beide vorsichtig — wohl Vermutung, eigentlich Reflexion"
+          },
+          {
+            "key": "e",
+            "text": "beide zustimmend — schon mit Einschränkung, ja mit Hervorhebung"
+          },
+          {
+            "key": "f",
+            "text": "beide „so ist es\" — halt begründend, schon mit Einwand"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B6",
+      "instructions": "Ordne jedem Modalpartikel-Paar (1–6) den richtigen Unterschied (a–f) zu.",
+      "title": "Feine Unterschiede: Modalpartikel-Paare"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "allerdings"
+          ],
+          "2": [
+            "vermutlich"
+          ],
+          "3": [
+            "Diese Aussage ist nicht zutreffend."
+          ],
+          "4": [
+            "Würden Sie mich bitte begleiten?"
+          ],
+          "5": [
+            "Dieser Sachverhalt ist nicht unproblematisch."
+          ],
+          "6": [
+            "Dieser Sachverhalt entspricht den gegebenen Umständen."
+          ]
+        },
+        "listLayout": true,
+        "text": "1. „Das ist halt nicht ganz richtig.\" → standardsprachlich: „Das ist {1} nicht ganz richtig.\"\n2. „Er wird wohl krank sein.\" → standardsprachlich: „Er ist {2} krank.\"\n3. „Das ist ja Quatsch!\" → standardsprachlich: „{3}\"\n4. „Komm doch mal mit!\" → standardsprachlich: „{4}\"\n5. „Das ist eben nicht einfach.\" → standardsprachlich: „{5}\"\n6. „Das ist halt so.\" → standardsprachlich: „{6}\"\n",
+        "type": "gap-text"
+      },
+      "id": "B7",
+      "instructions": "Schreibe die umgangssprachlichen Sätze standardsprachlich. Ersetze die Modalpartikel durch das passende Adverb oder eine gehobene Form. 6 Items.",
+      "title": "Modalpartikeln im gesprochenen vs. schriftlichen Register"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "müssen + mal"
+              },
+              {
+                "key": "b",
+                "text": "müssen + halt"
+              },
+              {
+                "key": "c",
+                "text": "müssen + eigentlich"
+              }
+            ],
+            "q": "Wirkung: Befehl höflicher machen.",
+            "why": "„müssen + mal\" mildert einen Befehl. „halt\" (Resignation) und „eigentlich\" (Reflexion) passen nicht zum Befehl."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wollen + doch"
+              },
+              {
+                "key": "b",
+                "text": "wollen + ja"
+              },
+              {
+                "key": "c",
+                "text": "wollen + schon"
+              }
+            ],
+            "q": "Wirkung: Frage aufwerben.",
+            "why": "„wollen + doch\" wirbt. „ja\" setzt Bekanntheit voraus; „schon\" wäre Zugeständnis."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "können + mal"
+              },
+              {
+                "key": "b",
+                "text": "können + vielleicht doch"
+              },
+              {
+                "key": "c",
+                "text": "können + halt"
+              }
+            ],
+            "q": "Wirkung: Bitte sehr höflich.",
+            "why": "„können + vielleicht doch\" ist die höflichste Variante. „mal\" mildert nur; „halt\" passt nicht zur Bitte."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sollen + halt"
+              },
+              {
+                "key": "b",
+                "text": "sollen + doch mal"
+              },
+              {
+                "key": "c",
+                "text": "sollen + eigentlich"
+              }
+            ],
+            "q": "Wirkung: freundliche Erinnerung.",
+            "why": "„sollen + doch mal\" erinnert freundlich. „halt\" (Resignation) und „eigentlich\" (Reflexion) passen nicht."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "möchten + vielleicht doch"
+              },
+              {
+                "key": "b",
+                "text": "möchten + ja"
+              },
+              {
+                "key": "c",
+                "text": "möchten + halt"
+              }
+            ],
+            "q": "Wirkung: werbende Nachfrage (formell).",
+            "why": "„möchten + vielleicht doch\" wirbt höflich nach. „ja\" (Bekanntheit) und „halt\" (Resignation) passen nicht."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B8",
+      "instructions": "Wähle die passende Kombination (a, b oder c) zur beschriebenen Wirkung.",
+      "title": "Modalpartikel + Modalverb: Welche Kombination passt?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "steril"
+          ],
+          "2": [
+            "mal"
+          ],
+          "3": [
+            "eben"
+          ],
+          "4": [
+            "mal"
+          ],
+          "5": [
+            "schon"
+          ],
+          "6": [
+            "halt"
+          ],
+          "7": [
+            "würde"
+          ],
+          "8": [
+            "mal"
+          ],
+          "9": [
+            "Mittelfeld"
+          ],
+          "10": [
+            "beherrscht"
+          ]
+        },
+        "listLayout": true,
+        "text": "Modalpartikeln sind das Geheimnis der gesprochenen deutschen Sprache.\nWer sie beherrscht, klingt wie ein Muttersprachler; wer sie ignoriert,\nklingt zwar korrekt, aber {1}. Die acht wichtigsten Partikeln sind:\n*doch*, *ja*, *{2}*, *halt*, *{3}*, *wohl*, *schon* und *eigentlich*.\n*Komm!* ist ein Befehl; *Komm {4}!* ist freundlich; *Komm doch!* ist\nwerbend; *Komm {5}!* ist drängend; *Komm halt!* ist resigniert.\nIm geschriebenen Register sollte man Modalpartikeln sparsam einsetzen:\nein bis zwei pro E-Mail reichen. Wer in einer Bewerbung schreibt\n„Ich bin {6} teamfähig\", klingt umgangssprachlich im Anzug. Wer mit dem\nKonjunktiv II kombiniert, wird höflicher: *Ich {7} {8} vorschlagen,\ndass …* ist Standardformel im Berufsleben. Im {9} steht die Partikel\ndirekt nach dem finiten Verb — nicht am Satzanfang, nicht am Satzende.\nWer Modalpartikeln {10}, schreibt plötzlich viel klarer.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Füll jede Lücke mit **einem** passenden Wort (Modalpartikel, Konjunktiv-II-Form oder Verbform). 10 Items.",
+      "title": "Lückentext: Modalpartikeln und Nuancen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "mir halt"
+              },
+              {
+                "key": "b",
+                "text": "mir mal"
+              },
+              {
+                "key": "c",
+                "text": "mir doch"
+              }
+            ],
+            "q": "„Könnten Sie ____ kurz das Salz reichen?\"",
+            "why": "„mal\" lockert eine höfliche Bitte auf. „halt\" (Resignation) und „doch\" (Bekräftigung) passen nicht zur gehobenen Bitte."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Haben"
+              },
+              {
+                "key": "b",
+                "text": "Hätten"
+              },
+              {
+                "key": "c",
+                "text": "Würden haben"
+              }
+            ],
+            "q": "„____ Sie vielleicht doch einen Moment Zeit?\"",
+            "why": "„Hätten\" ist Konjunktiv II — die Standard-Höflichkeitsform. „Würden haben\" wäre gestapelt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "halt"
+              },
+              {
+                "key": "b",
+                "text": "schon"
+              },
+              {
+                "key": "c",
+                "text": "mal"
+              }
+            ],
+            "q": "„Das stimmt ____, aber wir müssen es trotzdem prüfen.\"",
+            "why": "„schon\" leitet ein Zugeständnis ein („Das stimmt schon, aber …\")."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "wäre"
+              },
+              {
+                "key": "c",
+                "text": "sei"
+              }
+            ],
+            "q": "„Er ____ wohl krank sein.\"",
+            "why": "„wird + wohl\" = vorsichtige Vermutung. „wäre\" ist Konjunktiv II (irreal); „sei\" ist Konjunktiv I (indirekte Rede)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "würde"
+              },
+              {
+                "key": "b",
+                "text": "will"
+              },
+              {
+                "key": "c",
+                "text": "möchte"
+              }
+            ],
+            "q": "„Ich ____ mal vorschlagen, dass wir das vertagen.\"",
+            "why": "„würde + mal\" ist die Standardformel für vorsichtige Meinungsäußerung im Meeting."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "halt"
+              },
+              {
+                "key": "b",
+                "text": "schon"
+              },
+              {
+                "key": "c",
+                "text": "doch"
+              }
+            ],
+            "q": "„Kannst du das vielleicht ____ nochmal anschauen?\"",
+            "why": "„vielleicht doch\" = sehr höfliche Bitte, besonders nach erster Absage."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle die stilistisch und grammatisch passende Option (a, b oder c) für jede Lücke.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "BEDEUTUNG"
+          ],
+          "2": [
+            "ZUTRAUEN"
+          ],
+          "3": [
+            "BEFEHL"
+          ],
+          "4": [
+            "MODALPARTIKELN"
+          ],
+          "5": [
+            "MÖGLICH"
+          ],
+          "6": [
+            "MITTELFELD"
+          ],
+          "7": [
+            "SATZANFANG"
+          ],
+          "8": [
+            "MODALPARTIKEL"
+          ],
+          "9": [
+            "HÖFLICH"
+          ],
+          "10": [
+            "STERIL"
+          ]
+        },
+        "bank": [
+          "BEDEUTUNG",
+          "ZUTRAUEN",
+          "BEFEHL",
+          "MODALPARTIKELN",
+          "MÖGLICH",
+          "MITTELFELD",
+          "SATZANFANG",
+          "MODALPARTIKEL",
+          "HÖFLICH",
+          "STERIL",
+          "NATÜRLICH",
+          "ELLIPSE",
+          "OFT",
+          "SELTEN",
+          "WIRKLICH"
+        ],
+        "text": "Aus einem Sprachratgeber: „Acht kleine Wörter tragen mehr {1}, als man\nihnen auf den ersten Blick {2} würde. *Komm!* ist ein {3}, *Komm\ndoch!* ist werbend. Im gehobenen Register vermeidet man {4};\nim umgangssprachlichen Register sind drei bis fünf pro Satz {5}.\nEine Modalpartikel steht im {6}, nicht am {7}. Wer Konjunktiv\nII und eine {8} kombiniert, klingt {9}, nicht {10}.\"\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Füll die 10 Lücken mit Wörtern aus dem Kasten. Fünf Wörter sind zu viel. Jedes Wort wird nur einmal benutzt.",
+      "title": "Sprachbausteine Teil 2 (Wortbank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Laut Text sind Modalpartikeln das „heimliche Rückgrat\" der deutschen Sprache.",
+            "why": "„Modalpartikeln sind das heimliche Rückgrat der deutschen Sprache\" — wörtlich im Text."
+          },
+          {
+            "answer": false,
+            "q": "Im Text hat „Ich komme halt morgen\" die Wirkung eines Bekenntnisses gegen einen Einwand.",
+            "why": "„Ich komme halt morgen\" ist „resigniert — so ist es eben\". Bekenntnis gegen Einwand wäre „doch\"."
+          },
+          {
+            "answer": false,
+            "q": "Laut Text erzeugt „Ich komme eigentlich morgen\" eine vorsichtige Vermutung.",
+            "why": "„eigentlich\" leitet eine Reflexion ein, nicht eine Vermutung. „wohl\" drückt Vermutung aus."
+          },
+          {
+            "answer": false,
+            "q": "Im Text wird empfohlen, in einer E-Mail an den Vorgesetzten mehrere Modalpartikeln zu verwenden.",
+            "why": "„Mehr wirkt deplatziert\" — ein bis zwei Modalpartikeln pro E-Mail reichen."
+          },
+          {
+            "answer": true,
+            "q": "Der Text vertritt die These, dass Modalpartikeln in der gesprochenen Sprache häufiger vorkommen als in der geschriebenen.",
+            "why": "„die wichtigsten Werkzeuge der gesprochenen Sprache\" und „in der geschriebenen Sprache freilich … sparsam zu verwenden\"."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Modalpartikeln sind das heimliche Rückgrat der deutschen Sprache. Wer sie beherrscht, klingt nicht nur natürlich, sondern auch überzeugend — und wer sie ignoriert, klingt zwar korrekt, aber steril. Acht kleine Wörter — doch, ja, eben, halt, wohl, schon, mal, eigentlich — tragen mehr Bedeutung, als man ihnen auf den ersten Blick zutrauen würde. Sie sind das, was einen Satz von der reinen Information zur Mitteilung macht, vom bloßen Sachverhalt zur Sprechhaltung.\n>\n> Betrachten wir ein einfaches Beispiel. „Ich komme morgen.\" ist eine Feststellung. „Ich komme ja morgen.\" erinnert an ein gemeinsames Wissen. „Ich komme doch morgen\" klingt, als hätte der Sprecher sich gegen einen Einwand durchgesetzt. „Ich komme schon morgen\" enthält ein Zugeständnis — vielleicht kommt er doch, aber später als erwartet. „Ich komme halt morgen\" ist resigniert — so ist es eben. „Ich komme eigentlich morgen\" leitet eine Reflexion ein — vielleicht hat er seine Pläne geändert. „Ich komme wohl morgen\" ist eine vorsichtige Vermutung. „Ich komme mal morgen\" ist ein vorsichtiger Vorschlag — schauen wir mal.\n>\n> Acht Sätze, ein einziger Sachverhalt, acht verschiedene Stimmungen. Genau das ist die Macht der Modalpartikeln. Sie sind keine übersehbaren Stilblüten, sondern die wichtigsten Werkzeuge der gesprochenen Sprache. Wer eine Fremdsprache lernt, lernt Vokabeln, Grammatik, Aussprache — und vergisst dabei die Partikeln. Wer die Partikeln lernt, klingt wie ein Muttersprachler.\n>\n> In der geschriebenen Sprache freilich, und das ist der entscheidende Punkt, sind Modalpartikeln sparsam zu verwenden. Eine E-Mail an den Vorgesetzten verträgt einmal ein „würden Sie mal\" oder ein „das ist ja eigentlich kein Problem\". Mehr wirkt deplatziert — das geschriebene Wort hat andere Konventionen als das gesprochene.\n\nRichtig (R) oder Falsch (F)?\n",
+      "title": "Lesen Text 1 (Lesetext: Modalpartikeln im Feuilleton)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "halt und ja"
+              },
+              {
+                "key": "b",
+                "text": "halt und mal"
+              },
+              {
+                "key": "c",
+                "text": "doch und wohl"
+              }
+            ],
+            "q": "Welche Modalpartikel benutzt Anna_B (Beitrag 2) besonders häufig?",
+            "why": "„ich benutze doch ständig „halt\" und „mal\" im Netz\" — explizit genannt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Im informellen Chat sind sie Ausdruck von Authentizität, in formellen Mitteilungen deplatziert."
+              },
+              {
+                "key": "b",
+                "text": "Modalpartikeln sollten ganz vermieden werden."
+              },
+              {
+                "key": "c",
+                "text": "Modalpartikeln gehören nur in die gesprochene Sprache."
+              }
+            ],
+            "q": "Welches Argument bringt Yusuf (Beitrag 3) für den differenzierten Einsatz von Modalpartikeln?",
+            "why": "„im informellen Chat und in sozialen Medien sind Modalpartikeln Ausdruck von Authentizität; in formellen Mitteilungen hingegen wirken sie deplatziert\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "halt und schon"
+              },
+              {
+                "key": "b",
+                "text": "doch und mal"
+              },
+              {
+                "key": "c",
+                "text": "ja und wohl"
+              }
+            ],
+            "q": "Welche Modalpartikel benutzt Tomáš_N (Beitrag 4), um das Argument zu lockern?",
+            "why": "„Wer schreibt, sollte halt auf sein Sprachgefühl hören — dann passt das schon\" — halt + schon."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Umgangssprachlich."
+              },
+              {
+                "key": "b",
+                "text": "Standardsprachlich."
+              },
+              {
+                "key": "c",
+                "text": "Gehoben / formell."
+              }
+            ],
+            "q": "Welches Register benutzt Markus_K (Beitrag 1)?",
+            "why": "„höflich darauf hinweisen\" / „Beiträge mit mehr als fünf Modalpartikeln … möglicherweise gekürzt werden\" — gehoben-formelles Register, passend zur Moderatorenrolle."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Lies die folgenden Forumsbeiträge und wähle a, b oder c.\n\n> **Beitrag 1 — Markus_K (Moderator):**\n> Liebe Forenmitglieder, die Frage, ob Modalpartikeln im Internet ihren festen Platz haben, wird seit Jahren kontrovers diskutiert. Wir möchten Sie einladen, Ihre Meinung zu diesem Thema mitzuteilen. Bitte beachten Sie, dass Beiträge mit mehr als fünf Modalpartikeln pro Satz möglicherweise gekürzt werden.\n>\n> **Beitrag 2 — Anna_B:**\n> Leute, ehrlich gesagt: ich benutze doch ständig „halt\" und „mal\" im Netz. Wer schreibt heute noch ohne diese kleinen Wörter? Das klingt ja wie ein Lexikonartikel.\n>\n> **Beitrag 3 — Dr. Yusuf El-Sayed:**\n> Ich würde anregen, zwischen den verschiedenen Diskursdomänen zu differenzieren. Im informellen Chat und in sozialen Medien sind Modalpartikeln Ausdruck von Authentizität; in formellen Mitteilungen hingegen wirken sie deplatziert. Beide Register haben ihre Berechtigung.\n>\n> **Beitrag 4 — Tomáš_N (User):**\n> Eigentlich finde ich, dass die Diskussion viel zu theoretisch geführt wird. Wer schreibt, sollte halt auf sein Sprachgefühl hören — dann passt das schon.\n",
+      "title": "Lesen Text 2 (Forumsdiskussion: Modalpartikeln im Netz)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "doch"
+          ],
+          "2": [
+            "ja"
+          ],
+          "3": [
+            "mal"
+          ],
+          "4": [
+            "halt"
+          ],
+          "5": [
+            "eben"
+          ],
+          "6": [
+            "wohl"
+          ],
+          "7": [
+            "schon"
+          ],
+          "8": [
+            "eigentlich"
+          ],
+          "9": [
+            "wird"
+          ],
+          "10": [
+            "dürfte"
+          ],
+          "11": [
+            "hätte"
+          ],
+          "12": [
+            "würde"
+          ],
+          "13": [
+            "weil"
+          ],
+          "14": [
+            "obwohl"
+          ],
+          "15": [
+            "gehoben"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Acht Modalpartikeln (C1/03):**\n1. Bekräftigung, sanftes Drängen: {1}\n2. Bekanntheit, gemeinsames Wissen: {2}\n3. Auflockerung, sanfte Bitte: {3}\n4. Resignation, „so ist es\": {4}\n5. sachliche Resignation: {5}\n6. vorsichtige Vermutung: {6}\n7. Zugeständnis mit Einschränkung: {7}\n8. Reflexion, Korrektur: {8}\n\n**Wiederholung (B2/06 Modalverben subjektiv):**\n9. (B2/06) Subjektives Modalverb für vorsichtige Vermutung: Er {9} krank sein.\n10. (B2/06) Konjunktiv II von „dürfen\": er {10} krank sein.\n\n**Wiederholung (B2/03 Konjunktiv II):**\n11. (B2/03) Konjunktiv II von „haben\" + 3. Pers. Sg.: er {11} Zeit.\n12. (B2/03) Konjunktiv II von „werden\" + 1. Pers. Sg.: ich {12} sagen.\n\n**Wiederholung (B1/02 Konnektoren):**\n13. (B1/02) Konnektor für Begründung: {13} es regnet.\n14. (B1/02) Konnektor für Gegengrund: {14} es regnet.\n\n**Wiederholung (C1/01 Register):**\n15. (C1/01) Register der E-Mail an den Vorgesetzten: {15}.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Eine Minute pro Item. Keine Notizen. Items mit (L<n>) wiederholen eine frühere Lektion. 15 Items.",
+      "title": "Gemischter Schnelltest"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "doch",
+              "ja",
+              "mal",
+              "allerdings"
+            ],
+            "odd": 3,
+            "why": "„allerdings\" ist ein Konjunktionaladverb; die anderen drei sind Modalpartikeln."
+          },
+          {
+            "items": [
+              "halt",
+              "eben",
+              "schon",
+              "vermutlich"
+            ],
+            "odd": 3,
+            "why": "„vermutlich\" ist ein Adverb (modifiziert das Verb); die anderen drei sind Modalpartikeln."
+          },
+          {
+            "items": [
+              "weil",
+              "obwohl",
+              "da",
+              "eigentlich"
+            ],
+            "odd": 3,
+            "why": "„eigentlich\" ist eine Modalpartikel; die anderen drei sind Konjunktionen."
+          },
+          {
+            "items": [
+              "doch",
+              "weil",
+              "halt",
+              "mal"
+            ],
+            "odd": 1,
+            "why": "„weil\" ist eine Konjunktion; die anderen drei sind Modalpartikeln."
+          },
+          {
+            "items": [
+              "wohl",
+              "wahrscheinlich",
+              "vermutlich",
+              "möglicherweise"
+            ],
+            "odd": 0,
+            "why": "„wohl\" ist eine Modalpartikel (Vermutung); die anderen drei sind Adverbien."
+          },
+          {
+            "items": [
+              "eigentlich",
+              "ja",
+              "doch",
+              "wohl"
+            ],
+            "odd": 3,
+            "why": "„wohl\" drückt Vermutung aus; die anderen drei wirken bekräftigend / erinnernd / reflektierend."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum.",
+      "title": "Odd one out: Modalpartikeln und ähnliche Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "dürfte"
+          ],
+          "2": [
+            "Dürfte"
+          ],
+          "3": [
+            "würde"
+          ],
+          "4": [
+            "könnten"
+          ],
+          "5": [
+            "Obwohl"
+          ],
+          "6": [
+            "Da"
+          ],
+          "7": [
+            "umgangssprachlich"
+          ],
+          "8": [
+            "gehoben"
+          ],
+          "9": [
+            "halt"
+          ],
+          "10": [
+            "würde"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Aus B2/06 (Modalverben subjektiv):**\n1. Subjektives Modalverb für vorsichtige Vermutung: Er {1} krank sein.\n2. Modalverb für Erlaubnis / Höflichkeit: {2} ich Sie kurz stören?\n\n**Aus B2/03 (Konjunktiv II):**\n3. Konjunktiv II von „werden\" + 1. Pers. Sg.: ich {3} sagen.\n4. Konjunktiv II von „können\" + 3. Pers. Pl.: sie {4} das prüfen.\n\n**Aus B1/02 (Konnektoren):**\n5. Konnektor für Konzessiv (Gegengrund): {5} es regnete, ging er spazieren.\n6. Konnektor für Kausal: {6} es regnete, blieb er zu Hause.\n\n**Aus C1/01 (Register):**\n7. Register der WhatsApp unter Freunden: {7}.\n8. Register der E-Mail an den Vorgesetzten: {8}.\n\n**Aus C1/03 (Modalpartikeln — vertieft):**\n9. Modalpartikel im Mittelfeld: „Das ist {9} so.\" (Resignation)\n10. Konjunktiv II + Modalpartikel: „Ich {10} mal sagen, dass …\"\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Wiederholung früherer Lektionen. 10 Items.",
+      "title": "Rückblick: B2/06, B2/03, B1/02, C1/01"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "doch"
+          ],
+          "2": [
+            "halt"
+          ],
+          "3": [
+            "ja"
+          ],
+          "4": [
+            "mal"
+          ],
+          "5": [
+            "wohl"
+          ],
+          "6": [
+            "würde"
+          ],
+          "7": [
+            "Hätten"
+          ],
+          "8": [
+            "mal"
+          ],
+          "9": [
+            "1–2"
+          ],
+          "10": [
+            "3–5"
+          ],
+          "11": [
+            "wird wohl"
+          ],
+          "12": [
+            "dürfte"
+          ],
+          "13": [
+            "hätte"
+          ],
+          "14": [
+            "würde"
+          ],
+          "15": [
+            "weil"
+          ],
+          "16": [
+            "obwohl"
+          ],
+          "17": [
+            "verstorben"
+          ],
+          "18": [
+            "Distanz"
+          ],
+          "19": [
+            "andauernde"
+          ],
+          "20": [
+            "Parenthese"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Modalpartikeln zuordnen:**\n1. „Komm {1} mit!\" (Bekräftigung)\n2. „Das ist {2} so.\" (Resignation)\n3. „Du weißt {3}, wie das ist.\" (Bekanntheit)\n4. „Schau {4} her.\" (Auflockerung)\n5. „Er wird {5} krank sein.\" (Vermutung)\n\n**Konjunktiv II + Modalpartikel:**\n6. „Ich {6} mal vorschlagen, dass …\" (vorsichtige Meinung)\n7. „{7} Sie vielleicht doch einen Moment Zeit?\" (sehr höflich)\n\n**Mittelfeld-Stellung:**\n8. „Ich würde sagen mal, dass …\" → Korrektur: „Ich würde {8} sagen, dass …\"\n\n**Register:**\n9. Register der formellen E-Mail: höchstens {9} Modalpartikel(n) pro Text.\n10. Register der gesprochenen Sprache: {10} Modalpartikeln pro Satz möglich.\n\n**Wiederholung (B2/06):**\n11. (B2/06) Subjektives Modalverb: „Er {11} krank sein.\"\n12. (B2/06) Konjunktiv II von „dürfen\": er {12} kommen.\n\n**Wiederholung (B2/03):**\n13. (B2/03) Konjunktiv II von „haben\" + 3. Pers. Sg.: er {13} Zeit.\n14. (B2/03) Konjunktiv II von „werden\" + 1. Pers. Sg.: ich {14} fragen.\n\n**Wiederholung (B1/02):**\n15. (B1/02) Konnektor für Begründung: {15} es regnet.\n16. (B1/02) Konnektor für Konzessiv: {16} es regnet.\n\n**Wiederholung (C1/01):**\n17. (C1/01) Euphemismus für „sterben\": {17}.\n18. (C1/01) Konjunktiv II als {18}-Marker.\n\n**Wiederholung (C1/02):**\n19. (C1/02) Vorangestelltes Partizipialattribut: „die seit Jahren {19} Krise\".\n20. (C1/02) Eingeschobene Erläuterung in Gedankenstrichen: {20}.\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (bewerte dich /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "c1-03",
+  "intro": "Blöcke: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Die Lösungen findest du in solutions.md. Tipp: Verteil die Blöcke über mehrere Tage — H und A am Tag 1, B am Tag 2, C am Tag 3, D am Tag 4 nach einer Pause.\n",
+  "lesson": "C1/03",
+  "level": "C1",
+  "summary": null,
+  "title": "C1 · Lektion 3 — Übungen (Modalpartikeln und Nuancen)",
+  "topic": null
+}

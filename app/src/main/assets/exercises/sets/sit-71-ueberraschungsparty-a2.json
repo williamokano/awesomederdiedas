@@ -1,0 +1,832 @@
+{
+  "category": "Soziales",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "planen",
+            "label": "Planen"
+          },
+          {
+            "key": "vorbereiten",
+            "label": "Vorbereiten"
+          },
+          {
+            "key": "amtag",
+            "label": "Am Tag der Party"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "planen",
+            "text": "die Gästeliste erstellen"
+          },
+          {
+            "bucket": "planen",
+            "text": "einen Termin heimlich festlegen"
+          },
+          {
+            "bucket": "planen",
+            "text": "die Aufgaben verteilen"
+          },
+          {
+            "bucket": "planen",
+            "text": "einen Vorwand ausdenken"
+          },
+          {
+            "bucket": "vorbereiten",
+            "text": "Einladungen heimlich verschicken"
+          },
+          {
+            "bucket": "vorbereiten",
+            "text": "die Dekoration kaufen"
+          },
+          {
+            "bucket": "vorbereiten",
+            "text": "einen Kuchen backen"
+          },
+          {
+            "bucket": "vorbereiten",
+            "text": "das Geheimnis bewahren"
+          },
+          {
+            "bucket": "amtag",
+            "text": "die gefeierte Person ablenken"
+          },
+          {
+            "bucket": "amtag",
+            "text": "die Gäste rechtzeitig verstecken"
+          },
+          {
+            "bucket": "amtag",
+            "text": "laut „Überraschung“ rufen"
+          },
+          {
+            "bucket": "amtag",
+            "text": "gemeinsam feiern"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Planen, vorbereiten oder am Tag der Party?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Überraschungsparty"
+          },
+          {
+            "key": "2",
+            "text": "heimlich"
+          },
+          {
+            "key": "3",
+            "text": "die Gästeliste"
+          },
+          {
+            "key": "4",
+            "text": "ablenken"
+          },
+          {
+            "key": "5",
+            "text": "der Vorwand"
+          },
+          {
+            "key": "6",
+            "text": "die Aufgaben verteilen"
+          },
+          {
+            "key": "7",
+            "text": "das Geheimnis bewahren"
+          },
+          {
+            "key": "8",
+            "text": "die Dekoration"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "eine Party, von der die gefeierte Person nichts weiß"
+          },
+          {
+            "key": "b",
+            "text": "ohne dass es jemand merkt"
+          },
+          {
+            "key": "c",
+            "text": "die Liste der eingeladenen Personen"
+          },
+          {
+            "key": "d",
+            "text": "jemanden beschäftigen, damit er nichts merkt"
+          },
+          {
+            "key": "e",
+            "text": "ein erfundener Grund, um jemanden wegzulocken"
+          },
+          {
+            "key": "f",
+            "text": "festlegen, wer was für die Party organisiert"
+          },
+          {
+            "key": "g",
+            "text": "nichts verraten"
+          },
+          {
+            "key": "h",
+            "text": "der Schmuck für die Feier"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "müssen"
+          ],
+          "2": [
+            "Kannst"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Müssen"
+          ],
+          "5": [
+            "merkt"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Kann"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir {1} die Party heimlich planen. (Modalverb, wir-Form)\n2. {2} du mir bei der Gästeliste helfen? (können, du-Form)\n3. Ich {3} schon alle Einladungen verschickt. (haben, Perfekt)\n4. {4} wir noch einen guten Vorwand finden? (müssen, wir-Form)\n5. Falls sie etwas {5}, müssen wir schnell reagieren. (merken, Präsens)\n6. Jeder Gast {6} sich pünktlich verstecken. (werden, Futur I)\n7. Wir {7} schon die Aufgaben verteilt. (haben, Perfekt)\n8. {8} ich das Geheimnis wirklich bewahren? (können, ich-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Die Party planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Überraschungsparty"
+          ],
+          "2": [
+            "heimlich"
+          ],
+          "3": [
+            "Gästeliste"
+          ],
+          "4": [
+            "ablenken"
+          ],
+          "5": [
+            "Vorwand"
+          ],
+          "6": [
+            "Dekoration"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir organisieren für sie eine {1}, ohne dass sie etwas ahnt. (eine Party, von der die gefeierte Person nichts weiß)\n2. Wir planen alles ganz {2}, damit nichts vorher rauskommt. (ohne dass es jemand merkt)\n3. Zuerst erstellen wir die {3} mit allen Namen. (die Liste der eingeladenen Personen)\n4. Am Tag selbst müssen wir sie geschickt {4}. (jemanden beschäftigen, damit er nichts merkt)\n5. Dafür brauchen wir einen guten {5}, um sie aus dem Haus zu locken. (ein erfundener Grund)\n6. Zum Schluss kümmern wir uns noch um die {6} im Raum. (der Schmuck für die Feier)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "ÜBERRASCHUNGSPARTY"
+          ],
+          "2": [
+            "GÄSTELISTE"
+          ],
+          "3": [
+            "HEIMLICH"
+          ],
+          "4": [
+            "ORGANISIERT"
+          ],
+          "5": [
+            "ÜBERNEHME"
+          ],
+          "6": [
+            "VORWAND"
+          ],
+          "7": [
+            "ABGELENKT"
+          ],
+          "8": [
+            "GEHEIMNIS"
+          ],
+          "9": [
+            "VERRATEN"
+          ],
+          "10": [
+            "REAKTION"
+          ]
+        },
+        "bank": [
+          "ÜBERRASCHUNGSPARTY",
+          "GÄSTELISTE",
+          "HEIMLICH",
+          "ORGANISIERT",
+          "ÜBERNEHME",
+          "VORWAND",
+          "ABGELENKT",
+          "GEHEIMNIS",
+          "VERRATEN",
+          "REAKTION",
+          "LUFTBALLONS",
+          "GESCHENKE",
+          "KERZEN",
+          "EINLADUNGSKARTEN"
+        ],
+        "text": "— Hey, ich möchte für Lisa eine {1} organisieren, machst du\nmit?\n— Klar, total gerne! Wer steht denn schon auf der {2}?\n— Bisher zehn Leute, aber ich schreibe die Einladungen ganz\n{3}.\n— Gut, und wer {4} die Deko und den Kuchen?\n— Das {5} ich.\n— Passt. Aber wie bekommen wir Lisa unauffällig aus dem Haus?\n— Ich denke mir einen {6} aus, zum Beispiel ein angebliches\nTreffen.\n— Gute Idee! Und wer sorgt dafür, dass sie so lange {7}\nbleibt, bis alle da sind?\n— Das übernehme ich, ich lade sie zum Kaffee ein.\n— Perfekt, dann müssen wir jetzt nur noch das {8} bewahren.\n— Genau, keiner darf ihr auch nur ein Wort {9}.\n— Ich freue mich schon total auf ihre {10}, wenn alle\n„Überraschung“ rufen!\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Die Party planen und Aufgaben verteilen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Partys interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich möchte für Lisa eine Überraschungsparty organisieren, machst du mit?"
+              },
+              {
+                "key": "c",
+                "text": "Mach das doch einfach allein."
+              }
+            ],
+            "q": "Du möchtest einen Freund fragen, ob er bei der Überraschungsparty mitmacht. — You want to ask a friend if they'll help with the surprise party.",
+            "why": "Eine direkte, freundliche Frage ist der übliche Einstieg bei der Planung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Gästelisten sind mir zu kompliziert."
+              },
+              {
+                "key": "b",
+                "text": "Gäste sind mir egal."
+              },
+              {
+                "key": "c",
+                "text": "Wer steht denn schon auf der Gästeliste?"
+              }
+            ],
+            "q": "Du möchtest wissen, wer schon auf der Gästeliste steht. — You want to know who's already on the guest list.",
+            "why": "Eine direkte Nachfrage klärt schnell den aktuellen Stand der Gästeliste."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Keiner darf ihr auch nur ein Wort verraten."
+              },
+              {
+                "key": "b",
+                "text": "Wir können es ihr ruhig schon vorher sagen."
+              },
+              {
+                "key": "c",
+                "text": "Geheimnisse interessieren mich nicht."
+              }
+            ],
+            "q": "Du möchtest sicherstellen, dass alles heimlich bleibt. — You want to make sure everything stays secret.",
+            "why": "Eine klare Absprache zur Geheimhaltung ist bei einer Überraschungsparty entscheidend."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Vorwände sind mir zu kompliziert."
+              },
+              {
+                "key": "b",
+                "text": "Ich denke mir einen guten Vorwand aus."
+              },
+              {
+                "key": "c",
+                "text": "Wir sagen ihr einfach die Wahrheit."
+              }
+            ],
+            "q": "Du brauchst einen Vorwand, um die gefeierte Person aus dem Haus zu locken. — You need a pretext to lure the guest of honour out of the house.",
+            "why": "Ein guter Vorwand ist der Schlüssel, um die Person unauffällig wegzulocken."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Aufgaben interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich mache sowieso nichts."
+              },
+              {
+                "key": "c",
+                "text": "Wer kümmert sich um die Deko und den Kuchen?"
+              }
+            ],
+            "q": "Ihr müsst die Aufgaben für die Party verteilen. — You need to divide up the party tasks.",
+            "why": "Eine klare Frage zur Aufgabenverteilung sorgt für eine gut organisierte Party."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ihre Reaktion war einfach unbezahlbar!"
+              },
+              {
+                "key": "b",
+                "text": "Reaktionen interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das war doch nichts Besonderes."
+              }
+            ],
+            "q": "Die Party ist vorbei, und alle sind begeistert von der Reaktion. — The party is over, and everyone is thrilled by the reaction.",
+            "why": "Eine begeisterte Reaktion auf die gelungene Überraschung ist der schönste Lohn für die Planung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Planen und Aufgaben verteilen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Aussage, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "für",
+              "Lisa",
+              "eine",
+              "Überraschungsparty",
+              "organisieren"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "W-Frage mit Verb an Position 2",
+            "tiles": [
+              "Wer",
+              "steht",
+              "denn",
+              "schon",
+              "auf",
+              "der",
+              "Gästeliste",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Hauptsatz mit Modalverb, Infinitiv am Ende",
+            "tiles": [
+              "Keiner",
+              "darf",
+              "ihr",
+              "auch",
+              "nur",
+              "ein",
+              "Wort",
+              "verraten"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Nebensatz mit falls, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "sie",
+              "etwas",
+              "merkt",
+              ",",
+              "müssen",
+              "wir",
+              "schnell",
+              "reagieren"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "trennbares Verb, Präfix am Ende",
+            "tiles": [
+              "Ich",
+              "denke",
+              "mir",
+              "einen",
+              "guten",
+              "Vorwand",
+              "aus"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Wir",
+              "haben",
+              "schon",
+              "die",
+              "Aufgaben",
+              "verteilt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zur Party bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Mit der Planung sollte man am besten mindestens zwei Wochen vorher beginnen. — Planning should ideally start at least two weeks in advance.",
+            "why": "So steht es ausdrücklich in den Party-Infos."
+          },
+          {
+            "answer": false,
+            "q": "Hinweise zur Party dürfen problemlos in sozialen Medien gepostet werden. — Hints about the party can safely be posted on social media.",
+            "why": "Es sollen gerade keine Hinweise in sozialen Medien gepostet werden."
+          },
+          {
+            "answer": true,
+            "q": "Der Vorwand sollte glaubwürdig, aber unauffällig sein. — The pretext should be believable but unobtrusive.",
+            "why": "„Vorwand: sollte glaubwürdig, aber unauffällig sein.“"
+          },
+          {
+            "answer": false,
+            "q": "Die Gäste sollten erst nach der gefeierten Person ankommen. — Guests should arrive only after the guest of honour.",
+            "why": "Sie sollten mindestens 15 Minuten vorher da sein, nicht danach."
+          },
+          {
+            "answer": true,
+            "q": "Ein Gruppenfoto nach der Überraschung ist eine schöne Erinnerung. — A group photo after the surprise is a nice memory.",
+            "why": "„Nach der Überraschung: ein Gruppenfoto ist eine schöne Erinnerung.“"
+          },
+          {
+            "answer": false,
+            "q": "Die enge Familie muss bei einer Überraschungsparty nicht rechtzeitig informiert werden. — Close family doesn't need to be informed in time for a surprise party.",
+            "why": "Enge Freunde und Familie sollten rechtzeitig informiert werden."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Überraschungsparty**\n>\n> - **Planung:** am besten **mindestens zwei Wochen vorher**\n>   beginnen.\n> - **Gästeliste:** enge Freunde und Familie **rechtzeitig**\n>   informieren.\n> - **Geheimhaltung:** keine Hinweise in **sozialen Medien**\n>   posten.\n> - **Vorwand:** sollte **glaubwürdig, aber unauffällig** sein.\n> - **Ankunftszeit:** die Gäste sollten **mindestens 15\n>   Minuten vorher** da sein.\n> - **Nach der Überraschung:** ein Gruppenfoto ist eine schöne\n>   **Erinnerung**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Party-Infos lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach die ganze Party absagen."
+              },
+              {
+                "key": "b",
+                "text": "Schnell einen glaubwürdigen Plan B finden."
+              },
+              {
+                "key": "c",
+                "text": "Dem Gast laut Vorwürfe machen, ohne eine Lösung zu suchen."
+              }
+            ],
+            "q": "Ein Gast verrät versehentlich das Geheimnis. — A guest accidentally gives away the secret.",
+            "why": "Ein schneller Plan B rettet die Überraschung oft noch."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Person einfach den ganzen Tag zu Hause lassen."
+              },
+              {
+                "key": "b",
+                "text": "In Panik geraten und nichts mehr sagen."
+              },
+              {
+                "key": "c",
+                "text": "Ruhig einen spontanen neuen Grund finden."
+              }
+            ],
+            "q": "Der Vorwand, um die Person aus dem Haus zu locken, funktioniert nicht. — The pretext to lure the person out doesn't work.",
+            "why": "Ein spontaner, glaubwürdiger neuer Grund rettet die Situation meist."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Gast schnell und unauffällig irgendwo verstecken."
+              },
+              {
+                "key": "b",
+                "text": "Den Gast einfach wieder nach Hause schicken."
+              },
+              {
+                "key": "c",
+                "text": "Die ganze Überraschung sofort verraten."
+              }
+            ],
+            "q": "Ein wichtiger Gast kommt viel zu früh an. — An important guest arrives much too early.",
+            "why": "Ein schnelles, unauffälliges Verstecken rettet die Überraschung am ehesten."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Stur weiter so tun, als wäre nichts."
+              },
+              {
+                "key": "b",
+                "text": "Die Wahrheit zugeben und trotzdem die Feier genießen."
+              },
+              {
+                "key": "c",
+                "text": "Die Party sofort absagen, sobald sie etwas ahnt."
+              }
+            ],
+            "q": "Die Person merkt schon vor der Ankunft, dass etwas nicht stimmt. — The person already notices something is off before arriving.",
+            "why": "Ehrlichkeit rettet die Stimmung meist besser als ein verzweifeltes Weiterlügen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Gäste einfach draußen warten lassen, ohne etwas zu sagen."
+              },
+              {
+                "key": "b",
+                "text": "Die Deko komplett weglassen."
+              },
+              {
+                "key": "c",
+                "text": "Die Gäste gemeinsam kurz mit anpacken lassen."
+              }
+            ],
+            "q": "Die Dekoration ist noch nicht fertig, obwohl die Gäste schon da sind. — The decorations aren't finished even though guests have already arrived.",
+            "why": "Gemeinsames Anpacken macht aus der Not schnell eine lustige Aktion."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Gelassen bleiben und schnell eine Alternative organisieren."
+              },
+              {
+                "key": "b",
+                "text": "Die Party deswegen komplett absagen."
+              },
+              {
+                "key": "c",
+                "text": "Sich den ganzen Abend über den Kuchen ärgern."
+              }
+            ],
+            "q": "Der Kuchen geht beim Transport kaputt. — The cake gets damaged during transport.",
+            "why": "Gelassenheit und eine schnelle Alternative retten die Feier am besten."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn bei der Überraschungsparty etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "verraten"
+          ],
+          "2": [
+            "funktioniert"
+          ],
+          "3": [
+            "angekommen"
+          ],
+          "4": [
+            "gemerkt"
+          ],
+          "5": [
+            "fertig"
+          ],
+          "6": [
+            "kaputtgegangen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ein Gast hat versehentlich das Geheimnis {1}. (ausgeplaudert, Partizip)\n2. Der Vorwand hat leider nicht {2}. (nicht richtig gewirkt)\n3. Ein Gast ist viel zu früh {3}. (dort eingetroffen, Partizip)\n4. Sie hat schon vor der Ankunft etwas {4}. (bemerkt, Partizip)\n5. Die Deko war noch nicht ganz {5}. (komplett)\n6. Der Kuchen ist beim Transport leider {6}. (beschädigt worden, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "müssen"
+          ],
+          "2": [
+            "Könntest"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Überraschungsparty"
+          ],
+          "5": [
+            "heimlich"
+          ],
+          "6": [
+            "Gästeliste"
+          ],
+          "7": [
+            "ablenken"
+          ],
+          "8": [
+            "Vorwand"
+          ],
+          "9": [
+            "Dekoration"
+          ],
+          "10": [
+            "verraten"
+          ],
+          "11": [
+            "funktioniert"
+          ],
+          "12": [
+            "angekommen"
+          ],
+          "13": [
+            "gemerkt"
+          ],
+          "14": [
+            "kaputtgegangen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir {1} die Party heimlich planen. (must)\n2. {2} du mir bei der Gästeliste helfen? (could — können)\n3. Ich {3} schon alle Einladungen verschickt. (have — Perfekt)\n4. Wir organisieren für sie eine {4}. (surprise party)\n5. Wir planen alles ganz {5}. (secretly)\n6. Zuerst erstellen wir die {6} mit allen Namen. (guest list)\n7. Am Tag selbst müssen wir sie geschickt {7}. (distract — Infinitiv)\n8. Dafür brauchen wir einen guten {8}. (pretext)\n9. Zum Schluss kümmern wir uns um die {9}. (decoration)\n10. Ein Gast hat versehentlich das Geheimnis {10}. (given away — Partizip)\n11. Der Vorwand hat leider nicht {11}. (worked — Partizip)\n12. Ein Gast ist viel zu früh {12}. (arrived — Partizip)\n13. Sie hat schon vor der Ankunft etwas {13}. (noticed — Partizip)\n14. Der Kuchen ist beim Transport leider {14}. (broken — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-71-ueberraschungsparty-a2",
+  "intro": "Eine gute Überraschungsparty braucht Absprache: die Gästeliste erstellen, Aufgaben verteilen, einen glaubwürdigen Vorwand finden, um die gefeierte Person aus dem Haus zu locken — und das Ganze bis zum letzten Moment geheim halten. Dieses Set übt genau das: die Party heimlich planen, Aufgaben verteilen, und was zu tun ist, wenn ein Gast fast das Geheimnis verrät oder zu früh ankommt. Grammatik nach Bedarf: Perfekt im Bericht, höfliche Fragen, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/71-ueberraschungsparty-a2",
+  "level": "A2",
+  "summary": "Heimlich eine Party organisieren, die Gästeliste erstellen, Aufgaben verteilen — und was tun, wenn ein Gast fast das Geheimnis verrät oder zu früh ankommt.",
+  "title": "Eine Überraschungsparty planen — A2",
+  "topic": "Eine Überraschungsparty planen"
+}

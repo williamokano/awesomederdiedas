@@ -1,0 +1,816 @@
+{
+  "category": "Freizeit & Kultur",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "karte",
+            "label": "Karte & Kasse"
+          },
+          {
+            "key": "saal",
+            "label": "Im Saal"
+          },
+          {
+            "key": "film",
+            "label": "Der Film"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "karte",
+            "text": "die Vorstellung"
+          },
+          {
+            "bucket": "saal",
+            "text": "die Reihe"
+          },
+          {
+            "bucket": "film",
+            "text": "die Originalfassung"
+          },
+          {
+            "bucket": "karte",
+            "text": "die Ermäßigung"
+          },
+          {
+            "bucket": "saal",
+            "text": "die Leinwand"
+          },
+          {
+            "bucket": "film",
+            "text": "der Untertitel"
+          },
+          {
+            "bucket": "karte",
+            "text": "der Sitzplan"
+          },
+          {
+            "bucket": "saal",
+            "text": "die Reihenmitte"
+          },
+          {
+            "bucket": "film",
+            "text": "die Synchronfassung"
+          },
+          {
+            "bucket": "karte",
+            "text": "die Überlänge"
+          },
+          {
+            "bucket": "saal",
+            "text": "der Notausgang"
+          },
+          {
+            "bucket": "film",
+            "text": "der Abspann"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Karte, Saal oder Film?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Wollen wir am Freitag ins Kino?"
+          },
+          {
+            "key": "2",
+            "text": "Welche Vorstellung?"
+          },
+          {
+            "key": "3",
+            "text": "OmU oder synchronisiert?"
+          },
+          {
+            "key": "4",
+            "text": "Wo möchten Sie sitzen?"
+          },
+          {
+            "key": "5",
+            "text": "Gibt es eine Ermäßigung?"
+          },
+          {
+            "key": "6",
+            "text": "Möchtet ihr Popcorn?"
+          },
+          {
+            "key": "7",
+            "text": "Wie lange geht der Film?"
+          },
+          {
+            "key": "8",
+            "text": "Wie fandest du ihn?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Gern, ab acht kann ich."
+          },
+          {
+            "key": "b",
+            "text": "Die um 20:15, die halb neun ist mir zu spät."
+          },
+          {
+            "key": "c",
+            "text": "OmU, bitte — ich will die Originalstimmen hören."
+          },
+          {
+            "key": "d",
+            "text": "Reihe 9 oder 10, Mitte, wenn noch frei ist."
+          },
+          {
+            "key": "e",
+            "text": "Mit Studentenausweis 8 € statt 12 €."
+          },
+          {
+            "key": "f",
+            "text": "Eine große Tüte zum Teilen, salzig."
+          },
+          {
+            "key": "g",
+            "text": "Zwei Stunden zehn, mit Werbung etwas länger."
+          },
+          {
+            "key": "h",
+            "text": "Ganz gut, aber das Ende war mir zu schnell."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jeder Frage eine passende Antwort zu.",
+      "instructionsEn": "Match each question with a fitting answer.",
+      "title": "Frage und Antwort"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Wollen"
+          ],
+          "2": [
+            "Soll"
+          ],
+          "3": [
+            "Schaffst"
+          ],
+          "4": [
+            "treffen"
+          ],
+          "5": [
+            "Können"
+          ],
+          "6": [
+            "nehme"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} wir am Freitag ins Kino? (wollen, wir-Form)\n2. {2} ich Karten besorgen? (sollen, ich-Form)\n3. {3} du auch die späte Vorstellung? (schaffen, du-Form)\n4. Wir {4} uns um halb acht vor dem Kino. (treffen, wir-Form)\n5. {5} wir vorher noch etwas essen gehen? (können, wir-Form)\n6. Ich {6} lieber die Originalfassung. (nehmen, ich-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze die Verbform.",
+      "instructionsEn": "Fill in the verb form.",
+      "title": "Vorschläge machen und annehmen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "fandest"
+          ],
+          "2": [
+            "weil"
+          ],
+          "3": [
+            "als"
+          ],
+          "4": [
+            "gefallen"
+          ],
+          "5": [
+            "mir"
+          ],
+          "6": [
+            "muss"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wie {1} du den Film? (finden, Präteritum, du-Form)\n2. Ich fand ihn gut, {2} die Bilder toll waren. (Grund)\n3. Die Musik war stärker {3} die Geschichte. (Vergleich)\n4. Mir hat vor allem der Anfang {4}. (gefallen, Partizip)\n5. Das Ende war {5} zu schnell. (für mich — Dativpronomen)\n6. Ich {6} ihn nicht noch einmal sehen. (müssen, ich-Form, verneint)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das Wort oder die Form.",
+      "instructionsEn": "Fill in the word or the form.",
+      "title": "Meinung sagen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "WOLLEN"
+          ],
+          "2": [
+            "VORSTELLUNG"
+          ],
+          "3": [
+            "FRÜHERE"
+          ],
+          "4": [
+            "SYNCHRONISIERT"
+          ],
+          "5": [
+            "ERMÄSSIGUNG"
+          ],
+          "6": [
+            "SITZEN"
+          ],
+          "7": [
+            "REIHE"
+          ],
+          "8": [
+            "ÜBERLÄNGE"
+          ],
+          "9": [
+            "POPCORN"
+          ],
+          "10": [
+            "EINGANG"
+          ]
+        },
+        "bank": [
+          "WOLLEN",
+          "VORSTELLUNG",
+          "FRÜHERE",
+          "SYNCHRONISIERT",
+          "ERMÄSSIGUNG",
+          "SITZEN",
+          "REIHE",
+          "ÜBERLÄNGE",
+          "POPCORN",
+          "EINGANG",
+          "SPÄTERE",
+          "KARTE",
+          "PLATZ",
+          "LEINWAND"
+        ],
+        "text": "— Du, {1} wir am Freitag ins Kino?\n— Gern! Welchen Film?\n— Den neuen. Es gibt eine {2} um 20:15 und eine um 22:30.\n— Die {3} nehme ich lieber, halb elf ist zu spät.\n— Okay. OmU oder {4}?\n— OmU, ich will die Originalstimmen hören.\n*(an der Kasse)*\n— Zweimal für 20:15, bitte. Gibt es eine {5}?\n— Mit Studentenausweis 8 € statt 12. Wo möchten Sie {6}?\n— {7} 9 oder 10, Mitte, wenn möglich.\n— 9 ist noch komplett frei.\n— Perfekt. Wie lange geht der Film denn?\n— Zwei Stunden zehn — der Saal ist heute wegen {8} etwas später\nwieder frei.\n— Gut zu wissen. Und eine große Tüte {9}, salzig.\n— Macht zusammen 22,50 €. Saal 3, der {10} ist rechts.\n— Danke schön!\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Verabreden und Karten kaufen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kommst du mit ins Kino?"
+              },
+              {
+                "key": "b",
+                "text": "Ich gehe Freitag ins Kino."
+              },
+              {
+                "key": "c",
+                "text": "Wollen wir Freitag ins Kino? Es läuft der neue Film, um 20:15 oder 22:30."
+              }
+            ],
+            "q": "Du willst jemanden ins Kino einladen. — You want to invite someone to the cinema.",
+            "why": "Tag, Film und zwei Uhrzeiten — daraus wird eine Verabredung statt einer Idee."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Gute Plätze, bitte."
+              },
+              {
+                "key": "b",
+                "text": "Egal wo."
+              },
+              {
+                "key": "c",
+                "text": "Reihe 9 oder 10, Mitte, wenn noch etwas frei ist."
+              }
+            ],
+            "q": "An der Kasse willst du gute Plätze. — At the box office you want good seats.",
+            "why": "Reihe und Position konkret nennen — „gut“ heißt für jeden etwas anderes."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Auf Englisch, bitte."
+              },
+              {
+                "key": "b",
+                "text": "Die OmU-Vorstellung, bitte — Original mit Untertiteln."
+              },
+              {
+                "key": "c",
+                "text": "Nicht auf Deutsch."
+              }
+            ],
+            "q": "Du willst den Film auf Englisch mit Untertiteln sehen. — You want the film in English with subtitles.",
+            "why": "OmU ist das Kürzel, das auf jedem deutschen Kinoprogramm steht."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Entschuldigung, könnten Sie bitte etwas leiser sein?"
+              },
+              {
+                "key": "b",
+                "text": "Ruhe!"
+              },
+              {
+                "key": "c",
+                "text": "Sich umdrehen und schauen."
+              }
+            ],
+            "q": "Hinter dir reden zwei Leute laut. — Two people behind you are talking loudly.",
+            "why": "Bitte statt Befehl — im dunklen Saal reicht ein ruhiger Satz fast immer."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie sitzen falsch."
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, ich glaube, das ist mein Platz — Reihe 9, Platz 12?"
+              },
+              {
+                "key": "c",
+                "text": "Sich woanders hinsetzen."
+              }
+            ],
+            "q": "Jemand sitzt auf deinem Platz. — Someone is in your seat.",
+            "why": "Die Platznummer gleich nennen: dann ist in fünf Sekunden klar, wer sich vertan hat."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich fand ihn gut, weil die Bilder toll waren — nur das Ende war mir zu schnell."
+              },
+              {
+                "key": "b",
+                "text": "Ganz gut."
+              },
+              {
+                "key": "c",
+                "text": "Ging so."
+              }
+            ],
+            "q": "Jemand fragt hinterher, wie du den Film fandest. — Someone asks how you found the film.",
+            "why": "Ein Lob und ein Einwand, beide begründet — daraus entsteht ein Gespräch."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Wie sagst du das?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Vorschlag mit wollen wir; ins = in das (Richtung)",
+            "tiles": [
+              "Wollen",
+              "wir",
+              "am",
+              "Freitag",
+              "ins",
+              "Kino",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "halb acht = 19:30; vor + Dativ",
+            "tiles": [
+              "Wir",
+              "treffen",
+              "uns",
+              "um",
+              "halb",
+              "acht",
+              "vor",
+              "dem",
+              "Kino"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Präteritum von finden — bei Meinungen üblich",
+            "tiles": [
+              "Ich",
+              "fand",
+              "den",
+              "Film",
+              "gut"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "gefallen mit Dativ; Partizip am Ende",
+            "tiles": [
+              "Mir",
+              "hat",
+              "vor",
+              "allem",
+              "der",
+              "Anfang",
+              "gefallen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Konjunktiv II könnten, Infinitiv am Ende",
+            "tiles": [
+              "Entschuldigung",
+              ",",
+              "könnten",
+              "Sie",
+              "bitte",
+              "etwas",
+              "leiser",
+              "sein",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "„mir zu …“ — der Dativ sagt, für wen",
+            "tiles": [
+              "Das",
+              "Ende",
+              "war",
+              "mir",
+              "zu",
+              "schnell"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze rund um den Kinoabend bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Um 17:30 läuft der Film auf Deutsch. — At 5:30 pm the film runs in German.",
+            "why": "Die 17:30-Vorstellung ist die synchronisierte Fassung."
+          },
+          {
+            "answer": true,
+            "q": "Wer die Originalfassung will, muss abends kommen. — Anyone wanting the original version has to come in the evening.",
+            "why": "OmU läuft nur um 20:15 und 22:30."
+          },
+          {
+            "answer": false,
+            "q": "Der Film beginnt pünktlich zur angegebenen Zeit. — The film starts exactly at the listed time.",
+            "why": "Vorher laufen etwa 15 Minuten Werbung und Vorschau."
+          },
+          {
+            "answer": false,
+            "q": "Eine Studentin zahlt dienstags 8 €. — A student pays €8 on Tuesdays.",
+            "why": "Dienstags kosten alle Vorstellungen 7 €."
+          },
+          {
+            "answer": false,
+            "q": "Wer um 20:10 kommt, hat seine Reservierung sicher. — Arriving at 8:10 pm keeps your reservation safe.",
+            "why": "Reservierungen verfallen 20 Minuten vor Beginn, also um 19:55."
+          },
+          {
+            "answer": false,
+            "q": "Eigenes Popcorn darf man mitbringen. — You may bring your own popcorn.",
+            "why": "„Mitgebrachte Speisen und Getränke sind nicht gestattet.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Kino am Park — Freitag**\n>\n> | Film | Zeit | Fassung | Saal |\n> |---|---|---|---|\n> | Der lange Sommer | 17:30 | **synchronisiert** | 1 |\n> | Der lange Sommer | 20:15 | **OmU** | 3 |\n> | Der lange Sommer | 22:30 | OmU | 3 |\n> | Kinderkino: Mia | 15:00 | synchronisiert | 2 |\n>\n> **Eintritt 12 €**, ermäßigt (Studierende, Azubis, ab 65)\n> **8 €**. **Überlängenzuschlag 1,50 €** ab 150 Minuten.\n>\n> **Dienstag ist Kinotag:** alle Vorstellungen **7 €**.\n>\n> Werbung und Vorschau **ca. 15 Minuten** vor Filmbeginn.\n>\n> **Reservierungen** verfallen **20 Minuten** vor Beginn.\n>\n> Mitgebrachte Speisen und Getränke sind **nicht gestattet**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Das Kinoprogramm lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kein Problem — gehen wir nächste Woche? Dienstag ist Kinotag, da ist es billiger."
+              },
+              {
+                "key": "b",
+                "text": "Danke auch."
+              },
+              {
+                "key": "c",
+                "text": "Nicht antworten."
+              }
+            ],
+            "q": "Deine Verabredung sagt zwei Stunden vorher ab. — Your date cancels two hours before.",
+            "why": "Absage annehmen und gleich neu vorschlagen — dann kippt der Plan nicht ganz."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Trotzdem reingehen."
+              },
+              {
+                "key": "b",
+                "text": "An der Kasse fragen, ob ein Umtausch auf die 20:15-Vorstellung möglich ist."
+              },
+              {
+                "key": "c",
+                "text": "Die Karte wegwerfen."
+              }
+            ],
+            "q": "Du hast die falsche Fassung gebucht — synchronisiert statt OmU. — You booked the dubbed version by mistake.",
+            "why": "Vor Beginn ist ein Tausch auf eine spätere Vorstellung meistens kein Problem — fragen kostet nichts."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Warten."
+              },
+              {
+                "key": "b",
+                "text": "Laut rufen."
+              },
+              {
+                "key": "c",
+                "text": "Rausgehen und es an der Kasse melden — je früher, desto eher wird neu gestartet."
+              }
+            ],
+            "q": "Der Ton fällt nach zehn Minuten aus. — The sound fails after ten minutes.",
+            "why": "Das Kino merkt es oft nicht sofort; wer Bescheid sagt, bekommt eher einen Neustart oder einen Gutschein."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Lauter werden."
+              },
+              {
+                "key": "b",
+                "text": "Kurz rausgehen und dem Personal Bescheid geben."
+              },
+              {
+                "key": "c",
+                "text": "Den Abend abschreiben."
+              }
+            ],
+            "q": "Die Bitte um Ruhe wird ignoriert. — Your request for quiet is ignored.",
+            "why": "Beim zweiten Mal ist es Sache des Personals — ein Streit im Saal stört alle anderen zusätzlich."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Leise reingehen, hinten stehen bleiben, bis die Augen sich gewöhnt haben, dann zum Platz."
+              },
+              {
+                "key": "b",
+                "text": "Mit dem Handy leuchten."
+              },
+              {
+                "key": "c",
+                "text": "Auf einem freien Platz vorn sitzen bleiben."
+              }
+            ],
+            "q": "Du kommst zwanzig Minuten zu spät. — You arrive twenty minutes late.",
+            "why": "Handylicht im dunklen Saal stört am meisten; kurz warten löst das Problem von selbst."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Du hast keinen Geschmack."
+              },
+              {
+                "key": "b",
+                "text": "Ich fand ihn zu lang — aber die Musik gebe ich dir, die war stark."
+              },
+              {
+                "key": "c",
+                "text": "Egal."
+              }
+            ],
+            "q": "Ihr seid uneinig über den Film. — You disagree about the film.",
+            "why": "Widersprechen und trotzdem etwas zugeben — so bleibt es ein Gespräch."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn der Abend hakt"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Originalfassung"
+          ],
+          "2": [
+            "Vorstellung"
+          ],
+          "3": [
+            "Ermäßigung"
+          ],
+          "4": [
+            "Überlängenzuschlag"
+          ],
+          "5": [
+            "Werbung"
+          ],
+          "6": [
+            "Platz"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich will die {1} mit Untertiteln sehen. (nicht die deutsche Fassung)\n2. Die {2} um 20:15 ist noch frei. (der einzelne Termin im Kino)\n3. Mit Studentenausweis gibt es eine {3}. (billiger)\n4. Ab 150 Minuten kommt ein {4} dazu. (Aufpreis für lange Filme)\n5. Vor dem Film läuft 15 Minuten {5}. (Reklame)\n6. Ich glaube, das ist mein {6} — Reihe 9. (Sitzplatz)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Wollen"
+          ],
+          "2": [
+            "Vorstellung"
+          ],
+          "3": [
+            "synchronisiert"
+          ],
+          "4": [
+            "Ermäßigung"
+          ],
+          "5": [
+            "Reihe"
+          ],
+          "6": [
+            "Werbung"
+          ],
+          "7": [
+            "Platz"
+          ],
+          "8": [
+            "leiser"
+          ],
+          "9": [
+            "fandest"
+          ],
+          "10": [
+            "weil"
+          ],
+          "11": [
+            "gefallen"
+          ],
+          "12": [
+            "mir"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} wir am Freitag ins Kino? (shall we)\n2. Welche {2} nehmen wir? (showing)\n3. OmU oder {3}? (dubbed)\n4. Gibt es eine {4}? (reduction)\n5. {5} 9, Mitte, bitte. (row)\n6. Vor dem Film läuft {6}. (advertising)\n7. Entschuldigung, das ist mein {7}. (seat)\n8. Könnten Sie bitte etwas {8} sein? (quieter)\n9. Wie {9} du den Film? (did you find — Präteritum)\n10. Ich fand ihn gut, {10} die Bilder toll waren. (because)\n11. Mir hat der Anfang {11}. (I liked it — Partizip)\n12. Das Ende war {12} zu schnell. (for me — Dativ)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-31-im-kino-a2",
+  "intro": "Ein Kinobesuch beginnt nicht im Kino, sondern mit einer Verabredung: Wann kannst du, welcher Film, welche Uhrzeit. Dann kommt die Kasse mit Reihe, Platz und der Frage, die in Deutschland wirklich zählt — Originalfassung mit Untertiteln oder synchronisiert. Drinnen geht es um Snacks, den richtigen Platz und darum, jemanden höflich zu bitten, leise zu sein. Und hinterher will jemand wissen, wie du den Film fandest. Grammatik nach Bedarf: Vorschläge mit wollen wir und sollen, Zeitangaben, Meinung mit finden und weil. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/31-im-kino-a2",
+  "level": "A2",
+  "summary": "Sich verabreden, Karten und Plätze, OmU oder synchronisiert, Snacks — und was man hinterher über den Film sagt.",
+  "title": "Im Kino — A2",
+  "topic": "Kinoabend"
+}

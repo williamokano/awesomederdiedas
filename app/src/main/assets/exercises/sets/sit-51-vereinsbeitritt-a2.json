@@ -1,0 +1,822 @@
+{
+  "category": "Freizeit & Kultur",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "anmeldung",
+            "label": "Anmeldung"
+          },
+          {
+            "key": "training",
+            "label": "Training"
+          },
+          {
+            "key": "gruppe",
+            "label": "Die Gruppe"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "anmeldung",
+            "text": "der Mitgliedsantrag"
+          },
+          {
+            "bucket": "training",
+            "text": "das Probetraining"
+          },
+          {
+            "bucket": "gruppe",
+            "text": "die Trainerin"
+          },
+          {
+            "bucket": "anmeldung",
+            "text": "der Mitgliedsbeitrag"
+          },
+          {
+            "bucket": "training",
+            "text": "die Trainingszeit"
+          },
+          {
+            "bucket": "gruppe",
+            "text": "die Mannschaft"
+          },
+          {
+            "bucket": "anmeldung",
+            "text": "die Satzung"
+          },
+          {
+            "bucket": "training",
+            "text": "die Sporthalle"
+          },
+          {
+            "bucket": "gruppe",
+            "text": "sich vorstellen"
+          },
+          {
+            "bucket": "anmeldung",
+            "text": "unterschreiben"
+          },
+          {
+            "bucket": "training",
+            "text": "das Aufwärmen"
+          },
+          {
+            "bucket": "gruppe",
+            "text": "der Teamgeist"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Anmeldung, Training oder Gruppe?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "das Probetraining"
+          },
+          {
+            "key": "2",
+            "text": "der Mitgliedsantrag"
+          },
+          {
+            "key": "3",
+            "text": "der Mitgliedsbeitrag"
+          },
+          {
+            "key": "4",
+            "text": "die Satzung"
+          },
+          {
+            "key": "5",
+            "text": "der Trainer"
+          },
+          {
+            "key": "6",
+            "text": "die Mannschaft"
+          },
+          {
+            "key": "7",
+            "text": "kündigen"
+          },
+          {
+            "key": "8",
+            "text": "unverbindlich"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "einmal unverbindlich mitmachen, bevor man sich entscheidet"
+          },
+          {
+            "key": "b",
+            "text": "das Formular, mit dem man Mitglied wird"
+          },
+          {
+            "key": "c",
+            "text": "das Geld, das man regelmäßig für die Mitgliedschaft zahlt"
+          },
+          {
+            "key": "d",
+            "text": "die schriftlichen Regeln des Vereins"
+          },
+          {
+            "key": "e",
+            "text": "die Person, die das Training leitet"
+          },
+          {
+            "key": "f",
+            "text": "die Gruppe, mit der man zusammen trainiert oder spielt"
+          },
+          {
+            "key": "g",
+            "text": "die Mitgliedschaft offiziell beenden"
+          },
+          {
+            "key": "h",
+            "text": "ohne feste Verpflichtung"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "möchte"
+          ],
+          "2": [
+            "Darf"
+          ],
+          "3": [
+            "muss"
+          ],
+          "4": [
+            "wird"
+          ],
+          "5": [
+            "habe"
+          ],
+          "6": [
+            "Kann"
+          ],
+          "7": [
+            "weiß"
+          ],
+          "8": [
+            "haben"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} gern beim Probetraining mitmachen. (möchten, ich-Form)\n2. {2} ich mich kurz vorstellen? (dürfen, ich-Form)\n3. Man {3} den Mitgliedsantrag vollständig ausfüllen. (müssen)\n4. Der Beitrag {4} monatlich per Lastschrift abgebucht. (werden, Passiv Präsens)\n5. Ich {5} letzte Woche zum ersten Mal mitgemacht. (haben, Perfekt)\n6. {6} man den Verein jederzeit verlassen? (können)\n7. Ich {7} noch nicht, welche Gruppe zu meinem Niveau passt. (wissen, ich-Form)\n8. Wir {8} uns nach dem Training noch kurz unterhalten. (haben, Perfekt)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Sich vorstellen und anmelden"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Probetraining"
+          ],
+          "2": [
+            "Mitgliedsantrag"
+          ],
+          "3": [
+            "Mitgliedsbeitrag"
+          ],
+          "4": [
+            "Satzung"
+          ],
+          "5": [
+            "Mannschaft"
+          ],
+          "6": [
+            "kündigen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Beim {1} kann ich unverbindlich mitmachen, bevor ich mich entscheide. (das erste, unverbindliche Training)\n2. Um Mitglied zu werden, fülle ich den {2} aus. (das Anmeldeformular)\n3. Der monatliche {3} beträgt 15 Euro. (das regelmäßige Geld für die Mitgliedschaft)\n4. In der {4} stehen die Regeln des Vereins. (das Dokument mit den Vereinsregeln)\n5. Unsere {5} spielt jeden Samstag ein Spiel. (die Gruppe, mit der man zusammen spielt)\n6. Wenn ich aufhören möchte, muss ich schriftlich {6}. (die Mitgliedschaft offiziell beenden)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "PROBETRAINING"
+          ],
+          "2": [
+            "FUSSBALL"
+          ],
+          "3": [
+            "MITMACHEN"
+          ],
+          "4": [
+            "MANNSCHAFT"
+          ],
+          "5": [
+            "WERDE"
+          ],
+          "6": [
+            "MITGLIEDSANTRAG"
+          ],
+          "7": [
+            "BEITRAG"
+          ],
+          "8": [
+            "MONAT"
+          ],
+          "9": [
+            "ABGEBUCHT"
+          ],
+          "10": [
+            "PASST"
+          ]
+        },
+        "bank": [
+          "PROBETRAINING",
+          "FUSSBALL",
+          "MITMACHEN",
+          "MANNSCHAFT",
+          "WERDE",
+          "MITGLIEDSANTRAG",
+          "BEITRAG",
+          "MONAT",
+          "ABGEBUCHT",
+          "PASST",
+          "JAHR",
+          "TRAINER",
+          "SATZUNG",
+          "KAPITÄN"
+        ],
+        "text": "— Hallo, ich bin heute zum {1} hier.\n— Schön, dass du da bist! Wie heißt du?\n— Ich heiße Lukas und spiele seit ein paar Jahren {2} in\nmeiner alten Stadt.\n— Perfekt, dann kannst du gleich bei uns {3}. Ich stelle dich\nkurz der {4} vor.\n(nach dem Training)\n— Das hat richtig Spaß gemacht! Wie {5} ich Mitglied?\n— Du füllst einfach den {6} aus und bringst ihn nächste Woche\nmit.\n— Und wie hoch ist der {7}?\n— 15 Euro im {8}, wird per Lastschrift {9}.\n— Alles klar, das {10} für mich.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Am ersten Trainingsabend"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Hallo, ich bin heute zum Probetraining hier."
+              },
+              {
+                "key": "b",
+                "text": "Ich bin hier, weil man mir das gesagt hat."
+              },
+              {
+                "key": "c",
+                "text": "Ich schaue nur kurz zu."
+              }
+            ],
+            "q": "Du kommst zum ersten Mal zum Probetraining. — You come to the trial session for the first time.",
+            "why": "Eine kurze, freundliche Vorstellung mit Grund ist der übliche Einstieg."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Erfahrung ist mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Ich spiele seit ein paar Jahren, in meiner alten Stadt."
+              },
+              {
+                "key": "c",
+                "text": "Frag mich später."
+              }
+            ],
+            "q": "Der Trainer fragt, ob du schon Erfahrung hast. — The coach asks if you already have experience.",
+            "why": "Eine kurze, konkrete Antwort hilft dem Trainer, dich richtig einzuschätzen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Mitgliedschaft interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Das mache ich schon irgendwie."
+              },
+              {
+                "key": "c",
+                "text": "Wie werde ich Mitglied?"
+              }
+            ],
+            "q": "Du möchtest wissen, wie man Mitglied wird. — You want to know how to become a member.",
+            "why": "Eine direkte Frage ist der einfachste Weg zu einer klaren Antwort."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Und wie hoch ist der Beitrag?"
+              },
+              {
+                "key": "b",
+                "text": "Geld ist mir egal."
+              },
+              {
+                "key": "c",
+                "text": "Ich zahle einfach, was Sie sagen."
+              }
+            ],
+            "q": "Du möchtest wissen, wie hoch der Mitgliedsbeitrag ist. — You want to know how much the membership fee is.",
+            "why": "Nach dem genauen Betrag zu fragen ist völlig normal und vermeidet Missverständnisse."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Still in der Ecke stehen."
+              },
+              {
+                "key": "b",
+                "text": "Dich kurz vorstellen und ein bisschen mit den anderen plaudern."
+              },
+              {
+                "key": "c",
+                "text": "Sofort wieder gehen."
+              }
+            ],
+            "q": "Du kennst noch niemanden in der Gruppe. — You don't know anyone in the group yet.",
+            "why": "Sich kurz vorzustellen ist der normale erste Schritt, um in der Gruppe anzukommen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das interessiert mich jetzt noch nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich bleibe sowieso für immer."
+              },
+              {
+                "key": "c",
+                "text": "Kann man den Verein jederzeit verlassen?"
+              }
+            ],
+            "q": "Du möchtest wissen, ob du den Verein jederzeit verlassen kannst. — You want to know if you can leave the club at any time.",
+            "why": "Die Kündigungsbedingungen vorher zu klären ist eine sinnvolle, normale Frage."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Sich der Gruppe vorstellen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "kurze Vorstellung mit Grund",
+            "tiles": [
+              "Hallo",
+              ",",
+              "ich",
+              "bin",
+              "heute",
+              "zum",
+              "Probetraining",
+              "hier"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "seit + Dativ für die Dauer",
+            "tiles": [
+              "Ich",
+              "spiele",
+              "seit",
+              "ein",
+              "paar",
+              "Jahren",
+              "Fußball"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Frage mit Fragewort, Verb an Position 2",
+            "tiles": [
+              "Wie",
+              "werde",
+              "ich",
+              "Mitglied",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Passiv Präsens, Partizip am Ende",
+            "tiles": [
+              "Der",
+              "Beitrag",
+              "wird",
+              "per",
+              "Lastschrift",
+              "abgebucht"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "trennbares Verb vorstellen, Präfix am Ende",
+            "tiles": [
+              "Ich",
+              "stelle",
+              "dich",
+              "kurz",
+              "der",
+              "Mannschaft",
+              "vor"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Frage mit Modalverb an Position 1",
+            "tiles": [
+              "Kann",
+              "man",
+              "den",
+              "Verein",
+              "jederzeit",
+              "verlassen",
+              "?"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze am ersten Trainingsabend bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Das Probetraining ist bis zu drei Terminen kostenlos. — The trial sessions are free for up to three dates.",
+            "why": "So steht es ausdrücklich im Infoblatt."
+          },
+          {
+            "answer": false,
+            "q": "Man wird automatisch Mitglied, ohne ein Formular auszufüllen. — You automatically become a member without filling out a form.",
+            "why": "Der Mitgliedsantrag muss ausgefüllt und abgegeben werden."
+          },
+          {
+            "answer": false,
+            "q": "Der Mitgliedsbeitrag wird bar bezahlt. — The membership fee is paid in cash.",
+            "why": "Der Beitrag wird per Lastschrift abgebucht."
+          },
+          {
+            "answer": true,
+            "q": "Die Kündigung braucht eine Frist von einem Monat zum Quartalsende. — Cancellation requires one month's notice to the end of the quarter.",
+            "why": "„Kündigung: schriftlich, mit einem Monat Frist zum Quartalsende.“"
+          },
+          {
+            "answer": false,
+            "q": "Die Trainingszeiten ändern sich nie. — Training times never change.",
+            "why": "Sie können sich saisonal ändern."
+          },
+          {
+            "answer": false,
+            "q": "Ein Trainingsanzug ist Pflicht. — A tracksuit is mandatory.",
+            "why": "Er ist nicht Pflicht, wird aber empfohlen."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **TSV Nordstadt — Infos für neue Mitglieder**\n>\n> - **Probetraining:** bis zu **drei Termine kostenlos** und\n>   unverbindlich.\n> - Danach: **Mitgliedsantrag** ausfüllen und bei der Geschäftsstelle\n>   abgeben.\n> - **Mitgliedsbeitrag:** 15 € pro Monat, **per Lastschrift**\n>   abgebucht.\n> - **Kündigung:** schriftlich, mit **einem Monat Frist** zum\n>   Quartalsende.\n> - Trainingszeiten stehen auf der **Vereinswebseite**, können sich\n>   saisonal ändern.\n> - Ein **Trainingsanzug** ist nicht Pflicht, wird aber empfohlen.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Das Vereinsinfoblatt lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nach einem neuen Termin fragen."
+              },
+              {
+                "key": "b",
+                "text": "Sofort das Interesse am Verein verlieren."
+              },
+              {
+                "key": "c",
+                "text": "Nichts tun und einfach vergessen."
+              }
+            ],
+            "q": "Dein Probetraining wird kurzfristig abgesagt. — Your trial session is cancelled at short notice.",
+            "why": "Nachzufragen zeigt weiterhin Interesse und findet schnell einen Ersatztermin."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort wieder nach Hause gehen."
+              },
+              {
+                "key": "b",
+                "text": "Dich kurz vorstellen, auch wenn es unangenehm ist."
+              },
+              {
+                "key": "c",
+                "text": "Die ganze Zeit schweigen."
+              }
+            ],
+            "q": "Du kennst beim ersten Training noch niemanden und fühlst dich unsicher. — You don't know anyone at the first session and feel unsure.",
+            "why": "Sich vorzustellen ist unangenehm, aber der einzige Weg, in der Gruppe anzukommen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Irgendetwas eintragen."
+              },
+              {
+                "key": "b",
+                "text": "Das Feld leer lassen, ohne Bescheid zu geben."
+              },
+              {
+                "key": "c",
+                "text": "Beim Trainer oder in der Geschäftsstelle nachfragen."
+              }
+            ],
+            "q": "Eine Frage im Mitgliedsantrag ist dir nicht klar. — A question on the membership form isn't clear to you.",
+            "why": "Nachfragen verhindert einen falsch ausgefüllten Antrag."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Trainer fragen, ob es eine passendere Gruppe gibt."
+              },
+              {
+                "key": "b",
+                "text": "Einfach nicht mehr hingehen."
+              },
+              {
+                "key": "c",
+                "text": "So tun, als wäre alles in Ordnung."
+              }
+            ],
+            "q": "Du merkst, dass die Trainingsgruppe zu fortgeschritten für dich ist. — You realize the training group is too advanced for you.",
+            "why": "Der Trainer kennt die anderen Gruppen und kann eine bessere Lösung vorschlagen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach unregelmäßig kommen, ohne etwas zu sagen."
+              },
+              {
+                "key": "b",
+                "text": "Fragen, ob es eine andere Trainingszeit oder Gruppe gibt."
+              },
+              {
+                "key": "c",
+                "text": "Sofort wieder austreten."
+              }
+            ],
+            "q": "Die Trainingszeit überschneidet sich mit deiner Arbeit. — The training time clashes with your work.",
+            "why": "Viele Vereine bieten mehrere Zeiten an — nachzufragen lohnt sich meistens."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dich entschuldigen und den Beitrag umgehend nachzahlen."
+              },
+              {
+                "key": "b",
+                "text": "Es einfach ignorieren."
+              },
+              {
+                "key": "c",
+                "text": "Dem Verein die Schuld geben."
+              }
+            ],
+            "q": "Du hast vergessen, den Mitgliedsbeitrag rechtzeitig zu zahlen. — You forgot to pay the membership fee on time.",
+            "why": "Eine kurze Entschuldigung mit sofortiger Nachzahlung ist die einfachste Lösung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn es nicht ganz nach Plan läuft"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "abgesagt"
+          ],
+          "2": [
+            "Mitgliedsantrag"
+          ],
+          "3": [
+            "fortgeschritten"
+          ],
+          "4": [
+            "überschneidet"
+          ],
+          "5": [
+            "Mitgliedsbeitrag"
+          ],
+          "6": [
+            "Gruppe"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Mein Probetraining wurde kurzfristig {1}. (nicht stattfinden, Partizip)\n2. Eine Frage im {2} war mir nicht klar. (das Anmeldeformular)\n3. Die Trainingsgruppe war leider zu {3} für mich. (auf einem höheren Niveau)\n4. Die Trainingszeit {4} sich mit meiner Arbeit. (zeitlich zusammenfallen)\n5. Ich habe vergessen, den {5} rechtzeitig zu zahlen. (das regelmäßige Geld für die Mitgliedschaft)\n6. Ich habe mich beim Trainer nach einer passenderen {6} erkundigt. (die Trainingsgruppe)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "möchte"
+          ],
+          "2": [
+            "Darf"
+          ],
+          "3": [
+            "muss"
+          ],
+          "4": [
+            "wird"
+          ],
+          "5": [
+            "Probetraining"
+          ],
+          "6": [
+            "Mitgliedsantrag"
+          ],
+          "7": [
+            "Mitgliedsbeitrag"
+          ],
+          "8": [
+            "Satzung"
+          ],
+          "9": [
+            "Mannschaft"
+          ],
+          "10": [
+            "kündigen"
+          ],
+          "11": [
+            "abgesagt"
+          ],
+          "12": [
+            "fortgeschritten"
+          ],
+          "13": [
+            "überschneidet"
+          ],
+          "14": [
+            "Mitgliedsbeitrag"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} gern beim Probetraining mitmachen. (would like)\n2. {2} ich mich kurz vorstellen? (may — dürfen)\n3. Man {3} den Mitgliedsantrag vollständig ausfüllen. (must)\n4. Der Beitrag {4} monatlich per Lastschrift abgebucht. (is — Passiv)\n5. Beim {5} kann ich unverbindlich mitmachen. (trial session)\n6. Um Mitglied zu werden, fülle ich den {6} aus. (membership form)\n7. Der monatliche {7} beträgt 15 Euro. (membership fee)\n8. In der {8} stehen die Regeln des Vereins. (club statutes)\n9. Unsere {9} spielt jeden Samstag. (team)\n10. Wenn ich aufhören möchte, muss ich schriftlich {10}. (cancel — Infinitiv)\n11. Mein Probetraining wurde kurzfristig {11}. (cancelled — Partizip)\n12. Die Trainingsgruppe war zu {12} für mich. (advanced)\n13. Die Trainingszeit {13} sich mit meiner Arbeit. (clashes)\n14. Ich habe vergessen, den {14} rechtzeitig zu zahlen. (membership fee)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-51-vereinsbeitritt-a2",
+  "intro": "Ein Verein beizutreten fängt fast immer mit einem Probetraining an — einmal unverbindlich mitmachen, bevor man sich entscheidet. Dazu gehört, sich kurz der Gruppe vorzustellen, den Mitgliedsantrag auszufüllen und zu klären, wie hoch der Beitrag ist und wie er bezahlt wird. Dieses Set übt genau das, plus das, was danach kommt: eine falsche Trainingsgruppe, eine unklare Frage im Formular, eine Terminüberschneidung. Grammatik nach Bedarf: Perfekt im Bericht, höfliche Fragen mit Konjunktiv II, Nebensätze mit dass/ob. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/51-vereinsbeitritt-a2",
+  "level": "A2",
+  "summary": "Zum Probetraining gehen, sich der Gruppe vorstellen, den Mitgliedsantrag ausfüllen und den Beitrag klären.",
+  "title": "Einem Verein beitreten — A2",
+  "topic": "Einem Verein beitreten"
+}

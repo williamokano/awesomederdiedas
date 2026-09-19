@@ -1,0 +1,824 @@
+{
+  "category": "Wohnen & Nachbarschaft",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "planung",
+            "label": "Planung"
+          },
+          {
+            "key": "umzugstag",
+            "label": "Umzugstag"
+          },
+          {
+            "key": "danach",
+            "label": "Nach dem Umzug"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "planung",
+            "text": "den Umzugswagen mieten"
+          },
+          {
+            "bucket": "planung",
+            "text": "die Kartons packen"
+          },
+          {
+            "bucket": "umzugstag",
+            "text": "Möbel tragen"
+          },
+          {
+            "bucket": "umzugstag",
+            "text": "die Sackkarre"
+          },
+          {
+            "bucket": "danach",
+            "text": "sich ummelden"
+          },
+          {
+            "bucket": "danach",
+            "text": "der Nachsendeauftrag"
+          },
+          {
+            "bucket": "planung",
+            "text": "Freunde um Hilfe bitten"
+          },
+          {
+            "bucket": "planung",
+            "text": "das Halteverbotsschild aufstellen"
+          },
+          {
+            "bucket": "umzugstag",
+            "text": "den Wagen ausladen"
+          },
+          {
+            "bucket": "danach",
+            "text": "die neue Anschrift mitteilen"
+          },
+          {
+            "bucket": "umzugstag",
+            "text": "Pizza für die Helfer bestellen"
+          },
+          {
+            "bucket": "danach",
+            "text": "beim Bürgeramt vorsprechen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Planung, Umzugstag oder danach?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Umzugswagen"
+          },
+          {
+            "key": "2",
+            "text": "die Sackkarre"
+          },
+          {
+            "key": "3",
+            "text": "sich ummelden"
+          },
+          {
+            "key": "4",
+            "text": "der Nachsendeauftrag"
+          },
+          {
+            "key": "5",
+            "text": "das Halteverbotsschild"
+          },
+          {
+            "key": "6",
+            "text": "die Umzugskartons"
+          },
+          {
+            "key": "7",
+            "text": "die neue Anschrift"
+          },
+          {
+            "key": "8",
+            "text": "ausladen"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "das Fahrzeug zum Transport der Möbel"
+          },
+          {
+            "key": "b",
+            "text": "das kleine Gerät mit Rädern zum Tragen schwerer Sachen"
+          },
+          {
+            "key": "c",
+            "text": "die neue Adresse offiziell beim Amt melden"
+          },
+          {
+            "key": "d",
+            "text": "die Post wird automatisch an die neue Adresse geschickt"
+          },
+          {
+            "key": "e",
+            "text": "das Schild, das einen Parkplatz für den Umzugswagen freihält"
+          },
+          {
+            "key": "f",
+            "text": "die stabilen Kisten zum Packen"
+          },
+          {
+            "key": "g",
+            "text": "die Adresse der neuen Wohnung"
+          },
+          {
+            "key": "h",
+            "text": "Dinge aus dem Wagen herausholen"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "müssen"
+          ],
+          "2": [
+            "Kannst"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Sollen"
+          ],
+          "5": [
+            "regnet"
+          ],
+          "6": [
+            "werde"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Darf"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir {1} noch einen Umzugswagen mieten. (Modalverb, wir-Form)\n2. {2} du uns am Samstag beim Umzug helfen? (können, du-Form)\n3. Ich {3} schon die Hälfte der Kartons gepackt. (haben, Perfekt)\n4. {4} wir ein Halteverbotsschild aufstellen? (sollen, wir-Form)\n5. Falls es {5}, brauchen wir eine Plane für die Möbel. (regnen, Präsens)\n6. Nach dem Umzug {6} ich mich sofort beim Bürgeramt ummelden. (werden, Futur I)\n7. Die Freunde {7} uns tatkräftig geholfen. (haben, Perfekt)\n8. {8} ich dir als Dank eine Pizza bestellen? (dürfen, ich-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Den Umzug planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Umzugswagen"
+          ],
+          "2": [
+            "Sackkarre"
+          ],
+          "3": [
+            "ummelden"
+          ],
+          "4": [
+            "Nachsendeauftrag"
+          ],
+          "5": [
+            "Halteverbotsschild"
+          ],
+          "6": [
+            "Pizza"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Für den Transport der Möbel brauchen wir einen {1}. (das Fahrzeug für den Umzug)\n2. Schwere Kisten transportieren wir mit der {2}. (das Gerät mit Rädern zum Tragen)\n3. Nach dem Umzug muss ich mich beim Bürgeramt {3}. (die neue Adresse offiziell melden)\n4. Damit die Post ankommt, richte ich einen {4} ein. (die automatische Weiterleitung der Post)\n5. Vor dem Haus stellen wir ein {5} auf, damit der Wagen dort parken kann. (das Schild für den freien Parkplatz)\n6. Zum Dank für die Hilfe bestellen wir {6} für alle. (Essen zum Feiern nach der Arbeit)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "ZIEHE"
+          ],
+          "2": [
+            "HELFEN"
+          ],
+          "3": [
+            "KARTONS"
+          ],
+          "4": [
+            "BIN"
+          ],
+          "5": [
+            "PIZZA"
+          ],
+          "6": [
+            "MIETEN"
+          ],
+          "7": [
+            "DAUER"
+          ],
+          "8": [
+            "EMPFEHLE"
+          ],
+          "9": [
+            "KOSTET"
+          ],
+          "10": [
+            "INKLUSIVE"
+          ]
+        },
+        "bank": [
+          "ZIEHE",
+          "HELFEN",
+          "KARTONS",
+          "BIN",
+          "PIZZA",
+          "MIETEN",
+          "DAUER",
+          "EMPFEHLE",
+          "KOSTET",
+          "INKLUSIVE",
+          "WOHNUNG",
+          "TRAGEN",
+          "GRÖSSE",
+          "EXTRA"
+        ],
+        "text": "— Hey, ich {1} nächsten Samstag um. Hättest du Zeit, mir zu\n{2}?\n— Klar, gerne! Wie viele {3} habt ihr?\n— So etwa fünfzehn, plus ein Sofa und einen Schrank.\n— Kein Problem, ich {4} um neun Uhr da.\n— Super, danke dir! Als Dank gibt es {5} für alle.\n(beim Verleih)\n— Guten Tag, ich möchte einen Umzugswagen für Samstag {6}.\n— Für welche {7} brauchen Sie ihn?\n— Von morgens bis abends, also den ganzen Tag.\n— Gut, dann {8} ich Ihnen den größeren Wagen.\n— Perfekt, und wie viel {9} das ungefähr?\n— Etwa siebzig Euro, {10} Kilometer.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Freunde um Hilfe bitten und den Wagen mieten"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Hättest du Zeit, mir beim Umzug zu helfen?"
+              },
+              {
+                "key": "b",
+                "text": "Du hilfst mir am Samstag, klar?"
+              },
+              {
+                "key": "c",
+                "text": "Hilfe brauche ich sowieso nicht."
+              }
+            ],
+            "q": "Du möchtest einen Freund um Hilfe beim Umzug bitten. — You want to ask a friend for help moving.",
+            "why": "Eine höfliche Frage lässt der Person die Möglichkeit, frei zu entscheiden."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kartons zählen ist mir zu anstrengend."
+              },
+              {
+                "key": "b",
+                "text": "So etwa fünfzehn, plus ein Sofa und einen Schrank."
+              },
+              {
+                "key": "c",
+                "text": "Wir haben halt Zeug."
+              }
+            ],
+            "q": "Du möchtest wissen, wie viele Kartons deine Freunde einplanen sollen. — You want your friends to know roughly how many boxes there are.",
+            "why": "Eine ungefähre, konkrete Angabe hilft den Helfenden, sich vorzubereiten."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Geben Sie mir sofort einen Wagen."
+              },
+              {
+                "key": "b",
+                "text": "Wagen sind mir egal."
+              },
+              {
+                "key": "c",
+                "text": "Ich möchte einen Umzugswagen für Samstag mieten."
+              }
+            ],
+            "q": "Du möchtest einen Umzugswagen mieten. — You want to rent a moving van.",
+            "why": "Eine höfliche, konkrete Anfrage ist der übliche Einstieg beim Verleih."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Vielen Dank euch allen, ohne euch hätten wir das nicht geschafft."
+              },
+              {
+                "key": "b",
+                "text": "Na, das war ja selbstverständlich."
+              },
+              {
+                "key": "c",
+                "text": "Nichts sagen und einfach gehen."
+              }
+            ],
+            "q": "Du möchtest dich bei den Helfern bedanken. — You want to thank your helpers.",
+            "why": "Ein herzlicher Dank ist die übliche und angemessene Reaktion nach so viel Hilfe."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dauer ist mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Für welche Dauer kann ich den Wagen mieten?"
+              },
+              {
+                "key": "c",
+                "text": "Ich bringe ihn zurück, wann ich will."
+              }
+            ],
+            "q": "Du möchtest fragen, wie lange die Anmietung des Wagens dauern darf. — You want to ask how long you can keep the rented van.",
+            "why": "Eine klare Frage zur Mietdauer verhindert spätere Zusatzkosten."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das geht Sie nichts an."
+              },
+              {
+                "key": "b",
+                "text": "Keine Ahnung, das war schon immer da."
+              },
+              {
+                "key": "c",
+                "text": "Wir ziehen am Samstag um und brauchen den Platz für den Umzugswagen."
+              }
+            ],
+            "q": "Ein Nachbar fragt, warum ein Halteverbotsschild vor dem Haus steht. — A neighbour asks why there's a no-parking sign outside.",
+            "why": "Eine kurze, freundliche Erklärung ist eine höfliche Reaktion auf die Nachfrage eines Nachbarn."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Höflich um Hilfe bitten"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Konjunktiv-II-Bitte, Infinitiv am Ende",
+            "tiles": [
+              "Hättest",
+              "du",
+              "Zeit",
+              ",",
+              "mir",
+              "beim",
+              "Umzug",
+              "zu",
+              "helfen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Bitte, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "einen",
+              "Umzugswagen",
+              "für",
+              "Samstag",
+              "mieten"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "reflexives Verb, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "muss",
+              "mich",
+              "beim",
+              "Bürgeramt",
+              "ummelden"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Nebensatz mit falls, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "es",
+              "regnet",
+              ",",
+              "brauchen",
+              "wir",
+              "eine",
+              "Plane"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "kurzer, herzlicher Dank",
+            "tiles": [
+              "Vielen",
+              "Dank",
+              "euch",
+              "allen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Wir",
+              "haben",
+              "die",
+              "Kartons",
+              "endlich",
+              "ausgepackt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze beim Umzug bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Der Umzugswagen sollte mindestens eine Woche vorher reserviert werden. — The van should be reserved at least a week ahead.",
+            "why": "So steht es ausdrücklich in der Checkliste."
+          },
+          {
+            "answer": false,
+            "q": "Die Ummeldung muss erst nach zwei Monaten erfolgen. — Re-registration only needs to happen after two months.",
+            "why": "Sie muss innerhalb von zwei Wochen erfolgen, nicht zwei Monaten."
+          },
+          {
+            "answer": true,
+            "q": "Der Nachsendeauftrag kann für sechs oder zwölf Monate eingerichtet werden. — The mail forwarding can be set up for six or twelve months.",
+            "why": "„Nachsendeauftrag: kann für 6 oder 12 Monate eingerichtet werden.“"
+          },
+          {
+            "answer": false,
+            "q": "Das Halteverbotsschild ist auch ohne Vorlauf sofort gültig. — The no-parking sign is valid immediately, without advance notice.",
+            "why": "Es muss mindestens 48 Stunden vorher aufgestellt werden, sonst ist es ungültig."
+          },
+          {
+            "answer": false,
+            "q": "Helfer sollte man erst am Umzugstag selbst fragen. — Helpers should only be asked on the day of the move itself.",
+            "why": "Am besten zwei bis drei Wochen vorher fragen."
+          },
+          {
+            "answer": true,
+            "q": "Nach dem Umzug sollte man die Zählerstände notieren. — After the move, meter readings should be noted.",
+            "why": "„Nach dem Umzug: Zählerstände von Strom und Gas notieren.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Checkliste — Umzug organisieren**\n>\n> - **Umzugswagen:** mindestens **eine Woche vorher** reservieren.\n> - **Ummeldung:** innerhalb von **zwei Wochen** nach dem Umzug\n>   beim Bürgeramt erledigen.\n> - **Nachsendeauftrag:** kann für **6 oder 12 Monate**\n>   eingerichtet werden.\n> - **Halteverbotsschild:** mindestens **48 Stunden vorher**\n>   aufstellen, sonst ungültig.\n> - **Helfer:** rechtzeitig fragen, am besten **zwei bis drei\n>   Wochen vorher**.\n> - Nach dem Umzug: **Zählerstände** von Strom und Gas notieren.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Umzugs-Checkliste lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort beim Verleih nach einer Alternative fragen."
+              },
+              {
+                "key": "b",
+                "text": "Den Umzug spontan komplett absagen."
+              },
+              {
+                "key": "c",
+                "text": "Nichts tun und hoffen, dass sich das Problem von selbst löst."
+              }
+            ],
+            "q": "Der reservierte Umzugswagen ist plötzlich nicht verfügbar. — The reserved van is suddenly unavailable.",
+            "why": "Eine schnelle Nachfrage nach einer Alternative rettet meist den Zeitplan."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sich beim Helfer beschweren."
+              },
+              {
+                "key": "b",
+                "text": "Kurz in der Gruppe fragen, ob jemand anderes einspringen kann."
+              },
+              {
+                "key": "c",
+                "text": "Alles allein tragen wollen."
+              }
+            ],
+            "q": "Ein Helfer sagt kurzfristig ab. — A helper cancels at short notice.",
+            "why": "Eine schnelle Nachfrage in der Gruppe findet oft doch noch Ersatz."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Sofa mit Gewalt hineinzwängen."
+              },
+              {
+                "key": "b",
+                "text": "Das Sofa einfach draußen stehen lassen."
+              },
+              {
+                "key": "c",
+                "text": "Gemeinsam überlegen, ob es über den Balkon oder in Einzelteilen geht."
+              }
+            ],
+            "q": "Ein Sofa passt nicht durch die Tür. — A sofa doesn't fit through the door.",
+            "why": "Alternative Wege zu prüfen ist sicherer als das Möbelstück oder die Tür zu beschädigen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Polizei oder das Ordnungsamt informieren, damit abgeschleppt werden kann."
+              },
+              {
+                "key": "b",
+                "text": "Den Wagen irgendwo mitten auf der Straße stehen lassen."
+              },
+              {
+                "key": "c",
+                "text": "Den Umzug einfach verschieben."
+              }
+            ],
+            "q": "Der reservierte Parkplatz für den Umzugswagen ist zugeparkt. — The reserved parking spot for the van is blocked.",
+            "why": "Bei einem gültigen Halteverbot kann das Ordnungsamt das blockierende Auto abschleppen lassen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "So schnell wie möglich einen Termin beim Bürgeramt vereinbaren."
+              },
+              {
+                "key": "b",
+                "text": "Es einfach nicht mehr machen."
+              },
+              {
+                "key": "c",
+                "text": "Warten, bis jemand danach fragt."
+              }
+            ],
+            "q": "Du hast vergessen, dich rechtzeitig ummelden zu lassen. — You forgot to re-register your address on time.",
+            "why": "Schnell nachzuholen ist der beste Weg, ein mögliches Bußgeld zu vermeiden."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Schaden ansehen, gemeinsam entscheiden, wie ernst er ist, und ruhig bleiben."
+              },
+              {
+                "key": "b",
+                "text": "Dem Helfer laut die Schuld geben."
+              },
+              {
+                "key": "c",
+                "text": "Weiterarbeiten, als wäre nichts passiert."
+              }
+            ],
+            "q": "Ein Möbelstück wird beim Tragen leicht beschädigt. — A piece of furniture gets slightly damaged while being carried.",
+            "why": "Ruhig zu bleiben und den Schaden gemeinsam einzuschätzen ist die vernünftigste Reaktion."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn am Umzugstag etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "verfügbar"
+          ],
+          "2": [
+            "abgesagt"
+          ],
+          "3": [
+            "passte"
+          ],
+          "4": [
+            "zugeparkt"
+          ],
+          "5": [
+            "umzumelden"
+          ],
+          "6": [
+            "beschädigt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der reservierte Umzugswagen war plötzlich nicht {1}. (nicht zu bekommen)\n2. Ein Helfer hat kurzfristig {2}. (nicht mehr kommen können, Perfekt)\n3. Das Sofa {3} nicht durch die Tür. (die richtige Größe haben)\n4. Der Parkplatz für den Wagen war {4}. (mit einem anderen Auto besetzt)\n5. Ich habe vergessen, mich rechtzeitig {5}. (die neue Adresse melden, Infinitiv)\n6. Ein Möbelstück wurde beim Tragen leicht {6}. (kaputtgemacht, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "müssen"
+          ],
+          "2": [
+            "Könntest"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Umzugswagen"
+          ],
+          "5": [
+            "Sackkarre"
+          ],
+          "6": [
+            "ummelden"
+          ],
+          "7": [
+            "Nachsendeauftrag"
+          ],
+          "8": [
+            "Halteverbotsschild"
+          ],
+          "9": [
+            "verfügbar"
+          ],
+          "10": [
+            "abgesagt"
+          ],
+          "11": [
+            "passte"
+          ],
+          "12": [
+            "zugeparkt"
+          ],
+          "13": [
+            "umzumelden"
+          ],
+          "14": [
+            "beschädigt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir {1} noch einen Umzugswagen mieten. (must)\n2. {2} du uns am Samstag helfen? (could — können)\n3. Ich {3} schon die Hälfte gepackt. (have — Perfekt)\n4. Für den Transport brauchen wir einen {4}. (moving van)\n5. Schwere Kisten transportieren wir mit der {5}. (hand truck)\n6. Nach dem Umzug muss ich mich {6}. (re-register — Infinitiv)\n7. Damit die Post ankommt, richte ich einen {7} ein. (mail forwarding)\n8. Vor dem Haus steht ein {8}. (no-parking sign)\n9. Der Umzugswagen war plötzlich nicht {9}. (available)\n10. Ein Helfer hat kurzfristig {10}. (cancelled — Partizip)\n11. Das Sofa {11} nicht durch die Tür. (fit — Präteritum)\n12. Der Parkplatz war {12}. (blocked by another car)\n13. Ich habe vergessen, mich rechtzeitig {13}. (to re-register — Infinitiv)\n14. Ein Möbelstück wurde leicht {14}. (damaged — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-59-umzug-organisieren-a2",
+  "intro": "Ein Umzug braucht Planung: einen Umzugswagen mieten, genug helfende Hände organisieren, und danach die neue Adresse überall melden. Dieses Set übt genau das — Freunde höflich um Hilfe bitten, den Umzugswagen reservieren, sich beim Bürgeramt ummelden, und was zu tun ist, wenn am Umzugstag etwas nicht klappt. Grammatik nach Bedarf: Perfekt im Bericht, höfliche Bitten mit Konjunktiv II, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/59-umzug-organisieren-a2",
+  "level": "A2",
+  "summary": "Einen Umzugswagen mieten, Freunde um Hilfe bitten, sich ummelden — und was tun, wenn am Umzugstag etwas schiefgeht.",
+  "title": "Umzug organisieren — A2",
+  "topic": "Umzug organisieren"
+}

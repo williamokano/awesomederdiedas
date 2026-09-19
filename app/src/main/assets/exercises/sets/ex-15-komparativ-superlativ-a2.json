@@ -1,0 +1,697 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "Positiv",
+          "Komparativ",
+          "Superlativ (am …)"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "schneller"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "am schnellsten"
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "schnell"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "größer"
+                ],
+                "gap": 3
+              },
+              {
+                "answer": [
+                  "am größten"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "groß"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "jünger"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "am jüngsten"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "jung"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "besser"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "am besten"
+                ],
+                "gap": 8
+              }
+            ],
+            "label": "gut"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "mehr"
+                ],
+                "gap": 9
+              },
+              {
+                "answer": [
+                  "am meisten"
+                ],
+                "gap": 10
+              }
+            ],
+            "label": "viel"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die Tabelle.",
+      "instructionsEn": "Complete the table.",
+      "title": "Positiv, Komparativ, Superlativ"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "schneller"
+          ],
+          "2": [
+            "schnellste"
+          ],
+          "3": [
+            "größer"
+          ],
+          "4": [
+            "höchste"
+          ],
+          "5": [
+            "jünger"
+          ],
+          "6": [
+            "beste"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Mein Auto ist schnell, aber dein Auto ist noch {1}.\n2. Das ist das {2} Auto von allen.\n3. Berlin ist groß, aber Tokio ist noch {3}.\n4. Der Mount Everest ist der {4} Berg der Welt.\n5. Ich bin jung, aber mein Bruder ist {5}.\n6. Das war das {6} Konzert, das ich je gesehen habe.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze die richtige Form.",
+      "instructionsEn": "Fill in the correct form.",
+      "title": "Komparativ oder Superlativ?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "älteste"
+          ],
+          "2": [
+            "jüngste"
+          ],
+          "3": [
+            "älter"
+          ],
+          "4": [
+            "jünger"
+          ],
+          "5": [
+            "klügste"
+          ],
+          "6": [
+            "lustigste"
+          ],
+          "7": [
+            "ruhigste"
+          ],
+          "8": [
+            "besten"
+          ]
+        },
+        "bank": [
+          "älteste",
+          "jüngste",
+          "älter",
+          "jünger",
+          "klügste",
+          "lustigste",
+          "ruhigste",
+          "besten",
+          "größte",
+          "kleinste"
+        ],
+        "text": "Anna ist 20 Jahre alt, Ben ist 22 und Clara ist 25. Clara ist die\n{1} von den dreien. Anna ist die {2}. Ben ist {3} als Anna, aber\n{4} als Clara. Clara ist auch die {5} in der Familie, sie hat\nden höchsten Abschluss. Anna ist die {6}, sie macht immer\nWitze. Ben ist der {7}, er sitzt am liebsten zu Hause. Aber alle\nsagen: Clara kocht am {8}.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Die drei Geschwister"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "schneller"
+              },
+              {
+                "key": "b",
+                "text": "schnellere"
+              },
+              {
+                "key": "c",
+                "text": "schnellerer"
+              }
+            ],
+            "q": "Der Wagen ist ___.",
+            "why": "Prädikativ (nach sein) → keine Endung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "schneller"
+              },
+              {
+                "key": "b",
+                "text": "schnellere"
+              },
+              {
+                "key": "c",
+                "text": "schnelleren"
+              }
+            ],
+            "q": "Das ist der ___ Wagen.",
+            "why": "Attributiv (der Wagen, Nom. Mask.) → -e."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "das schnellste"
+              },
+              {
+                "key": "b",
+                "text": "schnellste"
+              },
+              {
+                "key": "c",
+                "text": "am schnellsten"
+              }
+            ],
+            "q": "Mein Auto ist ___.",
+            "why": "Prädikativ Superlativ → am + -sten."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "schnellste"
+              },
+              {
+                "key": "b",
+                "text": "am schnellsten"
+              },
+              {
+                "key": "c",
+                "text": "schnellsten"
+              }
+            ],
+            "q": "Das ist das ___ Auto.",
+            "why": "Attributiv Superlativ (das Auto, Nom. Neutr.) → -e."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "klügere"
+              },
+              {
+                "key": "b",
+                "text": "klüger"
+              },
+              {
+                "key": "c",
+                "text": "am klügsten"
+              }
+            ],
+            "q": "Sie ist ___ als ich.",
+            "why": "Prädikativ Komparativ + als → keine Endung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "klüger"
+              },
+              {
+                "key": "b",
+                "text": "klügere"
+              },
+              {
+                "key": "c",
+                "text": "klügeren"
+              }
+            ],
+            "q": "Er hat den ___ Wagen gekauft.",
+            "why": "Attributiv (den Wagen, Akk. Mask.) → -en."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Attributiv oder prädikativ?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "schneller"
+              },
+              {
+                "key": "b",
+                "text": "schnellere"
+              },
+              {
+                "key": "c",
+                "text": "schnellste"
+              }
+            ],
+            "q": "Dieses Handy ist ___ als das alte Modell.",
+            "why": "Prädikativ Komparativ + als → keine Endung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "größer"
+              },
+              {
+                "key": "b",
+                "text": "größten"
+              },
+              {
+                "key": "c",
+                "text": "größte"
+              }
+            ],
+            "q": "Es hat den ___ Akku von allen Handys.",
+            "why": "Attributiv Superlativ (den Akku, Akk. Mask.) → -en."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "beste"
+              },
+              {
+                "key": "b",
+                "text": "am besten"
+              },
+              {
+                "key": "c",
+                "text": "besser"
+              }
+            ],
+            "q": "Die Kamera ist auch ___.",
+            "why": "Prädikativ Komparativ → keine Endung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "beste"
+              },
+              {
+                "key": "b",
+                "text": "besser"
+              },
+              {
+                "key": "c",
+                "text": "am besten"
+              }
+            ],
+            "q": "Das ist die ___ Kamera, die ich je getestet habe.",
+            "why": "Attributiv Superlativ (die Kamera, Nom. Fem.) → -e."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "am größten"
+              },
+              {
+                "key": "b",
+                "text": "größer"
+              },
+              {
+                "key": "c",
+                "text": "größte"
+              }
+            ],
+            "q": "Der Bildschirm ist ___ als beim Vorgängermodell.",
+            "why": "Prädikativ Komparativ + als → keine Endung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "modernste"
+              },
+              {
+                "key": "b",
+                "text": "modernere"
+              },
+              {
+                "key": "c",
+                "text": "moderner"
+              }
+            ],
+            "q": "Das Design ist ___ geworden.",
+            "why": "Prädikativ Komparativ → keine Endung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "größer"
+              },
+              {
+                "key": "b",
+                "text": "größte"
+              },
+              {
+                "key": "c",
+                "text": "am größten"
+              }
+            ],
+            "q": "Trotzdem bleibt der Preis das ___ Problem.",
+            "why": "Attributiv Superlativ (das Problem, Nom. Neutr.) → -e."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "beste"
+              },
+              {
+                "key": "b",
+                "text": "besser"
+              },
+              {
+                "key": "c",
+                "text": "am besten"
+              }
+            ],
+            "q": "Am Ende ist es das ___ Handy auf dem Markt.",
+            "why": "Attributiv Superlativ (das Handy, Nom. Neutr.) → -e."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct form for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Der Vergleichstest"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "größer"
+          ],
+          "2": [
+            "größte"
+          ],
+          "3": [
+            "schönste"
+          ],
+          "4": [
+            "bekannter"
+          ],
+          "5": [
+            "ruhiger"
+          ],
+          "6": [
+            "teuerste"
+          ],
+          "7": [
+            "meisten"
+          ],
+          "8": [
+            "größten"
+          ],
+          "9": [
+            "schönste"
+          ],
+          "10": [
+            "bekannteste"
+          ]
+        },
+        "bank": [
+          "größer",
+          "größte",
+          "schönste",
+          "schönste",
+          "bekannter",
+          "ruhiger",
+          "teuerste",
+          "meisten",
+          "größten",
+          "bekannteste",
+          "kleiner",
+          "ältesten"
+        ],
+        "text": "Berlin ist {1} als München. Hamburg ist die {2} Hafenstadt\nDeutschlands. München hat das {3} Wetter von den dreien. Berlin\nist auch {4} als Hamburg. Aber Hamburg ist {5} als Berlin.\nMünchen ist die {6} von den dreien, viele Menschen ziehen\ndorthin. Berlin hat die {7} Museen. Hamburg hat den {8} Hafen\nDeutschlands. Am Ende sagt jeder: seine Stadt ist die {9}.\nTrotzdem bleibt Berlin die {10} Hauptstadt.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Two words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Drei Städte im Vergleich (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "größer"
+          ],
+          "2": [
+            "größte"
+          ],
+          "3": [
+            "jünger"
+          ],
+          "4": [
+            "beste"
+          ],
+          "5": [
+            "schwerer"
+          ],
+          "6": [
+            "beste"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Mein Haus ist groß, aber dein Haus ist noch {1}.\n2. Das ist das {2} Haus in der Straße.\n3. Sie ist jung, aber ich bin {3}.\n4. Er ist der {4} Schüler in der Klasse.\n5. Diese Übung ist schwer, aber die nächste ist noch {5}.\n6. Das war das {6} Spiel der Saison.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die richtige Form.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "spannender"
+              },
+              {
+                "key": "b",
+                "text": "spannendere"
+              },
+              {
+                "key": "c",
+                "text": "am spannendsten"
+              }
+            ],
+            "q": "Dieses Buch ist ___ als das andere.",
+            "why": "Prädikativ Komparativ + als → keine Endung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "spannender"
+              },
+              {
+                "key": "b",
+                "text": "spannendste"
+              },
+              {
+                "key": "c",
+                "text": "am spannendsten"
+              }
+            ],
+            "q": "Das ist das ___ Buch, das ich gelesen habe.",
+            "why": "Attributiv Superlativ (das Buch, Nom. Neutr.) → -e."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "beste"
+              },
+              {
+                "key": "b",
+                "text": "besser"
+              },
+              {
+                "key": "c",
+                "text": "am besten"
+              }
+            ],
+            "q": "Von allen Filmen war dieser ___.",
+            "why": "Prädikativ Superlativ → am + -sten."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "beste"
+              },
+              {
+                "key": "b",
+                "text": "besser"
+              },
+              {
+                "key": "c",
+                "text": "am besten"
+              }
+            ],
+            "q": "Sie hat die ___ Idee von allen.",
+            "why": "Attributiv Superlativ (die Idee, Akk. Fem.) → -e."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "am ältesten"
+              },
+              {
+                "key": "b",
+                "text": "älter"
+              },
+              {
+                "key": "c",
+                "text": "älteste"
+              }
+            ],
+            "q": "Mein Bruder ist ___ als ich.",
+            "why": "Prädikativ Komparativ + als → keine Endung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "schöner"
+              },
+              {
+                "key": "b",
+                "text": "am schönsten"
+              },
+              {
+                "key": "c",
+                "text": "schönste"
+              }
+            ],
+            "q": "Das ist der ___ Tag meines Lebens.",
+            "why": "Attributiv Superlativ (der Tag, Nom. Mask.) → -e."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-15-komparativ-superlativ-a2",
+  "intro": "Standalone drill set, not tied to any lesson. Most adjectives just add -er (Komparativ) or -st (Superlativ): schnell → schneller → am schnellsten. A small group of common one-syllable adjectives also add an umlaut: groß → größer → am größten, jung → jünger → am jüngsten. A handful are irregular: gut → besser → am besten, viel → mehr → am meisten. The form also depends on position: predicative (after sein, no ending: Der Wagen ist schneller) vs. attributive (before a noun, with a normal adjective ending: der schnellere Wagen). Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/15-komparativ-superlativ-a2",
+  "level": "A2",
+  "summary": null,
+  "title": "Komparativ und Superlativ — A2",
+  "topic": "Komparativ und Superlativ"
+}

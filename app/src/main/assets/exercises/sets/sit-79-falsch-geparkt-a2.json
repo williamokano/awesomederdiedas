@@ -1,0 +1,822 @@
+{
+  "category": "Unterwegs",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "entdecken",
+            "label": "Das Knöllchen entdecken"
+          },
+          {
+            "key": "reagieren",
+            "label": "Reagieren"
+          },
+          {
+            "key": "abgeschleppt",
+            "label": "Wenn abgeschleppt"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "entdecken",
+            "text": "den Strafzettel an der Windschutzscheibe finden"
+          },
+          {
+            "bucket": "entdecken",
+            "text": "das Bußgeld ablesen"
+          },
+          {
+            "bucket": "entdecken",
+            "text": "den Grund verstehen"
+          },
+          {
+            "bucket": "entdecken",
+            "text": "das Datum notieren"
+          },
+          {
+            "bucket": "reagieren",
+            "text": "das Bußgeld überweisen"
+          },
+          {
+            "bucket": "reagieren",
+            "text": "einen Einspruch einlegen"
+          },
+          {
+            "bucket": "reagieren",
+            "text": "Fotos als Beweis machen"
+          },
+          {
+            "bucket": "reagieren",
+            "text": "die Frist beachten"
+          },
+          {
+            "bucket": "abgeschleppt",
+            "text": "den Abschleppdienst anrufen"
+          },
+          {
+            "bucket": "abgeschleppt",
+            "text": "die Abholadresse erfragen"
+          },
+          {
+            "bucket": "abgeschleppt",
+            "text": "die Gebühr bezahlen"
+          },
+          {
+            "bucket": "abgeschleppt",
+            "text": "das Auto abholen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Entdecken, reagieren oder wenn abgeschleppt?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "das Knöllchen"
+          },
+          {
+            "key": "2",
+            "text": "der Strafzettel"
+          },
+          {
+            "key": "3",
+            "text": "das Bußgeld"
+          },
+          {
+            "key": "4",
+            "text": "der Einspruch"
+          },
+          {
+            "key": "5",
+            "text": "abgeschleppt werden"
+          },
+          {
+            "key": "6",
+            "text": "der Abschleppdienst"
+          },
+          {
+            "key": "7",
+            "text": "die Verwarnung"
+          },
+          {
+            "key": "8",
+            "text": "das Halteverbot"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "der umgangssprachliche Ausdruck für einen Strafzettel"
+          },
+          {
+            "key": "b",
+            "text": "die schriftliche Mitteilung über einen Parkverstoß"
+          },
+          {
+            "key": "c",
+            "text": "der zu zahlende Geldbetrag"
+          },
+          {
+            "key": "d",
+            "text": "der schriftliche Widerspruch gegen den Strafzettel"
+          },
+          {
+            "key": "e",
+            "text": "wenn das Auto von der Polizei entfernt wird"
+          },
+          {
+            "key": "f",
+            "text": "die Firma, die falsch geparkte Autos entfernt"
+          },
+          {
+            "key": "g",
+            "text": "eine milde Form der Strafe, oft ohne hohes Bußgeld"
+          },
+          {
+            "key": "h",
+            "text": "der Bereich, in dem Parken verboten ist"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Kann"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Müssen"
+          ],
+          "5": [
+            "abgeschleppt"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Habe"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} das Bußgeld innerhalb einer Woche bezahlen. (Modalverb, ich-Form)\n2. {2} ich noch Einspruch einlegen? (können, ich-Form)\n3. Ich {3} schon Fotos vom Parkschild gemacht. (haben, Perfekt)\n4. {4} wir das Bußgeld sofort überweisen? (müssen, wir-Form)\n5. Falls das Auto {5} wird, kostet das extra Gebühren. (abschleppen, Partizip)\n6. Der Abschleppdienst {6} sich in Kürze melden. (werden, Futur I)\n7. Wir {7} schon das Knöllchen entdeckt. (haben, Perfekt)\n8. {8} ich die Frist für den Einspruch schon verpasst? (haben, ich-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Die Reaktion planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Knöllchen"
+          ],
+          "2": [
+            "Strafzettel"
+          ],
+          "3": [
+            "Bußgeld"
+          ],
+          "4": [
+            "Einspruch"
+          ],
+          "5": [
+            "Halteverbot"
+          ],
+          "6": [
+            "abgeschleppt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. An der Windschutzscheibe klebte ein {1}. (der umgangssprachliche Ausdruck für einen Strafzettel)\n2. Auf dem {2} steht genau, wie viel wir zahlen müssen. (die schriftliche Mitteilung über einen Parkverstoß)\n3. Das {3} beträgt in diesem Fall 25 Euro. (der zu zahlende Geldbetrag)\n4. Falls wir den Verstoß anders sehen, können wir {4} einlegen. (der schriftliche Widerspruch)\n5. Wer im {5} parkt, riskiert ein hohes Bußgeld. (der Bereich, in dem Parken verboten ist)\n6. Bei schwereren Verstößen wird das Auto sogar {6}. (von der Polizei entfernt, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "KNÖLLCHEN"
+          ],
+          "2": [
+            "BUSSGELD"
+          ],
+          "3": [
+            "HALTEVERBOT"
+          ],
+          "4": [
+            "EINSPRUCH"
+          ],
+          "5": [
+            "FRIST"
+          ],
+          "6": [
+            "BEWEIS"
+          ],
+          "7": [
+            "ABGESCHLEPPT"
+          ],
+          "8": [
+            "ABSCHLEPPDIENST"
+          ],
+          "9": [
+            "NENNEN"
+          ],
+          "10": [
+            "KOSTET"
+          ]
+        },
+        "bank": [
+          "KNÖLLCHEN",
+          "BUSSGELD",
+          "HALTEVERBOT",
+          "EINSPRUCH",
+          "FRIST",
+          "BEWEIS",
+          "ABGESCHLEPPT",
+          "ABSCHLEPPDIENST",
+          "NENNEN",
+          "KOSTET",
+          "VERWARNUNG",
+          "STRAFZETTEL",
+          "ORDNUNGSAMT",
+          "PARKSCHEIN"
+        ],
+        "text": "— Oh nein, an der Windschutzscheibe klebt ein {1}!\n— Was steht denn drauf? Wie hoch ist das {2}?\n— 25 Euro, weil wir wohl im {3} standen.\n— Das war uns echt nicht klar, das Schild war kaum zu\nsehen.\n— Sollen wir dagegen {4} einlegen?\n— Können wir versuchen, aber die {5} beträgt nur zwei\nWochen.\n— Dann müssen wir uns beeilen. Machst du noch ein Foto vom\nSchild als {6}?\n— Mache ich sofort.\n(am nächsten Tag, Auto ist weg)\n— Warte, unser Auto ist weg — ist das etwa {7} worden?\n— Sieht so aus. Wir müssen den {8} anrufen.\n— Guten Tag, unser Auto wurde wohl abgeschleppt, können Sie\nuns die Abholadresse {9}?\n— Klar, einen Moment ... hier ist sie. Die Abholung {10}\nzusätzlich 180 Euro.\n— Autsch, das wird ein teurer Tag.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Das Knöllchen und der Abschleppdienst"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Strafzettel interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Oh nein, an der Windschutzscheibe klebt ein Knöllchen!"
+              },
+              {
+                "key": "c",
+                "text": "Das ignoriere ich einfach."
+              }
+            ],
+            "q": "Du entdeckst einen Strafzettel an der Windschutzscheibe. — You discover a ticket on the windshield.",
+            "why": "Eine spontane Reaktion auf das entdeckte Knöllchen ist völlig natürlich."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bußgelder sind mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Geld interessiert mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Wie hoch ist das Bußgeld?"
+              }
+            ],
+            "q": "Du möchtest wissen, wie hoch das Bußgeld ist. — You want to know how high the fine is.",
+            "why": "Eine direkte Frage klärt sofort die Höhe des Bußgelds."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sollen wir dagegen Einspruch einlegen?"
+              },
+              {
+                "key": "b",
+                "text": "Einspruch ist mir zu kompliziert."
+              },
+              {
+                "key": "c",
+                "text": "Wir zahlen einfach kommentarlos."
+              }
+            ],
+            "q": "Du möchtest gegen den Strafzettel Einspruch einlegen. — You want to file an objection against the ticket.",
+            "why": "Eine Nachfrage zum Einspruch ist der übliche erste Schritt bei Unklarheiten."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Beweise interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Machst du noch ein Foto vom Schild als Beweis?"
+              },
+              {
+                "key": "c",
+                "text": "Fotos sind sowieso nutzlos."
+              }
+            ],
+            "q": "Du möchtest als Beweis ein Foto vom Parkschild machen. — You want to take a photo of the sign as evidence.",
+            "why": "Ein Foto als Beweis stärkt einen möglichen Einspruch erheblich."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Abgeschleppt zu werden ist mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Das Auto ist bestimmt einfach gestohlen."
+              },
+              {
+                "key": "c",
+                "text": "Warte, unser Auto ist weg — ist das etwa abgeschleppt worden?"
+              }
+            ],
+            "q": "Du entdeckst, dass euer Auto abgeschleppt wurde. — You discover your car has been towed.",
+            "why": "Eine erste Vermutung zum Abschleppen ist naheliegend, bevor man weiter reagiert."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Können Sie uns die Abholadresse nennen?"
+              },
+              {
+                "key": "b",
+                "text": "Adressen interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Ich rate einfach, wo das Auto sein könnte."
+              }
+            ],
+            "q": "Du möchtest beim Abschleppdienst nach der Abholadresse fragen. — You want to ask the towing service for the pickup address.",
+            "why": "Eine direkte Frage nach der Adresse ist der schnellste Weg zum Auto."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Das Knöllchen und der Einspruch"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Hauptsatz, Verb an Position 2",
+            "tiles": [
+              "An",
+              "der",
+              "Windschutzscheibe",
+              "klebt",
+              "ein",
+              "Knöllchen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "W-Frage mit sein",
+            "tiles": [
+              "Wie",
+              "hoch",
+              "ist",
+              "das",
+              "Bußgeld",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Frage mit Modalverb, Infinitiv am Ende",
+            "tiles": [
+              "Sollen",
+              "wir",
+              "dagegen",
+              "Einspruch",
+              "einlegen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Nebensatz im Passiv, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "das",
+              "Auto",
+              "abgeschleppt",
+              "wird",
+              ",",
+              "kostet",
+              "das",
+              "extra"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Frage, Infinitiv am Ende",
+            "tiles": [
+              "Können",
+              "Sie",
+              "uns",
+              "die",
+              "Abholadresse",
+              "nennen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Wir",
+              "haben",
+              "schon",
+              "das",
+              "Knöllchen",
+              "entdeckt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zum Knöllchen bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Die Einspruchsfrist beträgt meist zwei Wochen ab Ausstellung des Strafzettels. — The objection period is usually two weeks from when the ticket was issued.",
+            "why": "So steht es ausdrücklich in den Infos zum Knöllchen."
+          },
+          {
+            "answer": false,
+            "q": "Das Bußgeld liegt bei jedem Parkverstoß immer bei genau 500 Euro. — The fine for every parking violation is always exactly 500 euros.",
+            "why": "Es liegt je nach Verstoß zwischen 10 und 100 Euro, nicht immer bei 500 Euro."
+          },
+          {
+            "answer": true,
+            "q": "Abschleppen droht vor allem, wenn andere behindert werden, etwa im Halteverbot. — Towing is mainly a risk when others are obstructed, such as in a no-stopping zone.",
+            "why": "„Abschleppen: droht vor allem bei Behinderung anderer (z. B. im Halteverbot).“"
+          },
+          {
+            "answer": false,
+            "q": "Die Abholgebühr für ein abgeschlepptes Auto liegt meist bei nur 5 Euro. — The pickup fee for a towed car is usually only 5 euros.",
+            "why": "Sie kann schnell über 150 Euro kosten, nicht nur 5 Euro."
+          },
+          {
+            "answer": true,
+            "q": "Ein Foto als Beweis hilft besonders, wenn das Parkschild schlecht sichtbar war. — A photo as evidence helps especially when the sign was poorly visible.",
+            "why": "„Foto als Beweis: hilft besonders, wenn das Parkschild schlecht sichtbar war.“"
+          },
+          {
+            "answer": false,
+            "q": "Bei einer einfachen Verwarnung mit geringem Betrag ist meist eine förmliche Anhörung nötig. — A simple warning with a small amount usually requires a formal hearing.",
+            "why": "Bei geringen Beträgen ist oft keine Anhörung nötig."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Knöllchen und Abschleppdienst**\n>\n> - **Einspruchsfrist:** meist **zwei Wochen** ab Ausstellung\n>   des Strafzettels.\n> - **Bußgeld:** je nach Verstoß zwischen **10 und 100 Euro**.\n> - **Abschleppen:** droht vor allem bei **Behinderung\n>   anderer** (z. B. im Halteverbot).\n> - **Abholgebühr:** kann schnell **über 150 Euro** kosten.\n> - **Foto als Beweis:** hilft besonders, wenn das\n>   **Parkschild schlecht sichtbar** war.\n> - **Verwarnung:** bei geringen Beträgen ist oft **keine\n>   Anhörung** nötig.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zum Knöllchen lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach kommentarlos zahlen, ohne etwas zu dokumentieren."
+              },
+              {
+                "key": "b",
+                "text": "Fotos machen und diese als Beweis dem Einspruch beilegen."
+              },
+              {
+                "key": "c",
+                "text": "Sich nur mündlich beim Ordnungsamt beschweren."
+              }
+            ],
+            "q": "Man ist sich sicher, dass das Parkschild kaum sichtbar war. — You're sure the parking sign was barely visible.",
+            "why": "Fotos als Beweis stützen den Einspruch am wirksamsten."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Auto als gestohlen melden, ohne nachzufragen."
+              },
+              {
+                "key": "b",
+                "text": "Einfach abwarten, bis sich jemand meldet."
+              },
+              {
+                "key": "c",
+                "text": "Bei der örtlichen Polizei nach dem Verbleib des Autos fragen."
+              }
+            ],
+            "q": "Das Auto wurde abgeschleppt, aber man findet die Abholadresse nicht heraus. — The car was towed, but you can't find the pickup address.",
+            "why": "Die Polizei kennt meist den Abschleppdienst und kann die Adresse nennen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Einspruch sofort einreichen, notfalls unvollständig mit Nachreichung."
+              },
+              {
+                "key": "b",
+                "text": "Die Frist einfach verstreichen lassen."
+              },
+              {
+                "key": "c",
+                "text": "Erst noch tagelang überlegen, bevor man handelt."
+              }
+            ],
+            "q": "Die Einspruchsfrist ist schon fast abgelaufen. — The objection deadline is almost over.",
+            "why": "Ein sofortiger, notfalls vorläufiger Einspruch sichert das Recht auf Prüfung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die hohe Gebühr kommentarlos bezahlen."
+              },
+              {
+                "key": "b",
+                "text": "Nach der genauen Kostenaufstellung fragen."
+              },
+              {
+                "key": "c",
+                "text": "Sich weigern, überhaupt etwas zu zahlen."
+              }
+            ],
+            "q": "Der Abschleppdienst verlangt eine ungewöhnlich hohe Gebühr. — The towing service demands an unusually high fee.",
+            "why": "Eine genaue Kostenaufstellung klärt, ob die Gebühr wirklich gerechtfertigt ist."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Beide Zettel einfach ignorieren."
+              },
+              {
+                "key": "b",
+                "text": "Beide Bußgelder kommentarlos bezahlen."
+              },
+              {
+                "key": "c",
+                "text": "Beide Zettel vergleichen und gegebenenfalls gegen die doppelte Ausstellung vorgehen."
+              }
+            ],
+            "q": "Man bekommt ein zweites Knöllchen für denselben Parkvorgang. — You receive a second ticket for the same parking incident.",
+            "why": "Ein Vergleich beider Zettel klärt, ob tatsächlich doppelt kassiert wurde."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dies sofort schriftlich der Behörde mitteilen."
+              },
+              {
+                "key": "b",
+                "text": "Den Strafzettel einfach wegwerfen und nichts sagen."
+              },
+              {
+                "key": "c",
+                "text": "Für das fremde Auto kommentarlos bezahlen."
+              }
+            ],
+            "q": "Man erkennt erst später, dass der Strafzettel für ein fremdes Auto war. — You later realize the ticket was for a different car.",
+            "why": "Eine sofortige schriftliche Mitteilung klärt den Irrtum offiziell."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn beim Knöllchen etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "sichtbar"
+          ],
+          "2": [
+            "abgeschleppt"
+          ],
+          "3": [
+            "abgelaufen"
+          ],
+          "4": [
+            "verlangt"
+          ],
+          "5": [
+            "bekommen"
+          ],
+          "6": [
+            "fremdes"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das Parkschild war kaum {1}. (nicht gut zu sehen)\n2. Das Auto wurde {2}. (Partizip)\n3. Die Einspruchsfrist war schon fast {3}. (Partizip)\n4. Der Abschleppdienst hat eine ungewöhnlich hohe Gebühr {4}. (Partizip)\n5. Wir haben ein zweites Knöllchen {5}. (Partizip)\n6. Der Strafzettel war für ein {6} Auto. (nicht das eigene)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Könnte"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Knöllchen"
+          ],
+          "5": [
+            "Strafzettel"
+          ],
+          "6": [
+            "Bußgeld"
+          ],
+          "7": [
+            "Einspruch"
+          ],
+          "8": [
+            "Halteverbot"
+          ],
+          "9": [
+            "abgeschleppt"
+          ],
+          "10": [
+            "sichtbar"
+          ],
+          "11": [
+            "abgeschleppt"
+          ],
+          "12": [
+            "abgelaufen"
+          ],
+          "13": [
+            "verlangt"
+          ],
+          "14": [
+            "bekommen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} das Bußgeld innerhalb einer Woche bezahlen. (must)\n2. {2} ich noch Einspruch einlegen? (could — können)\n3. Ich {3} schon Fotos gemacht. (have — Perfekt)\n4. An der Windschutzscheibe klebte ein {4}. (parking ticket, informal)\n5. Auf dem {5} steht, wie viel wir zahlen müssen. (fine notice)\n6. Das {6} beträgt 25 Euro. (fine amount)\n7. Wir können {7} einlegen. (objection)\n8. Wer im {8} parkt, riskiert ein hohes Bußgeld. (no-stopping zone)\n9. Bei schwereren Verstößen wird das Auto {9}. (towed — Partizip)\n10. Das Parkschild war kaum {10}. (visible)\n11. Das Auto wurde {11}. (towed — Partizip)\n12. Die Einspruchsfrist war schon fast {12}. (expired — Partizip)\n13. Der Abschleppdienst hat eine hohe Gebühr {13}. (demanded — Partizip)\n14. Wir haben ein zweites Knöllchen {14}. (received — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-79-falsch-geparkt-a2",
+  "intro": "Ein Strafzettel an der Windschutzscheibe ist ärgerlich, aber meist gut zu lösen: das Bußgeld prüfen, bei Unklarheiten Einspruch einlegen, und im schlimmsten Fall den Abschleppdienst kontaktieren. Dieses Set übt genau das — ein Knöllchen entdecken, dagegen vorgehen, und was zu tun ist, wenn das Auto abgeschleppt wurde. Grammatik nach Bedarf: Perfekt und Passiv im Bericht, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/79-falsch-geparkt-a2",
+  "level": "A2",
+  "summary": "Ein Knöllchen entdecken, das Bußgeld verstehen, Einspruch einlegen — und was tun, wenn das Auto sogar abgeschleppt wurde.",
+  "title": "Falsch geparkt: Knöllchen und Abschleppdienst — A2",
+  "topic": "Falsch geparkt: Knöllchen und Abschleppdienst"
+}

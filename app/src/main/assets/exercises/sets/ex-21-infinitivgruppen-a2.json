@@ -1,0 +1,631 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "Verb",
+          "zu-Infinitiv"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "anzurufen"
+                ],
+                "gap": 1
+              }
+            ],
+            "label": "anrufen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "aufzuräumen"
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "aufräumen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "einzukaufen"
+                ],
+                "gap": 3
+              }
+            ],
+            "label": "einkaufen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "fernzusehen"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "fernsehen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "mitzukommen"
+                ],
+                "gap": 5
+              }
+            ],
+            "label": "mitkommen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "wegzugehen"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "weggehen"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze den zu-Infinitiv. Bei trennbaren Verben steht zu zwischen Vorsilbe und Verbstamm.",
+      "instructionsEn": "Fill in the zu-infinitive. For separable verbs, zu goes between the prefix and the verb stem.",
+      "title": "Verb → zu-Infinitiv (trennbare Verben)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "um"
+          ],
+          "2": [
+            "ohne"
+          ],
+          "3": [
+            "um"
+          ],
+          "4": [
+            "ohne"
+          ],
+          "5": [
+            "um"
+          ],
+          "6": [
+            "ohne"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich lerne jeden Tag Deutsch, {1} die Prüfung zu bestehen.\n2. Er verließ die Party, {2} sich zu verabschieden.\n3. Wir sparen Geld, {3} eine Reise zu machen.\n4. Sie ging einkaufen, {4} eine Einkaufsliste zu schreiben.\n5. Ich rufe meine Mutter an, {5} ihr von der Prüfung zu erzählen.\n6. Er aß das Brötchen, {6} sich vorher die Hände zu waschen.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze um oder ohne.",
+      "instructionsEn": "Fill in um or ohne.",
+      "title": "um oder ohne?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "um"
+          ],
+          "2": [
+            "ohne"
+          ],
+          "3": [
+            "anzurufen"
+          ],
+          "4": [
+            "einzuladen"
+          ],
+          "5": [
+            "ohne"
+          ],
+          "6": [
+            "um"
+          ],
+          "7": [
+            "aufzustehen"
+          ],
+          "8": [
+            "um"
+          ]
+        },
+        "bank": [
+          "um",
+          "um",
+          "um",
+          "ohne",
+          "ohne",
+          "anzurufen",
+          "einzuladen",
+          "aufzustehen",
+          "aufzuräumen",
+          "fernzusehen"
+        ],
+        "text": "Am Samstag gehe ich früh joggen, {1} fit zu bleiben. Danach gehe\nich einkaufen, {2} zuerst eine Liste zu schreiben. Ich habe vor,\nmeine Freundin {3} und sie zum Kaffee {4}. Sie sagt sofort zu,\n{5} lange zu überlegen. Am Nachmittag treffen wir uns im Park,\n{6} zusammen Fahrrad zu fahren. Ich versuche, jeden Tag früh\n{7}. Am Abend gehe ich früh ins Bett, {8} am nächsten Tag nicht\nmüde zu sein.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Mein Samstag"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich lerne Deutsch um in Deutschland zu arbeiten."
+              },
+              {
+                "key": "b",
+                "text": "Ich lerne Deutsch, um in Deutschland zu arbeiten."
+              },
+              {
+                "key": "c",
+                "text": "Ich lerne Deutsch, um in Deutschland arbeiten zu."
+              }
+            ],
+            "q": "Ich lerne Deutsch. Ich möchte in Deutschland arbeiten.",
+            "why": "Die Infinitivgruppe steht mit Komma; zu bleibt direkt vor dem Infinitiv."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie ruft ihre Mutter an, um ihr von der Prüfung erzählen zu."
+              },
+              {
+                "key": "b",
+                "text": "Sie ruft ihre Mutter an um ihr von der Prüfung zu erzählen."
+              },
+              {
+                "key": "c",
+                "text": "Sie ruft ihre Mutter an, um ihr von der Prüfung zu erzählen."
+              }
+            ],
+            "q": "Sie ruft ihre Mutter an. Sie möchte ihr von der Prüfung erzählen.",
+            "why": "Komma vor um, und zu erzählen bleibt zusammen am Ende."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir sparen Geld, um ein Auto zu kaufen."
+              },
+              {
+                "key": "b",
+                "text": "Wir sparen Geld, um ein Auto kaufen zu."
+              },
+              {
+                "key": "c",
+                "text": "Wir sparen Geld um ein Auto zu kaufen."
+              }
+            ],
+            "q": "Wir sparen Geld. Wir wollen ein Auto kaufen.",
+            "why": "Komma vor um, zu direkt vor dem Infinitiv kaufen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich putze meine Zähne ohne Zahnpasta zu benutzen."
+              },
+              {
+                "key": "b",
+                "text": "Ich putze meine Zähne, ohne Zahnpasta zu benutzen."
+              },
+              {
+                "key": "c",
+                "text": "Ich putze meine Zähne, ohne Zahnpasta benutzen zu."
+              }
+            ],
+            "q": "Ich putze meine Zähne. Ich benutze keine Zahnpasta.",
+            "why": "ohne + zu-Infinitiv braucht ebenfalls das Komma davor."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er geht zur Arbeit, ohne frühstücken zu."
+              },
+              {
+                "key": "b",
+                "text": "Er geht zur Arbeit ohne zu frühstücken."
+              },
+              {
+                "key": "c",
+                "text": "Er geht zur Arbeit, ohne zu frühstücken."
+              }
+            ],
+            "q": "Er geht zur Arbeit. Er frühstückt nicht.",
+            "why": "Komma vor ohne, zu direkt vor dem Infinitiv frühstücken."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er verließ das Haus, ohne etwas zu sagen."
+              },
+              {
+                "key": "b",
+                "text": "Er verließ das Haus, ohne etwas sagen zu."
+              },
+              {
+                "key": "c",
+                "text": "Er verließ das Haus ohne etwas zu sagen."
+              }
+            ],
+            "q": "Er verließ das Haus. Er sagte nichts.",
+            "why": "ohne etwas zu sagen — zu bleibt direkt vor dem Infinitiv sagen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Kombination (a, b oder c).",
+      "instructionsEn": "Choose the correct combination (a, b, or c).",
+      "title": "Welcher Satz ist richtig?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich stehe früh auf um vor der Prüfung noch zu lernen."
+              },
+              {
+                "key": "b",
+                "text": "Ich stehe früh auf, um vor der Prüfung noch zu lernen."
+              },
+              {
+                "key": "c",
+                "text": "Ich stehe früh auf, um vor der Prüfung noch lernen zu."
+              }
+            ],
+            "q": "Original: Ich stehe früh auf. Ich will vor der Prüfung noch lernen.",
+            "why": "um + zu-Infinitiv drückt den Zweck aus, immer mit Komma abgetrennt."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich gehe aus dem Haus, ohne mein Buch vergessen zu."
+              },
+              {
+                "key": "b",
+                "text": "Ich gehe aus dem Haus ohne mein Buch zu vergessen."
+              },
+              {
+                "key": "c",
+                "text": "Ich gehe aus dem Haus, ohne mein Buch zu vergessen."
+              }
+            ],
+            "q": "Original: Ich gehe aus dem Haus. Ich vergesse mein Buch nicht.",
+            "why": "ohne + zu-Infinitiv bedeutet, dass etwas nicht passiert — hier: das Buch nicht vergessen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich fahre mit dem Bus, um Zeit zu sparen."
+              },
+              {
+                "key": "b",
+                "text": "Ich fahre mit dem Bus, um Zeit sparen zu."
+              },
+              {
+                "key": "c",
+                "text": "Ich fahre mit dem Bus um Zeit zu sparen."
+              }
+            ],
+            "q": "Original: Ich fahre mit dem Bus. Ich spare Zeit.",
+            "why": "um + zu-Infinitiv drückt den Zweck aus."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich betrete den Raum ohne jemanden zu grüßen."
+              },
+              {
+                "key": "b",
+                "text": "Ich betrete den Raum, ohne jemanden zu grüßen."
+              },
+              {
+                "key": "c",
+                "text": "Ich betrete den Raum, ohne jemanden grüßen zu."
+              }
+            ],
+            "q": "Original: Ich betrete den Raum. Ich grüße niemanden.",
+            "why": "In der Infinitivgruppe steht jemanden statt niemanden — die Verneinung liegt schon in ohne."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich lese die Fragen genau, um die Aufgabe richtig verstehen zu."
+              },
+              {
+                "key": "b",
+                "text": "Ich lese die Fragen genau um die Aufgabe richtig zu verstehen."
+              },
+              {
+                "key": "c",
+                "text": "Ich lese die Fragen genau, um die Aufgabe richtig zu verstehen."
+              }
+            ],
+            "q": "Original: Ich lese die Fragen genau. Ich verstehe die Aufgabe richtig.",
+            "why": "Komma vor um, zu direkt vor dem Infinitiv verstehen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich gebe die Prüfung ab, ohne sie noch einmal zu kontrollieren."
+              },
+              {
+                "key": "b",
+                "text": "Ich gebe die Prüfung ab, ohne sie noch einmal kontrollieren zu."
+              },
+              {
+                "key": "c",
+                "text": "Ich gebe die Prüfung ab ohne sie noch einmal zu kontrollieren."
+              }
+            ],
+            "q": "Original: Ich gebe die Prüfung ab. Ich kontrolliere sie nicht noch einmal.",
+            "why": "Komma vor ohne, zu direkt vor dem Infinitiv kontrollieren."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die richtige Kombination (a, b oder c). Die Sätze bilden eine kurze Geschichte.",
+      "title": "Sprachbausteine — Vor der Prüfung"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "um"
+          ],
+          "2": [
+            "ohne"
+          ],
+          "3": [
+            "um"
+          ],
+          "4": [
+            "um"
+          ],
+          "5": [
+            "ohne"
+          ],
+          "6": [
+            "kennenzulernen"
+          ],
+          "7": [
+            "einzuleben"
+          ],
+          "8": [
+            "zu finden"
+          ]
+        },
+        "bank": [
+          "um",
+          "um",
+          "um",
+          "ohne",
+          "ohne",
+          "kennenzulernen",
+          "einzuleben",
+          "zu finden",
+          "aufzuräumen",
+          "anzurufen"
+        ],
+        "text": "Ich ziehe in eine neue Stadt, {1} näher bei der Arbeit zu\nwohnen. Ich packe meine Sachen sorgfältig, {2} etwas zu\nvergessen. Ich rufe eine Umzugsfirma an, {3} einen Termin zu\nvereinbaren. Ich räume die alte Wohnung auf, {4} sie sauber zu\nübergeben. Ich verabschiede mich von den Nachbarn, {5} traurig\nzu sein. Ich freue mich darauf, bald neue Leute {6}. Ich\nversuche, mich schnell {7}. Ich hoffe, dort schnell neue\nFreunde {8}.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 8 gaps. Two words in the box are not needed.",
+      "title": "Sprachbausteine — Der Umzug (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "um"
+          ],
+          "2": [
+            "ohne"
+          ],
+          "3": [
+            "aufzustehen"
+          ],
+          "4": [
+            "um"
+          ],
+          "5": [
+            "ohne"
+          ],
+          "6": [
+            "um"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich mache Sport, {1} gesund zu bleiben.\n2. Er verließ das Zimmer, {2} die Tür zu schließen.\n3. Ich habe vor, morgen früh {3}.\n4. Wir fahren in den Urlaub, {4} uns zu erholen.\n5. Sie las das Buch, {5} eine Pause zu machen.\n6. Ich übe jeden Tag, {6} besser zu werden.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze um, ohne oder den zu-Infinitiv.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich gehe zum Arzt um mich untersuchen zu lassen."
+              },
+              {
+                "key": "b",
+                "text": "Ich gehe zum Arzt, um mich untersuchen zu lassen."
+              },
+              {
+                "key": "c",
+                "text": "Ich gehe zum Arzt, um mich untersuchen lassen zu."
+              }
+            ],
+            "q": "Ich gehe zum Arzt. Ich möchte mich untersuchen lassen.",
+            "why": "Komma vor um, zu direkt vor dem Infinitiv lassen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie verließ das Café, ohne bezahlen zu."
+              },
+              {
+                "key": "b",
+                "text": "Sie verließ das Café ohne zu bezahlen."
+              },
+              {
+                "key": "c",
+                "text": "Sie verließ das Café, ohne zu bezahlen."
+              }
+            ],
+            "q": "Sie verließ das Café. Sie bezahlte nicht.",
+            "why": "Komma vor ohne, zu direkt vor dem Infinitiv bezahlen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich rufe meinen Freund an, um ihn zur Party einzuladen."
+              },
+              {
+                "key": "b",
+                "text": "Ich rufe meinen Freund an, um ihn zur Party einladen zu."
+              },
+              {
+                "key": "c",
+                "text": "Ich rufe meinen Freund an um ihn zur Party einzuladen."
+              }
+            ],
+            "q": "Ich rufe meinen Freund an. Ich möchte ihn zur Party einladen.",
+            "why": "Bei trennbaren Verben steht zu zwischen Vorsilbe und Verbstamm: einzuladen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir gehen früh schlafen um morgen fit zu sein."
+              },
+              {
+                "key": "b",
+                "text": "Wir gehen früh schlafen, um morgen fit zu sein."
+              },
+              {
+                "key": "c",
+                "text": "Wir gehen früh schlafen, um morgen fit sein zu."
+              }
+            ],
+            "q": "Wir gehen früh schlafen. Wir wollen morgen fit sein.",
+            "why": "Komma vor um, zu direkt vor dem Infinitiv sein."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er aß das Sandwich, ohne die Hände waschen zu."
+              },
+              {
+                "key": "b",
+                "text": "Er aß das Sandwich ohne sich die Hände zu waschen."
+              },
+              {
+                "key": "c",
+                "text": "Er aß das Sandwich, ohne sich die Hände zu waschen."
+              }
+            ],
+            "q": "Er aß das Sandwich. Er wusch sich vorher nicht die Hände.",
+            "why": "Komma vor ohne, zu direkt vor dem Infinitiv waschen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich packe meine Tasche, um nichts zu vergessen."
+              },
+              {
+                "key": "b",
+                "text": "Ich packe meine Tasche, um nichts vergessen zu."
+              },
+              {
+                "key": "c",
+                "text": "Ich packe meine Tasche um nichts zu vergessen."
+              }
+            ],
+            "q": "Ich packe meine Tasche. Ich möchte nichts vergessen.",
+            "why": "Komma vor um, zu direkt vor dem Infinitiv vergessen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Wähle die richtige Kombination (a, b oder c). Das ist dein letzter Check für dieses Set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-21-infinitivgruppen-a2",
+  "intro": "Infinitivgruppen mit um…zu und ohne…zu beschreiben den Zweck (um) oder das Fehlen einer Handlung (ohne) — das Subjekt in Haupt- und Nebensatz muss dabei immer gleich sein. Die Infinitivgruppe steht immer mit Komma vom Hauptsatz abgetrennt: Ich lerne Deutsch, um einen guten Job zu finden. Bei trennbaren Verben steht zu zwischen Vorsilbe und Verbstamm: anzurufen, aufzuräumen, einzukaufen. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/21-infinitivgruppen-a2",
+  "level": "A2",
+  "summary": null,
+  "title": "Infinitivgruppen mit Komma — A2",
+  "topic": "Infinitivgruppen mit Komma"
+}

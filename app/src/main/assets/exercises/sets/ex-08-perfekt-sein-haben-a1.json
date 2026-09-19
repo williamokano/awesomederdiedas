@@ -1,0 +1,754 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "Partizip II",
+          "Hilfsverb"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "gemacht"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "haben"
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "machen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "gespielt"
+                ],
+                "gap": 3
+              },
+              {
+                "answer": [
+                  "haben"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "spielen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "gegangen"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "sein"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "gehen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "gekommen"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "sein"
+                ],
+                "gap": 8
+              }
+            ],
+            "label": "kommen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "gesehen"
+                ],
+                "gap": 9
+              },
+              {
+                "answer": [
+                  "haben"
+                ],
+                "gap": 10
+              }
+            ],
+            "label": "sehen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "gegessen"
+                ],
+                "gap": 11
+              },
+              {
+                "answer": [
+                  "haben"
+                ],
+                "gap": 12
+              }
+            ],
+            "label": "essen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "getrunken"
+                ],
+                "gap": 13
+              },
+              {
+                "answer": [
+                  "haben"
+                ],
+                "gap": 14
+              }
+            ],
+            "label": "trinken"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "gefahren"
+                ],
+                "gap": 15
+              },
+              {
+                "answer": [
+                  "sein"
+                ],
+                "gap": 16
+              }
+            ],
+            "label": "fahren"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze das Partizip II und das Hilfsverb (haben oder sein).",
+      "instructionsEn": "Fill in the Partizip II and the auxiliary (haben or sein).",
+      "skill": "conjugation",
+      "title": "Partizip II und Hilfsverb"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "bin"
+          ],
+          "2": [
+            "haben"
+          ],
+          "3": [
+            "ist"
+          ],
+          "4": [
+            "hat"
+          ],
+          "5": [
+            "haben"
+          ],
+          "6": [
+            "bin"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} gestern ins Kino gegangen.\n2. Wir {2} einen Film gesehen.\n3. Er {3} spät nach Hause gekommen.\n4. Sie {4} viel Wasser getrunken.\n5. Die Kinder {5} im Park gespielt.\n6. Ich {6} mit dem Bus gefahren.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze das richtige Hilfsverb.",
+      "instructionsEn": "Fill in the correct auxiliary — the participle is already given.",
+      "skill": "conjugation",
+      "title": "haben oder sein? (Partizip ist schon da)"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "bin"
+          ],
+          "2": [
+            "habe"
+          ],
+          "3": [
+            "bin"
+          ],
+          "4": [
+            "habe"
+          ],
+          "5": [
+            "bin"
+          ],
+          "6": [
+            "habe"
+          ],
+          "7": [
+            "sind"
+          ],
+          "8": [
+            "haben"
+          ]
+        },
+        "bank": [
+          "bin",
+          "habe",
+          "bin",
+          "habe",
+          "bin",
+          "habe",
+          "sind",
+          "haben",
+          "ist",
+          "hat"
+        ],
+        "text": "Gestern {1} ich früh aufgestanden. Ich {2} geduscht und dann\nFrühstück gemacht. Danach {3} ich zur Arbeit gefahren. Am Mittag\n{4} ich mit meinen Kollegen gegessen. Nach der Arbeit {5} ich\neinkaufen gegangen. Zu Hause {6} ich Musik gehört. Am Abend {7}\nmeine Freunde zu Besuch gekommen. Wir {8} bis spät geredet.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Mein Tag"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "bin"
+              },
+              {
+                "key": "b",
+                "text": "habe"
+              },
+              {
+                "key": "c",
+                "text": "ist"
+              }
+            ],
+            "q": "Ich ___ ein neues Buch gekauft.",
+            "why": "kaufen: kein Bewegungsverb → haben."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "hat"
+              },
+              {
+                "key": "b",
+                "text": "ist"
+              },
+              {
+                "key": "c",
+                "text": "habe"
+              }
+            ],
+            "q": "Er ___ nach Berlin gefahren.",
+            "why": "fahren: Bewegungsverb → sein."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sind"
+              },
+              {
+                "key": "b",
+                "text": "haben"
+              },
+              {
+                "key": "c",
+                "text": "hat"
+              }
+            ],
+            "q": "Wir ___ den ganzen Tag gearbeitet.",
+            "why": "arbeiten: kein Bewegungsverb → haben."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "aufgewacht"
+              },
+              {
+                "key": "b",
+                "text": "aufgewachen"
+              },
+              {
+                "key": "c",
+                "text": "aufwachen"
+              }
+            ],
+            "q": "Sie ist gestern um sieben Uhr ___.",
+            "why": "Partizip II von aufwachen → aufgewacht (schwaches Verb: ge-…-t)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "haben"
+              },
+              {
+                "key": "b",
+                "text": "hat"
+              },
+              {
+                "key": "c",
+                "text": "sind"
+              }
+            ],
+            "q": "Die Gäste ___ pünktlich gekommen.",
+            "why": "kommen: Bewegungsverb, Plural → sind."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "bin"
+              },
+              {
+                "key": "b",
+                "text": "habe"
+              },
+              {
+                "key": "c",
+                "text": "ist"
+              }
+            ],
+            "q": "Ich ___ das Fenster geöffnet.",
+            "why": "öffnen: kein Bewegungsverb → haben."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Welches Hilfsverb passt?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "haben"
+              },
+              {
+                "key": "b",
+                "text": "sind"
+              },
+              {
+                "key": "c",
+                "text": "hat"
+              }
+            ],
+            "q": "Am Samstag ___ wir einen Ausflug gemacht.",
+            "why": "machen → haben."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "haben"
+              },
+              {
+                "key": "b",
+                "text": "sind"
+              },
+              {
+                "key": "c",
+                "text": "hat"
+              }
+            ],
+            "q": "Wir ___ mit dem Zug gefahren.",
+            "why": "fahren → sein."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "sind"
+              },
+              {
+                "key": "b",
+                "text": "hat"
+              },
+              {
+                "key": "c",
+                "text": "haben"
+              }
+            ],
+            "q": "In der Stadt ___ wir ein Museum besucht.",
+            "why": "besuchen → haben."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "habe"
+              },
+              {
+                "key": "b",
+                "text": "bin"
+              },
+              {
+                "key": "c",
+                "text": "hat"
+              }
+            ],
+            "q": "Danach ___ ich ein Eis gegessen.",
+            "why": "essen → haben."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "ist"
+              },
+              {
+                "key": "b",
+                "text": "haben"
+              },
+              {
+                "key": "c",
+                "text": "hat"
+              }
+            ],
+            "q": "Meine Schwester ___ Fotos gemacht.",
+            "why": "machen → haben."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sind"
+              },
+              {
+                "key": "b",
+                "text": "haben"
+              },
+              {
+                "key": "c",
+                "text": "hat"
+              }
+            ],
+            "q": "Am Abend ___ wir müde nach Hause gekommen.",
+            "why": "kommen → sein."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "hat"
+              },
+              {
+                "key": "b",
+                "text": "bin"
+              },
+              {
+                "key": "c",
+                "text": "habe"
+              }
+            ],
+            "q": "Ich ___ sofort eingeschlafen.",
+            "why": "einschlafen: Zustandswechsel → sein."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "hat"
+              },
+              {
+                "key": "b",
+                "text": "haben"
+              },
+              {
+                "key": "c",
+                "text": "ist"
+              }
+            ],
+            "q": "Es ___ ein schöner Tag gewesen.",
+            "why": "sein → sein (Ausnahme, immer sein als Hilfsverb)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct auxiliary for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Ein Ausflug"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "BIN"
+          ],
+          "2": [
+            "BIN"
+          ],
+          "3": [
+            "HABEN"
+          ],
+          "4": [
+            "BIN"
+          ],
+          "5": [
+            "BIN"
+          ],
+          "6": [
+            "IST"
+          ],
+          "7": [
+            "HABEN"
+          ],
+          "8": [
+            "HABE"
+          ],
+          "9": [
+            "HABEN"
+          ],
+          "10": [
+            "HABEN"
+          ]
+        },
+        "bank": [
+          "BIN",
+          "BIN",
+          "HABEN",
+          "BIN",
+          "BIN",
+          "IST",
+          "HABEN",
+          "HABE",
+          "HABEN",
+          "HABEN",
+          "BIST",
+          "SEID",
+          "HAST"
+        ],
+        "text": "Am Montag {1} ich früh aufgestanden. Ich {2} zur Arbeit gefahren.\nAm Dienstag {3} wir ein wichtiges Meeting gehabt. Am Mittwoch {4}\nich krank geworden. Ich {5} zu Hause geblieben. Am Donnerstag {6}\nes mir besser gegangen. Meine Kollegen {7} mich angerufen. Am\nFreitag {8} ich wieder gearbeitet. Am Wochenende {9} wir Freunde\nbesucht. Wir {10} viel gelacht.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Three words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Meine Woche (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "bin"
+          ],
+          "2": [
+            "habe"
+          ],
+          "3": [
+            "bin"
+          ],
+          "4": [
+            "haben"
+          ],
+          "5": [
+            "habe"
+          ],
+          "6": [
+            "sind"
+          ],
+          "7": [
+            "haben"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} heute Morgen spät aufgewacht.\n2. Ich {2} schnell geduscht.\n3. Dann {3} ich zur Schule gegangen.\n4. Wir {4} viel gelernt.\n5. Nach der Schule {5} ich Fußball gespielt.\n6. Am Abend {6} meine Eltern nach Hause gekommen.\n7. Wir {7} zusammen gegessen.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze das richtige Hilfsverb.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "bin"
+              },
+              {
+                "key": "b",
+                "text": "habe"
+              },
+              {
+                "key": "c",
+                "text": "ist"
+              }
+            ],
+            "q": "Ich ___ ins Kino gegangen.",
+            "why": "gehen → sein."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sind"
+              },
+              {
+                "key": "b",
+                "text": "haben"
+              },
+              {
+                "key": "c",
+                "text": "hat"
+              }
+            ],
+            "q": "Wir ___ Pizza gegessen.",
+            "why": "essen → haben."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "hat"
+              },
+              {
+                "key": "b",
+                "text": "habe"
+              },
+              {
+                "key": "c",
+                "text": "ist"
+              }
+            ],
+            "q": "Er ___ mit dem Fahrrad gefahren.",
+            "why": "fahren → sein."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "haben"
+              },
+              {
+                "key": "b",
+                "text": "sind"
+              },
+              {
+                "key": "c",
+                "text": "hat"
+              }
+            ],
+            "q": "Sie (Plural) ___ lange geschlafen.",
+            "why": "schlafen: kein Bewegungsverb → haben."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "hat"
+              },
+              {
+                "key": "b",
+                "text": "ist"
+              },
+              {
+                "key": "c",
+                "text": "habe"
+              }
+            ],
+            "q": "Das Kind ___ eingeschlafen.",
+            "why": "einschlafen: Zustandswechsel → sein."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "bin"
+              },
+              {
+                "key": "b",
+                "text": "ist"
+              },
+              {
+                "key": "c",
+                "text": "habe"
+              }
+            ],
+            "q": "Ich ___ meine Hausaufgaben gemacht.",
+            "why": "machen → haben."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-08-perfekt-sein-haben-a1",
+  "intro": "Standalone drill set, not tied to any lesson. Most verbs take haben in the Perfekt — it's the default. sein is the exception, reserved for verbs of MOTION (gehen, kommen, fahren) and CHANGE OF STATE (aufstehen, einschlafen), plus a short list of exceptions (sein, bleiben, werden, passieren). Blocks: A Basistraining (the reference table, then auxiliary-only) → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/08-perfekt-sein-haben-a1",
+  "level": "A1",
+  "summary": null,
+  "title": "Perfekt: sein oder haben? — A1",
+  "topic": "Perfekt: sein oder haben, Partizip II"
+}

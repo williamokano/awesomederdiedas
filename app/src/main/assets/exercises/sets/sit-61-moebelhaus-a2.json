@@ -1,0 +1,834 @@
+{
+  "category": "Wohnen & Nachbarschaft",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "bestellen",
+            "label": "Bestellen"
+          },
+          {
+            "key": "lieferung",
+            "label": "Lieferung"
+          },
+          {
+            "key": "danach",
+            "label": "Nach der Lieferung"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "bestellen",
+            "text": "das Möbelstück im Geschäft auswählen"
+          },
+          {
+            "bucket": "bestellen",
+            "text": "ausmessen, ob der Schrank passt"
+          },
+          {
+            "bucket": "bestellen",
+            "text": "eine Anzahlung leisten"
+          },
+          {
+            "bucket": "bestellen",
+            "text": "den Liefertermin vereinbaren"
+          },
+          {
+            "bucket": "lieferung",
+            "text": "den Lieferschein unterschreiben"
+          },
+          {
+            "bucket": "lieferung",
+            "text": "die Möbel die Treppe hochtragen"
+          },
+          {
+            "bucket": "lieferung",
+            "text": "den Aufzug benutzen"
+          },
+          {
+            "bucket": "lieferung",
+            "text": "das Möbelstück montieren"
+          },
+          {
+            "bucket": "danach",
+            "text": "einen Kratzer entdecken"
+          },
+          {
+            "bucket": "danach",
+            "text": "beim Kundendienst reklamieren"
+          },
+          {
+            "bucket": "danach",
+            "text": "eine Ersatzlieferung bekommen"
+          },
+          {
+            "bucket": "danach",
+            "text": "die Bedienungsanleitung aufbewahren"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Bestellen, Lieferung oder danach?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Liefertermin"
+          },
+          {
+            "key": "2",
+            "text": "der Aufbauservice"
+          },
+          {
+            "key": "3",
+            "text": "der Kratzer"
+          },
+          {
+            "key": "4",
+            "text": "reklamieren"
+          },
+          {
+            "key": "5",
+            "text": "die Ersatzlieferung"
+          },
+          {
+            "key": "6",
+            "text": "der Kundendienst"
+          },
+          {
+            "key": "7",
+            "text": "die Anzahlung"
+          },
+          {
+            "key": "8",
+            "text": "der Lieferschein"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "der vereinbarte Tag, an dem die Möbel kommen"
+          },
+          {
+            "key": "b",
+            "text": "der Service, bei dem die Firma die Möbel zusammenbaut"
+          },
+          {
+            "key": "c",
+            "text": "eine kleine Beschädigung auf der Oberfläche"
+          },
+          {
+            "key": "d",
+            "text": "sich offiziell über einen Mangel beschweren"
+          },
+          {
+            "key": "e",
+            "text": "eine neue Lieferung als Ersatz für ein beschädigtes Stück"
+          },
+          {
+            "key": "f",
+            "text": "die Abteilung, die sich um Probleme nach dem Kauf kümmert"
+          },
+          {
+            "key": "g",
+            "text": "ein Teil des Preises, der schon vorab bezahlt wird"
+          },
+          {
+            "key": "h",
+            "text": "das Dokument, das man beim Erhalt der Ware unterschreibt"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "müssen"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Sollen"
+          ],
+          "5": [
+            "passt"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Muss"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir {1} noch einen Liefertermin vereinbaren. (Modalverb, wir-Form)\n2. {2} Sie mir sagen, wann die Möbel geliefert werden? (können, Sie-Form)\n3. Ich {3} schon die Anzahlung geleistet. (haben, Perfekt)\n4. {4} wir den Aufbauservice dazubuchen? (sollen, wir-Form)\n5. Falls das Sofa nicht {5}, schicken wir es zurück. (passen, Präsens)\n6. Der Kundendienst {6} sich morgen bei uns melden. (werden, Futur I)\n7. Die Lieferanten {7} das Möbelstück beschädigt. (haben, Perfekt)\n8. {8} ich den Schaden sofort reklamieren? (müssen, ich-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Die Lieferung planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Liefertermin"
+          ],
+          "2": [
+            "Aufbauservice"
+          ],
+          "3": [
+            "Kratzer"
+          ],
+          "4": [
+            "reklamieren"
+          ],
+          "5": [
+            "Ersatzlieferung"
+          ],
+          "6": [
+            "Anzahlung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir vereinbaren mit dem Möbelhaus einen {1}. (der Tag, an dem geliefert wird)\n2. Damit die Möbel gleich zusammengebaut werden, buchen wir den {2}. (der Service zum Zusammenbauen)\n3. Beim Auspacken entdecken wir einen {3} auf der Tischplatte. (kleiner Schaden auf der Oberfläche)\n4. Wir {4} den Schaden sofort beim Kundendienst. (sich offiziell beschweren, wir-Form)\n5. Das Möbelhaus schickt uns als Ersatz eine {5}. (kommt, wenn ein beschädigtes Teil ersetzt wird)\n6. Vor der Lieferung haben wir schon eine {6} geleistet. (ein Teil des Preises im Voraus)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "LIEFERSCHEIN"
+          ],
+          "2": [
+            "KRATZER"
+          ],
+          "3": [
+            "VERMERKE"
+          ],
+          "4": [
+            "ERSATZLIEFERUNG"
+          ],
+          "5": [
+            "LIEFERTERMIN"
+          ],
+          "6": [
+            "PASST"
+          ],
+          "7": [
+            "AUFBAUSERVICE"
+          ],
+          "8": [
+            "MONTIERT"
+          ],
+          "9": [
+            "KOSTET"
+          ],
+          "10": [
+            "INKLUSIVE"
+          ]
+        },
+        "bank": [
+          "LIEFERSCHEIN",
+          "KRATZER",
+          "VERMERKE",
+          "ERSATZLIEFERUNG",
+          "LIEFERTERMIN",
+          "PASST",
+          "AUFBAUSERVICE",
+          "MONTIERT",
+          "KOSTET",
+          "INKLUSIVE",
+          "ANZAHLUNG",
+          "KUNDENDIENST",
+          "GARANTIE",
+          "VERPACKUNG"
+        ],
+        "text": "— Guten Tag, wir liefern heute Ihr neues Sofa. Könnten Sie bitte\nden {1} unterschreiben?\n— Natürlich, einen Moment ... Oh, hier ist ein {2} auf der\nArmlehne!\n— Das tut mir leid. Ich {3} das sofort im System.\n— Und wie geht es jetzt weiter?\n— Wir schicken Ihnen eine {4}. Das dauert etwa eine Woche.\n(am Telefon, beim Kundendienst)\n— Guten Tag, ich möchte einen {5} für nächste Woche\nvereinbaren.\n— Gerne, welcher Tag {6} Ihnen am besten?\n— Dienstag wäre ideal.\n— In Ordnung. Möchten Sie auch den {7} dazubuchen?\n— Ja bitte, dann wird der Schrank gleich {8}.\n— Perfekt, das {9} extra 49 Euro, {10} Anfahrt.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Bei der Lieferung und beim Kundendienst"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Termine sind mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Ich möchte einen Liefertermin für nächste Woche vereinbaren."
+              },
+              {
+                "key": "c",
+                "text": "Liefern Sie einfach, wann Sie wollen."
+              }
+            ],
+            "q": "Du möchtest den Liefertermin telefonisch vereinbaren. — You want to arrange the delivery date by phone.",
+            "why": "Eine klare, höfliche Anfrage ist der übliche Einstieg beim Möbelhaus."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ach, das ist doch nicht so schlimm, ich sage nichts."
+              },
+              {
+                "key": "b",
+                "text": "Ich schicke den Tisch einfach zurück, ohne etwas zu sagen."
+              },
+              {
+                "key": "c",
+                "text": "Ich reklamiere den Schaden sofort beim Kundendienst."
+              }
+            ],
+            "q": "Du entdeckst beim Auspacken einen Kratzer auf dem neuen Tisch. — You notice a scratch on the new table while unpacking.",
+            "why": "Ein Schaden sollte sofort gemeldet werden, damit er dokumentiert und ersetzt werden kann."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich prüfe die Ware kurz und unterschreibe dann den Lieferschein."
+              },
+              {
+                "key": "b",
+                "text": "Ich unterschreibe, ohne die Ware zu prüfen."
+              },
+              {
+                "key": "c",
+                "text": "Ich weigere mich, überhaupt etwas zu unterschreiben."
+              }
+            ],
+            "q": "Der Lieferant bringt das Möbelstück und möchte, dass du unterschreibst. — The delivery person wants you to sign for it.",
+            "why": "Eine kurze Prüfung vor der Unterschrift schützt dich, falls schon etwas beschädigt ist."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich baue das sowieso selbst auf."
+              },
+              {
+                "key": "b",
+                "text": "Kostet der Aufbauservice extra?"
+              },
+              {
+                "key": "c",
+                "text": "Kosten sind mir egal."
+              }
+            ],
+            "q": "Du möchtest wissen, ob der Aufbauservice zusätzlich kostet. — You want to know whether assembly costs extra.",
+            "why": "Eine klare Frage zu den Kosten vermeidet spätere Überraschungen auf der Rechnung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nein, ich will gar nichts mehr von Ihnen."
+              },
+              {
+                "key": "b",
+                "text": "Das dauert mir zu lange, vergessen Sie es."
+              },
+              {
+                "key": "c",
+                "text": "Gut, wie lange dauert die Ersatzlieferung ungefähr?"
+              }
+            ],
+            "q": "Der Kundendienst bietet dir eine Ersatzlieferung an. — Customer service offers you a replacement delivery.",
+            "why": "Eine konkrete Nachfrage zur Dauer hilft dir bei der weiteren Planung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Können Sie den Aufzug benutzen, oder ist Treppensteigen nötig?"
+              },
+              {
+                "key": "b",
+                "text": "Der Aufzug interessiert mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Tragen Sie es einfach irgendwie hoch."
+              }
+            ],
+            "q": "Du möchtest fragen, ob die Lieferanten den Aufzug im Haus benutzen können. — You want to ask whether the delivery team can use the building's elevator.",
+            "why": "Eine frühzeitige Frage zum Aufzug erspart Missverständnisse am Liefertag."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Liefertermin, Aufbau und Reklamation"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "höfliche Bitte, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "einen",
+              "Liefertermin",
+              "für",
+              "nächste",
+              "Woche",
+              "vereinbaren"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Frage mit Konjunktiv II",
+            "tiles": [
+              "Könnten",
+              "Sie",
+              "bitte",
+              "den",
+              "Lieferschein",
+              "unterschreiben",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Hauptsatz, Verb an Position 2",
+            "tiles": [
+              "Ich",
+              "reklamiere",
+              "den",
+              "Schaden",
+              "sofort",
+              "beim",
+              "Kundendienst"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Nebensatz mit falls, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "das",
+              "Sofa",
+              "nicht",
+              "passt",
+              ",",
+              "schicken",
+              "wir",
+              "es",
+              "zurück"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Frage mit möchten, Infinitiv am Ende",
+            "tiles": [
+              "Möchten",
+              "Sie",
+              "auch",
+              "den",
+              "Aufbauservice",
+              "dazubuchen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Das",
+              "Möbelhaus",
+              "hat",
+              "uns",
+              "eine",
+              "Ersatzlieferung",
+              "angeboten"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze beim Möbelkauf bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Der Liefertermin wird mindestens drei Werktage vorher telefonisch bestätigt. — The delivery date is confirmed by phone at least three working days ahead.",
+            "why": "So steht es ausdrücklich in den Liefer-Infos."
+          },
+          {
+            "answer": false,
+            "q": "Der Aufbauservice ist im Kaufpreis inklusive und kostet nichts extra. — Assembly is included in the price and costs nothing extra.",
+            "why": "Er kostet zusätzlich 49 Euro, inklusive Anfahrt."
+          },
+          {
+            "answer": true,
+            "q": "Ein Schaden muss innerhalb von 48 Stunden nach der Lieferung gemeldet werden. — A defect must be reported within 48 hours of delivery.",
+            "why": "„Reklamation: ein Schaden muss innerhalb von 48 Stunden nach Lieferung gemeldet werden.“"
+          },
+          {
+            "answer": false,
+            "q": "Eine Ersatzlieferung dauert normalerweise nur ein bis zwei Tage. — A replacement delivery usually only takes one or two days.",
+            "why": "Sie dauert in der Regel 5 bis 7 Werktage, nicht ein bis zwei Tage."
+          },
+          {
+            "answer": true,
+            "q": "Ohne Aufzug wird bis zur dritten Etage kostenlos getragen. — Without an elevator, carrying is free up to the third floor.",
+            "why": "„Sonst wird bis zur 3. Etage kostenlos getragen.“"
+          },
+          {
+            "answer": false,
+            "q": "Der Lieferschein sollte man unterschreiben, ohne die Ware anzusehen. — The delivery slip should be signed without looking at the goods.",
+            "why": "Er sollte erst nach kurzer Prüfung der Ware unterschrieben werden."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Lieferung und Aufbau**\n>\n> - **Liefertermin:** wird **mindestens 3 Werktage vorher**\n>   telefonisch bestätigt.\n> - **Aufbauservice:** kostet zusätzlich **49 Euro**, inklusive\n>   Anfahrt.\n> - **Reklamation:** ein Schaden muss **innerhalb von 48 Stunden**\n>   nach Lieferung gemeldet werden.\n> - **Ersatzlieferung:** dauert in der Regel **5 bis 7 Werktage**.\n> - **Aufzug:** wenn vorhanden, wird er von den Lieferanten\n>   genutzt — sonst wird bis zur **3. Etage** kostenlos getragen.\n> - **Lieferschein:** sollte erst nach kurzer **Prüfung der Ware**\n>   unterschrieben werden.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Liefer-Infos lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Bestellung wütend stornieren, ohne nachzufragen."
+              },
+              {
+                "key": "b",
+                "text": "Sofort beim Kundendienst nachfragen, wo die Lieferung bleibt."
+              },
+              {
+                "key": "c",
+                "text": "Einfach weiter warten, ohne nachzufragen."
+              }
+            ],
+            "q": "Die Lieferung kommt trotz vereinbartem Termin nicht. — Delivery doesn't arrive despite the agreed date.",
+            "why": "Eine schnelle Nachfrage klärt meist sofort, was los ist."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es trotzdem behalten und nichts sagen."
+              },
+              {
+                "key": "b",
+                "text": "Das Möbelstück selbst umlackieren."
+              },
+              {
+                "key": "c",
+                "text": "Beim Möbelhaus den Fehler melden und den Umtausch klären."
+              }
+            ],
+            "q": "Das gelieferte Möbelstück hat die falsche Farbe. — The delivered piece is the wrong color.",
+            "why": "Den Fehler zu melden ist der einzige Weg zu einem passenden Ersatz."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Beim Kundendienst nachfragen, wo der Aufbauservice bleibt."
+              },
+              {
+                "key": "b",
+                "text": "Das Möbelstück einfach unmontiert stehen lassen für immer."
+              },
+              {
+                "key": "c",
+                "text": "Selbst versuchen, alles ohne Anleitung zu improvisieren."
+              }
+            ],
+            "q": "Der Aufbauservice erscheint nicht zum vereinbarten Termin. — The assembly service doesn't show up at the agreed time.",
+            "why": "Eine Nachfrage beim Kundendienst klärt schnell, wann der Service tatsächlich kommt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Irgendwelche anderen Schrauben aus der Werkzeugkiste nehmen."
+              },
+              {
+                "key": "b",
+                "text": "Beim Kundendienst nach den fehlenden Teilen fragen."
+              },
+              {
+                "key": "c",
+                "text": "Den Schrank ohne die fehlenden Schrauben instabil aufstellen."
+              }
+            ],
+            "q": "Beim Aufbau fehlen mehrere Schrauben. — Several screws are missing during assembly.",
+            "why": "Die passenden Ersatzteile anzufragen ist sicherer als mit falschen Schrauben zu improvisieren."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Schaden ignorieren und das Sofa trotzdem benutzen."
+              },
+              {
+                "key": "b",
+                "text": "Sich beim Fahrer laut beschweren und ihn beschimpfen."
+              },
+              {
+                "key": "c",
+                "text": "Den Schaden sofort dokumentieren und fotografieren."
+              }
+            ],
+            "q": "Das Sofa ist beim Transport stark beschädigt. — The sofa is badly damaged during transport.",
+            "why": "Fotos als Beweis erleichtern die Reklamation beim Kundendienst erheblich."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nach einer Woche höflich beim Kundendienst nachfragen."
+              },
+              {
+                "key": "b",
+                "text": "Nichts tun und einfach weiter warten, egal wie lange."
+              },
+              {
+                "key": "c",
+                "text": "Sofort eine schlechte Bewertung im Internet schreiben, ohne nachzufragen."
+              }
+            ],
+            "q": "Die Ersatzlieferung dauert länger als angekündigt. — The replacement delivery takes longer than announced.",
+            "why": "Eine höfliche Nachfrage ist meist wirkungsvoller als eine sofortige Beschwerde ohne Kontaktversuch."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn bei Lieferung und Aufbau etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "nachgefragt"
+          ],
+          "2": [
+            "Farbe"
+          ],
+          "3": [
+            "erschienen"
+          ],
+          "4": [
+            "Schrauben"
+          ],
+          "5": [
+            "beschädigt"
+          ],
+          "6": [
+            "fotografiert"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Lieferung kam trotz Termin nicht — wir haben beim Kundendienst {1}. (nachgefragt, Partizip)\n2. Das Möbelstück hatte die falsche {2}. (nicht die bestellte, sondern eine andere)\n3. Der Aufbauservice ist nicht {3}. (gekommen, Partizip)\n4. Beim Aufbau haben mehrere {4} gefehlt. (kleine Metallteile zum Befestigen)\n5. Das Sofa wurde beim Transport stark {5}. (kaputtgemacht, Partizip)\n6. Wir haben den Schaden sofort {6}. (mit der Kamera festgehalten, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "müssen"
+          ],
+          "2": [
+            "Könnten"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Liefertermin"
+          ],
+          "5": [
+            "Aufbauservice"
+          ],
+          "6": [
+            "Kratzer"
+          ],
+          "7": [
+            "reklamieren"
+          ],
+          "8": [
+            "Ersatzlieferung"
+          ],
+          "9": [
+            "Anzahlung"
+          ],
+          "10": [
+            "Lieferschein"
+          ],
+          "11": [
+            "nachgefragt"
+          ],
+          "12": [
+            "erschienen"
+          ],
+          "13": [
+            "Schrauben"
+          ],
+          "14": [
+            "beschädigt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir {1} noch einen Liefertermin vereinbaren. (must)\n2. {2} Sie mir sagen, wann die Möbel kommen? (could — können)\n3. Ich {3} schon die Anzahlung geleistet. (have — Perfekt)\n4. Wir vereinbaren einen {4}. (delivery date)\n5. Wir buchen den {5} dazu. (assembly service)\n6. Beim Auspacken sehen wir einen {6}. (scratch)\n7. Wir {7} den Schaden beim Kundendienst. (complain — Infinitiv)\n8. Das Möbelhaus schickt eine {8}. (replacement delivery)\n9. Vor der Lieferung haben wir eine {9} geleistet. (deposit)\n10. Bitte unterschreiben Sie den {10}. (delivery slip)\n11. Die Lieferung kam nicht — wir haben {11}. (asked — Partizip)\n12. Der Aufbauservice ist nicht {12}. (shown up — Partizip)\n13. Es haben mehrere {13} gefehlt. (screws)\n14. Das Sofa wurde stark {14}. (damaged — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-61-moebelhaus-a2",
+  "intro": "Ein neues Sofa oder ein neuer Schrank ist bestellt — jetzt braucht es einen Liefertermin, vielleicht den Aufbauservice dazu, und einen klaren Kopf, falls beim Auspacken ein Kratzer auftaucht. Dieses Set übt genau das: den Liefertermin vereinbaren, den Lieferschein prüfen und unterschreiben, und beim Kundendienst reklamieren, wenn etwas schiefgeht. Grammatik nach Bedarf: Perfekt im Bericht, höfliche Fragen mit Konjunktiv II, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/61-moebelhaus-a2",
+  "level": "A2",
+  "summary": "Einen Liefertermin vereinbaren, den Aufbauservice buchen — und was tun, wenn ein Möbelstück beschädigt ankommt.",
+  "title": "Möbelhaus: Lieferung und Aufbau — A2",
+  "topic": "Möbelhaus: Lieferung und Aufbau"
+}

@@ -1,0 +1,1548 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "werden"
+          ],
+          "3": [
+            "wird"
+          ],
+          "4": [
+            "werden"
+          ],
+          "5": [
+            "werden"
+          ],
+          "6": [
+            "werden"
+          ],
+          "7": [
+            "wird"
+          ],
+          "8": [
+            "wird"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Jemand führt die Studie durch. → Die Studie {1} durchgeführt.\n2. Man erhebt die Daten. → Die Daten {2} erhoben.\n3. Jemand überprüft die Hypothese. → Die Hypothese {3} überprüft.\n4. Man wertet die Proben aus. → Die Proben {4} ausgewertet.\n5. Jemand veröffentlicht die Ergebnisse. → Die Ergebnisse {5} veröffentlicht.\n6. Man stellt die Daten zur Verfügung. → Die Daten {6} zur Verfügung gestellt.\n7. Jemand stellt die Hypothese in Frage. → Die Hypothese {7} in Frage gestellt.\n8. Man entwickelt ein neues Modell. → Ein neues Modell {8} entwickelt.\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Schreib den Satz im Passiv Präsens (werden + Partizip II). 8 Items.",
+      "title": "Passiv Präsens: Verb → Passiv"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "wurde"
+          ],
+          "2": [
+            "wurden"
+          ],
+          "3": [
+            "wurde"
+          ],
+          "4": [
+            "wurden"
+          ],
+          "5": [
+            "wurden"
+          ],
+          "6": [
+            "wurden"
+          ],
+          "7": [
+            "wurde"
+          ],
+          "8": [
+            "wurde"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Jemand führte die Studie durch. → Die Studie {1} durchgeführt.\n2. Man erhob die Daten. → Die Daten {2} erhoben.\n3. Jemand überprüfte die Hypothese. → Die Hypothese {3} überprüft.\n4. Man wertete die Proben aus. → Die Proben {4} ausgewertet.\n5. Jemand veröffentlichte die Ergebnisse. → Die Ergebnisse {5} veröffentlicht.\n6. Man stellte die Daten zur Verfügung. → Die Daten {6} zur Verfügung gestellt.\n7. Jemand stellte die Hypothese in Frage. → Die Hypothese {7} in Frage gestellt.\n8. Man entwickelte ein neues Modell. → Ein neues Modell {8} entwickelt.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Schreib den Satz im Passiv Präteritum (wurde/wurden + Partizip II). 8 Items.",
+      "title": "Passiv Präteritum: Verb → Passiv"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "ist"
+          ],
+          "2": [
+            "sind"
+          ],
+          "3": [
+            "ist"
+          ],
+          "4": [
+            "sind"
+          ],
+          "5": [
+            "sind"
+          ],
+          "6": [
+            "sind"
+          ],
+          "7": [
+            "ist"
+          ],
+          "8": [
+            "ist"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Jemand hat die Studie durchgeführt. → Die Studie {1} durchgeführt worden.\n2. Man hat die Daten erhoben. → Die Daten {2} erhoben worden.\n3. Jemand hat die Hypothese überprüft. → Die Hypothese {3} überprüft worden.\n4. Man hat die Proben ausgewertet. → Die Proben {4} ausgewertet worden.\n5. Jemand hat die Ergebnisse veröffentlicht. → Die Ergebnisse {5} veröffentlicht worden.\n6. Man hat die Daten zur Verfügung gestellt. → Die Daten {6} zur Verfügung gestellt worden.\n7. Jemand hat die Hypothese in Frage gestellt. → Die Hypothese {7} in Frage gestellt worden.\n8. Man hat ein neues Modell entwickelt. → Ein neues Modell {8} entwickelt worden.\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Schreib den Satz im Passiv Perfekt (ist/sind + Partizip II + worden). 8 Items.",
+      "title": "Passiv Perfekt: Verb → Passiv"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "wurde"
+              },
+              {
+                "key": "c",
+                "text": "ist … worden"
+              }
+            ],
+            "q": "Die Studie ____ gerade durchgeführt.",
+            "why": "Präsens: läuft gerade → wird durchgeführt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "werden"
+              },
+              {
+                "key": "b",
+                "text": "wurden"
+              },
+              {
+                "key": "c",
+                "text": "sind … worden"
+              }
+            ],
+            "q": "Die Daten ____ über ein Jahr hinweg erhoben.",
+            "why": "Präteritum: Bericht über die Vergangenheit → wurden erhoben."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sind"
+              },
+              {
+                "key": "b",
+                "text": "wurden"
+              },
+              {
+                "key": "c",
+                "text": "werden"
+              }
+            ],
+            "q": "Die Ergebnisse ____ in *Nature* veröffentlicht worden.",
+            "why": "Perfekt: sind + veröffentlicht + worden."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "wurde"
+              },
+              {
+                "key": "c",
+                "text": "ist … worden"
+              }
+            ],
+            "q": "Die Hypothese ____ in der nächsten Studie überprüft.",
+            "why": "Präsens: zukünftiger Vorgang (Vorgangspassiv) → wird überprüft."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wurden"
+              },
+              {
+                "key": "b",
+                "text": "sind … worden"
+              },
+              {
+                "key": "c",
+                "text": "werden"
+              }
+            ],
+            "q": "Die Proben ____ im Labor ausgewertet.",
+            "why": "Präteritum: Bericht → wurden ausgewertet."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sind … worden"
+              },
+              {
+                "key": "b",
+                "text": "wurden"
+              },
+              {
+                "key": "c",
+                "text": "werden"
+              }
+            ],
+            "q": "Die Daten ____ Open Access zur Verfügung gestellt.",
+            "why": "Präteritum: Bericht über abgeschlossene Handlung → wurden gestellt."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A4",
+      "instructions": "Wähle die passende Passivform (a, b oder c).",
+      "title": "Welche Zeitform passt?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Veröffentlichung"
+          ],
+          "2": [
+            "Durchführung"
+          ],
+          "3": [
+            "Untersuchung"
+          ],
+          "4": [
+            "Auswertung"
+          ],
+          "5": [
+            "Erhebung"
+          ],
+          "6": [
+            "Überprüfung"
+          ],
+          "7": [
+            "Widerlegung"
+          ],
+          "8": [
+            "Bestätigung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. veröffentlichen → die {1}\n2. durchführen → die {2}\n3. untersuchen → die {3}\n4. auswerten → die {4}\n5. erheben (Daten) → die {5}\n6. überprüfen → die {6}\n7. widerlegen → die {7}\n8. bestätigen → die {8}\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Schreib das passende Nomen (mit Artikel) zum Verb. 8 Items.",
+      "title": "Verb → Nomen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Durchführung der Studie"
+          ],
+          "2": [
+            "Erhebung der Daten"
+          ],
+          "3": [
+            "Überprüfung der Hypothese"
+          ],
+          "4": [
+            "Veröffentlichung der Ergebnisse"
+          ],
+          "5": [
+            "Test des Modells"
+          ],
+          "6": [
+            "Nachweis der Wirksamkeit"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die {1} (die Studie) wurde beschrieben.\n2. Die {2} (die Daten) dauerte ein Jahr.\n3. Die {3} (die Hypothese) ergab ein neues Resultat.\n4. Die {4} (die Ergebnisse) erfolgte im Juni.\n5. Der {5} (das Modell) verlief erfolgreich.\n6. Der {6} (die Wirksamkeit) gilt als erbracht.\n",
+        "type": "gap-text"
+      },
+      "id": "A6",
+      "instructions": "Ergänze das fehlende Nomen + Genitivattribut. ⚠️ Genitiv! 6 Items.",
+      "title": "Nominalstil mit Genitiv"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "wurde"
+          ],
+          "2": [
+            "wurden"
+          ],
+          "3": [
+            "wurde"
+          ],
+          "4": [
+            "wurden"
+          ],
+          "5": [
+            "wurde"
+          ],
+          "6": [
+            "wurden"
+          ]
+        },
+        "bank": [
+          "wurde",
+          "wurde",
+          "wurde",
+          "wurden",
+          "wurden",
+          "wurden",
+          "werden",
+          "sind"
+        ],
+        "text": "Die Studie (1) {1} von einem Heidelberger Team durchgeführt. Die Daten (2) {2}\nan über 10 000 Nutzern erhoben. Die Hypothese (3) {3} durch die Ergebnisse\nbestätigt. Die Ergebnisse (4) {4} in *Nature* veröffentlicht. Die Methodik\n(5) {5} von anderen Forschern in Frage gestellt. Die Originaldaten (6) {6}\nOpen Access zur Verfügung gestellt.\n",
+        "type": "gap-bank"
+      },
+      "id": "A7",
+      "instructions": "Füll die 6 Lücken mit der passenden Passivform. Zwei Wörter sind zu viel.",
+      "title": "Verb → Nomen → Passiv"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "f",
+          "3": "e",
+          "4": "d",
+          "5": "a",
+          "6": "c"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "veröffentlichen"
+          },
+          {
+            "key": "2",
+            "text": "durchführen"
+          },
+          {
+            "key": "3",
+            "text": "widerlegen"
+          },
+          {
+            "key": "4",
+            "text": "nachweisen"
+          },
+          {
+            "key": "5",
+            "text": "patentieren"
+          },
+          {
+            "key": "6",
+            "text": "auswerten"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die Patentierung"
+          },
+          {
+            "key": "b",
+            "text": "die Veröffentlichung"
+          },
+          {
+            "key": "c",
+            "text": "die Auswertung"
+          },
+          {
+            "key": "d",
+            "text": "der Nachweis"
+          },
+          {
+            "key": "e",
+            "text": "die Widerlegung"
+          },
+          {
+            "key": "f",
+            "text": "die Durchführung"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A8",
+      "instructions": "Ordne jedem Verb (1–6) die passende Nominalisierung (a–f) zu.",
+      "title": "Verb und Nominalisierung verbinden"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "von"
+          ],
+          "2": [
+            "durch"
+          ],
+          "3": [
+            "von"
+          ],
+          "4": [
+            "durch"
+          ],
+          "5": [
+            "von"
+          ],
+          "6": [
+            "durch"
+          ],
+          "7": [
+            "von"
+          ],
+          "8": [
+            "durch"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Studie wurde {1} einem Team durchgeführt.\n2. Die Daten wurden {2} ein automatisiertes Verfahren erhoben.\n3. Die Methodik wurde {3} drei Gutachtern geprüft.\n4. Die Schäden wurden {4} das Erdbeben verursacht.\n5. Die Forschung wird {5} der Deutschen Forschungsgemeinschaft gefördert.\n6. Das Ergebnis wurde {6} eine zweite Studie bestätigt.\n7. Die Hypothese wurde {7} vielen Forschern in Frage gestellt.\n8. Die Erkenntnis wurde {8} ein Experiment gewonnen.\n",
+        "type": "gap-text"
+      },
+      "id": "A9",
+      "instructions": "Setze von oder durch ein. ⚠️ Personen/Institutionen → von + Dat.; Mittel/Ursachen → durch + Akk. 8 Items.",
+      "title": "von oder durch?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "durchführen"
+          ],
+          "2": [
+            "machen"
+          ],
+          "3": [
+            "stellen"
+          ],
+          "4": [
+            "gewinnen"
+          ],
+          "5": [
+            "erbringen"
+          ],
+          "6": [
+            "ziehen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. eine Studie {1} (nicht: machen)\n2. einen Versuch {2}\n3. eine Hypothese in Frage {3}\n4. eine Erkenntnis {4}\n5. einen Nachweis {5}\n6. etwas in Betracht {6}\n",
+        "type": "gap-text"
+      },
+      "id": "A10",
+      "instructions": "Setze das passende Funktionsverb ein (Infinitiv): durchführen, machen, stellen, gewinnen, erbringen, ziehen. 6 Items.",
+      "title": "FVG im Satz (Wissenschaft)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Die Daten wurden über ein Jahr hinweg erhoben",
+            "tiles": [
+              "Die",
+              "Daten",
+              "wurden",
+              "über",
+              "ein",
+              "Jahr",
+              "hinweg",
+              "erhoben"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Die Hypothese wurde durch die Studie bestätigt",
+            "tiles": [
+              "Die",
+              "Hypothese",
+              "wurde",
+              "durch",
+              "die",
+              "Studie",
+              "bestätigt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Die Originaldaten wurden Open Access zur Verfügung gestellt",
+            "tiles": [
+              "Die",
+              "Originaldaten",
+              "wurden",
+              "Open",
+              "Access",
+              "zur",
+              "Verfügung",
+              "gestellt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Eine neue Studie wurde angekündigt",
+            "tiles": [
+              "Eine",
+              "neue",
+              "Studie",
+              "wurde",
+              "angekündigt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A11",
+      "instructions": "Bring die Wörter in die richtige Reihenfolge. Im Passiv-Satz steht die finite Verbform (wurden/wurde) in Position 2.",
+      "title": "Satzbau: Passiv im Hauptsatz"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "machen"
+              },
+              {
+                "key": "b",
+                "text": "durchführen"
+              },
+              {
+                "key": "c",
+                "text": "nehmen"
+              }
+            ],
+            "q": "eine Studie …",
+            "why": "eine Studie durchführen (festes Verb)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "durchführen"
+              },
+              {
+                "key": "b",
+                "text": "machen"
+              },
+              {
+                "key": "c",
+                "text": "nehmen"
+              }
+            ],
+            "q": "einen Versuch …",
+            "why": "einen Versuch machen (feste Verbindung)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "machen"
+              },
+              {
+                "key": "b",
+                "text": "bringen"
+              },
+              {
+                "key": "c",
+                "text": "stellen"
+              }
+            ],
+            "q": "eine Hypothese in Frage …",
+            "why": "in Frage stellen (festes Verb)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "machen"
+              },
+              {
+                "key": "b",
+                "text": "erbringen"
+              },
+              {
+                "key": "c",
+                "text": "nehmen"
+              }
+            ],
+            "q": "einen Nachweis …",
+            "why": "einen Nachweis erbringen (festes Verb)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "machen"
+              },
+              {
+                "key": "b",
+                "text": "bringen"
+              },
+              {
+                "key": "c",
+                "text": "stellen"
+              }
+            ],
+            "q": "Daten zur Verfügung …",
+            "why": "zur Verfügung stellen (festes Verb)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "bekommen"
+              },
+              {
+                "key": "b",
+                "text": "nehmen"
+              },
+              {
+                "key": "c",
+                "text": "gewinnen"
+              }
+            ],
+            "q": "eine Erkenntnis …",
+            "why": "eine Erkenntnis gewinnen (festes Verb)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B4",
+      "instructions": "Wähle das richtige feste Funktionsverb (a, b oder c). ⚠️ Nicht alles, was im Englischen mit „make“ geht, geht im Deutschen mit „machen“.",
+      "title": "FVG der Wissenschaft"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "wurde"
+          ],
+          "2": [
+            "durchgeführt"
+          ],
+          "3": [
+            "wurden"
+          ],
+          "4": [
+            "wurde"
+          ],
+          "5": [
+            "wurde"
+          ],
+          "6": [
+            "wurden"
+          ],
+          "7": [
+            "wurden"
+          ],
+          "8": [
+            "gestellt"
+          ]
+        },
+        "bank": [
+          "wurde",
+          "wurde",
+          "wurde",
+          "wurden",
+          "wurden",
+          "wurden",
+          "durchgeführt",
+          "gestellt",
+          "gewonnen",
+          "publiziert"
+        ],
+        "text": "Pressemitteilung des Forschungsteams Heidelberg: Im Mai (1) {1} eine große\nStudie (2) {2}. Die Daten (3) {3} über ein Jahr hinweg an 5 000 Probanden\nerhoben. Die Hypothese, dass KI die Diagnostik verbessern kann, (4) {4}\ndurch die Ergebnisse bestätigt. Die Methodik (5) {5} von drei Gutachtern\ngeprüft. Die Resultate (6) {6} anschließend in *Nature* veröffentlicht.\nDie Originaldaten (7) {7} Open Access zur Verfügung (8) {8}.\n",
+        "type": "gap-bank"
+      },
+      "id": "B5",
+      "instructions": "Füll die 8 Lücken mit dem passenden Wort (finite Verbform oder Partizip II). Zwei Wörter sind zu viel.",
+      "title": "Pressemitteilung ergänzen: Passiv und FVG"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "wurde"
+          ],
+          "2": [
+            "sind"
+          ],
+          "3": [
+            "wurden"
+          ],
+          "4": [
+            "sind"
+          ],
+          "5": [
+            "wurde"
+          ],
+          "6": [
+            "ist"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Studie {1} (Präteritum) im Mai durchgeführt.\n2. Die Ergebnisse {2} (Perfekt) in *Nature* veröffentlicht worden.\n3. Die Daten {3} (Präteritum) von dem Team erhoben.\n4. Die Originaldaten {4} (Perfekt) Open Access zur Verfügung gestellt worden.\n5. Die Hypothese {5} (Präteritum) durch eine zweite Studie bestätigt.\n6. Die Methodik {6} (Perfekt) von mehreren Forschern kritisiert worden.\n",
+        "type": "gap-text"
+      },
+      "id": "B6",
+      "instructions": "Setze die richtige Form ein (Perfekt oder Präteritum Passiv). 6 Items.",
+      "title": "Passiv Perfekt oder Präteritum?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "die Studie",
+              "der Versuch",
+              "die Hypothese",
+              "das Passiv"
+            ],
+            "odd": 3,
+            "why": "das Passiv ist eine grammatische Form, keine Forschungsgröße."
+          },
+          {
+            "items": [
+              "veröffentlichen",
+              "durchführen",
+              "erheben",
+              "passen"
+            ],
+            "odd": 3,
+            "why": "passen ist kein typisches Forschungsverb; die anderen drei beschreiben wissenschaftliche Vorgänge."
+          },
+          {
+            "items": [
+              "die Forschung",
+              "die Wissenschaft",
+              "die Studie",
+              "das Wetter"
+            ],
+            "odd": 3,
+            "why": "das Wetter ist kein Forschungsgebiet; die anderen drei sind Kernbegriffe der Wissenschaft."
+          },
+          {
+            "items": [
+              "die Hypothese",
+              "das Ergebnis",
+              "die Erkenntnis",
+              "die Verfasserin"
+            ],
+            "odd": 3,
+            "why": "die Verfasserin ist eine Person, kein Forschungsbegriff."
+          },
+          {
+            "items": [
+              "von + Dativ",
+              "durch + Akkusativ",
+              "aus + Dativ",
+              "mit + Dativ"
+            ],
+            "odd": 2,
+            "why": "aus + Dativ kennzeichnet Herkunft/Quelle, ist aber KEIN Passiv-Agent — leicht mit 'von + Dativ' verwechselt (beide markieren eine Quelle). 'mit + Dativ' ist instrumental/soziativ."
+          },
+          {
+            "items": [
+              "die Hypothese in Frage stellen",
+              "die Daten zur Verfügung stellen",
+              "eine Studie durchführen",
+              "das Ergebnis bekommen"
+            ],
+            "odd": 3,
+            "why": "das Ergebnis bekommen ist kein festes FVG; die anderen drei sind feste Wissenschafts-FVG."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "B7",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum.",
+      "title": "Wortschatz: Was passt nicht?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "e",
+          "2": "b",
+          "3": "f",
+          "4": "d",
+          "5": "a",
+          "6": "c"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Man hat die Studie durchgeführt."
+          },
+          {
+            "key": "2",
+            "text": "Man hat die Daten erhoben."
+          },
+          {
+            "key": "3",
+            "text": "Man hat die Hypothese bestätigt."
+          },
+          {
+            "key": "4",
+            "text": "Man hat die Ergebnisse veröffentlicht."
+          },
+          {
+            "key": "5",
+            "text": "Man hat die Methodik geprüft."
+          },
+          {
+            "key": "6",
+            "text": "Man hat die Wirksamkeit nachgewiesen."
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Die Überprüfung der Methodik erfolgte durch drei Gutachter."
+          },
+          {
+            "key": "b",
+            "text": "Die Erhebung der Daten dauerte ein Jahr."
+          },
+          {
+            "key": "c",
+            "text": "Der Nachweis der Wirksamkeit gilt als erbracht."
+          },
+          {
+            "key": "d",
+            "text": "Die Veröffentlichung der Ergebnisse erfolgte im Juni."
+          },
+          {
+            "key": "e",
+            "text": "Die Durchführung der Studie wurde im Methodenteil beschrieben."
+          },
+          {
+            "key": "f",
+            "text": "Die Bestätigung der Hypothese wurde im Fachjournal veröffentlicht."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B8",
+      "instructions": "Ordne jedem Aktivsatz (1–6) die passende Nominal-Passiv-Variante (a–f) zu.",
+      "title": "Aktiv und Passiv + Nominalstil zuordnen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "untersucht"
+          ],
+          "2": [
+            "bestätigt"
+          ],
+          "3": [
+            "in"
+          ],
+          "4": [
+            "erhoben"
+          ],
+          "5": [
+            "ausgewertet"
+          ],
+          "6": [
+            "durch"
+          ],
+          "7": [
+            "eingereicht"
+          ],
+          "8": [
+            "Qualitätssicherung"
+          ],
+          "9": [
+            "veröffentlicht"
+          ],
+          "10": [
+            "bestätigt"
+          ]
+        },
+        "listLayout": true,
+        "text": "Ein Forschungsartikel durchläuft einen strengen Prozess. Am Anfang steht eine\nFragestellung: Was soll (1) {1} werden? Aus dieser Frage wird eine Hypothese\nabgeleitet — eine Annahme, die durch Versuche (2) {2} oder widerlegt werden\nkann. Dann wird die Methodik festgelegt: Wie viele Probanden werden (3) {3}\ndie Studie einbezogen? Wie werden die Daten (4) {4}? Welche Verfahren werden\nangewendet, um Verzerrungen zu vermeiden? Nach der Durchführung der Versuche\nwerden die Daten (5) {5}. Die Auswertung erfolgt heute fast immer\ncomputergestützt, oft (6) {6} Algorithmen der Künstlichen Intelligenz.\nAnschließend werden die Ergebnisse in einem Fachjournal zur Veröffentlichung\n(7) {7}. Vor der Veröffentlichung wird der Artikel von anderen Forschern\ngeprüft. Diese Begutachtung (auf Englisch *peer review*) ist das Herzstück\nder wissenschaftlichen (8) {8}. Erst nach der Annahme des Manuskripts wird\ndie Studie offiziell (9) {9}. Eine Hypothese gilt erst dann als gesichert,\nwenn sie durch mehrere unabhängige Studien (10) {10} wurde.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Füll jede Lücke mit einem Wort (Verb, Nomen oder Präposition). 10 Items.",
+      "title": "Lückentext: Wie ein Forschungsartikel entsteht (Lesetext)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "wurde"
+              },
+              {
+                "key": "c",
+                "text": "ist … worden"
+              }
+            ],
+            "q": "Die Studie ____ über ein Jahr hinweg durchgeführt.",
+            "why": "Präteritum Passiv (Bericht über die Vergangenheit): wurde durchgeführt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wurden"
+              },
+              {
+                "key": "b",
+                "text": "wurde"
+              },
+              {
+                "key": "c",
+                "text": "werden"
+              }
+            ],
+            "q": "Die Daten ____ an 5 000 Patienten erhoben.",
+            "why": "Präteritum Passiv Plural: wurden erhoben."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sind"
+              },
+              {
+                "key": "b",
+                "text": "wurden"
+              },
+              {
+                "key": "c",
+                "text": "werden"
+              }
+            ],
+            "q": "Die Ergebnisse ____ kürzlich in *Nature* veröffentlicht worden.",
+            "why": "Perfekt Passiv: sind + veröffentlicht + worden."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "durch"
+              },
+              {
+                "key": "b",
+                "text": "von"
+              },
+              {
+                "key": "c",
+                "text": "mit"
+              }
+            ],
+            "q": "Die Studie wurde ____ einem Team der Universität Heidelberg durchgeführt.",
+            "why": "Institution/Person → von + Dativ."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "durch"
+              },
+              {
+                "key": "b",
+                "text": "von"
+              },
+              {
+                "key": "c",
+                "text": "aus"
+              }
+            ],
+            "q": "Die Hypothese wurde ____ viele Forscher in Frage gestellt.",
+            "why": "Personen → von + Dativ."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "beweist"
+              },
+              {
+                "key": "b",
+                "text": "wird bewiesen"
+              },
+              {
+                "key": "c",
+                "text": "ist bewiesen worden"
+              }
+            ],
+            "q": "Eine einzelne Studie ____ noch nichts.",
+            "why": "Aussagesatz im Aktiv (die Aussage steht im Mittelpunkt, nicht die Person)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "zu"
+              },
+              {
+                "key": "b",
+                "text": "zur"
+              },
+              {
+                "key": "c",
+                "text": "zu der"
+              }
+            ],
+            "q": "Die Originaldaten werden Open Access ____ Verfügung gestellt.",
+            "why": "feste Verschmelzung: zur (= zu + der) Verfügung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle die richtige Option (a, b oder c) für jede Lücke.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "WURDE"
+          ],
+          "2": [
+            "DURCHGEFÜHRT"
+          ],
+          "3": [
+            "WURDEN"
+          ],
+          "4": [
+            "ERHOBEN"
+          ],
+          "5": [
+            "WURDE"
+          ],
+          "6": [
+            "WURDE"
+          ],
+          "7": [
+            "GEMACHT"
+          ],
+          "8": [
+            "WURDE"
+          ],
+          "9": [
+            "WURDEN"
+          ],
+          "10": [
+            "VERÖFFENTLICHT"
+          ]
+        },
+        "bank": [
+          "WURDE",
+          "DURCHGEFÜHRT",
+          "ERHOBEN",
+          "WURDEN",
+          "WURDE",
+          "AN",
+          "GEMACHT",
+          "AUSGEWERTET",
+          "WURDE",
+          "WURDEN",
+          "VERÖFFENTLICHT",
+          "BESTÄTIGT",
+          "GESTELLT",
+          "GEPRÜFT",
+          "WURDE"
+        ],
+        "text": "Aus einer Pressemitteilung: Die neue Studie {1} im Mai vom Institut für\nDigitalisierung {2}. Die Daten {3} über ein halbes Jahr hinweg an 200\nProbanden {4}. Die Hypothese {5} durch die Ergebnisse bestätigt. Eine\nzweite Versuchsreihe {6} parallel {7}. Die Methodik {8} von drei\nGutachtern geprüft. Die Resultate {9} in einem Fachjournal {10}.\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Füll die 10 Lücken mit Wörtern aus dem Kasten. Fünf Wörter sind zu viel. Jedes Wort wird nur einmal benutzt.",
+      "title": "Sprachbausteine Teil 2 (Wortbank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Am Anfang eines Forschungsartikels steht eine Hypothese.",
+            "why": "„Am Anfang steht eine Fragestellung: Was soll untersucht werden?\" — die Hypothese wird daraus abgeleitet."
+          },
+          {
+            "answer": true,
+            "q": "Die Daten werden heute oft durch KI-Algorithmen ausgewertet.",
+            "why": "„oft durch statistische Modelle oder durch Algorithmen der Künstlichen Intelligenz\"."
+          },
+          {
+            "answer": true,
+            "q": "Peer Review bedeutet, dass andere Forscher den Artikel vor der Veröffentlichung prüfen.",
+            "why": "„wird der Artikel von anderen Forschern — den sogenannten Gutachtern — geprüft. Diese Begutachtung … ist das Herzstück\"."
+          },
+          {
+            "answer": false,
+            "q": "Die Begutachtung endet laut Text mit der Veröffentlichung.",
+            "why": "„Die Begutachtung endet allerdings nicht mit der Veröffentlichung: Auch nach der Publikation werden die Methodik und die Ergebnisse … diskutiert\"."
+          },
+          {
+            "answer": false,
+            "q": "Eine Hypothese gilt schon dann als gesichert, wenn eine einzige Studie sie bestätigt hat.",
+            "why": "„Eine Hypothese gilt erst dann als gesichert, wenn sie durch mehrere unabhängige Studien bestätigt wurde\"."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Ein Forschungsartikel durchläuft heute einen strengen, transparenten Prozess. Am Anfang steht eine **Fragestellung**: Was soll untersucht werden? Aus dieser Frage wird eine **Hypothese** abgeleitet — eine begründete Annahme, die durch Versuche bestätigt oder widerlegt werden kann. In der nächsten Phase wird die **Methodik** festgelegt: Wie viele Probanden werden in die Studie einbezogen? Wie werden die Daten erhoben? Welche Verfahren werden angewendet, um Verzerrungen zu vermeiden?\n> Nach der Durchführung der Versuche werden die Daten ausgewertet. Diese Auswertung erfolgt heute fast immer computergestützt, oft durch statistische Modelle oder durch Algorithmen der Künstlichen Intelligenz. Anschließend werden die Ergebnisse in einem **Fachjournal** zur Veröffentlichung eingereicht. Vor der Veröffentlichung wird der Artikel von anderen Forschern — den sogenannten **Gutachtern** — geprüft. Diese **Begutachtung** (auf Englisch *peer review*) ist das Herzstück der wissenschaftlichen Qualitätssicherung.\n> Erst nach der Begutachtung und der Annahme des Manuskripts wird die Studie offiziell veröffentlicht. In vielen Fachbereichen werden die Daten zusätzlich **Open Access** zur Verfügung gestellt, damit andere Forscher die Ergebnisse überprüfen und darauf aufbauen können. Die Begutachtung endet allerdings nicht mit der Veröffentlichung: Auch nach der Publikation werden die Methodik und die Ergebnisse in der Fachwelt weiterhin **diskutiert**. Eine Hypothese gilt erst dann als gesichert, wenn sie durch **mehrere unabhängige Studien** bestätigt wurde. Eine einzelne Studie — so wichtig sie auch sein mag — **beweist noch nichts**.\n\nRichtig (R) oder falsch (F)?\n",
+      "title": "Lesen Text 1 (Lesetext: Wie ein Forschungsartikel entsteht)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ein Antrag auf Förderung eines Forschungsprojekts."
+              },
+              {
+                "key": "b",
+                "text": "Ein Zeitschriftenartikel."
+              },
+              {
+                "key": "c",
+                "text": "Eine Patientendatenbank."
+              }
+            ],
+            "q": "Was wurde in der Sitzung geprüft?",
+            "why": "„Der Antrag auf Förderung des Forschungsprojekts … wurde in der Sitzung … eingehend geprüft\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "An einer einzigen Klinik."
+              },
+              {
+                "key": "b",
+                "text": "An drei Universitätskliniken."
+              },
+              {
+                "key": "c",
+                "text": "In einem Online-Portal."
+              }
+            ],
+            "q": "Wo sollen die Daten erhoben werden?",
+            "why": "„Die Erhebung der Daten soll an drei Universitätskliniken durchgeführt werden\"."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Methodik sei zu kompliziert."
+              },
+              {
+                "key": "b",
+                "text": "Das Team sei zu groß."
+              },
+              {
+                "key": "c",
+                "text": "Die Stichprobe sei möglicherweise zu klein."
+              }
+            ],
+            "q": "Welche Kritik wurde geübt?",
+            "why": "„ob die geplante Stichprobe von 800 Patienten ausreicht, um statistisch signifikante Ergebnisse zu erzielen\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Mit drei Stimmen dafür und zwei dagegen angenommen."
+              },
+              {
+                "key": "b",
+                "text": "Einstimmig abgelehnt."
+              },
+              {
+                "key": "c",
+                "text": "Einstimmig angenommen."
+              }
+            ],
+            "q": "Wie wurde der Antrag entschieden?",
+            "why": "„Der Antrag wurde mit drei Stimmen dafür und zwei dagegen angenommen\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Lies das folgende Schreiben und wähle a, b oder c.\n\n> **Stellungnahme des wissenschaftlichen Beirats zum Antrag von Prof. Dr. Klein**\n> Der Antrag auf Förderung des Forschungsprojekts „Anwendung von KI in der\n> Krebsdiagnostik\" wurde in der Sitzung am 14. März eingehend geprüft. Die\n> Methodik, die in dem Antrag beschrieben wurde, überzeugt durch ihre\n> klare Struktur. Die Erhebung der Daten soll an drei Universitätskliniken\n> durchgeführt werden. Es wurde jedoch in Frage gestellt, ob die geplante\n> Stichprobe von 800 Patienten ausreicht, um statistisch signifikante\n> Ergebnisse zu erzielen. Die Veröffentlichung der Resultate ist in einem\n> Open-Access-Fachjournal vorgesehen. Der Antrag wurde mit drei Stimmen\n> dafür und zwei dagegen angenommen.\n",
+      "title": "Lesen Text 2 (neuer Text: Auszug aus einer Stellungnahme)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "wurden"
+          ],
+          "3": [
+            "sind"
+          ],
+          "4": [
+            "wird"
+          ],
+          "5": [
+            "der"
+          ],
+          "6": [
+            "der"
+          ],
+          "7": [
+            "der"
+          ],
+          "8": [
+            "von"
+          ],
+          "9": [
+            "durch"
+          ],
+          "10": [
+            "durchführen"
+          ],
+          "11": [
+            "stellen"
+          ],
+          "12": [
+            "stellen"
+          ],
+          "13": [
+            "die Verbesserung"
+          ],
+          "14": [
+            "wurde … gestartet"
+          ],
+          "15": [
+            "ist … geöffnet"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Passiv in Fachtexten:**\n1. Die Studie {1} (Präsens) gerade durchgeführt.\n2. Die Daten {2} (Präteritum) über ein Jahr erhoben.\n3. Die Ergebnisse {3} (Perfekt) in *Nature* veröffentlicht worden.\n4. Die Hypothese {4} (Präsens) derzeit überprüft.\n\n**Passiv + Nominalstil (Genitiv):**\n5. Die Durchführung {5} Studie wurde beschrieben.\n6. Die Erhebung {6} Daten dauerte ein Jahr.\n7. Die Veröffentlichung {7} Ergebnisse erfolgte im Juni.\n\n**Agent (von / durch):**\n8. Die Studie wurde {8} der Universität Heidelberg durchgeführt.\n9. Die Schäden wurden {9} das Erdbeben verursacht.\n\n**FVG der Wissenschaft:**\n10. eine Studie {10} (Infinitiv, nicht: machen)\n11. eine Hypothese in Frage {11} (Infinitiv)\n12. Daten zur Verfügung {12} (Infinitiv)\n\n**Wiederholung:**\n13. (B2/01) Nominalisierung von „verbessern\" (mit Artikel): {13}\n14. (B2/02) Passiv-Ersatzform mit „man\": „Man hat das Projekt gestartet.\" = Das Projekt {14} (Präteritum) … .\n15. (B1/04) Zustandspassiv von „öffnen\" (das Fenster): Das Fenster {15} (Präsens) … .\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Eine Minute pro Item. Keine Notizen. Items mit (B2/xx) bzw. (B1/xx) wiederholen eine frühere Lektion. 15 Items.",
+      "title": "Gemischter Schnelltest"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "die Studie",
+              "der Versuch",
+              "die Hypothese",
+              "das Passiv"
+            ],
+            "odd": 3,
+            "why": "das Passiv ist eine grammatische Form, keine Forschungsgröße."
+          },
+          {
+            "items": [
+              "die Forschung",
+              "die Wissenschaft",
+              "die Studie",
+              "der Algorithmus"
+            ],
+            "odd": 3,
+            "why": "der Algorithmus ist ein Werkzeug/Mittel; die anderen drei bezeichnen Bereiche oder Prozesse."
+          },
+          {
+            "items": [
+              "veröffentlichen",
+              "durchführen",
+              "erheben",
+              "passen"
+            ],
+            "odd": 3,
+            "why": "passen ist kein typisches Forschungsverb."
+          },
+          {
+            "items": [
+              "die Hypothese",
+              "das Ergebnis",
+              "die Erkenntnis",
+              "die Verfasserin"
+            ],
+            "odd": 3,
+            "why": "die Verfasserin ist eine Person, kein Forschungsbegriff."
+          },
+          {
+            "items": [
+              "von + Dativ",
+              "durch + Akkusativ",
+              "aus + Dativ",
+              "mit + Dativ"
+            ],
+            "odd": 2,
+            "why": "aus + Dativ kennzeichnet Herkunft/Quelle, ist aber KEIN Passiv-Agent — leicht mit 'von + Dativ' verwechselt (beide markieren eine Quelle). 'mit + Dativ' ist instrumental/soziativ."
+          },
+          {
+            "items": [
+              "wird durchgeführt",
+              "wurde erhoben",
+              "ist … worden veröffentlicht",
+              "hat gemacht"
+            ],
+            "odd": 3,
+            "why": "„hat gemacht\" ist Aktiv, nicht Passiv; die anderen drei sind Passiv-Formen."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum.",
+      "title": "Odd one out"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "die Verbesserung"
+          ],
+          "2": [
+            "Genitiv"
+          ],
+          "3": [
+            "weil"
+          ],
+          "4": [
+            "wegen des Regens"
+          ],
+          "5": [
+            "lösen"
+          ],
+          "6": [
+            "lösbar"
+          ],
+          "7": [
+            "geöffnet"
+          ],
+          "8": [
+            "treffen"
+          ],
+          "9": [
+            "an"
+          ],
+          "10": [
+            "auf"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Aus B2/01 (Nominalstil und Verbalstil):**\n1. Nominalisierung von „verbessern\" (mit Artikel): {1}\n2. „wegen\" verlangt welchen Fall? {2}\n3. Konnektor zu „wegen\": {3}\n4. Mach nominal: „weil es regnet\" → {4}\n\n**Aus B2/02 (Passiv und seine Alternativen):**\n5. Passiversatz mit „sich lassen\": „Das Problem lässt sich ____ (lösen).\" {5}\n6. Passiversatz mit „-bar\": „Das Problem ist ____ (lösbar).\" {6}\n7. Zustandspassiv: „Das Fenster ist ____.\" (öffnen) {7}\n\n**Aus B2/08 (Funktionsverbgefüge):**\n8. „eine Entscheidung ____\" (treffen / machen): {8}\n9. „Kritik ____ + Dativ\" (üben an): {9}\n10. „Bezug ____ + Akkusativ\" (nehmen auf): {10}\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Wiederholung früherer Lektionen. 10 Items.",
+      "title": "Rückblick: B2/01, B2/02, B2/08"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "wurden"
+          ],
+          "3": [
+            "sind"
+          ],
+          "4": [
+            "Durchführung der Studie"
+          ],
+          "5": [
+            "Erhebung der Daten"
+          ],
+          "6": [
+            "Veröffentlichung der Ergebnisse"
+          ],
+          "7": [
+            "der"
+          ],
+          "8": [
+            "der"
+          ],
+          "9": [
+            "der"
+          ],
+          "10": [
+            "von"
+          ],
+          "11": [
+            "durch"
+          ],
+          "12": [
+            "durchführen"
+          ],
+          "13": [
+            "stellen"
+          ],
+          "14": [
+            "stellen"
+          ],
+          "15": [
+            "Die Bestätigung der Hypothese wurde im Fachjournal veröffentlicht."
+          ],
+          "16": [
+            "Der Test des Modells verlief erfolgreich."
+          ],
+          "17": [
+            "Das Team führte die Studie durch."
+          ],
+          "18": [
+            "Man stellte die Originaldaten Open Access zur Verfügung."
+          ],
+          "19": [
+            "die Verbesserung"
+          ],
+          "20": [
+            "stellen"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Passiv Präsens / Präteritum / Perfekt:**\n1. Die Studie {1} (Präsens) gerade durchgeführt.\n2. Die Daten {2} (Präteritum) erhoben.\n3. Die Ergebnisse {3} (Perfekt) veröffentlicht worden.\n\n**Verb → Nomen → Passiv:**\n4. Man hat die Studie durchgeführt. → Die {4} wurde beschrieben.\n5. Man hat die Daten erhoben. → Die {5} dauerte ein Jahr.\n6. Man hat die Ergebnisse veröffentlicht. → Die {6} erfolgte im Juni.\n\n**Genitivattribut:**\n7. die Durchführung {7} Studie:\n8. die Erhebung {8} Daten:\n9. die Veröffentlichung {9} Ergebnisse:\n\n**Agent von / durch:**\n10. Die Studie wurde {10} der Universität Heidelberg durchgeführt.\n11. Die Schäden wurden {11} das Erdbeben verursacht.\n\n**FVG der Wissenschaft:**\n12. eine Studie {12} (nicht: machen):\n13. eine Hypothese in Frage {13}:\n14. Daten zur Verfügung {14}:\n\n**Umformen Aktiv → Passiv + Nominalstil:**\n15. „Man hat die Hypothese bestätigt.\" → {15}\n16. „Man hat das Modell getestet.\" → {16}\n\n**Umformen Passiv → Aktiv:**\n17. „Die Studie wurde von dem Team durchgeführt.\" → {17}\n18. „Die Originaldaten wurden Open Access zur Verfügung gestellt.\" → {18}\n\n**Gemischtes / Wiederholung:**\n19. (B2/01) Nominalisierung von „verbessern\" (mit Artikel): {19}\n20. (B2/08) FVG: „eine Frage {20}\" (stellen / machen):\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (bewerte dich /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "b2-10",
+  "intro": "Blöcke: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Die Lösungen findest du in solutions.md. Tipp: Verteil die Blöcke über mehrere Tage — H und A am Tag 1, B am Tag 2, C am Tag 3, D am Tag 4 nach einer Pause.\n",
+  "lesson": "B2/10",
+  "level": "B2",
+  "summary": null,
+  "title": "B2 · Lektion 10 — Übungen (Wissenschaft und Technik)",
+  "topic": null
+}

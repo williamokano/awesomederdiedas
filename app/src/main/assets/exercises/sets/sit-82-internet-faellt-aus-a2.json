@@ -1,0 +1,840 @@
+{
+  "category": "Wenn etwas schiefgeht",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "selbst",
+            "label": "Selbst versuchen"
+          },
+          {
+            "key": "anbieter",
+            "label": "Beim Anbieter melden"
+          },
+          {
+            "key": "techniker",
+            "label": "Wenn ein Techniker kommt"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "selbst",
+            "text": "den Router neu starten"
+          },
+          {
+            "bucket": "selbst",
+            "text": "die Kabel prüfen"
+          },
+          {
+            "bucket": "selbst",
+            "text": "das WLAN-Passwort kontrollieren"
+          },
+          {
+            "bucket": "selbst",
+            "text": "ein anderes Gerät testen"
+          },
+          {
+            "bucket": "anbieter",
+            "text": "die Störungshotline anrufen"
+          },
+          {
+            "bucket": "anbieter",
+            "text": "die Kundennummer bereithalten"
+          },
+          {
+            "bucket": "anbieter",
+            "text": "den Fehler beschreiben"
+          },
+          {
+            "bucket": "anbieter",
+            "text": "nach der Störungsursache fragen"
+          },
+          {
+            "bucket": "techniker",
+            "text": "einen Techniker-Termin vereinbaren"
+          },
+          {
+            "bucket": "techniker",
+            "text": "zu Hause sein"
+          },
+          {
+            "bucket": "techniker",
+            "text": "den Techniker hereinlassen"
+          },
+          {
+            "bucket": "techniker",
+            "text": "die Reparatur bestätigen lassen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Selbst versuchen, beim Anbieter melden oder wenn ein Techniker kommt?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Internetausfall"
+          },
+          {
+            "key": "2",
+            "text": "die Störung"
+          },
+          {
+            "key": "3",
+            "text": "der Router"
+          },
+          {
+            "key": "4",
+            "text": "neu starten"
+          },
+          {
+            "key": "5",
+            "text": "die Störungshotline"
+          },
+          {
+            "key": "6",
+            "text": "der Techniker-Termin"
+          },
+          {
+            "key": "7",
+            "text": "die Leitung"
+          },
+          {
+            "key": "8",
+            "text": "die Entschädigung"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "wenn die Internetverbindung nicht mehr funktioniert"
+          },
+          {
+            "key": "b",
+            "text": "ein technisches Problem in der Leitung"
+          },
+          {
+            "key": "c",
+            "text": "das Gerät für die WLAN-Verbindung"
+          },
+          {
+            "key": "d",
+            "text": "das Gerät aus- und wieder einschalten"
+          },
+          {
+            "key": "e",
+            "text": "die Telefonnummer für technische Probleme"
+          },
+          {
+            "key": "f",
+            "text": "der Besuch eines Technikers zur Reparatur"
+          },
+          {
+            "key": "g",
+            "text": "die technische Verbindung zum Internetanbieter"
+          },
+          {
+            "key": "h",
+            "text": "eine Gutschrift bei längerem Ausfall"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Müssen"
+          ],
+          "5": [
+            "dauert"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Ist"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} den Router neu starten. (Modalverb, ich-Form)\n2. {2} Sie mir bei der Störung helfen? (können, Sie-Form)\n3. Ich {3} den Router schon neu gestartet. (haben, Perfekt)\n4. {4} wir einen Techniker-Termin vereinbaren? (müssen, wir-Form)\n5. Falls die Störung länger {5}, bekommen wir eine Entschädigung. (dauern, Präsens)\n6. Der Techniker {6} sich morgen bei uns melden. (werden, Futur I)\n7. Wir {7} schon die Störungshotline angerufen. (haben, Perfekt)\n8. {8} die Leitung schon geprüft worden? (sein, Perfekt Passiv)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Die Meldung planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Internetausfall"
+          ],
+          "2": [
+            "Störung"
+          ],
+          "3": [
+            "Router"
+          ],
+          "4": [
+            "Störungshotline"
+          ],
+          "5": [
+            "Techniker-Termin"
+          ],
+          "6": [
+            "Entschädigung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Seit heute Morgen haben wir einen {1}. (wenn die Internetverbindung nicht mehr funktioniert)\n2. In unserer Gegend gibt es wohl eine {2}. (ein technisches Problem in der Leitung)\n3. Zuerst starten wir den {3} neu. (das Gerät für die WLAN-Verbindung)\n4. Dann rufen wir die {4} an. (die Telefonnummer für technische Probleme)\n5. Falls das nicht hilft, brauchen wir einen {5}. (der Besuch eines Technikers)\n6. Bei einem längeren Ausfall gibt es oft eine {6}. (eine Gutschrift bei längerem Ausfall)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "INTERNETAUSFALL"
+          ],
+          "2": [
+            "ROUTER"
+          ],
+          "3": [
+            "STÖRUNG"
+          ],
+          "4": [
+            "VEREINBARE"
+          ],
+          "5": [
+            "TERMIN"
+          ],
+          "6": [
+            "DAUERT"
+          ],
+          "7": [
+            "ENTSCHÄDIGUNG"
+          ],
+          "8": [
+            "SCHICKE"
+          ],
+          "9": [
+            "HILFE"
+          ],
+          "10": [
+            "WERDEN"
+          ]
+        },
+        "bank": [
+          "INTERNETAUSFALL",
+          "ROUTER",
+          "STÖRUNG",
+          "VEREINBARE",
+          "TERMIN",
+          "DAUERT",
+          "ENTSCHÄDIGUNG",
+          "SCHICKE",
+          "HILFE",
+          "WERDEN",
+          "LEITUNG",
+          "KUNDENNUMMER",
+          "PASSWORT",
+          "KABEL"
+        ],
+        "text": "— Guten Tag, seit heute Morgen haben wir einen {1} — nichts\nfunktioniert mehr.\n— Das tut mir leid. Haben Sie schon versucht, den {2} neu zu\nstarten?\n— Ja, mehrmals sogar, das hat leider nichts gebracht.\n— Verstehe. Einen Moment, ich prüfe, ob es eine {3} in Ihrer\nGegend gibt ... Nein, bei uns sieht alles normal aus.\n— Was können wir dann tun?\n— Ich {4} Ihnen am besten einen {5} für einen Techniker.\n— Gut, wann könnte der denn kommen?\n— Übermorgen zwischen 9 und 12 Uhr, passt das?\n— Ja, das passt gut.\n— Perfekt. Falls die Störung länger als 48 Stunden {6},\nhaben Sie übrigens Anspruch auf eine {7}.\n— Das ist gut zu wissen, danke.\n— Ich {8} Ihnen noch eine Bestätigungs-SMS mit allen\nDetails.\n— Super, vielen Dank für Ihre {9}!\n— Gern geschehen, wir {10} das schnell in Ordnung bringen.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Bei der Störungshotline"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Internetausfälle interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Seit heute Morgen haben wir einen Internetausfall — nichts funktioniert mehr."
+              },
+              {
+                "key": "c",
+                "text": "Ich melde sowas sowieso nie."
+              }
+            ],
+            "q": "Du meldest einen Internetausfall beim Anbieter. — You report an internet outage to the provider.",
+            "why": "Eine klare Beschreibung des Ausfalls ist der übliche Einstieg bei der Hotline."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Router interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Neustarts mache ich sowieso nie."
+              },
+              {
+                "key": "c",
+                "text": "Ja, mehrmals sogar, das hat leider nichts gebracht."
+              }
+            ],
+            "q": "Der Anbieter fragt, ob du den Router neu gestartet hast. — The provider asks if you've restarted the router.",
+            "why": "Eine ehrliche, konkrete Antwort hilft dem Support, den Fehler einzugrenzen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Gibt es vielleicht eine Störung in unserer Gegend?"
+              },
+              {
+                "key": "b",
+                "text": "Störungen interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal, Hauptsache es funktioniert irgendwann."
+              }
+            ],
+            "q": "Du möchtest wissen, ob es eine allgemeine Störung in der Gegend gibt. — You want to know if there's a general outage in the area.",
+            "why": "Eine direkte Nachfrage klärt, ob es ein größeres, bekanntes Problem gibt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Techniker-Termine sind mir zu kompliziert."
+              },
+              {
+                "key": "b",
+                "text": "Können wir einen Techniker-Termin vereinbaren?"
+              },
+              {
+                "key": "c",
+                "text": "Ich repariere das sowieso selbst."
+              }
+            ],
+            "q": "Du möchtest einen Techniker-Termin vereinbaren. — You want to schedule a technician appointment.",
+            "why": "Eine direkte Bitte um einen Termin ist der nächste logische Schritt."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Entschädigungen interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Geld ist mir bei sowas egal."
+              },
+              {
+                "key": "c",
+                "text": "Haben wir bei einem längeren Ausfall Anspruch auf eine Entschädigung?"
+              }
+            ],
+            "q": "Du möchtest wissen, ob es bei längerem Ausfall eine Entschädigung gibt. — You want to know if there's compensation for a longer outage.",
+            "why": "Eine direkte Frage klärt, ob eine Gutschrift möglich ist."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Vielen Dank für Ihre Hilfe!"
+              },
+              {
+                "key": "b",
+                "text": "Das war doch nichts Besonderes."
+              },
+              {
+                "key": "c",
+                "text": "Hilfe interessiert mich nicht."
+              }
+            ],
+            "q": "Der Anbieter hat dir schnell geholfen. — The provider helped you quickly.",
+            "why": "Ein herzlicher Dank passt gut zu einer schnellen, guten Unterstützung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Melden und Klären"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Hauptsatz, Verb an Position 2",
+            "tiles": [
+              "Seit",
+              "heute",
+              "Morgen",
+              "haben",
+              "wir",
+              "einen",
+              "Internetausfall"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "note": "Perfekt-Frage mit zu-Infinitiv",
+            "tiles": [
+              "Haben",
+              "Sie",
+              "schon",
+              "versucht",
+              ",",
+              "den",
+              "Router",
+              "neu",
+              "zu",
+              "starten",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Frage mit es gibt",
+            "tiles": [
+              "Gibt",
+              "es",
+              "vielleicht",
+              "eine",
+              "Störung",
+              "in",
+              "unserer",
+              "Gegend",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Nebensatz mit falls, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "die",
+              "Störung",
+              "länger",
+              "dauert",
+              ",",
+              "bekommen",
+              "wir",
+              "eine",
+              "Entschädigung"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Frage mit Modalverb, Infinitiv am Ende",
+            "tiles": [
+              "Können",
+              "wir",
+              "einen",
+              "Techniker-Termin",
+              "vereinbaren",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Wir",
+              "haben",
+              "schon",
+              "die",
+              "Störungshotline",
+              "angerufen"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zum Internetausfall bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Man sollte immer zuerst den Router neu starten. — You should always restart the router first.",
+            "why": "So steht es ausdrücklich in den Infos zum Internetausfall."
+          },
+          {
+            "answer": false,
+            "q": "Die Störungshotline ist meist nur einmal im Monat für eine Stunde erreichbar. — The fault hotline is usually reachable only once a month for an hour.",
+            "why": "Sie ist meist rund um die Uhr erreichbar, nicht nur einmal im Monat."
+          },
+          {
+            "answer": true,
+            "q": "Ein Techniker-Termin wird oft innerhalb von 48 Stunden vergeben. — A technician appointment is often given within 48 hours.",
+            "why": "„Techniker-Termin: wird oft innerhalb von 48 Stunden vergeben.“"
+          },
+          {
+            "answer": false,
+            "q": "Eine Entschädigung ist erst nach einem ganzen Jahr ohne Internet möglich. — Compensation is only possible after a whole year without internet.",
+            "why": "Sie ist schon ab zwei Tagen ohne funktionierenden Anschluss möglich."
+          },
+          {
+            "answer": false,
+            "q": "Beim Techniker-Termin muss man nicht unbedingt zu Hause sein. — You don't necessarily need to be home for the technician appointment.",
+            "why": "Zu Hause sein ist beim Techniker-Termin unbedingt notwendig."
+          },
+          {
+            "answer": true,
+            "q": "Nach der Reparatur sollte man sich die Funktion bestätigen lassen. — After the repair, you should have the function confirmed.",
+            "why": "„Bestätigung: nach der Reparatur sollte man sich die Funktion bestätigen lassen.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Internetausfall**\n>\n> - **Erster Schritt:** immer zuerst den **Router neu\n>   starten**.\n> - **Störungshotline:** meist **rund um die Uhr** erreichbar.\n> - **Techniker-Termin:** wird oft **innerhalb von 48\n>   Stunden** vergeben.\n> - **Entschädigung:** ab **zwei Tagen** ohne funktionierenden\n>   Anschluss möglich.\n> - **Zu Hause sein:** beim Techniker-Termin **unbedingt\n>   notwendig**.\n> - **Bestätigung:** nach der Reparatur sollte man sich die\n>   **Funktion bestätigen** lassen.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zum Internetausfall lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach tagelang gar nichts unternehmen."
+              },
+              {
+                "key": "b",
+                "text": "Es online über den Kundenbereich oder Chat versuchen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort den Vertrag kündigen, ohne es weiter zu versuchen."
+              }
+            ],
+            "q": "Der Router-Neustart hat nichts gebracht, und die Hotline ist dauerbesetzt. — Restarting the router didn't help, and the hotline is constantly busy.",
+            "why": "Der Online-Kundenbereich oder Chat ist oft eine schnellere Alternative zur Hotline."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Ausfall einfach weiter hinnehmen."
+              },
+              {
+                "key": "b",
+                "text": "Sich nur beschweren, ohne nach einem neuen Termin zu fragen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort nach einem neuen, baldigen Termin fragen."
+              }
+            ],
+            "q": "Der vereinbarte Techniker-Termin wird kurzfristig abgesagt. — The scheduled technician appointment is cancelled at short notice.",
+            "why": "Eine schnelle Nachfrage sichert einen baldigen Ersatztermin."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nach den nächsten Schritten und einem Folgetermin fragen."
+              },
+              {
+                "key": "b",
+                "text": "Den Techniker einfach wieder wegschicken, ohne nachzufragen."
+              },
+              {
+                "key": "c",
+                "text": "Sich damit abfinden, dass es nie funktionieren wird."
+              }
+            ],
+            "q": "Der Techniker kommt, kann das Problem aber nicht lösen. — The technician comes but can't fix the problem.",
+            "why": "Eine Nachfrage zu den nächsten Schritten klärt, wie es weitergeht."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Verzögerung einfach hinnehmen, ohne etwas zu fordern."
+              },
+              {
+                "key": "b",
+                "text": "Aktiv nach der zustehenden Entschädigung fragen."
+              },
+              {
+                "key": "c",
+                "text": "Den Vertrag sofort fristlos kündigen, ohne nachzufragen."
+              }
+            ],
+            "q": "Die Störung dauert schon deutlich länger als die versprochenen 48 Stunden. — The outage lasts much longer than the promised 48 hours.",
+            "why": "Eine aktive Nachfrage sichert die einem zustehende Entschädigung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Termin einfach verfallen lassen, ohne sich zu melden."
+              },
+              {
+                "key": "b",
+                "text": "Dem Anbieter die Schuld geben, ohne sich zu entschuldigen."
+              },
+              {
+                "key": "c",
+                "text": "Sich entschuldigen und sofort einen neuen Termin vereinbaren."
+              }
+            ],
+            "q": "Man war zum Techniker-Termin nicht zu Hause und hat es verpasst. — You weren't home for the technician appointment and missed it.",
+            "why": "Eine Entschuldigung mit sofortiger Neuvereinbarung ist die fairste Reaktion."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Anbieter erneut kontaktieren und auf den vorherigen Vorfall verweisen."
+              },
+              {
+                "key": "b",
+                "text": "Einfach wieder von vorne anfangen, ohne den vorherigen Fall zu erwähnen."
+              },
+              {
+                "key": "c",
+                "text": "Sich damit abfinden und nichts mehr unternehmen."
+              }
+            ],
+            "q": "Nach der Reparatur fällt das Internet erneut aus. — After the repair, the internet fails again.",
+            "why": "Der Verweis auf den vorherigen Vorfall beschleunigt die erneute Bearbeitung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn beim Internetausfall etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "gebracht"
+          ],
+          "2": [
+            "abgesagt"
+          ],
+          "3": [
+            "lösen"
+          ],
+          "4": [
+            "gedauert"
+          ],
+          "5": [
+            "verpasst"
+          ],
+          "6": [
+            "ausgefallen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Router-Neustart hat nichts {1}. (nicht geholfen, Partizip)\n2. Der Techniker-Termin wurde kurzfristig {2}. (zurückgenommen, Partizip)\n3. Der Techniker konnte das Problem nicht {3}. (Infinitiv)\n4. Die Störung hat deutlich länger {4} als versprochen. (angehalten, Partizip)\n5. Wir haben den Termin leider {5}. (nicht wahrgenommen, Partizip)\n6. Das Internet ist nach der Reparatur erneut {6}. (nicht mehr funktioniert, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Könnten"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Internetausfall"
+          ],
+          "5": [
+            "Störung"
+          ],
+          "6": [
+            "Router"
+          ],
+          "7": [
+            "Störungshotline"
+          ],
+          "8": [
+            "Techniker-Termin"
+          ],
+          "9": [
+            "Entschädigung"
+          ],
+          "10": [
+            "gebracht"
+          ],
+          "11": [
+            "abgesagt"
+          ],
+          "12": [
+            "gedauert"
+          ],
+          "13": [
+            "verpasst"
+          ],
+          "14": [
+            "ausgefallen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} den Router neu starten. (must)\n2. {2} Sie mir bei der Störung helfen? (could — können)\n3. Ich {3} den Router schon neu gestartet. (have — Perfekt)\n4. Seit heute Morgen haben wir einen {4}. (internet outage)\n5. In unserer Gegend gibt es wohl eine {5}. (network fault)\n6. Zuerst starten wir den {6} neu. (WLAN device)\n7. Dann rufen wir die {7} an. (fault hotline)\n8. Falls das nicht hilft, brauchen wir einen {8}. (technician visit)\n9. Bei einem längeren Ausfall gibt es oft eine {9}. (compensation)\n10. Der Router-Neustart hat nichts {10}. (helped — Partizip)\n11. Der Techniker-Termin wurde kurzfristig {11}. (cancelled — Partizip)\n12. Die Störung hat deutlich länger {12} als versprochen. (lasted — Partizip)\n13. Wir haben den Termin leider {13}. (missed — Partizip)\n14. Das Internet ist nach der Reparatur erneut {14}. (failed — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-82-internet-faellt-aus-a2",
+  "intro": "Fällt das Internet aus, hilft meist eine klare Reihenfolge: zuerst den Router neu starten, dann die Störungshotline anrufen, und falls nötig einen Techniker-Termin vereinbaren. Dieses Set übt genau das — den Ausfall melden, mit der Hotline den Fehler eingrenzen, und was zu tun ist, wenn der Termin abgesagt wird oder die Störung länger als versprochen dauert. Grammatik nach Bedarf: Perfekt und Passiv im Bericht, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/82-internet-faellt-aus-a2",
+  "level": "A2",
+  "summary": "Einen Internetausfall melden, den Router neu starten, einen Techniker-Termin vereinbaren — und was tun, wenn der Termin abgesagt wird oder die Störung länger dauert.",
+  "title": "Internet fällt aus: Anruf beim Anbieter — A2",
+  "topic": "Internet fällt aus: Anruf beim Anbieter"
+}

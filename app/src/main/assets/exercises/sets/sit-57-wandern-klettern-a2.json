@@ -1,0 +1,818 @@
+{
+  "category": "Freizeit & Kultur",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "weg",
+            "label": "Der Weg"
+          },
+          {
+            "key": "ausruestung",
+            "label": "Die Ausrüstung"
+          },
+          {
+            "key": "wetter",
+            "label": "Das Wetter"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "weg",
+            "text": "die Markierung"
+          },
+          {
+            "bucket": "ausruestung",
+            "text": "der Klettergurt"
+          },
+          {
+            "bucket": "wetter",
+            "text": "der Wettersturz"
+          },
+          {
+            "bucket": "weg",
+            "text": "die Wanderkarte"
+          },
+          {
+            "bucket": "ausruestung",
+            "text": "die Wanderstiefel"
+          },
+          {
+            "bucket": "wetter",
+            "text": "das Gewitter"
+          },
+          {
+            "bucket": "weg",
+            "text": "die Abzweigung"
+          },
+          {
+            "bucket": "ausruestung",
+            "text": "der Helm"
+          },
+          {
+            "bucket": "wetter",
+            "text": "der Nebel"
+          },
+          {
+            "bucket": "weg",
+            "text": "die Schutzhütte"
+          },
+          {
+            "bucket": "ausruestung",
+            "text": "die Regenjacke"
+          },
+          {
+            "bucket": "wetter",
+            "text": "die Vorhersage"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Der Weg, die Ausrüstung oder das Wetter?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Markierung"
+          },
+          {
+            "key": "2",
+            "text": "sich verlaufen"
+          },
+          {
+            "key": "3",
+            "text": "der Klettergurt"
+          },
+          {
+            "key": "4",
+            "text": "der Wettersturz"
+          },
+          {
+            "key": "5",
+            "text": "die Schutzhütte"
+          },
+          {
+            "key": "6",
+            "text": "wasserdicht"
+          },
+          {
+            "key": "7",
+            "text": "der Notfallkontakt"
+          },
+          {
+            "key": "8",
+            "text": "die Vorhersage"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "das farbige Zeichen, das den Weg zeigt"
+          },
+          {
+            "key": "b",
+            "text": "den richtigen Weg nicht mehr finden"
+          },
+          {
+            "key": "c",
+            "text": "das Gurtsystem für die Sicherung beim Klettern"
+          },
+          {
+            "key": "d",
+            "text": "eine plötzliche, starke Verschlechterung des Wetters"
+          },
+          {
+            "key": "e",
+            "text": "ein kleines Gebäude zum Unterstellen bei schlechtem Wetter"
+          },
+          {
+            "key": "f",
+            "text": "so, dass kein Wasser durchkommt"
+          },
+          {
+            "key": "g",
+            "text": "die Person, die man im Notfall anruft"
+          },
+          {
+            "key": "h",
+            "text": "die Einschätzung, wie das Wetter wird"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "durch"
+          ],
+          "2": [
+            "auf"
+          ],
+          "3": [
+            "unter"
+          ],
+          "4": [
+            "Können"
+          ],
+          "5": [
+            "regnet"
+          ],
+          "6": [
+            "möchte"
+          ],
+          "7": [
+            "Können"
+          ],
+          "8": [
+            "haben"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Weg führt {1} den Wald. (Wechselpräposition, Akkusativ)\n2. Wir wandern {2} den Berg hinauf. (Wechselpräposition, Akkusativ)\n3. Die Schutzhütte liegt {3} dem Gipfel. (Wechselpräposition, Dativ)\n4. {4} wir uns hier verlaufen haben? (können, wir-Form, Frage)\n5. Falls es {5}, sollten wir umkehren. (regnen, Präsens)\n6. Ich {6} mir einen Klettergurt leihen. (möchten, ich-Form)\n7. {7} Sie mir sagen, wo die nächste Markierung ist? (können, Sie-Form)\n8. Wir {8} die Wanderung wegen des Wetters abgebrochen. (haben, Perfekt)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze die richtige Präposition oder das Modalverb.",
+      "instructionsEn": "Fill in the correct preposition or the modal verb.",
+      "title": "Auf dem Weg unterwegs"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Abzweigung"
+          ],
+          "2": [
+            "Markierung"
+          ],
+          "3": [
+            "Klettergurt"
+          ],
+          "4": [
+            "Wettersturz"
+          ],
+          "5": [
+            "Schutzhütte"
+          ],
+          "6": [
+            "Notfallkontakt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. An dieser {1} müssen wir links abbiegen. (der Punkt, wo sich der Weg teilt)\n2. Die rote {2} zeigt den Weg zur Hütte. (das Zeichen auf dem Weg)\n3. Für die Klettertour brauche ich einen {3}. (das Gurtsystem für die Sicherung)\n4. Ein plötzlicher {4} hat uns zur Umkehr gezwungen. (die schnelle Verschlechterung des Wetters)\n5. Bei Regen suchen wir Schutz in der {5}. (das kleine Gebäude zum Unterstellen)\n6. Ich habe meinen {6} für den Notfall gespeichert. (die Person, die man im Notfall anruft)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "MÖCHTE"
+          ],
+          "2": [
+            "GRÖSSE"
+          ],
+          "3": [
+            "BRAUCHEN"
+          ],
+          "4": [
+            "KÖNNEN"
+          ],
+          "5": [
+            "ABZWEIGUNG"
+          ],
+          "6": [
+            "MARKIERUNG"
+          ],
+          "7": [
+            "WEIT"
+          ],
+          "8": [
+            "ZÜGIG"
+          ],
+          "9": [
+            "WETTERSTURZ"
+          ],
+          "10": [
+            "WANDERUNG"
+          ]
+        },
+        "bank": [
+          "MÖCHTE",
+          "GRÖSSE",
+          "BRAUCHEN",
+          "KÖNNEN",
+          "ABZWEIGUNG",
+          "MARKIERUNG",
+          "WEIT",
+          "ZÜGIG",
+          "WETTERSTURZ",
+          "WANDERUNG",
+          "GEWICHT",
+          "LANGSAM",
+          "PREIS",
+          "GURT"
+        ],
+        "text": "— Guten Tag, ich {1} gern einen Klettergurt leihen.\n— Kein Problem, welche {2} brauchen Sie?\n— Ich glaube, Größe M.\n— Hier bitte, und {3} Sie einen Helm dazu?\n— Ja, gern, danke.\n(später, auf dem Weg)\n— Entschuldigung, {4} Sie uns sagen, wo die nächste\n{5} ist?\n— Klar, folgen Sie einfach der roten {6}.\n— Vielen Dank. Und wie {7} ist es noch bis zur Hütte?\n— Etwa vierzig Minuten, wenn Sie {8} laufen.\n— Perfekt, das schaffen wir noch vor dem angekündigten\n{9}.\n— Gute {10}, passen Sie auf sich auf!\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Ausrüstung leihen und nach dem Weg fragen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich möchte gern einen Klettergurt leihen."
+              },
+              {
+                "key": "b",
+                "text": "Geben Sie mir sofort Ausrüstung."
+              },
+              {
+                "key": "c",
+                "text": "Ausrüstung ist mir egal."
+              }
+            ],
+            "q": "Du möchtest Ausrüstung leihen. — You want to rent gear.",
+            "why": "Eine höfliche Bitte ist der übliche Einstieg beim Ausleihen von Ausrüstung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Der Weg wird sich schon finden."
+              },
+              {
+                "key": "b",
+                "text": "Können Sie uns sagen, wo die nächste Markierung ist?"
+              },
+              {
+                "key": "c",
+                "text": "Wege interessieren mich nicht."
+              }
+            ],
+            "q": "Du bist unsicher, welcher Weg der richtige ist. — You're unsure which trail is correct.",
+            "why": "Eine kurze, konkrete Frage nach der Markierung ist der beste Weg, sich zu orientieren."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Vorbeigehen, ohne etwas zu sagen."
+              },
+              {
+                "key": "b",
+                "text": "Fragen, warum sie hier wandern."
+              },
+              {
+                "key": "c",
+                "text": "Hallo, schöne Tour heute, oder?"
+              }
+            ],
+            "q": "Ihr trefft andere Wandernde auf dem Weg. — You meet other hikers on the trail.",
+            "why": "Ein kurzer, freundlicher Gruß ist unter Wandernden üblich."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wie weit ist es noch bis zur Hütte?"
+              },
+              {
+                "key": "b",
+                "text": "Entfernungen interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Ich laufe einfach, bis ich ankomme."
+              }
+            ],
+            "q": "Du möchtest wissen, wie weit es noch bis zur Hütte ist. — You want to know how much further it is to the hut.",
+            "why": "Eine direkte Frage nach der Entfernung hilft bei der Planung der restlichen Zeit."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weiterlaufen und hoffen, dass es besser wird."
+              },
+              {
+                "key": "b",
+                "text": "Lasst uns lieber umkehren, bevor es losgeht."
+              },
+              {
+                "key": "c",
+                "text": "Das Wetter ignorieren."
+              }
+            ],
+            "q": "Ihr merkt, dass sich das Wetter schnell verschlechtert. — You notice the weather is quickly deteriorating.",
+            "why": "Bei einem Wettersturz ist rechtzeitiges Umkehren die sicherste Entscheidung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nichts sagen und einfach gehen."
+              },
+              {
+                "key": "b",
+                "text": "Sich beschweren, dass es zu lange gedauert hat."
+              },
+              {
+                "key": "c",
+                "text": "Vielen Dank für die Beratung, das hilft mir sehr."
+              }
+            ],
+            "q": "Du möchtest dich bei der Person am Verleih für die Hilfe bedanken. — You want to thank the rental staff for their help.",
+            "why": "Ein kurzer, freundlicher Dank ist die übliche Reaktion nach guter Beratung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Höflich unterwegs sprechen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "höfliche Bitte, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "gern",
+              "einen",
+              "Klettergurt",
+              "leihen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Wechselpräposition mit Akkusativ",
+            "tiles": [
+              "Der",
+              "Weg",
+              "führt",
+              "durch",
+              "den",
+              "Wald"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "indirekte Frage, Verb am Ende",
+            "tiles": [
+              "Können",
+              "Sie",
+              "uns",
+              "sagen",
+              ",",
+              "wo",
+              "die",
+              "Hütte",
+              "ist",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Nebensatz mit falls, Modalverb im Hauptsatz",
+            "tiles": [
+              "Falls",
+              "es",
+              "regnet",
+              ",",
+              "sollten",
+              "wir",
+              "umkehren"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Wir",
+              "haben",
+              "die",
+              "Wanderung",
+              "abgebrochen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Vorschlag mit lasst uns + Infinitiv",
+            "tiles": [
+              "Lasst",
+              "uns",
+              "lieber",
+              "umkehren"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze auf dem Weg bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Der Weg ist acht Kilometer lang. — The trail is eight kilometers long.",
+            "why": "So steht es ausdrücklich im Hinweis."
+          },
+          {
+            "answer": false,
+            "q": "Die Markierung besteht aus blauen Kreuzen. — The markers are blue crosses.",
+            "why": "Die Markierung besteht aus roten Punkten."
+          },
+          {
+            "answer": false,
+            "q": "Bei Gewitterwarnung bleibt der Weg über den Grat offen. — During a thunderstorm warning, the ridge trail stays open.",
+            "why": "Bei Gewitterwarnung wird der Weg über den Grat gesperrt."
+          },
+          {
+            "answer": false,
+            "q": "Die Schutzhütte liegt kurz nach dem Start. — The refuge hut is located shortly after the start.",
+            "why": "Sie liegt nach etwa zwei Dritteln der Strecke, nicht am Anfang."
+          },
+          {
+            "answer": true,
+            "q": "Der Handyempfang ist auf dem Grat manchmal eingeschränkt. — Phone reception on the ridge is sometimes limited.",
+            "why": "„Handyempfang ist auf dem Grat oft eingeschränkt.“"
+          },
+          {
+            "answer": true,
+            "q": "Bei Problemen soll man die Bergwacht unter 112 anrufen. — In case of problems, call mountain rescue at 112.",
+            "why": "„Bei Problemen: Bergwacht-Notruf 112.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Wanderweg Falkenstein — Hinweise für Wandernde**\n>\n> - **Länge:** 8 km, **Gehzeit:** ca. 3 Stunden.\n> - **Markierung:** rote Punkte, alle **500 Meter** ein Zeichen.\n> - Bei **Gewitterwarnung** wird der Weg über den Grat gesperrt.\n> - Die **Schutzhütte** liegt nach etwa **zwei Dritteln** der\n>   Strecke.\n> - **Handyempfang** ist auf dem Grat oft **eingeschränkt**.\n> - Bei Problemen: **Bergwacht-Notruf 112**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Den Hinweis am Wegbeginn lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Stehen bleiben, die Karte prüfen und zum letzten bekannten Punkt zurückgehen."
+              },
+              {
+                "key": "b",
+                "text": "Einfach in eine beliebige Richtung weiterlaufen."
+              },
+              {
+                "key": "c",
+                "text": "Aufgeben und dort warten."
+              }
+            ],
+            "q": "Ihr findet keine Markierung mehr und seid euch nicht sicher, wo ihr seid. — You can't find any more markers and aren't sure where you are.",
+            "why": "Zum letzten bekannten Punkt zurückzugehen ist die sicherste Methode, sich wieder zu orientieren."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weiter zum Gipfel gehen, um die Aussicht nicht zu verpassen."
+              },
+              {
+                "key": "b",
+                "text": "Sofort umkehren oder den nächsten sicheren Unterstand suchen."
+              },
+              {
+                "key": "c",
+                "text": "Abwarten und hoffen, dass es vorbeizieht."
+              }
+            ],
+            "q": "Das Wetter schlägt plötzlich um, dunkle Wolken ziehen auf. — The weather suddenly turns, dark clouds are rolling in.",
+            "why": "Bei einem plötzlichen Wettersturz hat Sicherheit Vorrang vor dem Ziel."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach weiterlaufen, als wäre nichts passiert."
+              },
+              {
+                "key": "b",
+                "text": "Die Person allein zurücklassen."
+              },
+              {
+                "key": "c",
+                "text": "Eine Pause machen, den Knöchel stabilisieren und die weitere Route neu bewerten."
+              }
+            ],
+            "q": "Jemand aus der Gruppe verstaucht sich den Knöchel. — Someone in the group twists their ankle.",
+            "why": "Erste Hilfe und eine neue Einschätzung der Lage sind der richtige erste Schritt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Wasser rationieren und den Weg zur nächsten Quelle oder Hütte planen."
+              },
+              {
+                "key": "b",
+                "text": "Das restliche Wasser sofort komplett austrinken."
+              },
+              {
+                "key": "c",
+                "text": "Wasser aus einem unbekannten Bach trinken, ohne nachzudenken."
+              }
+            ],
+            "q": "Euer Wasser wird knapp, und die nächste Hütte ist noch weit. — Your water is running low, and the next hut is still far.",
+            "why": "Rationieren und gezielt zur nächsten sicheren Wasserquelle zu planen ist die vernünftige Reaktion."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "An einem markanten Punkt warten und anrufen, falls Empfang da ist."
+              },
+              {
+                "key": "b",
+                "text": "Ziellos in verschiedene Richtungen suchen gehen."
+              },
+              {
+                "key": "c",
+                "text": "Allein weiterwandern, ohne Bescheid zu geben."
+              }
+            ],
+            "q": "Die Gruppe hat sich auf dem Weg aufgeteilt und ihr habt euch verloren. — The group split up on the trail and you've lost each other.",
+            "why": "An einem festen Punkt zu warten macht es für die anderen leichter, euch wiederzufinden."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Vor dem Losgehen zum Verleih zurückgehen und um eine andere Größe bitten."
+              },
+              {
+                "key": "b",
+                "text": "Trotzdem losgehen und hoffen, dass es passt."
+              },
+              {
+                "key": "c",
+                "text": "Die Ausrüstung einfach weglassen."
+              }
+            ],
+            "q": "Ihr merkt, dass die geliehene Ausrüstung nicht richtig passt. — You notice the rented gear doesn't fit properly.",
+            "why": "Schlecht passende Ausrüstung vor dem Start zu wechseln ist deutlich sicherer als unterwegs zu improvisieren."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn es unterwegs Probleme gibt"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Markierung"
+          ],
+          "2": [
+            "umgeschlagen"
+          ],
+          "3": [
+            "Knöchel"
+          ],
+          "4": [
+            "knapp"
+          ],
+          "5": [
+            "getrennt"
+          ],
+          "6": [
+            "gepasst"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir haben keine {1} mehr gefunden und wussten nicht, wo wir waren. (das Zeichen auf dem Weg)\n2. Das Wetter ist plötzlich {2}. (sich verändern, Perfekt Partizip)\n3. Jemand aus der Gruppe hat sich den {3} verstaucht. (der Fußknöchel)\n4. Unser Wasser wurde langsam {4}. (fast leer)\n5. Wir haben uns auf dem Weg {5}. (voneinander weit entfernt, Partizip)\n6. Die geliehene Ausrüstung hat leider nicht richtig {6}. (die richtige Größe haben)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "durch"
+          ],
+          "2": [
+            "unter"
+          ],
+          "3": [
+            "Können"
+          ],
+          "4": [
+            "regnet"
+          ],
+          "5": [
+            "Abzweigung"
+          ],
+          "6": [
+            "Markierung"
+          ],
+          "7": [
+            "Klettergurt"
+          ],
+          "8": [
+            "Wettersturz"
+          ],
+          "9": [
+            "Markierung"
+          ],
+          "10": [
+            "umgeschlagen"
+          ],
+          "11": [
+            "Knöchel"
+          ],
+          "12": [
+            "knapp"
+          ],
+          "13": [
+            "getrennt"
+          ],
+          "14": [
+            "gepasst"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Weg führt {1} den Wald. (through — Akkusativ)\n2. Die Schutzhütte liegt {2} dem Gipfel. (below — Dativ)\n3. {3} wir uns hier verlaufen haben? (could we)\n4. Falls es {4}, sollten wir umkehren. (rains)\n5. An dieser {5} müssen wir links abbiegen. (fork/junction)\n6. Die rote {6} zeigt den Weg. (marker)\n7. Für die Klettertour brauche ich einen {7}. (climbing harness)\n8. Ein plötzlicher {8} hat uns zur Umkehr gezwungen. (sudden weather change)\n9. Wir haben keine {9} mehr gefunden. (marker)\n10. Das Wetter ist plötzlich {10}. (turned — Partizip)\n11. Jemand hat sich den {11} verstaucht. (ankle)\n12. Unser Wasser wurde {12}. (scarce)\n13. Wir haben uns auf dem Weg {13}. (separated — Partizip)\n14. Die Ausrüstung hat nicht richtig {14}. (fit — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-57-wandern-klettern-a2",
+  "intro": "Beim Wandern und Klettern lohnt sich Vorbereitung: die Markierungen auf dem Weg lesen, passende Ausrüstung leihen, und wissen, was bei plötzlichem Wetterumschwung zu tun ist. Dieses Set übt genau das — dazu das Gespräch mit anderen Wandernden auf dem Weg und, was zu tun ist, wenn man sich verläuft. Grammatik nach Bedarf: Wechselpräpositionen bei Richtungsangaben, Nebensätze mit falls, höfliche Bitten mit Konjunktiv II. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/57-wandern-klettern-a2",
+  "level": "A2",
+  "summary": "Den Weg lesen, Ausrüstung leihen, auf einen Wettersturz reagieren — und was tun, wenn man sich verläuft.",
+  "title": "Wandern und Klettern — A2",
+  "topic": "Wandern und Klettern"
+}

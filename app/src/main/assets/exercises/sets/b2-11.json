@@ -1,0 +1,1543 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Umsatz"
+          ],
+          "2": [
+            "Gewinn"
+          ],
+          "3": [
+            "Verlust"
+          ],
+          "4": [
+            "Bilanz"
+          ],
+          "5": [
+            "Investition"
+          ],
+          "6": [
+            "Kosten"
+          ],
+          "7": [
+            "Personal"
+          ],
+          "8": [
+            "Steuer"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der {1} ist die gesamten Einnahmen einer Periode.\n2. Der {2} ist das, was nach allen Kosten übrig bleibt.\n3. Der {3} ist ein negativer Gewinn.\n4. Die {4} zeigt Vermögen und Schulden eines Unternehmens.\n5. Eine {5} ist eine langfristige Geldausgabe für Werte.\n6. Die {6} für Produktion und Betrieb sind gestiegen.\n7. Das {7} eines Unternehmens umfasst alle Mitarbeiter.\n8. Die {8} ist eine Abgabe an den Staat.\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Setze das passende Wort ein (Umsatz, Gewinn, Verlust, Bilanz, Investition, Kosten, Personal, Steuer). 8 Items.",
+      "title": "Wirtschaftsbegriffe zuordnen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "gestiegen"
+          ],
+          "2": [
+            "gesunken"
+          ],
+          "3": [
+            "wachsen"
+          ],
+          "4": [
+            "schrumpft"
+          ],
+          "5": [
+            "amortisiert"
+          ],
+          "6": [
+            "zieht"
+          ],
+          "7": [
+            "brachen"
+          ],
+          "8": [
+            "gesunken"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Umsatz ist im ersten Quartal um 8 % {1}.\n2. Der Gewinn ist trotzdem um 2 % {2}.\n3. Wir {3} in den asiatischen Markt.\n4. Die Konkurrenz {4} — zwei Anbieter haben aufgegeben.\n5. Die Investition {5} sich nach drei Jahren.\n6. Die Nachfrage {6} seit Monaten stark an.\n7. Die Kosten {7} nach der Krise plötzlich ein. (Präteritum)\n8. Die Nachfrage ist leicht {8}.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Setze das passende Verb ein (steigen, sinken, wachsen, schrumpfen, amortisieren, einbrechen, anziehen). 8 Items.",
+      "title": "Geschäftszahlen versprachlichen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Konzern"
+          ],
+          "2": [
+            "Firma"
+          ],
+          "3": [
+            "Betrieb"
+          ],
+          "4": [
+            "GmbH"
+          ],
+          "5": [
+            "Branche"
+          ],
+          "6": [
+            "Markt"
+          ],
+          "7": [
+            "Unternehmen"
+          ],
+          "8": [
+            "Unternehmen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Volkswagen AG ist ein großer deutscher {1}.\n2. Eine kleine {2} hat weniger als 50 Mitarbeiter.\n3. Der industrielle {3} in Leipzig produziert für die ganze EU.\n4. Die Müller {4} hat 200 Mitarbeiter und ist im Maschinenbau tätig.\n5. Die {5} „Automobil\" wächst seit Jahren.\n6. Wir bedienen den deutschen {6} mit unseren Produkten.\n7. Das {7} hat seine Zentrale in München.\n8. Als {8} bezeichnen wir jede wirtschaftliche Einheit.\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Setze das passende Wort ein (Unternehmen, Firma, Betrieb, Konzern, GmbH, AG, Branche, Markt). 8 Items.",
+      "title": "Unternehmen und Rechtsformen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "der Gewinn"
+              },
+              {
+                "key": "b",
+                "text": "der Umsatz"
+              },
+              {
+                "key": "c",
+                "text": "die Bilanz"
+              }
+            ],
+            "q": "Was sind die gesamten Einnahmen eines Unternehmens in einer Periode?",
+            "why": "Der Umsatz = gesamte Einnahmen (ohne Abzug der Kosten)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "der Umsatz"
+              },
+              {
+                "key": "b",
+                "text": "der Verlust"
+              },
+              {
+                "key": "c",
+                "text": "der Gewinn"
+              }
+            ],
+            "q": "Was bleibt nach Abzug aller Kosten übrig?",
+            "why": "Der Gewinn = Umsatz minus Kosten."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "den Verlust"
+              },
+              {
+                "key": "b",
+                "text": "die Investition"
+              },
+              {
+                "key": "c",
+                "text": "die Bilanz"
+              }
+            ],
+            "q": "Wie nennt man einen negativen Gewinn?",
+            "why": "Verlust = negativer Gewinn (rote Zahlen)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "nur das Vermögen"
+              },
+              {
+                "key": "b",
+                "text": "nur die Schulden"
+              },
+              {
+                "key": "c",
+                "text": "Vermögen und Schulden gegenüber"
+              }
+            ],
+            "q": "Was zeigt die Bilanz?",
+            "why": "Die Bilanz = Gegenüberstellung von Vermögen und Schulden."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir geben Geld für Werbung aus."
+              },
+              {
+                "key": "b",
+                "text": "Wir tätigen eine langfristige Geldausgabe für Werte."
+              },
+              {
+                "key": "c",
+                "text": "Wir kaufen Büromaterial."
+              }
+            ],
+            "q": "Was bedeutet „wir investieren in neue Maschinen\"?",
+            "why": "Investition = langfristige Geldausgabe für Werte (Maschinen, Gebäude, Standorte)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A4",
+      "instructions": "Wähle den passenden Begriff (a, b oder c).",
+      "title": "Umsatz, Gewinn oder Verlust?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "um"
+          ],
+          "2": [
+            "um"
+          ],
+          "3": [
+            "in"
+          ],
+          "4": [
+            "um"
+          ],
+          "5": [
+            "in"
+          ],
+          "6": [
+            "in"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Umsatz ist {1} 8 % gestiegen.\n2. Der Gewinn ist {2} 2 % gesunken.\n3. Wir wachsen {3} den asiatischen Markt.\n4. Die Kosten sind {4} eine Million Euro gestiegen.\n5. Wir expandieren {5} den europäischen Markt.\n6. Die Investition amortisiert sich {6} drei Jahren.\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Setze um oder in ein. ⚠️ um = Mengenangabe; in + Akk. = Richtung Markt; in + Dat. = Zeitraum. 6 Items.",
+      "title": "um + Prozent oder in + Akkusativ?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "den Kunden"
+          ],
+          "2": [
+            "Der Lieferant"
+          ],
+          "3": [
+            "Der Mitarbeiter"
+          ],
+          "4": [
+            "Die Mitarbeiterin"
+          ],
+          "5": [
+            "Auftrag"
+          ],
+          "6": [
+            "die Rechnung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir beliefern seit Jahren {1} Müller in Berlin.\n2. {2} schickt uns jede Woche frische Ware.\n3. {3} Wagner hat gestern den Vertrag unterschrieben.\n4. {4} Becker hat das Angebot geprüft.\n5. Wir haben einen neuen {5} über 200 000 € angenommen.\n6. Die Buchhaltung schickt {6} am Ende des Monats.\n",
+        "type": "gap-text"
+      },
+      "id": "A6",
+      "instructions": "Setze den richtigen Artikel ein (der Kunde / die Kundin / der Lieferant / die Lieferantin / der Mitarbeiter / die Mitarbeiterin / der Auftrag / die Rechnung). 6 Items.",
+      "title": "Geschäftspartner: der oder die?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Rabatt"
+          ],
+          "2": [
+            "Skonto"
+          ],
+          "3": [
+            "Frist"
+          ],
+          "4": [
+            "Mahnung"
+          ],
+          "5": [
+            "Frist"
+          ]
+        },
+        "bank": [
+          "Rabatt",
+          "Skonto",
+          "Frist",
+          "Mahnung",
+          "Bedingung",
+          "Rechnung",
+          "Auftrag"
+        ],
+        "text": "1. Bei Großaufträgen gewähren wir 5 % {1}.\n2. Bei Zahlung innerhalb von 10 Tagen geben wir 2 % {2}.\n3. Die {3} für die Lieferung beträgt vier Wochen.\n4. Wenn die Rechnung nicht bezahlt wird, schicken wir eine {4}.\n5. Die Zahlung erfolgt innerhalb der vereinbarten {5}.\n",
+        "type": "gap-bank"
+      },
+      "id": "A7",
+      "instructions": "Füll die Lücken mit dem passenden Begriff. Zwei Wörter im Kasten sind zu viel.",
+      "title": "Vertragsbedingungen — Rabatt, Skonto, Mahnung, Frist"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "d",
+          "2": "c",
+          "3": "f",
+          "4": "e",
+          "5": "a",
+          "6": "b"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die GmbH"
+          },
+          {
+            "key": "2",
+            "text": "die AG"
+          },
+          {
+            "key": "3",
+            "text": "der Umsatz"
+          },
+          {
+            "key": "4",
+            "text": "der Gewinn"
+          },
+          {
+            "key": "5",
+            "text": "der Rabatt"
+          },
+          {
+            "key": "6",
+            "text": "das Skonto"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Preisnachlass bei großer Menge"
+          },
+          {
+            "key": "b",
+            "text": "prozentualer Abzug bei schneller Zahlung"
+          },
+          {
+            "key": "c",
+            "text": "Aktiengesellschaft (groß, börsennotiert)"
+          },
+          {
+            "key": "d",
+            "text": "Gesellschaft mit beschränkter Haftung (mittel)"
+          },
+          {
+            "key": "e",
+            "text": "Einnahmen minus Kosten"
+          },
+          {
+            "key": "f",
+            "text": "gesamte Einnahmen einer Periode"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A8",
+      "instructions": "Ordne jedem Wirtschaftsbegriff (1–6) die passende Bedeutung (a–f) zu.",
+      "title": "Begriff und Bedeutung verbinden"
+    },
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "unternehmen",
+            "label": "Unternehmen & Rechtsform"
+          },
+          {
+            "key": "zahlen",
+            "label": "Geschäftszahlen & Finanzen"
+          },
+          {
+            "key": "beziehungen",
+            "label": "Geschäftsbeziehungen"
+          },
+          {
+            "key": "bedingungen",
+            "label": "Vertrags- & Zahlungsbedingungen"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "unternehmen",
+            "text": "die GmbH"
+          },
+          {
+            "bucket": "unternehmen",
+            "text": "die AG"
+          },
+          {
+            "bucket": "unternehmen",
+            "text": "der Konzern"
+          },
+          {
+            "bucket": "zahlen",
+            "text": "der Umsatz"
+          },
+          {
+            "bucket": "zahlen",
+            "text": "der Gewinn"
+          },
+          {
+            "bucket": "zahlen",
+            "text": "die Bilanz"
+          },
+          {
+            "bucket": "zahlen",
+            "text": "die Investition"
+          },
+          {
+            "bucket": "beziehungen",
+            "text": "der Kunde"
+          },
+          {
+            "bucket": "beziehungen",
+            "text": "der Lieferant"
+          },
+          {
+            "bucket": "beziehungen",
+            "text": "die Konkurrenz"
+          },
+          {
+            "bucket": "bedingungen",
+            "text": "der Vertrag"
+          },
+          {
+            "bucket": "bedingungen",
+            "text": "die Frist"
+          },
+          {
+            "bucket": "bedingungen",
+            "text": "der Rabatt"
+          },
+          {
+            "bucket": "bedingungen",
+            "text": "die Mahnung"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A9",
+      "instructions": "Ordne jeden Begriff dem richtigen Bereich zu.",
+      "title": "Wortschatz sortieren"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "sei"
+          ],
+          "3": [
+            "werde"
+          ],
+          "4": [
+            "müsse"
+          ],
+          "5": [
+            "wolle"
+          ],
+          "6": [
+            "solle"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Vorstand {1} dem Vorschlag zugestimmt.\n2. Die Bank {2} mit dem Kredit einverstanden.\n3. Der Lieferant {3} die Frist verkürzen.\n4. Die Abteilung {4} die Kosten senken.\n5. Die Geschäftsführung {5} expandieren.\n6. Der Mitarbeiter {6} die neuen Regeln beachten.\n",
+        "type": "gap-text"
+      },
+      "id": "A10",
+      "instructions": "Setze die richtige Konjunktiv-I-Form ein (habe, sei, werde, könne, müsse, wolle, solle). 6 Items.",
+      "title": "Konjunktiv I im Geschäftsbericht"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Der Vorstand habe dem Vorschlag zugestimmt",
+            "tiles": [
+              "Der",
+              "Vorstand",
+              "habe",
+              "dem",
+              "Vorschlag",
+              "zugestimmt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Der Umsatz ist um acht Prozent gestiegen",
+            "tiles": [
+              "Der",
+              "Umsatz",
+              "ist",
+              "um",
+              "acht",
+              "Prozent",
+              "gestiegen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Die Firma gewährt zwei Prozent Skonto",
+            "tiles": [
+              "Die",
+              "Firma",
+              "gewährt",
+              "zwei",
+              "Prozent",
+              "Skonto"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Wir wachsen in den asiatischen Markt",
+            "tiles": [
+              "Wir",
+              "wachsen",
+              "in",
+              "den",
+              "asiatischen",
+              "Markt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A11",
+      "instructions": "Bring die Wörter in die richtige Reihenfolge.",
+      "title": "Satzbau: Geschäftsbericht"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "c",
+          "2": "d",
+          "3": "b",
+          "4": "f",
+          "5": "a",
+          "6": "e"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "steigen"
+          },
+          {
+            "key": "2",
+            "text": "sinken"
+          },
+          {
+            "key": "3",
+            "text": "wachsen"
+          },
+          {
+            "key": "4",
+            "text": "schrumpfen"
+          },
+          {
+            "key": "5",
+            "text": "amortisieren"
+          },
+          {
+            "key": "6",
+            "text": "einbrechen"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "sich in + Dativ (Zeit) rentieren"
+          },
+          {
+            "key": "b",
+            "text": "in + Akkusativ (Markt) — positive Richtung"
+          },
+          {
+            "key": "c",
+            "text": "um + % oder Betrag — positive Richtung"
+          },
+          {
+            "key": "d",
+            "text": "um + % oder Betrag — negative Richtung"
+          },
+          {
+            "key": "e",
+            "text": "stark zurückgehen (z. B. nach einer Krise)"
+          },
+          {
+            "key": "f",
+            "text": "kleiner werden (Konkurrenz, Marktanteil)"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B4",
+      "instructions": "Ordne jedem Verb (1–6) den passenden Kontext (a–f) zu.",
+      "title": "Verb und Geschäftszahl verbinden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Umsatz"
+          ],
+          "2": [
+            "Gewinn"
+          ],
+          "3": [
+            "gesunken"
+          ],
+          "4": [
+            "habe"
+          ],
+          "5": [
+            "investiert"
+          ],
+          "6": [
+            "Kapazitäten"
+          ],
+          "7": [
+            "Nachfrage"
+          ],
+          "8": [
+            "Konkurrenz"
+          ]
+        },
+        "bank": [
+          "Umsatz",
+          "Gewinn",
+          "gesunken",
+          "habe",
+          "investiert",
+          "Kapazitäten",
+          "Nachfrage",
+          "Konkurrenz",
+          "Verlust",
+          "steigen",
+          "Kosten",
+          "Kunde"
+        ],
+        "text": "Geschäftsbericht der Müller AG für das zweite Quartal: Der {1} ist um 6,3 %\ngestiegen, während der {2} um 4,1 % {3} ist. Die Geschäftsführung erklärte,\ndas Unternehmen {4} in eine neue Produktionshalle {5}. Man werde die {6}\nim dritten Quartal vollständig nutzen. Die {7} in der Automobilbranche sei\nweiterhin hoch. Die {8} aus Polen sei im Begriff, ihr Angebot zu erweitern.\n",
+        "type": "gap-bank"
+      },
+      "id": "B5",
+      "instructions": "Füll die 8 Lücken mit dem passenden Wort aus dem Kasten. Vier Wörter sind zu viel.",
+      "title": "Geschäftsbericht ergänzen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Der Vorstand habe dem Vorschlag zugestimmt",
+            "tiles": [
+              "Der",
+              "Vorstand",
+              "habe",
+              "dem",
+              "Vorschlag",
+              "zugestimmt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Die Bank sei mit dem Kredit einverstanden",
+            "tiles": [
+              "Die",
+              "Bank",
+              "sei",
+              "mit",
+              "dem",
+              "Kredit",
+              "einverstanden"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Der Lieferant werde die Frist verkürzen",
+            "tiles": [
+              "Der",
+              "Lieferant",
+              "werde",
+              "die",
+              "Frist",
+              "verkürzen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Die Abteilung müsse die Kosten senken",
+            "tiles": [
+              "Die",
+              "Abteilung",
+              "müsse",
+              "die",
+              "Kosten",
+              "senken"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B6",
+      "instructions": "Bring die Wörter in die richtige Reihenfolge.",
+      "title": "Satzbau: Konjunktiv I im Geschäftsbericht"
+    },
+    {
+      "block": "B",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "Umsatz",
+              "Gewinn",
+              "Verlust",
+              "Mitarbeiter"
+            ],
+            "odd": 3,
+            "why": "Mitarbeiter ist eine Person; Umsatz, Gewinn und Verlust sind Geschäftszahlen."
+          },
+          {
+            "items": [
+              "GmbH",
+              "AG",
+              "Konzern",
+              "Skonto"
+            ],
+            "odd": 3,
+            "why": "Skonto ist eine Zahlungsbedingung; GmbH, AG und Konzern sind Unternehmensformen."
+          },
+          {
+            "items": [
+              "Rabatt",
+              "Skonto",
+              "Mahnung",
+              "Bedingung"
+            ],
+            "odd": 2,
+            "why": "Mahnung ist eine schriftliche Zahlungsaufforderung; Rabatt, Skonto und Bedingung sind Vertragsklauseln."
+          },
+          {
+            "items": [
+              "steigen",
+              "sinken",
+              "wachsen",
+              "schrumpfen"
+            ],
+            "odd": 3,
+            "why": "schrumpfen passt nicht in die positiven Wachstumsverben; die anderen drei beschreiben Bewegung in eine Richtung."
+          },
+          {
+            "items": [
+              "Angebot",
+              "Nachfrage",
+              "Auftrag",
+              "Konkurrenz"
+            ],
+            "odd": 3,
+            "why": "Konkurrenz ist Mitbewerber; Angebot, Nachfrage und Auftrag sind Geschäftsbeziehungen/Transaktionen."
+          },
+          {
+            "items": [
+              "Rechnung",
+              "Frist",
+              "Vertrag",
+              "Brief"
+            ],
+            "odd": 3,
+            "why": "Brief ist allgemeine Korrespondenz; Rechnung, Frist und Vertrag sind formelle Geschäftsdokumente."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "B7",
+      "instructions": "Streiche den Begriff, der nicht in die gleiche Kategorie passt.",
+      "title": "Wortschatz: Was passt nicht?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Lieber Herr Steinmeyer, schick mir mal das Angebot."
+              },
+              {
+                "key": "b",
+                "text": "Sehr geehrter Herr Steinmeyer, ich darf auf Ihr Angebot vom 12. Juni Bezug nehmen."
+              }
+            ],
+            "q": "In einer formellen E-Mail an einen Lieferanten:",
+            "why": "Im Geschäftsbrief ist *Sehr geehrter Herr …* + Bezugnahme Standard."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Der Umsatz ist um 8 % gestiegen."
+              },
+              {
+                "key": "b",
+                "text": "Wir haben mehr Geld eingenommen als vorher."
+              }
+            ],
+            "q": "In einer Wirtschaftsnachricht im Fernsehen:",
+            "why": "In Wirtschaftsnachrichten steht die präzise Fachsprache (*Umsatz*, *steigen um %*)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Der Vorstand hat zugestimmt."
+              },
+              {
+                "key": "b",
+                "text": "Der Vorstand habe dem Vorschlag zugestimmt."
+              }
+            ],
+            "q": "In einem Geschäftsbericht (wiedergabend):",
+            "why": "Im Geschäftsbericht wird die Aussage wiedergegeben → Konjunktiv I (*habe*)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B8",
+      "instructions": "Wähle die stilistisch und sachlich passende Variante (a oder b).",
+      "title": "Welche Formulierung passt zum Kontext?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Bilanz"
+          ],
+          "2": [
+            "Umsatz"
+          ],
+          "3": [
+            "Gewinn"
+          ],
+          "4": [
+            "Investitionen"
+          ],
+          "5": [
+            "habe"
+          ],
+          "6": [
+            "werde"
+          ],
+          "7": [
+            "Nachfrage"
+          ],
+          "8": [
+            "Konkurrenz"
+          ],
+          "9": [
+            "müsse"
+          ],
+          "10": [
+            "2,8 %"
+          ]
+        },
+        "listLayout": true,
+        "text": "Der Stahlbau-Konzern Müller AG hat heute seine (1) {1} für das zweite Quartal\nvorgelegt. Demnach ist der (2) {2} im Vergleich zum Vorjahresquartal um 6,3 %\ngestiegen. Der (3) {3} ist allerdings um 4,1 % gesunken. Begründet wird die\nEntwicklung mit hohen (4) {4} in eine neue Produktionshalle.\nDie Geschäftsführung erklärte, der Konzern (5) {5} die Weichen für weiteres\nWachstum gestellt. Man (6) {6} die neuen Kapazitäten im dritten Quartal\nvollständig nutzen. Die (7) {7} in der Automobilbranche sei weiterhin hoch.\nDie (8) {8} aus Polen sei im Begriff, ihr Angebot zu erweitern. Die Müller AG\n(9) {9} daher auf Qualität und Lieferzeiten setzen. Die Aktie verlor nach der\nBekanntgabe (10) {10}.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Füll jede Lücke mit einem Wort aus dem Wirtschaftsvokabular. 10 Items.",
+      "title": "Lückentext: Wirtschaftsnachrichten verstehen (Lesetext)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "mit"
+              },
+              {
+                "key": "b",
+                "text": "um"
+              },
+              {
+                "key": "c",
+                "text": "auf"
+              }
+            ],
+            "q": "Der Umsatz ist ____ 6,3 % gestiegen.",
+            "why": "statische Mengenangabe: um + %."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "in"
+              },
+              {
+                "key": "b",
+                "text": "auf"
+              },
+              {
+                "key": "c",
+                "text": "an"
+              }
+            ],
+            "q": "Wir wachsen ____ den asiatischen Markt.",
+            "why": "Richtung: in + Akkusativ."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "GmbH"
+              },
+              {
+                "key": "b",
+                "text": "AG"
+              },
+              {
+                "key": "c",
+                "text": "KG"
+              }
+            ],
+            "q": "Die Müller AG ist eine große ____.",
+            "why": "AG = Aktiengesellschaft (groß, börsennotiert)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "von"
+              },
+              {
+                "key": "b",
+                "text": "um"
+              },
+              {
+                "key": "c",
+                "text": "seit"
+              }
+            ],
+            "q": "Bei Zahlung innerhalb ____ zehn Tagen gewähren wir zwei Prozent Skonto.",
+            "why": "feste Wendung: innerhalb von + Dativ."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "hat"
+              },
+              {
+                "key": "b",
+                "text": "habe"
+              },
+              {
+                "key": "c",
+                "text": "würde"
+              }
+            ],
+            "q": "Im Geschäftsbericht steht: der Vorstand ____ dem Vorschlag zugestimmt.",
+            "why": "Konjunktiv I = Wiedergabe einer fremden Aussage."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bedingung"
+              },
+              {
+                "key": "b",
+                "text": "Mahnung"
+              },
+              {
+                "key": "c",
+                "text": "Frist"
+              }
+            ],
+            "q": "Wenn die Rechnung nicht bezahlt wird, schicken wir eine ____.",
+            "why": "Mahnung = schriftliche Zahlungsaufforderung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle die richtige Option (a, b oder c) für jede Lücke.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "UMSATZ"
+          ],
+          "2": [
+            "GEWINN"
+          ],
+          "3": [
+            "KOSTEN"
+          ],
+          "4": [
+            "INVESTIERT"
+          ],
+          "5": [
+            "AMORTISIEREN"
+          ],
+          "6": [
+            "NACHFRAGE"
+          ],
+          "7": [
+            "KONKURRENZ"
+          ],
+          "8": [
+            "ANGEBOT"
+          ],
+          "9": [
+            "WOLLE"
+          ],
+          "10": [
+            "BETRACHT"
+          ]
+        },
+        "bank": [
+          "UMSATZ",
+          "GEWINN",
+          "KOSTEN",
+          "INVESTIERT",
+          "AMORTISIEREN",
+          "NACHFRAGE",
+          "KONKURRENZ",
+          "ANGEBOT",
+          "WOLLE",
+          "BETRACHT",
+          "VERLUST",
+          "SOLL",
+          "KAPAZITÄTEN",
+          "BILANZ",
+          "FRIST"
+        ],
+        "text": "Aus dem Geschäftsbericht der Hartmann GmbH: Im zweiten Quartal ist der {1} um\n5 % gestiegen. Der {2} ist allerdings um 3 % gesunken. Die {3} haben sich\nverringert, weil das Unternehmen im ersten Quartal stark {4} hat — unter\nanderem in eine neue Produktionshalle. Die Investitionen sollen sich nach\ndrei Jahren {5}. Die {6} nach unseren Produkten ist weiterhin hoch. Die\n{7} aus dem Ausland sei allerdings im Begriff, ihr {8} zu erweitern. Die\nGeschäftsführung {9} die Lieferzeiten verkürzen, um Kunden zu halten.\nEine Dividendenerhöhung sei derzeit nicht in {10} gezogen worden.\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Füll die 10 Lücken mit Wörtern aus dem Kasten. Fünf Wörter sind zu viel. Jedes Wort wird nur einmal benutzt.",
+      "title": "Sprachbausteine Teil 2 (Wortbank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Der Umsatz der Müller AG ist im zweiten Quartal gestiegen.",
+            "why": "„der Umsatz im Vergleich zum Vorjahresquartal um 6,3 Prozent gestiegen\"."
+          },
+          {
+            "answer": false,
+            "q": "Der Gewinn ist ebenfalls gestiegen.",
+            "why": "„Der Gewinn ist allerdings um 4,1 Prozent gesunken\"."
+          },
+          {
+            "answer": true,
+            "q": "Die Müller AG hat in eine neue Produktionshalle investiert.",
+            "why": "„mit hohen Investitionen in eine neue Produktionshalle in Leipzig\"."
+          },
+          {
+            "answer": true,
+            "q": "Laut Bericht ist die Nachfrage in der Baubranche leicht zurückgegangen.",
+            "why": "„in der Baubranche gehe sie leicht zurück\"."
+          },
+          {
+            "answer": false,
+            "q": "Die Mitarbeiterzahl ist von 4 580 auf 4 200 gesunken.",
+            "why": "„Die Mitarbeiterzahl von 4 200 auf 4 580 gestiegen ist\" — sie ist gestiegen, nicht gesunken."
+          },
+          {
+            "answer": true,
+            "q": "Die Konkurrenz aus Polen und Tschechien will ihr Angebot erweitern.",
+            "why": "„Die Konkurrenz aus Polen und Tschechien sei im Begriff, ihr Angebot zu erweitern\"."
+          },
+          {
+            "answer": false,
+            "q": "Eine Dividendenerhöhung ist bereits beschlossen.",
+            "why": "„Eine geplante Dividendenerhöhung sei derzeit nicht in Betracht gezogen worden\"."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Der Stahlbau-Konzern Müller AG hat heute seine Bilanz für das zweite Quartal vorgelegt. Demnach ist der Umsatz im Vergleich zum Vorjahresquartal um 6,3 Prozent gestiegen und liegt jetzt bei 412 Millionen Euro. Der Gewinn ist allerdings um 4,1 Prozent gesunken und beträgt 28 Millionen Euro. Begründet wird die Entwicklung mit hohen Investitionen in eine neue Produktionshalle in Leipzig und in modernere Maschinen.\n> Die Geschäftsführung erklärte, der Konzern **habe** die Weichen für weiteres Wachstum gestellt. Man **werde** die neuen Kapazitäten im dritten Quartal vollständig nutzen. Die Nachfrage in der Automobilbranche **sei** weiterhin hoch, in der Baubranche **gehe** sie leicht zurück. Für das Gesamtjahr **erwarte** das Unternehmen einen Umsatz von 1,7 Milliarden Euro.\n> Aus dem Bericht **geht hervor**, dass die Mitarbeiterzahl von 4 200 auf 4 580 gestiegen ist. Die Kosten für Personal und Material **seien** ebenfalls gestiegen, **lägen** aber im Rahmen der Planung. Die Konkurrenz aus Polen und Tschechien sei im Begriff, ihr Angebot zu erweitern — die Müller AG **müsse** daher auf Qualität und Lieferzeiten **setzen**, um Kunden zu **halten**.\n> Zum Skonto für Großkunden äußerte sich die Geschäftsführung nicht. Eine geplante Dividendenerhöhung sei **derzeit** nicht in Betracht gezogen worden. Die Aktie verlor nach der Bekanntgabe 2,8 Prozent.\n\nRichtig (R) oder falsch (F)?\n",
+      "title": "Lesen Text 1 (Lesetext: Wirtschaftsnachrichten verstehen)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Auf das Angebot vom 7. Juni."
+              },
+              {
+                "key": "b",
+                "text": "Auf einen alten Vertrag."
+              },
+              {
+                "key": "c",
+                "text": "Auf eine Mahnung."
+              }
+            ],
+            "q": "Worauf nimmt Frau Yilmaz zu Beginn Bezug?",
+            "why": "„Ich darf auf Ihr Angebot vom 7. Juni Bezug nehmen\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zehn Wochen."
+              },
+              {
+                "key": "b",
+                "text": "Acht Wochen."
+              },
+              {
+                "key": "c",
+                "text": "Sechs Wochen."
+              }
+            ],
+            "q": "Welche Lieferzeit verlangt Frau Yilmaz?",
+            "why": "„Wir benötigen das Material spätestens nach acht Wochen\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zwei Prozent."
+              },
+              {
+                "key": "b",
+                "text": "Drei Prozent."
+              },
+              {
+                "key": "c",
+                "text": "Fünf Prozent."
+              }
+            ],
+            "q": "Wie viel Skonto verlangt Frau Yilmaz?",
+            "why": "„Bei Zahlung innerhalb von 14 Tagen erwarten wir drei Prozent Skonto\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bis Donnerstag, 18 Uhr."
+              },
+              {
+                "key": "b",
+                "text": "Bis Mittwoch, 12 Uhr."
+              },
+              {
+                "key": "c",
+                "text": "Bis Freitag, 9 Uhr."
+              }
+            ],
+            "q": "Bis wann bittet Frau Yilmaz um Rückmeldung?",
+            "why": "„bis spätestens Donnerstag, 18 Uhr\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Lies die folgende E-Mail und wähle a, b oder c.\n\n> **E-Mail von Frau Yilmaz an die Bauwerk AG, 14. Juni**\n> Sehr geehrte Frau Brandt, ich darf auf Ihr Angebot vom 7. Juni Bezug nehmen.\n> Wir haben die Preise geprüft und möchten gern über zwei Punkte verhandeln.\n> Erstens: Die Lieferzeit von zehn Wochen kommt für unsere Baustelle nicht in\n> Frage. Wir benötigen das Material spätestens nach acht Wochen. Zweitens:\n> Bei Zahlung innerhalb von 14 Tagen erwarten wir drei Prozent Skonto. Eine\n> Vertragsstrafe bei verspäteter Lieferung ist für uns selbstverständlich.\n> Wir bitten um eine kurze Rückmeldung bis spätestens Donnerstag, 18 Uhr.\n> Für Rückfragen stehe ich Ihnen jederzeit zur Verfügung.\n",
+      "title": "Lesen Text 2 (neuer Text: Auszug aus einer Geschäfts-E-Mail)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "der Umsatz"
+          ],
+          "2": [
+            "der Gewinn"
+          ],
+          "3": [
+            "GmbH"
+          ],
+          "4": [
+            "AG"
+          ],
+          "5": [
+            "Skonto"
+          ],
+          "6": [
+            "Mahnung"
+          ],
+          "7": [
+            "um"
+          ],
+          "8": [
+            "in"
+          ],
+          "9": [
+            "habe"
+          ],
+          "10": [
+            "sei"
+          ],
+          "11": [
+            "werde"
+          ],
+          "12": [
+            "treffen"
+          ],
+          "13": [
+            "sei"
+          ],
+          "14": [
+            "die Investition"
+          ],
+          "15": [
+            "das Vorstellungsgespräch"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wirtschaftsbegriff für die gesamten Einnahmen einer Periode: {1}\n2. Wirtschaftsbegriff für Einnahmen minus Kosten: {2}\n3. Kurz für *Gesellschaft mit beschränkter Haftung*: {3}\n4. Kurz für *Aktiengesellschaft*: {4}\n5. Prozentualer Abzug bei schneller Zahlung: {5}\n6. Schriftliche Aufforderung zur Zahlung: {6}\n7. *Der Umsatz ist ____ 8 % gestiegen.* (um / mit) {7}\n8. *Wir wachsen ____ den asiatischen Markt.* (in / auf) {8}\n9. Konjunktiv I von *hat*: {9}\n10. Konjunktiv I von *ist*: {10}\n11. Konjunktiv I von *wird*: {11}\n12. (B2/08) Funktionsverb zu *eine Entscheidung ____*: {12}\n13. (B2/04) *Die Bank ____ mit dem Kredit einverstanden.* (Konjunktiv I): {13}\n14. (B2/01) Nominalisierung von *investieren* (mit Artikel): {14}\n15. (B1/11) Wort für *Verhandlung um einen Arbeitsplatz*: {15}\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Eine Minute pro Item. Keine Notizen. Items mit (B2/xx) bzw. (B1/xx) wiederholen eine frühere Lektion. 15 Items.",
+      "title": "Gemischter Schnelltest"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "Umsatz",
+              "Gewinn",
+              "Verlust",
+              "Skonto"
+            ],
+            "odd": 3,
+            "why": "Skonto ist eine Zahlungsbedingung; Umsatz, Gewinn und Verlust sind Geschäftszahlen."
+          },
+          {
+            "items": [
+              "GmbH",
+              "AG",
+              "KG",
+              "Skonto"
+            ],
+            "odd": 3,
+            "why": "Skonto ist keine Rechtsform; GmbH, AG und KG sind Unternehmensformen."
+          },
+          {
+            "items": [
+              "steigen",
+              "sinken",
+              "wachsen",
+              "liefern"
+            ],
+            "odd": 3,
+            "why": "liefern ist eine konkrete Geschäftshandlung; die anderen drei beschreiben Veränderung von Größen."
+          },
+          {
+            "items": [
+              "Rabatt",
+              "Skonto",
+              "Mahnung",
+              "Bedingung"
+            ],
+            "odd": 2,
+            "why": "Mahnung ist eine schriftliche Aufforderung; Rabatt, Skonto und Bedingung sind Vertragsklauseln."
+          },
+          {
+            "items": [
+              "Kunde",
+              "Lieferant",
+              "Mitarbeiter",
+              "Markt"
+            ],
+            "odd": 3,
+            "why": "Markt ist ein Ort/Begriff; Kunde, Lieferant und Mitarbeiter sind handelnde Personen."
+          },
+          {
+            "items": [
+              "Konjunktiv I",
+              "Konjunktiv II",
+              "Indikativ",
+              "Imperativ"
+            ],
+            "odd": 2,
+            "why": "Indikativ ist die Grundform (Wirklichkeitsform); die anderen drei sind besondere Modi (Wiedergabe, Hypothese, Aufforderung)."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Streiche den Begriff, der nicht in die gleiche Kategorie passt.",
+      "title": "Odd one out"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "entscheiden"
+          ],
+          "2": [
+            "kritisieren"
+          ],
+          "3": [
+            "auf"
+          ],
+          "4": [
+            "könne"
+          ],
+          "5": [
+            "müsse"
+          ],
+          "6": [
+            "die Verhandlung"
+          ],
+          "7": [
+            "Genitiv"
+          ],
+          "8": [
+            "Bewerbung"
+          ],
+          "9": [
+            "Gehaltsforderung"
+          ],
+          "10": [
+            "Arbeitsalltag"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Aus B2/08 (Funktionsverbgefüge):**\n1. Vollverb zu *eine Entscheidung treffen*: {1}\n2. Vollverb zu *Kritik üben an*: {2}\n3. Feste Präposition zu *Bezug nehmen*: {3}\n\n**Aus B2/04 (Konjunktiv I):**\n4. Konjunktiv I von *kann*: {4}\n5. Konjunktiv I von *muss*: {5}\n\n**Aus B2/01 (Nominalstil):**\n6. Nominalisierung von *verhandeln* (mit Artikel): {6}\n7. Präposition *trotz* verlangt welchen Fall? {7}\n\n**Aus B1/11 (Arbeitswelt):**\n8. Was schickt man, wenn man sich bewirbt? (ein Wort) {8}\n9. Was sagt man, wenn man das Gehalt verhandelt? (eine feste Wendung mit „Forderung\") {9}\n10. Wort für *Berufsalltag*: {10}\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Wiederholung früherer Lektionen. 10 Items.",
+      "title": "Rückblick: B2/08, B2/04, B2/01, B1/11"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "der Umsatz"
+          ],
+          "2": [
+            "der Gewinn"
+          ],
+          "3": [
+            "Verlust"
+          ],
+          "4": [
+            "Skonto"
+          ],
+          "5": [
+            "habe"
+          ],
+          "6": [
+            "sei"
+          ],
+          "7": [
+            "werde"
+          ],
+          "8": [
+            "um"
+          ],
+          "9": [
+            "in"
+          ],
+          "10": [
+            "geehrte"
+          ],
+          "11": [
+            "Rückfragen"
+          ],
+          "12": [
+            "Donnerstag"
+          ],
+          "13": [
+            "Der Vorstand habe zugestimmt."
+          ],
+          "14": [
+            "Die Bank sei einverstanden."
+          ],
+          "15": [
+            "der Umsatz"
+          ],
+          "16": [
+            "der Gewinn"
+          ],
+          "17": [
+            "berücksichtigen"
+          ],
+          "18": [
+            "die Investition"
+          ],
+          "19": [
+            "werde"
+          ],
+          "20": [
+            "das Vorstellungsgespräch"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Wirtschaftsbegriffe:**\n1. Gesamte Einnahmen einer Periode: {1}\n2. Einnahmen minus Kosten: {2}\n3. Negative Variante von Gewinn: {3}\n4. Prozentualer Abzug bei schneller Zahlung: {4}\n\n**Konjunktiv I im Geschäftsbericht:**\n5. *Der Vorstand ____ dem Vorschlag zugestimmt.*: {5}\n6. *Die Bank ____ mit dem Kredit einverstanden.*: {6}\n7. *Der Lieferant ____ die Frist verkürzen.*: {7}\n\n**Geschäftszahlen versprachlichen:**\n8. *Der Umsatz ist ____ 8 % gestiegen.* (um / mit) {8}\n9. *Wir wachsen ____ den asiatischen Markt.* (in / auf) {9}\n\n**Formelle E-Mail:**\n10. Korrekte Anrede: *Sehr ____ Frau Yilmaz,* (geehrte / liebe) {10}\n11. Schlussformel: *Für ____ stehe ich Ihnen zur Verfügung.* {11}\n12. Konkrete Frist: *bis spätestens ____, 18 Uhr* {12}\n\n**Umformen (Indikativ → Konjunktiv I):**\n13. *Der Vorstand hat zugestimmt.* → {13}\n14. *Die Bank ist einverstanden.* → {14}\n\n**Wirtschaftsnachricht verstehen:**\n15. *Der Umsatz ist um 6,3 % gestiegen.* — Was ist gestiegen? {15}\n16. *Der Gewinn ist um 4,1 % gesunken.* — Was ist gesunken? {16}\n\n**Gemischtes / Wiederholung:**\n17. (B2/08) Vollverb zu *in Betracht ziehen*: {17}\n18. (B2/01) Nominalisierung von *investieren* (mit Artikel): {18}\n19. (B2/04) Konjunktiv I von *wird*: {19}\n20. (B1/11) Wort für *Gespräch zwischen Arbeitgeber und Bewerber*: {20}\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (bewerte dich /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "b2-11",
+  "intro": "Blöcke: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Die Lösungen findest du in solutions.md. Tipp: Verteil die Blöcke über mehrere Tage — H und A am Tag 1, B am Tag 2, C am Tag 3, D am Tag 4 nach einer Pause.\n",
+  "lesson": "B2/11",
+  "level": "B2",
+  "summary": null,
+  "title": "B2 · Lektion 11 — Übungen (Wirtschaft und Arbeitswelt)",
+  "topic": null
+}

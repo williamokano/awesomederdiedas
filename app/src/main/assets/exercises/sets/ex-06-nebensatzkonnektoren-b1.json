@@ -1,0 +1,784 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Nebensatzkonnektor: Verb (regnet) am Ende des Nebensatzes; Hauptsatz beginnt mit dem Verb (gehe).",
+            "tiles": [
+              "Obwohl",
+              "es",
+              "regnet,",
+              "gehe",
+              "ich",
+              "raus."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "trotzdem ist ein Adverb: eigener Satz, Verb bleibt an Position 2 (gehe ich, nicht ich gehe).",
+            "tiles": [
+              "Es regnet.",
+              "Trotzdem",
+              "gehe",
+              "ich",
+              "raus."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "trotzdem kann auch mitten im Satz stehen — die Wortstellung ändert sich dann nicht.",
+            "tiles": [
+              "Ich bin müde,",
+              "aber",
+              "ich",
+              "gehe",
+              "trotzdem",
+              "zur Arbeit."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "deshalb an Position 1: Verb (kommt) direkt danach, Subjekt (er) danach.",
+            "tiles": [
+              "Er hat keine Zeit,",
+              "deshalb",
+              "kommt",
+              "er",
+              "nicht."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Obwohl er müde war, hat er weitergearbeitet.",
+            "tiles": [
+              "Obwohl",
+              "er",
+              "müde",
+              "war,",
+              "hat",
+              "er",
+              "weitergearbeitet."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Sie hat die Prüfung nicht bestanden, obwohl sie viel gelernt hat.",
+            "tiles": [
+              "Sie hat die Prüfung nicht bestanden,",
+              "obwohl",
+              "sie",
+              "viel",
+              "gelernt hat."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A1",
+      "instructions": "Put the tiles in the correct order — obwohl sends the verb to the end; trotzdem/deshalb keep normal Verb-Zweit order.",
+      "title": "obwohl (Nebensatz) vs. trotzdem/deshalb (Adverb)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "um"
+          ],
+          "2": [
+            "damit"
+          ],
+          "3": [
+            "um"
+          ],
+          "4": [
+            "damit"
+          ],
+          "5": [
+            "um"
+          ],
+          "6": [
+            "damit"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich lerne Deutsch, {1} einen guten Job zu finden.\n2. Die Lehrerin spricht langsam, {2} die Schüler sie verstehen können.\n3. Ich spare Geld, {3} eine Reise zu machen.\n4. Er schreibt eine E-Mail, {4} seine Kollegin Bescheid weiß.\n5. Wir üben jeden Tag, {5} die Prüfung zu bestehen.\n6. Die Eltern sparen, {6} ihre Kinder studieren können.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze damit oder um. Gleiches Subjekt in beiden Sätzen → um … zu. Verschiedene Subjekte → damit.",
+      "instructionsEn": "Fill in damit or um. Same subject in both clauses -> um ... zu. Different subjects -> damit.",
+      "title": "damit oder um … zu?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "obwohl"
+          ],
+          "2": [
+            "Trotzdem"
+          ],
+          "3": [
+            "Deshalb"
+          ],
+          "4": [
+            "Trotzdem"
+          ],
+          "5": [
+            "denn"
+          ],
+          "6": [
+            "Deshalb"
+          ],
+          "7": [
+            "weil"
+          ],
+          "8": [
+            "obwohl"
+          ]
+        },
+        "bank": [
+          "obwohl",
+          "Trotzdem",
+          "Deshalb",
+          "Trotzdem",
+          "denn",
+          "Deshalb",
+          "weil",
+          "obwohl",
+          "damit",
+          "um"
+        ],
+        "text": "Anna hat heute frei, {1} sie ins Büro geht. Sie hat noch viel\nArbeit. {2} bleibt sie nicht zu Hause. Ihr Projekt ist fast\nfertig. {3} möchte sie es heute abschließen. Ihr Chef hat gesagt,\nsie solle sich ausruhen. {4} arbeitet Anna weiter. Sie ist müde,\n{5} sie hat keine Pause gemacht. Am Abend ist sie erschöpft. {6}\ngeht sie früh ins Bett. Am nächsten Tag fühlt sie sich besser,\n{7} sie gut geschlafen hat. Sie ist stolz auf sich, {8} die\nArbeit anstrengend war.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Annas Arbeitstag"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "ob"
+              },
+              {
+                "key": "b",
+                "text": "wo"
+              },
+              {
+                "key": "c",
+                "text": "was"
+              }
+            ],
+            "q": "Ich weiß nicht, ___ er heute kommt.",
+            "why": "Ja/Nein-Frage → ob."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ob"
+              },
+              {
+                "key": "b",
+                "text": "wo"
+              },
+              {
+                "key": "c",
+                "text": "dass"
+              }
+            ],
+            "q": "Kannst du mir sagen, ___ der Bahnhof ist?",
+            "why": "Frage nach dem Ort → wo."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ob"
+              },
+              {
+                "key": "b",
+                "text": "was"
+              },
+              {
+                "key": "c",
+                "text": "wo"
+              }
+            ],
+            "q": "Ich frage mich, ___ das kostet.",
+            "why": "Frage nach der Sache → was."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ob"
+              },
+              {
+                "key": "b",
+                "text": "wann"
+              },
+              {
+                "key": "c",
+                "text": "was"
+              }
+            ],
+            "q": "Weißt du, ___ der Film beginnt?",
+            "why": "Frage nach der Zeit → wann."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "ob"
+              },
+              {
+                "key": "b",
+                "text": "wer"
+              },
+              {
+                "key": "c",
+                "text": "wie"
+              }
+            ],
+            "q": "Ich bin nicht sicher, ___ das die richtige Antwort ist.",
+            "why": "Ja/Nein-Frage → ob."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ob"
+              },
+              {
+                "key": "b",
+                "text": "wer"
+              },
+              {
+                "key": "c",
+                "text": "was"
+              }
+            ],
+            "q": "Sie fragt, ___ dieses Buch geschrieben hat.",
+            "why": "Frage nach der Person → wer."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle das richtige Fragewort (a, b oder c).",
+      "instructionsEn": "Choose the correct question word (a, b, or c).",
+      "title": "Indirekte Fragen: ob oder W-Wort?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "obwohl"
+              },
+              {
+                "key": "b",
+                "text": "trotzdem"
+              },
+              {
+                "key": "c",
+                "text": "deshalb"
+              }
+            ],
+            "q": "Lisa läuft einen Marathon, ___ sie noch nie zuvor gelaufen ist.",
+            "why": "obwohl ist ein Nebensatzkonnektor (Konzession)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Obwohl"
+              },
+              {
+                "key": "b",
+                "text": "Trotzdem"
+              },
+              {
+                "key": "c",
+                "text": "Deshalb"
+              }
+            ],
+            "q": "Sie hat wenig trainiert. ___ startet sie trotzdem.",
+            "why": "trotzdem als Adverb, eigener Satz, Verb an Position 2."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Obwohl"
+              },
+              {
+                "key": "b",
+                "text": "Trotzdem"
+              },
+              {
+                "key": "c",
+                "text": "Deshalb"
+              }
+            ],
+            "q": "Ihre Beine schmerzen schon nach fünf Kilometern. ___ läuft sie weiter.",
+            "why": "trotzdem als Adverb."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "weil"
+              },
+              {
+                "key": "b",
+                "text": "trotzdem"
+              },
+              {
+                "key": "c",
+                "text": "deshalb"
+              }
+            ],
+            "q": "Sie hat sich gut vorbereitet, ___ sie eine Trainerin hatte.",
+            "why": "Grund → weil."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "aber"
+              },
+              {
+                "key": "b",
+                "text": "trotzdem"
+              },
+              {
+                "key": "c",
+                "text": "obwohl"
+              }
+            ],
+            "q": "Am Ziel ist sie erschöpft, ___ glücklich.",
+            "why": "aber verbindet zwei Adjektive ohne Wortstellungsänderung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Obwohl"
+              },
+              {
+                "key": "b",
+                "text": "Trotzdem"
+              },
+              {
+                "key": "c",
+                "text": "Deshalb"
+              }
+            ],
+            "q": "Ihre Familie ist stolz auf sie. ___ feiern sie zusammen.",
+            "why": "deshalb als Adverb (Folge)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "obwohl"
+              },
+              {
+                "key": "b",
+                "text": "deshalb"
+              },
+              {
+                "key": "c",
+                "text": "trotzdem"
+              }
+            ],
+            "q": "Sie will nächstes Jahr wieder starten, ___ der Marathon anstrengend war.",
+            "why": "obwohl ist ein Nebensatzkonnektor (Konzession)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Obwohl"
+              },
+              {
+                "key": "b",
+                "text": "Trotzdem"
+              },
+              {
+                "key": "c",
+                "text": "Deshalb"
+              }
+            ],
+            "q": "Sie hat ihr Ziel erreicht. ___ ist sie zufrieden.",
+            "why": "deshalb als Adverb (Folge)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct connector for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Der Marathon"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "OB"
+          ],
+          "2": [
+            "UM"
+          ],
+          "3": [
+            "TROTZDEM"
+          ],
+          "4": [
+            "DAMIT"
+          ],
+          "5": [
+            "WANN"
+          ],
+          "6": [
+            "WEIL"
+          ],
+          "7": [
+            "OB"
+          ],
+          "8": [
+            "DESHALB"
+          ],
+          "9": [
+            "UM"
+          ],
+          "10": [
+            "OBWOHL"
+          ]
+        },
+        "bank": [
+          "OB",
+          "UM",
+          "TROTZDEM",
+          "DAMIT",
+          "WANN",
+          "WEIL",
+          "OB",
+          "DESHALB",
+          "UM",
+          "OBWOHL",
+          "WENN",
+          "DASS",
+          "WO"
+        ],
+        "text": "Der Journalist fragt den Sportler, {1} er nervös vor dem Spiel\nist. Der Sportler trainiert jeden Tag, {2} fit zu bleiben. Er hat\nsich verletzt. {3} spielt er weiter. Sein Trainer ruft ihn oft\nan, {4} er motiviert bleibt. Der Journalist möchte wissen, {5}\ndas Spiel beginnt. Der Sportler ist selbstbewusst, {6} er weiß,\ndass das Team stark ist. Die Fans fragen sich, {7} das Team\ngewinnen wird. Das Spiel ist wichtig. {8} bereiten sich alle\nintensiv vor. Der Sportler übt hart, {9} seine Technik zu\nverbessern. Er ist müde, {10} er trainiert weiter.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Three words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Ein Interview (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Obwohl es kalt ist, gehen wir schwimmen.",
+            "tiles": [
+              "Obwohl",
+              "es",
+              "kalt",
+              "ist,",
+              "gehen",
+              "wir",
+              "schwimmen."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Es ist kalt. Trotzdem gehen wir schwimmen.",
+            "tiles": [
+              "Es ist kalt.",
+              "Trotzdem",
+              "gehen",
+              "wir",
+              "schwimmen."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Wir haben keine Zeit, deshalb bleiben wir hier.",
+            "tiles": [
+              "Wir haben keine Zeit,",
+              "deshalb",
+              "bleiben",
+              "wir",
+              "hier."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Ich lerne jeden Tag, um die Prüfung zu bestehen.",
+            "tiles": [
+              "Ich lerne jeden Tag,",
+              "um",
+              "die Prüfung",
+              "zu bestehen."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Sie ruft an, damit wir Bescheid wissen.",
+            "tiles": [
+              "Sie ruft an,",
+              "damit",
+              "wir",
+              "Bescheid",
+              "wissen."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "D1",
+      "instructions": "Put the tiles in the correct order.",
+      "title": "Wiederholung: Satzbau"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Obwohl"
+              },
+              {
+                "key": "b",
+                "text": "Trotzdem"
+              },
+              {
+                "key": "c",
+                "text": "Deshalb"
+              }
+            ],
+            "q": "___ es regnet, spielen die Kinder draußen.",
+            "why": "Nebensatzkonnektor → Obwohl."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Obwohl"
+              },
+              {
+                "key": "b",
+                "text": "Trotzdem"
+              },
+              {
+                "key": "c",
+                "text": "Deshalb"
+              }
+            ],
+            "q": "Es regnet. ___ spielen die Kinder draußen.",
+            "why": "Adverb, eigener Satz → Trotzdem."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Obwohl"
+              },
+              {
+                "key": "b",
+                "text": "Trotzdem"
+              },
+              {
+                "key": "c",
+                "text": "Deshalb"
+              }
+            ],
+            "q": "Ich bin krank. ___ bleibe ich zu Hause.",
+            "why": "Folge → Deshalb."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "um"
+              },
+              {
+                "key": "b",
+                "text": "damit"
+              },
+              {
+                "key": "c",
+                "text": "obwohl"
+              }
+            ],
+            "q": "Meine Mutter ruft an, ___ ich Bescheid weiß.",
+            "why": "Verschiedene Subjekte (meine Mutter / ich) → damit mit eigenem Verb, kein Infinitiv möglich."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "um"
+              },
+              {
+                "key": "b",
+                "text": "damit"
+              },
+              {
+                "key": "c",
+                "text": "obwohl"
+              }
+            ],
+            "q": "Ich lese viel, ___ mein Deutsch zu verbessern.",
+            "why": "Gleiches Subjekt, Infinitiv → um … zu."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ob"
+              },
+              {
+                "key": "b",
+                "text": "was"
+              },
+              {
+                "key": "c",
+                "text": "dass"
+              }
+            ],
+            "q": "Weißt du, ___ das kostet?",
+            "why": "Frage nach der Sache → was."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct connector (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-06-nebensatzkonnektoren-b1",
+  "intro": "Standalone drill set, not tied to any lesson. The key B1 trap: obwohl is a Nebensatzkonnektor (verb-final: \"obwohl es regnet, gehe ich raus\"), but trotzdem and deshalb are ADVERBS — they start their own clause with normal Verb-Zweit order (\"Es regnet. Trotzdem gehe ich raus\" — not \"trotzdem ich gehe\"). Also: damit (different subjects) vs. um … zu (same subject, infinitive, no conjugated verb), and indirect questions with ob (yes/no) or a W-word (wo, was, wann, wer …). Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/06-nebensatzkonnektoren-b1",
+  "level": "B1",
+  "summary": null,
+  "title": "obwohl/trotzdem/deshalb, damit/um … zu, indirekte Fragen — B1",
+  "topic": "Nebensatzkonnektoren"
+}

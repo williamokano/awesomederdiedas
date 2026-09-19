@@ -1,0 +1,832 @@
+{
+  "category": "Geld & Verträge",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "vergleichen",
+            "label": "Vergleichen"
+          },
+          {
+            "key": "wechseln",
+            "label": "Wechseln"
+          },
+          {
+            "key": "danach",
+            "label": "Nach dem Wechsel"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "vergleichen",
+            "text": "Tarife online vergleichen"
+          },
+          {
+            "bucket": "vergleichen",
+            "text": "den Grundpreis prüfen"
+          },
+          {
+            "bucket": "vergleichen",
+            "text": "den Arbeitspreis vergleichen"
+          },
+          {
+            "bucket": "vergleichen",
+            "text": "Bewertungen lesen"
+          },
+          {
+            "bucket": "wechseln",
+            "text": "den neuen Anbieter auswählen"
+          },
+          {
+            "bucket": "wechseln",
+            "text": "die Kündigungsfrist beachten"
+          },
+          {
+            "bucket": "wechseln",
+            "text": "den Anbieterwechsel beantragen"
+          },
+          {
+            "bucket": "wechseln",
+            "text": "den Zählerstand ablesen"
+          },
+          {
+            "bucket": "danach",
+            "text": "die Kündigungsbestätigung erhalten"
+          },
+          {
+            "bucket": "danach",
+            "text": "die erste Rechnung prüfen"
+          },
+          {
+            "bucket": "danach",
+            "text": "den Zählerstand erneut übermitteln"
+          },
+          {
+            "bucket": "danach",
+            "text": "sich über die Ersparnis freuen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Vergleichen, wechseln oder danach?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Stromanbieter"
+          },
+          {
+            "key": "2",
+            "text": "der Tarif"
+          },
+          {
+            "key": "3",
+            "text": "der Zählerstand"
+          },
+          {
+            "key": "4",
+            "text": "die Kündigungsfrist"
+          },
+          {
+            "key": "5",
+            "text": "der Grundpreis"
+          },
+          {
+            "key": "6",
+            "text": "der Arbeitspreis"
+          },
+          {
+            "key": "7",
+            "text": "der Anbieterwechsel"
+          },
+          {
+            "key": "8",
+            "text": "die Kündigungsbestätigung"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die Firma, die den Strom liefert"
+          },
+          {
+            "key": "b",
+            "text": "das Preismodell für den Stromverbrauch"
+          },
+          {
+            "key": "c",
+            "text": "die Zahl auf dem Stromzähler"
+          },
+          {
+            "key": "d",
+            "text": "der Zeitraum vor dem Wechsel, den man einhalten muss"
+          },
+          {
+            "key": "e",
+            "text": "der feste monatliche Betrag, unabhängig vom Verbrauch"
+          },
+          {
+            "key": "f",
+            "text": "der Preis pro Kilowattstunde"
+          },
+          {
+            "key": "g",
+            "text": "der Wechsel von einem Stromanbieter zu einem anderen"
+          },
+          {
+            "key": "h",
+            "text": "die schriftliche Bestätigung der Kündigung"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "müssen"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Müssen"
+          ],
+          "5": [
+            "verläuft"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Kann"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir {1} die Tarife erst vergleichen. (Modalverb, wir-Form)\n2. {2} Sie mir den aktuellen Zählerstand mitteilen? (können, Sie-Form)\n3. Ich {3} schon den neuen Vertrag unterschrieben. (haben, Perfekt)\n4. {4} wir die Kündigungsfrist beachten? (müssen, wir-Form)\n5. Falls der Wechsel reibungslos {5}, sparen wir viel Geld. (verlaufen, Präsens)\n6. Der neue Anbieter {6} sich um die Kündigung beim alten kümmern. (werden, Futur I)\n7. Wir {7} schon den Zählerstand übermittelt. (haben, Perfekt)\n8. {8} ich den Wechsel online beantragen? (können, ich-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Den Wechsel planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Stromanbieter"
+          ],
+          "2": [
+            "Tarif"
+          ],
+          "3": [
+            "Zählerstand"
+          ],
+          "4": [
+            "Kündigungsfrist"
+          ],
+          "5": [
+            "Grundpreis"
+          ],
+          "6": [
+            "Arbeitspreis"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Bevor wir wechseln, vergleichen wir mehrere {1}. (die Firma, die den Strom liefert)\n2. Wir suchen den günstigsten {2} für unseren Verbrauch. (das Preismodell für den Stromverbrauch)\n3. Für den Wechsel brauchen wir den aktuellen {3}. (die Zahl auf dem Stromzähler)\n4. Beim alten Anbieter müssen wir die {4} einhalten. (der Zeitraum vor dem Wechsel)\n5. Neben dem Arbeitspreis zahlen wir auch einen monatlichen {5}. (der feste monatliche Betrag)\n6. Der Preis pro Kilowattstunde heißt {6}. (der Preis pro Kilowattstunde)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "TARIF"
+          ],
+          "2": [
+            "STROMANBIETER"
+          ],
+          "3": [
+            "ARBEITSPREIS"
+          ],
+          "4": [
+            "GRUNDPREIS"
+          ],
+          "5": [
+            "KÜNDIGUNGSFRIST"
+          ],
+          "6": [
+            "ANBIETERWECHSEL"
+          ],
+          "7": [
+            "ZÄHLERSTAND"
+          ],
+          "8": [
+            "KÜNDIGUNGSBESTÄTIGUNG"
+          ],
+          "9": [
+            "FREUE"
+          ],
+          "10": [
+            "PREIS"
+          ]
+        },
+        "bank": [
+          "TARIF",
+          "STROMANBIETER",
+          "ARBEITSPREIS",
+          "GRUNDPREIS",
+          "KÜNDIGUNGSFRIST",
+          "ANBIETERWECHSEL",
+          "ZÄHLERSTAND",
+          "KÜNDIGUNGSBESTÄTIGUNG",
+          "FREUE",
+          "PREIS",
+          "ÖKOSTROM",
+          "VERTRAGSLAUFZEIT",
+          "ABSCHLAG",
+          "JAHRESVERBRAUCH"
+        ],
+        "text": "— Hast du schon einen günstigeren {1} gefunden?\n— Ja, ein anderer {2} bietet einen viel niedrigeren {3} pro\nKilowattstunde.\n— Und wie hoch ist der {4} dort?\n— Nur 8 Euro im Monat, das ist echt günstig.\n— Perfekt, dann sollten wir wechseln. Müssen wir die {5} beim\nalten Anbieter beachten?\n— Ja, die beträgt normalerweise sechs Wochen, aber der neue\nAnbieter kümmert sich um den {6}.\n— Gut, brauchen die auch unseren aktuellen {7}?\n— Ja, den müssen wir online eingeben.\n— Alles klar, ich mache das gleich. Und wann bekommen wir die\n{8}?\n— Die kommt meistens innerhalb weniger Tage per E-Mail.\n— Super, dann {9} ich mich schon auf die Ersparnis.\n— Ich auch, endlich ein fairer {10}!\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Tarife vergleichen und wechseln"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Tarife interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Hast du schon einen günstigeren Tarif gefunden?"
+              },
+              {
+                "key": "c",
+                "text": "Ich zahle sowieso, was verlangt wird."
+              }
+            ],
+            "q": "Du möchtest wissen, ob dein Mitbewohner einen günstigeren Tarif gefunden hat. — You want to know whether your roommate found a cheaper rate.",
+            "why": "Eine direkte Frage klärt sofort, ob es schon einen besseren Tarif gibt."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Preise sind mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Ich vergleiche sowieso nie."
+              },
+              {
+                "key": "c",
+                "text": "Wie hoch ist der Arbeitspreis pro Kilowattstunde bei Ihnen?"
+              }
+            ],
+            "q": "Du möchtest den Arbeitspreis zweier Anbieter vergleichen. — You want to compare the usage price of two providers.",
+            "why": "Eine konkrete Frage zum Arbeitspreis ermöglicht einen genauen Vergleich."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Müssen wir die Kündigungsfrist beim alten Anbieter beachten?"
+              },
+              {
+                "key": "b",
+                "text": "Fristen interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Ich kündige einfach, wann ich will."
+              }
+            ],
+            "q": "Du möchtest wissen, ob du die Kündigungsfrist beim alten Anbieter beachten musst. — You want to know whether you need to observe the notice period with the old provider.",
+            "why": "Eine direkte Frage zur Kündigungsfrist vermeidet spätere Probleme."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zählerstände interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich gebe den aktuellen Zählerstand gleich online ein."
+              },
+              {
+                "key": "c",
+                "text": "Den Zählerstand rate ich einfach."
+              }
+            ],
+            "q": "Du möchtest den aktuellen Zählerstand übermitteln. — You want to submit the current meter reading.",
+            "why": "Ein genau übermittelter Zählerstand sorgt für eine korrekte Abrechnung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bestätigungen interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich warte einfach unbegrenzt."
+              },
+              {
+                "key": "c",
+                "text": "Wann bekommen wir die Kündigungsbestätigung?"
+              }
+            ],
+            "q": "Du möchtest wissen, wann die Kündigungsbestätigung kommt. — You want to know when the cancellation confirmation will arrive.",
+            "why": "Eine direkte Frage klärt, wann man die schriftliche Bestätigung erwarten kann."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Endlich ein fairer Preis, ich freue mich schon auf die Ersparnis!"
+              },
+              {
+                "key": "b",
+                "text": "Das war doch nichts Besonderes."
+              },
+              {
+                "key": "c",
+                "text": "Ersparnis interessiert mich nicht."
+              }
+            ],
+            "q": "Der Wechsel ist erfolgreich abgeschlossen. — The switch has been successfully completed.",
+            "why": "Eine erfreute Reaktion passt zum erfolgreichen Abschluss des Anbieterwechsels."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Vergleichen und Wechseln"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Ja/Nein-Frage im Perfekt",
+            "tiles": [
+              "Hast",
+              "du",
+              "schon",
+              "einen",
+              "günstigeren",
+              "Tarif",
+              "gefunden",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "W-Frage mit sein",
+            "tiles": [
+              "Wie",
+              "hoch",
+              "ist",
+              "der",
+              "Arbeitspreis",
+              "bei",
+              "Ihnen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Frage mit Modalverb, Infinitiv am Ende",
+            "tiles": [
+              "Müssen",
+              "wir",
+              "die",
+              "Kündigungsfrist",
+              "beachten",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Nebensatz mit falls, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "der",
+              "Wechsel",
+              "reibungslos",
+              "verläuft",
+              ",",
+              "sparen",
+              "wir",
+              "viel",
+              "Geld"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "trennbares Verb, Präfix am Ende",
+            "tiles": [
+              "Ich",
+              "gebe",
+              "den",
+              "aktuellen",
+              "Zählerstand",
+              "online",
+              "ein"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Wir",
+              "haben",
+              "schon",
+              "den",
+              "Zählerstand",
+              "übermittelt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zum Anbieterwechsel bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Die Kündigungsfrist beträgt meist sechs Wochen zum Ende der Vertragslaufzeit. — The notice period is usually six weeks before the contract ends.",
+            "why": "So steht es ausdrücklich in den Wechsel-Infos."
+          },
+          {
+            "answer": false,
+            "q": "Man muss die Kündigung beim alten Anbieter immer komplett selbst erledigen. — You must always handle the cancellation with the old provider entirely yourself.",
+            "why": "Der neue Anbieter kümmert sich meist automatisch darum, nicht man selbst komplett."
+          },
+          {
+            "answer": true,
+            "q": "Der Zählerstand sollte beim Wechsel selbst abgelesen und übermittelt werden. — The meter reading should be read and submitted right at the time of the switch.",
+            "why": "„Zählerstand: sollte beim Wechsel selbst abgelesen und übermittelt werden.“"
+          },
+          {
+            "answer": false,
+            "q": "Beim Anbieterwechsel kann es zu einer kompletten Versorgungslücke ohne Strom kommen. — Switching providers can lead to a complete gap in power supply.",
+            "why": "Eine Versorgungslücke ist gesetzlich ausgeschlossen, der Strom fließt immer weiter."
+          },
+          {
+            "answer": true,
+            "q": "Kommt kein neuer Vertrag zustande, greift automatisch die Grundversorgung. — If no new contract is arranged, basic supply kicks in automatically.",
+            "why": "„Grundversorgung: greift automatisch, falls kein neuer Vertrag zustande kommt.“"
+          },
+          {
+            "answer": false,
+            "q": "Die Kündigungsbestätigung kommt normalerweise erst nach mehreren Monaten. — The cancellation confirmation usually only arrives after several months.",
+            "why": "Sie kommt meist innerhalb weniger Tage, nicht erst nach Monaten."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Stromanbieter wechseln**\n>\n> - **Kündigungsfrist:** meist **sechs Wochen** zum Ende der\n>   Vertragslaufzeit.\n> - **Anbieterwechsel:** der neue Anbieter kümmert sich meist\n>   **automatisch** um die Kündigung beim alten.\n> - **Zählerstand:** sollte **beim Wechsel selbst** abgelesen\n>   und übermittelt werden.\n> - **Versorgungslücke:** ist gesetzlich **ausgeschlossen**,\n>   der Strom fließt immer weiter.\n> - **Grundversorgung:** greift automatisch, falls **kein\n>   neuer Vertrag** zustande kommt.\n> - **Kündigungsbestätigung:** kommt meist **innerhalb\n>   weniger Tage** per E-Mail oder Post.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Wechsel-Infos lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach abwarten, ohne nachzufragen."
+              },
+              {
+                "key": "b",
+                "text": "Sofort selbst beim alten Anbieter nachfragen und die Kündigung sichern."
+              },
+              {
+                "key": "c",
+                "text": "Den neuen Vertrag sofort wieder kündigen, ohne nachzufragen."
+              }
+            ],
+            "q": "Der neue Anbieter kündigt nicht rechtzeitig beim alten. — The new provider doesn't cancel with the old one in time.",
+            "why": "Eine eigene Nachfrage stellt sicher, dass die Kündigung tatsächlich erfolgt."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den falschen Zählerstand einfach akzeptieren."
+              },
+              {
+                "key": "b",
+                "text": "Nichts unternehmen und abwarten."
+              },
+              {
+                "key": "c",
+                "text": "Den Zählerstand mit einem Foto als Beweis nachreichen."
+              }
+            ],
+            "q": "Der übermittelte Zählerstand wurde falsch erfasst. — The submitted meter reading was recorded incorrectly.",
+            "why": "Ein Foto als Beweis klärt schnell, welcher Zählerstand korrekt ist."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Tarif mit dem ursprünglichen Angebot vergleichen und nachfragen."
+              },
+              {
+                "key": "b",
+                "text": "Die hohe Rechnung kommentarlos bezahlen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort den Vertrag fristlos kündigen, ohne nachzufragen."
+              }
+            ],
+            "q": "Die erste Rechnung des neuen Anbieters ist viel höher als vereinbart. — The new provider's first bill is much higher than agreed.",
+            "why": "Ein Vergleich mit dem ursprünglichen Angebot klärt, ob ein Fehler vorliegt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach weiterzahlen, ohne etwas zu sagen."
+              },
+              {
+                "key": "b",
+                "text": "Die Kündigungsbestätigung als Beweis vorlegen."
+              },
+              {
+                "key": "c",
+                "text": "Den alten Anbieter komplett ignorieren."
+              }
+            ],
+            "q": "Der alte Anbieter verlangt trotz Kündigung weiter Geld. — The old provider keeps demanding payment despite the cancellation.",
+            "why": "Die Kündigungsbestätigung ist der eindeutige Beweis, dass der Vertrag beendet ist."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach endlos weiter warten, ohne nachzufragen."
+              },
+              {
+                "key": "b",
+                "text": "Den Wechsel für gescheitert erklären."
+              },
+              {
+                "key": "c",
+                "text": "Höflich beim neuen Anbieter nach dem Status nachfragen."
+              }
+            ],
+            "q": "Die Kündigungsbestätigung kommt nicht an. — The cancellation confirmation doesn't arrive.",
+            "why": "Eine Nachfrage beim neuen Anbieter klärt schnell den aktuellen Stand."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Verträge in Ruhe vergleichen und gegebenenfalls innerhalb der Frist erneut wechseln."
+              },
+              {
+                "key": "b",
+                "text": "Sich einfach damit abfinden, ohne zu vergleichen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort kündigen, ohne die Fristen zu prüfen."
+              }
+            ],
+            "q": "Man merkt erst nach dem Wechsel, dass der neue Tarif doch nicht günstiger ist. — Only after switching do you notice the new rate isn't actually cheaper.",
+            "why": "Ein ruhiger Vergleich zeigt, ob ein erneuter Wechsel innerhalb der Frist sinnvoll ist."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn beim Anbieterwechsel etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "gekündigt"
+          ],
+          "2": [
+            "aufgenommen"
+          ],
+          "3": [
+            "höher"
+          ],
+          "4": [
+            "verlangt"
+          ],
+          "5": [
+            "angekommen"
+          ],
+          "6": [
+            "verglichen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der neue Anbieter hat nicht rechtzeitig {1}. (nicht gekündigt, Partizip)\n2. Der Zählerstand wurde falsch {2}. (aufgenommen, Partizip)\n3. Die erste Rechnung war viel {3} als vereinbart. (mehr kostend)\n4. Der alte Anbieter hat trotz Kündigung weiter Geld {4}. (gefordert, Partizip)\n5. Die Kündigungsbestätigung ist nie {5}. (dort eingetroffen, Partizip)\n6. Wir haben die Verträge noch einmal in Ruhe {6}. (gegenübergestellt, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "müssen"
+          ],
+          "2": [
+            "Könnten"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Stromanbieter"
+          ],
+          "5": [
+            "Tarif"
+          ],
+          "6": [
+            "Zählerstand"
+          ],
+          "7": [
+            "Kündigungsfrist"
+          ],
+          "8": [
+            "Grundpreis"
+          ],
+          "9": [
+            "Arbeitspreis"
+          ],
+          "10": [
+            "gekündigt"
+          ],
+          "11": [
+            "aufgenommen"
+          ],
+          "12": [
+            "höher"
+          ],
+          "13": [
+            "verlangt"
+          ],
+          "14": [
+            "angekommen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir {1} die Tarife erst vergleichen. (must)\n2. {2} Sie mir den Zählerstand mitteilen? (could — können)\n3. Ich {3} schon den neuen Vertrag unterschrieben. (have — Perfekt)\n4. Bevor wir wechseln, vergleichen wir mehrere {4}. (energy providers)\n5. Wir suchen den günstigsten {5} für unseren Verbrauch. (rate plan)\n6. Für den Wechsel brauchen wir den aktuellen {6}. (meter reading)\n7. Beim alten Anbieter müssen wir die {7} einhalten. (notice period)\n8. Neben dem Arbeitspreis zahlen wir einen monatlichen {8}. (base fee)\n9. Der Preis pro Kilowattstunde heißt {9}. (usage price)\n10. Der neue Anbieter hat nicht rechtzeitig {10}. (cancelled — Partizip)\n11. Der Zählerstand wurde falsch {11}. (recorded — Partizip)\n12. Die erste Rechnung war viel {12}. (higher)\n13. Der alte Anbieter hat trotz Kündigung weiter Geld {13}. (demanded — Partizip)\n14. Die Kündigungsbestätigung ist nie {14}. (arrived — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-74-stromanbieter-wechseln-a2",
+  "intro": "Ein günstigerer Stromtarif lohnt sich oft: Tarife vergleichen, den Wechsel beim neuen Anbieter beantragen, die Kündigungsfrist beim alten beachten und den Zählerstand rechtzeitig übermitteln. Dieses Set übt genau das — Tarife vergleichen, den Wechsel anstoßen, und was zu tun ist, wenn der alte Anbieter trotz Kündigung weiter Geld verlangt oder die Kündigungsbestätigung ausbleibt. Grammatik nach Bedarf: Perfekt im Bericht, höfliche Fragen, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/74-stromanbieter-wechseln-a2",
+  "level": "A2",
+  "summary": "Tarife vergleichen, den Anbieterwechsel beantragen, den Zählerstand übermitteln — und was tun, wenn der alte Anbieter weiter Geld verlangt oder die Kündigungsbestätigung fehlt.",
+  "title": "Stromanbieter wechseln — A2",
+  "topic": "Stromanbieter wechseln"
+}

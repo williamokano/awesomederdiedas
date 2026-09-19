@@ -1,0 +1,1579 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "beträgt"
+          ],
+          "2": [
+            "steigt"
+          ],
+          "3": [
+            "liegen"
+          ],
+          "4": [
+            "sinkt"
+          ],
+          "5": [
+            "verdoppelt"
+          ],
+          "6": [
+            "halbiert"
+          ],
+          "7": [
+            "stagniert"
+          ],
+          "8": [
+            "nimmt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Anteil {1} rund 32 Prozent.\n2. Die Nutzung {2} seit 2020 kontinuierlich.\n3. Die Werte {3} zwischen 10 und 15 Prozent.\n4. Der Anteil {4} leicht.\n5. Die Zahl hat sich {5}.\n6. Der Wert hat sich {6}.\n7. Die Kurve {7} seit zwei Jahren.\n8. Die Bedeutung des Themas {8} weiter zu.\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Setze das passende Datenverb in der richtigen Form ein (steigen, sinken, zunehmen, abnehmen, stagnieren, sich verdoppeln, sich halbieren, betragen, ausmachen, liegen bei). 8 Items.",
+      "title": "Datenverben einsetzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "sinkt"
+          ],
+          "2": [
+            "sinkt"
+          ],
+          "3": [
+            "steigt"
+          ],
+          "4": [
+            "stagniert"
+          ],
+          "5": [
+            "nimmt"
+          ],
+          "6": [
+            "zu"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Im Vergleich zum Vorjahr {1} der Anteil leicht.\n2. Die E-Scooter-Nutzung {2} seit Anfang 2024.\n3. Die Zahl der Beschäftigten {3} kontinuierlich.\n4. Die Kurve {4} seit zwei Jahren auf hohem Niveau.\n5. Die Zahl der Studierenden {5} weiter {6}.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Wähle das richtige Datenverb (steigt/sinkt/stagniert/nimmt zu/nimmt ab). 5 Items, 6 Lücken.",
+      "title": "Tendenz richtig beschreiben"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Zwischen"
+          ],
+          "2": [
+            "Gegenüber"
+          ],
+          "3": [
+            "Im Vergleich zu"
+          ],
+          "4": [
+            "Im Zeitraum von"
+          ],
+          "5": [
+            "bis"
+          ],
+          "6": [
+            "Im Durchschnitt"
+          ],
+          "7": [
+            "Seit"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} 2020 und 2024 hat sich die Nutzung fast verfünffacht.\n2. {2} dem Vorjahr ist der Wert um 8 Prozent zurückgegangen.\n3. {3} 2023 liegt der Anteil leicht niedriger.\n4. {4} 2020 {5} 2025 ist der Anstieg kontinuierlich.\n5. {6} beträgt der Wert rund 12 Prozent.\n6. {7} Anfang 2024 ist ein Rückgang zu verzeichnen.\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Setze die passende Struktur ein (im Zeitraum von, zwischen, seit, im Vergleich zu, gegenüber, im Durchschnitt). 6 Items.",
+      "title": "Zeiträume und Vergleiche einsetzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Zahl steigt seit 2020."
+              },
+              {
+                "key": "b",
+                "text": "Die Zahl steigert seit 2020."
+              },
+              {
+                "key": "c",
+                "text": "Die Zahl steigt sich seit 2020."
+              }
+            ],
+            "q": "Welcher Satz ist korrekt?",
+            "why": "steigen ist intransitiv (ohne Akkusativ-Objekt): „Die Zahl steigt seit 2020\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Im Vergleich mit 2023 ist der Wert gesunken."
+              },
+              {
+                "key": "b",
+                "text": "Im Vergleich zu 2023 ist der Wert gesunken."
+              },
+              {
+                "key": "c",
+                "text": "Im Vergleich von 2023 ist der Wert gesunken."
+              }
+            ],
+            "q": "Welcher Satz ist korrekt?",
+            "why": "Feste Präposition: im Vergleich zu + Dativ."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zwischen 2020 bis 2024 ist die Zahl gestiegen."
+              },
+              {
+                "key": "b",
+                "text": "Zwischen 2020 oder 2024 ist die Zahl gestiegen."
+              },
+              {
+                "key": "c",
+                "text": "Zwischen 2020 und 2024 ist die Zahl gestiegen."
+              }
+            ],
+            "q": "Welcher Satz ist korrekt?",
+            "why": "zwischen verlangt immer „und\" — nie „bis\" oder „oder\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Der Anteil beträgt 32 Prozent."
+              },
+              {
+                "key": "b",
+                "text": "Der Anteil beträgt zu 32 Prozent."
+              },
+              {
+                "key": "c",
+                "text": "Der Anteil macht 32 Prozent."
+              }
+            ],
+            "q": "Welcher Satz ist korrekt?",
+            "why": "betragen + Wert (Akkusativ), kein „zu\"; ausmachen braucht „aus\" am Ende."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es zeigt, dass die Werte stagnieren."
+              },
+              {
+                "key": "b",
+                "text": "Es zeigt sich, dass die Werte stagnieren."
+              },
+              {
+                "key": "c",
+                "text": "Es zeigt auf, dass die Werte stagnieren."
+              }
+            ],
+            "q": "Welcher Satz ist korrekt?",
+            "why": "Immer reflexiv: es zeigt sich, dass …"
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Aus der Grafik ergibt, dass die Nutzung sinkt."
+              },
+              {
+                "key": "b",
+                "text": "Aus der Grafik ist zu ergeben, dass die Nutzung sinkt."
+              },
+              {
+                "key": "c",
+                "text": "Aus der Grafik ergibt sich, dass die Nutzung sinkt."
+              }
+            ],
+            "q": "Welcher Satz ist korrekt?",
+            "why": "Immer reflexiv: es ergibt sich, dass …"
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A4",
+      "instructions": "Wähle die korrekte Beschreibung (a, b oder c). ⚠️ Achte auf Datenverb, Zeitraum und Satzstellung.",
+      "title": "Welche Beschreibung passt?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "zu"
+          ],
+          "2": [
+            "dem Vorjahr"
+          ],
+          "3": [
+            "zum"
+          ],
+          "4": [
+            "zu"
+          ],
+          "5": [
+            "zum"
+          ],
+          "6": [
+            "den"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Im Vergleich {1} 2023 ist der Wert gestiegen.\n2. Gegenüber {2} hat sich der Anteil um 8 Prozent verringert.\n3. Im Vergleich {3} Vorjahr stagniert die Zahl.\n4. Im Vergleich {4} 2020 liegt der Anteil heute höher.\n5. Im Vergleich {5} Durchschnitt beträgt der Wert 12 Prozent.\n6. Zwischen {6} Jahren 2015 und 2020 war der Anstieg am stärksten.\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Setze die richtige Präposition oder Vergleichsstruktur ein (zu, zum, dem Vorjahr, den). 6 Items.",
+      "title": "Vergleichsstrukturen korrekt ergänzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "beträgt"
+          ],
+          "2": [
+            "sinkt"
+          ],
+          "3": [
+            "stagniert"
+          ],
+          "4": [
+            "liegt"
+          ],
+          "5": [
+            "macht"
+          ],
+          "6": [
+            "aus"
+          ]
+        },
+        "bank": [
+          "beträgt",
+          "sinkt",
+          "stagniert",
+          "liegt",
+          "macht",
+          "aus",
+          "steigt",
+          "zunimmt"
+        ],
+        "text": "1. Der Anteil {1} rund 32 Prozent.\n2. Die Nutzung {2} seit Anfang 2024 leicht.\n3. Die Kurve {3} seit zwei Jahren.\n4. Der Durchschnitt {4} bei rund 12 Prozent.\n5. Der Frauenanteil {5} 48 Prozent {6}.\n",
+        "type": "gap-bank"
+      },
+      "id": "A6",
+      "instructions": "Füll die 6 Lücken mit der richtigen Verbform (steigt, sinkt, stagniert, beträgt, liegt, macht). Zwei Wörter sind zu viel.",
+      "title": "Datenverben: passende Form finden"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "e",
+          "3": "f",
+          "4": "a",
+          "5": "d",
+          "6": "c"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "steigen"
+          },
+          {
+            "key": "2",
+            "text": "sich verdoppeln"
+          },
+          {
+            "key": "3",
+            "text": "stagnieren"
+          },
+          {
+            "key": "4",
+            "text": "betragen"
+          },
+          {
+            "key": "5",
+            "text": "sinken"
+          },
+          {
+            "key": "6",
+            "text": "sich halbieren"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "genau diesen Wert haben"
+          },
+          {
+            "key": "b",
+            "text": "nach oben gehen"
+          },
+          {
+            "key": "c",
+            "text": "÷ 2"
+          },
+          {
+            "key": "d",
+            "text": "nach unten gehen"
+          },
+          {
+            "key": "e",
+            "text": "× 2"
+          },
+          {
+            "key": "f",
+            "text": "gleich bleiben"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A7",
+      "instructions": "Ordne jedem Datenverb (1–6) die passende Bedeutung (a–f) zu.",
+      "title": "Datenverben und Bedeutung verbinden"
+    },
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "tendenz",
+            "label": "Tendenz (Richtung)"
+          },
+          {
+            "key": "wert",
+            "label": "Genauer Wert (Faktor oder Zahl)"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "tendenz",
+            "text": "steigen"
+          },
+          {
+            "bucket": "wert",
+            "text": "betragen"
+          },
+          {
+            "bucket": "wert",
+            "text": "sich verdoppeln"
+          },
+          {
+            "bucket": "tendenz",
+            "text": "sinken"
+          },
+          {
+            "bucket": "tendenz",
+            "text": "stagnieren"
+          },
+          {
+            "bucket": "wert",
+            "text": "ausmachen"
+          },
+          {
+            "bucket": "wert",
+            "text": "sich halbieren"
+          },
+          {
+            "bucket": "tendenz",
+            "text": "zunehmen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A8",
+      "instructions": "Ordne jeden Ausdruck der passenden Kategorie zu.",
+      "title": "Tendenz oder genauer Wert?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "ergibt sich"
+          ],
+          "2": [
+            "zeigt sich"
+          ],
+          "3": [
+            "lässt sich ablesen"
+          ],
+          "4": [
+            "lässt sich schließen"
+          ],
+          "5": [
+            "ist zu entnehmen"
+          ],
+          "6": [
+            "lässt sich"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Aus der Grafik {1}, dass die Nutzung rückläufig ist.\n2. Es {2}, dass die Tendenz seit 2022 nach unten zeigt.\n3. Aus der Kurve {3}, dass der Höchststand 2022 erreicht wurde.\n4. Daraus {4}, dass die neuen Regeln wirken.\n5. Der Tabelle {5}, dass der Anteil von 64 auf 74 Prozent gestiegen ist.\n6. Es {6} feststellen, dass die Zuwachsrate zurückgeht.\n",
+        "type": "gap-text"
+      },
+      "id": "A9",
+      "instructions": "Wähle die passende Ableitungsstruktur (ergibt sich, zeigt sich, lässt sich ablesen, lässt sich schließen, ist zu entnehmen). 6 Items.",
+      "title": "Ableitungsstrukturen ergänzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Aus der Grafik ergibt sich, dass die Zahlen rückläufig sind."
+              },
+              {
+                "key": "b",
+                "text": "Ich finde, dass die Zahlen schlecht sind."
+              },
+              {
+                "key": "c",
+                "text": "Da kann man sehen, dass die Zahlen schlecht sind."
+              }
+            ],
+            "q": "Welche Eröffnung passt zu einem formellen Bericht?",
+            "why": "Formelle Berichtssprache: Aus + Dat. ergibt sich, dass …"
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Aus der Kurve lässt sich ablesen dass der Wert 2022 am höchsten war."
+              },
+              {
+                "key": "b",
+                "text": "Aus der Kurve lässt sich ablesen, dass der Wert 2022 am höchsten war."
+              },
+              {
+                "key": "c",
+                "text": "Aus der Kurve ist zu ablesen, dass der Wert 2022 am höchsten war."
+              }
+            ],
+            "q": "Welche Form ist korrekt?",
+            "why": "Komma vor dem dass-Satz; sich lassen + Infinitiv ist die korrekte Form."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Daten sind zur Verfügung gestellt."
+              },
+              {
+                "key": "b",
+                "text": "Die Daten werden zur Verfügung stehen."
+              },
+              {
+                "key": "c",
+                "text": "Die Daten stehen zur Verfügung."
+              }
+            ],
+            "q": "Welche Form ist korrekt?",
+            "why": "Funktionsverbgefüge: zur Verfügung stehen = verfügbar sein."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es lässt sich feststellen, dass die Tendenz sich ändert."
+              },
+              {
+                "key": "b",
+                "text": "Man kann feststellen, dass die Tendenz sich ändert."
+              },
+              {
+                "key": "c",
+                "text": "Es ist zu feststellen, dass die Tendenz sich ändert."
+              }
+            ],
+            "q": "Welche Form ist korrekt?",
+            "why": "Formelle Passiv-Eröffnung: es lässt sich + Infinitiv."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A10",
+      "instructions": "Wähle die stilistisch korrekte und passende Form (a, b oder c).",
+      "title": "Welche Ableitungsstruktur passt?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Die Nutzung ist seit 2020 kontinuierlich gestiegen.",
+            "tiles": [
+              "Die",
+              "Nutzung",
+              "ist",
+              "seit",
+              "2020",
+              "kontinuierlich",
+              "gestiegen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Der Anteil beträgt 32 Prozent.",
+            "tiles": [
+              "Der",
+              "Anteil",
+              "beträgt",
+              "32",
+              "Prozent"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "note": "Im Zeitraum von 2020 bis 2024 hat sich die Zahl verdoppelt.",
+            "tiles": [
+              "Im",
+              "Zeitraum",
+              "von",
+              "2020",
+              "bis",
+              "2024",
+              "hat",
+              "sich",
+              "die",
+              "Zahl",
+              "verdoppelt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Aus der Grafik ergibt sich, dass die Nutzung sinkt.",
+            "tiles": [
+              "Aus",
+              "der",
+              "Grafik",
+              "ergibt",
+              "sich",
+              "dass",
+              "die",
+              "Nutzung",
+              "sinkt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A11",
+      "instructions": "Bring die Wörter in die richtige Reihenfolge. Datenverb steht in Position 2.",
+      "title": "Satzbau: Datenverb + Zeitraum + Wert"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Aus"
+          ],
+          "2": [
+            "ergibt sich"
+          ],
+          "3": [
+            "zu"
+          ],
+          "4": [
+            "Es lässt"
+          ],
+          "5": [
+            "kommen"
+          ],
+          "6": [
+            "in"
+          ],
+          "7": [
+            "stehen"
+          ],
+          "8": [
+            "zur"
+          ]
+        },
+        "listLayout": true,
+        "text": "Bericht zur E-Scooter-Nutzung in Berlin. {1} der Grafik {2}, dass die Nutzung\nzwischen 2020 und 2022 deutlich gestiegen ist. Seit Anfang 2024 ist ein leichter\nRückgang {3} verzeichnen. {4} sich feststellen, dass die Nutzung nach einer\nstarken Wachstumsphase jetzt stagniert. Als Ursache {5} die neuen Regelungen\n{6} Betracht. Die Daten {7} den Forschern weiterhin {8} Verfügung.\n",
+        "type": "gap-text"
+      },
+      "id": "B4",
+      "instructions": "Füll die 8 Lücken mit passenden Wörtern aus dem Bericht (Reflexivpronomen, Konjunktion, Funktionsverb, Präposition). 8 Items.",
+      "title": "Bericht: aus Stichworten einen formellen Absatz"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "c",
+          "2": "a",
+          "3": "e",
+          "4": "b",
+          "5": "d"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Tendenz: Anstieg"
+          },
+          {
+            "key": "2",
+            "text": "Tendenz: Rückgang"
+          },
+          {
+            "key": "3",
+            "text": "Faktor: Verdoppelung"
+          },
+          {
+            "key": "4",
+            "text": "Spanne / Durchschnitt"
+          },
+          {
+            "key": "5",
+            "text": "Maximum / Minimum"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Der Anteil ist auf 64 % gesunken."
+          },
+          {
+            "key": "b",
+            "text": "Im Durchschnitt liegt der Wert bei 12 %."
+          },
+          {
+            "key": "c",
+            "text": "Die Nutzung ist seit 2020 kontinuierlich gestiegen."
+          },
+          {
+            "key": "d",
+            "text": "Der Höchststand wurde im Juli 2022 erreicht."
+          },
+          {
+            "key": "e",
+            "text": "Die Zahl hat sich verdoppelt."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B5",
+      "instructions": "Ordne jeder Beschreibung (1–5) das passende Beispiel (a–e) zu.",
+      "title": "Beschreibung mit Beispiel verbinden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "note": "Aus der Tabelle ist zu entnehmen, dass der Anteil gestiegen ist.",
+            "tiles": [
+              "Aus",
+              "der",
+              "Tabelle",
+              "ist",
+              "zu",
+              "entnehmen",
+              "dass",
+              "der",
+              "Anteil",
+              "gestiegen",
+              "ist"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "note": "Es lässt sich feststellen, dass der Wert um 8 Prozent gesunken ist.",
+            "tiles": [
+              "Es",
+              "lässt",
+              "sich",
+              "feststellen",
+              "dass",
+              "der",
+              "Wert",
+              "um",
+              "8",
+              "Prozent",
+              "gesunken",
+              "ist"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Im Vergleich zu 2023 ist die Nutzung leicht zurückgegangen.",
+            "tiles": [
+              "Im",
+              "Vergleich",
+              "zu",
+              "2023",
+              "ist",
+              "die",
+              "Nutzung",
+              "leicht",
+              "zurückgegangen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Der Tiefststand lag im Februar 2020 bei rund 40 000 Fahrten.",
+            "tiles": [
+              "Der",
+              "Tiefststand",
+              "lag",
+              "im",
+              "Februar",
+              "2020",
+              "bei",
+              "rund",
+              "40 000",
+              "Fahrten"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B6",
+      "instructions": "Bring die Wörter in die richtige Reihenfolge.",
+      "title": "Satzbau: formelle Berichtseröffnung"
+    },
+    {
+      "block": "B",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "steigen",
+              "sinken",
+              "stagnieren",
+              "meinen"
+            ],
+            "odd": 3,
+            "why": "meinen ist kein Datenverb — die anderen drei beschreiben eine Tendenz."
+          },
+          {
+            "items": [
+              "sich verdoppeln",
+              "sich halbieren",
+              "betragen",
+              "sich entschuldigen"
+            ],
+            "odd": 3,
+            "why": "sich entschuldigen ist reflexiv, aber kein Datenverb — die anderen drei beschreiben Wertveränderung oder Wertangabe."
+          },
+          {
+            "items": [
+              "im Zeitraum von",
+              "zwischen",
+              "seit",
+              "anstatt"
+            ],
+            "odd": 3,
+            "why": "anstatt ist kein temporaler Ausdruck für Daten/Zeiträume — die anderen drei sind Zeitausdrücke."
+          },
+          {
+            "items": [
+              "im Vergleich zu",
+              "gegenüber",
+              "im Durchschnitt",
+              "wegen"
+            ],
+            "odd": 3,
+            "why": "wegen ist kausal — die anderen drei sind Vergleichs- bzw. Mittelwertsausdrücke."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "B7",
+      "instructions": "Streiche den Ausdruck, der nicht passt, und erkläre warum.",
+      "title": "Wortschatz: Was passt nicht?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich finde, dass die Zahlen nach unten gehen."
+              },
+              {
+                "key": "b",
+                "text": "Aus der Grafik ergibt sich, dass die Zahlen rückläufig sind."
+              }
+            ],
+            "q": "In einem formellen Bericht für die Geschäftsführung:",
+            "why": "Im formellen Bericht passt die Ableitungsstruktur (sich ergeben aus) besser."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Aus der Kurve lässt sich ablesen, dass die Nutzung stagniert."
+              },
+              {
+                "key": "b",
+                "text": "Die Kurve bleibt flach, läuft also seit zwei Jahren seitwärts."
+              }
+            ],
+            "q": "In einem WhatsApp-Chat mit dem Kollegen:",
+            "why": "Privat ist die direkte, verbale Sprache natürlicher; Passiv + FVG wirkt steif."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir haben uns die Daten mal angeschaut und sehen: die Zahl ist höher."
+              },
+              {
+                "key": "b",
+                "text": "Im Vergleich zum Vorjahr ist der Wert um 0,3 Prozent gestiegen."
+              }
+            ],
+            "q": "In einer Pressemitteilung des Statistischen Bundesamtes:",
+            "why": "Pressemitteilungen verlangen sachliche, distanzierte Berichtssprache mit Datenverben."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B8",
+      "instructions": "Wähle die stilistisch passendere Variante (a oder b).",
+      "title": "Welcher Stil passt zum Kontext?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Prozent"
+          ],
+          "2": [
+            "wozu"
+          ],
+          "3": [
+            "Aussage"
+          ],
+          "4": [
+            "Aufwärtstrend"
+          ],
+          "5": [
+            "Prozentpunkte"
+          ],
+          "6": [
+            "Zunahme"
+          ],
+          "7": [
+            "gestiegen"
+          ],
+          "8": [
+            "Stichprobe"
+          ],
+          "9": [
+            "Stichprobe"
+          ],
+          "10": [
+            "ableiten"
+          ]
+        },
+        "listLayout": true,
+        "text": "Wer zum ersten Mal eine Statistik liest, sieht oft nur eine Zahl: „74 (1) {1}\". Aber\neine einzelne Zahl sagt fast nichts. Sie sagt nicht, **wann** der Wert gemessen wurde,\n**im Vergleich (2) {2}**, welche Grundgesamtheit befragt wurde. Erst wenn man all das\nmitdenkt, wird aus einer Zahl eine (3) {3}. Ein einfaches Beispiel: Eine Umfrage\nzum Klimaschutz zeigt für 2024 einen Wert von 74 Prozent, 2015 waren es nur 64\nProzent. Klingt nach einem klaren (4) {4} — und in gewisser Weise ist es das auch.\nIm Zeitraum von 2015 bis 2024 ist der Anteil um 10 (5) {5} gestiegen. Aber Vorsicht:\n**10 Prozentpunkte sind nicht 10 Prozent**. Bei einem Ausgangswert von 64 Prozent\nsind 10 Prozentpunkte eine (6) {6} um rund 16 Prozent. Die zweite Falle betrifft\ndie Vergleichsbasis: Wenn eine Zeitung schreibt „Im Vergleich zu 2020 ist der Wert\num 8 Prozent (7) {7}\", ist die Frage: Acht Prozent wovon? Die dritte Falle betrifft\ndie (8) {8}: Eine Erhebung mit n = 2 008 ist repräsentativ; eine mit n = 80 ist es\nnicht. Die Lehre: Eine seriöse Datenlektüre fragt immer nach Zeitraum, Quelle,\n(9) {9} und genauem Wortlaut der Frage. Wer das beachtet, kann auch aus komplexen\nGrafiken klare Aussagen (10) {10}.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Füll jede Lücke mit einem passenden Wort (Datenverb, Konjunktion oder Zeitstruktur). 10 Items.",
+      "title": "Lückentext: Daten lesen lernen (Lesetext)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "von"
+              },
+              {
+                "key": "b",
+                "text": "zwischen"
+              },
+              {
+                "key": "c",
+                "text": "seit"
+              }
+            ],
+            "q": "Im Zeitraum ____ 2020 bis 2024 hat sich die Zahl verdoppelt.",
+            "why": "im Zeitraum von … bis … (feste Struktur)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "steigt"
+              },
+              {
+                "key": "b",
+                "text": "sinkt"
+              },
+              {
+                "key": "c",
+                "text": "beträgt"
+              }
+            ],
+            "q": "Die E-Scooter-Nutzung ____ seit Anfang 2024 leicht.",
+            "why": "sinkt — der Trend ist negativ (Rückgang)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ergibt"
+              },
+              {
+                "key": "b",
+                "text": "ergibt sich"
+              },
+              {
+                "key": "c",
+                "text": "wird ergeben"
+              }
+            ],
+            "q": "Aus der Grafik ____ sich, dass die Nutzung rückläufig ist.",
+            "why": "Immer reflexiv: es ergibt sich, dass …"
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "beträgt"
+              },
+              {
+                "key": "b",
+                "text": "macht … aus"
+              },
+              {
+                "key": "c",
+                "text": "liegt bei … an"
+              }
+            ],
+            "q": "Der Anteil ____ 32 Prozent.",
+            "why": "betragen + Wert (ohne „aus\" oder „an\")."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Im Vergleich zu"
+              },
+              {
+                "key": "b",
+                "text": "Gegenüber"
+              },
+              {
+                "key": "c",
+                "text": "Beide sind möglich."
+              }
+            ],
+            "q": "____ dem Vorjahr ist der Wert um 8 Prozent gestiegen.",
+            "why": "„Im Vergleich zu 2023\" und „Gegenüber dem Vorjahr\" sind beide korrekt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "lässt"
+              },
+              {
+                "key": "b",
+                "text": "muss"
+              },
+              {
+                "key": "c",
+                "text": "hat"
+              }
+            ],
+            "q": "Es ____ sich feststellen, dass die Tendenz rückläufig ist.",
+            "why": "es lässt sich feststellen (Passiv-Ersatz)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle die richtige Option (a, b oder c) für jede Lücke.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "ZEITRAUM"
+          ],
+          "2": [
+            "GESTIEGEN"
+          ],
+          "3": [
+            "MACHTE"
+          ],
+          "4": [
+            "AUS"
+          ],
+          "5": [
+            "VERGLEICH"
+          ],
+          "6": [
+            "ZURÜCKGEGANGEN",
+            "GESUNKEN"
+          ],
+          "7": [
+            "ERREICHT"
+          ],
+          "8": [
+            "ERGIBT",
+            "ZEIGT"
+          ],
+          "9": [
+            "LÄSST"
+          ],
+          "10": [
+            "STEHEN"
+          ]
+        },
+        "bank": [
+          "ZEITRAUM",
+          "GESTIEGEN",
+          "MACHTE",
+          "AUS",
+          "VERGLEICH",
+          "ZURÜCKGEGANGEN",
+          "ERREICHT",
+          "ERGIBT",
+          "LÄSST",
+          "STEHEN",
+          "STAGNIERT",
+          "SINKT",
+          "LIEGT",
+          "ZEIGT",
+          "GESUNKEN"
+        ],
+        "text": "Bericht zur Erwerbstätigkeit. Im {1} von 2019 bis 2024 ist die Zahl der Erwerbstätigen\nkontinuierlich {2}. Der Anteil der Frauen {3} im Jahr 2024 rund 48 Prozent {4}. Im\n{5} zum Vorjahr ist die Zahl um 0,3 Prozent {6}. Der Höchststand wurde 2023 {7}.\nAus den Daten {8} sich, dass der Arbeitsmarkt robust bleibt, aber an Dynamik verliert.\nEine eindeutige Ursache {9} sich aus den vorliegenden Daten nicht ableiten. Die\nausführlichen Tabellen {10} ab sofort auf der Website zur Verfügung.\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Füll die 10 Lücken mit Wörtern aus dem Kasten. Fünf Wörter sind zu viel. Jedes Wort wird nur einmal benutzt.",
+      "title": "Sprachbausteine Teil 2 (Wortbank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Laut Lesetext sagt eine einzelne Zahl fast nichts, wenn man Zeitraum und Vergleichsbasis nicht kennt.",
+            "why": "„Aber eine einzelne Zahl sagt fast nichts\"."
+          },
+          {
+            "answer": false,
+            "q": "Im Lesetext ist es korrekt, „plus 10 Prozent\" zu schreiben, wenn der Anteil von 64 auf 74 Prozent gestiegen ist.",
+            "why": "„Aber Vorsicht: 10 Prozentpunkte sind nicht 10 Prozent\"."
+          },
+          {
+            "answer": false,
+            "q": "Der Lesetext sagt, eine Stichprobe von n = 80 sei in der Regel repräsentativ.",
+            "why": "„Eine Erhebung mit n = 2 008 ist repräsentativ; eine mit n = 80 ist es nicht\"."
+          },
+          {
+            "answer": true,
+            "q": "Eine seriöse Datenlektüre fragt nach Zeitraum, Quelle, Stichprobe und genauem Wortlaut der Frage.",
+            "why": "„Eine seriöse Datenlektüre fragt immer nach Zeitraum, Quelle, Stichprobe und genauem Wortlaut der Frage\"."
+          },
+          {
+            "answer": true,
+            "q": "Der Lesetext nennt relative und absolute Veränderungen als wichtigen Unterschied.",
+            "why": "„verwechselt leicht relative und absolute Veränderungen — ein klassischer Fehler\"."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Wer zum ersten Mal eine Statistik liest, sieht oft nur eine Zahl: „74 Prozent\". Aber eine einzelne Zahl sagt fast nichts. Sie sagt nicht, **wann** der Wert gemessen wurde, **im Vergleich wozu**, **welche Grundgesamtheit** befragt wurde und **welche Frage genau** gestellt wurde. Erst wenn man all das mitdenkt, wird aus einer Zahl eine Aussage.\n> Ein einfaches Beispiel: Eine Umfrage zur Frage „Wie wichtig ist Ihnen Klimaschutz?\" zeigt für 2024 einen Wert von 74 Prozent, die angeben, das Thema sei „sehr wichtig\". 2015 waren es nur 64 Prozent. Klingt nach einem klaren Aufwärtstrend — und in gewisser Weise ist es das auch: Im Zeitraum von 2015 bis 2024 ist der Anteil um 10 Prozentpunkte gestiegen. Aber Vorsicht: **10 Prozentpunkte sind nicht 10 Prozent**. Wer „plus 10 Prozent\" schreibt, wenn eigentlich „plus 10 Prozentpunkte\" gemeint ist, verfälscht die Aussage. Bei einem Ausgangswert von 64 Prozent sind 10 Prozentpunkte eine Zunahme um rund 16 Prozent — nicht um 10.\n> Die zweite Falle betrifft die **Vergleichsbasis**. Wenn eine Zeitung schreibt „Im Vergleich zu 2020 ist der Wert um 8 Prozent gestiegen\", ist die Frage: Acht Prozent wovon? Vom absoluten Wert (zum Beispiel: von 100 000 auf 108 000) oder als Index (von 100 auf 108)? Beide Aussagen sind korrekt, aber sie sagen Unterschiedliches. Wer hier nicht genau hinschaut, verwechselt leicht relative und absolute Veränderungen — ein klassischer Fehler in der Berichterstattung.\n> Die dritte Falle betrifft die **Stichprobe und die Frage**. Eine Erhebung mit n = 2 008 ist repräsentativ; eine mit n = 80 ist es nicht. Und wer eine Frage stellt wie „Finden Sie, dass die Regierung mehr für den Klimaschutz tun sollte?\", bekommt andere Antworten als auf „Ist Ihnen Klimaschutz wichtig?\". Beide Fragen werden oft vermischt, obwohl sie Unterschiedliches messen: das eine ist eine **politische Forderung**, das andere eine **persönliche Einstellung**.\n> Die Lehre aus all dem: Eine seriöse Datenlektüre fragt immer nach **Zeitraum**, **Quelle**, **Stichprobe** und **genauem Wortlaut der Frage**. Wer das beachtet, kann auch aus komplexen Grafiken klare und überprüfbare Aussagen ableiten. Wer das nicht beachtet, zitiert schnell etwas, das in den Daten gar nicht steht.\n\nRichtig (R) oder falsch (F)?\n",
+      "title": "Lesen Text 1 (Lesetext: Warum Prozent nicht gleich Prozent ist)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Rund 195 000 Fahrten."
+              },
+              {
+                "key": "b",
+                "text": "Rund 180 000 Fahrten."
+              },
+              {
+                "key": "c",
+                "text": "Rund 40 000 Fahrten."
+              }
+            ],
+            "q": "Welcher Wert wurde im Juli 2022 erreicht?",
+            "why": "„Der Höchststand wurde im Juli 2022 mit rund 195 000 Fahrten erreicht\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie hat sich fast verdoppelt."
+              },
+              {
+                "key": "b",
+                "text": "Sie hat sich fast verfünffacht."
+              },
+              {
+                "key": "c",
+                "text": "Sie ist gleich geblieben."
+              }
+            ],
+            "q": "Wie hat sich die Nutzung zwischen 2020 und 2022 entwickelt?",
+            "why": "„Die monatliche Nutzung … hat sich im Zeitraum von 2020 bis 2022 fast verfünffacht\"."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Nutzung ist seit 2020 ungebrochen gestiegen."
+              },
+              {
+                "key": "b",
+                "text": "Die neuen Regelungen haben keinerlei Auswirkung."
+              },
+              {
+                "key": "c",
+                "text": "Die Nutzung stagniert seit Ende 2022 und ist seit 2024 leicht rückläufig."
+              }
+            ],
+            "q": "Welche Aussage lässt sich aus dem Bericht ableiten?",
+            "why": "„Ab Ende 2022 stagniert die Nutzung … Im Vergleich zum Vorjahr ist die durchschnittliche Nutzung 2024 um acht Prozent zurückgegangen\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Eine abschließende Bewertung ist nicht möglich."
+              },
+              {
+                "key": "b",
+                "text": "Die Daten sind unzuverlässig."
+              },
+              {
+                "key": "c",
+                "text": "Es fehlen Vergleichsdaten aus dem Ausland."
+              }
+            ],
+            "q": "Welche Einschränkung macht der Bericht?",
+            "why": "„Eine abschließende Bewertung ist auf Basis dieser Daten allein nicht möglich\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Lies das folgende Textstück und wähle a, b oder c.\n\n> **Statistischer Bericht zur E-Scooter-Nutzung in Berlin, April 2024**\n> Die monatliche Nutzung von E-Scootern in Berlin hat sich im Zeitraum von 2020 bis 2022\n> fast verfünffacht. Der Höchststand wurde im Juli 2022 mit rund 195 000 Fahrten\n> erreicht. Ab Ende 2022 stagniert die Nutzung auf einem Niveau von etwa 180 000\n> Fahrten pro Monat. Im Vergleich zum Vorjahr ist die durchschnittliche Nutzung 2024\n> um acht Prozent zurückgegangen. Aus den Daten ergibt sich, dass die neuen\n> Regelungen (Helmpflicht ab 2024, Parkverbote) als Ursache in Betracht kommen.\n> Eine abschließende Bewertung ist auf Basis dieser Daten allein nicht möglich.\n",
+      "title": "Lesen Text 2 (neuer Text: Auszug aus einem Statistischen Bericht)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "steigen"
+          ],
+          "2": [
+            "sinken"
+          ],
+          "3": [
+            "stagnieren"
+          ],
+          "4": [
+            "verdoppeln"
+          ],
+          "5": [
+            "halbieren"
+          ],
+          "6": [
+            "beträgt"
+          ],
+          "7": [
+            "Zwischen"
+          ],
+          "8": [
+            "zu"
+          ],
+          "9": [
+            "Gegenüber"
+          ],
+          "10": [
+            "ergibt"
+          ],
+          "11": [
+            "lässt"
+          ],
+          "12": [
+            "Verfügung"
+          ],
+          "13": [
+            "lässt"
+          ],
+          "14": [
+            "Betracht"
+          ],
+          "15": [
+            "Akkusativ"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Datenverb „nach oben\": {1}\n2. Datenverb „nach unten\": {2}\n3. Datenverb „gleich bleiben\": {3}\n4. Faktor × 2: sich {4}\n5. Faktor ÷ 2: sich {5}\n6. Genauer Wert: der Anteil {6} 32 Prozent\n7. Zeitstruktur „zwei Endpunkte\": {7} 2020 und 2024\n8. Vergleichsstruktur „Bezugsjahr\": im Vergleich {8} 2023\n9. Vorjahresvergleich: {9} dem Vorjahr\n10. Ableitung „Befund\": aus der Grafik {10} sich, dass …\n11. Formelle Eröffnung: es {11} sich feststellen, dass …\n12. Funktionsverbgefüge „Bereitstellen\": zur {12} stehen\n13. (B2/02) Passiv-Ersatz: es {13} sich + Infinitiv\n14. (B2/08) FVG „berücksichtigen\": in {14} ziehen\n15. (B1/08) „warten auf\" verlangt welchen Fall? {15}\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Eine Minute pro Item. Keine Notizen. Items mit (B2/xx) bzw. (B1/xx) wiederholen eine frühere Lektion. 15 Items.",
+      "title": "Gemischter Schnelltest"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "steigen",
+              "sinken",
+              "stagnieren",
+              "meinen"
+            ],
+            "odd": 3,
+            "why": "meinen ist kein Datenverb — die anderen drei beschreiben eine Tendenz."
+          },
+          {
+            "items": [
+              "sich verdoppeln",
+              "sich halbieren",
+              "sich entschuldigen",
+              "betragen"
+            ],
+            "odd": 3,
+            "why": "sich entschuldigen ist reflexiv, aber kein Datenverb — die anderen drei sind Werte/Faktoren."
+          },
+          {
+            "items": [
+              "im Zeitraum von",
+              "zwischen",
+              "seit",
+              "anstatt"
+            ],
+            "odd": 3,
+            "why": "anstatt ist kein temporaler Ausdruck für Daten — die anderen drei sind Zeitausdrücke."
+          },
+          {
+            "items": [
+              "im Vergleich zu",
+              "gegenüber",
+              "im Durchschnitt",
+              "wegen"
+            ],
+            "odd": 3,
+            "why": "wegen ist kausal — die anderen drei sind Vergleichs- bzw. Mittelwertsausdrücke."
+          },
+          {
+            "items": [
+              "ergibt sich",
+              "zeigt sich",
+              "lässt sich ablesen",
+              "kommt zurück"
+            ],
+            "odd": 3,
+            "why": "kommt zurück ist kein reflexives Ableitungsverb — die anderen drei folgen dem Muster „sich + Verb\"."
+          },
+          {
+            "items": [
+              "Höchststand",
+              "Tiefststand",
+              "Durchschnitt",
+              "Tiefpunkt"
+            ],
+            "odd": 3,
+            "why": "Tiefpunkt ist die allgemeine Form (auch für Stimmung, Verlauf etc.); für Datenberichte ist Tiefststand der fachliche Standardbegriff."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Streiche das Wort oder den Ausdruck, der nicht passt, und erkläre warum.",
+      "title": "Odd one out"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "der Anstieg"
+          ],
+          "2": [
+            "Genitiv"
+          ],
+          "3": [
+            "weil"
+          ],
+          "4": [
+            "wegen der steigenden Nachfrage"
+          ],
+          "5": [
+            "sich lassen"
+          ],
+          "6": [
+            "lesbar"
+          ],
+          "7": [
+            "ist zu lesen"
+          ],
+          "8": [
+            "Entscheidung"
+          ],
+          "9": [
+            "Kritik"
+          ],
+          "10": [
+            "Betracht"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Aus B2/01 (Nominalstil und Verbalstil):**\n1. Nominalisierung von „steigen\" (mit Artikel): {1}\n2. „während\" verlangt welchen Fall? {2}\n3. Konnektor zu „wegen\": {3}\n4. Mach nominal: „weil die Nachfrage steigt\" → {4}\n\n**Aus B2/02 (Passiv und Alternativen):**\n5. Passiv-Ersatz „man kann\": {5} + Infinitiv\n6. Passiv-Ersatz mit Adjektiv auf -bar: {6}\n7. Passiv-Ersatz „sein + zu + Infinitiv\": {7}\n\n**Aus B2/08 (Funktionsverbgefüge):**\n8. Funktionsverbgefüge zu „entscheiden\": eine {8} treffen\n9. Funktionsverbgefüge zu „kritisieren\": {9} üben\n10. Funktionsverbgefüge zu „berücksichtigen\": in {10} ziehen\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Wiederholung früherer Lektionen. 10 Items.",
+      "title": "Rückblick: B2/01, B2/02, B2/08"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "zunehmen"
+          ],
+          "2": [
+            "sinken"
+          ],
+          "3": [
+            "verdoppelt"
+          ],
+          "4": [
+            "betragen"
+          ],
+          "5": [
+            "Zwischen"
+          ],
+          "6": [
+            "Gegenüber"
+          ],
+          "7": [
+            "Durchschnitt"
+          ],
+          "8": [
+            "ergibt"
+          ],
+          "9": [
+            "lässt"
+          ],
+          "10": [
+            "ist"
+          ],
+          "11": [
+            "sich verdoppelt"
+          ],
+          "12": [
+            "Gegenüber 2023 ist der Wert um 8 % gestiegen."
+          ],
+          "13": [
+            "Es lässt sich feststellen, dass die Zahl steigt."
+          ],
+          "14": [
+            "Es hat sich herausgestellt, dass …"
+          ],
+          "15": [
+            "Verfügung"
+          ],
+          "16": [
+            "Frage"
+          ],
+          "17": [
+            "der Anstieg"
+          ],
+          "18": [
+            "lässt"
+          ],
+          "19": [
+            "Frage"
+          ],
+          "20": [
+            "die Gäste"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Datenverben:**\n1. Synonym zu „steigen\" (gehoben): {1}\n2. Datenverb für „nach unten\": {2}\n3. Faktor × 2: sich {3}\n4. Datenverb für „genauen Wert\": {4}\n\n**Zeiträume und Vergleiche:**\n5. Struktur mit zwei Endpunkten: {5} 2020 und 2024\n6. Vergleich mit Vorjahr: {6} dem Vorjahr\n7. Mittelwert: im {7}\n\n**Ableitungsstrukturen:**\n8. „Aus der Grafik ____ sich, dass …\": {8}\n9. „Es ____ sich feststellen, dass …\": {9}\n10. „Der Tabelle ____ zu entnehmen, dass …\": {10}\n\n**Umformung Datenverb / Vergleich:**\n11. „Die Nutzung hat sich zwischen 2020 und 2022 fast verdoppelt.\" → Faktorform: {11}\n12. „Im Vergleich zu 2023 ist der Wert um 8 % gestiegen.\" → Vorjahresform: {12}\n\n**Formelle Berichtseröffnung:**\n13. Formell: „Man kann sehen, dass die Zahl steigt.\" → {13}\n14. Formell: „Die Forscher haben herausgefunden, dass …\" → {14}\n\n**B2/08-Brücke:**\n15. Funktionsverbgefüge zu „verfügbar sein\": zur {15} stehen\n16. Funktionsverbgefüge zu „bezweifeln\": in {16} stellen\n\n**Gemischtes / Wiederholung:**\n17. (B2/01) Nominalisierung von „steigen\": {17}\n18. (B2/02) Passiv-Ersatz „man kann lesen\": es {18} sich lesen\n19. (B2/08) Funktionsverbgefüge zu „fragen\": eine {19} stellen\n20. (B1/08) „warten ____ (die Gäste)\": auf {20}\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (bewerte dich /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "b2-13",
+  "intro": "Blöcke: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Die Lösungen findest du in solutions.md. Tipp: Verteil die Blöcke über mehrere Tage — H und A am Tag 1, B am Tag 2, C am Tag 3, D am Tag 4 nach einer Pause.\n",
+  "lesson": "B2/13",
+  "level": "B2",
+  "summary": null,
+  "title": "B2 · Lektion 13 — Übungen (Grafiken und Berichte)",
+  "topic": null
+}

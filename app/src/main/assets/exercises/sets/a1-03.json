@@ -1,0 +1,1683 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "der"
+          ],
+          "2": [
+            "die"
+          ],
+          "3": [
+            "das"
+          ],
+          "4": [
+            "der"
+          ],
+          "5": [
+            "die"
+          ],
+          "6": [
+            "das"
+          ],
+          "7": [
+            "die"
+          ],
+          "8": [
+            "der"
+          ],
+          "9": [
+            "das"
+          ],
+          "10": [
+            "die"
+          ],
+          "11": [
+            "der"
+          ],
+          "12": [
+            "das"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Apfel  2. {2} Milch  3. {3} Brot  4. {4} Käse\n5. {5} Tomate  6. {6} Ei  7. {7} Wurst  8. {8} Saft\n9. {9} Wasser  10. {10} Flasche  11. {11} Kuchen  12. {12} Brötchen\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "title": "der, die oder das?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "eine"
+          ],
+          "2": [
+            "ein"
+          ],
+          "3": [
+            "ein"
+          ],
+          "4": [
+            "eine"
+          ],
+          "5": [
+            "ein"
+          ],
+          "6": [
+            "ein"
+          ],
+          "7": [
+            "eine"
+          ],
+          "8": [
+            "ein"
+          ],
+          "9": [
+            "eine"
+          ],
+          "10": [
+            "ein"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Banane  2. {2} Brötchen  3. {3} Apfel  4. {4} Flasche Wasser\n5. {5} Ei  6. {6} Salat  7. {7} Tasse Kaffee  8. {8} Stück Kuchen\n9. {9} Tomate  10. {10} Glas Saft\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "title": "ein oder eine?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "kein"
+          ],
+          "2": [
+            "keine"
+          ],
+          "3": [
+            "keine"
+          ],
+          "4": [
+            "kein"
+          ],
+          "5": [
+            "kein"
+          ],
+          "6": [
+            "keine"
+          ],
+          "7": [
+            "keine"
+          ],
+          "8": [
+            "kein"
+          ],
+          "9": [
+            "keine"
+          ],
+          "10": [
+            "kein"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das ist {1} Wein, das ist Saft.\n2. Das ist {2} Milch, das ist Joghurt.\n3. Das sind {3} Äpfel, das sind Tomaten.\n4. Das ist {4} Brötchen, das ist Brot.\n5. Das ist {5} Tee, das ist Kaffee.\n6. Das ist {6} Wurst, das ist Schinken.\n7. Das ist {7} Butter, das ist Käse.\n8. Das ist {8} Wasser, das ist Cola.\n9. Das sind {9} Nudeln, das ist Reis.\n10. Das ist {10} Ei.\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "title": "kein, keine?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "kein"
+          ],
+          "2": [
+            "nicht"
+          ],
+          "3": [
+            "keinen"
+          ],
+          "4": [
+            "nicht"
+          ],
+          "5": [
+            "keine"
+          ],
+          "6": [
+            "kein"
+          ],
+          "7": [
+            "nicht"
+          ],
+          "8": [
+            "nicht"
+          ],
+          "9": [
+            "kein"
+          ],
+          "10": [
+            "nicht"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich esse {1} Fleisch.\n2. Der Kaffee ist {2} gut.\n3. Ich habe {3} Durst. (der Durst!)\n4. Das ist {4} mein Brot.\n5. Wir haben {5} Milch.\n6. Ich trinke {6} Bier.\n7. Das Brötchen ist {7} frisch. (frisch = fresh)\n8. Ich heiße {8} Anna.\n9. Er isst {9} Brot.\n10. Der Salat schmeckt {10} gut.\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Entscheide: nicht verneint Adjektive/Verben/Possessivpronomen, kein verneint Nomen ohne Artikel.",
+      "instructionsEn": "Decide: nicht negates adjectives/verbs/possessives, kein negates nouns without article.",
+      "title": "nicht oder kein/keine/keinen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "einen"
+          ],
+          "2": [
+            "den"
+          ],
+          "3": [
+            "keinen"
+          ],
+          "4": [
+            "einen"
+          ],
+          "5": [
+            "einen"
+          ],
+          "6": [
+            "den"
+          ],
+          "7": [
+            "einen"
+          ],
+          "8": [
+            "keinen"
+          ],
+          "9": [
+            "den"
+          ],
+          "10": [
+            "einen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich nehme {1} Apfel. (ein)\n2. Wir kaufen {2} Gouda. (der)\n3. Ich brauche {3} Zucker. (kein)\n4. Möchtest du {4} Tee? (ein)\n5. Sie trinkt {5} Orangensaft. (ein)\n6. Ich esse {6} Salat. (der)\n7. Er möchte {7} Kuchen. (ein)\n8. Wir haben {8} Wein. (kein)\n9. Ich kaufe {9} Fisch. (der)\n10. Brauchst du {10} Joghurt? (ein)\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Alle Nomen hier sind maskulin. Der Grundartikel steht in Klammern.",
+      "instructionsEn": "All nouns here are masculine. The base article is in brackets.",
+      "title": "Akkusativ maskulin: den, einen, keinen",
+      "track": "akkusativ"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "möchte"
+          ],
+          "2": [
+            "möchtest"
+          ],
+          "3": [
+            "möchte"
+          ],
+          "4": [
+            "möchten"
+          ],
+          "5": [
+            "möchtet"
+          ],
+          "6": [
+            "möchten"
+          ],
+          "7": [
+            "möchte"
+          ],
+          "8": [
+            "Möchtest"
+          ],
+          "9": [
+            "möchte"
+          ],
+          "10": [
+            "möchtet"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. ich {1} · du {2} · er/sie/es {3} · wir {4} · ihr {5} · sie/Sie {6}\n2. Ich {7} einen Tee.\n3. {8} du ein Brötchen?\n4. Er {9} zahlen.\n5. Was {10} ihr?\n",
+        "type": "gap-text"
+      },
+      "id": "A6",
+      "title": "`möchten`: Konjugation und Sätze"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "esse"
+          ],
+          "2": [
+            "isst"
+          ],
+          "3": [
+            "esst"
+          ],
+          "4": [
+            "isst"
+          ],
+          "5": [
+            "essen"
+          ],
+          "6": [
+            "nehme"
+          ],
+          "7": [
+            "Nimmst"
+          ],
+          "8": [
+            "nimmt"
+          ],
+          "9": [
+            "Nehmen"
+          ],
+          "10": [
+            "nehmt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} (essen) ein Müsli.\n2. Du {2} (essen) kein Fleisch, richtig?\n3. Was {3} (essen) ihr zum Frühstück?\n4. Er {4} (essen) gern Pizza.\n5. Wir {5} (essen) heute Fisch.\n6. Ich {6} (nehmen) den Salat.\n7. {7} (nehmen) du auch einen Kaffee?\n8. Sie {8} (nehmen) ein Stück Kuchen. (= she)\n9. {9} (nehmen) Sie auch eine Flasche Wasser?\n10. Was {10} (nehmen) ihr?\n",
+        "type": "gap-text"
+      },
+      "id": "A7",
+      "title": "`essen` und `nehmen` (e → i!)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "kostet"
+          ],
+          "2": [
+            "kosten"
+          ],
+          "3": [
+            "trinke"
+          ],
+          "4": [
+            "Trinkst"
+          ],
+          "5": [
+            "kaufen"
+          ],
+          "6": [
+            "kauft"
+          ],
+          "7": [
+            "brauche"
+          ],
+          "8": [
+            "Braucht"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Was {1} (kosten) der Käse?\n2. Die Äpfel {2} (kosten) drei Euro.\n3. Ich {3} (trinken) morgens Kaffee.\n4. {4} (trinken) du Bier?\n5. Wir {5} (kaufen) Brot und Milch.\n6. Meine Mutter {6} (kaufen) im Supermarkt.\n7. Ich {7} (brauchen) Zucker und Eier.\n8. {8} (brauchen) ihr noch etwas?\n",
+        "type": "gap-text"
+      },
+      "id": "A8",
+      "title": "trinken, kaufen, brauchen, kosten"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Äpfel"
+          ],
+          "2": [
+            "Eier"
+          ],
+          "3": [
+            "Tomaten"
+          ],
+          "4": [
+            "Brötchen"
+          ],
+          "5": [
+            "Flaschen"
+          ],
+          "6": [
+            "Säfte"
+          ],
+          "7": [
+            "Gläser"
+          ],
+          "8": [
+            "Würste"
+          ],
+          "9": [
+            "Kuchen"
+          ],
+          "10": [
+            "Kartoffeln"
+          ]
+        },
+        "listLayout": true,
+        "text": "der Apfel → die {1} · das Ei → die {2} · die Tomate → die {3} ·\ndas Brötchen → die {4} · die Flasche → die {5} · der Saft → die {6} ·\ndas Glas → die {7} · die Wurst → die {8} · der Kuchen → die {9} ·\ndie Kartoffel → die {10}\n",
+        "type": "gap-text"
+      },
+      "id": "A9",
+      "title": "Plural"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "zwei Euro fünfzig"
+          ],
+          "2": [
+            "neunundneunzig Cent"
+          ],
+          "3": [
+            "dreizehn Euro achtzig"
+          ],
+          "4": [
+            "sieben Euro zwanzig"
+          ],
+          "5": [
+            "ein Euro fünf"
+          ],
+          "6": [
+            "zwanzig Euro neunzig"
+          ]
+        },
+        "listLayout": true,
+        "text": "2,50 € = {1} · 0,99 € = {2} · 13,80 € = {3} · 7,20 € = {4} ·\n1,05 € = {5} · 20,90 € = {6}\n",
+        "type": "gap-text"
+      },
+      "id": "A10",
+      "title": "Preise: write as words"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "d",
+          "2": "f",
+          "3": "g",
+          "4": "b",
+          "5": "c",
+          "6": "h",
+          "7": "a",
+          "8": "e"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "eine Tasse"
+          },
+          {
+            "key": "2",
+            "text": "ein Glas"
+          },
+          {
+            "key": "3",
+            "text": "eine Flasche"
+          },
+          {
+            "key": "4",
+            "text": "ein Stück"
+          },
+          {
+            "key": "5",
+            "text": "ein Kilo"
+          },
+          {
+            "key": "6",
+            "text": "ein Liter"
+          },
+          {
+            "key": "7",
+            "text": "eine Dose"
+          },
+          {
+            "key": "8",
+            "text": "eine Packung"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Cola"
+          },
+          {
+            "key": "b",
+            "text": "Kuchen"
+          },
+          {
+            "key": "c",
+            "text": "Äpfel"
+          },
+          {
+            "key": "d",
+            "text": "Kaffee"
+          },
+          {
+            "key": "e",
+            "text": "Reis"
+          },
+          {
+            "key": "f",
+            "text": "Saft"
+          },
+          {
+            "key": "g",
+            "text": "Wasser"
+          },
+          {
+            "key": "h",
+            "text": "Milch"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A11",
+      "title": "Mengen: match container and product"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "eine"
+          ],
+          "2": [
+            "einen"
+          ],
+          "3": [
+            "ein"
+          ],
+          "4": [
+            "kein"
+          ],
+          "5": [
+            "einen"
+          ],
+          "6": [
+            "ein"
+          ],
+          "7": [
+            "keinen"
+          ],
+          "8": [
+            "keine"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich esse {1} Banane.\n2. Er trinkt {2} Kaffee.\n3. Wir kaufen {3} Brot.\n4. Ich esse {4} Fleisch. (no meat!)\n5. Möchtest du {5} Apfel?\n6. Sie isst {6} Ei.\n7. Ich habe {7} Hunger. (der Hunger!)\n8. Wir brauchen {8} Tomaten. (no tomatoes!)\n",
+        "type": "gap-text"
+      },
+      "id": "A12",
+      "title": "Akkusativ gemischt: ein/eine/einen, kein/keine/keinen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "möchten"
+          ],
+          "2": [
+            "möchte",
+            "nehme"
+          ],
+          "3": [
+            "ein"
+          ],
+          "4": [
+            "einen"
+          ],
+          "5": [
+            "Haben"
+          ],
+          "6": [
+            "Glas"
+          ],
+          "7": [
+            "zahlen"
+          ],
+          "8": [
+            "getrennt"
+          ]
+        },
+        "listLayout": true,
+        "text": "— Guten Tag! Was {1} Sie, bitte?\n— Ich {2} einen Kaffee und {3} Stück Kuchen, bitte.\n— Gern. Und Sie?\n— Ich nehme {4} Tee.\n— {5} Sie auch Orangensaft?\n— Ja, natürlich.\n— Dann ein {6} Orangensaft, bitte.\n*(später)*\n— Wir möchten {7}, bitte!\n— Zusammen oder {8}?\n",
+        "type": "gap-text"
+      },
+      "id": "B1",
+      "title": "Dialog: Im Café"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "haben"
+          ],
+          "2": [
+            "kostet"
+          ],
+          "3": [
+            "nehme",
+            "kaufe"
+          ],
+          "4": [
+            "etwas"
+          ],
+          "5": [
+            "einen"
+          ],
+          "6": [
+            "Flasche"
+          ],
+          "7": [
+            "macht"
+          ],
+          "8": [
+            "Wiedersehen"
+          ]
+        },
+        "listLayout": true,
+        "text": "— Entschuldigung, {1} Sie Schwarzbrot?\n— Ja, da hinten links.\n— Danke. Was {2} der Käse?\n— Zwei Euro neunundneunzig.\n— Gut, dann {3} ich den Käse.\n— Sonst noch {4}?\n— Ja, ich brauche noch {5} Liter Milch und eine {6} Wasser.\n— Gern. Das {7} sechs Euro zwanzig.\n— Hier bitte.\n— Danke, auf {8}!\n",
+        "type": "gap-text"
+      },
+      "id": "B2",
+      "title": "Dialog: Im Supermarkt"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "einen"
+          ],
+          "2": [
+            "möchte"
+          ],
+          "3": [
+            "isst"
+          ],
+          "4": [
+            "kosten"
+          ],
+          "5": [
+            "kein"
+          ],
+          "6": [
+            "kein"
+          ],
+          "7": [
+            "den"
+          ],
+          "8": [
+            "Äpfel"
+          ],
+          "9": [
+            "nimmt"
+          ],
+          "10": [
+            "keinen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich möchte {1} Kaffee. (ein → ?)\n2. Er {2} zahlen. (möchtet → ?)\n3. Du {3} kein Fleisch. (esst → ?)\n4. Was {4} die Äpfel? (kostet → ?)\n5. Ich trinke {5} Bier. (nicht → ?)\n6. Das ist {6} Brot. (keine → ?)\n7. Ich nehme {7} Salat. (der → ?)\n8. Haben Sie {8} Äpfel? (ein → ?)\n9. Er {9} ein Stück Kuchen. (nehmt → ?)\n10. Ich habe {10} Durst. (kein → ?)\n",
+        "type": "gap-text"
+      },
+      "id": "B3",
+      "instructions": "Jeder Satz hat genau einen Fehler. Das falsche Wort steht als Lücke — schreibe die richtige Form.",
+      "instructionsEn": "Each sentence has exactly one mistake. The wrong word is shown as a gap — write the correct form.",
+      "title": "Finde den Fehler"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b",
+          "5": "f",
+          "6": "e",
+          "7": "h",
+          "8": "g"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Was möchten Sie?"
+          },
+          {
+            "key": "2",
+            "text": "Zusammen oder getrennt?"
+          },
+          {
+            "key": "3",
+            "text": "Was kostet der Kuchen?"
+          },
+          {
+            "key": "4",
+            "text": "Haben Sie Eier?"
+          },
+          {
+            "key": "5",
+            "text": "Sonst noch etwas?"
+          },
+          {
+            "key": "6",
+            "text": "Schmeckt der Fisch?"
+          },
+          {
+            "key": "7",
+            "text": "Was isst du zum Frühstück?"
+          },
+          {
+            "key": "8",
+            "text": "Möchtest du Wasser?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Getrennt, bitte."
+          },
+          {
+            "key": "b",
+            "text": "Ja, da vorne rechts."
+          },
+          {
+            "key": "c",
+            "text": "Einen Tee, bitte."
+          },
+          {
+            "key": "d",
+            "text": "Drei Euro fünfzig."
+          },
+          {
+            "key": "e",
+            "text": "Ja, sehr gut!"
+          },
+          {
+            "key": "f",
+            "text": "Nein, danke, das ist alles."
+          },
+          {
+            "key": "g",
+            "text": "Ja, gern — ich habe Durst!"
+          },
+          {
+            "key": "h",
+            "text": "Müsli mit Joghurt."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B4",
+      "title": "Frage und Antwort verbinden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              2,
+              0,
+              1,
+              3
+            ],
+            "note": "Ich möchte einen Kaffee.",
+            "tiles": [
+              "möchte",
+              "einen",
+              "ich",
+              "Kaffee"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              2,
+              0,
+              3,
+              4,
+              5
+            ],
+            "note": "Was isst du zum Frühstück?",
+            "tiles": [
+              "du",
+              "was",
+              "isst",
+              "zum",
+              "Frühstück",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              3,
+              1,
+              0,
+              2
+            ],
+            "note": "Ich esse kein Fleisch.",
+            "tiles": [
+              "kein",
+              "esse",
+              "Fleisch",
+              "ich"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              2,
+              0,
+              3,
+              4
+            ],
+            "note": "Was kostet der Käse?",
+            "tiles": [
+              "der",
+              "was",
+              "kostet",
+              "Käse",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              2,
+              0,
+              1,
+              3
+            ],
+            "note": "Wir nehmen ein Stück Kuchen.",
+            "tiles": [
+              "nehmen",
+              "ein Stück",
+              "wir",
+              "Kuchen"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              0,
+              2,
+              3
+            ],
+            "note": "Haben Sie Orangensaft?",
+            "tiles": [
+              "Sie",
+              "haben",
+              "Orangensaft",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              3,
+              0,
+              1,
+              2
+            ],
+            "note": "Er trinkt morgens Tee.",
+            "tiles": [
+              "trinkt",
+              "morgens",
+              "Tee",
+              "er"
+            ]
+          },
+          {
+            "answer": [
+              2,
+              0,
+              1,
+              3
+            ],
+            "note": "Wir brauchen noch Milch.",
+            "tiles": [
+              "brauchen",
+              "noch",
+              "wir",
+              "Milch"
+            ]
+          },
+          {
+            "answer": [
+              3,
+              2,
+              1,
+              0
+            ],
+            "note": "Der Kuchen schmeckt sehr gut.",
+            "tiles": [
+              "gut",
+              "sehr",
+              "schmeckt",
+              "der Kuchen"
+            ]
+          },
+          {
+            "answer": [
+              2,
+              0,
+              1,
+              3
+            ],
+            "note": "Wir möchten zahlen, bitte.",
+            "tiles": [
+              "möchten",
+              "zahlen",
+              "wir",
+              "bitte"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B5",
+      "title": "Satzbau"
+    },
+    {
+      "block": "B",
+      "body": {
+        "buckets": [
+          {
+            "key": "obst",
+            "label": "Obst"
+          },
+          {
+            "key": "gemuese",
+            "label": "Gemüse"
+          },
+          {
+            "key": "getraenke",
+            "label": "Getränke"
+          },
+          {
+            "key": "milchprodukte",
+            "label": "Milchprodukte"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "obst",
+            "text": "Apfel"
+          },
+          {
+            "bucket": "obst",
+            "text": "Banane"
+          },
+          {
+            "bucket": "obst",
+            "text": "Orange"
+          },
+          {
+            "bucket": "gemuese",
+            "text": "Tomate"
+          },
+          {
+            "bucket": "gemuese",
+            "text": "Kartoffel"
+          },
+          {
+            "bucket": "gemuese",
+            "text": "Salat"
+          },
+          {
+            "bucket": "getraenke",
+            "text": "Saft"
+          },
+          {
+            "bucket": "getraenke",
+            "text": "Tee"
+          },
+          {
+            "bucket": "getraenke",
+            "text": "Wasser"
+          },
+          {
+            "bucket": "milchprodukte",
+            "text": "Milch"
+          },
+          {
+            "bucket": "milchprodukte",
+            "text": "Joghurt"
+          },
+          {
+            "bucket": "milchprodukte",
+            "text": "Käse"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "B6",
+      "instructions": "Sortiere die 12 Wörter: Obst · Gemüse · Getränke · Milchprodukte",
+      "instructionsEn": "Sort the 12 words: Obst · Gemüse · Getränke · Milchprodukte",
+      "title": "Kategorien"
+    },
+    {
+      "block": "B",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "Apfel",
+              "Banane",
+              "Orange",
+              "Schinken"
+            ],
+            "odd": 3,
+            "why": "not fruit (Schinken = ham)"
+          },
+          {
+            "items": [
+              "Kaffee",
+              "Tee",
+              "Saft",
+              "Brot"
+            ],
+            "odd": 3,
+            "why": "not a drink (Brot = bread)"
+          },
+          {
+            "items": [
+              "Kartoffel",
+              "Tomate",
+              "Kuchen",
+              "Salat"
+            ],
+            "odd": 2,
+            "why": "not a vegetable (Kuchen = cake)"
+          },
+          {
+            "items": [
+              "Milch",
+              "Joghurt",
+              "Käse",
+              "Cola"
+            ],
+            "odd": 3,
+            "why": "not a dairy product (Cola = soda)"
+          },
+          {
+            "items": [
+              "Frühstück",
+              "Mittagessen",
+              "Abendessen",
+              "Supermarkt"
+            ],
+            "odd": 3,
+            "why": "not a meal (Supermarkt = supermarket)"
+          },
+          {
+            "items": [
+              "Flasche",
+              "Glas",
+              "Tasse",
+              "Ei"
+            ],
+            "odd": 3,
+            "why": "not a container (Ei = egg)"
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "B7",
+      "title": "Was passt nicht?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "esse"
+          ],
+          "2": [
+            "trinke"
+          ],
+          "3": [
+            "kein"
+          ],
+          "4": [
+            "gern"
+          ],
+          "5": [
+            "ein"
+          ],
+          "6": [
+            "essen"
+          ],
+          "7": [
+            "mit"
+          ],
+          "8": [
+            "kaufe",
+            "brauche",
+            "nehme"
+          ],
+          "9": [
+            "eine"
+          ],
+          "10": [
+            "macht",
+            "kostet"
+          ]
+        },
+        "bank": [
+          "esse",
+          "trinke",
+          "kein",
+          "gern",
+          "ein",
+          "essen",
+          "mit",
+          "kaufe",
+          "eine",
+          "macht",
+          "trinken",
+          "Frühstück",
+          "Samstag",
+          "Flasche",
+          "Suppe"
+        ],
+        "text": "Zum Frühstück {1} ich Brot mit Käse und {2} eine Tasse Kaffee. Mein Mann isst {3} Fleisch — er isst {4} Müsli mit Joghurt und Obst. Unsere Tochter trinkt morgens {5} Glas Milch. Zum Mittagessen {6} wir oft Nudeln oder Reis mit Gemüse. Und abends? Da essen wir „Abendbrot\": Brot {7} Wurst oder Käse. Am Samstag kaufe ich im Supermarkt ein: Ich {8} Kartoffeln, Eier und {9} Flasche Wein. Das {10} zusammen zwanzig Euro.\n",
+        "type": "gap-bank"
+      },
+      "id": "C1",
+      "instructions": "Fülle jede Lücke mit einem Wort aus dem Kasten. Fünf Wörter werden nicht gebraucht.",
+      "instructionsEn": "Fill each gap with one word from the box. Five words are not needed.",
+      "title": "Lückentext"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ein"
+              },
+              {
+                "key": "b",
+                "text": "einen"
+              },
+              {
+                "key": "c",
+                "text": "eine"
+              }
+            ],
+            "q": "Ich trinke (1) ____ Kaffee. — I drink (1) ____ coffee.",
+            "why": "der Kaffee, accusative masculine → einen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Stück"
+              },
+              {
+                "key": "b",
+                "text": "Glas"
+              },
+              {
+                "key": "c",
+                "text": "Tasse"
+              }
+            ],
+            "q": "… und esse ein (2) ____ Apfelkuchen. — … and I eat a (2) ____ apple cake.",
+            "why": "ein Stück Apfelkuchen = a piece of apple cake."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "schmeckt"
+              },
+              {
+                "key": "b",
+                "text": "isst"
+              },
+              {
+                "key": "c",
+                "text": "kostet"
+              }
+            ],
+            "q": "Der Kuchen (3) ____ sehr gut! — The cake (3) ____ very good!",
+            "why": "schmeckt = tastes (good)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "nicht"
+              },
+              {
+                "key": "b",
+                "text": "nur"
+              },
+              {
+                "key": "c",
+                "text": "kein"
+              }
+            ],
+            "q": "Er kostet (4) ____ drei Euro. — It costs (4) ____ three euros.",
+            "why": "kostet nur = costs only."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "mit"
+              },
+              {
+                "key": "b",
+                "text": "aus"
+              },
+              {
+                "key": "c",
+                "text": "in"
+              }
+            ],
+            "q": "Das Café hat auch Frühstück: Brötchen (5) ____ Käse, Eier und Saft. — The café also has breakfast: rolls (5) ____ cheese, eggs, and juice.",
+            "why": "Brötchen mit Käse = rolls with cheese."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "zusammen"
+              },
+              {
+                "key": "b",
+                "text": "getrennt"
+              },
+              {
+                "key": "c",
+                "text": "macht"
+              }
+            ],
+            "q": "… — alles (6) ____ acht Euro. — … — everything (6) ____ eight euros.",
+            "why": "alles zusammen = all together (for 8 euros)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle die richtige Option (a, b oder c) für jede Lücke.",
+      "instructionsEn": "Choose the correct option (a, b, or c) for each gap.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "BRAUCHE",
+            "ESSE"
+          ],
+          "2": [
+            "KOSTET"
+          ],
+          "3": [
+            "NEHME"
+          ],
+          "4": [
+            "HABEN"
+          ],
+          "5": [
+            "NICHT"
+          ],
+          "6": [
+            "EINE"
+          ],
+          "7": [
+            "DEN"
+          ],
+          "8": [
+            "IST"
+          ],
+          "9": [
+            "MACHT"
+          ],
+          "10": [
+            "BITTE"
+          ]
+        },
+        "bank": [
+          "BIN",
+          "BITTE",
+          "BRAUCHE",
+          "DANKE",
+          "DEN",
+          "EINE",
+          "ESSE",
+          "HABEN",
+          "IST",
+          "KEIN",
+          "KOSTET",
+          "MACHT",
+          "NEHME",
+          "NICHT",
+          "TRINKT"
+        ],
+        "text": "— Guten Tag! Ich {1} Äpfel und Tomaten. Was {2} ein Kilo Äpfel?\n— Zwei Euro fünfzig.\n— Gut, dann {3} ich zwei Kilo. Und {4} Sie auch Eier?\n— Nein, Eier haben wir heute leider {5}. (leider = unfortunately)\n— Schade! Dann nehme ich noch {6} Flasche Orangensaft und {7} Käse da.\n— Gern. Sonst noch etwas?\n— Nein, danke. Das {8} alles.\n— Das {9} acht Euro zwanzig.\n— Hier, {10}.\n— Danke schön!\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Fünf Wörter werden nicht gebraucht. Jedes Wort nur einmal.",
+      "instructionsEn": "Fill the 10 gaps from the box. Five words are not needed. Each word once.",
+      "title": "Sprachbausteine Teil 2 (word bank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Die Deutschen essen zum Frühstück oft Brot oder Brötchen. — Germans often eat bread or rolls for breakfast.",
+            "why": "Brot und Brötchen sind klassisches deutsches Frühstück."
+          },
+          {
+            "answer": false,
+            "q": "Müsli ist nicht populär. — Muesli is not popular.",
+            "why": "Müsli ist populär."
+          },
+          {
+            "answer": false,
+            "q": "Am Wochenende ist das Frühstück klein. — On the weekend, breakfast is small.",
+            "why": "Am Wochenende ist das Frühstück groß und lang."
+          },
+          {
+            "answer": true,
+            "q": "Das Mittagessen ist oft warm. — Lunch is often warm/hot.",
+            "why": "Mittagessen ist in Deutschland oft warm."
+          },
+          {
+            "answer": true,
+            "q": "Das Abendessen heißt „Abendbrot\" und ist oft kalt. — Dinner is called \"Abendbrot\" and is often cold.",
+            "why": "Abendbrot = kaltes Abendessen."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Was essen die Deutschen zum Frühstück? Viele essen Brot oder\n> Brötchen mit Butter, Käse oder Wurst. Auch Müsli mit Joghurt\n> und Obst ist sehr beliebt. Die Deutschen trinken morgens\n> Kaffee — sehr viel Kaffee! — oder Tee. Am Wochenende ist\n> das Frühstück groß und lang: dann gibt es auch Eier,\n> frischen Orangensaft und manchmal sogar Kuchen. Die Familie\n> oder die Freunde sitzen zusammen, lesen die Zeitung und\n> sprechen. Das Frühstück dauert eine Stunde oder mehr.\n>\n> Das Mittagessen ist oft warm: Kartoffeln, Nudeln oder Reis\n> mit Fleisch oder Fisch und Gemüse. In vielen deutschen\n> Kantinen und Restaurants gibt es ein günstiges Mittagsmenü\n> für fünf bis acht Euro. Kinder essen mittags in der Schule.\n>\n> Das Abendessen heißt „Abendbrot\" — das Wort sagt es schon:\n> es ist oft Brot mit Käse, Wurst und Salat. Warm kochen am\n> Abend ist in vielen deutschen Haushalten weniger üblich als\n> in Brasilien oder Russland. Anna und Bruno finden das ein\n> bisschen seltsam, aber sie essen gern das deutsche Abendbrot.\n\nRichtig (R) oder falsch (F)?\n",
+      "title": "Lesen Text 1 — Frühstück in Deutschland"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "6,90 €"
+              },
+              {
+                "key": "b",
+                "text": "5,50 €"
+              },
+              {
+                "key": "c",
+                "text": "3,20 €"
+              }
+            ],
+            "q": "Das Frühstück „Fit\" kostet … — The \"Fit\" breakfast costs …",
+            "why": "5,50 €."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Müsli"
+              },
+              {
+                "key": "b",
+                "text": "ein Ei"
+              },
+              {
+                "key": "c",
+                "text": "Kuchen"
+              }
+            ],
+            "q": "Im Frühstück „Berlin\" ist … — In the \"Berlin\" breakfast, there is …",
+            "why": "1 Ei."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "6,00 €"
+              },
+              {
+                "key": "b",
+                "text": "5,70 €"
+              },
+              {
+                "key": "c",
+                "text": "6,20 €"
+              }
+            ],
+            "q": "Ein Kaffee und ein Stück Apfelkuchen kosten zusammen … — A coffee and a piece of apple cake cost together …",
+            "why": "2,80 + 3,20 = 6,00."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "2,50 €"
+              },
+              {
+                "key": "b",
+                "text": "2,80 €"
+              },
+              {
+                "key": "c",
+                "text": "3,00 €"
+              }
+            ],
+            "q": "Was kostet ein Glas Orangensaft? — How much is a glass of orange juice?",
+            "why": "3,00 €."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Speisekarte:\n> Frühstück „Berlin\": 2 Brötchen, Butter, Käse, Marmelade, 1 Ei — 6,90 €\n> Frühstück „Fit\": Müsli mit Joghurt und Obst — 5,50 €\n> Apfelkuchen (1 Stück) — 3,20 €\n> Getränke: Kaffee 2,80 € · Tee 2,50 € · Orangensaft (Glas) 3,00 €\n\nWähle a, b oder c.\n",
+      "title": "Lesen Text 2 — Speisekarte"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "möchte"
+          ],
+          "2": [
+            "isst"
+          ],
+          "3": [
+            "einen"
+          ],
+          "4": [
+            "kein"
+          ],
+          "5": [
+            "habt"
+          ],
+          "6": [
+            "das"
+          ],
+          "7": [
+            "Die Rechnung, bitte!"
+          ],
+          "8": [
+            "neunundneunzig Cent"
+          ],
+          "9": [
+            "Welche"
+          ],
+          "10": [
+            "Gläser"
+          ],
+          "11": [
+            "nimmt"
+          ],
+          "12": [
+            "siebenundvierzig"
+          ],
+          "13": [
+            "Stimmt so!"
+          ],
+          "14": [
+            "kein"
+          ],
+          "15": [
+            "ihr"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. möchten, er-form: er {1}\n2. essen, du-form: du {2}\n3. „Ich nehme {3} Apfel.\" (ein)\n4. nicht oder kein: „Ich trinke {4} Bier.\"\n5. (L2) haben, ihr-form: ihr {5}\n6. der/die/das: {6} Brötchen\n7. \"The bill, please!\" → {7}\n8. 0,99 € in words: {8}\n9. (L1) „{9} Sprachen sprichst du?\"\n10. Plural: das Glas → die {10}\n11. nehmen, er-form: er {11}\n12. (L2) 47 in words: {12}\n13. \"Keep the change!\" → {13}\n14. „Das ist {14} Wein, das ist Saft.\"\n15. (L2) her husband = {15} Mann\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "title": "Gemischter Schnelltest (incl. L1 + L2)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "Apfel",
+              "Banane",
+              "Kartoffel",
+              "Orange"
+            ],
+            "odd": 2,
+            "why": "vegetable among fruit (Kartoffel)"
+          },
+          {
+            "items": [
+              "Kaffee",
+              "Tee",
+              "Saft",
+              "Käse"
+            ],
+            "odd": 3,
+            "why": "not a drink (Käse = cheese)"
+          },
+          {
+            "items": [
+              "einen",
+              "eine",
+              "ein",
+              "nicht"
+            ],
+            "odd": 3,
+            "why": "not an article (nicht = not)"
+          },
+          {
+            "items": [
+              "esse",
+              "isst",
+              "essen",
+              "ist"
+            ],
+            "odd": 3,
+            "why": "form of sein, not essen (ist)"
+          },
+          {
+            "items": [
+              "Flasche",
+              "Dose",
+              "Packung",
+              "Frühstück"
+            ],
+            "odd": 3,
+            "why": "not packaging (Frühstück = breakfast)"
+          },
+          {
+            "items": [
+              "kaufen",
+              "kosten",
+              "zahlen",
+              "wohnen"
+            ],
+            "odd": 3,
+            "why": "not about shopping/money (wohnen = to live)"
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "title": "Odd one out"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "bin"
+          ],
+          "2": [
+            "hast"
+          ],
+          "3": [
+            "kommen"
+          ],
+          "4": [
+            "Töchter"
+          ],
+          "5": [
+            "seine"
+          ],
+          "6": [
+            "dreizehn"
+          ],
+          "7": [
+            "achtundachtzig"
+          ],
+          "8": [
+            "Das ist nicht meine Cousine."
+          ],
+          "9": [
+            "Wo wohnen Sie?"
+          ],
+          "10": [
+            "ist"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. (L1) ich (sein) → {1}\n2. (L2) du (haben) → {2}\n3. (L1) „Woher {3} Sie?\"\n4. (L2) Plural: die Tochter → die {4}\n5. (L2) his parents = {5} Eltern\n6. (L1) 13 in words: {6}\n7. (L2) 88 in words: {7}\n8. (L2) Negate: „Das ist meine Cousine.\" → {8}\n9. (L1) Formal: \"Where do you live?\" → {9}\n10. (L2) „Wie alt {10} deine Oma?\"\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "title": "Wiederholung Lektion 1 + 2"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "die"
+          ],
+          "2": [
+            "das"
+          ],
+          "3": [
+            "der"
+          ],
+          "4": [
+            "einen"
+          ],
+          "5": [
+            "eine"
+          ],
+          "6": [
+            "ein"
+          ],
+          "7": [
+            "isst"
+          ],
+          "8": [
+            "nimmst"
+          ],
+          "9": [
+            "möchtet"
+          ],
+          "10": [
+            "keinen"
+          ],
+          "11": [
+            "nicht"
+          ],
+          "12": [
+            "die Äpfel"
+          ],
+          "13": [
+            "die Eier"
+          ],
+          "14": [
+            "drei Euro fünfzig"
+          ],
+          "15": [
+            "ein Glas Saft"
+          ],
+          "16": [
+            "Wir möchten zahlen."
+          ],
+          "17": [
+            "Was isst du gern?"
+          ],
+          "18": [
+            "Zusammen oder getrennt?"
+          ],
+          "19": [
+            "Nein, wir haben keine Äpfel.",
+            "Nein, leider nicht."
+          ],
+          "20": [
+            "das Frühstück"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Milch  2. {2} Ei  3. {3} Saft\n4. Ich trinke {4} Saft. (ein)  5. Er isst {5} Banane. (ein)  6. Wir kaufen {6} Brot. (ein)\n7. essen: er {7}  8. nehmen: du {8}  9. möchten: ihr {9}\n10. „Ich esse {10} Fisch.\" (der Fisch!)  11. „Der Tee ist {11} heiß.\"\n12. der Apfel → {12}  13. das Ei → {13}\n14. 3,50 € in words: {14}\n15. \"a glass of juice\" → {15}\n16. möchten – wir – zahlen → {16}\n17. du – was – isst – gern – ? → {17}\n18. \"Together or separately?\" → {18}\n19. „Haben Sie Äpfel?\" — answer \"no\" in a full sentence: {19}\n20. \"breakfast\" (with article) → {20}\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (score yourself /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "a1-03",
+  "intro": "Blocks: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Answers in solutions.md. Tip: spread the blocks over several days — H and A today, B tomorrow, C and D after that.\n",
+  "lesson": "A1/03",
+  "level": "A1",
+  "summary": null,
+  "title": "A1 · Lektion 3 — Übungen",
+  "topic": null
+}

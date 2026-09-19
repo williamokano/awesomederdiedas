@@ -1,0 +1,1620 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "auf"
+          ],
+          "2": [
+            "Akkusativ"
+          ],
+          "3": [
+            "über"
+          ],
+          "4": [
+            "Akkusativ"
+          ],
+          "5": [
+            "auf"
+          ],
+          "6": [
+            "Akkusativ"
+          ],
+          "7": [
+            "an"
+          ],
+          "8": [
+            "Akkusativ"
+          ],
+          "9": [
+            "über"
+          ],
+          "10": [
+            "Akkusativ"
+          ],
+          "11": [
+            "nach"
+          ],
+          "12": [
+            "Dativ"
+          ],
+          "13": [
+            "auf"
+          ],
+          "14": [
+            "Akkusativ"
+          ],
+          "15": [
+            "für"
+          ],
+          "16": [
+            "Akkusativ"
+          ],
+          "17": [
+            "über"
+          ],
+          "18": [
+            "Akkusativ"
+          ],
+          "19": [
+            "an"
+          ],
+          "20": [
+            "Akkusativ"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. warten — {1} — {2}\n2. sich freuen (happy about) — {3} — {4}\n3. sich freuen (look forward to) — {5} — {6}\n4. denken — {7} — {8}\n5. sprechen — {9} — {10}\n6. fragen — {11} — {12}\n7. antworten — {13} — {14}\n8. sich interessieren — {15} — {16}\n9. sich ärgern — {17} — {18}\n10. schreiben — {19} — {20}\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Schreibe die richtige Präposition und den Kasus für jedes Verb. Jede Zeile hat zwei Lücken (Präposition + Kasus).",
+      "instructionsEn": "Write the correct preposition and case for each verb. Each row has two gaps (Präposition + Kasus).",
+      "title": "Tabelle: Verben mit festen Präpositionen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "auf"
+          ],
+          "2": [
+            "an"
+          ],
+          "3": [
+            "für"
+          ],
+          "4": [
+            "über"
+          ],
+          "5": [
+            "auf"
+          ],
+          "6": [
+            "auf"
+          ],
+          "7": [
+            "über"
+          ],
+          "8": [
+            "über"
+          ],
+          "9": [
+            "nach"
+          ],
+          "10": [
+            "an"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich warte {1} eine Nachricht von Anna.\n2. Bruno denkt oft {2} seine Familie.\n3. Anna interessiert sich {3} deutsche Serien.\n4. Wir sprechen {4} das Problem.\n5. Er antwortet nicht {5} meine E-Mail.\n6. Ich freue mich {6} deinen Besuch. (future event)\n7. Sie ärgert sich {7} den schlechten Empfang.\n8. Ich freue mich {8} deine nette Nachricht. (you received it)\n9. Er fragt {9} dem nächsten Zug.\n10. Ich schreibe {10} meine Oma.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze die richtige feste Präposition.",
+      "instructionsEn": "Fill in the correct fixed preposition.",
+      "title": "Präposition einsetzen (1)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "den"
+              },
+              {
+                "key": "b",
+                "text": "dem"
+              },
+              {
+                "key": "c",
+                "text": "der"
+              }
+            ],
+            "q": "Ich warte auf ____ Bus. (der Bus, m)",
+            "why": "m Akkusativ: der → den."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "die"
+              },
+              {
+                "key": "b",
+                "text": "der"
+              },
+              {
+                "key": "c",
+                "text": "den"
+              }
+            ],
+            "q": "Sie denkt an ____ Familie. (die Familie, f)",
+            "why": "f Akkusativ: die → die (unchanged)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "den"
+              },
+              {
+                "key": "b",
+                "text": "dem"
+              },
+              {
+                "key": "c",
+                "text": "der"
+              }
+            ],
+            "q": "Er fragt nach ____ Weg. (der Weg, m)",
+            "why": "m Dativ: der → dem (fragen nach takes Dativ)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "das"
+              },
+              {
+                "key": "b",
+                "text": "dem"
+              },
+              {
+                "key": "c",
+                "text": "des"
+              }
+            ],
+            "q": "Wir sprechen über ____ Problem. (das Problem, n)",
+            "why": "n Akkusativ: das → das (unchanged)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ein"
+              },
+              {
+                "key": "b",
+                "text": "einen"
+              },
+              {
+                "key": "c",
+                "text": "einem"
+              }
+            ],
+            "q": "Ich schreibe an ____ Freund. (ein Freund, m)",
+            "why": "m Akkusativ indef: ein → einen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "die"
+              },
+              {
+                "key": "c",
+                "text": "den"
+              }
+            ],
+            "q": "Sie fragt nach ____ Adresse. (die Adresse, f)",
+            "why": "f Dativ: die → der."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "dem"
+              },
+              {
+                "key": "b",
+                "text": "das"
+              },
+              {
+                "key": "c",
+                "text": "den"
+              }
+            ],
+            "q": "Bruno freut sich auf ____ Wochenende. (das Wochenende, n)",
+            "why": "n Akkusativ: das → das (sich freuen auf takes Akk)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "die"
+              },
+              {
+                "key": "c",
+                "text": "den"
+              }
+            ],
+            "q": "Ich ärgere mich über ____ Verbindung. (die Verbindung, f)",
+            "why": "f Akkusativ: die → die (unchanged)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A3",
+      "instructions": "Wähle die richtige Artikelform. Denke daran: fragen nach verlangt Dativ, alle anderen verlangen Akkusativ.",
+      "instructionsEn": "Choose the correct article form. Remember: fragen nach takes Dativ, all others take Akkusativ.",
+      "title": "Akkusativ oder Dativ nach der Präposition?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "auf"
+          ],
+          "2": [
+            "über"
+          ],
+          "3": [
+            "auf"
+          ],
+          "4": [
+            "auf"
+          ],
+          "5": [
+            "über"
+          ],
+          "6": [
+            "über"
+          ],
+          "7": [
+            "auf"
+          ],
+          "8": [
+            "über"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich freue mich {1} das Konzert nächste Woche.\n2. Anna freut sich {2} die gute Note in der Prüfung.\n3. Bruno freut sich {3} den Videoanruf mit seiner Mutter am Freitag.\n4. Wir freuen uns {4} den Sommer.\n5. Er freut sich {5} deine Nachricht, die er gerade gelesen hat.\n6. Sie freut sich {6} das neue Buch, das sie schon hat.\n7. Ich freue mich {7} unsere nächste Reise.\n8. Die Kinder freuen sich {8} das Geschenk, das sie schon ausgepackt haben.\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Entscheide, welcher Ausdruck passt: über (gegenwärtige/vergangene Tatsache) oder auf (zukünftiges Ereignis).",
+      "instructionsEn": "Decide which expression to use: über (present/past fact) or auf (future event).",
+      "title": "`sich freuen über` oder `sich freuen auf`?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "denke"
+          ],
+          "2": [
+            "an"
+          ],
+          "3": [
+            "ärgert sich"
+          ],
+          "4": [
+            "über"
+          ],
+          "5": [
+            "schreiben"
+          ],
+          "6": [
+            "an"
+          ],
+          "7": [
+            "wartet"
+          ],
+          "8": [
+            "auf"
+          ],
+          "9": [
+            "interessiert sich"
+          ],
+          "10": [
+            "für"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} {2} dich, wenn du nicht schreibst. (denken an)\n2. Er {3} {4} seinen Chef, weil der Termin wieder verschoben wurde. (sich ärgern über)\n3. Wir {5} einen Brief {6} unseren Lehrer. (schreiben an)\n4. Anna {7} {8} den Bus — er kommt nicht! (warten auf)\n5. Bruno {9} {10} deutsche Musik. (sich interessieren für)\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Ergänze das Verb UND die Präposition. Jede Aufgabe hat zwei Lücken.",
+      "instructionsEn": "Fill in the verb AND the preposition. Each item has two gaps.",
+      "title": "Vollständige Sätze (verb + preposition)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "ihn"
+          ],
+          "2": [
+            "sie"
+          ],
+          "3": [
+            "sie"
+          ],
+          "4": [
+            "dafür"
+          ],
+          "5": [
+            "darüber"
+          ],
+          "6": [
+            "darauf"
+          ]
+        },
+        "listLayout": true,
+        "text": "A) Person → personal pronoun (3 items):\n1. Ich denke an meinen Vater. → Ich denke an {1}.\n2. Er wartet auf Frau Weber. → Er wartet auf {2}.\n3. Wir schreiben an unsere Freundin. → Wir schreiben an {3}.\n\nB) Thing → Pronominaladverb (3 items):\n4. Ich interessiere mich für das Thema. → Ich interessiere mich {4}.\n5. Wir sprechen über das Problem. → Wir sprechen {5}.\n6. Er antwortet auf die E-Mail. → Er antwortet {6}.\n",
+        "type": "gap-text"
+      },
+      "id": "A6",
+      "instructions": "A) Person → Personalpronomen. B) Sache → Pronominaladverb (da- + Präposition).",
+      "instructionsEn": "A) Person → personal pronoun. B) Thing → Pronominaladverb (da- + preposition).",
+      "title": "Sätze umformen: Pronomen und Pronominaladverb"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "warte"
+          ],
+          "2": [
+            "wartest"
+          ],
+          "3": [
+            "wartet"
+          ],
+          "4": [
+            "ärgern uns"
+          ],
+          "5": [
+            "ärgert euch"
+          ],
+          "6": [
+            "freuen sich"
+          ],
+          "7": [
+            "interessiere mich"
+          ],
+          "8": [
+            "interessiert sich"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. (warten auf) Ich {1} auf eine Nachricht.\n2. (warten auf) Du {2} auf den Bus.\n3. (warten auf) Er {3} auf eine Antwort.\n4. (sich ärgern über) Wir {4} über das schlechte WLAN.\n5. (sich ärgern über) Ihr {5} über die Werbung.\n6. (sich freuen auf) Sie (pl.) {6} auf den Urlaub.\n7. (sich interessieren für) Ich {7} für Podcasts.\n8. (sich interessieren für) Frau Weber {8} für das Projekt.\n",
+        "type": "gap-text"
+      },
+      "id": "A7",
+      "instructions": "Konjugiere das Verb in Klammern. Schreibe die ganze konjugierte Form (Verb + Reflexivpronomen).",
+      "instructionsEn": "Conjugate the verb in brackets. Write the full conjugated form (verb + reflexive pronoun).",
+      "title": "Konjugation: Verben mit Präpositionen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "der"
+          ],
+          "2": [
+            "dem"
+          ],
+          "3": [
+            "dem"
+          ],
+          "4": [
+            "der"
+          ],
+          "5": [
+            "dem"
+          ],
+          "6": [
+            "einem"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. die Uhrzeit → Ich frage nach {1} Uhrzeit.\n2. das Passwort → Ich frage nach {2} Passwort.\n3. der Preis → Ich frage nach {3} Preis.\n4. die Haltestelle → Ich frage nach {4} Haltestelle.\n5. das WLAN-Passwort → Ich frage nach {5} WLAN-Passwort.\n6. ein freier Platz → Ich frage nach {6} freien Platz.\n",
+        "type": "gap-text"
+      },
+      "id": "A8",
+      "instructions": "Bilde einen Satz mit `fragen nach` + Dativ. Schreibe den Dativ-Artikel (z. B. `Ich frage nach dem Weg`).",
+      "instructionsEn": "Build a sentence using `fragen nach` + Dativ. Write the Dativ article (e.g. `Ich frage nach dem Weg`).",
+      "title": "`fragen nach` (Dativ): Sätze bilden"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "nicht"
+          ],
+          "2": [
+            "nicht"
+          ],
+          "3": [
+            "nicht"
+          ],
+          "4": [
+            "nicht"
+          ],
+          "5": [
+            "nicht"
+          ],
+          "6": [
+            "nicht"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich warte {1} auf eine Antwort.\n2. Er antwortet {2} auf meine E-Mail.\n3. Wir interessieren uns {3} für Werbung.\n4. Anna ärgert sich {4} über die Verbindung.\n5. Bruno denkt {5} an die Hausaufgaben.\n6. Ich freue mich {6} auf das Meeting.\n",
+        "type": "gap-text"
+      },
+      "id": "A9",
+      "instructions": "Verneine jeden Satz mit `nicht` (setze es an die richtige Stelle).",
+      "instructionsEn": "Negate each sentence with `nicht` (place it in the correct position).",
+      "title": "Verneinung: `nicht` einsetzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "d",
+          "2": "a",
+          "3": "c",
+          "4": "b",
+          "5": "g",
+          "6": "f",
+          "7": "h",
+          "8": "e"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Verbindung"
+          },
+          {
+            "key": "2",
+            "text": "die Folge"
+          },
+          {
+            "key": "3",
+            "text": "die Sendung"
+          },
+          {
+            "key": "4",
+            "text": "die Empfehlung"
+          },
+          {
+            "key": "5",
+            "text": "das WLAN"
+          },
+          {
+            "key": "6",
+            "text": "der Anruf"
+          },
+          {
+            "key": "7",
+            "text": "die Werbung"
+          },
+          {
+            "key": "8",
+            "text": "das Abonnement"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "episode"
+          },
+          {
+            "key": "b",
+            "text": "recommendation"
+          },
+          {
+            "key": "c",
+            "text": "programme, broadcast"
+          },
+          {
+            "key": "d",
+            "text": "connection"
+          },
+          {
+            "key": "e",
+            "text": "subscription"
+          },
+          {
+            "key": "f",
+            "text": "phone call"
+          },
+          {
+            "key": "g",
+            "text": "Wi-Fi"
+          },
+          {
+            "key": "h",
+            "text": "advertisement, commercial"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A10",
+      "instructions": "Ordne das deutsche Wort (1–8) der englischen Bedeutung (a–h) zu.",
+      "instructionsEn": "Match the German word (1–8) with its English meaning (a–h).",
+      "title": "Wortschatz: Paare finden"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "angerufen"
+          ],
+          "2": [
+            "heruntergeladen"
+          ],
+          "3": [
+            "abonniert"
+          ],
+          "4": [
+            "kommentiert"
+          ],
+          "5": [
+            "geschickt"
+          ],
+          "6": [
+            "hochgeladen"
+          ],
+          "7": [
+            "geteilt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. anrufen → Ich habe {1}.\n2. herunterladen → Ich habe {2}.\n3. abonnieren → Ich habe {3}.\n4. kommentieren → Ich habe {4}.\n5. schicken → Ich habe {5}.\n6. hochladen → Ich habe {6}.\n7. teilen → Ich habe {7}.\n",
+        "type": "gap-text"
+      },
+      "id": "A11",
+      "instructions": "Schreibe das Perfekt Partizip II (ich habe ___).",
+      "instructionsEn": "Write the Perfekt Partizip II (ich habe ___).",
+      "title": "Verben: Perfekt bilden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "warte"
+          ],
+          "2": [
+            "auf"
+          ],
+          "3": [
+            "für"
+          ],
+          "4": [
+            "interessierst"
+          ],
+          "5": [
+            "Sprechen"
+          ],
+          "6": [
+            "über"
+          ],
+          "7": [
+            "freue"
+          ],
+          "8": [
+            "auf"
+          ],
+          "9": [
+            "ärgerst"
+          ],
+          "10": [
+            "über"
+          ],
+          "11": [
+            "antworte"
+          ],
+          "12": [
+            "auf"
+          ]
+        },
+        "listLayout": true,
+        "text": "— Hallo Bruno! Ich {1} {2} deine Nachricht von gestern Abend!\n— Sorry, ich war beschäftigt. Was ist los?\n— Ich wollte fragen, ob du dich {3} Streaming-Dienste {4}.\n— Ja, sehr! {5} wir {6} das Thema — das finde ich super interessant.\n— Gut. Ich {7} mich {8} unseren Filmabend nächste Woche!\n— Ich auch! Aber {9} du dich {10} das schlechte Internet in deiner Wohnung?\n— Ja, total! Aber ich {11} immer schnell {12} Nachrichten, auch wenn es langsam ist.\n",
+        "type": "gap-text"
+      },
+      "id": "B1",
+      "instructions": "Ergänze die richtige Verb-Präposition-Verbindung. Jede Aufgabe hat zwei Lücken.",
+      "instructionsEn": "Fill in the correct verb+preposition combination. Each item has two gaps.",
+      "title": "Dialog ergänzen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "auf"
+          ],
+          "2": [
+            "für"
+          ],
+          "3": [
+            "auf"
+          ],
+          "4": [
+            "ärgert"
+          ],
+          "5": [
+            "nicht auf"
+          ],
+          "6": [
+            "einen"
+          ],
+          "7": [
+            "der"
+          ],
+          "8": [
+            "meinen"
+          ],
+          "9": [
+            "über"
+          ],
+          "10": [
+            "auf"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich warte {1} einen Anruf von meiner Mutter. (für → ?)\n2. Bruno interessiert sich {2} Sport im Fernsehen. (auf → ?)\n3. Wir freuen uns {3} das Konzert morgen. (you haven't been yet — über → ?)\n4. Anna {4} sich über die Werbung. (ärger → ?)\n5. Er antwortet {5} meine E-Mail. (auf nicht → ?)\n6. Ich schreibe an meinen Freund {6} Brief. (einem → ?)\n7. Sie fragt nach {7} Adresse. (die → ?)\n8. Ich denke oft an {8} Bruder. (meinem → ?)\n9. Wir sprechen {9} das Problem. (für → ?)\n10. Er freut sich {10} seinen nächsten Urlaub. (hasn't happened yet — über → ?)\n",
+        "type": "gap-text"
+      },
+      "id": "B2",
+      "instructions": "Jeder Satz hat genau einen Fehler. Schreibe die richtige Form (Verb/Präposition usw.) in die Lücke.",
+      "instructionsEn": "Each sentence has exactly one mistake. Write the correct form (verb/preposition/etc.) in the gap.",
+      "title": "Finde den Fehler"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "c",
+          "2": "g",
+          "3": "d",
+          "4": "a",
+          "5": "b",
+          "6": "e",
+          "7": "f",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Worauf wartest du?"
+          },
+          {
+            "key": "2",
+            "text": "Worüber ärgerst du dich?"
+          },
+          {
+            "key": "3",
+            "text": "Woran denkst du gerade?"
+          },
+          {
+            "key": "4",
+            "text": "Worüber sprechen Sie?"
+          },
+          {
+            "key": "5",
+            "text": "Wofür interessierst du dich?"
+          },
+          {
+            "key": "6",
+            "text": "Auf wen wartest du?"
+          },
+          {
+            "key": "7",
+            "text": "Wonach fragst du?"
+          },
+          {
+            "key": "8",
+            "text": "Worauf antwortest du?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Über Serien und Filme."
+          },
+          {
+            "key": "b",
+            "text": "Für klassische Musik."
+          },
+          {
+            "key": "c",
+            "text": "Auf eine E-Mail von meiner Uni."
+          },
+          {
+            "key": "d",
+            "text": "An meinen Urlaub nächsten Sommer."
+          },
+          {
+            "key": "e",
+            "text": "Auf meine Schwester — sie ist spät."
+          },
+          {
+            "key": "f",
+            "text": "Nach dem WLAN-Passwort."
+          },
+          {
+            "key": "g",
+            "text": "Über das langsame Internet."
+          },
+          {
+            "key": "h",
+            "text": "Auf eine Nachricht von gestern."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B3",
+      "instructions": "Ordne jede Frage (1–8) der richtigen Antwort (a–h) zu.",
+      "instructionsEn": "Match each question (1–8) with the correct answer (a–h).",
+      "title": "Frage und Antwort verbinden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              1,
+              2,
+              0,
+              4,
+              3
+            ],
+            "note": "Ich warte auf deine Antwort.",
+            "tiles": [
+              "auf",
+              "ich",
+              "warte",
+              "Antwort",
+              "deine"
+            ]
+          },
+          {
+            "answer": [
+              3,
+              1,
+              2,
+              0,
+              5,
+              4,
+              6
+            ],
+            "note": "Bruno ärgert sich über die langsame Verbindung.",
+            "tiles": [
+              "über",
+              "ärgert",
+              "sich",
+              "Bruno",
+              "langsame",
+              "die",
+              "Verbindung"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              2,
+              3,
+              0,
+              4,
+              5
+            ],
+            "note": "Interessierst du dich für Podcasts?",
+            "tiles": [
+              "für",
+              "interessierst",
+              "du",
+              "dich",
+              "Podcasts",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              3,
+              4,
+              0,
+              2
+            ],
+            "note": "Wir sprechen oft über Medien.",
+            "tiles": [
+              "über",
+              "wir",
+              "Medien",
+              "sprechen",
+              "oft"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              2,
+              0,
+              4,
+              3
+            ],
+            "note": "Anna denkt an ihre Eltern.",
+            "tiles": [
+              "an",
+              "Anna",
+              "denkt",
+              "Eltern",
+              "ihre"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              4,
+              5,
+              0,
+              3,
+              2
+            ],
+            "note": "Ich antworte gerne auf Ihre E-Mail.",
+            "tiles": [
+              "auf",
+              "ich",
+              "E-Mail",
+              "Ihre",
+              "antworte",
+              "gerne"
+            ]
+          },
+          {
+            "answer": [
+              6,
+              4,
+              1,
+              5,
+              0,
+              2,
+              3
+            ],
+            "note": "Die Apothekerin fragt Herrn Steinmeyer nach dem Rezept.",
+            "tiles": [
+              "nach",
+              "Herrn",
+              "dem",
+              "Rezept",
+              "fragt",
+              "Steinmeyer",
+              "Die Apothekerin"
+            ]
+          },
+          {
+            "answer": [
+              3,
+              1,
+              0,
+              2,
+              5,
+              6,
+              4
+            ],
+            "note": "Sie freut sich über die neue Nachricht.",
+            "tiles": [
+              "sich",
+              "freut",
+              "über",
+              "sie",
+              "Nachricht",
+              "die",
+              "neue"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B4",
+      "instructions": "Bilde aus den durcheinander gewürfelten Wörtern einen korrekten Satz.",
+      "instructionsEn": "Build a correct sentence from the scrambled words.",
+      "title": "Satzbau (word order)"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "keine"
+          ],
+          "2": [
+            "nicht"
+          ],
+          "3": [
+            "kein"
+          ],
+          "4": [
+            "nicht"
+          ],
+          "5": [
+            "keine"
+          ],
+          "6": [
+            "nicht"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich warte auf {1} Antwort. (no answer at all)\n2. Er antwortet {2} auf meine Nachrichten. (he doesn't reply)\n3. Wir haben {3} WLAN in dieser Wohnung.\n4. Anna freut sich {4} auf den Montagmorgen.\n5. Das ist {5} Empfehlung — das ist Werbung!\n6. Ich schreibe {6} so oft an meine Familie, wie ich möchte.\n",
+        "type": "gap-text"
+      },
+      "id": "B8",
+      "instructions": "Wähle die richtige Verneinung und schreibe sie in die Lücke.",
+      "instructionsEn": "Choose the correct negation and rewrite the gap.",
+      "title": "`nicht` oder `kein-`?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "sich"
+          ],
+          "2": [
+            "auf"
+          ],
+          "3": [
+            "über"
+          ],
+          "4": [
+            "wartet"
+          ],
+          "5": [
+            "an"
+          ],
+          "6": [
+            "schreibt"
+          ],
+          "7": [
+            "nach"
+          ],
+          "8": [
+            "freut"
+          ],
+          "9": [
+            "auf"
+          ],
+          "10": [
+            "möchte"
+          ]
+        },
+        "listLayout": true,
+        "text": "Anna lebt in Berlin und nutzt täglich ihr Smartphone. Sie interessiert {1} sehr\nfür deutsche Serien. Abends wartet sie {2} neue Folgen ihrer Lieblingsserie —\nmanchmal stundenlang! Sie ärgert sich manchmal {3} die langsame\nInternetverbindung in ihrer Wohnung. Dann {4} sie auf einen besseren\nEmpfang und hofft, dass das WLAN bald funktioniert.\n\nBruno denkt oft {5} seine Familie in Brasilien. Er {6} jeden Tag\nNachrichten über WhatsApp und fragt {7} dem Wohlbefinden seiner Eltern.\nAm Wochenende {8} er sich immer auf den Videoanruf — das ist der beste\nMoment der Woche für ihn. Er antwortet immer schnell {9} alle Nachrichten,\nweil er keine verpassen {10}.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Fülle jede Lücke mit einem Wort.",
+      "instructionsEn": "Fill each gap with one word.",
+      "title": "Lückentext"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "für"
+              },
+              {
+                "key": "b",
+                "text": "auf"
+              },
+              {
+                "key": "c",
+                "text": "über"
+              }
+            ],
+            "q": "Ich warte schon eine Woche (1) ____ deine Antwort!",
+            "why": "warten auf."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "auf"
+              },
+              {
+                "key": "b",
+                "text": "für"
+              },
+              {
+                "key": "c",
+                "text": "an"
+              }
+            ],
+            "q": "Ich interessiere mich gerade sehr (2) ____ einen neuen Podcast.",
+            "why": "sich interessieren für."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "an"
+              },
+              {
+                "key": "b",
+                "text": "über"
+              },
+              {
+                "key": "c",
+                "text": "für"
+              }
+            ],
+            "q": "Letzte Woche habe ich (3) ____ dich geschrieben.",
+            "why": "schreiben an (person)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "bekommen"
+              },
+              {
+                "key": "b",
+                "text": "bekommt"
+              },
+              {
+                "key": "c",
+                "text": "bekam"
+              }
+            ],
+            "q": "…aber ich habe nichts (4) ____.",
+            "why": "Perfekt: habe bekommen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "nicht"
+              },
+              {
+                "key": "b",
+                "text": "kein"
+              },
+              {
+                "key": "c",
+                "text": "nichts"
+              }
+            ],
+            "q": "Ärgere dich (5) ____ über meine vielen Nachrichten.",
+            "why": "Imperativ negation: Ärgere dich nicht."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "über"
+              },
+              {
+                "key": "b",
+                "text": "an"
+              },
+              {
+                "key": "c",
+                "text": "auf"
+              }
+            ],
+            "q": "Ich freue mich jedenfalls (6) ____ unser Treffen nächste Woche.",
+            "why": "sich freuen auf (future)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle die richtige Option (a, b oder c) für jede Lücke.",
+      "instructionsEn": "Choose the correct option (a, b, or c) for each gap.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "INTERESSIERE"
+          ],
+          "2": [
+            "FÜR"
+          ],
+          "3": [
+            "SCHREIBE"
+          ],
+          "4": [
+            "AN"
+          ],
+          "5": [
+            "FREUE"
+          ],
+          "6": [
+            "WARTE"
+          ],
+          "7": [
+            "AUF"
+          ],
+          "8": [
+            "ANTWORTE"
+          ],
+          "9": [
+            "ÄRGERE"
+          ],
+          "10": [
+            "ÜBER"
+          ]
+        },
+        "bank": [
+          "AUF",
+          "AN",
+          "ÜBER",
+          "FÜR",
+          "NACH",
+          "WARTE",
+          "FREUE",
+          "SCHREIBE",
+          "ÄRGERE",
+          "DENKE",
+          "INTERESSIERE",
+          "ANTWORTE",
+          "MIT",
+          "VON",
+          "BEI",
+          "FRAGE",
+          "HÖRE",
+          "IN",
+          "SPRECHE",
+          "ZU"
+        ],
+        "text": "Hallo! Ich heiße Minh und wohne seit einem Jahr in Berlin. Ich {1} mich sehr\n{2} soziale Medien. Jeden Abend {3} ich {4} meine Eltern in Vietnam — ich\nvermisse sie sehr. Ich {5} mich immer über ihre Nachrichten, weil sie zeigen,\ndass alles gut ist. Manchmal {6} ich {7} eine Antwort, wenn mein Bruder nicht\nschreibt. Ich {8} immer schnell auf alle Nachrichten von zu Hause. Manchmal\n{9} ich mich {10} das schlechte WLAN hier — aber das ist das einzige Problem!\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Zehn Wörter werden nicht gebraucht. Jedes Wort nur einmal.",
+      "instructionsEn": "Fill the 10 gaps from the box. Ten words are not needed. Each word once.",
+      "title": "Sprachbausteine Teil 2 (word bank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Anna interessiert sich für deutsche Serien.",
+            "why": "Anna interessiert sich sehr für deutsche Serien."
+          },
+          {
+            "answer": false,
+            "q": "Bruno ärgert sich über das schlechte Internet in seiner Wohnung.",
+            "why": "It is Anna who is annoyed about the slow connection in her flat."
+          },
+          {
+            "answer": false,
+            "q": "Bruno schreibt seiner Familie einmal pro Woche.",
+            "why": "Bruno schreibt täglich (every day), not once a week."
+          },
+          {
+            "answer": true,
+            "q": "Im Deutschkurs fragt die Kursleiterin nach Lieblingsprogrammen.",
+            "why": "Die Kursleiterin fragt manchmal nach den Lieblingsprogrammen."
+          },
+          {
+            "answer": false,
+            "q": "Anna findet Spielfilme interessanter als Dokumentationen.",
+            "why": "Anna findet Dokumentationen interessanter als Spielfilme (the opposite)."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Anna und Bruno leben in Berlin und nutzen täglich das Internet. Anna interessiert sich sehr für deutsche Medien. Sie schaut oft Serien auf einer Streaming-Plattform und freut sich immer über neue Folgen ihrer Lieblingsserie. Manchmal ärgert sie sich über die langsame Verbindung in ihrer Wohnung — dann wartet sie ewig auf den Ladebalken.\n>\n> Bruno denkt oft an seine Familie in Brasilien. Er schreibt ihnen täglich Nachrichten über WhatsApp und fragt immer nach dem Wohlbefinden seiner Eltern und seiner Schwester. An Wochenenden freut er sich auf Videoanrufe — für ihn ist das der schönste Moment der Woche. Er antwortet immer schnell auf Nachrichten, weil er keine Nachricht verpassen möchte.\n>\n> Im Deutschkurs sprechen Anna und Bruno oft über das Thema Medien. Die Kursleiterin fragt manchmal nach den Lieblingsprogrammen der Studierenden. Anna empfiehlt immer Dokumentationen — sie findet sie interessanter als Spielfilme. Bruno interessiert sich mehr für Sport im Fernsehen, vor allem für Fußball. Darüber streiten sie freundlich — und lachen am Ende.\n\nRichtig (R) oder Falsch (F)?\n",
+      "title": "Lesen Text 1 (Lesetext)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Serien und Filme."
+              },
+              {
+                "key": "b",
+                "text": "Nachrichten und politische Sendungen."
+              },
+              {
+                "key": "c",
+                "text": "Sport und Musik."
+              }
+            ],
+            "q": "Kenji interessiert sich vor allem für …",
+            "why": "Nachrichten und politische Sendungen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die langen Videobotschaften."
+              },
+              {
+                "key": "b",
+                "text": "Das schlechte Internet in Hamburg."
+              },
+              {
+                "key": "c",
+                "text": "Schnell gesprochene Dialekte."
+              }
+            ],
+            "q": "Was ärgert Kenji manchmal?",
+            "why": "Schnell gesprochene Dialekte."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er schickt kurze SMS."
+              },
+              {
+                "key": "b",
+                "text": "Er schreibt eine E-Mail pro Woche."
+              },
+              {
+                "key": "c",
+                "text": "Er schickt lange Videobotschaften."
+              }
+            ],
+            "q": "Wie antwortet Kenji auf Fragen seiner Familie?",
+            "why": "Lange Videobotschaften."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Auf die Tagesschau morgen früh."
+              },
+              {
+                "key": "b",
+                "text": "Auf seinen Besuch in Japan im Dezember."
+              },
+              {
+                "key": "c",
+                "text": "Auf ein japanisches Restaurant in Hamburg."
+              }
+            ],
+            "q": "Worauf freut sich Kenji besonders?",
+            "why": "Besuch in Japan im Dezember."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "> Hallo zusammen! Ich bin Kenji aus Japan und lebe seit zwei Jahren in Hamburg. Ich interessiere mich sehr für deutsche Medien — vor allem für Nachrichten und politische Sendungen. Ich freue mich jeden Morgen auf die Tagesschau! Manchmal ärgere ich mich über schnell gesprochene Dialekte, aber das wird langsam besser.\n> Meine Familie fragt oft nach meinem Leben hier. Ich antworte immer mit langen Videobotschaften, weil ich so viel erzählen möchte. Ich denke oft an zu Hause — vor allem wenn ich japanisches Essen koche. Ich freue mich auf meinen nächsten Besuch in Japan im Dezember!\n\nWähle a, b oder c.\n",
+      "title": "Lesen Text 2 (Forumsbeitrag Kenji)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "auf"
+          ],
+          "2": [
+            "nach"
+          ],
+          "3": [
+            "Dativ"
+          ],
+          "4": [
+            "freue"
+          ],
+          "5": [
+            "freue"
+          ],
+          "6": [
+            "für"
+          ],
+          "7": [
+            "auf"
+          ],
+          "8": [
+            "dem"
+          ],
+          "9": [
+            "den"
+          ],
+          "10": [
+            "mich"
+          ],
+          "11": [
+            "mich"
+          ],
+          "12": [
+            "weil"
+          ],
+          "13": [
+            "besucht"
+          ],
+          "14": [
+            "über"
+          ],
+          "15": [
+            "an"
+          ],
+          "16": [
+            "dir"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. `warten` → fixed preposition: {1}\n2. `fragen` → fixed preposition + case: {2} + {3}\n3. „Ich {4} mich über die gute Note.\" (freuen — present fact)\n4. „Ich {5} mich auf das Konzert.\" (freuen — future event)\n5. `sich interessieren` → fixed preposition: {6}\n6. `antworten` → fixed preposition: {7}\n7. Dativ article (m): „nach {8} Weg\"\n8. Akkusativ article (m): „warten auf {9} Bus\"\n9. (L5) Reflexivpronomen, ich, Akkusativ: {10}\n10. (L5) „Ich fühle {11} nicht gut.\"\n11. (L3) Connector for reason: {12}\n12. (L1) Perfekt of `besuchen` (ich): {13}\n13. `sich ärgern` → fixed preposition: {14}\n14. `denken` → fixed preposition: {15}\n15. (L5) Dativ reflexivpronomen, du: {16}\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Eine Minute pro Aufgabe. Keine Notizen.",
+      "instructionsEn": "One minute per item. No notes.",
+      "title": "Gemischter Schnelltest"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "warten auf",
+              "denken an",
+              "fragen nach",
+              "hören für"
+            ],
+            "odd": 3,
+            "why": "hören für is incorrect; the others are correct verb+preposition chunks."
+          },
+          {
+            "items": [
+              "Folge",
+              "Sendung",
+              "Verbindung",
+              "Serie"
+            ],
+            "odd": 2,
+            "why": "die Verbindung is a technical term (connection); the others are TV/streaming content."
+          },
+          {
+            "items": [
+              "anrufen",
+              "herunterladen",
+              "kommentieren",
+              "suchen nach"
+            ],
+            "odd": 3,
+            "why": "suchen nach is wrong chunk; suchen takes Akkusativ directly. Others are correct media verbs."
+          },
+          {
+            "items": [
+              "freuen auf",
+              "ärgern über",
+              "interessieren für",
+              "legen auf"
+            ],
+            "odd": 3,
+            "why": "sich legen auf is not a fixed-preposition emotion expression; the others are."
+          },
+          {
+            "items": [
+              "Smartphone",
+              "WLAN",
+              "Handy",
+              "Rezept"
+            ],
+            "odd": 3,
+            "why": "das Rezept is medical/cooking; the others are digital/communication devices."
+          },
+          {
+            "items": [
+              "streamen",
+              "teilen",
+              "liken",
+              "buchstabieren"
+            ],
+            "odd": 3,
+            "why": "buchstabieren (L1) is a spelling verb; the others are social-media/internet verbs."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Streiche das Wort oder die Phrase durch, das/die nicht passt.",
+      "instructionsEn": "Cross out the word/phrase that doesn't fit.",
+      "title": "Odd one out"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "fühle"
+          ],
+          "2": [
+            "sich"
+          ],
+          "3": [
+            "Wir ruhen uns aus."
+          ],
+          "4": [
+            "angerufen"
+          ],
+          "5": [
+            "geschrieben"
+          ],
+          "6": [
+            "bekommen"
+          ],
+          "7": [
+            "Ich habe gestern mit Bruno telefoniert."
+          ],
+          "8": [
+            "Hier ist [Name]."
+          ],
+          "9": [
+            "eine"
+          ],
+          "10": [
+            "Ich rufe später noch einmal an."
+          ]
+        },
+        "listLayout": true,
+        "text": "**A2/L5 — Reflexive Verben:**\n1. „Ich {1} mich nicht gut.\" (fühlen)\n2. „Er putzt {2} die Zähne.\" (sich, Dativ)\n3. Write with `sich ausruhen` (wir-form): {3}\n\n**A1/L11 — Perfekt:**\n4. Partizip II of `anrufen`: {4}\n5. Partizip II of `schreiben`: {5}\n6. Partizip II of `bekommen`: {6}\n7. Write in Perfekt: „Ich (telefonieren) gestern mit Bruno.\" → {7}\n\n**A1/L13 — Telefon und Alltag:**\n8. Answer the phone formally (give your name): → {8}\n9. „Kann ich {9} Nachricht hinterlassen?\" (article)\n10. Translate: \"I'll call again later.\" → {10}\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "title": "Rückblick (Earlier Lessons)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "auf"
+          ],
+          "2": [
+            "über"
+          ],
+          "3": [
+            "auf"
+          ],
+          "4": [
+            "über"
+          ],
+          "5": [
+            "nach"
+          ],
+          "6": [
+            "den"
+          ],
+          "7": [
+            "die"
+          ],
+          "8": [
+            "dem"
+          ],
+          "9": [
+            "einen"
+          ],
+          "10": [
+            "die"
+          ],
+          "11": [
+            "auf"
+          ],
+          "12": [
+            "über"
+          ],
+          "13": [
+            "darauf"
+          ],
+          "14": [
+            "darüber"
+          ],
+          "15": [
+            "dafür"
+          ],
+          "16": [
+            "Ich ärgere mich über das schlechte WLAN."
+          ],
+          "17": [
+            "Er denkt an seine Familie in Brasilien."
+          ],
+          "18": [
+            "Wir freuen uns auf den Videoanruf am Freitag."
+          ],
+          "19": [
+            "Sie fragt nach dem nächsten Termin."
+          ],
+          "20": [
+            "Ich antworte heute Abend auf deine Nachricht."
+          ]
+        },
+        "listLayout": true,
+        "text": "**Prepositions:**\n1. warten {1} eine E-Mail\n2. sich freuen {2} ein Geschenk (past fact)\n3. sich freuen {3} das Wochenende (future)\n4. sprechen {4} das Problem\n5. fragen {5} dem Preis\n\n**Case (correct article form):**\n6. warten auf {6} Bus (der Bus, m)\n7. denken an {7} Schwester (die Schwester, f)\n8. fragen nach {8} Passwort (das Passwort, n)\n9. schreiben an {9} Freund (ein Freund, m)\n10. sich ärgern über {10} Verbindung (die Verbindung, f)\n\n**`sich freuen über` vs. `sich freuen auf`:**\n11. Ich freue mich {11} das Konzert nächste Woche. (over / auf)\n12. Er freut sich {12} die gute Note, die er heute bekommen hat. (über / auf)\n\n**Pronominaladverb:**\n13. Ich warte auf das Paket. → Ich warte {13}.\n14. Wir sprechen über das Thema. → Wir sprechen {14}.\n15. Sie interessiert sich für das Angebot. → Sie interessiert sich {15}.\n\n**Full sentences (translate):**\n16. I'm annoyed about the bad Wi-Fi. → {16}\n17. He's thinking of his family in Brazil. → {17}\n18. We're looking forward to the video call on Friday. → {18}\n19. She asks about the next appointment. → {19}\n20. I'll reply to your message tonight. → {20}\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (score yourself /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "a2-06",
+  "intro": "Blocks: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Answers in solutions.md. Tip: spread the blocks over several days — H and A on day 1, B on day 2, C on day 3, D on day 4 after a pause.\n",
+  "lesson": "A2/06",
+  "level": "A2",
+  "summary": null,
+  "title": "A2 · Lektion 6 — Übungen (Exercises)",
+  "topic": null
+}

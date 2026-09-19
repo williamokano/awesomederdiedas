@@ -1,0 +1,880 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "zuruecklassen",
+            "label": "zurücklassen / vergessen"
+          },
+          {
+            "key": "erlauben",
+            "label": "erlauben / zulassen"
+          },
+          {
+            "key": "veranlassen",
+            "label": "veranlassen (jemand anderes macht es)"
+          },
+          {
+            "key": "passiversatz",
+            "label": "sich lassen = kann … werden"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "zuruecklassen",
+            "text": "Ich habe meinen Regenschirm im Bus gelassen."
+          },
+          {
+            "bucket": "zuruecklassen",
+            "text": "Lass die schwere Tasche einfach hier."
+          },
+          {
+            "bucket": "zuruecklassen",
+            "text": "Wo hast du die Autoschlüssel gelassen?"
+          },
+          {
+            "bucket": "erlauben",
+            "text": "Meine Mutter lässt mich nicht allein in die Stadt."
+          },
+          {
+            "bucket": "erlauben",
+            "text": "Lass mich bitte ausreden."
+          },
+          {
+            "bucket": "erlauben",
+            "text": "Der Lehrer lässt uns das Wörterbuch benutzen."
+          },
+          {
+            "bucket": "veranlassen",
+            "text": "Ich lasse mir die Haare schneiden."
+          },
+          {
+            "bucket": "veranlassen",
+            "text": "Wir lassen die Heizung reparieren."
+          },
+          {
+            "bucket": "veranlassen",
+            "text": "Sie lässt sich ein Kleid nähen."
+          },
+          {
+            "bucket": "passiversatz",
+            "text": "Das Fenster lässt sich nicht öffnen."
+          },
+          {
+            "bucket": "passiversatz",
+            "text": "Der Fleck lässt sich leicht entfernen."
+          },
+          {
+            "bucket": "passiversatz",
+            "text": "Das Problem lässt sich lösen."
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Ordne jeden Satz der richtigen Bedeutung zu.",
+      "instructionsEn": "Sort each sentence by the meaning of lassen it uses.",
+      "title": "Welche Bedeutung von lassen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "lasse"
+          ],
+          "2": [
+            "Lässt"
+          ],
+          "3": [
+            "lassen"
+          ],
+          "4": [
+            "lässt"
+          ],
+          "5": [
+            "ließ"
+          ],
+          "6": [
+            "lassen"
+          ],
+          "7": [
+            "gelassen"
+          ],
+          "8": [
+            "lässt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} mir morgen beim Friseur die Haare schneiden.\n2. {2} du mich bitte kurz telefonieren?\n3. Meine Eltern {3} mich nicht allein in den Urlaub fahren.\n4. Er {4} gerade sein Fahrrad reparieren.\n5. Gestern {5} ich meinen Ausweis zu Hause. (Präteritum)\n6. Wir haben die Wohnung neu streichen {6}. (Perfekt)\n7. Ich habe meinen Schirm im Zug {7}. (Perfekt)\n8. Dieser Satz {8} sich leicht erklären.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze die richtige Form: lasse, lässt, lassen, lasst, ließ (Präteritum) oder gelassen / lassen (Perfekt).",
+      "instructionsEn": "Fill in the right form: lasse, lässt, lassen, lasst, ließ (past), or gelassen / lassen (perfect).",
+      "title": "Form von lassen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Ich lasse mir die Haare schneiden.",
+            "tiles": [
+              "Ich",
+              "lasse",
+              "mir",
+              "die Haare schneiden."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Wir haben das Auto reparieren lassen. (Ersatzinfinitiv lassen, nicht gelassen.)",
+            "tiles": [
+              "Wir",
+              "haben",
+              "das Auto",
+              "reparieren",
+              "lassen."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Lass uns morgen ins Kino gehen!",
+            "tiles": [
+              "Lass",
+              "uns",
+              "morgen",
+              "ins Kino gehen!"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Der Chef lässt uns heute früher nach Hause gehen.",
+            "tiles": [
+              "Der Chef",
+              "lässt",
+              "uns",
+              "heute früher",
+              "nach Hause gehen."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Das lässt sich leider nicht ändern.",
+            "tiles": [
+              "Das",
+              "lässt",
+              "sich",
+              "leider",
+              "nicht ändern."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A3",
+      "instructions": "Bring die Kacheln in die richtige Reihenfolge. Im Perfekt steht statt gelassen der Ersatzinfinitiv lassen am Satzende.",
+      "instructionsEn": "Put the tiles in order. In the perfect the causative uses the replacement infinitive lassen at the end, not gelassen.",
+      "title": "Satzbau mit lassen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "lassen"
+          ],
+          "2": [
+            "lassen"
+          ],
+          "3": [
+            "lassen"
+          ],
+          "4": [
+            "lässt"
+          ],
+          "5": [
+            "lässt"
+          ],
+          "6": [
+            "gelassen"
+          ],
+          "7": [
+            "lässt"
+          ],
+          "8": [
+            "Lasst"
+          ]
+        },
+        "bank": [
+          "lassen",
+          "lassen",
+          "lassen",
+          "lässt",
+          "lässt",
+          "gelassen",
+          "lässt",
+          "Lasst",
+          "ließ",
+          "gelassen"
+        ],
+        "text": "Nächste Woche {1} wir endlich die alte Wohnung renovieren. Die\nRenovierung haben wir von einer Firma machen {2}. Die Wände {3}\nsich leicht streichen, aber das Bad ist schwierig. Zuerst {4} der\nChef seine Leute die Möbel abdecken. Er sagt, man müsse\nrealistisch bleiben — nicht alles {5} sich in zwei Tagen machen.\nAm ersten Abend habe ich aus Versehen das Fenster offen {6}. Zum\nGlück {7} sich der Wasserschaden reparieren. Am Ende sagt der\nChef: {8} uns das nächste Mal früher anfangen.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter bleiben übrig.",
+      "instructionsEn": "Fill the 8 gaps with the words from the box. Two words are left over.",
+      "title": "Lückentext: Die Wohnung renovieren"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich habe das Auto reparieren gelassen."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe das Auto reparieren lassen."
+              },
+              {
+                "key": "c",
+                "text": "Ich habe das Auto repariert lassen."
+              }
+            ],
+            "q": "Perfekt von: Ich lasse das Auto reparieren.",
+            "why": "Kausatives lassen im Perfekt → Ersatzinfinitiv lassen, kein ge-."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich habe den Schlüssel im Büro lassen."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe den Schlüssel im Büro gelasst."
+              },
+              {
+                "key": "c",
+                "text": "Ich habe den Schlüssel im Büro gelassen."
+              }
+            ],
+            "q": "Perfekt von: Ich lasse den Schlüssel im Büro.",
+            "why": "lassen als Vollverb (zurücklassen) → Partizip gelassen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Gerät lässt sich leicht bedienen."
+              },
+              {
+                "key": "b",
+                "text": "Das Gerät lässt leicht bedienen."
+              },
+              {
+                "key": "c",
+                "text": "Das Gerät lässt sich leicht bedient."
+              }
+            ],
+            "q": "Bedeutungsgleich mit: Das Gerät kann leicht bedient werden.",
+            "why": "können + Passiv → sich lassen + Infinitiv. Das reflexive sich ist Pflicht."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich repariere mein Fahrrad."
+              },
+              {
+                "key": "b",
+                "text": "Ich kann mein Fahrrad reparieren."
+              },
+              {
+                "key": "c",
+                "text": "Ich lasse mein Fahrrad reparieren."
+              }
+            ],
+            "q": "Welcher Satz bedeutet, dass jemand anderes die Arbeit macht?",
+            "why": "lassen = veranlassen: die Werkstatt repariert, nicht ich selbst."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir sollten (jetzt) gehen."
+              },
+              {
+                "key": "b",
+                "text": "Erlaube mir zu gehen."
+              },
+              {
+                "key": "c",
+                "text": "Vergiss uns hier nicht."
+              }
+            ],
+            "q": "Lass uns gehen! bedeutet:",
+            "why": "Lass uns / Lasst uns + Infinitiv = gemeinsame Aufforderung (englisch: let's)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "lasst"
+              },
+              {
+                "key": "b",
+                "text": "lässt"
+              },
+              {
+                "key": "c",
+                "text": "ließ"
+              }
+            ],
+            "q": "Ergänze: Das Problem ___ sich bestimmt lösen.",
+            "why": "3. Person Singular Präsens → lässt (mit Umlaut)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "erlauben"
+              },
+              {
+                "key": "b",
+                "text": "veranlassen"
+              },
+              {
+                "key": "c",
+                "text": "vergessen"
+              }
+            ],
+            "q": "Meine Chefin lässt mich am Freitag im Homeoffice arbeiten. lassen heißt hier:",
+            "why": "Sie erlaubt es mir — lassen + Akkusativ + Infinitiv im Sinne von zulassen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "gelassen"
+              },
+              {
+                "key": "b",
+                "text": "lassen"
+              },
+              {
+                "key": "c",
+                "text": "genäht"
+              }
+            ],
+            "q": "Welche Perfektform ist richtig? Sie hat sich ein Kleid nähen ___.",
+            "why": "Kausatives lassen → Ersatzinfinitiv lassen am Ende."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Lösung (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Bedeutung und Form unterscheiden"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "lasst"
+              },
+              {
+                "key": "b",
+                "text": "ließt"
+              },
+              {
+                "key": "c",
+                "text": "lassen"
+              }
+            ],
+            "q": "Für den Umzug ___ wir eine Firma kommen.",
+            "why": "1. Person Plural Präsens → lassen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "lässt"
+              },
+              {
+                "key": "b",
+                "text": "lassen"
+              },
+              {
+                "key": "c",
+                "text": "gelassen"
+              }
+            ],
+            "q": "Die schweren Kisten ___ sich zu zweit besser tragen.",
+            "why": "Subjekt Kisten (Plural) → lassen; sich lassen = können getragen werden."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "lassen"
+              },
+              {
+                "key": "b",
+                "text": "gelasst"
+              },
+              {
+                "key": "c",
+                "text": "gelassen"
+              }
+            ],
+            "q": "Den alten Schrank haben wir in der Wohnung ___.",
+            "why": "Vollverb zurücklassen im Perfekt → gelassen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Lasst"
+              },
+              {
+                "key": "b",
+                "text": "Lässt"
+              },
+              {
+                "key": "c",
+                "text": "Ließ"
+              }
+            ],
+            "q": "___ uns eine Pause machen, bevor wir weitermachen.",
+            "why": "Aufforderung an mehrere Personen: Lasst uns + Infinitiv."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "lasst"
+              },
+              {
+                "key": "b",
+                "text": "gelassen"
+              },
+              {
+                "key": "c",
+                "text": "lässt"
+              }
+            ],
+            "q": "Der Vermieter ___ uns die Wände streichen, aber nicht bohren.",
+            "why": "3. Person Singular Präsens, Bedeutung erlauben → lässt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "gelassen"
+              },
+              {
+                "key": "b",
+                "text": "lassen"
+              },
+              {
+                "key": "c",
+                "text": "angeschlossen"
+              }
+            ],
+            "q": "Die Waschmaschine haben wir vom Techniker anschließen ___.",
+            "why": "Kausatives lassen im Perfekt → Ersatzinfinitiv lassen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "lässt"
+              },
+              {
+                "key": "b",
+                "text": "lasst"
+              },
+              {
+                "key": "c",
+                "text": "lassen"
+              }
+            ],
+            "q": "Ob das Sofa durch die Tür passt, ___ sich schwer sagen.",
+            "why": "Unpersönliches es … lässt sich sagen → 3. Person Singular lässt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "lässt"
+              },
+              {
+                "key": "b",
+                "text": "ließ"
+              },
+              {
+                "key": "c",
+                "text": "gelassen"
+              }
+            ],
+            "q": "Gestern ___ der Nachbar uns seinen Transporter benutzen.",
+            "why": "Präteritum von lassen → ließ."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle für jede Lücke die richtige Lösung (a, b oder c).",
+      "instructionsEn": "Choose the correct option for each gap (a, b, or c).",
+      "title": "Sprachbausteine Teil 1 — Ein Umzug"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "lasse"
+          ],
+          "2": [
+            "lassen"
+          ],
+          "3": [
+            "lasse"
+          ],
+          "4": [
+            "gelassen"
+          ],
+          "5": [
+            "Lasst"
+          ],
+          "6": [
+            "lässt"
+          ],
+          "7": [
+            "lässt"
+          ],
+          "8": [
+            "ließ"
+          ],
+          "9": [
+            "gelassen"
+          ],
+          "10": [
+            "lassen"
+          ]
+        },
+        "bank": [
+          "lasse",
+          "lasse",
+          "lassen",
+          "gelassen",
+          "Lasst",
+          "lässt",
+          "lässt",
+          "ließ",
+          "gelassen",
+          "lassen",
+          "ließen",
+          "lasst",
+          "gelasst"
+        ],
+        "text": "Mein Fahrrad macht komische Geräusche, also {1} ich es heute\nreparieren. Der Mechaniker sagt, die Bremsen {2} sich noch\neinstellen, aber die Kette ist kaputt. Das kann ich nicht selbst,\ndeshalb {3} ich die Werkstatt die Arbeit machen. Letzte Woche habe\nich mein altes Rad einfach im Keller {4}, das war ein Fehler. Der\nMechaniker meint: {5} uns lieber gleich alles prüfen. Er {6} mich\nkurz zusehen, wie er arbeitet. Ein neuer Sattel {7} sich schnell\nmontieren. Früher {8} mein Vater sein Rad nie reparieren — er hat\nalles selbst gemacht. Am Ende habe ich den alten Sattel doch dort\n{9}. Solche Reparaturen {10} sich zum Glück meistens günstig\nerledigen.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fülle die 10 Lücken. Drei Wörter im Kasten bleiben übrig.",
+      "instructionsEn": "Fill the 10 gaps. Three words in the box are left over.",
+      "title": "Sprachbausteine Teil 2 — Beim Fahrradladen (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Ich habe die Jacke im Restaurant gelassen. (Vollverb → gelassen.)",
+            "tiles": [
+              "Ich",
+              "habe",
+              "die Jacke",
+              "im Restaurant",
+              "gelassen."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Wir haben die Fenster putzen lassen. (Kausativ → Ersatzinfinitiv lassen.)",
+            "tiles": [
+              "Wir",
+              "haben",
+              "die Fenster",
+              "putzen",
+              "lassen."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Der Automat lässt sich nicht bedienen. (= kann nicht bedient werden.)",
+            "tiles": [
+              "Der Automat",
+              "lässt",
+              "sich",
+              "nicht",
+              "bedienen."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Lasst uns das Thema morgen besprechen.",
+            "tiles": [
+              "Lasst",
+              "uns",
+              "das Thema",
+              "morgen",
+              "besprechen."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Meine Eltern ließen mich als Kind viel draußen spielen. (Präteritum, Bedeutung erlauben.)",
+            "tiles": [
+              "Meine Eltern",
+              "ließen",
+              "mich",
+              "als Kind",
+              "viel draußen spielen."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "D1",
+      "instructions": "Bring die Kacheln in die richtige Reihenfolge.",
+      "instructionsEn": "Put the tiles in the correct order.",
+      "title": "Wiederholung: Satzbau"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "hat … gelassen"
+              },
+              {
+                "key": "b",
+                "text": "ist … lassen"
+              },
+              {
+                "key": "c",
+                "text": "hat … lassen"
+              }
+            ],
+            "q": "Perfekt: Sie ___ ihr Kleid ändern ___.",
+            "why": "Kausatives lassen → haben + Ersatzinfinitiv lassen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "habe … gelassen"
+              },
+              {
+                "key": "b",
+                "text": "habe … lassen"
+              },
+              {
+                "key": "c",
+                "text": "bin … gelassen"
+              }
+            ],
+            "q": "Ich ___ mein Handy zu Hause ___ und musste zurückfahren.",
+            "why": "Vollverb zurücklassen → habe … gelassen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Der Termin lässt nicht verschieben."
+              },
+              {
+                "key": "b",
+                "text": "Der Termin lässt sich nicht verschoben."
+              },
+              {
+                "key": "c",
+                "text": "Der Termin lässt sich nicht verschieben."
+              }
+            ],
+            "q": "Bedeutungsgleich mit: Der Termin kann nicht verschoben werden.",
+            "why": "können + Passiv → sich lassen + Infinitiv (mit sich)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "lässt"
+              },
+              {
+                "key": "b",
+                "text": "lasst"
+              },
+              {
+                "key": "c",
+                "text": "gelassen"
+              }
+            ],
+            "q": "Meine Nachbarin ___ ihren Hund jeden Morgen im Park frei laufen.",
+            "why": "3. Person Singular Präsens → lässt; Bedeutung zulassen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Lässt"
+              },
+              {
+                "key": "b",
+                "text": "Lass"
+              },
+              {
+                "key": "c",
+                "text": "Gelassen"
+              }
+            ],
+            "q": "___ uns endlich anfangen!",
+            "why": "Aufforderung: Lass uns / Lasst uns + Infinitiv."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "haben … lassen"
+              },
+              {
+                "key": "b",
+                "text": "haben … gelassen"
+              },
+              {
+                "key": "c",
+                "text": "hatten … gelassen"
+              }
+            ],
+            "q": "Wir ___ letztes Jahr ein neues Bad einbauen ___.",
+            "why": "Kausativ im Perfekt → haben … Ersatzinfinitiv lassen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Wähle die richtige Lösung (a, b oder c). Das ist dein Abschlusscheck für dieses Set.",
+      "instructionsEn": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-23-lassen-b1",
+  "intro": "Ein Verb, vier Aufgaben. 1) lassen = zurücklassen / vergessen: Ich habe den Schlüssel zu Hause gelassen. (Perfekt: hat gelassen). 2) lassen = erlauben / zulassen: Meine Eltern lassen mich nicht allein reisen. (lassen + Akkusativ + Infinitiv ohne zu). 3) lassen = veranlassen: Ich lasse mir die Haare schneiden. — jemand anderes macht es für mich. 4) sich lassen + Infinitiv = Passiversatz: Das Fenster lässt sich nicht öffnen. = kann nicht geöffnet werden. Wichtig im Perfekt: hat den Schlüssel gelassen (Vollverb, mit ge-) gegenüber hat das Auto reparieren lassen (Ersatzinfinitiv, ohne ge-). Dazu: Lass uns … / Lasst uns … = Aufforderung. Konjugation: ich lasse, du lässt, er/sie/es lässt, wir/sie lassen, ihr lasst; Präteritum ließ. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/23-lassen-b1",
+  "level": "B1",
+  "summary": null,
+  "title": "lassen — die vier Bedeutungen — B1",
+  "topic": "lassen"
+}

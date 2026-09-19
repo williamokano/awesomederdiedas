@@ -1,0 +1,804 @@
+{
+  "category": "Einkaufen",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "kleidung",
+            "label": "Kleidungsstück"
+          },
+          {
+            "key": "passform",
+            "label": "Passform & Zustand"
+          },
+          {
+            "key": "kasse",
+            "label": "Kasse & Papier"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "kleidung",
+            "text": "der Pullover"
+          },
+          {
+            "bucket": "passform",
+            "text": "der Ärmel"
+          },
+          {
+            "bucket": "kasse",
+            "text": "der Kassenbon"
+          },
+          {
+            "bucket": "kleidung",
+            "text": "die Hose"
+          },
+          {
+            "bucket": "passform",
+            "text": "die Naht"
+          },
+          {
+            "bucket": "kasse",
+            "text": "der Gutschein"
+          },
+          {
+            "bucket": "kleidung",
+            "text": "das Hemd"
+          },
+          {
+            "bucket": "passform",
+            "text": "der Reißverschluss"
+          },
+          {
+            "bucket": "kasse",
+            "text": "die Rückgabefrist"
+          },
+          {
+            "bucket": "kleidung",
+            "text": "die Jacke"
+          },
+          {
+            "bucket": "passform",
+            "text": "der Fleck"
+          },
+          {
+            "bucket": "kasse",
+            "text": "das Etikett"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Kleidung, Passform oder Kasse?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Haben Sie das eine Nummer größer?"
+          },
+          {
+            "key": "2",
+            "text": "Wo kann ich das anprobieren?"
+          },
+          {
+            "key": "3",
+            "text": "Ich möchte das umtauschen."
+          },
+          {
+            "key": "4",
+            "text": "Ich möchte das reklamieren."
+          },
+          {
+            "key": "5",
+            "text": "Bekomme ich das Geld zurück?"
+          },
+          {
+            "key": "6",
+            "text": "Wie lange habe ich Zeit?"
+          },
+          {
+            "key": "7",
+            "text": "Danke, ich schaue mich erst mal um."
+          },
+          {
+            "key": "8",
+            "text": "Können Sie mir das zurücklegen?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Die Größe stimmt nicht."
+          },
+          {
+            "key": "b",
+            "text": "Du suchst die Umkleidekabine."
+          },
+          {
+            "key": "c",
+            "text": "Die Ware ist in Ordnung, du willst sie trotzdem nicht."
+          },
+          {
+            "key": "d",
+            "text": "Die Ware hat einen Mangel."
+          },
+          {
+            "key": "e",
+            "text": "Du fragst nach Erstattung statt Gutschein."
+          },
+          {
+            "key": "f",
+            "text": "Du fragst nach der Rückgabefrist."
+          },
+          {
+            "key": "g",
+            "text": "Du wehrst höflich Beratung ab."
+          },
+          {
+            "key": "h",
+            "text": "Du willst es später holen."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Satz die Situation zu.",
+      "instructionsEn": "Match each sentence with its situation.",
+      "title": "Was du sagst — und was du meinst"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "eng"
+          ],
+          "2": [
+            "lang"
+          ],
+          "3": [
+            "dunkleren"
+          ],
+          "4": [
+            "besser"
+          ],
+          "5": [
+            "schlichteres"
+          ],
+          "6": [
+            "warm"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Hose ist mir zu {1} — haben Sie eine Nummer größer? (nicht weit genug)\n2. Der Pullover ist etwas zu {2}, die Ärmel gehen über die Hände. (nicht kurz genug)\n3. Haben Sie das in einer {3} Farbe? (Komparativ von dunkel)\n4. Das Hemd sitzt {4} als das andere. (Komparativ von gut)\n5. Ich hätte gern ein {5} Modell. (Komparativ von schlicht, unbestimmter Artikel, Neutrum)\n6. Die Jacke ist mir zu {6}, ich schwitze darin. (nicht kühl genug)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze die passende Form.",
+      "instructionsEn": "Fill in the fitting form.",
+      "title": "Passt es? Adjektive und Komparativ"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "umtauschen"
+          ],
+          "2": [
+            "Mangel"
+          ],
+          "3": [
+            "reklamieren"
+          ],
+          "4": [
+            "Kassenbon"
+          ],
+          "5": [
+            "Gutschein"
+          ],
+          "6": [
+            "Rückgabefrist"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Hose ist heil, sie passt nur nicht — ich will sie {1}. (tauschen, mit um-)\n2. Die Naht ist nach zweimal Tragen aufgegangen — das ist ein {2}. (Fehler an der Ware)\n3. Bei einem Mangel kann ich {3}. (sich beschweren, Fachwort mit rekla-)\n4. Ohne {4} nimmt der Laden nichts zurück. (Papier von der Kasse)\n5. Statt Geld bekomme ich oft nur einen {5}. (Guthaben für den Laden)\n6. Die {6} beträgt 30 Tage. (Zeit, in der man zurückgeben darf)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Verb oder Substantiv.",
+      "instructionsEn": "Fill in the fitting verb or noun.",
+      "title": "Umtausch oder Reklamation?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "SCHAUE"
+          ],
+          "2": [
+            "GRÖSSER"
+          ],
+          "3": [
+            "UMKLEIDE"
+          ],
+          "4": [
+            "RÜCKGABEFRIST"
+          ],
+          "5": [
+            "KASSENBON"
+          ],
+          "6": [
+            "UMTAUSCHEN"
+          ],
+          "7": [
+            "GUTSCHEIN"
+          ],
+          "8": [
+            "ZURÜCK"
+          ],
+          "9": [
+            "MANGEL"
+          ],
+          "10": [
+            "NAHT"
+          ]
+        },
+        "bank": [
+          "SCHAUE",
+          "GRÖSSER",
+          "UMKLEIDE",
+          "RÜCKGABEFRIST",
+          "KASSENBON",
+          "UMTAUSCHEN",
+          "GUTSCHEIN",
+          "ZURÜCK",
+          "MANGEL",
+          "NAHT",
+          "KLEINER",
+          "ETIKETT",
+          "FLECK",
+          "KASSE"
+        ],
+        "text": "*(erster Besuch)*\n— Kann ich Ihnen helfen?\n— Danke, ich {1} mich erst mal um. … Doch, eine Frage: Haben Sie\ndie Hose eine Nummer {2}?\n— In Schwarz ja. Wo möchten Sie anprobieren? Die {3} ist\nhinten rechts.\n— Danke. … Die passt. Wie lange ist die {4}?\n— 30 Tage, mit {5}. Heben Sie ihn gut auf.\n*(zwei Wochen später)*\n— Guten Tag, ich möchte diese Hose {6}. Sie ist ungetragen,\nhier ist der Bon.\n— Kein Problem. Möchten Sie etwas anderes, oder soll ich Ihnen\neinen {7} ausstellen?\n— Bekomme ich das Geld {8}?\n— Bei Umtausch ohne Grund nur einen Gutschein — bei einem\n{9} sieht es anders aus.\n— Verstehe. Dann noch etwas: Bei dem Pullover ist nach zweimal\nTragen die {10} aufgegangen. Den möchte ich reklamieren.\n— Das ist etwas anderes, den schauen wir uns an.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Zwei Wege zur Kasse"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Danke, ich schaue mich erst mal um — ich melde mich, wenn ich etwas brauche."
+              },
+              {
+                "key": "b",
+                "text": "Nein."
+              },
+              {
+                "key": "c",
+                "text": "Lassen Sie mich in Ruhe."
+              }
+            ],
+            "q": "Eine Verkäuferin fragt, ob sie helfen kann, du willst allein schauen. — A sales assistant offers help; you want to browse alone.",
+            "why": "Ablehnen und die Tür offen lassen — so wirst du weder bedrängt noch unhöflich."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die ist zu klein."
+              },
+              {
+                "key": "b",
+                "text": "Die Hose ist mir zu eng — haben Sie die eine Nummer größer?"
+              },
+              {
+                "key": "c",
+                "text": "Das ist keine 38."
+              }
+            ],
+            "q": "Die Hose sitzt nicht, du willst eine andere Größe. — The trousers don't fit and you want another size.",
+            "why": "Problem und Wunsch in einem Satz; „zu eng“ sagt außerdem mehr als „zu klein“."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich will mein Geld."
+              },
+              {
+                "key": "b",
+                "text": "Die gefällt mir nicht mehr."
+              },
+              {
+                "key": "c",
+                "text": "Ich möchte diese Jacke umtauschen, sie ist ungetragen. Hier ist der Kassenbon."
+              }
+            ],
+            "q": "Du bringst eine ungetragene Jacke zurück. — You bring back an unworn jacket.",
+            "why": "Das Wort „umtauschen“ plus Bon und Zustand — damit ist alles gesagt, was der Laden wissen muss."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich möchte die Jacke reklamieren: Der Reißverschluss ist nach einer Woche kaputtgegangen."
+              },
+              {
+                "key": "b",
+                "text": "Ich möchte die Jacke umtauschen."
+              },
+              {
+                "key": "c",
+                "text": "Die Jacke ist schlecht."
+              }
+            ],
+            "q": "Der Reißverschluss ist nach einer Woche kaputt. — The zip broke after a week.",
+            "why": "Das ist ein Mangel, kein Umtausch — mit dem richtigen Wort bekommst du eine ganz andere Antwort."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Gutscheine nehme ich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Bei einem Mangel hätte ich lieber die Erstattung — geht das?"
+              },
+              {
+                "key": "c",
+                "text": "Das ist doch dasselbe."
+              }
+            ],
+            "q": "Man bietet dir einen Gutschein an, du willst Geld. — You're offered a voucher but want your money.",
+            "why": "Freundlich fragen und den Grund nennen: beim Mangel stehen die Chancen gut, beim Umtausch nicht."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Finde ich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Danke — ich überlege es mir noch und komme eventuell nachher wieder."
+              },
+              {
+                "key": "c",
+                "text": "Dann nehme ich es."
+              }
+            ],
+            "q": "Die Verkäuferin sagt, es steht dir gut, du bist unsicher. — The assistant says it suits you; you're not sure.",
+            "why": "Höflich Zeit nehmen, ohne dich zu rechtfertigen — und ohne etwas zu kaufen, das du nicht willst."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Was sagst du?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Ja/Nein-Frage: Verb an Position 1",
+            "tiles": [
+              "Haben",
+              "Sie",
+              "das",
+              "eine",
+              "Nummer",
+              "größer",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "„mir zu eng“ — der Dativ sagt, für wen",
+            "tiles": [
+              "Die",
+              "Hose",
+              "ist",
+              "mir",
+              "zu",
+              "eng"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Modalverb an Position 2, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "diese",
+              "Jacke",
+              "umtauschen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Perfekt mit sein, Partizip am Ende",
+            "tiles": [
+              "Der",
+              "Reißverschluss",
+              "ist",
+              "nach",
+              "einer",
+              "Woche",
+              "kaputtgegangen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "W-Frage: Fragewort, dann Verb",
+            "tiles": [
+              "Wie",
+              "lange",
+              "ist",
+              "die",
+              "Rückgabefrist",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "zurückbekommen: zurück steht am Satzende",
+            "tiles": [
+              "Bekomme",
+              "ich",
+              "das",
+              "Geld",
+              "zurück",
+              "?"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze im Laden bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Ohne Kassenbon nimmt der Laden ungetragene Ware zurück. — Without a receipt the shop takes back unworn goods.",
+            "why": "„nur mit Kassenbon und Originaletikett“."
+          },
+          {
+            "answer": true,
+            "q": "Beim Umtausch ohne Grund gibt es kein Bargeld. — For a change of mind there's no cash refund.",
+            "why": "„eine Auszahlung ist nicht möglich“ — es gibt einen Gutschein."
+          },
+          {
+            "answer": false,
+            "q": "Bei reduzierter Ware hat man auch bei einem Mangel keine Rechte. — With sale goods you have no rights even for a defect.",
+            "why": "„gesetzliche Rechte bei Mängeln bleiben davon unberührt“."
+          },
+          {
+            "answer": false,
+            "q": "Einen Badeanzug kann man zurückbringen. — You can bring back a swimsuit.",
+            "why": "Bademode wird aus hygienischen Gründen nicht zurückgenommen."
+          },
+          {
+            "answer": true,
+            "q": "Bei einem Mangel geht man zur Information. — For a defect you go to the information desk.",
+            "why": "„Bei einem Mangel wenden Sie sich bitte an die Information.“"
+          },
+          {
+            "answer": false,
+            "q": "Online gekaufte Ware muss man online zurückschicken. — Goods bought online have to be returned online.",
+            "why": "Sie kann in der Filiale zurückgegeben werden."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Modehaus Kern — Rückgabe und Reklamation**\n>\n> - **Umtausch** ungetragener Ware **innerhalb von 30 Tagen**,\n>   nur mit **Kassenbon** und **Originaletikett**.\n> - Beim Umtausch ohne Grund erhalten Sie einen **Gutschein**;\n>   eine Auszahlung ist nicht möglich.\n> - **Reduzierte Ware** ist vom Umtausch **ausgeschlossen** —\n>   gesetzliche Rechte bei Mängeln bleiben davon **unberührt**.\n> - **Unterwäsche und Bademode** nehmen wir aus hygienischen\n>   Gründen **nicht** zurück.\n> - Bei einem **Mangel** wenden Sie sich bitte an die\n>   Information — dort wird geprüft, ob repariert, ersetzt oder\n>   erstattet wird.\n> - **Online gekaufte Ware** kann in der Filiale zurückgegeben\n>   werden; die **Erstattung** erfolgt dann auf das\n>   ursprüngliche Zahlungsmittel.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Rückgabebedingungen lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich habe den Bon leider verloren — geht es vielleicht über die Kartenabrechnung? Ich habe mit Karte gezahlt."
+              },
+              {
+                "key": "b",
+                "text": "Das muss auch so gehen."
+              },
+              {
+                "key": "c",
+                "text": "Dann behalte ich es eben."
+              }
+            ],
+            "q": "Du hast den Kassenbon verloren, die Ware ist ungetragen. — You lost the receipt; the item is unworn.",
+            "why": "Bei Kartenzahlung ist der Kauf im System — das ist der übliche Ersatz für den Bon."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist illegal."
+              },
+              {
+                "key": "b",
+                "text": "Verstehe, das gilt für den Umtausch. Hier geht es aber um einen Mangel — die Naht ist aufgegangen."
+              },
+              {
+                "key": "c",
+                "text": "Dann eben nicht."
+              }
+            ],
+            "q": "Man sagt dir, reduzierte Ware sei vom Umtausch ausgeschlossen — dabei hat sie einen Mangel. — You're told sale goods can't be returned, but the item is faulty.",
+            "why": "Den Unterschied ruhig benennen: der Ausschluss betrifft den Umtausch, nicht den Mangel."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist doch egal."
+              },
+              {
+                "key": "b",
+                "text": "Ich weiß, die 30 Tage sind knapp vorbei — wäre trotzdem ein Gutschein möglich?"
+              },
+              {
+                "key": "c",
+                "text": "Nichts sagen und es versuchen."
+              }
+            ],
+            "q": "Die Frist ist seit zwei Tagen abgelaufen. — The deadline passed two days ago.",
+            "why": "Den eigenen Fehler benennen und um Kulanz bitten — genau so bekommt man sie manchmal."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nichts sagen und trotzdem nehmen."
+              },
+              {
+                "key": "b",
+                "text": "Es zurückhängen und gehen."
+              },
+              {
+                "key": "c",
+                "text": "Hier ist ein Fleck — haben Sie das Teil noch mal, oder geht da etwas beim Preis?"
+              }
+            ],
+            "q": "In der Umkleide fällt dir ein Fleck auf der Ware auf. — In the fitting room you notice a stain.",
+            "why": "Zwei Möglichkeiten anbieten: neues Teil oder Nachlass — beides ist im Laden üblich."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich will die Geschäftsführung sprechen!"
+              },
+              {
+                "key": "b",
+                "text": "Ich verstehe, dass Sie das nicht entscheiden können — wen könnte ich denn fragen?"
+              },
+              {
+                "key": "c",
+                "text": "Sie wollen nur nicht."
+              }
+            ],
+            "q": "Die Verkäuferin sagt, sie könne nichts machen. — The assistant says she can't do anything.",
+            "why": "Sie entlasten und nach der zuständigen Person fragen — das öffnet die Tür, ohne jemanden anzugreifen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das habe ich online gekauft, geht das trotzdem hier?"
+              },
+              {
+                "key": "b",
+                "text": "Ich möchte das zurückgeben — hier ist die Bestellnummer, ich habe online gekauft."
+              },
+              {
+                "key": "c",
+                "text": "Ich schicke es zurück."
+              }
+            ],
+            "q": "Du hast online gekauft und willst in der Filiale zurückgeben. — You bought online and want to return in store.",
+            "why": "Bestellnummer gleich mitliefern — dann findet die Kasse den Vorgang sofort."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn es schwierig wird"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "umtauschen"
+          ],
+          "2": [
+            "Mangel"
+          ],
+          "3": [
+            "Kassenbon"
+          ],
+          "4": [
+            "Gutschein"
+          ],
+          "5": [
+            "Reduzierte"
+          ],
+          "6": [
+            "Erstattung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Ware ist heil, ich will sie nur {1}. (zurückgeben und tauschen)\n2. Die Naht ist auf — das ist ein {2}. (Fehler an der Ware)\n3. Ohne {3} geht der Umtausch meistens nicht. (Papier von der Kasse)\n4. Statt Geld bekomme ich einen {4}. (Guthaben für den Laden)\n5. {5} Ware ist oft vom Umtausch ausgeschlossen. (im Preis heruntergesetzt)\n6. Die {6} erfolgt auf das ursprüngliche Zahlungsmittel. (Geld zurück)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "größer"
+          ],
+          "2": [
+            "eng"
+          ],
+          "3": [
+            "Umkleide"
+          ],
+          "4": [
+            "umtauschen"
+          ],
+          "5": [
+            "reklamieren"
+          ],
+          "6": [
+            "Mangel"
+          ],
+          "7": [
+            "Kassenbon"
+          ],
+          "8": [
+            "Rückgabefrist"
+          ],
+          "9": [
+            "zurück"
+          ],
+          "10": [
+            "Gutschein"
+          ],
+          "11": [
+            "Reduzierte"
+          ],
+          "12": [
+            "kaputtgegangen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Haben Sie das eine Nummer {1}? (bigger)\n2. Die Hose ist mir zu {2}. (tight)\n3. Wo ist die {3}? (fitting room)\n4. Ich möchte das {4}. (exchange — change of mind)\n5. Ich möchte das {5}. (make a complaint — defect)\n6. Das ist ein {6}. (defect)\n7. Hier ist der {7}. (receipt)\n8. Wie lange ist die {8}? (return period)\n9. Bekomme ich das Geld {9}? (back)\n10. Statt Geld gibt es einen {10}. (voucher)\n11. {11} Ware ist oft ausgeschlossen. (reduced / sale)\n12. Der Reißverschluss ist {12}. (broke — kaputtgehen, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-28-umtausch-und-reklamation-a2",
+  "intro": "Zwei Dinge werden im Laden dauernd verwechselt. Das eine ist der Umtausch: Die Hose passt nicht, sie ist aber in Ordnung — dafür gibt es kein Recht, sondern nur die Kulanz des Ladens, meist mit Frist und oft nur als Gutschein. Das andere ist die Reklamation: Die Naht geht nach zweimal Tragen auf — das ist ein Mangel, und dafür gibt es ein Recht. Wer die zwei Wörter auseinanderhält, bekommt im Laden sehr unterschiedliche Antworten. Dazu kommt der Alltag davor: Größe finden, Umkleide, „steht Ihnen gut“ höflich abwehren. Grammatik nach Bedarf: Komparativ, Adjektivendungen, Perfekt und Konjunktiv II für Bitten. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/28-umtausch-und-reklamation-a2",
+  "level": "A2",
+  "summary": "Größe und Umkleide, umtauschen ohne Grund, Gutschein statt Geld — und der Unterschied zur echten Reklamation.",
+  "title": "Kleidung: anprobieren, umtauschen, reklamieren — A2",
+  "topic": "Umtausch und Reklamation"
+}

@@ -1,0 +1,795 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Erst als"
+          ],
+          "2": [
+            "erst wenn"
+          ],
+          "3": [
+            "gerade erst"
+          ],
+          "4": [
+            "erst mal"
+          ],
+          "5": [
+            "erst recht"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} ich aus dem Haus ging, fiel mir auf, dass ich den Herd\n   angelassen hatte.\n2. Ruf mich nicht jede Stunde an. Ich melde mich, {2} ich das\n   Ergebnis habe.\n3. — Kaffee? — Nein danke, ich habe {3} einen getrunken, vor fünf\n   Minuten.\n4. Bevor wir über den Urlaub reden: Ich muss {4} diese E-Mail\n   schreiben.\n5. Die anderen haben gelacht, aber das hat ihn {5} angespornt —\n   jetzt will er es unbedingt schaffen.\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die passende Wendung mit erst.",
+      "instructionsEn": "Fill in the right expression with erst.",
+      "title": "erst wenn, erst als, gerade erst, erst mal, erst recht"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "erst"
+          ],
+          "2": [
+            "nur"
+          ],
+          "3": [
+            "erst"
+          ],
+          "4": [
+            "nur"
+          ],
+          "5": [
+            "erst"
+          ],
+          "6": [
+            "erst"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir sind {1} bei Seite 40 von 300 — das dauert noch.\n2. Der Eintritt kostet {2} zwei Euro, das ist billig.\n3. Es ist {3} Mittwoch, das Wochenende ist weit weg.\n4. Im Kurs sind {4} sechs Leute, mehr haben sich nicht angemeldet.\n5. Ich bin {5} seit einem Jahr in Deutschland.\n6. Von zehn Aufgaben habe ich {6} drei geschafft.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze erst (Zeit / Fortschritt) oder nur (reine Menge / Einschränkung).",
+      "instructionsEn": "Fill in erst (time / progress) or nur (pure quantity / restriction).",
+      "title": "erst oder nur?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Erst als der Zug abfuhr, sah ich meinen Koffer auf dem Bahnsteig.",
+            "tiles": [
+              "Erst als",
+              "der Zug",
+              "abfuhr,",
+              "sah ich",
+              "meinen Koffer auf dem Bahnsteig."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Erst wenn die Kinder schlafen, habe ich Zeit für mich.",
+            "tiles": [
+              "Erst wenn",
+              "die Kinder",
+              "schlafen,",
+              "habe ich",
+              "Zeit für mich."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Ich unterschreibe den Vertrag erst, wenn mein Anwalt ihn gelesen hat.",
+            "tiles": [
+              "Ich unterschreibe",
+              "den Vertrag",
+              "erst,",
+              "wenn",
+              "mein Anwalt ihn gelesen hat."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Erst als ich die Rechnung sah, verstand ich den Fehler.",
+            "tiles": [
+              "Erst als",
+              "ich",
+              "die Rechnung",
+              "sah,",
+              "verstand ich den Fehler."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A3",
+      "instructions": "Bring die Kacheln in die richtige Reihenfolge. erst wenn / erst als leitet einen Nebensatz ein (Verb am Ende); danach steht im Hauptsatz das Verb auf Position 2.",
+      "instructionsEn": "Put the tiles in order. erst wenn / erst als starts a subordinate clause (verb at end); the main clause then has the verb in position 2.",
+      "title": "erst wenn / erst als — Satzbau"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "schon"
+          ],
+          "2": [
+            "Erst"
+          ],
+          "3": [
+            "nur"
+          ],
+          "4": [
+            "erst mal"
+          ],
+          "5": [
+            "Erst"
+          ],
+          "6": [
+            "noch"
+          ],
+          "7": [
+            "schon"
+          ],
+          "8": [
+            "erst"
+          ]
+        },
+        "bank": [
+          "schon",
+          "Erst",
+          "nur",
+          "erst mal",
+          "Erst",
+          "noch",
+          "schon",
+          "erst",
+          "immer",
+          "gerade"
+        ],
+        "text": "Ich habe {1} immer Musik gemacht, aber Klavier lernen wollte ich\nlange nicht. {2} als ich vierzig wurde, habe ich mich angemeldet.\nAm Anfang übte ich {3} zehn Minuten am Tag, mehr ging nicht.\nMeine Lehrerin sagte, ich solle {4} die Grundlagen üben, alles\nandere komme später. {5} recht wollte ich weitermachen, als ein\nFreund meinte, dafür sei ich zu alt. Nach einem Jahr konnte ich\n{6} keine schweren Stücke, aber einfache Lieder schon. Jetzt spiele\nich {7} seit zwei Jahren und übe fast täglich. Ich habe {8}\ngestern ein neues Stück angefangen — es lief überraschend gut.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter bleiben übrig.",
+      "instructionsEn": "Fill the 8 gaps with the words from the box. Two words are left over.",
+      "title": "Lückentext: Ein später Anfang"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "schon immer"
+              },
+              {
+                "key": "b",
+                "text": "gerade erst"
+              },
+              {
+                "key": "c",
+                "text": "erst recht"
+              }
+            ],
+            "q": "Ich bin ___ angekommen, gib mir fünf Minuten zum Ankommen.",
+            "why": "vor ganz kurzer Zeit → gerade erst."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "erst mal"
+              },
+              {
+                "key": "b",
+                "text": "noch mal"
+              },
+              {
+                "key": "c",
+                "text": "schon mal"
+              }
+            ],
+            "q": "— Warst du ___ in Griechenland? — Ja, zweimal.",
+            "why": "Frage nach einer Erfahrung irgendwann → schon mal."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "schon immer"
+              },
+              {
+                "key": "b",
+                "text": "erst recht"
+              },
+              {
+                "key": "c",
+                "text": "gerade erst"
+              }
+            ],
+            "q": "Ich wollte ___ Pilotin werden, seit ich ein Kind war.",
+            "why": "seit jeher → schon immer."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Erst wenn"
+              },
+              {
+                "key": "b",
+                "text": "Schon als"
+              },
+              {
+                "key": "c",
+                "text": "Erst als"
+              }
+            ],
+            "q": "___ ich den Brief zu Ende gelesen hatte, verstand ich die Aufregung.",
+            "why": "einmaliges Ereignis in der Vergangenheit, nicht früher als → erst als."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "erst recht"
+              },
+              {
+                "key": "b",
+                "text": "gerade erst"
+              },
+              {
+                "key": "c",
+                "text": "schon mal"
+              }
+            ],
+            "q": "Sag es niemandem — sonst reden ___ alle darüber.",
+            "why": "dann umso mehr → erst recht."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "nur"
+              },
+              {
+                "key": "b",
+                "text": "erst"
+              },
+              {
+                "key": "c",
+                "text": "schon"
+              }
+            ],
+            "q": "Es ist ___ halb sechs, wir müssen uns nicht beeilen.",
+            "why": "Zeitpunkt, früher als gedacht → erst."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "nur"
+              },
+              {
+                "key": "b",
+                "text": "erst"
+              },
+              {
+                "key": "c",
+                "text": "noch"
+              }
+            ],
+            "q": "Das Zimmer kostet ___ 30 Euro pro Nacht, ein guter Preis.",
+            "why": "reine Menge / Preis → nur."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "nur"
+              },
+              {
+                "key": "b",
+                "text": "erst"
+              },
+              {
+                "key": "c",
+                "text": "schon nicht"
+              }
+            ],
+            "q": "Nach zwei Stunden Arbeit bin ich ___ bei der Hälfte.",
+            "why": "Fortschritt, weniger als erhofft → erst."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Lösung (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Bedeutung erkennen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "erst"
+              },
+              {
+                "key": "b",
+                "text": "nur"
+              },
+              {
+                "key": "c",
+                "text": "schon"
+              }
+            ],
+            "q": "Das Team arbeitet ___ seit drei Wochen an dem Prototyp und ist gut in der Zeit.",
+            "why": "eine Dauer betonen, im Plan → schon."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "schon"
+              },
+              {
+                "key": "b",
+                "text": "erst"
+              },
+              {
+                "key": "c",
+                "text": "gerade"
+              }
+            ],
+            "q": "Die Tests beginnen ___, wenn die letzte Funktion fertig ist.",
+            "why": "nicht früher als → erst (wenn)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "nur"
+              },
+              {
+                "key": "b",
+                "text": "schon nicht"
+              },
+              {
+                "key": "c",
+                "text": "erst"
+              }
+            ],
+            "q": "Wir haben ___ die Hälfte der Rückmeldungen ausgewertet.",
+            "why": "Fortschritt, noch nicht abgeschlossen → erst."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "nur"
+              },
+              {
+                "key": "b",
+                "text": "erst"
+              },
+              {
+                "key": "c",
+                "text": "noch nicht"
+              }
+            ],
+            "q": "Am Budget hat sich nichts geändert: Es sind ___ 5.000 Euro, nicht mehr.",
+            "why": "feste Menge, Einschränkung → nur."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "schon immer"
+              },
+              {
+                "key": "b",
+                "text": "erst recht"
+              },
+              {
+                "key": "c",
+                "text": "gerade erst"
+              }
+            ],
+            "q": "Die Kollegin ist ___ aus dem Urlaub zurück, sie kennt den neuen Stand noch nicht.",
+            "why": "vor Kurzem → gerade erst."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "erst recht"
+              },
+              {
+                "key": "b",
+                "text": "erst mal"
+              },
+              {
+                "key": "c",
+                "text": "schon mal"
+              }
+            ],
+            "q": "Lassen wir die Details — wir sollten ___ das Ziel festlegen.",
+            "why": "zunächst → erst mal."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "schon mal"
+              },
+              {
+                "key": "b",
+                "text": "erst mal"
+              },
+              {
+                "key": "c",
+                "text": "gerade erst"
+              }
+            ],
+            "q": "Hat der Kunde ___ mit dieser Software gearbeitet? Das würde die Schulung verkürzen.",
+            "why": "Frage nach früherer Erfahrung → schon mal."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "gerade erst"
+              },
+              {
+                "key": "b",
+                "text": "erst recht"
+              },
+              {
+                "key": "c",
+                "text": "schon immer"
+              }
+            ],
+            "q": "Kritik am Konzept macht das Team ___ ehrgeiziger.",
+            "why": "als Reaktion umso mehr → erst recht."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle für jede Lücke die richtige Lösung (a, b oder c).",
+      "instructionsEn": "Choose the correct option for each gap (a, b, or c).",
+      "title": "Sprachbausteine Teil 1 — Ein Projektbericht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "gerade"
+          ],
+          "2": [
+            "schon"
+          ],
+          "3": [
+            "Erst"
+          ],
+          "4": [
+            "erst"
+          ],
+          "5": [
+            "erst"
+          ],
+          "6": [
+            "noch"
+          ],
+          "7": [
+            "erst"
+          ],
+          "8": [
+            "schon"
+          ],
+          "9": [
+            "noch nicht"
+          ],
+          "10": [
+            "erst"
+          ]
+        },
+        "bank": [
+          "gerade",
+          "schon",
+          "Erst",
+          "erst",
+          "erst",
+          "noch",
+          "erst",
+          "schon",
+          "noch nicht",
+          "erst",
+          "nur",
+          "immer",
+          "schon mal"
+        ],
+        "text": "Ich bin {1} erst vor zwei Wochen hierhergezogen und kenne kaum\njemanden. In meine alte Stadt wollte ich {2} immer zurück, aber\nder Job hier war zu gut. {3} als ich den Vertrag unterschrieben\nhatte, wurde mir klar, wie groß der Schritt ist. Am Anfang wollte\nich {4} mal nur die Gegend erkunden, keine Termine. Freunde sagten,\nallein in einer fremden Stadt sei ich verloren — jetzt will ich\n{5} recht zeigen, dass es klappt. Nach zwei Wochen kenne ich {6}\nkeine Nachbarn, aber den Bäcker und die Buslinie schon. Ich wohne\n{7} so kurz hier, dass alles noch neu ist. Einen Sportverein habe\nich {8} gefunden, das ging schnell. Richtige Möbel habe ich {9},\ndie Lieferung kommt nächste Woche. Und Deutsch für den Job lerne ich\n{10} seit einem Monat.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fülle die 10 Lücken. Drei Wörter im Kasten bleiben übrig.",
+      "instructionsEn": "Fill the 10 gaps. Three words in the box are left over.",
+      "title": "Sprachbausteine Teil 2 — Umzug in eine neue Stadt (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Erst als ich ausgestiegen war, merkte ich, dass ich den Schirm vergessen hatte.",
+            "tiles": [
+              "Erst als",
+              "ich",
+              "ausgestiegen war,",
+              "merkte ich,",
+              "dass ich den Schirm vergessen hatte."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Ich gehe erst ins Bett, wenn der Film vorbei ist.",
+            "tiles": [
+              "Ich gehe",
+              "erst",
+              "ins Bett,",
+              "wenn",
+              "der Film vorbei ist."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Wir haben erst mal die wichtigsten Sachen ausgepackt.",
+            "tiles": [
+              "Wir",
+              "haben",
+              "erst mal",
+              "die wichtigsten Sachen",
+              "ausgepackt."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Nach drei Stunden war ich erst bei Aufgabe vier von zwölf.",
+            "tiles": [
+              "Nach drei Stunden",
+              "war ich",
+              "erst",
+              "bei Aufgabe",
+              "vier von zwölf."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "D1",
+      "instructions": "Bring die Kacheln in die richtige Reihenfolge.",
+      "instructionsEn": "Put the tiles in the correct order.",
+      "title": "Wiederholung: Satzbau"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "nur"
+              },
+              {
+                "key": "b",
+                "text": "schon nicht"
+              },
+              {
+                "key": "c",
+                "text": "erst"
+              }
+            ],
+            "q": "Es ist ___ 18 Uhr, der Laden hat noch offen.",
+            "why": "Zeitpunkt, früher als gedacht → erst."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "nur"
+              },
+              {
+                "key": "b",
+                "text": "erst"
+              },
+              {
+                "key": "c",
+                "text": "noch nicht"
+              }
+            ],
+            "q": "Ich habe ___ 20 Euro dabei, das reicht nicht für beide Tickets.",
+            "why": "reine Menge → nur."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Erst wenn"
+              },
+              {
+                "key": "b",
+                "text": "Schon wenn"
+              },
+              {
+                "key": "c",
+                "text": "Erst als"
+              }
+            ],
+            "q": "___ ich zu Hause war, sah ich die verpasste Nachricht.",
+            "why": "einmalig, Vergangenheit → erst als."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "erst recht"
+              },
+              {
+                "key": "b",
+                "text": "gerade erst"
+              },
+              {
+                "key": "c",
+                "text": "erst mal"
+              }
+            ],
+            "q": "Wenn man ihm das verbietet, macht er es ___.",
+            "why": "dann umso mehr → erst recht."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "erst mal"
+              },
+              {
+                "key": "b",
+                "text": "schon mal"
+              },
+              {
+                "key": "c",
+                "text": "gerade erst"
+              }
+            ],
+            "q": "— Hast du ___ Sushi gegessen? — Ja, oft.",
+            "why": "Frage nach Erfahrung → schon mal."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "gerade erst"
+              },
+              {
+                "key": "b",
+                "text": "schon immer"
+              },
+              {
+                "key": "c",
+                "text": "erst recht"
+              }
+            ],
+            "q": "Der Kurs hat ___ angefangen, wir haben nichts verpasst.",
+            "why": "vor Kurzem → gerade erst."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Wähle die richtige Lösung (a, b oder c). Das ist dein Abschlusscheck für dieses Set.",
+      "instructionsEn": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-26-erst-schon-noch-b1",
+  "intro": "Aufbauend auf dem A2-Set. erst wenn / erst als = nicht früher als (Erst als ich zu Hause war, merkte ich den Fehler.). gerade erst = vor ganz kurzer Zeit (Ich bin gerade erst angekommen.). erst mal = zunächst (Ich muss erst mal nachdenken.). erst recht = jetzt umso mehr (Wenn du das verbietest, mache ich es erst recht.). Bei schon: schon mal = irgendwann einmal (Warst du schon mal in Wien?), schon immer = seit jeher (Ich wollte schon immer …), immer noch = betont weiter andauernd. Und der Klassiker erst vs. nur: erst bei Zeit und Fortschritt (Es ist erst drei Uhr.), nur bei reiner Menge (Ich habe nur drei Euro.). Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/26-erst-schon-noch-b1",
+  "level": "B1",
+  "summary": null,
+  "title": "erst und schon — die feineren Bedeutungen — B1",
+  "topic": "erst / schon / noch"
+}

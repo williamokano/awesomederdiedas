@@ -1,0 +1,677 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "sich freuen"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "mich freue"
+                ],
+                "gap": 1
+              }
+            ],
+            "label": "ich"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "dich freust"
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "du"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "sich freut"
+                ],
+                "gap": 3
+              }
+            ],
+            "label": "er/sie/es"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "uns freuen"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "wir"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "euch freut"
+                ],
+                "gap": 5
+              }
+            ],
+            "label": "ihr"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "sich freuen"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "sie/Sie"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze das Reflexivpronomen und das Verb.",
+      "instructionsEn": "Fill in the reflexive pronoun and the verb.",
+      "title": "sich freuen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "mich"
+          ],
+          "2": [
+            "dich"
+          ],
+          "3": [
+            "sich"
+          ],
+          "4": [
+            "uns"
+          ],
+          "5": [
+            "euch"
+          ],
+          "6": [
+            "sich"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich freue {1} auf die Ferien.\n2. Interessierst du {2} für Musik?\n3. Er erinnert {3} nicht an den Termin.\n4. Wir fühlen {4} heute nicht gut.\n5. Entspannt ihr {5} am Wochenende?\n6. Sie verlieben {6} sehr schnell.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze das passende Reflexivpronomen.",
+      "instructionsEn": "Fill in the appropriate reflexive pronoun.",
+      "title": "Das richtige Reflexivpronomen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "mich"
+          ],
+          "2": [
+            "mich"
+          ],
+          "3": [
+            "mich"
+          ],
+          "4": [
+            "sich"
+          ],
+          "5": [
+            "uns"
+          ],
+          "6": [
+            "mich"
+          ],
+          "7": [
+            "mich"
+          ],
+          "8": [
+            "mich"
+          ]
+        },
+        "bank": [
+          "mich",
+          "mich",
+          "mich",
+          "mich",
+          "mich",
+          "mich",
+          "sich",
+          "uns",
+          "dich",
+          "euch"
+        ],
+        "text": "Ich wache jeden Morgen früh auf und ärgere {1} sofort über den\nWecker. Ich beeile {2}, um nicht zu spät zu kommen. Im Bus fühle\nich {3} immer müde. Meine Kollegen freuen {4} schon auf die\nMittagspause. Wir setzen {5} zusammen ins Café. Am Nachmittag\nkonzentriere ich {6} auf die Arbeit. Abends entspanne ich {7}\nmit einem Buch. Dann erinnere ich {8} an einen schönen Tag.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Ein stressiger Tag"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "mein"
+              },
+              {
+                "key": "b",
+                "text": "mich"
+              },
+              {
+                "key": "c",
+                "text": "mir"
+              }
+            ],
+            "q": "Ich wasche ___ Auto.",
+            "why": "Nicht-reflexiv: waschen + direktes Objekt (das Auto)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "mein"
+              },
+              {
+                "key": "b",
+                "text": "mich"
+              },
+              {
+                "key": "c",
+                "text": "mir"
+              }
+            ],
+            "q": "Ich wasche ___ jeden Morgen.",
+            "why": "Echtes Reflexivverb: sich waschen = sich selbst waschen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "mich"
+              },
+              {
+                "key": "b",
+                "text": "sich"
+              },
+              {
+                "key": "c",
+                "text": "meinen"
+              }
+            ],
+            "q": "Die Nachricht ärgert ___ Bruder.",
+            "why": "Nicht-reflexiv: ärgern + Akkusativobjekt (eine andere Person)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "mich"
+              },
+              {
+                "key": "b",
+                "text": "mir"
+              },
+              {
+                "key": "c",
+                "text": "meinen"
+              }
+            ],
+            "q": "Ich ärgere ___ über die Nachricht.",
+            "why": "Reflexiv: sich ärgern über."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "mich"
+              },
+              {
+                "key": "b",
+                "text": "meine"
+              },
+              {
+                "key": "c",
+                "text": "sich"
+              }
+            ],
+            "q": "Das Konzert interessiert ___ Schwester nicht.",
+            "why": "Nicht-reflexiv: interessieren + Akkusativobjekt."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "mir"
+              },
+              {
+                "key": "b",
+                "text": "meine"
+              },
+              {
+                "key": "c",
+                "text": "mich"
+              }
+            ],
+            "q": "Ich interessiere ___ für Musik.",
+            "why": "Reflexiv: sich interessieren für."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Reflexiv oder nicht-reflexiv?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "mich"
+              },
+              {
+                "key": "b",
+                "text": "mir"
+              },
+              {
+                "key": "c",
+                "text": "sich"
+              }
+            ],
+            "q": "Ich wache jeden Morgen um sechs Uhr auf und dusche ___ sofort.",
+            "why": "sich duschen ist echt reflexiv (Akkusativ)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "er"
+              },
+              {
+                "key": "b",
+                "text": "sich"
+              },
+              {
+                "key": "c",
+                "text": "ihn"
+              }
+            ],
+            "q": "Mein Bruder putzt ___ die Zähne.",
+            "why": "sich die Zähne putzen: Reflexivpronomen im Dativ (das Akkusativobjekt ist die Zähne)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "ihr"
+              },
+              {
+                "key": "b",
+                "text": "ihre"
+              },
+              {
+                "key": "c",
+                "text": "sich"
+              }
+            ],
+            "q": "Meine Schwester zieht ___ schnell an.",
+            "why": "sich anziehen ist echt reflexiv (Akkusativ)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "mich"
+              },
+              {
+                "key": "b",
+                "text": "mir"
+              },
+              {
+                "key": "c",
+                "text": "mein"
+              }
+            ],
+            "q": "Ich freue ___ auf das Frühstück.",
+            "why": "sich freuen auf: echt reflexiv (Akkusativ)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "unser"
+              },
+              {
+                "key": "b",
+                "text": "uns"
+              },
+              {
+                "key": "c",
+                "text": "unsere"
+              }
+            ],
+            "q": "Wir setzen ___ alle an den Tisch.",
+            "why": "sich setzen ist echt reflexiv (Akkusativ)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "er"
+              },
+              {
+                "key": "b",
+                "text": "ihn"
+              },
+              {
+                "key": "c",
+                "text": "sich"
+              }
+            ],
+            "q": "Mein Vater interessiert ___ nicht für Frühstück, er trinkt nur Kaffee.",
+            "why": "sich interessieren für: echt reflexiv (Akkusativ)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "unser"
+              },
+              {
+                "key": "b",
+                "text": "uns"
+              },
+              {
+                "key": "c",
+                "text": "unsere"
+              }
+            ],
+            "q": "Nach dem Frühstück beeilen wir ___ alle.",
+            "why": "sich beeilen ist echt reflexiv (Akkusativ)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "mich"
+              },
+              {
+                "key": "b",
+                "text": "mir"
+              },
+              {
+                "key": "c",
+                "text": "mein"
+              }
+            ],
+            "q": "Am Ende erinnere ich ___ gern an diese ruhigen Morgen.",
+            "why": "sich erinnern an: echt reflexiv (Akkusativ)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct reflexive pronoun for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Der Morgen einer Familie"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "mich"
+          ],
+          "2": [
+            "mich"
+          ],
+          "3": [
+            "mich"
+          ],
+          "4": [
+            "mich"
+          ],
+          "5": [
+            "sich"
+          ],
+          "6": [
+            "sich"
+          ],
+          "7": [
+            "uns"
+          ],
+          "8": [
+            "mich"
+          ],
+          "9": [
+            "mich"
+          ],
+          "10": [
+            "mir"
+          ]
+        },
+        "bank": [
+          "mich",
+          "mich",
+          "mich",
+          "mich",
+          "mich",
+          "mich",
+          "sich",
+          "sich",
+          "uns",
+          "mir",
+          "dich",
+          "euch"
+        ],
+        "text": "Morgen habe ich ein Vorstellungsgespräch und ich fühle {1} sehr\nnervös. Ich habe {2} schon lange darauf vorbereitet. Heute Abend\nziehe ich {3} früh um und lege meine Kleidung bereit. Ich dusche\n{4} morgen früh extra lange. Meine Familie freut {5} für mich.\nMein Vater erinnert {6} noch an sein erstes Gespräch. Wir setzen\n{7} zusammen und üben Fragen. Ich konzentriere {8} auf jede\nAntwort. Am Ende entspanne ich {9} mit Musik. Ich sage {10}:\nDas wird gut!\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Two words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Vor dem Vorstellungsgespräch (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "mich"
+          ],
+          "2": [
+            "sich"
+          ],
+          "3": [
+            "uns"
+          ],
+          "4": [
+            "dich"
+          ],
+          "5": [
+            "sich"
+          ],
+          "6": [
+            "mir"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich freue {1} auf das Wochenende.\n2. Er wäscht {2} jeden Morgen.\n3. Wir setzen {3} an den Tisch.\n4. Interessierst du {4} für Sport?\n5. Meine Eltern erinnern {5} gern an ihre Hochzeit.\n6. Ich putze {6} die Zähne.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze das passende Reflexivpronomen.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "meine"
+              },
+              {
+                "key": "b",
+                "text": "mich"
+              },
+              {
+                "key": "c",
+                "text": "mir"
+              }
+            ],
+            "q": "Ich wasche ___ Hände.",
+            "why": "Nicht-reflexiv: waschen + direktes Objekt (die Hände)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "meine"
+              },
+              {
+                "key": "b",
+                "text": "mich"
+              },
+              {
+                "key": "c",
+                "text": "mir"
+              }
+            ],
+            "q": "Ich wasche ___ jeden Morgen.",
+            "why": "Echtes Reflexivverb: sich waschen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "mich"
+              },
+              {
+                "key": "b",
+                "text": "sich"
+              },
+              {
+                "key": "c",
+                "text": "meinen"
+              }
+            ],
+            "q": "Das Geschenk freut ___ Bruder.",
+            "why": "Nicht-reflexiv: freuen + Akkusativobjekt (eine andere Person)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "mich"
+              },
+              {
+                "key": "b",
+                "text": "mir"
+              },
+              {
+                "key": "c",
+                "text": "meinen"
+              }
+            ],
+            "q": "Ich freue ___ über das Geschenk.",
+            "why": "Reflexiv: sich freuen über."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "er"
+              },
+              {
+                "key": "b",
+                "text": "sich"
+              },
+              {
+                "key": "c",
+                "text": "ihn"
+              }
+            ],
+            "q": "Er putzt ___ die Schuhe.",
+            "why": "sich die Schuhe putzen: Reflexivpronomen im Dativ."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "unser"
+              },
+              {
+                "key": "b",
+                "text": "unsere"
+              },
+              {
+                "key": "c",
+                "text": "uns"
+              }
+            ],
+            "q": "Wir interessieren ___ für Kunst.",
+            "why": "Reflexiv: sich interessieren für."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-16-reflexive-verben-a2",
+  "intro": "Standalone drill set, not tied to any lesson. Echte reflexive Verben are only ever reflexive — sich freuen, sich erinnern, sich beeilen, sich interessieren, sich verlieben always take a reflexive pronoun, with no non-reflexive version. Unechte reflexive Verben go either way with a different meaning: waschen (Ich wasche das Auto — someone else gets washed) vs. sich waschen (Ich wasche mich — I wash myself). The reflexive pronoun itself matches the subject: mich, dich, sich, uns, euch, sich — mostly Akkusativ at this level (Ich freue mich), though a few verbs already take a Dativ reflexive when there's also an Akkusativ object (Ich putze mir die Zähne). Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/16-reflexive-verben-a2",
+  "level": "A2",
+  "summary": null,
+  "title": "Reflexive Verben — A2",
+  "topic": "Reflexive Verben"
+}

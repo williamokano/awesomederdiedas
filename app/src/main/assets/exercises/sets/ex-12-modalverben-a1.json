@@ -1,0 +1,757 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "können",
+          "müssen",
+          "wollen"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "kann"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "muss"
+                ],
+                "gap": 2
+              },
+              {
+                "answer": [
+                  "will"
+                ],
+                "gap": 3
+              }
+            ],
+            "label": "ich"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "kannst"
+                ],
+                "gap": 4
+              },
+              {
+                "answer": [
+                  "musst"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "willst"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "du"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "kann"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "muss"
+                ],
+                "gap": 8
+              },
+              {
+                "answer": [
+                  "will"
+                ],
+                "gap": 9
+              }
+            ],
+            "label": "er/sie/es"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "können"
+                ],
+                "gap": 10
+              },
+              {
+                "answer": [
+                  "müssen"
+                ],
+                "gap": 11
+              },
+              {
+                "answer": [
+                  "wollen"
+                ],
+                "gap": 12
+              }
+            ],
+            "label": "wir"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "könnt"
+                ],
+                "gap": 13
+              },
+              {
+                "answer": [
+                  "müsst"
+                ],
+                "gap": 14
+              },
+              {
+                "answer": [
+                  "wollt"
+                ],
+                "gap": 15
+              }
+            ],
+            "label": "ihr"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "können"
+                ],
+                "gap": 16
+              },
+              {
+                "answer": [
+                  "müssen"
+                ],
+                "gap": 17
+              },
+              {
+                "answer": [
+                  "wollen"
+                ],
+                "gap": 18
+              }
+            ],
+            "label": "sie/Sie"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die Tabelle.",
+      "instructionsEn": "Complete the table.",
+      "title": "Präsens: können, müssen, wollen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "kann"
+          ],
+          "2": [
+            "müssen"
+          ],
+          "3": [
+            "Darf"
+          ],
+          "4": [
+            "will"
+          ],
+          "5": [
+            "soll"
+          ],
+          "6": [
+            "Kannst"
+          ],
+          "7": [
+            "möchte"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} sehr gut schwimmen.\n2. Wir {2} morgen früh aufstehen.\n3. {3} ich das Fenster öffnen?\n4. Er {4} unbedingt nach Berlin fahren.\n5. Der Arzt sagt, ich {5} mehr Wasser trinken.\n6. {6} du mir bitte helfen?\n7. Ich {7} gern einen Kaffee.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze das passende Modalverb in der richtigen Form.",
+      "instructionsEn": "Fill in the appropriate modal verb in the correct form.",
+      "title": "Welches Modalverb passt?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "muss"
+          ],
+          "3": [
+            "soll"
+          ],
+          "4": [
+            "darf"
+          ],
+          "5": [
+            "kann"
+          ],
+          "6": [
+            "möchte"
+          ],
+          "7": [
+            "muss"
+          ],
+          "8": [
+            "kann"
+          ]
+        },
+        "bank": [
+          "muss",
+          "muss",
+          "soll",
+          "darf",
+          "kann",
+          "kann",
+          "möchte",
+          "muss",
+          "will",
+          "musst"
+        ],
+        "text": "Ich {1} jeden Morgen um sieben Uhr aufstehen. Im Büro {2} ich\nviele E-Mails schreiben. Mein Chef sagt, ich {3} pünktlich sein.\nIn der Pause {4} ich Kaffee trinken. Ich {5} sehr gut mit Zahlen\numgehen. Am liebsten {6} ich früher nach Hause gehen. Aber ich\n{7} noch die Präsentation fertig machen. Heute Abend {8} ich\nendlich ausruhen.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Ein Tag im Büro"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "darf"
+              },
+              {
+                "key": "b",
+                "text": "muss"
+              },
+              {
+                "key": "c",
+                "text": "kann"
+              }
+            ],
+            "q": "Im Schwimmbad ___ man nicht rauchen.",
+            "why": "Verbot → nicht dürfen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "will"
+              },
+              {
+                "key": "b",
+                "text": "muss"
+              },
+              {
+                "key": "c",
+                "text": "darf"
+              }
+            ],
+            "q": "Ich habe kein Auto, deshalb ___ ich mit dem Bus fahren.",
+            "why": "Notwendigkeit → müssen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sollst"
+              },
+              {
+                "key": "b",
+                "text": "Musst"
+              },
+              {
+                "key": "c",
+                "text": "Kannst"
+              }
+            ],
+            "q": "___ du mir bitte das Salz geben?",
+            "why": "Höfliche Bitte → können."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sollen"
+              },
+              {
+                "key": "b",
+                "text": "dürfen"
+              },
+              {
+                "key": "c",
+                "text": "können"
+              }
+            ],
+            "q": "Der Lehrer sagt, wir ___ die Hausaufgaben bis Montag machen.",
+            "why": "Erwartung einer anderen Person → sollen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "muss"
+              },
+              {
+                "key": "b",
+                "text": "will"
+              },
+              {
+                "key": "c",
+                "text": "darf"
+              }
+            ],
+            "q": "Er ___ unbedingt Schauspieler werden, das ist sein großer Traum.",
+            "why": "Starker Wunsch → wollen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Muss"
+              },
+              {
+                "key": "b",
+                "text": "Will"
+              },
+              {
+                "key": "c",
+                "text": "Darf"
+              }
+            ],
+            "q": "___ ich reinkommen?",
+            "why": "Erlaubnis erfragen → dürfen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Welche Bedeutung passt?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "muss"
+              },
+              {
+                "key": "b",
+                "text": "darf"
+              },
+              {
+                "key": "c",
+                "text": "will"
+              }
+            ],
+            "q": "In der Schule ___ man pünktlich sein.",
+            "why": "Regel → müssen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "müssen"
+              },
+              {
+                "key": "b",
+                "text": "dürfen"
+              },
+              {
+                "key": "c",
+                "text": "wollen"
+              }
+            ],
+            "q": "Die Schüler ___ während des Unterrichts nicht mit dem Handy spielen.",
+            "why": "Verbot → nicht dürfen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Muss"
+              },
+              {
+                "key": "b",
+                "text": "Will"
+              },
+              {
+                "key": "c",
+                "text": "Darf"
+              }
+            ],
+            "q": "___ ich auf die Toilette gehen?",
+            "why": "Erlaubnis erfragen → dürfen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sollen"
+              },
+              {
+                "key": "b",
+                "text": "dürfen"
+              },
+              {
+                "key": "c",
+                "text": "können"
+              }
+            ],
+            "q": "Die Lehrerin sagt, wir ___ das Buch bis morgen lesen.",
+            "why": "Erwartung der Lehrerin → sollen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "muss"
+              },
+              {
+                "key": "b",
+                "text": "kann"
+              },
+              {
+                "key": "c",
+                "text": "will"
+              }
+            ],
+            "q": "Ich ___ sehr gut Mathe, das ist mein Lieblingsfach.",
+            "why": "Fähigkeit → können."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "dürfen"
+              },
+              {
+                "key": "b",
+                "text": "sollen"
+              },
+              {
+                "key": "c",
+                "text": "müssen"
+              }
+            ],
+            "q": "Am Wochenende ___ wir nicht lernen, wir haben frei.",
+            "why": "müssen nicht = keine Notwendigkeit."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "darf"
+              },
+              {
+                "key": "b",
+                "text": "will"
+              },
+              {
+                "key": "c",
+                "text": "muss"
+              }
+            ],
+            "q": "Ich ___ unbedingt die Prüfung bestehen.",
+            "why": "Starker Wunsch → wollen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kannst"
+              },
+              {
+                "key": "b",
+                "text": "Sollst"
+              },
+              {
+                "key": "c",
+                "text": "Darfst"
+              }
+            ],
+            "q": "___ du mir bei den Hausaufgaben helfen?",
+            "why": "Bitte → können."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct modal verb for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Regeln in der Schule"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "darf"
+          ],
+          "3": [
+            "müssen"
+          ],
+          "4": [
+            "soll"
+          ],
+          "5": [
+            "kann"
+          ],
+          "6": [
+            "darf"
+          ],
+          "7": [
+            "kann"
+          ],
+          "8": [
+            "dürfen"
+          ],
+          "9": [
+            "dürfen"
+          ],
+          "10": [
+            "darf"
+          ]
+        },
+        "bank": [
+          "muss",
+          "darf",
+          "darf",
+          "darf",
+          "müssen",
+          "soll",
+          "kann",
+          "kann",
+          "dürfen",
+          "dürfen",
+          "willst",
+          "sollt"
+        ],
+        "text": "In unserer Familie gibt es klare Regeln. Ich {1} jeden Tag mein\nZimmer aufräumen. Meine Schwester {2} keine lauten Spiele nach\n22 Uhr spielen. Wir {3} alle beim Abendessen helfen. Meine\nEltern sagen, ich {4} mehr Sport machen. Am Wochenende {5} ich\nlänger schlafen. Mein Bruder {6} sein Handy erst nach den\nHausaufgaben benutzen. Ich {7} sehr gut kochen, das macht mir\nSpaß. Wir {8} vor dem Essen keine Süßigkeiten essen. Wir {9}\nauch unsere Freunde einladen, wenn wir wollen. Heute {10} ich\nendlich fernsehen!\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Two words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Regeln zu Hause (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "kann"
+          ],
+          "2": [
+            "Darf"
+          ],
+          "3": [
+            "müssen"
+          ],
+          "4": [
+            "will"
+          ],
+          "5": [
+            "sollen"
+          ],
+          "6": [
+            "Kannst"
+          ],
+          "7": [
+            "möchte"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} nicht schwimmen, ich habe es nie gelernt.\n2. {2} ich hier parken?\n3. Wir {3} um acht Uhr im Büro sein.\n4. Er {4} Arzt werden, das ist sein Traum.\n5. Der Trainer sagt, wir {5} mehr trainieren.\n6. {6} du mir helfen, das Sofa zu tragen?\n7. Ich {7} gern ein Stück Kuchen.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze das passende Modalverb.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "kann"
+              },
+              {
+                "key": "b",
+                "text": "darf"
+              },
+              {
+                "key": "c",
+                "text": "will"
+              }
+            ],
+            "q": "Ich ___ nicht gut Englisch sprechen.",
+            "why": "Fähigkeit (negiert) → können."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Müssen"
+              },
+              {
+                "key": "b",
+                "text": "Dürfen"
+              },
+              {
+                "key": "c",
+                "text": "Wollen"
+              }
+            ],
+            "q": "___ wir hier fotografieren?",
+            "why": "Erlaubnis erfragen → dürfen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "darf"
+              },
+              {
+                "key": "b",
+                "text": "kann"
+              },
+              {
+                "key": "c",
+                "text": "soll"
+              }
+            ],
+            "q": "Die Ärztin sagt, ich ___ mehr schlafen.",
+            "why": "Erwartung/Rat der Ärztin → sollen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "will"
+              },
+              {
+                "key": "b",
+                "text": "muss"
+              },
+              {
+                "key": "c",
+                "text": "darf"
+              }
+            ],
+            "q": "Er ___ unbedingt das Spiel gewinnen.",
+            "why": "Starker Wunsch → wollen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "dürfen"
+              },
+              {
+                "key": "b",
+                "text": "müssen"
+              },
+              {
+                "key": "c",
+                "text": "können"
+              }
+            ],
+            "q": "Wir ___ jeden Tag Hausaufgaben machen.",
+            "why": "Notwendigkeit → müssen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Musst"
+              },
+              {
+                "key": "b",
+                "text": "Sollst"
+              },
+              {
+                "key": "c",
+                "text": "Kannst"
+              }
+            ],
+            "q": "___ du mir bitte das Buch geben?",
+            "why": "Höfliche Bitte → können."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-12-modalverben-a1",
+  "intro": "Standalone drill set, not tied to any lesson. The six modal verbs — können, müssen, wollen, sollen, dürfen, möchten (from mögen) — are all irregular in the singular (ich/er-sie-es have no ending and often a different vowel: ich kann, not ich könne) and always push the main verb to the end as a bare infinitive: Ich kann gut schwimmen. This set drills the forms first, then the meaning differences: können = ability, müssen = necessity, dürfen = permission, wollen = desire, sollen = someone else's expectation, möchten = a polite want. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/12-modalverben-a1",
+  "level": "A1",
+  "summary": null,
+  "title": "Modalverben: Präsens und Bedeutung — A1",
+  "topic": "Modalverben"
+}

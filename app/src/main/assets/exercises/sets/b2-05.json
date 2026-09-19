@@ -1,0 +1,1488 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "lachend"
+          ],
+          "2": [
+            "kochend"
+          ],
+          "3": [
+            "schlafend"
+          ],
+          "4": [
+            "steigend"
+          ],
+          "5": [
+            "spielend"
+          ],
+          "6": [
+            "wachsend"
+          ],
+          "7": [
+            "weinend"
+          ],
+          "8": [
+            "brennend"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. lachen → {1}\n2. kochen → {2}\n3. schlafen → {3}\n4. steigen → {4}\n5. spielen → {5}\n6. wachsen → {6}\n7. weinen → {7}\n8. brennen → {8}\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Bilde das Partizip I (ohne Endung). 8 Items.",
+      "title": "Partizip I bilden (Infinitiv + d)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "gekocht"
+          ],
+          "2": [
+            "gegründet"
+          ],
+          "3": [
+            "eröffnet"
+          ],
+          "4": [
+            "gemalt"
+          ],
+          "5": [
+            "geschrieben"
+          ],
+          "6": [
+            "entstanden"
+          ],
+          "7": [
+            "angekommen"
+          ],
+          "8": [
+            "verstorben"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. kochen → {1}\n2. gründen → {2}\n3. eröffnen → {3}\n4. malen → {4}\n5. schreiben → {5}\n6. entstehen → {6}\n7. ankommen → {7}\n8. versterben → {8}\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Bilde das Partizip II. ⚠️ Achte auf unregelmäßige Formen. 8 Items.",
+      "title": "Partizip II bilden"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "lachende"
+              },
+              {
+                "key": "b",
+                "text": "gelachte"
+              }
+            ],
+            "q": "das Kind, das lacht → das ____ Kind",
+            "why": "Das Kind lacht selbst → aktiv → Partizip I: das lachende Kind."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "kochende"
+              },
+              {
+                "key": "b",
+                "text": "gekochte"
+              }
+            ],
+            "q": "das Ei, das gekocht wurde → das ____ Ei",
+            "why": "Das Ei wurde gekocht → passiv → Partizip II: das gekochte Ei."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "gründende"
+              },
+              {
+                "key": "b",
+                "text": "gegründete"
+              }
+            ],
+            "q": "die Firma, die 1990 gegründet wurde → die 1990 ____ Firma",
+            "why": "Die Firma wurde gegründet → passiv → Partizip II."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "steigende"
+              },
+              {
+                "key": "b",
+                "text": "gestiegene"
+              }
+            ],
+            "q": "die Nachfrage, die steigt → die ____ Nachfrage",
+            "why": "Die Nachfrage steigt selbst, gerade jetzt → aktiv → Partizip I."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ankommende"
+              },
+              {
+                "key": "b",
+                "text": "angekommene"
+              }
+            ],
+            "q": "der Zug, der angekommen ist → der ____ Zug",
+            "why": "Abgeschlossen, „sein\"-Perfekt → Partizip II: der angekommene Zug."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "eröffnende"
+              },
+              {
+                "key": "b",
+                "text": "eröffnete"
+              }
+            ],
+            "q": "die Ausstellung, die im Mai eröffnet wurde → die im Mai ____ Ausstellung",
+            "why": "Sie wurde eröffnet → passiv → Partizip II."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A3",
+      "instructions": "Aktiv (Partizip I) oder passiv/abgeschlossen (Partizip II)? Wähle das richtige Attribut. 6 Items.",
+      "title": "Partizip I oder Partizip II?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "das lacht"
+          ],
+          "2": [
+            "die steigen"
+          ],
+          "3": [
+            "der schläft"
+          ],
+          "4": [
+            "die spielen"
+          ],
+          "5": [
+            "die wächst"
+          ],
+          "6": [
+            "das brennt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. das lachende Kind → das Kind, {1}\n2. die steigenden Preise → die Preise, {2}\n3. der schlafende Hund → der Hund, {3}\n4. die spielenden Kinder → die Kinder, {4}\n5. die wachsende Stadt → die Stadt, {5}\n6. das brennende Haus → das Haus, {6}\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Löse das Partizip-I-Attribut als Relativsatz im Aktiv auf. Schreib nur das Relativpronomen + Verb. 6 Items.",
+      "title": "Partizip I als Attribut → Relativsatz"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "das gekocht wurde"
+          ],
+          "2": [
+            "die gegründet wurde"
+          ],
+          "3": [
+            "die renoviert wurde"
+          ],
+          "4": [
+            "der angekommen ist"
+          ],
+          "5": [
+            "die entstanden sind"
+          ],
+          "6": [
+            "der verstorben ist"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. das gekochte Ei → das Ei, {1}\n2. die gegründete Firma → die Firma, {2}\n3. die renovierte Galerie → die Galerie, {3}\n4. der angekommene Zug → der Zug, {4}\n5. die entstandenen Werke → die Werke, {5}\n6. der verstorbene Künstler → der Künstler, {6}\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Löse das Partizip-II-Attribut als Relativsatz auf — mit „wurde/wurden\" (passiv) oder „ist/sind\" (sein-Verben). 6 Items.",
+      "title": "Partizip II als Attribut → Relativsatz"
+    },
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "Nominativ",
+          "Akkusativ",
+          "Dativ"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "schlafende"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "schlafenden"
+                ],
+                "gap": 2
+              },
+              {
+                "answer": [
+                  "schlafenden"
+                ],
+                "gap": 3
+              }
+            ],
+            "label": "der schlafend… Hund (m)"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "lachende"
+                ],
+                "gap": 4
+              },
+              {
+                "answer": [
+                  "lachende"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "lachenden"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "das lachend… Kind (n)"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "lachenden"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "lachenden"
+                ],
+                "gap": 8
+              },
+              {
+                "answer": [
+                  "lachenden"
+                ],
+                "gap": 9
+              }
+            ],
+            "label": "die lachend… Kinder (Pl)"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A6",
+      "instructions": "Setz die richtige Endung des Partizips ein (Deklination wie ein Adjektiv nach dem bestimmten Artikel).",
+      "title": "Adjektivendungen am Partizip (bestimmter Artikel)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "e"
+          ],
+          "2": [
+            "en"
+          ],
+          "3": [
+            "er"
+          ],
+          "4": [
+            "en"
+          ],
+          "5": [
+            "e"
+          ],
+          "6": [
+            "es"
+          ],
+          "7": [
+            "en"
+          ],
+          "8": [
+            "en"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. das lachend{1} Kind (Nom.)\n2. die steigend{2} Preise (Nom. Pl.)\n3. ein schlafend{3} Hund (Nom. m)\n4. mit dem gekocht{4} Ei (Dativ n)\n5. die im Mai eröffnet{5} Ausstellung (Nom. f)\n6. ein gerade gedruckt{6} Buch (Akk. n)\n7. die 2018 verkauft{7} Werke (Akk. Pl.)\n8. dem schreiend{8} Baby (Dativ n)\n",
+        "type": "gap-text"
+      },
+      "id": "A7",
+      "instructions": "Setz die richtige Endung des Partizips ein. 8 Items.",
+      "title": "Adjektivendung einsetzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              2,
+              1,
+              3
+            ],
+            "note": "die 1990 gegründete Firma",
+            "tiles": [
+              "die",
+              "gegründete",
+              "1990",
+              "Firma"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              3,
+              0,
+              2
+            ],
+            "note": "die im Mai eröffnete Ausstellung",
+            "tiles": [
+              "eröffnete",
+              "die",
+              "Ausstellung",
+              "im Mai"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              3,
+              0,
+              2
+            ],
+            "note": "die seit Jahren steigende Nachfrage",
+            "tiles": [
+              "steigende",
+              "die",
+              "Nachfrage",
+              "seit Jahren"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              3,
+              2,
+              1
+            ],
+            "note": "der gestern angekommene Brief",
+            "tiles": [
+              "der",
+              "Brief",
+              "angekommene",
+              "gestern"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              3,
+              0,
+              2
+            ],
+            "note": "die auf dem Hof spielenden Kinder",
+            "tiles": [
+              "spielenden",
+              "die",
+              "Kinder",
+              "auf dem Hof"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A8",
+      "instructions": "Ordne die Kacheln in die richtige Reihenfolge.",
+      "title": "Erweitertes Partizipialattribut bauen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "die 2020 renovierte Galerie"
+          ],
+          "2": [
+            "die seit Monaten steigenden Preise"
+          ],
+          "3": [
+            "der gerade angekommene Gast"
+          ],
+          "4": [
+            "das 1872 gemalte Bild"
+          ],
+          "5": [
+            "die schnell wachsende Stadt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. die Galerie, die 2020 renoviert wurde → {1}\n2. die Preise, die seit Monaten steigen → {2}\n3. der Gast, der gerade angekommen ist → {3}\n4. das Bild, das 1872 gemalt wurde → {4}\n5. die Stadt, die schnell wächst → {5}\n",
+        "type": "gap-text"
+      },
+      "id": "A9",
+      "instructions": "Form den Relativsatz in ein erweitertes Partizipialattribut um. Schreib die ganze Nominalphrase. 5 Items.",
+      "title": "Relativsatz → erweitertes Partizipialattribut"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "die im 19. Jahrhundert entstanden sind"
+          ],
+          "2": [
+            "die stark gestiegen sind"
+          ],
+          "3": [
+            "das gerade vorbeifährt"
+          ],
+          "4": [
+            "die vom Museum gekauft wurden"
+          ],
+          "5": [
+            "die im Mai eröffnet wurde"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. die im 19. Jahrhundert entstandenen Werke → die Werke, {1}\n2. die stark gestiegenen Mieten → die Mieten, {2}\n3. das gerade vorbeifahrende Auto → das Auto, {3}\n4. die vom Museum gekauften Gemälde → die Gemälde, {4}\n5. die im Mai eröffnete Ausstellung → die Ausstellung, {5}\n",
+        "type": "gap-text"
+      },
+      "id": "A10",
+      "instructions": "Löse das Partizipialattribut in einen Relativsatz auf. Schreib den ganzen Relativsatz (Nomen + Komma + Relativsatz). 5 Items.",
+      "title": "Erweitertes Partizipialattribut → Relativsatz"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "weinendes"
+              },
+              {
+                "key": "b",
+                "text": "weinende"
+              }
+            ],
+            "q": "Ich sah ein ____ Kind. (weinen, Akk. n)",
+            "why": "Unbestimmter Artikel, Neutrum, Akkusativ → -es: ein weinendes Kind."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "gestiegene"
+              },
+              {
+                "key": "b",
+                "text": "gestiegenen"
+              }
+            ],
+            "q": "Wir sprachen über die ____ Preise. (steigen, Akk. Pl.)",
+            "why": "Plural → -en: die gestiegenen Preise."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "bellender"
+              },
+              {
+                "key": "b",
+                "text": "bellende"
+              }
+            ],
+            "q": "Ein ____ Hund störte uns. (bellen, Nom. m)",
+            "why": "Unbestimmter Artikel, maskulin, Nominativ → -er: ein bellender Hund."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "verkauften"
+              },
+              {
+                "key": "b",
+                "text": "verkaufte"
+              }
+            ],
+            "q": "Die Galerie zeigt die ____ Werke. (verkaufen, Akk. Pl.)",
+            "why": "Plural → -en: die verkauften Werke."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "schreiende"
+              },
+              {
+                "key": "b",
+                "text": "schreienden"
+              }
+            ],
+            "q": "Sie half dem ____ Baby. (schreien, Dativ n)",
+            "why": "Dativ → -en: dem schreienden Baby."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A11",
+      "instructions": "Wähle die korrekte Adjektivendung am Partizip. 5 Items.",
+      "title": "Welche Endung ist richtig?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "renovierte"
+          ],
+          "2": [
+            "eröffnete"
+          ],
+          "3": [
+            "entstandenen"
+          ],
+          "4": [
+            "spielenden"
+          ],
+          "5": [
+            "restaurierte"
+          ],
+          "6": [
+            "verstorbene"
+          ],
+          "7": [
+            "steigenden"
+          ],
+          "8": [
+            "gekauften"
+          ]
+        },
+        "bank": [
+          "renovierte",
+          "eröffnete",
+          "entstandenen",
+          "spielenden",
+          "restaurierte",
+          "verstorbene",
+          "steigenden",
+          "gekauften",
+          "lachende",
+          "gegründete",
+          "gekochte",
+          "schlafende"
+        ],
+        "text": "Die {1} Stadtgalerie zeigt eine besondere Sammlung. Die {2}\nSonderausstellung im Erdgeschoss präsentiert vor allem im 19. Jahrhundert\n{3} Gemälde. Im ersten Stock hängt ein berühmtes Bild mit {4}\nKindern. Die {5} Skulptur im Innenhof ist erst ab morgen wieder zu sehen.\nDer 2018 {6} Maler hat viele dieser Werke geschaffen. Wegen der seit Jahren\n{7} Nachfrage wurde die Galerie erweitert. Besucher mit einem heute {8}\nTicket dürfen morgen kostenlos wiederkommen.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit dem passenden Partizipialattribut (richtige Form). Vier Wörter bleiben übrig.",
+      "title": "Museumsbroschüre ergänzen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die gegründete Firma"
+          },
+          {
+            "key": "2",
+            "text": "die steigende Nachfrage"
+          },
+          {
+            "key": "3",
+            "text": "der angekommene Zug"
+          },
+          {
+            "key": "4",
+            "text": "die eröffnete Ausstellung"
+          },
+          {
+            "key": "5",
+            "text": "die spielenden Kinder"
+          },
+          {
+            "key": "6",
+            "text": "das gekochte Ei"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die Firma, die gegründet wurde"
+          },
+          {
+            "key": "b",
+            "text": "die Nachfrage, die steigt"
+          },
+          {
+            "key": "c",
+            "text": "der Zug, der angekommen ist"
+          },
+          {
+            "key": "d",
+            "text": "die Ausstellung, die eröffnet wurde"
+          },
+          {
+            "key": "e",
+            "text": "die Kinder, die spielen"
+          },
+          {
+            "key": "f",
+            "text": "das Ei, das gekocht wurde"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B3",
+      "instructions": "Ordne jedem Partizipialattribut (1–6) den passenden Relativsatz (a–f) zu.",
+      "title": "Partizipialattribut und Relativsatz verbinden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "die im Mai eröffnete Ausstellung zieht viele Besucher an",
+            "tiles": [
+              "die",
+              "im Mai",
+              "eröffnete",
+              "Ausstellung",
+              "zieht",
+              "viele",
+              "Besucher",
+              "an"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "wir bewunderten das 1872 gemalte Bild",
+            "tiles": [
+              "wir",
+              "bewunderten",
+              "das",
+              "1872",
+              "gemalte",
+              "Bild"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              6,
+              2,
+              1,
+              3,
+              4,
+              5
+            ],
+            "note": "der 2018 verstorbene Maler schuf viele Werke",
+            "tiles": [
+              "der",
+              "Maler",
+              "verstorbene",
+              "schuf",
+              "viele",
+              "Werke",
+              "2018"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "ich sah ein weinendes Kind",
+            "tiles": [
+              "ich",
+              "sah",
+              "ein",
+              "weinendes",
+              "Kind"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B4",
+      "instructions": "Ordne die Kacheln in die richtige Reihenfolge.",
+      "title": "Satzbau mit Partizipialattribut"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "steigenden"
+          ],
+          "2": [
+            "gegründete"
+          ],
+          "3": [
+            "spielende"
+          ],
+          "4": [
+            "renovierte"
+          ],
+          "5": [
+            "angekommene"
+          ],
+          "6": [
+            "geschriebenen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die seit Jahren {1} (steigen) Mieten sind ein Problem. (aktiv)\n2. Die im Jahr 1990 {2} (gründen) Firma feiert Jubiläum. (passiv)\n3. Auf dem Bild sieht man {3} (spielen) Kinder. (aktiv)\n4. Die gerade {4} (renovieren) Galerie öffnet wieder. (passiv)\n5. Der gestern {5} (ankommen) Brief liegt auf dem Tisch. (sein-Verb)\n6. Wir lasen den im Mai {6} (schreiben) Bericht. (passiv)\n",
+        "type": "gap-text"
+      },
+      "id": "B5",
+      "instructions": "Setz das passende Partizip (mit Endung) ein. Frag: aktiv (P I) oder passiv/abgeschlossen (P II)? 6 Items.",
+      "title": "Partizip I oder Partizip II im Kontext"
+    },
+    {
+      "block": "B",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "lachend",
+              "kochend",
+              "gegründet",
+              "steigend"
+            ],
+            "odd": 2,
+            "why": "gegründet ist Partizip II (passiv); die anderen sind Partizip I (aktiv)."
+          },
+          {
+            "items": [
+              "gekocht",
+              "eröffnet",
+              "renoviert",
+              "wachsend"
+            ],
+            "odd": 3,
+            "why": "wachsend ist Partizip I (aktiv); die anderen sind Partizip II (passiv)."
+          },
+          {
+            "items": [
+              "angekommen",
+              "entstanden",
+              "verstorben",
+              "gemalt"
+            ],
+            "odd": 3,
+            "why": "gemalt bildet das Perfekt mit haben (passives Attribut); die anderen sind sein-Verben (aktiv-abgeschlossen)."
+          },
+          {
+            "items": [
+              "die Ausstellung",
+              "das Gemälde",
+              "die Galerie",
+              "die Forschung"
+            ],
+            "odd": 3,
+            "why": "die Forschung gehört zum Wissenschaftswortschatz; die anderen gehören ins Museum."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "B8",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum.",
+      "title": "Was passt nicht?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "eröffnete"
+          ],
+          "2": [
+            "entstandenen"
+          ],
+          "3": [
+            "spielende"
+          ],
+          "4": [
+            "schlafenden"
+          ],
+          "5": [
+            "steigende"
+          ],
+          "6": [
+            "restaurierte"
+          ],
+          "7": [
+            "verstorbene"
+          ],
+          "8": [
+            "gekauften"
+          ],
+          "9": [
+            "geschriebenen"
+          ],
+          "10": [
+            "wachsenden"
+          ]
+        },
+        "listLayout": true,
+        "text": "Die im vergangenen Jahr (1) {1} (eröffnen) Stadtgalerie ist ein Erfolg. Sie zeigt\nvor allem die im 19. Jahrhundert (2) {2} (entstehen) Gemälde. Auf einem berühmten\nBild sieht man (3) {3} (spielen) Kinder und einen (4) {4} (schlafen) Hund. Die\nseit Jahren (5) {5} (steigen) Nachfrage führte zu einem Umbau. Die gerade (6) {6}\n(restaurieren) Skulptur im Innenhof zieht viele Besucher an. Der 2018 (7) {7}\n(versterben) Künstler schuf viele dieser Werke. Besucher mit einem heute (8) {8}\n(kaufen) Ticket dürfen morgen wiederkommen. Wir lasen den im Mai (9) {9}\n(schreiben) Bericht über die (10) {10} (wachsen) Besucherzahlen.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Fülle jede Lücke mit der richtigen Partizipform (mit Endung). 10 Items.",
+      "title": "Lückentext: Partizipialattribute im Sachtext"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "eröffnende"
+              },
+              {
+                "key": "b",
+                "text": "eröffnete"
+              },
+              {
+                "key": "c",
+                "text": "eröffnet"
+              }
+            ],
+            "q": "Die im Mai (1) ____ Ausstellung war ein Erfolg.",
+            "why": "Sie wurde eröffnet → passiv → Partizip II mit Endung -e: die eröffnete Ausstellung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "spielenden"
+              },
+              {
+                "key": "b",
+                "text": "gespielten"
+              },
+              {
+                "key": "c",
+                "text": "spielende"
+              }
+            ],
+            "q": "Auf dem Bild sieht man die (2) ____ Kinder.",
+            "why": "Die Kinder spielen selbst (aktiv → P I), Plural → -en: die spielenden Kinder."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "gestiegene"
+              },
+              {
+                "key": "b",
+                "text": "steigende"
+              },
+              {
+                "key": "c",
+                "text": "steigend"
+              }
+            ],
+            "q": "Die seit Jahren (3) ____ Nachfrage ist hoch.",
+            "why": "Aktiv, gerade ablaufend → Partizip I mit Endung: die steigende Nachfrage."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "malende"
+              },
+              {
+                "key": "b",
+                "text": "gemalte"
+              },
+              {
+                "key": "c",
+                "text": "gemalt"
+              }
+            ],
+            "q": "Wir bewunderten das 1872 (4) ____ Bild.",
+            "why": "Das Bild wurde gemalt → passiv → Partizip II mit Endung -e: das gemalte Bild."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ankommende"
+              },
+              {
+                "key": "b",
+                "text": "angekommene"
+              },
+              {
+                "key": "c",
+                "text": "angekommen"
+              }
+            ],
+            "q": "Der gestern (5) ____ Brief liegt hier.",
+            "why": "„sein\"-Perfekt, abgeschlossen → Partizip II mit Endung: der angekommene Brief."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "weinende"
+              },
+              {
+                "key": "b",
+                "text": "geweinte"
+              },
+              {
+                "key": "c",
+                "text": "weinenden"
+              }
+            ],
+            "q": "Sie half dem (6) ____ Baby.",
+            "why": "Aktiv → P I; Dativ → Endung -en: dem weinenden Baby."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle die richtige Option (a, b oder c) für jede Lücke.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "RENOVIERTE"
+          ],
+          "2": [
+            "ENTSTANDENEN"
+          ],
+          "3": [
+            "SPIELENDEN"
+          ],
+          "4": [
+            "SCHLAFENDEN"
+          ],
+          "5": [
+            "STEIGENDEN"
+          ],
+          "6": [
+            "RESTAURIERTE"
+          ],
+          "7": [
+            "VERSTORBENE"
+          ],
+          "8": [
+            "GEKAUFTEN"
+          ],
+          "9": [
+            "GESCHRIEBENE"
+          ],
+          "10": [
+            "WACHSENDEN"
+          ]
+        },
+        "bank": [
+          "RENOVIERTE",
+          "ENTSTANDENEN",
+          "SPIELENDEN",
+          "SCHLAFENDEN",
+          "STEIGENDEN",
+          "RESTAURIERTE",
+          "VERSTORBENE",
+          "GEKAUFTEN",
+          "GESCHRIEBENE",
+          "WACHSENDEN",
+          "GEKOCHTE",
+          "FLIEGENDE",
+          "BEDECKTE",
+          "EROEFFNENDE",
+          "ANGERECHNETE"
+        ],
+        "text": "Die im letzten Jahr {1} Stadtgalerie zeigt eine Sammlung von im 19. Jahrhundert\n{2} Werken. Im ersten Saal hängt ein Bild mit {3} Kindern und einem {4}\nHund. Wegen der seit Jahren {5} Nachfrage wurde das Haus umgebaut. Die gerade\n{6} Skulptur im Hof ist ein Höhepunkt. Der 2018 {7} Maler schuf viele dieser\nWerke. Besucher mit einem heute {8} Ticket kommen morgen kostenlos wieder. Der\nim Mai {9} Bericht lobt die {10} Besucherzahlen des Museums.\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Fünf Wörter bleiben übrig. Jedes Wort wird höchstens einmal benutzt.",
+      "title": "Sprachbausteine Teil 2 (Wortbank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Ein Partizipialattribut spart laut Text Platz.",
+            "why": "„Ein Partizipialattribut spart Platz\"."
+          },
+          {
+            "answer": true,
+            "q": "Für Journalisten ist der Stil ein Werkzeug.",
+            "why": "„für Journalisten ist es ein Werkzeug\"."
+          },
+          {
+            "answer": false,
+            "q": "Lange Partizipialkonstruktionen sind laut Text besonders leicht zu lesen.",
+            "why": "„Die langen … Konstruktionen sind schwer zu lesen\"."
+          },
+          {
+            "answer": true,
+            "q": "Sprachkritiker nennen den Stil spöttisch „Schachtelsatz-Deutsch\".",
+            "why": "„nennen das spöttisch das Schachtelsatz-Deutsch\"."
+          },
+          {
+            "answer": false,
+            "q": "Der Text empfiehlt, nur noch Partizipialattribute zu benutzen.",
+            "why": "„Ein guter Text mischt … Partizipialattribute … Relativsätze\"."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Wer eine deutsche Zeitung aufschlägt, trifft schnell auf Sätze wie diesen: „Die im vergangenen Jahr eröffnete und von Kritikern hoch gelobte Ausstellung zieht weiter viele Besucher an.\" Vor dem eigentlichen Subjekt — der Ausstellung — steht ein ganzer Block aus Partizipien und Ergänzungen. Für Lernende wirkt das wie ein Rätsel, für Journalisten ist es ein Werkzeug.\n> Der Grund ist einfach: Ein Partizipialattribut **spart Platz**. Statt zweier Relativsätze („die Ausstellung, die eröffnet wurde, und die gelobt wurde\") steht alles kompakt vor dem Nomen. Eine Zeitung hat wenig Raum und will viele Informationen unterbringen — das **vor dem Nomen gestapelte** Partizip ist dafür ideal. Außerdem klingt es sachlich und seriös.\n> Doch dieser Stil hat einen Preis. Die langen, vor dem Nomen **stehenden** Konstruktionen sind schwer zu lesen, weil der Leser bis zum Ende warten muss, um das eigentliche Nomen zu finden. Manche Sprachkritiker nennen das spöttisch das „Schachtelsatz-Deutsch\". Ein guter Text **mischt** deshalb: kurze Partizipialattribute für einfache Fakten, ausgeschriebene Relativsätze für komplexe Aussagen. Wer beides beherrscht, liest jeden Sachtext mühelos — und schreibt selbst klar.\n\nRichtig (R) oder falsch (F)?\n",
+      "title": "Lesen Text 1 (Lesetext §7)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Im Frühjahr 2025."
+              },
+              {
+                "key": "b",
+                "text": "Im Sommer 2024."
+              },
+              {
+                "key": "c",
+                "text": "Im Winter 2025."
+              }
+            ],
+            "q": "Wann wurde die Sonderausstellung eröffnet?",
+            "why": "„Die im Frühjahr 2025 eröffnete … Sonderausstellung\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Moderne Fotografien."
+              },
+              {
+                "key": "b",
+                "text": "Die im 19. Jahrhundert entstandenen Landschaftsbilder."
+              },
+              {
+                "key": "c",
+                "text": "Porträts des 20. Jahrhunderts."
+              }
+            ],
+            "q": "Welche Bilder werden vor allem gezeigt?",
+            "why": "„Gezeigt werden vor allem die im 19. Jahrhundert entstandenen Landschaftsbilder\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wegen technischer Probleme."
+              },
+              {
+                "key": "b",
+                "text": "Wegen der stark gestiegenen Nachfrage."
+              },
+              {
+                "key": "c",
+                "text": "Wegen einer Renovierung."
+              }
+            ],
+            "q": "Warum wurde die Laufzeit verlängert?",
+            "why": "„Wegen der stark gestiegenen Nachfrage wurde die Laufzeit … verlängert\"."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es muss neu gekauft werden."
+              },
+              {
+                "key": "b",
+                "text": "Es ist nicht mehr gültig."
+              },
+              {
+                "key": "c",
+                "text": "Der Eintritt bleibt gültig."
+              }
+            ],
+            "q": "Was gilt für ein bereits gekauftes Online-Ticket?",
+            "why": "„Der Eintritt für das bereits gekaufte Online-Ticket bleibt gültig\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Lies die folgende Pressemitteilung und wähle a, b oder c.\n\n> Die im Frühjahr 2025 eröffnete und von Kritikern gelobte Sonderausstellung „Licht\n> und Farbe\" hat über 50 000 Besucher angezogen. Gezeigt werden vor allem die im\n> 19. Jahrhundert entstandenen Landschaftsbilder. Wegen der stark gestiegenen\n> Nachfrage wurde die Laufzeit um zwei Monate verlängert. Die kürzlich restaurierten\n> Skulpturen im Innenhof sind ab Juni zusätzlich zu sehen. Der Eintritt für das\n> bereits gekaufte Online-Ticket bleibt gültig.\n",
+      "title": "Lesen Text 2 (neue Pressemitteilung)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "lachend"
+          ],
+          "2": [
+            "gegründet"
+          ],
+          "3": [
+            "entstanden"
+          ],
+          "4": [
+            "lachende"
+          ],
+          "5": [
+            "gegründete"
+          ],
+          "6": [
+            "er"
+          ],
+          "7": [
+            "en"
+          ],
+          "8": [
+            "mit der"
+          ],
+          "9": [
+            "wird"
+          ],
+          "10": [
+            "geschrieben"
+          ],
+          "11": [
+            "e"
+          ],
+          "12": [
+            "Prüfung"
+          ],
+          "13": [
+            "die im Mai eröffnet wurde"
+          ],
+          "14": [
+            "passiv"
+          ],
+          "15": [
+            "aktiv"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Partizip I von lachen: {1}\n2. Partizip II von gründen: {2}\n3. Partizip II von entstehen: {3}\n4. „das Kind, das lacht\" als Attribut: das {4} Kind\n5. „die Firma, die gegründet wurde\" als Attribut: die {5} Firma\n6. Endung: ein schlafend{6} Hund (Nom. m)\n7. Endung: die steigend{7} Preise (Nom. Pl.)\n8. (B1/05) Relativpronomen: „Das ist die App, {8} man Scooter findet.\" (mit + Dativ f)\n9. (B1/04) Passiv Präsens: „Der Antrag {9} (prüfen) jetzt.\" (wird/werden)\n10. (B1/04) Partizip II von schreiben: {10}\n11. (A2/08) Endung: das groß{11} Haus (Nom. n, best. Art.)\n12. (B2/01) Nominalisierung von prüfen: die {12}\n13. „die im Mai eröffnete Ausstellung\" → Relativsatz: die Ausstellung, {13}\n14. Aktiv oder passiv? „die gekochte Suppe\" → {14}\n15. Aktiv oder passiv? „die kochende Suppe\" → {15}\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Eine Minute pro Item. Keine Notizen. Items mit (L<n>) wiederholen eine frühere Lektion. 15 Items.",
+      "title": "Gemischter Schnelltest"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "lachend",
+              "kochend",
+              "spielend",
+              "gegründet"
+            ],
+            "odd": 3,
+            "why": "gegründet ist Partizip II (passiv); die anderen sind Partizip I (aktiv)."
+          },
+          {
+            "items": [
+              "gekocht",
+              "eröffnet",
+              "renoviert",
+              "steigend"
+            ],
+            "odd": 3,
+            "why": "steigend ist Partizip I (aktiv); die anderen sind Partizip II (passiv)."
+          },
+          {
+            "items": [
+              "angekommen",
+              "entstanden",
+              "verstorben",
+              "gemalt"
+            ],
+            "odd": 3,
+            "why": "gemalt bildet das Perfekt mit haben; die anderen sind sein-Verben."
+          },
+          {
+            "items": [
+              "die Ausstellung",
+              "das Gemälde",
+              "die Galerie",
+              "der Bescheid"
+            ],
+            "odd": 3,
+            "why": "der Bescheid gehört zur Behördensprache (B2/01); die anderen ins Museum."
+          },
+          {
+            "items": [
+              "-e",
+              "-en",
+              "-er",
+              "-ung"
+            ],
+            "odd": 3,
+            "why": "-ung ist eine Nominalendung; die anderen sind Adjektiv-/Partizipendungen."
+          },
+          {
+            "items": [
+              "Partizip I",
+              "aktiv",
+              "gleichzeitig",
+              "passiv"
+            ],
+            "odd": 3,
+            "why": "passiv beschreibt Partizip II; die anderen gehören zu Partizip I."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum. 6 Gruppen.",
+      "title": "Odd one out"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "der"
+          ],
+          "2": [
+            "mit der"
+          ],
+          "3": [
+            "auf das"
+          ],
+          "4": [
+            "werden"
+          ],
+          "5": [
+            "eröffnet"
+          ],
+          "6": [
+            "gemalt"
+          ],
+          "7": [
+            "e"
+          ],
+          "8": [
+            "es"
+          ],
+          "9": [
+            "en"
+          ],
+          "10": [
+            "en"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Aus B1/05 (Relativsätze):**\n1. „Das ist der Mann, {1} dort steht.\" (Nom. m)\n2. „Das ist die App, {2} man Scooter findet.\" (mit + Dativ f)\n3. „Das ist das Ergebnis, {3} wir stolz sind.\" (auf + Akk. n)\n\n**Aus B1/04 (Passiv & Partizip II):**\n4. Passiv Präsens: „Die Werke {4} (zeigen) im Museum.\" (werden-Form)\n5. Partizip II von eröffnen: {5}\n6. Partizip II von malen: {6}\n\n**Aus A2/08 (Adjektivdeklination):**\n7. „der schön{7} Garten\" (Nom. m, best. Art.)\n8. „ein klein{8} Haus\" (Nom. n, unbest. Art.)\n9. „mit dem alt{9} Auto\" (Dativ n, best. Art.)\n10. „die groß{10} Häuser\" (Nom. Pl., best. Art.)\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Wiederholung früherer Lektionen. 10 Items.",
+      "title": "Rückblick: B1/05, B1/04, A2/08"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "kochend"
+          ],
+          "2": [
+            "gegründet"
+          ],
+          "3": [
+            "entstanden"
+          ],
+          "4": [
+            "kochende"
+          ],
+          "5": [
+            "gekochte"
+          ],
+          "6": [
+            "angekommene"
+          ],
+          "7": [
+            "er"
+          ],
+          "8": [
+            "en"
+          ],
+          "9": [
+            "en"
+          ],
+          "10": [
+            "die 1990 gegründete Firma"
+          ],
+          "11": [
+            "die seit Jahren steigende Nachfrage"
+          ],
+          "12": [
+            "die im Mai eröffnet wurde"
+          ],
+          "13": [
+            "die gerade vorbeifährt"
+          ],
+          "14": [
+            "passiv"
+          ],
+          "15": [
+            "aktiv"
+          ],
+          "16": [
+            "mit der"
+          ],
+          "17": [
+            "wird"
+          ],
+          "18": [
+            "e"
+          ],
+          "19": [
+            "Eröffnung"
+          ],
+          "20": [
+            "der 2018 verstorben ist"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Partizip bilden:**\n1. Partizip I von kochen: {1}\n2. Partizip II von gründen: {2}\n3. Partizip II von entstehen: {3}\n\n**Partizip I oder II als Attribut:**\n4. „die Suppe, die kocht\" → die {4} Suppe\n5. „das Ei, das gekocht wurde\" → das {5} Ei\n6. „der Zug, der angekommen ist\" → der {6} Zug\n\n**Endungen:**\n7. ein schlafend{7} Hund (Nom. m)\n8. die steigend{8} Preise (Akk. Pl.)\n9. mit dem gekocht{9} Ei (Dativ n)\n\n**Erweitertes Partizipialattribut (Relativsatz → Attribut):**\n10. die Firma, die 1990 gegründet wurde → {10}\n11. die Nachfrage, die seit Jahren steigt → {11}\n\n**Attribut → Relativsatz:**\n12. die im Mai eröffnete Ausstellung → die Ausstellung, {12}\n13. die gerade vorbeifahrende Straßenbahn → die Straßenbahn, {13}\n\n**Aktiv oder passiv?**\n14. „die gemalte Wand\" → {14}\n15. „die malende Künstlerin\" → {15}\n\n**Wiederholung:**\n16. (B1/05) „die App, {16} man fährt\" (mit + Dativ f)\n17. (B1/04) Passiv Präsens: „Das Bild {17} (zeigen).\" (wird/werden)\n18. (A2/08) „das groß{18} Haus\" (Nom. n, best. Art.)\n19. (B2/01) Nominalisierung von eröffnen: die {19}\n20. „der 2018 verstorbene Künstler\" → der Künstler, {20}\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (bewerte dich /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "b2-05",
+  "intro": "Blöcke: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Lösungen in solutions.md. Tipp: Verteile die Blöcke über mehrere Tage — H und A an Tag 1, B an Tag 2, C an Tag 3, D an Tag 4 nach einer Pause.\n",
+  "lesson": "B2/05",
+  "level": "B2",
+  "summary": null,
+  "title": "B2 · Lektion 5 — Übungen (Partizipien als Attribute)",
+  "topic": null
+}

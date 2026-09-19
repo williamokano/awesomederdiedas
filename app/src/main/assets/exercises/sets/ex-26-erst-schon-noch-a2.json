@@ -1,0 +1,748 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "schon"
+          ],
+          "2": [
+            "noch nicht"
+          ],
+          "3": [
+            "noch"
+          ],
+          "4": [
+            "nicht mehr"
+          ],
+          "5": [
+            "noch"
+          ],
+          "6": [
+            "noch"
+          ],
+          "7": [
+            "nicht mehr"
+          ],
+          "8": [
+            "schon"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. — Bist du fertig? — Ja, ich bin {1} fertig.\n2. — Bist du fertig? — Nein, {2}.\n3. Es ist spät, aber die Kinder schlafen {3} nicht.\n4. Früher habe ich geraucht, aber jetzt rauche ich {4}.\n5. — Hast du das Buch gelesen? — Nein, ich habe es {5} nicht gelesen.\n6. Wir müssen uns beeilen, wir haben {6} zehn Minuten.\n7. Meine Oma wohnt {7} in ihrem Haus, sie ist in ein Heim gezogen.\n8. — Hast du {8} gegessen? — Ja, vor einer Stunde.\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Ergänze schon, noch, noch nicht oder nicht mehr.",
+      "instructionsEn": "Fill in schon, noch, noch nicht, or nicht mehr.",
+      "title": "schon, noch, noch nicht oder nicht mehr?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "a",
+          "3": "c",
+          "4": "d"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Ist der Bus schon weg?"
+          },
+          {
+            "key": "2",
+            "text": "Arbeitest du noch bei der Firma Meyer?"
+          },
+          {
+            "key": "3",
+            "text": "Habt ihr schon bestellt?"
+          },
+          {
+            "key": "4",
+            "text": "Ist noch Milch da?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Nein, ich bin letztes Jahr gewechselt. Da arbeite ich nicht mehr."
+          },
+          {
+            "key": "b",
+            "text": "Ja, er ist gerade abgefahren."
+          },
+          {
+            "key": "c",
+            "text": "Nein, noch nicht. Die Kellnerin kommt gleich."
+          },
+          {
+            "key": "d",
+            "text": "Nein, die ist leider alle. Wir haben keine mehr."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jeder Frage die passende Antwort zu.",
+      "instructionsEn": "Match each question to the fitting answer.",
+      "title": "Frage und Antwort"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "schon"
+          ],
+          "2": [
+            "erst"
+          ],
+          "3": [
+            "erst"
+          ],
+          "4": [
+            "schon"
+          ],
+          "5": [
+            "schon"
+          ],
+          "6": [
+            "erst"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Steh auf! Es ist {1} zehn Uhr, du verschläfst!\n2. Warum bist du schon wach? Es ist doch {2} sechs Uhr.\n3. Ich lerne {3} seit zwei Monaten Deutsch, mehr nicht.\n4. Er ist {4} sein ganzes Leben in dieser Stadt.\n5. Der Film hat {5} angefangen, wir sind zu spät.\n6. Wart noch, der Film fängt {6} um acht an.\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze schon (viel / spät / mehr als erwartet) oder erst (wenig / früh / weniger als erwartet).",
+      "instructionsEn": "Fill in schon (a lot / late / more than expected) or erst (little / early / less than expected).",
+      "title": "schon oder erst?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "noch"
+          ],
+          "2": [
+            "schon"
+          ],
+          "3": [
+            "noch"
+          ],
+          "4": [
+            "schon"
+          ],
+          "5": [
+            "nicht mehr"
+          ],
+          "6": [
+            "noch"
+          ],
+          "7": [
+            "noch"
+          ],
+          "8": [
+            "erst"
+          ]
+        },
+        "bank": [
+          "noch",
+          "schon",
+          "noch",
+          "schon",
+          "nicht mehr",
+          "noch",
+          "noch",
+          "erst",
+          "kein",
+          "nicht"
+        ],
+        "text": "Es ist sieben Uhr. Mein Mann schläft {1}, aber ich bin {2} wach.\nDer Wecker klingelt {3} nicht, ich wache oft zu früh auf. In der\nKüche ist {4} Kaffee da — mein Sohn hat welchen gemacht. Milch\nhaben wir leider {5}, ich muss einkaufen. Mein Sohn wohnt {6}\nzu Hause, aber im Herbst zieht er aus. Ich habe {7} zehn Minuten,\ndann muss ich los. Der Supermarkt macht {8} um acht auf, jetzt\nstehen wir noch vor verschlossener Tür.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter bleiben übrig.",
+      "instructionsEn": "Fill the 8 gaps with the words from the box. Two words are left over.",
+      "title": "Lückentext: Am Morgen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "schon"
+              },
+              {
+                "key": "b",
+                "text": "noch nicht"
+              },
+              {
+                "key": "c",
+                "text": "nicht mehr"
+              }
+            ],
+            "q": "— Hast du den Bericht fertig? — Nein, ___.",
+            "why": "Gegenteil von schon (fertig) → noch nicht."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "schon"
+              },
+              {
+                "key": "b",
+                "text": "nicht mehr"
+              },
+              {
+                "key": "c",
+                "text": "erst"
+              }
+            ],
+            "q": "Wir haben Zeit, der Zug fährt ___ um Viertel nach.",
+            "why": "später als jetzt, du hast noch Zeit → erst."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "schon"
+              },
+              {
+                "key": "b",
+                "text": "erst"
+              },
+              {
+                "key": "c",
+                "text": "noch nicht"
+              }
+            ],
+            "q": "Beeil dich, es ist ___ acht Uhr und der Termin ist um acht!",
+            "why": "später / knapp als gedacht → schon."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "noch nicht"
+              },
+              {
+                "key": "b",
+                "text": "schon"
+              },
+              {
+                "key": "c",
+                "text": "nicht mehr"
+              }
+            ],
+            "q": "— Wohnt Familie Kern noch nebenan? — Nein, sie sind weggezogen, sie wohnen ___ hier.",
+            "why": "Gegenteil von noch (wohnen) → nicht mehr."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "erst"
+              },
+              {
+                "key": "b",
+                "text": "schon"
+              },
+              {
+                "key": "c",
+                "text": "nicht mehr"
+              }
+            ],
+            "q": "Ich kann noch nicht gut Deutsch, ich bin ___ zwei Wochen im Kurs.",
+            "why": "nur so kurz → erst."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "schon"
+              },
+              {
+                "key": "b",
+                "text": "noch"
+              },
+              {
+                "key": "c",
+                "text": "nicht mehr"
+              }
+            ],
+            "q": "— Schläfst du ___? — Ja, weck mich bitte nicht.",
+            "why": "Der Zustand dauert an → noch."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "schon"
+              },
+              {
+                "key": "b",
+                "text": "erst"
+              },
+              {
+                "key": "c",
+                "text": "noch nicht"
+              }
+            ],
+            "q": "— Ist das Paket ___ angekommen? — Ja, heute Morgen.",
+            "why": "früher als erwartet / bereits passiert → schon."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "noch"
+              },
+              {
+                "key": "b",
+                "text": "keinen … mehr"
+              },
+              {
+                "key": "c",
+                "text": "schon"
+              }
+            ],
+            "q": "Ich habe ___ Hunger, ich habe gerade gegessen.",
+            "why": "Gegenteil von noch Hunger → keinen Hunger mehr."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Lösung (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Welches Wort passt?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "erst"
+              },
+              {
+                "key": "b",
+                "text": "nicht mehr"
+              },
+              {
+                "key": "c",
+                "text": "schon"
+              }
+            ],
+            "q": "— Bist du ___ zu Hause? — Nein, ich bin noch im Büro.",
+            "why": "Frage, ob es früher als gedacht passiert ist → schon."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "schon"
+              },
+              {
+                "key": "b",
+                "text": "noch"
+              },
+              {
+                "key": "c",
+                "text": "nicht mehr"
+              }
+            ],
+            "q": "Ich bleibe ___ eine Stunde, dann fahre ich nach Hause.",
+            "why": "Der Zustand dauert noch an → noch."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "erst … schon"
+              },
+              {
+                "key": "b",
+                "text": "noch … nicht mehr"
+              },
+              {
+                "key": "c",
+                "text": "schon … noch nicht"
+              }
+            ],
+            "q": "— Hast du ___ gegessen? — Nein, ___.",
+            "why": "schon in der Frage, noch nicht als verneinende Antwort."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "erst"
+              },
+              {
+                "key": "b",
+                "text": "schon"
+              },
+              {
+                "key": "c",
+                "text": "nicht mehr"
+              }
+            ],
+            "q": "Es ist ___ sechs Uhr, der Laden macht erst um neun auf.",
+            "why": "früh, weniger als du dachtest → erst."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "noch"
+              },
+              {
+                "key": "b",
+                "text": "schon"
+              },
+              {
+                "key": "c",
+                "text": "nicht mehr"
+              }
+            ],
+            "q": "Meine Schwester raucht ___, sie hat vor einem Jahr aufgehört.",
+            "why": "Gegenteil von noch → nicht mehr."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "erst"
+              },
+              {
+                "key": "b",
+                "text": "schon"
+              },
+              {
+                "key": "c",
+                "text": "noch nicht"
+              }
+            ],
+            "q": "Wir kennen uns ___ lange, seit der Schule.",
+            "why": "eine lange Dauer betonen → schon."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "schon"
+              },
+              {
+                "key": "b",
+                "text": "nicht mehr"
+              },
+              {
+                "key": "c",
+                "text": "erst"
+              }
+            ],
+            "q": "— Ist der Kuchen ___ fertig? — Nein, er braucht noch 20 Minuten.",
+            "why": "Frage nach dem früheren Zeitpunkt → schon; Antwort mit noch."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "noch"
+              },
+              {
+                "key": "b",
+                "text": "kein … mehr"
+              },
+              {
+                "key": "c",
+                "text": "schon"
+              }
+            ],
+            "q": "Ich habe ___ Geld, ich muss zum Automaten.",
+            "why": "Das Geld ist zu Ende → kein Geld mehr."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle für jede Lücke die richtige Lösung (a, b oder c).",
+      "instructionsEn": "Choose the correct option for each gap (a, b, or c).",
+      "title": "Sprachbausteine Teil 1 — Ein Telefongespräch"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "schon"
+          ],
+          "2": [
+            "noch"
+          ],
+          "3": [
+            "erst"
+          ],
+          "4": [
+            "noch"
+          ],
+          "5": [
+            "nicht mehr"
+          ],
+          "6": [
+            "noch"
+          ],
+          "7": [
+            "schon"
+          ],
+          "8": [
+            "nicht mehr"
+          ],
+          "9": [
+            "noch nicht"
+          ],
+          "10": [
+            "erst"
+          ]
+        },
+        "bank": [
+          "schon",
+          "noch",
+          "erst",
+          "noch",
+          "nicht mehr",
+          "noch",
+          "schon",
+          "nicht mehr",
+          "noch nicht",
+          "erst",
+          "kein",
+          "nicht",
+          "schon"
+        ],
+        "text": "Wir ziehen um. Die halbe Wohnung ist {1} in Kartons, aber das\nSchlafzimmer ist {2} nicht gepackt. Der Transporter kommt {3} um\nelf, wir haben also {4} zwei Stunden Zeit. Strom haben wir {5},\ndie Firma hat ihn abgestellt. In der alten Küche steht {6} der\nalte Herd — den nimmt der Nachmieter. Ich wohne {7} zehn Jahre\nhier, das ist eine lange Zeit. Kaffee kann ich {8} kochen, die\nMaschine ist eingepackt. Die Nachbarn sind {9} wach, es ist\nSamstagmorgen. Der Hausmeister kommt {10} um zehn, so lange\nbleibt der Schlüssel bei mir.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fülle die 10 Lücken. Drei Wörter im Kasten bleiben übrig.",
+      "instructionsEn": "Fill the 10 gaps. Three words in the box are left over.",
+      "title": "Sprachbausteine Teil 2 — Umzug (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Der Zug ist schon abgefahren."
+          },
+          {
+            "key": "2",
+            "text": "Ich habe noch Hunger."
+          },
+          {
+            "key": "3",
+            "text": "Sie ist schon 18."
+          },
+          {
+            "key": "4",
+            "text": "Er wohnt noch bei den Eltern."
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Ich habe keinen Hunger mehr."
+          },
+          {
+            "key": "b",
+            "text": "Der Zug ist noch nicht abgefahren."
+          },
+          {
+            "key": "c",
+            "text": "Er wohnt nicht mehr bei den Eltern."
+          },
+          {
+            "key": "d",
+            "text": "Sie ist erst 18."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "D1",
+      "instructions": "Ordne jedem Satz den Satz mit der gegenteiligen Bedeutung zu.",
+      "instructionsEn": "Match each sentence to the one with the opposite meaning.",
+      "title": "Wiederholung: Gegenteile"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "schon"
+              },
+              {
+                "key": "b",
+                "text": "erst"
+              },
+              {
+                "key": "c",
+                "text": "noch"
+              }
+            ],
+            "q": "— Ist Herr Klein ___ im Haus? — Nein, er ist schon nach Hause gegangen.",
+            "why": "Frage nach dem andauernden Zustand → noch."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "erst"
+              },
+              {
+                "key": "b",
+                "text": "schon"
+              },
+              {
+                "key": "c",
+                "text": "nicht mehr"
+              }
+            ],
+            "q": "Ich bin ___ seit gestern hier, ich kenne die Stadt noch gar nicht.",
+            "why": "nur so kurz → erst."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "noch nicht"
+              },
+              {
+                "key": "b",
+                "text": "erst"
+              },
+              {
+                "key": "c",
+                "text": "schon"
+              }
+            ],
+            "q": "— Hast du die Rechnung ___ bezahlt? — Ja, gestern.",
+            "why": "bereits erledigt → schon."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "kein … mehr"
+              },
+              {
+                "key": "b",
+                "text": "noch … nicht"
+              },
+              {
+                "key": "c",
+                "text": "schon … nicht"
+              }
+            ],
+            "q": "Früher hatte ich einen Hund, aber jetzt habe ich ___ Tier ___.",
+            "why": "Gegenteil von noch ein Tier → kein Tier mehr."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "erst"
+              },
+              {
+                "key": "b",
+                "text": "schon"
+              },
+              {
+                "key": "c",
+                "text": "noch nicht"
+              }
+            ],
+            "q": "Trödel nicht, es ist ___ Viertel vor neun!",
+            "why": "später als gedacht → schon."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Noch nicht"
+              },
+              {
+                "key": "b",
+                "text": "Schon"
+              },
+              {
+                "key": "c",
+                "text": "Nicht mehr"
+              }
+            ],
+            "q": "— Bist du fertig mit dem Test? — ___, ich brauche noch fünf Minuten.",
+            "why": "verneinende Antwort auf schon → Noch nicht."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Wähle die richtige Lösung (a, b oder c). Das ist dein Abschlusscheck für dieses Set.",
+      "instructionsEn": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-26-erst-schon-noch-a2",
+  "intro": "Kleine Wörter, große Wirkung. schon = früher als erwartet / bereits (Bist du schon fertig?). Das Gegenteil ist noch nicht (Nein, noch nicht.). noch = etwas dauert an (Er schläft noch.). Das Gegenteil ist nicht mehr / kein … mehr (Er schläft nicht mehr. / Ich habe keine Zeit mehr.). erst = später als erwartet oder nur so wenig (Es ist erst acht Uhr. / Ich bin erst seit einer Woche hier.). Merke das Gegensatzpaar: schon ↔ noch nicht und noch ↔ nicht mehr. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/26-erst-schon-noch-a2",
+  "level": "A2",
+  "summary": null,
+  "title": "schon, noch, noch nicht, nicht mehr, erst — A2",
+  "topic": "erst / schon / noch"
+}

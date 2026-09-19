@@ -1,0 +1,342 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "exam",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Etwa ein Drittel der Kinder in deutschen Großstädten wächst mehrsprachig auf.",
+            "why": "„Rund ein Drittel der Kinder in deutschen Großstädten wächst heute mit mehr als einer Sprache auf.\""
+          },
+          {
+            "answer": false,
+            "q": "Die Forschung sieht Mehrsprachigkeit heute überwiegend als Hindernis.",
+            "why": "„inzwischen hat sich die Forschung weitgehend von dieser Auffassung verabschiedet.\""
+          },
+          {
+            "answer": true,
+            "q": "Laut Dr. Mendes bewältigen mehrsprachige Kinder Aufgaben mit geistiger Flexibilität im Durchschnitt besser.",
+            "why": "„dass mehrsprachige Kinder Aufgaben, die geistige Flexibilität verlangen, im Durchschnitt besser bewältigten.\""
+          },
+          {
+            "answer": false,
+            "q": "Herkunftssprachen wie Türkisch oder Arabisch werden im deutschen Bildungssystem stark gefördert.",
+            "why": "„würden die Herkunftssprachen vieler Kinder … selten gefördert.\""
+          },
+          {
+            "answer": true,
+            "q": "Kritiker wenden ein, es fehle an qualifizierten Lehrkräften.",
+            "why": "„Kritiker wenden ein, die Schulen seien bereits überlastet und es fehle an qualifizierten Lehrkräften.\""
+          },
+          {
+            "answer": false,
+            "q": "Mendes ist überzeugt, dass sich der Aufwand langfristig nicht lohnt.",
+            "why": "„Mendes hält dem entgegen, dass sich der Aufwand langfristig auszahle.\""
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "exam-L5",
+      "instructions": "> **Mehrsprachigkeit als Chance — warum Deutschland umdenken sollte**\n>\n> *Berlin* — Rund ein Drittel der Kinder in deutschen Großstädten wächst heute mit mehr als einer Sprache auf. Lange galt diese Mehrsprachigkeit als Hindernis; inzwischen hat sich die Forschung weitgehend von dieser Auffassung verabschiedet. „Mehrsprachig aufzuwachsen ist kein Nachteil, sondern ein kognitiver Vorteil\", erklärt die Sprachwissenschaftlerin Dr. Carla Mendes. Studien deuteten darauf hin, dass mehrsprachige Kinder Aufgaben, die geistige Flexibilität verlangen, im Durchschnitt besser bewältigten.\n>\n> Dennoch werde dieses Potenzial im deutschen Bildungssystem bislang kaum genutzt. Während Englisch und Französisch als Schulfächer hohes Ansehen genießen, würden die Herkunftssprachen vieler Kinder — etwa Türkisch, Arabisch oder Polnisch — selten gefördert. „Wir verschenken eine Ressource\", so Mendes. Sie fordert, Herkunftssprachen stärker in den Unterricht einzubinden und zweisprachige Angebote auszubauen.\n>\n> Kritiker wenden ein, die Schulen seien bereits überlastet und es fehle an qualifizierten Lehrkräften. Mendes hält dem entgegen, dass sich der Aufwand langfristig auszahle: Wer seine Herkunftssprache schriftlich beherrsche, lerne auch das Deutsche und weitere Fremdsprachen leichter.\n\nRichtig (R) oder falsch (F)?\n",
+      "title": "Aufgabe 5 — Zeitungsartikel (Text 1): Richtig / Falsch"
+    },
+    {
+      "block": "exam",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie gilt heute als kognitiver Vorteil."
+              },
+              {
+                "key": "b",
+                "text": "Sie gilt heute als noch größeres Hindernis."
+              },
+              {
+                "key": "c",
+                "text": "Die Forschung hat dazu keine Meinung."
+              }
+            ],
+            "q": "Wie hat sich die Sicht der Forschung auf Mehrsprachigkeit verändert?",
+            "why": "„Mehrsprachig aufzuwachsen ist kein Nachteil, sondern ein kognitiver Vorteil.\""
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dass zu wenig Englisch unterrichtet wird."
+              },
+              {
+                "key": "b",
+                "text": "Dass die Herkunftssprachen vieler Kinder kaum gefördert werden."
+              },
+              {
+                "key": "c",
+                "text": "Dass es zu viele Schulfächer gibt."
+              }
+            ],
+            "q": "Was kritisiert Dr. Mendes am deutschen Bildungssystem?",
+            "why": "„würden die Herkunftssprachen vieler Kinder … selten gefördert. Wir verschenken eine Ressource.\""
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Herkunftssprachen stärker in den Unterricht einzubinden."
+              },
+              {
+                "key": "b",
+                "text": "Mehr Stunden Englischunterricht."
+              },
+              {
+                "key": "c",
+                "text": "Fremdsprachen ganz abzuschaffen."
+              }
+            ],
+            "q": "Was fordert Mendes konkret?",
+            "why": "„Sie fordert, Herkunftssprachen stärker in den Unterricht einzubinden …\""
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Mehrsprachigkeit schade den Kindern."
+              },
+              {
+                "key": "b",
+                "text": "Die Schulen seien überlastet und es fehle an Lehrkräften."
+              },
+              {
+                "key": "c",
+                "text": "Die Eltern seien dagegen."
+              }
+            ],
+            "q": "Welches Argument bringen die Kritiker vor?",
+            "why": "„die Schulen seien bereits überlastet und es fehle an qualifizierten Lehrkräften.\""
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er zahlt sich langfristig aus."
+              },
+              {
+                "key": "b",
+                "text": "Er ist reine Verschwendung."
+              },
+              {
+                "key": "c",
+                "text": "Er ist praktisch unmöglich."
+              }
+            ],
+            "q": "Wie bewertet Mendes den nötigen Aufwand?",
+            "why": "„dass sich der Aufwand langfristig auszahle.\""
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "exam-L6",
+      "instructions": "Beziehen Sie sich auf Text 1 (Aufgabe 5) und wählen Sie die richtige Antwort (a, b oder c).",
+      "title": "Aufgabe 6 — Zeitungsartikel (Text 1): Leseverstehen"
+    },
+    {
+      "block": "exam",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Beitrag 1 — Prof. A. Berger (Hochschullehrer)"
+          },
+          {
+            "key": "2",
+            "text": "Beitrag 2 — Mia_B (Studentin)"
+          },
+          {
+            "key": "3",
+            "text": "Beitrag 3 — Dr. Yusuf El-Sayed (Dozent)"
+          },
+          {
+            "key": "4",
+            "text": "Beitrag 4 — Tomáš_N (ausländischer Student)"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "A — Hält englischsprachige Studiengänge für unverzichtbar, weil Englisch die Sprache der Forschung ist."
+          },
+          {
+            "key": "b",
+            "text": "B — Versteht in der Muttersprache mehr Nuancen und wünscht sich einen Anteil deutscher Lehre."
+          },
+          {
+            "key": "c",
+            "text": "C — Plädiert für ein ausgewogenes Verhältnis von Deutsch und Englisch."
+          },
+          {
+            "key": "d",
+            "text": "D — Kam gerade wegen der deutschsprachigen Lehre zum Studium nach Deutschland."
+          },
+          {
+            "key": "e",
+            "text": "E — Fordert, Fremdsprachen an der Universität ganz abzuschaffen."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "exam-L7",
+      "instructions": "> **Thema: Sollte an Universitäten mehr auf Deutsch oder auf Englisch gelehrt werden?**\n>\n> **Beitrag 1 — Prof. A. Berger (Hochschullehrer):**\n> Englisch ist die Sprache der internationalen Forschung. Wer wissenschaftlich sichtbar sein will, muss auf Englisch publizieren. Deshalb halte ich englischsprachige Studiengänge für unverzichtbar — sie ziehen die besten Köpfe aus aller Welt an.\n>\n> **Beitrag 2 — Mia_B (Studentin):**\n> Mir fällt es in englischsprachigen Vorlesungen oft schwer, komplexe Inhalte wirklich zu durchdringen. In meiner Muttersprache verstehe ich Nuancen, die mir auf Englisch entgehen. Ein gewisser Anteil an Lehre auf Deutsch wäre mir wichtig.\n>\n> **Beitrag 3 — Dr. Yusuf El-Sayed (Dozent):**\n> Beide Seiten haben recht. Aus meiner Sicht braucht es ein ausgewogenes Verhältnis: Fachsprache auf Englisch dort, wo die internationale Anschlussfähigkeit zählt, und Deutsch dort, wo es um die Vermittlung im Land geht.\n>\n> **Beitrag 4 — Tomáš_N (ausländischer Student):**\n> Für mich als Studierenden aus dem Ausland war gerade die deutschsprachige Lehre der Grund, hierherzukommen. Ich wollte die Sprache im Fach lernen, nicht nur im Sprachkurs.\n\nWelche Aussage (a–e) passt zu welchem Forumsbeitrag (1–4)? Eine Aussage passt nicht.\n",
+      "title": "Aufgabe 7 — Forumsbeiträge zuordnen (Text 2)"
+    },
+    {
+      "block": "exam",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "ist"
+              },
+              {
+                "key": "b",
+                "text": "hat"
+              },
+              {
+                "key": "c",
+                "text": "wird"
+              }
+            ],
+            "q": "Eine Studie der Universität Wien _______ (1) der Frage nachgegangen, welchen Einfluss Vorlesen hat.",
+            "why": "„nachgehen\" bildet das Perfekt mit „sein\": „ist … nachgegangen\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "liegen"
+              },
+              {
+                "key": "b",
+                "text": "legen"
+              },
+              {
+                "key": "c",
+                "text": "stellen"
+              }
+            ],
+            "q": "Die Ergebnisse _______ (2) nahe, dass tägliches Vorlesen hilft.",
+            "why": "Funktionsverbgefüge „nahelegen\": „die Ergebnisse legen nahe\"."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "daran"
+              },
+              {
+                "key": "b",
+                "text": "darüber"
+              },
+              {
+                "key": "c",
+                "text": "darauf"
+              }
+            ],
+            "q": "Die Forschenden führen dies _______ (3) zurück, dass mehrere Fähigkeiten zugleich trainiert werden.",
+            "why": "„zurückführen auf + Akk.\" → Pronominaladverb „darauf\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "dürften"
+              },
+              {
+                "key": "b",
+                "text": "dürfen"
+              },
+              {
+                "key": "c",
+                "text": "durften"
+              }
+            ],
+            "q": "Die Befunde _______ (4) laut den Autoren nicht überbewertet werden.",
+            "why": "Konjunktiv II Plural („die Befunde\" → „dürften\") für Hedging; entspricht der Originalformulierung in Text 3."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ist"
+              },
+              {
+                "key": "b",
+                "text": "sei"
+              },
+              {
+                "key": "c",
+                "text": "wäre"
+              }
+            ],
+            "q": "Die Stichprobe _______ (5) klein gewesen, betonen die Autoren.",
+            "why": "Redewiedergabe → Konjunktiv I: „sei\"."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Indem"
+              },
+              {
+                "key": "b",
+                "text": "Deshalb weil"
+              },
+              {
+                "key": "c",
+                "text": "Gleichwohl"
+              }
+            ],
+            "q": "_______ (6) empfehlen die Autoren lautes Vorlesen als wirksame Übung.",
+            "why": "„Gleichwohl\" (= dennoch) leitet die Einräumung ein und steht auf Position 1 (Verb an Position 2)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "exam-L8",
+      "instructions": "> **Wie verändert das Vorlesen das Sprachgefühl?**\n>\n> Eine Studie der Universität Wien aus dem Jahr 2025 ist der Frage nachgegangen, welchen Einfluss regelmäßiges lautes Vorlesen auf das Sprachgefühl von Fremdsprachenlernenden hat. Untersucht wurden 90 Deutschlernende auf C1-Niveau über einen Zeitraum von zwölf Wochen.\n>\n> Die Ergebnisse legen nahe, dass diejenigen, die täglich zehn Minuten laut vorlasen, in Tests zur Wortstellung und zur Intonation deutlich besser abschnitten. Die Forschenden führen dies darauf zurück, dass beim Vorlesen Aussprache, Rhythmus und Satzbau zugleich trainiert werden.\n>\n> Die Autorinnen und Autoren betonen jedoch, die Befunde dürften nicht überbewertet werden: Die Stichprobe sei klein gewesen. Gleichwohl empfehlen sie lautes Vorlesen als einfache, wirksame Übung.\n\nWählen Sie für jede Lücke (1–6) die grammatisch richtige Variante (a, b oder c).\n",
+      "title": "Aufgabe 8 — Wissenschaftlicher Text (Text 3): Lücken ergänzen"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "c1-12",
+  "intro": "Vollständiger Modelltest im Format Goethe-Zertifikat C1 / telc Deutsch C1 Hochschule. Bearbeiten Sie den ganzen Test in einer Sitzung unter realistischen Bedingungen: Hören ca. 40 Min. · Lesen ca. 70 Min. · Schreiben ca. 80 Min. · Sprechen ca. 15 Min. Schauen Sie erst nach dem Abschluss aller Module in solutions.md.\n",
+  "lesson": "C1/12",
+  "level": "C1",
+  "summary": null,
+  "title": "C1 · Lektion 12 — Modelltest: Wiederholung & Prüfungstraining C1",
+  "topic": null
+}

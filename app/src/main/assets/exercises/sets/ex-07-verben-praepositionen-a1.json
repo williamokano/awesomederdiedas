@@ -1,0 +1,715 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "Fall",
+          "Beispiel"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Dativ"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "Ich helfe dem Mann."
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "helfen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Dativ"
+                ],
+                "gap": 3
+              },
+              {
+                "answer": [
+                  "Ich danke der Frau."
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "danken"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Dativ"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "Das gefällt mir."
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "gefallen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Dativ"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "Das gehört ihm."
+                ],
+                "gap": 8
+              }
+            ],
+            "label": "gehören"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Akkusativ"
+                ],
+                "gap": 9
+              },
+              {
+                "answer": [
+                  "Ich sehe den Mann."
+                ],
+                "gap": 10
+              }
+            ],
+            "label": "sehen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Akkusativ"
+                ],
+                "gap": 11
+              },
+              {
+                "answer": [
+                  "Ich kenne die Frau."
+                ],
+                "gap": 12
+              }
+            ],
+            "label": "kennen"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze den Fall und ein Beispiel.",
+      "instructionsEn": "Fill in the case and an example.",
+      "title": "Welcher Fall? Eine Verbliste"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "dem"
+          ],
+          "2": [
+            "der"
+          ],
+          "3": [
+            "dem"
+          ],
+          "4": [
+            "den"
+          ],
+          "5": [
+            "die"
+          ],
+          "6": [
+            "den"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich helfe {1} Lehrer.\n2. Wir danken {2} Lehrerin.\n3. Das Buch gehört {3} Kind.\n4. Ich sehe {4} Freund.\n5. Ich kenne {5} Freundin gut.\n6. Die Musik gefällt {6} Kindern.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze den richtigen Artikel.",
+      "instructionsEn": "Fill in the correct article — check which case the verb needs.",
+      "title": "Der richtige Artikel nach dem Verb"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "der"
+          ],
+          "2": [
+            "den"
+          ],
+          "3": [
+            "den"
+          ],
+          "4": [
+            "der"
+          ],
+          "5": [
+            "den"
+          ],
+          "6": [
+            "den"
+          ],
+          "7": [
+            "der"
+          ],
+          "8": [
+            "den"
+          ]
+        },
+        "bank": [
+          "der",
+          "den",
+          "den",
+          "der",
+          "den",
+          "den",
+          "der",
+          "den",
+          "dem",
+          "die"
+        ],
+        "text": "Familie Bauer zieht in eine neue Wohnung. Die Nachbarn helfen {1}\nFamilie beim Tragen der Kisten. Frau Bauer dankt {2} Nachbarn\nherzlich. Die neue Wohnung gefällt {3} Kindern sehr gut. Der\nBalkon gehört {4} Wohnung im dritten Stock. Herr Bauer kennt {5}\nHausmeister schon von früher. Die Kinder sehen {6} neuen\nSpielplatz vor dem Haus. Die Farbe der Wände gefällt {7} Mutter\nbesonders gut. Am Ende dankt die Familie {8} Umzugshelfern für\ndie Hilfe.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Familie Bauer zieht um"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "meinen Bruder"
+              },
+              {
+                "key": "b",
+                "text": "meinem Bruder"
+              },
+              {
+                "key": "c",
+                "text": "mein Bruder"
+              }
+            ],
+            "q": "Ich helfe ___.",
+            "why": "helfen + Dativ → meinem Bruder."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "meinen Bruder"
+              },
+              {
+                "key": "b",
+                "text": "meinem Bruder"
+              },
+              {
+                "key": "c",
+                "text": "mein Bruder"
+              }
+            ],
+            "q": "Ich sehe ___.",
+            "why": "sehen + Akkusativ → meinen Bruder."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "meine Schwester"
+              },
+              {
+                "key": "b",
+                "text": "meiner Schwester"
+              },
+              {
+                "key": "c",
+                "text": "meinen Schwester"
+              }
+            ],
+            "q": "Das Auto gehört ___.",
+            "why": "gehören + Dativ → meiner Schwester."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "meine Schwester"
+              },
+              {
+                "key": "b",
+                "text": "meiner Schwester"
+              },
+              {
+                "key": "c",
+                "text": "meinen Schwester"
+              }
+            ],
+            "q": "Ich kenne ___ gut.",
+            "why": "kennen + Akkusativ → meine Schwester."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "unsere Lehrerin"
+              },
+              {
+                "key": "b",
+                "text": "unserer Lehrerin"
+              },
+              {
+                "key": "c",
+                "text": "unseren Lehrerin"
+              }
+            ],
+            "q": "Wir danken ___.",
+            "why": "danken + Dativ → unserer Lehrerin."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "die Kinder"
+              },
+              {
+                "key": "b",
+                "text": "der Kinder"
+              },
+              {
+                "key": "c",
+                "text": "den Kindern"
+              }
+            ],
+            "q": "Das Geschenk gefällt ___.",
+            "why": "gefallen + Dativ Plural → den Kindern."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Dativ oder Akkusativ?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "die Kinder"
+              },
+              {
+                "key": "b",
+                "text": "den Kindern"
+              },
+              {
+                "key": "c",
+                "text": "der Kinder"
+              }
+            ],
+            "q": "Die Erzieherin hilft ___.",
+            "why": "helfen + Dativ Plural → den Kindern."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "die Erzieherin"
+              },
+              {
+                "key": "b",
+                "text": "der Erzieherin"
+              },
+              {
+                "key": "c",
+                "text": "den Erzieherin"
+              }
+            ],
+            "q": "Die Kinder danken ___.",
+            "why": "danken + Dativ → der Erzieherin."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "der Kindergarten"
+              },
+              {
+                "key": "b",
+                "text": "den Kindergarten"
+              },
+              {
+                "key": "c",
+                "text": "dem Kindergarten"
+              }
+            ],
+            "q": "Das neue Spielzeug gehört ___.",
+            "why": "gehören + Dativ → dem Kindergarten."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "der neue Spielplatz"
+              },
+              {
+                "key": "b",
+                "text": "den neuen Spielplatz"
+              },
+              {
+                "key": "c",
+                "text": "dem neuen Spielplatz"
+              }
+            ],
+            "q": "Die Kinder sehen ___ zum ersten Mal.",
+            "why": "sehen + Akkusativ → den neuen Spielplatz."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "die Eltern"
+              },
+              {
+                "key": "b",
+                "text": "den Eltern"
+              },
+              {
+                "key": "c",
+                "text": "der Eltern"
+              }
+            ],
+            "q": "Die Erzieherin kennt ___ schon lange.",
+            "why": "kennen + Akkusativ Plural → die Eltern."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "alle Kinder"
+              },
+              {
+                "key": "b",
+                "text": "allen Kindern"
+              },
+              {
+                "key": "c",
+                "text": "aller Kinder"
+              }
+            ],
+            "q": "Das bunte Bild gefällt ___.",
+            "why": "gefallen + Dativ Plural → allen Kindern."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "sein Freund"
+              },
+              {
+                "key": "b",
+                "text": "seinen Freund"
+              },
+              {
+                "key": "c",
+                "text": "seinem Freund"
+              }
+            ],
+            "q": "Ein Junge hilft ___ beim Aufräumen.",
+            "why": "helfen + Dativ → seinem Freund."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "die Erzieherin"
+              },
+              {
+                "key": "b",
+                "text": "der Erzieherin"
+              },
+              {
+                "key": "c",
+                "text": "den Erzieherin"
+              }
+            ],
+            "q": "Die Eltern danken ___ am Ende des Tages.",
+            "why": "danken + Dativ → der Erzieherin."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct answer (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Im Kindergarten"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "DER"
+          ],
+          "2": [
+            "DEM"
+          ],
+          "3": [
+            "DER"
+          ],
+          "4": [
+            "DEN"
+          ],
+          "5": [
+            "DEM"
+          ],
+          "6": [
+            "DIE"
+          ],
+          "7": [
+            "DEN"
+          ],
+          "8": [
+            "DER"
+          ],
+          "9": [
+            "DEN"
+          ],
+          "10": [
+            "DIE"
+          ]
+        },
+        "bank": [
+          "DER",
+          "DEM",
+          "DER",
+          "DEN",
+          "DEM",
+          "DIE",
+          "DEN",
+          "DER",
+          "DEN",
+          "DIE",
+          "EINEN",
+          "EINER",
+          "DAS"
+        ],
+        "text": "Heute hilft Tim {1} Mutter beim Kuchenbacken. Der Kuchen gehört\n{2} Geburtstagskind. Alle Gäste danken {3} Gastgeberin für die\nEinladung. Die Kinder sehen {4} großen Kuchen mit Kerzen. Das\nGeschenk gefällt {5} Kind sehr gut. Tim kennt {6} andere Kinder\nschon aus der Schule. Die Musik gefällt {7} Erwachsenen auch. Am\nEnde hilft Tim {8} Gastgeberin beim Aufräumen. Er dankt {9}\nEltern für die schöne Feier. Die Eltern kennen {10} anderen\nEltern schon lange.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Three words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Ein Geburtstag (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "meiner"
+          ],
+          "2": [
+            "meine"
+          ],
+          "3": [
+            "meinem"
+          ],
+          "4": [
+            "meinen"
+          ],
+          "5": [
+            "den"
+          ],
+          "6": [
+            "den"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich helfe {1} Oma.\n2. Ich sehe {2} Oma jeden Sonntag.\n3. Das Haus gehört {3} Onkel.\n4. Ich kenne {4} Onkel gut.\n5. Wir danken {5} Ärzten.\n6. Der Film gefällt {6} Zuschauern.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze den richtigen Artikel.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "meine Schwester"
+              },
+              {
+                "key": "b",
+                "text": "meiner Schwester"
+              },
+              {
+                "key": "c",
+                "text": "meinen Schwester"
+              }
+            ],
+            "q": "Ich helfe ___.",
+            "why": "helfen + Dativ → meiner Schwester."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "mein Kollege"
+              },
+              {
+                "key": "b",
+                "text": "meinem Kollegen"
+              },
+              {
+                "key": "c",
+                "text": "meinen Kollegen"
+              }
+            ],
+            "q": "Ich sehe ___ jeden Tag.",
+            "why": "sehen + Akkusativ → meinen Kollegen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "meine Eltern"
+              },
+              {
+                "key": "b",
+                "text": "meinen Eltern"
+              },
+              {
+                "key": "c",
+                "text": "meiner Eltern"
+              }
+            ],
+            "q": "Das Auto gehört ___.",
+            "why": "gehören + Dativ Plural → meinen Eltern."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "der Nachbar"
+              },
+              {
+                "key": "b",
+                "text": "den Nachbarn"
+              },
+              {
+                "key": "c",
+                "text": "dem Nachbarn"
+              }
+            ],
+            "q": "Wir kennen ___ schon lange.",
+            "why": "kennen + Akkusativ → den Nachbarn."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "der Lehrer"
+              },
+              {
+                "key": "b",
+                "text": "den Lehrer"
+              },
+              {
+                "key": "c",
+                "text": "dem Lehrer"
+              }
+            ],
+            "q": "Ich danke ___ für die Hilfe.",
+            "why": "danken + Dativ → dem Lehrer."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "das Kind"
+              },
+              {
+                "key": "b",
+                "text": "dem Kind"
+              },
+              {
+                "key": "c",
+                "text": "den Kind"
+              }
+            ],
+            "q": "Das Geschenk gefällt ___ sehr.",
+            "why": "gefallen + Dativ → dem Kind."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-07-verben-praepositionen-a1",
+  "intro": "Standalone drill set, not tied to any lesson. Some German verbs simply require a fixed case, and you have to learn it with the verb — it has nothing to do with meaning. helfen, danken, gefallen, gehören always take the Dativ; sehen, kennen always take the Akkusativ. This set drills that with full noun phrases (not just pronouns), so the case shows on the article, not just on a pronoun form. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/07-verben-praepositionen-a1",
+  "level": "A1",
+  "summary": null,
+  "title": "Verben mit festem Kasus: helfen, danken, gefallen, gehören … — A1",
+  "topic": "Verben mit Kasus und Präpositionen"
+}

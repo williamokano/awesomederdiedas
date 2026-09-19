@@ -1,0 +1,814 @@
+{
+  "category": "Unterwegs",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "diagnostizieren",
+            "label": "Diagnostizieren"
+          },
+          {
+            "key": "reparieren",
+            "label": "Reparieren"
+          },
+          {
+            "key": "abholen",
+            "label": "Abholen"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "diagnostizieren",
+            "text": "das Auto zur Diagnose bringen"
+          },
+          {
+            "bucket": "diagnostizieren",
+            "text": "den Fehler eingrenzen"
+          },
+          {
+            "bucket": "diagnostizieren",
+            "text": "einen Kostenvoranschlag erstellen"
+          },
+          {
+            "bucket": "diagnostizieren",
+            "text": "die Ursache erklären"
+          },
+          {
+            "bucket": "reparieren",
+            "text": "ein Ersatzteil bestellen"
+          },
+          {
+            "bucket": "reparieren",
+            "text": "die Reparatur freigeben"
+          },
+          {
+            "bucket": "reparieren",
+            "text": "an der Reparatur arbeiten"
+          },
+          {
+            "bucket": "reparieren",
+            "text": "die Teile austauschen"
+          },
+          {
+            "bucket": "abholen",
+            "text": "das Auto abholen"
+          },
+          {
+            "bucket": "abholen",
+            "text": "die Rechnung bezahlen"
+          },
+          {
+            "bucket": "abholen",
+            "text": "die Garantie prüfen"
+          },
+          {
+            "bucket": "abholen",
+            "text": "eine Probefahrt machen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Diagnostizieren, reparieren oder abholen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Kostenvoranschlag"
+          },
+          {
+            "key": "2",
+            "text": "die Reparatur"
+          },
+          {
+            "key": "3",
+            "text": "das Ersatzteil"
+          },
+          {
+            "key": "4",
+            "text": "die Werkstatt"
+          },
+          {
+            "key": "5",
+            "text": "der Meister"
+          },
+          {
+            "key": "6",
+            "text": "die Diagnose"
+          },
+          {
+            "key": "7",
+            "text": "die Garantie"
+          },
+          {
+            "key": "8",
+            "text": "der Leihwagen"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die geschätzten Kosten vor der Reparatur"
+          },
+          {
+            "key": "b",
+            "text": "das Beheben eines technischen Problems"
+          },
+          {
+            "key": "c",
+            "text": "ein neues Teil, das ein defektes ersetzt"
+          },
+          {
+            "key": "d",
+            "text": "der Ort, an dem Autos repariert werden"
+          },
+          {
+            "key": "e",
+            "text": "die Fachperson, die die Werkstatt leitet"
+          },
+          {
+            "key": "f",
+            "text": "die Feststellung, was am Auto kaputt ist"
+          },
+          {
+            "key": "g",
+            "text": "das Versprechen für kostenlose Reparatur bei einem Mangel"
+          },
+          {
+            "key": "h",
+            "text": "ein Auto, das man vorübergehend leiht"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "soll"
+          ],
+          "4": [
+            "Ist"
+          ],
+          "5": [
+            "dauert"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "habe"
+          ],
+          "8": [
+            "Können"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} das Auto gestern in die Werkstatt gebracht. (haben, Perfekt)\n2. {2} Sie mir bitte einen Kostenvoranschlag machen? (können, Sie-Form)\n3. Man {3} die Reparatur erst freigeben, wenn der Preis feststeht. (sollen, Präsens)\n4. {4} das Ersatzteil schon bestellt worden? (sein, Perfekt Passiv)\n5. Falls die Reparatur länger {5}, brauche ich einen Leihwagen. (dauern, Präsens)\n6. Der Meister {6} mich anrufen, sobald das Auto fertig ist. (werden, Futur I)\n7. Ich {7} schon die Diagnose bekommen. (haben, Perfekt)\n8. {8} Sie mir die Ursache genau erklären? (können, Sie-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Die Reparatur planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Kostenvoranschlag"
+          ],
+          "2": [
+            "Ersatzteil"
+          ],
+          "3": [
+            "Werkstatt"
+          ],
+          "4": [
+            "Meister"
+          ],
+          "5": [
+            "Diagnose"
+          ],
+          "6": [
+            "Leihwagen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Bevor die Reparatur beginnt, brauche ich einen {1}. (die geschätzten Kosten vorher)\n2. Für die Reparatur wird ein neues {2} gebraucht. (ein neues Teil statt eines defekten)\n3. Ich habe das Auto in eine gute {3} gebracht. (der Ort für Autoreparaturen)\n4. Der {4} hat mir die Ursache genau erklärt. (die Fachperson, die die Werkstatt leitet)\n5. Die {5} hat ergeben, dass die Bremsen kaputt sind. (die Feststellung, was kaputt ist)\n6. Solange mein Auto in der Werkstatt ist, brauche ich einen {6}. (ein geliehenes Auto)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "DIAGNOSE"
+          ],
+          "2": [
+            "KOSTENVORANSCHLAG"
+          ],
+          "3": [
+            "REPARATUR"
+          ],
+          "4": [
+            "ERSATZTEIL"
+          ],
+          "5": [
+            "LEIHWAGEN"
+          ],
+          "6": [
+            "FANGEN"
+          ],
+          "7": [
+            "AUSGETAUSCHT"
+          ],
+          "8": [
+            "GARANTIE"
+          ],
+          "9": [
+            "ABHOLEN"
+          ],
+          "10": [
+            "RECHNUNG"
+          ]
+        },
+        "bank": [
+          "DIAGNOSE",
+          "KOSTENVORANSCHLAG",
+          "INSPEKTION",
+          "REPARATUR",
+          "ÖLWECHSEL",
+          "ERSATZTEIL",
+          "TÜV",
+          "LEIHWAGEN",
+          "FANGEN",
+          "ANZAHLUNG",
+          "AUSGETAUSCHT",
+          "GARANTIE",
+          "ABHOLEN",
+          "RECHNUNG"
+        ],
+        "text": "(in der Werkstatt)\n— Guten Tag, mein Auto macht seit ein paar Tagen komische\nGeräusche.\n— Lassen Sie uns kurz eine {1} machen, dann wissen wir mehr.\n(nach der Untersuchung)\n— Wir haben die Ursache gefunden: Die Bremsscheiben sind stark\nabgenutzt.\n— Oh je, wie teuer wird das ungefähr?\n— Ich mache Ihnen gleich einen {2}.\n— Danke. Und wie lange dauert die {3}?\n— Das kann bis zu zwei Tage dauern, weil wir ein {4} bestellen\nmüssen.\n— Bekomme ich in der Zeit einen {5}?\n— Ja, klar, den können Sie gleich am Empfang abholen.\n— Gut. Bevor Sie anfangen, möchte ich aber den Preis noch mit\nmeiner Versicherung klären.\n— Kein Problem, wir {6} erst an, wenn Sie uns Bescheid geben.\n(zwei Tage später)\n— Guten Tag, ist mein Auto fertig?\n— Ja, wir haben alles {7} und getestet.\n— Super. Ist eigentlich noch {8} auf die neuen Teile?\n— Ja, zwei Jahre auf das Material.\n— Dann kann ich das Auto ja {9}?\n— Genau, hier ist die {10}, bitte einmal unterschreiben.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Diagnose, Freigabe, Abholung"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Autos interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Mein Auto macht seit ein paar Tagen komische Geräusche."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal."
+              }
+            ],
+            "q": "Du willst der Werkstatt sagen, dass dein Auto komische Geräusche macht. — You want to tell the garage your car is making strange noises.",
+            "why": "Eine klare Aussage ist der übliche Einstieg beim Melden eines Problems."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich frage lieber nicht nach."
+              },
+              {
+                "key": "c",
+                "text": "Wie teuer wird die Reparatur ungefähr?"
+              }
+            ],
+            "q": "Du willst wissen, wie teuer die Reparatur ungefähr wird. — You want to know roughly how expensive the repair will be.",
+            "why": "Eine direkte Frage klärt frühzeitig die zu erwartenden Kosten."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich möchte den Preis erst mit meiner Versicherung klären."
+              },
+              {
+                "key": "b",
+                "text": "Versicherungen interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst der Werkstatt sagen, dass du den Preis erst mit deiner Versicherung klären möchtest. — You want to tell the garage you want to check the price with your insurance first.",
+            "why": "Eine klare Aussage verhindert, dass ohne Freigabe repariert wird."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Leihwagen interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Bekomme ich während der Reparatur einen Leihwagen?"
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal, ich nehme einfach den Bus."
+              }
+            ],
+            "q": "Du willst wissen, ob du während der Reparatur einen Leihwagen bekommst. — You want to know if you'll get a loaner car during the repair.",
+            "why": "Eine direkte Frage klärt frühzeitig die Mobilität während der Reparatur."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zeit interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Das ist mir zu kompliziert."
+              },
+              {
+                "key": "c",
+                "text": "Wie lange dauert die Reparatur ungefähr?"
+              }
+            ],
+            "q": "Du willst wissen, wie lange die Reparatur ungefähr dauert. — You want to know roughly how long the repair will take.",
+            "why": "Eine direkte Frage klärt die zeitliche Planung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ist eigentlich noch Garantie auf die neuen Teile?"
+              },
+              {
+                "key": "b",
+                "text": "Garantien interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst wissen, ob es Garantie auf die neuen Teile gibt. — You want to know if there's a warranty on the new parts.",
+            "why": "Eine direkte Frage klärt, was bei einem späteren Mangel gilt."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Diagnose und Freigabe"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Aussage, Verb an Position 2",
+            "tiles": [
+              "Mein",
+              "Auto",
+              "macht",
+              "komische",
+              "Geräusche"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Frage mit Modalverb",
+            "tiles": [
+              "Können",
+              "Sie",
+              "mir",
+              "einen",
+              "Kostenvoranschlag",
+              "machen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Aussage, Verb an Position 2",
+            "tiles": [
+              "Wir",
+              "bestellen",
+              "sofort",
+              "ein",
+              "Ersatzteil"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Futur I, Zeitangabe an Position 1, Verb an Position 2",
+            "tiles": [
+              "Morgen",
+              "werde",
+              "ich",
+              "das",
+              "Auto",
+              "abholen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "W-Frage mit Verb an Position 2",
+            "tiles": [
+              "Wie",
+              "lange",
+              "dauert",
+              "die",
+              "Reparatur",
+              "eigentlich",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Wir",
+              "haben",
+              "alles",
+              "ausgetauscht",
+              "und",
+              "getestet"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zur Reparatur bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Vor größeren Reparaturen sollte man sich immer einen Kostenvoranschlag geben lassen. — Before major repairs you should always get a cost estimate.",
+            "why": "So steht es ausdrücklich in den Infos zur Reparatur."
+          },
+          {
+            "answer": false,
+            "q": "Ersatzteile sind bei jeder Marke sofort verfügbar. — Spare parts are immediately available for every brand.",
+            "why": "Bei bestimmten Marken müssen sie manchmal extra bestellt werden."
+          },
+          {
+            "answer": true,
+            "q": "Eine Garantie gilt oft nur bei einer autorisierten Werkstatt. — A warranty often only applies at an authorized garage.",
+            "why": "„Garantie: gilt oft nur bei einer autorisierten Werkstatt.“"
+          },
+          {
+            "answer": false,
+            "q": "Ein Leihwagen wird automatisch und ohne Nachfrage gestellt. — A loaner car is provided automatically without asking.",
+            "why": "Er wird nicht automatisch gestellt, man sollte danach fragen."
+          },
+          {
+            "answer": true,
+            "q": "Bei manchen Reparaturen lohnt es sich, vorher mit der Versicherung zu sprechen. — For some repairs it's worth talking to the insurance first.",
+            "why": "„Versicherung: bei manchen Reparaturen lohnt es sich, vorher mit ihr zu sprechen.“"
+          },
+          {
+            "answer": false,
+            "q": "Die Rechnung muss man nicht genau prüfen, sie stimmt immer. — You don't need to check the bill closely, it's always correct.",
+            "why": "Man sollte die Rechnung vor der Zahlung genau prüfen."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Größere Reparatur in der Werkstatt**\n>\n> - **Kostenvoranschlag:** sollte man sich vor größeren\n>   Reparaturen **immer geben lassen**.\n> - **Ersatzteile:** müssen bei bestimmten Marken manchmal\n>   **extra bestellt** werden.\n> - **Garantie:** gilt oft nur bei einer **autorisierten\n>   Werkstatt**.\n> - **Leihwagen:** wird **nicht automatisch** gestellt, man\n>   sollte danach fragen.\n> - **Versicherung:** bei manchen Reparaturen lohnt es sich,\n>   **vorher** mit ihr zu sprechen.\n> - **Rechnung:** sollte man **vor der Zahlung genau prüfen**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zur Reparatur lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach klaglos bezahlen."
+              },
+              {
+                "key": "b",
+                "text": "Die Werkstatt nach dem Grund für die Abweichung fragen."
+              },
+              {
+                "key": "c",
+                "text": "Die Rechnung ignorieren und nicht bezahlen."
+              }
+            ],
+            "q": "Die tatsächliche Rechnung ist viel höher als der Kostenvoranschlag. — The actual bill is much higher than the cost estimate.",
+            "why": "Eine Nachfrage klärt, ob die höheren Kosten gerechtfertigt sind."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Auto trotzdem ohne das Teil abholen."
+              },
+              {
+                "key": "b",
+                "text": "Die Werkstatt wechseln, ohne nachzufragen."
+              },
+              {
+                "key": "c",
+                "text": "Höflich nach einem neuen Liefertermin fragen."
+              }
+            ],
+            "q": "Das bestellte Ersatzteil kommt nicht rechtzeitig an. — The ordered spare part doesn't arrive in time.",
+            "why": "Eine höfliche Nachfrage klärt schnell den neuen Zeitplan."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zur Werkstatt zurückfahren und auf einer Nachbesserung bestehen."
+              },
+              {
+                "key": "b",
+                "text": "Das Geräusch einfach ignorieren."
+              },
+              {
+                "key": "c",
+                "text": "Eine ganz neue Werkstatt ohne Erklärung aufsuchen."
+              }
+            ],
+            "q": "Nach der Reparatur macht das Auto immer noch das gleiche Geräusch. — After the repair, the car still makes the same noise.",
+            "why": "Eine Nachbesserung bei derselben Werkstatt ist meist der schnellste Weg."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zu Fuß nach Hause gehen, ohne nachzufragen."
+              },
+              {
+                "key": "b",
+                "text": "Nach einer Alternative wie einem Mietwagen oder öffentlichen Verkehrsmitteln fragen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort eine schlechte Bewertung schreiben."
+              }
+            ],
+            "q": "Es ist gerade kein Leihwagen verfügbar. — No loaner car is available right now.",
+            "why": "Eine Nachfrage nach Alternativen löst das Mobilitätsproblem am schnellsten."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das einfach so hinnehmen."
+              },
+              {
+                "key": "b",
+                "text": "Sofort das Auto woanders reparieren lassen."
+              },
+              {
+                "key": "c",
+                "text": "Die Werkstatt darauf ansprechen und die Situation klären."
+              }
+            ],
+            "q": "Die Werkstatt hat ohne Ihre Freigabe schon repariert. — The garage already did the repair without your approval.",
+            "why": "Ein klärendes Gespräch zeigt, wer für die ungefragte Reparatur aufkommt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Schriftlich Widerspruch einlegen und eine Begründung verlangen."
+              },
+              {
+                "key": "b",
+                "text": "Die Ablehnung einfach akzeptieren."
+              },
+              {
+                "key": "c",
+                "text": "Das Auto sofort verkaufen."
+              }
+            ],
+            "q": "Die Werkstatt lehnt die Garantie für ein defektes Teil ab. — The garage rejects the warranty for a defective part.",
+            "why": "Ein schriftlicher Widerspruch mit Begründung kann die Entscheidung noch ändern."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn bei der Reparatur etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "angegeben"
+          ],
+          "2": [
+            "angekommen"
+          ],
+          "3": [
+            "verschwunden"
+          ],
+          "4": [
+            "bekommen"
+          ],
+          "5": [
+            "repariert"
+          ],
+          "6": [
+            "abgelehnt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Rechnung war deutlich höher als im Kostenvoranschlag {1}. (notiert, Partizip)\n2. Das Ersatzteil ist leider noch nicht {2}. (nicht eingetroffen, Partizip)\n3. Das Geräusch ist nach der Reparatur nicht {3}. (nicht weg, Partizip)\n4. Einen Leihwagen habe ich leider nicht {4}. (nicht erhalten, Partizip)\n5. Die Werkstatt hat das Auto ohne meine Zustimmung schon {5}. (bearbeitet, Partizip)\n6. Die Garantie wurde leider {6}. (nicht akzeptiert, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "soll"
+          ],
+          "3": [
+            "Kostenvoranschlag"
+          ],
+          "4": [
+            "Ersatzteil"
+          ],
+          "5": [
+            "Diagnose"
+          ],
+          "6": [
+            "Leihwagen"
+          ],
+          "7": [
+            "Können"
+          ],
+          "8": [
+            "Garantie"
+          ],
+          "9": [
+            "wird"
+          ],
+          "10": [
+            "angegeben"
+          ],
+          "11": [
+            "angekommen"
+          ],
+          "12": [
+            "verschwunden"
+          ],
+          "13": [
+            "repariert"
+          ],
+          "14": [
+            "abgelehnt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} das Auto gestern in die Werkstatt gebracht. (have — Perfekt)\n2. Man {2} die Reparatur erst freigeben, wenn der Preis feststeht. (should — sollen)\n3. Bevor die Reparatur beginnt, brauche ich einen {3}. (cost estimate)\n4. Für die Reparatur wird ein neues {4} gebraucht. (spare part)\n5. Die {5} hat ergeben, dass die Bremsen kaputt sind. (diagnosis)\n6. Solange mein Auto in der Werkstatt ist, brauche ich einen {6}. (loaner car)\n7. {7} Sie mir bitte einen Kostenvoranschlag machen? (could — können, Sie-Form)\n8. Ist eigentlich noch {8} auf die neuen Teile? (warranty)\n9. Der Meister {9} mich anrufen, sobald das Auto fertig ist. (will — werden)\n10. Die Rechnung war deutlich höher als im Kostenvoranschlag {10}. (stated — Partizip)\n11. Das Ersatzteil ist leider noch nicht {11}. (arrived — Partizip)\n12. Das Geräusch ist nach der Reparatur nicht {12}. (gone — Partizip)\n13. Die Werkstatt hat das Auto ohne meine Zustimmung schon {13}. (repaired — Partizip)\n14. Die Garantie wurde leider {14}. (rejected — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-90-werkstatt-reparatur-b1",
+  "intro": "Eine größere Reparatur in der Werkstatt läuft in mehreren Schritten: die Diagnose abwarten, einen Kostenvoranschlag verlangen, die Reparatur freigeben und am Ende mit Garantie abholen. Dieses Set übt genau das — diagnostizieren, reparieren, abholen, und was zu tun ist, wenn die Rechnung höher ausfällt oder ein Ersatzteil fehlt. Grammatik nach Bedarf: Modalverben, Perfekt und Futur I. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/90-werkstatt-reparatur-b1",
+  "level": "B1",
+  "summary": "Die Diagnose verstehen, einen Kostenvoranschlag verlangen, die Reparatur freigeben und das Auto mit Garantie abholen — und was tun, wenn die Rechnung höher ausfällt oder ein Ersatzteil fehlt.",
+  "title": "Größere Reparatur in der Werkstatt — B1",
+  "topic": "Größere Reparatur in der Werkstatt"
+}

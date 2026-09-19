@@ -1,0 +1,844 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "irgendwo"
+          ],
+          "2": [
+            "irgendwoher"
+          ],
+          "3": [
+            "irgendwohin"
+          ],
+          "4": [
+            "irgendwo"
+          ],
+          "5": [
+            "irgendwoher"
+          ],
+          "6": [
+            "irgendwohin"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Zug ist voll — lass uns {1} anders einen Sitzplatz suchen.\n2. Ich kenne dieses Lied {2}, ich komme nur nicht drauf.\n3. Am Sonntag will ich {3} raus, egal wohin, Hauptsache weg.\n4. Deine Schlüssel liegen bestimmt {4} in der Wohnung.\n5. Es zieht — der kalte Luftzug kommt {5}.\n6. Nach der Arbeit fahren wir noch {6}, vielleicht an den See.\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Ergänze irgendwo (Ort: wo?), irgendwohin (Ziel: wohin?) oder irgendwoher (Herkunft: woher?).",
+      "instructionsEn": "Fill in irgendwo (place: where?), irgendwohin (goal: where to?), or irgendwoher (origin: where from?).",
+      "title": "irgendwo, irgendwohin oder irgendwoher?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "irgendwelche"
+          ],
+          "2": [
+            "irgendeinen"
+          ],
+          "3": [
+            "irgendwelche"
+          ],
+          "4": [
+            "irgendeinen"
+          ],
+          "5": [
+            "irgendwelche"
+          ],
+          "6": [
+            "irgendeinen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Hast du noch {1} Fragen zum Ablauf?\n2. Gibt es {2} Grund, warum das nicht geht?\n3. Falls {3} Probleme auftreten, ruf mich sofort an.\n4. Ich brauche {4} Stift, meiner schreibt nicht mehr.\n5. Hat der Arzt {5} Bedenken geäußert?\n6. Nimm {6} freien Platz, sie sind alle gleich gut.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze die passende Form von irgendein- (Singular) oder irgendwelche (Plural / nicht zählbar).",
+      "instructionsEn": "Fill in the right form of irgendein- (singular) or irgendwelche (plural / uncountable).",
+      "title": "irgendein- oder irgendwelche?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Der Ring ist wertlos."
+              },
+              {
+                "key": "b",
+                "text": "Der Ring ist etwas Besonderes."
+              },
+              {
+                "key": "c",
+                "text": "Es ist egal, welcher Ring."
+              }
+            ],
+            "q": "Das ist nicht irgendein Ring, den hat meine Großmutter getragen. — Gemeint ist:",
+            "why": "nicht irgendein = kein beliebiger, sondern ein besonderer."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich brauche ein ganz bestimmtes Blatt."
+              },
+              {
+                "key": "b",
+                "text": "Ich brauche kein Blatt."
+              },
+              {
+                "key": "c",
+                "text": "Es ist egal, welches Blatt."
+              }
+            ],
+            "q": "Gib mir bitte irgendein Blatt Papier. — Gemeint ist:",
+            "why": "irgendein betont: die Auswahl ist egal."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie hat eine ganz bestimmte Wohnung im Sinn."
+              },
+              {
+                "key": "b",
+                "text": "Ihr ist jede Wohnung recht."
+              },
+              {
+                "key": "c",
+                "text": "Sie sucht keine Wohnung."
+              }
+            ],
+            "q": "Sie sucht nicht irgendeine Wohnung, sie will genau diese. — Das heißt:",
+            "why": "nicht irgendeine = nicht eine beliebige, sondern eine spezielle."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ruf zu einer festen Uhrzeit an."
+              },
+              {
+                "key": "b",
+                "text": "Ruf besser nicht an."
+              },
+              {
+                "key": "c",
+                "text": "Der Zeitpunkt ist mir egal."
+              }
+            ],
+            "q": "Ruf einfach irgendwann an. — Das heißt:",
+            "why": "irgendwann = zu einem beliebigen Zeitpunkt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Spiel war besonders wichtig."
+              },
+              {
+                "key": "b",
+                "text": "Das Spiel war unwichtig."
+              },
+              {
+                "key": "c",
+                "text": "Es gab kein Spiel."
+              }
+            ],
+            "q": "Das war nicht irgendein Spiel, es ging um den Titel. — Gemeint ist:",
+            "why": "nicht irgendein = ein besonderes, bedeutsames."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nimm die guten Schuhe."
+              },
+              {
+                "key": "b",
+                "text": "Welche Schuhe ist egal."
+              },
+              {
+                "key": "c",
+                "text": "Zieh keine Schuhe an."
+              }
+            ],
+            "q": "Nimm irgendwelche Schuhe, wir gehen nur kurz raus. — Das heißt:",
+            "why": "irgendwelche (Plural) = beliebige."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A3",
+      "instructions": "Wähle die Lösung, die den Sinn richtig trifft (a, b oder c).",
+      "instructionsEn": "Choose the answer that captures the meaning (a, b, or c).",
+      "title": "nicht irgendein / irgendein zur Betonung"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "irgendwie"
+          ],
+          "2": [
+            "irgendwelche"
+          ],
+          "3": [
+            "irgendwann"
+          ],
+          "4": [
+            "irgendwo"
+          ],
+          "5": [
+            "irgendwelche"
+          ],
+          "6": [
+            "irgendwann"
+          ],
+          "7": [
+            "Irgendwie"
+          ],
+          "8": [
+            "irgendwann"
+          ]
+        },
+        "bank": [
+          "irgendwie",
+          "irgendwelche",
+          "irgendwelche",
+          "irgendwann",
+          "irgendwann",
+          "irgendwann",
+          "irgendwo",
+          "Irgendwie",
+          "irgendwoher",
+          "vielleicht"
+        ],
+        "text": "Mein Internet fällt seit Tagen {1} aus, meistens abends. Der\nTechniker am Telefon fragte, ob es {2} Fehlermeldungen gibt. Ich\nsagte, dass die Störung {3} zwischen sieben und neun kommt, aber\nnicht regelmäßig. Er meinte, das Problem müsse {4} an der Leitung\nliegen. Ob ich {5} Geräte neu angeschlossen hätte? Nein, hatte ich\nnicht. Am Ende sagte er, {6} werde ein Kollege vorbeikommen — wann\ngenau, konnte er nicht sagen. {7} muss die Sache ja lösbar sein.\nIch hoffe, der Termin ist nicht {8} in drei Wochen.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter bleiben übrig.",
+      "instructionsEn": "Fill the 8 gaps with the words from the box. Two words are left over.",
+      "title": "Lückentext: Ein Anruf beim Kundenservice"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendwelche"
+              },
+              {
+                "key": "b",
+                "text": "irgendeine"
+              },
+              {
+                "key": "c",
+                "text": "irgendein"
+              }
+            ],
+            "q": "Haben Sie ___ Beschwerden, Herr Doktor sollte das wissen.",
+            "why": "Plural (Beschwerden) → irgendwelche."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendwohin"
+              },
+              {
+                "key": "b",
+                "text": "irgendwoher"
+              },
+              {
+                "key": "c",
+                "text": "irgendwo"
+              }
+            ],
+            "q": "Der Lärm kommt ___ von oben, aber ich sehe nichts.",
+            "why": "Herkunft (woher?) → irgendwoher."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendein"
+              },
+              {
+                "key": "b",
+                "text": "kein"
+              },
+              {
+                "key": "c",
+                "text": "nicht irgendein"
+              }
+            ],
+            "q": "Das ist ___ Auto — das ist ein Oldtimer von 1965.",
+            "why": "Betonung: kein beliebiges → nicht irgendein."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendwoher"
+              },
+              {
+                "key": "b",
+                "text": "irgendwohin"
+              },
+              {
+                "key": "c",
+                "text": "irgendwo"
+              }
+            ],
+            "q": "Wir müssen ___ hin, wo es Schatten gibt, sonst wird es zu heiß.",
+            "why": "Ziel, Bewegung (wohin?) → irgendwohin."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendein"
+              },
+              {
+                "key": "b",
+                "text": "irgendeine"
+              },
+              {
+                "key": "c",
+                "text": "irgendwelche"
+              }
+            ],
+            "q": "Gibt es ___ Neuigkeiten von der Bewerbung?",
+            "why": "Plural (Neuigkeiten) → irgendwelche."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendeinen"
+              },
+              {
+                "key": "b",
+                "text": "irgendwelche"
+              },
+              {
+                "key": "c",
+                "text": "irgendein"
+              }
+            ],
+            "q": "Ich will nicht ___ Job, ich will einen, der mir Spaß macht.",
+            "why": "der Job, Akkusativ, betont beliebig → (nicht) irgendeinen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendeine"
+              },
+              {
+                "key": "b",
+                "text": "irgendwo"
+              },
+              {
+                "key": "c",
+                "text": "irgendwelche"
+              }
+            ],
+            "q": "Wenn ___ Rückfragen bestehen, melden Sie sich gern.",
+            "why": "Plural (Rückfragen) → irgendwelche."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendwo"
+              },
+              {
+                "key": "b",
+                "text": "irgendwie"
+              },
+              {
+                "key": "c",
+                "text": "irgendwoher"
+              }
+            ],
+            "q": "Wir finden ___ eine Lösung, da bin ich sicher.",
+            "why": "auf irgendeine Art → irgendwie."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Lösung (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Form und Bedeutung"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendwelche"
+              },
+              {
+                "key": "b",
+                "text": "irgendein"
+              },
+              {
+                "key": "c",
+                "text": "irgendeine"
+              }
+            ],
+            "q": "Falls Ihnen ___ Mängel auffallen, notieren Sie sie bitte.",
+            "why": "Plural (Mängel) → irgendwelche."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendeine"
+              },
+              {
+                "key": "b",
+                "text": "nicht irgendeine"
+              },
+              {
+                "key": "c",
+                "text": "keine"
+              }
+            ],
+            "q": "Das ist ___ Wohnung, die ist frisch saniert und mitten im Zentrum.",
+            "why": "Betonung des Besonderen → nicht irgendeine."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendwo"
+              },
+              {
+                "key": "b",
+                "text": "irgendwoher"
+              },
+              {
+                "key": "c",
+                "text": "irgendwann"
+              }
+            ],
+            "q": "Wir können uns ___ diese Woche für einen Termin treffen.",
+            "why": "unbestimmter Zeitpunkt → irgendwann."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendeinen"
+              },
+              {
+                "key": "b",
+                "text": "irgendwelche"
+              },
+              {
+                "key": "c",
+                "text": "irgendein"
+              }
+            ],
+            "q": "Bringen Sie bitte ___ Ausweis mit, Personalausweis oder Reisepass.",
+            "why": "der Ausweis, Akkusativ, egal welcher → irgendeinen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendeine"
+              },
+              {
+                "key": "b",
+                "text": "irgendein"
+              },
+              {
+                "key": "c",
+                "text": "irgendwelche"
+              }
+            ],
+            "q": "Der Makler fragte, ob wir vorab ___ Unterlagen bräuchten.",
+            "why": "Plural (Unterlagen) → irgendwelche."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendwoher"
+              },
+              {
+                "key": "b",
+                "text": "irgendwohin"
+              },
+              {
+                "key": "c",
+                "text": "irgendwie"
+              }
+            ],
+            "q": "Kommt der Verkehrslärm ___, oder ist es hier immer so ruhig?",
+            "why": "Herkunft des Lärms → irgendwoher."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendeinen"
+              },
+              {
+                "key": "b",
+                "text": "irgendwelche"
+              },
+              {
+                "key": "c",
+                "text": "irgendein"
+              }
+            ],
+            "q": "Wenn Sie ___ Wünsche zur Ausstattung haben, sagen Sie es der Hausverwaltung.",
+            "why": "Plural (Wünsche) → irgendwelche."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendwie"
+              },
+              {
+                "key": "b",
+                "text": "irgendwo"
+              },
+              {
+                "key": "c",
+                "text": "irgendwann"
+              }
+            ],
+            "q": "Wir müssen die Kaution ___ auftreiben, bis Monatsende.",
+            "why": "auf irgendeine Art → irgendwie."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle für jede Lücke die richtige Lösung (a, b oder c).",
+      "instructionsEn": "Choose the correct option for each gap (a, b, or c).",
+      "title": "Sprachbausteine Teil 1 — Vor einer Wohnungsbesichtigung"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "irgendwo"
+          ],
+          "2": [
+            "irgendwelche"
+          ],
+          "3": [
+            "irgendwo"
+          ],
+          "4": [
+            "irgendwann"
+          ],
+          "5": [
+            "irgendwelche"
+          ],
+          "6": [
+            "irgendwoher"
+          ],
+          "7": [
+            "nicht irgendeine"
+          ],
+          "8": [
+            "irgendwelche"
+          ],
+          "9": [
+            "Irgendwie"
+          ],
+          "10": [
+            "irgendwann"
+          ]
+        },
+        "bank": [
+          "irgendwo",
+          "irgendwelche",
+          "irgendwo",
+          "irgendwann",
+          "irgendwelche",
+          "irgendwoher",
+          "nicht irgendeine",
+          "irgendwelche",
+          "Irgendwie",
+          "irgendwann",
+          "vielleicht",
+          "irgendwohin",
+          "irgendein"
+        ],
+        "text": "Nach dem Umzug fehlen mir noch ein paar Sachen. Der Karton mit dem\nWerkzeug steht {1} im Keller, ich finde ihn nur nicht. Falls du\n{2} Kabel übrig hast, ich brauche dringend eins für den Fernseher.\nDer Strom war kurz weg — der Elektriker meinte, das liege {3} an\neiner alten Sicherung. Wir müssen {4} einen Termin für die Küche\nmachen, am besten bald. Hast du eigentlich {5} Bedenken wegen der\nNachbarn? Ich habe abends manchmal Musik {6} gehört, aber leise.\nUnd das ist {7} Küche — die hat meine Oma vor vierzig Jahren\ngekauft, sie bleibt. Wenn {8} Fragen zur Übergabe sind, ruf die\nVerwaltung an. {9} wird sich das schon regeln. Der neue Schlüssel\nkommt hoffentlich nicht erst {10} nächste Woche.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fülle die 10 Lücken. Drei Wörter im Kasten bleiben übrig.",
+      "instructionsEn": "Fill the 10 gaps. Three words in the box are left over.",
+      "title": "Sprachbausteine Teil 2 — Nach dem Umzug (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Hast du irgendwelche Pläne für Silvester?",
+            "tiles": [
+              "Hast",
+              "du",
+              "irgendwelche",
+              "Pläne",
+              "für Silvester?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Der Geruch kommt irgendwoher aus dem Keller, glaube ich.",
+            "tiles": [
+              "Der Geruch",
+              "kommt",
+              "irgendwoher",
+              "aus dem Keller,",
+              "glaube ich."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Das ist nicht irgendein Foto — das ist mein erstes Bild von ihr.",
+            "tiles": [
+              "Das ist",
+              "nicht irgendein",
+              "Foto —",
+              "das ist",
+              "mein erstes Bild von ihr."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Wir sollten irgendwohin fahren, wo es wärmer ist.",
+            "tiles": [
+              "Wir",
+              "sollten",
+              "irgendwohin",
+              "fahren,",
+              "wo es wärmer ist."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "D1",
+      "instructions": "Bring die Kacheln in die richtige Reihenfolge.",
+      "instructionsEn": "Put the tiles in the correct order.",
+      "title": "Wiederholung: Satzbau"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendein"
+              },
+              {
+                "key": "b",
+                "text": "irgendwelche"
+              },
+              {
+                "key": "c",
+                "text": "irgendeine"
+              }
+            ],
+            "q": "Gibt es ___ Fragen, bevor wir anfangen?",
+            "why": "Plural (Fragen) → irgendwelche."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendwohin"
+              },
+              {
+                "key": "b",
+                "text": "irgendwo"
+              },
+              {
+                "key": "c",
+                "text": "irgendwoher"
+              }
+            ],
+            "q": "Woher kommt der Zug? — Ich spüre ___ kalte Luft.",
+            "why": "Herkunft (woher?) → irgendwoher."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendein"
+              },
+              {
+                "key": "b",
+                "text": "nicht irgendein"
+              },
+              {
+                "key": "c",
+                "text": "kein"
+              }
+            ],
+            "q": "Das war ___ Konzert, das war ihr Abschiedsauftritt.",
+            "why": "Betonung des Besonderen → nicht irgendein."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendwoher"
+              },
+              {
+                "key": "b",
+                "text": "irgendwann"
+              },
+              {
+                "key": "c",
+                "text": "irgendwo"
+              }
+            ],
+            "q": "Können wir uns ___ treffen, wo es nicht so laut ist?",
+            "why": "Ort (wo?) → irgendwo."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "irgendein"
+              },
+              {
+                "key": "b",
+                "text": "irgendwelche"
+              },
+              {
+                "key": "c",
+                "text": "irgendeine"
+              }
+            ],
+            "q": "Er will nicht ___ Praktikum, sondern eins in einem Verlag.",
+            "why": "das Praktikum, Akkusativ, betont beliebig → (nicht) irgendein."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Irgendwo"
+              },
+              {
+                "key": "b",
+                "text": "Irgendwoher"
+              },
+              {
+                "key": "c",
+                "text": "Irgendwie"
+              }
+            ],
+            "q": "___ kriegen wir das Auto bis Freitag repariert.",
+            "why": "auf irgendeine Art → irgendwie."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Wähle die richtige Lösung (a, b oder c). Das ist dein Abschlusscheck für dieses Set.",
+      "instructionsEn": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-28-irgend-b1",
+  "intro": "Aufbauend auf dem A2-Set. irgendwelche ist der Plural (und die Form für nicht zählbare Nomen) von irgendein-: Hast du irgendwelche Fragen? Gibt es irgendwelche Probleme? Die wo-Reihe: irgendwo (Ort), irgendwohin (Ziel, Bewegung), irgendwoher (Herkunft). nicht irgendein betont, dass etwas Besonderes gemeint ist: Das ist nicht irgendein Wein — das ist ein Barolo. Und irgendein- statt ein- betont, dass es egal ist welches: Gib mir irgendein Buch. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/28-irgend-b1",
+  "level": "B1",
+  "summary": null,
+  "title": "irgendwelche, irgendwoher, nicht irgendein — B1",
+  "topic": "irgend-"
+}

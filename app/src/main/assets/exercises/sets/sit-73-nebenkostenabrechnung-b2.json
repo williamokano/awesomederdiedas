@@ -1,0 +1,832 @@
+{
+  "category": "Wohnen & Nachbarschaft",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "lesen",
+            "label": "Die Abrechnung lesen"
+          },
+          {
+            "key": "pruefen",
+            "label": "Prüfen"
+          },
+          {
+            "key": "widersprechen",
+            "label": "Widersprechen"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "lesen",
+            "text": "den Abrechnungszeitraum prüfen"
+          },
+          {
+            "bucket": "lesen",
+            "text": "die Betriebskosten durchgehen"
+          },
+          {
+            "bucket": "lesen",
+            "text": "den Verteilerschlüssel verstehen"
+          },
+          {
+            "bucket": "lesen",
+            "text": "die Gesamtsumme kontrollieren"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "die Belege einsehen"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "die Posten mit dem Vorjahr vergleichen"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "nach ungewöhnlichen Positionen suchen"
+          },
+          {
+            "bucket": "pruefen",
+            "text": "den Verteilerschlüssel nachrechnen"
+          },
+          {
+            "bucket": "widersprechen",
+            "text": "einen Fehler schriftlich melden"
+          },
+          {
+            "bucket": "widersprechen",
+            "text": "eine Frist setzen"
+          },
+          {
+            "bucket": "widersprechen",
+            "text": "die Belegeinsicht verlangen"
+          },
+          {
+            "bucket": "widersprechen",
+            "text": "auf eine Korrektur bestehen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Lesen, prüfen oder widersprechen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Nebenkostenabrechnung"
+          },
+          {
+            "key": "2",
+            "text": "der Abrechnungszeitraum"
+          },
+          {
+            "key": "3",
+            "text": "die Betriebskosten"
+          },
+          {
+            "key": "4",
+            "text": "der Verteilerschlüssel"
+          },
+          {
+            "key": "5",
+            "text": "die Nachzahlung"
+          },
+          {
+            "key": "6",
+            "text": "das Guthaben"
+          },
+          {
+            "key": "7",
+            "text": "die Belegeinsicht"
+          },
+          {
+            "key": "8",
+            "text": "widersprechen"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die jährliche Abrechnung der Betriebskosten"
+          },
+          {
+            "key": "b",
+            "text": "der Zeitraum, für den abgerechnet wird"
+          },
+          {
+            "key": "c",
+            "text": "die laufenden Kosten für die Immobilie"
+          },
+          {
+            "key": "d",
+            "text": "die Methode zur Aufteilung der Kosten auf die Mieter"
+          },
+          {
+            "key": "e",
+            "text": "der Betrag, den man zusätzlich zahlen muss"
+          },
+          {
+            "key": "f",
+            "text": "der Betrag, der einem zurückerstattet wird"
+          },
+          {
+            "key": "g",
+            "text": "das Recht, die Rechnungen einzusehen"
+          },
+          {
+            "key": "h",
+            "text": "sich schriftlich gegen die Abrechnung wehren"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "kann"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Ist"
+          ],
+          "5": [
+            "gefunden"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Ist"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} der Abrechnung innerhalb von 12 Monaten widersprechen. (Modalverb, ich-Form)\n2. {2} Sie mir Einsicht in die Belege gewähren? (können, Sie-Form)\n3. Ich {3} schon alle Posten geprüft. (haben, Perfekt)\n4. {4} der Verteilerschlüssel korrekt angewendet worden? (sein, Perfekt Passiv)\n5. Falls ein Fehler {5} würde, müsste die Abrechnung korrigiert werden. (finden, Partizip)\n6. Der Vermieter {6} die Abrechnung neu erstellen müssen. (werden, Futur I)\n7. Wir {7} schon einen Widerspruch eingereicht. (haben, Perfekt)\n8. {8} die Nachzahlung schon überwiesen worden? (sein, Perfekt Passiv)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Die Prüfung planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Nebenkostenabrechnung"
+          ],
+          "2": [
+            "Abrechnungszeitraum"
+          ],
+          "3": [
+            "Betriebskosten"
+          ],
+          "4": [
+            "Verteilerschlüssel"
+          ],
+          "5": [
+            "Nachzahlung"
+          ],
+          "6": [
+            "Guthaben"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Einmal im Jahr bekommen wir die {1} vom Vermieter. (die jährliche Abrechnung der Betriebskosten)\n2. Die Abrechnung bezieht sich immer auf einen bestimmten {2}. (der Zeitraum, für den abgerechnet wird)\n3. Zu den {3} zählen zum Beispiel Wasser, Müllabfuhr und Hausmeister. (die laufenden Kosten für die Immobilie)\n4. Der {4} bestimmt, wie die Kosten auf die Mieter verteilt werden. (die Methode zur Kostenverteilung)\n5. Wurde zu wenig gezahlt, folgt eine {5}. (der zusätzlich zu zahlende Betrag)\n6. Wurde zu viel gezahlt, bekommt man ein {6}. (der zurückerstattete Betrag)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "NEBENKOSTENABRECHNUNG"
+          ],
+          "2": [
+            "NACHZAHLEN"
+          ],
+          "3": [
+            "ABRECHNUNGSZEITRAUM"
+          ],
+          "4": [
+            "BETRIEBSKOSTEN"
+          ],
+          "5": [
+            "EINSICHT"
+          ],
+          "6": [
+            "VERTEILERSCHLÜSSEL"
+          ],
+          "7": [
+            "WIDERSPRECHEN"
+          ],
+          "8": [
+            "FRIST"
+          ],
+          "9": [
+            "WENDE"
+          ],
+          "10": [
+            "BESTENS"
+          ]
+        },
+        "bank": [
+          "NEBENKOSTENABRECHNUNG",
+          "NACHZAHLEN",
+          "ABRECHNUNGSZEITRAUM",
+          "BETRIEBSKOSTEN",
+          "EINSICHT",
+          "VERTEILERSCHLÜSSEL",
+          "WIDERSPRECHEN",
+          "FRIST",
+          "WENDE",
+          "BESTENS",
+          "KAUTION",
+          "MIETVERTRAG",
+          "HAUSORDNUNG",
+          "GRUNDSTEUER"
+        ],
+        "text": "— Hast du schon die {1} für letztes Jahr bekommen?\n— Ja, und ich soll wohl 340 Euro {2}.\n— Das kommt mir hoch vor. Hast du dir den {3}\ngenau angesehen?\n— Noch nicht, aber die {4} wirken auf den ersten Blick\nplausibel.\n— Am besten forderst du beim Vermieter {5} in die\nBelege.\n— Gute Idee, dann kann ich alles im Detail prüfen.\n(zwei Wochen später, mit den Belegen)\n— Ich habe die Belege durchgesehen, und ein Posten stimmt\neinfach nicht — der {6} für die Gartenpflege ist eindeutig\nfalsch berechnet.\n— Dann solltest du schriftlich {7}.\n— Genau, ich schreibe noch heute einen Brief und setze eine\n{8}.\n— Und falls der Vermieter sich nicht meldet?\n— Dann {9} ich mich an den Mieterverein, die kennen sich mit\nsowas {10} aus.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Die Abrechnung prüfen und widersprechen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nebenkostenabrechnungen interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Hast du schon die Nebenkostenabrechnung für letztes Jahr bekommen?"
+              },
+              {
+                "key": "c",
+                "text": "Rechnungen öffne ich sowieso nie."
+              }
+            ],
+            "q": "Du möchtest wissen, ob dein Freund die Nebenkostenabrechnung schon bekommen hat. — You want to know whether your friend has already received the utility bill statement.",
+            "why": "Eine direkte Frage klärt sofort, ob die Abrechnung schon da ist."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Hohe Summen sind mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Ich zahle einfach, ohne nachzuschauen."
+              },
+              {
+                "key": "c",
+                "text": "Das kommt mir ziemlich hoch vor, das sollte ich genauer prüfen."
+              }
+            ],
+            "q": "Du findest die Nachzahlung ungewöhnlich hoch. — You find the additional payment unusually high.",
+            "why": "Eine kritische Reaktion auf eine ungewöhnlich hohe Summe ist der erste sinnvolle Schritt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich fordere beim Vermieter Einsicht in die Belege."
+              },
+              {
+                "key": "b",
+                "text": "Belege interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Ich vertraue der Abrechnung blind."
+              }
+            ],
+            "q": "Du möchtest Einsicht in die Belege verlangen. — You want to request access to the receipts.",
+            "why": "Eine klare Forderung nach Belegeinsicht ist das gesetzlich verankerte Mieterrecht."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Fehler sind mir egal, ich zahle trotzdem."
+              },
+              {
+                "key": "b",
+                "text": "Dieser Posten ist offensichtlich falsch berechnet, dem widerspreche ich schriftlich."
+              },
+              {
+                "key": "c",
+                "text": "Ich beschwere mich nur mündlich, ohne etwas zu schreiben."
+              }
+            ],
+            "q": "Du entdeckst einen eindeutigen Fehler im Verteilerschlüssel. — You discover a clear error in the cost allocation.",
+            "why": "Ein schriftlicher Widerspruch mit konkretem Fehlerhinweis ist rechtlich am wirksamsten."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Fristen interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich warte einfach unbegrenzt auf eine Antwort."
+              },
+              {
+                "key": "c",
+                "text": "Ich setze dem Vermieter eine angemessene Frist zur Korrektur."
+              }
+            ],
+            "q": "Du möchtest eine Frist für die Korrektur setzen. — You want to set a deadline for the correction.",
+            "why": "Eine klare Frist gibt dem Anliegen Nachdruck und schafft Verbindlichkeit."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dann wende ich mich an den Mieterverein."
+              },
+              {
+                "key": "b",
+                "text": "Dann gebe ich einfach auf."
+              },
+              {
+                "key": "c",
+                "text": "Dann zahle ich die falsche Summe kommentarlos."
+              }
+            ],
+            "q": "Der Vermieter reagiert nicht auf deinen Widerspruch. — The landlord doesn't respond to your objection.",
+            "why": "Der Mieterverein kennt sich mit solchen Streitfällen bestens aus und kann weiterhelfen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Prüfen und Widersprechen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Ja/Nein-Frage im Perfekt",
+            "tiles": [
+              "Hast",
+              "du",
+              "schon",
+              "die",
+              "Nebenkostenabrechnung",
+              "bekommen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Hauptsatz, Verb an Position 2",
+            "tiles": [
+              "Ich",
+              "fordere",
+              "beim",
+              "Vermieter",
+              "Einsicht",
+              "in",
+              "die",
+              "Belege"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Zustandspassiv mit sein",
+            "tiles": [
+              "Dieser",
+              "Posten",
+              "ist",
+              "offensichtlich",
+              "falsch",
+              "berechnet"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "note": "Konjunktiv II im Passiv, Nebensatz mit falls",
+            "tiles": [
+              "Falls",
+              "ein",
+              "Fehler",
+              "gefunden",
+              "würde",
+              ",",
+              "müsste",
+              "die",
+              "Abrechnung",
+              "korrigiert",
+              "werden"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Hauptsatz, Verb an Position 2",
+            "tiles": [
+              "Ich",
+              "setze",
+              "dem",
+              "Vermieter",
+              "eine",
+              "angemessene",
+              "Frist"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Wir",
+              "haben",
+              "schon",
+              "einen",
+              "Widerspruch",
+              "eingereicht"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zur Abrechnung bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Die Abrechnung muss innerhalb von 12 Monaten nach Ende des Abrechnungszeitraums vorliegen. — The statement must arrive within 12 months of the end of the billing period.",
+            "why": "So steht es ausdrücklich in den Infos zur Nebenkostenabrechnung."
+          },
+          {
+            "answer": false,
+            "q": "Für einen Widerspruch hat man nach Erhalt der Abrechnung überhaupt keine Frist. — There's no deadline at all for objecting after receiving the statement.",
+            "why": "Es gibt eine Frist von in der Regel weiteren 12 Monaten, nicht gar keine Frist."
+          },
+          {
+            "answer": true,
+            "q": "Belegeinsicht kann kostenlos beim Vermieter verlangt werden. — Access to receipts can be requested from the landlord free of charge.",
+            "why": "„Belegeinsicht: kann kostenlos beim Vermieter verlangt werden.“"
+          },
+          {
+            "answer": false,
+            "q": "Der Verteilerschlüssel darf völlig frei und ohne Regelung im Mietvertrag gewählt werden. — The cost allocation method can be chosen completely freely, without any rule in the lease.",
+            "why": "Er muss im Mietvertrag klar geregelt sein, nicht frei wählbar sein."
+          },
+          {
+            "answer": true,
+            "q": "Eine Nachzahlung muss meist innerhalb von 30 Tagen beglichen werden. — An additional payment must usually be settled within 30 days.",
+            "why": "„Nachzahlung: muss meist innerhalb von 30 Tagen nach Erhalt beglichen werden.“"
+          },
+          {
+            "answer": false,
+            "q": "Bei einer fehlerhaften Abrechnung darf man die Zahlung einfach komplett verweigern, ohne zu widersprechen. — For a faulty statement, you may simply refuse payment entirely without objecting.",
+            "why": "Sie berechtigt zum schriftlichen Widerspruch, nicht zur einfachen Zahlungsverweigerung."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Nebenkostenabrechnung**\n>\n> - **Zustellung:** die Abrechnung muss **innerhalb von 12\n>   Monaten** nach Ende des Abrechnungszeitraums vorliegen.\n> - **Widerspruchsfrist:** in der Regel **weitere 12 Monate**\n>   nach Erhalt der Abrechnung.\n> - **Belegeinsicht:** kann **kostenlos** beim Vermieter\n>   verlangt werden.\n> - **Verteilerschlüssel:** muss im Mietvertrag **klar\n>   geregelt** sein.\n> - **Nachzahlung:** muss meist **innerhalb von 30 Tagen**\n>   nach Erhalt beglichen werden.\n> - **Fehlerhafte Abrechnung:** berechtigt zum **schriftlichen\n>   Widerspruch**, nicht zur einfachen Zahlungsverweigerung.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zur Nebenkostenabrechnung lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach abwarten, ohne weiter zu handeln."
+              },
+              {
+                "key": "b",
+                "text": "Eine erneute Frist setzen und den Mieterverein einschalten."
+              },
+              {
+                "key": "c",
+                "text": "Sofort ausziehen, ohne etwas zu unternehmen."
+              }
+            ],
+            "q": "Der Vermieter reagiert nicht auf den schriftlichen Widerspruch. — The landlord doesn't respond to the written objection.",
+            "why": "Eine erneute Frist mit Unterstützung des Mietervereins erhöht den Druck sachlich."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Verweigerung einfach hinnehmen."
+              },
+              {
+                "key": "b",
+                "text": "Auf jede weitere Nachfrage verzichten."
+              },
+              {
+                "key": "c",
+                "text": "Freundlich, aber bestimmt auf das gesetzliche Recht auf Belegeinsicht hinweisen."
+              }
+            ],
+            "q": "Die Belegeinsicht wird verweigert. — Access to the receipts is refused.",
+            "why": "Ein Hinweis auf das gesetzliche Recht klärt die Sache meist schnell."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Berechnung schriftlich mit konkreten Zahlen anfechten."
+              },
+              {
+                "key": "b",
+                "text": "Den Fehler kommentarlos akzeptieren."
+              },
+              {
+                "key": "c",
+                "text": "Sich nur mündlich beschweren, ohne Zahlen zu nennen."
+              }
+            ],
+            "q": "Der Verteilerschlüssel wurde offensichtlich falsch angewendet. — The cost allocation was clearly applied incorrectly.",
+            "why": "Konkrete Zahlen im schriftlichen Widerspruch machen den Fehler eindeutig nachweisbar."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Gar nichts zahlen, bis der Widerspruch geklärt ist."
+              },
+              {
+                "key": "b",
+                "text": "Die strittige Summe vorläufig unter Vorbehalt zahlen."
+              },
+              {
+                "key": "c",
+                "text": "Die volle Summe kommentarlos überweisen und den Widerspruch fallen lassen."
+              }
+            ],
+            "q": "Die Nachzahlungsfrist ist schon fast abgelaufen, aber der Widerspruch läuft noch. — The deadline for the payment is almost over, but the objection is still pending.",
+            "why": "Eine Zahlung unter Vorbehalt schützt vor einem Verzug, ohne den Widerspruch aufzugeben."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Fehler einfach ignorieren, weil es schon fast zu spät ist."
+              },
+              {
+                "key": "b",
+                "text": "Bis zum letzten Tag warten, ohne zu handeln."
+              },
+              {
+                "key": "c",
+                "text": "Sofort schriftlich und fristwahrend widersprechen."
+              }
+            ],
+            "q": "Man entdeckt den Fehler erst kurz vor Ablauf der Widerspruchsfrist. — The error is discovered only shortly before the objection deadline expires.",
+            "why": "Ein sofortiger, fristwahrender Widerspruch sichert das Recht auf Korrektur."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Mit dieser Bestätigung erneut beim Vermieter vorstellig werden."
+              },
+              {
+                "key": "b",
+                "text": "Die Bestätigung einfach zu den Akten legen, ohne etwas zu tun."
+              },
+              {
+                "key": "c",
+                "text": "Trotz der Bestätigung nichts weiter unternehmen."
+              }
+            ],
+            "q": "Der Mieterverein bestätigt, dass die Abrechnung tatsächlich fehlerhaft ist. — The tenants' association confirms that the statement is indeed incorrect.",
+            "why": "Die Bestätigung des Mietervereins stärkt die Position gegenüber dem Vermieter erheblich."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn bei der Nebenkostenabrechnung etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "geantwortet"
+          ],
+          "2": [
+            "verweigert"
+          ],
+          "3": [
+            "angewendet"
+          ],
+          "4": [
+            "bezahlt"
+          ],
+          "5": [
+            "widersprochen"
+          ],
+          "6": [
+            "bestätigt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Vermieter hat auf den Widerspruch nicht {1}. (nicht geantwortet, Partizip)\n2. Die Belegeinsicht wurde uns {2}. (nicht gewährt, Partizip)\n3. Der Verteilerschlüssel wurde offensichtlich falsch {3}. (eingesetzt, Partizip)\n4. Wir haben die strittige Summe vorläufig unter Vorbehalt {4}. (bezahlt, Partizip)\n5. Wir haben rechtzeitig fristwahrend {5}. (widersprochen, Partizip)\n6. Der Mieterverein hat den Fehler {6}. (als richtig bestätigt, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "kann"
+          ],
+          "2": [
+            "Könnten"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Nebenkostenabrechnung"
+          ],
+          "5": [
+            "Abrechnungszeitraum"
+          ],
+          "6": [
+            "Betriebskosten"
+          ],
+          "7": [
+            "Verteilerschlüssel"
+          ],
+          "8": [
+            "Nachzahlung"
+          ],
+          "9": [
+            "Guthaben"
+          ],
+          "10": [
+            "geantwortet"
+          ],
+          "11": [
+            "verweigert"
+          ],
+          "12": [
+            "angewendet"
+          ],
+          "13": [
+            "bezahlt"
+          ],
+          "14": [
+            "widersprochen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} der Abrechnung widersprechen. (can — können)\n2. {2} Sie mir Einsicht in die Belege gewähren? (could — können)\n3. Ich {3} schon alle Posten geprüft. (have — Perfekt)\n4. Einmal im Jahr bekommen wir die {4}. (utility bill statement)\n5. Die Abrechnung bezieht sich auf einen {5}. (billing period)\n6. Zu den {6} zählen Wasser und Müllabfuhr. (operating costs)\n7. Der {7} bestimmt die Kostenverteilung. (cost allocation method)\n8. Wurde zu wenig gezahlt, folgt eine {8}. (additional payment)\n9. Wurde zu viel gezahlt, bekommt man ein {9}. (credit balance)\n10. Der Vermieter hat auf den Widerspruch nicht {10}. (responded — Partizip)\n11. Die Belegeinsicht wurde uns {11}. (denied — Partizip)\n12. Der Verteilerschlüssel wurde falsch {12}. (applied — Partizip)\n13. Wir haben die Summe unter Vorbehalt {13}. (paid — Partizip)\n14. Wir haben rechtzeitig fristwahrend {14}. (objected — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-73-nebenkostenabrechnung-b2",
+  "intro": "Einmal im Jahr flattert die Nebenkostenabrechnung ins Haus — und nicht selten steckt ein Fehler im Verteilerschlüssel oder in der berechneten Nachzahlung. Dieses Set übt genau das: die Abrechnung Punkt für Punkt prüfen, Belegeinsicht verlangen, schriftlich widersprechen, und was zu tun ist, wenn der Vermieter nicht reagiert oder die Widerspruchsfrist knapp wird. Grammatik nach Bedarf: Passiv und Konjunktiv II, Perfekt im Bericht, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/73-nebenkostenabrechnung-b2",
+  "level": "B2",
+  "summary": "Die Nebenkostenabrechnung prüfen, Belegeinsicht verlangen, einen Fehler im Verteilerschlüssel anfechten — und was tun, wenn der Vermieter nicht reagiert oder die Frist knapp wird.",
+  "title": "Nebenkostenabrechnung prüfen und widersprechen — B2",
+  "topic": "Nebenkostenabrechnung prüfen und widersprechen"
+}

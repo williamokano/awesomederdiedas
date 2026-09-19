@@ -1,0 +1,709 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "der Mann (stark)",
+          "der Junge (schwach)",
+          "der Student (schwach)"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "der Mann"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "der Junge"
+                ],
+                "gap": 2
+              },
+              {
+                "answer": [
+                  "der Student"
+                ],
+                "gap": 3
+              }
+            ],
+            "label": "Nom."
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "den Mann"
+                ],
+                "gap": 4
+              },
+              {
+                "answer": [
+                  "den Jungen"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "den Studenten"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "Akk."
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "dem Mann"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "dem Jungen"
+                ],
+                "gap": 8
+              },
+              {
+                "answer": [
+                  "dem Studenten"
+                ],
+                "gap": 9
+              }
+            ],
+            "label": "Dat."
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "des Mannes"
+                ],
+                "gap": 10
+              },
+              {
+                "answer": [
+                  "des Jungen"
+                ],
+                "gap": 11
+              },
+              {
+                "answer": [
+                  "des Studenten"
+                ],
+                "gap": 12
+              }
+            ],
+            "label": "Gen."
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die Tabelle. 'der Junge' und 'der Student' sind schwache Nomen.",
+      "instructionsEn": "Complete the table. der Junge and der Student are weak nouns — they add -n/-en in every case except Nominativ Singular.",
+      "skill": "case-endings",
+      "title": "Stark vs. schwach: der Mann, der Junge, der Student"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "des"
+          ],
+          "2": [
+            "der"
+          ],
+          "3": [
+            "der"
+          ],
+          "4": [
+            "des"
+          ],
+          "5": [
+            "des"
+          ],
+          "6": [
+            "der"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Trotz {1} Regens gehen wir spazieren.\n2. Er kommt nicht zur Arbeit wegen {2} Kinder.\n3. Während {3} Woche arbeite ich viel.\n4. Statt {4} Autos nehmen wir den Bus.\n5. Trotz {5} schlechten Wetters findet das Fest statt.\n6. Wegen {6} Verspätung fiel der Termin aus.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze den richtigen Genitiv-Artikel.",
+      "instructionsEn": "Fill in the correct Genitiv article after the preposition.",
+      "skill": "case-endings",
+      "title": "Genitiv-Präpositionen: wegen, trotz, während, statt"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "einen Studenten"
+          ],
+          "2": [
+            "dem Studenten"
+          ],
+          "3": [
+            "den Jungen"
+          ],
+          "4": [
+            "dem Jungen"
+          ],
+          "5": [
+            "den Kunden"
+          ],
+          "6": [
+            "dem Kunden"
+          ],
+          "7": [
+            "den Nachbarn"
+          ],
+          "8": [
+            "dem Nachbarn"
+          ]
+        },
+        "bank": [
+          "einen Studenten",
+          "dem Studenten",
+          "den Jungen",
+          "dem Jungen",
+          "den Kunden",
+          "dem Kunden",
+          "den Nachbarn",
+          "dem Nachbarn"
+        ],
+        "text": "An der Universität treffe ich oft {1}. Der Professor spricht mit\n{2} über die Prüfung. Ich kenne {3} aus meinem Deutschkurs schon\nlange. Wir helfen {4} bei den Hausaufgaben. Der Verkäufer begrüßt\n{5} freundlich. Er zeigt {6} die neuen Produkte. Meine Nachbarin\nkennt {7} von gegenüber gut. Sie spricht oft mit {8} über die\nGartenarbeit.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box.",
+      "title": "Lückentext: schwache Nomen im Alltag"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wegen"
+              },
+              {
+                "key": "b",
+                "text": "Während"
+              },
+              {
+                "key": "c",
+                "text": "Statt"
+              }
+            ],
+            "q": "___ des Streiks fahren keine Züge.",
+            "why": "Der Streik ist der Grund → wegen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wegen"
+              },
+              {
+                "key": "b",
+                "text": "Während"
+              },
+              {
+                "key": "c",
+                "text": "Trotz"
+              }
+            ],
+            "q": "___ der Ferien bleibt die Schule geschlossen.",
+            "why": "Zeitraum → während."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wegen"
+              },
+              {
+                "key": "b",
+                "text": "Trotz"
+              },
+              {
+                "key": "c",
+                "text": "Statt"
+              }
+            ],
+            "q": "___ des schlechten Wetters spielen wir draußen.",
+            "why": "Gegensatz (schlechtes Wetter, aber wir spielen trotzdem draußen) → trotz."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "statt"
+              },
+              {
+                "key": "b",
+                "text": "wegen"
+              },
+              {
+                "key": "c",
+                "text": "trotz"
+              }
+            ],
+            "q": "Ich nehme Tee ___ Kaffees.",
+            "why": "Ersatz (Tee anstelle von Kaffee) → statt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wegen"
+              },
+              {
+                "key": "b",
+                "text": "Statt"
+              },
+              {
+                "key": "c",
+                "text": "Trotz"
+              }
+            ],
+            "q": "___ ihrer Erkältung geht sie nicht zur Arbeit.",
+            "why": "Grund → wegen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wegen"
+              },
+              {
+                "key": "b",
+                "text": "Während"
+              },
+              {
+                "key": "c",
+                "text": "Trotz"
+              }
+            ],
+            "q": "___ des Lärms konnte ich gut schlafen.",
+            "why": "Gegensatz (Lärm, aber ich konnte trotzdem schlafen) → trotz."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Welche Präposition passt?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "der Kunde"
+              },
+              {
+                "key": "b",
+                "text": "den Kunden"
+              },
+              {
+                "key": "c",
+                "text": "dem Kunden"
+              }
+            ],
+            "q": "Der Bäcker begrüßt ___ freundlich, als er den Laden betritt.",
+            "why": "begrüßen + Akkusativ, schwacher Nomen → den Kunden."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "dem Kunden"
+              },
+              {
+                "key": "b",
+                "text": "der Kunde"
+              },
+              {
+                "key": "c",
+                "text": "den Kunden"
+              }
+            ],
+            "q": "Er zeigt ___ die frischen Brötchen.",
+            "why": "zeigen + Dativ, schwacher Nomen → dem Kunden."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "dem"
+              },
+              {
+                "key": "c",
+                "text": "des"
+              }
+            ],
+            "q": "Trotz ___ Regens kommen viele Kunden.",
+            "why": "Genitiv maskulin → des."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "den Jungen"
+              },
+              {
+                "key": "b",
+                "text": "der Junge"
+              },
+              {
+                "key": "c",
+                "text": "dem Jungen"
+              }
+            ],
+            "q": "Ein Junge steht auch in der Schlange. Der Bäcker kennt ___ gut.",
+            "why": "kennen + Akkusativ, schwacher Nomen → den Jungen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "der Junge"
+              },
+              {
+                "key": "b",
+                "text": "den Jungen"
+              },
+              {
+                "key": "c",
+                "text": "dem Jungen"
+              }
+            ],
+            "q": "Er gibt ___ ein kostenloses Brötchen.",
+            "why": "geben + Dativ, schwacher Nomen → dem Jungen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "des"
+              },
+              {
+                "key": "c",
+                "text": "dem"
+              }
+            ],
+            "q": "Wegen ___ großen Andrangs muss der Bäcker mehr backen.",
+            "why": "Genitiv maskulin → des."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "des"
+              },
+              {
+                "key": "c",
+                "text": "dem"
+              }
+            ],
+            "q": "Statt ___ Brötchen kauft eine Kundin heute nur Brot.",
+            "why": "Genitiv Plural → der."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "die Kunden"
+              },
+              {
+                "key": "b",
+                "text": "der Kunden"
+              },
+              {
+                "key": "c",
+                "text": "den Kunden"
+              }
+            ],
+            "q": "Am Ende des Tages dankt der Bäcker ___ für ihre Treue.",
+            "why": "danken + Dativ Plural, schwacher Nomen → den Kunden."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct word for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Beim Bäcker"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "EINEN"
+          ],
+          "2": [
+            "DEN"
+          ],
+          "3": [
+            "DEM"
+          ],
+          "4": [
+            "DES"
+          ],
+          "5": [
+            "DES"
+          ],
+          "6": [
+            "DER"
+          ],
+          "7": [
+            "DEN"
+          ],
+          "8": [
+            "DES"
+          ],
+          "9": [
+            "DEM"
+          ],
+          "10": [
+            "DER"
+          ]
+        },
+        "bank": [
+          "EINEN",
+          "DEN",
+          "DEM",
+          "DES",
+          "DES",
+          "DER",
+          "DEN",
+          "DES",
+          "DEM",
+          "DER",
+          "EINE",
+          "DAS",
+          "DIE"
+        ],
+        "text": "Seit letzter Woche haben wir {1} neuen Nachbarn. Ich habe {2} neuen\nNachbarn noch nicht persönlich kennengelernt, aber meine Frau hat\nschon mit {3} Nachbarn gesprochen. Wegen {4} Umzugs war viel Lärm\nim Treppenhaus. Trotz {5} lauten Möbelwagen konnten wir kaum\nschlafen. Am nächsten Tag klingelte {6} Nachbar an unserer Tür und\nstellte sich vor. Wir luden {7} Nachbarn zum Kaffee ein. Während\n{8} Gesprächs erfuhren wir, dass er aus Hamburg kommt. Jetzt hilft\nmein Mann {9} Nachbarn manchmal beim Tragen der Kisten. Wegen {10}\nHilfsbereitschaft mögen wir ihn sehr.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Three words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Der neue Nachbar (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "den"
+          ],
+          "2": [
+            "dem"
+          ],
+          "3": [
+            "des"
+          ],
+          "4": [
+            "der"
+          ],
+          "5": [
+            "Der"
+          ],
+          "6": [
+            "den"
+          ],
+          "7": [
+            "des"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Kennst du {1} neuen Studenten?\n2. Ich spreche mit {2} Studenten über das Seminar.\n3. Trotz {3} Regens gehen wir joggen.\n4. Wegen {4} Verspätung verpassen wir den Zug.\n5. {5} Junge spielt im Park.\n6. Ich habe {6} Jungen schon lange nicht gesehen.\n7. Statt {7} Busses nehmen wir das Fahrrad.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze den richtigen Artikel (n-Deklination und Genitiv-Präpositionen).",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "den"
+              },
+              {
+                "key": "c",
+                "text": "dem"
+              }
+            ],
+            "q": "Ich kenne ___ Herrn dort drüben.",
+            "why": "kennen + Akkusativ; Herr ist ein schwacher Nomen → den Herrn."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "den"
+              },
+              {
+                "key": "c",
+                "text": "dem"
+              }
+            ],
+            "q": "Er spricht mit ___ Kollegen über das Projekt.",
+            "why": "mit + Dativ, schwacher Nomen → dem Kollegen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wegen"
+              },
+              {
+                "key": "b",
+                "text": "Während"
+              },
+              {
+                "key": "c",
+                "text": "Statt"
+              }
+            ],
+            "q": "___ des Sturms blieben wir zu Hause.",
+            "why": "Grund → Wegen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "den"
+              },
+              {
+                "key": "c",
+                "text": "dem"
+              }
+            ],
+            "q": "Kennst du ___ neuen Nachbarn?",
+            "why": "kennen + Akkusativ, schwacher Nomen → den Nachbarn."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wegen"
+              },
+              {
+                "key": "b",
+                "text": "Trotz"
+              },
+              {
+                "key": "c",
+                "text": "Statt"
+              }
+            ],
+            "q": "___ ihrer Krankheit kam sie trotzdem zur Arbeit.",
+            "why": "Gegensatz → Trotz."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "den"
+              },
+              {
+                "key": "c",
+                "text": "dem"
+              }
+            ],
+            "q": "Ich habe ___ Kunden schon lange nicht gesehen.",
+            "why": "sehen + Akkusativ, schwacher Nomen → den Kunden."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-03-deklination-b1",
+  "intro": "Standalone drill set, not tied to any lesson. Two pieces on top of the A2 set: the n-Deklination (weak masculine nouns like der Junge, der Student, der Nachbar — they take -n/-en in EVERY case except Nominativ Singular, not just in the Genitiv like normal nouns), and the four classic Genitiv prepositions (wegen, trotz, während, statt). Blocks: A Basistraining (weak nouns, then Genitiv-Präpositionen) → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/03-deklination-b1",
+  "level": "B1",
+  "summary": null,
+  "title": "Genitiv vertieft & die n-Deklination — B1",
+  "topic": "Deklination in allen Fällen (Nominativ, Akkusativ, Dativ, Genitiv)"
+}

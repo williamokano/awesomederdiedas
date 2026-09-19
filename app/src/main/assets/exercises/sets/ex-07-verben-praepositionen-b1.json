@@ -1,0 +1,715 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "Präposition + Fall",
+          "Beispiel"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "für + Akkusativ"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "Ich interessiere mich für Musik."
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "sich interessieren für"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "über + Akkusativ"
+                ],
+                "gap": 3
+              },
+              {
+                "answer": [
+                  "Ich ärgere mich über den Fehler."
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "sich ärgern über"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "vor + Dativ"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "Ich habe Angst vor Spinnen."
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "Angst haben vor"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "von + Dativ"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "Ich träume von einer Reise."
+                ],
+                "gap": 8
+              }
+            ],
+            "label": "träumen von"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "an + Akkusativ"
+                ],
+                "gap": 9
+              },
+              {
+                "answer": [
+                  "Ich erinnere mich an den Urlaub."
+                ],
+                "gap": 10
+              }
+            ],
+            "label": "sich erinnern an"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "an + Dativ"
+                ],
+                "gap": 11
+              },
+              {
+                "answer": [
+                  "Ich nehme an dem Kurs teil."
+                ],
+                "gap": 12
+              }
+            ],
+            "label": "teilnehmen an"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die Präposition (+ Fall) und ein Beispiel.",
+      "instructionsEn": "Fill in the preposition (+ case) and an example.",
+      "title": "Erweiterte Verbliste"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Wovor"
+          ],
+          "2": [
+            "Wovon"
+          ],
+          "3": [
+            "dafür"
+          ],
+          "4": [
+            "darüber"
+          ],
+          "5": [
+            "davor"
+          ],
+          "6": [
+            "davon"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe Angst vor Spinnen. {1} hast du Angst?\n2. Ich träume von einer Reise. {2} träumst du?\n3. Ich interessiere mich für Kunst. Ich interessiere mich {3}.\n4. Ich ärgere mich über den Verkehr. Ich ärgere mich {4}.\n5. Ich habe Angst vor der Prüfung. Ich habe Angst {5}.\n6. Ich träume von einem eigenen Haus. Ich träume {6}.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze das richtige Fragewort oder da(r)-Kompositum.",
+      "instructionsEn": "Fill in the correct question word or da(r)-compound.",
+      "title": "wovor/davor, wovon/davon"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "für"
+          ],
+          "2": [
+            "über"
+          ],
+          "3": [
+            "von"
+          ],
+          "4": [
+            "vor"
+          ],
+          "5": [
+            "an"
+          ],
+          "6": [
+            "an"
+          ],
+          "7": [
+            "auf"
+          ],
+          "8": [
+            "für"
+          ]
+        },
+        "bank": [
+          "für",
+          "über",
+          "von",
+          "vor",
+          "an",
+          "an",
+          "auf",
+          "für",
+          "mit",
+          "bei"
+        ],
+        "text": "Ich interessiere mich sehr {1} Fotografie. Mein Freund ärgert\nsich manchmal {2} meine vielen Fotos. Ich träume {3} einer\neigenen Ausstellung. Manchmal habe ich Angst {4} Kritik. Ich\nerinnere mich gut {5} mein erstes Foto. Nächste Woche nehme ich\n{6} einem Fotokurs teil. Ich freue mich schon {7} den Kurs. Der\nKursleiter interessiert sich auch {8} moderne Kunst.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Mein neues Hobby"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "daran"
+              },
+              {
+                "key": "b",
+                "text": "davon"
+              },
+              {
+                "key": "c",
+                "text": "darüber"
+              }
+            ],
+            "q": "Ich denke an meine Ferien. Ich denke ___.",
+            "why": "denken an → daran."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "daran"
+              },
+              {
+                "key": "b",
+                "text": "davon"
+              },
+              {
+                "key": "c",
+                "text": "darüber"
+              }
+            ],
+            "q": "Ich träume von einem Haus. Ich träume ___.",
+            "why": "träumen von → davon."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "darüber"
+              },
+              {
+                "key": "b",
+                "text": "davor"
+              },
+              {
+                "key": "c",
+                "text": "daran"
+              }
+            ],
+            "q": "Ich habe Angst vor der Prüfung. Ich habe Angst ___.",
+            "why": "Angst haben vor → davor."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "darüber"
+              },
+              {
+                "key": "b",
+                "text": "davor"
+              },
+              {
+                "key": "c",
+                "text": "daran"
+              }
+            ],
+            "q": "Wir sprechen über das Wetter. Wir sprechen ___.",
+            "why": "sprechen über → darüber."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "davor"
+              },
+              {
+                "key": "b",
+                "text": "dafür"
+              },
+              {
+                "key": "c",
+                "text": "daran"
+              }
+            ],
+            "q": "Ich interessiere mich für Musik. Ich interessiere mich ___.",
+            "why": "sich interessieren für → dafür."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "davon"
+              },
+              {
+                "key": "b",
+                "text": "darauf"
+              },
+              {
+                "key": "c",
+                "text": "davor"
+              }
+            ],
+            "q": "Ich warte auf die Antwort. Ich warte ___.",
+            "why": "warten auf → darauf."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Akkusativ- oder Dativ-Kompositum?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "für"
+              },
+              {
+                "key": "b",
+                "text": "an"
+              },
+              {
+                "key": "c",
+                "text": "über"
+              }
+            ],
+            "q": "Ich interessiere mich seit Kurzem ___ Yoga.",
+            "why": "sich interessieren für."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "für"
+              },
+              {
+                "key": "b",
+                "text": "an"
+              },
+              {
+                "key": "c",
+                "text": "über"
+              }
+            ],
+            "q": "Meine Familie ärgert sich manchmal ___ meine neue Leidenschaft.",
+            "why": "sich ärgern über."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "an"
+              },
+              {
+                "key": "b",
+                "text": "von"
+              },
+              {
+                "key": "c",
+                "text": "über"
+              }
+            ],
+            "q": "Ich träume schon ___ einem eigenen Yogastudio.",
+            "why": "träumen von."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "an"
+              },
+              {
+                "key": "b",
+                "text": "vor"
+              },
+              {
+                "key": "c",
+                "text": "über"
+              }
+            ],
+            "q": "Am Anfang hatte ich Angst ___ den schwierigen Übungen.",
+            "why": "Angst haben vor."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "von"
+              },
+              {
+                "key": "b",
+                "text": "vor"
+              },
+              {
+                "key": "c",
+                "text": "an"
+              }
+            ],
+            "q": "Jetzt erinnere ich mich kaum noch ___ diese Angst.",
+            "why": "sich erinnern an."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "an"
+              },
+              {
+                "key": "b",
+                "text": "für"
+              },
+              {
+                "key": "c",
+                "text": "von"
+              }
+            ],
+            "q": "Nächsten Monat nehme ich ___ einem Yoga-Retreat teil.",
+            "why": "teilnehmen an."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "über"
+              },
+              {
+                "key": "b",
+                "text": "auf"
+              },
+              {
+                "key": "c",
+                "text": "an"
+              }
+            ],
+            "q": "Ich freue mich schon sehr ___ das Retreat.",
+            "why": "sich freuen auf (Zukunft)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "an"
+              },
+              {
+                "key": "b",
+                "text": "über"
+              },
+              {
+                "key": "c",
+                "text": "für"
+              }
+            ],
+            "q": "Meine Lehrerin interessiert sich auch ___ Meditation.",
+            "why": "sich interessieren für."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct preposition for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Ein neues Hobby"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "FÜR"
+          ],
+          "2": [
+            "WOFÜR"
+          ],
+          "3": [
+            "DAFÜR"
+          ],
+          "4": [
+            "ÜBER"
+          ],
+          "5": [
+            "VON"
+          ],
+          "6": [
+            "WOVON"
+          ],
+          "7": [
+            "AN"
+          ],
+          "8": [
+            "VOR"
+          ],
+          "9": [
+            "WOVOR"
+          ],
+          "10": [
+            "AN"
+          ]
+        },
+        "bank": [
+          "FÜR",
+          "WOFÜR",
+          "DAFÜR",
+          "ÜBER",
+          "VON",
+          "WOVON",
+          "AN",
+          "VOR",
+          "WOVOR",
+          "AN",
+          "MIT",
+          "BEI",
+          "DAMIT"
+        ],
+        "text": "Ich interessiere mich {1} Fotografie. Mein Kursleiter fragt: „{2}\ninteressierst du dich am meisten?\" Ich antworte: „Ich\ninteressiere mich {3} Naturfotos.\" Manchmal ärgere ich mich {4}\nmeine eigenen Fehler. Ich träume {5} einer professionellen\nKamera. „{6} träumst du?\", fragt mein Freund. Ich erinnere mich\nnoch gut {7} meinen ersten Kurs. Ich hatte damals Angst {8} den\nanderen Teilnehmern. „{9} hattest du Angst?\", fragt er. Heute\nnehme ich gerne {10} jedem Kurs teil.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Three words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Der Fotokurs (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Wovor"
+          ],
+          "2": [
+            "dafür"
+          ],
+          "3": [
+            "davon"
+          ],
+          "4": [
+            "darüber"
+          ],
+          "5": [
+            "daran"
+          ],
+          "6": [
+            "daran"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe Angst vor Prüfungen. {1} hast du Angst?\n2. Ich interessiere mich für Sprachen. Ich interessiere mich {2}.\n3. Er träumt von einer Weltreise. Er träumt {3}.\n4. Sie ärgert sich über den Stau. Sie ärgert sich {4}.\n5. Wir nehmen an einem Projekt teil. Wir nehmen {5} teil.\n6. Ich erinnere mich an meine Kindheit. Ich erinnere mich {6}.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze das richtige Fragewort oder da(r)-Kompositum.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "dafür"
+              },
+              {
+                "key": "b",
+                "text": "davor"
+              },
+              {
+                "key": "c",
+                "text": "daran"
+              }
+            ],
+            "q": "Ich interessiere mich für Kunst. Ich interessiere mich ___.",
+            "why": "sich interessieren für → dafür."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "daran"
+              },
+              {
+                "key": "b",
+                "text": "davor"
+              },
+              {
+                "key": "c",
+                "text": "darüber"
+              }
+            ],
+            "q": "Sie hat Angst vor Hunden. Sie hat Angst ___.",
+            "why": "Angst haben vor → davor."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "daran"
+              },
+              {
+                "key": "b",
+                "text": "davon"
+              },
+              {
+                "key": "c",
+                "text": "darüber"
+              }
+            ],
+            "q": "Wir träumen von einem Haus am Meer. Wir träumen ___.",
+            "why": "träumen von → davon."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "darüber"
+              },
+              {
+                "key": "b",
+                "text": "davor"
+              },
+              {
+                "key": "c",
+                "text": "dafür"
+              }
+            ],
+            "q": "Ich ärgere mich über die Verspätung. Ich ärgere mich ___.",
+            "why": "sich ärgern über → darüber."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wovon"
+              },
+              {
+                "key": "b",
+                "text": "Woran"
+              },
+              {
+                "key": "c",
+                "text": "Wofür"
+              }
+            ],
+            "q": "Er nimmt an einem Kurs teil. ___ nimmt er teil?",
+            "why": "teilnehmen an → Woran."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "daran"
+              },
+              {
+                "key": "b",
+                "text": "davon"
+              },
+              {
+                "key": "c",
+                "text": "darüber"
+              }
+            ],
+            "q": "Ich erinnere mich an den Tag genau. Ich erinnere mich genau ___.",
+            "why": "sich erinnern an → daran."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-07-verben-praepositionen-b1",
+  "intro": "Standalone drill set, not tied to any lesson. Builds on the A2 set with more fixed-preposition verbs — including ones that take a Dativ preposition (Angst haben VOR, träumen VON) rather than Akkusativ — and the matching da(r)-/wo(r)- compounds: wovor/davor, wovon/davon, alongside worüber/darüber and wofür/dafür from before. The rule is the same regardless of case: a compound only replaces a THING, never a person. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/07-verben-praepositionen-b1",
+  "level": "B1",
+  "summary": null,
+  "title": "Erweiterte Verbliste & da-/wo-Komposita — B1",
+  "topic": "Verben mit Kasus und Präpositionen"
+}

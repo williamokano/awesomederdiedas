@@ -1,0 +1,720 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "machen (schwach)",
+          "gehen (stark)"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "machte"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "ging"
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "ich"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "machtest"
+                ],
+                "gap": 3
+              },
+              {
+                "answer": [
+                  "gingst"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "du"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "machte"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "ging"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "er/sie/es"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "machten"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "gingen"
+                ],
+                "gap": 8
+              }
+            ],
+            "label": "wir"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "machtet"
+                ],
+                "gap": 9
+              },
+              {
+                "answer": [
+                  "gingt"
+                ],
+                "gap": 10
+              }
+            ],
+            "label": "ihr"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "machten"
+                ],
+                "gap": 11
+              },
+              {
+                "answer": [
+                  "gingen"
+                ],
+                "gap": 12
+              }
+            ],
+            "label": "sie/Sie"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die Tabelle.",
+      "instructionsEn": "Complete the table.",
+      "skill": "conjugation",
+      "title": "machen (schwach) vs. gehen (stark)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "war"
+          ],
+          "2": [
+            "hatten"
+          ],
+          "3": [
+            "wurde"
+          ],
+          "4": [
+            "waren"
+          ],
+          "5": [
+            "hattest"
+          ],
+          "6": [
+            "wurde"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} gestern sehr müde.\n2. Wir {2} keine Zeit.\n3. Er {3} Arzt.\n4. Die Kinder {4} im Garten.\n5. Du {5} recht.\n6. Das Wetter {6} plötzlich schlecht.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze war, hatte oder wurde in der richtigen Form.",
+      "instructionsEn": "Fill in the correct Präteritum form of sein, haben, or werden.",
+      "skill": "conjugation",
+      "title": "sein, haben, werden im Präteritum"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "spielte"
+          ],
+          "2": [
+            "hatte"
+          ],
+          "3": [
+            "gingen"
+          ],
+          "4": [
+            "kochte"
+          ],
+          "5": [
+            "las"
+          ],
+          "6": [
+            "blieb"
+          ],
+          "7": [
+            "dachten"
+          ],
+          "8": [
+            "kamen"
+          ]
+        },
+        "bank": [
+          "spielte",
+          "hatte",
+          "gingen",
+          "kochte",
+          "las",
+          "blieb",
+          "dachten",
+          "kamen",
+          "wurde",
+          "war"
+        ],
+        "text": "Als Kind {1} ich oft im Park. Ich {2} viele Freunde. Wir {3}\nzusammen ins Schwimmbad. Meine Mutter {4} immer für uns. Ich {5}\ngern Comics. Mein Bruder {6} lieber draußen. Wir {7} viel über\ndie Welt. Manchmal {8} wir spät ins Bett.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Meine Kindheit"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "fuhr"
+              },
+              {
+                "key": "b",
+                "text": "fahrte"
+              },
+              {
+                "key": "c",
+                "text": "fahrete"
+              }
+            ],
+            "q": "fahren → ich ___",
+            "why": "fahren: starkes Verb → fuhr, kein -te."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sehtest"
+              },
+              {
+                "key": "b",
+                "text": "sahst"
+              },
+              {
+                "key": "c",
+                "text": "sehst"
+              }
+            ],
+            "q": "sehen → du ___",
+            "why": "sehen: starkes Verb → sahst."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "esste"
+              },
+              {
+                "key": "b",
+                "text": "essete"
+              },
+              {
+                "key": "c",
+                "text": "aß"
+              }
+            ],
+            "q": "essen → er ___",
+            "why": "essen: starkes Verb → aß, kein -te und keine Endung in er/sie/es."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "trunken"
+              },
+              {
+                "key": "b",
+                "text": "tranken"
+              },
+              {
+                "key": "c",
+                "text": "trinkten"
+              }
+            ],
+            "q": "trinken → wir ___",
+            "why": "trinken: starkes Verb → tranken."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "schreibtet"
+              },
+              {
+                "key": "b",
+                "text": "schribt"
+              },
+              {
+                "key": "c",
+                "text": "schriebt"
+              }
+            ],
+            "q": "schreiben → ihr ___",
+            "why": "schreiben: starkes Verb → schriebt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sprechten"
+              },
+              {
+                "key": "b",
+                "text": "sprachen"
+              },
+              {
+                "key": "c",
+                "text": "sprochen"
+              }
+            ],
+            "q": "sprechen → sie (Plural) ___",
+            "why": "sprechen: starkes Verb → sprachen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Der Vokalwechsel bei starken Verben"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "war"
+              },
+              {
+                "key": "b",
+                "text": "wurde"
+              },
+              {
+                "key": "c",
+                "text": "hatte"
+              }
+            ],
+            "q": "Es ___ einmal eine Prinzessin.",
+            "why": "es war einmal: die klassische Märchenformel."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wohnte"
+              },
+              {
+                "key": "b",
+                "text": "wohnen"
+              },
+              {
+                "key": "c",
+                "text": "wohnt"
+              }
+            ],
+            "q": "Sie ___ in einem großen Schloss.",
+            "why": "wohnen: schwaches Verb → wohnte."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "gehte"
+              },
+              {
+                "key": "b",
+                "text": "ging"
+              },
+              {
+                "key": "c",
+                "text": "gang"
+              }
+            ],
+            "q": "Eines Tages ___ sie in den Wald.",
+            "why": "gehen: starkes Verb → ging."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "traf"
+              },
+              {
+                "key": "b",
+                "text": "treffte"
+              },
+              {
+                "key": "c",
+                "text": "trifte"
+              }
+            ],
+            "q": "Dort ___ sie einen Wolf.",
+            "why": "treffen: starkes Verb → traf."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "hatte"
+              },
+              {
+                "key": "b",
+                "text": "wurde"
+              },
+              {
+                "key": "c",
+                "text": "war"
+              }
+            ],
+            "q": "Der Wolf ___ sehr hungrig.",
+            "why": "Zustand → war."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "hatte"
+              },
+              {
+                "key": "b",
+                "text": "war"
+              },
+              {
+                "key": "c",
+                "text": "wurde"
+              }
+            ],
+            "q": "Die Prinzessin ___ Angst.",
+            "why": "Angst haben → hatte."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "kamte"
+              },
+              {
+                "key": "b",
+                "text": "kam"
+              },
+              {
+                "key": "c",
+                "text": "kommte"
+              }
+            ],
+            "q": "Zum Glück ___ ein Jäger vorbei.",
+            "why": "kommen: starkes Verb → kam."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "war"
+              },
+              {
+                "key": "b",
+                "text": "wurde"
+              },
+              {
+                "key": "c",
+                "text": "hatte"
+              }
+            ],
+            "q": "Am Ende ___ alles gut.",
+            "why": "es wurde gut: Veränderung/Ergebnis → wurde."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct Präteritum form for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Ein Märchen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "LERNTEN"
+          ],
+          "2": [
+            "WAREN"
+          ],
+          "3": [
+            "ARBEITETE"
+          ],
+          "4": [
+            "WURDE"
+          ],
+          "5": [
+            "BEKAMEN"
+          ],
+          "6": [
+            "WAR"
+          ],
+          "7": [
+            "ARBEITETEN"
+          ],
+          "8": [
+            "WAREN"
+          ],
+          "9": [
+            "VERLOREN"
+          ],
+          "10": [
+            "HATTEN"
+          ]
+        },
+        "bank": [
+          "LERNTEN",
+          "WAREN",
+          "ARBEITETE",
+          "WURDE",
+          "BEKAMEN",
+          "WAR",
+          "ARBEITETEN",
+          "WAREN",
+          "VERLOREN",
+          "HATTEN",
+          "HATTE",
+          "WURDEN",
+          "GING"
+        ],
+        "text": "Meine Großeltern {1} sich 1960 kennen. Sie {2} beide sehr jung.\nMein Großvater {3} als Lehrer. Meine Großmutter {4}\nKrankenschwester. Sie {5} drei Kinder. Das Leben {6} nicht immer\nleicht. Sie {7} hart für ihre Familie. Trotzdem {8} sie\nglücklich. Sie {9} nie den Mut. Am Ende {10} sie ein erfülltes\nLeben.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Three words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Die Geschichte meiner Großeltern (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "war"
+          ],
+          "2": [
+            "aßen"
+          ],
+          "3": [
+            "schmeckte"
+          ],
+          "4": [
+            "fuhren"
+          ],
+          "5": [
+            "machte"
+          ],
+          "6": [
+            "war"
+          ],
+          "7": [
+            "planten"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} letztes Jahr in Italien. (sein)\n2. Wir {2} viel Pasta. (essen)\n3. Das Essen {3} sehr gut. (schmecken)\n4. Wir {4} jeden Tag ans Meer. (fahren)\n5. Ich {5} viele Fotos. (machen)\n6. Am Ende {6} ich traurig, dass es vorbei war. (sein)\n7. Wir {7} bald wiederzukommen. (planen)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze das Verb im Präteritum.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "war"
+              },
+              {
+                "key": "b",
+                "text": "wurde"
+              },
+              {
+                "key": "c",
+                "text": "hatte"
+              }
+            ],
+            "q": "Gestern ___ ich sehr beschäftigt.",
+            "why": "Zustand → war."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "gabte"
+              },
+              {
+                "key": "b",
+                "text": "gab"
+              },
+              {
+                "key": "c",
+                "text": "gebte"
+              }
+            ],
+            "q": "Er ___ mir ein Geschenk.",
+            "why": "geben: starkes Verb → gab."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "wartten"
+              },
+              {
+                "key": "b",
+                "text": "wartet"
+              },
+              {
+                "key": "c",
+                "text": "warteten"
+              }
+            ],
+            "q": "Wir ___ lange auf den Bus.",
+            "why": "warten: schwaches Verb → warteten."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "wurde"
+              },
+              {
+                "key": "b",
+                "text": "hatte"
+              },
+              {
+                "key": "c",
+                "text": "war"
+              }
+            ],
+            "q": "Sie öffnete das Fenster, weil es ihr zu warm ___.",
+            "why": "Zustand → war."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "wisste"
+              },
+              {
+                "key": "b",
+                "text": "wusste"
+              },
+              {
+                "key": "c",
+                "text": "wusstete"
+              }
+            ],
+            "q": "Ich ___ nicht, was ich sagen sollte.",
+            "why": "wissen: gemischtes Verb (Vokalwechsel + -te) → wusste."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "spielen"
+              },
+              {
+                "key": "b",
+                "text": "spielt"
+              },
+              {
+                "key": "c",
+                "text": "spielten"
+              }
+            ],
+            "q": "Die Kinder ___ im Garten.",
+            "why": "spielen: schwaches Verb → spielten."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-09-praeteritum-b1",
+  "intro": "Standalone drill set, not tied to any lesson. Präteritum is the written/narrative past — the register of stories, news, and books (Perfekt is the spoken register for everyday conversation, drilled separately in the Perfekt sein/haben set). Schwache Verben just add -te + endings (machen -> machte). Starke Verben change their stem vowel and take NO ending in ich/er-sie-es (gehen -> ging, not gingte) — and the vowel change doesn't follow a rule, so the strong forms have to be memorized one by one. A handful of mixed verbs do both (denken -> dachte). Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/09-praeteritum-b1",
+  "level": "B1",
+  "summary": null,
+  "title": "Präteritum der starken und schwachen Verben — B1",
+  "topic": "Präteritum (die geschriebene Vergangenheit)"
+}

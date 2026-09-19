@@ -1,0 +1,836 @@
+{
+  "category": "Sport & Gesundheit",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "notruf",
+            "label": "112 — Rettungsdienst"
+          },
+          {
+            "key": "bereitschaft",
+            "label": "116 117 — Bereitschaftsdienst"
+          },
+          {
+            "key": "praxis",
+            "label": "Kann bis zum Termin warten"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "notruf",
+            "text": "plötzliche Atemnot"
+          },
+          {
+            "bucket": "bereitschaft",
+            "text": "hohes Fieber am Sonntag"
+          },
+          {
+            "bucket": "praxis",
+            "text": "seit Wochen Rückenschmerzen"
+          },
+          {
+            "bucket": "notruf",
+            "text": "Verdacht auf Herzinfarkt"
+          },
+          {
+            "bucket": "bereitschaft",
+            "text": "starke Ohrenschmerzen nachts"
+          },
+          {
+            "bucket": "praxis",
+            "text": "eine Überweisung brauchen"
+          },
+          {
+            "bucket": "notruf",
+            "text": "bewusstlose Person"
+          },
+          {
+            "bucket": "bereitschaft",
+            "text": "Rezept dringend nachgefragt"
+          },
+          {
+            "bucket": "praxis",
+            "text": "Kontrolle nach der Reha"
+          },
+          {
+            "bucket": "notruf",
+            "text": "starke Blutung nach Sturz"
+          },
+          {
+            "bucket": "bereitschaft",
+            "text": "Magen-Darm am Feiertag"
+          },
+          {
+            "bucket": "praxis",
+            "text": "Impfung auffrischen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Situationen.",
+      "instructionsEn": "Sort the 12 situations.",
+      "title": "Wohin gehört der Fall?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Leitstelle"
+          },
+          {
+            "key": "2",
+            "text": "die Triage"
+          },
+          {
+            "key": "3",
+            "text": "der Bereitschaftsdienst"
+          },
+          {
+            "key": "4",
+            "text": "die Erstversorgung"
+          },
+          {
+            "key": "5",
+            "text": "die stationäre Aufnahme"
+          },
+          {
+            "key": "6",
+            "text": "der Entlassungsbrief"
+          },
+          {
+            "key": "7",
+            "text": "die Wiederbelebung"
+          },
+          {
+            "key": "8",
+            "text": "die Patientenverfügung"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die Stelle, die den Notruf annimmt und den Wagen schickt"
+          },
+          {
+            "key": "b",
+            "text": "die Einteilung nach Dringlichkeit, nicht nach Ankunft"
+          },
+          {
+            "key": "c",
+            "text": "die ärztliche Versorgung außerhalb der Praxiszeiten"
+          },
+          {
+            "key": "d",
+            "text": "die erste Behandlung direkt nach der Ankunft"
+          },
+          {
+            "key": "e",
+            "text": "wenn man zur Behandlung im Krankenhaus bleibt"
+          },
+          {
+            "key": "f",
+            "text": "das Schreiben mit Diagnose und Empfehlungen für danach"
+          },
+          {
+            "key": "g",
+            "text": "Herzdruckmassage, bis der Rettungsdienst da ist"
+          },
+          {
+            "key": "h",
+            "text": "das Dokument, in dem steht, was medizinisch gewünscht ist"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "ist"
+          ],
+          "2": [
+            "gestürzt"
+          ],
+          "3": [
+            "war"
+          ],
+          "4": [
+            "ist"
+          ],
+          "5": [
+            "kann"
+          ],
+          "6": [
+            "wurde"
+          ],
+          "7": [
+            "ist"
+          ],
+          "8": [
+            "eingetroffen"
+          ],
+          "9": [
+            "wurde"
+          ],
+          "10": [
+            "gebracht"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Meine Nachbarin {1} auf der Treppe {2}. (stürzen, Perfekt)\n2. Sie {3} kurz bewusstlos. (sein, Präteritum)\n3. Sie {4} wieder ansprechbar, aber sie {5} sich nicht bewegen. (sein, Präsens / können, Präsens)\n4. Der Notruf {6} um 21:14 abgesetzt. (werden, Passiv Präteritum)\n5. Der Rettungswagen {7} nach acht Minuten {8}. (eintreffen, Perfekt)\n6. Sie {9} in die Klinik {10}. (bringen — Passiv Präteritum: wurde … gebracht)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze die Verbform.",
+      "instructionsEn": "Fill in the verb form.",
+      "title": "Den Vorfall berichten"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Wo"
+          ],
+          "2": [
+            "Was"
+          ],
+          "3": [
+            "Wie"
+          ],
+          "4": [
+            "Wie"
+          ],
+          "5": [
+            "ob"
+          ],
+          "6": [
+            "wo"
+          ],
+          "7": [
+            "Wie"
+          ],
+          "8": [
+            "Wie"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} ist es passiert? (Ort)\n2. {2} ist passiert? (Sache)\n3. {3} viele Personen sind betroffen? (Anzahl)\n4. {4} alt ist die Person? (Alter)\n5. Können Sie mir sagen, {5} sie ansprechbar ist? (Ja/Nein-Frage im Nebensatz)\n6. Von {6} rufen Sie an — sind Sie vor Ort? (Ort)\n7. {7} lange dauert das schon? (Dauer)\n8. {8} hat sich das entwickelt? (Art und Weise)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das Fragewort.",
+      "instructionsEn": "Fill in the question word.",
+      "title": "Die Fragen der Leitstelle"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "WO"
+          ],
+          "2": [
+            "TREPPENHAUS"
+          ],
+          "3": [
+            "PASSIERT"
+          ],
+          "4": [
+            "GESTÜRZT"
+          ],
+          "5": [
+            "BEWUSSTLOS"
+          ],
+          "6": [
+            "ANSPRECHBAR"
+          ],
+          "7": [
+            "BEWEGEN"
+          ],
+          "8": [
+            "UNGEFÄHR"
+          ],
+          "9": [
+            "DECKEN"
+          ],
+          "10": [
+            "NAME"
+          ]
+        },
+        "bank": [
+          "WO",
+          "TREPPENHAUS",
+          "PASSIERT",
+          "GESTÜRZT",
+          "BEWUSSTLOS",
+          "ANSPRECHBAR",
+          "BEWEGEN",
+          "UNGEFÄHR",
+          "DECKEN",
+          "NAME",
+          "WANN",
+          "WER",
+          "WACH",
+          "RUFEN"
+        ],
+        "text": "— Notruf, {1} ist der Notfall?\n— Lindenweg 8, Berlin, im {2}, zwischen zweitem und drittem\nStock.\n— Was ist {3}?\n— Meine Nachbarin ist auf der Treppe {4}. Sie war kurz\n{5}.\n— Ist sie jetzt {6}?\n— Ja, sie antwortet, aber sie kann das linke Bein nicht\n{7}.\n— Wie alt ist sie {8}?\n— Etwa siebzig.\n— Gut. Bleiben Sie bei ihr, {9} Sie sie zu und bewegen Sie sie\nnicht. Der Rettungswagen ist unterwegs. Wie ist Ihr {10}?\n— Marchetti, ich bin die Nachbarin aus dem dritten Stock.\n— Danke. Ich bleibe in der Leitung, bis der Wagen da ist.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Der Notruf"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "116 117 anrufen — der ärztliche Bereitschaftsdienst ist genau dafür da."
+              },
+              {
+                "key": "b",
+                "text": "112 anrufen."
+              },
+              {
+                "key": "c",
+                "text": "In die Notaufnahme fahren."
+              }
+            ],
+            "q": "Sonntagnacht: hohes Fieber, aber kein Notfall. — Sunday night: high fever, but not an emergency.",
+            "why": "Die 112 ist für lebensbedrohliche Lagen; alles andere außerhalb der Praxiszeiten läuft über 116 117."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Meine Nachbarin ist gestürzt!"
+              },
+              {
+                "key": "b",
+                "text": "Lindenweg 8, Berlin, im Treppenhaus zwischen zweitem und drittem Stock."
+              },
+              {
+                "key": "c",
+                "text": "Können Sie schnell jemanden schicken?"
+              }
+            ],
+            "q": "Die Leitstelle nimmt ab. Was sagst du zuerst? — The dispatcher answers. What do you say first?",
+            "why": "Zuerst der Ort: sobald die Adresse steht, kann der Wagen losfahren, während ihr weiterredet."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sicherheitshalber warten."
+              },
+              {
+                "key": "b",
+                "text": "Trotzdem 112 anrufen und die Lage schildern — die Leitstelle entscheidet, nicht du."
+              },
+              {
+                "key": "c",
+                "text": "Erst im Internet nachlesen."
+              }
+            ],
+            "q": "Du weißt nicht, ob es ein Notfall ist. — You're not sure whether it's an emergency.",
+            "why": "Die Einschätzung ist Aufgabe der Leitstelle; zu spät anzurufen ist das größere Risiko."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Auflegen und handeln."
+              },
+              {
+                "key": "b",
+                "text": "In der Leitung bleiben und genau machen, was gesagt wird — auch bei der Herzdruckmassage."
+              },
+              {
+                "key": "c",
+                "text": "Jemand anderen ans Telefon geben."
+              }
+            ],
+            "q": "Die Leitstelle gibt dir Anweisungen. — The dispatcher gives you instructions.",
+            "why": "Die Leitstelle leitet dich Schritt für Schritt an; das Gespräch beendet sie, nicht du."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sich beschweren."
+              },
+              {
+                "key": "b",
+                "text": "Nachfragen, wie lange es ungefähr dauert, und Bescheid geben, wenn es schlimmer wird."
+              },
+              {
+                "key": "c",
+                "text": "Gehen."
+              }
+            ],
+            "q": "In der Notaufnahme kommen andere vor dir dran. — In A&E others are seen before you.",
+            "why": "Die Reihenfolge folgt der Dringlichkeit; eine Verschlechterung zu melden ändert die Einstufung sehr wohl."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich nehme eine Tablette gegen Bluthochdruck, sonst nichts. Allergien habe ich keine."
+              },
+              {
+                "key": "b",
+                "text": "Ich bin gesund."
+              },
+              {
+                "key": "c",
+                "text": "Das steht bei meinem Hausarzt."
+              }
+            ],
+            "q": "Du sollst deine Vorerkrankungen nennen. — You're asked about pre-existing conditions.",
+            "why": "Medikamente und Allergien sind die zwei Angaben, die sofort gebraucht werden — beides gehört in einen Satz."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Richtig entscheiden, richtig sagen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Perfekt mit sein, Partizip am Ende",
+            "tiles": [
+              "Meine",
+              "Nachbarin",
+              "ist",
+              "auf",
+              "der",
+              "Treppe",
+              "gestürzt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Präteritum von sein — im Bericht üblich",
+            "tiles": [
+              "Sie",
+              "war",
+              "kurz",
+              "bewusstlos"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Modalverb an Position 2, Infinitiv am Ende",
+            "tiles": [
+              "Sie",
+              "kann",
+              "das",
+              "linke",
+              "Bein",
+              "nicht",
+              "bewegen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Passiv Präteritum: wurde + Partizip am Ende",
+            "tiles": [
+              "Der",
+              "Notruf",
+              "wurde",
+              "um",
+              "21:14",
+              "abgesetzt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "note": "Indirekte Frage: Verb am Ende",
+            "tiles": [
+              "Können",
+              "Sie",
+              "mir",
+              "sagen",
+              ",",
+              "wie",
+              "lange",
+              "es",
+              "ungefähr",
+              "dauert",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "gegen + Akkusativ",
+            "tiles": [
+              "Ich",
+              "nehme",
+              "eine",
+              "Tablette",
+              "gegen",
+              "Bluthochdruck"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze im Notfall bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Wer zuerst kommt, wird zuerst behandelt. — First come, first served.",
+            "why": "Es entscheidet die Dringlichkeit, nicht die Reihenfolge des Eintreffens."
+          },
+          {
+            "answer": true,
+            "q": "Die erste Einschätzung soll innerhalb von zehn Minuten erfolgen. — The first assessment should happen within ten minutes.",
+            "why": "„Ersteinschätzung durch Pflegekräfte innerhalb von 10 Minuten nach Ankunft.“"
+          },
+          {
+            "answer": false,
+            "q": "Wenn es schlimmer wird, soll man warten, bis man aufgerufen wird. — If it gets worse you should wait to be called.",
+            "why": "Bei Verschlechterung soll man sich sofort an der Anmeldung melden."
+          },
+          {
+            "answer": false,
+            "q": "Zwei Begleitpersonen sind erlaubt. — Two companions are allowed.",
+            "why": "„Eine Begleitperson ist erlaubt.“"
+          },
+          {
+            "answer": true,
+            "q": "Bei geringer Dringlichkeit kann man Stunden warten. — With low urgency you may wait hours.",
+            "why": "„Wartezeiten können bei niedriger Dringlichkeit mehrere Stunden betragen.“"
+          },
+          {
+            "answer": true,
+            "q": "Wer kein Notfall ist, wird an 116 117 verwiesen. — Non-emergencies are referred to 116 117.",
+            "why": "So steht es ausdrücklich im Aushang."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Zentrale Notaufnahme — Hinweise für Patientinnen und\n> Patienten**\n>\n> - **Nicht** die Reihenfolge des Eintreffens entscheidet, sondern\n>   die **Dringlichkeit** (Triage). Wer später kommt, kann früher\n>   behandelt werden.\n> - **Ersteinschätzung** durch Pflegekräfte innerhalb von\n>   **10 Minuten** nach Ankunft.\n> - **Bei Verschlechterung** bitte **sofort** an der Anmeldung\n>   melden — die Einstufung wird dann neu vorgenommen.\n> - Bitte **Versichertenkarte, Medikamentenliste** und, falls\n>   vorhanden, **Allergiepass** bereithalten.\n> - **Eine Begleitperson** ist erlaubt.\n> - **Wartezeiten** können bei niedriger Dringlichkeit **mehrere\n>   Stunden** betragen.\n> - Wer **nicht** notfallmäßig behandelt werden muss, wird an den\n>   **Bereitschaftsdienst (116 117)** verwiesen.\n> - Der **Entlassungsbrief** geht auf Wunsch auch an die\n>   Hausarztpraxis.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Den Aushang in der Notaufnahme lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Langsam und in kurzen Sätzen sprechen: erst die Adresse, dann „Person gestürzt, bewusstlos gewesen“. Notfalls sagen, dass dein Deutsch begrenzt ist."
+              },
+              {
+                "key": "b",
+                "text": "Auflegen und jemanden suchen, der besser Deutsch spricht."
+              },
+              {
+                "key": "c",
+                "text": "Auf Englisch weiterreden."
+              }
+            ],
+            "q": "Du bist so aufgeregt, dass dir die deutschen Wörter fehlen. — You're so agitated that the German words won't come.",
+            "why": "Stichworte reichen völlig; die Leitstelle fragt gezielt weiter. Auflegen kostet die entscheidenden Minuten."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sagen, dass du das nicht kannst."
+              },
+              {
+                "key": "b",
+                "text": "Anfangen und dich anleiten lassen — die Leitstelle gibt den Takt vor."
+              },
+              {
+                "key": "c",
+                "text": "Auf den Rettungsdienst warten."
+              }
+            ],
+            "q": "Die Leitstelle sagt, du sollst mit der Herzdruckmassage beginnen. — The dispatcher tells you to start chest compressions.",
+            "why": "Falsch gedrückt ist besser als gar nicht; die Anleitung am Telefon ist genau dafür gedacht."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Schnell auflegen."
+              },
+              {
+                "key": "b",
+                "text": "Dranbleiben und kurz sagen, dass es sich geklärt hat — sonst rückt der Rettungsdienst aus."
+              },
+              {
+                "key": "c",
+                "text": "Nichts sagen und weiterreden."
+              }
+            ],
+            "q": "Du hast versehentlich die 112 gewählt, obwohl es kein Notfall ist. — You dialled 112 by mistake.",
+            "why": "Ein stiller Abbruch löst eine Anfahrt aus; zwei Sätze verhindern einen unnötigen Einsatz."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Laut werden."
+              },
+              {
+                "key": "b",
+                "text": "Freundlich nachfragen, ob deine Einstufung noch aktuell ist, und beschreiben, was sich seitdem verändert hat."
+              },
+              {
+                "key": "c",
+                "text": "Nach Hause gehen."
+              }
+            ],
+            "q": "In der Notaufnahme wartest du seit drei Stunden. — You've been waiting three hours in A&E.",
+            "why": "Die Einstufung wird bei Veränderung neu vorgenommen — genau darauf zielt die Nachfrage."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach zustimmen."
+              },
+              {
+                "key": "b",
+                "text": "Ablehnen."
+              },
+              {
+                "key": "c",
+                "text": "Dürfte ich fragen, warum die Aufnahme nötig ist und wie lange sie voraussichtlich dauert?"
+              }
+            ],
+            "q": "Man will dich stationär aufnehmen, du hast Fragen. — They want to admit you and you have questions.",
+            "why": "Grund und Dauer zu erfragen ist selbstverständlich — und du kannst danach zu Hause Bescheid geben."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sich alles merken."
+              },
+              {
+                "key": "b",
+                "text": "Um den Entlassungsbrief bitten und fragen, ob er auch an die Hausarztpraxis geht."
+              },
+              {
+                "key": "c",
+                "text": "Später anrufen."
+              }
+            ],
+            "q": "Beim Entlassen bekommst du nur mündliche Hinweise. — On discharge you only get verbal advice.",
+            "why": "Der Brief ist die Grundlage für die Weiterbehandlung; ohne ihn fängt die Hausarztpraxis bei null an."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Unter Druck richtig handeln"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "bewusstlos"
+          ],
+          "2": [
+            "ansprechbar"
+          ],
+          "3": [
+            "Triage"
+          ],
+          "4": [
+            "Bereitschaftsdienst"
+          ],
+          "5": [
+            "stationär"
+          ],
+          "6": [
+            "Entlassungsbrief"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Sie war kurz {1}. (nicht bei Bewusstsein)\n2. Jetzt ist sie wieder {2}. (sie antwortet)\n3. Die {3} entscheidet über die Reihenfolge. (Einteilung nach Dringlichkeit)\n4. Außerhalb der Praxiszeiten hilft der {4}. (116 117)\n5. Man will mich {5} aufnehmen. (im Krankenhaus bleiben)\n6. Ich bitte um den {6}. (Schreiben mit Diagnose für danach)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Wo"
+          ],
+          "2": [
+            "Was"
+          ],
+          "3": [
+            "Wie"
+          ],
+          "4": [
+            "gestürzt"
+          ],
+          "5": [
+            "bewusstlos"
+          ],
+          "6": [
+            "ansprechbar"
+          ],
+          "7": [
+            "bewegen"
+          ],
+          "8": [
+            "wurde"
+          ],
+          "9": [
+            "eingetroffen"
+          ],
+          "10": [
+            "Triage"
+          ],
+          "11": [
+            "Bereitschaftsdienst"
+          ],
+          "12": [
+            "gegen"
+          ],
+          "13": [
+            "stationär"
+          ],
+          "14": [
+            "Entlassungsbrief"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} ist der Notfall? (where)\n2. {2} ist passiert? (what)\n3. {3} viele Personen sind betroffen? (how)\n4. Meine Nachbarin ist {4}. (fallen — Partizip)\n5. Sie war kurz {5}. (unconscious)\n6. Jetzt ist sie wieder {6}. (responsive)\n7. Sie kann das Bein nicht {7}. (move)\n8. Der Notruf {8} um 21:14 abgesetzt. (was — Passiv)\n9. Der Rettungswagen ist nach acht Minuten {9}. (arrived)\n10. Die {10} entscheidet über die Reihenfolge. (sorting by urgency)\n11. Außerhalb der Praxiszeiten: der {11}. (on-call service)\n12. Ich nehme eine Tablette {12} Bluthochdruck. (for / against)\n13. Man will mich {13} aufnehmen. (as an inpatient)\n14. Ich bitte um den {14}. (discharge letter)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-41-notruf-und-notaufnahme-b1",
+  "intro": "Im Notfall auf Deutsch zu sprechen ist die Situation, auf die man sich am wenigsten vorbereitet und die am schlechtesten improvisiert wird. Dabei ist der Notruf streng strukturiert: Wo ist es passiert, was ist passiert, wie viele Betroffene, welche Verletzungen — und dann warten, bis die Leitstelle das Gespräch beendet. Genauso wichtig ist die Vorfrage: 112 ist der Rettungsdienst für echte Notfälle, 116 117 der ärztliche Bereitschaftsdienst für alles, was bis morgen nicht warten kann, aber kein Notfall ist. In der Notaufnahme entscheidet dann nicht die Reihenfolge, sondern die Triage. Grammatik nach Bedarf: Perfekt und Präteritum im Bericht, Passiv, indirekte Fragen, Konjunktiv II. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/41-notruf-und-notaufnahme-b1",
+  "level": "B1",
+  "summary": "112 oder 116 117, den Notruf strukturiert absetzen, in der Notaufnahme warten, Triage verstehen, Aufnahme und Entlassung.",
+  "title": "Notruf und Notaufnahme — B1",
+  "topic": "Im Notfall"
+}

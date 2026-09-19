@@ -1,0 +1,830 @@
+{
+  "category": "Behörden & Formelles",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "anmelden",
+            "label": "Anmelden"
+          },
+          {
+            "key": "befreien",
+            "label": "Befreien lassen"
+          },
+          {
+            "key": "probleme",
+            "label": "Bei Problemen"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "anmelden",
+            "text": "sich beim Beitragsservice anmelden"
+          },
+          {
+            "bucket": "anmelden",
+            "text": "die neue Adresse ummelden"
+          },
+          {
+            "bucket": "anmelden",
+            "text": "den Einzug per Lastschrift einrichten"
+          },
+          {
+            "bucket": "anmelden",
+            "text": "die Wohnungsnummer angeben"
+          },
+          {
+            "bucket": "befreien",
+            "text": "eine Befreiung beantragen"
+          },
+          {
+            "bucket": "befreien",
+            "text": "den Nachweis einreichen"
+          },
+          {
+            "bucket": "befreien",
+            "text": "den Bescheid abwarten"
+          },
+          {
+            "bucket": "befreien",
+            "text": "die Bestätigung aufbewahren"
+          },
+          {
+            "bucket": "probleme",
+            "text": "eine Mahnung erhalten"
+          },
+          {
+            "bucket": "probleme",
+            "text": "den Fehler klären"
+          },
+          {
+            "bucket": "probleme",
+            "text": "Widerspruch einlegen"
+          },
+          {
+            "bucket": "probleme",
+            "text": "die Ratenzahlung vereinbaren"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Anmelden, befreien lassen oder bei Problemen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Rundfunkbeitrag"
+          },
+          {
+            "key": "2",
+            "text": "der Beitragsservice"
+          },
+          {
+            "key": "3",
+            "text": "sich ummelden"
+          },
+          {
+            "key": "4",
+            "text": "die Befreiung"
+          },
+          {
+            "key": "5",
+            "text": "der Nachweis"
+          },
+          {
+            "key": "6",
+            "text": "die Mahnung"
+          },
+          {
+            "key": "7",
+            "text": "der Bescheid"
+          },
+          {
+            "key": "8",
+            "text": "pro Wohnung"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die monatliche Gebühr für öffentlich-rechtliche Sender"
+          },
+          {
+            "key": "b",
+            "text": "die Stelle, die den Rundfunkbeitrag verwaltet"
+          },
+          {
+            "key": "c",
+            "text": "die neue Adresse für den Rundfunkbeitrag angeben"
+          },
+          {
+            "key": "d",
+            "text": "die Freistellung von der Zahlungspflicht"
+          },
+          {
+            "key": "e",
+            "text": "das Dokument, das die Befreiung belegt"
+          },
+          {
+            "key": "f",
+            "text": "die Erinnerung an eine ausstehende Zahlung"
+          },
+          {
+            "key": "g",
+            "text": "das offizielle Antwortschreiben vom Beitragsservice"
+          },
+          {
+            "key": "h",
+            "text": "das Prinzip, dass ein Beitrag je Haushalt anfällt"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Kann"
+          ],
+          "5": [
+            "bekomme"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Ist"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} mich beim Beitragsservice ummelden. (Modalverb, ich-Form)\n2. {2} Sie mir bei der Befreiung helfen? (können, Sie-Form)\n3. Ich {3} schon den Nachweis eingereicht. (haben, Perfekt)\n4. {4} ich eine Befreiung beantragen? (können, ich-Form)\n5. Falls ich eine Mahnung {5}, rufe ich sofort an. (bekommen, Präsens)\n6. Der Beitragsservice {6} sich in ein paar Wochen melden. (werden, Futur I)\n7. Wir {7} schon den Bescheid bekommen. (haben, Perfekt)\n8. {8} der Beitrag schon korrekt berechnet worden? (sein, Perfekt Passiv)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Die Ummeldung planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Rundfunkbeitrag"
+          ],
+          "2": [
+            "Beitragsservice"
+          ],
+          "3": [
+            "ummelden"
+          ],
+          "4": [
+            "Befreiung"
+          ],
+          "5": [
+            "Nachweis"
+          ],
+          "6": [
+            "pro Wohnung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Für die öffentlich-rechtlichen Sender zahlen wir den {1}. (die monatliche Gebühr für öffentlich-rechtliche Sender)\n2. Zuständig dafür ist der {2}. (die Stelle, die den Rundfunkbeitrag verwaltet)\n3. Nach dem Umzug müssen wir uns {3}. (die neue Adresse angeben, Infinitiv)\n4. Bei geringem Einkommen kann man eine {4} beantragen. (die Freistellung von der Zahlungspflicht)\n5. Für die Befreiung brauchen wir einen {5}. (das Dokument, das die Befreiung belegt)\n6. Der Beitrag gilt {6}, nicht pro Person. (das Prinzip je Haushalt)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "BEITRAGSSERVICE"
+          ],
+          "2": [
+            "UMMELDEN"
+          ],
+          "3": [
+            "BEFREIUNG"
+          ],
+          "4": [
+            "NACHWEIS"
+          ],
+          "5": [
+            "BESCHEID"
+          ],
+          "6": [
+            "MAHNUNG"
+          ],
+          "7": [
+            "STEHEN"
+          ],
+          "8": [
+            "WIDERSPRUCH"
+          ],
+          "9": [
+            "NÖTIG"
+          ],
+          "10": [
+            "GEBE"
+          ]
+        },
+        "bank": [
+          "BEITRAGSSERVICE",
+          "UMMELDEN",
+          "BEFREIUNG",
+          "NACHWEIS",
+          "BESCHEID",
+          "MAHNUNG",
+          "STEHEN",
+          "WIDERSPRUCH",
+          "NÖTIG",
+          "GEBE",
+          "RATENZAHLUNG",
+          "LASTSCHRIFT",
+          "EINZUG",
+          "ANMELDUNG"
+        ],
+        "text": "— Guten Tag, wir sind kürzlich umgezogen und möchten uns beim\n{1} {2}.\n— Kein Problem, wie lautet denn die neue Adresse?\n— Musterstraße 12, dritter Stock.\n— Danke, das trage ich gleich ein. Übrigens, der Beitrag\ngilt pro Wohnung, nicht pro Person, das nur zur Info.\n— Gut zu wissen. Ich habe noch eine Frage: Können wir wegen\nunseres geringen Einkommens eine {3} beantragen?\n— Ja, dafür brauchen Sie nur einen {4} vom Amt.\n— Den reiche ich dann so schnell wie möglich nach.\n— Perfekt, dann warten Sie einfach auf unseren {5}.\n(einige Wochen später)\n— Hey, wir haben eine {6} bekommen, obwohl ich den Nachweis\ndoch geschickt habe!\n— Wirklich? Das ist bestimmt ein Fehler, ruf da am besten\nsofort an.\n— Mache ich gleich, das kann ich nicht {7} lassen.\n— Gut, und falls es nicht klappt, können wir ja {8}\neinlegen.\n— Genau, aber ich hoffe, das ist gar nicht {9}.\n— Ich {10} dir Bescheid, sobald ich mehr weiß.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Beim Beitragsservice"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ummeldungen interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Wir möchten uns beim Beitragsservice ummelden."
+              },
+              {
+                "key": "c",
+                "text": "Das mache ich sowieso nie."
+              }
+            ],
+            "q": "Du möchtest dich nach dem Umzug beim Beitragsservice ummelden. — You want to re-register with the fee service after moving.",
+            "why": "Eine direkte, höfliche Aussage ist der übliche Einstieg bei der Ummeldung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Befreiungen sind mir zu kompliziert."
+              },
+              {
+                "key": "b",
+                "text": "Einkommen geht doch niemanden etwas an."
+              },
+              {
+                "key": "c",
+                "text": "Können wir wegen unseres geringen Einkommens eine Befreiung beantragen?"
+              }
+            ],
+            "q": "Du möchtest wegen geringen Einkommens eine Befreiung beantragen. — You want to apply for an exemption due to low income.",
+            "why": "Eine direkte Frage klärt sofort, ob eine Befreiung möglich ist."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Welchen Nachweis brauche ich dafür genau?"
+              },
+              {
+                "key": "b",
+                "text": "Nachweise interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Ich reiche einfach irgendwas ein."
+              }
+            ],
+            "q": "Du möchtest wissen, welchen Nachweis du brauchst. — You want to know which proof document you need.",
+            "why": "Eine konkrete Frage klärt, welches Dokument tatsächlich nötig ist."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Mahnungen sind mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Das kann ich nicht so stehen lassen, ich rufe sofort an."
+              },
+              {
+                "key": "c",
+                "text": "Ich zahle einfach kommentarlos noch mal."
+              }
+            ],
+            "q": "Ihr bekommt trotz eingereichtem Nachweis eine Mahnung. — You receive a reminder despite having submitted proof.",
+            "why": "Ein sofortiger Anruf klärt den offensichtlichen Fehler am schnellsten."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wohnungen interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Das ist mir völlig egal."
+              },
+              {
+                "key": "c",
+                "text": "Gilt der Beitrag pro Wohnung oder pro Person?"
+              }
+            ],
+            "q": "Du möchtest wissen, ob der Beitrag pro Wohnung oder pro Person gilt. — You want to know whether the fee applies per household or per person.",
+            "why": "Eine direkte Frage klärt das wichtige Prinzip der Beitragspflicht."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Falls es nicht klappt, können wir ja Widerspruch einlegen."
+              },
+              {
+                "key": "b",
+                "text": "Widerspruch ist mir zu aufwendig."
+              },
+              {
+                "key": "c",
+                "text": "Wir akzeptieren das einfach kommentarlos."
+              }
+            ],
+            "q": "Ihr überlegt, ob ein Widerspruch nötig ist. — You're considering whether an objection is needed.",
+            "why": "Ein Widerspruch als Rückfalloption zeigt eine besonnene, vorausschauende Haltung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Ummelden und Befreien"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "höfliche Aussage, reflexives Verb",
+            "tiles": [
+              "Wir",
+              "möchten",
+              "uns",
+              "beim",
+              "Beitragsservice",
+              "ummelden"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Frage mit Modalverb, Infinitiv am Ende",
+            "tiles": [
+              "Können",
+              "wir",
+              "eine",
+              "Befreiung",
+              "beantragen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "W-Frage mit Verb an Position 2",
+            "tiles": [
+              "Welchen",
+              "Nachweis",
+              "brauche",
+              "ich",
+              "dafür",
+              "genau",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Nebensatz mit falls, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "ich",
+              "eine",
+              "Mahnung",
+              "bekomme",
+              ",",
+              "rufe",
+              "ich",
+              "sofort",
+              "an"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Ja/Nein-Frage, Verb an Position 1",
+            "tiles": [
+              "Gilt",
+              "der",
+              "Beitrag",
+              "pro",
+              "Wohnung",
+              "oder",
+              "pro",
+              "Person",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Wir",
+              "haben",
+              "schon",
+              "den",
+              "Bescheid",
+              "bekommen"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zum Rundfunkbeitrag bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Der Rundfunkbeitrag gilt pro Wohnung, unabhängig von der Zahl der Bewohner. — The fee applies per household, regardless of the number of residents.",
+            "why": "So steht es ausdrücklich in den Infos zum Rundfunkbeitrag."
+          },
+          {
+            "answer": false,
+            "q": "Eine Ummeldung nach dem Umzug hat überhaupt keine Frist. — There's no deadline at all for re-registering after moving.",
+            "why": "Sie sollte innerhalb weniger Wochen erledigt werden, nicht ohne Frist."
+          },
+          {
+            "answer": true,
+            "q": "Bei geringem Einkommen ist eine Befreiung möglich. — An exemption is possible for people with low income.",
+            "why": "„Befreiung: möglich bei geringem Einkommen, z. B. mit Bürgergeld-Bescheid.“"
+          },
+          {
+            "answer": false,
+            "q": "Für den Nachweis braucht man immer mehrere aufwendige Dokumente. — Proof always requires several elaborate documents.",
+            "why": "Meist genügt eine Kopie des Amtsbescheids, nicht mehrere aufwendige Dokumente."
+          },
+          {
+            "answer": true,
+            "q": "Bei einer fälschlich erhaltenen Mahnung sollte man sofort Kontakt aufnehmen, statt einfach zu zahlen. — For a mistakenly received reminder, you should contact them immediately instead of just paying.",
+            "why": "„Mahnung: bei einem Irrtum sofort Kontakt aufnehmen, nicht einfach zahlen.“"
+          },
+          {
+            "answer": false,
+            "q": "Ein Widerspruch kann formlos und rein mündlich erfolgen. — An objection can be made informally, purely verbally.",
+            "why": "Ein Widerspruch sollte schriftlich erfolgen, nicht rein mündlich."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Rundfunkbeitrag**\n>\n> - **Beitragspflicht:** gilt **pro Wohnung**, unabhängig von\n>   der Zahl der Bewohner.\n> - **Ummeldung:** nach einem Umzug **innerhalb weniger\n>   Wochen** erledigen.\n> - **Befreiung:** möglich bei **geringem Einkommen**, z. B.\n>   mit Bürgergeld-Bescheid.\n> - **Nachweis:** meist **eine Kopie des Amtsbescheids**\n>   genügt.\n> - **Mahnung:** bei einem Irrtum **sofort Kontakt\n>   aufnehmen**, nicht einfach zahlen.\n> - **Widerspruch:** sollte **schriftlich** erfolgen.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zum Rundfunkbeitrag lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Mahnung einfach ignorieren."
+              },
+              {
+                "key": "b",
+                "text": "Sofort beim Beitragsservice anrufen und den Nachweis erneut vorlegen."
+              },
+              {
+                "key": "c",
+                "text": "Aus Ärger einfach gar nicht mehr zahlen."
+              }
+            ],
+            "q": "Trotz eingereichtem Nachweis kommt eine Mahnung. — A reminder arrives despite having submitted proof.",
+            "why": "Ein sofortiger Anruf mit erneutem Nachweis klärt den Fehler am schnellsten."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Ummeldung für immer vergessen."
+              },
+              {
+                "key": "b",
+                "text": "Abwarten, bis jemand von selbst nachfragt."
+              },
+              {
+                "key": "c",
+                "text": "Sie schnellstmöglich nachholen."
+              }
+            ],
+            "q": "Die Ummeldung nach dem Umzug wurde vergessen. — Re-registration after the move was forgotten.",
+            "why": "Eine schnelle Nachholung vermeidet spätere Probleme mit der Adresse."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Höflich nach dem Bearbeitungsstand fragen."
+              },
+              {
+                "key": "b",
+                "text": "Einfach aufhören zu zahlen, ohne nachzufragen."
+              },
+              {
+                "key": "c",
+                "text": "Den Antrag komplett zurückziehen."
+              }
+            ],
+            "q": "Der Bescheid über die Befreiung lässt lange auf sich warten. — The exemption decision takes a long time to arrive.",
+            "why": "Eine höfliche Nachfrage klärt meist schnell den aktuellen Stand."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach weiterzahlen, ohne etwas zu klären."
+              },
+              {
+                "key": "b",
+                "text": "Den Auszug nachweisen und Widerspruch einlegen."
+              },
+              {
+                "key": "c",
+                "text": "Die Rechnung ignorieren und hoffen, dass es sich klärt."
+              }
+            ],
+            "q": "Man wird für eine Wohnung zur Kasse gebeten, in der man gar nicht mehr wohnt. — You're billed for a home you no longer live in.",
+            "why": "Ein Nachweis des Auszugs zusammen mit einem Widerspruch klärt den Fehler eindeutig."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Mahngebühr kommentarlos zahlen."
+              },
+              {
+                "key": "b",
+                "text": "Sich nur mündlich beschweren, ohne etwas vorzulegen."
+              },
+              {
+                "key": "c",
+                "text": "Den Zahlungsbeleg als Nachweis vorlegen."
+              }
+            ],
+            "q": "Eine Mahngebühr wird trotz rechtzeitiger Zahlung berechnet. — A late fee is charged despite timely payment.",
+            "why": "Der Zahlungsbeleg beweist eindeutig, dass rechtzeitig gezahlt wurde."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sich direkt beim Beitragsservice informieren."
+              },
+              {
+                "key": "b",
+                "text": "Einfach raten, ob man zahlen muss."
+              },
+              {
+                "key": "c",
+                "text": "Die Frage komplett ignorieren."
+              }
+            ],
+            "q": "Man ist sich unsicher, ob man überhaupt beitragspflichtig ist. — You're unsure whether you're even required to pay.",
+            "why": "Eine direkte Nachfrage beim Beitragsservice klärt die Pflicht zuverlässig."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn beim Rundfunkbeitrag etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "angekommen"
+          ],
+          "2": [
+            "vergessen"
+          ],
+          "3": [
+            "ausgeblieben"
+          ],
+          "4": [
+            "bekommen"
+          ],
+          "5": [
+            "berechnet"
+          ],
+          "6": [
+            "informiert"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Trotz eingereichtem Nachweis ist eine Mahnung {1}. (dort eingetroffen, Partizip)\n2. Die Ummeldung wurde versehentlich {2}. (nicht gemacht, Partizip)\n3. Der Bescheid ist lange {3}. (nicht gekommen, Partizip)\n4. Wir haben für die alte Wohnung eine Rechnung {4}. (Partizip)\n5. Die Mahngebühr wurde trotz rechtzeitiger Zahlung {5}. (in Rechnung gestellt, Partizip)\n6. Wir haben uns direkt beim Beitragsservice {6}. (Auskunft geholt, Partizip reflexiv)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "Könnten"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Rundfunkbeitrag"
+          ],
+          "5": [
+            "Beitragsservice"
+          ],
+          "6": [
+            "ummelden"
+          ],
+          "7": [
+            "Befreiung"
+          ],
+          "8": [
+            "Nachweis"
+          ],
+          "9": [
+            "pro Wohnung"
+          ],
+          "10": [
+            "angekommen"
+          ],
+          "11": [
+            "vergessen"
+          ],
+          "12": [
+            "ausgeblieben"
+          ],
+          "13": [
+            "bekommen"
+          ],
+          "14": [
+            "berechnet"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} mich beim Beitragsservice ummelden. (must)\n2. {2} Sie mir bei der Befreiung helfen? (could — können)\n3. Ich {3} schon den Nachweis eingereicht. (have — Perfekt)\n4. Für die öffentlich-rechtlichen Sender zahlen wir den {4}. (broadcasting fee)\n5. Zuständig dafür ist der {5}. (fee authority)\n6. Nach dem Umzug müssen wir uns {6}. (re-register — Infinitiv)\n7. Bei geringem Einkommen kann man eine {7} beantragen. (exemption)\n8. Für die Befreiung brauchen wir einen {8}. (proof document)\n9. Der Beitrag gilt {9}, nicht pro Person. (per household)\n10. Trotz eingereichtem Nachweis ist eine Mahnung {10}. (arrived — Partizip)\n11. Die Ummeldung wurde versehentlich {11}. (forgotten — Partizip)\n12. Der Bescheid ist lange {12}. (been missing — Partizip)\n13. Wir haben für die alte Wohnung eine Rechnung {13}. (received — Partizip)\n14. Die Mahngebühr wurde trotz rechtzeitiger Zahlung {14}. (charged — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-80-rundfunkbeitrag-a2",
+  "intro": "Der Rundfunkbeitrag betrifft jede Wohnung — nach einem Umzug muss man sich ummelden, bei geringem Einkommen kann man eine Befreiung beantragen, und ab und zu klärt sich eine unerwartete Mahnung mit einem kurzen Anruf. Dieses Set übt genau das: sich beim Beitragsservice ummelden, einen Nachweis für die Befreiung einreichen, und was zu tun ist, wenn trotzdem eine Mahnung kommt. Grammatik nach Bedarf: Perfekt und Passiv im Bericht, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/80-rundfunkbeitrag-a2",
+  "level": "A2",
+  "summary": "Sich nach dem Umzug beim Beitragsservice ummelden, eine Befreiung beantragen, einen Nachweis einreichen — und was tun, wenn trotz allem eine Mahnung kommt.",
+  "title": "Rundfunkbeitrag — A2",
+  "topic": "Rundfunkbeitrag"
+}

@@ -1,0 +1,1493 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "treffen"
+          ],
+          "2": [
+            "stellen"
+          ],
+          "3": [
+            "üben"
+          ],
+          "4": [
+            "halten"
+          ],
+          "5": [
+            "nehmen"
+          ],
+          "6": [
+            "ziehen"
+          ],
+          "7": [
+            "nehmen"
+          ],
+          "8": [
+            "nehmen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. eine Entscheidung {1}\n2. eine Frage {2}\n3. Kritik {3}\n4. eine Rede {4}\n5. Bezug {5}\n6. in Betracht {6}\n7. in Kauf {7}\n8. Abschied {8}\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Setze das passende Funktionsverb im Infinitiv ein (treffen, stellen, üben, halten, nehmen, ziehen). 8 Items.",
+      "title": "Das richtige Funktionsverb"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "entscheiden"
+          ],
+          "2": [
+            "fragen"
+          ],
+          "3": [
+            "kritisieren"
+          ],
+          "4": [
+            "berücksichtigen"
+          ],
+          "5": [
+            "sich beziehen auf",
+            "sich beziehen"
+          ],
+          "6": [
+            "ausdrücken"
+          ],
+          "7": [
+            "reden",
+            "sprechen"
+          ],
+          "8": [
+            "hinnehmen",
+            "akzeptieren"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. eine Entscheidung treffen → {1}\n2. eine Frage stellen → {2}\n3. Kritik üben → {3}\n4. in Betracht ziehen → {4}\n5. Bezug nehmen → {5}\n6. zum Ausdruck bringen → {6}\n7. eine Rede halten → {7}\n8. in Kauf nehmen → {8}\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Schreib das einfache Vollverb (Infinitiv) zu jedem Funktionsverbgefüge. 8 Items.",
+      "title": "FVG → Vollverb"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "treffen"
+          ],
+          "2": [
+            "Frage"
+          ],
+          "3": [
+            "Kritik"
+          ],
+          "4": [
+            "Betracht"
+          ],
+          "5": [
+            "Bezug"
+          ],
+          "6": [
+            "Abschied"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. entscheiden → eine Entscheidung {1}\n2. fragen → eine {2} stellen\n3. kritisieren → {3} üben\n4. berücksichtigen → in {4} ziehen\n5. sich beziehen auf → {5} nehmen auf\n6. sich verabschieden → {6} nehmen\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Schreib das passende Funktionsverbgefüge zum Vollverb. 6 Items.",
+      "title": "Vollverb → FVG"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "machen"
+              },
+              {
+                "key": "b",
+                "text": "treffen"
+              },
+              {
+                "key": "c",
+                "text": "nehmen"
+              }
+            ],
+            "q": "eine Entscheidung …",
+            "why": "Das feste Funktionsverb ist treffen (nicht machen, nicht nehmen)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "stellen"
+              },
+              {
+                "key": "b",
+                "text": "machen"
+              },
+              {
+                "key": "c",
+                "text": "geben"
+              }
+            ],
+            "q": "eine Frage …",
+            "why": "eine Frage stellen (nicht machen)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "machen"
+              },
+              {
+                "key": "b",
+                "text": "geben"
+              },
+              {
+                "key": "c",
+                "text": "üben"
+              }
+            ],
+            "q": "Kritik …",
+            "why": "Kritik üben (nicht machen)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "halten"
+              },
+              {
+                "key": "b",
+                "text": "machen"
+              },
+              {
+                "key": "c",
+                "text": "tun"
+              }
+            ],
+            "q": "eine Rede …",
+            "why": "eine Rede halten (nicht machen)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "bringen"
+              },
+              {
+                "key": "b",
+                "text": "nehmen"
+              },
+              {
+                "key": "c",
+                "text": "machen"
+              }
+            ],
+            "q": "in Kauf …",
+            "why": "in Kauf nehmen (nicht bringen)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "bringen"
+              },
+              {
+                "key": "b",
+                "text": "stellen"
+              },
+              {
+                "key": "c",
+                "text": "nehmen"
+              }
+            ],
+            "q": "zum Ausdruck …",
+            "why": "zum Ausdruck bringen (festes Verb)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A4",
+      "instructions": "Wähle das feste Funktionsverb (a, b oder c). ⚠️ Nicht alles, was im Englischen mit „make“ geht, geht im Deutschen mit „machen“.",
+      "title": "Welches Funktionsverb ist richtig?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "auf"
+          ],
+          "2": [
+            "an"
+          ],
+          "3": [
+            "von"
+          ],
+          "4": [
+            "auf"
+          ],
+          "5": [
+            "an"
+          ],
+          "6": [
+            "von"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich nehme Bezug {1} Ihren Brief.\n2. Sie übt Kritik {2} dem Verfahren.\n3. Er nimmt Abschied {3} den Kollegen.\n4. Wir nehmen Bezug {4} den letzten Punkt.\n5. Die Gewerkschaft übt Kritik {5} der Entscheidung.\n6. Sie nahm Abschied {6} ihrer Heimatstadt.\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Setze die feste Präposition des Funktionsverbgefüges ein (auf, an, von). 6 Items.",
+      "title": "Feste Präposition einsetzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "auf den Bericht"
+          ],
+          "2": [
+            "an dem Plan",
+            "am Plan"
+          ],
+          "3": [
+            "von den Kollegen"
+          ],
+          "4": [
+            "auf Ihre E-Mail"
+          ],
+          "5": [
+            "an dem Gesetz",
+            "am Gesetz"
+          ],
+          "6": [
+            "von seinem Team"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich nehme Bezug {1} (der Bericht, m.).\n2. Er übt Kritik {2} (der Plan, m.).\n3. Sie nimmt Abschied {3} (die Kollegen, Pl.).\n4. Wir nehmen Bezug {4} (Ihre E-Mail, f.).\n5. Die Presse übt Kritik {5} (das Gesetz, n.).\n6. Er nahm Abschied {6} (sein Team, n.).\n",
+        "type": "gap-text"
+      },
+      "id": "A6",
+      "instructions": "Ergänze Präposition und Artikel im richtigen Kasus. ⚠️ Bezug nehmen auf + Akkusativ; Kritik üben an + Dativ; Abschied nehmen von + Dativ. 6 Items.",
+      "title": "Präposition + richtiger Kasus"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Frage"
+          ],
+          "2": [
+            "Betracht"
+          ],
+          "3": [
+            "Kauf"
+          ],
+          "4": [
+            "Frage"
+          ],
+          "5": [
+            "Betracht"
+          ]
+        },
+        "bank": [
+          "Frage",
+          "Betracht",
+          "Kauf",
+          "Frage",
+          "Betracht",
+          "Sprache",
+          "Verfügung"
+        ],
+        "text": "1. Dieser Termin kommt für uns nicht in {1}.\n2. Wir sollten alle Optionen in {2} ziehen.\n3. Eine längere Verzögerung nehmen wir nicht in {3}.\n4. Niemand stellt das Ergebnis in {4}.\n5. Das überarbeitete Angebot ziehen wir in {5}.\n",
+        "type": "gap-bank"
+      },
+      "id": "A7",
+      "instructions": "Füll die Lücken mit dem festen Nomen (ohne Artikel). Zwei Wörter sind zu viel.",
+      "title": "in Frage / in Betracht / in Kauf — ohne Artikel"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "f",
+          "3": "a",
+          "4": "d",
+          "5": "c",
+          "6": "e"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "in Betracht ziehen"
+          },
+          {
+            "key": "2",
+            "text": "in Frage stellen"
+          },
+          {
+            "key": "3",
+            "text": "zur Verfügung stellen"
+          },
+          {
+            "key": "4",
+            "text": "Bezug nehmen auf"
+          },
+          {
+            "key": "5",
+            "text": "in Kauf nehmen"
+          },
+          {
+            "key": "6",
+            "text": "eine Rolle spielen"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "bereitstellen"
+          },
+          {
+            "key": "b",
+            "text": "berücksichtigen"
+          },
+          {
+            "key": "c",
+            "text": "hinnehmen"
+          },
+          {
+            "key": "d",
+            "text": "sich beziehen auf"
+          },
+          {
+            "key": "e",
+            "text": "wichtig sein"
+          },
+          {
+            "key": "f",
+            "text": "bezweifeln"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A8",
+      "instructions": "Ordne jedem Funktionsverbgefüge (1–6) das passende Vollverb / die Bedeutung (a–f) zu.",
+      "title": "FVG und Bedeutung verbinden"
+    },
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "fvg",
+            "label": "Funktionsverbgefüge (formell)"
+          },
+          {
+            "key": "vollverb",
+            "label": "Vollverb (klar/gesprochen)"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "fvg",
+            "text": "eine Entscheidung treffen"
+          },
+          {
+            "bucket": "vollverb",
+            "text": "entscheiden"
+          },
+          {
+            "bucket": "fvg",
+            "text": "Kritik üben"
+          },
+          {
+            "bucket": "vollverb",
+            "text": "kritisieren"
+          },
+          {
+            "bucket": "fvg",
+            "text": "in Betracht ziehen"
+          },
+          {
+            "bucket": "vollverb",
+            "text": "berücksichtigen"
+          },
+          {
+            "bucket": "fvg",
+            "text": "zur Verfügung stehen"
+          },
+          {
+            "bucket": "vollverb",
+            "text": "verfügbar sein"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A9",
+      "instructions": "Ordne jeden Ausdruck dem richtigen Stil zu.",
+      "title": "FVG oder Vollverb?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "kommt"
+          ],
+          "2": [
+            "stellt"
+          ],
+          "3": [
+            "kommt"
+          ],
+          "4": [
+            "stellt"
+          ],
+          "5": [
+            "kommt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Dieser Liefertermin {1} für uns nicht in Frage. (= ist nicht möglich)\n2. Niemand {2} das Ergebnis in Frage. (= bezweifelt es)\n3. Eine Verschiebung {3} durchaus in Frage. (= ist möglich)\n4. Der Kritiker {4} die ganze Methode in Frage. (= bezweifelt sie)\n5. Eine dritte Option {5} ebenfalls in Frage. (= ist möglich)\n",
+        "type": "gap-text"
+      },
+      "id": "A10",
+      "instructions": "Setze kommt oder stellt ein. ⚠️ in Frage kommen = möglich sein; in Frage stellen = bezweifeln. 5 Items.",
+      "title": "in Frage kommen oder in Frage stellen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Der Vorstand trifft eine Entscheidung",
+            "tiles": [
+              "Der",
+              "Vorstand",
+              "trifft",
+              "eine",
+              "Entscheidung"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Sie übt Kritik am Verfahren",
+            "tiles": [
+              "Sie",
+              "übt",
+              "Kritik",
+              "am",
+              "Verfahren"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Ich nehme Bezug auf Ihren Brief",
+            "tiles": [
+              "Ich",
+              "nehme",
+              "Bezug",
+              "auf",
+              "Ihren",
+              "Brief"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Die Firma stellt uns einen Raum zur Verfügung",
+            "tiles": [
+              "Die",
+              "Firma",
+              "stellt",
+              "uns",
+              "einen",
+              "Raum",
+              "zur",
+              "Verfügung"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A11",
+      "instructions": "Bring die Wörter in die richtige Reihenfolge. Das Funktionsverb steht in Position 2, das Nomen am Ende.",
+      "title": "Satzbau: FVG im Hauptsatz"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c",
+          "5": "f",
+          "6": "e"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "eine Entscheidung"
+          },
+          {
+            "key": "2",
+            "text": "eine Frage"
+          },
+          {
+            "key": "3",
+            "text": "Kritik"
+          },
+          {
+            "key": "4",
+            "text": "eine Rede"
+          },
+          {
+            "key": "5",
+            "text": "in Betracht"
+          },
+          {
+            "key": "6",
+            "text": "Anwendung"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "üben"
+          },
+          {
+            "key": "b",
+            "text": "treffen"
+          },
+          {
+            "key": "c",
+            "text": "halten"
+          },
+          {
+            "key": "d",
+            "text": "stellen"
+          },
+          {
+            "key": "e",
+            "text": "finden"
+          },
+          {
+            "key": "f",
+            "text": "ziehen"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B4",
+      "instructions": "Ordne jedem Nomen (1–6) das feste Funktionsverb (a–f) zu, das dazugehört.",
+      "title": "Funktionsverb und Nomen verbinden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "nahm"
+          ],
+          "2": [
+            "spielte"
+          ],
+          "3": [
+            "übte"
+          ],
+          "4": [
+            "stellte"
+          ],
+          "5": [
+            "zog"
+          ],
+          "6": [
+            "nehmen"
+          ],
+          "7": [
+            "traf"
+          ],
+          "8": [
+            "stellte"
+          ]
+        },
+        "bank": [
+          "nahm",
+          "spielte",
+          "übte",
+          "stellte",
+          "zog",
+          "nehmen",
+          "traf",
+          "stellte",
+          "brachte",
+          "hielt"
+        ],
+        "text": "Protokoll der Sitzung vom Montag: Zu Beginn {1} Frau Yilmaz auf den letzten Bericht\nBezug. Der Kostenfaktor {2} weiterhin eine große Rolle. Herr Steinmeyer {3} Kritik am\nLiefertermin und {4} die Frage, ob eine Verschiebung möglich sei. Das Team {5} das\nüberarbeitete Angebot in Betracht. Eine längere Verzögerung wollte niemand in Kauf {6}.\nAm Ende {7} der Vorstand eine vorläufige Entscheidung und {8} die endgültige Klärung\nbis Freitag zurück.\n",
+        "type": "gap-bank"
+      },
+      "id": "B5",
+      "instructions": "Füll die 8 Lücken mit dem passenden Funktionsverb (richtige Form). Zwei Wörter sind zu viel.",
+      "title": "Protokoll ergänzen: Funktionsverben"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Die Gewerkschaft übt Kritik an der Entscheidung",
+            "tiles": [
+              "Die",
+              "Gewerkschaft",
+              "übt",
+              "Kritik",
+              "an",
+              "der",
+              "Entscheidung"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Er nimmt Abschied von den Kollegen",
+            "tiles": [
+              "Er",
+              "nimmt",
+              "Abschied",
+              "von",
+              "den",
+              "Kollegen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Wir nehmen die Kosten in Kauf",
+            "tiles": [
+              "Wir",
+              "nehmen",
+              "die",
+              "Kosten",
+              "in",
+              "Kauf"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Die Regel findet hier keine Anwendung",
+            "tiles": [
+              "Die",
+              "Regel",
+              "findet",
+              "hier",
+              "keine",
+              "Anwendung"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B6",
+      "instructions": "Bring die Wörter in die richtige Reihenfolge.",
+      "title": "Satzbau: FVG mit fester Präposition"
+    },
+    {
+      "block": "B",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "treffen",
+              "stellen",
+              "üben",
+              "machen"
+            ],
+            "odd": 3,
+            "why": "machen ist kein Funktionsverb in diesen Gefügen; treffen, stellen und üben tragen feste FVG."
+          },
+          {
+            "items": [
+              "in Frage kommen",
+              "in Betracht ziehen",
+              "in Kauf nehmen",
+              "eine Rede halten"
+            ],
+            "odd": 3,
+            "why": "eine Rede halten hat keinen artikellosen „in“-Block; die anderen drei folgen dem Muster „in + Nomen ohne Artikel“."
+          },
+          {
+            "items": [
+              "entscheiden",
+              "kritisieren",
+              "berücksichtigen",
+              "treffen"
+            ],
+            "odd": 3,
+            "why": "treffen ist ein Funktionsverb (leer); die anderen drei sind bedeutungstragende Vollverben."
+          },
+          {
+            "items": [
+              "Bezug nehmen",
+              "Kritik üben",
+              "Abschied nehmen",
+              "eine Frage stellen"
+            ],
+            "odd": 3,
+            "why": "eine Frage stellen hat keine feste Präposition; die anderen drei verlangen eine (auf / an / von)."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "B7",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum.",
+      "title": "Wortschatz: Was passt nicht?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Der Vorstand trifft am Freitag eine Entscheidung."
+              },
+              {
+                "key": "b",
+                "text": "Der Chef entscheidet das am Freitag einfach."
+              }
+            ],
+            "q": "In einem offiziellen Sitzungsprotokoll:",
+            "why": "Im formellen Protokoll passt das Funktionsverbgefüge besser."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich möchte an dieser Stelle Kritik an deinem Plan üben."
+              },
+              {
+                "key": "b",
+                "text": "Ehrlich gesagt finde ich deinen Plan nicht so gut."
+              }
+            ],
+            "q": "In einer WhatsApp an einen Freund:",
+            "why": "Privat ist der klare Verbalstil natürlicher; das FVG wirkt steif."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Für Rückfragen stehe ich Ihnen gern zur Verfügung."
+              },
+              {
+                "key": "b",
+                "text": "Wenn was ist, melde dich einfach."
+              }
+            ],
+            "q": "In einem Geschäftsbrief als Schlussformel:",
+            "why": "Der formelle Brief verlangt die FVG-Schlussformel."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B8",
+      "instructions": "Wähle die stilistisch passendere Variante (a oder b).",
+      "title": "Welcher Stil passt zum Kontext?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "trifft"
+          ],
+          "2": [
+            "Frage"
+          ],
+          "3": [
+            "üben"
+          ],
+          "4": [
+            "Nomen"
+          ],
+          "5": [
+            "an"
+          ],
+          "6": [
+            "spielt"
+          ],
+          "7": [
+            "Frage"
+          ],
+          "8": [
+            "Nominalstil"
+          ],
+          "9": [
+            "bringt"
+          ],
+          "10": [
+            "Berufs"
+          ]
+        },
+        "listLayout": true,
+        "text": "Wer zum ersten Mal ein Protokoll liest, wundert sich über die Sprache. Niemand\n„entscheidet\" — man (1) {1} eine Entscheidung. Niemand „fragt\" — man stellt eine\n(2) {2}. Und wer einen Vorschlag schlecht findet, möchte daran Kritik (3) {3}. Diese\nfesten Verbindungen aus einem leeren Verb und einem (4) {4} heißen Funktionsverbgefüge.\nErstens klingen sie sachlicher: Wer Kritik (5) {5} einer Sache übt, greift keine\nPerson an. Zweitens wirken sie distanzierter. Drittens sind sie ein Signal der\nZugehörigkeit: Wer sagt „der Kostenfaktor (6) {6} eine zentrale Rolle\" oder „das\nkommt nicht in (7) {7}\", beherrscht die Sprache des Hauses. Trotzdem gilt eine\nGrenze: Ein Text nur aus Funktionsverbgefügen ist so schwer zu lesen wie reiner\n(8) {8}. Man (9) {9} die wichtigen Punkte formell zum Ausdruck, erklärt sie aber\nverbal. Wer beides beherrscht, hat den Schritt vom „Deutsch der Prüfung\" zum\n„Deutsch des (10) {10}\" getan.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Füll jede Lücke mit einem Wort (Funktionsverb, Nomen oder Präposition). 10 Items.",
+      "title": "Lückentext: Warum die Berufssprache so funktioniert (Lesetext)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "machen"
+              },
+              {
+                "key": "b",
+                "text": "treffen"
+              },
+              {
+                "key": "c",
+                "text": "nehmen"
+              }
+            ],
+            "q": "Wir müssen heute eine wichtige Entscheidung ____.",
+            "why": "eine Entscheidung treffen (festes Funktionsverb)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "an"
+              },
+              {
+                "key": "b",
+                "text": "auf"
+              },
+              {
+                "key": "c",
+                "text": "von"
+              }
+            ],
+            "q": "Ich nehme Bezug ____ Ihr Schreiben vom 3. Mai.",
+            "why": "Bezug nehmen auf + Akkusativ."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "am"
+              },
+              {
+                "key": "b",
+                "text": "auf das"
+              },
+              {
+                "key": "c",
+                "text": "an das"
+              }
+            ],
+            "q": "Die Gewerkschaft übt Kritik ____ Verfahren.",
+            "why": "Kritik üben an + Dativ → am Verfahren."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "die Frage"
+              },
+              {
+                "key": "b",
+                "text": "Frage"
+              },
+              {
+                "key": "c",
+                "text": "der Frage"
+              }
+            ],
+            "q": "Dieser Termin kommt für uns leider nicht in ____.",
+            "why": "in Frage kommen (kein Artikel)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "stehen"
+              },
+              {
+                "key": "b",
+                "text": "stellen"
+              },
+              {
+                "key": "c",
+                "text": "machen"
+              }
+            ],
+            "q": "Die Unterlagen ____ Ihnen ab morgen zur Verfügung.",
+            "why": "zur Verfügung stehen = verfügbar sein (stellen wäre „bereitstellen“)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "bringen"
+              },
+              {
+                "key": "b",
+                "text": "ziehen"
+              },
+              {
+                "key": "c",
+                "text": "nehmen"
+              }
+            ],
+            "q": "Eine längere Verzögerung würden wir nicht in Kauf ____.",
+            "why": "in Kauf nehmen (festes Verb)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle die richtige Option (a, b oder c) für jede Lücke.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "TRAF"
+          ],
+          "2": [
+            "AN"
+          ],
+          "3": [
+            "ZUR"
+          ],
+          "4": [
+            "BETRACHT"
+          ],
+          "5": [
+            "ROLLE"
+          ],
+          "6": [
+            "FRAGE"
+          ],
+          "7": [
+            "AUSDRUCK"
+          ],
+          "8": [
+            "KAUF"
+          ],
+          "9": [
+            "FAND"
+          ],
+          "10": [
+            "VERFÜGUNG"
+          ]
+        },
+        "bank": [
+          "TRAF",
+          "AN",
+          "ZUR",
+          "BETRACHT",
+          "ROLLE",
+          "FRAGE",
+          "AUSDRUCK",
+          "KAUF",
+          "FAND",
+          "VERFÜGUNG",
+          "MACHTE",
+          "AUF",
+          "STELLTE",
+          "NAHM",
+          "VON"
+        ],
+        "text": "Aus einem Geschäftsbericht: Der Vorstand {1} im Mai eine wichtige Entscheidung. Zuvor\nhatte das Team Kritik {2} dem alten Verfahren geübt und mehrere Probleme {3} Sprache\ngebracht. Man entschied, das neue Angebot in {4} zu ziehen. Der Preis spielte dabei\neine große {5}. Eine sofortige Umstellung kam jedoch nicht in {6}, weil die Kosten zu\nhoch waren. Die Geschäftsführung brachte zum {7}, dass eine schrittweise Lösung\nsinnvoller sei. Höhere Anfangskosten nahm man bewusst in {8}. Schließlich {9} der Plan\nbreite Anwendung. Für Rückfragen stand die Abteilung den Mitarbeitern jederzeit zur\n{10}.\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Füll die 10 Lücken mit Wörtern aus dem Kasten. Fünf Wörter sind zu viel. Jedes Wort wird nur einmal benutzt.",
+      "title": "Sprachbausteine Teil 2 (Wortbank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "In der Berufswelt sagt man statt „entscheiden“ oft „eine Entscheidung treffen“.",
+            "why": "„Niemand entscheidet etwas — man trifft eine Entscheidung\"."
+          },
+          {
+            "answer": false,
+            "q": "Laut Text klingt das Funktionsverbgefüge persönlicher und greift Personen direkt an.",
+            "why": "„Wer Kritik an einer Sache übt, greift nicht eine Person an\" — es klingt sachlicher und distanzierter."
+          },
+          {
+            "answer": true,
+            "q": "Funktionsverbgefüge sind auch ein Signal der Zugehörigkeit.",
+            "why": "„drittens ist es ein Signal der Zugehörigkeit\"."
+          },
+          {
+            "answer": false,
+            "q": "Ein Text nur aus Funktionsverbgefügen ist laut Text besonders leicht zu lesen.",
+            "why": "„genauso schwer zu lesen wie reiner Nominalstil\"."
+          },
+          {
+            "answer": true,
+            "q": "Gute Stilratgeber empfehlen eine Mischung aus formellen und verbalen Sätzen.",
+            "why": "„Deshalb raten gute Stilratgeber zu einer Mischung\"."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Wer zum ersten Mal an einem Meeting teilnimmt oder ein Protokoll liest, wundert sich oft über die Sprache. Niemand „entscheidet\" etwas — man „trifft eine Entscheidung\". Niemand „fragt\" — man „stellt eine Frage\". Und wer einen Vorschlag schlecht findet, sagt nicht „das finde ich schlecht\", sondern „daran möchte ich Kritik üben\". Diese festen Verbindungen aus einem fast leeren Verb und einem Nomen heißen Funktionsverbgefüge.\n> Warum spricht die Berufswelt so? Erstens klingt das Funktionsverbgefüge **sachlicher**: Wer Kritik an einer Sache übt, greift nicht eine Person an. Zweitens wirkt es **distanzierter** — die Verantwortung steckt im Nomen, nicht in einer Person. Und drittens ist es ein **Signal der Zugehörigkeit**: Wer im Meeting sagt „der Kostenfaktor spielt eine zentrale Rolle\" und „das kommt für uns nicht in Frage\", zeigt, dass er die Sprache des Hauses beherrscht.\n> Trotz dieser Vorteile gilt auch hier eine Grenze: Ein Text, der nur aus Funktionsverbgefügen besteht, ist genauso schwer zu lesen wie reiner Nominalstil. Deshalb raten gute Stilratgeber zu einer Mischung. Man bringt die wichtigen Punkte formell zum Ausdruck, erklärt sie aber in klaren, verbalen Sätzen. Wer beides beherrscht und je nach Situation wechseln kann, hat den entscheidenden Schritt vom „Deutsch der Prüfung\" zum „Deutsch des Berufs\" getan.\n\nRichtig (R) oder falsch (F)?\n",
+      "title": "Lesen Text 1 (Lesetext: Warum die Berufssprache so funktioniert)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Auf den Quartalsbericht."
+              },
+              {
+                "key": "b",
+                "text": "Auf die Personalplanung."
+              },
+              {
+                "key": "c",
+                "text": "Auf den Kostenplan."
+              }
+            ],
+            "q": "Worauf nahm Frau Berger zu Beginn Bezug?",
+            "why": "„Frau Berger nahm zunächst Bezug auf den Quartalsbericht\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er hielt eine lange Rede."
+              },
+              {
+                "key": "b",
+                "text": "Er übte Kritik an der Personalplanung."
+              },
+              {
+                "key": "c",
+                "text": "Er traf die Entscheidung allein."
+              }
+            ],
+            "q": "Was tat Herr Klein?",
+            "why": "„übte Herr Klein Kritik an der Personalplanung und stellte die aktuelle Verteilung in Frage\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wegen der Kosten."
+              },
+              {
+                "key": "b",
+                "text": "Wegen Zeitmangels."
+              },
+              {
+                "key": "c",
+                "text": "Wegen fehlender Unterlagen."
+              }
+            ],
+            "q": "Warum kam eine sofortige Umsetzung nicht in Frage?",
+            "why": "„kam aus Kostengründen nicht in Frage\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Projekt sofort zu stoppen."
+              },
+              {
+                "key": "b",
+                "text": "Das Thema in der nächsten Sitzung erneut zur Sprache zu bringen."
+              },
+              {
+                "key": "c",
+                "text": "Den Bericht neu zu schreiben."
+              }
+            ],
+            "q": "Welche Entscheidung traf man am Ende?",
+            "why": "„Man traf die Entscheidung, das Thema in der nächsten Sitzung erneut zur Sprache zu bringen\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Lies das folgende Protokoll und wähle a, b oder c.\n\n> **Protokoll der Projektsitzung vom 12. Juni**\n> Frau Berger nahm zunächst Bezug auf den Quartalsbericht. Anschließend übte Herr\n> Klein Kritik an der Personalplanung und stellte die aktuelle Verteilung in Frage.\n> Das Team zog daraufhin zwei Alternativen in Betracht. Eine sofortige Umsetzung kam\n> aus Kostengründen nicht in Frage. Man traf die Entscheidung, das Thema in der\n> nächsten Sitzung erneut zur Sprache zu bringen. Die Unterlagen stehen allen\n> Teilnehmenden ab sofort zur Verfügung.\n",
+      "title": "Lesen Text 2 (neuer Text: Auszug aus einem Sitzungsprotokoll)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "treffen"
+          ],
+          "2": [
+            "stellen"
+          ],
+          "3": [
+            "üben"
+          ],
+          "4": [
+            "berücksichtigen"
+          ],
+          "5": [
+            "kritisieren"
+          ],
+          "6": [
+            "auf"
+          ],
+          "7": [
+            "Akkusativ"
+          ],
+          "8": [
+            "an"
+          ],
+          "9": [
+            "Dativ"
+          ],
+          "10": [
+            "möglich sein"
+          ],
+          "11": [
+            "bezweifeln"
+          ],
+          "12": [
+            "die Prüfung"
+          ],
+          "13": [
+            "Genitiv"
+          ],
+          "14": [
+            "auf"
+          ],
+          "15": [
+            "die Entscheidung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Funktionsverb zu „eine Entscheidung …\": {1}\n2. Funktionsverb zu „eine Frage …\": {2}\n3. Funktionsverb zu „Kritik …\": {3}\n4. Vollverb zu „in Betracht ziehen\": {4}\n5. Vollverb zu „Kritik üben\": {5}\n6. Präposition bei „Bezug nehmen\": {6}\n7. Kasus bei „Bezug nehmen auf\": {7}\n8. Präposition bei „Kritik üben\": {8}\n9. Kasus bei „Kritik üben an\": {9}\n10. „in Frage kommen\" bedeutet: {10} (möglich sein / bezweifeln)\n11. „in Frage stellen\" bedeutet: {11} (möglich sein / bezweifeln)\n12. (B2/01) Nominalisierung von „prüfen\" (mit Artikel): {12}\n13. (B2/01) Präposition „wegen\" verlangt welchen Fall? {13}\n14. (B1/08) feste Präposition zu „sich beziehen ___\": {14}\n15. (B1/12) Nominalisierung von „entscheiden\" (mit Artikel): {15}\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Eine Minute pro Item. Keine Notizen. Items mit (B2/xx) bzw. (B1/xx) wiederholen eine frühere Lektion. 15 Items.",
+      "title": "Gemischter Schnelltest"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "treffen",
+              "stellen",
+              "üben",
+              "machen"
+            ],
+            "odd": 3,
+            "why": "machen ist in diesen Gefügen kein Funktionsverb; treffen, stellen und üben tragen feste FVG."
+          },
+          {
+            "items": [
+              "entscheiden",
+              "fragen",
+              "kritisieren",
+              "treffen"
+            ],
+            "odd": 3,
+            "why": "treffen ist ein leeres Funktionsverb; die anderen drei sind bedeutungstragende Vollverben."
+          },
+          {
+            "items": [
+              "in Frage",
+              "in Betracht",
+              "in Kauf",
+              "zur Verfügung"
+            ],
+            "odd": 3,
+            "why": "zur Verfügung ist eine feste Verschmelzung mit Artikel (zu + der); die anderen drei sind artikellose „in“-Blöcke."
+          },
+          {
+            "items": [
+              "Bezug nehmen",
+              "Kritik üben",
+              "Abschied nehmen",
+              "eine Frage stellen"
+            ],
+            "odd": 3,
+            "why": "eine Frage stellen hat keine feste Präposition; die anderen drei verlangen auf / an / von."
+          },
+          {
+            "items": [
+              "die Entscheidung",
+              "die Frage",
+              "die Kritik",
+              "treffen"
+            ],
+            "odd": 3,
+            "why": "treffen ist ein Verb; die anderen drei sind Nomen aus Funktionsverbgefügen."
+          },
+          {
+            "items": [
+              "in Frage kommen",
+              "in Betracht ziehen",
+              "in Frage stellen",
+              "eine Rede halten"
+            ],
+            "odd": 3,
+            "why": "eine Rede halten passt nicht ins Muster „in + Nomen“; die anderen drei sind „in“-Gefüge."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum.",
+      "title": "Odd one out"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "die Verbesserung"
+          ],
+          "2": [
+            "Genitiv"
+          ],
+          "3": [
+            "weil"
+          ],
+          "4": [
+            "wegen des Regens"
+          ],
+          "5": [
+            "auf"
+          ],
+          "6": [
+            "auf"
+          ],
+          "7": [
+            "für"
+          ],
+          "8": [
+            "die Anmeldung"
+          ],
+          "9": [
+            "nutzen"
+          ],
+          "10": [
+            "trennen"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Aus B2/01 (Nominalstil und Verbalstil):**\n1. Nominalisierung von „verbessern\" (mit Artikel): {1}\n2. „trotz\" verlangt welchen Fall? {2}\n3. Konnektor zu „wegen\": {3}\n4. Mach nominal: „weil es regnet\" → {4}\n\n**Aus B1/08 (Verben mit Präpositionen):**\n5. sich freuen ___ (Zukunft): {5}\n6. warten ___ (jemanden): {6}\n7. sich interessieren ___: {7}\n\n**Aus B1/12 (Nominalisierung):**\n8. Nominalisierung von „anmelden\" (mit Artikel): {8}\n9. Verb zu „die Nutzung\": {9}\n10. Verb zu „die Trennung\": {10}\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Wiederholung früherer Lektionen. 10 Items.",
+      "title": "Rückblick: B2/01, B1/08, B1/12"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "treffen"
+          ],
+          "2": [
+            "stellen"
+          ],
+          "3": [
+            "üben"
+          ],
+          "4": [
+            "halten"
+          ],
+          "5": [
+            "berücksichtigen"
+          ],
+          "6": [
+            "sich beziehen auf",
+            "sich beziehen"
+          ],
+          "7": [
+            "ausdrücken"
+          ],
+          "8": [
+            "Kritik"
+          ],
+          "9": [
+            "Betracht"
+          ],
+          "10": [
+            "auf + Akkusativ"
+          ],
+          "11": [
+            "an + Dativ"
+          ],
+          "12": [
+            "von + Dativ"
+          ],
+          "13": [
+            "Frage"
+          ],
+          "14": [
+            "stelle"
+          ],
+          "15": [
+            "Sie kritisiert den Plan."
+          ],
+          "16": [
+            "Wir entscheiden."
+          ],
+          "17": [
+            "Der Preis spielt eine große Rolle."
+          ],
+          "18": [
+            "Ich nehme Bezug auf Ihren Brief."
+          ],
+          "19": [
+            "die Entscheidung"
+          ],
+          "20": [
+            "auf"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Das richtige Funktionsverb:**\n1. eine Entscheidung {1}\n2. eine Frage {2}\n3. Kritik {3}\n4. eine Rede {4}\n\n**FVG → Vollverb:**\n5. in Betracht ziehen → {5}\n6. Bezug nehmen → {6}\n7. zum Ausdruck bringen → {7}\n\n**Vollverb → FVG (Nomen ergänzen):**\n8. kritisieren → {8} üben\n9. berücksichtigen → in {9} ziehen\n\n**Feste Präposition + Kasus:**\n10. Bezug nehmen ___ + welcher Fall? {10}\n11. Kritik üben ___ + welcher Fall? {11}\n12. Abschied nehmen ___ + welcher Fall? {12}\n\n**in Frage kommen / stellen:**\n13. „Das geht für uns.\" = Das kommt in {13}.\n14. „Das bezweifle ich.\" = Das {14} ich in Frage.\n\n**Umformen FVG → Vollverb:**\n15. „Sie übt Kritik an dem Plan.\" → {15}\n16. „Wir treffen eine Entscheidung.\" → {16}\n\n**Umformen Vollverb → FVG:**\n17. „Der Preis ist sehr wichtig.\" → {17}\n18. „Ich beziehe mich auf Ihren Brief.\" → {18}\n\n**Gemischtes / Wiederholung:**\n19. (B2/01) Nominalisierung von „entscheiden\" (mit Artikel): {19}\n20. (B1/08) feste Präposition zu „warten ___ (jemanden)\": {20}\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (bewerte dich /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "b2-08",
+  "intro": "Blöcke: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Die Lösungen findest du in solutions.md. Tipp: Verteil die Blöcke über mehrere Tage — H und A am Tag 1, B am Tag 2, C am Tag 3, D am Tag 4 nach einer Pause.\n",
+  "lesson": "B2/08",
+  "level": "B2",
+  "summary": null,
+  "title": "B2 · Lektion 8 — Übungen (Funktionsverbgefüge und feste Verbindungen)",
+  "topic": null
+}

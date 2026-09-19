@@ -1,0 +1,809 @@
+{
+  "category": "Geld & Verträge",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "konto",
+            "label": "Konto & Eröffnung"
+          },
+          {
+            "key": "karte",
+            "label": "Karte & Zugang"
+          },
+          {
+            "key": "zahlung",
+            "label": "Zahlungen"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "konto",
+            "text": "das Girokonto"
+          },
+          {
+            "bucket": "karte",
+            "text": "die Girocard"
+          },
+          {
+            "bucket": "zahlung",
+            "text": "der Dauerauftrag"
+          },
+          {
+            "bucket": "konto",
+            "text": "die Legitimation"
+          },
+          {
+            "bucket": "karte",
+            "text": "die PIN"
+          },
+          {
+            "bucket": "zahlung",
+            "text": "die Lastschrift"
+          },
+          {
+            "bucket": "konto",
+            "text": "die Kontoführungsgebühr"
+          },
+          {
+            "bucket": "karte",
+            "text": "die Kreditkarte"
+          },
+          {
+            "bucket": "zahlung",
+            "text": "die Überweisung"
+          },
+          {
+            "bucket": "konto",
+            "text": "die IBAN"
+          },
+          {
+            "bucket": "karte",
+            "text": "das Online-Banking"
+          },
+          {
+            "bucket": "zahlung",
+            "text": "der Dispokredit"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Begriffe.",
+      "instructionsEn": "Sort the 12 terms.",
+      "title": "Konto, Karte oder Zahlung?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "das Girokonto"
+          },
+          {
+            "key": "2",
+            "text": "die Legitimation"
+          },
+          {
+            "key": "3",
+            "text": "die IBAN"
+          },
+          {
+            "key": "4",
+            "text": "die Überweisung"
+          },
+          {
+            "key": "5",
+            "text": "der Dauerauftrag"
+          },
+          {
+            "key": "6",
+            "text": "die Lastschrift"
+          },
+          {
+            "key": "7",
+            "text": "der Dispokredit"
+          },
+          {
+            "key": "8",
+            "text": "die Kontoführungsgebühr"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "das Alltagskonto für Gehalt, Miete und Einkäufe"
+          },
+          {
+            "key": "b",
+            "text": "die Prüfung deiner Identität mit Ausweis"
+          },
+          {
+            "key": "c",
+            "text": "die lange Kontonummer, die mit DE beginnt"
+          },
+          {
+            "key": "d",
+            "text": "eine einzelne Zahlung, die du selbst auslöst"
+          },
+          {
+            "key": "e",
+            "text": "immer derselbe Betrag, den du regelmäßig schickst"
+          },
+          {
+            "key": "f",
+            "text": "die Erlaubnis, dass ein anderer Geld von deinem Konto holt"
+          },
+          {
+            "key": "g",
+            "text": "der Rahmen, um den du ins Minus gehen darfst"
+          },
+          {
+            "key": "h",
+            "text": "der monatliche Preis für das Konto selbst"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "wird"
+          ],
+          "3": [
+            "werden"
+          ],
+          "4": [
+            "wurde"
+          ],
+          "5": [
+            "wird"
+          ],
+          "6": [
+            "werden"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ihre Identität {1} mit dem Ausweis geprüft. (werden, Präsens Singular)\n2. Die Karte {2} Ihnen in fünf Tagen zugeschickt. (werden, Präsens Singular)\n3. Karte und PIN {3} getrennt verschickt. (werden, Präsens Plural)\n4. Das Konto {4} heute eröffnet. (werden, Präteritum Singular)\n5. Die Gebühr {5} monatlich abgebucht. (werden, Präsens Singular)\n6. Die Unterlagen {6} Ihnen per Post geschickt. (werden, Präsens Plural)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze die Passivform.",
+      "instructionsEn": "Fill in the passive form.",
+      "title": "Passiv im Bankgespräch"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "was"
+          ],
+          "2": [
+            "ob"
+          ],
+          "3": [
+            "wann"
+          ],
+          "4": [
+            "wie"
+          ],
+          "5": [
+            "ist"
+          ],
+          "6": [
+            "was"
+          ],
+          "7": [
+            "ob"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Können Sie mir sagen, {1} das Konto monatlich kostet? (Preis)\n2. Wissen Sie, {2} ich das online machen kann? (Ja/Nein-Frage)\n3. Dürfte ich fragen, {3} die Karte kommt? (Zeitpunkt)\n4. Ich wüsste gern, {4} hoch der Dispo {5}. (Menge / sein)\n5. Können Sie mir erklären, {6} der Unterschied zwischen Dauerauftrag und Lastschrift ist? (Frage nach der Sache)\n6. Wissen Sie, {7} ich dafür einen Termin brauche? (Ja/Nein-Frage)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das Fragewort, ob oder die Verbform.",
+      "instructionsEn": "Fill in the question word, ob, or the verb form.",
+      "title": "Indirekt fragen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "GIROKONTO"
+          ],
+          "2": [
+            "MELDEBESCHEINIGUNG"
+          ],
+          "3": [
+            "LEGITIMATION"
+          ],
+          "4": [
+            "MONATLICH"
+          ],
+          "5": [
+            "DISPO"
+          ],
+          "6": [
+            "KARTE"
+          ],
+          "7": [
+            "PIN"
+          ],
+          "8": [
+            "DAUERAUFTRAG"
+          ],
+          "9": [
+            "LASTSCHRIFT"
+          ],
+          "10": [
+            "WO"
+          ]
+        },
+        "bank": [
+          "GIROKONTO",
+          "MELDEBESCHEINIGUNG",
+          "LEGITIMATION",
+          "MONATLICH",
+          "DISPO",
+          "KARTE",
+          "PIN",
+          "DAUERAUFTRAG",
+          "LASTSCHRIFT",
+          "WO",
+          "IBAN",
+          "GEBÜHR",
+          "WANN",
+          "KONTO"
+        ],
+        "text": "— Guten Tag, ich möchte ein {1} eröffnen.\n— Gern. Haben Sie Ihren Ausweis und eine {2} dabei?\n— Ja, Ausweis und die Meldebescheinigung vom Bürgeramt.\n— Perfekt, damit machen wir die {3}. Was kostet das Konto? — Bei\nGehaltseingang nichts, sonst 4,90 € {4}.\n— Und wie hoch ist der {5}?\n— Das legen wir nach drei Gehaltseingängen fest.\n— Verstehe. Wann bekomme ich die {6}?\n— In etwa fünf Werktagen. Karte und {7} kommen getrennt, aus\nSicherheitsgründen.\n— Alles klar. Ich möchte außerdem die Miete jeden Monat\nüberweisen — geht das automatisch?\n— Dafür richten wir einen {8} ein. Für Strom und Handy ist eine\n{9} praktischer, da holen die Firmen den Betrag selbst.\n— Gut. Und {10} kann ich das später selbst ändern?\n— Alles im Online-Banking, die Zugangsdaten kommen mit der Post.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Die Kontoeröffnung"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich brauche ein Konto."
+              },
+              {
+                "key": "b",
+                "text": "Guten Tag, ich möchte ein Girokonto eröffnen. Was brauchen Sie von mir?"
+              },
+              {
+                "key": "c",
+                "text": "Kann ich hier Geld einzahlen?"
+              }
+            ],
+            "q": "Du willst ein Konto eröffnen. — You want to open an account.",
+            "why": "Das Wort „Girokonto“ plus die Frage nach den Unterlagen bringt das Gespräch in einem Satz auf Kurs."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ist das kostenlos?"
+              },
+              {
+                "key": "b",
+                "text": "Was kostet die Kontoführung monatlich — und gibt es Bedingungen dafür?"
+              },
+              {
+                "key": "c",
+                "text": "Ich will nichts zahlen."
+              }
+            ],
+            "q": "Du willst wissen, was das Konto kostet. — You want to know what the account costs.",
+            "why": "Nach den Bedingungen zu fragen ist der Punkt: „kostenlos“ gilt fast immer nur mit Gehaltseingang."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich richte einen Dauerauftrag ein — immer derselbe Betrag zum Ersten."
+              },
+              {
+                "key": "b",
+                "text": "Ich gebe eine Lastschrift."
+              },
+              {
+                "key": "c",
+                "text": "Ich überweise jeden Monat neu."
+              }
+            ],
+            "q": "Du willst die Miete jeden Monat automatisch zahlen. — You want to pay the rent automatically each month.",
+            "why": "Fester Betrag zum festen Termin: das ist genau der Dauerauftrag, nicht die Lastschrift."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dauerauftrag."
+              },
+              {
+                "key": "b",
+                "text": "Ich erteile ein Lastschriftmandat — der Betrag ändert sich ja jedes Jahr."
+              },
+              {
+                "key": "c",
+                "text": "Überweisung."
+              }
+            ],
+            "q": "Der Stromanbieter soll den Betrag selbst holen. — The electricity provider should collect the amount itself.",
+            "why": "Wechselnde Beträge gehören zur Lastschrift; ein Dauerauftrag müsste jedes Mal angepasst werden."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ja, verstehe."
+              },
+              {
+                "key": "b",
+                "text": "Können Sie mir erklären, was genau ein Dispokredit ist?"
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir zu kompliziert."
+              }
+            ],
+            "q": "Du verstehst einen Begriff nicht. — You don't understand a term.",
+            "why": "Beim Geld ist Nachfragen wichtiger als anderswo — ein Dispo kostet zweistellige Zinsen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Morgen in die Filiale gehen."
+              },
+              {
+                "key": "b",
+                "text": "Erst zu Hause suchen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort sperren lassen — über die Bank oder den Sperr-Notruf 116 116."
+              }
+            ],
+            "q": "Deine Karte ist weg. — Your card is gone.",
+            "why": "Sperren geht rund um die Uhr und kostet nichts; Suchen kann man danach immer noch."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Was sagst du?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Modalverb an Position 2, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "ein",
+              "Girokonto",
+              "eröffnen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Indirekte Frage: Verb am Ende",
+            "tiles": [
+              "Können",
+              "Sie",
+              "mir",
+              "sagen",
+              ",",
+              "was",
+              "das",
+              "Konto",
+              "kostet",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Passiv: werden + Partizip am Ende",
+            "tiles": [
+              "Karte",
+              "und",
+              "PIN",
+              "werden",
+              "getrennt",
+              "verschickt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "einrichten steht als Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "einen",
+              "Dauerauftrag",
+              "einrichten"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Sie-Imperativ: Verb zuerst, dann Sie",
+            "tiles": [
+              "Bitte",
+              "sperren",
+              "Sie",
+              "meine",
+              "Karte",
+              "sofort"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt mit haben, Partizip am Ende",
+            "tiles": [
+              "Diese",
+              "Abbuchung",
+              "habe",
+              "ich",
+              "nicht",
+              "veranlasst"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze bei der Bank bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Wer 1.500 € Gehalt bekommt, zahlt keine Kontoführungsgebühr. — Someone earning €1,500 pays no account fee.",
+            "why": "Ab 1.200 € monatlichem Gehaltseingang kostet die Kontoführung 0 €."
+          },
+          {
+            "answer": false,
+            "q": "Abheben ist überall kostenlos. — Withdrawing cash is free everywhere.",
+            "why": "An Fremdautomaten kostet es 4,50 € pro Abhebung."
+          },
+          {
+            "answer": true,
+            "q": "Eine Überweisung am Schalter kostet extra. — A transfer at the counter costs extra.",
+            "why": "Am Schalter 1,50 €; online kostenlos."
+          },
+          {
+            "answer": false,
+            "q": "Den Dispo bekommt man sofort bei der Eröffnung. — You get the overdraft immediately when opening the account.",
+            "why": "Der Rahmen wird erst nach drei Gehaltseingängen festgelegt."
+          },
+          {
+            "answer": true,
+            "q": "Eine Lastschrift kann man noch nach sechs Wochen zurückgeben. — A direct debit can still be reversed after six weeks.",
+            "why": "Der Widerspruch ist bis 8 Wochen nach Belastung möglich."
+          },
+          {
+            "answer": false,
+            "q": "Die Kartensperre kostet eine Gebühr. — Blocking the card costs a fee.",
+            "why": "„Kartensperre rund um die Uhr über 116 116, kostenlos.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Stadtsparkasse — Girokonto Basis**\n>\n> | | |\n> |---|---|\n> | Kontoführung | **4,90 €/Monat** |\n> | bei monatlichem Gehaltseingang ab 1.200 € | **0 €** |\n> | Girocard | inklusive |\n> | Kreditkarte | 29 €/Jahr |\n>\n> - **Bargeld** an eigenen Automaten und im Verbund **kostenlos**,\n>   an Fremdautomaten **4,50 € pro Abhebung**.\n> - **Überweisungen online kostenlos**, am Schalter **1,50 €**.\n> - **Dispozinsen 11,9 %** p. a. Der Rahmen wird nach **drei\n>   Gehaltseingängen** festgelegt.\n> - **Kartensperre** rund um die Uhr über **116 116**, kostenlos.\n> - Widerspruch gegen eine **Lastschrift** bis **8 Wochen** nach\n>   Belastung.\n> - **Kontoauszüge** online kostenlos, gedruckt **0,50 €** pro\n>   Seite.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Das Preisverzeichnis lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Erst prüfen, ob es ein Abo ist, dann bei der Bank widersprechen — das geht bis acht Wochen nach der Belastung."
+              },
+              {
+                "key": "b",
+                "text": "Sofort das Konto kündigen."
+              },
+              {
+                "key": "c",
+                "text": "Abwarten, ob es zurückkommt."
+              }
+            ],
+            "q": "Auf dem Kontoauszug steht eine Abbuchung, die du nicht kennst. — There's a debit on your statement you don't recognise.",
+            "why": "Die Acht-Wochen-Frist ist dein Recht; sehr oft steckt aber ein vergessenes Abo dahinter."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Am Automaten bleiben, sofort sperren lassen und der Bank sagen, welcher Automat es war."
+              },
+              {
+                "key": "b",
+                "text": "Nach Hause gehen und morgen fragen."
+              },
+              {
+                "key": "c",
+                "text": "Versuchen, sie herauszuziehen."
+              }
+            ],
+            "q": "Deine Karte steckt im Automaten fest. — Your card is stuck in the machine.",
+            "why": "Erst weggehen, wenn gesperrt ist — sonst kann jemand die Karte mit deiner PIN benutzen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weiter im Dispo bleiben."
+              },
+              {
+                "key": "b",
+                "text": "Bei der Bank nach einem Ratenkredit fragen — der ist meist deutlich günstiger als der Dispo."
+              },
+              {
+                "key": "c",
+                "text": "Das Konto wechseln."
+              }
+            ],
+            "q": "Du bist ins Minus gerutscht und siehst hohe Zinsen. — You've slipped into overdraft and see high interest.",
+            "why": "Fast 12 % Dispozinsen sind teuer; ein Ratenkredit kostet meist weniger als die Hälfte."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es woanders versuchen."
+              },
+              {
+                "key": "b",
+                "text": "Fragen, ob eine andere Bescheinigung reicht und ob du sie nachreichen kannst."
+              },
+              {
+                "key": "c",
+                "text": "Ohne Papiere darauf bestehen."
+              }
+            ],
+            "q": "Man verlangt bei der Eröffnung Papiere, die du nicht hast. — At the opening you're asked for documents you don't have.",
+            "why": "Oft geht auch eine andere Bescheinigung — und Nachreichen ist meistens möglich."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Unterschreiben und zu Hause lesen."
+              },
+              {
+                "key": "b",
+                "text": "Nicken."
+              },
+              {
+                "key": "c",
+                "text": "Entschuldigung, könnten Sie das langsamer erklären? Bei Geldsachen möchte ich sichergehen, dass ich alles verstehe."
+              }
+            ],
+            "q": "Du verstehst den Berater nicht, weil er sehr schnell spricht. — You don't follow the adviser because he speaks fast.",
+            "why": "Nichts unterschreiben, was du nicht verstanden hast — die Begründung macht die Bitte selbstverständlich."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Danke, das brauche ich im Moment nicht. Erst mal nur das Girokonto, bitte."
+              },
+              {
+                "key": "b",
+                "text": "Zustimmen, um höflich zu sein."
+              },
+              {
+                "key": "c",
+                "text": "Ich muss darüber nachdenken."
+              }
+            ],
+            "q": "Dir wird ein Produkt angeboten, das du nicht brauchst. — You're offered a product you don't need.",
+            "why": "Freundlich und klar ablehnen; „darüber nachdenken“ verlängert das Gespräch nur."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn es ums Geld geht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Dauerauftrag"
+          ],
+          "2": [
+            "Lastschriftmandat"
+          ],
+          "3": [
+            "sperren"
+          ],
+          "4": [
+            "veranlasst"
+          ],
+          "5": [
+            "Dispo"
+          ],
+          "6": [
+            "Kontoführung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Für die Miete richte ich einen {1} ein. (immer derselbe Betrag)\n2. Für den Strom erteile ich ein {2}. (die Firma holt das Geld)\n3. Bitte {3} Sie meine Karte sofort. (unbrauchbar machen)\n4. Diese Abbuchung habe ich nicht {4}. (in Auftrag gegeben)\n5. Der {5} kostet fast 12 % Zinsen. (Rahmen fürs Minus)\n6. Die {6} kostet 4,90 € im Monat. (Preis für das Konto)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Girokonto"
+          ],
+          "2": [
+            "Legitimation"
+          ],
+          "3": [
+            "IBAN"
+          ],
+          "4": [
+            "PIN"
+          ],
+          "5": [
+            "Dauerauftrag"
+          ],
+          "6": [
+            "Lastschrift"
+          ],
+          "7": [
+            "Dispo"
+          ],
+          "8": [
+            "Kontoführung"
+          ],
+          "9": [
+            "sperren"
+          ],
+          "10": [
+            "veranlasst"
+          ],
+          "11": [
+            "werden"
+          ],
+          "12": [
+            "wann"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich möchte ein {1} eröffnen. (current account)\n2. Wir machen jetzt die {2}. (identity check)\n3. Meine {3} beginnt mit DE. (account number)\n4. Karte und {4} kommen getrennt. (the secret number for the card)\n5. Für die Miete: ein {5}. (standing order)\n6. Für den Strom: eine {6}. (direct debit)\n7. Der {7} kostet 11,9 % Zinsen. (overdraft)\n8. Die {8} kostet 4,90 € im Monat. (account management)\n9. Bitte {9} Sie die Karte. (block)\n10. Diese Abbuchung habe ich nicht {10}. (authorised)\n11. Karte und PIN {11} getrennt verschickt. (are — Passiv)\n12. Können Sie mir sagen, {12} die Karte kommt? (when)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-39-bei-der-bank-a2",
+  "intro": "Ohne Girokonto geht in Deutschland wenig: Miete, Gehalt, Strom und Handy laufen darüber. Das Gespräch bei der Kontoeröffnung ist überschaubar, aber es hat seine eigenen Wörter — Legitimation, Kontoführungsgebühr, Dispo, Dauerauftrag, Lastschrift. Wichtig ist, dass du den Unterschied zwischen den beiden Zahlungsarten verstehst: Beim Dauerauftrag schickst du selbst regelmäßig denselben Betrag, bei der Lastschrift holt sich der andere das Geld. Dazu die Fälle, die jeder einmal hat: Karte weg, PIN vergessen, eine Abbuchung, die nicht stimmt. Grammatik nach Bedarf: Passiv, indirekte Fragen, Modalverben. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/39-bei-der-bank-a2",
+  "level": "A2",
+  "summary": "Girokonto eröffnen, Unterlagen und Legitimation, Karte und PIN, Gebühren verstehen, Dauerauftrag einrichten und Karte sperren.",
+  "title": "Bei der Bank: Konto eröffnen — A2",
+  "topic": "Konto und Karte"
+}

@@ -1,0 +1,754 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "Partizip II",
+          "Hilfsverb"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "geschrieben"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "haben"
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "schreiben"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "gelesen"
+                ],
+                "gap": 3
+              },
+              {
+                "answer": [
+                  "haben"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "lesen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "genommen"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "haben"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "nehmen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "geholfen"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "haben"
+                ],
+                "gap": 8
+              }
+            ],
+            "label": "helfen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "geblieben"
+                ],
+                "gap": 9
+              },
+              {
+                "answer": [
+                  "sein"
+                ],
+                "gap": 10
+              }
+            ],
+            "label": "bleiben"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "geworden"
+                ],
+                "gap": 11
+              },
+              {
+                "answer": [
+                  "sein"
+                ],
+                "gap": 12
+              }
+            ],
+            "label": "werden"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "verstanden"
+                ],
+                "gap": 13
+              },
+              {
+                "answer": [
+                  "haben"
+                ],
+                "gap": 14
+              }
+            ],
+            "label": "verstehen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "studiert"
+                ],
+                "gap": 15
+              },
+              {
+                "answer": [
+                  "haben"
+                ],
+                "gap": 16
+              }
+            ],
+            "label": "studieren"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze das Partizip II und das Hilfsverb.",
+      "instructionsEn": "Fill in the Partizip II and the auxiliary.",
+      "skill": "conjugation",
+      "title": "Partizip II und Hilfsverb — schwierigere Verben"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "geschrieben"
+          ],
+          "2": [
+            "gelesen"
+          ],
+          "3": [
+            "genommen"
+          ],
+          "4": [
+            "verreist"
+          ],
+          "5": [
+            "verstanden"
+          ],
+          "6": [
+            "studiert"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe einen Brief {1}. (schreiben)\n2. Wir haben das Buch {2}. (lesen)\n3. Er hat den Kuchen {3}. (nehmen)\n4. Sie ist letzte Woche {4}. (verreisen)\n5. Ich habe die Aufgabe nicht {5}. (verstehen)\n6. Er hat drei Jahre in Berlin {6}. (studieren)\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze das Partizip II des Verbs in Klammern.",
+      "instructionsEn": "Fill in the Partizip II of the verb in parentheses.",
+      "skill": "conjugation",
+      "title": "Das Partizip II bilden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "bin"
+          ],
+          "2": [
+            "hat"
+          ],
+          "3": [
+            "haben"
+          ],
+          "4": [
+            "hat"
+          ],
+          "5": [
+            "haben"
+          ],
+          "6": [
+            "haben"
+          ],
+          "7": [
+            "habe"
+          ],
+          "8": [
+            "sind"
+          ]
+        },
+        "bank": [
+          "bin",
+          "hat",
+          "haben",
+          "hat",
+          "haben",
+          "haben",
+          "habe",
+          "sind",
+          "ist",
+          "seid"
+        ],
+        "text": "Ich {1} letzten Monat nach Wien gereist. Meine Freundin {2} mich\nbegleitet. Wir {3} viel Neues erfahren. Die Reise {4} drei Tage\ngedauert. Wir {5} im Zentrum übernachtet. Am zweiten Tag {6} wir\ndas Schloss besichtigt. Leider {7} ich meinen Regenschirm\nverloren. Am Ende {8} wir sehr zufrieden zurückgekommen.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Eine Reise nach Wien"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "verstehen"
+              },
+              {
+                "key": "b",
+                "text": "verstanden"
+              },
+              {
+                "key": "c",
+                "text": "geverstanden"
+              }
+            ],
+            "q": "Ich habe das Problem sofort ___.",
+            "why": "verstehen: untrennbares Präfix ver- → kein ge-."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "gestudiert"
+              },
+              {
+                "key": "b",
+                "text": "studieren"
+              },
+              {
+                "key": "c",
+                "text": "studiert"
+              }
+            ],
+            "q": "Er hat drei Sprachen ___.",
+            "why": "-ieren-Verben bekommen nie ge-."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "verkaufen"
+              },
+              {
+                "key": "b",
+                "text": "verkauft"
+              },
+              {
+                "key": "c",
+                "text": "geverkauft"
+              }
+            ],
+            "q": "Wir haben das Auto ___.",
+            "why": "verkaufen: untrennbares Präfix ver- → kein ge-."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "gekommt an"
+              },
+              {
+                "key": "b",
+                "text": "ankommt"
+              },
+              {
+                "key": "c",
+                "text": "angekommen"
+              }
+            ],
+            "q": "Sie ist gestern ___.",
+            "why": "ankommen: trennbares Präfix → ge- zwischen Präfix und Stamm (an-ge-kommen)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "gesehen"
+              },
+              {
+                "key": "b",
+                "text": "sehen"
+              },
+              {
+                "key": "c",
+                "text": "geseht"
+              }
+            ],
+            "q": "Ich habe den Film schon ___.",
+            "why": "sehen ist unregelmäßig → gesehen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "geerklärt"
+              },
+              {
+                "key": "b",
+                "text": "erklärt"
+              },
+              {
+                "key": "c",
+                "text": "erklären"
+              }
+            ],
+            "q": "Er hat mir die Regel ___.",
+            "why": "erklären: untrennbares Präfix er- → kein ge-."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Das richtige Partizip II"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "beworben"
+              },
+              {
+                "key": "b",
+                "text": "gebewerbt"
+              },
+              {
+                "key": "c",
+                "text": "bewerbt"
+              }
+            ],
+            "q": "Ich habe mich gestern für die Stelle ___.",
+            "why": "bewerben: untrennbares Präfix be-, unregelmäßig → beworben."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "gedauert"
+              },
+              {
+                "key": "b",
+                "text": "dauert"
+              },
+              {
+                "key": "c",
+                "text": "daurt"
+              }
+            ],
+            "q": "Das Gespräch hat eine Stunde ___.",
+            "why": "dauern: regelmäßig → gedauert."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "gekommt an"
+              },
+              {
+                "key": "b",
+                "text": "angekommen"
+              },
+              {
+                "key": "c",
+                "text": "ankommen"
+              }
+            ],
+            "q": "Ich bin pünktlich ___.",
+            "why": "ankommen: trennbar → an-ge-kommen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "gestellt"
+              },
+              {
+                "key": "b",
+                "text": "stellt"
+              },
+              {
+                "key": "c",
+                "text": "gestelt"
+              }
+            ],
+            "q": "Der Personalchef hat viele Fragen ___.",
+            "why": "stellen: regelmäßig → gestellt."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "verstehen"
+              },
+              {
+                "key": "b",
+                "text": "geverstanden"
+              },
+              {
+                "key": "c",
+                "text": "verstanden"
+              }
+            ],
+            "q": "Ich habe alles gut ___.",
+            "why": "verstehen: untrennbares Präfix → verstanden, kein ge-."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "gewesen"
+              },
+              {
+                "key": "b",
+                "text": "sein"
+              },
+              {
+                "key": "c",
+                "text": "geseint"
+              }
+            ],
+            "q": "Nach dem Gespräch bin ich sehr zufrieden ___.",
+            "why": "sein: unregelmäßig → gewesen (immer mit sein)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "gebekommen"
+              },
+              {
+                "key": "b",
+                "text": "bekommen"
+              },
+              {
+                "key": "c",
+                "text": "bekommt"
+              }
+            ],
+            "q": "Ich habe eine E-Mail zur Bestätigung ___.",
+            "why": "bekommen: untrennbares Präfix be- → kein ge-, Partizip = bekommen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "geantwortet"
+              },
+              {
+                "key": "b",
+                "text": "antwortet"
+              },
+              {
+                "key": "c",
+                "text": "anwortet"
+              }
+            ],
+            "q": "Man hat mir schnell ___.",
+            "why": "antworten: regelmäßig → geantwortet."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct Partizip II for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Ein Bewerbungsgespräch"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "HABE"
+          ],
+          "2": [
+            "HAT"
+          ],
+          "3": [
+            "HABE"
+          ],
+          "4": [
+            "BIN"
+          ],
+          "5": [
+            "HABEN"
+          ],
+          "6": [
+            "HABE"
+          ],
+          "7": [
+            "IST"
+          ],
+          "8": [
+            "BIN"
+          ],
+          "9": [
+            "HAT"
+          ],
+          "10": [
+            "BIN"
+          ]
+        },
+        "bank": [
+          "HABE",
+          "HAT",
+          "HABE",
+          "BIN",
+          "HABEN",
+          "HABE",
+          "IST",
+          "BIN",
+          "HAT",
+          "BIN",
+          "SEID",
+          "BIST",
+          "HAST"
+        ],
+        "text": "Am Montag {1} ich meinen ersten Arbeitstag begonnen. Mein Chef\n{2} mich herzlich begrüßt. Ich {3} viele neue Kollegen\nkennengelernt. Am Dienstag {4} ich zu einem wichtigen Meeting\ngegangen. Wir {5} über das neue Projekt gesprochen. Am Mittwoch\n{6} ich zum ersten Mal allein gearbeitet. Es {7} gut gelaufen.\nAm Donnerstag {8} ich früher nach Hause gefahren. Am Freitag {9}\ndie ganze Abteilung zusammen zu Mittag gegessen. Am Ende der\nWoche {10} ich sehr zufrieden gewesen.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Three words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Meine erste Woche im neuen Job (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "bestanden"
+          ],
+          "2": [
+            "angekommen"
+          ],
+          "3": [
+            "gelebt"
+          ],
+          "4": [
+            "geklärt"
+          ],
+          "5": [
+            "eingeschlafen"
+          ],
+          "6": [
+            "erwartet"
+          ],
+          "7": [
+            "ausgewandert"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe die Prüfung {1}. (bestehen)\n2. Wir sind gestern {2}. (ankommen)\n3. Er hat drei Jahre in Spanien {3}. (leben)\n4. Sie hat das Missverständnis schnell {4}. (klären)\n5. Ich bin um Mitternacht {5}. (einschlafen)\n6. Wir haben das Ergebnis nicht {6}. (erwarten)\n7. Er ist letztes Jahr nach Kanada {7}. (auswandern)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze das Partizip II des Verbs in Klammern.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "vergessen"
+              },
+              {
+                "key": "b",
+                "text": "gevergessen"
+              },
+              {
+                "key": "c",
+                "text": "vergesst"
+              }
+            ],
+            "q": "Ich habe den Termin ___.",
+            "why": "vergessen: untrennbares Präfix ver- → kein ge-."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sagt"
+              },
+              {
+                "key": "b",
+                "text": "gesagt"
+              },
+              {
+                "key": "c",
+                "text": "sagen"
+              }
+            ],
+            "q": "Er hat mir die Wahrheit ___.",
+            "why": "sagen: regelmäßig → gesagt."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "gehen"
+              },
+              {
+                "key": "b",
+                "text": "gegeht"
+              },
+              {
+                "key": "c",
+                "text": "gegangen"
+              }
+            ],
+            "q": "Sie ist nach Hause ___.",
+            "why": "gehen: unregelmäßig → gegangen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "gerepariert"
+              },
+              {
+                "key": "b",
+                "text": "reparieren"
+              },
+              {
+                "key": "c",
+                "text": "repariert"
+              }
+            ],
+            "q": "Ich habe das Auto ___.",
+            "why": "-ieren-Verben bekommen nie ge-."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "diskutiert"
+              },
+              {
+                "key": "b",
+                "text": "gediskutiert"
+              },
+              {
+                "key": "c",
+                "text": "diskutieren"
+              }
+            ],
+            "q": "Wir haben lange ___.",
+            "why": "-ieren-Verben bekommen nie ge-."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "gegefallen"
+              },
+              {
+                "key": "b",
+                "text": "gefallen"
+              },
+              {
+                "key": "c",
+                "text": "gefallt"
+              }
+            ],
+            "q": "Das Konzert hat mir sehr ___.",
+            "why": "gefallen: untrennbares Präfix ge- (schon im Stamm) → kein zusätzliches ge-."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-08-perfekt-sein-haben-a2",
+  "intro": "Standalone drill set, not tied to any lesson. Builds on the A1 set with the two Partizip II patterns that trip learners up: inseparable prefixes (be-, er-, ver-, ent-, ge-, miss-, zer-) and -ieren verbs never take ge- (verstehen -> verstanden, studieren -> studiert), and a separable prefix inserts -ge- BETWEEN the prefix and the stem (ankommen -> angekommen). Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/08-perfekt-sein-haben-a2",
+  "level": "A2",
+  "summary": null,
+  "title": "Perfekt: mehr unregelmäßige Partizipien — A2",
+  "topic": "Perfekt: sein oder haben, Partizip II"
+}

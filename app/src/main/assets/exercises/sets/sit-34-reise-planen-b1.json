@@ -1,0 +1,836 @@
+{
+  "category": "Unterwegs",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "termin",
+            "label": "Termin & Zeit"
+          },
+          {
+            "key": "geld",
+            "label": "Geld"
+          },
+          {
+            "key": "orga",
+            "label": "Organisation"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "termin",
+            "text": "der Brückentag"
+          },
+          {
+            "bucket": "geld",
+            "text": "das Budget"
+          },
+          {
+            "bucket": "orga",
+            "text": "die Unterkunft"
+          },
+          {
+            "bucket": "termin",
+            "text": "die Terminumfrage"
+          },
+          {
+            "bucket": "geld",
+            "text": "die Anzahlung"
+          },
+          {
+            "bucket": "orga",
+            "text": "die Packliste"
+          },
+          {
+            "bucket": "termin",
+            "text": "der Urlaubsantrag"
+          },
+          {
+            "bucket": "geld",
+            "text": "die Kaution"
+          },
+          {
+            "bucket": "orga",
+            "text": "der Mietwagen"
+          },
+          {
+            "bucket": "termin",
+            "text": "die Nebensaison"
+          },
+          {
+            "bucket": "geld",
+            "text": "die Endabrechnung"
+          },
+          {
+            "bucket": "orga",
+            "text": "die Aufgabenverteilung"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Begriffe.",
+      "instructionsEn": "Sort the 12 terms.",
+      "title": "Termin, Geld oder Organisation?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Wie wäre es mit der ersten Maiwoche?"
+          },
+          {
+            "key": "2",
+            "text": "Ich schicke eine Terminumfrage rum."
+          },
+          {
+            "key": "3",
+            "text": "Sollen wir ein Haus mieten statt Hotel?"
+          },
+          {
+            "key": "4",
+            "text": "Was ist euer Rahmen pro Person?"
+          },
+          {
+            "key": "5",
+            "text": "Ich übernehme die Unterkunft."
+          },
+          {
+            "key": "6",
+            "text": "Brauchen wir einen Mietwagen?"
+          },
+          {
+            "key": "7",
+            "text": "Ich lege die Anzahlung aus."
+          },
+          {
+            "key": "8",
+            "text": "Machen wir am Ende eine Abrechnung?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Bei mir schwierig — da ist eine Abgabe. Die zweite ginge."
+          },
+          {
+            "key": "b",
+            "text": "Gute Idee, dann sehen wir sofort, wo es klemmt."
+          },
+          {
+            "key": "c",
+            "text": "Lieber ein Haus, dann können wir auch mal selbst kochen."
+          },
+          {
+            "key": "d",
+            "text": "Bei mir maximal 400 € plus Anreise, ehrlich gesagt."
+          },
+          {
+            "key": "e",
+            "text": "Super, dann kümmere ich mich um die Anreise."
+          },
+          {
+            "key": "f",
+            "text": "Nur wenn wir wirklich rausfahren wollen — sonst ist der Bus billiger."
+          },
+          {
+            "key": "g",
+            "text": "Danke. Ich überweise dir meinen Anteil noch heute."
+          },
+          {
+            "key": "h",
+            "text": "Unbedingt, sonst weiß am Ende keiner mehr, wer was gezahlt hat."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Vorschlag eine passende Reaktion zu.",
+      "instructionsEn": "Match each suggestion with a fitting reaction.",
+      "title": "Vorschlag und Reaktion"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "wäre"
+          ],
+          "2": [
+            "könnten"
+          ],
+          "3": [
+            "Würdet"
+          ],
+          "4": [
+            "würde"
+          ],
+          "5": [
+            "wäre"
+          ],
+          "6": [
+            "Würde"
+          ],
+          "7": [
+            "würde"
+          ],
+          "8": [
+            "Hättet"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wie {1} es mit der ersten Maiwoche? (sein)\n2. Wir {2} auch ein Haus mieten. (können)\n3. {3} ihr auch mit dem Zug fahren? (werden)\n4. Ich {4} lieber zwei Nächte länger bleiben. (werden)\n5. Das {5} für mich zu teuer. (sein)\n6. {6} es euch etwas ausmachen, wenn wir früher zurückfahren? (werden)\n7. Ich {7} vorschlagen, dass jeder eine Aufgabe übernimmt. (werden)\n8. {8} ihr Zeit, das bis Freitag zu entscheiden? (haben)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze die Konjunktiv-II-Form.",
+      "instructionsEn": "Fill in the Konjunktiv II form.",
+      "title": "Vorschlagen im Konjunktiv II"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "wenn"
+          ],
+          "2": [
+            "damit"
+          ],
+          "3": [
+            "Falls"
+          ],
+          "4": [
+            "weil"
+          ],
+          "5": [
+            "weil"
+          ],
+          "6": [
+            "sobald"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich buche erst, {1} alle zugesagt haben. (Bedingung / Zeitpunkt)\n2. Wir legen ein Budget fest, {2} niemand am Ende überrascht wird. (Zweck)\n3. {3} jemand kurzfristig absagt, teilen wir die Kosten neu. (Bedingung, formeller)\n4. Ich nehme den Mietwagen, {4} wir sonst nicht zum Strand kommen. (Grund)\n5. Wir fahren in der Nebensaison, {5} es dann deutlich günstiger ist. (Grund)\n6. Ich schicke die Abrechnung, {6} wir zurück sind. (unmittelbar danach)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze den passenden Konnektor.",
+      "instructionsEn": "Fill in the fitting connector.",
+      "title": "Nebensätze in der Planung"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "WÄRE"
+          ],
+          "2": [
+            "GINGE"
+          ],
+          "3": [
+            "TERMINUMFRAGE"
+          ],
+          "4": [
+            "BUDGET"
+          ],
+          "5": [
+            "ANREISE"
+          ],
+          "6": [
+            "KOCHEN"
+          ],
+          "7": [
+            "ANZAHLUNG"
+          ],
+          "8": [
+            "MIETWAGEN"
+          ],
+          "9": [
+            "AUFGABEN"
+          ],
+          "10": [
+            "SOBALD"
+          ]
+        },
+        "bank": [
+          "WÄRE",
+          "GINGE",
+          "TERMINUMFRAGE",
+          "BUDGET",
+          "ANREISE",
+          "KOCHEN",
+          "ANZAHLUNG",
+          "MIETWAGEN",
+          "AUFGABEN",
+          "SOBALD",
+          "KAUTION",
+          "HOTEL",
+          "WENN",
+          "PLAN"
+        ],
+        "text": "— Also, erst der Termin. Wie {1} es mit der ersten Maiwoche?\n— Bei mir schwierig, da ist eine Abgabe. Die zweite {2}.\n— Dann schicke ich eine {3} rum, damit wir es schwarz auf weiß\nhaben.\n— Gute Idee. Und was ist euer {4} pro Person?\n— Bei mir maximal 400 € plus {5}, ehrlich gesagt.\n— Das geht. Dann nehmen wir ein Haus statt Hotel, dann können wir\nauch selbst {6}.\n— Einverstanden. Ich lege die {7} aus, ihr überweist mir euren\nAnteil.\n— Machen wir. Brauchen wir einen {8}?\n— Nur, wenn wir wirklich rausfahren wollen. Sonst ist der Bus\nbilliger.\n— Okay. Und die {9}: Ich mache Unterkunft, du Anreise, Jonas die\nVerpflegung?\n— Passt. Und {10} wir zurück sind, mache ich eine Abrechnung,\ndamit niemand nachrechnen muss.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Der Planungsabend"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Entscheidet euch endlich."
+              },
+              {
+                "key": "b",
+                "text": "Ich schicke eine Terminumfrage mit drei Wochen — bitte bis Freitag eintragen, dann buche ich."
+              },
+              {
+                "key": "c",
+                "text": "Wann könnt ihr denn alle?"
+              }
+            ],
+            "q": "Ihr redet seit Wochen und niemand legt sich fest. — You've been talking for weeks and nobody commits.",
+            "why": "Konkrete Optionen plus Frist plus Konsequenz: das ist der Unterschied zwischen Reden und Planen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Mir egal, ich komme mit."
+              },
+              {
+                "key": "b",
+                "text": "Das ist ja Wahnsinn."
+              },
+              {
+                "key": "c",
+                "text": "Das wäre für mich zu viel — mein Rahmen sind 400 € plus Anreise. Gibt es etwas Günstigeres?"
+              }
+            ],
+            "q": "Der Vorschlag ist dir zu teuer. — The suggestion is too expensive for you.",
+            "why": "Zahl nennen statt nur ablehnen; „mir egal“ führt später zu Frust, den keiner mehr auflösen kann."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dann entscheide ich."
+              },
+              {
+                "key": "b",
+                "text": "Ich schlage zwei konkrete Häuser vor — sagt bis morgen, welches ihr besser findet."
+              },
+              {
+                "key": "c",
+                "text": "Dann fahren wir eben nicht."
+              }
+            ],
+            "q": "Alle sagen „mir egal“. — Everyone says they don't mind.",
+            "why": "Zwei Optionen und eine Frist verwandeln Gleichgültigkeit in eine Entscheidung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich mache die Unterkunft, machst du die Anreise und Jonas die Verpflegung?"
+              },
+              {
+                "key": "b",
+                "text": "Jeder macht etwas."
+              },
+              {
+                "key": "c",
+                "text": "Kann jemand helfen?"
+              }
+            ],
+            "q": "Du willst Aufgaben verteilen. — You want to distribute tasks.",
+            "why": "Namen an Aufgaben — anders bleibt am Ende alles bei einer Person hängen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ihr schuldet mir Geld."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe 600 € Anzahlung überwiesen, das sind 120 € pro Person — ich schicke euch die Daten."
+              },
+              {
+                "key": "c",
+                "text": "Denkt an die Anzahlung."
+              }
+            ],
+            "q": "Du hast die Anzahlung ausgelegt. — You've fronted the deposit.",
+            "why": "Gesamtbetrag, Anteil und Zahlungsweg in einem Satz: dann überweisen die Leute wirklich."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das kannst du nicht machen!"
+              },
+              {
+                "key": "b",
+                "text": "Schade! Die Unterkunft ist leider nicht mehr stornierbar — sollen wir deinen Platz weitergeben oder teilen wir den Anteil?"
+              },
+              {
+                "key": "c",
+                "text": "Kein Problem, wir regeln das."
+              }
+            ],
+            "q": "Jemand sagt drei Tage vorher ab. — Someone cancels three days before.",
+            "why": "Bedauern, Fakt und zwei Auswege — so bleibt es fair, ohne dass jemand allein auf den Kosten sitzt."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Wie sagst du das?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Wie wäre es mit + Dativ — der Standardvorschlag",
+            "tiles": [
+              "Wie",
+              "wäre",
+              "es",
+              "mit",
+              "der",
+              "ersten",
+              "Maiwoche",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Konjunktiv II macht die Absage weicher als ist",
+            "tiles": [
+              "Das",
+              "wäre",
+              "für",
+              "mich",
+              "zu",
+              "teuer"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "festlegen: fest am Ende; nach damit steht das Verb am Ende",
+            "tiles": [
+              "Wir",
+              "legen",
+              "ein",
+              "Budget",
+              "fest",
+              ",",
+              "damit",
+              "niemand",
+              "überrascht",
+              "wird"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Nach wenn steht das Verb am Ende",
+            "tiles": [
+              "Ich",
+              "buche",
+              "erst",
+              ",",
+              "wenn",
+              "alle",
+              "zugesagt",
+              "haben"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Nebensatz zuerst, dann das Verb des Hauptsatzes",
+            "tiles": [
+              "Falls",
+              "jemand",
+              "absagt",
+              ",",
+              "teilen",
+              "wir",
+              "die",
+              "Kosten",
+              "neu"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Nach sobald steht das Verb am Ende des Nebensatzes",
+            "tiles": [
+              "Sobald",
+              "wir",
+              "zurück",
+              "sind",
+              ",",
+              "schicke",
+              "ich",
+              "die",
+              "Abrechnung"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze für die Planung bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Bei Buchung zahlt man ein Fünftel des Preises. — At booking you pay a fifth of the price.",
+            "why": "Die Anzahlung beträgt 20 %."
+          },
+          {
+            "answer": false,
+            "q": "Eine Absage 45 Tage vorher kostet nichts. — Cancelling 45 days ahead is free.",
+            "why": "Kostenfrei nur bis 60 Tage vorher; danach bis 30 Tage sind es 50 %."
+          },
+          {
+            "answer": false,
+            "q": "Die Kaution ist sofort bei der Abreise zurück. — The deposit is refunded immediately on departure.",
+            "why": "Rückzahlung innerhalb von 14 Tagen nach Abreise."
+          },
+          {
+            "answer": true,
+            "q": "Zu siebt zahlt man 50 € pro Nacht extra. — With seven people you pay €50 extra per night.",
+            "why": "Bis 6 Personen inklusive, jede weitere 50 € pro Nacht."
+          },
+          {
+            "answer": false,
+            "q": "Die Endreinigung kann man selbst machen und sparen. — You can clean yourself and save the fee.",
+            "why": "Die Endreinigung ist verpflichtend."
+          },
+          {
+            "answer": true,
+            "q": "Im Juni ist das Haus ein Viertel billiger. — In June the house is a quarter cheaper.",
+            "why": "Juni zählt zur Nebensaison, –25 %."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Ferienhaus Val Verde — Buchungsbedingungen**\n>\n> - **Anzahlung 20 %** bei Buchung, **Restzahlung 30 Tage vor\n>   Anreise**.\n> - **Stornierung:** bis **60 Tage** vorher kostenfrei; bis\n>   **30 Tage** vorher 50 %; danach **100 %**.\n> - **Kaution 300 €**, Rückzahlung innerhalb von **14 Tagen**\n>   nach Abreise.\n> - Belegung **maximal 6 Personen**; jede weitere Person\n>   **50 € pro Nacht**.\n> - **Endreinigung 90 €**, verpflichtend, nicht im Mietpreis.\n> - **Anreise ab 16 Uhr**, Abreise **bis 10 Uhr**.\n> - **Haustiere** nach Absprache, **20 € pro Nacht**.\n> - **Nebensaison** (Mai, Juni, September): **–25 %**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Buchungsbedingungen lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es selbst tragen."
+              },
+              {
+                "key": "b",
+                "text": "In der Gruppe darüber schimpfen."
+              },
+              {
+                "key": "c",
+                "text": "Einzeln und freundlich schreiben: Betrag, Kontodaten, ein konkretes Datum."
+              }
+            ],
+            "q": "Zwei aus der Gruppe überweisen ihren Anteil seit Wochen nicht. — Two people haven't paid their share for weeks.",
+            "why": "Einzeln statt in der Gruppe, mit Zahl und Datum — das löst es fast immer ohne Stimmungsverlust."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Abstimmen lassen."
+              },
+              {
+                "key": "b",
+                "text": "Wir machen zwei feste Programmpunkte und lassen den Rest offen — dann hat jeder etwas."
+              },
+              {
+                "key": "c",
+                "text": "Sich für eine Seite entscheiden."
+              }
+            ],
+            "q": "Einer will jeden Tag durchplanen, ein anderer gar nicht. — One wants every day planned, another nothing.",
+            "why": "Ein Kompromiss, der beide Bedürfnisse benennt, hält länger als eine Abstimmung, die jemanden überstimmt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich habe keine Lust."
+              },
+              {
+                "key": "b",
+                "text": "Ich lasse den Ausflug am Donnerstag aus und bleibe am Haus — wir treffen uns abends wieder."
+              },
+              {
+                "key": "c",
+                "text": "Mitfahren und schlechte Laune haben."
+              }
+            ],
+            "q": "Du willst nicht überall mitmachen. — You don't want to join everything.",
+            "why": "Absagen und trotzdem den gemeinsamen Punkt nennen — dann liest es sich nicht als Rückzug."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich habe alles richtig gerechnet."
+              },
+              {
+                "key": "b",
+                "text": "Ich schicke dir die Liste mit allen Belegen — sag mir, welche Position du anders siehst."
+              },
+              {
+                "key": "c",
+                "text": "Dann lass es."
+              }
+            ],
+            "q": "Die Endabrechnung stimmt für jemanden nicht. — Someone disagrees with the final settlement.",
+            "why": "Belege plus die Bitte, die konkrete Zeile zu nennen: das macht aus einem Vorwurf eine Rechenfrage."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "So tun, als wäre nichts."
+              },
+              {
+                "key": "b",
+                "text": "Es in der Gruppe ansprechen."
+              },
+              {
+                "key": "c",
+                "text": "Unter vier Augen fragen, ob der Rahmen passt, und Vorschläge machen, die für alle gehen."
+              }
+            ],
+            "q": "Eine Person hat deutlich weniger Geld als der Rest. — One person has considerably less money than the others.",
+            "why": "Unter vier Augen fragen schont die Würde; die Alternative in der Gruppe zu diskutieren nicht."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Erstattung schriftlich verlangen und parallel zwei Alternativen suchen, bevor ihr entscheidet."
+              },
+              {
+                "key": "b",
+                "text": "Erst auf das Geld warten."
+              },
+              {
+                "key": "c",
+                "text": "Die Reise absagen."
+              }
+            ],
+            "q": "Das gebuchte Haus fällt zwei Wochen vorher aus. — The booked house falls through two weeks before.",
+            "why": "Beide Wege gleichzeitig: zwei Wochen vorher wird jeder Tag Wartezeit teuer."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Reibung in der Gruppe"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Terminumfrage"
+          ],
+          "2": [
+            "Budget"
+          ],
+          "3": [
+            "Anzahlung"
+          ],
+          "4": [
+            "Stornierung"
+          ],
+          "5": [
+            "Nebensaison"
+          ],
+          "6": [
+            "Endabrechnung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich schicke eine {1} mit drei Wochen rum. (Abfrage, wer wann kann)\n2. Mein {2} sind 400 € plus Anreise. (Geldrahmen)\n3. Ich lege die {3} aus, ihr überweist mir euren Anteil. (erste Zahlung bei Buchung)\n4. Bis 60 Tage vorher ist die {4} kostenfrei. (Absage der Buchung)\n5. Im Mai gilt der Preis der {5}. (die ruhigere, billigere Zeit)\n6. Sobald wir zurück sind, mache ich die {6}. (wer hat was gezahlt)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "wäre"
+          ],
+          "2": [
+            "Terminumfrage"
+          ],
+          "3": [
+            "Budget"
+          ],
+          "4": [
+            "wäre"
+          ],
+          "5": [
+            "Anzahlung"
+          ],
+          "6": [
+            "Mietwagen"
+          ],
+          "7": [
+            "damit"
+          ],
+          "8": [
+            "wenn"
+          ],
+          "9": [
+            "Falls"
+          ],
+          "10": [
+            "Nebensaison"
+          ],
+          "11": [
+            "Sobald"
+          ],
+          "12": [
+            "Stornierung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wie {1} es mit der ersten Maiwoche? (how about — Konjunktiv II)\n2. Ich schicke eine {2} rum. (date poll)\n3. Was ist euer {3} pro Person? (what you can spend)\n4. Das {4} für mich zu teuer. (would be)\n5. Ich lege die {5} aus. (deposit / down payment)\n6. Brauchen wir einen {6}? (hire car)\n7. Wir legen ein Budget fest, {7} niemand überrascht wird. (so that)\n8. Ich buche erst, {8} alle zugesagt haben. (when / once)\n9. {9} jemand absagt, teilen wir neu. (if — formal)\n10. Im Mai gilt der Preis der {10}. (low season)\n11. {11} wir zurück sind, mache ich die Abrechnung. (as soon as)\n12. Bis 60 Tage vorher ist die {12} kostenfrei. (cancellation)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-34-reise-planen-b1",
+  "intro": "Eine Reise zu fünft scheitert selten am Ziel und fast immer an vier Dingen: Niemand legt einen Termin fest, keiner spricht über Geld, alle sagen „mir egal“, und am Ende weiß niemand mehr, wer was bezahlt hat. Das Deutsch, das man dafür braucht, ist nicht kompliziert, aber spezifisch: Vorschläge machen, höflich widersprechen, Grenzen setzen, Aufgaben verteilen und Geld ansprechen, ohne dass es unangenehm wird. Grammatik nach Bedarf: Konjunktiv II für Vorschläge, Nebensätze mit wenn, damit und falls, Komparativ und Superlativ, Futur mit werden. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/34-reise-planen-b1",
+  "level": "B1",
+  "summary": "Termin finden, Budget offen ansprechen, Unterkunft aussuchen, Aufgaben verteilen und am Ende sauber abrechnen.",
+  "title": "Eine Reise mit Freunden planen — B1",
+  "topic": "Reiseplanung in der Gruppe"
+}

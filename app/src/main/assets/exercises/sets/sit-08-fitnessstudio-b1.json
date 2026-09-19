@@ -1,0 +1,839 @@
+{
+  "category": "Sport & Gesundheit",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "a",
+          "3": "c",
+          "4": "e",
+          "5": "d",
+          "6": "f",
+          "7": "g",
+          "8": "i",
+          "9": "h",
+          "10": "j"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Mindestlaufzeit"
+          },
+          {
+            "key": "2",
+            "text": "die Kündigungsfrist"
+          },
+          {
+            "key": "3",
+            "text": "die automatische Verlängerung"
+          },
+          {
+            "key": "4",
+            "text": "das Sonderkündigungsrecht"
+          },
+          {
+            "key": "5",
+            "text": "der Mitgliedsbeitrag"
+          },
+          {
+            "key": "6",
+            "text": "die Aufnahmegebühr"
+          },
+          {
+            "key": "7",
+            "text": "die Ruhezeit"
+          },
+          {
+            "key": "8",
+            "text": "das Lastschriftverfahren"
+          },
+          {
+            "key": "9",
+            "text": "die Kündigungsbestätigung"
+          },
+          {
+            "key": "10",
+            "text": "das Probetraining"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Wie lange vorher du kündigen musst, damit es wirkt."
+          },
+          {
+            "key": "b",
+            "text": "Die Zeit, die du auf jeden Fall bleiben musst."
+          },
+          {
+            "key": "c",
+            "text": "Der Vertrag läuft weiter, wenn niemand kündigt."
+          },
+          {
+            "key": "d",
+            "text": "Der Beitrag, den du monatlich zahlst."
+          },
+          {
+            "key": "e",
+            "text": "Das Recht, vorzeitig zu kündigen — etwa bei Umzug oder Krankheit."
+          },
+          {
+            "key": "f",
+            "text": "Einmalige Gebühr beim Abschluss des Vertrags."
+          },
+          {
+            "key": "g",
+            "text": "Eine Pause im Vertrag, z. B. wegen einer Verletzung."
+          },
+          {
+            "key": "h",
+            "text": "Der Nachweis vom Studio, dass die Kündigung angekommen ist."
+          },
+          {
+            "key": "i",
+            "text": "Das Studio holt das Geld selbst vom Konto ab."
+          },
+          {
+            "key": "j",
+            "text": "Einmal kostenlos ausprobieren, bevor man unterschreibt."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A1",
+      "instructions": "Ordne jeden Begriff (1–10) seiner Erklärung (a–j) zu.",
+      "instructionsEn": "Match each term (1–10) with its explanation (a–j).",
+      "title": "Vertragsbegriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "kündigt"
+          ],
+          "2": [
+            "abgelaufen"
+          ],
+          "3": [
+            "vorlegen"
+          ],
+          "4": [
+            "gewahrt"
+          ],
+          "5": [
+            "zahlen"
+          ],
+          "6": [
+            "eingeht"
+          ],
+          "7": [
+            "vorlegen"
+          ],
+          "8": [
+            "bestätigen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. „bei Nichtkündigung“ → wenn niemand {1}\n2. „nach Ablauf der Mindestlaufzeit“ → nachdem die Mindestlaufzeit {2} ist\n3. „unter Vorlage einer Meldebescheinigung“ → indem Sie eine Meldebescheinigung {3}\n4. „zur Wahrung der Frist“ → damit die Frist {4} wird\n5. „bei Zahlungsverzug“ → wenn Sie nicht rechtzeitig {5}\n6. „nach Eingang der Kündigung“ → sobald die Kündigung {6}\n7. „bei Vorlage eines ärztlichen Attests“ → wenn Sie ein ärztliches Attest {7}\n8. „zur Bestätigung des Vertragsendes“ → damit wir das Vertragsende {8}\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze das Verb, das den Nominalausdruck auflöst.",
+      "instructionsEn": "Fill in the verb that resolves the nominal expression.",
+      "title": "Vertragsdeutsch auflösen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "studio",
+            "label": "Fitnessstudio"
+          },
+          {
+            "key": "mitglied",
+            "label": "Mitglied"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "studio",
+            "text": "Der Vertrag verlängert sich automatisch um zwölf Monate."
+          },
+          {
+            "bucket": "mitglied",
+            "text": "Hiermit kündige ich meinen Vertrag zum nächstmöglichen Termin."
+          },
+          {
+            "bucket": "studio",
+            "text": "Die Kündigung bedarf der Textform."
+          },
+          {
+            "bucket": "mitglied",
+            "text": "Ich bitte um eine schriftliche Kündigungsbestätigung."
+          },
+          {
+            "bucket": "studio",
+            "text": "Der Mitgliedsbeitrag wird monatlich per Lastschrift eingezogen."
+          },
+          {
+            "bucket": "mitglied",
+            "text": "Anbei sende ich Ihnen meine neue Meldebescheinigung."
+          },
+          {
+            "bucket": "studio",
+            "text": "Eine Ruhezeit ist nur bei Vorlage eines ärztlichen Attests möglich."
+          },
+          {
+            "bucket": "mitglied",
+            "text": "Meine Mitgliedsnummer lautet 88213."
+          },
+          {
+            "bucket": "studio",
+            "text": "Bei Zahlungsverzug behalten wir uns eine Sperrung des Zugangs vor."
+          },
+          {
+            "bucket": "mitglied",
+            "text": "Ich mache von meinem Sonderkündigungsrecht Gebrauch."
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A3",
+      "instructions": "Sortiere die Formulierungen.",
+      "instructionsEn": "Sort the phrasings.",
+      "title": "Wer schreibt so: Studio oder Mitglied?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Falls"
+          ],
+          "2": [
+            "Sobald"
+          ],
+          "3": [
+            "Solange"
+          ],
+          "4": [
+            "Falls"
+          ],
+          "5": [
+            "sofern"
+          ],
+          "6": [
+            "Sobald"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} nicht fristgerecht gekündigt wird, verlängert sich der Vertrag.\n2. {2} die Kündigung eingeht, bestätigen wir sie schriftlich.\n3. {3} Sie im Zahlungsverzug sind, ist der Zugang gesperrt.\n4. {4} Sie umziehen, können Sie den Vertrag vorzeitig beenden.\n5. Eine Ruhezeit ist möglich, {5} ein ärztliches Attest vorliegt.\n6. {6} die Mindestlaufzeit endet, greift die Kündigungsfrist.\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze „falls“, „sofern“, „solange“ oder „sobald“.",
+      "instructionsEn": "Fill in „falls“, „sofern“, „solange“ or „sobald“.",
+      "title": "Konditionalsätze im Vertrag"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "MINDESTLAUFZEIT"
+          ],
+          "2": [
+            "KÜNDIGE"
+          ],
+          "3": [
+            "VERLÄNGERT"
+          ],
+          "4": [
+            "KÜNDIGUNGSFRIST"
+          ],
+          "5": [
+            "AUFNAHMEGEBÜHR"
+          ],
+          "6": [
+            "RUHEN"
+          ],
+          "7": [
+            "ATTEST"
+          ],
+          "8": [
+            "UMZIEHE"
+          ],
+          "9": [
+            "SONDERKÜNDIGUNGSRECHT"
+          ],
+          "10": [
+            "LESEN"
+          ]
+        },
+        "bank": [
+          "MINDESTLAUFZEIT",
+          "KÜNDIGE",
+          "VERLÄNGERT",
+          "KÜNDIGUNGSFRIST",
+          "AUFNAHMEGEBÜHR",
+          "RUHEN",
+          "ATTEST",
+          "UMZIEHE",
+          "SONDERKÜNDIGUNGSRECHT",
+          "LESEN",
+          "WOHER",
+          "BEITRAG",
+          "ZAHLEN",
+          "PROBE"
+        ],
+        "text": "— Schön, dass Sie da sind! Wollen wir gleich den Vertrag ausfüllen?\n— Erst ein paar Fragen. Wie lang ist die {1}?\n— Zwölf Monate.\n— Und wenn ich danach nicht {2} — was passiert dann?\n— Dann {3} sich der Vertrag automatisch.\n— Um wie viel?\n— Um weitere zwölf Monate.\n— Und wie lang ist die {4}?\n— Drei Monate zum Ende der Laufzeit.\n— Gibt es eine {5}?\n— Ja, einmalig 29 Euro.\n— Kann ich den Vertrag {6} lassen, wenn ich verletzt bin?\n— Ja, mit einem ärztlichen {7}.\n— Und wenn ich {8}?\n— Bei einem Umzug haben Sie ein {9}. Wir brauchen dann Ihre neue\nMeldebescheinigung.\n— Gut. Könnte ich den Vertrag zum {10} mitnehmen?\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Beratungsgespräch: bevor du unterschreibst"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bis zum 28.02.2027"
+              },
+              {
+                "key": "b",
+                "text": "Bis zum 30.11.2026"
+              },
+              {
+                "key": "c",
+                "text": "Bis zum 31.01.2027"
+              }
+            ],
+            "q": "Mindestlaufzeit 12 Monate, Kündigungsfrist 3 Monate, Start 01.03.2026. Wann musst du spätestens kündigen? — When do you have to cancel at the latest?",
+            "why": "Die Laufzeit endet am 28.02.2027. Drei Monate davor heißt: die Kündigung muss bis zum 30.11.2026 da sein."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Am Tresen mündlich Bescheid geben."
+              },
+              {
+                "key": "b",
+                "text": "Eine E-Mail schicken und um eine Kündigungsbestätigung bitten."
+              },
+              {
+                "key": "c",
+                "text": "Die Lastschrift einfach zurückbuchen lassen."
+              }
+            ],
+            "q": "Du willst sichergehen, dass die Kündigung ankommt. — You want to be sure the cancellation arrives.",
+            "why": "Textform plus Bestätigung. Mündlich lässt sich nicht belegen, und eine Rückbuchung beendet keinen Vertrag."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die gesendete E-Mail mit Datum weiterleiten und auf den fristgerechten Zugang verweisen."
+              },
+              {
+                "key": "b",
+                "text": "Noch einmal kündigen."
+              },
+              {
+                "key": "c",
+                "text": "Nicht mehr zahlen."
+              }
+            ],
+            "q": "Das Studio behauptet, deine Kündigung sei nie angekommen. — The gym claims your cancellation never arrived.",
+            "why": "Der Nachweis des Zugangs ist entscheidend — deshalb hebt man die gesendete E-Mail auf."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Der Vertrag läuft trotzdem weiter, da hilft nichts."
+              },
+              {
+                "key": "b",
+                "text": "Du kannst sofort aufhören zu zahlen."
+              },
+              {
+                "key": "c",
+                "text": "Sonderkündigung mit neuer Meldebescheinigung als Nachweis."
+              }
+            ],
+            "q": "Du ziehst 300 km weg. — You're moving 300 km away.",
+            "why": "Umzug ist der klassische Fall fürs Sonderkündigungsrecht — mit Nachweis, nicht per Zahlungsstopp."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Eine Ruhezeit mit ärztlichem Attest beantragen."
+              },
+              {
+                "key": "b",
+                "text": "Den Vertrag kündigen."
+              },
+              {
+                "key": "c",
+                "text": "Nichts tun und weiterzahlen."
+              }
+            ],
+            "q": "Du bist sechs Wochen verletzt. — You're injured for six weeks.",
+            "why": "Ruhezeit hängt den Vertrag hinten an, statt ihn zu beenden — bei einer vorübergehenden Verletzung ist das der richtige Weg."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Unterschreiben, das Angebot gilt nur heute."
+              },
+              {
+                "key": "b",
+                "text": "Ich würde den Vertrag gern in Ruhe lesen. Kann ich ihn mitnehmen?"
+              },
+              {
+                "key": "c",
+                "text": "Erst nach dem Probetraining unterschreiben."
+              }
+            ],
+            "q": "Der Berater drängt zur sofortigen Unterschrift. — The salesperson pushes you to sign right away.",
+            "why": "Ein Vertrag, den man nicht mitnehmen darf, ist ein Warnsignal. Zeit zum Lesen ist immer verhandelbar."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort.",
+      "instructionsEn": "Choose the correct answer.",
+      "title": "Vertrag und Kündigung"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "kündige"
+          ],
+          "2": [
+            "Termin"
+          ],
+          "3": [
+            "Mitgliedsnummer"
+          ],
+          "4": [
+            "bestätigen"
+          ],
+          "5": [
+            "Lastschrift"
+          ],
+          "6": [
+            "stehe"
+          ],
+          "7": [
+            "freundlichen"
+          ]
+        },
+        "listLayout": true,
+        "text": "Sehr geehrte Damen und Herren,\n\nhiermit {1} ich meinen Mitgliedsvertrag zum nächstmöglichen\n{2}. Meine {3} lautet 88213.\n\nBitte {4} Sie mir den Zeitpunkt des Vertragsendes schriftlich.\nAußerdem bitte ich Sie, die {5} zum Vertragsende einzustellen.\n\nFür Rückfragen {6} ich Ihnen gern zur Verfügung.\n\nMit {7} Grüßen\nAkin Yilmaz\n",
+        "type": "gap-text"
+      },
+      "id": "B3",
+      "instructions": "Ergänze die fehlenden Wörter.",
+      "instructionsEn": "Fill in the missing words.",
+      "title": "Die Kündigung schreiben: die Bausteine"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Eine Kündigung per E-Mail ist gültig. — A cancellation by e-mail is valid.",
+            "why": "„Textform (Brief oder E-Mail)“."
+          },
+          {
+            "answer": false,
+            "q": "Wer nicht kündigt, ist nach 12 Monaten automatisch raus. — Anyone who doesn't cancel is automatically out after 12 months.",
+            "why": "Der Vertrag verlängert sich um weitere 12 Monate."
+          },
+          {
+            "answer": true,
+            "q": "Nach einer Ruhezeit von zwei Monaten endet der Vertrag zwei Monate später. — After a two-month pause the contract ends two months later.",
+            "why": "„Die Laufzeit verlängert sich um die Dauer der Ruhezeit.“"
+          },
+          {
+            "answer": false,
+            "q": "Ein Umzug von 20 km reicht für die Sonderkündigung. — A move of 20 km is enough for early termination.",
+            "why": "„mehr als 50 km“."
+          },
+          {
+            "answer": true,
+            "q": "Im ersten Jahr zahlt man insgesamt 507,80 €. — In the first year you pay €507.80 in total.",
+            "why": "12 × 39,90 € = 478,80 € plus 29,00 € Aufnahmegebühr."
+          },
+          {
+            "answer": false,
+            "q": "Der Beitrag wird am Monatsende abgebucht. — The fee is debited at the end of the month.",
+            "why": "„zum Dritten eines Monats“."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **FitBase Studios — Mitgliedsvertrag (Auszug)**\n> Mitgliedsnummer: 88213\n> Vertragsbeginn: 01.03.2026\n>\n> § 2 Laufzeit\n> Die Mindestlaufzeit beträgt 12 Monate. Der Vertrag verlängert sich\n> jeweils um weitere 12 Monate, sofern er nicht mit einer Frist von\n> drei Monaten zum Ende der Laufzeit gekündigt wird.\n>\n> § 3 Beitrag\n> Der Mitgliedsbeitrag beträgt 39,90 € monatlich und wird zum\n> Dritten eines Monats per Lastschrift eingezogen. Die einmalige\n> Aufnahmegebühr beträgt 29,00 €.\n>\n> § 4 Ruhezeit\n> Eine Ruhezeit von bis zu drei Monaten ist bei Vorlage eines\n> ärztlichen Attests möglich. Die Laufzeit verlängert sich um die\n> Dauer der Ruhezeit.\n>\n> § 5 Kündigung\n> Die Kündigung bedarf der Textform (Brief oder E-Mail). Ein\n> Sonderkündigungsrecht besteht bei einem Umzug von mehr als 50 km\n> unter Vorlage einer Meldebescheinigung.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Den Vertrag lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Trotzdem sofort kündigen — dann wirkt es zum übernächsten Termin — und gleichzeitig um eine Kulanzlösung bitten."
+              },
+              {
+                "key": "b",
+                "text": "Bis zum nächsten Jahr warten."
+              },
+              {
+                "key": "c",
+                "text": "Die Zahlungen einstellen."
+              }
+            ],
+            "q": "Du merkst am 15.12., dass die Frist am 30.11. abgelaufen ist. — On 15 Dec you realise the deadline was 30 Nov.",
+            "why": "Sofort kündigen begrenzt den Schaden auf eine Periode. Kulanz kann man erbitten — Zahlungsstopp bringt nur Mahnungen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Davon ausgehen, dass alles in Ordnung ist."
+              },
+              {
+                "key": "b",
+                "text": "Schriftlich nachfassen, die erste Kündigung mit Datum anhängen und um Bestätigung bitten."
+              },
+              {
+                "key": "c",
+                "text": "Persönlich hingehen und sich beschweren."
+              }
+            ],
+            "q": "Auf deine Kündigung kommt seit vier Wochen keine Bestätigung. — There's been no confirmation of your cancellation for four weeks.",
+            "why": "Ohne Bestätigung hast du nur die Hälfte des Nachweises. Nachfassen mit Datum und Anhang schließt die Lücke."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort die Bank anrufen und alles sperren."
+              },
+              {
+                "key": "b",
+                "text": "Das Geld verloren geben."
+              },
+              {
+                "key": "c",
+                "text": "Unter Verweis auf die Kündigungsbestätigung zur Rückzahlung auffordern und eine Frist setzen."
+              }
+            ],
+            "q": "Das Studio bucht nach dem Vertragsende weiter ab. — The gym keeps debiting after the contract ended.",
+            "why": "Erst schriftlich mit Frist auffordern — die Bestätigung ist dein Beleg. Eine Rückbuchung ohne Aufforderung führt schnell zu Mahngebühren."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Warten, bis sie da ist, und dann kündigen."
+              },
+              {
+                "key": "b",
+                "text": "Jetzt kündigen, den Umzug nennen und die Bescheinigung ankündigen."
+              },
+              {
+                "key": "c",
+                "text": "Ohne Nachweis kündigen und nichts weiter sagen."
+              }
+            ],
+            "q": "Du ziehst um, aber die neue Meldebescheinigung kommt erst in zwei Wochen. — You're moving but the new registration certificate takes two more weeks.",
+            "why": "Fristwahrend kündigen und den Nachweis nachreichen — dasselbe Prinzip wie beim Einspruch: erst die Frist sichern."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Sonderkündigungsrecht greift hier nicht — nach einer Kulanzlösung fragen oder den Vertrag ruhen lassen."
+              },
+              {
+                "key": "b",
+                "text": "Sonderkündigung schicken, das gilt immer."
+              },
+              {
+                "key": "c",
+                "text": "Einfach nicht mehr hingehen."
+              }
+            ],
+            "q": "Beim Umzug innerhalb derselben Stadt willst du kündigen. — You want to cancel after moving within the same city.",
+            "why": "Unter der 50-km-Grenze besteht kein Sonderkündigungsrecht. Ehrlich fragen ist aussichtsreicher als eine Kündigung, die zurückkommt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Mahnung ignorieren."
+              },
+              {
+                "key": "b",
+                "text": "Der Forderung schriftlich widersprechen und die Kündigungsbestätigung beifügen."
+              },
+              {
+                "key": "c",
+                "text": "Zur Sicherheit zahlen."
+              }
+            ],
+            "q": "Du bekommst eine Mahnung, obwohl du fristgerecht gekündigt hast. — You get a payment reminder although you cancelled in time.",
+            "why": "Widersprechen und belegen. Ignorieren führt zum Inkasso, Zahlen erkennt die Forderung faktisch an."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Was machst oder schreibst du? Wähle a, b oder c.",
+      "instructionsEn": "What do you do or write? Choose a, b, or c.",
+      "title": "Der Ernstfall"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Verb an Position 2",
+            "tiles": [
+              "Hiermit",
+              "kündige",
+              "ich",
+              "meinen",
+              "Vertrag",
+              "zum",
+              "nächstmöglichen",
+              "Termin"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Imperativ mit Sie: Verb an Position 1 nach bitte",
+            "tiles": [
+              "Bitte",
+              "bestätigen",
+              "Sie",
+              "mir",
+              "das",
+              "Vertragsende",
+              "schriftlich"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Feste Wendung: Gebrauch machen von + Dativ",
+            "tiles": [
+              "Ich",
+              "mache",
+              "von",
+              "meinem",
+              "Sonderkündigungsrecht",
+              "Gebrauch"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Trennverb nach·reichen: nach am Ende",
+            "tiles": [
+              "Die",
+              "Meldebescheinigung",
+              "reiche",
+              "ich",
+              "umgehend",
+              "nach"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Reflexivpronomen direkt nach dem Verb",
+            "tiles": [
+              "Der",
+              "Vertrag",
+              "verlängert",
+              "sich",
+              "um",
+              "weitere",
+              "zwölf",
+              "Monate"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "widersprechen + Dativ; bei·fügen mit bei am Ende",
+            "tiles": [
+              "Ich",
+              "widerspreche",
+              "der",
+              "Forderung",
+              "und",
+              "füge",
+              "die",
+              "Bestätigung",
+              "bei"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "C2",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Formelle Sätze bauen"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Mindestlaufzeit"
+          ],
+          "2": [
+            "Kündigungsfrist"
+          ],
+          "3": [
+            "Sonderkündigungsrecht"
+          ],
+          "4": [
+            "Ruhezeit"
+          ],
+          "5": [
+            "Kündigungsbestätigung"
+          ],
+          "6": [
+            "kündige"
+          ],
+          "7": [
+            "bestätigen"
+          ],
+          "8": [
+            "Gebrauch"
+          ],
+          "9": [
+            "nach"
+          ],
+          "10": [
+            "widerspreche"
+          ],
+          "11": [
+            "kündigt"
+          ],
+          "12": [
+            "abgelaufen"
+          ],
+          "13": [
+            "zahlen"
+          ],
+          "14": [
+            "eingeht"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Vertragsbegriffe (5 Punkte):**\n1. Wie lange du auf jeden Fall bleiben musst: die {1}\n2. Wie lange vorher du kündigen musst: die {2}\n3. Vorzeitig raus bei Umzug: das {3}\n4. Pause im Vertrag bei Verletzung: die {4}\n5. Nachweis, dass die Kündigung ankam: die {5}\n\n**Redemittel (5 Punkte):**\n6. Kündigen: „Hiermit {6} ich meinen Vertrag zum nächstmöglichen Termin.“\n7. Bestätigung: „Bitte {7} Sie mir das Vertragsende schriftlich.“\n8. Sonderkündigung: „Ich mache von meinem Sonderkündigungsrecht {8}.“\n9. Nachreichen: „Die Meldebescheinigung reiche ich umgehend {9}.“\n10. Mahnung: „Ich {10} der Forderung.“\n\n**Vertragsdeutsch (4 Punkte):**\n11. „bei Nichtkündigung“ → wenn niemand {11}\n12. „nach Ablauf der Mindestlaufzeit“ → nachdem die Mindestlaufzeit {12} ist\n13. „bei Zahlungsverzug“ → wenn Sie nicht rechtzeitig {13}\n14. „nach Eingang der Kündigung“ → sobald die Kündigung {14}\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die Lücken.",
+      "instructionsEn": "Fill in the gaps.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-08-fitnessstudio-b1",
+  "intro": "Anmelden ist leicht, kündigen ist das eigentliche Thema. Deshalb liegt der Schwerpunkt hier auf dem Vertragsdeutsch: Mindestlaufzeit, automatische Verlängerung, Kündigungsfrist, Sonderkündigungsrecht — und darauf, eine Kündigung so zu schreiben, dass sie wirkt. Grammatik nach Bedarf: Passiv und Nominalstil im Vertragstext, Konditionalsätze („falls“, „sofern“), höfliche Bitten. Block C ist der Ernstfall: die Frist ist um, das Studio antwortet nicht, du ziehst um. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/08-fitnessstudio-b1",
+  "level": "B1",
+  "summary": "Einen Vertrag verstehen, bevor du unterschreibst — und ihn fristgerecht wieder loswerden, samt Sonderkündigung bei Umzug.",
+  "title": "Fitnessstudio: Vertrag und Kündigung — B1",
+  "topic": "Im Fitnessstudio"
+}

@@ -1,0 +1,812 @@
+{
+  "category": "Behörden & Formelles",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "beantragen",
+            "label": "Beantragen"
+          },
+          {
+            "key": "angeben",
+            "label": "Angeben"
+          },
+          {
+            "key": "erhalten",
+            "label": "Erhalten"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "beantragen",
+            "text": "einen Antrag stellen"
+          },
+          {
+            "bucket": "beantragen",
+            "text": "zum Bürgeramt gehen"
+          },
+          {
+            "bucket": "beantragen",
+            "text": "den Personalausweis vorlegen"
+          },
+          {
+            "bucket": "beantragen",
+            "text": "die Gebühr bezahlen"
+          },
+          {
+            "bucket": "angeben",
+            "text": "den Verwendungszweck nennen"
+          },
+          {
+            "bucket": "angeben",
+            "text": "die Adresse angeben"
+          },
+          {
+            "bucket": "angeben",
+            "text": "das Geburtsdatum eintragen"
+          },
+          {
+            "bucket": "angeben",
+            "text": "die Empfängeradresse angeben"
+          },
+          {
+            "bucket": "erhalten",
+            "text": "auf die Zustellung warten"
+          },
+          {
+            "bucket": "erhalten",
+            "text": "das Führungszeugnis öffnen"
+          },
+          {
+            "bucket": "erhalten",
+            "text": "die Eintragungen prüfen"
+          },
+          {
+            "bucket": "erhalten",
+            "text": "das Dokument beim Arbeitgeber abgeben"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Beantragen, angeben oder erhalten?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "das Führungszeugnis"
+          },
+          {
+            "key": "2",
+            "text": "der Antrag"
+          },
+          {
+            "key": "3",
+            "text": "das Bürgeramt"
+          },
+          {
+            "key": "4",
+            "text": "die Gebühr"
+          },
+          {
+            "key": "5",
+            "text": "die Eintragung"
+          },
+          {
+            "key": "6",
+            "text": "der Verwendungszweck"
+          },
+          {
+            "key": "7",
+            "text": "die Zustellung"
+          },
+          {
+            "key": "8",
+            "text": "der Personalausweis"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "das amtliche Dokument über strafrechtliche Eintragungen"
+          },
+          {
+            "key": "b",
+            "text": "der offizielle Wunsch, etwas zu bekommen"
+          },
+          {
+            "key": "c",
+            "text": "die Behörde, bei der man das Führungszeugnis beantragt"
+          },
+          {
+            "key": "d",
+            "text": "der Betrag, den man für den Antrag bezahlen muss"
+          },
+          {
+            "key": "e",
+            "text": "ein Eintrag im Führungszeugnis, zum Beispiel eine Vorstrafe"
+          },
+          {
+            "key": "f",
+            "text": "der Grund, wofür man das Führungszeugnis braucht"
+          },
+          {
+            "key": "g",
+            "text": "das Versenden des fertigen Dokuments"
+          },
+          {
+            "key": "h",
+            "text": "das amtliche Ausweisdokument"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "muss"
+          ],
+          "4": [
+            "Ist"
+          ],
+          "5": [
+            "vorliegt"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "habe"
+          ],
+          "8": [
+            "Können"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} gestern einen Antrag gestellt. (haben, Perfekt)\n2. {2} Sie mir bitte den Verwendungszweck erklären? (können, Sie-Form)\n3. Man {3} den Personalausweis zum Bürgeramt mitbringen. (müssen, Präsens)\n4. {4} das Führungszeugnis schon verschickt worden? (sein, Perfekt Passiv)\n5. Falls eine Eintragung {5}, kann sich das auf die Bewerbung auswirken. (vorliegen, Präsens)\n6. Das Bundesamt {6} das Führungszeugnis per Post schicken. (werden, Futur I)\n7. Ich {7} schon die Gebühr bezahlt. (haben, Perfekt)\n8. {8} Sie mir bitte den Antrag erklären? (können, Sie-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Das Führungszeugnis beantragen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Führungszeugnis"
+          ],
+          "2": [
+            "Antrag"
+          ],
+          "3": [
+            "Bürgeramt"
+          ],
+          "4": [
+            "Gebühr"
+          ],
+          "5": [
+            "Eintragung"
+          ],
+          "6": [
+            "Verwendungszweck"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Für die neue Stelle brauche ich ein {1}. (das Dokument über strafrechtliche Eintragungen)\n2. Ich habe beim Bürgeramt einen {2} gestellt. (der offizielle Wunsch, etwas zu bekommen)\n3. Für die Beantragung muss ich zum {3} gehen. (die zuständige Behörde)\n4. Die {4} für das Führungszeugnis beträgt 13 Euro. (der zu zahlende Betrag)\n5. Zum Glück gibt es keine {5} in meinem Führungszeugnis. (ein Eintrag über eine Vorstrafe)\n6. Ich muss noch den {6} angeben. (der Grund für den Antrag)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "FÜHRUNGSZEUGNIS"
+          ],
+          "2": [
+            "PERSONALAUSWEIS"
+          ],
+          "3": [
+            "VERWENDUNGSZWECK"
+          ],
+          "4": [
+            "ZUGESTELLT"
+          ],
+          "5": [
+            "GEBÜHR"
+          ],
+          "6": [
+            "BEARBEITE"
+          ],
+          "7": [
+            "ANGEKOMMEN"
+          ],
+          "8": [
+            "EINTRAGUNG"
+          ],
+          "9": [
+            "GEBEN"
+          ],
+          "10": [
+            "GEBE"
+          ]
+        },
+        "bank": [
+          "FÜHRUNGSZEUGNIS",
+          "PERSONALAUSWEIS",
+          "MELDEBESCHEINIGUNG",
+          "VERWENDUNGSZWECK",
+          "REISEPASS",
+          "ZUGESTELLT",
+          "GEBÜHR",
+          "STEUERNUMMER",
+          "BEARBEITE",
+          "ANGEKOMMEN",
+          "VORSTRAFE",
+          "EINTRAGUNG",
+          "GEBEN",
+          "GEBE"
+        ],
+        "text": "(am Schalter im Bürgeramt)\n— Guten Tag, ich möchte ein {1} beantragen.\n— Gerne, haben Sie Ihren {2} dabei?\n— Ja, hier ist er.\n— Danke. Wofür brauchen Sie das Dokument? Das ist der {3}.\n— Für eine neue Stelle als Erzieher.\n— Gut, das trage ich gleich ein. Wohin soll das\nFührungszeugnis {4} werden?\n— An meine eigene Adresse, bitte.\n— Alles klar. Dann brauche ich noch die {5} von 13 Euro.\n— Hier, bitte.\n— Vielen Dank. Ich {6} jetzt den Antrag.\n— Wie lange dauert es ungefähr, bis es ankommt?\n— Meistens ein bis zwei Wochen.\n(zwei Wochen später)\n— Es ist endlich {7}! Ich öffne es gleich.\n— Und, gibt es eine {8}?\n— Nein, zum Glück nicht, es ist völlig sauber.\n— Perfekt, dann kannst du es deinem neuen Arbeitgeber {9}.\n— Genau, das {10} ich gleich morgen ab.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Beantragen und erhalten"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Führungszeugnisse interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich möchte ein Führungszeugnis beantragen."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal."
+              }
+            ],
+            "q": "Du willst dem Sachbearbeiter sagen, dass du ein Führungszeugnis beantragen möchtest. — You want to tell the clerk you'd like to apply for a certificate of good conduct.",
+            "why": "Eine klare Aussage ist der übliche Einstieg bei der Beantragung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Ich frage lieber nicht nach."
+              },
+              {
+                "key": "c",
+                "text": "Wie lange dauert es ungefähr, bis das Führungszeugnis ankommt?"
+              }
+            ],
+            "q": "Du willst wissen, wie lange es dauert, bis das Führungszeugnis ankommt. — You want to know how long it takes for the certificate to arrive.",
+            "why": "Eine direkte Frage klärt frühzeitig den Zeitrahmen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich brauche es für eine neue Stelle als Erzieher."
+              },
+              {
+                "key": "b",
+                "text": "Verwendungszwecke interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst dem Sachbearbeiter sagen, wofür du das Führungszeugnis brauchst. — You want to tell the clerk what you need the certificate for.",
+            "why": "Eine klare Angabe des Verwendungszwecks ist bei der Beantragung nötig."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Gebühren interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Wie hoch ist eigentlich die Gebühr für das Führungszeugnis?"
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir egal, Hauptsache ich bekomme es."
+              }
+            ],
+            "q": "Du willst wissen, wie hoch die Gebühr für das Führungszeugnis ist. — You want to know how much the fee for the certificate is.",
+            "why": "Eine direkte Frage klärt frühzeitig die Kosten."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ausweise interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Das ist mir zu kompliziert."
+              },
+              {
+                "key": "c",
+                "text": "Muss ich meinen Personalausweis mitbringen?"
+              }
+            ],
+            "q": "Du willst wissen, ob du den Personalausweis mitbringen musst. — You want to know if you need to bring your ID card.",
+            "why": "Eine direkte Frage klärt frühzeitig die nötigen Unterlagen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bitte schicken Sie das Dokument an meine eigene Adresse."
+              },
+              {
+                "key": "b",
+                "text": "Adressen interessieren mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist mir völlig egal."
+              }
+            ],
+            "q": "Du willst dem Sachbearbeiter sagen, dass er das Dokument an deine eigene Adresse schicken soll. — You want to tell the clerk to send the document to your own address.",
+            "why": "Eine klare Angabe verhindert Missverständnisse bei der Zustellung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Beantragen und angeben"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "höfliche Aussage, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "ein",
+              "Führungszeugnis",
+              "beantragen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Ja/Nein-Frage im Präsens",
+            "tiles": [
+              "Haben",
+              "Sie",
+              "Ihren",
+              "Personalausweis",
+              "dabei",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Aussage, Verb an Position 2",
+            "tiles": [
+              "Ich",
+              "bezahle",
+              "jetzt",
+              "die",
+              "Gebühr"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Futur I, Zeitangabe an Position 1, Verb an Position 2",
+            "tiles": [
+              "Nächste",
+              "Woche",
+              "wird",
+              "das",
+              "Führungszeugnis",
+              "ankommen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "W-Frage mit sein",
+            "tiles": [
+              "Wie",
+              "hoch",
+              "ist",
+              "eigentlich",
+              "die",
+              "Gebühr",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Ich",
+              "habe",
+              "die",
+              "Gebühr",
+              "schon",
+              "bezahlt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zum Führungszeugnis bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Ein Führungszeugnis kann man online oder persönlich beantragen. — A certificate of good conduct can be applied for online or in person.",
+            "why": "So steht es ausdrücklich in den Infos zum Führungszeugnis."
+          },
+          {
+            "answer": false,
+            "q": "Die Gebühr für das Führungszeugnis beträgt meist über 50 Euro. — The fee for the certificate is usually over 50 euros.",
+            "why": "Sie beträgt in der Regel 13 Euro, nicht über 50 Euro."
+          },
+          {
+            "answer": true,
+            "q": "Den Verwendungszweck muss man bei der Beantragung immer angeben. — You must always state the purpose when applying.",
+            "why": "„Verwendungszweck: muss man bei der Beantragung immer angeben.“"
+          },
+          {
+            "answer": false,
+            "q": "Die Bearbeitung dauert normalerweise mehrere Monate. — Processing normally takes several months.",
+            "why": "Sie liegt meist zwischen einer und zwei Wochen, nicht mehreren Monaten."
+          },
+          {
+            "answer": true,
+            "q": "Kleinere Vergehen erscheinen oft nicht im einfachen Führungszeugnis. — Minor offenses often don't appear in the basic certificate.",
+            "why": "„Eintragungen: kleinere Vergehen erscheinen oft nicht im einfachen Führungszeugnis.“"
+          },
+          {
+            "answer": false,
+            "q": "Ein Führungszeugnis ist unbegrenzt lange gültig, egal wie alt es ist. — A certificate is valid indefinitely, no matter how old it is.",
+            "why": "Es sollte bei der Vorlage nicht älter als drei Monate sein."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Führungszeugnis**\n>\n> - **Beantragung:** kann man **online oder persönlich** beim\n>   Bürgeramt stellen.\n> - **Gebühr:** beträgt in der Regel **13 Euro**.\n> - **Verwendungszweck:** muss man bei der Beantragung\n>   **immer angeben**.\n> - **Bearbeitungszeit:** liegt meist zwischen **einer und\n>   zwei Wochen**.\n> - **Eintragungen:** kleinere Vergehen erscheinen oft\n>   **nicht** im einfachen Führungszeugnis.\n> - **Gültigkeit:** sollte bei der Vorlage **nicht älter als\n>   drei Monate** sein.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Infos zum Führungszeugnis lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Bewerbungstermin einfach verpassen."
+              },
+              {
+                "key": "b",
+                "text": "Beim Bundesamt für Justiz nach dem Bearbeitungsstand fragen."
+              },
+              {
+                "key": "c",
+                "text": "Sich ein gefälschtes Dokument besorgen."
+              }
+            ],
+            "q": "Ihr Führungszeugnis kommt nicht rechtzeitig vor dem Bewerbungstermin an. — Your certificate doesn't arrive in time for your job interview.",
+            "why": "Eine Nachfrage klärt schnell, wann mit dem Dokument zu rechnen ist."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nichts tun und einfach warten."
+              },
+              {
+                "key": "b",
+                "text": "Sich beim Bürgeramt beschweren, ohne die Adresse zu korrigieren."
+              },
+              {
+                "key": "c",
+                "text": "Das Bürgeramt sofort kontaktieren und die Adresse korrigieren lassen."
+              }
+            ],
+            "q": "Sie merken, dass eine falsche Adresse eingetragen wurde. — You notice the wrong address was entered.",
+            "why": "Eine sofortige Korrektur verhindert, dass das Dokument an die falsche Adresse geht."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sich in Ruhe informieren, was diese Eintragung genau bedeutet."
+              },
+              {
+                "key": "b",
+                "text": "Das Dokument sofort vernichten."
+              },
+              {
+                "key": "c",
+                "text": "Die Eintragung einfach ignorieren."
+              }
+            ],
+            "q": "Im Führungszeugnis steht eine Eintragung, mit der Sie nicht gerechnet haben. — The certificate shows an entry you didn't expect.",
+            "why": "Eine ruhige Klärung zeigt, was die Eintragung tatsächlich bedeutet."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es einfach so lassen, wie es ist."
+              },
+              {
+                "key": "b",
+                "text": "Das Bürgeramt kontaktieren und um eine Korrektur bitten."
+              },
+              {
+                "key": "c",
+                "text": "Einen komplett neuen Ausweis beantragen."
+              }
+            ],
+            "q": "Sie haben den Online-Antrag versehentlich falsch ausgefüllt. — You accidentally filled out the online application incorrectly.",
+            "why": "Eine schnelle Korrektur verhindert Verzögerungen bei der Bearbeitung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Geld einfach abschreiben."
+              },
+              {
+                "key": "b",
+                "text": "Sich beim Amt laut beschweren, ohne Belege vorzulegen."
+              },
+              {
+                "key": "c",
+                "text": "Höflich um eine Rückerstattung des doppelten Betrags bitten."
+              }
+            ],
+            "q": "Die Gebühr wurde versehentlich doppelt abgebucht. — The fee was accidentally charged twice.",
+            "why": "Eine höfliche Bitte mit Beleg führt meist schnell zur Rückerstattung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Beim Bürgeramt nach einer erneuten Zustellung fragen."
+              },
+              {
+                "key": "b",
+                "text": "Einfach ohne Führungszeugnis zur Bewerbung gehen."
+              },
+              {
+                "key": "c",
+                "text": "Sich das Dokument von einer anderen Person ausleihen."
+              }
+            ],
+            "q": "Das Dokument geht offenbar auf dem Postweg verloren. — The document apparently gets lost in the mail.",
+            "why": "Eine erneute Zustellung ist die einzig verlässliche Lösung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn beim Führungszeugnis etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "angekommen"
+          ],
+          "2": [
+            "eingetragen"
+          ],
+          "3": [
+            "entdeckt"
+          ],
+          "4": [
+            "ausgefüllt"
+          ],
+          "5": [
+            "abgebucht"
+          ],
+          "6": [
+            "verlorengegangen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Mein Führungszeugnis ist leider noch nicht {1}. (nicht eingetroffen, Partizip)\n2. Beim Antrag wurde eine falsche Adresse {2}. (aufgeschrieben, Partizip)\n3. Im Führungszeugnis habe ich eine Eintragung {3}. (bemerkt, Partizip)\n4. Den Online-Antrag habe ich versehentlich falsch {4}. (fehlerhaft erledigt, Partizip)\n5. Die Gebühr wurde versehentlich doppelt {5}. (zweimal berechnet, Partizip)\n6. Das Dokument ist auf dem Postweg leider {6}. (weg, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "habe"
+          ],
+          "2": [
+            "muss"
+          ],
+          "3": [
+            "Führungszeugnis"
+          ],
+          "4": [
+            "Antrag"
+          ],
+          "5": [
+            "Gebühr"
+          ],
+          "6": [
+            "Eintragung"
+          ],
+          "7": [
+            "Verwendungszweck"
+          ],
+          "8": [
+            "Können"
+          ],
+          "9": [
+            "wird"
+          ],
+          "10": [
+            "angekommen"
+          ],
+          "11": [
+            "eingetragen"
+          ],
+          "12": [
+            "entdeckt"
+          ],
+          "13": [
+            "abgebucht"
+          ],
+          "14": [
+            "verlorengegangen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} gestern einen Antrag gestellt. (have — Perfekt)\n2. Man {2} den Personalausweis zum Bürgeramt mitbringen. (must — müssen)\n3. Für die neue Stelle brauche ich ein {3}. (certificate of good conduct)\n4. Ich habe beim Bürgeramt einen {4} gestellt. (application)\n5. Die {5} für das Führungszeugnis beträgt 13 Euro. (fee)\n6. Zum Glück gibt es keine {6} in meinem Führungszeugnis. (entry)\n7. Ich muss noch den {7} angeben. (purpose of use)\n8. {8} Sie mir bitte den Antrag erklären? (could — können, Sie-Form)\n9. Das Bundesamt {9} das Führungszeugnis per Post schicken. (will — werden)\n10. Mein Führungszeugnis ist leider noch nicht {10}. (arrived — Partizip)\n11. Beim Antrag wurde eine falsche Adresse {11}. (entered — Partizip)\n12. Im Führungszeugnis habe ich eine Eintragung {12}. (discovered — Partizip)\n13. Die Gebühr wurde versehentlich doppelt {13}. (deducted — Partizip)\n14. Das Dokument ist auf dem Postweg leider {14}. (lost — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-92-fuehrungszeugnis-b1",
+  "intro": "Für viele Stellen braucht man ein Führungszeugnis: einen Antrag stellen, den Personalausweis vorlegen, den Verwendungszweck angeben und die Gebühr bezahlen. Dieses Set übt genau das — beantragen, angeben, erhalten, und was zu tun ist, wenn das Dokument nicht rechtzeitig ankommt oder eine unerwartete Eintragung darin steht. Grammatik nach Bedarf: Modalverben, Perfekt und Futur I. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/92-fuehrungszeugnis-b1",
+  "level": "B1",
+  "summary": "Ein Führungszeugnis beim Bürgeramt beantragen, den Verwendungszweck angeben und die Gebühr bezahlen — und was tun, wenn es nicht rechtzeitig ankommt oder eine unerwartete Eintragung darin steht.",
+  "title": "Führungszeugnis — B1",
+  "topic": "Führungszeugnis"
+}

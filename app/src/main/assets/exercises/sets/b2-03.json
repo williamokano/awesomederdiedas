@@ -1,0 +1,1336 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "mit haben: … gemacht",
+          "mit sein: … gekommen"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "hätte gemacht"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "wäre gekommen"
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "ich"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "hättest gemacht"
+                ],
+                "gap": 3
+              },
+              {
+                "answer": [
+                  "wärst gekommen"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "du"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "hätte gemacht"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "wäre gekommen"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "er/sie/es"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "hätten gemacht"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "wären gekommen"
+                ],
+                "gap": 8
+              }
+            ],
+            "label": "wir"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "hättet gemacht"
+                ],
+                "gap": 9
+              },
+              {
+                "answer": [
+                  "wärt gekommen"
+                ],
+                "gap": 10
+              }
+            ],
+            "label": "ihr"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "hätten gemacht"
+                ],
+                "gap": 11
+              },
+              {
+                "answer": [
+                  "wären gekommen"
+                ],
+                "gap": 12
+              }
+            ],
+            "label": "sie/Sie"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die Formen von hätte (machen) und wäre (kommen). 12 Lücken.",
+      "title": "Konjunktiv II der Vergangenheit: hätte / wäre"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "hätte"
+          ],
+          "2": [
+            "wärst"
+          ],
+          "3": [
+            "hätten"
+          ],
+          "4": [
+            "wäre"
+          ],
+          "5": [
+            "hätte"
+          ],
+          "6": [
+            "wäre"
+          ],
+          "7": [
+            "hättet"
+          ],
+          "8": [
+            "hätte"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} den Brief fast vergessen. (vergessen)\n2. Du {2} pünktlich gekommen. (kommen)\n3. Wir {3} den Fehler vermieden. (vermeiden)\n4. Sie (sie) {4} beinahe zu spät gewesen. (sein)\n5. Er {5} mehr gesagt. (sagen)\n6. Ich {6} sofort losgelaufen. (laufen)\n7. Ihr {7} das geahnt. (ahnen)\n8. Anna {8} fast den Zug verpasst. (verpassen)\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze das richtige Hilfsverb im Konjunktiv II (hätte/hättest/… oder wäre/wärst/…). 8 Lücken.",
+      "title": "hätte oder wäre? (Hilfsverb wählen)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "hätte"
+          ],
+          "2": [
+            "wären"
+          ],
+          "3": [
+            "hättest"
+          ],
+          "4": [
+            "wäre"
+          ],
+          "5": [
+            "hätte"
+          ],
+          "6": [
+            "wärt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe gelernt. → Ich {1} gelernt.\n2. Wir sind gegangen. → Wir {2} gegangen.\n3. Du hast geholfen. → Du {3} geholfen.\n4. Sie ist geblieben. → Sie {4} geblieben.\n5. Er hat angerufen. → Er {5} angerufen.\n6. Ihr seid gekommen. → Ihr {6} gekommen.\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Schreib die Form um: Perfekt → Konjunktiv II der Vergangenheit (z. B. ich habe gemacht → ich hätte gemacht). 6 Lücken.",
+      "title": "Vom Perfekt zum Konjunktiv II der Vergangenheit"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "aufgestanden wäre"
+          ],
+          "2": [
+            "hätte"
+          ],
+          "3": [
+            "gekauft hätte"
+          ],
+          "4": [
+            "wären"
+          ],
+          "5": [
+            "gemeldet hätte"
+          ],
+          "6": [
+            "hätten"
+          ],
+          "7": [
+            "gefragt hättest"
+          ],
+          "8": [
+            "hätte"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wenn ich früher {1} (aufstehen), {2} ich den Zug erreicht.\n2. Wenn Bruno die Tickets {3} (kaufen), {4} sie ins Konzert gekommen.\n3. Wenn ich die Verzögerung {5} (melden), {6} wir eine Lösung gefunden.\n4. Wenn du mich {7} (fragen), {8} ich dir geholfen.\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze die Verbformen im Konjunktiv II der Vergangenheit. 8 Lücken.",
+      "title": "Irreale Bedingungssätze der Vergangenheit"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "buchen sollen"
+          ],
+          "2": [
+            "machen können"
+          ],
+          "3": [
+            "kontaktieren müssen"
+          ],
+          "4": [
+            "bitten sollen"
+          ],
+          "5": [
+            "wissen müssen"
+          ],
+          "6": [
+            "sein müssen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Du hättest früher {1} (buchen + sollen).\n2. Ich hätte das einfach {2} (machen + können).\n3. Wir hätten den Kunden früher {3} (kontaktieren + müssen).\n4. Sie hätte das Team um Hilfe {4} (bitten + sollen).\n5. Das hättest du {5} (wissen + müssen).\n6. Er hätte vorsichtiger {6} (sein + müssen).\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Ergänze den Doppelinfinitiv (z. B. anrufen sollen). 6 Lücken.",
+      "title": "Doppelinfinitiv: hätte … + Vollverb + Modalverb"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "gewusst hätte"
+              },
+              {
+                "key": "b",
+                "text": "hätte gewusst"
+              },
+              {
+                "key": "c",
+                "text": "gewusst hat"
+              }
+            ],
+            "q": "Er tat, als ob er nichts ____.",
+            "why": "Nach „als ob\" steht das Verb am Ende: „gewusst hätte\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ob hätte"
+              },
+              {
+                "key": "b",
+                "text": "hätte"
+              },
+              {
+                "key": "c",
+                "text": "sie hätte"
+              }
+            ],
+            "q": "Sie sah aus, als ____ sie geweint.",
+            "why": "Nach „als\" (ohne „ob\") folgt sofort das Verb: „als hätte sie geweint\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ob wäre"
+              },
+              {
+                "key": "b",
+                "text": "wäre"
+              },
+              {
+                "key": "c",
+                "text": "war"
+              }
+            ],
+            "q": "Es klang, als ____ alles geplant gewesen.",
+            "why": "„als wäre alles geplant gewesen\" — Konjunktiv II, Verb direkt nach „als\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A6",
+      "instructions": "Wähle die richtige Form (a, b oder c).",
+      "title": "als ob / als — Wortstellung erkennen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "gewusst hätte"
+          ],
+          "2": [
+            "gewusst hättest"
+          ],
+          "3": [
+            "geschlafen hätte"
+          ],
+          "4": [
+            "geschehen wäre"
+          ],
+          "5": [
+            "gemacht hätte"
+          ],
+          "6": [
+            "gehört hätte"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Mia tat, als ob sie nichts {1} (wissen).\n2. Du redest, als ob du alles besser {2} (wissen).\n3. Es sieht aus, als ob er die ganze Nacht nicht {3} (schlafen).\n4. Sie lächelte, als ob nichts {4} (geschehen).\n5. Es klingt, als ob er es absichtlich {5} (machen).\n6. Anna tat, als ob sie es nicht {6} (hören).\n",
+        "type": "gap-text"
+      },
+      "id": "A7",
+      "instructions": "Ergänze das Verb im Konjunktiv II der Vergangenheit am Satzende. 6 Lücken.",
+      "title": "als ob: Verb ans Ende"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Du hättest früher buchen sollen.",
+            "tiles": [
+              "du",
+              "hättest",
+              "früher",
+              "buchen",
+              "sollen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Ich hätte das machen können.",
+            "tiles": [
+              "ich",
+              "hätte",
+              "das",
+              "machen",
+              "können"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Wir hätten ihn informieren müssen.",
+            "tiles": [
+              "wir",
+              "hätten",
+              "ihn",
+              "informieren",
+              "müssen"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A8",
+      "title": "Satzbau: Doppelinfinitiv im Hauptsatz"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Wenn ich das gewusst hätte, wäre ich geblieben.",
+            "tiles": [
+              "wenn",
+              "ich",
+              "das",
+              "gewusst",
+              "hätte",
+              "wäre",
+              "ich",
+              "geblieben"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Er tat, als hätte er nichts gewusst.",
+            "tiles": [
+              "er",
+              "tat",
+              "als",
+              "hätte",
+              "er",
+              "nichts",
+              "gewusst"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Hätte ich den Brief eingeworfen, hätte er ihn gelesen.",
+            "tiles": [
+              "hätte",
+              "ich",
+              "den",
+              "Brief",
+              "eingeworfen",
+              "hätte",
+              "er",
+              "ihn",
+              "gelesen"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A9",
+      "title": "Satzbau: irreale Bedingungssätze und Vergleiche"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "hätte"
+          ],
+          "2": [
+            "hättest"
+          ],
+          "3": [
+            "hätten"
+          ],
+          "4": [
+            "hätte"
+          ],
+          "5": [
+            "hättet"
+          ],
+          "6": [
+            "hätte"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} früher gehen können. (können)\n2. Du {2} mir das sagen sollen. (sollen)\n3. Wir {3} pünktlich sein müssen. (müssen)\n4. Sie {4} mitkommen können. (können)\n5. Ihr {5} vorsichtiger sein müssen. (müssen)\n6. Er {6} das nicht tun dürfen. (dürfen)\n",
+        "type": "gap-text"
+      },
+      "id": "A10",
+      "instructions": "⚠️ Beim Modalverb immer hätte! Ergänze die richtige Form. 6 Lücken.",
+      "title": "wäre oder hätte beim Doppelinfinitiv?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "gebucht"
+          ],
+          "2": [
+            "wären"
+          ],
+          "3": [
+            "hättest"
+          ],
+          "4": [
+            "sollen"
+          ],
+          "5": [
+            "gehört"
+          ],
+          "6": [
+            "hätte"
+          ],
+          "7": [
+            "wäre"
+          ],
+          "8": [
+            "hätte"
+          ],
+          "9": [
+            "geschaut"
+          ],
+          "10": [
+            "wäre"
+          ]
+        },
+        "bank": [
+          "gebucht",
+          "wären",
+          "hättest",
+          "sollen",
+          "gehört",
+          "hätte",
+          "wäre",
+          "hätte",
+          "geschaut",
+          "wäre",
+          "gekauft",
+          "würde"
+        ],
+        "text": "— Mensch, hätte ich bloß früher {1}! Dann {2} wir jetzt im Konzert.\n— Du {3} wirklich früher buchen {4}. Ich habe es dir gesagt.\n— Ich weiß. Wenn ich auf dich {5} {6}, {7} es nicht so weit gekommen.\n— Na ja. An deiner Stelle {8} ich es auch vergessen.\n— Hätten wir einfach einen Film {9}, {10} der Abend schöner gewesen.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit der richtigen Form. **Zwei Wörter werden nicht gebraucht.**",
+      "title": "Dialog ergänzen: Das verpasste Konzert"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Du hättest mir Bescheid sagen sollen!"
+          },
+          {
+            "key": "2",
+            "text": "Wir hätten den Kunden früher informieren müssen."
+          },
+          {
+            "key": "3",
+            "text": "Hättest du früher gebucht, wären wir reingekommen."
+          },
+          {
+            "key": "4",
+            "text": "Du tust, als ob du nichts gewusst hättest."
+          },
+          {
+            "key": "5",
+            "text": "Ich hätte mich besser vorbereiten sollen."
+          },
+          {
+            "key": "6",
+            "text": "Beinahe hätte ich den Job bekommen."
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Stimmt, das war mein Fehler — ich habe es vergessen."
+          },
+          {
+            "key": "b",
+            "text": "Ja, dann hätten wir gemeinsam eine Lösung gefunden."
+          },
+          {
+            "key": "c",
+            "text": "Ich weiß, ich hätte einfach klicken müssen."
+          },
+          {
+            "key": "d",
+            "text": "Doch, ich wusste es — ich wollte nur nichts sagen."
+          },
+          {
+            "key": "e",
+            "text": "Nächstes Mal lernst du sicher mehr."
+          },
+          {
+            "key": "f",
+            "text": "Schade! Aber fast ist auch schon gut."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B3",
+      "instructions": "Verbinde jeden Vorwurf (1–6) mit der passenden Reaktion (a–f).",
+      "title": "Vorwurf und Reaktion verbinden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "hätte bitten sollen"
+          ],
+          "2": [
+            "hätte gehen können"
+          ],
+          "3": [
+            "hätte kaufen müssen"
+          ],
+          "4": [
+            "hättest sagen können"
+          ],
+          "5": [
+            "hätten informieren müssen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Anna weiß, dass sie das Team früher {1} (hätte + bitten + sollen).\n2. Es ärgert mich, dass ich nicht früher {2} (hätte + gehen + können).\n3. Bruno gibt zu, dass er die Tickets früher {3} (hätte + kaufen + müssen).\n4. Ich glaube, dass du mir das {4} (hättest + sagen + können).\n5. Sie meint, dass wir den Kunden früher {5} (hätten + informieren + müssen).\n",
+        "type": "gap-text"
+      },
+      "id": "B7",
+      "instructions": "⚠️ Im Nebensatz steht hätte VOR dem Doppelinfinitiv. Ergänze die Wörter in der richtigen Reihenfolge. 5 Lücken.",
+      "title": "Doppelinfinitiv im Nebensatz"
+    },
+    {
+      "block": "B",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "Bedauern",
+              "Reue",
+              "Vorwurf",
+              "Freude"
+            ],
+            "odd": 3,
+            "why": "Freude ist ein positives Gefühl; die anderen gehören zum Thema Bedauern/Vorwurf."
+          },
+          {
+            "items": [
+              "verpassen",
+              "versäumen",
+              "vermeiden",
+              "erreichen"
+            ],
+            "odd": 3,
+            "why": "erreichen bedeutet „schaffen/ankommen\"; die anderen drei drücken ein Versäumnis oder Verhindern aus."
+          },
+          {
+            "items": [
+              "Chance",
+              "Gelegenheit",
+              "Möglichkeit",
+              "Verzögerung"
+            ],
+            "odd": 3,
+            "why": "Verzögerung ist eine zeitliche Verspätung; die anderen drei bedeuten „Gelegenheit\"."
+          },
+          {
+            "items": [
+              "beinahe",
+              "fast",
+              "vielleicht",
+              "gewiss"
+            ],
+            "odd": 3,
+            "why": "gewiss bedeutet „sicher\"; die anderen markieren Unsicherheit oder „knapp nicht\"."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "B8",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum.",
+      "title": "Wortschatz: Was passt nicht?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Hätte"
+          ],
+          "2": [
+            "hätte"
+          ],
+          "3": [
+            "gelesen"
+          ],
+          "4": [
+            "müssen"
+          ],
+          "5": [
+            "als"
+          ],
+          "6": [
+            "hätte"
+          ],
+          "7": [
+            "gewusst"
+          ],
+          "8": [
+            "wäre"
+          ],
+          "9": [
+            "sollen"
+          ],
+          "10": [
+            "Beinahe"
+          ]
+        },
+        "listLayout": true,
+        "text": "Letzte Woche habe ich einen alten Briefumschlag gefunden — nie abgeschickt.\nMein Großvater ist im selben Jahr gestorben. {1} ich den Brief einfach\neingeworfen, {2} er meine Worte noch {3} (lesen). Ich hätte nur drei\nMinuten zum Briefkasten gehen {4} (Modalverb). Stattdessen lag der Umschlag\njahrelang da, {5} ob er auf mich gewartet {6} (haben). Wenn ich {7}\n(wissen) hätte, wie wenig Zeit blieb, {8} ich sofort losgelaufen. Im\nNachhinein hätte ich vieles früher sagen {9} (Modalverb). {10} hätte ich\nauch diesen Text nicht geschrieben — aber diesmal habe ich es getan.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Fülle jede Lücke mit einem Wort. 10 Lücken.",
+      "title": "Lückentext: Der Brief, den ich nie geschrieben habe"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "würde"
+              },
+              {
+                "key": "b",
+                "text": "hätte"
+              },
+              {
+                "key": "c",
+                "text": "hatte"
+              }
+            ],
+            "q": "Wenn ich das gewusst hätte, (1) ____ ich anders reagiert.",
+            "why": "Im Hauptsatz steht in der Vergangenheit „hätte + Partizip\", kein „würde\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "informieren"
+              },
+              {
+                "key": "b",
+                "text": "informiert"
+              },
+              {
+                "key": "c",
+                "text": "zu informieren"
+              }
+            ],
+            "q": "Du hättest mich (2) ____ müssen.",
+            "why": "Doppelinfinitiv: Vollverb bleibt Infinitiv — „informieren müssen\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "gewusst hat"
+              },
+              {
+                "key": "b",
+                "text": "gewusst hätte"
+              },
+              {
+                "key": "c",
+                "text": "wusste"
+              }
+            ],
+            "q": "Er tat, als ob er nichts (3) ____.",
+            "why": "„als ob\" + Konjunktiv II, Verb am Ende: „gewusst hätte\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "hätte"
+              },
+              {
+                "key": "b",
+                "text": "wäre"
+              },
+              {
+                "key": "c",
+                "text": "würde"
+              }
+            ],
+            "q": "Ich (4) ____ beinahe zu spät gekommen.",
+            "why": "„kommen\" ist ein Bewegungsverb → Hilfsverb „wäre\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "als"
+              },
+              {
+                "key": "b",
+                "text": "als ob"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Sie sah aus, (5) ____ hätte sie die ganze Nacht geweint.",
+            "why": "Nach „als\" folgt sofort das Verb („als hätte sie …\"); „als ob\" bräuchte das Verb am Ende."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "vermeiden können"
+              },
+              {
+                "key": "b",
+                "text": "vermeiden gekonnt"
+              },
+              {
+                "key": "c",
+                "text": "vermieden können"
+              }
+            ],
+            "q": "Wir hätten den Fehler leicht (6) ____.",
+            "why": "Doppelinfinitiv: Vollverb-Infinitiv + Modal-Infinitiv — „vermeiden können\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle für jede Lücke die richtige Option (a, b oder c).",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "HÄTTE"
+          ],
+          "2": [
+            "GEWESEN"
+          ],
+          "3": [
+            "WÄRE"
+          ],
+          "4": [
+            "HÄTTE"
+          ],
+          "5": [
+            "ALS"
+          ],
+          "6": [
+            "HÄTTE"
+          ],
+          "7": [
+            "SOLLEN"
+          ],
+          "8": [
+            "HÄTTE"
+          ],
+          "9": [
+            "GESAGT"
+          ],
+          "10": [
+            "HÄTTE"
+          ]
+        },
+        "bank": [
+          "HÄTTE",
+          "GEWESEN",
+          "WÄRE",
+          "HÄTTE",
+          "ALS",
+          "HÄTTE",
+          "SOLLEN",
+          "HÄTTE",
+          "GESAGT",
+          "HÄTTE",
+          "WÜRDE",
+          "MÜSSEN",
+          "WENN",
+          "GEKONNT",
+          "KÖNNEN"
+        ],
+        "text": "Anna erzählt von ihrem Vorstellungsgespräch: „Ich {1} heute fast den\nTraumjob bekommen. Wenn ich selbstbewusster {2} {3}, {4} ich ihn\nwahrscheinlich gekriegt. Die Chefin tat freundlich, aber sie sah mich an,\n{5} ob sie schon entschieden {6}. Ich hätte mich besser vorbereiten {7}.\nBeinahe {8} es geklappt. Hätte ich nur mehr {9} (sagen)! Na ja — {10},\nhätte, Fahrradkette.\"\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. **Fünf Wörter werden nicht gebraucht.** Jedes Wort passt nur einmal.",
+      "title": "Sprachbausteine Teil 2 (Wortbank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Bruno hat den Brief damals abgeschickt.",
+            "why": "„Doch ich habe den Brief nie zur Post gebracht\"."
+          },
+          {
+            "answer": true,
+            "q": "Der Brief war an Brunos Großvater gerichtet.",
+            "why": "„Es war ein Brief an meinen Großvater in Brasilien\"."
+          },
+          {
+            "answer": true,
+            "q": "Brunos Großvater ist im selben Jahr gestorben.",
+            "why": "„Mein Großvater ist im selben Jahr gestorben\"."
+          },
+          {
+            "answer": false,
+            "q": "Bruno hat den alten Brief weggeworfen.",
+            "why": "„Den alten Brief habe ich behalten\"."
+          },
+          {
+            "answer": true,
+            "q": "Bruno versucht heute, nichts Wichtiges mehr aufzuschieben.",
+            "why": "„Heute versuche ich, nichts Wichtiges mehr aufzuschieben\"."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Letzte Woche habe ich beim Aufräumen einen alten Briefumschlag gefunden — adressiert, frankiert, aber nie abgeschickt. Es war ein Brief an meinen Großvater in Brasilien, den ich vor sechs Jahren geschrieben hatte. Ich wollte ihm darin sagen, wie dankbar ich war, dass er mir das Reisen ermöglicht hatte. Doch ich habe den Brief nie zur Post gebracht. „Ich mache das morgen\", dachte ich damals. Das Morgen kam nie.\n> Mein Großvater ist im selben Jahr gestorben. Hätte ich den Brief einfach eingeworfen, hätte er meine Worte noch gelesen. Ich hätte nur drei Minuten zum Briefkasten gehen müssen. Stattdessen lag der Umschlag jahrelang in einer Schublade, als ob er auf mich gewartet hätte. Wenn ich gewusst hätte, wie wenig Zeit blieb, wäre ich sofort losgelaufen.\n> Im Nachhinein ist mir klar geworden: Ich hätte vieles früher sagen sollen. Nicht nur ihm. Wir tun oft so, als ob wir unendlich Zeit hätten, und schieben das Wichtige auf. Beinahe hätte ich auch diesen Text nicht geschrieben — wieder dieses „morgen\". Aber diesmal nicht.\n> Den alten Brief habe ich behalten. Ich werde ihn nicht abschicken können, das weiß ich. Aber er erinnert mich jeden Tag daran: Manche Gelegenheiten kommen nur einmal. Hätte ich das damals begriffen, hätte ich anders gehandelt. Heute versuche ich, nichts Wichtiges mehr aufzuschieben.\n\nRichtig (R) oder Falsch (F)?\n",
+      "title": "Lesen Text 1 (Der Brief)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weil sie Angst vor dem Umzug hatte."
+              },
+              {
+                "key": "b",
+                "text": "Weil das Gehalt zu niedrig war."
+              },
+              {
+                "key": "c",
+                "text": "Weil sie keine Zusage bekam."
+              }
+            ],
+            "q": "Warum sagte Marie vor zehn Jahren ab?",
+            "why": "„sagte aber im letzten Moment ab, weil sie Angst vor dem Umzug hatte\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie hätte die Chance nie ablehnen sollen."
+              },
+              {
+                "key": "b",
+                "text": "Sie hätte sofort umziehen müssen."
+              },
+              {
+                "key": "c",
+                "text": "Sie bereut nichts."
+              }
+            ],
+            "q": "Was sagt Marie heute über die erste Chance?",
+            "why": "„Eigentlich hätte ich die erste Chance nie ablehnen sollen\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Marie zog nach Hamburg, ohne Job."
+              },
+              {
+                "key": "b",
+                "text": "Dieselbe Firma bot ihr erneut eine Stelle an."
+              },
+              {
+                "key": "c",
+                "text": "Marie gründete ihre eigene Firma."
+              }
+            ],
+            "q": "Was passierte vor einem Jahr?",
+            "why": "„vor einem Jahr bot dieselbe Firma ihr erneut eine Stelle an\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Als großen Fehler."
+              },
+              {
+                "key": "b",
+                "text": "Als vielleicht genau richtig für sie."
+              },
+              {
+                "key": "c",
+                "text": "Als reinen Zufall ohne Bedeutung."
+              }
+            ],
+            "q": "Wie bewertet Marie ihren späten Weg am Ende?",
+            "why": "„vielleicht war der späte Weg genau der richtige für mich\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "> Marie hatte sich vor zehn Jahren auf eine Stelle in Hamburg beworben. Sie\n> bekam eine Zusage, sagte aber im letzten Moment ab, weil sie Angst vor dem\n> Umzug hatte. „Hätte ich damals zugesagt, wäre mein Leben ganz anders\n> verlaufen\", sagt sie heute. Lange ärgerte sie sich darüber. Doch vor einem\n> Jahr bot dieselbe Firma ihr erneut eine Stelle an. Diesmal nahm sie an.\n> „Eigentlich hätte ich die erste Chance nie ablehnen sollen — aber vielleicht\n> war der späte Weg genau der richtige für mich.\"\n\nWähle a, b oder c.\n",
+      "title": "Lesen Text 2 (Eine zweite Chance)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "hätte"
+          ],
+          "2": [
+            "gemacht"
+          ],
+          "3": [
+            "wäre"
+          ],
+          "4": [
+            "gegangen"
+          ],
+          "5": [
+            "hättest"
+          ],
+          "6": [
+            "sollen"
+          ],
+          "7": [
+            "gewusst hätte"
+          ],
+          "8": [
+            "als"
+          ],
+          "9": [
+            "hätte"
+          ],
+          "10": [
+            "wäre"
+          ],
+          "11": [
+            "war"
+          ],
+          "12": [
+            "gekommen"
+          ],
+          "13": [
+            "konnte"
+          ],
+          "14": [
+            "Ich hätte dich anrufen sollen."
+          ],
+          "15": [
+            "Wenn ich das gewusst hätte, wäre ich geblieben."
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Konjunktiv II Vergangenheit von „machen\", ich-Form: {1} {2}\n2. Konjunktiv II Vergangenheit von „gehen\", ich-Form: {3} {4}\n3. Doppelinfinitiv: „Du ____ anrufen ____.\" (sollen): {5} … {6}\n4. „als ob\"-Satz: „Er tat, als ob er nichts ____.\" (wissen): {7}\n5. „als\"-Satz: „Sie sah aus, ____ hätte sie geweint.\": {8}\n6. (B1/03) Konjunktiv II Gegenwart von „haben\", ich-Form: {9}\n7. (B1/03) Konjunktiv II Gegenwart von „sein\", ich-Form: {10}\n8. (B1/01) Plusquamperfekt von „kommen\", ich-Form: {11} {12}\n9. (A2/01) Präteritum von „können\", ich-Form: {13}\n10. Übersetze: „I should have called you.\" (du) → {14}\n11. Übersetze: „If I had known that, I would have stayed.\" → {15}\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Eine Minute pro Item. Keine Notizen. Items mit (L<n>) wiederholen eine frühere Lektion. 15 Lücken.",
+      "title": "Gemischter Schnelltest"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "Bedauern",
+              "Reue",
+              "Vorwurf",
+              "Freude"
+            ],
+            "odd": 3,
+            "why": "Freude ist positiv; die anderen gehören zum Thema Bedauern/Vorwurf."
+          },
+          {
+            "items": [
+              "Chance",
+              "Gelegenheit",
+              "Möglichkeit",
+              "Schuld"
+            ],
+            "odd": 3,
+            "why": "Schuld bedeutet „Verantwortung für einen Fehler\"; die anderen drei bedeuten „Gelegenheit\"."
+          },
+          {
+            "items": [
+              "hätte",
+              "wäre",
+              "würde",
+              "war"
+            ],
+            "odd": 3,
+            "why": "war ist Indikativ Präteritum; die anderen sind Konjunktiv-II-Formen."
+          },
+          {
+            "items": [
+              "verpassen",
+              "versäumen",
+              "bereuen",
+              "erkennen"
+            ],
+            "odd": 2,
+            "why": "bereuen drückt das Gefühl danach aus; verpassen/versäumen/erkennen beschreiben die Handlung selbst."
+          },
+          {
+            "items": [
+              "beinahe",
+              "fast",
+              "knapp",
+              "immer"
+            ],
+            "odd": 3,
+            "why": "immer bedeutet „jederzeit\"; die anderen bedeuten „knapp nicht / fast\"."
+          },
+          {
+            "items": [
+              "als ob",
+              "als wenn",
+              "als",
+              "weil"
+            ],
+            "odd": 3,
+            "why": "weil leitet einen Grund ein; die anderen drei leiten irreale Vergleiche ein."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum.",
+      "title": "Odd one out"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "hätte"
+          ],
+          "2": [
+            "wäre"
+          ],
+          "3": [
+            "würde"
+          ],
+          "4": [
+            "angekommen war"
+          ],
+          "5": [
+            "hatte"
+          ],
+          "6": [
+            "gefunden"
+          ],
+          "7": [
+            "musste"
+          ],
+          "8": [
+            "habe"
+          ],
+          "9": [
+            "gelesen"
+          ],
+          "10": [
+            "wollte"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Aus B1/03 (Konjunktiv II der Gegenwart):**\n1. Wenn ich Zeit {1} (haben — Konj. II), würde ich reisen.\n2. Ich {2} (sein — Konj. II) gern reicher.\n3. An deiner Stelle {3} (würde) ich warten.\n\n**Aus B1/01 (Plusquamperfekt):**\n4. Nachdem sie {4} (ankommen), rief sie an. (war + Partizip)\n5. Bevor ich nach Berlin kam, {5} ich schon einen Job {6} (finden).\n\n**Aus A2/01 (Perfekt + Präteritum der Modalverben):**\n6. Gestern {7} (müssen — Prät.) ich lange arbeiten.\n7. Perfekt von „lesen\", ich-Form: „Ich {8} ein Buch {9}.\" (haben + Partizip)\n8. Präteritum von „wollen\", er/sie-Form: {10}\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Wiederholung früherer Lektionen. 10 Lücken.",
+      "title": "Rückblick: B1/03, B1/01, A2/01"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "hätte"
+          ],
+          "2": [
+            "wärst"
+          ],
+          "3": [
+            "hätten"
+          ],
+          "4": [
+            "buchen sollen"
+          ],
+          "5": [
+            "machen können"
+          ],
+          "6": [
+            "gelernt"
+          ],
+          "7": [
+            "wärst"
+          ],
+          "8": [
+            "gewusst hätte"
+          ],
+          "9": [
+            "als"
+          ],
+          "10": [
+            "Wir hätten ihn informieren müssen."
+          ],
+          "11": [
+            "Ich hätte beinahe den Zug verpasst."
+          ],
+          "12": [
+            "Hätte ich das nur/bloß gewusst!"
+          ],
+          "13": [
+            "könnte"
+          ],
+          "14": [
+            "war"
+          ],
+          "15": [
+            "gegangen"
+          ],
+          "16": [
+            "musste"
+          ],
+          "17": [
+            "(z. B. Ich hätte früher aufstehen sollen.)"
+          ],
+          "18": [
+            "—"
+          ],
+          "19": [
+            "—"
+          ],
+          "20": [
+            "hätte"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Konjunktiv II der Vergangenheit — Form:**\n1. „Ich {1} (haben) das anders gemacht.\"\n2. „Du {2} (sein) zu spät gekommen.\"\n3. „Wir {3} (haben) den Fehler vermieden.\"\n\n**Doppelinfinitiv:**\n4. „Du hättest früher {4} (buchen + sollen).\"\n5. „Ich hätte das {5} (machen + können).\"\n\n**Irreale Bedingungssätze (Vergangenheit):**\n6. „Wenn ich {6} (lernen) hätte, hätte ich bestanden.\"\n7. „Wenn du gekommen {7} (sein), hätten wir gefeiert.\"\n\n**Irreale Vergleiche:**\n8. „Er tat, als ob er nichts {8} (wissen).\"\n9. „Sie sah aus, {9} hätte sie geweint.\" (als / als ob — wähle: als)\n\n**Übersetzen:**\n10. „We should have informed him.\" → {10}\n11. „I almost missed the train.\" → {11}\n12. „If only I had known that!\" → {12}\n\n**Wiederholung:**\n13. (B1/03) Konjunktiv II Gegenwart „können\", ich-Form: {13}\n14. (B1/01) Plusquamperfekt „gehen\", ich-Form: {14} {15}\n15. (A2/01) Präteritum „müssen\", ich-Form: {16}\n\n**Mini-Text (3 Sätze mit „Ich hätte … sollen\"):**\n16. {17}\n17. {18}\n18. {19}\n\n**Gemischtes:**\n19. ⚠️ Modalverb → Hilfsverb? „Ich ____ gehen können.\" (hätte / wäre): {20}\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (bewerte dich /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "b2-03",
+  "intro": "Blöcke: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Lösungen in solutions.md. Tipp: Verteile die Blöcke über mehrere Tage — H und A am Tag 1, B am Tag 2, C am Tag 3, D am Tag 4 nach einer Pause.\n",
+  "lesson": "B2/03",
+  "level": "B2",
+  "summary": null,
+  "title": "B2 · Lektion 3 — Übungen (Vergangenheit der Möglichkeit)",
+  "topic": null
+}

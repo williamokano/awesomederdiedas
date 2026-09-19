@@ -1,0 +1,1349 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "wertet"
+          ],
+          "2": [
+            "diskutiert"
+          ],
+          "3": [
+            "darf"
+          ],
+          "4": [
+            "untersucht"
+          ],
+          "5": [
+            "muss"
+          ],
+          "6": [
+            "wendet"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Daten werden ausgewertet. → Man {1} die Daten aus. (auswerten)\n2. Hier wird viel diskutiert. → Hier {2} man viel. (diskutieren)\n3. Das darf nicht vergessen werden. → Das {3} man nicht vergessen. (dürfen)\n4. Die Probe wird untersucht. → Man {4} die Probe. (untersuchen)\n5. Der Antrag muss eingereicht werden. → Den Antrag {5} man einreichen. (müssen)\n6. Diese Methode wird kaum noch angewendet. → Diese Methode {6} man kaum noch an. (anwenden)\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Schreib den Passivsatz mit `man` + Aktiv um. Trag die fehlende Verbform ein. 6 Items.",
+      "title": "Passiv → man + Aktiv"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "lässt"
+          ],
+          "2": [
+            "lassen"
+          ],
+          "3": [
+            "ließ"
+          ],
+          "4": [
+            "lässt"
+          ],
+          "5": [
+            "ließ"
+          ],
+          "6": [
+            "lassen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das Problem kann gelöst werden. → Das Problem {1} sich lösen.\n2. Die Daten können gespeichert werden. → Die Daten {2} sich speichern. (Plural!)\n3. Die Frage konnte nicht beantwortet werden. → Die Frage {3} sich nicht beantworten. (Präteritum)\n4. Der Fehler kann schnell gefunden werden. → Der Fehler {4} sich schnell finden.\n5. Die Hypothese konnte nicht bestätigt werden. → Die Hypothese {5} sich nicht bestätigen. (Präteritum)\n6. Solche Ergebnisse können kaum verglichen werden. → Solche Ergebnisse {6} sich kaum vergleichen. (Plural!)\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Form die Sätze mit `sich lassen` um. Trag die richtige Form von `lassen` + Reflexivpronomen ein. 6 Items.",
+      "title": "sich lassen + Infinitiv"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "lösbar"
+          ],
+          "2": [
+            "machbar"
+          ],
+          "3": [
+            "essbar"
+          ],
+          "4": [
+            "messbar"
+          ],
+          "5": [
+            "erkennbar"
+          ],
+          "6": [
+            "belegbar"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Aufgabe ist {1}. (lösen)\n2. Das Ziel ist durchaus {2}. (machen)\n3. Diese Pilze sind nicht {3}. (essen)\n4. Der Unterschied ist kaum {4}. (messen)\n5. Der Fehler war von Anfang an {5}. (erkennen)\n6. Das Ergebnis ist klar {6}. (belegen)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Bilde aus dem Verb in Klammern ein `-bar`-Adjektiv (prädikativ, ohne Endung). 6 Items.",
+      "title": "-bar-Adjektive bilden"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "anzugeben"
+          ],
+          "2": [
+            "einzureichen"
+          ],
+          "3": [
+            "zu beachten"
+          ],
+          "4": [
+            "zu lösen"
+          ],
+          "5": [
+            "zu beweisen"
+          ],
+          "6": [
+            "einzuhalten"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Quellen müssen angegeben werden. → Die Quellen sind {1}. (angeben)\n2. Der Antrag muss eingereicht werden. → Der Antrag ist {2}. (einreichen)\n3. Diese Vorschrift muss beachtet werden. → Diese Vorschrift ist {3}. (beachten)\n4. Das Problem kann leicht gelöst werden. → Das Problem ist leicht {4}. (lösen)\n5. Die Hypothese kann kaum bewiesen werden. → Die Hypothese ist kaum {5}. (beweisen)\n6. Die Frist muss eingehalten werden. → Die Frist ist {6}. (einhalten)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Form mit `sein + zu + Infinitiv` um. Achte auf trennbare Verben (Vorsilbe + zu + Stamm). 6 Items.",
+      "title": "sein + zu + Infinitiv"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "ist"
+              }
+            ],
+            "q": "Achtung, das Tor (1) ____ jetzt geschlossen! (Handlung läuft gerade)",
+            "why": "Die Handlung läuft gerade ab → Vorgangspassiv (werden)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "ist"
+              }
+            ],
+            "q": "Komm rein, die Tür (2) ____ schon geöffnet. (Resultat)",
+            "why": "Fertiger Zustand → Zustandspassiv (sein)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "ist"
+              }
+            ],
+            "q": "Die Probe (3) ____ gerade analysiert. (es passiert jetzt)",
+            "why": "Handlung läuft → Vorgangspassiv."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "ist"
+              }
+            ],
+            "q": "Der Antrag (4) ____ schon genehmigt, du kannst loslegen. (Ergebnis)",
+            "why": "Fertiges Ergebnis → Zustandspassiv."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "ist"
+              }
+            ],
+            "q": "Vorsicht, der Boden (5) ____ gerade gewischt. (Handlung)",
+            "why": "Handlung läuft → Vorgangspassiv."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "ist"
+              }
+            ],
+            "q": "Schau, das Fenster (6) ____ jetzt sauber, es ist schon geputzt. (Zustand)",
+            "why": "Resultat → Zustandspassiv (hier sogar nur Kopula + Adjektiv/Partizip)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A5",
+      "instructions": "Vorgang (werden) oder Zustand (sein)? Wähl die passende Form.",
+      "title": "Vorgang oder Zustand? wird oder ist"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Das Problem kann gelöst werden."
+          },
+          {
+            "key": "2",
+            "text": "Die Quellen müssen angegeben werden."
+          },
+          {
+            "key": "3",
+            "text": "Die Daten werden ausgewertet."
+          },
+          {
+            "key": "4",
+            "text": "Der Text kann gut verstanden werden."
+          },
+          {
+            "key": "5",
+            "text": "Der Versuch kann wiederholt werden."
+          },
+          {
+            "key": "6",
+            "text": "Der Antrag muss eingereicht werden."
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Das Problem ist lösbar."
+          },
+          {
+            "key": "b",
+            "text": "Die Quellen sind anzugeben."
+          },
+          {
+            "key": "c",
+            "text": "Man wertet die Daten aus."
+          },
+          {
+            "key": "d",
+            "text": "Der Text ist gut verständlich."
+          },
+          {
+            "key": "e",
+            "text": "Der Versuch lässt sich wiederholen."
+          },
+          {
+            "key": "f",
+            "text": "Der Antrag ist einzureichen."
+          },
+          {
+            "key": "g",
+            "text": "Das Problem ist unlösbar."
+          },
+          {
+            "key": "h",
+            "text": "Die Daten sind verloren."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A6",
+      "instructions": "Verbinde jeden Passivsatz (1–6) mit der bedeutungsgleichen Ersatzform (a–h). Zwei Antworten bleiben übrig.",
+      "title": "Passiversatz: gleiche Bedeutung verbinden"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "spricht"
+          ],
+          "2": [
+            "schreibt"
+          ],
+          "3": [
+            "muss"
+          ],
+          "4": [
+            "kann"
+          ],
+          "5": [
+            "untersucht"
+          ],
+          "6": [
+            "arbeitet"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. In der Schweiz {1} (sprechen) man vier Sprachen.\n2. Wie {2} (schreiben) man dieses Wort?\n3. Bei der Behörde {3} (müssen) man lange warten.\n4. Aus den Zahlen {4} (können) man schließen, dass die Methode funktioniert.\n5. In diesem Labor {5} (untersuchen) man Proben.\n6. Sonntags {6} (arbeiten) man in Deutschland normalerweise nicht.\n",
+        "type": "gap-text"
+      },
+      "id": "A7",
+      "instructions": "Trag die richtige Form ein. ⚠️ `man` steht immer in der 3. Person Singular. 6 Items.",
+      "title": "man-Sätze: 3. Person Singular"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Das Problem lässt sich leicht lösen.",
+            "tiles": [
+              "Das",
+              "Problem",
+              "lässt",
+              "sich",
+              "leicht",
+              "lösen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Die Quellen sind anzugeben.",
+            "tiles": [
+              "Die",
+              "Quellen",
+              "sind",
+              "anzugeben"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Der Versuch lässt sich wiederholen.",
+            "tiles": [
+              "Der",
+              "Versuch",
+              "lässt",
+              "sich",
+              "wiederholen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Der Antrag ist bis Freitag einzureichen.",
+            "tiles": [
+              "Der",
+              "Antrag",
+              "ist",
+              "bis",
+              "Freitag",
+              "einzureichen"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A8",
+      "title": "Satzbau: sich lassen und sein + zu"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "lösbare"
+          ],
+          "2": [
+            "lesbarer"
+          ],
+          "3": [
+            "messbarer"
+          ],
+          "4": [
+            "erkennbare"
+          ],
+          "5": [
+            "anwendbare"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. eine {1} Aufgabe (lösbar, Nom. fem.)\n2. ein gut {2} Bericht (lesbar, Nom. mask.)\n3. ein kaum {3} Unterschied (messbar, Nom. mask.)\n4. eine deutlich {4} Veränderung (erkennbar, Nom. fem.)\n5. eine {5} Methode (anwendbar, Nom. fem.)\n",
+        "type": "gap-text"
+      },
+      "id": "A9",
+      "instructions": "Setz das `-bar`-Adjektiv vor das Nomen — mit der richtigen Endung. 5 Items.",
+      "title": "-bar-Adjektive attributiv (mit Endung)"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "werden"
+          ],
+          "2": [
+            "wertet"
+          ],
+          "3": [
+            "lässt"
+          ],
+          "4": [
+            "sind"
+          ],
+          "5": [
+            "belegen"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "nachvollziehbar"
+          ],
+          "8": [
+            "verständlich"
+          ]
+        },
+        "bank": [
+          "werden",
+          "wertet",
+          "lässt",
+          "sind",
+          "belegen",
+          "wird",
+          "nachvollziehbar",
+          "verständlich",
+          "machbar",
+          "müssen"
+        ],
+        "text": "Im Labor {1} jeden Tag viele Versuche durchgeführt. Anschließend\n{2} man die Daten aus. Erst wenn die Ergebnisse überprüfbar sind,\n{3} sich ein Fachartikel schreiben. Alle Quellen {4} anzugeben,\nund jede Behauptung ist zu {5}. Bevor der Artikel veröffentlicht\n{6}, prüfen Fachleute, ob die Schlüsse {7} sind. Eine gute Studie\nmuss vor allem {8} sein.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Füll die 8 Lücken mit der passenden Form aus dem Wortkasten. **Zwei Wörter werden nicht gebraucht.**",
+      "title": "Wissenschaftstext ergänzen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "a",
+          "4": "b",
+          "5": "a",
+          "6": "b"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Die Quellen sind anzugeben."
+          },
+          {
+            "key": "2",
+            "text": "Das Problem ist leicht zu lösen."
+          },
+          {
+            "key": "3",
+            "text": "Der Antrag ist bis Freitag einzureichen."
+          },
+          {
+            "key": "4",
+            "text": "Die Hypothese ist kaum zu beweisen."
+          },
+          {
+            "key": "5",
+            "text": "Diese Vorschrift ist unbedingt zu beachten."
+          },
+          {
+            "key": "6",
+            "text": "Die Folgen sind noch nicht abzuschätzen."
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "= muss/müssen … werden (Notwendigkeit)"
+          },
+          {
+            "key": "b",
+            "text": "= kann/können … werden (Möglichkeit)"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B3",
+      "instructions": "Ordne jedem Satz (1–6) die richtige Bedeutung zu (a oder b). Jede Bedeutung kommt mehrmals vor.",
+      "title": "sein + zu: müssen oder können?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "ist"
+          ],
+          "3": [
+            "ist"
+          ],
+          "4": [
+            "wird"
+          ],
+          "5": [
+            "werden"
+          ],
+          "6": [
+            "ist"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Bitte warten Sie — der Bericht {1} gerade geprüft. (Handlung)\n2. Der Bericht {2} schon fertig; er {3} bereits genehmigt. (Zustand, 2×)\n3. Das Labor {4} jeden Morgen um 8 Uhr geöffnet. (Vorgang, regelmäßig)\n4. Vorsicht, die Proben {5} gerade analysiert. (Handlung, Plural)\n5. Die Tür {6} schon geschlossen, wir kommen nicht mehr rein. (Zustand)\n",
+        "type": "gap-text"
+      },
+      "id": "B5",
+      "instructions": "Setz `wird`/`werden` (Vorgang) oder `ist`/`sind` (Zustand) ein. 6 Items.",
+      "title": "Vorgang vs. Zustand im Kontext"
+    },
+    {
+      "block": "B",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "lösbar",
+              "machbar",
+              "dankbar",
+              "messbar"
+            ],
+            "odd": 2,
+            "why": "dankbar ist kein Passiversatz (≠ „kann gedankt werden“); die anderen bedeuten „kann ge…t werden“."
+          },
+          {
+            "items": [
+              "Forschung",
+              "Untersuchung",
+              "Auswertung",
+              "Genehmigung"
+            ],
+            "odd": 3,
+            "why": "Genehmigung gehört zur Amts-/Vorschriftensprache; die anderen drei zur Forschung."
+          },
+          {
+            "items": [
+              "Vorschrift",
+              "Pflicht",
+              "Verbot",
+              "Beweis"
+            ],
+            "odd": 3,
+            "why": "Beweis gehört zur Forschung; die anderen drei zur Vorschriften-/Amtssprache."
+          },
+          {
+            "items": [
+              "lässt sich lösen",
+              "ist lösbar",
+              "kann gelöst werden",
+              "ist gelöst"
+            ],
+            "odd": 3,
+            "why": "„ist gelöst“ ist Zustandspassiv (Ergebnis); die anderen drei drücken Möglichkeit (können + Passiv) aus."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "B6",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum.",
+      "title": "Was passt nicht?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "auswertet"
+          ],
+          "2": [
+            "veröffentlicht"
+          ],
+          "3": [
+            "erteilt"
+          ],
+          "4": [
+            "fehlten"
+          ],
+          "5": [
+            "eingehalten"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Bei der Auswertung der Daten → Wenn man die Daten {1} … (auswerten)\n2. Nach der Veröffentlichung der Studie → Nachdem die Studie {2} worden war … (veröffentlichen, Passiv Plqpf.)\n3. Trotz der Genehmigung → Obwohl die Genehmigung {3} worden war … (erteilen)\n4. Wegen der fehlenden Beweise → Weil die Beweise {4}. (fehlen — Aktiv)\n5. Zur Einhaltung der Frist → Damit die Frist {5} wird … (einhalten, Passiv Präsens)\n",
+        "type": "gap-text"
+      },
+      "id": "B7",
+      "instructions": "Wandle die Nominalphrase in einen Verbalstil-Satz um, indem du die Lücke füllst. 5 Items.",
+      "title": "Nominalstil → Verbalstil (Wdh. B2/01) mit Passiversatz"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "In diesem Labor untersucht man Proben.",
+            "tiles": [
+              "In",
+              "diesem",
+              "Labor",
+              "untersucht",
+              "man",
+              "Proben"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Das Geschäft wird um acht Uhr geöffnet.",
+            "tiles": [
+              "Das",
+              "Geschäft",
+              "wird",
+              "um",
+              "acht",
+              "Uhr",
+              "geöffnet"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Den Antrag muss man bis Freitag einreichen.",
+            "tiles": [
+              "Den",
+              "Antrag",
+              "muss",
+              "man",
+              "bis",
+              "Freitag",
+              "einreichen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Die Studie ist bereits veröffentlicht.",
+            "tiles": [
+              "Die",
+              "Studie",
+              "ist",
+              "bereits",
+              "veröffentlicht"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B8",
+      "title": "Satzbau: man-Sätze und Vorgang/Zustand"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "lässt"
+          ],
+          "2": [
+            "werden"
+          ],
+          "3": [
+            "wertet"
+          ],
+          "4": [
+            "zu"
+          ],
+          "5": [
+            "sind"
+          ],
+          "6": [
+            "belegen"
+          ],
+          "7": [
+            "wiederholbar"
+          ],
+          "8": [
+            "wird"
+          ],
+          "9": [
+            "lassen"
+          ],
+          "10": [
+            "wird"
+          ]
+        },
+        "listLayout": true,
+        "text": "Der Weg von der Studie zur Schlagzeile (1) {1} sich in mehreren\nSchritten beschreiben. In einem Labor (2) {2} Versuche durchgeführt\nund Proben untersucht. Anschließend (3) {3} man die Daten aus. Der\nFachartikel ist nach strengen Regeln (4) {4} verfassen: Alle Quellen\n(5) {5} anzugeben, jede Behauptung ist zu (6) {6}. Die Methode muss\nso beschrieben werden, dass der Versuch von anderen (7) {7}\nist (Adjektiv auf -bar). Bevor der Artikel veröffentlicht (8) {8},\nprüfen Fachleute, ob die Schlüsse\nnachvollziehbar sind. Schwächen, die sich nicht beheben (9) {9},\nführen zur Ablehnung. Am Ende (10) {10} die Sprache an jeder Station\nein wenig einfacher.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Füll jede Lücke mit einem Wort. 10 Items.",
+      "title": "Lückentext: Wie eine Studie in die Nachrichten kommt"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "lässt"
+              },
+              {
+                "key": "b",
+                "text": "wird"
+              },
+              {
+                "key": "c",
+                "text": "ist"
+              }
+            ],
+            "q": "Das Problem (1) ____ sich leicht lösen.",
+            "why": "sich lassen + Infinitiv: „lässt sich lösen“."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sind"
+              },
+              {
+                "key": "b",
+                "text": "werden"
+              },
+              {
+                "key": "c",
+                "text": "lassen"
+              }
+            ],
+            "q": "Die Daten (2) ____ ausgewertet. (Vorgang, gerade jetzt)",
+            "why": "Vorgangspassiv: werden + Partizip II."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "angeben"
+              },
+              {
+                "key": "b",
+                "text": "anzugeben"
+              },
+              {
+                "key": "c",
+                "text": "angegeben"
+              }
+            ],
+            "q": "Die Quellen sind (3) ____.",
+            "why": "sein + zu + Infinitiv, trennbar: an-zu-geben."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "ist"
+              },
+              {
+                "key": "b",
+                "text": "wird"
+              },
+              {
+                "key": "c",
+                "text": "lässt"
+              }
+            ],
+            "q": "Die Studie (4) ____ schon veröffentlicht; sie liegt fertig vor. (Zustand)",
+            "why": "Zustandspassiv: sein + Partizip II (Resultat)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "machenbar"
+              },
+              {
+                "key": "b",
+                "text": "machbar"
+              },
+              {
+                "key": "c",
+                "text": "zu machen worden"
+              }
+            ],
+            "q": "Die Aufgabe ist durchaus (5) ____.",
+            "why": "Verbstamm mach- + bar = machbar."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "arbeiten"
+              },
+              {
+                "key": "b",
+                "text": "arbeitet"
+              },
+              {
+                "key": "c",
+                "text": "wird gearbeitet"
+              }
+            ],
+            "q": "In Deutschland (6) ____ man sonntags meist nicht.",
+            "why": "man + 3. Person Singular: man arbeitet."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähl für jede Lücke die richtige Option (a, b oder c).",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "LÄSST"
+          ],
+          "2": [
+            "MESSBAR"
+          ],
+          "3": [
+            "ERKENNBAR"
+          ],
+          "4": [
+            "ANZUWENDEN"
+          ],
+          "5": [
+            "SIND"
+          ],
+          "6": [
+            "MAN"
+          ],
+          "7": [
+            "WERDEN"
+          ],
+          "8": [
+            "GENEHMIGUNG"
+          ],
+          "9": [
+            "WIRD"
+          ],
+          "10": [
+            "ABZUSEHEN"
+          ]
+        },
+        "bank": [
+          "LÄSST",
+          "MESSBAR",
+          "ERKENNBAR",
+          "ANZUWENDEN",
+          "SIND",
+          "MAN",
+          "WERDEN",
+          "GENEHMIGUNG",
+          "WIRD",
+          "ABZUSEHEN",
+          "LÖSBAR",
+          "VERBOTEN",
+          "HAT",
+          "HATTE",
+          "BEWIESEN"
+        ],
+        "text": "Ein Pressetext erklärt eine neue Methode: „Mit dem Verfahren\n{1} sich Mikroplastik im Wasser nachweisen. Kleinste Mengen, die\nfrüher kaum {2} waren, sind jetzt gut {3}. Die Methode ist\neinfach {4} und liefert zuverlässige Ergebnisse. Die Proben\n{5} dafür nur kurz aufzubereiten. {6} kann die Werte in\nwenigen Minuten messen. Die Ergebnisse {7} anschließend\nausgewertet. Bevor das Verfahren eingesetzt wird, ist eine\n{8} der Behörden nötig. Ob es bald flächendeckend angewendet\n{9}, ist allerdings noch nicht {10}.\"\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Füll die 10 Lücken mit Wörtern aus dem Kasten. **Fünf Wörter werden nicht gebraucht.** Jedes Wort passt nur einmal.",
+      "title": "Sprachbausteine Teil 2 (Wortbank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Nur wenige der täglich erscheinenden Studien schaffen es in die Nachrichten.",
+            "why": "„doch nur wenige schaffen es in die Nachrichten.\""
+          },
+          {
+            "answer": false,
+            "q": "Ein Fachartikel wird geschrieben, bevor die Ergebnisse stabil sind.",
+            "why": "„Erst wenn die Resultate stabil und überprüfbar sind, schreibt das Team einen Fachartikel.\""
+          },
+          {
+            "answer": true,
+            "q": "Bei der Begutachtung prüfen unabhängige Fachleute den Artikel.",
+            "why": "„Unabhängige Fachleute prüfen, ob die Schlüsse nachvollziehbar sind.\""
+          },
+          {
+            "answer": false,
+            "q": "Die Pressestelle schreibt die Mitteilung möglichst im Fachjargon.",
+            "why": "„verständlich, knapp, ohne Fachjargon.\""
+          },
+          {
+            "answer": true,
+            "q": "An jeder Station wird die Sprache ein wenig einfacher.",
+            "why": "„An jeder Station wird die Sprache ein wenig einfacher.\""
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Jeden Tag erscheinen Tausende neue Studien — doch nur wenige schaffen es in die Nachrichten. Wie wird aus einem Fachartikel eine Schlagzeile? Der Weg lässt sich in mehreren Schritten beschreiben.\n> Am Anfang steht die Forschung selbst. In einem Labor werden Versuche durchgeführt, Proben untersucht und Daten gesammelt. Anschließend werden die Ergebnisse ausgewertet. Erst wenn die Resultate stabil und überprüfbar sind, schreibt das Team einen Fachartikel. Dieser ist nach strengen Regeln zu verfassen: Alle Quellen sind anzugeben, jede Behauptung ist zu belegen, und die Methode muss so beschrieben werden, dass der Versuch von anderen wiederholbar ist.\n> Bevor der Artikel veröffentlicht wird, durchläuft er die sogenannte Begutachtung. Unabhängige Fachleute prüfen, ob die Schlüsse nachvollziehbar sind. Schwächen, die sich nicht beheben lassen, führen zur Ablehnung. Erst nach erfolgreicher Prüfung gilt eine Studie als veröffentlicht.\n> Jetzt beginnt die Übersetzungsarbeit. Eine Pressestelle fasst die Studie in einer kurzen Mitteilung zusammen — verständlich, knapp, ohne Fachjargon. Aus „die Hypothese konnte verifiziert werden\" wird dann oft schlicht: „Forscher haben bewiesen, dass …\". Journalisten greifen die Mitteilung auf, ordnen sie ein und machen daraus eine Meldung.\n> So entsteht die Kette von der Probe bis zur Schlagzeile. An jeder Station wird die Sprache ein wenig einfacher. Was im Labor noch streng im Passiv formuliert ist, ist am Ende in klare, aktivische Sätze übersetzt — denn eine gute Nachricht muss vor allem eines sein: gut verständlich.\n\nRichtig (R) oder Falsch (F)?\n",
+      "title": "Lesen Text 1 (Wie eine Studie in die Nachrichten kommt)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "An der Technischen Universität."
+              },
+              {
+                "key": "b",
+                "text": "In einer Fabrik."
+              },
+              {
+                "key": "c",
+                "text": "In einer Behörde."
+              }
+            ],
+            "q": "Wo wurde das neue Verfahren entwickelt?",
+            "why": "„ist an der Technischen Universität entwickelt worden.\""
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Plastik komplett verbrennen."
+              },
+              {
+                "key": "b",
+                "text": "Plastikmüll fast vollständig in Grundstoffe zerlegen."
+              },
+              {
+                "key": "c",
+                "text": "Neuen Kunststoff herstellen."
+              }
+            ],
+            "q": "Was lässt sich mit der Methode machen?",
+            "why": "„lässt sich Plastikmüll fast vollständig in seine Grundstoffe zerlegen.\""
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er ist immer noch nicht trennbar."
+              },
+              {
+                "key": "b",
+                "text": "Er muss verbrannt werden."
+              },
+              {
+                "key": "c",
+                "text": "Er ist jetzt trennbar."
+              }
+            ],
+            "q": "Was sagt die Projektleiterin über den Müll, der früher kaum zu trennen war?",
+            "why": "„Mit unserem Verfahren ist er nun trennbar.\""
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es muss von einer Behörde genehmigt werden."
+              },
+              {
+                "key": "b",
+                "text": "Es muss veröffentlicht werden."
+              },
+              {
+                "key": "c",
+                "text": "Es muss verboten werden."
+              }
+            ],
+            "q": "Was muss passieren, bevor das Verfahren im großen Maßstab eingesetzt wird?",
+            "why": "„muss es von einer Behörde genehmigt werden.\""
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "> **Pressemitteilung — Neues Recyclingverfahren**\n>\n> Ein neues Verfahren zur Wiederverwertung von Kunststoff ist an der\n> Technischen Universität entwickelt worden. Mit der Methode lässt sich\n> Plastikmüll fast vollständig in seine Grundstoffe zerlegen. Diese\n> Grundstoffe sind anschließend erneut verwendbar. „Bisher war ein\n> großer Teil des Mülls kaum zu trennen\", erklärt die Projektleiterin.\n> „Mit unserem Verfahren ist er nun trennbar.\" Das Verfahren ist\n> allerdings noch nicht serienreif: Bevor es im großen Maßstab\n> eingesetzt werden darf, muss es von einer Behörde genehmigt werden.\n\nWähl a, b oder c.\n",
+      "title": "Lesen Text 2 (Auszug aus einer Pressemitteilung)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "lässt"
+          ],
+          "2": [
+            "lösbar"
+          ],
+          "3": [
+            "anzugeben"
+          ],
+          "4": [
+            "untersucht"
+          ],
+          "5": [
+            "wird"
+          ],
+          "6": [
+            "ist"
+          ],
+          "7": [
+            "wird"
+          ],
+          "8": [
+            "geprüft"
+          ],
+          "9": [
+            "ist"
+          ],
+          "10": [
+            "worden"
+          ],
+          "11": [
+            "auswertet"
+          ],
+          "12": [
+            "zu verstehen"
+          ],
+          "13": [
+            "verständlich"
+          ],
+          "14": [
+            "einzureichen"
+          ],
+          "15": [
+            "schreibt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. „Das Problem kann gelöst werden\" mit sich lassen: Das Problem {1} sich lösen.\n2. „lösen\" als -bar-Adjektiv: {2}\n3. „Die Quellen müssen angegeben werden\" mit sein + zu: Die Quellen sind {3}.\n4. man-Satz, 3. Pers. Sg. von „untersuchen\": man {4}\n5. Vorgang oder Zustand? „Die Tür ___ gerade geschlossen.\" (Handlung): {5}\n6. Vorgang oder Zustand? „Die Tür ___ schon zu.\" (Zustand): {6}\n7. (B1/04) Passiv Präsens von „prüfen\", er/sie/es: Der Bericht {7} {8}.\n8. (B1/04) Passiv Perfekt: „Das Tool ___ eingeführt ___.\" (sein + … + worden): {9} … {10}\n9. (B2/01) Nominalstil → Verbalstil: „bei der Auswertung\" → wenn man {11} (auswerten)\n10. (B1/06) Infinitiv mit zu: „Ich versuche, den Text {12} (verstehen).\"\n11. -lich-Adjektiv von „verstehen\": {13}\n12. „Der Antrag muss eingereicht werden\" mit sein + zu: Der Antrag ist {14}.\n13. man-Satz: „Wie ___ man das Wort?\" (schreiben): {15}\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Eine Minute pro Item. Ohne Notizen. Items mit (L<n>) wiederholen eine frühere Lektion. 15 Items.",
+      "title": "Gemischter Schnelltest"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "lösbar",
+              "machbar",
+              "dankbar",
+              "essbar"
+            ],
+            "odd": 2,
+            "why": "dankbar ist kein Passiversatz (≠ „kann gedankt werden“); die anderen bedeuten „kann ge…t werden“."
+          },
+          {
+            "items": [
+              "Forschung",
+              "Untersuchung",
+              "Hypothese",
+              "Behörde"
+            ],
+            "odd": 3,
+            "why": "Behörde gehört zur Amtssprache; die anderen drei zur Wissenschaft."
+          },
+          {
+            "items": [
+              "Vorschrift",
+              "Pflicht",
+              "Verbot",
+              "Versuch"
+            ],
+            "odd": 3,
+            "why": "Versuch (Experiment) gehört zur Forschung; die anderen zur Vorschriftensprache."
+          },
+          {
+            "items": [
+              "wird geprüft",
+              "ist geprüft",
+              "wird geöffnet",
+              "wird gereinigt"
+            ],
+            "odd": 1,
+            "why": "„ist geprüft“ ist Zustandspassiv (Ergebnis); die anderen drei sind Vorgangspassiv (Handlung)."
+          },
+          {
+            "items": [
+              "lässt sich",
+              "ist lösbar",
+              "kann gemacht werden",
+              "ist gemacht worden"
+            ],
+            "odd": 3,
+            "why": "„ist gemacht worden“ ist Passiv Perfekt (Vorgang, Vergangenheit); die anderen drücken Möglichkeit aus."
+          },
+          {
+            "items": [
+              "man",
+              "sich lassen",
+              "-bar",
+              "weil"
+            ],
+            "odd": 3,
+            "why": "weil ist eine Konjunktion (Nebensatz); die anderen drei sind Passiversatzformen."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum. 6 Gruppen.",
+      "title": "Odd one out"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "erledigt"
+          ],
+          "3": [
+            "wurde"
+          ],
+          "4": [
+            "gebaut"
+          ],
+          "5": [
+            "sind"
+          ],
+          "6": [
+            "worden"
+          ],
+          "7": [
+            "untersucht"
+          ],
+          "8": [
+            "Beweis"
+          ],
+          "9": [
+            "zu schreiben"
+          ],
+          "10": [
+            "anzugeben"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Aus B1/04 (Vorgangspassiv):**\n1. Passiv Präsens von „erledigen\": Die Aufgabe {1} {2}. (er/sie/es)\n2. Passiv Präteritum von „bauen\": Das Haus {3} 2019 {4}.\n3. Passiv Perfekt von „informieren\": Alle {5} bereits informiert {6}. (Plural)\n\n**Aus B2/01 (Nominalstil ↔ Verbalstil):**\n4. „während der Untersuchung\" → während man {7} (untersuchen)\n5. „wegen des Beweises\" → weil es einen {8} (Beweis) gibt\n\n**Aus B1/06 (Infinitiv mit zu):**\n6. „Ich habe vor, einen Artikel {9} (schreiben).\"\n7. „Es ist wichtig, alle Quellen {10} (angeben).\"\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Wiederholung früherer Lektionen. 10 Items.",
+      "title": "Rückblick: B1/04, B2/01, B1/06"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "lässt"
+          ],
+          "2": [
+            "lösbar"
+          ],
+          "3": [
+            "anzugeben"
+          ],
+          "4": [
+            "wertet"
+          ],
+          "5": [
+            "wird"
+          ],
+          "6": [
+            "ist"
+          ],
+          "7": [
+            "einzureichen"
+          ],
+          "8": [
+            "einzuhalten"
+          ],
+          "9": [
+            "spricht"
+          ],
+          "10": [
+            "arbeitet"
+          ],
+          "11": [
+            "verständlich"
+          ],
+          "12": [
+            "messbar"
+          ],
+          "13": [
+            "Der Versuch lässt sich wiederholen."
+          ],
+          "14": [
+            "Die Aufgabe ist machbar."
+          ],
+          "15": [
+            "ist"
+          ],
+          "16": [
+            "worden"
+          ],
+          "17": [
+            "wurde"
+          ],
+          "18": [
+            "geändert"
+          ],
+          "19": [
+            "auswertet"
+          ],
+          "20": [
+            "einzuhalten"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Passiversatz bilden:**\n1. „kann gelöst werden\" mit sich lassen: Das Problem {1} sich lösen.\n2. „lösen\" als -bar-Adjektiv: {2}\n3. „muss angegeben werden\" mit sein + zu: Die Quelle ist {3}.\n4. „Die Daten werden ausgewertet\" mit man: Man {4} die Daten aus.\n\n**Vorgang vs. Zustand:**\n5. „Die Tür ___ gerade geschlossen.\" (Handlung): {5}\n6. „Die Tür ___ schon zu.\" (Zustand): {6}\n\n**sein + zu (trennbar):**\n7. „muss eingereicht werden\": Der Antrag ist {7}.\n8. „muss eingehalten werden\": Die Frist ist {8}.\n\n**man-Sätze (3. Pers. Sg.):**\n9. „In der Schweiz ___ man vier Sprachen.\" (sprechen): {9}\n10. „Sonntags ___ man nicht.\" (arbeiten): {10}\n\n**-bar / -lich:**\n11. „kann verstanden werden\" als Adjektiv: {11}\n12. „kann gemessen werden\" als Adjektiv: {12}\n\n**Umformen (Passiv → Ersatzform, frei):**\n13. „Der Versuch kann wiederholt werden.\" (mit sich lassen): {13}\n14. „Die Aufgabe kann gemacht werden.\" (mit -bar): {14}\n\n**(B1/04) Passiv:**\n15. Passiv Perfekt von „eröffnen\": Das Zentrum {15} eröffnet {16}.\n16. Passiv Präteritum von „ändern\": Das Gesetz {17} 2020 {18}.\n\n**(B2/01) Nominalstil → Verbalstil:**\n17. „bei der Auswertung\" → wenn man {19} (auswerten)\n\n**(B1/06) Infinitiv mit zu:**\n18. „Es ist nötig, die Frist {20} (einhalten).\"\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (bewerte dich /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "b2-02",
+  "intro": "Blöcke: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Lösungen in solutions.md. Tipp: Verteile die Blöcke über mehrere Tage — H und A an Tag 1, B an Tag 2, C an Tag 3, D an Tag 4 nach einer Pause.\n",
+  "lesson": "B2/02",
+  "level": "B2",
+  "summary": null,
+  "title": "B2 · Lektion 2 — Übungen (Passiv und seine Alternativen)",
+  "topic": null
+}

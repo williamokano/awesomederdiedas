@@ -1,0 +1,817 @@
+{
+  "category": "Freizeit & Kultur",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "kasse",
+            "label": "An der Kasse"
+          },
+          {
+            "key": "garderobe",
+            "label": "An der Garderobe"
+          },
+          {
+            "key": "ausstellung",
+            "label": "In der Ausstellung"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "kasse",
+            "text": "die Eintrittskarte"
+          },
+          {
+            "bucket": "garderobe",
+            "text": "das Schließfach"
+          },
+          {
+            "bucket": "ausstellung",
+            "text": "das Gemälde"
+          },
+          {
+            "bucket": "kasse",
+            "text": "die Ermäßigung"
+          },
+          {
+            "bucket": "garderobe",
+            "text": "der Bügel"
+          },
+          {
+            "bucket": "ausstellung",
+            "text": "die Skulptur"
+          },
+          {
+            "bucket": "kasse",
+            "text": "der Studentenausweis"
+          },
+          {
+            "bucket": "garderobe",
+            "text": "der Rucksack"
+          },
+          {
+            "bucket": "ausstellung",
+            "text": "das Schild"
+          },
+          {
+            "bucket": "kasse",
+            "text": "der Audioguide"
+          },
+          {
+            "bucket": "garderobe",
+            "text": "die Nummer"
+          },
+          {
+            "bucket": "ausstellung",
+            "text": "die Sonderausstellung"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Kasse, Garderobe oder Ausstellung?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Zwei Erwachsene, bitte. Gibt es eine Ermäßigung?"
+          },
+          {
+            "key": "2",
+            "text": "Ist die Sonderausstellung im Preis enthalten?"
+          },
+          {
+            "key": "3",
+            "text": "Muss ich den Rucksack abgeben?"
+          },
+          {
+            "key": "4",
+            "text": "Darf ich hier fotografieren?"
+          },
+          {
+            "key": "5",
+            "text": "Wo geht es zu den Impressionisten?"
+          },
+          {
+            "key": "6",
+            "text": "Gibt es eine Führung?"
+          },
+          {
+            "key": "7",
+            "text": "Wie lange haben Sie heute auf?"
+          },
+          {
+            "key": "8",
+            "text": "Wo ist die Toilette?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Mit Studentenausweis ja, dann 6 € statt 12 €."
+          },
+          {
+            "key": "b",
+            "text": "Nein, die kostet 5 € extra."
+          },
+          {
+            "key": "c",
+            "text": "Ja, große Taschen bitte ins Schließfach, ein Euro Pfand."
+          },
+          {
+            "key": "d",
+            "text": "Ja, aber ohne Blitz und ohne Stativ."
+          },
+          {
+            "key": "e",
+            "text": "Erster Stock, dann rechts, Saal 12 bis 15."
+          },
+          {
+            "key": "f",
+            "text": "Um 15 Uhr, eine Stunde, Treffpunkt hier am Info-Tresen."
+          },
+          {
+            "key": "g",
+            "text": "Bis 18 Uhr, letzter Einlass um 17:30."
+          },
+          {
+            "key": "h",
+            "text": "Im Erdgeschoss neben der Garderobe."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jeder Frage eine passende Antwort zu.",
+      "instructionsEn": "Match each question with a fitting answer.",
+      "title": "Frage und Antwort im Museum"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Darf"
+          ],
+          "2": [
+            "müssen"
+          ],
+          "3": [
+            "darf"
+          ],
+          "4": [
+            "Müssen"
+          ],
+          "5": [
+            "dürfen"
+          ],
+          "6": [
+            "darf"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} ich hier fotografieren? (dürfen, ich-Form)\n2. Große Taschen {2} in das Schließfach. (müssen, Plural)\n3. Man {3} die Bilder nicht anfassen. (dürfen, man-Form, verneint)\n4. {4} wir die Jacken abgeben? (müssen, wir-Form)\n5. Kinder unter sechs {5} umsonst rein. (dürfen, Plural)\n6. Im Museumscafé {6} man auch ohne Ticket sitzen. (dürfen, man-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb in der richtigen Form.",
+      "instructionsEn": "Fill in the modal verb in the correct form.",
+      "title": "dürfen und müssen im Museum"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "im"
+          ],
+          "2": [
+            "hoch"
+          ],
+          "3": [
+            "nach"
+          ],
+          "4": [
+            "im"
+          ],
+          "5": [
+            "neben"
+          ],
+          "6": [
+            "am"
+          ],
+          "7": [
+            "im"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Impressionisten sind {1} ersten Stock. (in + dem, kurz)\n2. Gehen Sie die Treppe {2}. (nach oben)\n3. Dann {3} rechts, Saal 12. (Richtung)\n4. Die Garderobe ist {4} Erdgeschoss, gleich {5} dem Eingang. (in + dem, kurz / daneben)\n5. Der Museumsshop ist {6} Ausgang. (an + dem, kurz)\n6. Die Sonderausstellung ist {7} anderen Gebäude, über den Hof. (in + dem)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze die Präposition oder das fehlende Wort.",
+      "instructionsEn": "Fill in the preposition or the missing word.",
+      "title": "Den Weg im Haus beschreiben"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "EINTRITTSKARTEN"
+          ],
+          "2": [
+            "ERMÄSSIGUNG"
+          ],
+          "3": [
+            "STUDENTENAUSWEIS"
+          ],
+          "4": [
+            "SONDERAUSSTELLUNG"
+          ],
+          "5": [
+            "AUDIOGUIDE"
+          ],
+          "6": [
+            "GEBEN"
+          ],
+          "7": [
+            "DARF"
+          ],
+          "8": [
+            "BLITZ"
+          ],
+          "9": [
+            "FÜHRUNG"
+          ],
+          "10": [
+            "AUF"
+          ]
+        },
+        "bank": [
+          "EINTRITTSKARTEN",
+          "ERMÄSSIGUNG",
+          "STUDENTENAUSWEIS",
+          "SONDERAUSSTELLUNG",
+          "AUDIOGUIDE",
+          "GEBEN",
+          "DARF",
+          "BLITZ",
+          "FÜHRUNG",
+          "AUF",
+          "PFAND",
+          "KASSE",
+          "SAAL",
+          "ZU"
+        ],
+        "text": "— Guten Tag, zwei {1}, bitte. Gibt es eine {2} für\nStudierende?\n— Ja, dann kostet es 6 € statt 12. Haben Sie den {3} dabei?\n— Ja, hier.\n— Danke. Ist die {4} im Preis enthalten? — Nein, die kostet\n5 € extra.\n— Dann einmal mit, einmal ohne. Und einen {5}, bitte.\n— Gern, gegen 2 € Pfand oder einen Ausweis. Große Taschen {6}\nSie bitte ins Schließfach, das ist links.\n— Alles klar. {7} ich in der Ausstellung fotografieren?\n— Ja, aber ohne {8} und ohne Stativ.\n— Gut. Gibt es heute eine {9}?\n— Um 15 Uhr, eine Stunde, Treffpunkt hier am Info-Tresen.\n— Perfekt. Und wie lange haben Sie {10}?\n— Bis 18 Uhr, letzter Einlass um halb sechs.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "An der Kasse"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Gibt es eine Ermäßigung für Studierende?"
+              },
+              {
+                "key": "b",
+                "text": "Ich bin Studentin."
+              },
+              {
+                "key": "c",
+                "text": "Das ist zu teuer."
+              }
+            ],
+            "q": "Du bist Studentin und willst wissen, ob es billiger wird. — You're a student and want to know if it's cheaper.",
+            "why": "„Ermäßigung“ ist das Wort, das an jeder Kasse steht — direkt danach fragen spart die Erklärung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich mache mal ein Foto."
+              },
+              {
+                "key": "b",
+                "text": "Darf ich hier fotografieren?"
+              },
+              {
+                "key": "c",
+                "text": "Ist Fotografieren erlaubt oder verboten?"
+              }
+            ],
+            "q": "Du willst wissen, ob du fotografieren darfst. — You want to know whether you may take photos.",
+            "why": "Kurze Modalverbfrage — im Museumsalltag die übliche Form."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wo sind die Bilder?"
+              },
+              {
+                "key": "b",
+                "text": "Ich finde das nicht."
+              },
+              {
+                "key": "c",
+                "text": "Entschuldigung, wo geht es zu den Impressionisten?"
+              }
+            ],
+            "q": "Du suchst einen bestimmten Saal. — You're looking for a particular room.",
+            "why": "„Wo geht es zu …?“ fragt nach dem Weg, nicht nach dem Ort — genau das brauchst du hier."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Der ist kaputt."
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, bei Nummer 14 kommt kein Ton — können Sie mir ein anderes Gerät geben?"
+              },
+              {
+                "key": "c",
+                "text": "Ich brauche das nicht."
+              }
+            ],
+            "q": "Der Audioguide funktioniert nicht. — The audio guide isn't working.",
+            "why": "Konkret sagen, wo es klemmt, und die Lösung nennen — dann geht es in einer Minute."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ganz okay."
+              },
+              {
+                "key": "b",
+                "text": "Weiß nicht."
+              },
+              {
+                "key": "c",
+                "text": "Mir gefallen die Farben, aber es ist mir zu dunkel — ich mag das daneben lieber."
+              }
+            ],
+            "q": "Deine Begleitung fragt, wie dir ein Bild gefällt. — Your companion asks how you like a picture.",
+            "why": "Etwas Konkretes nennen und vergleichen: daraus wird ein Gespräch statt eines Punkts."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Lassen Sie mich noch rein."
+              },
+              {
+                "key": "b",
+                "text": "Ist der letzte Einlass schon durch, oder komme ich noch kurz rein?"
+              },
+              {
+                "key": "c",
+                "text": "Sie haben doch bis 18 Uhr auf."
+              }
+            ],
+            "q": "Es ist 17:40 und du willst noch rein. — It's 5:40 pm and you still want to get in.",
+            "why": "Nach dem letzten Einlass zu fragen zeigt, dass du die Regel kennst — und öffnet trotzdem die Tür."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Was sagst du?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Modalverb an Position 1, Infinitiv am Ende",
+            "tiles": [
+              "Darf",
+              "ich",
+              "hier",
+              "fotografieren",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "es gibt + Akkusativ",
+            "tiles": [
+              "Gibt",
+              "es",
+              "eine",
+              "Ermäßigung",
+              "für",
+              "Studierende",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "ins = in das — Richtung, also Akkusativ",
+            "tiles": [
+              "Große",
+              "Taschen",
+              "müssen",
+              "ins",
+              "Schließfach"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "zu + Dativ Plural: den Impressionisten",
+            "tiles": [
+              "Wo",
+              "geht",
+              "es",
+              "zu",
+              "den",
+              "Impressionisten",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "note": "gefallen mit Dativ; nach weil steht das Verb am Ende",
+            "tiles": [
+              "Mir",
+              "gefällt",
+              "das",
+              "Bild",
+              ",",
+              "weil",
+              "die",
+              "Farben",
+              "so",
+              "warm",
+              "sind"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "halb sechs = 17:30 — im Deutschen zur nächsten vollen Stunde gedacht",
+            "tiles": [
+              "Der",
+              "letzte",
+              "Einlass",
+              "ist",
+              "um",
+              "halb",
+              "sechs"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze im Museum bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Eine Studentin zahlt mit Sonderausstellung 11 €. — A student pays €11 including the special exhibition.",
+            "why": "6 € ermäßigt plus 5 € für die Sonderausstellung."
+          },
+          {
+            "answer": false,
+            "q": "Montags kann man vormittags hingehen. — You can go on Monday mornings.",
+            "why": "„Montags geschlossen.“"
+          },
+          {
+            "answer": true,
+            "q": "Donnerstagabend ist die Dauerausstellung kostenlos. — On Thursday evenings the permanent exhibition is free.",
+            "why": "„Donnerstags ab 17 Uhr freier Eintritt in die Dauerausstellung.“"
+          },
+          {
+            "answer": false,
+            "q": "In der Sonderausstellung darf man ohne Blitz fotografieren. — In the special exhibition you may photograph without flash.",
+            "why": "Dort ist Fotografieren gar nicht gestattet."
+          },
+          {
+            "answer": false,
+            "q": "Für die Wochenendführung muss man sich anmelden. — You have to register for the weekend guided tour.",
+            "why": "„Sa/So 15 Uhr, ohne Anmeldung.“"
+          },
+          {
+            "answer": true,
+            "q": "Das Euro-Stück für das Schließfach bekommt man zurück. — You get the euro for the locker back.",
+            "why": "„1 € Pfand, Rückgabe beim Öffnen.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Städtische Galerie — Besucherinformation**\n>\n> | | |\n> |---|---|\n> | Eintritt | 12 € |\n> | Ermäßigt (Studierende, ab 65) | 6 € |\n> | Kinder unter 18 | frei |\n> | Sonderausstellung | + 5 € |\n>\n> **Di–So 10–18 Uhr**, letzter Einlass **17:30**. **Montags\n> geschlossen.**\n>\n> **Donnerstags ab 17 Uhr freier Eintritt** in die\n> Dauerausstellung.\n>\n> Rucksäcke und große Taschen bitte in die **Schließfächer**\n> (1 € Pfand, Rückgabe beim Öffnen). Jacken an der Garderobe.\n>\n> **Fotografieren** in der Dauerausstellung erlaubt, **ohne Blitz\n> und Stativ**. In der Sonderausstellung **nicht gestattet**.\n>\n> **Audioguide** 4 €, gegen Pfand oder Ausweis.\n>\n> Öffentliche **Führungen** Sa/So 15 Uhr, ohne Anmeldung, im\n> Eintritt enthalten.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Besucherinformation lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich bin wirklich Studentin!"
+              },
+              {
+                "key": "b",
+                "text": "Dann komme ich morgen wieder."
+              },
+              {
+                "key": "c",
+                "text": "Ich habe den Ausweis leider nicht dabei — dann zahle ich den vollen Preis."
+              }
+            ],
+            "q": "Du hast deinen Studentenausweis vergessen. — You forgot your student ID.",
+            "why": "Ohne Nachweis gibt es keine Ermäßigung; das ruhig zu akzeptieren geht schneller als jede Diskussion."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Alle Fächer durchprobieren."
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, ich weiß meine Fachnummer nicht mehr — was kann ich tun?"
+              },
+              {
+                "key": "c",
+                "text": "Warten, bis es zumacht."
+              }
+            ],
+            "q": "Du hast die Nummer deines Schließfachs vergessen. — You've forgotten your locker number.",
+            "why": "Die Aufsicht hat für genau diesen Fall einen Generalschlüssel — nur fragen muss man."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Entschuldigung, ich passe auf."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe nichts angefasst."
+              },
+              {
+                "key": "c",
+                "text": "Da steht kein Schild."
+              }
+            ],
+            "q": "Du gehst versehentlich zu nah an ein Bild und wirst angesprochen. — You get too close to a painting and are told off.",
+            "why": "Kurz entschuldigen und weitergehen — Diskussionen im Ausstellungsraum stören alle anderen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ärgert mich."
+              },
+              {
+                "key": "b",
+                "text": "Dann gehe ich."
+              },
+              {
+                "key": "c",
+                "text": "Ist der Saal heute noch mal offen, oder wissen Sie, ab wann wieder?"
+              }
+            ],
+            "q": "Der Saal, den du sehen wolltest, ist geschlossen. — The room you wanted to see is closed.",
+            "why": "Zwei Zeitfragen in einer — oft ist es nur eine Pause wegen Personalmangel."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Noch fünf Minuten!"
+              },
+              {
+                "key": "b",
+                "text": "Geh ruhig ins Café, ich schaue mir den letzten Saal an und komme dann nach."
+              },
+              {
+                "key": "c",
+                "text": "Dann gehen wir eben."
+              }
+            ],
+            "q": "Deine Begleitung möchte gehen, du noch nicht. — Your companion wants to leave, you don't.",
+            "why": "Ein konkreter Treffpunkt löst das Problem, ohne dass jemand verzichten muss."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich habe mein Ticket leider verloren — steht mein Kauf im System, oder was raten Sie mir?"
+              },
+              {
+                "key": "b",
+                "text": "Ich war schon drin."
+              },
+              {
+                "key": "c",
+                "text": "Noch ein Ticket kaufen."
+              }
+            ],
+            "q": "Du hast dein Ticket verloren und willst nach der Pause wieder rein. — You lost your ticket and want to re-enter after a break.",
+            "why": "Nach dem Kaufnachweis fragen, statt gleich neu zu zahlen — bei Kartenzahlung ist er meistens da."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Kleine Pannen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Ermäßigung"
+          ],
+          "2": [
+            "Schließfach"
+          ],
+          "3": [
+            "Blitz"
+          ],
+          "4": [
+            "Einlass"
+          ],
+          "5": [
+            "Führung"
+          ],
+          "6": [
+            "Sonderausstellung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Mit Studentenausweis bekomme ich eine {1}. (billiger)\n2. Große Taschen kommen ins {2}. (abschließbares Fach)\n3. Fotografieren ist erlaubt, aber ohne {3}. (grelles Licht am Foto)\n4. Der letzte {4} ist um 17:30. (danach kommt niemand mehr rein)\n5. Um 15 Uhr gibt es eine {5}. (jemand erklärt die Ausstellung)\n6. Die {6} läuft nur bis Ende Mai. (zeitlich begrenzte Ausstellung)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Eintrittskarten"
+          ],
+          "2": [
+            "Ermäßigung"
+          ],
+          "3": [
+            "Sonderausstellung"
+          ],
+          "4": [
+            "Audioguide"
+          ],
+          "5": [
+            "Darf"
+          ],
+          "6": [
+            "Blitz"
+          ],
+          "7": [
+            "müssen"
+          ],
+          "8": [
+            "geht"
+          ],
+          "9": [
+            "Führung"
+          ],
+          "10": [
+            "Einlass"
+          ],
+          "11": [
+            "gefällt"
+          ],
+          "12": [
+            "geschlossen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Zwei {1}, bitte. (entrance tickets)\n2. Gibt es eine {2} für Studierende? (reduction)\n3. Ist die {3} im Preis enthalten? (special exhibition)\n4. Einen {4}, bitte. (audio guide)\n5. {5} ich hier fotografieren? (may I)\n6. Ja, aber ohne {6}. (flash)\n7. Große Taschen {7} ins Schließfach. (have to go)\n8. Wo {8} es zu den Impressionisten? (which way is it)\n9. Gibt es heute eine {9}? (guided tour)\n10. Der letzte {10} ist um 17:30. (admission)\n11. Mir {11} das Bild. (I like — gefallen + Dativ)\n12. Montags ist {12}. (closed)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-26-im-museum-a2",
+  "intro": "Ein Museumsbesuch besteht aus drei kurzen Gesprächen und einem langen Schweigen. An der Kasse geht es um Ticket, Ermäßigung und Audioguide. An der Garderobe um Rucksack, Jacke und Schließfach. Und im Ausstellungsraum um die Fragen, die man dem Aufsichtspersonal stellt: Darf ich fotografieren? Wo geht es zur Sonderausstellung? Wie lange haben Sie noch auf? Dazwischen redest du mit deiner Begleitung darüber, was dir gefällt und was nicht — und genau dafür brauchst du ein paar Sätze mehr als „schön“. Grammatik nach Bedarf: dürfen und müssen, Wegbeschreibung mit Dativ, Meinung äußern mit weil. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/26-im-museum-a2",
+  "level": "A2",
+  "summary": "Ticket und Ermäßigung, Garderobe und Audioguide, fotografieren dürfen, sich zurechtfinden und über das Gesehene reden.",
+  "title": "Im Museum — A2",
+  "topic": "Museumsbesuch"
+}

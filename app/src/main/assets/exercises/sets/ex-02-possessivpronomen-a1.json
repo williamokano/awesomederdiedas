@@ -1,0 +1,773 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "der Bruder",
+          "die Schwester"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "mein Bruder"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "meine Schwester"
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "ich"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "dein Bruder"
+                ],
+                "gap": 3
+              },
+              {
+                "answer": [
+                  "deine Schwester"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "du"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "sein Bruder"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "seine Schwester"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "er"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "ihr Bruder"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "ihre Schwester"
+                ],
+                "gap": 8
+              }
+            ],
+            "label": "sie (sg.)"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "sein Bruder"
+                ],
+                "gap": 9
+              },
+              {
+                "answer": [
+                  "seine Schwester"
+                ],
+                "gap": 10
+              }
+            ],
+            "label": "es"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "unser Bruder"
+                ],
+                "gap": 11
+              },
+              {
+                "answer": [
+                  "unsere Schwester"
+                ],
+                "gap": 12
+              }
+            ],
+            "label": "wir"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "euer Bruder"
+                ],
+                "gap": 13
+              },
+              {
+                "answer": [
+                  "eure Schwester"
+                ],
+                "gap": 14
+              }
+            ],
+            "label": "ihr"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "ihr Bruder"
+                ],
+                "gap": 15
+              },
+              {
+                "answer": [
+                  "ihre Schwester"
+                ],
+                "gap": 16
+              }
+            ],
+            "label": "sie (pl.)"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Ihr Bruder"
+                ],
+                "gap": 17
+              },
+              {
+                "answer": [
+                  "Ihre Schwester"
+                ],
+                "gap": 18
+              }
+            ],
+            "label": "Sie"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die Tabelle.",
+      "instructionsEn": "Complete the table.",
+      "skill": "case-endings",
+      "title": "Die Possessivartikel-Tabelle (Nominativ)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Sein"
+          ],
+          "2": [
+            "Ihr"
+          ],
+          "3": [
+            "Ihr"
+          ],
+          "4": [
+            "Ihr"
+          ],
+          "5": [
+            "dein"
+          ],
+          "6": [
+            "Unser"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das ist Peter. {1} Auto ist neu.\n2. Das ist Anna. {2} Fahrrad ist auch neu.\n3. Peter und Anna haben einen Hund. {3} Hund heißt Bello.\n4. Ich habe eine Schwester. {4} Name ist Lisa.\n5. Du hast einen Bruder. Wie heißt {5} Bruder?\n6. Wir haben ein Haus. {6} Haus ist groß.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze den richtigen Possessivartikel. Die Person, die etwas besitzt, entscheidet — nicht das Wort danach.",
+      "instructionsEn": "Fill in the possessive that matches the OWNER's gender (his = sein, her = ihr) — not the gender of the thing owned.",
+      "skill": "case-endings",
+      "title": "sein oder ihr? Wer ist der Besitzer?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Ihr"
+          ],
+          "2": [
+            "Sein"
+          ],
+          "3": [
+            "Ihre"
+          ],
+          "4": [
+            "Ihre"
+          ],
+          "5": [
+            "Ihre"
+          ],
+          "6": [
+            "Sein"
+          ],
+          "7": [
+            "Ihr"
+          ],
+          "8": [
+            "unser"
+          ]
+        },
+        "bank": [
+          "Ihr",
+          "Sein",
+          "Ihre",
+          "Ihre",
+          "Ihre",
+          "Sein",
+          "Ihr",
+          "unser",
+          "mein",
+          "dein"
+        ],
+        "text": "Das ist Familie Wagner. {1} Haus steht am Stadtrand. Herr Wagner hat\neinen Bruder. {2} Bruder wohnt in München. Frau Wagner hat eine\nSchwester. {3} Schwester besucht sie oft. Die Kinder heißen Mia und\nBen. {4} Zimmer sind im ersten Stock. Mia hat eine Katze. {5} Katze\nheißt Minka. Ben hat einen Hund. {6} Hund heißt Rex. Am Wochenende\nbesuchen die Großeltern die Familie. {7} Auto ist alt, aber es fährt\nnoch gut. „Wo ist {8} Geschenk für die Kinder?\", fragt Opa Wagner\nseine Frau.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box.",
+      "title": "Lückentext: Familie Wagner"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sein"
+              },
+              {
+                "key": "b",
+                "text": "Ihr"
+              },
+              {
+                "key": "c",
+                "text": "Ihre"
+              }
+            ],
+            "q": "Frau Klein hat einen Sohn. ___ Sohn studiert in Berlin.",
+            "why": "Besitzerin ist weiblich → ihr; Sohn ist maskulin → keine Endung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sein"
+              },
+              {
+                "key": "b",
+                "text": "Seine"
+              },
+              {
+                "key": "c",
+                "text": "Ihre"
+              }
+            ],
+            "q": "Herr Klein hat eine Tochter. ___ Tochter lebt in Hamburg.",
+            "why": "Besitzer ist männlich → sein; Tochter ist feminin → -e."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Unser"
+              },
+              {
+                "key": "b",
+                "text": "Unsere"
+              },
+              {
+                "key": "c",
+                "text": "Uns"
+              }
+            ],
+            "q": "Wir haben zwei Autos. ___ Autos stehen in der Garage.",
+            "why": "Autos = Plural → unsere."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Euer"
+              },
+              {
+                "key": "b",
+                "text": "Eure"
+              },
+              {
+                "key": "c",
+                "text": "Euere"
+              }
+            ],
+            "q": "Ihr habt einen großen Garten. ___ Garten ist wirklich schön.",
+            "why": "Garten ist maskulin → keine Endung → euer (nicht 'euere')."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "euer"
+              },
+              {
+                "key": "b",
+                "text": "euren"
+              },
+              {
+                "key": "c",
+                "text": "eure"
+              }
+            ],
+            "q": "Kinder, wo sind ___ Schuhe?",
+            "why": "Schuhe = Plural → eure. Achtung: euer verliert das zweite e vor der Endung (eure, nicht euere)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sein"
+              },
+              {
+                "key": "b",
+                "text": "Ihr"
+              },
+              {
+                "key": "c",
+                "text": "Ihre"
+              }
+            ],
+            "q": "Das sind Maria und Tom. ___ Wohnung ist im dritten Stock.",
+            "why": "Besitzer = Maria und Tom (Plural) → ihre; Wohnung ist feminin → -e."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Die richtige Endung"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Meine"
+              },
+              {
+                "key": "b",
+                "text": "Mein"
+              },
+              {
+                "key": "c",
+                "text": "Meinen"
+              }
+            ],
+            "q": "Ich heiße Laura. ___ Familie kommt aus Portugal.",
+            "why": "Familie ist feminin → meine."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sein"
+              },
+              {
+                "key": "b",
+                "text": "Seine"
+              },
+              {
+                "key": "c",
+                "text": "Ihr"
+              }
+            ],
+            "q": "Mein Vater heißt Carlos. ___ Beruf ist Ingenieur.",
+            "why": "Beruf ist maskulin, Besitzer ist mein Vater → sein."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ihre"
+              },
+              {
+                "key": "b",
+                "text": "Ihr"
+              },
+              {
+                "key": "c",
+                "text": "Sein"
+              }
+            ],
+            "q": "Meine Mutter heißt Rita. ___ Hobby ist Malen.",
+            "why": "Hobby ist neutrum → keine Endung → ihr."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Meine"
+              },
+              {
+                "key": "b",
+                "text": "Mein"
+              },
+              {
+                "key": "c",
+                "text": "Meinen"
+              }
+            ],
+            "q": "Ich habe einen Bruder und eine Schwester. ___ Namen sind Diego und Sofia.",
+            "why": "Namen = Plural → meine."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ihre"
+              },
+              {
+                "key": "b",
+                "text": "Ihr"
+              },
+              {
+                "key": "c",
+                "text": "Sein"
+              }
+            ],
+            "q": "Diego und Sofia wohnen noch bei unseren Eltern. ___ Zimmer sind im Erdgeschoss.",
+            "why": "Zimmer = Plural, Besitzer = Diego und Sofia → ihre."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "dein"
+              },
+              {
+                "key": "b",
+                "text": "deine"
+              },
+              {
+                "key": "c",
+                "text": "deinen"
+              }
+            ],
+            "q": "Und du? Wie heißt ___ Familie?",
+            "why": "Familie ist feminin → deine."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "deine"
+              },
+              {
+                "key": "b",
+                "text": "dein"
+              },
+              {
+                "key": "c",
+                "text": "deinen"
+              }
+            ],
+            "q": "Hast du Geschwister? Wie alt sind ___ Geschwister?",
+            "why": "Geschwister = Plural → deine."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "unser"
+              },
+              {
+                "key": "b",
+                "text": "unsere"
+              },
+              {
+                "key": "c",
+                "text": "unseren"
+              }
+            ],
+            "q": "Wir alle lieben ___ Großmutter sehr, sie kocht immer für uns.",
+            "why": "Großmutter ist feminin → unsere."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct word for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Meine Familie stellt sich vor"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "IHRE"
+          ],
+          "2": [
+            "IHR"
+          ],
+          "3": [
+            "SEINE"
+          ],
+          "4": [
+            "SEINE"
+          ],
+          "5": [
+            "IHRE"
+          ],
+          "6": [
+            "IHR"
+          ],
+          "7": [
+            "IHR"
+          ],
+          "8": [
+            "IHRE"
+          ],
+          "9": [
+            "SEIN"
+          ],
+          "10": [
+            "EURE"
+          ]
+        },
+        "bank": [
+          "IHRE",
+          "IHR",
+          "SEINE",
+          "SEINE",
+          "IHRE",
+          "IHR",
+          "IHR",
+          "IHRE",
+          "SEIN",
+          "EURE",
+          "MEIN",
+          "DEINE",
+          "UNSER"
+        ],
+        "text": "Frau Hoffmann ist Lehrerin. In {1} Klasse sind 20 Schüler. {2}\nUnterricht macht allen Spaß. Ein Schüler, Kevin, hat {3} Hausaufgaben\nvergessen. {4} Mutter muss die Schule anrufen. Zwei Mädchen, Lina und\nEmma, sitzen zusammen. {5} Plätze sind ganz vorne. Lina hat {6} Buch\nverloren. „Wo ist {7} Buch?\", fragt Frau Hoffmann. Am Ende der Stunde\npacken alle Schüler {8} Sachen ein. Kevin findet {9} Heft nicht mehr.\nDie Lehrerin sagt: „Sucht in {10} Taschen!\"\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Three words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — In der Klasse (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Seine"
+          ],
+          "2": [
+            "meine"
+          ],
+          "3": [
+            "deinen"
+          ],
+          "4": [
+            "unsere"
+          ],
+          "5": [
+            "eure"
+          ],
+          "6": [
+            "ihren"
+          ],
+          "7": [
+            "ihre"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das ist mein Bruder. {1} Frau heißt Petra.\n2. Ich rufe {2} Eltern jeden Sonntag an.\n3. Kennst du {3} neuen Nachbarn?\n4. Wir lieben {4} Heimat.\n5. Habt ihr {5} Hausaufgaben schon gemacht?\n6. Frau Meier sucht {6} Schlüssel. Hat jemand {7} Handtasche gesehen?\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die richtigen Possessivartikel. Satz 3 und 6 brauchen die Akkusativ-Endung -en.",
+      "instructionsEn": "Fill in the correct possessives. Sentences 3 and 6 need the Akkusativ -en ending (masculine object).",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sein"
+              },
+              {
+                "key": "b",
+                "text": "Seine"
+              },
+              {
+                "key": "c",
+                "text": "Ihr"
+              }
+            ],
+            "q": "Herr Bauer hat einen Sohn. ___ Sohn heißt Max.",
+            "why": "Sohn ist maskulin → keine Endung → Sein."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "unser"
+              },
+              {
+                "key": "b",
+                "text": "unseren"
+              },
+              {
+                "key": "c",
+                "text": "unsere"
+              }
+            ],
+            "q": "Wir feiern heute ___ Hochzeitstag.",
+            "why": "Hochzeitstag ist maskulin und Akkusativobjekt von feiern → unseren."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "euer"
+              },
+              {
+                "key": "b",
+                "text": "eure"
+              },
+              {
+                "key": "c",
+                "text": "euren"
+              }
+            ],
+            "q": "Kinder, packt bitte ___ Spielzeug weg!",
+            "why": "Spielzeug ist neutrum → auch im Akkusativ keine Endung → euer."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ihre"
+              },
+              {
+                "key": "b",
+                "text": "Ihr"
+              },
+              {
+                "key": "c",
+                "text": "Sein"
+              }
+            ],
+            "q": "Lisa und Tom sind Geschwister. ___ Eltern wohnen in Wien.",
+            "why": "Eltern = Plural → Ihre."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "mein"
+              },
+              {
+                "key": "b",
+                "text": "meine"
+              },
+              {
+                "key": "c",
+                "text": "meinen"
+              }
+            ],
+            "q": "Ich suche ___ Handy. Hast du es gesehen?",
+            "why": "Handy ist neutrum, auch im Akkusativ keine Endung → mein."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "dein"
+              },
+              {
+                "key": "b",
+                "text": "deine"
+              },
+              {
+                "key": "c",
+                "text": "deinen"
+              }
+            ],
+            "q": "Das ist nicht meine Tasche, das ist ___ Tasche.",
+            "why": "Tasche ist feminin → deine."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-02-possessivpronomen-a1",
+  "intro": "Standalone drill set, not tied to any lesson. The main trap for Portuguese/Spanish/English speakers: German picks sein vs. ihr by the GENDER OF THE OWNER (his vs. her), not by the gender of the thing owned — the opposite of \"seu/sua\". Blocks: A Basistraining (the full table, then sein-vs-ihr) → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/02-possessivpronomen-a1",
+  "level": "A1",
+  "summary": null,
+  "title": "Possessivartikel: mein, dein, sein, ihr … — A1",
+  "topic": "Possessivpronomen (mein, dein, sein, ihr, unser, euer, Ihr)"
+}

@@ -1,0 +1,822 @@
+{
+  "category": "Wohnen & Nachbarschaft",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "haus",
+            "label": "Gemeinsame Räume"
+          },
+          {
+            "key": "wohnung",
+            "label": "In der Wohnung"
+          },
+          {
+            "key": "leute",
+            "label": "Leute & Papier"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "haus",
+            "text": "das Treppenhaus"
+          },
+          {
+            "bucket": "wohnung",
+            "text": "der Balkon"
+          },
+          {
+            "bucket": "leute",
+            "text": "der Nachbar"
+          },
+          {
+            "bucket": "haus",
+            "text": "der Hof"
+          },
+          {
+            "bucket": "wohnung",
+            "text": "die Küche"
+          },
+          {
+            "bucket": "leute",
+            "text": "der Aushang"
+          },
+          {
+            "bucket": "haus",
+            "text": "der Keller"
+          },
+          {
+            "bucket": "wohnung",
+            "text": "das Wohnzimmer"
+          },
+          {
+            "bucket": "leute",
+            "text": "der Hausmeister"
+          },
+          {
+            "bucket": "haus",
+            "text": "der Fahrradkeller"
+          },
+          {
+            "bucket": "wohnung",
+            "text": "das Bad"
+          },
+          {
+            "bucket": "leute",
+            "text": "der Zettel"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Wo im Haus?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Könnten Sie ein Paket für mich annehmen?"
+          },
+          {
+            "key": "2",
+            "text": "Darf ich mir kurz Ihre Bohrmaschine ausleihen?"
+          },
+          {
+            "key": "3",
+            "text": "Könnten Sie die Musik etwas leiser machen?"
+          },
+          {
+            "key": "4",
+            "text": "Gießen Sie im Urlaub meine Blumen?"
+          },
+          {
+            "key": "5",
+            "text": "Wissen Sie, wann der Müll rauskommt?"
+          },
+          {
+            "key": "6",
+            "text": "Ist der Stellplatz im Keller noch frei?"
+          },
+          {
+            "key": "7",
+            "text": "Haben Sie zufällig einen Schraubenzieher?"
+          },
+          {
+            "key": "8",
+            "text": "Wir feiern Samstag — stört Sie das?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Klar, ich bin bis sechs zu Hause."
+          },
+          {
+            "key": "b",
+            "text": "Gern, ich hole sie eben. Bring sie einfach heute Abend zurück."
+          },
+          {
+            "key": "c",
+            "text": "Oh, Entschuldigung, ich habe gar nicht auf die Uhr geschaut."
+          },
+          {
+            "key": "d",
+            "text": "Mache ich. Legen Sie mir den Schlüssel in den Briefkasten."
+          },
+          {
+            "key": "e",
+            "text": "Dienstagabend, die Tonnen stehen dann vorne."
+          },
+          {
+            "key": "f",
+            "text": "Der hinten links, glaube ich. Fragen Sie am besten den Hausmeister."
+          },
+          {
+            "key": "g",
+            "text": "Moment, ich schaue in der Schublade nach."
+          },
+          {
+            "key": "h",
+            "text": "Überhaupt nicht, sagen Sie einfach Bescheid, wenn es spät wird."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jeder Bitte eine passende Antwort zu.",
+      "instructionsEn": "Match each request with a fitting answer.",
+      "title": "Bitte und Antwort"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "mir"
+          ],
+          "2": [
+            "Ihnen"
+          ],
+          "3": [
+            "uns"
+          ],
+          "4": [
+            "dir"
+          ],
+          "5": [
+            "ihm"
+          ],
+          "6": [
+            "Ihnen"
+          ],
+          "7": [
+            "Ihnen"
+          ],
+          "8": [
+            "uns"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Könnten Sie {1} kurz helfen? (ich)\n2. Ich habe {2} den Schlüssel in den Briefkasten gelegt. (Sie)\n3. Der Nachbar hat {3} sein Werkzeug geliehen. (wir)\n4. Kann ich {4} etwas mitbringen? (du)\n5. Ich habe {5} einen Zettel an die Tür gehängt. (er)\n6. Passt es {6} am Samstag? (Sie)\n7. Ich bringe {7} das Paket morgen hoch. (Sie)\n8. Die Musik war {8} zu laut. (wir)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Pronomen im Dativ.",
+      "instructionsEn": "Fill in the dative pronoun.",
+      "title": "Wem? — Dativ bei Personen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Könnten"
+          ],
+          "2": [
+            "Dürfte"
+          ],
+          "3": [
+            "Würden"
+          ],
+          "4": [
+            "Könnten"
+          ],
+          "5": [
+            "Würde"
+          ],
+          "6": [
+            "Dürfte"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Sie mir kurz die Tür aufhalten? (können, höflich)\n2. {2} ich mir Ihre Leiter ausleihen? (dürfen, höflich)\n3. {3} Sie bitte etwas leiser sein? (werden, höflich)\n4. {4} Sie vielleicht ein Paket für mich annehmen? (können, höflich)\n5. {5} es Ihnen etwas ausmachen, das Fahrrad wegzustellen? (werden, höflich)\n6. {6} ich Sie kurz etwas fragen? (dürfen, höflich)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze die höfliche Form.",
+      "instructionsEn": "Fill in the polite form.",
+      "title": "Höflich fragen: könnten, dürfte, würden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "NACHBARIN"
+          ],
+          "2": [
+            "EINGEZOGEN"
+          ],
+          "3": [
+            "FRAGEN"
+          ],
+          "4": [
+            "MÜLL"
+          ],
+          "5": [
+            "TONNEN"
+          ],
+          "6": [
+            "RAUM"
+          ],
+          "7": [
+            "SCHLÜSSEL"
+          ],
+          "8": [
+            "ZETTEL"
+          ],
+          "9": [
+            "ÄRGERT"
+          ],
+          "10": [
+            "NEHMEN"
+          ]
+        },
+        "bank": [
+          "NACHBARIN",
+          "EINGEZOGEN",
+          "FRAGEN",
+          "MÜLL",
+          "TONNEN",
+          "RAUM",
+          "SCHLÜSSEL",
+          "ZETTEL",
+          "ÄRGERT",
+          "NEHMEN",
+          "TREPPE",
+          "WOHNUNG",
+          "BRIEFKASTEN",
+          "LEISE"
+        ],
+        "text": "— Guten Tag! Ich bin die neue {1} aus dem dritten Stock, Nuria.\n— Ah, willkommen! Ich bin Herr Kern, zweiter Stock links. Sind Sie\nschon {2}?\n— Fast, die Küche fehlt noch. Darf ich Sie gleich etwas {3}?\n— Natürlich.\n— Wann kommt der {4} raus?\n— Papier dienstags, Restmüll donnerstags. Die {5} stehen im Hof\nhinten rechts.\n— Danke! Und wo ist der {6} für die Fahrräder?\n— Im Keller, die zweite Tür. Den {7} bekommen Sie vom Hausmeister.\n— Super. Eine Sache noch: Am Samstag kommen ein paar Freunde. Ich\nhänge einen {8} ins Treppenhaus.\n— Machen Sie das ruhig, dann weiß es jeder. Und wenn es mal später\nwird — klingeln Sie einfach, bevor sich jemand {9}.\n— Mache ich. Und falls ein Paket kommt und ich nicht da bin —\n{10} Sie es an?\n— Klar, ich bin fast immer bis sechs zu Hause.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Neu im Haus"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Hallo, ich wohne über Ihnen — ich wollte mich kurz vorstellen. Ich bin Nuria."
+              },
+              {
+                "key": "b",
+                "text": "Hallo."
+              },
+              {
+                "key": "c",
+                "text": "Sie sind neu, oder?"
+              }
+            ],
+            "q": "Du willst dich bei der neuen Nachbarin vorstellen. — You want to introduce yourself to the new neighbour.",
+            "why": "Wo du wohnst plus dein Name — mehr braucht es nicht, aber weniger wirkt abweisend."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich brauche Ihre Bohrmaschine."
+              },
+              {
+                "key": "b",
+                "text": "Haben Sie eine Bohrmaschine?"
+              },
+              {
+                "key": "c",
+                "text": "Entschuldigung, hätten Sie zufällig eine Bohrmaschine? Ich bräuchte sie nur kurz."
+              }
+            ],
+            "q": "Du brauchst für zwanzig Minuten eine Bohrmaschine. — You need a drill for twenty minutes.",
+            "why": "„Zufällig“ und „nur kurz“ machen aus einer Forderung eine Bitte, die man leicht ablehnen kann."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das geht so nicht weiter!"
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, dass ich so spät störe — man hört bei uns jedes Wort. Könnten Sie etwas leiser machen?"
+              },
+              {
+                "key": "c",
+                "text": "Ich rufe die Polizei."
+              }
+            ],
+            "q": "Oben ist es seit Wochen nachts laut. Du klingelst zum ersten Mal. — It's been loud at night for weeks. You ring for the first time.",
+            "why": "Erst entschuldigen, dann das Problem sachlich nennen, dann bitten — in dieser Reihenfolge klappt es fast immer."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wenn es sein muss."
+              },
+              {
+                "key": "b",
+                "text": "Gern. Wie oft soll ich denn gießen?"
+              },
+              {
+                "key": "c",
+                "text": "Mal sehen."
+              }
+            ],
+            "q": "Eine Nachbarin fragt, ob du im Urlaub die Blumen gießt. Du willst zusagen. — A neighbour asks whether you'll water her plants.",
+            "why": "Zusagen und gleich das Praktische klären — dann muss niemand ein zweites Mal klingeln."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ihr Paket ist bei mir."
+              },
+              {
+                "key": "b",
+                "text": "Kommen Sie es holen."
+              },
+              {
+                "key": "c",
+                "text": "Ich habe ein Paket für Sie angenommen — klingeln Sie einfach, ich bin heute Abend da."
+              }
+            ],
+            "q": "Du hast ein Paket für den Nachbarn angenommen und willst Bescheid geben. — You've taken in a parcel and want to let them know.",
+            "why": "Information plus Zeitfenster: der Nachbar weiß, wann er kommen kann."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Oh, tut mir leid, ich stelle es sofort weg."
+              },
+              {
+                "key": "b",
+                "text": "Da steht es immer."
+              },
+              {
+                "key": "c",
+                "text": "Die anderen Räder stehen auch da."
+              }
+            ],
+            "q": "Dein Fahrrad steht im Weg und jemand spricht dich darauf an. — Someone tells you your bike is in the way.",
+            "why": "Kurz entschuldigen und handeln — Gegenargumente machen aus einer Kleinigkeit einen Streit."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Wie sagst du das?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Modalverb an Position 2, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "wollte",
+              "mich",
+              "kurz",
+              "vorstellen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Höfliche Frage: könnten an Position 1, Infinitiv am Ende",
+            "tiles": [
+              "Könnten",
+              "Sie",
+              "ein",
+              "Paket",
+              "für",
+              "mich",
+              "annehmen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Perfekt mit haben, Partizip am Ende",
+            "tiles": [
+              "Ich",
+              "habe",
+              "Ihr",
+              "Paket",
+              "angenommen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "sich etwas ausleihen — mir steht im Dativ",
+            "tiles": [
+              "Dürfte",
+              "ich",
+              "mir",
+              "kurz",
+              "Ihre",
+              "Leiter",
+              "ausleihen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Nebensatz mit dass: Verb ganz am Ende",
+            "tiles": [
+              "Entschuldigung",
+              ",",
+              "dass",
+              "ich",
+              "so",
+              "spät",
+              "störe"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Nach wenn steht das Verb am Ende des Nebensatzes",
+            "tiles": [
+              "Sagen",
+              "Sie",
+              "einfach",
+              "Bescheid",
+              ",",
+              "wenn",
+              "es",
+              "zu",
+              "laut",
+              "wird"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze im Treppenhaus bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Sonntags darf man nicht bohren. — You may not drill on Sundays.",
+            "why": "Sonntag ist ganztägig Ruhezeit."
+          },
+          {
+            "answer": false,
+            "q": "Das Treppenhaus muss bis Sonntagabend geputzt sein. — The stairwell must be cleaned by Sunday evening.",
+            "why": "Der Aushang nennt Samstagmittag."
+          },
+          {
+            "answer": false,
+            "q": "Fahrräder dürfen im Treppenhaus stehen, wenn sie nicht stören. — Bikes may stand in the stairwell if they're not in the way.",
+            "why": "Sie gehören in den Fahrradkeller — das Treppenhaus ist Fluchtweg."
+          },
+          {
+            "answer": true,
+            "q": "Den Kellerschlüssel bekommt man mittwochnachmittags. — You get the cellar key on Wednesday afternoons.",
+            "why": "Sprechstunde des Hausmeisters: Mittwoch 16–18 Uhr."
+          },
+          {
+            "answer": false,
+            "q": "Kartons kommen so in die Tonne, wie sie sind. — Cardboard boxes go into the bin as they are.",
+            "why": "„Kartons bitte flach machen.“"
+          },
+          {
+            "answer": true,
+            "q": "Für ein Fest genügt ein Zettel im Treppenhaus. — For a party a note in the stairwell is enough.",
+            "why": "„Feste bitte vorher ankündigen — ein Zettel reicht.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Hausgemeinschaft Lindenweg 8 — kurze Erinnerung**\n>\n> - **Ruhezeiten:** 22–7 Uhr sowie sonntags ganztägig. Bohren und\n>   Staubsaugen bitte außerhalb dieser Zeiten.\n> - **Treppenhausreinigung:** Der Plan hängt am Briefkasten. Wer\n>   dran ist, macht bis **Samstagmittag**.\n> - **Fahrräder** gehören in den Fahrradkeller, nicht ins\n>   Treppenhaus (Fluchtweg!). Schlüssel beim Hausmeister,\n>   Sprechstunde **Mittwoch 16–18 Uhr**.\n> - **Müll:** Papier dienstags, Restmüll donnerstags. Kartons bitte\n>   **flach machen**.\n> - Feste bitte **vorher ankündigen** — ein Zettel reicht.\n> - Pakete für Nachbarn nur annehmen, wenn Sie sie auch **wirklich\n>   weitergeben** können.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Den Aushang im Treppenhaus lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Hier ist die Leiter."
+              },
+              {
+                "key": "b",
+                "text": "Sorry, hat länger gedauert."
+              },
+              {
+                "key": "c",
+                "text": "Entschuldigung, das hat viel länger gedauert als gedacht. Danke, dass Sie so geduldig waren."
+              }
+            ],
+            "q": "Du hast die Leiter erst nach einer Woche zurückgebracht. — You return the ladder only after a week.",
+            "why": "Verspätung ansprechen und danken — dann leiht dir der Nachbar auch das nächste Mal etwas."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Stimmt, das ist mein Fehler. Ich bringe es heute noch in den Keller."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe keinen Kellerschlüssel."
+              },
+              {
+                "key": "c",
+                "text": "Es steht doch an der Seite."
+              }
+            ],
+            "q": "Der Nachbar sagt, dein Fahrrad blockiert seit Tagen den Gang. — The neighbour says your bike has blocked the corridor for days.",
+            "why": "Fehler einräumen und einen konkreten Zeitpunkt nennen — damit ist die Sache erledigt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das war doch nur einmal."
+              },
+              {
+                "key": "b",
+                "text": "Es tut mir leid, wir haben die Zeit vergessen. Beim nächsten Mal sage ich vorher Bescheid."
+              },
+              {
+                "key": "c",
+                "text": "Sie hätten klingeln können."
+              }
+            ],
+            "q": "Ihr wart Samstag laut, und montags spricht dich jemand darauf an. — You were loud on Saturday; on Monday someone mentions it.",
+            "why": "Entschuldigung plus Zusage für die Zukunft — der Nachbar will vor allem hören, dass du es ernst nimmst."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich habe nie ein Paket bekommen."
+              },
+              {
+                "key": "b",
+                "text": "Das muss der Bote falsch gemacht haben."
+              },
+              {
+                "key": "c",
+                "text": "Es tut mir wirklich leid — ich suche noch mal überall und sage Ihnen heute Abend Bescheid."
+              }
+            ],
+            "q": "Du hast ein Paket angenommen und findest es nicht mehr. — You took in a parcel and can't find it.",
+            "why": "Verantwortung übernehmen und einen Zeitpunkt zusagen, statt die Schuld weiterzuschieben."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nein."
+              },
+              {
+                "key": "b",
+                "text": "Das ist mir zu viel."
+              },
+              {
+                "key": "c",
+                "text": "Diesmal schaffe ich es leider nicht — ich bin die ganze Woche unterwegs. Tut mir leid."
+              }
+            ],
+            "q": "Eine Nachbarin bittet dich um einen Gefallen, den du nicht leisten kannst. — A neighbour asks a favour you can't do.",
+            "why": "Absagen mit kurzem Grund: nein sagen ist erlaubt, unfreundlich sein nicht."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir sind nicht per du."
+              },
+              {
+                "key": "b",
+                "text": "Gern — ich bin dann Nuria."
+              },
+              {
+                "key": "c",
+                "text": "Weiter Sie sagen und so tun, als hättest du nichts gemerkt."
+              }
+            ],
+            "q": "Der Nachbar redet dich mit du an, du bist unsicher. — The neighbour uses du and you're unsure.",
+            "why": "Im Haus ist das Duz-Angebot üblich; mit dem Vornamen nimmst du es einfach an."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Kleine Reibereien"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "störe"
+          ],
+          "2": [
+            "Bescheid"
+          ],
+          "3": [
+            "Ruhezeit"
+          ],
+          "4": [
+            "angenommen"
+          ],
+          "5": [
+            "ausleihen"
+          ],
+          "6": [
+            "Zettel"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Entschuldigung, dass ich so spät {1}. (jemanden bei etwas unterbrechen)\n2. Ich sage Ihnen morgen {2}. (informieren: … sagen)\n3. Zwischen 22 und 7 Uhr ist {3}. (die ruhige Zeit im Haus)\n4. Ich habe Ihr Paket {4}. (Perfekt von annehmen)\n5. Darf ich mir Ihre Leiter kurz {5}? (borgen)\n6. Ich hänge einen {6} ins Treppenhaus. (ein Blatt Papier mit Info)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "vorstellen"
+          ],
+          "2": [
+            "Könnten"
+          ],
+          "3": [
+            "Dürfte"
+          ],
+          "4": [
+            "angenommen"
+          ],
+          "5": [
+            "leiser"
+          ],
+          "6": [
+            "Bescheid"
+          ],
+          "7": [
+            "Ruhezeit"
+          ],
+          "8": [
+            "mir"
+          ],
+          "9": [
+            "Ihnen"
+          ],
+          "10": [
+            "Zettel"
+          ],
+          "11": [
+            "störe"
+          ],
+          "12": [
+            "weg"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich wollte mich kurz {1}. (introduce myself)\n2. {2} Sie ein Paket für mich annehmen? (could you — polite)\n3. {3} ich mir Ihre Bohrmaschine ausleihen? (might I — polite)\n4. Ich habe Ihr Paket {4}. (taken in — Partizip)\n5. Könnten Sie bitte etwas {5} machen? (quieter)\n6. Sagen Sie einfach {6}. (let me know)\n7. Zwischen 22 und 7 Uhr ist {7}. (quiet hours)\n8. Können Sie {8} kurz helfen? (Dativ: to me)\n9. Passt es {9} am Samstag? (Dativ: for you, formal)\n10. Ich hänge einen {10} ins Treppenhaus. (a note)\n11. Entschuldigung, dass ich {11}. (that I'm disturbing you)\n12. Ich stelle das Fahrrad sofort {12}. (put it away — Vorsilbe)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-18-beim-nachbarn-a2",
+  "intro": "Die Gespräche, die im Treppenhaus wirklich stattfinden: Du ziehst ein und stellst dich vor, jemand klingelt wegen eines Pakets, du brauchst eine Bohrmaschine für zwanzig Minuten, oben ist es um halb zwölf immer noch laut, und irgendwann fragt dich jemand, ob du in zwei Wochen die Blumen gießen kannst. Nichts davon ist ein Konflikt — aber alles davon geht schief, wenn man den Ton nicht trifft. Grammatik nach Bedarf: Dativ nach Personen (mir, dir, Ihnen), Modalverben für Bitten, Perfekt für das, was passiert ist. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/18-beim-nachbarn-a2",
+  "level": "A2",
+  "summary": "Sich vorstellen, ein Paket annehmen, etwas ausleihen, wegen Lärm klingeln und im Treppenhaus Small Talk machen.",
+  "title": "Nebenan: Paket, Lärm und kleine Bitten — A2",
+  "topic": "Nachbarn im Alltag"
+}

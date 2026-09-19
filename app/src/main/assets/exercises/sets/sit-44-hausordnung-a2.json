@@ -1,0 +1,826 @@
+{
+  "category": "Wohnen & Nachbarschaft",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "ruhe",
+            "label": "Ruhezeiten"
+          },
+          {
+            "key": "muell",
+            "label": "Mülltrennung"
+          },
+          {
+            "key": "wasch",
+            "label": "Waschküche"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "ruhe",
+            "text": "die Mittagsruhe"
+          },
+          {
+            "bucket": "muell",
+            "text": "der Biomüll"
+          },
+          {
+            "bucket": "wasch",
+            "text": "der Waschplan"
+          },
+          {
+            "bucket": "ruhe",
+            "text": "die Nachtruhe"
+          },
+          {
+            "bucket": "muell",
+            "text": "der Restmüll"
+          },
+          {
+            "bucket": "wasch",
+            "text": "der Trockner"
+          },
+          {
+            "bucket": "ruhe",
+            "text": "nach 22 Uhr leise sein"
+          },
+          {
+            "bucket": "muell",
+            "text": "die gelbe Tonne"
+          },
+          {
+            "bucket": "wasch",
+            "text": "sich eintragen"
+          },
+          {
+            "bucket": "ruhe",
+            "text": "Bohren am Sonntag"
+          },
+          {
+            "bucket": "muell",
+            "text": "das Altpapier"
+          },
+          {
+            "bucket": "wasch",
+            "text": "einen Termin tauschen"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Wozu gehört das?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Hausordnung"
+          },
+          {
+            "key": "2",
+            "text": "die Ruhezeit"
+          },
+          {
+            "key": "3",
+            "text": "die Mülltrennung"
+          },
+          {
+            "key": "4",
+            "text": "der Waschplan"
+          },
+          {
+            "key": "5",
+            "text": "die Kehrwoche"
+          },
+          {
+            "key": "6",
+            "text": "das Treppenhaus"
+          },
+          {
+            "key": "7",
+            "text": "die Nebenkosten"
+          },
+          {
+            "key": "8",
+            "text": "sich beschweren"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die schriftlichen Regeln für das Zusammenleben im Haus"
+          },
+          {
+            "key": "b",
+            "text": "die Zeit, in der es leise sein muss"
+          },
+          {
+            "key": "c",
+            "text": "Müll nach Art sortieren: Bio, Papier, Restmüll, Gelb"
+          },
+          {
+            "key": "d",
+            "text": "die Liste, wer wann die Waschmaschine benutzen darf"
+          },
+          {
+            "key": "e",
+            "text": "die Woche, in der man das Treppenhaus putzen muss"
+          },
+          {
+            "key": "f",
+            "text": "der Gang mit der Treppe zwischen den Stockwerken"
+          },
+          {
+            "key": "g",
+            "text": "die zusätzlichen Kosten neben der Miete"
+          },
+          {
+            "key": "h",
+            "text": "sagen, dass einen etwas stört"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "darf"
+          ],
+          "2": [
+            "soll"
+          ],
+          "3": [
+            "muss"
+          ],
+          "4": [
+            "darf"
+          ],
+          "5": [
+            "muss"
+          ],
+          "6": [
+            "darf"
+          ],
+          "7": [
+            "muss"
+          ],
+          "8": [
+            "kann"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Nach 22 Uhr {1} man keine laute Musik hören. (dürfen, Verneinung)\n2. Man {2} den Müll richtig trennen. (sollen)\n3. Für die Waschküche {3} man sich in den Plan eintragen. (müssen)\n4. Am Sonntag {4} man nicht bohren. (dürfen, Verneinung)\n5. In der Kehrwoche {5} man das Treppenhaus putzen. (müssen)\n6. Besuch {6} man ruhig empfangen, solange es nicht zu laut wird. (dürfen)\n7. Wenn man umziehen will, {7} man das dem Vermieter sagen. (müssen)\n8. Bei Problemen {8} man mit den Nachbarn sprechen. (können)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb.",
+      "instructionsEn": "Fill in the modal verb.",
+      "title": "Die Regeln nennen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Mittagsruhe"
+          ],
+          "2": [
+            "Biotonne"
+          ],
+          "3": [
+            "Altpapier"
+          ],
+          "4": [
+            "Waschplan"
+          ],
+          "5": [
+            "Kehrwoche"
+          ],
+          "6": [
+            "Hausordnung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Zwischen 13 und 15 Uhr ist {1}. (die Zeit am Mittag, in der es leise sein muss)\n2. Essensreste kommen in die {2}. (die Tonne für organischen Abfall)\n3. Alte Zeitungen kommen ins {3}. (Papier zum Recyceln)\n4. Ich trage mich in den {4} für Samstag ein. (die Liste für die Waschmaschine)\n5. Diese Woche ist unsere {5} — wir müssen putzen. (die Woche mit der Reinigungspflicht)\n6. Die Regeln im Haus stehen in der {6}. (das Dokument mit den Hausregeln)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "WASCHPLAN"
+          ],
+          "2": [
+            "EINGETRAGEN"
+          ],
+          "3": [
+            "TAUSCHEN"
+          ],
+          "4": [
+            "FAMILIE"
+          ],
+          "5": [
+            "MUSS"
+          ],
+          "6": [
+            "STEIGE"
+          ],
+          "7": [
+            "NETT"
+          ],
+          "8": [
+            "RUHEZEIT"
+          ],
+          "9": [
+            "WEISS"
+          ],
+          "10": [
+            "PASST"
+          ]
+        },
+        "bank": [
+          "WASCHPLAN",
+          "EINGETRAGEN",
+          "TAUSCHEN",
+          "FAMILIE",
+          "MUSS",
+          "STEIGE",
+          "NETT",
+          "RUHEZEIT",
+          "WEISS",
+          "PASST",
+          "KEHRWOCHE",
+          "MÜLLTONNE",
+          "TROCKNER",
+          "VERGESSE"
+        ],
+        "text": "— Hallo, ich habe eine Frage zum {1}.\n— Klar, was möchten Sie wissen?\n— Ich sehe, Sie haben sich für Samstag {2}. Könnten wir vielleicht\n{3}?\n— Warum, brauchen Sie den Termin dringend?\n— Ja, meine {4} kommt am Wochenende zu Besuch, und ich {5} vorher\nnoch Bettwäsche waschen.\n— Kein Problem, ich {6} auf Sonntag um.\n— Das ist sehr {7} von Ihnen, vielen Dank.\n— Gern geschehen. Achten Sie nur bitte auf die {8} — nach 20 Uhr\nläuft die Maschine bei uns nicht mehr.\n— Natürlich, das {9} ich.\n— Dann {10} das ja.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Ein Termin in der Waschküche"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Könnten wir vielleicht tauschen? Es würde mir sehr helfen."
+              },
+              {
+                "key": "b",
+                "text": "Ich brauche Ihren Termin, geben Sie ihn mir."
+              },
+              {
+                "key": "c",
+                "text": "Warum haben Sie den Termin überhaupt?"
+              }
+            ],
+            "q": "Du möchtest einen Waschtermin tauschen. — You want to swap a laundry slot.",
+            "why": "Die Konjunktiv-II-Frage mit Begründung ist die höfliche Form für so eine Bitte unter Nachbarn."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort die Polizei rufen."
+              },
+              {
+                "key": "b",
+                "text": "Freundlich anklopfen und auf die Ruhezeit hinweisen."
+              },
+              {
+                "key": "c",
+                "text": "Laute Musik zurückspielen."
+              }
+            ],
+            "q": "Ein Nachbar hört nach 22 Uhr laute Musik. — A neighbour is playing loud music after 10 pm.",
+            "why": "Ein direktes, freundliches Gespräch löst die meisten Ruhezeit-Konflikte, bevor sie eskalieren."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "So tun, als wäre nichts gewesen."
+              },
+              {
+                "key": "b",
+                "text": "Dich entschuldigen und das Treppenhaus nachträglich putzen."
+              },
+              {
+                "key": "c",
+                "text": "Den Nachbarn die Schuld geben."
+              }
+            ],
+            "q": "Du hast die Kehrwoche vergessen. — You forgot your cleaning-duty week.",
+            "why": "Eine kurze Entschuldigung und die Nacharbeit sind hier die einfachste Lösung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach in die nächste Tonne werfen."
+              },
+              {
+                "key": "b",
+                "text": "Kurz einen Nachbarn oder die Hausordnung fragen."
+              },
+              {
+                "key": "c",
+                "text": "Die Verpackung im Hausflur liegen lassen."
+              }
+            ],
+            "q": "Du bist unsicher, in welche Tonne eine Verpackung gehört. — You're unsure which bin a package belongs in.",
+            "why": "Nachfragen verhindert falsch sortierten Müll — die Hausordnung oder ein Nachbar hilft meist schnell weiter."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Kurz bei den direkten Nachbarn Bescheid geben, dass es etwas lauter wird."
+              },
+              {
+                "key": "b",
+                "text": "Einfach anfangen, ohne etwas zu sagen."
+              },
+              {
+                "key": "c",
+                "text": "Es auf Montagnacht verschieben."
+              }
+            ],
+            "q": "Du möchtest am Sonntag ein Regal aufbauen, das etwas laut ist. — You want to assemble a shelf on Sunday, which will be a bit noisy.",
+            "why": "Ein kurzer Hinweis vorab wird meist als rücksichtsvoll verstanden, auch wenn kurzer Lärm am Sonntag nicht grundsätzlich verboten ist."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ruhezeiten, Mülltrennung und den Waschplan kurz erklären."
+              },
+              {
+                "key": "b",
+                "text": "Sagen, dass es keine Regeln gibt."
+              },
+              {
+                "key": "c",
+                "text": "Auf die Hausverwaltung verweisen und nichts weiter sagen."
+              }
+            ],
+            "q": "Ein neuer Nachbar fragt dich nach den wichtigsten Regeln im Haus. — A new neighbour asks you about the house's main rules.",
+            "why": "Eine kurze, freundliche Einführung erspart dem neuen Nachbarn spätere Missverständnisse."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Höflich mit Nachbarn sprechen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Zeitangabe vorne, Modalverb an Position 2, Infinitiv am Ende",
+            "tiles": [
+              "Nach",
+              "22",
+              "Uhr",
+              "darf",
+              "man",
+              "keine",
+              "laute",
+              "Musik",
+              "hören"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Modalverb an Position 2, Infinitiv am Ende",
+            "tiles": [
+              "Man",
+              "muss",
+              "den",
+              "Müll",
+              "richtig",
+              "trennen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Konjunktiv-II-Bitte, Infinitiv am Ende",
+            "tiles": [
+              "Könnten",
+              "wir",
+              "vielleicht",
+              "den",
+              "Termin",
+              "tauschen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Zeitangabe vorne, Verb an Position 2",
+            "tiles": [
+              "Diese",
+              "Woche",
+              "ist",
+              "unsere",
+              "Kehrwoche"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "trennbares Verb: eintragen, Präfix am Ende",
+            "tiles": [
+              "Ich",
+              "trage",
+              "mich",
+              "für",
+              "Samstag",
+              "ein"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Entschuldigung plus Perfekt",
+            "tiles": [
+              "Es",
+              "tut",
+              "mir",
+              "leid",
+              ",",
+              "ich",
+              "habe",
+              "es",
+              "vergessen"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze über die Hausordnung bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Die Mittagsruhe dauert von 13 bis 15 Uhr. — Quiet hours at midday run from 1 to 3 pm.",
+            "why": "So steht es ausdrücklich im Aushang."
+          },
+          {
+            "answer": false,
+            "q": "Nach 21 Uhr darf noch gewaschen werden. — Laundry is still allowed after 9 pm.",
+            "why": "Nach 20 Uhr läuft keine Maschine mehr."
+          },
+          {
+            "answer": false,
+            "q": "Sperrmüll darf man einfach neben die Tonnen stellen. — Bulky waste may simply be placed next to the bins.",
+            "why": "Sperrmüll muss angemeldet werden, nicht einfach danebengestellt."
+          },
+          {
+            "answer": true,
+            "q": "Der Waschplan hängt im Keller. — The laundry schedule hangs in the basement.",
+            "why": "„Bitte in den Waschplan im Keller eintragen.“"
+          },
+          {
+            "answer": false,
+            "q": "Fahrräder dürfen im Treppenhaus stehen. — Bicycles may stand in the stairwell.",
+            "why": "Fahrräder gehören in den Fahrradkeller, nicht ins Treppenhaus."
+          },
+          {
+            "answer": true,
+            "q": "Bei Verhinderung soll man die Kehrwoche rechtzeitig tauschen. — If unavailable, the cleaning week should be swapped in time.",
+            "why": "„Bei Verhinderung bitte rechtzeitig tauschen.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Hausordnung — wichtige Punkte**\n>\n> - **Ruhezeiten:** Mittagsruhe **13–15 Uhr**, Nachtruhe **22–7\n>   Uhr**. Laute Geräte und Musik bitte nur außerhalb dieser\n>   Zeiten.\n> - **Waschküche:** Bitte in den **Waschplan im Keller**\n>   eintragen. Nach **20 Uhr** läuft keine Maschine mehr.\n> - **Mülltrennung:** Biomüll (braun), Restmüll (grau),\n>   Verpackungen (gelb), Papier (blau). Sperrmüll bitte nicht\n>   einfach neben die Tonnen stellen, sondern **anmelden**.\n> - **Kehrwoche:** Der Plan hängt im Hausflur. Bei Verhinderung\n>   bitte **rechtzeitig tauschen**.\n> - **Fahrräder** bitte im Fahrradkeller abstellen, nicht im\n>   Treppenhaus.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Den Aushang im Treppenhaus lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Laut im Treppenhaus schimpfen."
+              },
+              {
+                "key": "b",
+                "text": "Ruhig ansprechen und auf den Eintrag im Waschplan hinweisen."
+              },
+              {
+                "key": "c",
+                "text": "Die Wäsche des Nachbarn aus der Maschine nehmen."
+              }
+            ],
+            "q": "Ein Nachbar hat deinen Waschtermin einfach genommen. — A neighbour simply took your laundry slot.",
+            "why": "Ein ruhiger Hinweis auf den Plan klärt das Missverständnis meist sofort, ohne Streit."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es beim nächsten Mal besser trennen und, falls möglich, kurz korrigieren."
+              },
+              {
+                "key": "b",
+                "text": "So tun, als wäre nichts passiert."
+              },
+              {
+                "key": "c",
+                "text": "Sich bei der Hausverwaltung entschuldigen, obwohl niemand etwas gemerkt hat."
+              }
+            ],
+            "q": "Du hast versehentlich Restmüll in die Biotonne geworfen. — You accidentally threw regular waste into the compost bin.",
+            "why": "Kleine Fehler beim Trennen passieren — wichtig ist, es beim nächsten Mal richtig zu machen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Abwarten, ob es jemand merkt."
+              },
+              {
+                "key": "b",
+                "text": "Euch entschuldigen und das Treppenhaus so schnell wie möglich nachputzen."
+              },
+              {
+                "key": "c",
+                "text": "Behaupten, ihr wart nicht dran."
+              }
+            ],
+            "q": "Ihr habt eure Kehrwoche komplett vergessen. — You completely forgot your cleaning-duty week.",
+            "why": "Eine schnelle Entschuldigung mit sofortiger Nacharbeit ist die einfachste Lösung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort die Hausverwaltung anrufen."
+              },
+              {
+                "key": "b",
+                "text": "Kurz anklopfen und freundlich fragen, wie lange es noch dauert."
+              },
+              {
+                "key": "c",
+                "text": "Zur Vergeltung selbst laut Musik hören."
+              }
+            ],
+            "q": "Ein Nachbar bohrt sonntags mitten am Nachmittag. — A neighbour is drilling on Sunday afternoon.",
+            "why": "Kurzer Lärm am Sonntagnachmittag ist meist toleriert; eine freundliche Nachfrage klärt, ob es bald vorbei ist."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dich entschuldigen, falls es wirklich zu laut war, und beim nächsten Mal früher Bescheid geben."
+              },
+              {
+                "key": "b",
+                "text": "Die Beschwerde ignorieren."
+              },
+              {
+                "key": "c",
+                "text": "Zurückschreiben, dass Gäste immer erlaubt sind."
+              }
+            ],
+            "q": "Du bekommst eine Beschwerde, weil du am Samstagabend Gäste hattest. — You get a complaint for having guests over on Saturday evening.",
+            "why": "Gäste sind erlaubt, solange es nicht zu laut wird — eine kurze Entschuldigung und Rücksicht beim nächsten Mal beruhigt die Lage."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Selbst einfach entsorgen, ohne nachzufragen."
+              },
+              {
+                "key": "b",
+                "text": "Die Hausverwaltung informieren, damit die Abholung angemeldet wird."
+              },
+              {
+                "key": "c",
+                "text": "Nichts sagen und den Sperrmüll liegen lassen."
+              }
+            ],
+            "q": "Im Hausflur liegt schon seit Tagen Sperrmüll von jemand anderem. — Bulky waste from someone else has been sitting in the hallway for days.",
+            "why": "Die Hausverwaltung kann die Abholung anmelden — das ist der richtige Weg, nicht die eigene Entsorgung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn es Ärger im Haus gibt"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "genommen"
+          ],
+          "2": [
+            "getrennt"
+          ],
+          "3": [
+            "vergessen"
+          ],
+          "4": [
+            "beschwert"
+          ],
+          "5": [
+            "angemeldet"
+          ],
+          "6": [
+            "Waschzeit"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Jemand hat meinen Termin im Waschplan {1}. (Partizip von „nehmen“)\n2. Ich habe versehentlich falsch {2}. (den Müll nicht richtig sortiert)\n3. Wir haben unsere Kehrwoche {3}. (nicht daran gedacht)\n4. Ein Nachbar hat sich über den Lärm am Samstag {4}. (gesagt, dass ihn etwas stört)\n5. Der Sperrmüll muss bei der Hausverwaltung {5} werden. (offiziell mitgeteilt)\n6. Nach der {6} darf die Maschine nicht mehr laufen. (die Zeit ab 20 Uhr in der Waschküche)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "darf"
+          ],
+          "2": [
+            "soll"
+          ],
+          "3": [
+            "muss"
+          ],
+          "4": [
+            "Mittagsruhe"
+          ],
+          "5": [
+            "Biotonne"
+          ],
+          "6": [
+            "Altpapier"
+          ],
+          "7": [
+            "Kehrwoche"
+          ],
+          "8": [
+            "tauschen"
+          ],
+          "9": [
+            "vergessen"
+          ],
+          "10": [
+            "genommen"
+          ],
+          "11": [
+            "getrennt"
+          ],
+          "12": [
+            "angemeldet"
+          ],
+          "13": [
+            "Hausordnung"
+          ],
+          "14": [
+            "Fahrradkeller"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Nach 22 Uhr {1} man keine laute Musik hören. (may not — dürfen)\n2. Man {2} den Müll richtig trennen. (should)\n3. Für die Waschküche {3} man sich eintragen. (must)\n4. Zwischen 13 und 15 Uhr ist {4}. (midday quiet hours)\n5. Essensreste kommen in die {5}. (compost bin)\n6. Alte Zeitungen kommen ins {6}. (paper for recycling)\n7. Diese Woche ist unsere {7} — wir müssen putzen. (cleaning-duty week)\n8. Könnten wir vielleicht den Termin {8}? (swap)\n9. Es tut mir leid, ich habe es {9}. (forgotten — Partizip)\n10. Jemand hat meinen Termin im Waschplan {10}. (taken — Partizip)\n11. Ich habe versehentlich falsch {11}. (sorted — Partizip)\n12. Der Sperrmüll muss bei der Hausverwaltung {12} werden. (registered — Partizip)\n13. Die Regeln im Haus stehen in der {13}. (the house rules document)\n14. Fahrräder gehören in den {14}, nicht ins Treppenhaus. (bike basement)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-44-hausordnung-a2",
+  "intro": "Die Hausordnung hängt meist im Treppenhaus und wird trotzdem selten gelesen — bis etwas dagegen verstößt: die Waschmaschine läuft nach 22 Uhr, der falsche Müll landet in der falschen Tonne, oder die Treppenhausreinigung wird vergessen. Dieses Set übt den Alltag rund um die Hausordnung: die Regeln verstehen, den Waschplan lesen und buchen, sich mit Nachbarn höflich absprechen, wenn etwas schiefgelaufen ist. Grammatik nach Bedarf: Modalverben (dürfen, müssen, sollen), Zeitangaben, höfliche Bitten mit Konjunktiv II. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/44-hausordnung-a2",
+  "level": "A2",
+  "summary": "Ruhezeiten, Mülltrennung, Waschplan und Treppenhausreinigung — die kleinen Regeln, die das Zusammenleben im Haus regeln.",
+  "title": "Hausordnung im Alltag — A2",
+  "topic": "Hausordnung"
+}

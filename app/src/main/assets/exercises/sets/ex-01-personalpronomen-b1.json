@@ -1,0 +1,768 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "ihn"
+          ],
+          "2": [
+            "ihr"
+          ],
+          "3": [
+            "ihm"
+          ],
+          "4": [
+            "ihm"
+          ],
+          "5": [
+            "ihn"
+          ],
+          "6": [
+            "sie"
+          ],
+          "7": [
+            "sie"
+          ],
+          "8": [
+            "ihn"
+          ]
+        },
+        "text": "Herr Fischer arbeitet seit zehn Jahren in der Firma. Seine Kollegen\nschätzen {1} sehr, weil er immer hilfsbereit ist. Letzte Woche hatte\neine neue Kollegin, Frau Berg, Probleme mit dem System. Herr Fischer\nhat {2} geholfen, obwohl er selbst viel zu tun hatte. Frau Berg war\n{3} sehr dankbar und hat {4} eine Karte geschrieben. Frau Berg\nfreute sich für {5}, dass er von allen so gelobt wurde. Sie selbst\nfühlt sich in der neuen Firma noch unsicher, aber ihre Kollegen\nhaben {6} von Anfang an gut aufgenommen. Das freut {7} sehr. Am\nAbend erzählte Herr Fischer seiner Frau von dem Lob. Sie war stolz\nauf {8}.\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Fill in the correct personal pronouns as you read the story.",
+      "skill": "case-endings",
+      "title": "Herr Fischer und Frau Berg"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihr"
+              },
+              {
+                "key": "c",
+                "text": "ihnen"
+              }
+            ],
+            "q": "Ich habe lange auf die Antwort gewartet. Ohne ___ hätte ich nicht weitergemacht.",
+            "why": "ohne + Akkusativ; die Antwort ist feminin → sie."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "er"
+              },
+              {
+                "key": "b",
+                "text": "ihn"
+              },
+              {
+                "key": "c",
+                "text": "ihm"
+              }
+            ],
+            "q": "Mein Chef ist sehr streng. Ich habe Angst vor ___.",
+            "why": "vor + Dativ (immer) → ihm."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "es"
+              },
+              {
+                "key": "b",
+                "text": "ihm"
+              },
+              {
+                "key": "c",
+                "text": "ihn"
+              }
+            ],
+            "q": "Das Projekt ist wichtig für das Team. Wir arbeiten alle für ___.",
+            "why": "für + Akkusativ (immer); das Projekt ist neutrum → es."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihnen"
+              },
+              {
+                "key": "c",
+                "text": "ihr"
+              }
+            ],
+            "q": "Die neuen Kollegen sind nett. Ich sitze oft mit ___ in der Kantine.",
+            "why": "mit + Dativ (immer); Kollegen = Plural → ihnen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "ihn"
+              },
+              {
+                "key": "b",
+                "text": "ihm"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Herr Weber hat viel Erfahrung. Ohne ___ hätten wir das Problem nicht gelöst.",
+            "why": "ohne + Akkusativ (immer) → ihn."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihr"
+              },
+              {
+                "key": "c",
+                "text": "ihren"
+              }
+            ],
+            "q": "Die Party ist bei meiner Schwester. Kommst du auch zu ___?",
+            "why": "zu + Dativ (immer) → ihr."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A2",
+      "instructions": "Choose the correct answer (a, b, or c) — the preposition decides the case.",
+      "title": "Präposition + Pronomen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Zwei Nomen: Dativ (meinem Vater) vor Akkusativ (ein Buch).",
+            "tiles": [
+              "Ich",
+              "schenke",
+              "meinem Vater",
+              "ein Buch"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Zwei Pronomen: Akkusativ (es) vor Dativ (ihm).",
+            "tiles": [
+              "Ich",
+              "schenke",
+              "es",
+              "ihm"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Pronomen + Nomen: das Pronomen (es) kommt immer zuerst, egal welcher Fall.",
+            "tiles": [
+              "Ich",
+              "schenke",
+              "es",
+              "meinem Vater"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Pronomen + Nomen: das Pronomen (ihm) kommt immer zuerst, egal welcher Fall.",
+            "tiles": [
+              "Ich",
+              "schenke",
+              "ihm",
+              "ein Buch"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Zwei Nomen: Dativ (den Schülern) vor Akkusativ (die Aufgabe).",
+            "tiles": [
+              "Der Lehrer",
+              "erklärt",
+              "den Schülern",
+              "die Aufgabe"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Modalverb + zwei Pronomen (Akk vor Dat) + Infinitiv am Satzende.",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "es",
+              "ihr",
+              "geben"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B1",
+      "instructions": "Put the tiles in the correct order. Each note explains which rule applies.",
+      "title": "Zwei Objekte: die richtige Reihenfolge"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "es"
+          ],
+          "2": [
+            "ihm"
+          ],
+          "3": [
+            "sie"
+          ],
+          "4": [
+            "ihnen"
+          ],
+          "5": [
+            "sie"
+          ],
+          "6": [
+            "ihr"
+          ],
+          "7": [
+            "ihn"
+          ],
+          "8": [
+            "ihm"
+          ],
+          "9": [
+            "ihn"
+          ],
+          "10": [
+            "ihnen"
+          ],
+          "11": [
+            "es"
+          ],
+          "12": [
+            "ihr"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich gebe meinem Bruder das Auto. → Ich gebe {1} {2}.\n2. Wir zeigen den Gästen die Wohnung. → Wir zeigen {3} {4}.\n3. Er erzählt seiner Frau die Geschichte. → Er erzählt {5} {6}.\n4. Ich schicke meinem Kollegen den Bericht. → Ich schicke {7} {8}.\n5. Die Firma bietet den Kunden einen Rabatt. → Die Firma bietet {9} {10}.\n6. Ich leihe meiner Nachbarin mein Fahrrad. → Ich leihe {11} {12}.\n",
+        "type": "gap-text"
+      },
+      "id": "B2",
+      "instructions": "Replace both objects with pronouns, in the correct order (see Übung B1).",
+      "title": "Beide Objekte durch Pronomen ersetzen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihr"
+              },
+              {
+                "key": "c",
+                "text": "ihnen"
+              }
+            ],
+            "q": "Frau Klein hat eine wichtige Präsentation. Ihr Team unterstützt ___ dabei.",
+            "why": "unterstützen + Akkusativ → sie."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihr"
+              },
+              {
+                "key": "c",
+                "text": "ihren"
+              }
+            ],
+            "q": "Die Präsentation ist am Montag. Alle Kollegen helfen ___ bei der Vorbereitung.",
+            "why": "helfen + Dativ → ihr."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihr"
+              },
+              {
+                "key": "c",
+                "text": "ihnen"
+              }
+            ],
+            "q": "Der Kunde hat viele Fragen. Frau Klein beantwortet ___ geduldig.",
+            "why": "beantworten + Akkusativ; Objekt ist 'die Fragen' (Plural) → sie."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ihn"
+              },
+              {
+                "key": "b",
+                "text": "ihm"
+              },
+              {
+                "key": "c",
+                "text": "ihr"
+              }
+            ],
+            "q": "Der Kunde ist zufrieden. Frau Klein dankt ___ für sein Vertrauen.",
+            "why": "danken + Dativ → ihm."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihr"
+              },
+              {
+                "key": "c",
+                "text": "ihre"
+              }
+            ],
+            "q": "Nach dem Meeting spricht der Chef mit Frau Klein. Er lobt ___ für die gute Arbeit.",
+            "why": "loben + Akkusativ → sie."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihr"
+              },
+              {
+                "key": "c",
+                "text": "ihre"
+              }
+            ],
+            "q": "Frau Klein ist bescheiden. Das Lob ist ___ etwas unangenehm.",
+            "why": "unangenehm sein + Dativ → ihr."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihr"
+              },
+              {
+                "key": "c",
+                "text": "ihren"
+              }
+            ],
+            "q": "Ihre Kollegen freuen sich mit ___, denn sie hat lange dafür gearbeitet.",
+            "why": "sich freuen mit + Dativ (immer) → ihr."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ihn"
+              },
+              {
+                "key": "b",
+                "text": "ihm"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Am Ende ruft Frau Klein ihren Mann an und erzählt ___ von ihrem Erfolg.",
+            "why": "erzählen + Dativ → ihm."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct word for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Frau Kleins Präsentation"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "IHNEN"
+          ],
+          "2": [
+            "IHNEN"
+          ],
+          "3": [
+            "IHM"
+          ],
+          "4": [
+            "IHN"
+          ],
+          "5": [
+            "IHM"
+          ],
+          "6": [
+            "SIE"
+          ],
+          "7": [
+            "SIE"
+          ],
+          "8": [
+            "IHNEN"
+          ],
+          "9": [
+            "IHNEN"
+          ],
+          "10": [
+            "SIE"
+          ]
+        },
+        "bank": [
+          "IHNEN",
+          "IHNEN",
+          "IHM",
+          "IHN",
+          "IHM",
+          "SIE",
+          "SIE",
+          "IHNEN",
+          "IHNEN",
+          "SIE",
+          "IHR",
+          "UNS",
+          "DICH"
+        ],
+        "text": "Sehr geehrte Frau Berg, vielen Dank für Ihre Anfrage vom 3. Mai. Gern\nsenden wir {1} weitere Informationen zu unserem Angebot. Unser\nKollege, Herr Neumann, hat sich bereits mit {2} in Verbindung\ngesetzt — vielleicht haben Sie schon von {3} gehört. Falls Sie noch\nFragen haben, können Sie {4} jederzeit kontaktieren. Wir haben {5}\nIhre Unterlagen bereits weitergeleitet und werden {6} sorgfältig\nprüfen. Herr Neumann wird {7} über das Ergebnis informieren. Wir\ndanken {8} herzlich für Ihr Vertrauen. Herr Neumann freut sich schon\nauf das nächste Gespräch mit {9}. Das ganze Team unterstützt {10}\ngerne bei weiteren Fragen.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Three words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Geschäftsbrief (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Zwei Nomen: Dativ vor Akkusativ.",
+            "tiles": [
+              "Der Verkäufer",
+              "zeigt",
+              "dem Kunden",
+              "das neue Modell"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Zwei Pronomen: Akkusativ vor Dativ.",
+            "tiles": [
+              "Der Verkäufer",
+              "zeigt",
+              "es",
+              "ihm"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Pronomen (es) vor Nomen (dem Kunden).",
+            "tiles": [
+              "Der Verkäufer",
+              "zeigt",
+              "es",
+              "dem Kunden"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Pronomen (ihr) vor Nomen (das Geschenk); nicht vor dem Infinitiv.",
+            "tiles": [
+              "Ich",
+              "kann",
+              "ihr",
+              "das Geschenk",
+              "nicht",
+              "geben"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Nebensatz: Verb ans Ende; im Mittelfeld Akkusativ (es) vor Dativ (ihr).",
+            "tiles": [
+              "Weil",
+              "er",
+              "es",
+              "ihr",
+              "schon",
+              "erklärt",
+              "hat"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "D1",
+      "instructions": "Put the tiles in the correct order — mixing all three patterns from Block B.",
+      "title": "Wiederholung: Wortstellung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "es"
+              },
+              {
+                "key": "b",
+                "text": "ihm"
+              },
+              {
+                "key": "c",
+                "text": "ihn"
+              }
+            ],
+            "q": "Die Firma hat ein neues Angebot. Wir informieren die Kunden über ___.",
+            "why": "über + Akkusativ; das Angebot ist neutrum → es."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ihn"
+              },
+              {
+                "key": "b",
+                "text": "ihm"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Mein Nachbar zieht um. Ich helfe ___ beim Tragen der Kisten.",
+            "why": "helfen + Dativ → ihm."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihr"
+              },
+              {
+                "key": "c",
+                "text": "ihnen"
+              }
+            ],
+            "q": "Die Rechnung ist noch offen. Können Sie ___ bis Freitag bezahlen?",
+            "why": "bezahlen + Akkusativ; die Rechnung ist feminin → sie."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihnen"
+              },
+              {
+                "key": "c",
+                "text": "ihr"
+              }
+            ],
+            "q": "Herr und Frau Klein sind unsere neuen Nachbarn. Wir haben ___ schon eingeladen.",
+            "why": "einladen + Akkusativ; Plural → sie."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ihn"
+              },
+              {
+                "key": "b",
+                "text": "ihm"
+              },
+              {
+                "key": "c",
+                "text": "er"
+              }
+            ],
+            "q": "Mein Kollege wartet auf eine Antwort. Ich schreibe ___ eine Nachricht, sobald ich Zeit habe.",
+            "why": "schreiben + Dativ (jemandem etwas schreiben) → ihm."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sie"
+              },
+              {
+                "key": "b",
+                "text": "ihr"
+              },
+              {
+                "key": "c",
+                "text": "ihnen"
+              }
+            ],
+            "q": "Die Idee war gut. Der Chef hat ___ sofort akzeptiert.",
+            "why": "akzeptieren + Akkusativ; die Idee ist feminin → sie."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-01-personalpronomen-b1",
+  "intro": "Standalone drill set, not tied to any lesson. Builds on the A1/A2 sets with the piece B1 adds: word order when a sentence has two objects. Two full nouns → Dativ before Akkusativ. Two pronouns → Akkusativ before Dativ. One noun + one pronoun → the pronoun always comes first, regardless of its case. Blocks: A Basistraining (case review in longer text) → B Vertiefung (the word-order rule, drilled with reordering and rewriting) → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/01-personalpronomen-b1",
+  "level": "B1",
+  "summary": null,
+  "title": "Personalpronomen: Nominativ, Akkusativ, Dativ — B1",
+  "topic": "Personalpronomen (Nominativ, Akkusativ, Dativ)"
+}

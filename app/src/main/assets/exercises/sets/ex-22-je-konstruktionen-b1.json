@@ -1,0 +1,896 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Je mehr Sport ich mache, desto fitter fühle ich mich.",
+            "tiles": [
+              "Je mehr Sport",
+              "ich",
+              "mache,",
+              "desto fitter",
+              "fühle",
+              "ich mich."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Je länger der Winter dauert, umso mehr freue ich mich auf den Frühling.",
+            "tiles": [
+              "Je länger",
+              "der Winter",
+              "dauert,",
+              "umso mehr",
+              "freue",
+              "ich mich auf den Frühling."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Je besser du dich vorbereitest, desto ruhiger bist du in der Prüfung.",
+            "tiles": [
+              "Je besser",
+              "du",
+              "dich vorbereitest,",
+              "desto ruhiger",
+              "bist",
+              "du in der Prüfung."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Je weniger ich schlafe, desto schlechter kann ich mich konzentrieren. (Modalverb: kann auf Position 2, Infinitiv am Ende.)",
+            "tiles": [
+              "Je weniger",
+              "ich",
+              "schlafe,",
+              "desto schlechter",
+              "kann",
+              "ich mich konzentrieren."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Je öfter man eine Sprache spricht, umso sicherer wird man.",
+            "tiles": [
+              "Je öfter",
+              "man",
+              "eine Sprache spricht,",
+              "umso sicherer",
+              "wird",
+              "man."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A1",
+      "instructions": "Bring die Kacheln in die richtige Reihenfolge. Der je-Teil endet mit dem Verb; der desto/umso-Teil beginnt mit desto/umso + Komparativ, dann folgt das Verb.",
+      "instructionsEn": "Put the tiles in order. The je-clause ends with its verb; the desto/umso-clause starts with desto/umso + comparative, then the verb.",
+      "title": "je … desto / umso — Satzbau"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Je nach"
+          ],
+          "2": [
+            "Je nachdem"
+          ],
+          "3": [
+            "desto",
+            "umso"
+          ],
+          "4": [
+            "Je nach"
+          ],
+          "5": [
+            "Je nachdem"
+          ],
+          "6": [
+            "desto",
+            "umso"
+          ],
+          "7": [
+            "je nach"
+          ],
+          "8": [
+            "Je nachdem"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Wetter machen wir eine Radtour oder wir bleiben zu Hause.\n2. {2}, ob es regnet, machen wir eine Radtour oder wir bleiben zu Hause.\n3. Je mehr Gemüse du isst, {3} gesünder lebst du.\n4. {4} Saison kosten die Erdbeeren mehr oder weniger.\n5. {5}, wie viel Zeit ich habe, koche ich selbst oder bestelle etwas.\n6. Je weniger Zucker man isst, {6} besser ist es für die Zähne.\n7. Die Preise sind {7} Anbieter sehr unterschiedlich.\n8. {8}, wen du fragst, bekommst du eine andere Antwort.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze je nach (+ Nomen), je nachdem (+ Nebensatz) oder desto/umso (2. Teil der Wechselbeziehung).",
+      "instructionsEn": "Fill in je nach (+ noun), je nachdem (+ clause), or desto/umso (second half of the je … construction).",
+      "title": "je nach, je nachdem oder desto/umso?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Je nachdem, wie das Wetter ist, gehen wir wandern oder ins Kino.",
+            "tiles": [
+              "Je nachdem,",
+              "wie das Wetter",
+              "ist,",
+              "gehen",
+              "wir wandern oder ins Kino."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Je nachdem, ob ich Frühschicht habe, stehe ich um fünf oder um acht auf.",
+            "tiles": [
+              "Je nachdem,",
+              "ob ich Frühschicht",
+              "habe,",
+              "stehe",
+              "ich um fünf oder um acht auf."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Je nachdem, wie viel Geld übrig ist, fahren wir in den Urlaub oder bleiben hier.",
+            "tiles": [
+              "Je nachdem,",
+              "wie viel Geld",
+              "übrig ist,",
+              "fahren",
+              "wir in den Urlaub oder bleiben hier."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Der Preis ändert sich, je nachdem, wie früh man bucht. (je nachdem kann auch hinten stehen.)",
+            "tiles": [
+              "Der Preis ändert sich,",
+              "je nachdem,",
+              "wie früh",
+              "man",
+              "bucht."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A3",
+      "instructions": "Bring die Kacheln in die richtige Reihenfolge. Nach je nachdem, ob/wie/… steht das Verb am Ende des Nebensatzes; danach beginnt der Hauptsatz mit dem Verb (Verb-Zweit).",
+      "instructionsEn": "Put the tiles in order. After je nachdem, ob/wie/… the verb goes to the end of the clause; the main clause then starts with its verb (verb-second).",
+      "title": "je nachdem — Nebensatz mit Verb am Ende"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Je nach"
+          ],
+          "2": [
+            "Je"
+          ],
+          "3": [
+            "desto"
+          ],
+          "4": [
+            "Je nachdem"
+          ],
+          "5": [
+            "Je"
+          ],
+          "6": [
+            "umso"
+          ],
+          "7": [
+            "je nach"
+          ],
+          "8": [
+            "Je nachdem"
+          ]
+        },
+        "bank": [
+          "Je nach",
+          "Je",
+          "desto",
+          "Je nachdem",
+          "Je",
+          "umso",
+          "je nach",
+          "Je nachdem",
+          "wenn",
+          "obwohl"
+        ],
+        "text": "Wie ich zur Arbeit komme, hängt vom Tag ab. {1} Wetter fahre ich\nmit dem Rad oder mit der Bahn. {2} früher ich losfahre, {3} leerer\nsind die Straßen. {4}, ob ich einen Termin habe, nehme ich das Auto\noder den Bus. {5} mehr Leute im Homeoffice bleiben, {6} entspannter\nwird der Verkehr. Die Fahrtzeit ist {7} Uhrzeit sehr verschieden.\n{8}, wie voll die Bahn ist, stehe ich oder finde einen Sitzplatz.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter bleiben übrig.",
+      "instructionsEn": "Fill the 8 gaps with the words from the box. Two words are left over.",
+      "title": "Lückentext: Mein Arbeitsweg"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Desto"
+              },
+              {
+                "key": "b",
+                "text": "Je"
+              },
+              {
+                "key": "c",
+                "text": "So"
+              }
+            ],
+            "q": "___ mehr man übt, desto leichter wird es.",
+            "why": "Erster Teil der Wechselbeziehung → Je + Komparativ."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "je"
+              },
+              {
+                "key": "b",
+                "text": "als"
+              },
+              {
+                "key": "c",
+                "text": "desto"
+              }
+            ],
+            "q": "Je mehr man übt, ___ leichter wird es.",
+            "why": "Zweiter Teil → desto (oder umso) + Komparativ."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Je nach"
+              },
+              {
+                "key": "b",
+                "text": "Je nachdem"
+              },
+              {
+                "key": "c",
+                "text": "Je"
+              }
+            ],
+            "q": "___ Jahreszeit gibt es anderes Obst.",
+            "why": "Vor einem Nomen (Jahreszeit) → je nach + Dativ."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Je nach"
+              },
+              {
+                "key": "b",
+                "text": "Je"
+              },
+              {
+                "key": "c",
+                "text": "Je nachdem"
+              }
+            ],
+            "q": "___, ob es billiger ist, kaufe ich frisch oder tiefgekühlt.",
+            "why": "Vor einem Nebensatz mit ob → je nachdem."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Je nachdem."
+              },
+              {
+                "key": "b",
+                "text": "Je nach."
+              },
+              {
+                "key": "c",
+                "text": "Je mehr."
+              }
+            ],
+            "q": "Frage: Kommst du mit ins Schwimmbad? — Kurzantwort: ___",
+            "why": "Die Kurzantwort Je nachdem. bedeutet: das hängt davon ab."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "je nachdem"
+              },
+              {
+                "key": "b",
+                "text": "je nach"
+              },
+              {
+                "key": "c",
+                "text": "je"
+              }
+            ],
+            "q": "Die Miete ist ___ Stadtteil sehr unterschiedlich.",
+            "why": "Vor dem Nomen Stadtteil → je nach + Dativ."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "desto"
+              },
+              {
+                "key": "b",
+                "text": "je"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Je später der Zug kommt, ___ voller ist der Bahnsteig.",
+            "why": "Zweiter Teil → desto/umso."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Je nach"
+              },
+              {
+                "key": "b",
+                "text": "Je nachdem"
+              },
+              {
+                "key": "c",
+                "text": "Je"
+              }
+            ],
+            "q": "___, wie das Meeting läuft, bin ich um sechs oder erst um acht zu Hause.",
+            "why": "Vor dem Nebensatz mit wie → je nachdem, Verb (läuft) am Ende."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Lösung (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "je / desto / umso / je nach / je nachdem?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Desto"
+              },
+              {
+                "key": "b",
+                "text": "Wenn"
+              },
+              {
+                "key": "c",
+                "text": "Je"
+              }
+            ],
+            "q": "___ regelmäßiger du lernst, desto schneller machst du Fortschritte.",
+            "why": "Erster Teil → Je + Komparativ."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "je"
+              },
+              {
+                "key": "b",
+                "text": "desto"
+              },
+              {
+                "key": "c",
+                "text": "so"
+              }
+            ],
+            "q": "Je mehr Wörter du kennst, ___ leichter verstehst du Texte.",
+            "why": "Zweiter Teil → desto/umso."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Je nachdem"
+              },
+              {
+                "key": "b",
+                "text": "Je"
+              },
+              {
+                "key": "c",
+                "text": "Je nach"
+              }
+            ],
+            "q": "___ Lerntyp helfen Karteikarten, Videos oder Podcasts.",
+            "why": "Vor dem Nomen Lerntyp → je nach + Dativ."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Je nachdem"
+              },
+              {
+                "key": "b",
+                "text": "Je nach"
+              },
+              {
+                "key": "c",
+                "text": "Desto"
+              }
+            ],
+            "q": "___, wie viel Zeit du hast, lernst du 10 Minuten oder eine Stunde.",
+            "why": "Vor dem Nebensatz mit wie → je nachdem."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "je"
+              },
+              {
+                "key": "b",
+                "text": "als"
+              },
+              {
+                "key": "c",
+                "text": "umso"
+              }
+            ],
+            "q": "Je weniger Angst du vor Fehlern hast, ___ mehr sprichst du.",
+            "why": "Zweiter Teil → umso (= desto)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "je nachdem"
+              },
+              {
+                "key": "b",
+                "text": "je nach"
+              },
+              {
+                "key": "c",
+                "text": "je"
+              }
+            ],
+            "q": "Die passende Methode ist ___ Ziel unterschiedlich.",
+            "why": "Vor dem Nomen Ziel → je nach + Dativ."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Je nachdem"
+              },
+              {
+                "key": "b",
+                "text": "Je nach"
+              },
+              {
+                "key": "c",
+                "text": "Je"
+              }
+            ],
+            "q": "___, ob du für den Beruf oder für eine Reise lernst, brauchst du anderen Wortschatz.",
+            "why": "Vor dem Nebensatz mit ob → je nachdem."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "je"
+              },
+              {
+                "key": "b",
+                "text": "desto"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Je öfter du das Gelernte wiederholst, ___ besser bleibt es im Kopf.",
+            "why": "Zweiter Teil → desto/umso."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle für jede Lücke die richtige Lösung (a, b oder c).",
+      "instructionsEn": "Choose the correct option for each gap (a, b, or c).",
+      "title": "Sprachbausteine Teil 1 — Tipps zum Sprachenlernen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "je nach"
+          ],
+          "2": [
+            "Je nachdem"
+          ],
+          "3": [
+            "Je"
+          ],
+          "4": [
+            "desto"
+          ],
+          "5": [
+            "je nach"
+          ],
+          "6": [
+            "Je"
+          ],
+          "7": [
+            "umso"
+          ],
+          "8": [
+            "Je nachdem"
+          ],
+          "9": [
+            "je nach"
+          ],
+          "10": [
+            "Je"
+          ]
+        },
+        "bank": [
+          "je nach",
+          "Je nachdem",
+          "Je",
+          "desto",
+          "je nach",
+          "Je",
+          "umso",
+          "Je nachdem",
+          "je nach",
+          "Je",
+          "wenn",
+          "obwohl",
+          "trotzdem"
+        ],
+        "text": "Meine Einkaufsliste sieht {1} Wochentag anders aus. {2}, ob ich\nGäste erwarte, wird die Liste länger oder kürzer. {3} genauer ich\nplane, {4} weniger werfe ich am Ende weg. Das Angebot ist {5}\nSupermarkt verschieden, deshalb vergleiche ich die Preise. {6} mehr\nich auf Prospekte achte, {7} mehr spare ich. {8}, wie voll der\nLaden ist, gehe ich morgens oder abends. Frisches Obst nehme ich\n{9} Jahreszeit. {10} später es wird, umso weniger Auswahl gibt es\nbeim Bäcker.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fülle die 10 Lücken. Drei Wörter im Kasten bleiben übrig.",
+      "instructionsEn": "Fill the 10 gaps. Three words in the box are left over.",
+      "title": "Sprachbausteine Teil 2 — Einkaufen mit Plan (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Je mehr du liest, desto größer wird dein Wortschatz.",
+            "tiles": [
+              "Je mehr",
+              "du",
+              "liest,",
+              "desto größer",
+              "wird",
+              "dein Wortschatz."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Je nachdem, ob es regnet, nehme ich einen Schirm mit.",
+            "tiles": [
+              "Je nachdem,",
+              "ob es regnet,",
+              "nehme",
+              "ich einen Schirm mit."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Je nach Region schmeckt das Brot anders. (je nach + Nomen, kein Verb im je-Teil.)",
+            "tiles": [
+              "Je nach Region",
+              "schmeckt",
+              "das Brot",
+              "anders."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Je weniger ich aufräume, umso länger dauert es später.",
+            "tiles": [
+              "Je weniger",
+              "ich",
+              "aufräume,",
+              "umso länger",
+              "dauert",
+              "es später."
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Wie lange die Fahrt dauert, ist je nach Verkehr verschieden.",
+            "tiles": [
+              "Wie lange die Fahrt dauert,",
+              "ist",
+              "je nach Verkehr",
+              "verschieden."
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "D1",
+      "instructions": "Bring die Kacheln in die richtige Reihenfolge.",
+      "instructionsEn": "Put the tiles in the correct order.",
+      "title": "Wiederholung: Satzbau gemischt"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Desto"
+              },
+              {
+                "key": "b",
+                "text": "Umso"
+              },
+              {
+                "key": "c",
+                "text": "Je"
+              }
+            ],
+            "q": "___ mehr Zeit du investierst, desto besser wird das Ergebnis.",
+            "why": "Erster Teil → Je + Komparativ."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "desto"
+              },
+              {
+                "key": "b",
+                "text": "je"
+              },
+              {
+                "key": "c",
+                "text": "so"
+              }
+            ],
+            "q": "Je mehr Zeit du investierst, ___ besser wird das Ergebnis.",
+            "why": "Zweiter Teil → desto (oder umso)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "je nachdem"
+              },
+              {
+                "key": "b",
+                "text": "je"
+              },
+              {
+                "key": "c",
+                "text": "je nach"
+              }
+            ],
+            "q": "Der Eintritt kostet ___ Alter mehr oder weniger.",
+            "why": "Vor dem Nomen Alter → je nach + Dativ."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Je nachdem"
+              },
+              {
+                "key": "b",
+                "text": "Je nach"
+              },
+              {
+                "key": "c",
+                "text": "Je"
+              }
+            ],
+            "q": "___, ob du Student bist, zahlst du den vollen oder den halben Preis.",
+            "why": "Vor dem Nebensatz mit ob → je nachdem."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Je nach."
+              },
+              {
+                "key": "b",
+                "text": "Je nachdem."
+              },
+              {
+                "key": "c",
+                "text": "Je länger."
+              }
+            ],
+            "q": "Frage: Bleibst du zum Essen? — Kurzantwort: ___",
+            "why": "Die Kurzantwort Je nachdem. bedeutet: das kommt darauf an."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "desto"
+              },
+              {
+                "key": "b",
+                "text": "je"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "Je später es wird, ___ ruhiger wird die Straße.",
+            "why": "Zweiter Teil → desto/umso."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Wähle die richtige Lösung (a, b oder c). Das ist dein Abschlusscheck für dieses Set.",
+      "instructionsEn": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-22-je-konstruktionen-b1",
+  "intro": "Drei Strukturen mit je, die man leicht verwechselt. je … desto/umso + Komparativ drückt eine Wechselbeziehung aus (Je mehr ich lerne, desto besser verstehe ich es.): Der je-Teil ist ein Nebensatz mit Verb am Ende, der desto/umso-Teil hat Verb-Zweit — desto + Komparativ steht auf Position 1, dann kommt das Verb. je nachdem, ob / wie / wann / wer … ist eine Nebensatz-Konjunktion (es kommt darauf an) und hat das Verb am Ende; allein stehend heißt Je nachdem. so viel wie das hängt davon ab. je nach ist dagegen eine Präposition mit Dativ und steht vor einem Nomen ohne Verb: je nach Wetter, je nach Situation. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/22-je-konstruktionen-b1",
+  "level": "B1",
+  "summary": null,
+  "title": "je … desto, je nachdem, je nach — B1",
+  "topic": "Je-Konstruktionen"
+}

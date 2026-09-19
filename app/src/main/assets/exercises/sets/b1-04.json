@@ -1,0 +1,1591 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "Pronomen",
+          "machen → gemacht",
+          "bauen → gebaut",
+          "prüfen → geprüft"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "werde gemacht"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "werde gebaut"
+                ],
+                "gap": 2
+              },
+              {
+                "answer": [
+                  "werde geprüft"
+                ],
+                "gap": 3
+              }
+            ],
+            "label": "ich"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "wirst gemacht"
+                ],
+                "gap": 4
+              },
+              {
+                "answer": [
+                  "wirst gebaut"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "wirst geprüft"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "du"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "wird gemacht"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "wird gebaut"
+                ],
+                "gap": 8
+              },
+              {
+                "answer": [
+                  "wird geprüft"
+                ],
+                "gap": 9
+              }
+            ],
+            "label": "er/sie/es"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "werden gemacht"
+                ],
+                "gap": 10
+              },
+              {
+                "answer": [
+                  "werden gebaut"
+                ],
+                "gap": 11
+              },
+              {
+                "answer": [
+                  "werden geprüft"
+                ],
+                "gap": 12
+              }
+            ],
+            "label": "wir"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "werdet gemacht"
+                ],
+                "gap": 13
+              },
+              {
+                "answer": [
+                  "werdet gebaut"
+                ],
+                "gap": 14
+              },
+              {
+                "answer": [
+                  "werdet geprüft"
+                ],
+                "gap": 15
+              }
+            ],
+            "label": "ihr"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "werden gemacht"
+                ],
+                "gap": 16
+              },
+              {
+                "answer": [
+                  "werden gebaut"
+                ],
+                "gap": 17
+              },
+              {
+                "answer": [
+                  "werden geprüft"
+                ],
+                "gap": 18
+              }
+            ],
+            "label": "sie/Sie"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Fill in the Passiv Präsens conjugation table for three verbs. The Partizip II is given.",
+      "title": "Passiv Präsens — Konjugationstabelle"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "werden"
+          ],
+          "2": [
+            "wird"
+          ],
+          "3": [
+            "werden"
+          ],
+          "4": [
+            "wird"
+          ],
+          "5": [
+            "wird"
+          ],
+          "6": [
+            "wirst"
+          ],
+          "7": [
+            "werden"
+          ],
+          "8": [
+            "werden"
+          ]
+        },
+        "text": "1. Die Daten {1} täglich gesichert.\n2. Der Bericht {2} von der Software erstellt.\n3. Alle Mitarbeiter {3} über die neue Regelung informiert.\n4. Das Produkt {4} in Deutschland hergestellt.\n5. Die Qualität {5} von Technikern überprüft.\n6. Du {6} vom Chef persönlich begrüßt.\n7. Wir {7} täglich mit neuen Aufgaben konfrontiert.\n8. Die Fehler {8} sofort korrigiert.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Fill each gap with the correct Passiv Präsens form (werden + Partizip II). 8 items.",
+      "title": "Passiv Präsens — Lücken füllen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "wird"
+          ],
+          "3": [
+            "werden"
+          ],
+          "4": [
+            "werden"
+          ],
+          "5": [
+            "wird"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "wird"
+          ],
+          "8": [
+            "werden"
+          ]
+        },
+        "text": "1. Die Firma prüft den Bericht. → Der Bericht {1} (von der Firma) geprüft.\n2. Ein Roboter baut das Auto. → Das Auto {2} von einem Roboter gebaut.\n3. Man verarbeitet die Rohstoffe. → Die Rohstoffe {3} verarbeitet.\n4. Die Techniker kontrollieren die Bauteile. → Die Bauteile {4} von den Technikern kontrolliert.\n5. Die Software erstellt den Report. → Der Report {5} von der Software erstellt.\n6. Das Team entwickelt das Programm. → Das Programm {6} vom Team entwickelt.\n7. Man genehmigt den Antrag. → Der Antrag {7} genehmigt.\n8. Die Schulen unterrichten die Kinder. → Die Kinder {8} von den Schulen unterrichtet.\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Transform the active sentence into the Passiv Präsens. The object becomes the subject. Fill in the passive form. 8 items.",
+      "title": "Aktiv → Passiv Präsens"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "wurde"
+          ],
+          "2": [
+            "wurden"
+          ],
+          "3": [
+            "wurden"
+          ],
+          "4": [
+            "wurde"
+          ],
+          "5": [
+            "wurde"
+          ],
+          "6": [
+            "wurden"
+          ]
+        },
+        "text": "1. Das Gesetz {1} 2019 geändert.\n2. Die ersten Elektroautos {2} in den 1990er Jahren hergestellt.\n3. Die Mitarbeiter {3} nicht rechtzeitig informiert.\n4. Das Gebäude {4} 2018 von einem bekannten Architekten entworfen.\n5. Das neue System {5} ohne Schulung eingeführt.\n6. Viele Fehler {6} in dem alten Bericht gefunden.\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Fill each gap with the correct Passiv Präteritum form (wurde/wurden + Partizip II). 6 items.",
+      "title": "Passiv Präteritum — wurde + Partizip II"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "ist"
+          ],
+          "2": [
+            "sind"
+          ],
+          "3": [
+            "ist"
+          ],
+          "4": [
+            "ist"
+          ],
+          "5": [
+            "sind"
+          ],
+          "6": [
+            "ist"
+          ]
+        },
+        "text": "1. Das neue Kulturzentrum {1} heute eröffnet worden.\n2. Alle Teammitglieder {2} bereits benachrichtigt worden.\n3. Die Batteriekapazität {3} erheblich gesteigert worden.\n4. Der Fehler {4} sofort gemeldet worden.\n5. Die Schulungen {5} letzte Woche durchgeführt worden.\n6. Das Gesetz {6} noch nicht verabschiedet worden.\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Fill each gap with the correct Passiv Perfekt form (sein + Partizip II + worden). Write the complete verb group. 6 items.",
+      "title": "Passiv Perfekt — ist … worden"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "können"
+          ],
+          "3": [
+            "sollen"
+          ],
+          "4": [
+            "darf"
+          ],
+          "5": [
+            "muss"
+          ],
+          "6": [
+            "soll"
+          ]
+        },
+        "text": "1. Der Bericht {1} vorher überprüft werden. (müssen)\n2. Die Daten {2} automatisch gespeichert werden. (können)\n3. Alle Fehler {3} sofort gemeldet werden. (sollen)\n4. Das Gebäude {4} nicht betreten werden. (dürfen)\n5. Die Genehmigung {5} beantragt werden. (müssen)\n6. Das System {6} bis Freitag aktualisiert werden. (sollen)\n",
+        "type": "gap-text"
+      },
+      "id": "A6",
+      "instructions": "Fill each gap with the correct Modal + Passiv construction. The modal verb is given. 6 items.",
+      "title": "Passiv mit Modalverben"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "werden"
+          ],
+          "2": [
+            "wurde"
+          ],
+          "3": [
+            "sind"
+          ],
+          "4": [
+            "darf"
+          ],
+          "5": [
+            "wurden"
+          ],
+          "6": [
+            "muss"
+          ]
+        },
+        "text": "1. Jeden Tag [Präsens — current ongoing process] die Produkte von Robotern zusammengesetzt.\n→ Die Produkte {1} von Robotern zusammengesetzt.\n2. Letztes Jahr [Präteritum — past event] das neue Gesetz verabschiedet.\n→ Das neue Gesetz {2} verabschiedet.\n3. Bisher [Perfekt — up to now] alle Berichte manuell erstellt worden.\n→ Alle Berichte {3} bisher manuell erstellt worden.\n4. In diesem Bereich [Modal Präsens — rule] nicht geraucht werden.\n→ In diesem Bereich {4} nicht geraucht werden.\n5. Gestern [Präteritum — past] die Mitarbeiter über die neuen Regeln informiert.\n→ Die Mitarbeiter {5} über die neuen Regeln informiert.\n6. Die Qualität [Modal Präsens — obligation] täglich überprüft werden.\n→ Die Qualität {6} täglich überprüft werden.\n",
+        "type": "gap-text"
+      },
+      "id": "A7",
+      "instructions": "Choose the correct passive form from context (Präsens / Präteritum / Perfekt / Modal). 6 items.",
+      "title": "Gemischte Passivformen — richtigen Zeitform wählen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              1,
+              2,
+              0,
+              3,
+              4,
+              5
+            ],
+            "note": "Das Auto wird von Robotern gebaut.",
+            "tiles": [
+              "wird",
+              "das",
+              "Auto",
+              "von",
+              "Robotern",
+              "gebaut"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              2,
+              0,
+              3,
+              4
+            ],
+            "note": "Die Mitarbeiter wurden nicht informiert.",
+            "tiles": [
+              "wurden",
+              "die",
+              "Mitarbeiter",
+              "nicht",
+              "informiert"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              2,
+              0,
+              3,
+              4,
+              5
+            ],
+            "note": "Der Fehler muss sofort gemeldet werden.",
+            "tiles": [
+              "muss",
+              "der",
+              "Fehler",
+              "sofort",
+              "gemeldet",
+              "werden"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              2,
+              0,
+              3,
+              4,
+              5
+            ],
+            "note": "Das Gesetz ist bereits geändert worden.",
+            "tiles": [
+              "ist",
+              "das",
+              "Gesetz",
+              "bereits",
+              "geändert",
+              "worden"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A8",
+      "instructions": "Put the words in the correct order to build a passive sentence.",
+      "title": "Satzbau — Passiv-Sätze rekonstruieren"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Das Buch ist geschrieben geworden.",
+            "why": "Passiv Perfekt uses worden, not geworden. Correct: Das Buch ist geschrieben worden."
+          },
+          {
+            "answer": true,
+            "q": "Die Daten werden täglich gesichert.",
+            "why": "Passiv Präsens: werden + Partizip II. Correct form."
+          },
+          {
+            "answer": true,
+            "q": "Das Gebäude ist 2020 gebaut worden.",
+            "why": "Passiv Perfekt: ist + Partizip II + worden. Correct."
+          },
+          {
+            "answer": false,
+            "q": "Die Mitarbeiter wurden informiert geworden.",
+            "why": "Passiv Präteritum does not use geworden. Correct: Die Mitarbeiter wurden informiert."
+          },
+          {
+            "answer": true,
+            "q": "Der Fehler muss gemeldet werden.",
+            "why": "Modal + Partizip II + werden (infinitive). Correct structure."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "A9",
+      "instructions": "Is the passive form correct? Decide: Richtig (R) oder Falsch (F)?",
+      "title": "Passivformen überprüfen — richtig oder falsch?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "von den Robotern"
+          ],
+          "2": [
+            "von der Controllerin"
+          ],
+          "3": [
+            "von einem kleinen Team"
+          ],
+          "4": [
+            "vom Amt"
+          ],
+          "5": [
+            "von einem externen Trainer"
+          ],
+          "6": [
+            "von einer bekannten Architektin"
+          ]
+        },
+        "text": "1. Das Auto wird ___ gebaut. (die Roboter)\n→ Das Auto wird {1} gebaut.\n2. Der Bericht wird ___ überprüft. (die Controllerin)\n→ Der Bericht wird {2} überprüft.\n3. Das System wurde ___ entwickelt. (ein kleines Team)\n→ Das System wurde {3} entwickelt.\n4. Die Genehmigung wird ___ erteilt. (das Amt)\n→ Die Genehmigung wird {4} erteilt.\n5. Die Schulung wurde ___ durchgeführt. (ein externer Trainer)\n→ Die Schulung wurde {5} durchgeführt.\n6. Das Gebäude ist ___ entworfen worden. (eine bekannte Architektin)\n→ Das Gebäude ist {6} entworfen worden.\n",
+        "type": "gap-text"
+      },
+      "id": "A10",
+      "instructions": "Add the agent phrase (von + Dativ) to each passive sentence. Use the cue in brackets. 6 items.",
+      "title": "Agentphrase — von + Dativ"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "werden"
+          ],
+          "2": [
+            "werden"
+          ],
+          "3": [
+            "wurde"
+          ],
+          "4": [
+            "ist"
+          ],
+          "5": [
+            "müssen"
+          ],
+          "6": [
+            "muss"
+          ]
+        },
+        "text": "Frau Weber erklärt den neuen Prozess:\n1. Ab nächsten Monat {1} alle Berichte automatisch erstellt. (Passiv Präsens)\n2. Die Daten {2} aus dem CRM-System gezogen. (Passiv Präsens)\n3. Früher {3} alles manuell gemacht. (Passiv Präteritum)\n4. Jetzt {4} die Arbeitszeit durch das neue System reduziert worden. (Passiv Perfekt)\n5. Alle Fehler {5} sofort gemeldet werden. (müssen + Passiv)\n6. Der Bericht {6} bis zum 5. abgeschlossen werden. (Modal + Passiv)\n",
+        "type": "gap-text"
+      },
+      "id": "B1",
+      "instructions": "Complete the dialogue about a new office process. Fill in the correct passive form.",
+      "title": "Dialoglücken: Büroprozess beschreiben"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Das Buch ist geschrieben worden."
+          ],
+          "2": [
+            "Die Mitarbeiter wurden informiert."
+          ],
+          "3": [
+            "Das System wird von der Firma entwickelt."
+          ],
+          "4": [
+            "Der Fehler muss gemeldet werden."
+          ],
+          "5": [
+            "Das Gebäude wurde entworfen."
+          ],
+          "6": [
+            "Die Daten werden jeden Tag gesichert."
+          ]
+        },
+        "text": "1. Das Buch ist geschrieben geworden. → {1}\n2. Die Mitarbeiter wurden informiert geworden. → {2}\n3. Das System wird von dem Firma entwickelt. → {3}\n4. Der Fehler muss gemeldet sein. → {4}\n5. Das Gebäude wurde entworfen worden. → {5}\n6. Die Daten wirst jeden Tag gesichert. → {6}\n",
+        "type": "gap-text"
+      },
+      "id": "B2",
+      "instructions": "Each sentence contains one error. Write the corrected sentence (or just the corrected word/phrase).",
+      "title": "Finde den Fehler — Passivformen korrigieren"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ist … geändert worden"
+              },
+              {
+                "key": "b",
+                "text": "wurde … geändert"
+              },
+              {
+                "key": "c",
+                "text": "wird … geändert worden"
+              }
+            ],
+            "q": "Das Gesetz ___ letztes Jahr ___.",
+            "why": "Letztes Jahr = Präteritum context → Passiv Präteritum: wurde + Partizip II."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "muss … werden"
+              },
+              {
+                "key": "b",
+                "text": "muss … sein"
+              },
+              {
+                "key": "c",
+                "text": "muss … geworden"
+              }
+            ],
+            "q": "Die Genehmigung ___ beantragt ___.",
+            "why": "Modal + Passiv = Modal + Partizip II + werden (infinitive)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "wurde … abgeschlossen worden"
+              },
+              {
+                "key": "b",
+                "text": "ist … abgeschlossen worden"
+              },
+              {
+                "key": "c",
+                "text": "ist … abgeschlossen geworden"
+              }
+            ],
+            "q": "Der Bericht ___ bereits ___.",
+            "why": "Passiv Perfekt = ist + Partizip II + worden (NOT geworden)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "wurde … überprüft"
+              },
+              {
+                "key": "b",
+                "text": "wird … überprüft"
+              },
+              {
+                "key": "c",
+                "text": "ist … überprüft worden"
+              }
+            ],
+            "q": "Täglich ___ die Qualität von Technikern ___.",
+            "why": "Täglich = ongoing, present → Passiv Präsens: wird + Partizip II."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "ist … entworfen"
+              },
+              {
+                "key": "b",
+                "text": "wird … entworfen"
+              },
+              {
+                "key": "c",
+                "text": "wurde … entworfen"
+              }
+            ],
+            "q": "Das Gebäude ___ 2019 von einer Architektin ___.",
+            "why": "2019 = past date → Passiv Präteritum: wurde + Partizip II."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "dürfen … übersehen … werden"
+              },
+              {
+                "key": "b",
+                "text": "dürfen … übersehen … sein"
+              },
+              {
+                "key": "c",
+                "text": "müssen … übersehen … werden"
+              }
+            ],
+            "q": "Fehler ___ in diesem Schritt nicht ___ ___.",
+            "why": "dürfen nicht + Passiv = dürfen + Partizip II + werden. müssen would mean the opposite."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B3",
+      "instructions": "Choose the correct passive structure (a, b, or c).",
+      "title": "Richtige Passivstruktur wählen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Die Firma baut das Auto."
+          },
+          {
+            "key": "2",
+            "text": "Man hat den Fehler gefunden."
+          },
+          {
+            "key": "3",
+            "text": "Ein Team entwickelte das Programm."
+          },
+          {
+            "key": "4",
+            "text": "Die Schulen müssen die Kinder unterrichten."
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Das Auto wird von der Firma gebaut."
+          },
+          {
+            "key": "b",
+            "text": "Der Fehler ist gefunden worden."
+          },
+          {
+            "key": "c",
+            "text": "Das Programm wurde von einem Team entwickelt."
+          },
+          {
+            "key": "d",
+            "text": "Die Kinder müssen von den Schulen unterrichtet werden."
+          },
+          {
+            "key": "e",
+            "text": "Das Auto ist von der Firma gebaut worden."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B4",
+      "instructions": "Match each active sentence (left) with its correct passive equivalent (right).",
+      "title": "Aktiv- und Passivsätze verbinden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Die Rohstoffe werden aus mehreren Ländern importiert.",
+            "tiles": [
+              "Die",
+              "Rohstoffe",
+              "werden",
+              "aus",
+              "mehreren",
+              "Ländern",
+              "importiert"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Das Programm ist von einem kleinen Team entwickelt worden.",
+            "tiles": [
+              "Das",
+              "Programm",
+              "ist",
+              "von",
+              "einem",
+              "kleinen",
+              "Team",
+              "entwickelt",
+              "worden"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              2,
+              0,
+              3,
+              4,
+              5
+            ],
+            "note": "Die Produktion kann schnell gesteigert werden.",
+            "tiles": [
+              "kann",
+              "Die",
+              "Produktion",
+              "schnell",
+              "gesteigert",
+              "werden"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              2,
+              0,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Alle Mitarbeiter wurden über die neue Regelung informiert.",
+            "tiles": [
+              "wurden",
+              "Alle",
+              "Mitarbeiter",
+              "über",
+              "die",
+              "neue",
+              "Regelung",
+              "informiert"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B5",
+      "instructions": "Put the words in the correct order to form grammatically correct passive sentences.",
+      "title": "Passiv-Wortstellung: Sätze ordnen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "wurde"
+          ],
+          "2": [
+            "ist"
+          ],
+          "3": [
+            "wird"
+          ],
+          "4": [
+            "soll"
+          ],
+          "5": [
+            "ist"
+          ],
+          "6": [
+            "werden"
+          ]
+        },
+        "text": "1. Das neue Gesetz {1} gestern vom Parlament verabschiedet. (Passiv Prät.)\n2. Die Eröffnung {2} wegen schlechten Wetters verschoben worden. (Passiv Perf.)\n3. Heute {3} bekannt gegeben, dass die Preise steigen. (Passiv Präs.)\n4. Die neue Brücke {4} nächstes Jahr fertiggestellt werden. (soll + Passiv)\n5. Die Regelung {5} 2022 geändert worden. (Passiv Perf.)\n6. Alle Tickets {6} bereits online verkauft. (Passiv Präs.)\n",
+        "type": "gap-text"
+      },
+      "id": "B6",
+      "instructions": "Complete each news-style passive sentence with the correct form. 6 items.",
+      "title": "Nachrichtensprache — Passivsätze vervollständigen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "muss"
+          ],
+          "2": [
+            "können"
+          ],
+          "3": [
+            "soll"
+          ],
+          "4": [
+            "darf"
+          ],
+          "5": [
+            "musste"
+          ],
+          "6": [
+            "soll"
+          ]
+        },
+        "text": "1. Man muss den Fehler sofort melden.\n→ Der Fehler {1} sofort gemeldet werden.\n2. Man kann die Daten automatisch speichern.\n→ Die Daten {2} automatisch gespeichert werden.\n3. Man soll den Prozess bis Freitag abschließen.\n→ Der Prozess {3} bis Freitag abgeschlossen werden.\n4. Man darf das Gebäude nach 22 Uhr nicht betreten.\n→ Das Gebäude {4} nach 22 Uhr nicht betreten werden.\n5. Man musste früher alles manuell prüfen.\n→ Früher {5} alles manuell geprüft werden.\n6. Man soll den Bericht nochmals überarbeiten.\n→ Der Bericht {6} nochmals überarbeitet werden.\n",
+        "type": "gap-text"
+      },
+      "id": "B7",
+      "instructions": "Transform each active modal sentence into a passive one. Fill in the full passive clause. 6 items.",
+      "title": "Modal + Passiv — Transformationen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Aus mehreren Ländern."
+              },
+              {
+                "key": "b",
+                "text": "Aus Deutschland."
+              },
+              {
+                "key": "c",
+                "text": "Aus China."
+              }
+            ],
+            "q": "Woher werden Lithium und Kobalt importiert?",
+            "why": "Text: Lithium und Kobalt werden aus mehreren Ländern importiert."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Von spezialisierten Technikern."
+              },
+              {
+                "key": "b",
+                "text": "Von Robotern."
+              },
+              {
+                "key": "c",
+                "text": "Von Ingenieuren."
+              }
+            ],
+            "q": "Von wem werden die Karosserieteile zusammengesetzt?",
+            "why": "Text: Sie werden von Robotern zusammengesetzt."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Ladezeit."
+              },
+              {
+                "key": "b",
+                "text": "Die Anzahl der Fabriken."
+              },
+              {
+                "key": "c",
+                "text": "Die Batteriekapazität."
+              }
+            ],
+            "q": "Was ist seit 2020 erheblich gesteigert worden?",
+            "why": "Text: Seit 2020 ist die Batteriekapazität erheblich gesteigert worden."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Erst wenn alle Prüfungen bestanden worden sind."
+              },
+              {
+                "key": "b",
+                "text": "Wenn der Roboter fertig ist."
+              },
+              {
+                "key": "c",
+                "text": "Wenn der Kunde bezahlt hat."
+              }
+            ],
+            "q": "Wann darf das Fahrzeug das Werk verlassen?",
+            "why": "Text: Erst wenn alle Prüfungen bestanden worden sind, darf das Fahrzeug das Werk verlassen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B8",
+      "instructions": "Answer the questions about the Lesetext (Wie ein Elektroauto entsteht).",
+      "title": "Leseverstehen: Lesetext — Passivformen verstehen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "werden"
+          ],
+          "2": [
+            "werden"
+          ],
+          "3": [
+            "wurden"
+          ],
+          "4": [
+            "werden"
+          ],
+          "5": [
+            "werden"
+          ],
+          "6": [
+            "werden"
+          ],
+          "7": [
+            "dürfen"
+          ],
+          "8": [
+            "wird"
+          ],
+          "9": [
+            "worden"
+          ],
+          "10": [
+            "wird"
+          ]
+        },
+        "text": "Elektroautos {1} heute in hochmodernen Fabriken hergestellt. Der Prozess\nbeginnt mit der Beschaffung der Rohstoffe: Lithium und Kobalt {2} aus mehreren\nLändern importiert und in spezialisierten Anlagen verarbeitet. Früher {3}\ndiese Materialien fast ausschließlich von Benzinmotoren-Herstellern genutzt.\nIn der Fabrik {4} zunächst die Karosserieteile aus Stahl und Aluminium\ngefertigt. Sie {5} von Robotern zusammengesetzt und anschließend von\nTechnikern überprüft. Jedes Bauteil muss sorgfältig geprüft {6}, bevor es\nweiterverarbeitet wird. Fehler {7} in diesem Stadium nicht übersehen werden.\nDie Batterie {8} separat gebaut und dann in das Fahrzeug eingebaut. Seit 2020\nist die Batteriekapazität erheblich gesteigert {9} — durch neue Materialien\nund verbesserte Produktionsverfahren. Am Ende {10} jedes Auto einem strengen\nTest unterzogen.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Read the text and fill each gap with ONE word.",
+      "title": "Lückentext: Wie ein Elektroauto entsteht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "wird"
+              },
+              {
+                "key": "b",
+                "text": "wurde"
+              },
+              {
+                "key": "c",
+                "text": "ist"
+              }
+            ],
+            "q": "Das Gebäude ___ letztes Jahr von einem internationalen Architekturbüro entworfen.",
+            "why": "Letztes Jahr = Passiv Präteritum: wurde + Partizip II."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "haben"
+              },
+              {
+                "key": "b",
+                "text": "wurden"
+              },
+              {
+                "key": "c",
+                "text": "sind"
+              }
+            ],
+            "q": "Alle Mitarbeiter ___ bereits über den neuen Prozess informiert worden.",
+            "why": "Passiv Perfekt uses sein: sind + Partizip II + worden."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "muss"
+              },
+              {
+                "key": "b",
+                "text": "wird"
+              },
+              {
+                "key": "c",
+                "text": "ist"
+              }
+            ],
+            "q": "Der Fehler ___ sofort gemeldet werden.",
+            "why": "Rule obligation: muss + Partizip II + werden (Modal + Passiv)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "bei"
+              },
+              {
+                "key": "b",
+                "text": "von"
+              },
+              {
+                "key": "c",
+                "text": "aus"
+              }
+            ],
+            "q": "Die Rohstoffe werden ___ mehreren Ländern importiert.",
+            "why": "aus mehreren Ländern = origin/source. von would introduce an agent (a person/entity)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "von"
+              },
+              {
+                "key": "b",
+                "text": "durch"
+              },
+              {
+                "key": "c",
+                "text": "mit"
+              }
+            ],
+            "q": "Das Buch ist ___ einem bekannten Autor geschrieben worden.",
+            "why": "Agent phrase: von + Dativ. von einem Autor (Dativ)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "hat"
+              },
+              {
+                "key": "b",
+                "text": "musste"
+              },
+              {
+                "key": "c",
+                "text": "wurde"
+              }
+            ],
+            "q": "Die Eröffnung ___ wegen Lieferproblemen verschoben werden.",
+            "why": "Past obligation: musste + Partizip II + werden. wurde would give Passiv Prät. without a modal."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Choose the correct word or phrase to fill each gap (a, b, or c).",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "WERDEN"
+          ],
+          "2": [
+            "WURDE"
+          ],
+          "3": [
+            "WERDEN"
+          ],
+          "4": [
+            "WERDEN"
+          ],
+          "5": [
+            "VERARBEITET"
+          ],
+          "6": [
+            "MUSS"
+          ],
+          "7": [
+            "MÜSSEN"
+          ],
+          "8": [
+            "SIND"
+          ],
+          "9": [
+            "WORDEN"
+          ],
+          "10": [
+            "IST"
+          ]
+        },
+        "bank": [
+          "WERDEN",
+          "WURDEN",
+          "WERDEN",
+          "WERDEN",
+          "VERARBEITET",
+          "MUSS",
+          "MÜSSEN",
+          "SIND",
+          "WORDEN",
+          "IST",
+          "WURDE",
+          "HATTE",
+          "DARF",
+          "SOLLTE",
+          "WIRD"
+        ],
+        "text": "In einer modernen Fabrik {1} die Produkte von Maschinen hergestellt. Früher\n{2} alles von Hand gemacht. Heute {3} viele Prozesse automatisiert. Die\nRohstoffe {4} aus verschiedenen Ländern importiert und dann in der Fabrik\n{5}. Jedes Produkt {6} am Ende kontrolliert werden. Fehler {7} sofort\ngemeldet werden. In den letzten Jahren {8} die Produktionskosten erheblich\ngesenkt {9}. Das neue System {10} letztes Jahr eingeführt worden.\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Fill the 10 gaps. Five words are not needed.",
+      "title": "Sprachbausteine Teil 2 (Wortbank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Lithium und Kobalt werden nur aus einem Land importiert.",
+            "why": "Text: werden aus mehreren Ländern importiert."
+          },
+          {
+            "answer": true,
+            "q": "Die Karosserieteile werden von Robotern zusammengesetzt.",
+            "why": "Text: Sie werden von Robotern zusammengesetzt."
+          },
+          {
+            "answer": false,
+            "q": "Seit 2020 ist die Ladezeit erheblich gesteigert worden.",
+            "why": "Die Batteriekapazität ist gesteigert worden, nicht die Ladezeit. Die Ladezeit ist verkürzt worden."
+          },
+          {
+            "answer": false,
+            "q": "Das Auto darf das Werk verlassen, sobald die Batterie eingebaut ist.",
+            "why": "Text: Erst wenn alle Prüfungen bestanden worden sind, darf das Fahrzeug das Werk verlassen."
+          },
+          {
+            "answer": true,
+            "q": "Fertige Autos werden in Händlernetzwerke ausgeliefert.",
+            "why": "Text: Das fertige Auto wird dann in Händlernetzwerke ausgeliefert."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "Read the Lesetext and decide: Richtig (R) oder Falsch (F)?",
+      "title": "Leseverstehen Teil 1: Wie ein Elektroauto entsteht (Richtig/Falsch)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Fotografieren."
+              },
+              {
+                "key": "b",
+                "text": "Das Telefonieren."
+              },
+              {
+                "key": "c",
+                "text": "Das Essen auf dem Museumsgelände."
+              }
+            ],
+            "q": "Was ist im Museum verboten?",
+            "why": "Text: Im Museum darf nicht fotografiert werden."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Täglich um 10 Uhr."
+              },
+              {
+                "key": "b",
+                "text": "Jeden Samstag um 10 Uhr."
+              },
+              {
+                "key": "c",
+                "text": "Jeden Sonntag um 10 Uhr."
+              }
+            ],
+            "q": "Wann werden Kinderführungen angeboten?",
+            "why": "Text: Kinderführungen werden jeden Samstag um 10 Uhr angeboten."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Ausstellungsräume."
+              },
+              {
+                "key": "b",
+                "text": "Die Kinderführungsräume."
+              },
+              {
+                "key": "c",
+                "text": "Der Eingang des Museums."
+              }
+            ],
+            "q": "Was wurde 2023 renoviert?",
+            "why": "Text: Der Eingang des Museums wurde 2023 renoviert."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sich mindestens zwei Wochen vorher anmelden."
+              },
+              {
+                "key": "b",
+                "text": "Einen Audioguide kaufen."
+              },
+              {
+                "key": "c",
+                "text": "Einen speziellen Gruppenausweis vorzeigen."
+              }
+            ],
+            "q": "Was müssen Gruppen von mehr als 15 Personen tun?",
+            "why": "Text: Gruppen von mehr als 15 Personen werden gebeten, sich mindestens zwei Wochen vorher anzumelden."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Read the following text and choose the correct answer (a, b, or c).\n\n**Besucherinformation — Stadtmuseum Berlin**\n\nIm Museum darf nicht fotografiert werden. Handys müssen auf lautlos gestellt werden, bevor der Ausstellungsraum betreten wird. Getränke und Speisen dürfen nicht in die Ausstellungsräume mitgenommen werden. Kinderführungen werden jeden Samstag um 10 Uhr angeboten und müssen im Voraus gebucht werden. Gruppen von mehr als 15 Personen werden gebeten, sich mindestens zwei Wochen vorher anzumelden. Der Eingang des Museums wurde 2023 renoviert und ist seitdem barrierefrei zugänglich gemacht worden.\n",
+      "title": "Leseverstehen Teil 2: Regeln im Museum"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "muss"
+          ],
+          "3": [
+            "ist"
+          ],
+          "4": [
+            "wurde"
+          ],
+          "5": [
+            "werden"
+          ],
+          "6": [
+            "muss"
+          ],
+          "7": [
+            "ist"
+          ],
+          "8": [
+            "wurde"
+          ],
+          "9": [
+            "darf"
+          ],
+          "10": [
+            "werden"
+          ],
+          "11": [
+            "Hätte"
+          ],
+          "12": [
+            "würde"
+          ],
+          "13": [
+            "hätten"
+          ],
+          "14": [
+            "durfte"
+          ],
+          "15": [
+            "sind"
+          ]
+        },
+        "text": "1. Das Auto {1} von Robotern gebaut. (Passiv Präsens)\n2. Der Fehler {2} sofort gemeldet werden. (muss + Passiv)\n3. Die Schulung {3} letzte Woche durchgeführt worden. (Passiv Perf.)\n4. Das Gesetz {4} 2021 geändert. (Passiv Prät.)\n5. Alle Berichte {5} automatisch erstellt. (Passiv Präsens)\n6. Die Genehmigung {6} beantragt werden. (muss + Passiv)\n7. Das System {7} von einem kleinen Team entwickelt worden. (Passiv Perf.)\n8. Früher {8} alles manuell gemacht. (Passiv Prät.)\n9. Das Gebäude {9} nicht betreten werden. (darf + Passiv)\n10. Die Rohstoffe {10} in spezialisierten Anlagen verarbeitet. (Passiv Präsens)\n11. {11} ich mehr Zeit, würde ich jeden Tag Deutsch üben. (B1/03 — Konjunktiv II)\n12. Er {12} gern in Berlin wohnen, aber er lebt in München. (B1/03 — würde)\n13. Wenn wir ein Auto {13}, könnten wir in den Urlaub fahren. (B1/03 — hätten)\n14. Das {14} nicht passieren! (Modal Prät. — kein Passiv: passieren ist intransitiv)\n15. Die Ergebnisse {15} veröffentlicht worden. (Passiv Perf.)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Fill each gap with the correct form. Items marked (B1/03) review Konjunktiv II.",
+      "title": "Schnelltest — 15 Lücken"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "herstellen",
+              "produzieren",
+              "verarbeiten",
+              "ankündigen"
+            ],
+            "odd": 3,
+            "why": "ankündigen = to announce (news language); the others are production verbs."
+          },
+          {
+            "items": [
+              "wurde",
+              "wird",
+              "worden",
+              "geworden"
+            ],
+            "odd": 3,
+            "why": "geworden is the Partizip II of werden as a full verb (to become — er ist Arzt geworden) — it does NOT appear in passive constructions. The others (wurde, wird, worden) are all auxiliary forms of werden used in Passiv."
+          },
+          {
+            "items": [
+              "der Rohstoff",
+              "die Fabrik",
+              "die Anlage",
+              "die Meldung"
+            ],
+            "odd": 3,
+            "why": "die Meldung = news item (news language); the others are production/manufacturing vocabulary."
+          },
+          {
+            "items": [
+              "müssen",
+              "können",
+              "sollen",
+              "werden"
+            ],
+            "odd": 3,
+            "why": "werden is not a modal verb — it is the auxiliary for Passiv and Futur. The others are modal verbs."
+          },
+          {
+            "items": [
+              "prüfen",
+              "überprüfen",
+              "kontrollieren",
+              "beschließen"
+            ],
+            "odd": 3,
+            "why": "beschließen = to decide; the others all mean to check/inspect."
+          },
+          {
+            "items": [
+              "die Genehmigung",
+              "der Bericht",
+              "die Schulung",
+              "der Rohstoff"
+            ],
+            "odd": 3,
+            "why": "der Rohstoff = raw material (production); the others are workplace/process documents and activities."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "title": "Wortschatz-Check: Welches Wort passt nicht?"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "war"
+          ],
+          "2": [
+            "wohnte"
+          ],
+          "3": [
+            "wurde"
+          ],
+          "4": [
+            "ging"
+          ],
+          "5": [
+            "bekam"
+          ],
+          "6": [
+            "obwohl"
+          ],
+          "7": [
+            "Trotzdem"
+          ],
+          "8": [
+            "Trotzdem"
+          ],
+          "9": [
+            "Deshalb"
+          ],
+          "10": [
+            "Obwohl"
+          ]
+        },
+        "text": "(B1/01) 1. Ich {1} gestern sehr müde. (sein — Präteritum)\n(B1/01) 2. Als Kind {2} Anna in Jaroslawl. (wohnen — Präteritum)\n(B1/01) 3. Das Unternehmen {3} 2010 gegründet. (werden — Plusquamperfekt → hatte … worden? No: Präteritum: wurde)\n(B1/01) 4. Bruno {4} früher oft ins Kino. (gehen — Präteritum)\n(B1/01) 5. Die Firma {5} einen neuen Direktor. (bekommen — Präteritum)\n(B1/02) 6. Er bleibt in Berlin, {6} er eigentlich nach Prag möchte. (concessive connector)\n(B1/02) 7. Die Miete ist hoch. {7} wohnt Pavel dort. (consequence connector — trotzdem)\n(B1/02) 8. Das Projekt ist teuer. {8} macht das Team weiter. (Trotzdem / concession)\n(B1/02) 9. Er hat kein Auto. {9} nimmt er die U-Bahn. (Deshalb / consequence)\n(B1/02) 10. {10} das Wetter schlecht ist, gehen wir in den Park. (Obwohl / concessive)\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Fill in the correct form. Items are labelled with their source lesson.",
+      "title": "Rückblick — B1/01 (Präteritum) und B1/02 (Konnektoren)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "wird"
+          ],
+          "2": [
+            "werden"
+          ],
+          "3": [
+            "wurde"
+          ],
+          "4": [
+            "ist"
+          ],
+          "5": [
+            "müssen"
+          ],
+          "6": [
+            "darf"
+          ],
+          "7": [
+            "wird"
+          ],
+          "8": [
+            "ist"
+          ],
+          "9": [
+            "werden"
+          ],
+          "10": [
+            "wurde"
+          ],
+          "11": [
+            "soll"
+          ],
+          "12": [
+            "ist"
+          ],
+          "13": [
+            "wurden"
+          ],
+          "14": [
+            "muss"
+          ],
+          "15": [
+            "werden"
+          ],
+          "16": [
+            "worden"
+          ],
+          "17": [
+            "ist"
+          ],
+          "18": [
+            "müssen"
+          ],
+          "19": [
+            "darf"
+          ],
+          "20": [
+            "wird"
+          ]
+        },
+        "text": "1. Das Auto {1} heute von Robotern gebaut. (Passiv Präsens)\n2. Die Daten {2} täglich gesichert. (Passiv Präsens)\n3. Der Bericht {3} 2022 erstellt. (Passiv Prät.)\n4. Das Gesetz {4} letztes Jahr geändert worden. (Passiv Perf.)\n5. Alle Fehler {5} sofort gemeldet werden. (müssen + Passiv)\n6. Das Gebäude {6} nicht betreten werden. (dürfen + Passiv)\n7. Die Qualität {7} von Technikern geprüft. (Passiv Präsens)\n8. Das Programm {8} von einem kleinen Team entwickelt worden. (Passiv Perf.)\n9. Die Rohstoffe {9} aus verschiedenen Ländern importiert. (Passiv Präsens)\n10. Früher {10} alles manuell eingegeben. (Passiv Prät.)\n11. Der Plan {11} bis Montag überarbeitet werden. (soll + Passiv)\n12. Das neue System {12} letzte Woche eingeführt worden. (Passiv Perf.)\n13. Die Mitarbeiter {13} nicht rechtzeitig informiert. (Passiv Prät.)\n14. Eine Genehmigung {14} beantragt werden. (muss + Passiv)\n15. Die Nachrichten {15} täglich veröffentlicht. (Passiv Präsens)\n16. Das Gebäude ist 2019 von einem Architekten entworfen {16}. (worden / geworden)\n17. Die Eröffnung {17} wegen Bauarbeiten verschoben worden. (Passiv Perf. — sein-form)\n18. Alle Berichte {18} von der Abteilungsleiterin genehmigt werden. (müssen + Passiv)\n19. In diesem Raum {19} nicht geraucht werden. (darf + Passiv)\n20. Das Elektroauto {20} in einer modernen Fabrik hergestellt. (Passiv Präsens)\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "instructions": "Fill in all 20 gaps. Then check your answers in solutions.md. Score yourself!",
+      "title": "Selbsttest — /20 Punkte"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "b1-04",
+  "intro": "Blocks: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Answers in solutions.md. Tip: spread the blocks over several days — H and A on day 1, B on day 2, C on day 3, D on day 4 after a pause.\n",
+  "lesson": "B1/04",
+  "level": "B1",
+  "summary": null,
+  "title": "B1 · Lektion 4 — Übungen (Exercises)",
+  "topic": null
+}

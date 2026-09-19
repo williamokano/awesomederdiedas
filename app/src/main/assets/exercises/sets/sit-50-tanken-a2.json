@@ -1,0 +1,826 @@
+{
+  "category": "Unterwegs",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "tanken",
+            "label": "Tanken"
+          },
+          {
+            "key": "laden",
+            "label": "Laden"
+          },
+          {
+            "key": "bezahlen",
+            "label": "Bezahlen"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "tanken",
+            "text": "die Zapfsäule"
+          },
+          {
+            "bucket": "laden",
+            "text": "die Ladesäule"
+          },
+          {
+            "bucket": "bezahlen",
+            "text": "die Kasse"
+          },
+          {
+            "bucket": "tanken",
+            "text": "die Kraftstoffsorte"
+          },
+          {
+            "bucket": "laden",
+            "text": "die Ladekarte"
+          },
+          {
+            "bucket": "bezahlen",
+            "text": "der Bon"
+          },
+          {
+            "bucket": "tanken",
+            "text": "volltanken"
+          },
+          {
+            "bucket": "laden",
+            "text": "der Ladestand"
+          },
+          {
+            "bucket": "bezahlen",
+            "text": "die Rechnung"
+          },
+          {
+            "bucket": "tanken",
+            "text": "Super oder Diesel"
+          },
+          {
+            "bucket": "laden",
+            "text": "der Ladepunkt"
+          },
+          {
+            "bucket": "bezahlen",
+            "text": "die PIN eingeben"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Tanken, Laden oder Bezahlen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Zapfsäule"
+          },
+          {
+            "key": "2",
+            "text": "die Kraftstoffsorte"
+          },
+          {
+            "key": "3",
+            "text": "die Ladesäule"
+          },
+          {
+            "key": "4",
+            "text": "die Ladekarte"
+          },
+          {
+            "key": "5",
+            "text": "der Ladepunkt"
+          },
+          {
+            "key": "6",
+            "text": "volltanken"
+          },
+          {
+            "key": "7",
+            "text": "der Ladestand"
+          },
+          {
+            "key": "8",
+            "text": "die Nummer der Zapfsäule"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "das Gerät, an dem man Benzin oder Diesel tankt"
+          },
+          {
+            "key": "b",
+            "text": "Super, Diesel oder eine andere Kraftstoffart"
+          },
+          {
+            "key": "c",
+            "text": "das Gerät, an dem man ein E-Auto lädt"
+          },
+          {
+            "key": "d",
+            "text": "die Karte, mit der man das Laden bezahlt"
+          },
+          {
+            "key": "e",
+            "text": "der einzelne Anschluss an der Ladesäule"
+          },
+          {
+            "key": "f",
+            "text": "den Tank ganz füllen"
+          },
+          {
+            "key": "g",
+            "text": "wie viel Batterie das Auto noch hat"
+          },
+          {
+            "key": "h",
+            "text": "wird an der Kasse genannt, um zu bezahlen"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "an"
+          ],
+          "2": [
+            "auf"
+          ],
+          "3": [
+            "an"
+          ],
+          "4": [
+            "Kann"
+          ],
+          "5": [
+            "auf"
+          ],
+          "6": [
+            "will"
+          ],
+          "7": [
+            "Können"
+          ],
+          "8": [
+            "ist"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich stehe {1} Zapfsäule drei. (Wechselpräposition, Dativ)\n2. Ich fahre {2} das Tankstellengelände, um zu tanken. (Wechselpräposition, Akkusativ)\n3. Bitte einmal Super {3} Zapfsäule drei. (Präposition + Dativ)\n4. {4} ich mit Karte zahlen? (können, ich-Form)\n5. Die Ladesäule steht {5} dem Parkplatz. (Wechselpräposition, Dativ)\n6. Ich {6} das Auto über Nacht laden. (wollen)\n7. {7} Sie mir sagen, wo die nächste Ladesäule ist? (können, Sie-Form)\n8. Der Ladepunkt {8} leider schon besetzt. (sein, Präsens)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze die richtige Präposition oder das Modalverb.",
+      "instructionsEn": "Fill in the correct preposition or the modal verb.",
+      "title": "An der Tankstelle fragen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Zapfsäule"
+          ],
+          "2": [
+            "voll"
+          ],
+          "3": [
+            "Kraftstoffsorte"
+          ],
+          "4": [
+            "Ladesäule"
+          ],
+          "5": [
+            "Ladekarte"
+          ],
+          "6": [
+            "Ladestand"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. An der {1} steht, welche Nummer ich der Kassiererin nennen muss. (das Gerät zum Tanken)\n2. Ich tanke {2}, damit ich lange nicht wieder tanken muss. (den Tank ganz füllen)\n3. Für Diesel-Autos ist die falsche {3} ein teurer Fehler. (die Art des Kraftstoffs)\n4. An der {4} lade ich mein Auto elektrisch auf. (das Gerät zum Laden)\n5. Ohne {5} kann ich an dieser Säule nicht bezahlen. (die Karte fürs Laden)\n6. Der {6} zeigt mir, wie viel Batterie noch da ist. (die Anzeige des Akkustands)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "ZAPFSÄULE"
+          ],
+          "2": [
+            "KARTE"
+          ],
+          "3": [
+            "KARTE"
+          ],
+          "4": [
+            "BON"
+          ],
+          "5": [
+            "LADE"
+          ],
+          "6": [
+            "MÜSSEN"
+          ],
+          "7": [
+            "HALTEN"
+          ],
+          "8": [
+            "DAUERT"
+          ],
+          "9": [
+            "LEISTUNG"
+          ],
+          "10": [
+            "MINUTEN"
+          ]
+        },
+        "bank": [
+          "ZAPFSÄULE",
+          "KARTE",
+          "KARTE",
+          "BON",
+          "LADE",
+          "MÜSSEN",
+          "HALTEN",
+          "DAUERT",
+          "LEISTUNG",
+          "MINUTEN",
+          "SORTE",
+          "RECHNUNG",
+          "STROM",
+          "STUNDEN"
+        ],
+        "text": "— Einmal Super an {1} drei, bitte.\n— Zahlen Sie mit {2} oder bar?\n— Mit {3}, bitte.\n— Möchten Sie einen {4} dazu?\n— Nein, danke, das ist alles.\n(an der Ladesäule)\n— Entschuldigung, wie {5} ich hier mein Auto?\n— Sie {6} die App öffnen oder Ihre Ladekarte {7}.\n— Und wie lange {8} das ungefähr?\n— Kommt auf die {9} an, meist dreißig bis sechzig {10}.\n— Alles klar, vielen Dank.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "An der Kasse und an der Ladesäule"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einmal Super an Zapfsäule drei, bitte."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe getankt, egal wo."
+              },
+              {
+                "key": "c",
+                "text": "Zapfsäule ist mir egal."
+              }
+            ],
+            "q": "Du hast gerade an Zapfsäule drei getankt. — You've just filled up at pump three.",
+            "why": "Die Nummer der Zapfsäule zu nennen ist an der Kasse die übliche, klare Angabe."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Karten interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Kann ich mit Karte zahlen?"
+              },
+              {
+                "key": "c",
+                "text": "Ich zahle einfach nicht."
+              }
+            ],
+            "q": "Du bist unsicher, ob du mit Karte zahlen kannst. — You're unsure whether you can pay by card.",
+            "why": "Eine kurze Frage klärt sofort, welche Zahlungsarten möglich sind."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Laden ist mir zu kompliziert."
+              },
+              {
+                "key": "b",
+                "text": "Ich stecke einfach irgendetwas ein."
+              },
+              {
+                "key": "c",
+                "text": "Entschuldigung, wie lade ich hier mein Auto?"
+              }
+            ],
+            "q": "Du möchtest wissen, wie man an dieser Ladesäule lädt. — You want to know how to charge at this station.",
+            "why": "Eine höfliche Frage nach der Bedienung ist besser, als etwas falsch anzuschließen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wie lange dauert das ungefähr?"
+              },
+              {
+                "key": "b",
+                "text": "Zeit spielt keine Rolle."
+              },
+              {
+                "key": "c",
+                "text": "Ich warte einfach, ohne zu fragen."
+              }
+            ],
+            "q": "Du möchtest wissen, wie lange das Laden ungefähr dauert. — You want to know roughly how long charging takes.",
+            "why": "Eine konkrete Frage hilft, die Wartezeit besser zu planen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dich einfach danebenstellen und warten, ohne zu fragen."
+              },
+              {
+                "key": "b",
+                "text": "Höflich fragen, wie lange es noch dauert, oder einen anderen Punkt suchen."
+              },
+              {
+                "key": "c",
+                "text": "Laut hupen."
+              }
+            ],
+            "q": "Der Ladepunkt, den du nutzen wolltest, ist schon besetzt. — The charging point you wanted is already occupied.",
+            "why": "Eine höfliche Nachfrage oder ein anderer Ladepunkt ist die faire Lösung."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nein, danke, das ist alles."
+              },
+              {
+                "key": "b",
+                "text": "Was haben Sie denn alles?"
+              },
+              {
+                "key": "c",
+                "text": "Muss ich etwas brauchen?"
+              }
+            ],
+            "q": "Die Kassiererin fragt, ob du noch etwas brauchst. — The cashier asks if you need anything else.",
+            "why": "Eine kurze, klare Antwort ist an der Kasse die übliche Reaktion."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "An der Tankstelle und der Ladesäule sprechen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "kurze Standardformel an der Kasse",
+            "tiles": [
+              "Einmal",
+              "Super",
+              "an",
+              "Zapfsäule",
+              "drei",
+              ",",
+              "bitte"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Frage mit Modalverb an Position 1",
+            "tiles": [
+              "Kann",
+              "ich",
+              "mit",
+              "Karte",
+              "zahlen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "Wechselpräposition mit Dativ",
+            "tiles": [
+              "Ich",
+              "stehe",
+              "an",
+              "Zapfsäule",
+              "drei"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "höfliche Frage mit wie",
+            "tiles": [
+              "Entschuldigung",
+              ",",
+              "wie",
+              "lade",
+              "ich",
+              "hier",
+              "mein",
+              "Auto",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Modalverb an Position 2, zwei Infinitive am Ende",
+            "tiles": [
+              "Sie",
+              "müssen",
+              "die",
+              "App",
+              "öffnen",
+              "oder",
+              "die",
+              "Karte",
+              "halten"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Zustand mit sein + Adjektiv",
+            "tiles": [
+              "Der",
+              "Ladepunkt",
+              "ist",
+              "leider",
+              "schon",
+              "besetzt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze an der Tankstelle bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Diesel ist teurer als Super. — Diesel is more expensive than Super.",
+            "why": "Diesel kostet 1,69 €, Super 1,79 € — Diesel ist günstiger."
+          },
+          {
+            "answer": true,
+            "q": "An der Kasse kann man mit Karte oder bar zahlen. — At the register, you can pay by card or cash.",
+            "why": "So steht es ausdrücklich in den Hinweisen."
+          },
+          {
+            "answer": false,
+            "q": "Bei falscher Kraftstoffsorte soll man sofort losfahren. — With the wrong fuel, you should drive off immediately.",
+            "why": "Man soll nicht starten und sofort das Personal informieren."
+          },
+          {
+            "answer": true,
+            "q": "Die Ladesäule hat vier Ladepunkte. — The charging station has four charging points.",
+            "why": "„4 Ladepunkte, 150 kW Schnellladung.“"
+          },
+          {
+            "answer": false,
+            "q": "An der Ladesäule kann man bar bezahlen. — You can pay cash at the charging station.",
+            "why": "Bezahlung nur per App oder Ladekarte, keine Barzahlung möglich."
+          },
+          {
+            "answer": true,
+            "q": "80 % Akku dauern ungefähr 30 Minuten. — Charging to 80% takes about 30 minutes.",
+            "why": "„Ladezeit für 80 % Akku: circa 30 Minuten.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Tankstelle Nordring — Preise und Hinweise**\n>\n> - Super: **1,79 €/l** · Diesel: **1,69 €/l**\n> - Zahlung: **Karte oder bar**, direkt an der Kasse.\n> - Falsche Kraftstoffsorte getankt? Bitte **nicht starten** und\n>   sofort das Personal informieren.\n> - **Ladesäule:** 4 Ladepunkte, **150 kW Schnellladung**.\n> - Bezahlung per **App oder Ladekarte**, keine Barzahlung möglich.\n> - Ladezeit für 80 % Akku: **circa 30 Minuten**, je nach\n>   Fahrzeug.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Preistafel und die Ladehinweise lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofort aufhören zu tanken und das Personal informieren."
+              },
+              {
+                "key": "b",
+                "text": "Trotzdem weitertanken."
+              },
+              {
+                "key": "c",
+                "text": "Losfahren und hoffen, dass nichts passiert."
+              }
+            ],
+            "q": "Du merkst gerade noch rechtzeitig, dass du fast die falsche Kraftstoffsorte tankst. — You just notice in time that you're about to fuel with the wrong type.",
+            "why": "Sofortiges Aufhören verhindert einen teuren Motorschaden."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das fremde Kabel einfach abziehen."
+              },
+              {
+                "key": "b",
+                "text": "Einen anderen freien Ladepunkt suchen oder kurz warten."
+              },
+              {
+                "key": "c",
+                "text": "Laut schimpfen."
+              }
+            ],
+            "q": "Der Ladepunkt, den du nutzen wolltest, ist besetzt und niemand ist am Auto. — The charging point you wanted is occupied and no one is at the car.",
+            "why": "Ein fremdes Ladekabel abzuziehen ist nicht erlaubt — ausweichen oder warten ist die richtige Lösung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach aufgeben und nach Hause fahren."
+              },
+              {
+                "key": "b",
+                "text": "Das Auto ohne Bezahlung anschließen."
+              },
+              {
+                "key": "c",
+                "text": "Es mit der Ladekarte versuchen oder den Support anrufen."
+              }
+            ],
+            "q": "Die App zum Laden funktioniert nicht. — The charging app isn't working.",
+            "why": "Eine Alternative wie die Ladekarte oder der Support löst das Problem meist schnell."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Eine andere Zapfsäule nutzen oder das Personal informieren."
+              },
+              {
+                "key": "b",
+                "text": "Mehrmals fest auf den Hebel drücken."
+              },
+              {
+                "key": "c",
+                "text": "Einfach weiterfahren, ohne zu tanken."
+              }
+            ],
+            "q": "Die Zapfsäule zeigt einen Fehler und tankt nicht. — The pump shows an error and won't dispense fuel.",
+            "why": "Eine andere Säule zu nutzen oder Bescheid zu geben ist der einfachste nächste Schritt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach ohne Bezahlung wegfahren."
+              },
+              {
+                "key": "b",
+                "text": "Es noch einmal versuchen oder nach einer anderen Zahlungsart fragen."
+              },
+              {
+                "key": "c",
+                "text": "In Panik geraten."
+              }
+            ],
+            "q": "Deine Karte wird an der Kasse abgelehnt. — Your card is declined at the register.",
+            "why": "Ein zweiter Versuch oder eine andere Zahlungsart löst das Problem meist unkompliziert."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Beim Personal oder Support nachfragen, ob die Ladesäule richtig funktioniert hat."
+              },
+              {
+                "key": "b",
+                "text": "Es einfach hinnehmen."
+              },
+              {
+                "key": "c",
+                "text": "Die Ladesäule beschädigen."
+              }
+            ],
+            "q": "Du merkst nach dem Laden, dass der Akku kaum voller geworden ist. — After charging, you notice the battery barely gained charge.",
+            "why": "Eine Nachfrage klärt, ob ein technisches Problem vorlag und ob eine Korrektur möglich ist."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn es an der Tankstelle Probleme gibt"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Kraftstoffsorte"
+          ],
+          "2": [
+            "besetzt"
+          ],
+          "3": [
+            "App"
+          ],
+          "4": [
+            "Fehler"
+          ],
+          "5": [
+            "abgelehnt"
+          ],
+          "6": [
+            "Ladestand"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe fast die falsche {1} getankt. (die Art des Kraftstoffs)\n2. Der Ladepunkt war leider schon {2}. (nicht mehr frei)\n3. Die {3} zum Laden hat leider nicht funktioniert. (das Programm auf dem Handy)\n4. Die Zapfsäule zeigte einen {4} und tankte nicht. (etwas ist nicht richtig gelaufen)\n5. Meine Karte wurde an der Kasse {5}. (nicht akzeptiert)\n6. Nach dem Laden war der {6} kaum höher als vorher. (der Batteriestand)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "an"
+          ],
+          "2": [
+            "Kann"
+          ],
+          "3": [
+            "auf"
+          ],
+          "4": [
+            "ist"
+          ],
+          "5": [
+            "Zapfsäule"
+          ],
+          "6": [
+            "voll"
+          ],
+          "7": [
+            "Kraftstoffsorte"
+          ],
+          "8": [
+            "Ladekarte"
+          ],
+          "9": [
+            "Ladestand"
+          ],
+          "10": [
+            "Kraftstoffsorte"
+          ],
+          "11": [
+            "besetzt"
+          ],
+          "12": [
+            "App"
+          ],
+          "13": [
+            "abgelehnt"
+          ],
+          "14": [
+            "Ladestand"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich stehe {1} Zapfsäule drei. (at — Dativ)\n2. {2} ich mit Karte zahlen? (may — können)\n3. Die Ladesäule steht {3} dem Parkplatz. (on — Dativ)\n4. Der Ladepunkt {4} leider schon besetzt. (is)\n5. An der {5} steht die Nummer für die Kasse. (fuel pump)\n6. Ich tanke {6}. (fill up)\n7. Für Diesel-Autos ist die falsche {7} ein teurer Fehler. (fuel type)\n8. Ohne {8} kann ich hier nicht bezahlen. (charging card)\n9. Der {9} zeigt mir, wie viel Batterie noch da ist. (charge level)\n10. Ich habe fast die falsche {10} getankt. (fuel type)\n11. Der Ladepunkt war leider schon {11}. (occupied)\n12. Die {12} zum Laden hat nicht funktioniert. (das Programm auf dem Handy)\n13. Meine Karte wurde an der Kasse {13}. (declined — Partizip)\n14. Nach dem Laden war der {14} kaum höher. (charge level)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-50-tanken-a2",
+  "intro": "Tanken klingt einfach, bis man an der falschen Zapfsäule steht oder die Kraftstoffsorte verwechselt. Und wer ein E-Auto lädt, braucht eine eigene kleine Sprache: Ladesäule, Ladekarte, Ladestand, und was zu tun ist, wenn der Ladepunkt schon besetzt ist. Dieses Set übt beides — an der Tankstelle bezahlen und an der Ladesäule laden. Grammatik nach Bedarf: Wechselpräpositionen, Zahlen und Mengen, höfliche Bitten mit Konjunktiv II. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/50-tanken-a2",
+  "level": "A2",
+  "summary": "An der Zapfsäule die richtige Sorte wählen und an der Kasse zahlen, an der Ladesäule das E-Auto laden — und was tun, wenn der Ladepunkt besetzt ist.",
+  "title": "Tanken und E-Auto laden — A2",
+  "topic": "Tanken und E-Auto laden"
+}

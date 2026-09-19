@@ -1,0 +1,631 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "Verb",
+          "zu-Infinitiv"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "sich zu entscheiden"
+                ],
+                "gap": 1
+              }
+            ],
+            "label": "sich entscheiden"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "aufzuhören"
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "aufhören"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "vorzubereiten"
+                ],
+                "gap": 3
+              }
+            ],
+            "label": "vorbereiten"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "teilzunehmen"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "teilnehmen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "zurückzurufen"
+                ],
+                "gap": 5
+              }
+            ],
+            "label": "zurückrufen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "sich zu verabschieden"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "sich verabschieden"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze den zu-Infinitiv.",
+      "instructionsEn": "Fill in the zu-infinitive.",
+      "title": "Verb → zu-Infinitiv (reflexiv und trennbar)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Statt"
+          ],
+          "2": [
+            "um"
+          ],
+          "3": [
+            "ohne"
+          ],
+          "4": [
+            "Statt"
+          ],
+          "5": [
+            "um"
+          ],
+          "6": [
+            "ohne"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Auto zu fahren, nehme ich lieber das Fahrrad.\n2. Ich gehe joggen, {2} fit zu bleiben.\n3. Er kaufte das Handy, {3} die Bewertungen zu lesen.\n4. {4} zu Hause zu bleiben, gehen wir spazieren.\n5. Sie lernt jeden Abend, {5} die Prüfung zu bestehen.\n6. Er verließ das Meeting, {6} sich zu entschuldigen.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze um, ohne oder Statt/Anstatt.",
+      "instructionsEn": "Fill in um, ohne, or Statt/Anstatt.",
+      "title": "um, ohne oder statt?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "um"
+          ],
+          "2": [
+            "Statt"
+          ],
+          "3": [
+            "um"
+          ],
+          "4": [
+            "um"
+          ],
+          "5": [
+            "um"
+          ],
+          "6": [
+            "ohne"
+          ],
+          "7": [
+            "ohne"
+          ],
+          "8": [
+            "ohne"
+          ]
+        },
+        "bank": [
+          "um",
+          "um",
+          "um",
+          "um",
+          "Statt",
+          "ohne",
+          "ohne",
+          "ohne",
+          "wegen",
+          "obwohl"
+        ],
+        "text": "Ich habe mich entschieden, die Stelle zu wechseln, {1} mehr\nVerantwortung zu übernehmen. {2} weiter im alten Job zu\nbleiben, bewerbe ich mich woanders. Ich bereite mich gut vor,\n{3} im Gespräch zu überzeugen. Ich rufe den Personaler zurück,\n{4} einen Termin zu vereinbaren. Ich nehme mir Zeit, {5} alle\nFragen zu beantworten, {6} nervös zu wirken. Am Ende entscheide\nich mich, das Angebot anzunehmen, {7} lange zu zögern. Ich\nbleibe optimistisch, {8} aufzugeben.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Die Bewerbung"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich bleibe zu Hause statt ins Kino zu gehen."
+              },
+              {
+                "key": "b",
+                "text": "Ich bleibe zu Hause, statt ins Kino zu gehen."
+              },
+              {
+                "key": "c",
+                "text": "Ich bleibe zu Hause, statt ins Kino gehen zu."
+              }
+            ],
+            "q": "Ich bleibe zu Hause. Ich gehe nicht ins Kino.",
+            "why": "Komma vor statt, zu direkt vor dem Infinitiv gehen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er nahm die Abkürzung, ohne nach dem Weg fragen zu."
+              },
+              {
+                "key": "b",
+                "text": "Er nahm die Abkürzung ohne nach dem Weg zu fragen."
+              },
+              {
+                "key": "c",
+                "text": "Er nahm die Abkürzung, ohne nach dem Weg zu fragen."
+              }
+            ],
+            "q": "Er nahm die Abkürzung. Er fragte nicht nach dem Weg.",
+            "why": "Komma vor ohne, zu direkt vor dem Infinitiv fragen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie meldete sich früh an, um einen Platz zu sichern."
+              },
+              {
+                "key": "b",
+                "text": "Sie meldete sich früh an, um einen Platz sichern zu."
+              },
+              {
+                "key": "c",
+                "text": "Sie meldete sich früh an um einen Platz zu sichern."
+              }
+            ],
+            "q": "Sie meldete sich früh an. Sie wollte einen Platz sichern.",
+            "why": "Komma vor um, zu direkt vor dem Infinitiv sichern."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er kündigte den Vertrag ohne den Anbieter zu informieren."
+              },
+              {
+                "key": "b",
+                "text": "Er kündigte den Vertrag, ohne den Anbieter zu informieren."
+              },
+              {
+                "key": "c",
+                "text": "Er kündigte den Vertrag, ohne den Anbieter informieren zu."
+              }
+            ],
+            "q": "Er kündigte den Vertrag. Er informierte den Anbieter nicht.",
+            "why": "Komma vor ohne, zu direkt vor dem Infinitiv informieren."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir nehmen den Zug, statt das Flugzeug nehmen zu."
+              },
+              {
+                "key": "b",
+                "text": "Wir nehmen den Zug statt das Flugzeug zu nehmen."
+              },
+              {
+                "key": "c",
+                "text": "Wir nehmen den Zug, statt das Flugzeug zu nehmen."
+              }
+            ],
+            "q": "Wir nehmen den Zug. Wir nehmen nicht das Flugzeug.",
+            "why": "Komma vor statt, zu direkt vor dem Infinitiv nehmen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich lese den Vertrag genau, um alle Details zu verstehen."
+              },
+              {
+                "key": "b",
+                "text": "Ich lese den Vertrag genau, um alle Details verstehen zu."
+              },
+              {
+                "key": "c",
+                "text": "Ich lese den Vertrag genau um alle Details zu verstehen."
+              }
+            ],
+            "q": "Ich lese den Vertrag genau. Ich möchte alle Details verstehen.",
+            "why": "Komma vor um, zu direkt vor dem Infinitiv verstehen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Kombination (a, b oder c).",
+      "instructionsEn": "Choose the correct combination (a, b, or c).",
+      "title": "Welcher Satz ist richtig?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er hofft, dass sie die Prüfung besteht."
+              },
+              {
+                "key": "b",
+                "text": "Er hofft, die Prüfung zu bestehen."
+              },
+              {
+                "key": "c",
+                "text": "Er hofft, dass er zu bestehen."
+              }
+            ],
+            "q": "Original: Er hofft, dass er die Prüfung besteht.",
+            "why": "Gleiches Subjekt (er/er) → Infinitivgruppe möglich."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie möchte, ihren Sohn die Prüfung zu bestehen."
+              },
+              {
+                "key": "b",
+                "text": "Sie möchte, die Prüfung zu bestehen."
+              },
+              {
+                "key": "c",
+                "text": "Sie möchte, dass ihr Sohn die Prüfung besteht."
+              }
+            ],
+            "q": "Original: Sie möchte, dass ihr Sohn die Prüfung besteht.",
+            "why": "Unterschiedliches Subjekt (sie / ihr Sohn) → keine Infinitivgruppe möglich, der dass-Satz bleibt nötig."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich verspreche, pünktlich zu kommen."
+              },
+              {
+                "key": "b",
+                "text": "Ich verspreche, dass du pünktlich kommst."
+              },
+              {
+                "key": "c",
+                "text": "Ich verspreche, pünktlich kommen zu."
+              }
+            ],
+            "q": "Original: Ich verspreche, dass ich pünktlich komme.",
+            "why": "Gleiches Subjekt (ich/ich) → Infinitivgruppe möglich, zu direkt vor dem Infinitiv kommen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Eltern hoffen, das Studium zu schaffen."
+              },
+              {
+                "key": "b",
+                "text": "Die Eltern hoffen, dass ihre Tochter das Studium schafft."
+              },
+              {
+                "key": "c",
+                "text": "Die Eltern hoffen, ihre Tochter das Studium zu schaffen."
+              }
+            ],
+            "q": "Original: Die Eltern hoffen, dass ihre Tochter das Studium schafft.",
+            "why": "Unterschiedliches Subjekt (Eltern / Tochter) → der dass-Satz bleibt nötig."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er plant, dass wir nächstes Jahr umziehen."
+              },
+              {
+                "key": "b",
+                "text": "Er plant, nächstes Jahr umziehen zu."
+              },
+              {
+                "key": "c",
+                "text": "Er plant, nächstes Jahr umzuziehen."
+              }
+            ],
+            "q": "Original: Er plant, dass er nächstes Jahr umzieht.",
+            "why": "Gleiches Subjekt (er/er) → Infinitivgruppe möglich; umzuziehen mit zu zwischen Vorsilbe und Verbstamm."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir freuen uns, dass unsere Freunde uns besuchen."
+              },
+              {
+                "key": "b",
+                "text": "Wir freuen uns, uns zu besuchen."
+              },
+              {
+                "key": "c",
+                "text": "Wir freuen uns, unsere Freunde zu besuchen."
+              }
+            ],
+            "q": "Original: Wir freuen uns, dass unsere Freunde uns besuchen.",
+            "why": "Unterschiedliches Subjekt (wir / unsere Freunde) → der dass-Satz bleibt nötig, sonst ändert sich die Bedeutung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die richtige Umformung (a, b oder c) — achte auf das Subjekt in Haupt- und Nebensatz.",
+      "title": "Infinitivgruppe oder dass-Satz?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "um"
+          ],
+          "2": [
+            "Statt"
+          ],
+          "3": [
+            "um"
+          ],
+          "4": [
+            "ohne"
+          ],
+          "5": [
+            "ohne"
+          ],
+          "6": [
+            "ohne"
+          ],
+          "7": [
+            "um"
+          ],
+          "8": [
+            "um"
+          ]
+        },
+        "bank": [
+          "um",
+          "um",
+          "um",
+          "um",
+          "Statt",
+          "ohne",
+          "ohne",
+          "ohne",
+          "wegen",
+          "trotz"
+        ],
+        "text": "Ich suche schon lange eine neue Wohnung, {1} näher am\nStadtzentrum zu wohnen. {2} weiter zu warten, rufe ich sofort\nbei jeder Anzeige an. Ich bereite alle Unterlagen vor, {3} bei\nder Besichtigung zu überzeugen. Ich schaue mir die Wohnung\ngenau an, {4} etwas zu übersehen. Ich entscheide mich schnell,\n{5} lange zu zögern. Ich unterschreibe den Vertrag, {6} ihn\nvorher genau durchzulesen — das war ein Fehler. Ich hätte ihn\nbesser durchlesen sollen, {7} später Probleme zu vermeiden.\nBeim nächsten Mal werde ich mir mehr Zeit nehmen, {8} keinen\nFehler mehr zu machen.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 8 gaps. Two words in the box are not needed.",
+      "title": "Sprachbausteine — Die Wohnungssuche (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "um"
+          ],
+          "2": [
+            "Statt"
+          ],
+          "3": [
+            "ohne"
+          ],
+          "4": [
+            "zu wechseln"
+          ],
+          "5": [
+            "um"
+          ],
+          "6": [
+            "ohne"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich melde mich für den Kurs an, {1} mein Deutsch zu verbessern.\n2. {2} zu Hause zu bleiben, gehe ich lieber spazieren.\n3. Er verließ die Besprechung, {3} sich zu verabschieden.\n4. Ich habe beschlossen, den Job {4}.\n5. Wir bereiten uns gut vor, {5} bei der Prüfung zu überzeugen.\n6. Er kündigte, {6} eine neue Stelle zu haben.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze um, ohne, statt oder den zu-Infinitiv.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie fährt mit dem Rad zur Arbeit statt mit dem Auto zu fahren."
+              },
+              {
+                "key": "b",
+                "text": "Sie fährt mit dem Rad zur Arbeit, statt mit dem Auto zu fahren."
+              },
+              {
+                "key": "c",
+                "text": "Sie fährt mit dem Rad zur Arbeit, statt mit dem Auto fahren zu."
+              }
+            ],
+            "q": "Sie fährt mit dem Rad zur Arbeit. Sie fährt nicht mit dem Auto.",
+            "why": "Komma vor statt, zu direkt vor dem Infinitiv fahren."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er verließ den Raum, ohne das Licht ausschalten zu."
+              },
+              {
+                "key": "b",
+                "text": "Er verließ den Raum ohne das Licht auszuschalten."
+              },
+              {
+                "key": "c",
+                "text": "Er verließ den Raum, ohne das Licht auszuschalten."
+              }
+            ],
+            "q": "Er verließ den Raum. Er schaltete das Licht nicht aus.",
+            "why": "Komma vor ohne, und bei trennbaren Verben steht zu zwischen Vorsilbe und Verbstamm: auszuschalten."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich rufe beim Kundenservice an, um eine Frage zu klären."
+              },
+              {
+                "key": "b",
+                "text": "Ich rufe beim Kundenservice an, um eine Frage klären zu."
+              },
+              {
+                "key": "c",
+                "text": "Ich rufe beim Kundenservice an um eine Frage zu klären."
+              }
+            ],
+            "q": "Ich rufe beim Kundenservice an. Ich möchte eine Frage klären.",
+            "why": "Komma vor um, zu direkt vor dem Infinitiv klären."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Er hofft, dass sie die Stelle bekommt."
+              },
+              {
+                "key": "b",
+                "text": "Er hofft, die Stelle zu bekommen."
+              },
+              {
+                "key": "c",
+                "text": "Er hofft, die Stelle bekommen zu."
+              }
+            ],
+            "q": "Original: Er hofft, dass er die Stelle bekommt.",
+            "why": "Gleiches Subjekt (er/er) → Infinitivgruppe möglich."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Firma hofft, sich gut einzuleben."
+              },
+              {
+                "key": "b",
+                "text": "Die Firma hofft, die neuen Kollegen einzuleben."
+              },
+              {
+                "key": "c",
+                "text": "Die Firma hofft, dass die neuen Kollegen sich gut einleben."
+              }
+            ],
+            "q": "Original: Die Firma hofft, dass die neuen Kollegen sich gut einleben.",
+            "why": "Unterschiedliches Subjekt (Firma / Kollegen) → der dass-Satz bleibt nötig."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich lese den Vertrag zweimal, um sicher zu sein."
+              },
+              {
+                "key": "b",
+                "text": "Ich lese den Vertrag zweimal, um sicher sein zu."
+              },
+              {
+                "key": "c",
+                "text": "Ich lese den Vertrag zweimal um sicher zu sein."
+              }
+            ],
+            "q": "Ich lese den Vertrag zweimal. Ich will sicher sein.",
+            "why": "Komma vor um, zu direkt vor dem Infinitiv sein."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Wähle die richtige Kombination (a, b oder c). Das ist dein letzter Check für dieses Set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-21-infinitivgruppen-b1",
+  "intro": "Neben um…zu und ohne…zu kommt (an)statt…zu dazu: eine Alternative zu etwas anderem — Statt Auto zu fahren, nehme ich das Fahrrad. Wichtig auf diesem Niveau: Eine Infinitivgruppe ist nur möglich, wenn Haupt- und Nebensatz dasselbe Subjekt haben (Er hofft, die Prüfung zu bestehen.) — bei unterschiedlichem Subjekt bleibt der dass-Satz nötig (Er hofft, dass seine Tochter die Prüfung besteht.). Auch bei reflexiven und trennbaren Verben steht zu weiterhin zwischen Vorsilbe und Verbstamm bzw. direkt vor dem Infinitiv: sich zu entscheiden, vorzubereiten. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/21-infinitivgruppen-b1",
+  "level": "B1",
+  "summary": null,
+  "title": "Infinitivgruppen mit Komma — B1",
+  "topic": "Infinitivgruppen mit Komma"
+}

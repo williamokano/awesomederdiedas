@@ -1,0 +1,821 @@
+{
+  "category": "Behörden & Formelles",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "papier",
+            "label": "Papier"
+          },
+          {
+            "key": "person",
+            "label": "Angaben zur Person"
+          },
+          {
+            "key": "ort",
+            "label": "Ort & Termin"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "papier",
+            "text": "der Personalausweis"
+          },
+          {
+            "bucket": "person",
+            "text": "der Familienstand"
+          },
+          {
+            "bucket": "ort",
+            "text": "das Bürgeramt"
+          },
+          {
+            "bucket": "papier",
+            "text": "die Wohnungsgeberbestätigung"
+          },
+          {
+            "bucket": "person",
+            "text": "das Geburtsdatum"
+          },
+          {
+            "bucket": "ort",
+            "text": "der Schalter"
+          },
+          {
+            "bucket": "papier",
+            "text": "die Meldebescheinigung"
+          },
+          {
+            "bucket": "person",
+            "text": "die Staatsangehörigkeit"
+          },
+          {
+            "bucket": "ort",
+            "text": "die Wartenummer"
+          },
+          {
+            "bucket": "papier",
+            "text": "das Anmeldeformular"
+          },
+          {
+            "bucket": "person",
+            "text": "der Geburtsort"
+          },
+          {
+            "bucket": "ort",
+            "text": "der Terminkalender"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Papier, Person oder Ort?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Familienname"
+          },
+          {
+            "key": "2",
+            "text": "Geburtsname"
+          },
+          {
+            "key": "3",
+            "text": "Familienstand"
+          },
+          {
+            "key": "4",
+            "text": "Einzugsdatum"
+          },
+          {
+            "key": "5",
+            "text": "bisherige Wohnung"
+          },
+          {
+            "key": "6",
+            "text": "Wohnungsgeber"
+          },
+          {
+            "key": "7",
+            "text": "Hauptwohnung"
+          },
+          {
+            "key": "8",
+            "text": "Religionszugehörigkeit"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "dein Nachname, so wie er im Pass steht"
+          },
+          {
+            "key": "b",
+            "text": "der Nachname, den du bei der Geburt hattest"
+          },
+          {
+            "key": "c",
+            "text": "ledig, verheiratet, geschieden oder verwitwet"
+          },
+          {
+            "key": "d",
+            "text": "der Tag, an dem du tatsächlich eingezogen bist"
+          },
+          {
+            "key": "e",
+            "text": "die Adresse, in der du vorher gewohnt hast"
+          },
+          {
+            "key": "f",
+            "text": "die Person, der die Wohnung gehört oder die sie vermietet"
+          },
+          {
+            "key": "g",
+            "text": "die Adresse, in der du überwiegend lebst"
+          },
+          {
+            "key": "h",
+            "text": "die Angabe, die über die Kirchensteuer entscheidet"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Feld im Formular die richtige Erklärung zu.",
+      "instructionsEn": "Match each form field with the right explanation.",
+      "title": "Feld und Bedeutung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "am"
+          ],
+          "2": [
+            "im"
+          ],
+          "3": [
+            "am"
+          ],
+          "4": [
+            "um"
+          ],
+          "5": [
+            "aus"
+          ],
+          "6": [
+            "in"
+          ],
+          "7": [
+            "in"
+          ],
+          "8": [
+            "zum"
+          ],
+          "9": [
+            "am"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich bin {1} 1. September eingezogen. (Datum: an + dem, kurz)\n2. Ich wohne {2} Lindenweg 8. (Straße)\n3. Mein Termin ist {3} Dienstag {4} 9:30 Uhr. (Wochentag / Uhrzeit)\n4. Ich komme {5} Portugal. (Land ohne Artikel)\n5. Ich bin {6} Porto geboren. (Stadt)\n6. Ich habe erst {7} zwei Wochen einen Termin. (Zeitpunkt in der Zukunft)\n7. Bitte gehen Sie {8} Schalter 4. (Richtung: zu + dem, kurz)\n8. Die Bescheinigung bekommen Sie {9} Ende. (Zeitpunkt: an + dem, kurz)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze die Präposition oder den Artikel.",
+      "instructionsEn": "Fill in the preposition or the article.",
+      "title": "Datum, Adresse, Uhrzeit"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Wie"
+          ],
+          "2": [
+            "Wie"
+          ],
+          "3": [
+            "Wann"
+          ],
+          "4": [
+            "Wo"
+          ],
+          "5": [
+            "Wo"
+          ],
+          "6": [
+            "Wann"
+          ],
+          "7": [
+            "Wie"
+          ],
+          "8": [
+            "Was"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} heißen Sie mit Nachnamen? (Name)\n2. {2} buchstabiert man das? (Art und Weise)\n3. {3} sind Sie geboren? (Datum)\n4. {4} sind Sie geboren? (Stadt)\n5. {5} wohnen Sie jetzt? (Adresse)\n6. {6} sind Sie eingezogen? (Zeitpunkt)\n7. {7} viele Personen ziehen mit ein? (Anzahl)\n8. {8} war Ihre letzte Adresse? (Frage nach der Sache)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das Fragewort.",
+      "instructionsEn": "Fill in the question word.",
+      "title": "Am Schalter: die üblichen Fragen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "ANMELDEN"
+          ],
+          "2": [
+            "ANMELDEFORMULAR"
+          ],
+          "3": [
+            "PASS"
+          ],
+          "4": [
+            "BESTÄTIGUNG"
+          ],
+          "5": [
+            "BUCHSTABIERE"
+          ],
+          "6": [
+            "GEBURTSDATUM"
+          ],
+          "7": [
+            "FAMILIENSTAND"
+          ],
+          "8": [
+            "RELIGION"
+          ],
+          "9": [
+            "UNTERSCHREIBEN"
+          ],
+          "10": [
+            "MELDEBESCHEINIGUNG"
+          ]
+        },
+        "bank": [
+          "ANMELDEN",
+          "ANMELDEFORMULAR",
+          "PASS",
+          "BESTÄTIGUNG",
+          "BUCHSTABIERE",
+          "GEBURTSDATUM",
+          "FAMILIENSTAND",
+          "RELIGION",
+          "UNTERSCHREIBEN",
+          "MELDEBESCHEINIGUNG",
+          "TERMIN",
+          "NUMMER",
+          "ADRESSE",
+          "WOHNUNG"
+        ],
+        "text": "— Nummer 214, Schalter 4. Guten Tag, was kann ich für Sie tun?\n— Guten Tag. Ich möchte mich {1}. Ich bin am 1. September\neingezogen.\n— Haben Sie das {2} dabei?\n— Ja, hier. Und meinen {3}.\n— Danke. Und die {4} von Ihrer Vermieterin?\n— Auch dabei.\n— Sehr gut. Wie heißen Sie mit Nachnamen?\n— Marchetti. Ich {5}: M-A-R-C-H-E-T-T-I.\n— Danke. Ihr {6}?\n— Der 14. März 1994, in Porto.\n— {7}?\n— Ledig.\n— Und die {8}?\n— Keine.\n— Gut. Bitte hier {9}. — So, das war's. Hier ist Ihre\n{10}. Sie brauchen sie für die Bank und den Arbeitgeber.\n— Vielen Dank!\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Am Schalter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Guten Tag. Ich möchte mich anmelden, ich bin am 1. September eingezogen."
+              },
+              {
+                "key": "b",
+                "text": "Anmeldung."
+              },
+              {
+                "key": "c",
+                "text": "Ich bin neu hier."
+              }
+            ],
+            "q": "Du kommst an den Schalter und sagst, warum du da bist. — You come to the counter and say why you're there.",
+            "why": "Anliegen und Einzugsdatum in einem Satz — mehr braucht der Schalter nicht, um anzufangen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nein, anders."
+              },
+              {
+                "key": "b",
+                "text": "Ich buchstabiere: M wie Martha, A wie Anton, R wie Richard …"
+              },
+              {
+                "key": "c",
+                "text": "Steht doch im Pass."
+              }
+            ],
+            "q": "Dein Name wird falsch verstanden. — Your name is misunderstood.",
+            "why": "Buchstabieren mit Beispielwörtern ist am Schalter Standard und beendet jedes Missverständnis."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Was?"
+              },
+              {
+                "key": "b",
+                "text": "Ich spreche kein Deutsch."
+              },
+              {
+                "key": "c",
+                "text": "Entschuldigung, könnten Sie das bitte noch einmal langsamer sagen?"
+              }
+            ],
+            "q": "Du verstehst eine Frage nicht. — You don't understand a question.",
+            "why": "Um Wiederholung bitten, nicht die Sprache aufgeben — der Rest des Gesprächs läuft danach besser."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Was bedeutet das?"
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, was ist eine Wohnungsgeberbestätigung genau?"
+              },
+              {
+                "key": "c",
+                "text": "Das habe ich nicht."
+              }
+            ],
+            "q": "Du weißt nicht, was „Wohnungsgeberbestätigung“ heißt. — You don't know what that word means.",
+            "why": "Das Wort selbst wiederholen — dann weiß dein Gegenüber genau, was du nicht verstanden hast."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Warum wollen Sie das wissen?"
+              },
+              {
+                "key": "b",
+                "text": "Keine."
+              },
+              {
+                "key": "c",
+                "text": "Das geht Sie nichts an."
+              }
+            ],
+            "q": "Die Sachbearbeiterin fragt nach deiner Religion. — The clerk asks about your religion.",
+            "why": "Die Angabe steht im Formular und entscheidet über die Kirchensteuer; „keine“ ist eine ganz normale Antwort."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Geben Sie mir zwei."
+              },
+              {
+                "key": "b",
+                "text": "Ich brauche noch eine."
+              },
+              {
+                "key": "c",
+                "text": "Könnte ich bitte zwei Meldebescheinigungen bekommen? Eine für die Bank, eine für den Arbeitgeber."
+              }
+            ],
+            "q": "Du brauchst die Bescheinigung zweimal. — You need the certificate twice.",
+            "why": "Bitte plus Begründung — so ist sofort klar, dass es kein Sonderwunsch ist."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Was sagst du?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "sich anmelden — Reflexivpronomen vor dem Infinitiv",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "mich",
+              "anmelden"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt mit sein, Partizip am Ende",
+            "tiles": [
+              "Ich",
+              "bin",
+              "am",
+              "1.",
+              "September",
+              "eingezogen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Höfliche Bitte: könnten an Position 1, Infinitiv am Ende",
+            "tiles": [
+              "Könnten",
+              "Sie",
+              "das",
+              "bitte",
+              "noch",
+              "einmal",
+              "wiederholen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Präteritum von sein — bei Adressen üblich",
+            "tiles": [
+              "Meine",
+              "letzte",
+              "Adresse",
+              "war",
+              "in",
+              "Porto"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Trennverb mit·einziehen: die Vorsilbe steht am Ende",
+            "tiles": [
+              "Wie",
+              "viele",
+              "Personen",
+              "ziehen",
+              "mit",
+              "ein",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Ja/Nein-Frage: Verb an Position 1",
+            "tiles": [
+              "Brauche",
+              "ich",
+              "dafür",
+              "noch",
+              "einen",
+              "Termin",
+              "?"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze am Schalter bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Ohne Termin kommt man nur dienstags früh weiter. — Without an appointment you only get in on Tuesday mornings.",
+            "why": "„Ohne Termin nur dienstags 8–10 Uhr.“"
+          },
+          {
+            "answer": false,
+            "q": "Man hat einen Monat Zeit für die Anmeldung. — You have a month to register.",
+            "why": "Es sind 14 Tage nach Einzug."
+          },
+          {
+            "answer": false,
+            "q": "Der Mietvertrag reicht als Nachweis. — The rental contract is enough as proof.",
+            "why": "Verlangt wird ausdrücklich die Wohnungsgeberbestätigung, nicht der Mietvertrag."
+          },
+          {
+            "answer": false,
+            "q": "Ein Erwachsener kann seinen 17-jährigen Sohn ohne Weiteres mit anmelden. — An adult can simply register their 17-year-old son too.",
+            "why": "Ab 16 Jahren wird eine Vollmacht gebraucht."
+          },
+          {
+            "answer": true,
+            "q": "Die erste Meldebescheinigung ist kostenlos. — The first registration certificate is free.",
+            "why": "Sie wird direkt ausgehändigt; erst weitere Exemplare kosten 5 €."
+          },
+          {
+            "answer": false,
+            "q": "Für einen Umzug innerhalb der Stadt gelten andere Regeln. — Different rules apply for a move within the city.",
+            "why": "„Die Ummeldung innerhalb der Stadt läuft genauso.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Bürgeramt Mitte — Anmeldung einer Wohnung**\n>\n> - Termine **online** über das Portal. Ohne Termin nur\n>   **dienstags 8–10 Uhr** (offene Sprechstunde, begrenzte Zahl).\n> - Die Anmeldung muss **innerhalb von 14 Tagen** nach Einzug\n>   erfolgen. Bei Verspätung ist ein **Bußgeld** möglich.\n> - **Mitbringen:** ausgefülltes Anmeldeformular, Pass oder\n>   Personalausweis, **Wohnungsgeberbestätigung** (nicht der\n>   Mietvertrag).\n> - Für **Familienangehörige** im selben Haushalt genügt **eine**\n>   Person mit den Ausweisen aller; für Personen ab 16 Jahren\n>   wird eine **Vollmacht** benötigt.\n> - Die **Meldebescheinigung** wird direkt ausgehändigt, weitere\n>   Exemplare kosten **5 €**.\n> - Die Ummeldung innerhalb der Stadt läuft **genauso**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Terminseite lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ein früheres Einzugsdatum angeben."
+              },
+              {
+                "key": "b",
+                "text": "So schnell wie möglich einen Termin machen und am Schalter sagen, dass es später wurde."
+              },
+              {
+                "key": "c",
+                "text": "Warten, bis jemand fragt."
+              }
+            ],
+            "q": "Du bist seit fünf Wochen eingezogen und noch nicht angemeldet. — You moved in five weeks ago and still haven't registered.",
+            "why": "Falsche Angaben im Meldeformular sind ein echtes Problem; eine späte Anmeldung meistens keins."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich habe den Mietvertrag dabei, geht das auch?"
+              },
+              {
+                "key": "b",
+                "text": "Kann ich das nachreichen? Meine Vermieterin schickt sie mir morgen."
+              },
+              {
+                "key": "c",
+                "text": "Dann eben nicht."
+              }
+            ],
+            "q": "Die Wohnungsgeberbestätigung fehlt. — The landlord's confirmation is missing.",
+            "why": "Nach dem Nachreichen fragen und einen Zeitpunkt nennen — oft geht das per Mail oder Post."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Entschuldigung, da ist ein Fehler: Ich bin am 14. März geboren, nicht am 4. März."
+              },
+              {
+                "key": "b",
+                "text": "Das stimmt so nicht."
+              },
+              {
+                "key": "c",
+                "text": "Nichts sagen, das fällt schon auf."
+              }
+            ],
+            "q": "Beim Vorlesen merkst du, dass dein Geburtsdatum falsch eingetragen ist. — You notice your date of birth was entered wrongly.",
+            "why": "Falsch und richtig direkt nebeneinander nennen — dann ist es in zehn Sekunden korrigiert."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sechs Wochen warten."
+              },
+              {
+                "key": "b",
+                "text": "Es online noch einmal versuchen und zusätzlich die offene Sprechstunde am Dienstag nutzen."
+              },
+              {
+                "key": "c",
+                "text": "Bei der Bank sagen, dass es nicht geht."
+              }
+            ],
+            "q": "Der Termin ist erst in sechs Wochen, du brauchst die Bescheinigung für die Bank. — The appointment is six weeks away and you need the certificate for the bank.",
+            "why": "Kurzfristig abgesagte Termine erscheinen ständig neu im Portal — und dienstags gibt es die Sprechstunde."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich habe hier einen Termin!"
+              },
+              {
+                "key": "b",
+                "text": "Das kann nicht sein."
+              },
+              {
+                "key": "c",
+                "text": "Oh, das tut mir leid. Können Sie mir sagen, wohin ich muss und ob ich dort einen Termin brauche?"
+              }
+            ],
+            "q": "Am Schalter wird dir gesagt, du seist im falschen Amt. — At the counter you're told you're at the wrong office.",
+            "why": "Nach dem richtigen Ort UND nach dem Termin fragen — sonst stehst du zweimal umsonst da."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich zahle das nicht."
+              },
+              {
+                "key": "b",
+                "text": "Darf ich fragen, wie hoch das ist und ob ich etwas dazu schreiben kann? Ich habe die Bestätigung erst spät bekommen."
+              },
+              {
+                "key": "c",
+                "text": "Das ist ungerecht."
+              }
+            ],
+            "q": "Du sollst ein Bußgeld zahlen. — You're told you have to pay a fine.",
+            "why": "Höhe erfragen und den Grund schriftlich nachreichen — oft wird dann abgesehen oder reduziert."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn etwas fehlt"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "anmelden"
+          ],
+          "2": [
+            "eingezogen"
+          ],
+          "3": [
+            "Wohnungsgeberbestätigung"
+          ],
+          "4": [
+            "nachreichen"
+          ],
+          "5": [
+            "Bußgeld"
+          ],
+          "6": [
+            "Meldebescheinigung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich möchte mich {1}. (sich registrieren lassen)\n2. Ich bin am 1. September {2}. (Perfekt von einziehen)\n3. Meine Vermieterin schickt mir die {3}. (Papier vom Wohnungsgeber)\n4. Kann ich das {4}? (später bringen)\n5. Bei Verspätung droht ein {5}. (Strafe in Geld)\n6. Die {6} brauche ich für die Bank. (Papier über meine Adresse)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "anmelden"
+          ],
+          "2": [
+            "am"
+          ],
+          "3": [
+            "buchstabiere"
+          ],
+          "4": [
+            "Geburtsdatum"
+          ],
+          "5": [
+            "Familienstand"
+          ],
+          "6": [
+            "Wohnungsgeberbestätigung"
+          ],
+          "7": [
+            "nachreichen"
+          ],
+          "8": [
+            "unterschreiben"
+          ],
+          "9": [
+            "Meldebescheinigung"
+          ],
+          "10": [
+            "Termin"
+          ],
+          "11": [
+            "Bußgeld"
+          ],
+          "12": [
+            "wiederholen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich möchte mich {1}. (register)\n2. Ich bin {2} 1. September eingezogen. (on the)\n3. Ich {3}: M-A-R-C-H-E-T-T-I. (I'll spell it)\n4. Mein {4} ist der 14. März 1994. (date of birth)\n5. {5}? — Ledig. (marital status)\n6. Die {6} habe ich von meiner Vermieterin. (landlord's confirmation)\n7. Kann ich das {7}? (hand in later)\n8. Bitte hier {8}. (sign)\n9. Hier ist Ihre {9}. (registration certificate)\n10. Brauche ich dafür einen {10}? (appointment)\n11. Bei Verspätung droht ein {11}. (fine)\n12. Könnten Sie das bitte noch einmal {12}? (repeat)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-22-buergeramt-a2",
+  "intro": "Der erste Behördengang in Deutschland ist fast immer derselbe: die Anmeldung. Du brauchst einen Termin, ein ausgefülltes Formular, deinen Pass und die Wohnungsgeberbestätigung von der Vermieterin. Am Schalter dauert es dann zehn Minuten: Name buchstabieren, Adresse bestätigen, Familienstand und Religion angeben, unterschreiben — und du gehst mit der Meldebescheinigung wieder raus. Grammatik nach Bedarf: Buchstabieren und Zahlen, Präpositionen bei Datum und Adresse, W-Fragen und höfliche Bitten. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/22-buergeramt-a2",
+  "level": "A2",
+  "summary": "Einen Termin bekommen, das Formular ausfüllen, am Schalter die Fragen beantworten und die Meldebescheinigung mitnehmen.",
+  "title": "Beim Bürgeramt: anmelden und ummelden — A2",
+  "topic": "Anmeldung beim Bürgeramt"
+}

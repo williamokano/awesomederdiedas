@@ -1,0 +1,1633 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "die"
+          ],
+          "2": [
+            "das"
+          ],
+          "3": [
+            "der"
+          ],
+          "4": [
+            "das"
+          ],
+          "5": [
+            "die"
+          ],
+          "6": [
+            "der"
+          ],
+          "7": [
+            "das"
+          ],
+          "8": [
+            "der"
+          ],
+          "9": [
+            "die"
+          ],
+          "10": [
+            "das"
+          ],
+          "11": [
+            "der"
+          ],
+          "12": [
+            "das"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Küche  2. {2} Sofa  3. {3} Balkon  4. {4} Bett\n5. {5} Lampe  6. {6} Schrank  7. {7} Bad  8. {8} Teppich\n9. {9} Tür  10. {10} Fenster  11. {11} Kühlschrank  12. {12} Regal\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "skill": "article-gender",
+      "title": "der, die oder das?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Tische"
+          ],
+          "2": [
+            "Stühle"
+          ],
+          "3": [
+            "Betten"
+          ],
+          "4": [
+            "Schränke"
+          ],
+          "5": [
+            "Lampen"
+          ],
+          "6": [
+            "Zimmer"
+          ],
+          "7": [
+            "Bilder"
+          ],
+          "8": [
+            "Türen"
+          ],
+          "9": [
+            "Fenster"
+          ],
+          "10": [
+            "Teppiche"
+          ]
+        },
+        "listLayout": true,
+        "text": "der Tisch → die {1} · der Stuhl → die {2} · das Bett → die {3} ·\nder Schrank → die {4} · die Lampe → die {5} · das Zimmer → die {6} ·\ndas Bild → die {7} · die Tür → die {8} · das Fenster → die {9} ·\nder Teppich → die {10}\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "skill": "plural",
+      "title": "Plural"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "einen"
+          ],
+          "2": [
+            "eine"
+          ],
+          "3": [
+            "ein"
+          ],
+          "4": [
+            "keinen"
+          ],
+          "5": [
+            "keine"
+          ],
+          "6": [
+            "kein"
+          ],
+          "7": [
+            "einen"
+          ],
+          "8": [
+            "eine"
+          ],
+          "9": [
+            "ein"
+          ],
+          "10": [
+            "einen"
+          ],
+          "11": [
+            "keinen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Es gibt {1} Balkon. (✓)\n2. Es gibt {2} Küche. (✓)\n3. Es gibt {3} Bad. (✓)\n4. Es gibt {4} Garten. (✗)\n5. Es gibt {5} Garage. (✗)\n6. Es gibt {6} Kinderzimmer. (✗)\n7. Es gibt {7} Flur. (✓)\n8. Es gibt {8} Toilette und {9} Bad. (✓ ✓)\n9. Es gibt {10} Aufzug. (✓)\n10. Es gibt {11} Fernseher. (✗)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze: einen, eine, ein, keinen, keine, kein. (✓) = das Nomen hat einen Artikel, (✗) = kein Artikel.",
+      "instructionsEn": "Fill in: einen, eine, ein, keinen, keine, kein. (✓) = the noun has an article, (✗) = no article.",
+      "title": "`es gibt` + Akkusativ"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "den"
+          ],
+          "2": [
+            "das"
+          ],
+          "3": [
+            "die"
+          ],
+          "4": [
+            "den"
+          ],
+          "5": [
+            "die"
+          ],
+          "6": [
+            "das"
+          ],
+          "7": [
+            "die"
+          ],
+          "8": [
+            "die"
+          ],
+          "9": [
+            "den"
+          ],
+          "10": [
+            "das"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich finde {1} Tisch schön.\n2. Wie findest du {2} Sofa?\n3. Ich finde {3} Lampe hässlich.\n4. Ich finde {4} Schrank zu groß.\n5. Wie findet ihr {5} Küche?\n6. Wir finden {6} Bad zu klein.\n7. Ich finde {7} Stühle modern. (pl.)\n8. Er findet {8} Wohnung teuer.\n9. Findest du {9} Sessel gemütlich?\n10. Ich finde {10} Bett super.\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "title": "`finden` + den/die/das"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "klein"
+          ],
+          "2": [
+            "dunkel"
+          ],
+          "3": [
+            "alt"
+          ],
+          "4": [
+            "billig"
+          ],
+          "5": [
+            "hässlich"
+          ],
+          "6": [
+            "ruhig"
+          ],
+          "7": [
+            "dunkel"
+          ],
+          "8": [
+            "billig"
+          ],
+          "9": [
+            "alt"
+          ],
+          "10": [
+            "ruhig"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. groß → {1}  2. hell → {2}  3. neu → {3}  4. teuer → {4}\n5. schön → {5}  6. laut → {6}\n7. Das Zimmer ist nicht hell, es ist {7}.\n8. Die Wohnung ist nicht teuer, sie ist {8}.\n9. Das Sofa ist nicht neu, es ist {9}.\n10. Hier ist es nicht laut, es ist {10}.\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Ordne 1–6 den Gegensätzen (a–f) zu. Ergänze dann 7–10.",
+      "instructionsEn": "Match 1–6 with their opposites (a–f), then fill in 7–10.",
+      "title": "Gegensätze (opposites)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "teuer"
+          ],
+          "2": [
+            "hell"
+          ],
+          "3": [
+            "dunkel"
+          ],
+          "4": [
+            "ruhig"
+          ],
+          "5": [
+            "klein"
+          ],
+          "6": [
+            "groß"
+          ],
+          "7": [
+            "neu"
+          ],
+          "8": [
+            "gemütlich"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Wohnung kostet 1500 Euro — sie ist sehr {1}.\n2. Das Wohnzimmer hat drei Fenster — es ist {2}.\n3. Das Bad hat kein Fenster — es ist {3}.\n4. Keine Musik, keine Autos — es ist {4}.\n5. Nur 20 Quadratmeter — das Zimmer ist {5}.\n6. 120 Quadratmeter — die Wohnung ist {6}!\n7. Das Sofa ist von 2026 — es ist {7}.\n8. Ein Sofa, ein Teppich, Lampen — das Wohnzimmer ist sehr {8}.\n",
+        "type": "gap-text"
+      },
+      "id": "A6",
+      "title": "Which adjective fits?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "rot"
+          ],
+          "2": [
+            "gelb"
+          ],
+          "3": [
+            "grün"
+          ],
+          "4": [
+            "weiß"
+          ],
+          "5": [
+            "schwarz",
+            "braun"
+          ],
+          "6": [
+            "braun"
+          ],
+          "7": [
+            "grau"
+          ],
+          "8": [
+            "weiß"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Tomate ist {1}.\n2. Die Banane ist {2}.\n3. Der Salat ist {3}.\n4. Die Milch ist {4}.\n5. Der Kaffee ist {5}.\n6. Der Stuhl ist {6}. (brown)\n7. Das Sofa ist {7}. (grey)\n8. Die Tür ist {8}. (white)\n",
+        "type": "gap-text"
+      },
+      "id": "A7",
+      "title": "Farben (recycling Lektion 3!)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "finde"
+          ],
+          "2": [
+            "findest"
+          ],
+          "3": [
+            "findet"
+          ],
+          "4": [
+            "finden"
+          ],
+          "5": [
+            "findet"
+          ],
+          "6": [
+            "finden"
+          ],
+          "7": [
+            "findest"
+          ],
+          "8": [
+            "findet"
+          ],
+          "9": [
+            "findet"
+          ],
+          "10": [
+            "finde"
+          ]
+        },
+        "listLayout": true,
+        "text": "ich {1} · du {2} · er/sie/es {3} · wir {4} · ihr {5} · sie/Sie {6}\n1. Wie {7} du die Wohnung?\n2. Er {8} das Sofa zu alt.\n3. Wie {9} ihr die Küche?\n4. Ich {10} den Teppich schön.\n",
+        "type": "gap-text"
+      },
+      "id": "A8",
+      "title": "`finden`: forms"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "mir"
+          ],
+          "2": [
+            "Gefällt"
+          ],
+          "3": [
+            "gefallen"
+          ],
+          "4": [
+            "gefällt"
+          ],
+          "5": [
+            "dir"
+          ],
+          "6": [
+            "Gefallen"
+          ],
+          "7": [
+            "nicht"
+          ],
+          "8": [
+            "gefällt"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das Sofa gefällt {1}. (me)\n2. {2} dir die Wohnung?\n3. Die Stühle {3} mir nicht.\n4. Wie {4} dir das Wohnzimmer?\n5. Der Balkon gefällt {5} sehr gut. (you)\n6. {6} dir die Lampen?\n7. Das Bad gefällt mir {7} so gut. (negation!)\n8. Die Küche {8} mir sehr.\n",
+        "type": "gap-text"
+      },
+      "id": "A9",
+      "title": "`gefallen` + mir/dir"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "hat"
+          ],
+          "2": [
+            "ist"
+          ],
+          "3": [
+            "gibt"
+          ],
+          "4": [
+            "sind"
+          ],
+          "5": [
+            "haben"
+          ],
+          "6": [
+            "Gibt"
+          ],
+          "7": [
+            "ist"
+          ],
+          "8": [
+            "habe"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die Wohnung {1} drei Zimmer.\n2. Das Wohnzimmer {2} hell.\n3. Es {3} einen Balkon.\n4. Die Zimmer {4} groß.\n5. Wir {5} keine Garage.\n6. {6} es einen Garten?\n7. Das Haus {7} alt, aber schön.\n8. Ich {8} ein Regal und einen Schrank.\n",
+        "type": "gap-text"
+      },
+      "id": "A10",
+      "title": "haben, sein oder es gibt?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Die Stühle sind neu."
+          ],
+          "2": [
+            "Das Bett ist groß."
+          ],
+          "3": [
+            "Der Teppich ist alt."
+          ],
+          "4": [
+            "Die Zimmer sind hell."
+          ],
+          "5": [
+            "Das Bad ist klein."
+          ],
+          "6": [
+            "Die Möbel sind teuer."
+          ],
+          "7": [
+            "Das Haus ist gemütlich."
+          ],
+          "8": [
+            "Die Fenster sind groß."
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das Sofa ist neu. (die Stühle) → {1}\n2. Der Tisch ist groß. (das Bett) → {2}\n3. Die Lampe ist alt. (der Teppich) → {3}\n4. Das Zimmer ist hell. (die Zimmer) → {4}\n5. Die Küche ist klein. (das Bad) → {5}\n6. Der Schrank ist teuer. (die Möbel) → {6}\n7. Die Wohnung ist gemütlich. (das Haus) → {7}\n8. Das Fenster ist groß. (die Fenster) → {8}\n",
+        "type": "gap-text"
+      },
+      "id": "A11",
+      "instructions": "Beispiel: Das Sofa ist neu. (die Stühle) → Die Stühle sind neu.",
+      "instructionsEn": "Example: Das Sofa ist neu. (die Stühle) → Die Stühle sind neu.",
+      "title": "Substitution drill"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Wie findest du die Wohnung?"
+          ],
+          "2": [
+            "Gefällt dir der Balkon?"
+          ],
+          "3": [
+            "Wie viele Zimmer hat die Wohnung?"
+          ],
+          "4": [
+            "Gibt es einen Garten?"
+          ],
+          "5": [
+            "Was kostet die Wohnung?"
+          ],
+          "6": [
+            "Wie findet ihr das Bad?"
+          ],
+          "7": [
+            "Ist die Wohnung noch frei?"
+          ],
+          "8": [
+            "Gefallen dir die Möbel?"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. du / die Wohnung / finden → {1}\n2. dir / der Balkon / gefallen (yes/no) → {2}\n3. die Wohnung / Zimmer / wie viele → {3}\n4. es / ein Garten / geben (yes/no) → {4}\n5. die Wohnung / was / kosten → {5}\n6. ihr / das Bad / finden → {6}\n7. die Wohnung / noch frei / sein (yes/no) → {7}\n8. dir / die Möbel / gefallen (yes/no) → {8}\n",
+        "type": "gap-text"
+      },
+      "id": "A12",
+      "instructions": "Beispiel: du / das Sofa / finden → Wie findest du das Sofa?",
+      "instructionsEn": "Example: du / das Sofa / finden → Wie findest du das Sofa?",
+      "title": "Build the questions"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Wohnung"
+          ],
+          "2": [
+            "Zimmer"
+          ],
+          "3": [
+            "Küche"
+          ],
+          "4": [
+            "gefällt"
+          ],
+          "5": [
+            "neu"
+          ],
+          "6": [
+            "Gibt"
+          ],
+          "7": [
+            "gemütlich"
+          ],
+          "8": [
+            "kostet"
+          ]
+        },
+        "listLayout": true,
+        "text": "— Komm rein! Das ist meine neue {1}.\n— Wie viele {2} hat sie?\n— Drei Zimmer, eine {3} und ein Bad.\n— Sehr schön! Das Sofa {4} mir!\n— Danke, es ist {5}.\n— {6} es auch einen Balkon?\n— Ja! Er ist klein, aber {7}.\n— Und was {8} die Wohnung?\n— 850 Euro im Monat.\n",
+        "type": "gap-text"
+      },
+      "id": "B1",
+      "title": "Dialog: Die Wohnungstour"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Name"
+          ],
+          "2": [
+            "frei"
+          ],
+          "3": [
+            "groß"
+          ],
+          "4": [
+            "Quadratmeter"
+          ],
+          "5": [
+            "Gibt"
+          ],
+          "6": [
+            "einen"
+          ],
+          "7": [
+            "Miete"
+          ],
+          "8": [
+            "sehen"
+          ]
+        },
+        "listLayout": true,
+        "text": "— Klein.\n— Guten Tag, mein {1} ist Bruno Santos. Ist die Wohnung noch {2}?\n— Ja, sie ist noch frei.\n— Wie {3} ist sie?\n— 65 {4} — zwei Zimmer, Küche, Bad.\n— {5} es einen Balkon?\n— Nein, aber es gibt {6} Garten.\n— Was kostet die {7}?\n— 700 Euro.\n— Gut. Ich möchte die Wohnung gern {8}.\n",
+        "type": "gap-text"
+      },
+      "id": "B2",
+      "title": "Dialog: Am Telefon"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "einen"
+          ],
+          "2": [
+            "mir"
+          ],
+          "3": [
+            "den"
+          ],
+          "4": [
+            "ist"
+          ],
+          "5": [
+            "das"
+          ],
+          "6": [
+            "sind"
+          ],
+          "7": [
+            "Gefällt"
+          ],
+          "8": [
+            "keinen"
+          ],
+          "9": [
+            "einen"
+          ],
+          "10": [
+            "findest"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Es gibt {1} Balkon. (ein → ?)\n2. Die Wohnung gefällt {2}. (ich → ?)\n3. Ich finde {3} Tisch schön. (der → ?)\n4. Das Zimmer {4} hell. (sind → ?)\n5. Wie findest du {5} Sofa? (die → ?)\n6. Die Stühle {6} neu. (ist → ?)\n7. {7} dir das Bild? (Gefallen → ?)\n8. Die Wohnung hat {8} Balkon. (nicht → ?)\n9. Ich habe {9} Tisch und vier Stühle. (eine → ?)\n10. Du {10} die Lampe schön? (findst → ?)\n",
+        "type": "gap-text"
+      },
+      "id": "B3",
+      "instructions": "Jeder Satz hat genau einen Fehler. Das falsche Wort steht als Lücke — schreibe die richtige Form.",
+      "instructionsEn": "Each sentence has exactly one mistake. The wrong word is shown as a gap — write the correct form.",
+      "title": "Finde den Fehler"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "c",
+          "2": "e",
+          "3": "a",
+          "4": "g",
+          "5": "b",
+          "6": "h",
+          "7": "d",
+          "8": "f"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Wie viele Zimmer hat die Wohnung?"
+          },
+          {
+            "key": "2",
+            "text": "Was kostet die Miete?"
+          },
+          {
+            "key": "3",
+            "text": "Gibt es einen Balkon?"
+          },
+          {
+            "key": "4",
+            "text": "Wie findest du das Sofa?"
+          },
+          {
+            "key": "5",
+            "text": "Ist die Wohnung noch frei?"
+          },
+          {
+            "key": "6",
+            "text": "Gefällt dir die Küche?"
+          },
+          {
+            "key": "7",
+            "text": "Wie groß ist die Wohnung?"
+          },
+          {
+            "key": "8",
+            "text": "Welche Farbe hat das Sofa?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Nein, aber einen Garten."
+          },
+          {
+            "key": "b",
+            "text": "Ja, sie ist noch frei."
+          },
+          {
+            "key": "c",
+            "text": "Drei Zimmer, Küche, Bad."
+          },
+          {
+            "key": "d",
+            "text": "80 Quadratmeter."
+          },
+          {
+            "key": "e",
+            "text": "850 Euro im Monat."
+          },
+          {
+            "key": "f",
+            "text": "Es ist grau."
+          },
+          {
+            "key": "g",
+            "text": "Sehr gemütlich!"
+          },
+          {
+            "key": "h",
+            "text": "Ja, sie ist groß und hell."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B4",
+      "title": "Frage und Antwort verbinden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              2,
+              0,
+              1,
+              3
+            ],
+            "note": "Es gibt einen Balkon.",
+            "tiles": [
+              "gibt",
+              "einen",
+              "es",
+              "Balkon"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              0,
+              2,
+              3
+            ],
+            "note": "Die Wohnung gefällt mir sehr.",
+            "tiles": [
+              "gefällt",
+              "die Wohnung",
+              "mir",
+              "sehr"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              2,
+              0,
+              4,
+              3,
+              5
+            ],
+            "note": "Wie viele Zimmer hat die Wohnung?",
+            "tiles": [
+              "Zimmer",
+              "wie",
+              "viele",
+              "die Wohnung",
+              "hat",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              0,
+              2,
+              3
+            ],
+            "note": "Ich finde die Küche schön.",
+            "tiles": [
+              "finde",
+              "ich",
+              "die Küche",
+              "schön"
+            ]
+          },
+          {
+            "answer": [
+              2,
+              0,
+              1,
+              3,
+              4
+            ],
+            "note": "Das Wohnzimmer ist hell und groß.",
+            "tiles": [
+              "ist",
+              "hell",
+              "das Wohnzimmer",
+              "und",
+              "groß"
+            ]
+          },
+          {
+            "answer": [
+              3,
+              2,
+              0,
+              1,
+              4
+            ],
+            "note": "Wie findest du das Sofa?",
+            "tiles": [
+              "du",
+              "das Sofa",
+              "findest",
+              "wie",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              3,
+              0,
+              2
+            ],
+            "note": "Es gibt keine Garage.",
+            "tiles": [
+              "keine",
+              "es",
+              "Garage",
+              "gibt"
+            ]
+          },
+          {
+            "answer": [
+              2,
+              0,
+              3,
+              1
+            ],
+            "note": "Die Wohnung kostet 700 Euro.",
+            "tiles": [
+              "kostet",
+              "Euro",
+              "die Wohnung",
+              "700"
+            ]
+          },
+          {
+            "answer": [
+              3,
+              1,
+              0,
+              2,
+              4
+            ],
+            "note": "Ist die Wohnung noch frei?",
+            "tiles": [
+              "noch",
+              "die Wohnung",
+              "frei",
+              "ist",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              3,
+              0,
+              2
+            ],
+            "note": "Die Stühle gefallen mir nicht.",
+            "tiles": [
+              "mir",
+              "die Stühle",
+              "nicht",
+              "gefallen"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B5",
+      "title": "Satzbau"
+    },
+    {
+      "block": "B",
+      "body": {
+        "buckets": [
+          {
+            "key": "moebel",
+            "label": "Möbel"
+          },
+          {
+            "key": "raeume",
+            "label": "Räume"
+          },
+          {
+            "key": "farben",
+            "label": "Farben"
+          },
+          {
+            "key": "adjektive",
+            "label": "Adjektive"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "moebel",
+            "text": "Sofa"
+          },
+          {
+            "bucket": "moebel",
+            "text": "Schrank"
+          },
+          {
+            "bucket": "moebel",
+            "text": "Bett"
+          },
+          {
+            "bucket": "raeume",
+            "text": "Küche"
+          },
+          {
+            "bucket": "raeume",
+            "text": "Flur"
+          },
+          {
+            "bucket": "raeume",
+            "text": "Bad"
+          },
+          {
+            "bucket": "farben",
+            "text": "rot"
+          },
+          {
+            "bucket": "farben",
+            "text": "grau"
+          },
+          {
+            "bucket": "farben",
+            "text": "gelb"
+          },
+          {
+            "bucket": "adjektive",
+            "text": "hell"
+          },
+          {
+            "bucket": "adjektive",
+            "text": "billig"
+          },
+          {
+            "bucket": "adjektive",
+            "text": "gemütlich"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "B6",
+      "instructions": "Sortiere die 12 Wörter: Möbel · Räume · Farben · Adjektive",
+      "instructionsEn": "Sort the 12 words: Möbel · Räume · Farben · Adjektive",
+      "title": "Kategorien"
+    },
+    {
+      "block": "B",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "Küche",
+              "Bad",
+              "Schlafzimmer",
+              "Tisch"
+            ],
+            "odd": 3,
+            "why": "Tisch is furniture, not a room."
+          },
+          {
+            "items": [
+              "Sofa",
+              "Sessel",
+              "Bett",
+              "Balkon"
+            ],
+            "odd": 3,
+            "why": "Balkon is part of a building, not furniture."
+          },
+          {
+            "items": [
+              "rot",
+              "grün",
+              "schön",
+              "blau"
+            ],
+            "odd": 2,
+            "why": "schön is an adjective, not a color."
+          },
+          {
+            "items": [
+              "hell",
+              "dunkel",
+              "ruhig",
+              "Lampe"
+            ],
+            "odd": 3,
+            "why": "Lampe is a noun, not an adjective."
+          },
+          {
+            "items": [
+              "Miete",
+              "Euro",
+              "kosten",
+              "Stuhl"
+            ],
+            "odd": 3,
+            "why": "Stuhl is furniture, not about money."
+          },
+          {
+            "items": [
+              "Fenster",
+              "Tür",
+              "Balkon",
+              "Joghurt"
+            ],
+            "odd": 3,
+            "why": "Joghurt is food (Lektion 3!), not part of a flat."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "B7",
+      "title": "Was passt nicht?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "hat"
+          ],
+          "2": [
+            "und"
+          ],
+          "3": [
+            "gibt"
+          ],
+          "4": [
+            "aber"
+          ],
+          "5": [
+            "mir"
+          ],
+          "6": [
+            "der"
+          ],
+          "7": [
+            "dunkel"
+          ],
+          "8": [
+            "Stühle"
+          ],
+          "9": [
+            "eine"
+          ],
+          "10": [
+            "teuer"
+          ]
+        },
+        "bank": [
+          "hat",
+          "und",
+          "gibt",
+          "aber",
+          "mir",
+          "der",
+          "dunkel",
+          "Stühle",
+          "eine",
+          "teuer",
+          "schön",
+          "hell",
+          "modern",
+          "Möbel",
+          "auch"
+        ],
+        "text": "Hallo Lisa! Ich habe eine neue Wohnung! Sie {1} zwei Zimmer, eine Küche\nund ein Bad. Das Wohnzimmer ist groß {2} hell. Es {3} auch einen\nBalkon — er ist klein, {4} gemütlich. Die Küche gefällt {5}\nsehr: Sie ist modern und {6} Kühlschrank ist neu. Das Bad ist leider\nklein und {7}. Die Möbel? Ich habe ein Bett, einen Tisch und vier\n{8}. Ich brauche noch ein Sofa und {9} Lampe. Die Miete?\n600 Euro — das ist nicht {10}!\n",
+        "type": "gap-bank"
+      },
+      "id": "C1",
+      "instructions": "Fülle jede Lücke mit einem Wort aus dem Kasten. Fünf Wörter werden nicht gebraucht.",
+      "instructionsEn": "Fill each gap with one word from the box. Five words are not needed.",
+      "title": "Lückentext"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Euro"
+              },
+              {
+                "key": "b",
+                "text": "Quadratmeter"
+              },
+              {
+                "key": "c",
+                "text": "Zimmer"
+              }
+            ],
+            "q": "Sie ist 70 (1) ______ groß und hat drei Zimmer. — It is 70 ___ in size and has three rooms.",
+            "why": "70 Quadratmeter = 70 square meters (size)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "aber"
+              },
+              {
+                "key": "b",
+                "text": "und"
+              },
+              {
+                "key": "c",
+                "text": "oder"
+              }
+            ],
+            "q": "Mein Schlafzimmer ist klein, (2) ______ das Wohnzimmer ist super. — My bedroom is small, ___ the living room is great.",
+            "why": "aber = but (contrast)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "das"
+              },
+              {
+                "key": "c",
+                "text": "die"
+              }
+            ],
+            "q": "hell, groß, und (3) ______ Balkon ist direkt da. — bright, big, and the ___ balcony is right there.",
+            "why": "der Balkon (m)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ist"
+              },
+              {
+                "key": "b",
+                "text": "sind"
+              },
+              {
+                "key": "c",
+                "text": "seid"
+              }
+            ],
+            "q": "Die Möbel (4) ______ neu — nur das Sofa ist alt. — The furniture ___ new — only the sofa is old.",
+            "why": "Die Möbel = plural → sind."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "gemütlich"
+              },
+              {
+                "key": "b",
+                "text": "dunkel"
+              },
+              {
+                "key": "c",
+                "text": "frei"
+              }
+            ],
+            "q": "Es ist grau und sehr (5) ______. — It is grey and very ___.",
+            "why": "Sehr gemütlich = very cozy (positive context)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "billig"
+              },
+              {
+                "key": "b",
+                "text": "hell"
+              },
+              {
+                "key": "c",
+                "text": "teuer"
+              }
+            ],
+            "q": "Das ist (6) ______, aber Hamburg ist nicht billig! — That is ___, but Hamburg is not cheap!",
+            "why": "900 Euro in Hamburg is teuer, not billig."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle die richtige Option (a, b oder c) für jede Lücke.",
+      "instructionsEn": "Choose the correct option (a, b, or c) for each gap.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "HAT"
+          ],
+          "2": [
+            "BAD"
+          ],
+          "3": [
+            "GROSS"
+          ],
+          "4": [
+            "GIBT"
+          ],
+          "5": [
+            "EINEN"
+          ],
+          "6": [
+            "IST"
+          ],
+          "7": [
+            "NEU"
+          ],
+          "8": [
+            "GEFÄLLT"
+          ],
+          "9": [
+            "FINDE"
+          ],
+          "10": [
+            "ABER"
+          ]
+        },
+        "bank": [
+          "ABER",
+          "BAD",
+          "EINE",
+          "EINEN",
+          "ES",
+          "FINDE",
+          "GEFÄLLT",
+          "GIBT",
+          "GROSS",
+          "HAT",
+          "IST",
+          "KEINE",
+          "MIR",
+          "NEU",
+          "UND"
+        ],
+        "text": "Unsere Wohnung {1} vier Zimmer, eine Küche und ein {2}. Sie ist\n95 Quadratmeter {3}. Es {4} auch {5} Balkon und eine\nGarage. Das Wohnzimmer {6} hell und die Küche ist ganz {7}.\nMir {8} das Schlafzimmer: Es ist ruhig und gemütlich. Ich {9}\ndie Wohnung super — {10} sie ist teuer: 1.200 Euro!\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Fünf Wörter werden nicht gebraucht. Jedes Wort nur einmal.",
+      "instructionsEn": "Fill the 10 gaps from the box. Five words are not needed. Each word once.",
+      "title": "Sprachbausteine Teil 2 (word bank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Die Wohnung von Jonas hat zwei Zimmer. — Jonas's flat has two rooms.",
+            "why": "Laut Text hat die Wohnung ein Zimmer (nicht zwei)."
+          },
+          {
+            "answer": true,
+            "q": "Jonas findet die Möbel schön. — Jonas thinks the furniture is nice.",
+            "why": "Er findet die Möbel schön."
+          },
+          {
+            "answer": true,
+            "q": "In der Küche gibt es keinen Herd. — In the kitchen there is no stove.",
+            "why": "Der Text sagt, es gibt keinen Herd in der Küche."
+          },
+          {
+            "answer": false,
+            "q": "Das Bad ist hell. — The bathroom is bright.",
+            "why": "Das Bad hat kein Fenster und ist dunkel (nicht hell)."
+          },
+          {
+            "answer": true,
+            "q": "Die Miete ist für Köln billig. — The rent is cheap for Cologne.",
+            "why": "Köln ist teuer — laut Text kostet die Miete nur 450 €, also billig."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Ich heiße Jonas und wohne in Köln. Meine Wohnung ist klein:\n> ein Zimmer, eine Küche, ein Bad — nur 35 Quadratmeter.\n> Aber sie gefällt mir sehr! Mein Zimmer ist Wohnzimmer und\n> Schlafzimmer zusammen: Es gibt ein Bett, ein Sofa, einen\n> Tisch, zwei Stühle und ein Regal. Die Möbel sind nicht neu,\n> aber ich finde sie schön. Die Küche ist sehr klein — es\n> gibt keinen Herd, nur einen Kühlschrank! Aber das ist okay:\n> Ich esse oft Brot mit Käse oder Müsli. Das Bad hat kein\n> Fenster — es ist dunkel. Und die Miete? 450 Euro — für Köln\n> ist das billig.\n>\n> Nur eins gefällt mir nicht: Es ist hier sehr laut. Die Straße\n> vor dem Haus ist eine Hauptstraße. Morgens ist es laut,\n> abends ist es laut, nachts ist es laut. Mein Nachbar hat auch\n> einen Fernseher — er ist sehr groß und sehr laut! Und der\n> Kühlschrank — er ist alt, er macht komische Geräusche in der\n> Nacht. Aber das ist okay — für 450 Euro in Köln ist das normal.\n> Wie findest du meine Wohnung? Klein und laut — aber für mich\n> ist sie perfekt. Sie ist mein Zuhause.\n\nRichtig (R) oder falsch (F)?\n",
+      "title": "Lesen Text 1 — Meine Wohnung in Köln"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "zwei Zimmer"
+              },
+              {
+                "key": "b",
+                "text": "drei Zimmer"
+              },
+              {
+                "key": "c",
+                "text": "einen Garten"
+              }
+            ],
+            "q": "Anzeige 1: Die Wohnung hat … — Ad 1: The flat has …",
+            "why": "Anzeige 1 sagt 2-Zimmer-Wohnung."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "780 €"
+              },
+              {
+                "key": "b",
+                "text": "950 €"
+              },
+              {
+                "key": "c",
+                "text": "78 €"
+              }
+            ],
+            "q": "Was kostet die Wohnung in Spandau? — How much is the flat in Spandau?",
+            "why": "Anzeige 2 (Spandau) sagt Miete: 950 Euro."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "beide"
+              },
+              {
+                "key": "b",
+                "text": "Anzeige 2"
+              },
+              {
+                "key": "c",
+                "text": "Anzeige 1"
+              }
+            ],
+            "q": "Welche Wohnung hat einen Balkon? — Which flat has a balcony?",
+            "why": "Anzeige 1 erwähnt einen Balkon; Anzeige 2 hat Garten und Garage."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "eine Garage"
+              },
+              {
+                "key": "b",
+                "text": "einen Balkon"
+              },
+              {
+                "key": "c",
+                "text": "55 m²"
+              }
+            ],
+            "q": "Die Wohnung in Spandau hat … — The flat in Spandau has …",
+            "why": "Anzeige 2 (Spandau) erwähnt eine Garage."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Anzeige 1: 2-Zimmer-Wohnung in Berlin-Pankow, 55 m², Küche neu, Bad mit\nFenster, Balkon. Ab sofort frei. Miete: 780 Euro. Telefon: 030 555 12 34\n\nAnzeige 2: 3-Zimmer-Wohnung in Berlin-Spandau, 78 m², Garten und Garage,\nsehr ruhig. Miete: 950 Euro. Telefon: 030 555 98 76\n\nWähle a, b oder c.\n",
+      "title": "Lesen Text 2 — Wohnungsanzeigen"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "einen"
+          ],
+          "2": [
+            "gefällt"
+          ],
+          "3": [
+            "findest"
+          ],
+          "4": [
+            "dunkel"
+          ],
+          "5": [
+            "das"
+          ],
+          "6": [
+            "die"
+          ],
+          "7": [
+            "Zimmer"
+          ],
+          "8": [
+            "rot"
+          ],
+          "9": [
+            "Wo"
+          ],
+          "10": [
+            "die Miete"
+          ],
+          "11": [
+            "billig"
+          ],
+          "12": [
+            "keine"
+          ],
+          "13": [
+            "hat"
+          ],
+          "14": [
+            "fünfundneunzig"
+          ],
+          "15": [
+            "Gefällt dir die Küche?"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. „Es gibt {1} Balkon.\" (der Balkon)\n2. „Das Sofa {2} mir.\" (gefallen)\n3. finden, du-form: du {3}\n4. Opposite of *hell*: {4}\n5. (L3) der/die/das Ei: {5}\n6. „Ich finde {6} Lampe schön.\"\n7. (L2) Plural: das Zimmer → die {7}\n8. Welche Farbe hat eine Tomate? Sie ist {8}.\n9. (L1) wo oder woher: „{9} wohnst du?\"\n10. \"the rent\" → {10}\n11. Opposite of *teuer*: {11}\n12. (L3) nicht oder kein: „Es gibt {12} Garage.\"\n13. (L2) sein oder haben: „Die Wohnung {13} drei Zimmer.\"\n14. (L2) 95 in words: {14}\n15. \"Do you like the kitchen?\" (gefallen) → {15}\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "title": "Gemischter Schnelltest (incl. L1–L3)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "Sofa",
+              "Bett",
+              "Schrank",
+              "Küche"
+            ],
+            "odd": 3,
+            "why": "Küche is a room, not furniture."
+          },
+          {
+            "items": [
+              "rot",
+              "blau",
+              "laut",
+              "grün"
+            ],
+            "odd": 2,
+            "why": "laut is an adjective (loud), not a color."
+          },
+          {
+            "items": [
+              "Wohnzimmer",
+              "Bad",
+              "Küche",
+              "Lampe"
+            ],
+            "odd": 3,
+            "why": "Lampe is furniture, not a room."
+          },
+          {
+            "items": [
+              "gefällt",
+              "finde",
+              "ist",
+              "Stuhl"
+            ],
+            "odd": 3,
+            "why": "Stuhl is a noun (chair), not a verb form."
+          },
+          {
+            "items": [
+              "Fenster",
+              "Tür",
+              "Balkon",
+              "Banane"
+            ],
+            "odd": 3,
+            "why": "Banane is food, not part of a building."
+          },
+          {
+            "items": [
+              "Quadratmeter",
+              "Euro",
+              "Miete",
+              "Teppich"
+            ],
+            "odd": 3,
+            "why": "Teppich is furniture, not about renting."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "title": "Odd one out"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "sprichst"
+          ],
+          "2": [
+            "bist"
+          ],
+          "3": [
+            "isst"
+          ],
+          "4": [
+            "einen"
+          ],
+          "5": [
+            "eure"
+          ],
+          "6": [
+            "siebzehn"
+          ],
+          "7": [
+            "das"
+          ],
+          "8": [
+            "Ich bin nicht verheiratet."
+          ],
+          "9": [
+            "Zusammen oder getrennt?"
+          ],
+          "10": [
+            "Wer"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. (L1) sprechen, du-form: du {1}\n2. (L2) „Wie alt {2} du?\"\n3. (L3) essen, er-form: er {3}\n4. (L3) „Ich möchte {4} Kaffee.\"\n5. (L2) euer oder eure: „{5} Wohnung\"\n6. (L1) 17 in words: {6}\n7. (L3) der/die/das Brötchen: {7}\n8. (L2) Negate: „Ich bin verheiratet.\" → {8}\n9. (L3) \"Together or separately?\" → {9}\n10. (L1) „{10} ist das?\" — Das ist Frau Weber.\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "title": "Wiederholung Lektion 1–3"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "die"
+          ],
+          "2": [
+            "das"
+          ],
+          "3": [
+            "der"
+          ],
+          "4": [
+            "die Stühle"
+          ],
+          "5": [
+            "die Bilder"
+          ],
+          "6": [
+            "einen"
+          ],
+          "7": [
+            "ein"
+          ],
+          "8": [
+            "findet"
+          ],
+          "9": [
+            "gefällt"
+          ],
+          "10": [
+            "gefallen"
+          ],
+          "11": [
+            "alt"
+          ],
+          "12": [
+            "ruhig"
+          ],
+          "13": [
+            "gelb"
+          ],
+          "14": [
+            "schwarz"
+          ],
+          "15": [
+            "Wie viele Zimmer hat die Wohnung?"
+          ],
+          "16": [
+            "Es gibt einen Balkon."
+          ],
+          "17": [
+            "Die Küche gefällt mir sehr."
+          ],
+          "18": [
+            "das"
+          ],
+          "19": [
+            "die Miete"
+          ],
+          "20": [
+            "achthundertfünfzig"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Küche  2. {2} Bett  3. {3} Teppich\n4. Plural: der Stuhl → {4}  5. Plural: das Bild → {5}\n\n6. „Es gibt {6} Garten.\" (ein)  7. „Es gibt {7} Bad.\" (ein)\n8. finden: er {8}  9. „Wie {9} dir die Wohnung?\"\n10. „Die Lampen {10} mir.\"\n\n11. neu ↔ {11}  12. laut ↔ {12}  13. yellow = {13}  14. black = {14}\n\n15. \"How many rooms does the flat have?\" → {15}\n16. gibt – einen – es – Balkon → {16}\n17. mir – die Küche – gefällt – sehr → {17}\n18. „Ich finde {18} Sofa gemütlich.\"\n19. \"the rent\" (with article) → {19}\n20. 850 in words: {20}\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (score yourself /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "a1-04",
+  "intro": "Blocks: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Answers in solutions.md. Tip: spread the blocks over several days — H and A today, B tomorrow, C and D after that.\n",
+  "lesson": "A1/04",
+  "level": "A1",
+  "summary": null,
+  "title": "A1 · Lektion 4 — Übungen",
+  "topic": null
+}

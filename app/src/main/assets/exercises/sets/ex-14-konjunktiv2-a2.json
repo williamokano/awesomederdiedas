@@ -1,0 +1,751 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "würde (machen)",
+          "hätte",
+          "wäre"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "würde machen"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "hätte"
+                ],
+                "gap": 2
+              },
+              {
+                "answer": [
+                  "wäre"
+                ],
+                "gap": 3
+              }
+            ],
+            "label": "ich"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "würdest machen"
+                ],
+                "gap": 4
+              },
+              {
+                "answer": [
+                  "hättest"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "wärst"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "du"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "würde machen"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "hätte"
+                ],
+                "gap": 8
+              },
+              {
+                "answer": [
+                  "wäre"
+                ],
+                "gap": 9
+              }
+            ],
+            "label": "er/sie/es"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "würden machen"
+                ],
+                "gap": 10
+              },
+              {
+                "answer": [
+                  "hätten"
+                ],
+                "gap": 11
+              },
+              {
+                "answer": [
+                  "wären"
+                ],
+                "gap": 12
+              }
+            ],
+            "label": "wir"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "würdet machen"
+                ],
+                "gap": 13
+              },
+              {
+                "answer": [
+                  "hättet"
+                ],
+                "gap": 14
+              },
+              {
+                "answer": [
+                  "wärt"
+                ],
+                "gap": 15
+              }
+            ],
+            "label": "ihr"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "würden machen"
+                ],
+                "gap": 16
+              },
+              {
+                "answer": [
+                  "hätten"
+                ],
+                "gap": 17
+              },
+              {
+                "answer": [
+                  "wären"
+                ],
+                "gap": 18
+              }
+            ],
+            "label": "sie/Sie"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die Tabelle.",
+      "instructionsEn": "Complete the table.",
+      "title": "würde, hätte, wäre"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Könntest"
+          ],
+          "2": [
+            "hätte"
+          ],
+          "3": [
+            "Hättest"
+          ],
+          "4": [
+            "hätte"
+          ],
+          "5": [
+            "würde"
+          ],
+          "6": [
+            "wäre"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} du mir bitte helfen?\n2. Ich {2} gern einen Kaffee.\n3. {3} du Zeit für mich?\n4. Wenn ich Zeit {4}, würde ich kommen.\n5. Ich {5} gern nach Deutschland reisen.\n6. Das {6} schön!\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze die richtige Konjunktiv-II-Form.",
+      "instructionsEn": "Fill in the correct Konjunktiv-II form.",
+      "title": "Höflich fragen und wünschen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Könnten"
+          ],
+          "2": [
+            "hätte"
+          ],
+          "3": [
+            "würde"
+          ],
+          "4": [
+            "Würden"
+          ],
+          "5": [
+            "würden"
+          ],
+          "6": [
+            "Wäre"
+          ],
+          "7": [
+            "hätte"
+          ],
+          "8": [
+            "wäre"
+          ]
+        },
+        "bank": [
+          "Könnten",
+          "hätte",
+          "hätte",
+          "würde",
+          "Würden",
+          "würden",
+          "Wäre",
+          "wäre",
+          "könnten",
+          "hätten"
+        ],
+        "text": "Guten Tag! {1} Sie uns bitte die Speisekarte bringen? Ich {2}\ngern das Schnitzel. Meine Frau {3} lieber den Salat nehmen. {4}\nSie uns auch Wasser bringen? Wir {5} gern draußen sitzen. {6}\ndas möglich? Ich {7} noch eine Frage. Das {8} sehr freundlich\nvon Ihnen.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Im Restaurant"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Könnten"
+              },
+              {
+                "key": "b",
+                "text": "Waren"
+              },
+              {
+                "key": "c",
+                "text": "Sind"
+              }
+            ],
+            "q": "___ Sie mir bitte helfen?",
+            "why": "Höfliche Bitte → könnte."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "bin"
+              },
+              {
+                "key": "b",
+                "text": "hätte"
+              },
+              {
+                "key": "c",
+                "text": "war"
+              }
+            ],
+            "q": "Ich ___ gern mehr Zeit.",
+            "why": "Wunsch → hätte gern."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "bin"
+              },
+              {
+                "key": "b",
+                "text": "hätte"
+              },
+              {
+                "key": "c",
+                "text": "wäre"
+              }
+            ],
+            "q": "Wenn ich reich ___, würde ich reisen.",
+            "why": "Irrealer Bedingungssatz → wäre."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Würdest"
+              },
+              {
+                "key": "b",
+                "text": "Bist"
+              },
+              {
+                "key": "c",
+                "text": "Hast"
+              }
+            ],
+            "q": "___ du mir bitte das Salz geben?",
+            "why": "Höfliche Bitte → würde."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ist"
+              },
+              {
+                "key": "b",
+                "text": "wäre"
+              },
+              {
+                "key": "c",
+                "text": "war"
+              }
+            ],
+            "q": "Das ___ toll!",
+            "why": "Wunsch/Reaktion → wäre."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "habe"
+              },
+              {
+                "key": "b",
+                "text": "bin"
+              },
+              {
+                "key": "c",
+                "text": "hätte"
+              }
+            ],
+            "q": "Wenn ich Zeit ___, käme ich mit.",
+            "why": "Irrealer Bedingungssatz → hätte."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Höfliche Bitte, Wunsch oder Irrealis?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Könnten"
+              },
+              {
+                "key": "b",
+                "text": "Waren"
+              },
+              {
+                "key": "c",
+                "text": "Hatten"
+              }
+            ],
+            "q": "___ Sie mir bitte ein Zimmer zeigen?",
+            "why": "Höfliche Bitte → könnte."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "bin"
+              },
+              {
+                "key": "b",
+                "text": "hätte"
+              },
+              {
+                "key": "c",
+                "text": "war"
+              }
+            ],
+            "q": "Ich ___ gern ein Zimmer mit Meerblick.",
+            "why": "Wunsch → hätte gern."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ist"
+              },
+              {
+                "key": "b",
+                "text": "War"
+              },
+              {
+                "key": "c",
+                "text": "Wäre"
+              }
+            ],
+            "q": "___ das möglich?",
+            "why": "Höfliche Nachfrage → wäre."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Würden"
+              },
+              {
+                "key": "b",
+                "text": "Sind"
+              },
+              {
+                "key": "c",
+                "text": "Waren"
+              }
+            ],
+            "q": "___ Sie uns bitte das Frühstück bringen?",
+            "why": "Höfliche Bitte → würde."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sind"
+              },
+              {
+                "key": "b",
+                "text": "hätten"
+              },
+              {
+                "key": "c",
+                "text": "waren"
+              }
+            ],
+            "q": "Wir ___ auch gern einen späten Check-out.",
+            "why": "Wunsch → hätte gern."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "ist"
+              },
+              {
+                "key": "b",
+                "text": "war"
+              },
+              {
+                "key": "c",
+                "text": "wäre"
+              }
+            ],
+            "q": "Das ___ sehr freundlich.",
+            "why": "Höfliche Reaktion → wäre."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sind"
+              },
+              {
+                "key": "b",
+                "text": "Hätten"
+              },
+              {
+                "key": "c",
+                "text": "Waren"
+              }
+            ],
+            "q": "___ Sie noch einen Moment Zeit?",
+            "why": "Höfliche Bitte → hätte."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "hätte"
+              },
+              {
+                "key": "b",
+                "text": "bin"
+              },
+              {
+                "key": "c",
+                "text": "war"
+              }
+            ],
+            "q": "Ich ___ gern noch eine Frage.",
+            "why": "Wunsch → hätte gern."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct Konjunktiv-II form for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Im Hotel"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Könnten"
+          ],
+          "2": [
+            "hätte"
+          ],
+          "3": [
+            "Wäre"
+          ],
+          "4": [
+            "hätte"
+          ],
+          "5": [
+            "Würden"
+          ],
+          "6": [
+            "wäre"
+          ],
+          "7": [
+            "hätte"
+          ],
+          "8": [
+            "Wäre"
+          ],
+          "9": [
+            "hätten"
+          ],
+          "10": [
+            "wäre"
+          ]
+        },
+        "bank": [
+          "Könnten",
+          "hätte",
+          "hätte",
+          "hätte",
+          "Wäre",
+          "Wäre",
+          "Würden",
+          "wäre",
+          "wäre",
+          "hätten",
+          "könnten",
+          "wären"
+        ],
+        "text": "{1} Sie mir bitte die Haare schneiden? Ich {2} sie gern nicht zu\nkurz. {3} das möglich? Ich {4} auch gern eine neue Farbe. {5}\nSie mir einen Vorschlag machen? Das {6} interessant. Ich {7}\ngern einen Termin nächste Woche. {8} das für Sie in Ordnung?\nWir {9} auch gern einen Kaffee, wenn möglich. Das {10} sehr nett\nvon Ihnen.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Two words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Beim Friseur (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Könnten"
+          ],
+          "2": [
+            "hätte"
+          ],
+          "3": [
+            "hätte"
+          ],
+          "4": [
+            "wäre"
+          ],
+          "5": [
+            "Würdest"
+          ],
+          "6": [
+            "würden"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Sie mir bitte helfen?\n2. Ich {2} gern ein Glas Wasser.\n3. Wenn ich Zeit {3}, würde ich kommen.\n4. Das {4} schön!\n5. {5} du mir das Buch geben?\n6. Wir {6} gern draußen sitzen.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die richtige Konjunktiv-II-Form.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Könnten"
+              },
+              {
+                "key": "b",
+                "text": "Waren"
+              },
+              {
+                "key": "c",
+                "text": "Sind"
+              }
+            ],
+            "q": "___ Sie mir bitte die Uhrzeit sagen?",
+            "why": "Höfliche Bitte → könnte."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "bin"
+              },
+              {
+                "key": "b",
+                "text": "hätte"
+              },
+              {
+                "key": "c",
+                "text": "war"
+              }
+            ],
+            "q": "Ich ___ gern mehr Urlaub.",
+            "why": "Wunsch → hätte gern."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "bin"
+              },
+              {
+                "key": "b",
+                "text": "habe"
+              },
+              {
+                "key": "c",
+                "text": "hätte"
+              }
+            ],
+            "q": "Wenn ich mehr Geld ___, würde ich reisen.",
+            "why": "Irrealer Bedingungssatz → hätte."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Würdest"
+              },
+              {
+                "key": "b",
+                "text": "Bist"
+              },
+              {
+                "key": "c",
+                "text": "Hast"
+              }
+            ],
+            "q": "___ du mir bitte helfen?",
+            "why": "Höfliche Bitte → würde."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ist"
+              },
+              {
+                "key": "b",
+                "text": "wäre"
+              },
+              {
+                "key": "c",
+                "text": "war"
+              }
+            ],
+            "q": "Das ___ wirklich nett von dir.",
+            "why": "Höfliche Reaktion → wäre."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "habe"
+              },
+              {
+                "key": "b",
+                "text": "bin"
+              },
+              {
+                "key": "c",
+                "text": "hätte"
+              }
+            ],
+            "q": "Wenn ich Zeit ___, käme ich mit.",
+            "why": "Irrealer Bedingungssatz → hätte."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-14-konjunktiv2-a2",
+  "intro": "Standalone drill set, not tied to any lesson. Konjunktiv II softens a request or expresses a wish instead of stating a plain fact: Kannst du helfen? (direct) sounds blunter than Könntest du helfen? (polite). Four forms cover almost everything at this level: würde + Infinitiv (the all-purpose polite form: Ich würde gern kommen), könnte (a polite ability/request: Könntest du...?), hätte (a polite want: Ich hätte gern einen Kaffee), and wäre (a wish/reaction: Das wäre schön!). Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/14-konjunktiv2-a2",
+  "level": "A2",
+  "summary": null,
+  "title": "Konjunktiv II: Höfliche Bitten und Wünsche — A2",
+  "topic": "Konjunktiv II"
+}

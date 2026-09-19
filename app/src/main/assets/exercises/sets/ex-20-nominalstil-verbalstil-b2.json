@@ -1,0 +1,677 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "Verb",
+          "Nomen"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "die Ankunft"
+                ],
+                "gap": 1
+              }
+            ],
+            "label": "ankommen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "die Entscheidung"
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "entscheiden"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "die Untersuchung"
+                ],
+                "gap": 3
+              }
+            ],
+            "label": "untersuchen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "der Beginn"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "beginnen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "die Entwicklung"
+                ],
+                "gap": 5
+              }
+            ],
+            "label": "sich entwickeln"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "die Teilnahme"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "teilnehmen"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze das passende Nomen (mit Artikel).",
+      "instructionsEn": "Fill in the matching noun (with article).",
+      "title": "Verb → Nomen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Wegen"
+          ],
+          "2": [
+            "Nach"
+          ],
+          "3": [
+            "Vor"
+          ],
+          "4": [
+            "Trotz"
+          ],
+          "5": [
+            "Beim"
+          ],
+          "6": [
+            "Seit"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Weil es regnete, blieben wir zu Hause. → {1} des Regens blieben wir zu Hause.\n2. Nachdem er angekommen war, rief er an. → {2} seiner Ankunft rief er an.\n3. Bevor die Sitzung beginnt, gibt es Kaffee. → {3} der Sitzung gibt es Kaffee.\n4. Obwohl es kalt war, gingen wir spazieren. → {4} der Kälte gingen wir spazieren.\n5. Wenn man die Anleitung liest, versteht man es besser. → {5} Lesen der Anleitung versteht man es besser.\n6. Seitdem er umgezogen ist, sehen wir ihn selten. → {6} seinem Umzug sehen wir ihn selten.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze die passende Präposition.",
+      "instructionsEn": "Fill in the matching preposition.",
+      "title": "Nebensatz → Präpositionalphrase"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Wegen"
+          ],
+          "2": [
+            "Nach"
+          ],
+          "3": [
+            "Vor"
+          ],
+          "4": [
+            "Trotz"
+          ],
+          "5": [
+            "Bei"
+          ],
+          "6": [
+            "Wegen"
+          ],
+          "7": [
+            "Vor"
+          ],
+          "8": [
+            "Trotz"
+          ]
+        },
+        "bank": [
+          "Wegen",
+          "Wegen",
+          "Nach",
+          "Vor",
+          "Vor",
+          "Trotz",
+          "Trotz",
+          "Bei",
+          "Während",
+          "Für"
+        ],
+        "text": "{1} der Verspätung des Zuges kam ich zu spät zur Arbeit. {2}\nmeiner Ankunft informierte ich meinen Chef sofort. {3} dem\nMeeting bereitete ich die Unterlagen vor. {4} des Stresses\nblieb ich ruhig. {5} der Besprechung machte ich mir Notizen. {6}\ndes Feedbacks meines Chefs war ich zufrieden. {7} dem Ende des\nTages räumte ich meinen Schreibtisch auf. {8} allem Ärger\nhatte ich einen guten Tag.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Der Behördenbrief"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wegen"
+              },
+              {
+                "key": "b",
+                "text": "Nach"
+              },
+              {
+                "key": "c",
+                "text": "Trotz"
+              }
+            ],
+            "q": "Weil es regnete, … → ___ des Regens, …",
+            "why": "weil → wegen + Genitiv."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wegen"
+              },
+              {
+                "key": "b",
+                "text": "Nach"
+              },
+              {
+                "key": "c",
+                "text": "Vor"
+              }
+            ],
+            "q": "Nachdem sie gegessen hatte, … → ___ dem Essen, …",
+            "why": "nachdem → nach + Dativ."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nach"
+              },
+              {
+                "key": "b",
+                "text": "Wegen"
+              },
+              {
+                "key": "c",
+                "text": "Vor"
+              }
+            ],
+            "q": "Bevor wir losfahren, … → ___ der Abfahrt, …",
+            "why": "bevor → vor + Dativ."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Trotz"
+              },
+              {
+                "key": "b",
+                "text": "Wegen"
+              },
+              {
+                "key": "c",
+                "text": "Bei"
+              }
+            ],
+            "q": "Obwohl es schwierig war, … → ___ der Schwierigkeit, …",
+            "why": "obwohl → trotz + Genitiv/Dativ."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nach"
+              },
+              {
+                "key": "b",
+                "text": "Beim"
+              },
+              {
+                "key": "c",
+                "text": "Vor"
+              }
+            ],
+            "q": "Wenn man das Fenster öffnet, … → ___ Öffnen des Fensters, …",
+            "why": "wenn (gleichzeitig) → bei + Dativ."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wegen"
+              },
+              {
+                "key": "b",
+                "text": "Nach"
+              },
+              {
+                "key": "c",
+                "text": "Für"
+              }
+            ],
+            "q": "Damit er Erfolg hat, … → ___ seinen Erfolg, …",
+            "why": "damit → für + Akkusativ."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Welche Präposition passt?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wegen steigender Kosten mussten wir sparen."
+              },
+              {
+                "key": "b",
+                "text": "Nach steigenden Kosten mussten wir sparen."
+              },
+              {
+                "key": "c",
+                "text": "Trotz steigender Kosten mussten wir sparen."
+              }
+            ],
+            "q": "Original: Weil die Kosten stiegen, mussten wir sparen.",
+            "why": "weil → wegen + Genitiv."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Vor Beendigung des Projekts feierten wir."
+              },
+              {
+                "key": "b",
+                "text": "Nach Beendigung des Projekts feierten wir."
+              },
+              {
+                "key": "c",
+                "text": "Wegen der Beendigung feierten wir."
+              }
+            ],
+            "q": "Original: Nachdem das Projekt beendet war, feierten wir.",
+            "why": "nachdem → nach + Dativ."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nach Beginn der Präsentation testen wir die Technik."
+              },
+              {
+                "key": "b",
+                "text": "Wegen des Beginns testen wir die Technik."
+              },
+              {
+                "key": "c",
+                "text": "Vor Beginn der Präsentation testen wir die Technik."
+              }
+            ],
+            "q": "Original: Bevor die Präsentation beginnt, testen wir die Technik.",
+            "why": "bevor → vor + Dativ."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Trotz unserer Müdigkeit arbeiteten wir weiter."
+              },
+              {
+                "key": "b",
+                "text": "Wegen unserer Müdigkeit arbeiteten wir weiter."
+              },
+              {
+                "key": "c",
+                "text": "Nach unserer Müdigkeit arbeiteten wir weiter."
+              }
+            ],
+            "q": "Original: Obwohl wir müde waren, arbeiteten wir weiter.",
+            "why": "obwohl → trotz + Genitiv/Dativ."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nach der Analyse der Zahlen erkennt man das Problem."
+              },
+              {
+                "key": "b",
+                "text": "Bei der Analyse der Zahlen erkennt man das Problem."
+              },
+              {
+                "key": "c",
+                "text": "Trotz der Analyse der Zahlen erkennt man das Problem."
+              }
+            ],
+            "q": "Original: Wenn man die Zahlen analysiert, erkennt man das Problem.",
+            "why": "wenn (gleichzeitig) → bei + Dativ."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wegen des Wachstums investieren wir viel."
+              },
+              {
+                "key": "b",
+                "text": "Trotz des Wachstums investieren wir viel."
+              },
+              {
+                "key": "c",
+                "text": "Für das Wachstum der Firma investieren wir viel."
+              }
+            ],
+            "q": "Original: Damit die Firma wächst, investieren wir viel.",
+            "why": "damit → für + Akkusativ."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Vor der Unterschrift begann die Zusammenarbeit."
+              },
+              {
+                "key": "b",
+                "text": "Nach der Unterschrift begann die Zusammenarbeit."
+              },
+              {
+                "key": "c",
+                "text": "Trotz der Unterschrift begann die Zusammenarbeit."
+              }
+            ],
+            "q": "Original: Nachdem der Vertrag unterschrieben war, begann die Zusammenarbeit.",
+            "why": "nachdem → nach + Dativ."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wegen sinkender Nachfrage senkten wir die Preise."
+              },
+              {
+                "key": "b",
+                "text": "Trotz sinkender Nachfrage senkten wir die Preise."
+              },
+              {
+                "key": "c",
+                "text": "Nach sinkender Nachfrage senkten wir die Preise."
+              }
+            ],
+            "q": "Original: Weil die Nachfrage sank, senkten wir die Preise.",
+            "why": "weil → wegen + Genitiv."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct Nominalstil paraphrase for each sentence (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Der Firmenbericht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Bei"
+          ],
+          "2": [
+            "Wegen"
+          ],
+          "3": [
+            "Nach"
+          ],
+          "4": [
+            "Vor"
+          ],
+          "5": [
+            "Trotz"
+          ],
+          "6": [
+            "Für"
+          ],
+          "7": [
+            "Vor"
+          ],
+          "8": [
+            "Trotz"
+          ],
+          "9": [
+            "Wegen"
+          ],
+          "10": [
+            "Bei"
+          ]
+        },
+        "bank": [
+          "Bei",
+          "Bei",
+          "Wegen",
+          "Wegen",
+          "Nach",
+          "Vor",
+          "Vor",
+          "Trotz",
+          "Trotz",
+          "Für",
+          "Während",
+          "Ohne"
+        ],
+        "text": "{1} der Untersuchung wurden viele Daten gesammelt. {2} der\nErgebnisse waren die Forscher überrascht. {3} der Analyse\nfolgten weitere Tests. {4} des Tests bereiteten sich die\nForscher gut vor. {5} der Schwierigkeiten gaben die Forscher\nnicht auf. {6} bessere Ergebnisse änderten sie die Methode. {7}\nder Veröffentlichung prüften sie die Daten noch einmal. {8} der\nKritik verteidigten sie ihre Methode. {9} des Erfolgs feierte\ndas Team. {10} der Konferenz stellten sie die Ergebnisse vor.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Two words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Der Forschungsbericht (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Während"
+          ],
+          "2": [
+            "Wegen"
+          ],
+          "3": [
+            "Nach"
+          ],
+          "4": [
+            "Trotz"
+          ],
+          "5": [
+            "Vor"
+          ],
+          "6": [
+            "Bei"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Während wir warteten, lasen wir Zeitung. → {1} des Wartens lasen wir Zeitung.\n2. Weil das Wetter schlecht war, fiel das Spiel aus. → {2} des schlechten Wetters fiel das Spiel aus.\n3. Nachdem die Daten geprüft worden waren, wurden sie freigegeben. → {3} der Prüfung wurden die Daten freigegeben.\n4. Obwohl er Bedenken hatte, stimmte er zu. → {4} seiner Bedenken stimmte er zu.\n5. Bevor man unterschreibt, sollte man alles lesen. → {5} dem Unterschreiben sollte man alles lesen.\n6. Wenn man richtig plant, spart man Zeit. → {6} richtiger Planung spart man Zeit.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die passende Präposition.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wegen des schlechten Wetters sagten wir das Picknick ab."
+              },
+              {
+                "key": "b",
+                "text": "Trotz des schlechten Wetters sagten wir das Picknick ab."
+              },
+              {
+                "key": "c",
+                "text": "Nach dem schlechten Wetter sagten wir das Picknick ab."
+              }
+            ],
+            "q": "Original: Weil das Wetter schlecht war, sagten wir das Picknick ab.",
+            "why": "weil → wegen + Genitiv."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Vor der Ankunft der Gäste begann das Fest."
+              },
+              {
+                "key": "b",
+                "text": "Nach der Ankunft der Gäste begann das Fest."
+              },
+              {
+                "key": "c",
+                "text": "Wegen der Ankunft begann das Fest."
+              }
+            ],
+            "q": "Original: Nachdem die Gäste angekommen waren, begann das Fest.",
+            "why": "nachdem → nach + Dativ."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nach Beginn des Films kaufen wir Popcorn."
+              },
+              {
+                "key": "b",
+                "text": "Wegen des Beginns kaufen wir Popcorn."
+              },
+              {
+                "key": "c",
+                "text": "Vor Beginn des Films kaufen wir Popcorn."
+              }
+            ],
+            "q": "Original: Bevor der Film beginnt, kaufen wir Popcorn.",
+            "why": "bevor → vor + Dativ."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Trotz seiner Müdigkeit blieb er wach."
+              },
+              {
+                "key": "b",
+                "text": "Wegen seiner Müdigkeit blieb er wach."
+              },
+              {
+                "key": "c",
+                "text": "Nach seiner Müdigkeit blieb er wach."
+              }
+            ],
+            "q": "Original: Obwohl er müde war, blieb er wach.",
+            "why": "obwohl → trotz + Genitiv/Dativ."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nach dem Kochen sollte man aufpassen."
+              },
+              {
+                "key": "b",
+                "text": "Beim Kochen sollte man aufpassen."
+              },
+              {
+                "key": "c",
+                "text": "Trotz des Kochens sollte man aufpassen."
+              }
+            ],
+            "q": "Original: Wenn man kocht, sollte man aufpassen.",
+            "why": "wenn (gleichzeitig) → bei + Dativ."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wegen ihrer Gesundheit macht sie Sport."
+              },
+              {
+                "key": "b",
+                "text": "Trotz ihrer Gesundheit macht sie Sport."
+              },
+              {
+                "key": "c",
+                "text": "Für ihre Gesundheit macht sie Sport."
+              }
+            ],
+            "q": "Original: Damit sie gesund bleibt, macht sie Sport.",
+            "why": "damit → für + Akkusativ."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct Nominalstil paraphrase (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-20-nominalstil-verbalstil-b2",
+  "intro": "Standalone drill set, not tied to any lesson. Formal written German (reports, official letters, news) prefers Nominalstil — a prepositional phrase built on a nominalized verb — over the clause-based Verbalstil of everyday speech: Weil es regnete, blieben wir zu Hause (Verbalstil) becomes Wegen des Regens blieben wir zu Hause (Nominalstil). Each subordinating conjunction has its own preposition: weil → wegen + Genitiv, nachdem → nach + Dativ, bevor → vor + Dativ, obwohl → trotz + Genitiv/Dativ, wenn (gleichzeitig) → bei + Dativ, damit → für + Akkusativ. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/20-nominalstil-verbalstil-b2",
+  "level": "B2",
+  "summary": null,
+  "title": "Nominalstil und Verbalstil — B2",
+  "topic": "Nominalstil und Verbalstil"
+}

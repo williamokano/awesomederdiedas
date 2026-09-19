@@ -1,0 +1,680 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "Verb",
+          "Ohne Objekt (Akkusativ)",
+          "Mit Akkusativobjekt (Dativ)"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Ich wasche mich."
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "Ich wasche mir die Hände."
+                ],
+                "gap": 2
+              }
+            ],
+            "label": "waschen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Ich kämme mich."
+                ],
+                "gap": 3
+              },
+              {
+                "answer": [
+                  "Ich kämme mir die Haare."
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "kämmen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Ich ziehe mich an."
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "Ich ziehe mir die Schuhe an."
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "anziehen"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "Ich schminke mich."
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "Ich schminke mir die Augen."
+                ],
+                "gap": 8
+              }
+            ],
+            "label": "schminken"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze den ganzen Satz.",
+      "instructionsEn": "Fill in the whole sentence.",
+      "title": "Ohne Objekt (Akkusativ) vs. mit Objekt (Dativ)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "mich"
+          ],
+          "2": [
+            "mir"
+          ],
+          "3": [
+            "sich"
+          ],
+          "4": [
+            "sich"
+          ],
+          "5": [
+            "mich"
+          ],
+          "6": [
+            "mir"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich wasche {1}.\n2. Ich wasche {2} die Hände.\n3. Er kämmt {3}.\n4. Er kämmt {4} die Haare.\n5. Ich ziehe {5} an.\n6. Ich ziehe {6} die Schuhe an.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze das passende Reflexivpronomen.",
+      "instructionsEn": "Fill in the appropriate reflexive pronoun.",
+      "title": "mich/mir oder sich?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "mich"
+          ],
+          "2": [
+            "mir"
+          ],
+          "3": [
+            "mir"
+          ],
+          "4": [
+            "mich"
+          ],
+          "5": [
+            "mir"
+          ],
+          "6": [
+            "mich"
+          ],
+          "7": [
+            "mir"
+          ],
+          "8": [
+            "sich"
+          ]
+        },
+        "bank": [
+          "mich",
+          "mich",
+          "mich",
+          "mir",
+          "mir",
+          "mir",
+          "mir",
+          "sich",
+          "dich",
+          "dir"
+        ],
+        "text": "Jeden Morgen wasche ich {1}. Danach putze ich {2} die Zähne. Ich\nkämme {3} die Haare. Dann ziehe ich {4} an. Zuerst ziehe ich {5}\ndie Unterwäsche an. Danach schminke ich {6}. Zum Schluss\nschminke ich {7} noch die Augen. Mein Partner rasiert {8} jeden\nMorgen.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Morgenroutine"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "mich"
+              },
+              {
+                "key": "b",
+                "text": "mir"
+              },
+              {
+                "key": "c",
+                "text": "sich"
+              }
+            ],
+            "q": "Ich dusche ___.",
+            "why": "Kein Akkusativobjekt → Reflexivpronomen im Akkusativ."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "mich"
+              },
+              {
+                "key": "b",
+                "text": "mir"
+              },
+              {
+                "key": "c",
+                "text": "sich"
+              }
+            ],
+            "q": "Ich creme ___ die Hände ein.",
+            "why": "die Hände ist das Akkusativobjekt → Reflexivpronomen im Dativ."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "dir"
+              },
+              {
+                "key": "b",
+                "text": "sich"
+              },
+              {
+                "key": "c",
+                "text": "dich"
+              }
+            ],
+            "q": "Hast du ___ schon angezogen?",
+            "why": "Kein Akkusativobjekt → Reflexivpronomen im Akkusativ."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "dir"
+              },
+              {
+                "key": "b",
+                "text": "dich"
+              },
+              {
+                "key": "c",
+                "text": "sich"
+              }
+            ],
+            "q": "Kämmst du ___ die Haare?",
+            "why": "die Haare ist das Akkusativobjekt → Reflexivpronomen im Dativ."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ihm"
+              },
+              {
+                "key": "b",
+                "text": "sich"
+              },
+              {
+                "key": "c",
+                "text": "ihn"
+              }
+            ],
+            "q": "Er wäscht ___.",
+            "why": "Kein Akkusativobjekt → Reflexivpronomen im Akkusativ (sich für er/sie/es)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "ihm"
+              },
+              {
+                "key": "b",
+                "text": "ihn"
+              },
+              {
+                "key": "c",
+                "text": "sich"
+              }
+            ],
+            "q": "Er wäscht ___ das Gesicht.",
+            "why": "das Gesicht ist das Akkusativobjekt → sich bleibt gleich (er/sie/es hat keine eigene Dativform)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "mich/dich oder mir/dir?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "mich"
+              },
+              {
+                "key": "b",
+                "text": "mir"
+              },
+              {
+                "key": "c",
+                "text": "sich"
+              }
+            ],
+            "q": "Ich dusche ___ schnell.",
+            "why": "Kein Objekt → Akkusativ."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "mich"
+              },
+              {
+                "key": "b",
+                "text": "mir"
+              },
+              {
+                "key": "c",
+                "text": "sich"
+              }
+            ],
+            "q": "Dann schminke ich ___ die Augen.",
+            "why": "die Augen ist das Objekt → Dativ."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "ihr"
+              },
+              {
+                "key": "b",
+                "text": "ihre"
+              },
+              {
+                "key": "c",
+                "text": "sich"
+              }
+            ],
+            "q": "Meine Freundin zieht ___ an.",
+            "why": "Kein Objekt → sich (Akkusativ)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sich"
+              },
+              {
+                "key": "b",
+                "text": "ihr"
+              },
+              {
+                "key": "c",
+                "text": "ihre"
+              }
+            ],
+            "q": "Sie zieht ___ ein schönes Kleid an.",
+            "why": "das Kleid ist das Objekt → sich bleibt gleich (Dativ)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "dir"
+              },
+              {
+                "key": "b",
+                "text": "dich"
+              },
+              {
+                "key": "c",
+                "text": "sich"
+              }
+            ],
+            "q": "Kämmst du ___ noch?",
+            "why": "Kein Objekt → Akkusativ."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "dich"
+              },
+              {
+                "key": "b",
+                "text": "sich"
+              },
+              {
+                "key": "c",
+                "text": "dir"
+              }
+            ],
+            "q": "Kämmst du ___ die Haare?",
+            "why": "die Haare ist das Objekt → Dativ."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "unser"
+              },
+              {
+                "key": "b",
+                "text": "uns"
+              },
+              {
+                "key": "c",
+                "text": "unsere"
+              }
+            ],
+            "q": "Wir schminken ___.",
+            "why": "Kein Objekt → Akkusativ (uns bleibt gleich)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "uns"
+              },
+              {
+                "key": "b",
+                "text": "unser"
+              },
+              {
+                "key": "c",
+                "text": "unsere"
+              }
+            ],
+            "q": "Am Ende ziehen wir ___ die Schuhe an.",
+            "why": "die Schuhe ist das Objekt → uns bleibt gleich (Dativ)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct reflexive pronoun for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Vor der Party"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "mir"
+          ],
+          "2": [
+            "mir"
+          ],
+          "3": [
+            "sich"
+          ],
+          "4": [
+            "sich"
+          ],
+          "5": [
+            "sich"
+          ],
+          "6": [
+            "mich"
+          ],
+          "7": [
+            "mir"
+          ],
+          "8": [
+            "sich"
+          ],
+          "9": [
+            "sich"
+          ],
+          "10": [
+            "uns"
+          ]
+        },
+        "bank": [
+          "mir",
+          "mir",
+          "mir",
+          "sich",
+          "sich",
+          "sich",
+          "sich",
+          "sich",
+          "mich",
+          "uns",
+          "dir",
+          "dich"
+        ],
+        "text": "Am Morgen ist das Badezimmer immer voll. Ich wasche {1} zuerst\ndas Gesicht. Dann putze ich {2} die Zähne. Mein Bruder kämmt {3}\ndie Haare. Meine Schwester schminkt {4}. Sie schminkt {5} auch\ndie Augen. Ich ziehe {6} an. Zuerst ziehe ich {7} die Socken an.\nMein Vater rasiert {8}. Meine Mutter cremt {9} die Hände ein.\nAm Ende fühlen wir {10} alle bereit für den Tag.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Two words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Im Badezimmer am Morgen (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "mich"
+          ],
+          "2": [
+            "mir"
+          ],
+          "3": [
+            "sich"
+          ],
+          "4": [
+            "euch"
+          ],
+          "5": [
+            "mir"
+          ],
+          "6": [
+            "uns"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich wasche {1}.\n2. Ich wasche {2} die Hände.\n3. Er kämmt {3} die Haare.\n4. Zieht ihr {4} an?\n5. Ich ziehe {5} die Schuhe an.\n6. Wir schminken {6}.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze das passende Reflexivpronomen.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "mich"
+              },
+              {
+                "key": "b",
+                "text": "mir"
+              },
+              {
+                "key": "c",
+                "text": "sich"
+              }
+            ],
+            "q": "Ich creme ___.",
+            "why": "Kein Objekt → Akkusativ."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "mich"
+              },
+              {
+                "key": "b",
+                "text": "mir"
+              },
+              {
+                "key": "c",
+                "text": "sich"
+              }
+            ],
+            "q": "Ich creme ___ das Gesicht ein.",
+            "why": "das Gesicht ist das Objekt → Dativ."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "ihr"
+              },
+              {
+                "key": "b",
+                "text": "ihre"
+              },
+              {
+                "key": "c",
+                "text": "sich"
+              }
+            ],
+            "q": "Sie zieht ___ an.",
+            "why": "Kein Objekt → sich (Akkusativ)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sich"
+              },
+              {
+                "key": "b",
+                "text": "ihr"
+              },
+              {
+                "key": "c",
+                "text": "ihre"
+              }
+            ],
+            "q": "Sie zieht ___ die Jacke an.",
+            "why": "die Jacke ist das Objekt → sich bleibt gleich (Dativ)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "dich"
+              },
+              {
+                "key": "b",
+                "text": "dir"
+              },
+              {
+                "key": "c",
+                "text": "sich"
+              }
+            ],
+            "q": "Putzt du ___ schon die Zähne?",
+            "why": "die Zähne ist das Objekt → Dativ."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "dir"
+              },
+              {
+                "key": "b",
+                "text": "sich"
+              },
+              {
+                "key": "c",
+                "text": "dich"
+              }
+            ],
+            "q": "Hast du ___ schon geduscht?",
+            "why": "Kein Objekt → Akkusativ."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-16-reflexive-verben-b1",
+  "intro": "Standalone drill set, not tied to any lesson. The same reflexive verb can take an Akkusativ or a Dativ reflexive pronoun depending on whether there's already an Akkusativ object in the sentence: Ich wasche MICH (no object → Akkusativ) vs. Ich wasche MIR die Hände (die Hände is the Akkusativ object, so the reflexive pronoun shifts to Dativ). The distinction only really shows up for ich/du (mich/mir, dich/dir) — er/sie/es, wir, ihr, and sie/Sie use sich/uns/euch either way, since those forms are identical in both cases. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/16-reflexive-verben-b1",
+  "level": "B1",
+  "summary": null,
+  "title": "Reflexive Verben: Akkusativ- und Dativ-Reflexiv — B1",
+  "topic": "Reflexive Verben"
+}

@@ -1,0 +1,1490 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "die Prüfung"
+          ],
+          "2": [
+            "die Verbesserung"
+          ],
+          "3": [
+            "die Entscheidung"
+          ],
+          "4": [
+            "die Ablehnung"
+          ],
+          "5": [
+            "die Genehmigung"
+          ],
+          "6": [
+            "die Anmeldung"
+          ],
+          "7": [
+            "die Einhaltung"
+          ],
+          "8": [
+            "die Änderung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. prüfen → {1}\n2. verbessern → {2}\n3. entscheiden → {3}\n4. ablehnen → {4}\n5. genehmigen → {5}\n6. anmelden → {6}\n7. einhalten → {7}\n8. ändern → {8}\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Bilde das passende Nomen auf -ung (mit Artikel). 8 Items.",
+      "title": "Nominalisierung: Verb → Nomen (-ung)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "des Antrags"
+          ],
+          "2": [
+            "der Kosten"
+          ],
+          "3": [
+            "der Qualität"
+          ],
+          "4": [
+            "des Verfahrens"
+          ],
+          "5": [
+            "der Frist"
+          ],
+          "6": [
+            "des Bescheids"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. den Antrag prüfen → die Prüfung {1}\n2. die Kosten senken → die Senkung {2}\n3. die Qualität verbessern → die Verbesserung {3}\n4. das Verfahren ändern → die Änderung {4}\n5. die Frist einhalten → die Einhaltung {5}\n6. den Bescheid lesen → das Lesen {6}\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Mach aus dem Verbalsatz eine Nominalphrase. Das Objekt wird zum Genitiv. 6 Items.",
+      "title": "Nominalisierung mit Genitiv-Objekt"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "prüfen"
+          ],
+          "2": [
+            "anmelden"
+          ],
+          "3": [
+            "ablehnen"
+          ],
+          "4": [
+            "reagieren"
+          ],
+          "5": [
+            "entscheiden"
+          ],
+          "6": [
+            "lesen"
+          ],
+          "7": [
+            "genehmigen"
+          ],
+          "8": [
+            "einhalten"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. die Prüfung → {1}\n2. die Anmeldung → {2}\n3. die Ablehnung → {3}\n4. die Reaktion → {4}\n5. die Entscheidung → {5}\n6. das Lesen → {6}\n7. die Genehmigung → {7}\n8. die Einhaltung → {8}\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Schreib das versteckte Verb (Infinitiv). 8 Items.",
+      "title": "Verbalisierung: Nomen → Verb"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "obwohl"
+              },
+              {
+                "key": "b",
+                "text": "weil"
+              },
+              {
+                "key": "c",
+                "text": "wenn"
+              }
+            ],
+            "q": "wegen → ?",
+            "why": "wegen ist kausal → weil."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "obwohl"
+              },
+              {
+                "key": "b",
+                "text": "weil"
+              },
+              {
+                "key": "c",
+                "text": "nachdem"
+              }
+            ],
+            "q": "trotz → ?",
+            "why": "trotz ist konzessiv → obwohl."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "weil"
+              },
+              {
+                "key": "b",
+                "text": "wenn"
+              },
+              {
+                "key": "c",
+                "text": "obwohl"
+              }
+            ],
+            "q": "bei → ?",
+            "why": "bei ist temporal/konditional → wenn (oder als)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "bevor"
+              },
+              {
+                "key": "b",
+                "text": "nachdem"
+              },
+              {
+                "key": "c",
+                "text": "während"
+              }
+            ],
+            "q": "nach → ?",
+            "why": "nach + Nomen → nachdem."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "um … zu / damit"
+              },
+              {
+                "key": "b",
+                "text": "indem"
+              },
+              {
+                "key": "c",
+                "text": "weil"
+              }
+            ],
+            "q": "zur / zum → ?",
+            "why": "zu/zum ist final → um … zu / damit."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "obwohl"
+              },
+              {
+                "key": "b",
+                "text": "indem / dadurch, dass"
+              },
+              {
+                "key": "c",
+                "text": "bevor"
+              }
+            ],
+            "q": "durch → ?",
+            "why": "durch ist modal (Mittel/Methode) → indem / dadurch, dass."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A4",
+      "instructions": "Wähle den richtigen Konnektor (a, b oder c) für die Präposition.",
+      "title": "Welche Präposition passt zu welchem Konnektor?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "weil"
+          ],
+          "2": [
+            "obwohl"
+          ],
+          "3": [
+            "wenn"
+          ],
+          "4": [
+            "bevor"
+          ],
+          "5": [
+            "nachdem"
+          ],
+          "6": [
+            "während"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wegen des Regens → {1} es regnet\n2. Trotz der Kälte → {2} es kalt ist\n3. Bei der Anmeldung → {3} man sich anmeldet\n4. Vor dem Essen → {4} man isst\n5. Nach der Prüfung → {5} man geprüft hat\n6. Während der Sitzung → {6} die Sitzung läuft\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Ersetze die Präposition durch den passenden Konnektor (weil, obwohl, wenn, bevor, nachdem, während). 6 Items.",
+      "title": "Nominal → Verbal: Konnektor einsetzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Wegen"
+          ],
+          "2": [
+            "Trotz"
+          ],
+          "3": [
+            "Bei"
+          ],
+          "4": [
+            "Vor"
+          ],
+          "5": [
+            "Nach"
+          ],
+          "6": [
+            "Während"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Weil es regnet → {1} des Regens\n2. Obwohl es kalt ist → {2} der Kälte\n3. Wenn man sich anmeldet → {3} der Anmeldung\n4. Bevor man isst → {4} dem Essen\n5. Nachdem man geprüft hat → {5} der Prüfung\n6. Während die Sitzung läuft → {6} der Sitzung\n",
+        "type": "gap-text"
+      },
+      "id": "A6",
+      "instructions": "Ersetze den Konnektor durch die passende Präposition (wegen, trotz, bei, vor, nach, während). 6 Items.",
+      "title": "Verbal → Nominal: Präposition einsetzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Durch"
+          ],
+          "2": [
+            "Indem"
+          ],
+          "3": [
+            "Zur"
+          ],
+          "4": [
+            "Um"
+          ],
+          "5": [
+            "Zum"
+          ],
+          "6": [
+            "Damit"
+          ]
+        },
+        "bank": [
+          "Durch",
+          "Indem",
+          "Zur",
+          "Um",
+          "Zum",
+          "Damit",
+          "Bei",
+          "Weil"
+        ],
+        "text": "1. {1} die Änderung des Verfahrens sanken die Kosten.\n2. {2} man das Verfahren änderte, sanken die Kosten.\n3. {3} Verbesserung der Qualität investiert die Firma.\n4. {4} die Qualität zu verbessern, investiert die Firma.\n5. {5} Schutz der Daten verschlüsselt man sie.\n6. {6} die Daten geschützt sind, verschlüsselt man sie.\n",
+        "type": "gap-bank"
+      },
+      "id": "A7",
+      "instructions": "Füll die Lücken mit der passenden Präposition oder dem passenden Konnektor. Zwei Wörter sind zu viel.",
+      "title": "durch und zu/zum richtig zuordnen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "c",
+          "2": "a",
+          "3": "e",
+          "4": "b",
+          "5": "f",
+          "6": "d"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "beantragen"
+          },
+          {
+            "key": "2",
+            "text": "entscheiden"
+          },
+          {
+            "key": "3",
+            "text": "reagieren"
+          },
+          {
+            "key": "4",
+            "text": "anmelden"
+          },
+          {
+            "key": "5",
+            "text": "verbessern"
+          },
+          {
+            "key": "6",
+            "text": "ablehnen"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die Entscheidung"
+          },
+          {
+            "key": "b",
+            "text": "die Anmeldung"
+          },
+          {
+            "key": "c",
+            "text": "der Antrag"
+          },
+          {
+            "key": "d",
+            "text": "die Ablehnung"
+          },
+          {
+            "key": "e",
+            "text": "die Reaktion"
+          },
+          {
+            "key": "f",
+            "text": "die Verbesserung"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A8",
+      "instructions": "Ordne jedem Verb (1–6) das passende Nomen (a–f) zu.",
+      "title": "Verb und Nomen verbinden"
+    },
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "nominal",
+            "label": "Nominalstil"
+          },
+          {
+            "key": "verbal",
+            "label": "Verbalstil"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "nominal",
+            "text": "wegen der Verspätung"
+          },
+          {
+            "bucket": "verbal",
+            "text": "weil der Zug Verspätung hatte"
+          },
+          {
+            "bucket": "nominal",
+            "text": "die Prüfung des Antrags"
+          },
+          {
+            "bucket": "verbal",
+            "text": "man prüft den Antrag"
+          },
+          {
+            "bucket": "nominal",
+            "text": "nach der Anmeldung"
+          },
+          {
+            "bucket": "verbal",
+            "text": "nachdem man sich angemeldet hat"
+          },
+          {
+            "bucket": "nominal",
+            "text": "zur Verbesserung der Qualität"
+          },
+          {
+            "bucket": "verbal",
+            "text": "um die Qualität zu verbessern"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A9",
+      "instructions": "Ordne jeden Ausdruck dem richtigen Stil zu.",
+      "title": "Nominalstil oder Verbalstil?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "des Regens"
+          ],
+          "2": [
+            "der Kälte"
+          ],
+          "3": [
+            "der Anmeldung"
+          ],
+          "4": [
+            "dem Essen"
+          ],
+          "5": [
+            "die Änderung"
+          ],
+          "6": [
+            "der Sitzung"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. wegen {1} (der Regen, m.)\n2. trotz {2} (die Kälte, f.)\n3. bei {3} (die Anmeldung, f.)\n4. nach {4} (das Essen, n.)\n5. durch {5} (die Änderung, f.)\n6. während {6} (die Sitzung, f.)\n",
+        "type": "gap-text"
+      },
+      "id": "A10",
+      "instructions": "Ergänze den richtigen Artikel nach der Präposition. ⚠️ wegen/trotz/während → Genitiv; bei/vor/nach → Dativ; durch → Akkusativ. 6 Items.",
+      "title": "Fall-Check: Genitiv, Dativ oder Akkusativ?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "weil die Nachfrage hoch ist",
+            "tiles": [
+              "weil",
+              "die",
+              "Nachfrage",
+              "hoch",
+              "ist"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "obwohl der Zug Verspätung hatte",
+            "tiles": [
+              "obwohl",
+              "der",
+              "Zug",
+              "Verspätung",
+              "hatte"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "nachdem man den Antrag geprüft hat",
+            "tiles": [
+              "nachdem",
+              "man",
+              "den",
+              "Antrag",
+              "geprüft",
+              "hat"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "indem man das Verfahren änderte",
+            "tiles": [
+              "indem",
+              "man",
+              "das",
+              "Verfahren",
+              "änderte"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A11",
+      "instructions": "Bring die Wörter in die richtige Reihenfolge. Das Verb steht im Nebensatz am Ende.",
+      "title": "Satzbau: Nebensatz richtig stellen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "c",
+          "2": "a",
+          "3": "e",
+          "4": "b",
+          "5": "f",
+          "6": "d"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "wegen des Sturms"
+          },
+          {
+            "key": "2",
+            "text": "trotz der Müdigkeit"
+          },
+          {
+            "key": "3",
+            "text": "bei der Anmeldung"
+          },
+          {
+            "key": "4",
+            "text": "nach der Sitzung"
+          },
+          {
+            "key": "5",
+            "text": "durch das Training"
+          },
+          {
+            "key": "6",
+            "text": "zur Vorbereitung der Prüfung"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "obwohl er müde war"
+          },
+          {
+            "key": "b",
+            "text": "nachdem die Sitzung zu Ende war"
+          },
+          {
+            "key": "c",
+            "text": "weil ein Sturm kam"
+          },
+          {
+            "key": "d",
+            "text": "um sich auf die Prüfung vorzubereiten"
+          },
+          {
+            "key": "e",
+            "text": "wenn man sich anmeldet"
+          },
+          {
+            "key": "f",
+            "text": "indem man trainierte"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B4",
+      "instructions": "Ordne jeder Nominalphrase (1–6) den passenden Nebensatz (a–f) zu.",
+      "title": "Nominalphrase und Nebensatz verbinden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Bei"
+          ],
+          "2": [
+            "Wegen"
+          ],
+          "3": [
+            "Trotz"
+          ],
+          "4": [
+            "Nach"
+          ],
+          "5": [
+            "Durch"
+          ],
+          "6": [
+            "Zur"
+          ],
+          "7": [
+            "Nach"
+          ],
+          "8": [
+            "Während"
+          ]
+        },
+        "bank": [
+          "Bei",
+          "Wegen",
+          "Trotz",
+          "Nach",
+          "Durch",
+          "Zur",
+          "Nach",
+          "Während",
+          "Vor",
+          "Indem"
+        ],
+        "text": "Bericht des Projektteams: {1} der Analyse des Marktes hat das Team mehrere Probleme\ngefunden. {2} der gestiegenen Kosten musste das Budget erhöht werden. {3} der\nVerzögerung wurde das Ziel am Ende erreicht. {4} der Prüfung der Daten begann die\nUmsetzung. {5} die Änderung des Verfahrens konnte die Qualität verbessert werden.\n{6} Vermeidung weiterer Fehler wurde ein neues Kontrollsystem eingeführt. {7} der\nEinführung des Systems sank die Fehlerquote. {8} der Sitzung am Freitag stellte das\nTeam die Ergebnisse vor.\n",
+        "type": "gap-bank"
+      },
+      "id": "B5",
+      "instructions": "Füll die 8 Lücken mit der passenden Präposition. Zwei Wörter sind zu viel.",
+      "title": "Bericht ergänzen: Nominalstil"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Wegen des Regens fiel das Spiel aus",
+            "tiles": [
+              "Wegen",
+              "des",
+              "Regens",
+              "fiel",
+              "das",
+              "Spiel",
+              "aus"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Trotz der Kälte blieb er draußen",
+            "tiles": [
+              "Trotz",
+              "der",
+              "Kälte",
+              "blieb",
+              "er",
+              "draußen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Nach der Prüfung kommt der Bescheid",
+            "tiles": [
+              "Nach",
+              "der",
+              "Prüfung",
+              "kommt",
+              "der",
+              "Bescheid"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Zur Verbesserung der Qualität investiert die Firma",
+            "tiles": [
+              "Zur",
+              "Verbesserung",
+              "der",
+              "Qualität",
+              "investiert",
+              "die",
+              "Firma"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B6",
+      "instructions": "Bring die Wörter in die richtige Reihenfolge. Die Nominalphrase steht in Position 1, das Verb in Position 2.",
+      "title": "Satzbau: Nominal-Hauptsatz richtig stellen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "die Prüfung",
+              "die Anmeldung",
+              "die Entscheidung",
+              "das Verfahren"
+            ],
+            "odd": 3,
+            "why": "das Verfahren ist nicht aus einem Verb auf -ung gebildet; die anderen drei sind -ung-Nominalisierungen."
+          },
+          {
+            "items": [
+              "wegen",
+              "trotz",
+              "während",
+              "indem"
+            ],
+            "odd": 3,
+            "why": "indem ist ein Konnektor (Nebensatz); die anderen drei sind Präpositionen mit Genitiv."
+          },
+          {
+            "items": [
+              "weil",
+              "obwohl",
+              "nachdem",
+              "durch"
+            ],
+            "odd": 3,
+            "why": "durch ist eine Präposition; die anderen drei sind Konnektoren für Nebensätze."
+          },
+          {
+            "items": [
+              "die Behörde",
+              "das Amt",
+              "der Bescheid",
+              "die Frist"
+            ],
+            "odd": 3,
+            "why": "die Frist ist ein Zeitraum; die anderen drei gehören zum Bereich Amt/Antwort."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "B7",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum.",
+      "title": "Wortschatz: Was passt nicht?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Durch die Senkung der Kosten stieg der Gewinn."
+              },
+              {
+                "key": "b",
+                "text": "Weil wir die Kosten gesenkt haben, ist der Gewinn gestiegen."
+              }
+            ],
+            "q": "In einem wissenschaftlichen Bericht (formell, dicht):",
+            "why": "Im formellen Bericht passt der dichte Nominalstil besser."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wegen der Nichteinhaltung der Frist erfolgte die Ablehnung."
+              },
+              {
+                "key": "b",
+                "text": "Sie haben den Antrag abgelehnt, weil ich die Frist nicht eingehalten habe."
+              }
+            ],
+            "q": "In einem Gespräch mit einem Freund (gesprochen, klar):",
+            "why": "Im Gespräch ist der lebendige Verbalstil verständlicher."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bei Nichtvorlage der Unterlagen erfolgt eine Ablehnung."
+              },
+              {
+                "key": "b",
+                "text": "Wenn Sie die Unterlagen nicht bringen, lehnen wir den Antrag ab."
+              }
+            ],
+            "q": "In einer „leichten Sprache\"-Broschüre für Bürger:",
+            "why": "Leichte Sprache nutzt den Verbalstil, weil er leichter zu verstehen ist."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B8",
+      "instructions": "Wähle die stilistisch passendere Variante (a oder b) für den Kontext.",
+      "title": "Welcher Stil ist hier besser?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "weil"
+          ],
+          "2": [
+            "Durch"
+          ],
+          "3": [
+            "Wegen"
+          ],
+          "4": [
+            "Trotz"
+          ],
+          "5": [
+            "Wenn"
+          ],
+          "6": [
+            "Zur"
+          ],
+          "7": [
+            "Indem"
+          ],
+          "8": [
+            "Nach"
+          ],
+          "9": [
+            "vom"
+          ],
+          "10": [
+            "für"
+          ]
+        },
+        "listLayout": true,
+        "text": "Wer einen Brief vom Finanzamt öffnet, ist oft ratlos. Behörden schreiben im\nNominalstil, (1) {1} sie viele Informationen auf wenig Raum unterbringen müssen.\n(2) {2} die Verwendung von Nomen wird ein Text kürzer und scheinbar präziser.\n(3) {3} seiner Distanz klingt der Stil neutral. (4) {4} dieser Vorteile hat er\naber einen Nachteil: Er ist schwer zu verstehen. (5) {5} man einen Amtsbrief\nliest, muss man oft das versteckte Verb suchen. (6) {6} Verbesserung der\nBürgerkommunikation gibt es heute Kurse in leichter Sprache. (7) {7} man die\nTexte umstellt, verstehen mehr Menschen ihre Briefe. (8) {8} der Umstellung gibt\nes weniger Rückfragen. Der Trend geht (9) {9} reinen Nominalstil zurück zum\nVerbalstil — (10) {10} alle, die schon einmal vor einem Amtsbrief saßen.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Füll jede Lücke mit einem Wort (Präposition oder Konnektor). 10 Items.",
+      "title": "Lückentext: Warum Ämter so schreiben"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weil"
+              },
+              {
+                "key": "b",
+                "text": "Wegen"
+              },
+              {
+                "key": "c",
+                "text": "Obwohl"
+              }
+            ],
+            "q": "____ der hohen Nachfrage stiegen die Preise.",
+            "why": "Vor einem Nomen (der hohen Nachfrage) steht eine Präposition; kausal → wegen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wegen"
+              },
+              {
+                "key": "b",
+                "text": "Trotz"
+              },
+              {
+                "key": "c",
+                "text": "Weil"
+              }
+            ],
+            "q": "____ die Nachfrage hoch war, stiegen die Preise.",
+            "why": "Vor einem Nebensatz (die Nachfrage hoch war) steht ein Konnektor; kausal → weil."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Trotz"
+              },
+              {
+                "key": "b",
+                "text": "Obwohl"
+              },
+              {
+                "key": "c",
+                "text": "Wegen"
+              }
+            ],
+            "q": "____ der Verspätung war der Chef ruhig.",
+            "why": "konzessiv + Nomen → trotz (obwohl wäre + Nebensatz)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nach"
+              },
+              {
+                "key": "b",
+                "text": "Nachdem"
+              },
+              {
+                "key": "c",
+                "text": "Während"
+              }
+            ],
+            "q": "____ man den Antrag geprüft hat, kommt der Bescheid.",
+            "why": "Vor einem Nebensatz mit Verb am Ende → nachdem (nach + Nomen wäre nominal)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zur"
+              },
+              {
+                "key": "b",
+                "text": "Damit"
+              },
+              {
+                "key": "c",
+                "text": "Um"
+              }
+            ],
+            "q": "____ die Qualität zu verbessern, investiert die Firma.",
+            "why": "final mit „… zu + Infinitiv\" → um … zu."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Indem"
+              },
+              {
+                "key": "b",
+                "text": "Durch"
+              },
+              {
+                "key": "c",
+                "text": "Weil"
+              }
+            ],
+            "q": "____ die Änderung des Verfahrens sanken die Kosten.",
+            "why": "modal + Nomen (die Änderung) → durch (indem wäre + Nebensatz)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle die richtige Option (a, b oder c) für jede Lücke.",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "WEGEN"
+          ],
+          "2": [
+            "TROTZ"
+          ],
+          "3": [
+            "WEIL"
+          ],
+          "4": [
+            "NACHDEM"
+          ],
+          "5": [
+            "WÄHREND"
+          ],
+          "6": [
+            "ZUR"
+          ],
+          "7": [
+            "UM"
+          ],
+          "8": [
+            "DURCH"
+          ],
+          "9": [
+            "INDEM"
+          ],
+          "10": [
+            "BEI"
+          ]
+        },
+        "bank": [
+          "WEGEN",
+          "TROTZ",
+          "WEIL",
+          "NACHDEM",
+          "WÄHREND",
+          "ZUR",
+          "UM",
+          "DURCH",
+          "INDEM",
+          "BEI",
+          "OBWOHL",
+          "DAMIT",
+          "NACH",
+          "BEVOR",
+          "DADURCH"
+        ],
+        "text": "Aus dem Jahresbericht: „{1} der gestiegenen Nachfrage (Grund) musste das Budget erhöht\nwerden. {2} der hohen Kosten (Gegensatz) machte die Firma Gewinn. {3} die\nKosten stiegen (Grund, Nebensatz mit Verb), erhöhten wir die Preise. {4} man die Daten\ngeprüft hatte (Zeit danach, Nebensatz mit Verb), kam der Bericht. {5} der Sitzung am\nFreitag (gleichzeitig) diskutierte das Team die Ergebnisse. {6} Verbesserung der\nQualität (Ziel) investierte die Firma. {7} die Qualität zu verbessern (Ziel, mit „… zu\"),\ninvestierte die Firma. {8} die Änderung des Verfahrens (Mittel)\nsanken die Kosten. {9} man das Verfahren änderte (Mittel, Nebensatz mit Verb), sanken\ndie Kosten. {10} der Abgabe der Unterlagen (Bedingung/Zeitpunkt) braucht man einen\nAusweis.\"\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Füll die 10 Lücken mit Wörtern aus dem Kasten. Fünf Wörter sind zu viel. Jedes Wort wird nur einmal benutzt.",
+      "title": "Sprachbausteine Teil 2 (Wortbank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Behörden schreiben im Nominalstil, um viele Informationen auf wenig Raum unterzubringen.",
+            "why": "„Behörden schreiben im Nominalstil, weil sie viele Informationen auf wenig Raum unterbringen müssen\"."
+          },
+          {
+            "answer": false,
+            "q": "Der Nominalstil ist laut Text leicht zu verstehen.",
+            "why": "„Trotz dieser Vorteile … er ist für normale Leser schwer zu verstehen\"."
+          },
+          {
+            "answer": true,
+            "q": "Heute gibt es Kurse in „leichter Sprache\".",
+            "why": "„Zur Verbesserung der Bürgerkommunikation gibt es heute sogar Kurse in „leichter Sprache\"."
+          },
+          {
+            "answer": false,
+            "q": "Nach der Umstellung auf einfachere Texte gibt es mehr Rückfragen.",
+            "why": "„Nach der Umstellung … es gibt weniger Rückfragen\" — weniger, nicht mehr."
+          },
+          {
+            "answer": true,
+            "q": "Der Trend geht laut Text zurück zum Verbalstil.",
+            "why": "„Der Trend geht also langsam vom reinen Nominalstil zurück zum Verbalstil\"."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Wer zum ersten Mal einen Brief vom Finanzamt oder von der Krankenkasse öffnet, ist oft ratlos. Die Sätze sind lang, die Wörter schwer, und überall stehen Nomen statt Verben. „Bei Nichtvorlage der erforderlichen Unterlagen erfolgt eine Ablehnung des Antrags\" — so etwas liest niemand gern. Doch hinter diesem Stil steckt eine Absicht.\n> Behörden schreiben im Nominalstil, **weil** sie viele Informationen auf wenig Raum unterbringen müssen. **Durch** die Verwendung von Nomen wird ein Text kürzer und scheinbar präziser. Außerdem klingt der Nominalstil **wegen** seiner Distanz neutral und sachlich: Niemand wird direkt angesprochen, niemand muss persönlich handeln. **Trotz** dieser Vorteile hat der Stil aber einen großen Nachteil — er ist für normale Leser schwer zu verstehen.\n> Seit einigen Jahren versuchen viele Ämter deshalb, **verständlicher** zu schreiben. **Zur** Verbesserung der Bürgerkommunikation gibt es heute sogar Kurse in „leichter Sprache\". **Nach** der Umstellung auf einfachere Texte verstehen mehr Menschen ihre Briefe, und es gibt weniger Rückfragen. Der Trend geht also langsam vom reinen Nominalstil zurück zum Verbalstil — zum Glück für alle, die schon einmal verzweifelt vor einem Amtsbrief saßen.\n\nRichtig (R) oder falsch (F)?\n",
+      "title": "Lesen Text 1 (Lesetext: Warum Ämter so schreiben)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wegen der Sanierung des Rathauses."
+              },
+              {
+                "key": "b",
+                "text": "Wegen eines technischen Defekts."
+              },
+              {
+                "key": "c",
+                "text": "Wegen eines Streiks."
+              }
+            ],
+            "q": "Warum bleibt das Bürgeramt geschlossen?",
+            "why": "„Wegen der Sanierung des Rathauses bleibt das Bürgeramt … geschlossen\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Persönlich zum Amt gehen."
+              },
+              {
+                "key": "b",
+                "text": "Anträge online stellen."
+              },
+              {
+                "key": "c",
+                "text": "Nichts."
+              }
+            ],
+            "q": "Was kann man trotz der Schließung tun?",
+            "why": "„Trotz der Schließung können alle Anträge online gestellt werden\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nächste Woche."
+              },
+              {
+                "key": "b",
+                "text": "Nach Abschluss der Sanierung im Herbst."
+              },
+              {
+                "key": "c",
+                "text": "Im Sommer."
+              }
+            ],
+            "q": "Wann öffnet das Bürgeramt wieder?",
+            "why": "„Nach Abschluss der Sanierung im Herbst öffnet das Bürgeramt wieder\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zur Information der Bürger."
+              },
+              {
+                "key": "b",
+                "text": "Zur Bestellung von Formularen."
+              },
+              {
+                "key": "c",
+                "text": "Zur Bezahlung von Gebühren."
+              }
+            ],
+            "q": "Wozu wird eine Hotline eingerichtet?",
+            "why": "„Zur Information der Bürger wird eine Hotline eingerichtet\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Lies die folgende Pressemitteilung und wähle a, b oder c.\n\n> **Pressemitteilung der Stadtverwaltung**\n> Wegen der Sanierung des Rathauses bleibt das Bürgeramt ab Montag geschlossen.\n> Trotz der Schließung können alle Anträge online gestellt werden. Bei dringenden\n> Fällen wenden Sie sich bitte an das Amt in der Nachbargemeinde. Nach Abschluss\n> der Sanierung im Herbst öffnet das Bürgeramt wieder. Zur Information der Bürger\n> wird eine Hotline eingerichtet.\n",
+      "title": "Lesen Text 2 (neuer Text: Pressemitteilung)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "die Prüfung"
+          ],
+          "2": [
+            "die Verbesserung"
+          ],
+          "3": [
+            "entscheiden"
+          ],
+          "4": [
+            "weil"
+          ],
+          "5": [
+            "obwohl"
+          ],
+          "6": [
+            "wenn"
+          ],
+          "7": [
+            "indem"
+          ],
+          "8": [
+            "um … zu"
+          ],
+          "9": [
+            "Genitiv"
+          ],
+          "10": [
+            "Akkusativ"
+          ],
+          "11": [
+            "Um"
+          ],
+          "12": [
+            "Trotzdem"
+          ],
+          "13": [
+            "das Recyceln"
+          ],
+          "14": [
+            "wegen des Regens"
+          ],
+          "15": [
+            "nachdem man geprüft hat"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Nomen zu „prüfen\" (mit Artikel): {1}\n2. Nomen zu „verbessern\" (mit Artikel): {2}\n3. Verb zu „die Entscheidung\": {3}\n4. wegen → Konnektor: {4}\n5. trotz → Konnektor: {5}\n6. bei → Konnektor: {6}\n7. durch → Konnektor: {7}\n8. zu/zum → Konnektor: {8}\n9. „wegen\" verlangt welchen Fall? {9}\n10. „durch\" verlangt welchen Fall? {10}\n11. (B1/06) Final-Konnektor mit „zu\": „{11} die Qualität zu verbessern\" (um/damit)\n12. (B1/02) Konzessiv-Adverb (Hauptsatz): „Es regnete. {12} gingen wir spazieren.\" (trotzdem)\n13. (B1/12) Nominalisierung von „recyceln\": {13}\n14. Übersetze nominal: „weil es regnet\" → {14}\n15. Übersetze verbal: „nach der Prüfung\" → {15}\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Eine Minute pro Item. Keine Notizen. Items mit (L<n>) wiederholen eine frühere Lektion. 15 Items.",
+      "title": "Gemischter Schnelltest"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "die Prüfung",
+              "die Anmeldung",
+              "die Verbesserung",
+              "der Antrag"
+            ],
+            "odd": 3,
+            "why": "der Antrag ist nicht auf -ung gebildet; die anderen drei sind -ung-Nominalisierungen."
+          },
+          {
+            "items": [
+              "wegen",
+              "trotz",
+              "während",
+              "weil"
+            ],
+            "odd": 3,
+            "why": "weil ist ein Konnektor (+ Nebensatz); die anderen drei sind Präpositionen mit Genitiv."
+          },
+          {
+            "items": [
+              "weil",
+              "obwohl",
+              "indem",
+              "nach"
+            ],
+            "odd": 3,
+            "why": "nach ist eine Präposition; die anderen drei leiten Nebensätze ein."
+          },
+          {
+            "items": [
+              "bei",
+              "vor",
+              "nach",
+              "wegen"
+            ],
+            "odd": 3,
+            "why": "wegen verlangt den Genitiv; bei, vor und nach verlangen den Dativ."
+          },
+          {
+            "items": [
+              "die Behörde",
+              "die Frist",
+              "der Bescheid",
+              "das Verfahren"
+            ],
+            "odd": 1,
+            "why": "die Frist ist ein Zeitraum; die anderen drei beschreiben Amt, Antwort oder Ablauf."
+          },
+          {
+            "items": [
+              "um … zu",
+              "damit",
+              "zur",
+              "weil"
+            ],
+            "odd": 3,
+            "why": "weil ist kausal; die anderen drei sind final (Ziel/Zweck)."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum.",
+      "title": "Odd one out"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Deshalb"
+          ],
+          "2": [
+            "Obwohl"
+          ],
+          "3": [
+            "weil"
+          ],
+          "4": [
+            "um"
+          ],
+          "5": [
+            "damit"
+          ],
+          "6": [
+            "zu"
+          ],
+          "7": [
+            "das Recyceln"
+          ],
+          "8": [
+            "die Trennung"
+          ],
+          "9": [
+            "nutzen"
+          ],
+          "10": [
+            "verbrauchen"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Aus B1/02 (kausale und konzessive Konnektoren):**\n1. „Es war teuer. {1} kauften wir es nicht.\" (deshalb)\n2. „{2} es teuer war, kauften wir es.\" (obwohl)\n3. „Wir blieben zu Hause, {3} es regnete.\" (weil)\n\n**Aus B1/06 (um … zu, damit, Infinitiv mit zu):**\n4. „Ich lerne Deutsch, {4} eine Stelle zu finden.\" (um)\n5. „Ich erkläre es dir, {5} du es verstehst.\" (damit)\n6. „Ich habe angefangen, jeden Tag {6} lernen.\" (zu)\n\n**Aus B1/12 (Nominalisierung intro):**\n7. Nominalisierung von „recyceln\": {7}\n8. Nominalisierung von „trennen\" (Müll): {8}\n9. Verb zu „die Nutzung\": {9}\n10. Verb zu „der Verbrauch\": {10}\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Wiederholung früherer Lektionen. 10 Items.",
+      "title": "Rückblick: B1/02, B1/06, B1/12"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "die Prüfung"
+          ],
+          "2": [
+            "die Entscheidung"
+          ],
+          "3": [
+            "die Anmeldung"
+          ],
+          "4": [
+            "ablehnen"
+          ],
+          "5": [
+            "reagieren"
+          ],
+          "6": [
+            "weil"
+          ],
+          "7": [
+            "obwohl"
+          ],
+          "8": [
+            "nachdem"
+          ],
+          "9": [
+            "indem"
+          ],
+          "10": [
+            "wegen"
+          ],
+          "11": [
+            "trotz"
+          ],
+          "12": [
+            "vor"
+          ],
+          "13": [
+            "Genitiv"
+          ],
+          "14": [
+            "Dativ"
+          ],
+          "15": [
+            "Weil es regnete, blieben wir zu Hause."
+          ],
+          "16": [
+            "Obwohl er müde war, arbeitete er weiter."
+          ],
+          "17": [
+            "Wegen der gestiegenen Kosten …"
+          ],
+          "18": [
+            "Nach der Prüfung des Antrags …"
+          ],
+          "19": [
+            "um"
+          ],
+          "20": [
+            "das Recyceln"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Nominalisierung (Nomen mit Artikel):**\n1. prüfen → {1}\n2. entscheiden → {2}\n3. anmelden → {3}\n\n**Verbalisierung (Verb im Infinitiv):**\n4. die Ablehnung → {4}\n5. die Reaktion → {5}\n\n**Präposition → Konnektor:**\n6. wegen → {6}\n7. trotz → {7}\n8. nach → {8}\n9. durch → {9}\n\n**Konnektor → Präposition:**\n10. weil → {10}\n11. obwohl → {11}\n12. bevor → {12}\n\n**Fälle:**\n13. „trotz\" + Fall: {13}\n14. „bei\" + Fall: {14}\n\n**Umformen nominal → verbal:**\n15. „Wegen des Regens blieben wir zu Hause.\" → {15}\n16. „Trotz der Müdigkeit arbeitete er weiter.\" → {16}\n\n**Umformen verbal → nominal:**\n17. „Weil die Kosten stiegen, …\" → {17}\n18. „Nachdem man den Antrag geprüft hatte, …\" → {18}\n\n**Gemischtes / Wiederholung:**\n19. (B1/06) „Ich lerne, {19} eine Stelle zu finden.\" (um)\n20. (B1/12) Nominalisierung von „recyceln\": {20}\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (bewerte dich /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "b2-01",
+  "intro": "Blöcke: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Die Lösungen findest du in solutions.md. Tipp: Verteil die Blöcke über mehrere Tage — H und A am Tag 1, B am Tag 2, C am Tag 3, D am Tag 4 nach einer Pause.\n",
+  "lesson": "B2/01",
+  "level": "B2",
+  "summary": null,
+  "title": "B2 · Lektion 1 — Übungen (Nominalstil und Verbalstil)",
+  "topic": null
+}

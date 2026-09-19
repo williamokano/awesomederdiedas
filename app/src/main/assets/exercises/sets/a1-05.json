@@ -1,0 +1,1662 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "stehe"
+          ],
+          "2": [
+            "auf"
+          ],
+          "3": [
+            "kauft"
+          ],
+          "4": [
+            "ein"
+          ],
+          "5": [
+            "sehen"
+          ],
+          "6": [
+            "fern"
+          ],
+          "7": [
+            "Rufst"
+          ],
+          "8": [
+            "an"
+          ],
+          "9": [
+            "fängt"
+          ],
+          "10": [
+            "an"
+          ],
+          "11": [
+            "räume"
+          ],
+          "12": [
+            "auf"
+          ],
+          "13": [
+            "Geht"
+          ],
+          "14": [
+            "aus"
+          ],
+          "15": [
+            "wacht"
+          ],
+          "16": [
+            "auf"
+          ],
+          "17": [
+            "Kommen"
+          ],
+          "18": [
+            "mit"
+          ],
+          "19": [
+            "kaufst"
+          ],
+          "20": [
+            "ein"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} um sieben Uhr {2}. (aufstehen)\n2. Anna {3} am Samstag {4}. (einkaufen)\n3. Wir {5} abends {6}. (fernsehen)\n4. {7} du deine Mutter {8}? (anrufen)\n5. Der Film {9} um acht Uhr {10}. (anfangen)\n6. Ich {11} am Sonntag mein Zimmer {12}. (aufräumen)\n7. {13} ihr am Freitag {14}? (ausgehen)\n8. Er {15} um sechs Uhr {16}. (aufwachen)\n9. {17} Sie {18}? (mitkommen)\n10. Du {19} nie {20}. (einkaufen)\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Konjugiertes Verb in die erste Lücke, Vorsilbe in die zweite.",
+      "instructionsEn": "Conjugated verb in the first gap, prefix in the second.",
+      "title": "Trennbare Verben: two gaps per sentence"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Ich stehe um halb sieben auf."
+          ],
+          "2": [
+            "Der Film fängt um 20 Uhr an."
+          ],
+          "3": [
+            "Wir kaufen am Samstag ein."
+          ],
+          "4": [
+            "Anna ruft am Abend ihre Eltern an.",
+            "Anna ruft ihre Eltern am Abend an."
+          ],
+          "5": [
+            "Siehst du abends fern?"
+          ],
+          "6": [
+            "Kommt ihr mit?"
+          ],
+          "7": [
+            "Er räumt die Küche auf."
+          ],
+          "8": [
+            "Wir gehen am Freitagabend aus."
+          ]
+        },
+        "listLayout": true,
+        "text": "1. ich / aufstehen / um halb sieben → {1}\n2. der Film / anfangen / um 20 Uhr → {2}\n3. wir / einkaufen / am Samstag → {3}\n4. Anna / anrufen / am Abend / ihre Eltern → {4}\n5. du / fernsehen / abends / ? → {5}\n6. ihr / mitkommen / ? → {6}\n7. er / aufräumen / die Küche → {7}\n8. wir / ausgehen / am Freitagabend → {8}\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Schreibe vollständige Sätze. Beginne mit dem ersten Element.",
+      "instructionsEn": "Write full sentences. Start with the first element.",
+      "title": "Sätze bauen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "auf"
+          ],
+          "2": [
+            "an"
+          ],
+          "3": [
+            "fern"
+          ],
+          "4": [
+            "mit"
+          ],
+          "5": [
+            "ein"
+          ],
+          "6": [
+            "an"
+          ],
+          "7": [
+            "aus"
+          ],
+          "8": [
+            "auf"
+          ],
+          "9": [
+            "auf"
+          ],
+          "10": [
+            "an"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich stehe um sieben Uhr {1}.\n2. Wann rufst du mich {2}?\n3. Wir sehen heute Abend {3}.\n4. Kommst du {4}?\n5. Sie kauft im Supermarkt {5}.\n6. Der Film fängt um neun {6}.\n7. Am Samstag gehen wir {7}.\n8. Ich räume mein Zimmer {8}.\n9. Er wacht um sechs Uhr {9}.\n10. Meine Arbeit fängt um acht Uhr {10}.\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze: auf · ein · an · fern · mit · aus (jedes kann mehrfach vorkommen).",
+      "instructionsEn": "Fill in: auf · ein · an · fern · mit · aus (each can repeat).",
+      "title": "Welches Präfix?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "dreizehn Uhr dreißig"
+          ],
+          "2": [
+            "acht Uhr fünfzehn"
+          ],
+          "3": [
+            "einundzwanzig Uhr fünf"
+          ],
+          "4": [
+            "siebzehn Uhr fünfundvierzig"
+          ],
+          "5": [
+            "sechs Uhr fünfzig"
+          ],
+          "6": [
+            "zwölf Uhr"
+          ],
+          "7": [
+            "neunzehn Uhr fünfundzwanzig"
+          ],
+          "8": [
+            "dreiundzwanzig Uhr zehn"
+          ]
+        },
+        "listLayout": true,
+        "text": "13:30 = {1} · 8:15 = {2} · 21:05 = {3} · 17:45 = {4} ·\n6:50 = {5} · 12:00 = {6} · 19:25 = {7} · 23:10 = {8}\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "skill": "numbers-time-date",
+      "title": "Offizielle Uhrzeit: write as words"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "drei",
+            "drei Uhr"
+          ],
+          "2": [
+            "fünf nach vier"
+          ],
+          "3": [
+            "Viertel nach neun"
+          ],
+          "4": [
+            "halb drei"
+          ],
+          "5": [
+            "Viertel vor elf"
+          ],
+          "6": [
+            "fünf vor acht"
+          ],
+          "7": [
+            "halb sieben"
+          ],
+          "8": [
+            "Viertel nach eins"
+          ],
+          "9": [
+            "zehn vor zwölf"
+          ],
+          "10": [
+            "halb eins"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. 3:00 = {1}\n2. 4:05 = {2}\n3. 9:15 = {3}\n4. 2:30 = {4}\n5. 10:45 = {5}\n6. 7:55 = {6}\n7. 6:30 = {7}\n8. 1:15 = {8}\n9. 11:50 = {9}\n10. 12:30 = {10}\n",
+        "type": "gap-text"
+      },
+      "id": "A5",
+      "instructions": "Umgangssprachliches System (nach / Viertel / halb / vor).",
+      "instructionsEn": "Colloquial system (nach / Viertel / halb / vor).",
+      "skill": "numbers-time-date",
+      "title": "Inoffizielle Uhrzeit: write as words"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "7:30"
+          ],
+          "2": [
+            "11:30"
+          ],
+          "3": [
+            "6:15"
+          ],
+          "4": [
+            "12:30"
+          ],
+          "5": [
+            "6:55"
+          ],
+          "6": [
+            "9:45"
+          ],
+          "7": [
+            "4:30"
+          ],
+          "8": [
+            "3:10"
+          ],
+          "9": [
+            "1:30"
+          ],
+          "10": [
+            "12:45"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. halb acht = {1} Uhr\n2. halb zwölf = {2} Uhr\n3. Viertel nach sechs = {3} Uhr\n4. halb eins = {4} Uhr\n5. fünf vor sieben = {5} Uhr\n6. Viertel vor zehn = {6} Uhr\n7. halb fünf = {7} Uhr\n8. zehn nach drei = {8} Uhr\n9. halb zwei = {9} Uhr\n10. Viertel vor eins = {10} Uhr\n",
+        "type": "gap-text"
+      },
+      "id": "A6",
+      "instructions": "Merke: halb acht = halb auf dem Weg ZU acht!",
+      "instructionsEn": "Remember: halb acht = half of the way TO eight!",
+      "title": "Die halb-Falle: write the digital time"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Am"
+          ],
+          "2": [
+            "um"
+          ],
+          "3": [
+            "von"
+          ],
+          "4": [
+            "bis"
+          ],
+          "5": [
+            "Am"
+          ],
+          "6": [
+            "In der"
+          ],
+          "7": [
+            "am"
+          ],
+          "8": [
+            "um"
+          ],
+          "9": [
+            "Am"
+          ],
+          "10": [
+            "von"
+          ],
+          "11": [
+            "bis"
+          ],
+          "12": [
+            "Um"
+          ],
+          "13": [
+            "Am"
+          ],
+          "14": [
+            "von"
+          ],
+          "15": [
+            "bis"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Montag arbeite ich.\n2. Der Film fängt {2} acht Uhr an.\n3. Ich arbeite {3} neun {4} fünf.\n4. {5} Wochenende schlafe ich lange.\n5. {6} Nacht schlafe ich.\n6. Wir gehen {7} Samstag ins Kino.\n7. Ich stehe {8} halb sieben auf.\n8. {9} Abend sehe ich fern.\n9. Die Mittagspause ist {10} halb eins {11} halb zwei.\n10. {12} wie viel Uhr gehst du schlafen?\n11. {13} Nachmittag kaufe ich ein.\n12. Er arbeitet {14} Montag {15} Freitag.\n",
+        "type": "gap-text"
+      },
+      "id": "A7",
+      "title": "um, am, in der oder von … bis?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "arbeitest"
+          ],
+          "2": [
+            "arbeitet"
+          ],
+          "3": [
+            "arbeitet"
+          ],
+          "4": [
+            "endet"
+          ],
+          "5": [
+            "findest"
+          ],
+          "6": [
+            "arbeitest"
+          ],
+          "7": [
+            "kostet"
+          ],
+          "8": [
+            "findet"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. du {1} (arbeiten)\n2. er {2} (arbeiten)\n3. ihr {3} (arbeiten)\n4. Der Film {4} um zehn. (enden)\n5. du {5} (finden)\n6. Wann {6} du? (arbeiten)\n7. Was {7} das Kino? (kosten)\n8. Sie {8} die Arbeit gut. (= she; finden)\n",
+        "type": "gap-text"
+      },
+      "id": "A8",
+      "instructions": "Der Stamm endet auf -t/-d, also fügen du/er/ihr ein -e- vor der Endung ein.",
+      "instructionsEn": "The stem ends in -t/-d, so du/er/ihr insert an -e- before the ending.",
+      "title": "arbeiten, finden, kosten, enden (-t/-d stems!)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "schlafe"
+          ],
+          "2": [
+            "schläfst"
+          ],
+          "3": [
+            "schläft"
+          ],
+          "4": [
+            "schlaft"
+          ],
+          "5": [
+            "fängt"
+          ],
+          "6": [
+            "an"
+          ],
+          "7": [
+            "Fängst"
+          ],
+          "8": [
+            "an"
+          ],
+          "9": [
+            "fangen"
+          ],
+          "10": [
+            "an"
+          ],
+          "11": [
+            "sieht"
+          ],
+          "12": [
+            "fern"
+          ],
+          "13": [
+            "Siehst"
+          ],
+          "14": [
+            "fern"
+          ],
+          "15": [
+            "sehe"
+          ],
+          "16": [
+            "fern"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. ich {1} (schlafen)\n2. du {2} (schlafen)\n3. er {3} (schlafen)\n4. ihr {4} (schlafen)\n5. Wann {5} der Film {6}? (anfangen)\n6. {7} du um acht {8}? (anfangen)\n7. Wir {9} um neun {10}. (anfangen)\n8. Er {11} abends {12}. (fernsehen)\n9. {13} du viel {14}? (fernsehen)\n10. Ich {15} nie {16}. (fernsehen)\n",
+        "type": "gap-text"
+      },
+      "id": "A9",
+      "instructions": "Nur du und er/sie/es ändern den Vokal — ich, wir, ihr, sie/Sie behalten den Infinitivvokal.",
+      "instructionsEn": "Only du and er/sie/es change the vowel — ich, wir, ihr, sie/Sie keep the infinitive vowel.",
+      "title": "schlafen, anfangen (a → ä!) und fernsehen (e → ie!)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Dienstag"
+          ],
+          "2": [
+            "Donnerstag"
+          ],
+          "3": [
+            "Samstag"
+          ],
+          "4": [
+            "am"
+          ],
+          "5": [
+            "am Wochenende"
+          ],
+          "6": [
+            "Sonnabend"
+          ],
+          "7": [
+            "Montag"
+          ],
+          "8": [
+            "von Montag bis Freitag"
+          ]
+        },
+        "listLayout": true,
+        "text": "Montag → 1. {1} → Mittwoch → 2. {2} → Freitag → 3. {3} → Sonntag\n4. \"on Wednesday\" = {4} Mittwoch\n5. \"on the weekend\" = {5}\n6. The north-German word for Samstag: {6}\n7. Welcher Tag kommt nach Sonntag? — Der {7}.\n8. \"from Monday to Friday\" = {8}\n",
+        "type": "gap-text"
+      },
+      "id": "A10",
+      "title": "Die Wochentage"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "morgens"
+          ],
+          "2": [
+            "abends"
+          ],
+          "3": [
+            "nachts"
+          ],
+          "4": [
+            "nachmittags"
+          ],
+          "5": [
+            "am"
+          ],
+          "6": [
+            "am"
+          ],
+          "7": [
+            "morgens"
+          ],
+          "8": [
+            "Abends"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. am Morgen → {1}\n2. am Abend → {2}\n3. in der Nacht → {3}\n4. am Nachmittag → {4}\n5. mittags → {5} Mittag\n6. vormittags → {6} Vormittag\n7. Ich trinke {7} Kaffee. (every morning)\n8. {8} sehe ich fern. (in the evening)\n",
+        "type": "gap-text"
+      },
+      "id": "A11",
+      "title": "Tageszeiten: noun ↔ adverb"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "immer"
+          ],
+          "2": [
+            "nie"
+          ],
+          "3": [
+            "manchmal"
+          ],
+          "4": [
+            "oft"
+          ],
+          "5": [
+            "immer"
+          ],
+          "6": [
+            "oft"
+          ],
+          "7": [
+            "manchmal"
+          ],
+          "8": [
+            "nie"
+          ],
+          "9": [
+            "nie"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich stehe {1} um sechs auf. (always)\n2. Er kocht {2}. (never)\n3. Wir gehen {3} ins Kino. (sometimes)\n4. Anna ruft {4} ihre Eltern an. (often)\n5. Order from most to least frequent: oft · nie · immer · manchmal → {5} → {6} → {7} → {8}\n6. Ich sehe {9} fern — ich habe keinen Fernseher! (never)\n",
+        "type": "gap-text"
+      },
+      "id": "A12",
+      "title": "immer, oft, manchmal, nie"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Hast"
+          ],
+          "2": [
+            "bin"
+          ],
+          "3": [
+            "fängt"
+          ],
+          "4": [
+            "an"
+          ],
+          "5": [
+            "wie"
+          ],
+          "6": [
+            "rufe"
+          ],
+          "7": [
+            "an"
+          ],
+          "8": [
+            "bis"
+          ]
+        },
+        "listLayout": true,
+        "text": "— Hallo Tim, hier ist Lena. {1} du am Freitag Zeit?\n— Nein, am Freitag arbeite ich. Aber am Samstag {2} ich frei.\n— Super! Wir gehen ins Kino. Der Film {3} um halb neun {4}.\n— Um {5} viel Uhr gehen wir?\n— Um acht. Ich {6} dich am Samstagmorgen {7}.\n— Okay, {8} Samstag!\n",
+        "type": "gap-text"
+      },
+      "id": "B1",
+      "title": "Dialog: Pläne am Telefon"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "stehst"
+          ],
+          "2": [
+            "vor"
+          ],
+          "3": [
+            "an"
+          ],
+          "4": [
+            "Um"
+          ],
+          "5": [
+            "von"
+          ],
+          "6": [
+            "bis"
+          ],
+          "7": [
+            "Siehst"
+          ],
+          "8": [
+            "an"
+          ]
+        },
+        "listLayout": true,
+        "text": "— Wann {1} du auf?\n— Um Viertel {2} sieben — also um 6:45 Uhr.\n— Und wann fängt deine Arbeit {3}?\n— {4} acht Uhr. Ich arbeite {5} acht {6} fünf.\n— {7} du am Abend fern?\n— Nein, ich lerne Deutsch oder ich rufe Freunde {8}.\n",
+        "type": "gap-text"
+      },
+      "id": "B2",
+      "title": "Dialog: Ein Interview"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "stehe auf"
+          ],
+          "2": [
+            "schläft"
+          ],
+          "3": [
+            "arbeitest"
+          ],
+          "4": [
+            "am"
+          ],
+          "5": [
+            "um"
+          ],
+          "6": [
+            "7:30"
+          ],
+          "7": [
+            "sehe fern"
+          ],
+          "8": [
+            "an"
+          ],
+          "9": [
+            "bis"
+          ],
+          "10": [
+            "In der"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} um sieben Uhr. (aufstehe → ?)\n2. Er {2} bis zehn Uhr. (schlaft → ?)\n3. Du {3} viel. (arbeitst → ?)\n4. Wir gehen {4} Samstag ins Kino. (in → ?)\n5. Der Film fängt {5} acht Uhr an. (am → ?)\n6. „Halb acht\" ist {6} Uhr. (8:30 → ?)\n7. Ich {7} abends. (fernsehe → ?)\n8. Anna ruft ihre Eltern {8}. (Anna ruft an ihre Eltern → ?)\n9. Ich arbeite von Montag {9} Freitag. (zu → ?)\n10. {10} Nacht schlafe ich gut. (In die → ?)\n",
+        "type": "gap-text"
+      },
+      "id": "B3",
+      "instructions": "Jeder Satz hat genau einen Fehler. Das falsche Wort steht als Lücke — schreibe die richtige Form.",
+      "instructionsEn": "Each sentence has exactly one mistake. The wrong word is shown as a gap — write the correct form.",
+      "title": "Finde den Fehler"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "e",
+          "2": "c",
+          "3": "g",
+          "4": "a",
+          "5": "f",
+          "6": "h",
+          "7": "b",
+          "8": "d"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Wann stehst du auf?"
+          },
+          {
+            "key": "2",
+            "text": "Wie spät ist es?"
+          },
+          {
+            "key": "3",
+            "text": "Hast du am Sonntag Zeit?"
+          },
+          {
+            "key": "4",
+            "text": "Von wann bis wann arbeitest du?"
+          },
+          {
+            "key": "5",
+            "text": "Siehst du viel fern?"
+          },
+          {
+            "key": "6",
+            "text": "Um wie viel Uhr fängt der Film an?"
+          },
+          {
+            "key": "7",
+            "text": "Kommst du mit?"
+          },
+          {
+            "key": "8",
+            "text": "Was machst du am Wochenende?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Von neun bis fünf."
+          },
+          {
+            "key": "b",
+            "text": "Ja, gern!"
+          },
+          {
+            "key": "c",
+            "text": "Es ist Viertel nach drei."
+          },
+          {
+            "key": "d",
+            "text": "Ich räume auf und kaufe ein."
+          },
+          {
+            "key": "e",
+            "text": "Um halb sieben."
+          },
+          {
+            "key": "f",
+            "text": "Nein, nur manchmal."
+          },
+          {
+            "key": "g",
+            "text": "Ja, am Sonntag bin ich frei."
+          },
+          {
+            "key": "h",
+            "text": "Um zwanzig Uhr fünfzehn."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B4",
+      "title": "Frage und Antwort verbinden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              3,
+              0,
+              1,
+              2,
+              4
+            ],
+            "note": "Ich stehe um sieben auf.",
+            "tiles": [
+              "stehe",
+              "um",
+              "sieben",
+              "ich",
+              "auf"
+            ]
+          },
+          {
+            "answer": [
+              2,
+              0,
+              3,
+              1,
+              4
+            ],
+            "note": "Siehst du abends fern?",
+            "tiles": [
+              "du",
+              "fern",
+              "siehst",
+              "abends",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              5,
+              2,
+              3,
+              4
+            ],
+            "note": "Der Film fängt um acht an.",
+            "tiles": [
+              "der",
+              "Film",
+              "um",
+              "acht",
+              "an",
+              "fängt"
+            ]
+          },
+          {
+            "answer": [
+              3,
+              0,
+              1,
+              2,
+              4
+            ],
+            "note": "Wir kaufen am Samstag ein.",
+            "tiles": [
+              "kaufen",
+              "am",
+              "Samstag",
+              "wir",
+              "ein"
+            ]
+          },
+          {
+            "answer": [
+              3,
+              0,
+              1,
+              2,
+              4,
+              5
+            ],
+            "note": "Geht ihr am Freitag aus?",
+            "tiles": [
+              "ihr",
+              "am",
+              "Freitag",
+              "geht",
+              "aus",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              4,
+              0,
+              1,
+              2,
+              3,
+              5
+            ],
+            "note": "Ich rufe dich am Abend an.",
+            "tiles": [
+              "rufe",
+              "dich",
+              "am",
+              "Abend",
+              "ich",
+              "an"
+            ]
+          },
+          {
+            "answer": [
+              5,
+              4,
+              0,
+              1,
+              2,
+              3
+            ],
+            "note": "Anna arbeitet von neun bis fünf.",
+            "tiles": [
+              "von",
+              "neun",
+              "bis",
+              "fünf",
+              "arbeitet",
+              "Anna"
+            ]
+          },
+          {
+            "answer": [
+              1,
+              3,
+              0,
+              2,
+              4
+            ],
+            "note": "Wann stehst du auf?",
+            "tiles": [
+              "du",
+              "wann",
+              "auf",
+              "stehst",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              2,
+              1,
+              0,
+              3
+            ],
+            "note": "Er räumt nie auf.",
+            "tiles": [
+              "nie",
+              "räumt",
+              "er",
+              "auf"
+            ]
+          },
+          {
+            "answer": [
+              2,
+              1,
+              0,
+              3
+            ],
+            "note": "Kommen Sie mit?",
+            "tiles": [
+              "mit",
+              "Sie",
+              "kommen",
+              "?"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B5",
+      "title": "Satzbau"
+    },
+    {
+      "block": "B",
+      "body": {
+        "buckets": [
+          {
+            "key": "um",
+            "label": "um"
+          },
+          {
+            "key": "am",
+            "label": "am"
+          },
+          {
+            "key": "von_bis",
+            "label": "von … bis"
+          },
+          {
+            "key": "in_der",
+            "label": "in der"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "um",
+            "text": "acht Uhr"
+          },
+          {
+            "bucket": "am",
+            "text": "Montag"
+          },
+          {
+            "bucket": "in_der",
+            "text": "Nacht"
+          },
+          {
+            "bucket": "von_bis",
+            "text": "neun bis fünf"
+          },
+          {
+            "bucket": "am",
+            "text": "Nachmittag"
+          },
+          {
+            "bucket": "um",
+            "text": "halb sieben"
+          },
+          {
+            "bucket": "am",
+            "text": "Wochenende"
+          },
+          {
+            "bucket": "am",
+            "text": "Abend"
+          },
+          {
+            "bucket": "von_bis",
+            "text": "Montag bis Freitag"
+          },
+          {
+            "bucket": "um",
+            "text": "Viertel nach drei"
+          },
+          {
+            "bucket": "am",
+            "text": "Sonntag"
+          },
+          {
+            "bucket": "am",
+            "text": "Mittag"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "B6",
+      "instructions": "Sortiere die 12 Zeitangaben: um · am · von … bis · in der",
+      "instructionsEn": "Sort the 12 time expressions: um · am · von … bis · in der",
+      "title": "Kategorien: which preposition?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "stehe",
+            "wache"
+          ],
+          "2": [
+            "gehe"
+          ],
+          "3": [
+            "um"
+          ],
+          "4": [
+            "von"
+          ],
+          "5": [
+            "bis"
+          ],
+          "6": [
+            "Am"
+          ],
+          "7": [
+            "sehe"
+          ],
+          "8": [
+            "an"
+          ],
+          "9": [
+            "gehe"
+          ],
+          "10": [
+            "nicht"
+          ]
+        },
+        "bank": [
+          "stehe",
+          "gehe",
+          "gehe",
+          "um",
+          "von",
+          "bis",
+          "Am",
+          "sehe",
+          "an",
+          "nicht",
+          "immer",
+          "gern",
+          "hier",
+          "dann"
+        ],
+        "text": "Mein Tag beginnt früh: Ich {1} um sechs Uhr auf. Ich dusche und\nfrühstücke, und um halb acht {2} ich zur Arbeit. Meine Arbeit fängt\n{3} acht Uhr an. Ich arbeite {4} acht bis fünf. Die\nMittagspause ist von halb eins {5} eins. {6} Nachmittag kaufe\nich manchmal ein. Am Abend koche ich, oder ich {7} fern. Manchmal\nrufe ich meine Eltern {8}. Um elf Uhr {9} ich schlafen. Am\nWochenende arbeite ich {10} — da schlafe ich lange!\n",
+        "type": "gap-bank"
+      },
+      "id": "C1",
+      "instructions": "Fülle jede Lücke mit einem Wort aus dem Kasten. Vier Wörter werden nicht gebraucht.",
+      "instructionsEn": "Fill each gap with one word from the box. Four words are not needed.",
+      "title": "Lückentext"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "von"
+              },
+              {
+                "key": "b",
+                "text": "am"
+              },
+              {
+                "key": "c",
+                "text": "um"
+              }
+            ],
+            "q": "Ich arbeite (1) ____ Montag bis Freitag — I work (1) ____ Monday to Friday",
+            "why": "von Montag bis Freitag — pair with bis."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "zu"
+              },
+              {
+                "key": "b",
+                "text": "bis"
+              },
+              {
+                "key": "c",
+                "text": "nach"
+              }
+            ],
+            "q": "von neun (2) ____ fünf — from nine (2) ____ five",
+            "why": "von neun bis fünf — pair with bis."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "um"
+              },
+              {
+                "key": "b",
+                "text": "am"
+              },
+              {
+                "key": "c",
+                "text": "in"
+              }
+            ],
+            "q": "Ich stehe immer (3) ____ halb sieben auf — I always get up (3) ____ at 6:30",
+            "why": "clock time → um."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Im"
+              },
+              {
+                "key": "b",
+                "text": "Am"
+              },
+              {
+                "key": "c",
+                "text": "Um"
+              }
+            ],
+            "q": "(4) ____ Wochenende schlafe ich lange — (4) ____ the weekend I sleep in",
+            "why": "Am Wochenende = on the weekend."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "am"
+              },
+              {
+                "key": "b",
+                "text": "um"
+              },
+              {
+                "key": "c",
+                "text": "in der"
+              }
+            ],
+            "q": "Hast du (5) ____ Samstag Zeit? — Do you have time (5) ____ Saturday?",
+            "why": "day → am."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "auf"
+              },
+              {
+                "key": "b",
+                "text": "ein"
+              },
+              {
+                "key": "c",
+                "text": "an"
+              }
+            ],
+            "q": "der Film fängt um acht Uhr (6) ____ — the film starts at eight o'clock (6) ____",
+            "why": "an|fangen — the prefix an flies to the end."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Lieber Jan,\n\nwie geht es dir? Ich habe jetzt einen neuen Job! Ich arbeite (1) ____\nMontag bis Freitag, von neun (2) ____ fünf. Ich stehe immer (3) ____\nhalb sieben auf. Das ist früh! (4) ____ Wochenende schlafe ich lange.\nHast du (5) ____ Samstag Zeit? Wir gehen ins Kino — der Film fängt um\nacht Uhr (6) ____.\n\nDeine Anna\n\nWähle die richtige Option (a, b oder c) für jede Lücke.\n",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "FRÜH"
+          ],
+          "2": [
+            "AUF"
+          ],
+          "3": [
+            "FÄNGT"
+          ],
+          "4": [
+            "UM"
+          ],
+          "5": [
+            "VON"
+          ],
+          "6": [
+            "BIS"
+          ],
+          "7": [
+            "FERN"
+          ],
+          "8": [
+            "AN"
+          ],
+          "9": [
+            "AM"
+          ],
+          "10": [
+            "MIT"
+          ]
+        },
+        "bank": [
+          "AM",
+          "AN",
+          "AUF",
+          "BIS",
+          "EIN",
+          "FÄNGT",
+          "FERN",
+          "FRÜH",
+          "HABE",
+          "KAUFT",
+          "MIT",
+          "SCHLÄFT",
+          "UM",
+          "VON",
+          "ZU"
+        ],
+        "text": "— Hallo Marco! Stehst du immer so {1} auf?\n— Ja, ich stehe um sechs Uhr {2}.\n— Wann {3} deine Arbeit an?\n— {4} halb acht. Ich arbeite {5} halb acht {6} vier.\n— Und was machst du am Abend?\n— Ich koche, und dann sehe ich {7}. Ich rufe oft meine Schwester\n{8}.\n— Hast du {9} Samstag Zeit? Wir gehen ins Kino. Kommst du\n{10}?\n— Ja, gern!\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Fünf Wörter werden nicht gebraucht. Jedes Wort nur einmal.",
+      "instructionsEn": "Fill the 10 gaps from the box. Five words are not needed. Each word once.",
+      "title": "Sprachbausteine Teil 2 (word bank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Tom steht um drei Uhr auf. — Tom gets up at three o'clock.",
+            "why": "Tom steht um drei Uhr auf."
+          },
+          {
+            "answer": false,
+            "q": "Seine Arbeit fängt um halb vier an. — His work starts at 3:30.",
+            "why": "Seine Arbeit fängt um Viertel nach drei an (3:15), nicht halb vier."
+          },
+          {
+            "answer": true,
+            "q": "Er schläft von eins bis drei. — He sleeps from one to three.",
+            "why": "Er schläft von eins bis drei."
+          },
+          {
+            "answer": false,
+            "q": "Abends sieht er oft fern. — In the evening he often watches TV.",
+            "why": "Abends sieht er nicht fern."
+          },
+          {
+            "answer": true,
+            "q": "Am Sonntag steht Tom um zehn Uhr auf. — On Sunday Tom gets up at ten o'clock.",
+            "why": "Am Sonntag steht Tom um zehn Uhr auf."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Tom Berger ist Bäcker. Sein Tag beginnt sehr früh: Er steht\n> um drei Uhr auf! Um Viertel nach drei fängt seine Arbeit an.\n> Tom macht Brot und Brötchen — und das von drei Uhr bis zwölf\n> Uhr mittags. Das sind neun Stunden Arbeit.\n>\n> Dann isst Tom zu Mittag. Er schläft von eins bis drei am\n> Nachmittag — das ist seine Mittagspause. Am Nachmittag kauft\n> er ein oder räumt seine Wohnung auf. Er kocht nicht viel;\n> meistens isst er Brot mit Käse.\n>\n> Abends sieht Tom nicht fern — er ist zu müde. Er geht schon\n> um neun Uhr schlafen. Das ist früh, aber er steht ja auch um\n> drei auf!\n>\n> Am Sonntag arbeitet Tom nicht. Das ist sein freier Tag. Am\n> Sonntag steht er um zehn Uhr auf und frühstückt lange mit\n> seiner Familie. Seine Frau kocht — Eier, Brötchen, Kaffee.\n> Tom sagt: „Sonntag ist mein bester Tag.\"\n\nRichtig (R) oder falsch (F)?\n",
+      "title": "Lesen Text 1 — Toms Tag"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "von 7 bis 21 Uhr offen."
+              },
+              {
+                "key": "b",
+                "text": "geschlossen."
+              },
+              {
+                "key": "c",
+                "text": "von 9 bis 18 Uhr offen."
+              }
+            ],
+            "q": "Das Schwimmbad ist am Montag … — The swimming pool is on Monday …",
+            "why": "Montag: geschlossen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sieben bis einundzwanzig Uhr offen."
+              },
+              {
+                "key": "b",
+                "text": "neun bis achtzehn Uhr offen."
+              },
+              {
+                "key": "c",
+                "text": "acht bis zwanzig Uhr offen."
+              }
+            ],
+            "q": "Am Mittwoch ist das Schwimmbad von … — On Wednesday the swimming pool is from …",
+            "why": "Dienstag–Freitag: 7:00–21:00 Uhr."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "halb acht."
+              },
+              {
+                "key": "b",
+                "text": "halb neun."
+              },
+              {
+                "key": "c",
+                "text": "Viertel nach acht."
+              }
+            ],
+            "q": "Der Film fängt am Samstag um … an. — The film starts on Saturday at …",
+            "why": "20:30 = halb neun, not halb acht!"
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "bis sechs Uhr abends offen."
+              },
+              {
+                "key": "b",
+                "text": "geschlossen."
+              },
+              {
+                "key": "c",
+                "text": "bis 21 Uhr offen."
+              }
+            ],
+            "q": "Am Sonntag ist das Schwimmbad … — On Sunday the swimming pool is …",
+            "why": "Samstag und Sonntag: 9:00–18:00 Uhr = bis sechs Uhr abends."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Schwimmbad Neustadt — Öffnungszeiten\n> Montag: geschlossen\n> Dienstag–Freitag: 7:00–21:00 Uhr\n> Samstag und Sonntag: 9:00–18:00 Uhr\nKino am Markt: Film „Berlin bei Nacht\" — Samstag, 20:30 Uhr\n(das Schwimmbad = swimming pool · geschlossen = closed · offen = open)\n\nWähle a, b oder c.\n",
+      "title": "Lesen Text 2 — Öffnungszeiten"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "stehe"
+          ],
+          "2": [
+            "auf"
+          ],
+          "3": [
+            "schläfst"
+          ],
+          "4": [
+            "arbeitet"
+          ],
+          "5": [
+            "9:30"
+          ],
+          "6": [
+            "einen"
+          ],
+          "7": [
+            "Am"
+          ],
+          "8": [
+            "Viertel vor acht"
+          ],
+          "9": [
+            "sprichst"
+          ],
+          "10": [
+            "fängt"
+          ],
+          "11": [
+            "an"
+          ],
+          "12": [
+            "keinen"
+          ],
+          "13": [
+            "nie"
+          ],
+          "14": [
+            "dreihundertfünfundsechzig"
+          ],
+          "15": [
+            "am Wochenende"
+          ],
+          "16": [
+            "sieht"
+          ],
+          "17": [
+            "fern"
+          ],
+          "18": [
+            "kosten"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. aufstehen: „Ich {1} um sieben {2}.\"\n2. schlafen, du-form: du {3}\n3. arbeiten, er-form: er {4}\n4. „halb zehn\" as a digital time = {5} Uhr\n5. (L3) „Ich nehme {6} Apfel.\" (ein)\n6. um, am oder von … bis: „{7} Montag habe ich frei.\"\n7. 7:45, colloquial: {8}\n8. (L1) sprechen, du-form: du {9}\n9. anfangen: „Der Film {10} um acht {11}.\"\n10. (L4) „Es gibt {12} Balkon.\" (kein)\n11. \"never\" = {13}\n12. (L2) 365 in words: {14}\n13. \"on the weekend\" = {15}\n14. fernsehen: „Er {16} {17}.\"\n15. (L3) „Was {18} die Äpfel?\" (kosten)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "title": "Gemischter Schnelltest (incl. L1–L4)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "Montag",
+              "Dienstag",
+              "Morgen",
+              "Freitag"
+            ],
+            "odd": 2,
+            "why": "Morgen is a part of the day, not a weekday."
+          },
+          {
+            "items": [
+              "aufstehen",
+              "einkaufen",
+              "anrufen",
+              "arbeiten"
+            ],
+            "odd": 3,
+            "why": "arbeiten is not a separable verb."
+          },
+          {
+            "items": [
+              "immer",
+              "oft",
+              "nie",
+              "früh"
+            ],
+            "odd": 3,
+            "why": "früh is not a frequency adverb."
+          },
+          {
+            "items": [
+              "morgens",
+              "abends",
+              "nachts",
+              "Sonntag"
+            ],
+            "odd": 3,
+            "why": "Sonntag is a day, not an -s adverb."
+          },
+          {
+            "items": [
+              "die Stunde",
+              "die Minute",
+              "die Uhr",
+              "die Küche"
+            ],
+            "odd": 3,
+            "why": "die Küche is a room, not a time word."
+          },
+          {
+            "items": [
+              "um",
+              "am",
+              "von",
+              "schön"
+            ],
+            "odd": 3,
+            "why": "schön is an adjective, not a preposition."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "title": "Odd one out"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "heißt"
+          ],
+          "2": [
+            "Woher"
+          ],
+          "3": [
+            "hast"
+          ],
+          "4": [
+            "Brüder"
+          ],
+          "5": [
+            "Das ist nicht mein Bruder."
+          ],
+          "6": [
+            "das"
+          ],
+          "7": [
+            "kein"
+          ],
+          "8": [
+            "Ich finde es zu teuer."
+          ],
+          "9": [
+            "Gibt"
+          ],
+          "10": [
+            "dunkel"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. (L1) heißen, du-form: du {1}\n2. (L1) „{2} kommst du?\" — „Aus Brasilien.\"\n3. (L2) haben, du-form: du {3}\n4. (L2) Plural: der Bruder → die {4}\n5. (L2) Negate: „Das ist mein Bruder.\" → {5}\n6. (L3) der/die/das: {6} Brötchen\n7. (L3) „Ich esse {7} Fleisch.\" (no meat!)\n8. (L4) Wie findest du das Sofa? (too expensive) → {8}\n9. (L4) „{9} es einen Balkon?\" — „Ja.\"\n10. (L4) Opposite: hell ↔ {10}\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "title": "Wiederholung Lektion 1–4"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "stehe"
+          ],
+          "2": [
+            "auf"
+          ],
+          "3": [
+            "fängt"
+          ],
+          "4": [
+            "an"
+          ],
+          "5": [
+            "sieht"
+          ],
+          "6": [
+            "fern"
+          ],
+          "7": [
+            "Kommst"
+          ],
+          "8": [
+            "mit"
+          ],
+          "9": [
+            "7:30"
+          ],
+          "10": [
+            "Viertel nach sechs"
+          ],
+          "11": [
+            "fünfzig"
+          ],
+          "12": [
+            "Viertel vor zehn"
+          ],
+          "13": [
+            "um"
+          ],
+          "14": [
+            "am"
+          ],
+          "15": [
+            "in der"
+          ],
+          "16": [
+            "bis"
+          ],
+          "17": [
+            "arbeitest"
+          ],
+          "18": [
+            "schläft"
+          ],
+          "19": [
+            "fängst"
+          ],
+          "20": [
+            "Wie spät ist es?",
+            "Wie viel Uhr ist es?"
+          ],
+          "21": [
+            "Donnerstag"
+          ],
+          "22": [
+            "abends"
+          ],
+          "23": [
+            "Ich kaufe am Samstag ein."
+          ],
+          "24": [
+            "Ich sehe nie fern."
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} um halb sieben {2}. (aufstehen)\n2. Wann {3} der Film {4}? (anfangen)\n3. Er {5} abends {6}. (fernsehen)\n4. {7} du {8}? (mitkommen)\n5. „halb acht\" as a digital time = {9} Uhr\n6. 6:15, colloquial: {10}\n7. 14:50, official: vierzehn Uhr {11}\n8. 9:45, colloquial: {12}\n9. {13} acht Uhr\n10. {14} Dienstag\n11. {15} Nacht\n12. von neun {16} fünf\n13. arbeiten: du {17}\n14. schlafen: er {18}\n15. anfangen: du {19} … an\n16. \"What time is it?\" → {20}\n17. The day after Mittwoch: {21}\n18. \"in the evening(s)\" (one word, adverb) → {22}\n19. ein – kaufe – am Samstag – ich → {23}\n20. \"I never watch TV.\" → {24}\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (score yourself /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "a1-05",
+  "intro": "Blocks: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Answers in solutions.md. Tip: spread the blocks over several days — H and A today, B tomorrow, C and D after that.\n",
+  "lesson": "A1/05",
+  "level": "A1",
+  "summary": null,
+  "title": "A1 · Lektion 5 — Übungen",
+  "topic": null
+}

@@ -1,0 +1,708 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "maskulin",
+          "feminin",
+          "neutral",
+          "Plural"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "meiner"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "meine"
+                ],
+                "gap": 2
+              },
+              {
+                "answer": [
+                  "meins",
+                  "meines"
+                ],
+                "gap": 3
+              },
+              {
+                "answer": [
+                  "meine"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "Nominativ"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "meinen"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "meine"
+                ],
+                "gap": 6
+              },
+              {
+                "answer": [
+                  "meins",
+                  "meines"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "meine"
+                ],
+                "gap": 8
+              }
+            ],
+            "label": "Akkusativ"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "meinem"
+                ],
+                "gap": 9
+              },
+              {
+                "answer": [
+                  "meiner"
+                ],
+                "gap": 10
+              },
+              {
+                "answer": [
+                  "meinem"
+                ],
+                "gap": 11
+              },
+              {
+                "answer": [
+                  "meinen"
+                ],
+                "gap": 12
+              }
+            ],
+            "label": "Dativ"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die Tabelle. Anders als der Artikel dekliniert das Possessivpronomen wie dieser.",
+      "instructionsEn": "Complete the table. Unlike the article, the standalone possessive pronoun declines like dieser — note maskulin Nominativ (-er) and neutral (-(e)s), which differ from mein Bruder / mein Kind.",
+      "skill": "case-endings",
+      "title": "meiner — die Possessivpronomen-Tabelle (ohne Nomen)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "meins"
+          ],
+          "2": [
+            "meine"
+          ],
+          "3": [
+            "unseres"
+          ],
+          "4": [
+            "meine"
+          ],
+          "5": [
+            "seiner"
+          ],
+          "6": [
+            "meine"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ist das dein Buch? — Nein, das ist {1}.\n2. Ist das deine Tasche? — Nein, das ist {2}.\n3. Ist das euer Auto? — Nein, das ist {3}.\n4. Sind das deine Schlüssel? — Nein, das sind {4}.\n5. Ist das sein Hund? — Ja, das ist {5}.\n6. Ist das ihre Wohnung? — Nein, das ist {6}.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze das substantivische Possessivpronomen (ohne Nomen).",
+      "instructionsEn": "Fill in the standalone possessive pronoun (no noun follows it).",
+      "skill": "case-endings",
+      "title": "Dialoge: wessen ist das?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "meiner"
+          ],
+          "2": [
+            "meines"
+          ],
+          "3": [
+            "ihrer"
+          ],
+          "4": [
+            "meines"
+          ],
+          "5": [
+            "unserer"
+          ],
+          "6": [
+            "ihrer"
+          ],
+          "7": [
+            "unserer"
+          ],
+          "8": [
+            "meines"
+          ]
+        },
+        "bank": [
+          "meiner",
+          "meines",
+          "ihrer",
+          "meines",
+          "unserer",
+          "ihrer",
+          "unserer",
+          "meines",
+          "deiner",
+          "seines"
+        ],
+        "text": "Am Sonntag treffen wir uns bei meiner Oma. Das Haus {1} Oma ist sehr\ngroß. Vor der Tür steht das Auto {2} Vaters — er ist mit dem neuen\nWagen gekommen. Meine Tante bringt den Kuchen {3} Tochter mit, die\ngestern Geburtstag hatte. Der Hund {4} Bruders läuft im Garten\nherum. Die Spielsachen {5} Kinder liegen überall verteilt — wir\nhaben ja alle Kinder mitgebracht. Meine Cousine zeigt uns die Fotos\n{6} Reise nach Italien. Am Ende des Tages nehmen wir die Fotos {7}\nFamilie und fahren mit dem Auto {8} Onkels wieder nach Hause.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box — Genitiv possessive forms.",
+      "title": "Lückentext: Ein Familientreffen (Genitiv)"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "meine"
+              },
+              {
+                "key": "b",
+                "text": "meiner"
+              },
+              {
+                "key": "c",
+                "text": "meinen"
+              }
+            ],
+            "q": "Das ist das Fahrrad ___ Schwester.",
+            "why": "Genitiv feminin → meiner."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "meines"
+              },
+              {
+                "key": "b",
+                "text": "meinen"
+              },
+              {
+                "key": "c",
+                "text": "meiner"
+              }
+            ],
+            "q": "Wie heißt der Hund ___ Nachbarn?",
+            "why": "Genitiv maskulin → meines. Nachbar ist ein schwacher Nomen und behält -n auch im Genitiv (meines Nachbarn, nicht meines Nachbars)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "meine"
+              },
+              {
+                "key": "b",
+                "text": "meiner"
+              },
+              {
+                "key": "c",
+                "text": "meinen"
+              }
+            ],
+            "q": "Das Büro ___ Chefin ist im dritten Stock.",
+            "why": "Genitiv feminin → meiner."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "mein"
+              },
+              {
+                "key": "b",
+                "text": "meines"
+              },
+              {
+                "key": "c",
+                "text": "meinem"
+              }
+            ],
+            "q": "Die Farbe ___ Autos gefällt mir nicht.",
+            "why": "Genitiv neutrum → meines; das Nomen bekommt zusätzlich -s (Autos)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "unsere"
+              },
+              {
+                "key": "b",
+                "text": "unseren"
+              },
+              {
+                "key": "c",
+                "text": "unserer"
+              }
+            ],
+            "q": "Das sind die Spielsachen ___ Kinder.",
+            "why": "Genitiv Plural → unserer."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "mein"
+              },
+              {
+                "key": "b",
+                "text": "meinen"
+              },
+              {
+                "key": "c",
+                "text": "meines"
+              }
+            ],
+            "q": "Kennst du den Freund ___ Bruders?",
+            "why": "Genitiv maskulin → meines."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Genitiv der Possession"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "mein"
+              },
+              {
+                "key": "b",
+                "text": "meinen"
+              },
+              {
+                "key": "c",
+                "text": "meiner"
+              }
+            ],
+            "q": "Ist das dein Mantel? — Ja, das ist ___.",
+            "why": "Substantivisch, maskulin Nominativ → meiner."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "unsere"
+              },
+              {
+                "key": "b",
+                "text": "unser"
+              },
+              {
+                "key": "c",
+                "text": "unseren"
+              }
+            ],
+            "q": "Sind das eure Fahrräder? — Nein, das sind nicht ___.",
+            "why": "Substantivisch, Plural → unsere."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "mein"
+              },
+              {
+                "key": "b",
+                "text": "meins"
+              },
+              {
+                "key": "c",
+                "text": "meinen"
+              }
+            ],
+            "q": "Welches Auto ist deins? — Das rote ist ___.",
+            "why": "Substantivisch, neutral → meins (nicht mein — das Artikel-'mein' braucht ein Nomen)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "meiner"
+              },
+              {
+                "key": "b",
+                "text": "meine"
+              },
+              {
+                "key": "c",
+                "text": "meinen"
+              }
+            ],
+            "q": "Das Büro ___ neuen Kollegin ist gleich neben meinem.",
+            "why": "Genitiv feminin → meiner."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "deiner"
+              },
+              {
+                "key": "b",
+                "text": "deins"
+              },
+              {
+                "key": "c",
+                "text": "deinen"
+              }
+            ],
+            "q": "Ich habe meinen Regenschirm vergessen. Kannst du mir ___ leihen?",
+            "why": "Substantivisch, maskulin Akkusativ → deinen (gleiche Form wie der Artikel im Akkusativ)."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "deine"
+              },
+              {
+                "key": "b",
+                "text": "dein"
+              },
+              {
+                "key": "c",
+                "text": "deinen"
+              }
+            ],
+            "q": "Wessen Tasche ist das? Ist das ___?",
+            "why": "Substantivisch, feminin → deine (gleiche Form wie der Artikel)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "meine"
+              },
+              {
+                "key": "b",
+                "text": "meiner"
+              },
+              {
+                "key": "c",
+                "text": "meinen"
+              }
+            ],
+            "q": "Das Restaurant ___ Eltern ist sehr bekannt in der Stadt.",
+            "why": "Genitiv Plural → meiner."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "euer"
+              },
+              {
+                "key": "b",
+                "text": "eurem"
+              },
+              {
+                "key": "c",
+                "text": "eures"
+              }
+            ],
+            "q": "Unser Auto ist in der Werkstatt. Können wir ___ benutzen?",
+            "why": "Substantivisch, neutral Akkusativ → eures."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct word for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Wessen ist das?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "MEIN"
+          ],
+          "2": [
+            "MEINS"
+          ],
+          "3": [
+            "IHRES"
+          ],
+          "4": [
+            "MEINEM"
+          ],
+          "5": [
+            "SEINER"
+          ],
+          "6": [
+            "MEINER"
+          ],
+          "7": [
+            "MEINES"
+          ],
+          "8": [
+            "MEINES"
+          ],
+          "9": [
+            "UNSERES"
+          ],
+          "10": [
+            "UNSERER"
+          ]
+        },
+        "bank": [
+          "MEIN",
+          "MEINS",
+          "IHRES",
+          "MEINEM",
+          "SEINER",
+          "MEINER",
+          "MEINES",
+          "MEINES",
+          "UNSERES",
+          "UNSERER",
+          "DEINS",
+          "IHRER",
+          "UNSEREN"
+        ],
+        "text": "Auf dem Flohmarkt verkauft jeder seine alten Sachen. Ich verkaufe\n{1} altes Fahrrad — es war {2} seit der Schulzeit. Meine Schwester\nverkauft die Bücher {3} Studiums. Mein Bruder hat einen Stand neben\n{4}. Er verkauft die Spielsachen {5} Kinder, die schon zu groß dafür\nsind. „Ist das dein Stand?\", fragt ein Kunde. „Nein\", sage ich, „das\nist {6}.\" Am Ende des Tages zählen wir das Geld {7} Standes. Meine\nSchwester hat mehr verkauft als ich, aber ich bin trotzdem zufrieden\nmit dem Ergebnis {8} kleinen Marktstands. Wir freuen uns über den\nErfolg {9} kleinen Marktes und planen schon den nächsten Flohmarkt\n{10} Straße.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Three words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Der Flohmarkt (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "meins"
+          ],
+          "2": [
+            "meines"
+          ],
+          "3": [
+            "ihre"
+          ],
+          "4": [
+            "meiner"
+          ],
+          "5": [
+            "Meiner"
+          ],
+          "6": [
+            "meiner"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ist das dein Handy? — Nein, das ist {1}.\n2. Das Auto {2} Chefs steht vor der Firma.\n3. Wessen Jacke ist das? — Das ist {3}.\n4. Die Meinung {4} Kollegen ist mir wichtig.\n5. Welcher Koffer ist deiner? — {5} ist der blaue.\n6. Das Zimmer {6} Tochter ist im ersten Stock.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze das Possessivpronomen — entweder substantivisch (ohne Nomen) oder im Genitiv (vor einem Nomen).",
+      "instructionsEn": "Fill in the possessive — either standalone (no noun follows) or Genitiv (before a noun).",
+      "title": "Gemischte Wiederholung: substantivisch und Genitiv"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "unser"
+              },
+              {
+                "key": "b",
+                "text": "unseres"
+              },
+              {
+                "key": "c",
+                "text": "unserer"
+              }
+            ],
+            "q": "Ist das euer Haus? — Ja, das ist ___.",
+            "why": "Substantivisch, neutral → unseres."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "meine"
+              },
+              {
+                "key": "b",
+                "text": "meiner"
+              },
+              {
+                "key": "c",
+                "text": "meinen"
+              }
+            ],
+            "q": "Der Schreibtisch ___ Chefin ist immer aufgeräumt.",
+            "why": "Genitiv feminin → meiner."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Meins"
+              },
+              {
+                "key": "b",
+                "text": "Meine"
+              },
+              {
+                "key": "c",
+                "text": "Meiner"
+              }
+            ],
+            "q": "Welche Tasche ist deine? — ___ ist die schwarze.",
+            "why": "Substantivisch, feminin → Meine."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "meiner"
+              },
+              {
+                "key": "b",
+                "text": "meins"
+              },
+              {
+                "key": "c",
+                "text": "meine"
+              }
+            ],
+            "q": "Das ist nicht sein Fehler, das ist ___.",
+            "why": "der Fehler ist maskulin; substantivisch Nominativ → meiner."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "unserer"
+              },
+              {
+                "key": "b",
+                "text": "unseren"
+              },
+              {
+                "key": "c",
+                "text": "unsere"
+              }
+            ],
+            "q": "Die Fotos ___ Reise sind wunderschön.",
+            "why": "Genitiv feminin → unserer."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ihre"
+              },
+              {
+                "key": "b",
+                "text": "ihrer"
+              },
+              {
+                "key": "c",
+                "text": "ihren"
+              }
+            ],
+            "q": "Ist das dein Schlüssel? — Nein, ich glaube, das ist ___.",
+            "why": "der Schlüssel ist maskulin; substantivisch Nominativ → ihrer."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-02-possessivpronomen-b1",
+  "intro": "Standalone drill set, not tied to any lesson. Two new pieces on top of the A1/A2 sets: (1) the possessive used ON ITS OWN, without a noun (Ist das dein Buch? — Nein, das ist meins) — this declines like dieser, not like ein, so the masculine Nominativ and neuter forms differ from the article you already know (meiner, meins/meines — feminine and plural stay identical to the article: meine). (2) the Genitiv of possession (das Auto meines Vaters), including weak nouns that keep their -n even in the Genitiv (meines Nachbarn, not meines Nachbars). Answers in solutions.md.\n",
+  "lesson": "EX/02-possessivpronomen-b1",
+  "level": "B1",
+  "summary": null,
+  "title": "Possessivpronomen substantivisch & Genitiv der Possession — B1",
+  "topic": "Possessivpronomen (mein, dein, sein, ihr, unser, euer, Ihr)"
+}

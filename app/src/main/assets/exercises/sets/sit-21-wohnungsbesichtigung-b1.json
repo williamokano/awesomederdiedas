@@ -1,0 +1,842 @@
+{
+  "category": "Wohnen & Nachbarschaft",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "geld",
+            "label": "Geld"
+          },
+          {
+            "key": "wohnung",
+            "label": "Wohnung & Ausstattung"
+          },
+          {
+            "key": "papier",
+            "label": "Papiere"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "geld",
+            "text": "die Kaltmiete"
+          },
+          {
+            "bucket": "wohnung",
+            "text": "die Einbauküche"
+          },
+          {
+            "bucket": "papier",
+            "text": "die Schufa-Auskunft"
+          },
+          {
+            "bucket": "geld",
+            "text": "die Nebenkosten"
+          },
+          {
+            "bucket": "wohnung",
+            "text": "der Altbau"
+          },
+          {
+            "bucket": "papier",
+            "text": "die Mietschuldenfreiheitsbescheinigung"
+          },
+          {
+            "bucket": "geld",
+            "text": "die Kaution"
+          },
+          {
+            "bucket": "wohnung",
+            "text": "die Fußbodenheizung"
+          },
+          {
+            "bucket": "papier",
+            "text": "die Gehaltsabrechnung"
+          },
+          {
+            "bucket": "geld",
+            "text": "die Provision"
+          },
+          {
+            "bucket": "wohnung",
+            "text": "der Abstellraum"
+          },
+          {
+            "bucket": "papier",
+            "text": "die Selbstauskunft"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Begriffe.",
+      "instructionsEn": "Sort the 12 terms.",
+      "title": "Wovon ist die Rede?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "die Kaltmiete"
+          },
+          {
+            "key": "2",
+            "text": "die Warmmiete"
+          },
+          {
+            "key": "3",
+            "text": "die Nebenkosten"
+          },
+          {
+            "key": "4",
+            "text": "die Kaution"
+          },
+          {
+            "key": "5",
+            "text": "die Selbstauskunft"
+          },
+          {
+            "key": "6",
+            "text": "die Abstandszahlung"
+          },
+          {
+            "key": "7",
+            "text": "der Staffelmietvertrag"
+          },
+          {
+            "key": "8",
+            "text": "die Wohnfläche"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "die Miete ohne Heizung, Wasser und Müll"
+          },
+          {
+            "key": "b",
+            "text": "die Miete einschließlich der laufenden Kosten"
+          },
+          {
+            "key": "c",
+            "text": "Heizung, Wasser, Müll, Hausreinigung und Ähnliches"
+          },
+          {
+            "key": "d",
+            "text": "Sicherheit für die Vermieterin, höchstens drei Kaltmieten"
+          },
+          {
+            "key": "e",
+            "text": "das Formular, in dem du Beruf, Einkommen und Haushalt angibst"
+          },
+          {
+            "key": "f",
+            "text": "Geld an den Vormieter für Möbel oder Einbauten"
+          },
+          {
+            "key": "g",
+            "text": "ein Vertrag, in dem die Miete zu festen Terminen steigt"
+          },
+          {
+            "key": "h",
+            "text": "die Quadratmeter, für die du zahlst"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "sind"
+          ],
+          "2": [
+            "ob"
+          ],
+          "3": [
+            "wurden"
+          ],
+          "4": [
+            "wie"
+          ],
+          "5": [
+            "wann"
+          ],
+          "6": [
+            "ob"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Dürfte ich fragen, wie hoch die Nebenkosten {1}? (sein)\n2. Können Sie mir sagen, {2} die Küche übernommen werden muss? (Ja/Nein-Frage)\n3. Wissen Sie, wann die Fenster zuletzt getauscht {3}? (werden, Passiv Perfekt)\n4. Ich wüsste gern, {4} viele Parteien im Haus wohnen. (Menge)\n5. Darf ich fragen, {5} die Wohnung frei wird? (Zeitpunkt)\n6. Können Sie mir sagen, {6} eine Provision anfällt? (Ja/Nein-Frage)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Formuliere die indirekte Frage: Ergänze das Fragewort oder ob und achte auf das Verb am Ende.",
+      "instructionsEn": "Form the indirect question: fill in the question word or ob, minding the verb at the end.",
+      "title": "Indirekte Fragen: höflich nachhaken"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "die"
+          ],
+          "2": [
+            "der"
+          ],
+          "3": [
+            "die"
+          ],
+          "4": [
+            "dem"
+          ],
+          "5": [
+            "dem"
+          ],
+          "6": [
+            "die"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das ist die Wohnung, {1} im Inserat stand. (die Wohnung, Nominativ)\n2. Der Balkon, {2} nach Süden geht, ist ein großer Vorteil. (der Balkon, Nominativ)\n3. Die Küche, {3} der Vormieter eingebaut hat, kostet 2.000 €. (die Küche, Akkusativ)\n4. Das Zimmer, in {4} wir jetzt stehen, ist 18 Quadratmeter groß. (das Zimmer, Dativ nach in)\n5. Der Nachbar, mit {5} ich eben gesprochen habe, wohnt seit 20 Jahren hier. (der Nachbar, Dativ nach mit)\n6. Die Unterlagen, {6} Sie brauchen, schicke ich Ihnen heute. (die Unterlagen, Akkusativ Plural)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das Relativpronomen.",
+      "instructionsEn": "Fill in the relative pronoun.",
+      "title": "Relativsätze über die Wohnung"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "BESICHTIGUNG"
+          ],
+          "2": [
+            "NEBENKOSTEN"
+          ],
+          "3": [
+            "KALTMIETE"
+          ],
+          "4": [
+            "KAUTION"
+          ],
+          "5": [
+            "KÜCHE"
+          ],
+          "6": [
+            "FREI"
+          ],
+          "7": [
+            "PROVISION"
+          ],
+          "8": [
+            "UNTERLAGEN"
+          ],
+          "9": [
+            "GEHALTSABRECHNUNGEN"
+          ],
+          "10": [
+            "SCHICKE"
+          ]
+        },
+        "bank": [
+          "BESICHTIGUNG",
+          "NEBENKOSTEN",
+          "KALTMIETE",
+          "KAUTION",
+          "KÜCHE",
+          "FREI",
+          "PROVISION",
+          "UNTERLAGEN",
+          "GEHALTSABRECHNUNGEN",
+          "SCHICKE",
+          "WARMMIETE",
+          "VERTRAG",
+          "TERMIN",
+          "ZIMMER"
+        ],
+        "text": "— Guten Tag, Marchetti, ich hatte mich für die {1} angemeldet.\n— Guten Tag, kommen Sie rein. Schauen Sie sich in Ruhe um, Fragen\ngern am Ende.\n*(nach zehn Minuten)*\n— Darf ich fragen, wie hoch die {2} sind?\n— 220 € zusätzlich zur {3} von 780 €, plus 60 € für die Heizung.\n— Und die {4}?\n— Drei Kaltmieten, also 2.340 €.\n— Verstehe. Muss ich die {5} übernehmen?\n— Der Vormieter hätte gern 2.000 € dafür. Verhandelbar.\n— Wann wird die Wohnung denn {6}?\n— Zum 1. Oktober. Einziehen könnten Sie ab dem 5.\n— Fällt eine {7} an?\n— Nein, wir vermieten direkt.\n— Sehr gut. Welche {8} brauchen Sie von mir?\n— Selbstauskunft, die letzten drei {9} und eine\nSchufa-Auskunft.\n— Die habe ich alle da. Ich {10} sie Ihnen heute Abend per Mail.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Bei der Besichtigung"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Dürfte ich fragen, wie hoch die Nebenkosten sind — und ob die Heizung darin enthalten ist?"
+              },
+              {
+                "key": "b",
+                "text": "Was kostet das wirklich?"
+              },
+              {
+                "key": "c",
+                "text": "780 € ist ja günstig."
+              }
+            ],
+            "q": "Im Inserat steht nur die Kaltmiete. — The ad only lists the base rent.",
+            "why": "Zwei Zahlen entscheiden über deine Warmmiete; frag sie beide direkt ab."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ist etwas mit der Wohnung nicht in Ordnung?"
+              },
+              {
+                "key": "b",
+                "text": "Darf ich fragen, warum die jetzigen Mieter ausziehen?"
+              },
+              {
+                "key": "c",
+                "text": "Gibt es Probleme im Haus?"
+              }
+            ],
+            "q": "Du willst wissen, warum die Vormieter ausziehen. — You want to know why the previous tenants are leaving.",
+            "why": "Dieselbe Information, ohne Verdacht zu äußern — und die Antwort verrät oft genug."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das geht Sie nichts an."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe Arbeit."
+              },
+              {
+                "key": "c",
+                "text": "Ich arbeite seit vier Jahren als Krankenpfleger, unbefristet. Die Gehaltsabrechnungen bringe ich mit."
+              }
+            ],
+            "q": "Die Maklerin fragt, was du beruflich machst. — The agent asks what you do for a living.",
+            "why": "Dauer, Vertragsart und Nachweis in einem Satz — genau das prüft die Vermieterseite."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Hier ist Schimmel!"
+              },
+              {
+                "key": "b",
+                "text": "Nichts sagen und später überlegen."
+              },
+              {
+                "key": "c",
+                "text": "Da an der Ecke sieht es feucht aus — wissen Sie, ob das schon einmal saniert wurde?"
+              }
+            ],
+            "q": "Du siehst Schimmelflecken hinter der Tür. — You spot mould behind the door.",
+            "why": "Beobachtung plus Frage: du bekommst eine Antwort, die dir später schriftlich weiterhilft."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Möglichst laut Fragen stellen."
+              },
+              {
+                "key": "b",
+                "text": "Am Ende kurz vorstellen, sagen, dass die Unterlagen komplett sind, und heute noch mailen."
+              },
+              {
+                "key": "c",
+                "text": "Als Erster gehen."
+              }
+            ],
+            "q": "Zwanzig Leute stehen im Flur, du willst im Gedächtnis bleiben. — Twenty people are in the hallway and you want to be remembered.",
+            "why": "Vollständige Unterlagen am selben Abend sind das, was am Ende wirklich zählt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Vielen Dank fürs Zeigen — die Wohnung passt für mich leider nicht ganz."
+              },
+              {
+                "key": "b",
+                "text": "Einfach gehen."
+              },
+              {
+                "key": "c",
+                "text": "Die ist viel zu teuer für das, was sie bietet."
+              }
+            ],
+            "q": "Die Wohnung gefällt dir nicht. — You don't like the flat.",
+            "why": "Kurz und freundlich absagen: die Vermieterin hat oft noch andere Wohnungen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Was fragst du, was sagst du?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Indirekte Frage: das Verb steht am Ende",
+            "tiles": [
+              "Dürfte",
+              "ich",
+              "fragen",
+              ",",
+              "wie",
+              "hoch",
+              "die",
+              "Nebenkosten",
+              "sind",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "note": "Ja/Nein-Frage im Nebensatz: ob, Verb am Ende",
+            "tiles": [
+              "Können",
+              "Sie",
+              "mir",
+              "sagen",
+              ",",
+              "ob",
+              "eine",
+              "Provision",
+              "anfällt",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "frei werden — frei steht am Satzende",
+            "tiles": [
+              "Die",
+              "Wohnung",
+              "wird",
+              "zum",
+              "1.",
+              "Oktober",
+              "frei"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Relativsatz: Verb am Ende",
+            "tiles": [
+              "Das",
+              "ist",
+              "die",
+              "Wohnung",
+              ",",
+              "die",
+              "im",
+              "Inserat",
+              "stand"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Konjunktiv II als höfliches Angebot, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "würde",
+              "Ihnen",
+              "die",
+              "Unterlagen",
+              "heute",
+              "Abend",
+              "schicken"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Passiv im Nebensatz: Partizip, dann wurden",
+            "tiles": [
+              "Wissen",
+              "Sie",
+              ",",
+              "wann",
+              "die",
+              "Fenster",
+              "getauscht",
+              "wurden",
+              "?"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Fragen und Sätze bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Die Warmmiete liegt bei 1.060 €. — The rent including all costs is €1,060.",
+            "why": "780 + 220 + 60 = 1.060 €."
+          },
+          {
+            "answer": false,
+            "q": "Es fällt eine Maklerprovision an. — There is an agent's commission.",
+            "why": "„Provisionsfrei“ — die Eigentümerin vermietet direkt."
+          },
+          {
+            "answer": false,
+            "q": "Die Küche ist im Preis enthalten. — The kitchen is included in the price.",
+            "why": "Ablöse 2.000 €, VB — sie muss also bezahlt werden, ist aber verhandelbar."
+          },
+          {
+            "answer": true,
+            "q": "Die Kaution beträgt 2.340 €. — The deposit is €2,340.",
+            "why": "Drei Kaltmieten à 780 €."
+          },
+          {
+            "answer": false,
+            "q": "Ein Hund ist auf jeden Fall erlaubt. — A dog is definitely allowed.",
+            "why": "„Haustiere nach Absprache“ heißt: fragen, nicht voraussetzen."
+          },
+          {
+            "answer": false,
+            "q": "Eine Schufa-Auskunft von vor einem halben Jahr reicht. — A credit report from six months ago is enough.",
+            "why": "Sie darf nicht älter als drei Monate sein."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **3-Zimmer-Wohnung, Altbau, 78 m², 3. OG ohne Aufzug**\n>\n> | | |\n> |---|---|\n> | Kaltmiete | 780 € |\n> | Nebenkosten | 220 € |\n> | Heizkosten | 60 € |\n> | Kaution | 3 Kaltmieten |\n>\n> Frei **ab 01.10.** · **Provisionsfrei** (Vermietung direkt durch\n> die Eigentümerin)\n>\n> Einbauküche vorhanden — **Ablöse 2.000 €, VB**. Balkon nach\n> Süden, Abstellraum im Keller. **Haustiere nach Absprache.**\n> Fenster 2021 erneuert, Bad 2018 saniert.\n>\n> **Unterlagen zur Besichtigung mitbringen:** Selbstauskunft,\n> letzte 3 Gehaltsabrechnungen, Schufa-Auskunft (nicht älter als\n> 3 Monate).\n>\n> Besichtigung nur nach Anmeldung, Sammeltermin **Do 17:30**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Das Inserat lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ja, in zwei Jahren."
+              },
+              {
+                "key": "b",
+                "text": "Diese Frage würde ich lieber nicht beantworten — zur Wohnung selbst gebe ich Ihnen aber gern jede Auskunft."
+              },
+              {
+                "key": "c",
+                "text": "Das dürfen Sie nicht fragen!"
+              }
+            ],
+            "q": "Die Maklerin fragt, ob du eine Familie planst. — The agent asks whether you're planning a family.",
+            "why": "Unzulässige Fragen musst du nicht beantworten; freundlich ablenken erhält deine Chancen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Schufa habe ich beantragt, sie kommt bis Freitag — den Rest schicke ich Ihnen heute Abend."
+              },
+              {
+                "key": "b",
+                "text": "Die habe ich vergessen."
+              },
+              {
+                "key": "c",
+                "text": "Brauchen Sie die wirklich?"
+              }
+            ],
+            "q": "Du hast die Schufa-Auskunft nicht dabei. — You don't have the credit report with you.",
+            "why": "Fehlendes benennen, Termin nennen und den Rest sofort liefern — das wirkt organisiert."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Trotzdem zusagen und hoffen."
+              },
+              {
+                "key": "b",
+                "text": "Bevor ich zusage: Es riecht im Bad etwas feucht. Gab es dort schon einmal Schimmel?"
+              },
+              {
+                "key": "c",
+                "text": "Die Wohnung ist feucht."
+              }
+            ],
+            "q": "Beim zweiten Blick fällt dir auf, dass es nach Feuchtigkeit riecht. — On second look you notice a damp smell.",
+            "why": "Vor der Zusage fragen — danach hast du keine Verhandlungsposition mehr."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nicht antworten."
+              },
+              {
+                "key": "b",
+                "text": "Schade! Falls etwas Ähnliches frei wird, freue ich mich über eine Nachricht."
+              },
+              {
+                "key": "c",
+                "text": "Darf ich fragen, warum nicht ich?"
+              }
+            ],
+            "q": "Du bekommst eine Absage. — You get a rejection.",
+            "why": "Eine freundliche Antwort kostet zwei Sätze — und viele Wohnungen werden nie inseriert."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist Wucher."
+              },
+              {
+                "key": "b",
+                "text": "Die Küche ist von 2009 — ich könnte 1.500 € anbieten, sonst baue ich eine eigene ein."
+              },
+              {
+                "key": "c",
+                "text": "Ich zahle es, damit ich die Wohnung bekomme."
+              }
+            ],
+            "q": "Der Vormieter will 4.000 € für eine alte Küche. — The previous tenant wants €4,000 for an old kitchen.",
+            "why": "Begründetes Gegenangebot plus echte Alternative — Ablösen sind fast immer verhandelbar."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich unterschreibe sehr gern — dürfte ich den Vertrag heute Abend in Ruhe lesen und ihn Ihnen morgen früh unterschrieben bringen?"
+              },
+              {
+                "key": "b",
+                "text": "Ich unterschreibe nichts unter Druck."
+              },
+              {
+                "key": "c",
+                "text": "Sofort unterschreiben, um die Wohnung nicht zu verlieren."
+              }
+            ],
+            "q": "Man drängt dich, den Vertrag sofort zu unterschreiben. — You're pushed to sign the contract on the spot.",
+            "why": "Zusagen und trotzdem Zeit nehmen — eine Nacht ist eine übliche und kaum ablehnbare Bitte."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Heikle Momente"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Nebenkosten"
+          ],
+          "2": [
+            "Ablöse"
+          ],
+          "3": [
+            "provisionsfrei"
+          ],
+          "4": [
+            "Selbstauskunft"
+          ],
+          "5": [
+            "Kaution"
+          ],
+          "6": [
+            "Absprache"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die {1} sind die Kosten für Wasser, Müll und Hausreinigung. (laufende Kosten)\n2. Für die Küche will der Vormieter eine {2} von 2.000 €. (Zahlung für Einbauten)\n3. Die Wohnung ist {3} — es gibt keinen Makler. (ohne Provision)\n4. In der {4} gebe ich Beruf und Einkommen an. (Formular über mich)\n5. Die {5} beträgt höchstens drei Kaltmieten. (Sicherheit für den Vermieter)\n6. Haustiere sind nur nach {6} erlaubt. (man muss vorher fragen)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Kaltmiete"
+          ],
+          "2": [
+            "Warmmiete"
+          ],
+          "3": [
+            "Nebenkosten"
+          ],
+          "4": [
+            "Kaution"
+          ],
+          "5": [
+            "provisionsfrei"
+          ],
+          "6": [
+            "Ablöse"
+          ],
+          "7": [
+            "Selbstauskunft"
+          ],
+          "8": [
+            "Schufa-Auskunft"
+          ],
+          "9": [
+            "sind"
+          ],
+          "10": [
+            "ob"
+          ],
+          "11": [
+            "wurden"
+          ],
+          "12": [
+            "frei"
+          ],
+          "13": [
+            "Absprache"
+          ],
+          "14": [
+            "würde"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Die {1} ist die Miete ohne Heizung und Wasser. (base rent)\n2. Die {2} ist die Miete mit allen Kosten. (rent including costs)\n3. Die {3} sind Wasser, Müll und Hausreinigung. (service charges)\n4. Die {4} beträgt drei Kaltmieten. (deposit)\n5. Die Wohnung ist {5}, es gibt keinen Makler. (commission-free)\n6. Für die Küche zahle ich eine {6}. (transfer payment)\n7. In der {7} gebe ich mein Einkommen an. (tenant self-disclosure)\n8. Die {8} darf nicht älter als drei Monate sein. (credit report)\n9. Dürfte ich fragen, wie hoch die Nebenkosten {9}? (indirekte Frage: sein)\n10. Können Sie mir sagen, {10} eine Provision anfällt? (whether)\n11. Wissen Sie, wann die Fenster getauscht {11}? (Passiv Präteritum)\n12. Die Wohnung wird zum 1. Oktober {12}. (available)\n13. Haustiere nur nach {13}. (by arrangement)\n14. Ich {14} Ihnen die Unterlagen heute Abend schicken. (Konjunktiv II: I would)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-21-wohnungsbesichtigung-b1",
+  "intro": "Zwanzig Leute, zwanzig Minuten, eine Wohnung: Bei einer Besichtigung entscheidet sich in kurzer Zeit, ob du in die engere Auswahl kommst. Dabei geht es um zwei Dinge gleichzeitig — du musst selbst herausfinden, was das Inserat verschweigt (Nebenkosten, Heizung, Kaution, Küche, Renovierung), und du musst als Mieterin oder Mieter überzeugen, ohne dich anzubiedern. Danach kommt das Nachfassen: eine kurze Mail, die Unterlagen, und die Absage, die du höflich beantwortest. Grammatik nach Bedarf: indirekte Fragen, Konjunktiv II, Passiv und Relativsätze. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/21-wohnungsbesichtigung-b1",
+  "level": "B1",
+  "summary": "Das Inserat lesen, einen Termin machen, bei der Besichtigung die richtigen Fragen stellen und danach nachfassen.",
+  "title": "Wohnungsbesichtigung — B1",
+  "topic": "Eine Wohnung besichtigen"
+}

@@ -1,0 +1,870 @@
+{
+  "category": "Essen & Trinken",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "vor",
+            "label": "Vorspeise"
+          },
+          {
+            "key": "haupt",
+            "label": "Hauptgericht"
+          },
+          {
+            "key": "nach",
+            "label": "Nachtisch"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "vor",
+            "text": "die Tomatensuppe"
+          },
+          {
+            "bucket": "haupt",
+            "text": "das Schnitzel"
+          },
+          {
+            "bucket": "nach",
+            "text": "der Apfelstrudel"
+          },
+          {
+            "bucket": "vor",
+            "text": "der gemischte Salat"
+          },
+          {
+            "bucket": "haupt",
+            "text": "die Rinderroulade"
+          },
+          {
+            "bucket": "nach",
+            "text": "das Eis mit Sahne"
+          },
+          {
+            "bucket": "vor",
+            "text": "die Brotzeit"
+          },
+          {
+            "bucket": "haupt",
+            "text": "der Braten mit Knödeln"
+          },
+          {
+            "bucket": "nach",
+            "text": "die Crème brûlée"
+          },
+          {
+            "bucket": "vor",
+            "text": "die Suppe des Tages"
+          },
+          {
+            "bucket": "haupt",
+            "text": "die Maultaschen"
+          },
+          {
+            "bucket": "nach",
+            "text": "der Kaiserschmarrn"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Gerichte nach Gang.",
+      "instructionsEn": "Sort the 12 dishes by course.",
+      "title": "Vorspeise, Hauptgericht oder Nachtisch?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "d",
+          "2": "b",
+          "3": "f",
+          "4": "e",
+          "5": "h",
+          "6": "a",
+          "7": "g",
+          "8": "c"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Haben Sie einen Tisch für zwei Personen?"
+          },
+          {
+            "key": "2",
+            "text": "Ich hätte gern das Schnitzel, aber ohne Zwiebeln."
+          },
+          {
+            "key": "3",
+            "text": "Was können Sie empfehlen?"
+          },
+          {
+            "key": "4",
+            "text": "Ich habe eine Nussallergie."
+          },
+          {
+            "key": "5",
+            "text": "Könnten wir bitte noch etwas Wasser haben?"
+          },
+          {
+            "key": "6",
+            "text": "Wir möchten zahlen, bitte."
+          },
+          {
+            "key": "7",
+            "text": "Ist in der Soße Sahne?"
+          },
+          {
+            "key": "8",
+            "text": "Ich habe auf den Namen Yilmaz reserviert."
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Zusammen oder getrennt?"
+          },
+          {
+            "key": "b",
+            "text": "Kein Problem, das sage ich der Küche."
+          },
+          {
+            "key": "c",
+            "text": "Ja, hier steht es. Folgen Sie mir bitte."
+          },
+          {
+            "key": "d",
+            "text": "Ja, aber nur für eine Stunde — um acht ist er reserviert."
+          },
+          {
+            "key": "e",
+            "text": "Danke für den Hinweis. Der Nachtisch enthält leider Nüsse."
+          },
+          {
+            "key": "f",
+            "text": "Heute ist der Braten sehr gut."
+          },
+          {
+            "key": "g",
+            "text": "Ja, sie ist auf Sahnebasis. Möchten Sie etwas anderes?"
+          },
+          {
+            "key": "h",
+            "text": "Selbstverständlich, ich bringe es sofort."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jede Äußerung (1–8) der passenden Reaktion (a–h) zu.",
+      "instructionsEn": "Match each utterance (1–8) with the fitting response (a–h).",
+      "title": "Redemittel im Restaurant"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "ohne"
+          ],
+          "2": [
+            "ohne"
+          ],
+          "3": [
+            "Vegetarier"
+          ],
+          "4": [
+            "Allergie"
+          ],
+          "5": [
+            "glutenfrei"
+          ],
+          "6": [
+            "lieber"
+          ],
+          "7": [
+            "kleine"
+          ],
+          "8": [
+            "extra"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich hätte gern die Pasta, aber {1} Käse. (nicht mit)\n2. Können Sie das bitte {2} Zwiebeln machen? (nicht mit)\n3. Ich bin {3} — haben Sie etwas ohne Fleisch? (kein Fleisch essen)\n4. Ich habe eine {4} gegen Nüsse. (der Körper reagiert stark darauf)\n5. Ist das Gericht {5}? Ich vertrage kein Gluten. (ohne Gluten)\n6. Könnte ich {6} Reis statt Kartoffeln haben? (als Ersatz)\n7. Für mich bitte eine {7} Portion — ich habe nicht so viel Hunger. (klein)\n8. Bringen Sie die Soße bitte {8}. (separat, nicht auf dem Teller)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das fehlende Wort.",
+      "instructionsEn": "Fill in the missing word.",
+      "title": "Sonderwünsche formulieren"
+    },
+    {
+      "block": "A",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "die Vorspeise",
+              "das Hauptgericht",
+              "der Nachtisch",
+              "die Rechnung"
+            ],
+            "odd": 3,
+            "why": "Rechnung ist kein Gang."
+          },
+          {
+            "items": [
+              "die Gabel",
+              "das Messer",
+              "der Löffel",
+              "die Serviette"
+            ],
+            "odd": 3,
+            "why": "Serviette ist kein Besteck."
+          },
+          {
+            "items": [
+              "reservieren",
+              "bestellen",
+              "zahlen",
+              "kochen"
+            ],
+            "odd": 3,
+            "why": "Kochen macht der Gast nicht — das ist die Küche."
+          },
+          {
+            "items": [
+              "die Kellnerin",
+              "der Koch",
+              "der Gast",
+              "die Bedienung"
+            ],
+            "odd": 2,
+            "why": "Der Gast arbeitet nicht im Restaurant."
+          },
+          {
+            "items": [
+              "scharf",
+              "salzig",
+              "süß",
+              "teuer"
+            ],
+            "odd": 3,
+            "why": "teuer beschreibt den Preis, nicht den Geschmack."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "A4",
+      "instructions": "Ein Wort passt nicht in die Gruppe. Klicke es an.",
+      "instructionsEn": "One word does not belong in the group. Click it.",
+      "title": "Was passt nicht?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "RESERVIEREN"
+          ],
+          "2": [
+            "PERSONEN"
+          ],
+          "3": [
+            "LEUTE"
+          ],
+          "4": [
+            "GEHT"
+          ],
+          "5": [
+            "LIEBER"
+          ],
+          "6": [
+            "WÄRE"
+          ],
+          "7": [
+            "VEGETARIER"
+          ],
+          "8": [
+            "GERICHTE"
+          ],
+          "9": [
+            "DANK"
+          ],
+          "10": [
+            "FREITAG"
+          ]
+        },
+        "bank": [
+          "RESERVIEREN",
+          "PERSONEN",
+          "LEUTE",
+          "GEHT",
+          "LIEBER",
+          "WÄRE",
+          "VEGETARIER",
+          "GERICHTE",
+          "DANK",
+          "FREITAG",
+          "WOHER",
+          "TISCH",
+          "BESTELLEN",
+          "ESSEN"
+        ],
+        "text": "— Restaurant Sonnenhof, guten Tag.\n— Guten Tag, ich möchte einen Tisch {1}.\n— Gern. Für wann und für wie viele {2}?\n— Für Freitag um neunzehn Uhr, für vier {3}.\n— Einen Moment … ja, das {4}. Auf welchen Namen?\n— Auf den Namen Yilmaz.\n— Sitzen Sie {5} drinnen oder draußen?\n— Draußen, wenn möglich. Und {6} ein Kinderstuhl möglich?\n— Ja, den stellen wir bereit. Noch etwas?\n— Eine Person in unserer Gruppe ist {7} — gibt es etwas ohne Fleisch?\n— Ja, wir haben immer zwei vegetarische {8}.\n— Perfekt. Vielen {9}.\n— Gern geschehen. Bis {10}!\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Dialog: Tisch reservieren am Telefon"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wir wollen einen Tisch."
+              },
+              {
+                "key": "b",
+                "text": "Guten Abend, haben Sie noch einen Tisch für zwei?"
+              },
+              {
+                "key": "c",
+                "text": "Ist noch Platz?"
+              }
+            ],
+            "q": "Du kommst ohne Reservierung und willst einen Tisch. — You arrive without a reservation and want a table.",
+            "why": "Begrüßung plus konkrete Personenzahl — so kann die Bedienung sofort antworten."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nein."
+              },
+              {
+                "key": "b",
+                "text": "Warten Sie."
+              },
+              {
+                "key": "c",
+                "text": "Könnten Sie uns noch einen Moment geben?"
+              }
+            ],
+            "q": "Die Bedienung fragt: „Haben Sie schon gewählt?“ Du brauchst noch Zeit. — The server asks if you've decided. You need more time.",
+            "why": "„Noch einen Moment, bitte“ ist die höfliche Standardantwort."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Was ist in den Maultaschen drin?"
+              },
+              {
+                "key": "b",
+                "text": "Ist das gut?"
+              },
+              {
+                "key": "c",
+                "text": "Was kostet das?"
+              }
+            ],
+            "q": "Du willst wissen, was in einem Gericht ist. — You want to know what's in a dish.",
+            "why": "Direkt nach den Zutaten fragen — besonders wichtig bei Allergien."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich mag keine Erdnüsse."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe eine Erdnussallergie. Können Sie das in der Küche sagen?"
+              },
+              {
+                "key": "c",
+                "text": "Bitte keine Nüsse."
+              }
+            ],
+            "q": "Du hast eine Erdnussallergie. — You have a peanut allergy.",
+            "why": "Bei einer Allergie: das Wort „Allergie“ benutzen und darum bitten, es der Küche zu sagen — „ich mag nicht“ wird anders behandelt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nicht schlecht."
+              },
+              {
+                "key": "b",
+                "text": "Es hat wirklich gut geschmeckt, danke."
+              },
+              {
+                "key": "c",
+                "text": "Okay."
+              }
+            ],
+            "q": "Das Essen war gut und du willst das sagen. — The food was good and you want to say so.",
+            "why": "„Es hat gut geschmeckt“ ist die übliche Formel für ein Kompliment ans Essen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Getrennt, bitte."
+              },
+              {
+                "key": "b",
+                "text": "Jeder für sich."
+              },
+              {
+                "key": "c",
+                "text": "Vier Rechnungen."
+              }
+            ],
+            "q": "Ihr seid vier Personen und jeder zahlt selbst. — You're four people and everyone pays separately.",
+            "why": "„Getrennt“ ist das Wort, das die Bedienung erwartet — die Frage lautet „zusammen oder getrennt?“."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die Variante, die im Restaurant am besten passt.",
+      "instructionsEn": "Choose the variant that fits best in a restaurant.",
+      "title": "Was sagst du?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Verb an Position 2",
+            "tiles": [
+              "Ich",
+              "hätte",
+              "gern",
+              "die",
+              "Suppe",
+              "als",
+              "Vorspeise"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Höfliche Bitte: Modalverb an Position 1, Infinitiv am Ende",
+            "tiles": [
+              "Könnten",
+              "Sie",
+              "das",
+              "bitte",
+              "ohne",
+              "Zwiebeln",
+              "machen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Perfekt: haben … reserviert",
+            "tiles": [
+              "Wir",
+              "haben",
+              "einen",
+              "Tisch",
+              "auf",
+              "den",
+              "Namen",
+              "Yilmaz",
+              "reserviert"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "W-Frage mit würde: Infinitiv am Ende",
+            "tiles": [
+              "Was",
+              "würden",
+              "Sie",
+              "uns",
+              "empfehlen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt: hat … geschmeckt",
+            "tiles": [
+              "Das",
+              "Essen",
+              "hat",
+              "sehr",
+              "gut",
+              "geschmeckt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "weil-Satz: Verb am Ende",
+            "tiles": [
+              "Ich",
+              "esse",
+              "kein",
+              "Fleisch",
+              ",",
+              "weil",
+              "ich",
+              "Vegetarierin",
+              "bin"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze im Restaurant bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Es gibt zwei Gerichte ohne Fleisch. — There are two dishes without meat.",
+            "why": "Maultaschen (vegetarisch) und Gemüsecurry (vegan)."
+          },
+          {
+            "answer": false,
+            "q": "Am Montag kann man dort abends essen. — On Monday you can eat there in the evening.",
+            "why": "„Montag Ruhetag.“"
+          },
+          {
+            "answer": true,
+            "q": "Der Rinderbraten ist das teuerste Hauptgericht. — The beef roast is the most expensive main course.",
+            "why": "19,50 € — mehr als Schnitzel (17,90 €), Curry (14,50 €) und Maultaschen (13,90 €)."
+          },
+          {
+            "answer": true,
+            "q": "Eine Gruppe von acht Personen zahlt einen Zuschlag. — A group of eight pays a surcharge.",
+            "why": "„Ab 6 Personen … 10 % Servicezuschlag.“"
+          },
+          {
+            "answer": false,
+            "q": "Um 22:30 Uhr kann man noch bestellen. — At 22:30 you can still order.",
+            "why": "Die Küche schließt um 22:00 Uhr."
+          },
+          {
+            "answer": false,
+            "q": "Der Brotzeitteller ist für eine Person gedacht. — The Brotzeit platter is meant for one person.",
+            "why": "„(für 2 Personen)“."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Restaurant Sonnenhof — Abendkarte**\n>\n> **Vorspeisen**\n> - Tomatensuppe mit Basilikum 5,50 €\n> - Gemischter Salat 6,90 €\n> - Brotzeitteller (für 2 Personen) 12,50 €\n>\n> **Hauptgerichte**\n> - Wiener Schnitzel mit Pommes 17,90 €\n> - Rinderbraten mit Knödeln 19,50 €\n> - Maultaschen in Brühe (vegetarisch) 13,90 €\n> - Gemüsecurry mit Reis (vegan) 14,50 €\n>\n> **Nachtisch**\n> - Apfelstrudel mit Vanillesoße 6,50 €\n> - Eis mit Sahne 4,90 €\n>\n> Hinweis: Alle Gerichte mit * enthalten Nüsse.\n> Küche: Di–Sa 17:30–22:00 Uhr. Montag Ruhetag.\n> Ab 6 Personen berechnen wir 10 % Servicezuschlag.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Speisekarte lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Entschuldigung, ich glaube, das ist nicht meine Bestellung — ich hatte das Curry."
+              },
+              {
+                "key": "b",
+                "text": "Das ist falsch."
+              },
+              {
+                "key": "c",
+                "text": "Ich esse das nicht."
+              }
+            ],
+            "q": "Du hast das Curry bestellt und bekommst das Schnitzel. — You ordered the curry and got the schnitzel.",
+            "why": "Freundlich, und du sagst gleich, was du bestellt hattest — das löst das Problem am schnellsten."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Suppe ist kalt!"
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, die Suppe ist leider kalt. Könnten Sie sie noch einmal warm machen?"
+              },
+              {
+                "key": "c",
+                "text": "Bringen Sie eine neue."
+              }
+            ],
+            "q": "Die Suppe ist kalt. — The soup is cold.",
+            "why": "Problem nennen und gleich sagen, was du dir wünschst — mit „leider“ und „könnten Sie“ bleibt es höflich."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist Ihr Fehler."
+              },
+              {
+                "key": "b",
+                "text": "Wir gehen wieder."
+              },
+              {
+                "key": "c",
+                "text": "Wir hatten für 19 Uhr auf den Namen Yilmaz reserviert. Wie lange müssten wir warten?"
+              }
+            ],
+            "q": "Ihr habt reserviert, aber der Tisch ist besetzt. — You reserved but the table is taken.",
+            "why": "Reservierung belegen (Uhrzeit und Name) und nach der Wartezeit fragen — so bekommst du eine brauchbare Antwort."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sie wollen uns betrügen."
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, hier stimmt etwas nicht — wir hatten nur zwei Bier, nicht drei."
+              },
+              {
+                "key": "c",
+                "text": "Die Rechnung ist zu hoch."
+              }
+            ],
+            "q": "Auf der Rechnung steht ein Getränk, das ihr nicht hattet. — The bill lists a drink you didn't have.",
+            "why": "Konkret sagen, was falsch ist. „Zu hoch“ allein hilft der Bedienung nicht weiter."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich hatte eine Nussallergie angegeben. Bitte nehmen Sie den Nachtisch zurück."
+              },
+              {
+                "key": "b",
+                "text": "Ich esse es einfach nicht."
+              },
+              {
+                "key": "c",
+                "text": "Das ist gefährlich!"
+              }
+            ],
+            "q": "Du hast gesagt, dass du eine Nussallergie hast, und im Nachtisch sind Nüsse. — You mentioned a nut allergy and the dessert contains nuts.",
+            "why": "Sachlich daran erinnern und den Teller zurückgeben — bei einer Allergie ist Deutlichkeit wichtiger als Höflichkeit."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wann kommt endlich das Essen?"
+              },
+              {
+                "key": "b",
+                "text": "Das dauert zu lange."
+              },
+              {
+                "key": "c",
+                "text": "Entschuldigung, könnten Sie bitte nachsehen, wo unsere Bestellung bleibt?"
+              }
+            ],
+            "q": "Ihr wartet seit 40 Minuten auf das Essen. — You've been waiting 40 minutes for the food.",
+            "why": "„Nachsehen, wo … bleibt“ ist die übliche höfliche Nachfrage nach einer Bestellung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Was sagst du? Wähle a, b oder c.",
+      "instructionsEn": "What do you say? Choose a, b, or c.",
+      "title": "Wenn etwas nicht stimmt"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "Bestellung"
+          ],
+          "2": [
+            "leider"
+          ],
+          "3": [
+            "reserviert"
+          ],
+          "4": [
+            "stimmt"
+          ],
+          "5": [
+            "nachsehen"
+          ],
+          "6": [
+            "angegeben"
+          ],
+          "7": [
+            "zurück"
+          ],
+          "8": [
+            "prüfen",
+            "überprüfen",
+            "kontrollieren"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Entschuldigung, das ist nicht meine {1} — ich hatte das Curry. (was man bestellt hat)\n2. Die Suppe ist {2} kalt. Könnten Sie sie noch einmal warm machen? (bedauernd)\n3. Wir hatten für 19 Uhr {3}. (einen Tisch bestellt, Partizip II)\n4. Hier {4} etwas nicht: Wir hatten nur zwei Bier. (nicht korrekt sein)\n5. Könnten Sie bitte {5}, wo unsere Bestellung bleibt? (kontrollieren)\n6. Ich hatte eine Nussallergie {6}. (gesagt, Partizip II)\n7. Bitte nehmen Sie den Teller wieder {7}. (retour)\n8. Könnten Sie die Rechnung bitte noch einmal {8}? (kontrollieren)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das fehlende Wort.",
+      "instructionsEn": "Fill in the missing word.",
+      "title": "Reklamieren: die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "reservieren"
+          ],
+          "2": [
+            "Moment"
+          ],
+          "3": [
+            "ohne"
+          ],
+          "4": [
+            "empfehlen"
+          ],
+          "5": [
+            "geschmeckt"
+          ],
+          "6": [
+            "zahlen"
+          ],
+          "7": [
+            "Vorspeise"
+          ],
+          "8": [
+            "Nachtisch"
+          ],
+          "9": [
+            "Besteck"
+          ],
+          "10": [
+            "Vegetarier"
+          ],
+          "11": [
+            "Bestellung"
+          ],
+          "12": [
+            "stimmt"
+          ],
+          "13": [
+            "angegeben"
+          ],
+          "14": [
+            "nachsehen"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Redemittel (6 Punkte):**\n1. Tisch am Telefon: „Ich möchte einen Tisch {1}.“\n2. Noch nicht gewählt: „Könnten Sie uns noch einen {2} geben?“\n3. Sonderwunsch: „Könnten Sie das bitte {3} Zwiebeln machen?“\n4. Empfehlung erfragen: „Was können Sie {4}?“\n5. Kompliment: „Es hat sehr gut {5}.“\n6. Zahlen: „Wir möchten {6}, bitte.“\n\n**Wortschatz (4 Punkte):**\n7. der erste Gang: die {7}\n8. der letzte Gang: der {8}\n9. Gabel, Messer und Löffel zusammen: das {9}\n10. Wer kein Fleisch isst, ist {10}.\n\n**Wenn es schiefgeht (4 Punkte):**\n11. „Das ist leider nicht meine {11}.“\n12. „Hier {12} etwas nicht — wir hatten nur zwei Bier.“\n13. „Ich hatte eine Nussallergie {13}.“\n14. „Könnten Sie bitte {14}, wo unsere Bestellung bleibt?“\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die Lücken.",
+      "instructionsEn": "Fill in the gaps.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-04-im-restaurant-a2",
+  "intro": "Ein Schritt weiter als das Café: reservieren, eine Speisekarte lesen, Sonderwünsche äußern (ohne Zwiebeln, glutenfrei, eine Allergie nennen) und am Ende zusammen oder getrennt zahlen. Grammatik nach Bedarf: Akkusativ und Dativ, Komparativ beim Vergleichen von Gerichten, „hätte gern“ und „könnten Sie“ als feste höfliche Wendungen. Block C ist der Ernstfall: falsches Gericht, kaltes Essen, Fehler auf der Rechnung, kein Tisch trotz Reservierung. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/04-im-restaurant-a2",
+  "level": "A2",
+  "summary": "Reservieren, bestellen, Sonderwünsche äußern und zahlen — und reagieren, wenn das falsche Essen kommt oder die Rechnung nicht stimmt.",
+  "title": "Im Restaurant — A2",
+  "topic": "Im Restaurant"
+}

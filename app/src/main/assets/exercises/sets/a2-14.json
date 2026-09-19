@@ -1,0 +1,301 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "exam",
+      "body": {
+        "answers": {
+          "1": "E",
+          "2": "B",
+          "3": "A",
+          "4": "C",
+          "5": "D"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Sie möchten fit werden und einen neuen Sport zusammen mit anderen ausprobieren."
+          },
+          {
+            "key": "2",
+            "text": "Sie möchten nach Ihrem A2-Kurs mit Deutschlernen weitermachen."
+          },
+          {
+            "key": "3",
+            "text": "Sie brauchen Hilfe bei der Kinderbetreuung an Nachmittagen unter der Woche."
+          },
+          {
+            "key": "4",
+            "text": "Sie möchten lernen, ein ausländisches Gericht zu kochen."
+          },
+          {
+            "key": "5",
+            "text": "Sie suchen ein möbliertes WG-Zimmer zur Miete in Berlin."
+          }
+        ],
+        "right": [
+          {
+            "key": "A",
+            "text": "A — BABYSITTER GESUCHT: 2 Kinder (4+7 J.), Mo–Do 15–18 Uhr"
+          },
+          {
+            "key": "B",
+            "text": "B — DEUTSCHKURS B1: ab 10. April, Mo/Mi 18–20 Uhr — 140 €"
+          },
+          {
+            "key": "C",
+            "text": "C — ITALIENISCH KOCHEN: echte Pasta & Risotto, Sa 11–14 Uhr — 60 €"
+          },
+          {
+            "key": "D",
+            "text": "D — ZIMMER ZU VERMIETEN: möbliert, 18 m², Kaltmiete 420 €"
+          },
+          {
+            "key": "E",
+            "text": "E — SPORTVEREIN BLAU-WEISS: Fußball/Tennis/Schwimmen, kostenloses Probetraining Mo 18 Uhr"
+          },
+          {
+            "key": "F",
+            "text": "F — FAHRRAD ZU VERKAUFEN: Damenfahrrad rot — 90 €"
+          },
+          {
+            "key": "G",
+            "text": "G — NACHHILFE: Mathe & Physik, Klasse 5–10 — 20 €/Std."
+          },
+          {
+            "key": "H",
+            "text": "H — NACHBARSCHAFTSCAFÉ: Do 16 Uhr, Café Central — Sprachen üben, kostenlos"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "exam-L4",
+      "instructions": "Welche Anzeige (A–H) passt zu welcher Situation (1–5)? Ordnen Sie zu. Drei Anzeigen passen nicht.",
+      "instructionsEn": "Which notice (A–H) matches which situation (1–5)? Match them. Three notices do not fit.",
+      "title": "Aufgabe 4 — Anzeigen zuordnen"
+    },
+    {
+      "block": "exam",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Anna wohnt seit einem Jahr in Berlin.",
+            "why": "\"Vor einem Jahr bin ich … nach Berlin gezogen.\""
+          },
+          {
+            "answer": false,
+            "q": "Sie arbeitet als Lehrerin.",
+            "why": "Anna arbeitet als Übersetzerin, nicht als Lehrerin."
+          },
+          {
+            "answer": false,
+            "q": "Anna wohnt allein in einer Wohnung.",
+            "why": "Anna wohnt in einer WG mit zwei Mitbewohnern (Yuki und Bruno)."
+          },
+          {
+            "answer": false,
+            "q": "In ihrer Freizeit macht Anna gern Sport.",
+            "why": "Anna macht einen Kochkurs — kein Sport wird erwähnt."
+          },
+          {
+            "answer": true,
+            "q": "Anna möchte ihre Familie im Sommer besuchen.",
+            "why": "\"Nächsten Sommer fahre ich nach Russland, um meine Familie zu besuchen.\""
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "exam-L5",
+      "instructions": "Lesen Sie den Text und entscheiden Sie: richtig (R) oder falsch (F)?",
+      "instructionsEn": "Read the text and decide: true (R) or false (F)?",
+      "title": "Aufgabe 5 — Text lesen: Anna Petrow"
+    },
+    {
+      "block": "exam",
+      "body": {
+        "answers": {
+          "1": "A",
+          "2": "B",
+          "3": "E",
+          "4": "D",
+          "5": "C"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Ich trainiere seit drei Monaten für einen Halbmarathon. Am Anfang konnte ich kaum fünf Kilometer laufen, aber jetzt schaffe ich schon 15!"
+          },
+          {
+            "key": "2",
+            "text": "Meine Reise nach Italien war wunderschön! Ich war zwei Wochen in Toskana und habe so viel erlebt: Museen in Florenz, die Küste in Cinque Terre …"
+          },
+          {
+            "key": "3",
+            "text": "Seit einem Monat wohne ich in einer neuen Wohnung. Die Nachbarn sind super nett — wir haben uns schon beim Nachbarschaftscafé kennengelernt."
+          },
+          {
+            "key": "4",
+            "text": "Ich lerne jetzt seit sechs Monaten Deutsch. Mein Tipp: Jeden Tag mindestens 30 Minuten üben — Podcasts, Serien oder Gespräche mit Muttersprachlern."
+          },
+          {
+            "key": "5",
+            "text": "Ich habe letztes Wochenende zum ersten Mal Sushi gemacht — zu Hause! Das Rezept ist gar nicht so schwer. Nächstes Mal versuche ich Ramen."
+          }
+        ],
+        "right": [
+          {
+            "key": "A",
+            "text": "A — Sport und Fitness"
+          },
+          {
+            "key": "B",
+            "text": "B — Reisen und Urlaub"
+          },
+          {
+            "key": "C",
+            "text": "C — Kochen und Essen"
+          },
+          {
+            "key": "D",
+            "text": "D — Sprachen lernen"
+          },
+          {
+            "key": "E",
+            "text": "E — Neue Nachbarschaft"
+          },
+          {
+            "key": "F",
+            "text": "F — Haustiere"
+          },
+          {
+            "key": "G",
+            "text": "G — Musik"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "exam-L6",
+      "instructions": "Welches Thema (A–G) passt zu welchem Forumsbeitrag (1–5)? Zwei Themen passen nicht.",
+      "instructionsEn": "Which topic (A–G) matches which forum post (1–5)? Two topics do not fit.",
+      "title": "Aufgabe 6 — Kurze Texte zuordnen"
+    },
+    {
+      "block": "exam",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "dir"
+              },
+              {
+                "key": "b",
+                "text": "dich"
+              },
+              {
+                "key": "c",
+                "text": "ihm"
+              }
+            ],
+            "q": "Wie geht es (1) ___?",
+            "why": "gehen + Dativ: \"Wie geht es dir?\" — fester Ausdruck."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "weil"
+              },
+              {
+                "key": "b",
+                "text": "ob"
+              },
+              {
+                "key": "c",
+                "text": "dass"
+              }
+            ],
+            "q": "Ich weiß noch nicht genau, (2) ___ ich wirklich Zeit haben werde.",
+            "why": "Indirekte Ja/Nein-Frage → ob (Verb am Ende)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "den"
+              },
+              {
+                "key": "b",
+                "text": "das"
+              },
+              {
+                "key": "c",
+                "text": "die"
+              }
+            ],
+            "q": "ein paar gute Hotels, (3) ___ nicht zu teuer sind",
+            "why": "Hotels = Plural, Nom. Relativpronomen → die."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "weil"
+              },
+              {
+                "key": "b",
+                "text": "deshalb"
+              },
+              {
+                "key": "c",
+                "text": "aber"
+              }
+            ],
+            "q": "für Museen und Ausstellungen, (4) ___ ich Kunst sehr liebe",
+            "why": "Grund → weil (Verb ans Ende: \"weil ich Kunst … liebe\")."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "denkt"
+              },
+              {
+                "key": "b",
+                "text": "denkst"
+              },
+              {
+                "key": "c",
+                "text": "denken"
+              }
+            ],
+            "q": "Schreib mir, was du (5) ___!",
+            "why": "Subjekt du (2. Pers. Sg.) → denkst."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "exam-L7",
+      "instructions": "Lesen Sie die E-Mail und wählen Sie für jede Lücke (1–5) die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Read the email and choose the correct answer (a, b, or c) for each gap (1–5).",
+      "title": "Aufgabe 7 — E-Mail ergänzen"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "a2-14",
+  "intro": "Vollständiger Probeexamen im Format Goethe-Zertifikat A2 / telc Deutsch A2. Führen Sie den ganzen Test in einer Sitzung durch: Hören 25 Min. · Lesen 30 Min. · Schreiben 20 Min. · Sprechen 10 Min. Schauen Sie erst nach dem Abschluss aller Teile in solutions.md.\n",
+  "lesson": "A2/14",
+  "level": "A2",
+  "summary": null,
+  "title": "A2 · Lektion 14 — Prüfungstraining A2 (Mock Exam)",
+  "topic": null
+}

@@ -1,0 +1,830 @@
+{
+  "category": "Freizeit & Kultur",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "ticket",
+            "label": "Ticket & Einlass"
+          },
+          {
+            "key": "ort",
+            "label": "Orte in der Halle"
+          },
+          {
+            "key": "abend",
+            "label": "Der Abend selbst"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "ticket",
+            "text": "die Vorverkaufsgebühr"
+          },
+          {
+            "bucket": "ort",
+            "text": "der Innenraum"
+          },
+          {
+            "bucket": "abend",
+            "text": "die Vorband"
+          },
+          {
+            "bucket": "ticket",
+            "text": "das Bändchen"
+          },
+          {
+            "bucket": "ort",
+            "text": "der Rang"
+          },
+          {
+            "bucket": "abend",
+            "text": "die Zugabe"
+          },
+          {
+            "bucket": "ticket",
+            "text": "die Taschenkontrolle"
+          },
+          {
+            "bucket": "ort",
+            "text": "die Garderobe"
+          },
+          {
+            "bucket": "abend",
+            "text": "der Soundcheck"
+          },
+          {
+            "bucket": "ticket",
+            "text": "der Zweitmarkt"
+          },
+          {
+            "bucket": "ort",
+            "text": "der Notausgang"
+          },
+          {
+            "bucket": "abend",
+            "text": "der Ohrstöpsel"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Begriffe.",
+      "instructionsEn": "Sort the 12 terms.",
+      "title": "Ticket, Ort oder Abend?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Vorverkauf"
+          },
+          {
+            "key": "2",
+            "text": "die Abendkasse"
+          },
+          {
+            "key": "3",
+            "text": "personalisiertes Ticket"
+          },
+          {
+            "key": "4",
+            "text": "der Innenraum"
+          },
+          {
+            "key": "5",
+            "text": "die Vorband"
+          },
+          {
+            "key": "6",
+            "text": "die Zugabe"
+          },
+          {
+            "key": "7",
+            "text": "der Zweitmarkt"
+          },
+          {
+            "key": "8",
+            "text": "die Sichtbehinderung"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "der Kauf im Voraus, meist mit Gebühr"
+          },
+          {
+            "key": "b",
+            "text": "die Kasse am Veranstaltungstag, wenn noch Karten da sind"
+          },
+          {
+            "key": "c",
+            "text": "die Karte trägt deinen Namen und muss umgeschrieben werden"
+          },
+          {
+            "key": "d",
+            "text": "die Stehfläche vor der Bühne"
+          },
+          {
+            "key": "e",
+            "text": "die Gruppe, die vor dem Hauptact spielt"
+          },
+          {
+            "key": "f",
+            "text": "die Stücke nach dem eigentlichen Ende"
+          },
+          {
+            "key": "g",
+            "text": "die legale Weiterverkaufsplattform für Tickets"
+          },
+          {
+            "key": "h",
+            "text": "der Hinweis, dass eine Säule oder Technik im Blick steht"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Würden"
+          ],
+          "2": [
+            "Würde"
+          ],
+          "3": [
+            "Würden"
+          ],
+          "4": [
+            "Dürfte"
+          ],
+          "5": [
+            "Könnten"
+          ],
+          "6": [
+            "würde"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Sie mich kurz durchlassen? Meine Freundin steht da vorn. (werden im Konjunktiv II)\n2. {2} es Ihnen etwas ausmachen, wenn ich mich hier hinstelle? (werden im Konjunktiv II, Singular)\n3. {3} Sie vielleicht mit mir tauschen? Ich sehe hier nichts. (werden im Konjunktiv II)\n4. {4} ich mich kurz vorbeidrängen? (dürfen im Konjunktiv II)\n5. {5} Sie eventuell einen Platz weiter rücken? (können im Konjunktiv II)\n6. Ich {6} gern noch etwas trinken holen — soll ich dir was mitbringen? (werden im Konjunktiv II)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze die Konjunktiv-II-Form.",
+      "instructionsEn": "Fill in the Konjunktiv II form.",
+      "title": "Höfliche Bitten im Gedränge"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "obwohl"
+          ],
+          "2": [
+            "Als"
+          ],
+          "3": [
+            "als"
+          ],
+          "4": [
+            "bin"
+          ],
+          "5": [
+            "haben"
+          ],
+          "6": [
+            "als"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Sound war gut, {1} wir ganz hinten standen. (Gegensatz)\n2. {2} sie die alte Single gespielt haben, ist die Halle ausgeflippt. (Zeitpunkt in der Vergangenheit)\n3. Die Vorband war besser, {3} ich erwartet hatte. (Vergleich)\n4. Ich {4} nach der Zugabe gegangen, weil die Bahn fuhr. (sein, Perfekt-Hilfsverb)\n5. Wir {5} zwei Stunden gestanden — das war es wert. (haben, Perfekt-Hilfsverb)\n6. Es war lauter {6} beim letzten Mal. (Vergleich nach Komparativ)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze den Konnektor oder die Verbform.",
+      "instructionsEn": "Fill in the connector or the verb form.",
+      "title": "Hinterher darüber reden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "PERSONALISIERT"
+          ],
+          "2": [
+            "TASCHE"
+          ],
+          "3": [
+            "BÄNDCHEN"
+          ],
+          "4": [
+            "GARDEROBE"
+          ],
+          "5": [
+            "INNENRAUM"
+          ],
+          "6": [
+            "VORBAND"
+          ],
+          "7": [
+            "WÜRDEN"
+          ],
+          "8": [
+            "SÄULE"
+          ],
+          "9": [
+            "SICHT"
+          ],
+          "10": [
+            "AUSGANG"
+          ]
+        },
+        "bank": [
+          "PERSONALISIERT",
+          "TASCHE",
+          "BÄNDCHEN",
+          "GARDEROBE",
+          "INNENRAUM",
+          "VORBAND",
+          "WÜRDEN",
+          "SÄULE",
+          "SICHT",
+          "AUSGANG",
+          "ZUGABE",
+          "RANG",
+          "KASSE",
+          "BÜHNE"
+        ],
+        "text": "— Guten Abend, Ticket bitte. Ist das {1}?\n— Ja, auf meinen Namen. Hier ist mein Ausweis.\n— Passt. Bitte einmal die {2} öffnen. — Danke, keine Flaschen\ndabei? Gut. Sie bekommen ein {3} ums Handgelenk, das gilt für\nden ganzen Abend.\n— Muss ich die Jacke an der {4} abgeben?\n— Müssen nicht, aber im {5} wird es sehr voll und warm.\n— Dann gebe ich sie ab. Wann fängt die {6} an?\n— In zwanzig Minuten, der Hauptact gegen halb zehn.\n*(drinnen)*\n— Entschuldigung, {7} Sie mich kurz durchlassen? Meine Freundin\nsteht da vorn.\n— Klar, gehen Sie.\n— Danke! … Du, ich sehe nichts, da steht eine {8}.\n— Komm zwei Schritte nach links, hier ist die {9} besser.\n— Stimmt. Und wenn wir uns verlieren: Treffpunkt hinten rechts\nam {10}, ja?\n— Abgemacht.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Am Einlass und drinnen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich schaue auf dem offiziellen Zweitmarkt — da sind Karten zum Originalpreis und die Umschreibung ist geregelt."
+              },
+              {
+                "key": "b",
+                "text": "Ich kaufe eins vor der Halle."
+              },
+              {
+                "key": "c",
+                "text": "Dann eben nicht."
+              }
+            ],
+            "q": "Das Konzert ist ausverkauft, du suchst noch ein Ticket. — The concert is sold out and you're still after a ticket.",
+            "why": "Beim personalisierten Ticket ist die Umschreibung der Punkt: privat gekaufte Karten kommen sonst nicht durch den Einlass."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wozu denn das?"
+              },
+              {
+                "key": "b",
+                "text": "Ja, hier — das Ticket läuft auf meinen Namen."
+              },
+              {
+                "key": "c",
+                "text": "Ich habe keinen dabei."
+              }
+            ],
+            "q": "Am Einlass wird nach dem Ausweis gefragt. — At the entrance you're asked for ID.",
+            "why": "Ticket und Ausweis zusammen anzubieten spart die Rückfrage; genau darum geht es bei personalisierten Karten."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Platz da!"
+              },
+              {
+                "key": "b",
+                "text": "Ich muss durch."
+              },
+              {
+                "key": "c",
+                "text": "Entschuldigung, würden Sie mich kurz durchlassen?"
+              }
+            ],
+            "q": "Du willst dich durch die Menge nach vorn bewegen. — You want to get forward through the crowd.",
+            "why": "Konjunktiv II plus Entschuldigung — im Gedränge der Unterschied zwischen Weiterkommen und Ärger."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich sehe nichts, das ist eine Frechheit."
+              },
+              {
+                "key": "b",
+                "text": "Von hier sieht man kaum was — sollen wir ein Stück nach links?"
+              },
+              {
+                "key": "c",
+                "text": "Egal, ich höre ja."
+              }
+            ],
+            "q": "Eine Säule steht dir im Blick. — A pillar is blocking your view.",
+            "why": "Das Problem benennen und gleich einen Vorschlag machen — auf dem Konzert bleibt für lange Sätze keine Zeit."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Vorher ausmachen: Treffpunkt hinten rechts am Ausgang, spätestens nach der Zugabe."
+              },
+              {
+                "key": "b",
+                "text": "Einfach suchen."
+              },
+              {
+                "key": "c",
+                "text": "Nach Hause fahren."
+              }
+            ],
+            "q": "Ihr verliert euch und keiner hat Empfang. — You lose each other and nobody has reception.",
+            "why": "Ein fester Ort plus ein fester Zeitpunkt — das ist die einzige Verabredung, die im Getümmel wirklich hält."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "War gut."
+              },
+              {
+                "key": "b",
+                "text": "Die Vorband war besser, als ich erwartet hatte, und beim vorletzten Stück ist die Halle ausgeflippt."
+              },
+              {
+                "key": "c",
+                "text": "Ganz okay."
+              }
+            ],
+            "q": "Hinterher fragt dich jemand, wie es war. — Afterwards someone asks how it was.",
+            "why": "Zwei konkrete Momente statt eines Urteils — daraus wird ein Gespräch."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Wie sagst du das?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Konjunktiv II an Position 1, Infinitiv am Ende",
+            "tiles": [
+              "Würden",
+              "Sie",
+              "mich",
+              "kurz",
+              "durchlassen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "auf + Akkusativ bei personalisierten Karten",
+            "tiles": [
+              "Das",
+              "Ticket",
+              "läuft",
+              "auf",
+              "meinen",
+              "Namen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Nach obwohl steht das Verb am Ende",
+            "tiles": [
+              "Der",
+              "Sound",
+              "war",
+              "gut",
+              ",",
+              "obwohl",
+              "wir",
+              "hinten",
+              "standen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "note": "Nebensatz zuerst, dann das Verb des Hauptsatzes",
+            "tiles": [
+              "Als",
+              "sie",
+              "die",
+              "alte",
+              "Single",
+              "spielten",
+              ",",
+              "ist",
+              "die",
+              "Halle",
+              "ausgeflippt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Vergleich mit als; Plusquamperfekt für das Frühere",
+            "tiles": [
+              "Die",
+              "Vorband",
+              "war",
+              "besser",
+              ",",
+              "als",
+              "ich",
+              "erwartet",
+              "hatte"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "sich treffen — uns steht direkt hinter dem Subjekt",
+            "tiles": [
+              "Treffen",
+              "wir",
+              "uns",
+              "nach",
+              "der",
+              "Zugabe",
+              "am",
+              "Ausgang",
+              "?"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze am Konzertabend bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Man kommt zweieinhalb Stunden vor dem Hauptact rein. — You can get in two and a half hours before the main act.",
+            "why": "Einlass 19:00, Hauptact 21:30."
+          },
+          {
+            "answer": false,
+            "q": "Ein am Freitagmittag privat gekauftes Ticket lässt sich noch umschreiben. — A ticket bought privately on Friday lunchtime can still be transferred.",
+            "why": "Umschreibung nur bis Donnerstag 18 Uhr."
+          },
+          {
+            "answer": true,
+            "q": "Eine kleine Umhängetasche darf mit rein. — A small shoulder bag may be brought in.",
+            "why": "Taschen bis DIN A4 sind erlaubt."
+          },
+          {
+            "answer": false,
+            "q": "Mit Rucksack kommt man in den Innenraum. — You can enter the standing area with a rucksack.",
+            "why": "„Innenraum: … kein Zutritt mit Rucksack.“"
+          },
+          {
+            "answer": false,
+            "q": "Ohrstöpsel muss man kaufen. — You have to buy earplugs.",
+            "why": "Sie gibt es kostenlos am Infostand."
+          },
+          {
+            "answer": true,
+            "q": "Mit dem Handy darf man fotografieren. — You may take photos with your phone.",
+            "why": "Nur Kameras mit Wechselobjektiv sind ausgeschlossen."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Stadthalle — Hinweise zum Konzert am Freitag**\n>\n> - **Einlass 19:00**, Vorband **20:00**, Hauptact **21:30**.\n> - Tickets sind **personalisiert**. Bitte **Ticket und\n>   Lichtbildausweis** bereithalten. Umschreibung nur über den\n>   offiziellen Zweitmarkt, **bis Donnerstag 18 Uhr**.\n> - **Taschen bis DIN A4** sind erlaubt, größere müssen an die\n>   Garderobe. Keine Glasflaschen, keine Dosen.\n> - **Garderobe 3 €** pro Stück, Rückgabe gegen Marke.\n> - **Innenraum:** Stehplatz, kein Zutritt mit Rucksack.\n> - **Ohrstöpsel** gibt es kostenlos am Infostand.\n> - **Fotografieren** mit Handy erlaubt, **Kameras mit\n>   Wechselobjektiv nicht**.\n> - Der letzte Zug ab Hauptbahnhof fährt **00:42**.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Veranstaltungshinweise lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Behaupten, du seist die Person."
+              },
+              {
+                "key": "b",
+                "text": "Am Einlass offen fragen, ob eine Umschreibung vor Ort möglich ist, und den Kaufbeleg zeigen."
+              },
+              {
+                "key": "c",
+                "text": "Es einfach probieren."
+              }
+            ],
+            "q": "Dein Name steht nicht auf dem Ticket, das dir jemand verkauft hat. — Your name isn't on the ticket someone sold you.",
+            "why": "Mit Beleg wird oft noch eine Lösung gefunden; mit einer falschen Behauptung ist der Abend sicher vorbei."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Seid mal leise!"
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, könntet ihr das vielleicht draußen weiterreden? Man hört hier kaum etwas."
+              },
+              {
+                "key": "c",
+                "text": "Den Abend ertragen."
+              }
+            ],
+            "q": "Vor dir stehen zwei Leute, die die ganze Zeit laut reden. — Two people in front of you talk loudly the whole time.",
+            "why": "Bitte mit Begründung statt Befehl — und der Vorschlag, wohin, macht sie leicht annehmbar."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zurückdrängeln."
+              },
+              {
+                "key": "b",
+                "text": "Hier ist kein Platz mehr — bitte nicht weiter nach vorn."
+              },
+              {
+                "key": "c",
+                "text": "Nichts sagen und weiter nach vorn nachrücken."
+              }
+            ],
+            "q": "Jemand drängelt sich rücksichtslos an dir vorbei nach vorn. — Someone shoves past you towards the front.",
+            "why": "Ruhig und knapp die Grenze benennen; im Gedränge eskaliert alles andere sofort."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Zum vereinbarten Treffpunkt gehen und dort bleiben — nicht suchen."
+              },
+              {
+                "key": "b",
+                "text": "Die ganze Halle absuchen."
+              },
+              {
+                "key": "c",
+                "text": "Allein nach Hause fahren."
+              }
+            ],
+            "q": "Deine Begleitung ist weg und dein Akku ist leer. — Your companion is gone and your battery is dead.",
+            "why": "Zwei Suchende finden sich nie; einer wartet, und das ist der Treffpunkt."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Durchhalten."
+              },
+              {
+                "key": "b",
+                "text": "Nach vorn zur Bühne."
+              },
+              {
+                "key": "c",
+                "text": "Laut sagen, dass du raus musst, den Weg zum Rand nehmen und beim Ordner Bescheid sagen."
+              }
+            ],
+            "q": "Dir wird im Innenraum schlecht — es ist zu voll und zu warm. — You feel unwell in the standing area.",
+            "why": "Ordner sind genau dafür da; nach vorn wird es dichter, nicht luftiger."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Rennen und hoffen."
+              },
+              {
+                "key": "b",
+                "text": "Kurz abwägen: Jacke an der Garderobe holen dauert — lieber jetzt zum Treffpunkt und gemeinsam entscheiden, ob Bahn oder Taxi."
+              },
+              {
+                "key": "c",
+                "text": "Die Jacke dalassen."
+              }
+            ],
+            "q": "Nach der Zugabe merkst du, dass die letzte Bahn in zehn Minuten fährt. — After the encore you realise the last train leaves in ten minutes.",
+            "why": "Die Garderobenschlange nach dem letzten Stück ist der eigentliche Zeitfresser — das gehört in die Rechnung."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn der Abend kippt"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "personalisiert"
+          ],
+          "2": [
+            "Taschenkontrolle"
+          ],
+          "3": [
+            "Bändchen"
+          ],
+          "4": [
+            "Vorband"
+          ],
+          "5": [
+            "Zugabe"
+          ],
+          "6": [
+            "Sicht"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das Ticket ist {1}, es läuft auf meinen Namen. (mit Namen versehen)\n2. Am Einlass gibt es eine {2}. (Kontrolle, was man dabeihat)\n3. Ich bekomme ein {3} ums Handgelenk. (Papierband als Nachweis)\n4. Vor dem Hauptact spielt die {4}. (die erste Band des Abends)\n5. Nach dem Ende kommt noch eine {5}. (zusätzliche Stücke)\n6. Von hier habe ich keine gute {6}. (man sieht schlecht)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "personalisiert"
+          ],
+          "2": [
+            "auf"
+          ],
+          "3": [
+            "Taschenkontrolle"
+          ],
+          "4": [
+            "Bändchen"
+          ],
+          "5": [
+            "Vorband"
+          ],
+          "6": [
+            "Zugabe"
+          ],
+          "7": [
+            "Würden"
+          ],
+          "8": [
+            "Sicht"
+          ],
+          "9": [
+            "obwohl"
+          ],
+          "10": [
+            "Als"
+          ],
+          "11": [
+            "als"
+          ],
+          "12": [
+            "Ausgang"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Das Ticket ist {1}. (personalised)\n2. Es läuft {2} meinen Namen. (Präposition, Akkusativ folgt)\n3. Am Einlass gibt es eine {3}. (bag check)\n4. Ich bekomme ein {4}. (wristband)\n5. Die {5} spielt um 20 Uhr. (support act)\n6. Nach dem Ende kommt die {6}. (encore)\n7. {7} Sie mich kurz durchlassen? (would you)\n8. Von hier ist die {8} schlecht. (view)\n9. Der Sound war gut, {9} wir hinten standen. (although)\n10. {10} sie die alte Single spielten, flippte die Halle aus. (when — past, one event)\n11. Die Vorband war besser, {11} ich erwartet hatte. (than)\n12. Treffpunkt hinten rechts am {12}. (exit)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-27-auf-einem-konzert-b1",
+  "intro": "Ein Konzertabend ist eine Kette kleiner Verhandlungen. Erst die Tickets: ausverkauft, Zweitmarkt, personalisiert oder nicht. Dann der Einlass mit Taschenkontrolle und Bändchen. Drinnen geht es um den Platz, die Sicht und die Frage, ob jemand kurz tauschen würde. Wenn du in Begleitung bist, verlierst du sie garantiert einmal und musst ohne Netz einen Treffpunkt ausmachen. Und hinterher redest du darüber — und dafür braucht es mehr als „war gut“. Grammatik nach Bedarf: Konjunktiv II für höfliche Bitten, Vergleiche, Nebensätze mit obwohl und als, Perfekt und Präteritum im Bericht. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/27-auf-einem-konzert-b1",
+  "level": "B1",
+  "summary": "Tickets besorgen, Einlass und Garderobe, Platz und Sichtlinie, jemanden im Getümmel verlieren und hinterher darüber reden.",
+  "title": "Auf einem Konzert — B1",
+  "topic": "Konzertabend"
+}

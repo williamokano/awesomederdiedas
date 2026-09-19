@@ -1,0 +1,1812 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "besser"
+          ],
+          "2": [
+            "langsamer"
+          ],
+          "3": [
+            "kleiner"
+          ],
+          "4": [
+            "lebendiger"
+          ],
+          "5": [
+            "mehr"
+          ],
+          "6": [
+            "sicherer"
+          ],
+          "7": [
+            "unkonzentrierter"
+          ],
+          "8": [
+            "klarer"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Je mehr du übst, desto {1} (gut) wirst du.\n2. Je länger ich lerne, desto {2} (langsam) komme ich voran.\n3. Je höher das Niveau wird, desto {3} (klein) werden die Fortschritte.\n4. Je mehr Leute kommen, umso {4} (lebendig) wird der Abend.\n5. Je früher wir anfangen, desto {5} (viel) Zeit bleibt uns.\n6. Je öfter man spricht, desto {6} (sicher) fühlt man sich.\n7. Je weniger ich schlafe, desto {7} (unkonzentriert) bin ich.\n8. Je kürzer der Text ist, desto {8} (klar) ist er.\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Setz den Komparativ des Adjektivs in Klammern ein. 8 Items.",
+      "title": "je … desto: Komparativ einsetzen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "schlafe"
+          ],
+          "2": [
+            "arbeiten"
+          ],
+          "3": [
+            "ist"
+          ],
+          "4": [
+            "gibt"
+          ],
+          "5": [
+            "dauerte"
+          ],
+          "6": [
+            "wird"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Je mehr Kaffee ich trinke, desto schlechter {1} (schlafen) ich.\n2. Je genauer die Daten vorliegen, umso schneller {2} (arbeiten) wir.\n3. Je schwieriger die Aufgabe {3} (sein), desto wichtiger wird die Vorbereitung.\n4. Je klarer die Aufgaben aufgeteilt sind, desto weniger Konflikte {4} (geben) es.\n5. Je länger der Abend {5} (dauern), desto entspannter wurde die Stimmung.\n6. Je mehr man liest, desto größer {6} (werden) der Wortschatz.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Setz das Verb aus der Klammer an die richtige Stelle. ⚠️ je-Teil: Verb am Ende; desto-Teil: Verb direkt nach dem Komparativ. 6 Items.",
+      "skill": "word-order",
+      "title": "je … desto: Verbposition vervollständigen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "indem"
+              },
+              {
+                "key": "b",
+                "text": "sodass"
+              },
+              {
+                "key": "c",
+                "text": "obwohl"
+              }
+            ],
+            "q": "Man lernt eine Sprache, ____ man sie benutzt. (Mittel)",
+            "why": "Mittel/Methode (Wie?) → indem."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "indem"
+              },
+              {
+                "key": "b",
+                "text": "sodass"
+              },
+              {
+                "key": "c",
+                "text": "falls"
+              }
+            ],
+            "q": "Die Gruppen sind klein, ____ jeder zu Wort kommt. (Folge)",
+            "why": "Folge/Ergebnis (Was folgt daraus?) → sodass."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sodass"
+              },
+              {
+                "key": "b",
+                "text": "indem"
+              },
+              {
+                "key": "c",
+                "text": "sofern"
+              }
+            ],
+            "q": "Wir sparen Zeit, ____ wir die Aufgaben klar aufteilen. (Mittel)",
+            "why": "Mittel → indem."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "indem"
+              },
+              {
+                "key": "b",
+                "text": "sodass"
+              },
+              {
+                "key": "c",
+                "text": "zwar"
+              }
+            ],
+            "q": "Der Termin ist eng, ____ wir sofort anfangen müssen. (Folge)",
+            "why": "Folge → sodass."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "indem"
+              },
+              {
+                "key": "b",
+                "text": "sodass"
+              },
+              {
+                "key": "c",
+                "text": "obwohl"
+              }
+            ],
+            "q": "Sie verbesserte ihr Deutsch, ____ sie jeden Tag las. (Mittel)",
+            "why": "Mittel → indem."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sodass"
+              },
+              {
+                "key": "b",
+                "text": "so"
+              },
+              {
+                "key": "c",
+                "text": "indem"
+              }
+            ],
+            "q": "Es war ____ kalt, dass niemand rausgehen wollte.",
+            "why": "Bei „… Adjektiv …, dass“ steht im Hauptsatz „so“ + Adjektiv (so … dass), nicht „sodass“."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A3",
+      "instructions": "Wähle den passenden Konnektor (a, b oder c).",
+      "title": "indem oder sodass?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "arbeiten"
+          ],
+          "2": [
+            "liest"
+          ],
+          "3": [
+            "geraten"
+          ],
+          "4": [
+            "blieben"
+          ],
+          "5": [
+            "aufteilst"
+          ],
+          "6": [
+            "verstanden"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir beschleunigen den Prozess, indem wir parallel {1} (arbeiten).\n2. Man verbessert die Aussprache, indem man laut {2} (lesen).\n3. Wir planen einen Puffer ein, sodass wir nicht in Verzug {3} (geraten).\n4. Es regnete stark, sodass wir zu Hause {4} (bleiben — Präteritum).\n5. Du sparst Zeit, indem du die Aufgaben klar {5} (aufteilen).\n6. Sie erklärte es so gut, dass alle es {6} (verstehen — Präteritum).\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Setz das Verb aus der Klammer ans Ende des Nebensatzes. 6 Items.",
+      "skill": "word-order",
+      "title": "indem / sodass: Verb am Ende"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Falls"
+              },
+              {
+                "key": "b",
+                "text": "Es sei denn"
+              },
+              {
+                "key": "c",
+                "text": "Sodass"
+              }
+            ],
+            "q": "____ zu viele Leute kommen, teilen wir auf. (Bedingung)",
+            "why": "Sachliche Bedingung am Satzanfang → Falls (= wenn)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Es sei denn"
+              },
+              {
+                "key": "b",
+                "text": "Sofern"
+              },
+              {
+                "key": "c",
+                "text": "Indem"
+              }
+            ],
+            "q": "____ Mia ihr Wohnzimmer anbietet, haben wir genug Platz. (vorausgesetzt, dass)",
+            "why": "„vorausgesetzt, dass“ → sofern."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "falls"
+              },
+              {
+                "key": "b",
+                "text": "sofern"
+              },
+              {
+                "key": "c",
+                "text": "es sei denn"
+              }
+            ],
+            "q": "Wir gehen spazieren, ____, es regnet. (einzige Ausnahme)",
+            "why": "Einzige Ausnahme (= außer wenn) → es sei denn."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "sofern"
+              },
+              {
+                "key": "b",
+                "text": "es sei denn"
+              },
+              {
+                "key": "c",
+                "text": "sodass"
+              }
+            ],
+            "q": "Du bekommst das Zertifikat, ____ du die Prüfung bestehst. (Bedingung, formell)",
+            "why": "Bedingung „unter der Voraussetzung, dass“ → sofern."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "falls"
+              },
+              {
+                "key": "b",
+                "text": "es sei denn"
+              },
+              {
+                "key": "c",
+                "text": "sofern"
+              }
+            ],
+            "q": "Ich komme mit, ____, ich muss länger arbeiten. (Ausnahme)",
+            "why": "Ausnahme → es sei denn."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A5",
+      "instructions": "Wähle den passenden Konnektor (a, b oder c).",
+      "title": "falls, sofern oder es sei denn?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "vorliegen"
+          ],
+          "2": [
+            "kommen"
+          ],
+          "3": [
+            "fährst"
+          ],
+          "4": [
+            "treten"
+          ],
+          "5": [
+            "ändert"
+          ],
+          "6": [
+            "braucht"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Falls die Daten rechtzeitig {1} (vorliegen), schaffen wir es bis Freitag.\n2. Sofern keine Änderungen mehr {2} (kommen), reicht eine Korrekturschleife.\n3. Du darfst den Wagen nehmen, sofern du vorsichtig {3} (fahren).\n4. Wir liefern Freitag, es sei denn, es {4} (auftreten — Präsens) Probleme auf.\n5. Ich rufe dich an, falls sich etwas {5} (ändern).\n6. Niemand sieht ins Buch, es sei denn, dass jemand schnell ein Wort {6} (brauchen).\n",
+        "type": "gap-text"
+      },
+      "id": "A6",
+      "instructions": "Setz das Verb aus der Klammer an die richtige Stelle. ⚠️ falls/sofern: Verb am Ende; nach „es sei denn“ ohne „dass“: Verb in Position 2. 6 Items.",
+      "skill": "word-order",
+      "title": "Bedingung: Verbposition"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Obwohl"
+              },
+              {
+                "key": "b",
+                "text": "Trotzdem"
+              },
+              {
+                "key": "c",
+                "text": "Dennoch"
+              }
+            ],
+            "q": "____ der Termin ehrgeizig ist, halte ich ihn für realistisch. (Nebensatz, Verb am Ende)",
+            "why": "Nebensatz mit Verb am Ende braucht eine Subjunktion → obwohl."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Obwohl"
+              },
+              {
+                "key": "b",
+                "text": "Trotzdem"
+              },
+              {
+                "key": "c",
+                "text": "Weil"
+              }
+            ],
+            "q": "Der Termin ist ehrgeizig. ____ halte ich ihn für realistisch. (Hauptsatz, Inversion)",
+            "why": "Position 1 im Hauptsatz + Inversion → Konjunktionaladverb trotzdem."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Obwohl"
+              },
+              {
+                "key": "b",
+                "text": "Zwar"
+              },
+              {
+                "key": "c",
+                "text": "Trotz"
+              }
+            ],
+            "q": "____ bin ich müde, aber für diesen Abend nehme ich mir Zeit.",
+            "why": "Korrelat-Paar zwar … aber."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Obwohl"
+              },
+              {
+                "key": "b",
+                "text": "Trotzdem"
+              },
+              {
+                "key": "c",
+                "text": "Trotz"
+              }
+            ],
+            "q": "____ des Zeitdrucks vernachlässigen wir die Qualität nicht. (+ Genitiv)",
+            "why": "Vor einem Nomen im Genitiv (des Zeitdrucks) → Präposition trotz."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wenngleich"
+              },
+              {
+                "key": "b",
+                "text": "Dennoch"
+              },
+              {
+                "key": "c",
+                "text": "Gleichwohl"
+              }
+            ],
+            "q": "____ er müde war, kam er zum Sprachabend. (gehoben, = obwohl)",
+            "why": "Subjunktion (Nebensatz, Verb am Ende), gehobene Variante von obwohl → wenngleich."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "A7",
+      "instructions": "Wähle die korrekte Form (a, b oder c).",
+      "skill": "word-order",
+      "title": "Konzessiv: welche Klasse, welche Wortstellung?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "ist"
+          ],
+          "2": [
+            "machte"
+          ],
+          "3": [
+            "darf"
+          ],
+          "4": [
+            "lösten"
+          ],
+          "5": [
+            "kam"
+          ],
+          "6": [
+            "halte"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Obwohl der Termin ehrgeizig {1} (sein), halte ich ihn für realistisch.\n2. Obgleich die Kosten stiegen, {2} (machen — Präteritum) die Firma Gewinn.\n3. Wir müssen schnell arbeiten. Dennoch {3} (dürfen) die Qualität nicht leiden.\n4. Die Aufgabe war schwer. Gleichwohl {4} (lösen — Präteritum) sie alle Teilnehmer.\n5. Wenngleich er müde war, {5} (kommen — Präteritum) er zum Sprachabend.\n6. Der Termin ist ehrgeizig. Trotzdem {6} (halten) ich ihn für realistisch.\n",
+        "type": "gap-text"
+      },
+      "id": "A8",
+      "instructions": "Setz das Verb aus der Klammer an die richtige Stelle. ⚠️ obwohl/obgleich/wenngleich: Verb am Ende; trotzdem/dennoch/gleichwohl in Position 1: Inversion. 6 Items.",
+      "skill": "word-order",
+      "title": "Konzessiv: Verbposition"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "a",
+          "3": "e",
+          "4": "f",
+          "5": "d",
+          "6": "c"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "indem"
+          },
+          {
+            "key": "2",
+            "text": "sodass"
+          },
+          {
+            "key": "3",
+            "text": "je … desto"
+          },
+          {
+            "key": "4",
+            "text": "falls / sofern"
+          },
+          {
+            "key": "5",
+            "text": "es sei denn"
+          },
+          {
+            "key": "6",
+            "text": "obwohl"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Folge / Ergebnis"
+          },
+          {
+            "key": "b",
+            "text": "Mittel / Methode"
+          },
+          {
+            "key": "c",
+            "text": "Konzession (Gegensatz trotz Erwartung)"
+          },
+          {
+            "key": "d",
+            "text": "einzige Ausnahme (= außer wenn)"
+          },
+          {
+            "key": "e",
+            "text": "Proportionalität (zwei Größen wachsen zusammen)"
+          },
+          {
+            "key": "f",
+            "text": "Bedingung"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A9",
+      "instructions": "Ordne jedem Konnektor (1–6) die passende Funktion (a–f) zu.",
+      "title": "Konnektor und logische Beziehung verbinden"
+    },
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "subjunktion",
+            "label": "Subjunktion (Verb am Ende)"
+          },
+          {
+            "key": "adverb",
+            "label": "Konjunktionaladverb (Inversion)"
+          },
+          {
+            "key": "konjunktion",
+            "label": "Koordinierende Konjunktion (Position 0)"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "subjunktion",
+            "text": "obwohl"
+          },
+          {
+            "bucket": "subjunktion",
+            "text": "indem"
+          },
+          {
+            "bucket": "subjunktion",
+            "text": "sodass"
+          },
+          {
+            "bucket": "subjunktion",
+            "text": "falls"
+          },
+          {
+            "bucket": "subjunktion",
+            "text": "sofern"
+          },
+          {
+            "bucket": "adverb",
+            "text": "trotzdem"
+          },
+          {
+            "bucket": "adverb",
+            "text": "dennoch"
+          },
+          {
+            "bucket": "adverb",
+            "text": "gleichwohl"
+          },
+          {
+            "bucket": "konjunktion",
+            "text": "aber"
+          },
+          {
+            "bucket": "konjunktion",
+            "text": "denn"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A10",
+      "instructions": "Ordne jeden Konnektor seiner Wortstellungs-Klasse zu.",
+      "skill": "word-order",
+      "title": "Welche Konnektor-Klasse?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Je mehr du übst, desto besser wirst du",
+            "tiles": [
+              "Je",
+              "mehr",
+              "du",
+              "übst",
+              "desto",
+              "besser",
+              "wirst",
+              "du"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Je länger ich lerne, desto langsamer komme ich voran",
+            "tiles": [
+              "Je",
+              "länger",
+              "ich",
+              "lerne",
+              "desto",
+              "langsamer",
+              "komme",
+              "ich",
+              "voran"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Je mehr Leute kommen, umso lebendiger wird der Abend",
+            "tiles": [
+              "Je",
+              "mehr",
+              "Leute",
+              "kommen",
+              "umso",
+              "lebendiger",
+              "wird",
+              "der",
+              "Abend"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Je kürzer der Text ist, desto klarer ist er",
+            "tiles": [
+              "Je",
+              "kürzer",
+              "der",
+              "Text",
+              "ist",
+              "desto",
+              "klarer",
+              "ist",
+              "er"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A11",
+      "instructions": "Bring die Wörter in die richtige Reihenfolge. ⚠️ je-Teil: Verb am Ende; desto-Teil: Verb direkt nach dem Komparativ.",
+      "skill": "word-order",
+      "title": "Satzbau: je … desto richtig stellen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "indem man eine Sprache benutzt",
+            "tiles": [
+              "indem",
+              "man",
+              "eine",
+              "Sprache",
+              "benutzt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "sodass jeder zu Wort kommt",
+            "tiles": [
+              "sodass",
+              "jeder",
+              "zu",
+              "Wort",
+              "kommt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Falls zu viele Leute kommen, teilen wir auf",
+            "tiles": [
+              "Falls",
+              "zu",
+              "viele",
+              "Leute",
+              "kommen",
+              "teilen",
+              "wir",
+              "auf"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Trotzdem halte ich ihn für realistisch",
+            "tiles": [
+              "Trotzdem",
+              "halte",
+              "ich",
+              "ihn",
+              "für",
+              "realistisch"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "A12",
+      "instructions": "Bring die Wörter in die richtige Reihenfolge. Im Nebensatz steht das Verb am Ende; nach einem Adverb in Position 1 folgt Inversion.",
+      "skill": "word-order",
+      "title": "Satzbau: Konnektor-Nebensatz und Hauptsatz"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": "b",
+          "2": "a",
+          "3": "c",
+          "4": "e",
+          "5": "f",
+          "6": "d"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Indem wir parallel arbeiten,"
+          },
+          {
+            "key": "2",
+            "text": "Falls zu viele Leute kommen,"
+          },
+          {
+            "key": "3",
+            "text": "Obwohl er müde war,"
+          },
+          {
+            "key": "4",
+            "text": "Sofern die Daten vorliegen,"
+          },
+          {
+            "key": "5",
+            "text": "Wir gehen spazieren,"
+          },
+          {
+            "key": "6",
+            "text": "Die Gruppen sind klein,"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "teilen wir in zwei Räume auf."
+          },
+          {
+            "key": "b",
+            "text": "beschleunigen wir den Prozess."
+          },
+          {
+            "key": "c",
+            "text": "kam er trotzdem zum Sprachabend."
+          },
+          {
+            "key": "d",
+            "text": "sodass jeder zu Wort kommt."
+          },
+          {
+            "key": "e",
+            "text": "schaffen wir es bis Freitag."
+          },
+          {
+            "key": "f",
+            "text": "es sei denn, es regnet."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "B4",
+      "instructions": "Ordne jedem Nebensatz (1–6) den passenden Hauptsatz (a–f) zu.",
+      "title": "Nebensatz und passenden Hauptsatz verbinden"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "Je"
+          ],
+          "2": [
+            "desto"
+          ],
+          "3": [
+            "indem"
+          ],
+          "4": [
+            "Falls"
+          ],
+          "5": [
+            "sodass"
+          ],
+          "6": [
+            "Obwohl"
+          ],
+          "7": [
+            "es sei denn"
+          ],
+          "8": [
+            "Trotz"
+          ]
+        },
+        "bank": [
+          "Je",
+          "desto",
+          "indem",
+          "Falls",
+          "sodass",
+          "Obwohl",
+          "es sei denn",
+          "Trotz",
+          "weil"
+        ],
+        "text": "— Ich komme nicht voran. {1} länger ich lerne, {2} weniger spreche ich.\n— Das ändert sich, {3} du einfach mehr redest. Komm doch zum Sprachabend!\n— Gute Idee. {4} genug Leute kommen, wird es bestimmt lebendig.\n— Wir machen kleine Gruppen, {5} jeder zu Wort kommt.\n— {6} ich nach der Arbeit oft müde bin, sage ich zu.\n— Super. Wir treffen uns Freitag, {7}, du hast schon etwas vor.\n— Nein, Freitag passt. {8} des vollen Terminkalenders nehme ich mir die Zeit.\n",
+        "type": "gap-bank"
+      },
+      "id": "B5",
+      "instructions": "Füll die 8 Lücken mit dem passenden Konnektor. Ein Wort ist zu viel.",
+      "skill": "word-order",
+      "title": "Dialog ergänzen: der Sprachabend"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Wir beschleunigen den Prozess, indem wir parallel arbeiten",
+            "tiles": [
+              "Wir",
+              "beschleunigen",
+              "den",
+              "Prozess",
+              "indem",
+              "wir",
+              "parallel",
+              "arbeiten"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Die Gruppen sind klein, sodass jeder zu Wort kommt",
+            "tiles": [
+              "Die",
+              "Gruppen",
+              "sind",
+              "klein",
+              "sodass",
+              "jeder",
+              "zu",
+              "Wort",
+              "kommt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Sofern Mia ihr Wohnzimmer anbietet, haben wir genug Platz",
+            "tiles": [
+              "Sofern",
+              "Mia",
+              "ihr",
+              "Wohnzimmer",
+              "anbietet",
+              "haben",
+              "wir",
+              "genug",
+              "Platz"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Wir gehen, es sei denn, es regnet",
+            "tiles": [
+              "Wir",
+              "gehen",
+              "es",
+              "sei",
+              "denn",
+              "es",
+              "regnet"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B6",
+      "instructions": "Bring die Wörter in die richtige Reihenfolge. Im Nebensatz steht das Verb am Ende; nach „es sei denn“ ohne „dass“ steht das Verb in Position 2.",
+      "skill": "word-order",
+      "title": "Satzbau: indem, sodass, falls, es sei denn"
+    },
+    {
+      "block": "B",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "obwohl",
+              "obgleich",
+              "wenngleich",
+              "trotzdem"
+            ],
+            "odd": 3,
+            "why": "trotzdem ist ein Konjunktionaladverb (Inversion); die anderen drei sind Subjunktionen (Verb am Ende)."
+          },
+          {
+            "items": [
+              "trotzdem",
+              "dennoch",
+              "gleichwohl",
+              "sodass"
+            ],
+            "odd": 3,
+            "why": "sodass ist eine Subjunktion (Verb am Ende); die anderen drei sind Konjunktionaladverbien (Inversion)."
+          },
+          {
+            "items": [
+              "falls",
+              "sofern",
+              "wenn",
+              "sodass"
+            ],
+            "odd": 3,
+            "why": "sodass markiert eine Folge; die anderen drei leiten eine Bedingung ein."
+          },
+          {
+            "items": [
+              "indem",
+              "dadurch dass",
+              "durch",
+              "sodass"
+            ],
+            "odd": 3,
+            "why": "sodass markiert eine Folge; die anderen drei drücken ein Mittel/eine Methode aus."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "B7",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum.",
+      "skill": "word-order",
+      "title": "Wortschatz: Was passt nicht?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sodass"
+              },
+              {
+                "key": "b",
+                "text": "indem"
+              },
+              {
+                "key": "c",
+                "text": "obwohl"
+              }
+            ],
+            "q": "Wie lernt man am besten? — Man lernt, ____ man die Sprache benutzt.",
+            "why": "Antwort auf „Wie?“ → Mittel → indem."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "falls"
+              },
+              {
+                "key": "b",
+                "text": "sofern"
+              },
+              {
+                "key": "c",
+                "text": "es sei denn"
+              }
+            ],
+            "q": "Was ist die einzige Ausnahme? — Wir liefern Freitag, ____, es treten Probleme auf.",
+            "why": "Einzige Ausnahme → es sei denn."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Je"
+              },
+              {
+                "key": "b",
+                "text": "Wenn"
+              },
+              {
+                "key": "c",
+                "text": "Indem"
+              }
+            ],
+            "q": "Zwei Größen wachsen zusammen: ____ mehr man liest, desto größer wird der Wortschatz.",
+            "why": "Proportionalität → je … desto."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Obwohl"
+              },
+              {
+                "key": "b",
+                "text": "Dennoch"
+              },
+              {
+                "key": "c",
+                "text": "Weil"
+              }
+            ],
+            "q": "Gegensatz im Hauptsatz mit Inversion: Wir müssen schnell arbeiten. ____ darf die Qualität nicht leiden.",
+            "why": "Position 1 + Inversion → Konjunktionaladverb dennoch."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B8",
+      "instructions": "Wähle die logisch und grammatisch passende Variante (a, b oder c).",
+      "skill": "word-order",
+      "title": "Welcher Konnektor passt in den Kontext?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "indem"
+          ],
+          "2": [
+            "Je"
+          ],
+          "3": [
+            "desto"
+          ],
+          "4": [
+            "Zwar"
+          ],
+          "5": [
+            "aber"
+          ],
+          "6": [
+            "Obwohl"
+          ],
+          "7": [
+            "Sofern"
+          ],
+          "8": [
+            "Falls"
+          ],
+          "9": [
+            "sodass"
+          ],
+          "10": [
+            "es sei denn"
+          ]
+        },
+        "listLayout": true,
+        "text": "Viele Lernende glauben, man lerne eine Sprache vor allem durch Regeln. Doch eine\nSprache lernt man vor allem, (1) {1} man sie benutzt. (2) {2} mehr man spricht,\n(3) {3} schneller wachsen die Fähigkeiten. Das heißt nicht, dass Grammatik\nunwichtig wäre. (4) {4} braucht man ein Grundgerüst an Regeln, (5) {5} dieses\nGerüst füllt sich erst durch echten Gebrauch mit Leben. (6) {6} viele Kurse sehr\nregelorientiert sind, kommen die größten Fortschritte außerhalb des Klassenzimmers.\n(7) {7} man regelmäßig dranbleibt, stellt sich der Erfolg fast von selbst ein.\n(8) {8} man wochenlang pausiert, vergisst man schnell wieder alles. Experten\nempfehlen tägliche Einheiten, (9) {9} das Gelernte im Kopf bleibt. Wer den Mut\nfindet, Fehler zu machen, kommt am weitesten — (10) {10}, er gibt vorher auf.\n",
+        "type": "gap-text"
+      },
+      "id": "C1",
+      "instructions": "Füll jede Lücke mit einem Konnektor. 10 Items.",
+      "skill": "word-order",
+      "title": "Lückentext: Wie man wirklich eine Sprache lernt (Lesetext)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "desto"
+              },
+              {
+                "key": "b",
+                "text": "als"
+              },
+              {
+                "key": "c",
+                "text": "umso besser du"
+              }
+            ],
+            "q": "Je mehr du übst, ____ besser wirst du.",
+            "why": "je … desto + Komparativ; danach Verb vor Subjekt (wirst du)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "sodass"
+              },
+              {
+                "key": "b",
+                "text": "indem"
+              },
+              {
+                "key": "c",
+                "text": "trotzdem"
+              }
+            ],
+            "q": "Man lernt eine Sprache, ____ man sie täglich benutzt.",
+            "why": "Mittel/Methode → indem."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "indem"
+              },
+              {
+                "key": "b",
+                "text": "sodass"
+              },
+              {
+                "key": "c",
+                "text": "falls"
+              }
+            ],
+            "q": "Die Gruppen sind klein, ____ jeder zu Wort kommt.",
+            "why": "Folge → sodass."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sofern"
+              },
+              {
+                "key": "b",
+                "text": "Es sei denn"
+              },
+              {
+                "key": "c",
+                "text": "Sodass"
+              }
+            ],
+            "q": "____ keine Änderungen mehr kommen, reicht eine Korrekturschleife.",
+            "why": "Bedingung „vorausgesetzt, dass“ → sofern."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "falls"
+              },
+              {
+                "key": "b",
+                "text": "es sei denn"
+              },
+              {
+                "key": "c",
+                "text": "sofern"
+              }
+            ],
+            "q": "Wir kommen pünktlich, ____, der Zug hat Verspätung.",
+            "why": "Einzige Ausnahme → es sei denn."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Trotzdem"
+              },
+              {
+                "key": "b",
+                "text": "Obwohl"
+              },
+              {
+                "key": "c",
+                "text": "Trotz"
+              }
+            ],
+            "q": "____ der Termin ehrgeizig ist, halte ich ihn für realistisch.",
+            "why": "Nebensatz mit Verb am Ende (… ist) → Subjunktion obwohl."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C2",
+      "instructions": "Wähle die richtige Option (a, b oder c) für jede Lücke.",
+      "skill": "word-order",
+      "title": "Sprachbausteine Teil 1"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "JE"
+          ],
+          "2": [
+            "DESTO"
+          ],
+          "3": [
+            "INDEM"
+          ],
+          "4": [
+            "SODASS"
+          ],
+          "5": [
+            "FALLS"
+          ],
+          "6": [
+            "OBWOHL"
+          ],
+          "7": [
+            "ZWAR"
+          ],
+          "8": [
+            "ABER"
+          ],
+          "9": [
+            "TROTZ"
+          ],
+          "10": [
+            "ES SEI DENN"
+          ]
+        },
+        "bank": [
+          "JE",
+          "DESTO",
+          "INDEM",
+          "SODASS",
+          "FALLS",
+          "OBWOHL",
+          "ZWAR",
+          "ABER",
+          "TROTZ",
+          "ES SEI DENN",
+          "WÄHREND",
+          "HINGEGEN",
+          "NÄMLICH",
+          "DENNOCH",
+          "WEIL"
+        ],
+        "text": "Aus einem Lerntipp-Text: „{1} mehr man eine Sprache benutzt (Proportionalität),\n{2} schneller lernt man. Man macht Fortschritte, {3} man jeden Tag spricht (Mittel).\nPlan deine Einheiten so, {4} du regelmäßig dranbleibst (Folge). {5} du wochenlang\npausierst (Bedingung), vergisst du schnell wieder alles. {6} viele Kurse sehr\nregelorientiert sind (Gegensatz, Nebensatz), kommen die größten Fortschritte beim\nReden. {7} bin ich kein Grammatik-Fan (einräumen), {8} ein Grundgerüst braucht man\ndoch (einschränken). {9} des hohen Aufwands lohnt sich das tägliche Üben (Gegensatz,\nnominal). Üb also jeden Tag — {10}, du brauchst gerade eine kurze Pause (Ausnahme).\"\n",
+        "type": "gap-bank"
+      },
+      "id": "C3",
+      "instructions": "Füll die 10 Lücken mit Wörtern aus dem Kasten. Fünf Wörter sind zu viel. Jedes Wort wird nur einmal benutzt.",
+      "skill": "word-order",
+      "title": "Sprachbausteine Teil 2 (Wortbank)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Laut Text lernt man eine Sprache vor allem dadurch, dass man sie benutzt.",
+            "why": "„Eine Sprache lernt man vor allem, indem man sie benutzt\"."
+          },
+          {
+            "answer": false,
+            "q": "Der Text sagt, dass Grammatik völlig unwichtig ist.",
+            "why": "„Das bedeutet nicht, dass Grammatik unwichtig wäre. Zwar braucht man ein Grundgerüst an Regeln …\"."
+          },
+          {
+            "answer": true,
+            "q": "Die größten Fortschritte kommen laut Text meist außerhalb des Klassenzimmers.",
+            "why": "„… kommen die größten Fortschritte meist außerhalb des Klassenzimmers\"."
+          },
+          {
+            "answer": false,
+            "q": "Wer wochenlang pausiert, behält laut Text alles im Kopf.",
+            "why": "„Falls man wochenlang pausiert, vergisst man schnell wieder, was man gelernt hat\"."
+          },
+          {
+            "answer": true,
+            "q": "Experten empfehlen kurze, tägliche Einheiten.",
+            "why": "„Deshalb empfehlen Experten kurze, tägliche Einheiten\"."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "C4a",
+      "instructions": "> Viele Lernende glauben, man lerne eine Sprache vor allem durch Grammatikregeln und lange Vokabellisten. Doch die Forschung zeigt ein anderes Bild: Eine Sprache lernt man vor allem, **indem** man sie benutzt. **Je** mehr man spricht, liest und hört, **desto** schneller wachsen die Fähigkeiten — und zwar weit schneller, als wenn man nur Tabellen auswendig lernt.\n> Das bedeutet nicht, dass Grammatik unwichtig wäre. **Zwar** braucht man ein Grundgerüst an Regeln, **aber** dieses Gerüst füllt sich erst durch echten Gebrauch mit Leben. **Obwohl** viele Kurse sehr regelorientiert sind, kommen die größten Fortschritte meist außerhalb des Klassenzimmers — beim Reden mit Freunden, beim Lesen, beim Hören von Podcasts. **Sofern** man regelmäßig dranbleibt, stellt sich der Erfolg fast von selbst ein.\n> Wichtig ist die Regelmäßigkeit. **Falls** man wochenlang pausiert, vergisst man schnell wieder, was man gelernt hat. Deshalb empfehlen Experten kurze, tägliche Einheiten, **sodass** das Gelernte im Kopf bleibt. **Trotz** aller Apps und Programme gilt am Ende eine einfache Wahrheit: Eine Sprache lebt vom Sprechen. Wer den Mut findet, Fehler zu machen, kommt am weitesten — **es sei denn**, er gibt vorher auf.\n\nRichtig (R) oder falsch (F)?\n",
+      "title": "Lesen Text 1 (Lesetext: Wie man wirklich eine Sprache lernt)"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Am fehlenden Talent."
+              },
+              {
+                "key": "b",
+                "text": "An der Methode."
+              },
+              {
+                "key": "c",
+                "text": "Am Geld."
+              }
+            ],
+            "q": "Woran scheitern laut Text viele Lernende?",
+            "why": "„Viele scheitern nicht am Talent, sondern an der Methode\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Desto leichter fällt das Lernen."
+              },
+              {
+                "key": "b",
+                "text": "Desto schwerer wird es."
+              },
+              {
+                "key": "c",
+                "text": "Es ändert sich nichts."
+              }
+            ],
+            "q": "Was passiert, je klarer man seine Ziele formuliert?",
+            "why": "„Je klarer du deine Ziele formulierst, desto leichter fällt dir das Lernen\"."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Indem man es regelmäßig wiederholt."
+              },
+              {
+                "key": "b",
+                "text": "Indem man Pausen macht."
+              },
+              {
+                "key": "c",
+                "text": "Indem man nur einmal liest."
+              }
+            ],
+            "q": "Wie behält man Wissen am besten?",
+            "why": "„Du behältst Wissen am besten, indem du es regelmäßig wiederholst\"."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Immer, wann man will."
+              },
+              {
+                "key": "b",
+                "text": "Wenn man wirklich erschöpft ist."
+              },
+              {
+                "key": "c",
+                "text": "Nie."
+              }
+            ],
+            "q": "Wann darf man laut Text aufhören und pausieren?",
+            "why": "„Bleib dran — es sei denn, du merkst, dass du wirklich erschöpft bist\"."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C4b",
+      "instructions": "Lies die folgende Kolumne und wähle a, b oder c.\n\n> **Ratgeber: Besser lernen mit System**\n> Viele scheitern nicht am Talent, sondern an der Methode. Je klarer du deine Ziele\n> formulierst, desto leichter fällt dir das Lernen. Du behältst Wissen am besten,\n> indem du es regelmäßig wiederholst. Plane feste Zeiten ein, sodass das Lernen zur\n> Gewohnheit wird. Obwohl Pausen wichtig sind, solltest du nicht wochenlang aussetzen.\n> Bleib dran — es sei denn, du merkst, dass du wirklich erschöpft bist.\n",
+      "title": "Lesen Text 2 (neuer Text: Ratgeber-Kolumne)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "besser"
+          ],
+          "2": [
+            "indem"
+          ],
+          "3": [
+            "sodass"
+          ],
+          "4": [
+            "es sei denn"
+          ],
+          "5": [
+            "obgleich"
+          ],
+          "6": [
+            "dennoch"
+          ],
+          "7": [
+            "Verb"
+          ],
+          "8": [
+            "am Ende"
+          ],
+          "9": [
+            "Genitiv"
+          ],
+          "10": [
+            "desto"
+          ],
+          "11": [
+            "Trotzdem"
+          ],
+          "12": [
+            "Obwohl"
+          ],
+          "13": [
+            "um"
+          ],
+          "14": [
+            "trotz der gestiegenen Nachfrage"
+          ],
+          "15": [
+            "indem man das Verfahren ändert"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Komparativ von „gut\": {1}\n2. Konnektor für Mittel/Methode (Wie?): {2}\n3. Konnektor für Folge (Was folgt?): {3}\n4. Konnektor für die einzige Ausnahme (= außer wenn): {4}\n5. Subjunktion, gehobene Variante von „obwohl\": {5}\n6. Konjunktionaladverb, gehobene Variante von „trotzdem\": {6}\n7. Wortstellung im desto-Teil: zuerst Komparativ, dann {7} (Verb / Subjekt)?\n8. „je\"-Teil: Wo steht das Verb? {8}\n9. „trotz\" verlangt welchen Fall? {9}\n10. Vervollständige: „Je mehr du übst, {10} besser wirst du.\"\n11. (B1/02) Konzessiv-Adverb (Hauptsatz): „Es war teuer. {11} kauften wir es.\" (trotzdem)\n12. (B1/02) Konzessiv-Subjunktion (Nebensatz): „{12} es teuer war, kauften wir es.\" (obwohl)\n13. (B1/06) Final-Konnektor mit „zu\": „Ich lerne, {13} eine Stelle zu finden.\" (um)\n14. (B2/01) Mach nominal: „obwohl die Nachfrage stieg\" → {14} (mit „trotz\")\n15. (B2/01) Mach verbal: „durch die Änderung des Verfahrens\" → {15} (mit „indem\")\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Eine Minute pro Item. Keine Notizen. Items mit (B1/xx) oder (B2/xx) wiederholen eine frühere Lektion. 15 Items.",
+      "title": "Gemischter Schnelltest"
+    },
+    {
+      "block": "D",
+      "body": {
+        "groups": [
+          {
+            "items": [
+              "obwohl",
+              "obgleich",
+              "wenngleich",
+              "trotzdem"
+            ],
+            "odd": 3,
+            "why": "trotzdem ist ein Konjunktionaladverb (Inversion); die anderen drei sind Subjunktionen (Verb am Ende)."
+          },
+          {
+            "items": [
+              "trotzdem",
+              "dennoch",
+              "gleichwohl",
+              "weil"
+            ],
+            "odd": 3,
+            "why": "weil ist eine Subjunktion (Verb am Ende); die anderen drei sind Konjunktionaladverbien (Inversion)."
+          },
+          {
+            "items": [
+              "falls",
+              "sofern",
+              "wenn",
+              "indem"
+            ],
+            "odd": 3,
+            "why": "indem drückt ein Mittel aus; die anderen drei leiten eine Bedingung ein."
+          },
+          {
+            "items": [
+              "aber",
+              "denn",
+              "und",
+              "obwohl"
+            ],
+            "odd": 3,
+            "why": "obwohl ist eine Subjunktion (Verb am Ende); die anderen drei sind koordinierende Konjunktionen (Position 0)."
+          },
+          {
+            "items": [
+              "indem",
+              "dadurch dass",
+              "durch",
+              "sodass"
+            ],
+            "odd": 3,
+            "why": "sodass markiert eine Folge; die anderen drei drücken ein Mittel/eine Methode aus."
+          },
+          {
+            "items": [
+              "je … desto",
+              "sodass",
+              "indem",
+              "trotz"
+            ],
+            "odd": 0,
+            "why": "je … desto ist ein zweiteiliger Konnektor für Proportionalität; die anderen sind einteilige Mittel/Folge/Konzessiv-Ausdrücke."
+          }
+        ],
+        "type": "odd-one-out"
+      },
+      "id": "D2",
+      "instructions": "Streiche das Wort, das nicht passt, und erkläre warum.",
+      "skill": "word-order",
+      "title": "Odd one out"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Deshalb"
+          ],
+          "2": [
+            "Weil"
+          ],
+          "3": [
+            "Obwohl"
+          ],
+          "4": [
+            "um"
+          ],
+          "5": [
+            "damit"
+          ],
+          "6": [
+            "zu"
+          ],
+          "7": [
+            "weil"
+          ],
+          "8": [
+            "obwohl"
+          ],
+          "9": [
+            "indem"
+          ],
+          "10": [
+            "die Verbesserung"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Aus B1/02 (kausale und konzessive Konnektoren):**\n1. „Es regnete. {1} blieben wir zu Hause.\" (deshalb)\n2. „{2} es regnete, blieben wir zu Hause.\" (weil)\n3. „{3} es regnete, gingen wir spazieren.\" (obwohl)\n\n**Aus B1/06 (um … zu, damit, Infinitiv mit zu):**\n4. „Ich lerne Deutsch, {4} eine Stelle zu finden.\" (um)\n5. „Ich erkläre es dir, {5} du es verstehst.\" (damit)\n6. „Ich habe angefangen, jeden Tag {6} üben.\" (zu)\n\n**Aus B2/01 (Nominalstil ↔ Verbalstil):**\n7. „wegen\" → Konnektor: {7}\n8. „trotz\" → Konnektor: {8}\n9. „durch\" → Konnektor (Mittel): {9}\n10. Nominalisierung von „verbessern\" (mit Artikel): {10}\n",
+        "type": "gap-text"
+      },
+      "id": "D3",
+      "instructions": "Wiederholung früherer Lektionen. 10 Items.",
+      "title": "Rückblick: B1/02, B1/06, B2/01"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "besser"
+          ],
+          "2": [
+            "wurde"
+          ],
+          "3": [
+            "wird"
+          ],
+          "4": [
+            "arbeiten"
+          ],
+          "5": [
+            "kommt"
+          ],
+          "6": [
+            "Sofern"
+          ],
+          "7": [
+            "Falls"
+          ],
+          "8": [
+            "es sei denn"
+          ],
+          "9": [
+            "Obwohl"
+          ],
+          "10": [
+            "Trotzdem"
+          ],
+          "11": [
+            "Trotz"
+          ],
+          "12": [
+            "Subjunktion"
+          ],
+          "13": [
+            "Adverb"
+          ],
+          "14": [
+            "Konjunktion"
+          ],
+          "15": [
+            "Obwohl es teuer war, kauften wir es."
+          ],
+          "16": [
+            "Trotz seiner Müdigkeit kam er."
+          ],
+          "17": [
+            "um"
+          ],
+          "18": [
+            "Deshalb"
+          ],
+          "19": [
+            "weil"
+          ],
+          "20": [
+            "die Änderung"
+          ]
+        },
+        "listLayout": true,
+        "text": "**je … desto (Komparativ + Verbposition):**\n1. „Je mehr du übst, desto {1} (gut) wirst du.\"\n2. „Je länger der Abend dauerte, desto entspannter {2} (werden — Präteritum) die Stimmung.\"\n3. „Je mehr Leute kommen, umso lebendiger {3} (werden) der Abend.\"\n\n**indem / sodass (Verb am Ende):**\n4. „Wir beschleunigen den Prozess, indem wir parallel {4} (arbeiten).\"\n5. „Die Gruppen sind klein, sodass jeder zu Wort {5} (kommen).\"\n\n**Bedingung (falls / sofern / es sei denn):**\n6. „{6} die Daten vorliegen, schaffen wir es.\" (Bedingung, formell: sofern)\n7. „{7} zu viele kommen, teilen wir auf.\" (Falls)\n8. „Wir liefern Freitag, {8}, es treten Probleme auf.\" (es sei denn)\n\n**Konzessivität (drei Klassen):**\n9. „{9} der Termin ehrgeizig ist, ist er realistisch.\" (Subjunktion: Obwohl)\n10. „Der Termin ist ehrgeizig. {10} ist er realistisch.\" (Adverb: Trotzdem)\n11. „{11} des Zeitdrucks arbeiten wir sorgfältig.\" (Präposition + Genitiv: Trotz)\n\n**Verbposition / Klasse:**\n12. „obwohl\" gehört zur Klasse: {12} (Subjunktion / Adverb / Konjunktion)\n13. „dennoch\" gehört zur Klasse: {13}\n14. „aber\" gehört zur Klasse: {14}\n\n**Umformen:**\n15. „Es war teuer. Trotzdem kauften wir es.\" → mit obwohl: {15}\n16. „Obwohl er müde war, kam er.\" → mit trotz + Genitiv: {16}\n\n**Gemischtes / Wiederholung:**\n17. (B1/06) „Ich lerne, {17} eine Stelle zu finden.\" (um)\n18. (B1/02) „Es regnete. {18} blieben wir zu Hause.\" (deshalb)\n19. (B2/01) „wegen\" → Konnektor: {19}\n20. (B2/01) Nominalisierung von „ändern\" (mit Artikel): {20}\n",
+        "type": "gap-text"
+      },
+      "id": "D4",
+      "title": "Selbsttest (bewerte dich /20)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "b2-07",
+  "intro": "Blöcke: H Hören → A Basistraining → B Vertiefung → C Prüfungstraining → D Wiederholung & Selbsttest. Die Lösungen findest du in solutions.md. Tipp: Verteil die Blöcke über mehrere Tage — H und A am Tag 1, B am Tag 2, C am Tag 3, D am Tag 4 nach einer Pause.\n",
+  "lesson": "B2/07",
+  "level": "B2",
+  "summary": null,
+  "title": "B2 · Lektion 7 — Übungen (Konnektoren für Profis)",
+  "topic": null
+}

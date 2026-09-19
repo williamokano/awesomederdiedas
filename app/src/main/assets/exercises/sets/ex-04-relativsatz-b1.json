@@ -1,0 +1,707 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "maskulin",
+          "feminin",
+          "neutral",
+          "Plural"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "der"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "die"
+                ],
+                "gap": 2
+              },
+              {
+                "answer": [
+                  "das"
+                ],
+                "gap": 3
+              },
+              {
+                "answer": [
+                  "die"
+                ],
+                "gap": 4
+              }
+            ],
+            "label": "Nominativ"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "den"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "die"
+                ],
+                "gap": 6
+              },
+              {
+                "answer": [
+                  "das"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "die"
+                ],
+                "gap": 8
+              }
+            ],
+            "label": "Akkusativ"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "dem"
+                ],
+                "gap": 9
+              },
+              {
+                "answer": [
+                  "der"
+                ],
+                "gap": 10
+              },
+              {
+                "answer": [
+                  "dem"
+                ],
+                "gap": 11
+              },
+              {
+                "answer": [
+                  "denen"
+                ],
+                "gap": 12
+              }
+            ],
+            "label": "Dativ"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die Tabelle. Achtung: der Dativ Plural ist denen, nicht den.",
+      "instructionsEn": "Complete the table. Note the Dativ Plural is denen, not den.",
+      "skill": "case-endings",
+      "title": "Die Relativpronomen-Tabelle (mit Dativ)"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "dem"
+          ],
+          "2": [
+            "der"
+          ],
+          "3": [
+            "dem"
+          ],
+          "4": [
+            "dem"
+          ],
+          "5": [
+            "denen"
+          ],
+          "6": [
+            "der"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe einen Freund, {1} ich vertraue.\n2. Das ist eine Kollegin, {2} ich sehr dankbar bin.\n3. Ich kenne einen Mann, mit {3} ich früher gearbeitet habe.\n4. Das ist ein Kind, {4} das Spielzeug gehört.\n5. Wir haben Nachbarn, bei {5} wir oft zu Besuch sind.\n6. Ich habe eine Schwester, von {6} ich viel gelernt habe.\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze das richtige Relativpronomen.",
+      "instructionsEn": "Fill in the correct relative pronoun.",
+      "skill": "case-endings",
+      "title": "Dativ und Präpositionen im Relativsatz"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "denen"
+          ],
+          "2": [
+            "dem"
+          ],
+          "3": [
+            "denen"
+          ],
+          "4": [
+            "dem"
+          ],
+          "5": [
+            "dem"
+          ],
+          "6": [
+            "denen"
+          ],
+          "7": [
+            "der"
+          ],
+          "8": [
+            "der"
+          ]
+        },
+        "bank": [
+          "denen",
+          "dem",
+          "denen",
+          "dem",
+          "dem",
+          "denen",
+          "der",
+          "der",
+          "den",
+          "die"
+        ],
+        "text": "Die Ärztin hat viele Patienten, {1} sie gerne hilft. Heute kommt\nein Mann, {2} sie schon lange vertraut. Er hat Rückenschmerzen, an\n{3} er seit Wochen leidet. Ein Kind, {4} das Spielzeug fehlt,\nweint im Wartezimmer. Die Ärztin hat einen Kollegen, {5} sie sehr\nvertraut. Am Nachmittag kommen weitere Kinder, {6} die\nUntersuchung Angst macht. Die Ärztin, {7} alle vertrauen, arbeitet\nbis spät am Abend. Ihre Praxis, in {8} viele Menschen behandelt\nwerden, ist immer voll.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten. Zwei Wörter sind nicht nötig.",
+      "instructionsEn": "Fill the 8 gaps using the words in the box. Two words are not needed.",
+      "title": "Lückentext: Die Ärztin"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "das"
+              },
+              {
+                "key": "b",
+                "text": "was"
+              },
+              {
+                "key": "c",
+                "text": "wo"
+              }
+            ],
+            "q": "Das ist alles, ___ ich weiß.",
+            "why": "was nach alles."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "die"
+              },
+              {
+                "key": "b",
+                "text": "der"
+              },
+              {
+                "key": "c",
+                "text": "wo"
+              }
+            ],
+            "q": "Die Stadt, ___ ich geboren bin, heißt Salvador.",
+            "why": "wo für einen Ort."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "das"
+              },
+              {
+                "key": "b",
+                "text": "was"
+              },
+              {
+                "key": "c",
+                "text": "die"
+              }
+            ],
+            "q": "Er hat die Prüfung bestanden, ___ mich sehr freut.",
+            "why": "was bezieht sich auf den ganzen vorherigen Satz, nicht auf ein einzelnes Nomen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "das"
+              },
+              {
+                "key": "b",
+                "text": "was"
+              },
+              {
+                "key": "c",
+                "text": "die"
+              }
+            ],
+            "q": "Das ist das Beste, ___ mir je passiert ist.",
+            "why": "was nach einem Superlativ als Nomen (das Beste)."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "die"
+              },
+              {
+                "key": "b",
+                "text": "der"
+              },
+              {
+                "key": "c",
+                "text": "wo"
+              }
+            ],
+            "q": "Ich komme aus einer kleinen Stadt, ___ es nur eine Schule gibt.",
+            "why": "wo für einen Ort."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "das"
+              },
+              {
+                "key": "b",
+                "text": "was"
+              },
+              {
+                "key": "c",
+                "text": "die"
+              }
+            ],
+            "q": "Nichts, ___ er sagt, ist wahr.",
+            "why": "was nach nichts."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "was oder wo?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "die"
+              },
+              {
+                "key": "b",
+                "text": "der"
+              },
+              {
+                "key": "c",
+                "text": "den"
+              }
+            ],
+            "q": "Ich habe eine Reise gebucht, auf ___ ich mich sehr freue.",
+            "why": "sich freuen auf + Akkusativ feminin → die."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "die"
+              },
+              {
+                "key": "b",
+                "text": "der"
+              },
+              {
+                "key": "c",
+                "text": "den"
+              }
+            ],
+            "q": "Wien ist eine Stadt, ___ ich schon lange besuchen möchte.",
+            "why": "besuchen + Akkusativ feminin → die."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "das"
+              },
+              {
+                "key": "b",
+                "text": "dem"
+              },
+              {
+                "key": "c",
+                "text": "den"
+              }
+            ],
+            "q": "Ich habe ein Hotel gefunden, ___ mir sehr gefällt.",
+            "why": "Subjekt von gefällt (Nominativ neutrum) → das."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "das"
+              },
+              {
+                "key": "b",
+                "text": "was"
+              },
+              {
+                "key": "c",
+                "text": "die"
+              }
+            ],
+            "q": "Das ist alles, ___ ich für die Reise brauche.",
+            "why": "was nach alles."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "die"
+              },
+              {
+                "key": "b",
+                "text": "der"
+              },
+              {
+                "key": "c",
+                "text": "den"
+              }
+            ],
+            "q": "Ich freue mich auf die Leute, ___ ich dort treffen werde.",
+            "why": "treffen + Akkusativ Plural → die."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "das"
+              },
+              {
+                "key": "b",
+                "text": "von dem"
+              },
+              {
+                "key": "c",
+                "text": "der"
+              }
+            ],
+            "q": "Wien, ___ ich schon viel gehört habe, soll wunderschön sein.",
+            "why": "hören von + Dativ; Städtenamen sind grammatisch neutrum → von dem."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "das"
+              },
+              {
+                "key": "b",
+                "text": "dem"
+              },
+              {
+                "key": "c",
+                "text": "den"
+              }
+            ],
+            "q": "Es gibt ein Museum, ___ ich unbedingt besuchen will.",
+            "why": "besuchen + Akkusativ neutrum → das."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "das"
+              },
+              {
+                "key": "b",
+                "text": "was"
+              },
+              {
+                "key": "c",
+                "text": "die"
+              }
+            ],
+            "q": "Das ist das Schönste, ___ ich in dieser Stadt gesehen habe.",
+            "why": "was nach einem Superlativ als Nomen (das Schönste)."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct word for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Meine Reise nach Wien"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "DEM"
+          ],
+          "2": [
+            "WO"
+          ],
+          "3": [
+            "WAS"
+          ],
+          "4": [
+            "DIE"
+          ],
+          "5": [
+            "DER"
+          ],
+          "6": [
+            "DAS"
+          ],
+          "7": [
+            "WAS"
+          ],
+          "8": [
+            "WAS"
+          ],
+          "9": [
+            "WO"
+          ],
+          "10": [
+            "WAS"
+          ]
+        },
+        "bank": [
+          "DEM",
+          "WO",
+          "WAS",
+          "DIE",
+          "DER",
+          "DAS",
+          "WAS",
+          "WAS",
+          "WO",
+          "WAS",
+          "DEN",
+          "DENEN",
+          "DESSEN"
+        ],
+        "text": "Ich habe einen Freund, {1} ich oft schreibe. Er wohnt in einer\nStadt, {2} es viele Museen gibt. Letzte Woche hat er mir etwas\nerzählt, {3} mich sehr überrascht hat. Er plant eine Reise, auf\n{4} er sich schon lange freut. Die Person, mit {5} er reisen\nmöchte, ist seine Schwester. Sie haben ein Ziel, {6} beide seit\nJahren besuchen wollen. Das ist das Beste, {7} ihm seit Langem\npassiert ist. Ich wünsche ihm alles Gute, {8} er sich für diese\nReise wünscht. Die Stadt, {9} sie hinfahren, heißt Lissabon.\nNichts, {10} ich sage, kann seine Vorfreude bremsen.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Three words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Reisepläne (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "der"
+          ],
+          "2": [
+            "dem"
+          ],
+          "3": [
+            "der"
+          ],
+          "4": [
+            "wo"
+          ],
+          "5": [
+            "was"
+          ],
+          "6": [
+            "was"
+          ],
+          "7": [
+            "denen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe eine Kollegin, {1} ich sehr vertraue.\n2. Das ist ein Kind, {2} ich geholfen habe.\n3. Die Firma, bei {3} ich arbeite, ist sehr modern.\n4. Ich komme aus einem Dorf, {4} jeder jeden kennt.\n5. Er hat mir etwas gesagt, {5} mich beunruhigt hat.\n6. Das ist das Einzige, {6} mir wichtig ist.\n7. Meine Nachbarn, {7} ich oft helfe, sind sehr dankbar.\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze das richtige Relativpronomen oder was/wo.",
+      "title": "Gemischte Wiederholung"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "den"
+              },
+              {
+                "key": "b",
+                "text": "dem"
+              },
+              {
+                "key": "c",
+                "text": "der"
+              }
+            ],
+            "q": "Ich habe einen Chef, ___ ich sehr respektiere.",
+            "why": "respektieren + Akkusativ → den."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "der"
+              },
+              {
+                "key": "b",
+                "text": "die"
+              },
+              {
+                "key": "c",
+                "text": "den"
+              }
+            ],
+            "q": "Das ist die Firma, bei ___ ich arbeite.",
+            "why": "bei + Dativ feminin → der."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "das"
+              },
+              {
+                "key": "b",
+                "text": "was"
+              },
+              {
+                "key": "c",
+                "text": "die"
+              }
+            ],
+            "q": "Er hat mir etwas erzählt, ___ mich froh gemacht hat.",
+            "why": "was nach etwas."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "die"
+              },
+              {
+                "key": "b",
+                "text": "der"
+              },
+              {
+                "key": "c",
+                "text": "wo"
+              }
+            ],
+            "q": "Ich komme aus einer Stadt, ___ es viel Kultur gibt.",
+            "why": "wo für einen Ort."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "die"
+              },
+              {
+                "key": "b",
+                "text": "denen"
+              },
+              {
+                "key": "c",
+                "text": "den"
+              }
+            ],
+            "q": "Das sind meine Freunde, ___ ich vertraue.",
+            "why": "vertrauen + Dativ Plural → denen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "das"
+              },
+              {
+                "key": "b",
+                "text": "was"
+              },
+              {
+                "key": "c",
+                "text": "die"
+              }
+            ],
+            "q": "Das ist alles, ___ ich brauche.",
+            "why": "was nach alles."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-04-relativsatz-b1",
+  "intro": "Standalone drill set, not tied to any lesson. Builds on the A2 set with what's left: the Dativ relative pronoun (note the Plural is denen, not den), relative clauses after a preposition (mit dem, bei denen, auf die …), and was/wo — was after alles/etwas/nichts/vieles, a superlative-as-noun, or a whole preceding clause; wo for places. Blocks: A Basistraining → B Vertiefung → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/04-relativsatz-b1",
+  "level": "B1",
+  "summary": null,
+  "title": "Relativsätze: Dativ, Präpositionen, was/wo — B1",
+  "topic": "Relativsätze und Relativpronomen"
+}

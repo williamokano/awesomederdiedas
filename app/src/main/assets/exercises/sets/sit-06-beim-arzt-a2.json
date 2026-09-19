@@ -1,0 +1,814 @@
+{
+  "category": "Sport & Gesundheit",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "tut weh"
+          ],
+          "2": [
+            "tun weh"
+          ],
+          "3": [
+            "tut weh"
+          ],
+          "4": [
+            "tun weh"
+          ],
+          "5": [
+            "tut weh"
+          ],
+          "6": [
+            "tun weh"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Mein Kopf {1}.\n2. Meine Ohren {2}.\n3. Mein Hals {3}.\n4. Meine Füße {4}.\n5. Mein Rücken {5}.\n6. Meine Augen {6}.\n",
+        "type": "gap-text"
+      },
+      "id": "A1",
+      "instructions": "Ergänze „tut weh“ oder „tun weh“.",
+      "instructionsEn": "Fill in „tut weh“ (singular) or „tun weh“ (plural).",
+      "title": "Beschwerden: was tut weh?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "symptom",
+            "label": "Symptom"
+          },
+          {
+            "key": "person",
+            "label": "Person / Ort"
+          },
+          {
+            "key": "dokument",
+            "label": "Dokument"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "symptom",
+            "text": "das Fieber"
+          },
+          {
+            "bucket": "person",
+            "text": "der Hausarzt"
+          },
+          {
+            "bucket": "dokument",
+            "text": "das Rezept"
+          },
+          {
+            "bucket": "symptom",
+            "text": "der Husten"
+          },
+          {
+            "bucket": "person",
+            "text": "die Sprechstundenhilfe"
+          },
+          {
+            "bucket": "dokument",
+            "text": "die Überweisung"
+          },
+          {
+            "bucket": "symptom",
+            "text": "die Übelkeit"
+          },
+          {
+            "bucket": "person",
+            "text": "der Facharzt"
+          },
+          {
+            "bucket": "dokument",
+            "text": "die Krankschreibung"
+          },
+          {
+            "bucket": "symptom",
+            "text": "der Schwindel"
+          },
+          {
+            "bucket": "person",
+            "text": "die Apotheke"
+          },
+          {
+            "bucket": "dokument",
+            "text": "die Versichertenkarte"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A2",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Symptom, Person oder Dokument?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "d",
+          "2": "b",
+          "3": "a",
+          "4": "e",
+          "5": "g",
+          "6": "c",
+          "7": "h",
+          "8": "f"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Was fehlt Ihnen denn?"
+          },
+          {
+            "key": "2",
+            "text": "Seit wann haben Sie die Beschwerden?"
+          },
+          {
+            "key": "3",
+            "text": "Haben Sie Fieber gemessen?"
+          },
+          {
+            "key": "4",
+            "text": "Waren Sie schon einmal bei uns?"
+          },
+          {
+            "key": "5",
+            "text": "Nehmen Sie regelmäßig Medikamente?"
+          },
+          {
+            "key": "6",
+            "text": "Brauchen Sie eine Krankschreibung?"
+          },
+          {
+            "key": "7",
+            "text": "Haben Sie Ihre Versichertenkarte dabei?"
+          },
+          {
+            "key": "8",
+            "text": "Sind Sie gegen etwas allergisch?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Ja, 38,5 heute Morgen."
+          },
+          {
+            "key": "b",
+            "text": "Seit drei Tagen."
+          },
+          {
+            "key": "c",
+            "text": "Ja, bitte für diese Woche — mein Arbeitgeber braucht sie."
+          },
+          {
+            "key": "d",
+            "text": "Ich habe Halsschmerzen und Husten."
+          },
+          {
+            "key": "e",
+            "text": "Nein, das ist mein erster Termin hier."
+          },
+          {
+            "key": "f",
+            "text": "Ja, gegen Penizillin."
+          },
+          {
+            "key": "g",
+            "text": "Nur eine Tablette für den Blutdruck."
+          },
+          {
+            "key": "h",
+            "text": "Ja, hier ist sie."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A3",
+      "instructions": "Ordne jede Frage (1–8) der passenden Antwort (a–h) zu.",
+      "instructionsEn": "Match each question (1–8) with the fitting answer (a–h).",
+      "title": "Frage und Antwort in der Praxis"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "drei"
+          ],
+          "2": [
+            "einer"
+          ],
+          "3": [
+            "dem"
+          ],
+          "4": [
+            "einem"
+          ],
+          "5": [
+            "zwei"
+          ],
+          "6": [
+            "der"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich habe seit {1} Tagen Kopfschmerzen. (3)\n2. Der Husten ist seit {2} Woche schlimmer geworden. (eine)\n3. Seit {3} Montag geht es mir schlecht. (der)\n4. Sie hat seit {4} Monat Rückenschmerzen. (ein)\n5. Seit {5} Wochen kann ich nicht gut schlafen. (2)\n6. Seit {6} Operation habe ich keine Schmerzen mehr. (die)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze die richtige Form.",
+      "instructionsEn": "Fill in the correct form.",
+      "title": "„seit“ + Dativ"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "TERMIN"
+          ],
+          "2": [
+            "UNS"
+          ],
+          "3": [
+            "GEBURTSDATUM"
+          ],
+          "4": [
+            "FEHLT"
+          ],
+          "5": [
+            "SEIT"
+          ],
+          "6": [
+            "FIEBER"
+          ],
+          "7": [
+            "KOMMEN"
+          ],
+          "8": [
+            "PASST"
+          ],
+          "9": [
+            "VERSICHERTENKARTE"
+          ],
+          "10": [
+            "FRÜHER"
+          ]
+        },
+        "bank": [
+          "TERMIN",
+          "UNS",
+          "GEBURTSDATUM",
+          "FEHLT",
+          "SEIT",
+          "FIEBER",
+          "KOMMEN",
+          "PASST",
+          "VERSICHERTENKARTE",
+          "FRÜHER",
+          "WOHER",
+          "REZEPT",
+          "SPÄTER",
+          "WARTEN"
+        ],
+        "text": "— Praxis Dr. Weber, guten Morgen.\n— Guten Morgen, ich hätte gern einen {1}.\n— Waren Sie schon einmal bei {2}?\n— Nein, ich bin neu hier.\n— Dann brauche ich Ihren Namen und Ihr {3}.\n— Akin Yilmaz, 12.03.1990.\n— Was {4} Ihnen denn?\n— Ich habe {5} drei Tagen Halsschmerzen und Fieber.\n— Haben Sie {6} gemessen?\n— Ja, 38,5.\n— Können Sie heute um 15:20 Uhr {7}?\n— Ja, das {8} gut.\n— Bringen Sie bitte Ihre {9} mit. Und kommen Sie zehn Minuten\n{10} — Sie müssen noch ein Formular ausfüllen.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Anruf in der Praxis: Termin machen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nichts fehlt mir."
+              },
+              {
+                "key": "b",
+                "text": "Ich habe seit drei Tagen Halsschmerzen und Fieber."
+              },
+              {
+                "key": "c",
+                "text": "Ich bin krank."
+              }
+            ],
+            "q": "Die Sprechstundenhilfe fragt „Was fehlt Ihnen?“ — The receptionist asks what's wrong.",
+            "why": "„Was fehlt Ihnen?“ heißt „was haben Sie für Beschwerden?“ — konkret antworten: was, seit wann."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sehr stark, besonders beim Schlucken."
+              },
+              {
+                "key": "b",
+                "text": "Ganz normal."
+              },
+              {
+                "key": "c",
+                "text": "Ich weiß nicht."
+              }
+            ],
+            "q": "Der Arzt fragt, wie stark die Schmerzen sind. — The doctor asks how bad the pain is.",
+            "why": "Stärke plus die Situation, in der es weh tut — das braucht der Arzt für die Diagnose."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich brauche einen Zettel."
+              },
+              {
+                "key": "b",
+                "text": "Können Sie mir eine Krankschreibung ausstellen?"
+              },
+              {
+                "key": "c",
+                "text": "Ich kann nicht arbeiten."
+              }
+            ],
+            "q": "Du brauchst eine Bescheinigung für deinen Arbeitgeber. — You need a certificate for your employer.",
+            "why": "„Krankschreibung“ (offiziell: Arbeitsunfähigkeitsbescheinigung) ist das Wort, das in der Praxis erwartet wird."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Wo ist der?"
+              },
+              {
+                "key": "b",
+                "text": "Muss ich da noch einmal zahlen?"
+              },
+              {
+                "key": "c",
+                "text": "Bekomme ich dafür eine Überweisung?"
+              }
+            ],
+            "q": "Der Arzt sagt, du sollst zum Facharzt. — The doctor says you should see a specialist.",
+            "why": "Ohne Überweisung vom Hausarzt nimmt einen der Facharzt oft gar nicht erst an."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ich vertrage Penizillin nicht so gut."
+              },
+              {
+                "key": "b",
+                "text": "Ich bin gegen Penizillin allergisch."
+              },
+              {
+                "key": "c",
+                "text": "Kein Penizillin, bitte."
+              }
+            ],
+            "q": "Du bist gegen Penizillin allergisch. — You're allergic to penicillin.",
+            "why": "Das Wort „allergisch“ ist eindeutig — „nicht gut vertragen“ kann auch Nebenwirkung heißen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Guten Tag, ich möchte dieses Rezept einlösen."
+              },
+              {
+                "key": "b",
+                "text": "Hier."
+              },
+              {
+                "key": "c",
+                "text": "Ich brauche Medikamente."
+              }
+            ],
+            "q": "In der Apotheke gibst du das Rezept ab. — At the pharmacy you hand in the prescription.",
+            "why": "„Ein Rezept einlösen“ ist der feste Ausdruck in der Apotheke."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Was sagst du?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "seit + Dativ, Verb an Position 2",
+            "tiles": [
+              "Ich",
+              "habe",
+              "seit",
+              "drei",
+              "Tagen",
+              "Halsschmerzen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Modalverb an Position 1, Infinitiv am Ende",
+            "tiles": [
+              "Können",
+              "Sie",
+              "mir",
+              "eine",
+              "Krankschreibung",
+              "ausstellen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "weh tun: weh am Ende",
+            "tiles": [
+              "Mein",
+              "Kopf",
+              "tut",
+              "sehr",
+              "weh"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "note": "allergisch gegen + Akkusativ, Adjektiv am Ende",
+            "tiles": [
+              "Ich",
+              "bin",
+              "gegen",
+              "Penizillin",
+              "allergisch"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Ja/Nein-Frage: Verb an Position 1",
+            "tiles": [
+              "Bekomme",
+              "ich",
+              "dafür",
+              "eine",
+              "Überweisung",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Empfehlung mit sollten, Infinitiv am Ende",
+            "tiles": [
+              "Sie",
+              "sollten",
+              "drei",
+              "Tage",
+              "im",
+              "Bett",
+              "bleiben"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze beim Arzt bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": false,
+            "q": "Am Mittwochnachmittag ist die Praxis geöffnet. — The practice is open on Wednesday afternoon.",
+            "why": "Mi und Fr nur 8:00–12:00 Uhr."
+          },
+          {
+            "answer": true,
+            "q": "Ohne Termin kann man morgens zwischen 8 und 9 kommen. — Without an appointment you can come between 8 and 9 in the morning.",
+            "why": "„Offene Sprechstunde ohne Termin: Mo–Fr 8:00–9:00 Uhr.“"
+          },
+          {
+            "answer": false,
+            "q": "Eine Krankschreibung bekommt man auch telefonisch. — You can get a sick note by phone.",
+            "why": "„nur nach persönlichem Besuch“."
+          },
+          {
+            "answer": true,
+            "q": "Ein Folgerezept sollte man einen Tag vorher bestellen. — A repeat prescription should be ordered a day in advance.",
+            "why": "„Rezepte zum Abholen: bitte einen Tag vorher anrufen.“"
+          },
+          {
+            "answer": false,
+            "q": "Am Sonntagabend ruft man bei starken Halsschmerzen die 112. — On Sunday evening you call 112 for a bad sore throat.",
+            "why": "112 ist für Notfälle. Für den Bereitschaftsdienst gilt 116 117."
+          },
+          {
+            "answer": false,
+            "q": "Die Versichertenkarte braucht man nur beim ersten Besuch. — You only need the insurance card on your first visit.",
+            "why": "„zu jedem Besuch“."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Praxis Dr. Weber — Hausarztpraxis**\n>\n> Sprechzeiten:\n> - Mo, Di, Do: 8:00–12:00 und 15:00–18:00 Uhr\n> - Mi, Fr: 8:00–12:00 Uhr\n>\n> Offene Sprechstunde ohne Termin: Mo–Fr 8:00–9:00 Uhr.\n> Bitte bringen Sie zu jedem Besuch Ihre Versichertenkarte mit.\n> Rezepte zum Abholen: bitte einen Tag vorher anrufen.\n> Krankschreibungen stellen wir nur nach persönlichem Besuch aus.\n>\n> Außerhalb der Sprechzeiten: ärztlicher Bereitschaftsdienst 116 117.\n> Im Notfall: 112.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Aushang in der Praxis"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Drei Wochen sind zu lang! Ich brauche heute etwas."
+              },
+              {
+                "key": "b",
+                "text": "Gibt es eine offene Sprechstunde? Sonst komme ich morgen früh."
+              },
+              {
+                "key": "c",
+                "text": "Dann gehe ich ins Krankenhaus."
+              }
+            ],
+            "q": "Die Praxis hat erst in drei Wochen einen Termin, du bist heute krank. — The practice has no slot for three weeks; you're ill today.",
+            "why": "Fast jede Hausarztpraxis hat eine offene Sprechstunde — danach fragen statt auf einen Termin zu bestehen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Am ersten Tag anrufen und sagen, dass du krank bist und wie lange voraussichtlich."
+              },
+              {
+                "key": "b",
+                "text": "Warten, bis du die Krankschreibung hast."
+              },
+              {
+                "key": "c",
+                "text": "Eine E-Mail schreiben, wenn du wieder da bist."
+              }
+            ],
+            "q": "Du bist krank und musst deinem Arbeitgeber Bescheid geben. — You're ill and have to tell your employer.",
+            "why": "Die Meldung geht am ersten Tag raus — die Krankschreibung reichst du danach nach."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das ist nicht mein Problem."
+              },
+              {
+                "key": "b",
+                "text": "Ich hole die Überweisung beim Hausarzt und melde mich dann wieder."
+              },
+              {
+                "key": "c",
+                "text": "Ich komme trotzdem vorbei."
+              }
+            ],
+            "q": "Der Facharzt sagt am Telefon: „Ohne Überweisung kein Termin.“ — The specialist says: no referral, no appointment.",
+            "why": "Die Überweisung besorgen und neu anrufen — sie ist beim Hausarzt meist ohne Termin zu bekommen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Bis Montag warten."
+              },
+              {
+                "key": "b",
+                "text": "Die 112 anrufen."
+              },
+              {
+                "key": "c",
+                "text": "Den ärztlichen Bereitschaftsdienst unter 116 117 anrufen."
+              }
+            ],
+            "q": "Es ist Samstag, du hast hohes Fieber und starke Schmerzen. — It's Saturday, you have a high fever and bad pain.",
+            "why": "116 117 ist genau dafür da: krank außerhalb der Sprechzeiten, aber kein Notfall."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Können Sie es bestellen? Bis wann wäre es da?"
+              },
+              {
+                "key": "b",
+                "text": "Dann gehe ich woanders hin."
+              },
+              {
+                "key": "c",
+                "text": "Geben Sie mir etwas Ähnliches."
+              }
+            ],
+            "q": "In der Apotheke ist dein Medikament nicht vorrätig. — The pharmacy doesn't have your medicine in stock.",
+            "why": "Bestellen lassen und nach dem Termin fragen — meist ist es am nächsten Morgen da."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ja, ja, alles klar."
+              },
+              {
+                "key": "b",
+                "text": "Entschuldigung, könnten Sie das bitte noch einmal einfacher erklären?"
+              },
+              {
+                "key": "c",
+                "text": "Ich lese es später nach."
+              }
+            ],
+            "q": "Du verstehst nicht, was der Arzt gesagt hat. — You didn't understand what the doctor said.",
+            "why": "Nachfragen ist normal und wichtig — bei Medikamenten und Dosierung darf nichts unklar bleiben."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Was machst oder sagst du? Wähle a, b oder c.",
+      "instructionsEn": "What do you do or say? Choose a, b, or c.",
+      "title": "Der Ernstfall"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "offene"
+          ],
+          "2": [
+            "Krankschreibung"
+          ],
+          "3": [
+            "Überweisung"
+          ],
+          "4": [
+            "Bereitschaftsdienst"
+          ],
+          "5": [
+            "einlösen"
+          ],
+          "6": [
+            "vorrätig"
+          ],
+          "7": [
+            "erklären"
+          ],
+          "8": [
+            "gegen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Gibt es bei Ihnen eine {1} Sprechstunde? (ohne Termin)\n2. Ich brauche eine {2} für meinen Arbeitgeber. (Dokument bei Krankheit)\n3. Für den Facharzt brauche ich eine {3} vom Hausarzt. (Zettel zur Weiterleitung)\n4. Am Wochenende hilft der ärztliche {4}. (Dienst außerhalb der Sprechzeiten)\n5. Ich möchte dieses Rezept {5}. (in der Apotheke abgeben)\n6. Das Medikament ist gerade nicht {6}. (nicht da, nicht im Lager)\n7. Könnten Sie das bitte noch einmal einfacher {7}? (verständlich sagen)\n8. Ich bin {8} Penizillin allergisch. (Präposition)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das fehlende Wort.",
+      "instructionsEn": "Fill in the missing word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "tut weh"
+          ],
+          "2": [
+            "tun weh"
+          ],
+          "3": [
+            "seit"
+          ],
+          "4": [
+            "gegen"
+          ],
+          "5": [
+            "Termin"
+          ],
+          "6": [
+            "Krankschreibung"
+          ],
+          "7": [
+            "Überweisung"
+          ],
+          "8": [
+            "einlösen"
+          ],
+          "9": [
+            "erklären"
+          ],
+          "10": [
+            "Hausarzt"
+          ],
+          "11": [
+            "offene"
+          ],
+          "12": [
+            "Versichertenkarte"
+          ],
+          "13": [
+            "116 117"
+          ],
+          "14": [
+            "112"
+          ]
+        },
+        "listLayout": true,
+        "text": "**Beschwerden (4 Punkte):**\n1. Mein Hals {1}. (Singular)\n2. Meine Ohren {2}. (Plural)\n3. Ich habe {3} drei Tagen Fieber.\n4. Ich bin {4} Penizillin allergisch.\n\n**Redemittel (5 Punkte):**\n5. Termin: „Ich hätte gern einen {5}.“\n6. Für den Arbeitgeber: „Können Sie mir eine {6} ausstellen?“\n7. Für den Facharzt: „Bekomme ich dafür eine {7}?“\n8. In der Apotheke: „Ich möchte dieses Rezept {8}.“\n9. Nachfragen: „Könnten Sie das bitte noch einmal einfacher {9}?“\n\n**Das System (5 Punkte):**\n10. Der erste Arzt, zu dem man geht: der {10}\n11. Ohne Termin morgens: die {11} Sprechstunde\n12. Karte, die man immer mitbringt: die {12}\n13. Am Wochenende krank, aber kein Notfall: {13} anrufen\n14. Echter Notfall: {14} anrufen\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die Lücken.",
+      "instructionsEn": "Fill in the gaps.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-06-beim-arzt-a2",
+  "intro": "Vom Anruf in der Praxis bis zum Rezept in der Hand. Der Kern ist: Beschwerden so beschreiben, dass jemand sie einordnen kann — seit wann, wo genau, wie stark. Dazu das deutsche System: Hausarzt, Überweisung, Facharzt, Krankschreibung für den Arbeitgeber. Grammatik nach Bedarf: „seit“ + Dativ, Körperteile mit „tut/tun weh“, Modalverben für Empfehlungen. Block C ist der Ernstfall: kein Termin frei, Überweisung fehlt, am Wochenende krank. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/06-beim-arzt-a2",
+  "level": "A2",
+  "summary": "Einen Termin bekommen, Beschwerden beschreiben, Rezept und Krankschreibung — und weiterkommen, wenn kein Termin frei ist.",
+  "title": "Beim Arzt — A2",
+  "topic": "Beim Arzt"
+}

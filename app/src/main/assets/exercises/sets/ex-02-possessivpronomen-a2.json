@@ -1,0 +1,713 @@
+{
+  "category": null,
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "columns": [
+          "",
+          "Nominativ",
+          "Akkusativ",
+          "Dativ"
+        ],
+        "rows": [
+          {
+            "cells": [
+              {
+                "answer": [
+                  "mein Bruder"
+                ],
+                "gap": 1
+              },
+              {
+                "answer": [
+                  "meinen Bruder"
+                ],
+                "gap": 2
+              },
+              {
+                "answer": [
+                  "meinem Bruder"
+                ],
+                "gap": 3
+              }
+            ],
+            "label": "der Bruder"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "meine Schwester"
+                ],
+                "gap": 4
+              },
+              {
+                "answer": [
+                  "meine Schwester"
+                ],
+                "gap": 5
+              },
+              {
+                "answer": [
+                  "meiner Schwester"
+                ],
+                "gap": 6
+              }
+            ],
+            "label": "die Schwester"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "mein Kind"
+                ],
+                "gap": 7
+              },
+              {
+                "answer": [
+                  "mein Kind"
+                ],
+                "gap": 8
+              },
+              {
+                "answer": [
+                  "meinem Kind"
+                ],
+                "gap": 9
+              }
+            ],
+            "label": "das Kind"
+          },
+          {
+            "cells": [
+              {
+                "answer": [
+                  "meine Eltern"
+                ],
+                "gap": 10
+              },
+              {
+                "answer": [
+                  "meine Eltern"
+                ],
+                "gap": 11
+              },
+              {
+                "answer": [
+                  "meinen Eltern"
+                ],
+                "gap": 12
+              }
+            ],
+            "label": "die Eltern (Pl.)"
+          }
+        ],
+        "type": "table-fill"
+      },
+      "id": "A1",
+      "instructions": "Ergänze die Tabelle mit der richtigen Form von mein.",
+      "instructionsEn": "Complete the table with the correct form of mein.",
+      "skill": "case-endings",
+      "title": "mein in allen Fällen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "meinem"
+          ],
+          "2": [
+            "seiner"
+          ],
+          "3": [
+            "unseren"
+          ],
+          "4": [
+            "ihrem"
+          ],
+          "5": [
+            "seiner"
+          ],
+          "6": [
+            "euren"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich helfe {1} Bruder bei den Hausaufgaben.\n2. Das ist Tom. Er dankt {2} Mutter für das Geschenk.\n3. Wir schreiben {3} Eltern eine Postkarte.\n4. Das ist Julia. Das Auto gehört {4} Onkel.\n5. Das ist Ben. Das Geschenk gefällt {5} Freundin sehr.\n6. Könnt ihr {6} Kindern helfen?\n",
+        "type": "gap-text"
+      },
+      "id": "A2",
+      "instructions": "Ergänze den Possessivartikel im Dativ.",
+      "instructionsEn": "Fill in the possessive in the Dativ case.",
+      "skill": "case-endings",
+      "title": "Dativ: -em, -er, -en"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "meinen"
+          ],
+          "2": [
+            "meine"
+          ],
+          "3": [
+            "seine"
+          ],
+          "4": [
+            "ihre"
+          ],
+          "5": [
+            "unsere"
+          ],
+          "6": [
+            "eure"
+          ],
+          "7": [
+            "seine"
+          ],
+          "8": [
+            "unsere"
+          ]
+        },
+        "bank": [
+          "meinen",
+          "meine",
+          "seine",
+          "ihre",
+          "unsere",
+          "eure",
+          "seine",
+          "unsere",
+          "deine",
+          "ihren"
+        ],
+        "text": "Morgen fliegen wir in den Urlaub. Ich packe {1} Koffer. Zuerst nehme\nich {2} Kamera mit — ich will viele Fotos machen. Mein Bruder sucht\n{3} Sonnenbrille, findet sie aber nicht. Meine Schwester packt {4}\nBücher ein. Wir dürfen auch {5} Handys mitnehmen. Mama sagt:\n„Vergesst nicht {6} Pässe!\" Papa hat schon {7} Tickets gedruckt. Am\nFlughafen zeigen wir {8} Ausweise.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 8 Lücken mit den Wörtern aus dem Kasten (Akkusativ).",
+      "instructionsEn": "Fill the 8 gaps using the words in the box (Akkusativ).",
+      "title": "Lückentext: Wir packen für den Urlaub"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Mein"
+              },
+              {
+                "key": "b",
+                "text": "Meinen"
+              },
+              {
+                "key": "c",
+                "text": "Meinem"
+              }
+            ],
+            "q": "___ Handy ist neu.",
+            "why": "Subjekt (Nominativ); Handy ist neutrum → mein."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "mein"
+              },
+              {
+                "key": "b",
+                "text": "meinen"
+              },
+              {
+                "key": "c",
+                "text": "meinem"
+              }
+            ],
+            "q": "Ich suche ___ Handy.",
+            "why": "Akkusativ; neutrum bekommt keine Endung → mein."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "mein"
+              },
+              {
+                "key": "b",
+                "text": "meinem"
+              },
+              {
+                "key": "c",
+                "text": "meinen"
+              }
+            ],
+            "q": "Ich telefoniere mit ___ Handy.",
+            "why": "mit + Dativ; neutrum im Dativ → meinem."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Mein"
+              },
+              {
+                "key": "b",
+                "text": "Meine"
+              },
+              {
+                "key": "c",
+                "text": "Meinen"
+              }
+            ],
+            "q": "___ Schwester wohnt in Berlin.",
+            "why": "Subjekt (Nominativ); Schwester ist feminin → meine."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "meine"
+              },
+              {
+                "key": "b",
+                "text": "meiner"
+              },
+              {
+                "key": "c",
+                "text": "meinem"
+              }
+            ],
+            "q": "Ich rufe ___ Schwester an.",
+            "why": "Akkusativ; feminin bleibt -e → meine."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "meine"
+              },
+              {
+                "key": "b",
+                "text": "meiner"
+              },
+              {
+                "key": "c",
+                "text": "meinen"
+              }
+            ],
+            "q": "Ich schreibe ___ Schwester eine E-Mail.",
+            "why": "Dativ; feminin bekommt -er → meiner."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c).",
+      "title": "Nominativ, Akkusativ oder Dativ?"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "mein"
+              },
+              {
+                "key": "b",
+                "text": "meine"
+              },
+              {
+                "key": "c",
+                "text": "meinen"
+              }
+            ],
+            "q": "Ich besuche ___ Großeltern jedes Jahr.",
+            "why": "Akkusativ Plural → meine."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "ihrem"
+              },
+              {
+                "key": "b",
+                "text": "ihren"
+              },
+              {
+                "key": "c",
+                "text": "ihre"
+              }
+            ],
+            "q": "Sie wohnen mit ___ Hund auf dem Land.",
+            "why": "mit + Dativ; Hund ist maskulin → ihrem."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "ihr"
+              },
+              {
+                "key": "b",
+                "text": "ihre"
+              },
+              {
+                "key": "c",
+                "text": "ihren"
+              }
+            ],
+            "q": "Meine Oma zeigt mir immer ___ Garten.",
+            "why": "Akkusativ; Garten ist maskulin → -en → ihren."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "seine"
+              },
+              {
+                "key": "b",
+                "text": "seinen"
+              },
+              {
+                "key": "c",
+                "text": "sein"
+              }
+            ],
+            "q": "Mein Opa erzählt ___ Enkeln gern Geschichten.",
+            "why": "Dativ Plural → seinen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "meine"
+              },
+              {
+                "key": "b",
+                "text": "meiner"
+              },
+              {
+                "key": "c",
+                "text": "meinen"
+              }
+            ],
+            "q": "Ich helfe ___ Oma oft in der Küche.",
+            "why": "helfen + Dativ; feminin → meiner."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ihr"
+              },
+              {
+                "key": "b",
+                "text": "ihrem"
+              },
+              {
+                "key": "c",
+                "text": "ihre"
+              }
+            ],
+            "q": "Am Abend sitzen wir alle in ___ Wohnzimmer.",
+            "why": "Dativ; Wohnzimmer ist neutrum → ihrem."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "ihrem"
+              },
+              {
+                "key": "b",
+                "text": "ihren"
+              },
+              {
+                "key": "c",
+                "text": "ihre"
+              }
+            ],
+            "q": "Die Kinder spielen mit ___ Spielzeug.",
+            "why": "Dativ; Spielzeug ist neutrum → ihrem (die Endung richtet sich nach dem Nomen, nicht nach dem Plural-Besitzer)."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "ihre"
+              },
+              {
+                "key": "b",
+                "text": "ihrer"
+              },
+              {
+                "key": "c",
+                "text": "ihren"
+              }
+            ],
+            "q": "Am Ende bedanken wir uns bei ___ Familie für den schönen Tag.",
+            "why": "bei + Dativ; Familie ist feminin → ihrer."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Choose the correct word for each gap (a, b, or c). The sentences form one short story.",
+      "title": "Sprachbausteine Teil 1 — Ein Besuch bei den Großeltern"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "UNSEREN"
+          ],
+          "2": [
+            "SEINE"
+          ],
+          "3": [
+            "MEINE"
+          ],
+          "4": [
+            "IHREN"
+          ],
+          "5": [
+            "SEINE"
+          ],
+          "6": [
+            "SEINER"
+          ],
+          "7": [
+            "UNSEREM"
+          ],
+          "8": [
+            "IHR"
+          ],
+          "9": [
+            "UNSERER"
+          ],
+          "10": [
+            "UNSERE"
+          ]
+        },
+        "bank": [
+          "UNSEREN",
+          "SEINE",
+          "MEINE",
+          "IHREN",
+          "SEINE",
+          "SEINER",
+          "UNSEREM",
+          "IHR",
+          "UNSERER",
+          "UNSERE",
+          "DEINE",
+          "EUREM",
+          "IHRES"
+        ],
+        "text": "Wir gehen mit {1} Freunden ins Restaurant. Mein Mann liest {2}\nSpeisekarte genau durch, bevor er bestellt. Ich rufe {3} Schwester\nan, um sie auch einzuladen, aber sie isst schon mit {4} Kollegen.\nNach dem Essen bezahlt mein Mann {5} Rechnung mit {6} Kreditkarte.\nWir geben {7} Kellner ein Trinkgeld. Die Kinder haben {8} Eis noch\nnicht aufgegessen. Am Ende bedanken wir uns bei {9} Gastgeberin für\nden schönen Abend und laden {10} Freunde für nächste Woche wieder\nein.\n",
+        "type": "gap-bank"
+      },
+      "id": "C2",
+      "instructions": "Fill the 10 gaps. Three words in the box are not needed.",
+      "title": "Sprachbausteine Teil 2 — Im Restaurant (Wortbank)"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "Mein"
+          ],
+          "2": [
+            "meinem"
+          ],
+          "3": [
+            "mein"
+          ],
+          "4": [
+            "ihr"
+          ],
+          "5": [
+            "meiner"
+          ],
+          "6": [
+            "unseren"
+          ],
+          "7": [
+            "meinen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} Auto ist kaputt.\n2. Ich fahre mit {2} Auto in die Werkstatt.\n3. Der Mechaniker repariert {3} Auto.\n4. Meine Schwester leiht mir {4} Auto.\n5. Ich danke {5} Schwester für die Hilfe.\n6. Wir kaufen {6} Eltern ein Geschenk.\n7. Kennst du {7} neuen Kollegen?\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze die richtigen Possessivartikel. Satz 7 hat einen schwachen Nomen (Kollege -> Kollegen).",
+      "instructionsEn": "Fill in the possessives across all three cases. Sentence 7 uses a weak noun (Kollege -> Kollegen).",
+      "title": "Gemischte Wiederholung: alle Fälle"
+    },
+    {
+      "block": "D",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Mein"
+              },
+              {
+                "key": "b",
+                "text": "Meine"
+              },
+              {
+                "key": "c",
+                "text": "Meinen"
+              }
+            ],
+            "q": "___ Tasche ist neu.",
+            "why": "Nominativ; Tasche ist feminin → Meine."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "meine"
+              },
+              {
+                "key": "b",
+                "text": "meiner"
+              },
+              {
+                "key": "c",
+                "text": "meinem"
+              }
+            ],
+            "q": "Ich habe ___ Tasche im Zug vergessen.",
+            "why": "Akkusativ; feminin bleibt -e → meine."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "deine"
+              },
+              {
+                "key": "b",
+                "text": "deiner"
+              },
+              {
+                "key": "c",
+                "text": "deinen"
+              }
+            ],
+            "q": "Was ist in ___ Tasche?",
+            "why": "in + Dativ; feminin bekommt -er → deiner."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "seine"
+              },
+              {
+                "key": "b",
+                "text": "seinen"
+              },
+              {
+                "key": "c",
+                "text": "sein"
+              }
+            ],
+            "q": "Er hilft ___ Kindern bei der Hausaufgabe.",
+            "why": "helfen + Dativ Plural → seinen."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "unser"
+              },
+              {
+                "key": "b",
+                "text": "unseren"
+              },
+              {
+                "key": "c",
+                "text": "unsere"
+              }
+            ],
+            "q": "Wir besuchen ___ Freunde in Berlin.",
+            "why": "Akkusativ Plural → unsere."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "dein"
+              },
+              {
+                "key": "b",
+                "text": "deine"
+              },
+              {
+                "key": "c",
+                "text": "deinen"
+              }
+            ],
+            "q": "Das Geschenk ist für ___ Mutter.",
+            "why": "für + Akkusativ; feminin bleibt -e → deine."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "D2",
+      "instructions": "Wähle die richtige Antwort (a, b oder c).",
+      "instructionsEn": "Choose the correct answer (a, b, or c). This is your final check for this set.",
+      "title": "Selbsttest"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "ex-02-possessivpronomen-a2",
+  "intro": "Standalone drill set, not tied to any lesson. Builds on the A1 set (Nominativ) by working through the full ein-Wörter case endings: maskulin -en (Akk) / -em (Dat), feminin -er (Dat), Plural -en (Dat). Blocks: A Basistraining (the full table, then Dativ) → B Vertiefung (Akkusativ, then mixed contrasts) → C Sprachbausteine → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "EX/02-possessivpronomen-a2",
+  "level": "A2",
+  "summary": null,
+  "title": "Possessivartikel in allen Fällen: Nominativ, Akkusativ, Dativ — A2",
+  "topic": "Possessivpronomen (mein, dein, sein, ihr, unser, euer, Ihr)"
+}

@@ -1,0 +1,828 @@
+{
+  "category": "Einkaufen",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "bestellen",
+            "label": "Bestellen"
+          },
+          {
+            "key": "reklamieren",
+            "label": "Reklamieren"
+          },
+          {
+            "key": "widerrufen",
+            "label": "Widerrufen"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "bestellen",
+            "text": "online eine Bestellung aufgeben"
+          },
+          {
+            "bucket": "bestellen",
+            "text": "die Lieferung verfolgen"
+          },
+          {
+            "bucket": "bestellen",
+            "text": "das Paket entgegennehmen"
+          },
+          {
+            "bucket": "bestellen",
+            "text": "die Rechnung prüfen"
+          },
+          {
+            "bucket": "reklamieren",
+            "text": "einen Mangel melden"
+          },
+          {
+            "bucket": "reklamieren",
+            "text": "beim Kundendienst reklamieren"
+          },
+          {
+            "bucket": "reklamieren",
+            "text": "Fotos vom Schaden machen"
+          },
+          {
+            "bucket": "reklamieren",
+            "text": "eine Ersatzlieferung verlangen"
+          },
+          {
+            "bucket": "widerrufen",
+            "text": "den Widerruf erklären"
+          },
+          {
+            "bucket": "widerrufen",
+            "text": "das Rücksendeetikett ausdrucken"
+          },
+          {
+            "bucket": "widerrufen",
+            "text": "die Ware zurücksenden"
+          },
+          {
+            "bucket": "widerrufen",
+            "text": "auf die Erstattung warten"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Wörter.",
+      "instructionsEn": "Sort the 12 words.",
+      "title": "Bestellen, reklamieren oder widerrufen?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "der Widerruf"
+          },
+          {
+            "key": "2",
+            "text": "die Widerrufsfrist"
+          },
+          {
+            "key": "3",
+            "text": "die Rücksendung"
+          },
+          {
+            "key": "4",
+            "text": "das Rücksendeetikett"
+          },
+          {
+            "key": "5",
+            "text": "die Erstattung"
+          },
+          {
+            "key": "6",
+            "text": "reklamieren"
+          },
+          {
+            "key": "7",
+            "text": "beschädigt"
+          },
+          {
+            "key": "8",
+            "text": "der Kundendienst"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "das Recht, einen Kauf ohne Grund rückgängig zu machen"
+          },
+          {
+            "key": "b",
+            "text": "der Zeitraum, in dem man widerrufen kann"
+          },
+          {
+            "key": "c",
+            "text": "das Zurückschicken der Ware"
+          },
+          {
+            "key": "d",
+            "text": "das vorgedruckte Label für die kostenlose Rücksendung"
+          },
+          {
+            "key": "e",
+            "text": "die Rückzahlung des Kaufpreises"
+          },
+          {
+            "key": "f",
+            "text": "sich wegen eines Mangels beschweren"
+          },
+          {
+            "key": "g",
+            "text": "beim Transport kaputtgegangen"
+          },
+          {
+            "key": "h",
+            "text": "die Abteilung für Probleme nach dem Kauf"
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jedem Begriff die Erklärung zu.",
+      "instructionsEn": "Match each term with its explanation.",
+      "title": "Begriff und Erklärung"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "kann"
+          ],
+          "2": [
+            "Können"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Müssen"
+          ],
+          "5": [
+            "ankommt"
+          ],
+          "6": [
+            "wird"
+          ],
+          "7": [
+            "haben"
+          ],
+          "8": [
+            "Ist"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} die Bestellung innerhalb von 14 Tagen widerrufen. (Modalverb, ich-Form)\n2. {2} Sie mir ein Rücksendeetikett schicken? (können, Sie-Form)\n3. Ich {3} die Ware schon zurückgeschickt. (haben, Perfekt)\n4. {4} wir die Erstattung noch abwarten? (müssen, wir-Form)\n5. Falls das Paket beschädigt {5}, reklamiere ich sofort. (ankommen, Präsens)\n6. Der Kundendienst {6} sich um die Rückerstattung kümmern. (werden, Futur I)\n7. Wir {7} schon den Widerruf erklärt. (haben, Perfekt)\n8. {8} das Geld schon zurücküberwiesen worden? (sein, Perfekt Passiv)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze das Modalverb oder die Verbform.",
+      "instructionsEn": "Fill in the modal verb or verb form.",
+      "title": "Den Widerruf planen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Widerruf"
+          ],
+          "2": [
+            "Widerrufsfrist"
+          ],
+          "3": [
+            "Rücksendung"
+          ],
+          "4": [
+            "Rücksendeetikett"
+          ],
+          "5": [
+            "Erstattung"
+          ],
+          "6": [
+            "reklamieren"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Innerhalb von 14 Tagen kann man vom {1} Gebrauch machen. (das Recht, einen Kauf ohne Grund rückgängig zu machen)\n2. Die {2} beträgt bei den meisten Online-Käufen 14 Tage. (der Zeitraum für den Widerruf)\n3. Für die {3} brauchen wir ein passendes Paket. (das Zurückschicken der Ware)\n4. Zum Glück liegt ein {4} bereits im Paket. (das vorgedruckte Label für die kostenlose Rücksendung)\n5. Nach der Rücksendung warten wir auf die {5}. (die Rückzahlung des Kaufpreises)\n6. Weil das Produkt kaputt ankam, {6} wir es sofort. (sich wegen eines Mangels beschweren, wir-Form)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "BESCHÄDIGT"
+          ],
+          "2": [
+            "WIDERRUFEN"
+          ],
+          "3": [
+            "WIDERRUFSFRIST"
+          ],
+          "4": [
+            "RÜCKSENDUNG"
+          ],
+          "5": [
+            "RÜCKSENDEETIKETT"
+          ],
+          "6": [
+            "ERSTATTUNG"
+          ],
+          "7": [
+            "MELDE"
+          ],
+          "8": [
+            "ERREICHBAR"
+          ],
+          "9": [
+            "SENDE"
+          ],
+          "10": [
+            "ZU"
+          ]
+        },
+        "bank": [
+          "BESCHÄDIGT",
+          "WIDERRUFEN",
+          "WIDERRUFSFRIST",
+          "RÜCKSENDUNG",
+          "RÜCKSENDEETIKETT",
+          "ERSTATTUNG",
+          "MELDE",
+          "ERREICHBAR",
+          "SENDE",
+          "ZU",
+          "KUNDENDIENST",
+          "GARANTIE",
+          "RECHNUNG",
+          "PAKETSCHEIN"
+        ],
+        "text": "— Guten Tag, mein Paket ist heute angekommen, aber der Inhalt\nist leider {1}.\n— Das tut mir leid. Möchten Sie das Produkt reklamieren oder\nlieber komplett {2}?\n— Ich glaube, ich möchte einfach widerrufen, das ist doch\ninnerhalb von 14 Tagen möglich, oder?\n— Ja genau, die {3} beträgt 14 Tage ab Erhalt der Ware.\n— Gut, wie funktioniert dann die {4}?\n— Ich schicke Ihnen sofort ein kostenloses {5} per E-Mail.\n— Perfekt, danke. Und wann bekomme ich mein Geld zurück?\n— Die {6} erfolgt normalerweise innerhalb von 14 Tagen nach\nEingang der Ware.\n— Alles klar. Falls etwas nicht klappt, {7} ich mich noch\neinmal beim Kundendienst.\n— Kein Problem, wir sind jederzeit für Sie {8}.\n— Vielen Dank für die schnelle Hilfe!\n— Gerne, ich {9} Ihnen noch eine schriftliche Bestätigung\n{10}.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Beim Kundendienst: beschädigtes Paket"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Pakete interessieren mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Mein Paket ist heute angekommen, aber der Inhalt ist leider beschädigt."
+              },
+              {
+                "key": "c",
+                "text": "Ich öffne Pakete sowieso nie."
+              }
+            ],
+            "q": "Du möchtest ein beschädigtes Paket melden. — You want to report a damaged package.",
+            "why": "Eine klare, sachliche Meldung ist der übliche Einstieg beim Kundendienst."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Fristen sind mir egal."
+              },
+              {
+                "key": "b",
+                "text": "Ich warte einfach ab, ohne zu fragen."
+              },
+              {
+                "key": "c",
+                "text": "Wie lange beträgt die Widerrufsfrist genau?"
+              }
+            ],
+            "q": "Du möchtest wissen, wie lange die Widerrufsfrist ist. — You want to know how long the withdrawal period is.",
+            "why": "Eine direkte Frage klärt sofort den genauen Zeitrahmen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Können Sie mir ein kostenloses Rücksendeetikett schicken?"
+              },
+              {
+                "key": "b",
+                "text": "Etiketten drucke ich sowieso selbst."
+              },
+              {
+                "key": "c",
+                "text": "Ich schicke das Paket einfach ohne Etikett zurück."
+              }
+            ],
+            "q": "Du möchtest ein Rücksendeetikett anfordern. — You want to request a return label.",
+            "why": "Eine höfliche, konkrete Bitte ist der übliche Weg zu einem kostenlosen Etikett."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Geld interessiert mich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Wann bekomme ich mein Geld zurück?"
+              },
+              {
+                "key": "c",
+                "text": "Ich warte einfach unbegrenzt auf die Erstattung."
+              }
+            ],
+            "q": "Du möchtest wissen, wann die Erstattung erfolgt. — You want to know when the refund will be issued.",
+            "why": "Eine direkte Frage zur Erstattung hilft bei der eigenen Planung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Widerrufen ist mir zu kompliziert."
+              },
+              {
+                "key": "b",
+                "text": "Ich behalte das Produkt einfach trotzdem."
+              },
+              {
+                "key": "c",
+                "text": "Ich möchte einfach von meinem Widerrufsrecht Gebrauch machen."
+              }
+            ],
+            "q": "Du entscheidest dich, das Produkt einfach zu widerrufen statt zu reklamieren. — You decide to simply withdraw instead of filing a complaint.",
+            "why": "Eine klare Erklärung des Widerrufs ist der einfachste Weg ohne Diskussion über den Mangel."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Sind Sie auch am Wochenende erreichbar?"
+              },
+              {
+                "key": "b",
+                "text": "Erreichbarkeit interessiert mich nicht."
+              },
+              {
+                "key": "c",
+                "text": "Ich rufe einfach an, wann ich will."
+              }
+            ],
+            "q": "Du möchtest wissen, ob der Kundendienst gut erreichbar ist. — You want to know whether customer service is easy to reach.",
+            "why": "Eine konkrete Frage zur Erreichbarkeit hilft bei zukünftigen Anliegen."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Melden und Widerrufen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Hauptsatz, Verb an Position 2",
+            "tiles": [
+              "Mein",
+              "Paket",
+              "ist",
+              "heute",
+              "angekommen",
+              ",",
+              "aber",
+              "beschädigt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "W-Frage mit Verb an Position 2",
+            "tiles": [
+              "Wie",
+              "lange",
+              "beträgt",
+              "die",
+              "Widerrufsfrist",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Frage, Infinitiv am Ende",
+            "tiles": [
+              "Können",
+              "Sie",
+              "mir",
+              "ein",
+              "Rücksendeetikett",
+              "schicken",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Nebensatz mit falls, Hauptsatz mit Verb an Position 2",
+            "tiles": [
+              "Falls",
+              "das",
+              "Paket",
+              "beschädigt",
+              "ankommt",
+              ",",
+              "reklamiere",
+              "ich",
+              "sofort"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "höfliche Aussage, Infinitiv am Ende",
+            "tiles": [
+              "Ich",
+              "möchte",
+              "von",
+              "meinem",
+              "Widerrufsrecht",
+              "Gebrauch",
+              "machen"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "note": "Perfekt, Partizip am Ende",
+            "tiles": [
+              "Wir",
+              "haben",
+              "schon",
+              "den",
+              "Widerruf",
+              "erklärt"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze zum Widerruf bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Die Widerrufsfrist beträgt in der Regel 14 Tage ab Erhalt der Ware. — The withdrawal period is usually 14 days from receipt of the goods.",
+            "why": "So steht es ausdrücklich in den Widerrufs-Infos."
+          },
+          {
+            "answer": false,
+            "q": "Für einen Widerruf muss man einen ausführlichen Grund angeben. — For a withdrawal, you must give a detailed reason.",
+            "why": "Ein Widerruf ist ohne Angabe von Gründen möglich, nicht mit ausführlicher Begründung."
+          },
+          {
+            "answer": false,
+            "q": "Die Rücksendekosten trägt immer ausschließlich der Kunde. — Return shipping costs are always borne exclusively by the customer.",
+            "why": "Oft trägt sie der Händler, nicht immer der Kunde."
+          },
+          {
+            "answer": true,
+            "q": "Die Erstattung erfolgt spätestens 14 Tage nach Eingang der Rücksendung. — The refund is issued at the latest 14 days after the return arrives.",
+            "why": "„Erstattung: erfolgt spätestens 14 Tage nach Eingang der Rücksendung.“"
+          },
+          {
+            "answer": true,
+            "q": "Beschädigte Ware sollte man sofort fotografieren und melden. — Damaged goods should be photographed and reported immediately.",
+            "why": "„Beschädigte Ware: sollte sofort fotografiert und gemeldet werden.“"
+          },
+          {
+            "answer": false,
+            "q": "Personalisierte Produkte sind grundsätzlich genauso einfach widerrufbar wie alle anderen. — Personalized products can be withdrawn just as easily as any other item.",
+            "why": "Sie sind eine Ausnahme und vom Widerruf ausgeschlossen."
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Info — Online-Bestellungen widerrufen**\n>\n> - **Widerrufsfrist:** in der Regel **14 Tage** ab Erhalt der\n>   Ware.\n> - **Begründung:** ein Widerruf ist **ohne Angabe von\n>   Gründen** möglich.\n> - **Rücksendekosten:** oft trägt sie der **Händler**,\n>   manchmal aber auch der Kunde.\n> - **Erstattung:** erfolgt spätestens **14 Tage** nach\n>   Eingang der Rücksendung.\n> - **Beschädigte Ware:** sollte **sofort fotografiert** und\n>   gemeldet werden.\n> - **Ausnahmen:** manche Artikel wie **personalisierte\n>   Produkte** sind vom Widerruf ausgeschlossen.\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Die Widerrufs-Infos lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach abwarten, ohne nachzufassen."
+              },
+              {
+                "key": "b",
+                "text": "Schriftlich nachfassen und eine Frist setzen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort eine schlechte Bewertung schreiben, ohne nachzufragen."
+              }
+            ],
+            "q": "Der Händler reagiert nicht auf die Widerrufserklärung. — The seller doesn't respond to the withdrawal notice.",
+            "why": "Eine schriftliche Nachfrage mit Frist erhöht den Druck sachlich."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Das Paket einfach auf eigene Kosten zurückschicken, ohne nachzufragen."
+              },
+              {
+                "key": "b",
+                "text": "Den Widerruf komplett aufgeben."
+              },
+              {
+                "key": "c",
+                "text": "Höflich beim Kundendienst nach einem neuen Etikett fragen."
+              }
+            ],
+            "q": "Das Rücksendeetikett kommt nie an. — The return label never arrives.",
+            "why": "Eine höfliche Nachfrage klärt schnell, warum das Etikett fehlt."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Zahlungseingang beim Händler nachfragen."
+              },
+              {
+                "key": "b",
+                "text": "Einfach endlos weiter warten, ohne nachzufragen."
+              },
+              {
+                "key": "c",
+                "text": "Sofort eine Anzeige erstatten."
+              }
+            ],
+            "q": "Die Erstattung dauert viel länger als die üblichen 14 Tage. — The refund takes much longer than the usual 14 days.",
+            "why": "Eine Nachfrage zum Zahlungsstand klärt meist schnell, woran es liegt."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Behauptung kommentarlos akzeptieren."
+              },
+              {
+                "key": "b",
+                "text": "Auf Fotos oder den Versandbeleg als Beweis verweisen."
+              },
+              {
+                "key": "c",
+                "text": "Sich laut streiten, ohne Beweise vorzulegen."
+              }
+            ],
+            "q": "Der Händler behauptet, die zurückgesendete Ware sei beschädigt angekommen. — The seller claims the returned item arrived damaged.",
+            "why": "Fotos und der Versandbeleg sind der beste Beweis gegen eine falsche Behauptung."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Sache einfach auf sich beruhen lassen."
+              },
+              {
+                "key": "b",
+                "text": "Sofort eine neue Bestellung ohne Nachfrage aufgeben."
+              },
+              {
+                "key": "c",
+                "text": "Beim Versanddienst und Händler gleichzeitig nachforschen."
+              }
+            ],
+            "q": "Eine Bestellung wird als „erhalten“ markiert, obwohl das Paket nie ankam. — An order is marked as “received” although the package never arrived.",
+            "why": "Eine gleichzeitige Nachfrage bei beiden Stellen klärt schnell, wo das Paket blieb."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Die Widerrufsbelehrung genau durchlesen oder direkt nachfragen."
+              },
+              {
+                "key": "b",
+                "text": "Einfach raten, ob es geht."
+              },
+              {
+                "key": "c",
+                "text": "Das Produkt ohne Nachzudenken zurückschicken und hoffen."
+              }
+            ],
+            "q": "Man ist sich unsicher, ob ein bestimmtes Produkt vom Widerruf ausgeschlossen ist. — You're unsure whether a certain product is excluded from withdrawal.",
+            "why": "Die Widerrufsbelehrung oder eine direkte Nachfrage klärt die Ausnahmen zuverlässig."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Wenn beim Widerruf etwas schiefgeht"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "geantwortet"
+          ],
+          "2": [
+            "angekommen"
+          ],
+          "3": [
+            "verzögert"
+          ],
+          "4": [
+            "angekommen"
+          ],
+          "5": [
+            "markiert"
+          ],
+          "6": [
+            "durchgelesen"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Der Händler hat auf die Widerrufserklärung nicht {1}. (nicht geantwortet, Partizip)\n2. Das Rücksendeetikett ist nie {2}. (dort eingetroffen, Partizip)\n3. Die Erstattung hat sich stark {3}. (später als geplant, Partizip)\n4. Der Händler hat behauptet, die Ware sei beschädigt {4}. (dort eingetroffen, Partizip)\n5. Das Paket wurde als erhalten {5}, obwohl es nie ankam. (im System eingetragen, Partizip)\n6. Wir haben die Widerrufsbelehrung genau {6}. (Wort für Wort gelesen, Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "kann"
+          ],
+          "2": [
+            "Könnten"
+          ],
+          "3": [
+            "habe"
+          ],
+          "4": [
+            "Widerruf"
+          ],
+          "5": [
+            "Widerrufsfrist"
+          ],
+          "6": [
+            "Rücksendung"
+          ],
+          "7": [
+            "Rücksendeetikett"
+          ],
+          "8": [
+            "Erstattung"
+          ],
+          "9": [
+            "reklamieren"
+          ],
+          "10": [
+            "geantwortet"
+          ],
+          "11": [
+            "angekommen"
+          ],
+          "12": [
+            "verzögert"
+          ],
+          "13": [
+            "angekommen"
+          ],
+          "14": [
+            "markiert"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich {1} die Bestellung widerrufen. (can — können)\n2. {2} Sie mir ein Rücksendeetikett schicken? (could — können)\n3. Ich {3} die Ware schon zurückgeschickt. (have — Perfekt)\n4. Innerhalb von 14 Tagen kann man vom {4} Gebrauch machen. (right of withdrawal)\n5. Die {5} beträgt meist 14 Tage. (withdrawal period)\n6. Für die {6} brauchen wir ein Paket. (return shipment)\n7. Zum Glück liegt ein {7} bereits im Paket. (return label)\n8. Nach der Rücksendung warten wir auf die {8}. (refund)\n9. Weil das Produkt kaputt ankam, {9} wir es. (complain — wir-Form)\n10. Der Händler hat auf die Widerrufserklärung nicht {10}. (responded — Partizip)\n11. Das Rücksendeetikett ist nie {11}. (arrived — Partizip)\n12. Die Erstattung hat sich stark {12}. (delayed — Partizip)\n13. Der Händler hat behauptet, die Ware sei beschädigt {13}. (arrived — Partizip)\n14. Das Paket wurde als erhalten {14}, obwohl es nie ankam. (marked — Partizip)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /14)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-72-widerruf-b1",
+  "intro": "Kommt eine Online-Bestellung beschädigt an, hilft meist der einfachste Weg: innerhalb der Widerrufsfrist widerrufen, ein kostenloses Rücksendeetikett anfordern und auf die Erstattung warten. Dieses Set übt genau das — den Schaden melden, die Widerrufsfrist erklären, die Rücksendung organisieren, und was zu tun ist, wenn der Händler nicht reagiert oder die Erstattung sich verzögert. Grammatik nach Bedarf: Perfekt und Passiv im Bericht, Nebensätze mit falls. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/72-widerruf-b1",
+  "level": "B1",
+  "summary": "Ein beschädigtes Paket melden, den Widerruf erklären, das Rücksendeetikett anfordern — und was tun, wenn die Erstattung sich verzögert oder der Händler nicht reagiert.",
+  "title": "Online bestellt, falsch geliefert: Widerruf — B1",
+  "topic": "Online bestellt, falsch geliefert: Widerruf"
+}

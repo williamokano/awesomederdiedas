@@ -1,0 +1,823 @@
+{
+  "category": "Soziales",
+  "exercises": [
+    {
+      "block": "A",
+      "body": {
+        "buckets": [
+          {
+            "key": "sicher",
+            "label": "Sicheres Thema"
+          },
+          {
+            "key": "heikel",
+            "label": "Eher heikel"
+          },
+          {
+            "key": "tabu",
+            "label": "Besser nicht"
+          }
+        ],
+        "tokens": [
+          {
+            "bucket": "sicher",
+            "text": "das Wetter"
+          },
+          {
+            "bucket": "heikel",
+            "text": "die Politik"
+          },
+          {
+            "bucket": "tabu",
+            "text": "das Gehalt"
+          },
+          {
+            "bucket": "sicher",
+            "text": "das Essen"
+          },
+          {
+            "bucket": "heikel",
+            "text": "die Religion"
+          },
+          {
+            "bucket": "tabu",
+            "text": "die Miete der anderen"
+          },
+          {
+            "bucket": "sicher",
+            "text": "der Urlaub"
+          },
+          {
+            "bucket": "heikel",
+            "text": "der Streit im Haus"
+          },
+          {
+            "bucket": "tabu",
+            "text": "das Gewicht"
+          },
+          {
+            "bucket": "sicher",
+            "text": "die Arbeit"
+          },
+          {
+            "bucket": "heikel",
+            "text": "die Erziehung fremder Kinder"
+          },
+          {
+            "bucket": "tabu",
+            "text": "Krankheiten im Detail"
+          }
+        ],
+        "type": "categorize"
+      },
+      "id": "A1",
+      "instructions": "Sortiere die 12 Themen.",
+      "instructionsEn": "Sort the 12 topics.",
+      "title": "Worüber redet man — und worüber nicht?"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "g",
+          "8": "h"
+        },
+        "left": [
+          {
+            "key": "1",
+            "text": "Und woher kommst du ursprünglich?"
+          },
+          {
+            "key": "2",
+            "text": "Wie lange bist du schon hier?"
+          },
+          {
+            "key": "3",
+            "text": "Und was machst du beruflich?"
+          },
+          {
+            "key": "4",
+            "text": "Wie gefällt es dir in Deutschland?"
+          },
+          {
+            "key": "5",
+            "text": "Was ist am schwersten an der Sprache?"
+          },
+          {
+            "key": "6",
+            "text": "Wohnst du auch hier im Haus?"
+          },
+          {
+            "key": "7",
+            "text": "Soll ich dir etwas mitbringen?"
+          },
+          {
+            "key": "8",
+            "text": "Kommst du nächstes Mal wieder?"
+          }
+        ],
+        "right": [
+          {
+            "key": "a",
+            "text": "Aus Porto. Aber ich habe vorher zwei Jahre in Lyon gelebt."
+          },
+          {
+            "key": "b",
+            "text": "Seit drei Jahren — anfangs nur für ein Jahr geplant."
+          },
+          {
+            "key": "c",
+            "text": "Ich bin Physiotherapeutin, in einer Reha-Klinik."
+          },
+          {
+            "key": "d",
+            "text": "Sehr gut inzwischen. Am Anfang war es schwieriger."
+          },
+          {
+            "key": "e",
+            "text": "Ehrlich? Die Artikel. Der, die, das ist die Hölle."
+          },
+          {
+            "key": "f",
+            "text": "Ja, dritter Stock rechts. Seit letztem Sommer."
+          },
+          {
+            "key": "g",
+            "text": "Ich bringe einen Salat mit, das ist einfacher als Fleisch."
+          },
+          {
+            "key": "h",
+            "text": "Sehr gern, sag einfach Bescheid."
+          }
+        ],
+        "type": "matching"
+      },
+      "id": "A2",
+      "instructions": "Ordne jeder Frage eine passende Antwort zu.",
+      "instructionsEn": "Match each question with a fitting answer.",
+      "title": "Frage und Antwort"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "seit"
+          ],
+          "2": [
+            "vor"
+          ],
+          "3": [
+            "für"
+          ],
+          "4": [
+            "Seit"
+          ],
+          "5": [
+            "vor"
+          ],
+          "6": [
+            "seit"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Ich wohne {1} drei Jahren in Deutschland. (bis jetzt, dauert an)\n2. Ich bin {2} drei Jahren hergezogen. (der Zeitpunkt in der Vergangenheit)\n3. Ich bleibe erst mal {3} ein Jahr. (die geplante Dauer)\n4. {4} letztem Sommer wohne ich hier im Haus. (Anfangspunkt)\n5. Wir haben uns {5} einer Woche kennengelernt. (Zeitpunkt)\n6. Ich lerne {6} zwei Jahren Deutsch. (dauert an)\n",
+        "type": "gap-text"
+      },
+      "id": "A3",
+      "instructions": "Ergänze die Präposition.",
+      "instructionsEn": "Fill in the preposition.",
+      "title": "seit, vor, für — die drei Zeitfallen"
+    },
+    {
+      "block": "A",
+      "body": {
+        "answers": {
+          "1": [
+            "Wie"
+          ],
+          "2": [
+            "so",
+            "ja"
+          ],
+          "3": [
+            "verstehen"
+          ],
+          "4": [
+            "hast"
+          ],
+          "5": [
+            "ist"
+          ],
+          "6": [
+            "weiter"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. {1} interessant! Und wie bist du darauf gekommen? (Reaktion auf etwas Spannendes)\n2. Ach {2}? Das wusste ich gar nicht. (kurze Rückfrage, zwei Buchstaben)\n3. Das kann ich gut {3}. (nachfühlen)\n4. Wie {4} du das denn gemacht? (Perfekt-Frage: … du das gemacht)\n5. Und was {5} dann passiert? (Perfekt-Hilfsverb zu passieren)\n6. Erzähl {6}! (Aufforderung: mehr davon)\n",
+        "type": "gap-text"
+      },
+      "id": "A4",
+      "instructions": "Ergänze das fehlende Wort.",
+      "instructionsEn": "Fill in the missing word.",
+      "title": "Interesse zeigen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "answers": {
+          "1": [
+            "STOCK"
+          ],
+          "2": [
+            "HIER"
+          ],
+          "3": [
+            "SEIT"
+          ],
+          "4": [
+            "URSPRÜNGLICH"
+          ],
+          "5": [
+            "GELEBT"
+          ],
+          "6": [
+            "INTERESSANT"
+          ],
+          "7": [
+            "OHNE"
+          ],
+          "8": [
+            "MITGEBRACHT"
+          ],
+          "9": [
+            "REDEN"
+          ],
+          "10": [
+            "WENN"
+          ]
+        },
+        "bank": [
+          "STOCK",
+          "HIER",
+          "SEIT",
+          "URSPRÜNGLICH",
+          "GELEBT",
+          "INTERESSANT",
+          "OHNE",
+          "MITGEBRACHT",
+          "REDEN",
+          "WENN",
+          "VOR",
+          "WOHNUNG",
+          "GEGESSEN",
+          "SPRECHEN"
+        ],
+        "text": "— Hallo! Wir kennen uns noch nicht, oder? Ich bin Tobias.\n— Hi, ich bin Carla. Ich wohne im dritten {1} rechts.\n— Ah, die neue Nachbarin! Wie lange bist du schon {2}?\n— {3} letztem Sommer. Und du?\n— Ich bin hier geboren, ehrlich gesagt. Und woher kommst du\n{4}?\n— Aus Porto. Ich habe aber vorher zwei Jahre in Lyon\n{5}.\n— Wie {6}! Und was machst du beruflich?\n— Ich bin Physiotherapeutin. Und du?\n— Ich arbeite bei der Stadt. — Sag mal, hast du Hunger? Ich habe\nauch was {7} Fleisch, falls du kein Fleisch isst.\n— Sehr nett. Ich habe einen Salat {8}, der steht drüben.\n— Super. — Oh, ich glaube, ich muss kurz an den Grill. Wir\n{9} später weiter?\n— Gern. Und {10} ich nächstes Mal etwas mitbringen soll, sag\neinfach Bescheid.\n",
+        "type": "gap-bank"
+      },
+      "id": "B1",
+      "instructions": "Fülle die 10 Lücken mit Wörtern aus dem Kasten. Vier Wörter werden nicht gebraucht. Jedes Wort darf nur einmal verwendet werden.",
+      "instructionsEn": "Fill the 10 gaps with words from the box. Four words are not needed. Each word may be used once.",
+      "title": "Am Grill"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Hallo! Wir kennen uns noch nicht, oder? Ich bin Carla, dritter Stock."
+              },
+              {
+                "key": "b",
+                "text": "Hallo."
+              },
+              {
+                "key": "c",
+                "text": "Warten, bis jemand dich anspricht."
+              }
+            ],
+            "q": "Du kommst an und kennst fast niemanden. — You arrive and hardly know anyone.",
+            "why": "Name plus ein Detail, an dem sich das Gespräch festmachen kann — mehr braucht ein Einstieg nicht."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Ganz gut."
+              },
+              {
+                "key": "b",
+                "text": "Inzwischen sehr gut. Am Anfang war die Sprache schwerer, als ich dachte."
+              },
+              {
+                "key": "c",
+                "text": "Es geht."
+              }
+            ],
+            "q": "Jemand fragt, wie es dir in Deutschland gefällt. — Someone asks how you like it in Germany.",
+            "why": "Eine Bewegung erzählen (vorher/jetzt) statt ein Urteil abgeben — daran kann das Gegenüber anknüpfen."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Soll ich etwas mitbringen? Ich könnte einen Salat machen."
+              },
+              {
+                "key": "b",
+                "text": "Muss ich was mitbringen?"
+              },
+              {
+                "key": "c",
+                "text": "Ich bringe nichts mit, okay?"
+              }
+            ],
+            "q": "Du willst wissen, ob du etwas mitbringen sollst. — You want to know whether to bring something.",
+            "why": "Fragen und gleich einen Vorschlag machen — dann muss der Gastgeber nicht überlegen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Darüber rede ich nicht."
+              },
+              {
+                "key": "b",
+                "text": "Puh, da halte ich mich raus — apropos, weiß jemand, was aus dem Hoffest wird?"
+              },
+              {
+                "key": "c",
+                "text": "Deutlich widersprechen."
+              }
+            ],
+            "q": "Das Gespräch gerät auf Politik und du willst da nicht hin. — The talk turns to politics and you'd rather not.",
+            "why": "Freundlich aussteigen und ein neues Thema anbieten; ein blankes „darüber rede ich nicht“ bleibt im Raum stehen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Einfach weggehen."
+              },
+              {
+                "key": "b",
+                "text": "Ich muss mal kurz — wir reden später weiter, ja?"
+              },
+              {
+                "key": "c",
+                "text": "Ich finde das Gespräch langweilig."
+              }
+            ],
+            "q": "Du willst aus einem Gespräch heraus. — You want to get out of a conversation.",
+            "why": "Ein Grund und die Ankündigung, später weiterzureden: der Standardausstieg, den jeder benutzt."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nicken und hoffen."
+              },
+              {
+                "key": "b",
+                "text": "Ich spreche nicht so gut Deutsch."
+              },
+              {
+                "key": "c",
+                "text": "Entschuldigung, könntest du etwas langsamer sprechen? Mein Deutsch ist noch im Aufbau."
+              }
+            ],
+            "q": "Jemand spricht sehr schnell und du verstehst wenig. — Someone speaks very fast and you understand little.",
+            "why": "Die Bitte plus eine kurze Einordnung — die meisten stellen sich sofort darauf ein."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "B2",
+      "instructions": "Wähle die passende Variante.",
+      "instructionsEn": "Choose the fitting variant.",
+      "title": "Wie sagst du das?"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Das angehängte oder? macht daraus eine freundliche Frage",
+            "tiles": [
+              "Wir",
+              "kennen",
+              "uns",
+              "noch",
+              "nicht",
+              ",",
+              "oder",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "seit + Dativ, im Deutschen mit Präsens",
+            "tiles": [
+              "Ich",
+              "wohne",
+              "seit",
+              "drei",
+              "Jahren",
+              "in",
+              "Deutschland"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "note": "Perfekt: Partizip am Ende",
+            "tiles": [
+              "Ich",
+              "habe",
+              "vorher",
+              "zwei",
+              "Jahre",
+              "in",
+              "Lyon",
+              "gelebt"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "note": "Vergleich mit als; Präteritum bei dachte",
+            "tiles": [
+              "Am",
+              "Anfang",
+              "war",
+              "es",
+              "schwerer",
+              ",",
+              "als",
+              "ich",
+              "dachte"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "Modalverb an Position 1, Infinitiv am Ende",
+            "tiles": [
+              "Soll",
+              "ich",
+              "nächstes",
+              "Mal",
+              "etwas",
+              "mitbringen",
+              "?"
+            ]
+          },
+          {
+            "answer": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "note": "weiterreden: weiter am Satzende",
+            "tiles": [
+              "Wir",
+              "reden",
+              "später",
+              "weiter",
+              ",",
+              "ja",
+              "?"
+            ]
+          }
+        ],
+        "type": "order"
+      },
+      "id": "B3",
+      "instructions": "Bringe die Wörter in die richtige Reihenfolge.",
+      "instructionsEn": "Put the words in the correct order.",
+      "title": "Sätze für den Smalltalk bauen"
+    },
+    {
+      "block": "B",
+      "body": {
+        "items": [
+          {
+            "answer": true,
+            "q": "Man muss keinen eigenen Grill mitbringen. — You don't need to bring your own grill.",
+            "why": "„Der Grill wird gestellt.“"
+          },
+          {
+            "answer": false,
+            "q": "Die Getränke stellt die Hausgemeinschaft. — Drinks are provided by the residents' group.",
+            "why": "Getränke bringt jeder selbst mit."
+          },
+          {
+            "answer": true,
+            "q": "Man soll vorher eintragen, was man mitbringt. — You should write down beforehand what you'll bring.",
+            "why": "„Eine Liste hängt am Briefkasten: Bitte eintragen, was ihr mitbringt.“"
+          },
+          {
+            "answer": false,
+            "q": "Um 23 Uhr darf man noch im Hof sitzen. — At 11 pm you can still sit in the courtyard.",
+            "why": "Nur bis 22 Uhr, danach gilt die Ruhezeit."
+          },
+          {
+            "answer": true,
+            "q": "Für vegetarisches Essen ist ein eigener Bereich vorgesehen. — There's a separate area for vegetarian food.",
+            "why": "„Es gibt einen vegetarischen Grillbereich.“"
+          },
+          {
+            "answer": false,
+            "q": "Die Nachbarn passen gemeinsam auf die Kinder auf. — The neighbours look after the children together.",
+            "why": "„Die Aufsicht bleibt bei den Eltern.“"
+          }
+        ],
+        "negativeLabel": "Falsch",
+        "positiveLabel": "Richtig",
+        "type": "true-false"
+      },
+      "id": "B4",
+      "instructions": "> **Hoffest Lindenweg 8 — Samstag, 14. Juni**\n>\n> - Ab **15 Uhr** Kaffee und Kuchen, ab **18 Uhr** Grill.\n> - **Der Grill wird gestellt.** Fleisch, Gemüse und Getränke\n>   bitte **selbst mitbringen**.\n> - Eine **Liste hängt am Briefkasten**: Bitte eintragen, was ihr\n>   mitbringt, damit wir nicht zehn Nudelsalate haben.\n> - Es gibt einen **vegetarischen Grillbereich** — bitte darauf\n>   achten.\n> - **Bis 22 Uhr** im Hof, danach bitte in die Wohnungen\n>   (Ruhezeit).\n> - **Kinder** sind willkommen; die Aufsicht bleibt bei den\n>   Eltern.\n> - Aufbau **ab 14 Uhr**, Abbau gemeinsam. Wer helfen kann, meldet\n>   sich bei Familie Kern (2. OG).\n\nRichtig (R) oder falsch (F)?\n",
+      "instructionsEn": "True (R) or false (F)?",
+      "title": "Den Aushang zum Hoffest lesen"
+    },
+    {
+      "block": "C",
+      "body": {
+        "items": [
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Aus Porto — und inzwischen aus dem dritten Stock. Wie lange wohnst du schon hier?"
+              },
+              {
+                "key": "b",
+                "text": "Das habe ich doch schon gesagt."
+              },
+              {
+                "key": "c",
+                "text": "Warum fragst du das dauernd?"
+              }
+            ],
+            "q": "Jemand fragt zum dritten Mal, wo du „wirklich“ herkommst. — Someone asks a third time where you're 'really' from.",
+            "why": "Kurz antworten und den Ball zurückspielen — das beendet die Schleife, ohne den Abend zu kippen."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Den Namen vermeiden."
+              },
+              {
+                "key": "b",
+                "text": "Entschuldige, wie war noch mal dein Name? Ich bin schlecht mit Namen."
+              },
+              {
+                "key": "c",
+                "text": "Jemand anderen fragen."
+              }
+            ],
+            "q": "Du hast den Namen deines Gegenübers vergessen. — You've forgotten the other person's name.",
+            "why": "Direkt fragen ist normal und in fünf Sekunden erledigt; Vermeiden dauert den ganzen Abend."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Nein, mein Deutsch ist schlecht."
+              },
+              {
+                "key": "b",
+                "text": "Danke! Es wird — die Artikel machen mir aber immer noch zu schaffen."
+              },
+              {
+                "key": "c",
+                "text": "Ich weiß."
+              }
+            ],
+            "q": "Man lobt dein Deutsch, obwohl du gerade einen Fehler gemacht hast. — Your German is praised right after a mistake.",
+            "why": "Das Lob annehmen und mit einem konkreten Punkt weitermachen — daraus wird oft ein gutes Gespräch."
+          },
+          {
+            "answer": "b",
+            "options": [
+              {
+                "key": "a",
+                "text": "Unterbrechen."
+              },
+              {
+                "key": "b",
+                "text": "Beim nächsten Punkt anknüpfen: „Das kenne ich — bei mir war das ähnlich, als …“"
+              },
+              {
+                "key": "c",
+                "text": "Weghören."
+              }
+            ],
+            "q": "Jemand erzählt sehr lange und du kommst nicht zu Wort. — Someone talks at length and you can't get a word in.",
+            "why": "An etwas Gesagtes anknüpfen ist der natürliche Weg ins Gespräch, ohne jemanden abzuschneiden."
+          },
+          {
+            "answer": "c",
+            "options": [
+              {
+                "key": "a",
+                "text": "Weiterreden, als wäre nichts."
+              },
+              {
+                "key": "b",
+                "text": "Lange erklären, wie du es gemeint hast."
+              },
+              {
+                "key": "c",
+                "text": "Entschuldige, das kam falsch rüber — ich meinte eigentlich …"
+              }
+            ],
+            "q": "Du hast versehentlich etwas Falsches gesagt. — You've accidentally said something wrong.",
+            "why": "Kurz korrigieren und weitergehen; lange Erklärungen machen aus einer Kleinigkeit ein Thema."
+          },
+          {
+            "answer": "a",
+            "options": [
+              {
+                "key": "a",
+                "text": "Beim Gastgeber kurz Bescheid sagen und in die Runde winken."
+              },
+              {
+                "key": "b",
+                "text": "Heimlich verschwinden."
+              },
+              {
+                "key": "c",
+                "text": "Einzeln von allen verabschieden."
+              }
+            ],
+            "q": "Du willst gehen, ohne dich von allen zu verabschieden. — You want to leave without saying goodbye to everyone.",
+            "why": "Beim Gastgeber abmelden ist die Regel; die Runde einzeln durchzugehen erwartet niemand."
+          }
+        ],
+        "type": "single-choice"
+      },
+      "id": "C1",
+      "instructions": "Wähle die beste Reaktion.",
+      "instructionsEn": "Choose the best reaction.",
+      "title": "Unangenehme Momente"
+    },
+    {
+      "block": "C",
+      "body": {
+        "answers": {
+          "1": [
+            "oder"
+          ],
+          "2": [
+            "Name"
+          ],
+          "3": [
+            "raus"
+          ],
+          "4": [
+            "rüber"
+          ],
+          "5": [
+            "weiter"
+          ],
+          "6": [
+            "Bescheid"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir kennen uns noch nicht, {1}? (angehängte Frage)\n2. Entschuldige, wie war noch mal dein {2}? (wie man heißt)\n3. Da halte ich mich {3}. (nicht mitreden)\n4. Das kam falsch {4}. (so ist es angekommen)\n5. Wir reden später {5}. (fortsetzen)\n6. Ich sage kurz beim Gastgeber {6}. (informieren: … sagen)\n",
+        "type": "gap-text"
+      },
+      "id": "C2",
+      "instructions": "Ergänze das passende Wort.",
+      "instructionsEn": "Fill in the fitting word.",
+      "title": "Die richtigen Wörter"
+    },
+    {
+      "block": "D",
+      "body": {
+        "answers": {
+          "1": [
+            "oder"
+          ],
+          "2": [
+            "ursprünglich"
+          ],
+          "3": [
+            "seit"
+          ],
+          "4": [
+            "vor"
+          ],
+          "5": [
+            "für"
+          ],
+          "6": [
+            "gelebt"
+          ],
+          "7": [
+            "interessant"
+          ],
+          "8": [
+            "als"
+          ],
+          "9": [
+            "Soll"
+          ],
+          "10": [
+            "raus"
+          ],
+          "11": [
+            "weiter"
+          ],
+          "12": [
+            "Bescheid"
+          ]
+        },
+        "listLayout": true,
+        "text": "1. Wir kennen uns noch nicht, {1}? (right? / don't we)\n2. Woher kommst du {2}? (originally)\n3. Ich wohne {3} drei Jahren hier. (for — since)\n4. Ich bin {4} drei Jahren hergezogen. (three years ago)\n5. Ich bleibe erst mal {5} ein Jahr. (for — planned duration)\n6. Ich habe vorher in Lyon {6}. (lived — Partizip)\n7. Wie {7}! (how interesting)\n8. Am Anfang war es schwerer, {8} ich dachte. (than)\n9. {9} ich etwas mitbringen? (shall I)\n10. Da halte ich mich {10}. (out of it)\n11. Wir reden später {11}. (carry on)\n12. Ich sage kurz {12}. (let them know)\n",
+        "type": "gap-text"
+      },
+      "id": "D1",
+      "instructions": "Ergänze aus dem Gedächtnis.",
+      "instructionsEn": "Fill in from memory.",
+      "title": "Selbsttest (score yourself /12)"
+    }
+  ],
+  "formatVersion": 1,
+  "id": "sit-36-grillen-und-smalltalk-a2",
+  "intro": "Smalltalk ist die Disziplin, in der Lernende am längsten unsicher bleiben — nicht weil die Sätze schwer wären, sondern weil niemand sagt, worüber man redet. Beim Grillen im Hof ist das Feld klar abgesteckt: Woher kommst du, wie lange bist du schon hier, was machst du beruflich, wie gefällt es dir, das Wetter, das Essen, die Wohnung. Politik, Gehalt und Krankheiten gehören nicht dazu. Genauso wichtig ist der Ausstieg: Wie kommt man höflich aus einem Gespräch heraus, ohne unfreundlich zu wirken? Grammatik nach Bedarf: W-Fragen, Perfekt für Erlebtes, seit + Dativ, Komparativ. Blocks: A Wortschatz & Redemittel → B Dialoge → C Wenn es schiefgeht → D Wiederholung. Answers in solutions.md.\n",
+  "lesson": "SIT/36-grillen-und-smalltalk-a2",
+  "level": "A2",
+  "summary": "Ankommen und etwas mitbringen, jemanden kennenlernen, über sicheres Terrain reden, aussteigen und sich verabschieden.",
+  "title": "Grillen im Hof: Smalltalk auf Deutsch — A2",
+  "topic": "Smalltalk beim Grillen"
+}
