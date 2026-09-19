@@ -26,6 +26,6 @@ Examples:
   feat: add review mode for wrong answers        -> minor release (1.2.0 -> 1.3.0)
   fix(timer): stop counting while paused         -> patch release (1.2.0 -> 1.2.1)
   feat!: require Android 8                       -> major release (1.2.0 -> 2.0.0)
-  docs: explain the release process              -> patch release, listed under Documentation
+  docs: explain the release process              -> no release, listed in the next changelog
 EOF
 exit 1

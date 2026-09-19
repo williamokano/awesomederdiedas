@@ -62,9 +62,17 @@ jobs:
             fi
             tag="v$version"
           else
-            if [ -n "$latest" ] && [ -z "$(git log "$latest..HEAD" --format=%H)" ]; then
-              echo "::error::No commits since $latest, nothing to release"
-              exit 1
+            # Like semantic-release: only feat, fix, perf and breaking changes trigger a release.
+            # ci, docs, chore, test, ... alone don't; they are listed in the next release's changelog.
+            range="${latest:+$latest..}HEAD"
+            releasable=$(git log "$range" --format=%s | grep -Ec '^(feat|fix|perf)(\([^)]*\))?!?: |^[a-z]+(\([^)]*\))?!: ' || true)
+            breaking=$(git log "$range" --format=%b | grep -Ec '^BREAKING[ -]CHANGE: ' || true)
+            if [ "$releasable" -eq 0 ] && [ "$breaking" -eq 0 ]; then
+              message="No feat, fix, perf or breaking commits since ${latest:-the first commit}, nothing to release. Type a version to release anyway."
+              echo "::notice::$message"
+              echo "$message" >> "$GITHUB_STEP_SUMMARY"
+              echo "tag=" >> "$GITHUB_OUTPUT"
+              exit 0
             fi
             tag=$(npx -y git-cliff@2 --bumped-version)
           fi
@@ -73,6 +81,7 @@ jobs:
           echo "tag=$tag" >> "$GITHUB_OUTPUT"
 
       - name: Update CHANGELOG.md
+        if: steps.version.outputs.tag != ''
         env:
           TAG: ${{ steps.version.outputs.tag }}
         run: |
@@ -81,6 +90,7 @@ jobs:
           cat "$RUNNER_TEMP/release-notes.md"
 
       - name: Commit changelog and tag
+        if: steps.version.outputs.tag != ''
         env:
           TAG: ${{ steps.version.outputs.tag }}
         run: |
@@ -93,6 +103,7 @@ jobs:
           git push origin "$TAG"
 
       - name: Create GitHub Release
+        if: steps.version.outputs.tag != ''
         env:
           GH_TOKEN: ${{ github.token }}
           TAG: ${{ steps.version.outputs.tag }}
@@ -104,6 +115,7 @@ jobs:
 
   publish:
     needs: prepare
+    if: needs.prepare.outputs.tag != ''
     permissions:
       contents: write
     uses: ./.github/workflows/release.yml

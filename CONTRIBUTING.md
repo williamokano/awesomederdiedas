@@ -19,15 +19,18 @@ must follow the format:
 | `feat` | A new feature | minor |
 | `fix` | A bug fix | patch |
 | `perf` | A performance improvement | patch |
-| `refactor` | Code change that is neither a fix nor a feature | patch |
-| `docs` | Documentation only | patch |
-| `test` | Adding or fixing tests | patch |
-| `build` | Build system or dependencies | patch |
-| `ci` | GitHub Actions workflows | patch |
-| `chore` / `style` | Maintenance, formatting | patch |
-| `revert` | Reverting a previous commit | patch |
+| `refactor` | Code change that is neither a fix nor a feature | none |
+| `docs` | Documentation only | none |
+| `test` | Adding or fixing tests | none |
+| `build` | Build system or dependencies | none |
+| `ci` | GitHub Actions workflows | none |
+| `chore` / `style` | Maintenance, formatting | none |
+| `revert` | Reverting a previous commit | none |
 
 Add `!` after the type (`feat!: ...`) or a `BREAKING CHANGE:` footer for a major release.
+
+Commits with "none" don't trigger a release on their own. They are included in the changelog
+of the next release made by a `feat`, `fix` or `perf` commit.
 
 Examples:
 

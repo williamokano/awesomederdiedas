@@ -103,9 +103,11 @@ The computed version follows the commits since the last release:
 | --- | --- |
 | Any `feat!:` or `BREAKING CHANGE:` | 2.0.0 |
 | Any `feat:` | 1.3.0 |
-| Anything else (`fix:`, `docs:`, ...) | 1.2.1 |
+| Any `fix:` or `perf:` | 1.2.1 |
+| Only `ci:`, `docs:`, `chore:`, `test:`, ... | No release: the run ends with "nothing to release" |
 
-A typed version must be higher than the latest release. When the workflow finishes, the
+A typed version always creates a release (even with only `ci:` or `docs:` commits), and must be
+higher than the latest release. When the workflow finishes, the
 bundle is in Play Console and the APK is on the repository's **Releases** page.
 
 If publishing fails after the release was created (for example, a missing secret), fix the
