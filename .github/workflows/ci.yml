@@ -27,3 +27,29 @@ jobs:
         with:
           name: test-reports
           path: app/build/reports/tests/
+
+  release-build:
+    # The release build runs R8 (minify + resource shrinking), which the debug build
+    # does not. Building it here catches missing keep rules before a release, instead
+    # of at publish time. The APK is unsigned: signing secrets are not needed to
+    # verify that R8 succeeds.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - uses: gradle/actions/setup-gradle@v6
+
+      - name: Build minified release
+        run: ./gradlew assembleRelease
+
+      - name: Upload R8 reports
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: r8-reports
+          path: app/build/outputs/mapping/release/
