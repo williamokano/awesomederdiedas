@@ -185,9 +185,9 @@ private fun ResultBanner(
             Column(modifier = Modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
                 Text(
                     text = if (correct) {
-                        "✓  ${StringResources.correct(language)}"
+                        StringResources.correctFeedback(language)
                     } else {
-                        "✗  ${StringResources.notQuite(language)}"
+                        StringResources.wrongFeedback(language)
                     },
                     style = MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.Bold,
@@ -237,7 +237,7 @@ private fun SessionSummary(
             modifier = Modifier.padding(top = 16.dp),
         )
         Text(
-            StringResources.accuracy(language, session.accuracyPercentage),
+            StringResources.firstTryAccuracy(language, session.accuracyPercentage),
             style = MaterialTheme.typography.titleLarge,
             color = MaterialTheme.colorScheme.primary,
             modifier = Modifier.padding(top = 8.dp),
