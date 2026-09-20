@@ -237,16 +237,6 @@ object StringResources {
         Language.PORTUGUESE -> "Continuar"
     }
 
-    fun correct(language: Language) = when (language) {
-        Language.ENGLISH -> "Correct!"
-        Language.PORTUGUESE -> "Correto!"
-    }
-
-    fun notQuite(language: Language) = when (language) {
-        Language.ENGLISH -> "Not quite"
-        Language.PORTUGUESE -> "Quase lá"
-    }
-
     fun gapsCorrect(language: Language, correct: Int, total: Int) = when (language) {
         Language.ENGLISH -> "$correct of $total gaps correct"
         Language.PORTUGUESE -> "$correct de $total lacunas corretas"
@@ -257,7 +247,7 @@ object StringResources {
         Language.PORTUGUESE -> "Sessão concluída"
     }
 
-    fun accuracy(language: Language, percentage: Int) = when (language) {
+    fun firstTryAccuracy(language: Language, percentage: Int) = when (language) {
         Language.ENGLISH -> "$percentage% first-try accuracy"
         Language.PORTUGUESE -> "$percentage% de acerto na primeira tentativa"
     }
