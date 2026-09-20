@@ -33,6 +33,7 @@ import okano.dev.android.derdiedas.ui.resources.StringResources
 fun HomeScreen(
     language: Language,
     onNewGameClick: () -> Unit,
+    onExercisesClick: () -> Unit,
     onHistoryClick: () -> Unit,
     onSettingsClick: () -> Unit,
     onEasterEggClick: () -> Unit = {},
@@ -102,6 +103,26 @@ fun HomeScreen(
         ) {
             Text(
                 text = StringResources.newGame(language),
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold
+            )
+        }
+
+        Spacer(modifier = Modifier.height(24.dp))
+
+        // Exercises Button
+        Button(
+            onClick = onExercisesClick,
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(70.dp),
+            shape = RoundedCornerShape(16.dp),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = MaterialTheme.colorScheme.tertiary
+            )
+        ) {
+            Text(
+                text = StringResources.exercises(language),
                 fontSize = 24.sp,
                 fontWeight = FontWeight.Bold
             )

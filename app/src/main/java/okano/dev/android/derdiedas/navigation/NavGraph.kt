@@ -8,9 +8,14 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
-import okano.dev.android.derdiedas.data.repository.GameSessionRepository
-import okano.dev.android.derdiedas.data.repository.NounRepository
-import okano.dev.android.derdiedas.data.preferences.AppPreferences
+import okano.dev.android.derdiedas.data.exercise.model.Block
+import okano.dev.android.derdiedas.di.AppContainer
+import okano.dev.android.derdiedas.ui.exercise.catalog.ExerciseCatalogScreen
+import okano.dev.android.derdiedas.ui.exercise.catalog.ExerciseCatalogViewModel
+import okano.dev.android.derdiedas.ui.exercise.catalog.ExerciseCatalogViewModelFactory
+import okano.dev.android.derdiedas.ui.exercise.session.ExerciseSessionScreen
+import okano.dev.android.derdiedas.ui.exercise.session.ExerciseSessionViewModel
+import okano.dev.android.derdiedas.ui.exercise.session.ExerciseSessionViewModelFactory
 import okano.dev.android.derdiedas.ui.cardselection.CardSelectionScreen
 import okano.dev.android.derdiedas.ui.flashcard.FlashcardScreen
 import okano.dev.android.derdiedas.ui.flashcard.FlashcardViewModel
@@ -37,6 +42,12 @@ sealed class Screen(val route: String) {
             "results/$correct/$wrong/$duration/$cardsPerMinute"
     }
     object History : Screen("history")
+    object ExerciseCatalog : Screen("exercises")
+
+    // Set ids are already slugged by the sync tool, so no escaping is needed here.
+    object ExerciseSession : Screen("exercises/{setId}/{block}/{part}") {
+        fun createRoute(setId: String, block: Block, part: Int) = "exercises/$setId/${block.name}/$part"
+    }
     object Settings : Screen("settings")
     object EasterEgg : Screen("easter_egg")
 }
@@ -44,11 +55,14 @@ sealed class Screen(val route: String) {
 @Composable
 fun AppNavGraph(
     navController: NavHostController,
-    nounRepository: NounRepository,
-    gameSessionRepository: GameSessionRepository,
-    appPreferences: AppPreferences,
+    container: AppContainer,
     modifier: Modifier = Modifier
 ) {
+    val nounRepository = container.nounRepository
+    val gameSessionRepository = container.gameSessionRepository
+    val appPreferences = container.appPreferences
+    val exerciseRepository = container.exerciseRepository
+
     NavHost(
         navController = navController,
         startDestination = Screen.Home.route,
@@ -68,6 +82,9 @@ fun AppNavGraph(
                         // Save state to prevent flicker on back
                         restoreState = true
                     }
+                },
+                onExercisesClick = {
+                    navController.navigate(Screen.ExerciseCatalog.route)
                 },
                 onSettingsClick = {
                     navController.navigate(Screen.Settings.route)
@@ -176,6 +193,45 @@ fun AppNavGraph(
                 onBackClick = {
                     navController.popBackStack()
                 }
+            )
+        }
+
+        // Exercise catalog
+        composable(Screen.ExerciseCatalog.route) {
+            val viewModel: ExerciseCatalogViewModel = viewModel(
+                factory = ExerciseCatalogViewModelFactory(exerciseRepository, initialLevel = null)
+            )
+            ExerciseCatalogScreen(
+                viewModel = viewModel,
+                language = appPreferences.getLanguage(),
+                onStartSession = { setId, block, part ->
+                    navController.navigate(Screen.ExerciseSession.createRoute(setId, block, part))
+                },
+                onBackClick = { navController.popBackStack() }
+            )
+        }
+
+        // Exercise session
+        composable(
+            route = Screen.ExerciseSession.route,
+            arguments = listOf(
+                navArgument("setId") { type = NavType.StringType },
+                navArgument("block") { type = NavType.StringType },
+                navArgument("part") { type = NavType.IntType }
+            )
+        ) { backStackEntry ->
+            val setId = backStackEntry.arguments?.getString("setId").orEmpty()
+            val blockName = backStackEntry.arguments?.getString("block") ?: Block.A.name
+            val part = backStackEntry.arguments?.getInt("part") ?: 0
+            val block = runCatching { Block.valueOf(blockName) }.getOrDefault(Block.A)
+
+            val viewModel: ExerciseSessionViewModel = viewModel(
+                factory = ExerciseSessionViewModelFactory(exerciseRepository, setId, block, part)
+            )
+            ExerciseSessionScreen(
+                viewModel = viewModel,
+                language = appPreferences.getLanguage(),
+                onExit = { navController.popBackStack() }
             )
         }
 

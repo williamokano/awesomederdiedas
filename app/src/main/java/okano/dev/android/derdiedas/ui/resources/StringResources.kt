@@ -163,4 +163,122 @@ object StringResources {
         Language.ENGLISH -> "minutes"
         Language.PORTUGUESE -> "minutos"
     }
+
+    // Exercises
+    fun exercises(language: Language) = when (language) {
+        Language.ENGLISH -> "Exercises"
+        Language.PORTUGUESE -> "Exercícios"
+    }
+
+    fun allLevels(language: Language) = when (language) {
+        Language.ENGLISH -> "All"
+        Language.PORTUGUESE -> "Todos"
+    }
+
+    fun practise(language: Language) = when (language) {
+        Language.ENGLISH -> "Practise"
+        Language.PORTUGUESE -> "Praticar"
+    }
+
+    fun exerciseCount(language: Language, count: Int) = when (language) {
+        Language.ENGLISH -> "$count exercises"
+        Language.PORTUGUESE -> "$count exercícios"
+    }
+
+    /**
+     * Block names come from the content repo and stay German, the way a course book would
+     * keep them, with a gloss in the reader's language.
+     */
+    fun blockName(language: Language, block: String): String {
+        val german = when (block) {
+            "H" -> "Hören"
+            "A" -> "Basistraining"
+            "B" -> "Vertiefung"
+            "C" -> "Prüfungstraining"
+            "D" -> "Wiederholung"
+            else -> "Prüfung"
+        }
+        val gloss = when (block) {
+            "H" -> when (language) {
+                Language.ENGLISH -> "Listening"
+                Language.PORTUGUESE -> "Compreensão oral"
+            }
+            "A" -> when (language) {
+                Language.ENGLISH -> "Basics"
+                Language.PORTUGUESE -> "Básico"
+            }
+            "B" -> when (language) {
+                Language.ENGLISH -> "In depth"
+                Language.PORTUGUESE -> "Aprofundamento"
+            }
+            "C" -> when (language) {
+                Language.ENGLISH -> "Exam practice"
+                Language.PORTUGUESE -> "Preparação para exame"
+            }
+            "D" -> when (language) {
+                Language.ENGLISH -> "Review"
+                Language.PORTUGUESE -> "Revisão"
+            }
+            else -> when (language) {
+                Language.ENGLISH -> "Exam"
+                Language.PORTUGUESE -> "Exame"
+            }
+        }
+        return "$german · $gloss"
+    }
+
+    fun check(language: Language) = when (language) {
+        Language.ENGLISH -> "Check"
+        Language.PORTUGUESE -> "Verificar"
+    }
+
+    fun continueLabel(language: Language) = when (language) {
+        Language.ENGLISH -> "Continue"
+        Language.PORTUGUESE -> "Continuar"
+    }
+
+    fun correct(language: Language) = when (language) {
+        Language.ENGLISH -> "Correct!"
+        Language.PORTUGUESE -> "Correto!"
+    }
+
+    fun notQuite(language: Language) = when (language) {
+        Language.ENGLISH -> "Not quite"
+        Language.PORTUGUESE -> "Quase lá"
+    }
+
+    fun gapsCorrect(language: Language, correct: Int, total: Int) = when (language) {
+        Language.ENGLISH -> "$correct of $total gaps correct"
+        Language.PORTUGUESE -> "$correct de $total lacunas corretas"
+    }
+
+    fun sessionComplete(language: Language) = when (language) {
+        Language.ENGLISH -> "Session complete"
+        Language.PORTUGUESE -> "Sessão concluída"
+    }
+
+    fun accuracy(language: Language, percentage: Int) = when (language) {
+        Language.ENGLISH -> "$percentage% first-try accuracy"
+        Language.PORTUGUESE -> "$percentage% de acerto na primeira tentativa"
+    }
+
+    fun stepsMastered(language: Language, mastered: Int, total: Int) = when (language) {
+        Language.ENGLISH -> "$mastered of $total answered correctly"
+        Language.PORTUGUESE -> "$mastered de $total respondidos corretamente"
+    }
+
+    fun stillToReview(language: Language, count: Int) = when (language) {
+        Language.ENGLISH -> "$count still to review"
+        Language.PORTUGUESE -> "$count ainda para revisar"
+    }
+
+    fun done(language: Language) = when (language) {
+        Language.ENGLISH -> "Done"
+        Language.PORTUGUESE -> "Concluir"
+    }
+
+    fun tryAgain(language: Language) = when (language) {
+        Language.ENGLISH -> "Try again"
+        Language.PORTUGUESE -> "Tentar novamente"
+    }
 }
