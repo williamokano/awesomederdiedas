@@ -15,10 +15,12 @@ import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.unit.dp
+import okano.dev.android.derdiedas.ui.exercise.ExerciseTestTags
 import okano.dev.android.derdiedas.core.exercise.AnswerState
 import okano.dev.android.derdiedas.core.exercise.GapSegment
 import okano.dev.android.derdiedas.core.exercise.GapTextStep
@@ -148,7 +150,7 @@ private fun GapField(
                 capitalization = KeyboardCapitalization.None,
                 imeAction = ImeAction.Done,
             ),
-            modifier = Modifier.fillMaxWidth(),
+            modifier = Modifier.fillMaxWidth().testTag(ExerciseTestTags.GAP_FIELD),
         )
 
         if (showInlineResult && itemResult != null) {
@@ -209,6 +211,7 @@ private fun OptionChips(
                         modifier = Modifier.padding(vertical = 6.dp),
                     )
                 },
+                modifier = Modifier.testTag(ExerciseTestTags.OPTION),
                 colors = if (container == null) {
                     FilterChipDefaults.filterChipColors()
                 } else {

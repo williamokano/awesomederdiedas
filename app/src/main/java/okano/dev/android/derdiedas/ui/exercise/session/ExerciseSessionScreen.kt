@@ -29,8 +29,10 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import okano.dev.android.derdiedas.ui.exercise.ExerciseTestTags
 import okano.dev.android.derdiedas.core.exercise.AnswerState
 import okano.dev.android.derdiedas.core.exercise.ChoiceStep
 import okano.dev.android.derdiedas.core.exercise.GapTextStep
@@ -101,7 +103,7 @@ private fun ActiveSession(
             TextButton(onClick = onExit) { Text("✕") }
             LinearProgressIndicator(
                 progress = { session.progress },
-                modifier = Modifier.weight(1f).height(10.dp),
+                modifier = Modifier.weight(1f).height(10.dp).testTag(ExerciseTestTags.SESSION_PROGRESS),
                 strokeCap = androidx.compose.ui.graphics.StrokeCap.Round,
             )
         }
@@ -147,7 +149,11 @@ private fun ActiveSession(
         if (!graded) {
             Button(
                 onClick = viewModel::onCheck,
-                modifier = Modifier.fillMaxWidth().padding(24.dp).height(56.dp),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(24.dp)
+                    .height(56.dp)
+                    .testTag(ExerciseTestTags.CHECK_BUTTON),
                 shape = RoundedCornerShape(16.dp),
             ) {
                 Text(StringResources.check(language), fontWeight = FontWeight.Bold)
@@ -202,7 +208,7 @@ private fun ResultBanner(
         Surface(
             color = if (correct) feedback.correctContainer else feedback.wrongContainer,
             contentColor = if (correct) feedback.onCorrectContainer else feedback.onWrongContainer,
-            modifier = Modifier.fillMaxWidth(),
+            modifier = Modifier.fillMaxWidth().testTag(ExerciseTestTags.RESULT_BANNER),
         ) {
             Column(modifier = Modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
                 Text(
@@ -242,7 +248,10 @@ private fun ResultBanner(
                 }
                 Button(
                     onClick = onContinue,
-                    modifier = Modifier.fillMaxWidth().height(52.dp),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(52.dp)
+                        .testTag(ExerciseTestTags.CONTINUE_BUTTON),
                     shape = RoundedCornerShape(16.dp),
                     colors = ButtonDefaults.buttonColors(
                         containerColor = if (correct) feedback.correct else feedback.wrong,

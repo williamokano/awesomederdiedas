@@ -31,8 +31,10 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import okano.dev.android.derdiedas.ui.exercise.ExerciseTestTags
 import okano.dev.android.derdiedas.data.exercise.model.Block
 import okano.dev.android.derdiedas.data.exercise.model.BlockSummary
 import okano.dev.android.derdiedas.data.exercise.model.ExerciseCollection
@@ -96,6 +98,7 @@ fun ExerciseCatalogScreen(
                                 selected = index == selectedIndex,
                                 onClick = { viewModel.onLevelSelected(level) },
                                 text = { Text(level.name) },
+                                modifier = Modifier.testTag(ExerciseTestTags.LEVEL_TAB),
                             )
                         }
                     }
@@ -123,7 +126,10 @@ private fun ExerciseSetCard(
     var expanded by remember(summary.id) { mutableStateOf(false) }
 
     Card(
-        modifier = Modifier.fillMaxWidth().clickable { expanded = !expanded },
+        modifier = Modifier
+            .fillMaxWidth()
+            .testTag(ExerciseTestTags.SET_CARD)
+            .clickable { expanded = !expanded },
         shape = RoundedCornerShape(16.dp),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
     ) {
@@ -189,7 +195,11 @@ private fun BlockRow(
                 color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f),
             )
         }
-        Button(onClick = { onStartSession(setId, block.block, 0) }, shape = RoundedCornerShape(12.dp)) {
+        Button(
+            onClick = { onStartSession(setId, block.block, 0) },
+            shape = RoundedCornerShape(12.dp),
+            modifier = Modifier.testTag(ExerciseTestTags.PRACTISE_BUTTON),
+        ) {
             Text(StringResources.practise(language))
         }
     }
