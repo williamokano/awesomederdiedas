@@ -77,7 +77,10 @@ sealed interface AnswerState {
 fun AnswerState.asTexts(): AnswerState.Texts = this as? AnswerState.Texts
     ?: error("expected AnswerState.Texts for this step but was ${this::class.simpleName}")
 
-private val PLACEHOLDER = Regex("""\{(\d+)}""")
+// Both braces are escaped on purpose. Java's regex engine tolerates a bare closing "}",
+// but Android's ICU-backed engine rejects the pattern outright, and the failure is a
+// crash in the static initialiser rather than anything a JVM unit test can reach.
+private val PLACEHOLDER = Regex("""\{(\d+)\}""")
 private val NUMBERED_LINE = Regex("""^\s*\d+[.)]\s?""")
 
 /** Splits `"Ich {1} gern"` into literal and gap segments, preserving order. */
