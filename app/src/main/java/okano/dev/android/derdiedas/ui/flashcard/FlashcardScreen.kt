@@ -36,6 +36,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.text.font.FontWeight
@@ -43,6 +44,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
+import okano.dev.android.derdiedas.ui.exercise.ExerciseTestTags
 import okano.dev.android.derdiedas.data.model.Article
 import okano.dev.android.derdiedas.ui.resources.StringResources
 
@@ -364,7 +366,8 @@ fun ArticleButtons(
                 enabled = !isAnswered,
                 modifier = Modifier
                     .weight(1f)
-                    .height(64.dp),
+                    .height(64.dp)
+                    .testTag(ExerciseTestTags.ARTICLE_BUTTON),
                 shape = RoundedCornerShape(12.dp),
                 colors = ButtonDefaults.buttonColors(
                     containerColor = buttonColor,

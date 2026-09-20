@@ -21,4 +21,11 @@ object ExerciseTestTags {
 
     const val GAP_FIELD = "gap_field"
     const val OPTION = "option"
+    const val SESSION_SUMMARY = "session_summary"
+
+    // The original flashcard flow, which has no coverage of its own and shares the
+    // navigation and dependency wiring the exercise work refactored.
+    const val NEW_GAME_ENTRY = "new_game_entry"
+    const val CARD_COUNT_OPTION = "card_count_option"
+    const val ARTICLE_BUTTON = "article_button"
 }
