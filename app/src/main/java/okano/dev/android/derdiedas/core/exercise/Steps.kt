@@ -3,6 +3,9 @@ package okano.dev.android.derdiedas.core.exercise
 import okano.dev.android.derdiedas.data.exercise.model.Exercise
 import okano.dev.android.derdiedas.data.exercise.model.ExerciseBody
 import okano.dev.android.derdiedas.data.exercise.model.GapTextBody
+import okano.dev.android.derdiedas.data.exercise.model.OddOneOutBody
+import okano.dev.android.derdiedas.data.exercise.model.SingleChoiceBody
+import okano.dev.android.derdiedas.data.exercise.model.TrueFalseBody
 
 /**
  * Turns authored exercises into the units the session runner presents, one per screen.
@@ -63,6 +66,33 @@ data class GapTextStep(
     override fun emptyAnswer() = AnswerState.Texts()
 }
 
+/** One option to pick. [key] is what grading compares; [text] is what the learner reads. */
+data class ChoiceOption(val key: String, val text: String)
+
+/**
+ * Pick one of a few options.
+ *
+ * single-choice, true-false and odd-one-out are the same interaction wearing different
+ * clothes, so they share a step and a widget rather than three near-identical ones. Only
+ * the shape of the options differs: named options, two labels, or the members of a group.
+ */
+data class ChoiceStep(
+    override val id: StepId,
+    override val exerciseId: String,
+    override val title: String,
+    override val instructions: String?,
+    override val instructionsEn: String?,
+    override val flags: GradingFlags,
+    /** The question. Null for odd-one-out, where the options themselves are the question. */
+    val prompt: String?,
+    val options: List<ChoiceOption>,
+    val answerKey: String,
+    /** Why that answer is right. Every item in the corpus has one, so it always shows. */
+    val why: String?,
+) : SessionStep {
+    override fun emptyAnswer() = AnswerState.Choice()
+}
+
 /**
  * Every exercise type's answer reduces to one of four shapes, which is what lets the
  * session runner stay type-agnostic. Only [Texts] is used until PR3; the rest are
@@ -84,6 +114,9 @@ sealed interface AnswerState {
 
 fun AnswerState.asTexts(): AnswerState.Texts = this as? AnswerState.Texts
     ?: error("expected AnswerState.Texts for this step but was ${this::class.simpleName}")
+
+fun AnswerState.asChoice(): AnswerState.Choice = this as? AnswerState.Choice
+    ?: error("expected AnswerState.Choice for this step but was ${this::class.simpleName}")
 
 // Both braces are escaped on purpose. Java's regex engine tolerates a bare closing "}",
 // but Android's ICU-backed engine rejects the pattern outright, and the failure is a
@@ -118,11 +151,84 @@ private fun gapKeysOf(segments: List<GapSegment>): List<String> =
  */
 fun Exercise.toSteps(setId: String): List<SessionStep> = when (val body = body) {
     is GapTextBody -> gapTextSteps(setId, body)
+    is SingleChoiceBody -> singleChoiceSteps(setId, body)
+    is TrueFalseBody -> trueFalseSteps(setId, body)
+    is OddOneOutBody -> oddOneOutSteps(setId, body)
 
-    // PR2: table-fill. PR3: single-choice, true-false, odd-one-out.
-    // PR4: gap-bank. PR5: matching, categorize. PR6: order.
+    // PR2: table-fill. PR4: gap-bank. PR5: matching, categorize. PR6: order.
     else -> emptyList()
 }
+
+private fun Exercise.choiceStep(
+    setId: String,
+    index: Int,
+    prompt: String?,
+    options: List<ChoiceOption>,
+    answerKey: String,
+    why: String?,
+): ChoiceStep? {
+    // An answer that names no option would be unanswerable, so drop the step rather than
+    // show the learner something they cannot get right.
+    if (options.none { it.key == answerKey }) return null
+    return ChoiceStep(
+        id = StepId("$setId#$id#$index"),
+        exerciseId = id,
+        title = title,
+        instructions = instructions,
+        instructionsEn = instructionsEn,
+        flags = flags,
+        prompt = prompt,
+        options = options,
+        answerKey = answerKey,
+        why = why,
+    )
+}
+
+/** Each question is independent, so each becomes its own screen. */
+private fun Exercise.singleChoiceSteps(setId: String, body: SingleChoiceBody): List<SessionStep> =
+    body.items.mapIndexedNotNull { index, item ->
+        choiceStep(
+            setId = setId,
+            index = index,
+            prompt = item.q,
+            options = item.options.map { ChoiceOption(it.key, it.text) },
+            answerKey = item.answer,
+            why = item.why,
+        )
+    }
+
+/** True/false is a two-option choice; the labels are the exercise's own wording. */
+private fun Exercise.trueFalseSteps(setId: String, body: TrueFalseBody): List<SessionStep> =
+    body.items.mapIndexedNotNull { index, item ->
+        choiceStep(
+            setId = setId,
+            index = index,
+            prompt = item.q,
+            options = listOf(
+                ChoiceOption(TRUE_KEY, body.positiveLabel),
+                ChoiceOption(FALSE_KEY, body.negativeLabel),
+            ),
+            answerKey = if (item.answer) TRUE_KEY else FALSE_KEY,
+            why = item.why,
+        )
+    }
+
+/** The group's members are the options, and the odd one out is the answer. */
+private fun Exercise.oddOneOutSteps(setId: String, body: OddOneOutBody): List<SessionStep> =
+    body.groups.mapIndexedNotNull { index, group ->
+        choiceStep(
+            setId = setId,
+            index = index,
+            // The instruction already asks which one does not belong.
+            prompt = null,
+            options = group.items.mapIndexed { position, text -> ChoiceOption(position.toString(), text) },
+            answerKey = group.odd.toString(),
+            why = group.why,
+        )
+    }
+
+private const val TRUE_KEY = "true"
+private const val FALSE_KEY = "false"
 
 /**
  * The exercise's answers as a small closed set, when it has one.

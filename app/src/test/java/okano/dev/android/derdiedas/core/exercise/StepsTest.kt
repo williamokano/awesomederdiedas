@@ -4,7 +4,16 @@ import okano.dev.android.derdiedas.data.exercise.model.Block
 import okano.dev.android.derdiedas.data.exercise.model.Exercise
 import okano.dev.android.derdiedas.data.exercise.model.GapBankBody
 import okano.dev.android.derdiedas.data.exercise.model.GapTextBody
+import okano.dev.android.derdiedas.data.exercise.model.OddOneOutBody
+import okano.dev.android.derdiedas.data.exercise.model.OddOneOutGroup
+import okano.dev.android.derdiedas.data.exercise.model.Option
+import okano.dev.android.derdiedas.data.exercise.model.SingleChoiceBody
+import okano.dev.android.derdiedas.data.exercise.model.SingleChoiceItem
+import okano.dev.android.derdiedas.data.exercise.model.TrueFalseBody
+import okano.dev.android.derdiedas.data.exercise.model.TrueFalseItem
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
 import org.junit.Test
 
@@ -306,5 +315,149 @@ class StepGraderTest {
         val strict = step(mapOf("1" to listOf("heiße")), flags = GradingFlags(strictUmlaut = true))
         assertTrue(!gradeStep(strict, AnswerState.Texts(mapOf("1" to "heisse"))).correct)
         assertTrue(gradeStep(strict, AnswerState.Texts(mapOf("1" to "heiße"))).correct)
+    }
+}
+
+class ChoiceStepsTest {
+
+    private fun exercise(body: okano.dev.android.derdiedas.data.exercise.model.ExerciseBody) = Exercise(
+        id = "B2",
+        block = Block.B,
+        title = "Wähle",
+        instructions = "Wähle die passende Variante.",
+        body = body,
+    )
+
+    @Test
+    fun `each single-choice question becomes its own step`() {
+        val body = SingleChoiceBody(
+            items = listOf(
+                SingleChoiceItem(
+                    q = "Frage eins?",
+                    options = listOf(Option("a", "falsch"), Option("b", "richtig")),
+                    answer = "b",
+                    why = "weil b",
+                ),
+                SingleChoiceItem(
+                    q = "Frage zwei?",
+                    options = listOf(Option("a", "ja"), Option("b", "nein")),
+                    answer = "a",
+                ),
+            ),
+        )
+
+        val steps = exercise(body).toSteps("s").filterIsInstance<ChoiceStep>()
+
+        assertEquals(2, steps.size)
+        assertEquals("Frage eins?", steps[0].prompt)
+        assertEquals("b", steps[0].answerKey)
+        assertEquals("weil b", steps[0].why)
+        assertEquals(listOf("falsch", "richtig"), steps[0].options.map { it.text })
+    }
+
+    @Test
+    fun `true-false becomes a two-option choice using the exercise's own labels`() {
+        val body = TrueFalseBody(
+            positiveLabel = "Stimmt",
+            negativeLabel = "Stimmt nicht",
+            items = listOf(TrueFalseItem(q = "Berlin liegt in Deutschland.", answer = true, why = "Hauptstadt")),
+        )
+
+        val step = exercise(body).toSteps("s").filterIsInstance<ChoiceStep>().single()
+
+        assertEquals(listOf("Stimmt", "Stimmt nicht"), step.options.map { it.text })
+        assertEquals(step.options.first().key, step.answerKey)
+    }
+
+    @Test
+    fun `a false answer points at the negative option`() {
+        val body = TrueFalseBody(items = listOf(TrueFalseItem(q = "Falsch.", answer = false)))
+
+        val step = exercise(body).toSteps("s").filterIsInstance<ChoiceStep>().single()
+
+        assertEquals(step.options[1].key, step.answerKey)
+    }
+
+    @Test
+    fun `odd-one-out offers the group and has no prompt of its own`() {
+        val body = OddOneOutBody(
+            groups = listOf(
+                OddOneOutGroup(items = listOf("Hallo", "Guten Tag", "Tschüss"), odd = 2, why = "Abschied"),
+            ),
+        )
+
+        val step = exercise(body).toSteps("s").filterIsInstance<ChoiceStep>().single()
+
+        // The instruction already asks which one does not belong.
+        assertNull(step.prompt)
+        assertEquals(listOf("Hallo", "Guten Tag", "Tschüss"), step.options.map { it.text })
+        assertEquals("2", step.answerKey)
+    }
+
+    @Test
+    fun `an answer naming no option is dropped rather than shown unanswerable`() {
+        val body = SingleChoiceBody(
+            items = listOf(
+                SingleChoiceItem(q = "Kaputt", options = listOf(Option("a", "eins")), answer = "zzz"),
+                SingleChoiceItem(q = "Gut", options = listOf(Option("a", "eins")), answer = "a"),
+            ),
+        )
+
+        val steps = exercise(body).toSteps("s").filterIsInstance<ChoiceStep>()
+
+        assertEquals(1, steps.size)
+        assertEquals("Gut", steps.single().prompt)
+    }
+
+    @Test
+    fun `an out-of-range odd index is dropped`() {
+        val body = OddOneOutBody(groups = listOf(OddOneOutGroup(items = listOf("a", "b"), odd = 9)))
+
+        assertTrue(exercise(body).toSteps("s").isEmpty())
+    }
+}
+
+class ChoiceGraderTest {
+
+    private fun step(answerKey: String = "b", why: String? = "weil") = ChoiceStep(
+        id = StepId("s#B2#0"),
+        exerciseId = "B2",
+        title = "t",
+        instructions = null,
+        instructionsEn = null,
+        flags = GradingFlags(),
+        prompt = "Frage?",
+        options = listOf(ChoiceOption("a", "erste"), ChoiceOption("b", "zweite")),
+        answerKey = answerKey,
+        why = why,
+    )
+
+    @Test
+    fun `the right option is correct`() {
+        val result = gradeStep(step(), AnswerState.Choice("b"))
+        assertTrue(result.correct)
+    }
+
+    @Test
+    fun `the wrong option is wrong and reports both texts, not keys`() {
+        val result = gradeStep(step(), AnswerState.Choice("a"))
+
+        assertFalse(result.correct)
+        // "a" and "b" mean nothing to a learner; the option text does.
+        assertEquals("erste", result.items.single().given)
+        assertEquals("zweite", result.items.single().expected)
+    }
+
+    @Test
+    fun `no selection is wrong rather than crashing`() {
+        val result = gradeStep(step(), AnswerState.Choice(null))
+
+        assertFalse(result.correct)
+        assertEquals("", result.items.single().given)
+    }
+
+    @Test
+    fun `the explanation rides along for the banner`() {
+        assertEquals("weil", gradeStep(step(), AnswerState.Choice("a")).items.single().note)
     }
 }
