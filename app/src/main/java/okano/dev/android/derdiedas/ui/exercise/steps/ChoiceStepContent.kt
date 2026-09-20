@@ -13,9 +13,11 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import okano.dev.android.derdiedas.ui.exercise.ExerciseTestTags
 import okano.dev.android.derdiedas.core.exercise.AnswerState
 import okano.dev.android.derdiedas.core.exercise.ChoiceOption
 import okano.dev.android.derdiedas.core.exercise.ChoiceStep
@@ -108,7 +110,7 @@ private fun ChoiceRow(
         border = CardDefaults.outlinedCardBorder(enabled = !graded).let { default ->
             if (accent == null) default else androidx.compose.foundation.BorderStroke(2.dp, accent)
         },
-        modifier = Modifier.fillMaxWidth(),
+        modifier = Modifier.fillMaxWidth().testTag(ExerciseTestTags.OPTION),
     ) {
         Row(
             modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 14.dp),
