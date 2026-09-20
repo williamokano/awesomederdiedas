@@ -132,6 +132,94 @@ class StepsTest {
     }
 
     @Test
+    fun `a closed answer set becomes tappable options`() {
+        // The whole exercise only ever answers der, die or das, so typing is the wrong
+        // input. Options come from the exercise, not the gap, so nothing is given away.
+        val body = GapTextBody(
+            text = "1. ___ Kaffee {1}\n2. ___ Milch {2}\n3. ___ Wasser {3}",
+            answers = mapOf("1" to listOf("der"), "2" to listOf("die"), "3" to listOf("das")),
+            listLayout = true,
+        )
+
+        val steps = exercise(body).toSteps("a1-01").filterIsInstance<GapTextStep>()
+
+        assertEquals(3, steps.size)
+        // Every step offers all three, in a stable order, whatever its own answer is.
+        steps.forEach { assertEquals(listOf("das", "der", "die"), it.options) }
+    }
+
+    @Test
+    fun `a wide answer set stays free text`() {
+        val body = GapTextBody(
+            text = "1. a {1}\n2. b {2}\n3. c {3}\n4. d {4}\n5. e {5}",
+            answers = mapOf(
+                "1" to listOf("eins"), "2" to listOf("zwei"), "3" to listOf("drei"),
+                "4" to listOf("vier"), "5" to listOf("fuenf"),
+            ),
+            listLayout = true,
+        )
+
+        exercise(body).toSteps("x").filterIsInstance<GapTextStep>()
+            .forEach { assertTrue("should be free text", it.options.isEmpty()) }
+    }
+
+    @Test
+    fun `a single distinct answer stays free text`() {
+        // Offering one chip would simply hand over the answer.
+        val body = GapTextBody(
+            text = "1. a {1}\n2. b {2}",
+            answers = mapOf("1" to listOf("ist"), "2" to listOf("ist")),
+            listLayout = true,
+        )
+
+        exercise(body).toSteps("x").filterIsInstance<GapTextStep>()
+            .forEach { assertTrue(it.options.isEmpty()) }
+    }
+
+    @Test
+    fun `multi-word answers stay free text`() {
+        val body = GapTextBody(
+            text = "1. a {1}\n2. b {2}",
+            answers = mapOf("1" to listOf("guten Tag"), "2" to listOf("gute Nacht")),
+            listLayout = true,
+        )
+
+        exercise(body).toSteps("x").filterIsInstance<GapTextStep>()
+            .forEach { assertTrue(it.options.isEmpty()) }
+    }
+
+    @Test
+    fun `case-sensitive exercises stay free text`() {
+        // A single lowercase chip could not answer a gap whose expected form is
+        // capitalised, so chips are withheld rather than made unanswerable.
+        val body = GapTextBody(
+            text = "1. a {1}\n2. b {2}",
+            answers = mapOf("1" to listOf("Der"), "2" to listOf("die")),
+            listLayout = true,
+        )
+        val caseSensitive = exercise(body).copy(flags = GradingFlags(caseSensitive = true))
+
+        caseSensitive.toSteps("x").filterIsInstance<GapTextStep>()
+            .forEach { assertTrue(it.options.isEmpty()) }
+    }
+
+    @Test
+    fun `options are withheld from a multi-gap step`() {
+        // Several gaps sharing one set of chips needs a per-gap selection UI that does
+        // not exist yet, so those keep their text fields.
+        val body = GapTextBody(
+            text = "Ich nehme {1} Kaffee und {2} Milch.",
+            answers = mapOf("1" to listOf("den"), "2" to listOf("die")),
+            listLayout = false,
+        )
+
+        val step = exercise(body).toSteps("x").filterIsInstance<GapTextStep>().single()
+
+        assertEquals(2, step.gapKeys.size)
+        assertTrue(step.options.isEmpty())
+    }
+
+    @Test
     fun `types not implemented yet produce no steps`() {
         // This is what will fail loudly in PR4 and remind us to update the splitter.
         val body = GapBankBody(
