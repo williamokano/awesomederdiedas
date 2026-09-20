@@ -51,6 +51,14 @@ data class GapTextStep(
     val cues: Map<String, String>,
     /** True when this step is one numbered line; false when it is a whole passage. */
     val listLayout: Boolean,
+    /**
+     * A closed set of choices to tap instead of typing, or empty for a free-text gap.
+     *
+     * Derived from the whole exercise, never a single gap, so it does not give the answer
+     * away: an article drill whose every answer is der/die/das offers those three on each
+     * of its sentences, which is how the drill is meant to be done.
+     */
+    val options: List<String> = emptyList(),
 ) : SessionStep {
     override fun emptyAnswer() = AnswerState.Texts()
 }
@@ -116,7 +124,35 @@ fun Exercise.toSteps(setId: String): List<SessionStep> = when (val body = body) 
     else -> emptyList()
 }
 
+/**
+ * The exercise's answers as a small closed set, when it has one.
+ *
+ * Typing is the wrong input for a drill whose entire answer space is three articles. The
+ * bar is deliberately narrow: a handful of short single words, or it is free text.
+ */
+private fun GapTextBody.closedOptions(flags: GradingFlags): List<String> {
+    // Case-insensitive grading is what lets one "der" chip answer both "der" and
+    // sentence-initial "Der". Without it the chips could be unanswerable.
+    if (flags.caseSensitive) return emptyList()
+
+    val byNormalised = LinkedHashMap<String, String>()
+    for (alternatives in answers.values) {
+        for (answer in alternatives) {
+            if (answer.length > MAX_OPTION_LENGTH || answer.any { it.isWhitespace() }) return emptyList()
+            byNormalised.putIfAbsent(answer.lowercase(), answer.lowercase())
+        }
+    }
+    // One option gives the answer away; too many is a list, not a choice.
+    return if (byNormalised.size in MIN_OPTIONS..MAX_OPTIONS) byNormalised.values.sorted() else emptyList()
+}
+
+private const val MIN_OPTIONS = 2
+private const val MAX_OPTIONS = 4
+private const val MAX_OPTION_LENGTH = 14
+
 private fun Exercise.gapTextSteps(setId: String, body: GapTextBody): List<SessionStep> {
+    val options = body.closedOptions(flags)
+
     fun step(suffix: String, segments: List<GapSegment>, listLayout: Boolean): GapTextStep? {
         val keys = gapKeysOf(segments)
         if (keys.isEmpty()) return null
@@ -133,6 +169,9 @@ private fun Exercise.gapTextSteps(setId: String, body: GapTextBody): List<Sessio
             alts = body.alts.filterKeys { it in keys },
             cues = body.cues.filterKeys { it in keys },
             listLayout = listLayout,
+            // Only offer choices for a single gap: several gaps sharing one set of chips
+            // needs a per-gap selection UI that does not exist yet.
+            options = if (keys.size == 1) options else emptyList(),
         )
     }
 

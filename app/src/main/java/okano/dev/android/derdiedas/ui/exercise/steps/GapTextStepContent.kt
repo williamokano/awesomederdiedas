@@ -2,9 +2,13 @@ package okano.dev.android.derdiedas.ui.exercise.steps
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material3.FilterChip
+import androidx.compose.material3.FilterChipDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.OutlinedTextFieldDefaults
@@ -54,6 +58,20 @@ fun GapTextStepContent(
             fontWeight = FontWeight.Medium,
             lineHeight = MaterialTheme.typography.headlineMedium.fontSize * 1.4f,
         )
+
+        // A drill whose whole answer space is der/die/das is a choice, not a spelling
+        // test, so it gets chips instead of a keyboard.
+        if (step.options.isNotEmpty()) {
+            val key = step.gapKeys.single()
+            OptionChips(
+                options = step.options,
+                selected = answer.byRef[key],
+                enabled = !graded,
+                itemResult = resultsByRef[key],
+                onSelect = { option -> onAnswerChange(AnswerState.Texts(answer.byRef + (key to option))) },
+            )
+            return@Column
+        }
 
         step.gapKeys.forEach { key ->
             GapField(
@@ -146,6 +164,61 @@ private fun GapField(
                 style = MaterialTheme.typography.labelLarge,
                 color = accent ?: MaterialTheme.colorScheme.onSurface,
                 modifier = Modifier.padding(start = 4.dp, top = 6.dp),
+            )
+        }
+    }
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun OptionChips(
+    options: List<String>,
+    selected: String?,
+    enabled: Boolean,
+    itemResult: ItemResult?,
+    onSelect: (String) -> Unit,
+) {
+    val feedback = LocalFeedbackColors.current
+
+    FlowRow(
+        modifier = Modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.spacedBy(12.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
+        options.forEach { option ->
+            val isSelected = option.equals(selected, ignoreCase = true)
+            // After grading, mark the learner's pick and reveal the right one if they
+            // differ, which is the whole feedback for this step.
+            val isExpected = itemResult != null && option.equals(itemResult.expected, ignoreCase = true)
+            val container = when {
+                itemResult == null -> null
+                isSelected && itemResult.correct -> feedback.correctContainer
+                isSelected -> feedback.wrongContainer
+                isExpected -> feedback.correctContainer
+                else -> null
+            }
+
+            FilterChip(
+                selected = isSelected,
+                onClick = { if (enabled) onSelect(option) },
+                enabled = enabled || isSelected || isExpected,
+                label = {
+                    Text(
+                        text = option,
+                        style = MaterialTheme.typography.titleMedium,
+                        modifier = Modifier.padding(vertical = 6.dp),
+                    )
+                },
+                colors = if (container == null) {
+                    FilterChipDefaults.filterChipColors()
+                } else {
+                    FilterChipDefaults.filterChipColors(
+                        containerColor = container,
+                        selectedContainerColor = container,
+                        disabledContainerColor = container,
+                        disabledSelectedContainerColor = container,
+                    )
+                },
             )
         }
     }
