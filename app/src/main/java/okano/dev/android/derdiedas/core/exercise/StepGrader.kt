@@ -24,6 +24,23 @@ data class StepResult(
 
 fun gradeStep(step: SessionStep, answer: AnswerState): StepResult = when (step) {
     is GapTextStep -> gradeGapText(step, answer.asTexts())
+    is ChoiceStep -> gradeChoice(step, answer.asChoice())
+}
+
+private fun gradeChoice(step: ChoiceStep, answer: AnswerState.Choice): StepResult {
+    val chosen = answer.key
+    val correct = checkEquality(step.answerKey, chosen)
+    // Report the option's text rather than its key: "b" means nothing to a learner.
+    fun textOf(key: String?) = step.options.firstOrNull { it.key == key }?.text.orEmpty()
+
+    val item = ItemResult(
+        ref = step.answerKey,
+        correct = correct,
+        given = textOf(chosen),
+        expected = textOf(step.answerKey),
+        note = step.why,
+    )
+    return StepResult(items = listOf(item), correct = correct)
 }
 
 private fun gradeGapText(step: GapTextStep, answer: AnswerState.Texts): StepResult {

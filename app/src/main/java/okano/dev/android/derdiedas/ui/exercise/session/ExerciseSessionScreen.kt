@@ -32,12 +32,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import okano.dev.android.derdiedas.core.exercise.AnswerState
+import okano.dev.android.derdiedas.core.exercise.ChoiceStep
 import okano.dev.android.derdiedas.core.exercise.GapTextStep
 import okano.dev.android.derdiedas.core.exercise.SessionPhase
 import okano.dev.android.derdiedas.core.exercise.SessionState
 import okano.dev.android.derdiedas.core.exercise.SessionStep
 import okano.dev.android.derdiedas.core.exercise.StepResult
 import okano.dev.android.derdiedas.data.model.Language
+import okano.dev.android.derdiedas.ui.exercise.steps.ChoiceStepContent
 import okano.dev.android.derdiedas.ui.exercise.steps.GapTextStepContent
 import okano.dev.android.derdiedas.ui.resources.StringResources
 import okano.dev.android.derdiedas.ui.theme.LocalFeedbackColors
@@ -172,6 +174,13 @@ private fun StepContent(
             result = result,
             onAnswerChange = onAnswerChange,
         )
+
+        is ChoiceStep -> ChoiceStepContent(
+            step = step,
+            answer = answer as? AnswerState.Choice ?: AnswerState.Choice(),
+            result = result,
+            onAnswerChange = onAnswerChange,
+        )
     }
 }
 
@@ -217,6 +226,12 @@ private fun ResultBanner(
                             fontWeight = FontWeight.SemiBold,
                         )
                     }
+                }
+                result?.items?.firstNotNullOfOrNull { it.note }?.let { why ->
+                    Text(
+                        text = why,
+                        style = MaterialTheme.typography.bodyMedium,
+                    )
                 }
                 // Only worth saying for multi-gap steps; "1 of 1" is noise.
                 result?.takeIf { it.items.size > 1 }?.let {
