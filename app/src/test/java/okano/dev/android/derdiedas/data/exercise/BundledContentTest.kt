@@ -5,6 +5,7 @@ import okano.dev.android.derdiedas.core.exercise.normalize
 import okano.dev.android.derdiedas.core.exercise.toSteps
 import okano.dev.android.derdiedas.data.exercise.model.CONTENT_FORMAT_VERSION
 import okano.dev.android.derdiedas.data.exercise.model.ContentJson
+import okano.dev.android.derdiedas.data.exercise.model.ExerciseCollection
 import okano.dev.android.derdiedas.data.exercise.model.ExerciseSet
 import okano.dev.android.derdiedas.data.exercise.model.GapBankBody
 import okano.dev.android.derdiedas.data.exercise.model.GapTextBody
@@ -110,7 +111,7 @@ class BundledContentTest {
 
     @Test
     fun `every gap has an answer and every answer has a gap`() {
-        val placeholder = Regex("""\{(\d+)}""")
+        val placeholder = Regex("""\{(\d+)\}""")
         for (set in sets) {
             for (exercise in set.exercises) {
                 val (text, answers) = when (val body = exercise.body) {
@@ -202,6 +203,28 @@ class BundledContentTest {
                     assertTrue("${step.id.value} has gaps without answers: $missing", missing.isEmpty())
                 }
             }
+        }
+    }
+
+    @Test
+    fun `every set lands in a collection, and the collections are worth browsing`() {
+        // The mapping reads the upstream id prefix, so a renamed prefix upstream would
+        // silently dump everything into Lektionen. These floors catch that.
+        val byCollection = index.sets.groupingBy { ExerciseCollection.of(it.lesson) }.eachCount()
+
+        assertEquals(index.sets.size, byCollection.values.sum())
+        assertTrue("no Lektionen: ${'$'}byCollection", (byCollection[ExerciseCollection.LEKTIONEN] ?: 0) >= 60)
+        assertTrue("no Themen: ${'$'}byCollection", (byCollection[ExerciseCollection.THEMEN] ?: 0) >= 50)
+        assertTrue("no Alltag: ${'$'}byCollection", (byCollection[ExerciseCollection.ALLTAG] ?: 0) >= 90)
+    }
+
+    @Test
+    fun `every collection offers more than one level to tab between`() {
+        for (collection in ExerciseCollection.entries) {
+            val sets = index.sets.filter { ExerciseCollection.of(it.lesson) == collection }
+            if (sets.isEmpty()) continue
+            val levels = sets.mapNotNull { it.level }.distinct()
+            assertTrue("${'$'}collection has only ${'$'}levels", levels.size >= 2)
         }
     }
 

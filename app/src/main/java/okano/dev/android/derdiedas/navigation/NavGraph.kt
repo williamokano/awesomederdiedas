@@ -9,8 +9,11 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import okano.dev.android.derdiedas.data.exercise.model.Block
+import okano.dev.android.derdiedas.data.exercise.model.CefrTag
+import okano.dev.android.derdiedas.data.exercise.model.ExerciseCollection
 import okano.dev.android.derdiedas.di.AppContainer
 import okano.dev.android.derdiedas.ui.exercise.catalog.ExerciseCatalogScreen
+import okano.dev.android.derdiedas.ui.exercise.catalog.ExerciseCollectionsScreen
 import okano.dev.android.derdiedas.ui.exercise.catalog.ExerciseCatalogViewModel
 import okano.dev.android.derdiedas.ui.exercise.catalog.ExerciseCatalogViewModelFactory
 import okano.dev.android.derdiedas.ui.exercise.session.ExerciseSessionScreen
@@ -42,11 +45,16 @@ sealed class Screen(val route: String) {
             "results/$correct/$wrong/$duration/$cardsPerMinute"
     }
     object History : Screen("history")
-    object ExerciseCatalog : Screen("exercises")
+    object ExerciseCollections : Screen("exercises")
+
+    object ExerciseCatalog : Screen("exercises/list/{collection}") {
+        fun createRoute(collection: ExerciseCollection) = "exercises/list/${collection.name}"
+    }
 
     // Set ids are already slugged by the sync tool, so no escaping is needed here.
-    object ExerciseSession : Screen("exercises/{setId}/{block}/{part}") {
-        fun createRoute(setId: String, block: Block, part: Int) = "exercises/$setId/${block.name}/$part"
+    object ExerciseSession : Screen("exercises/session/{setId}/{block}/{part}") {
+        fun createRoute(setId: String, block: Block, part: Int) =
+            "exercises/session/$setId/${block.name}/$part"
     }
     object Settings : Screen("settings")
     object EasterEgg : Screen("easter_egg")
@@ -84,7 +92,7 @@ fun AppNavGraph(
                     }
                 },
                 onExercisesClick = {
-                    navController.navigate(Screen.ExerciseCatalog.route)
+                    navController.navigate(Screen.ExerciseCollections.route)
                 },
                 onSettingsClick = {
                     navController.navigate(Screen.Settings.route)
@@ -196,13 +204,38 @@ fun AppNavGraph(
             )
         }
 
-        // Exercise catalog
-        composable(Screen.ExerciseCatalog.route) {
+        // Pick a body of content: Lektionen, Themen or Alltag
+        composable(Screen.ExerciseCollections.route) {
             val viewModel: ExerciseCatalogViewModel = viewModel(
-                factory = ExerciseCatalogViewModelFactory(exerciseRepository, initialLevel = null)
+                factory = ExerciseCatalogViewModelFactory(exerciseRepository, collection = null)
+            )
+            ExerciseCollectionsScreen(
+                viewModel = viewModel,
+                language = appPreferences.getLanguage(),
+                onCollectionClick = { collection ->
+                    navController.navigate(Screen.ExerciseCatalog.createRoute(collection))
+                },
+                onBackClick = { navController.popBackStack() }
+            )
+        }
+
+        // The sets in one collection, one level at a time
+        composable(
+            route = Screen.ExerciseCatalog.route,
+            arguments = listOf(navArgument("collection") { type = NavType.StringType })
+        ) { backStackEntry ->
+            val name = backStackEntry.arguments?.getString("collection") ?: ExerciseCollection.LEKTIONEN.name
+            val collection = runCatching { ExerciseCollection.valueOf(name) }
+                .getOrDefault(ExerciseCollection.LEKTIONEN)
+            // Open on the learner's own level where the collection has it.
+            val preferred = runCatching { CefrTag.valueOf(appPreferences.getCEFRLevel().name) }.getOrNull()
+
+            val viewModel: ExerciseCatalogViewModel = viewModel(
+                factory = ExerciseCatalogViewModelFactory(exerciseRepository, collection, preferred)
             )
             ExerciseCatalogScreen(
                 viewModel = viewModel,
+                collection = collection,
                 language = appPreferences.getLanguage(),
                 onStartSession = { setId, block, part ->
                     navController.navigate(Screen.ExerciseSession.createRoute(setId, block, part))

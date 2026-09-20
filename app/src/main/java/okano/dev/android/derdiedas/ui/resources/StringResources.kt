@@ -170,11 +170,6 @@ object StringResources {
         Language.PORTUGUESE -> "Exercícios"
     }
 
-    fun allLevels(language: Language) = when (language) {
-        Language.ENGLISH -> "All"
-        Language.PORTUGUESE -> "Todos"
-    }
-
     fun practise(language: Language) = when (language) {
         Language.ENGLISH -> "Practise"
         Language.PORTUGUESE -> "Praticar"
@@ -270,5 +265,37 @@ object StringResources {
     fun tryAgain(language: Language) = when (language) {
         Language.ENGLISH -> "Try again"
         Language.PORTUGUESE -> "Tentar novamente"
+    }
+
+    /** Collection names stay German, the way the course itself names them. */
+    fun collectionName(language: Language, collection: String) = when (collection) {
+        "LEKTIONEN" -> "Lektionen"
+        "THEMEN" -> "Themen"
+        "ALLTAG" -> "Alltag"
+        else -> "Hören"
+    }
+
+    fun collectionDescription(language: Language, collection: String) = when (collection) {
+        "LEKTIONEN" -> when (language) {
+            Language.ENGLISH -> "The graded A1-C1 course, lesson by lesson"
+            Language.PORTUGUESE -> "O curso graduado A1-C1, lição a lição"
+        }
+        "THEMEN" -> when (language) {
+            Language.ENGLISH -> "Standalone drills on one grammar point"
+            Language.PORTUGUESE -> "Exercícios avulsos sobre um ponto gramatical"
+        }
+        "ALLTAG" -> when (language) {
+            Language.ENGLISH -> "Everyday situations, from shopping to paperwork"
+            Language.PORTUGUESE -> "Situações do dia a dia, de compras a burocracia"
+        }
+        else -> when (language) {
+            Language.ENGLISH -> "Listening practice"
+            Language.PORTUGUESE -> "Prática de compreensão oral"
+        }
+    }
+
+    fun setCount(language: Language, count: Int) = when (language) {
+        Language.ENGLISH -> "$count sets"
+        Language.PORTUGUESE -> "$count conjuntos"
     }
 }

@@ -16,9 +16,10 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.FilterChip
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Tab
+import androidx.compose.material3.TabRow
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
@@ -34,6 +35,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import okano.dev.android.derdiedas.data.exercise.model.Block
 import okano.dev.android.derdiedas.data.exercise.model.BlockSummary
+import okano.dev.android.derdiedas.data.exercise.model.ExerciseCollection
 import okano.dev.android.derdiedas.data.exercise.model.ExerciseSetSummary
 import okano.dev.android.derdiedas.data.model.Language
 import okano.dev.android.derdiedas.ui.resources.StringResources
@@ -48,6 +50,7 @@ import okano.dev.android.derdiedas.ui.resources.StringResources
 @Composable
 fun ExerciseCatalogScreen(
     viewModel: ExerciseCatalogViewModel,
+    collection: ExerciseCollection,
     language: Language,
     onStartSession: (setId: String, block: Block, part: Int) -> Unit,
     onBackClick: () -> Unit,
@@ -59,7 +62,7 @@ fun ExerciseCatalogScreen(
         modifier = modifier,
         topBar = {
             TopAppBar(
-                title = { Text(StringResources.exercises(language)) },
+                title = { Text(StringResources.collectionName(language, collection.name)) },
                 navigationIcon = {
                     TextButton(onClick = onBackClick) { Text(StringResources.back(language)) }
                 },
@@ -84,45 +87,29 @@ fun ExerciseCatalogScreen(
                 }
             }
 
-            is CatalogUiState.Ready -> LazyColumn(
-                modifier = Modifier.fillMaxSize().padding(padding),
-                contentPadding = androidx.compose.foundation.layout.PaddingValues(16.dp),
-                verticalArrangement = Arrangement.spacedBy(12.dp),
-            ) {
-                item {
-                    LevelFilter(
-                        levels = state.levels.map { it.name },
-                        selected = state.selectedLevel?.name,
-                        allLabel = StringResources.allLevels(language),
-                        onSelect = { name ->
-                            viewModel.onLevelSelected(state.levels.firstOrNull { it.name == name })
-                        },
-                    )
+            is CatalogUiState.Ready -> Column(modifier = Modifier.fillMaxSize().padding(padding)) {
+                val selectedIndex = state.levels.indexOf(state.selectedLevel).coerceAtLeast(0)
+                if (state.levels.isNotEmpty()) {
+                    TabRow(selectedTabIndex = selectedIndex) {
+                        state.levels.forEachIndexed { index, level ->
+                            Tab(
+                                selected = index == selectedIndex,
+                                onClick = { viewModel.onLevelSelected(level) },
+                                text = { Text(level.name) },
+                            )
+                        }
+                    }
                 }
-                items(state.visible, key = { it.id }) { summary ->
-                    ExerciseSetCard(summary, language, onStartSession)
+                LazyColumn(
+                    modifier = Modifier.fillMaxSize(),
+                    contentPadding = androidx.compose.foundation.layout.PaddingValues(16.dp),
+                    verticalArrangement = Arrangement.spacedBy(12.dp),
+                ) {
+                    items(state.visible, key = { it.id }) { summary ->
+                        ExerciseSetCard(summary, language, onStartSession)
+                    }
                 }
             }
-        }
-    }
-}
-
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-private fun LevelFilter(
-    levels: List<String>,
-    selected: String?,
-    allLabel: String,
-    onSelect: (String?) -> Unit,
-) {
-    Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
-        FilterChip(selected = selected == null, onClick = { onSelect(null) }, label = { Text(allLabel) })
-        levels.forEach { level ->
-            FilterChip(
-                selected = selected == level,
-                onClick = { onSelect(level) },
-                label = { Text(level) },
-            )
         }
     }
 }
