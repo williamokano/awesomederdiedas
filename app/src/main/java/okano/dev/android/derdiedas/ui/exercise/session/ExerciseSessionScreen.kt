@@ -275,7 +275,10 @@ private fun SessionSummary(
     val session = state.session
 
     Column(
-        modifier = modifier.fillMaxSize().padding(32.dp),
+        modifier = modifier
+            .fillMaxSize()
+            .padding(32.dp)
+            .testTag(ExerciseTestTags.SESSION_SUMMARY),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
     ) {

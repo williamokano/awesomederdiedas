@@ -18,9 +18,11 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import okano.dev.android.derdiedas.ui.exercise.ExerciseTestTags
 import okano.dev.android.derdiedas.data.model.Language
 import okano.dev.android.derdiedas.ui.resources.StringResources
 
@@ -72,7 +74,8 @@ fun CardSelectionScreen(
                 onClick = { onCardCountSelected(count) },
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(70.dp),
+                    .height(70.dp)
+                    .testTag(ExerciseTestTags.CARD_COUNT_OPTION),
                 shape = RoundedCornerShape(16.dp),
                 colors = ButtonDefaults.buttonColors(
                     containerColor = MaterialTheme.colorScheme.primary

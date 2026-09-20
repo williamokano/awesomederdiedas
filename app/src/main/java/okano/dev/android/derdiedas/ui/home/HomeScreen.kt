@@ -97,7 +97,8 @@ fun HomeScreen(
             onClick = onNewGameClick,
             modifier = Modifier
                 .fillMaxWidth()
-                .height(70.dp),
+                .height(70.dp)
+                .testTag(ExerciseTestTags.NEW_GAME_ENTRY),
             shape = RoundedCornerShape(16.dp),
             colors = ButtonDefaults.buttonColors(
                 containerColor = MaterialTheme.colorScheme.primary
