@@ -9,31 +9,28 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.rememberNavController
-import okano.dev.android.derdiedas.data.database.AppDatabase
-import okano.dev.android.derdiedas.data.preferences.AppPreferences
-import okano.dev.android.derdiedas.data.repository.GameSessionRepository
-import okano.dev.android.derdiedas.data.repository.LocalNounRepository
+import okano.dev.android.derdiedas.di.AppContainer
 import okano.dev.android.derdiedas.navigation.AppNavGraph
 import okano.dev.android.derdiedas.ui.theme.DerDieDasTheme
 
 class MainActivity : ComponentActivity() {
+
+    // Built before setContent: that lambda re-runs on recomposition, so anything
+    // constructed inside it is rebuilt each time, discarding any cache it holds.
+    private lateinit var container: AppContainer
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        container = AppContainer(this)
         enableEdgeToEdge()
         setContent {
             DerDieDasTheme {
                 val navController = rememberNavController()
-                val nounRepository = LocalNounRepository()
-                val database = AppDatabase.getDatabase(applicationContext)
-                val gameSessionRepository = GameSessionRepository(database.gameSessionDao())
-                val appPreferences = AppPreferences(applicationContext)
 
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     AppNavGraph(
                         navController = navController,
-                        nounRepository = nounRepository,
-                        gameSessionRepository = gameSessionRepository,
-                        appPreferences = appPreferences,
+                        container = container,
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
