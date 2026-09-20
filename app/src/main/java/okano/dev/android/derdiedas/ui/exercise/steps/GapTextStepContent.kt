@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -26,9 +27,7 @@ import okano.dev.android.derdiedas.ui.theme.LocalFeedbackColors
  *
  * Compose has no way to put a text field inline in flowing text — InlineTextContent needs a
  * fixed-size placeholder, which variable-length input breaks. So the sentence is rendered
- * with the gaps shown as `____` and the fields sit beneath it. For the 89% of gap-texts
- * that are single numbered sentences this reads naturally; for the passages it is the same
- * layout most language apps use.
+ * with the gaps shown as `____` and the fields sit beneath it.
  *
  * The widget never grades. It renders state and reports edits upward; the session engine
  * does the grading, which is what keeps that logic testable without a Compose runtime.
@@ -43,12 +42,17 @@ fun GapTextStepContent(
 ) {
     val graded = result != null
     val resultsByRef = result?.items?.associateBy { it.ref }.orEmpty()
+    // With one gap the banner already names the answer, so repeating it under the field
+    // just says the same thing twice. With several, only a per-gap mark can show which
+    // one was wrong.
+    val single = step.gapKeys.size == 1
 
-    Column(modifier = modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+    Column(modifier = modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(20.dp)) {
         Text(
             text = renderSentence(step),
-            style = MaterialTheme.typography.headlineSmall,
+            style = if (single) MaterialTheme.typography.headlineMedium else MaterialTheme.typography.titleLarge,
             fontWeight = FontWeight.Medium,
+            lineHeight = MaterialTheme.typography.headlineMedium.fontSize * 1.4f,
         )
 
         step.gapKeys.forEach { key ->
@@ -56,7 +60,8 @@ fun GapTextStepContent(
                 key = key,
                 value = answer.byRef[key].orEmpty(),
                 cue = step.cues[key],
-                showNumber = step.gapKeys.size > 1,
+                showLabel = !single,
+                showInlineResult = !single,
                 enabled = !graded,
                 itemResult = resultsByRef[key],
                 onValueChange = { text ->
@@ -69,10 +74,11 @@ fun GapTextStepContent(
 
 /** The sentence with each gap shown as a blank, so the learner can read around it. */
 private fun renderSentence(step: GapTextStep): String = buildString {
+    val numbered = step.gapKeys.size > 1
     for (segment in step.segments) {
         when (segment) {
             is GapSegment.Literal -> append(segment.text)
-            is GapSegment.Gap -> append(if (step.gapKeys.size > 1) "(${segment.key}) ____" else "____")
+            is GapSegment.Gap -> append(if (numbered) "(${segment.key}) ____" else "____")
         }
     }
 }.trim()
@@ -82,14 +88,15 @@ private fun GapField(
     key: String,
     value: String,
     cue: String?,
-    showNumber: Boolean,
+    showLabel: Boolean,
+    showInlineResult: Boolean,
     enabled: Boolean,
     itemResult: ItemResult?,
     onValueChange: (String) -> Unit,
 ) {
     val feedback = LocalFeedbackColors.current
 
-    val accentColor = when {
+    val accent = when {
         itemResult == null -> null
         itemResult.correct && itemResult.note != null -> feedback.accepted
         itemResult.correct -> feedback.correct
@@ -100,11 +107,23 @@ private fun GapField(
         OutlinedTextField(
             value = value,
             onValueChange = onValueChange,
-            enabled = enabled,
+            // Disabled greys the text out, which makes a graded answer hard to read.
+            // Read-only keeps it legible while still refusing edits.
+            readOnly = !enabled,
             singleLine = true,
-            isError = itemResult?.correct == false,
-            label = { Text(if (showNumber) "($key)" else "") },
+            textStyle = MaterialTheme.typography.titleLarge,
+            label = if (showLabel) ({ Text("($key)") }) else null,
             placeholder = cue?.let { { Text(it) } },
+            colors = if (accent == null) {
+                OutlinedTextFieldDefaults.colors()
+            } else {
+                OutlinedTextFieldDefaults.colors(
+                    focusedBorderColor = accent,
+                    unfocusedBorderColor = accent,
+                    focusedTextColor = accent,
+                    unfocusedTextColor = accent,
+                )
+            },
             keyboardOptions = KeyboardOptions(
                 // German nouns are capitalised, but nothing in the corpus grades
                 // case-sensitively, so don't fight the keyboard over it.
@@ -114,7 +133,7 @@ private fun GapField(
             modifier = Modifier.fillMaxWidth(),
         )
 
-        if (itemResult != null) {
+        if (showInlineResult && itemResult != null) {
             // Glyph as well as colour: green-vs-red alone is invisible to some readers,
             // and it is the only thing distinguishing "right" from "accepted variant".
             val (glyph, message) = when {
@@ -125,8 +144,8 @@ private fun GapField(
             Text(
                 text = listOfNotNull(glyph, message).joinToString("  "),
                 style = MaterialTheme.typography.labelLarge,
-                color = accentColor ?: MaterialTheme.colorScheme.onSurface,
-                modifier = Modifier.padding(start = 4.dp, top = 4.dp),
+                color = accent ?: MaterialTheme.colorScheme.onSurface,
+                modifier = Modifier.padding(start = 4.dp, top = 6.dp),
             )
         }
     }

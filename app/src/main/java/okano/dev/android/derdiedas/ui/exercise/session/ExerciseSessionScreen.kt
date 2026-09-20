@@ -5,11 +5,13 @@ import androidx.compose.animation.slideInVertically
 import androidx.compose.animation.slideOutVertically
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -102,24 +104,35 @@ private fun ActiveSession(
             )
         }
 
-        Column(
-            modifier = Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(horizontal = 24.dp),
-            verticalArrangement = Arrangement.spacedBy(20.dp),
-        ) {
-            step.instructions?.let {
-                Text(it, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
-            }
-            step.instructionsEn
-                ?.takeIf { language == Language.ENGLISH }
-                ?.let {
-                    Text(
-                        it,
-                        style = MaterialTheme.typography.bodyMedium,
-                        color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f),
-                    )
+        // heightIn(min = maxHeight) is what makes the centring work: inside a
+        // verticalScroll children are measured with unbounded height, so without a
+        // minimum there is no slack for an arrangement to centre within. With it, a
+        // short step sits in the middle and a long passage still scrolls.
+        BoxWithConstraints(modifier = Modifier.weight(1f)) {
+            val viewportHeight = maxHeight
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .heightIn(min = viewportHeight)
+                    .verticalScroll(rememberScrollState())
+                    .padding(horizontal = 24.dp, vertical = 16.dp),
+                verticalArrangement = Arrangement.spacedBy(20.dp, Alignment.CenterVertically),
+            ) {
+                step.instructions?.let {
+                    Text(it, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
                 }
+                step.instructionsEn
+                    ?.takeIf { language == Language.ENGLISH }
+                    ?.let {
+                        Text(
+                            it,
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f),
+                        )
+                    }
 
-            StepContent(step, answer, session.result, viewModel::onAnswerChange)
+                StepContent(step, answer, session.result, viewModel::onAnswerChange)
+            }
         }
 
         ResultBanner(
@@ -192,6 +205,19 @@ private fun ResultBanner(
                     style = MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.Bold,
                 )
+                if (!correct) {
+                    val expected = result?.items.orEmpty()
+                        .filterNot { it.correct }
+                        .map { it.expected }
+                        .filter { it.isNotBlank() }
+                    if (expected.isNotEmpty()) {
+                        Text(
+                            text = StringResources.theAnswer(language, expected.joinToString("  ·  ")),
+                            style = MaterialTheme.typography.titleMedium,
+                            fontWeight = FontWeight.SemiBold,
+                        )
+                    }
+                }
                 // Only worth saying for multi-gap steps; "1 of 1" is noise.
                 result?.takeIf { it.items.size > 1 }?.let {
                     Text(

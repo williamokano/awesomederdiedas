@@ -298,4 +298,9 @@ object StringResources {
         Language.ENGLISH -> "$count sets"
         Language.PORTUGUESE -> "$count conjuntos"
     }
+
+    fun theAnswer(language: Language, answer: String) = when (language) {
+        Language.ENGLISH -> "Answer: $answer"
+        Language.PORTUGUESE -> "Resposta: $answer"
+    }
 }
