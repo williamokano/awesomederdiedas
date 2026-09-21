@@ -74,11 +74,13 @@ fun GapBankStepContent(
     Column(modifier = modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(20.dp)) {
         Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
             step.lines.forEach { line ->
+                // No cross-axis alignment parameter here on purpose: FlowRow gained
+                // itemVerticalAlignment in Foundation 1.8 and this project is on 1.7,
+                // so each child aligns itself instead.
                 FlowRow(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.spacedBy(4.dp),
                     verticalArrangement = Arrangement.spacedBy(6.dp),
-                    verticalAlignment = Alignment.CenterVertically,
                 ) {
                     line.forEach { segment ->
                         when (segment) {
@@ -86,10 +88,17 @@ fun GapBankStepContent(
                                 .split(' ')
                                 .filter { it.isNotBlank() }
                                 .forEach { word ->
-                                    Text(word, style = MaterialTheme.typography.bodyLarge)
+                                    Text(
+                                        text = word,
+                                        style = MaterialTheme.typography.bodyLarge,
+                                        // Words are shorter than the blanks beside them,
+                                        // so without this the line reads as a zigzag.
+                                        modifier = Modifier.align(Alignment.CenterVertically),
+                                    )
                                 }
 
                             is GapSegment.Gap -> Blank(
+                                modifier = Modifier.align(Alignment.CenterVertically),
                                 word = placed[segment.key],
                                 number = step.gapKeys.indexOf(segment.key) + 1,
                                 focused = !graded && segment.key == focused,
@@ -155,6 +164,7 @@ private fun Blank(
     focused: Boolean,
     accent: Color?,
     onClick: () -> Unit,
+    modifier: Modifier = Modifier,
 ) {
     val border = accent ?: if (focused) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.outline
     OutlinedCard(
@@ -165,7 +175,7 @@ private fun Blank(
             containerColor = accent?.copy(alpha = 0.10f)
                 ?: CardDefaults.outlinedCardColors().containerColor,
         ),
-        modifier = Modifier.testTag(ExerciseTestTags.BANK_GAP),
+        modifier = modifier.testTag(ExerciseTestTags.BANK_GAP),
     ) {
         Text(
             // An empty blank shows its number, which is what the instructions refer to.
