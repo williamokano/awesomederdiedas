@@ -25,6 +25,8 @@ object ExerciseTestTags {
     const val ORDER_STRIP = "order_strip"
     const val ORDER_TILE = "order_tile"
     const val ORDER_PLACED_TILE = "order_placed_tile"
+    const val BANK_GAP = "bank_gap"
+    const val BANK_WORD = "bank_word"
 
     // The original flashcard flow, which has no coverage of its own and shares the
     // navigation and dependency wiring the exercise work refactored.

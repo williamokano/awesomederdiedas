@@ -98,10 +98,14 @@ class ExerciseSmokeTest {
             fields.onFirst().performTextInput("qqqqqq")
         } else if (nodes(ExerciseTestTags.OPTION).fetchSemanticsNodes().isNotEmpty()) {
             nodes(ExerciseTestTags.OPTION).onFirst().performClick()
-        } else {
+        } else if (nodes(ExerciseTestTags.ORDER_TILE).fetchSemanticsNodes().isNotEmpty()) {
             // A sentence-building step, left deliberately half-built: an incomplete
             // sequence is graded wrong, which is exactly the case under test.
             nodes(ExerciseTestTags.ORDER_TILE).onFirst().performClick()
+        } else {
+            // A word-bank passage with one blank filled and the rest empty, which is
+            // likewise wrong.
+            nodes(ExerciseTestTags.BANK_WORD).onFirst().performClick()
         }
 
         compose.onNodeWithTag(ExerciseTestTags.CHECK_BUTTON).performClick()
@@ -223,6 +227,17 @@ class ExerciseSmokeTest {
         if (tiles > 0) {
             repeat(tiles) {
                 nodes(ExerciseTestTags.ORDER_TILE).onFirst().performClick()
+            }
+            return
+        }
+        // Word bank: tapping a word fills the focused blank and focus moves on, so one
+        // tap per blank fills the passage. Indexing rather than taking the first node
+        // each time, because a word already used is dimmed and stops responding.
+        val blanks = nodes(ExerciseTestTags.BANK_GAP).fetchSemanticsNodes().size
+        if (blanks > 0) {
+            val words = nodes(ExerciseTestTags.BANK_WORD).fetchSemanticsNodes().size
+            repeat(minOf(blanks, words)) { index ->
+                nodes(ExerciseTestTags.BANK_WORD)[index].performClick()
             }
             return
         }
