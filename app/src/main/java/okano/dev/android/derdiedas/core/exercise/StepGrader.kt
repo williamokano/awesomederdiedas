@@ -25,6 +25,23 @@ data class StepResult(
 fun gradeStep(step: SessionStep, answer: AnswerState): StepResult = when (step) {
     is GapTextStep -> gradeGapText(step, answer.asTexts())
     is ChoiceStep -> gradeChoice(step, answer.asChoice())
+    is OrderStep -> gradeOrder(step, answer.asSequence())
+}
+
+private fun gradeOrder(step: OrderStep, answer: AnswerState.Sequence): StepResult {
+    // A half-built sentence is wrong rather than partly right: the exercise is the whole
+    // word order, and checkOrder compares the sequence as one thing.
+    val correct = answer.order.size == step.tiles.size &&
+        checkOrder(step.answer, answer.order, step.alternatives)
+
+    val item = ItemResult(
+        ref = step.id.value,
+        correct = correct,
+        given = answer.order.joinToString(" ") { step.tiles.getOrElse(it) { "" } },
+        expected = step.solution,
+        note = step.note,
+    )
+    return StepResult(items = listOf(item), correct = correct)
 }
 
 private fun gradeChoice(step: ChoiceStep, answer: AnswerState.Choice): StepResult {
