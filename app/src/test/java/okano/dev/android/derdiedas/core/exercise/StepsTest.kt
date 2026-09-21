@@ -6,6 +6,8 @@ import okano.dev.android.derdiedas.data.exercise.model.GapBankBody
 import okano.dev.android.derdiedas.data.exercise.model.GapTextBody
 import okano.dev.android.derdiedas.data.exercise.model.OddOneOutBody
 import okano.dev.android.derdiedas.data.exercise.model.OddOneOutGroup
+import okano.dev.android.derdiedas.data.exercise.model.OrderBody
+import okano.dev.android.derdiedas.data.exercise.model.OrderItem
 import okano.dev.android.derdiedas.data.exercise.model.Option
 import okano.dev.android.derdiedas.data.exercise.model.SingleChoiceBody
 import okano.dev.android.derdiedas.data.exercise.model.SingleChoiceItem
@@ -459,5 +461,224 @@ class ChoiceGraderTest {
     @Test
     fun `the explanation rides along for the banner`() {
         assertEquals("weil", gradeStep(step(), AnswerState.Choice("a")).items.single().note)
+    }
+}
+
+class OrderStepsTest {
+
+    private fun exercise(body: okano.dev.android.derdiedas.data.exercise.model.ExerciseBody) = Exercise(
+        id = "B5",
+        block = Block.B,
+        title = "Satzbau",
+        instructions = "Bring die Wörter in die richtige Reihenfolge.",
+        body = body,
+    )
+
+    private fun orderBody(vararg items: OrderItem) = OrderBody(items = items.toList())
+
+    @Test
+    fun `each sentence becomes its own step`() {
+        val body = orderBody(
+            OrderItem(tiles = listOf("Ich", "heiße", "Anna"), answer = listOf(0, 1, 2)),
+            OrderItem(tiles = listOf("Er", "wohnt", "hier"), answer = listOf(0, 1, 2)),
+        )
+
+        assertEquals(2, exercise(body).toSteps("s").filterIsInstance<OrderStep>().size)
+    }
+
+    @Test
+    fun `tiles are shuffled so the answer is never already in order`() {
+        // 85% of the corpus stores its tiles in the correct order. Presenting them as
+        // authored would let the learner solve the exercise by tapping left to right.
+        val body = orderBody(OrderItem(tiles = listOf("Ich", "heiße", "Anna"), answer = listOf(0, 1, 2)))
+
+        val step = exercise(body).toSteps("s").filterIsInstance<OrderStep>().single()
+
+        assertEquals(listOf("Ich", "heiße", "Anna").sorted(), step.tiles.sorted())
+        assertTrue("tiles were left in answer order: ${step.tiles}", step.answer != listOf(0, 1, 2))
+    }
+
+    @Test
+    fun `the remapped answer still assembles the original sentence`() {
+        val body = orderBody(
+            OrderItem(tiles = listOf("gibt", "einen", "es", "Balkon"), answer = listOf(2, 0, 1, 3)),
+        )
+
+        val step = exercise(body).toSteps("s").filterIsInstance<OrderStep>().single()
+
+        // Answer indexes into the shuffled tiles, so playing it back must rebuild the sentence.
+        assertEquals("es gibt einen Balkon", step.answer.joinToString(" ") { step.tiles[it] })
+        assertEquals("es gibt einen Balkon", step.solution)
+    }
+
+    @Test
+    fun `alternative orderings are remapped too`() {
+        val body = orderBody(
+            OrderItem(
+                tiles = listOf("Ich", "wohne", "jetzt", "in Berlin"),
+                answer = listOf(0, 1, 2, 3),
+                alt = listOf(listOf(2, 1, 0, 3)),
+            ),
+        )
+
+        val step = exercise(body).toSteps("s").filterIsInstance<OrderStep>().single()
+
+        assertEquals(1, step.alternatives.size)
+        assertEquals("jetzt wohne Ich in Berlin", step.alternatives.single().joinToString(" ") { step.tiles[it] })
+    }
+
+    @Test
+    fun `the shuffle is stable for the same step`() {
+        // A tile pool that rearranged itself when a missed step came back would be unfair.
+        val body = orderBody(OrderItem(tiles = listOf("a", "b", "c", "d", "e"), answer = listOf(0, 1, 2, 3, 4)))
+
+        val first = exercise(body).toSteps("s").filterIsInstance<OrderStep>().single()
+        val second = exercise(body).toSteps("s").filterIsInstance<OrderStep>().single()
+
+        assertEquals(first.tiles, second.tiles)
+    }
+
+    @Test
+    fun `different steps get different shuffles`() {
+        val body = orderBody(
+            OrderItem(tiles = listOf("a", "b", "c", "d", "e", "f"), answer = listOf(0, 1, 2, 3, 4, 5)),
+            OrderItem(tiles = listOf("a", "b", "c", "d", "e", "f"), answer = listOf(0, 1, 2, 3, 4, 5)),
+        )
+
+        val steps = exercise(body).toSteps("s").filterIsInstance<OrderStep>()
+
+        assertTrue("both steps got the same tile order", steps[0].tiles != steps[1].tiles)
+    }
+
+    @Test
+    fun `a note that just restates the sentence becomes the solution and is dropped`() {
+        // The shape 291 corpus items actually have: punctuation is its own tile and the
+        // first tile is lowercase, so the join reads "hast du Geschwister ?" while the
+        // note is the same sentence written properly. The banner should show the note.
+        val body = orderBody(
+            OrderItem(
+                tiles = listOf("hast", "du", "Geschwister", "?"),
+                answer = listOf(0, 1, 2, 3),
+                note = "Hast du Geschwister?",
+            ),
+        )
+
+        val step = exercise(body).toSteps("s").filterIsInstance<OrderStep>().single()
+
+        assertEquals("Hast du Geschwister?", step.solution)
+        assertNull(step.note)
+    }
+
+    @Test
+    fun `without a note the solution falls back to the joined tiles`() {
+        val body = orderBody(
+            OrderItem(tiles = listOf("hast", "du", "Geschwister", "?"), answer = listOf(0, 1, 2, 3)),
+        )
+
+        val step = exercise(body).toSteps("s").filterIsInstance<OrderStep>().single()
+
+        assertEquals("hast du Geschwister ?", step.solution)
+        assertNull(step.note)
+    }
+
+    @Test
+    fun `a note about a different sentence is kept and does not become the solution`() {
+        // The restatement check is on the letters, so it must not fire on a note that
+        // merely shares some words with the sentence.
+        val body = orderBody(
+            OrderItem(
+                tiles = listOf("Ich", "bin", "hier"),
+                answer = listOf(0, 1, 2),
+                note = "Ich bin hier gewesen",
+            ),
+        )
+
+        val step = exercise(body).toSteps("s").filterIsInstance<OrderStep>().single()
+
+        assertEquals("Ich bin hier", step.solution)
+        assertEquals("Ich bin hier gewesen", step.note)
+    }
+
+    @Test
+    fun `a note that explains something is kept`() {
+        val body = orderBody(
+            OrderItem(
+                tiles = listOf("Ich", "bin", "hier"),
+                answer = listOf(0, 1, 2),
+                note = "verb stays in position 2",
+            ),
+        )
+
+        assertEquals(
+            "verb stays in position 2",
+            exercise(body).toSteps("s").filterIsInstance<OrderStep>().single().note,
+        )
+    }
+
+    @Test
+    fun `an answer that does not use every tile is dropped`() {
+        val body = orderBody(OrderItem(tiles = listOf("a", "b", "c"), answer = listOf(0, 1)))
+
+        assertTrue(exercise(body).toSteps("s").isEmpty())
+    }
+
+    @Test
+    fun `a single-tile item is dropped`() {
+        assertTrue(exercise(orderBody(OrderItem(tiles = listOf("a"), answer = listOf(0)))).toSteps("s").isEmpty())
+    }
+}
+
+class OrderGraderTest {
+
+    private fun step(
+        tiles: List<String> = listOf("heiße", "Ich", "Anna"),
+        answer: List<Int> = listOf(1, 0, 2),
+        alternatives: List<List<Int>> = emptyList(),
+        note: String? = null,
+    ) = OrderStep(
+        id = StepId("s#B5#0"),
+        exerciseId = "B5",
+        title = "t",
+        instructions = null,
+        instructionsEn = null,
+        flags = GradingFlags(),
+        tiles = tiles,
+        answer = answer,
+        alternatives = alternatives,
+        solution = "Ich heiße Anna",
+        note = note,
+    )
+
+    @Test
+    fun `the right order is correct`() {
+        assertTrue(gradeStep(step(), AnswerState.Sequence(listOf(1, 0, 2))).correct)
+    }
+
+    @Test
+    fun `a wrong order is wrong and shows the sentence`() {
+        val result = gradeStep(step(), AnswerState.Sequence(listOf(0, 1, 2)))
+
+        assertFalse(result.correct)
+        assertEquals("heiße Ich Anna", result.items.single().given)
+        assertEquals("Ich heiße Anna", result.items.single().expected)
+    }
+
+    @Test
+    fun `a half-built sentence is wrong rather than partly right`() {
+        assertFalse(gradeStep(step(), AnswerState.Sequence(listOf(1, 0))).correct)
+    }
+
+    @Test
+    fun `nothing placed is wrong`() {
+        assertFalse(gradeStep(step(), AnswerState.Sequence()).correct)
+    }
+
+    @Test
+    fun `an accepted alternative ordering is correct`() {
+        val graded = gradeStep(
+            step(alternatives = listOf(listOf(2, 1, 0))),
+            AnswerState.Sequence(listOf(2, 1, 0)),
+        )
+        assertTrue(graded.correct)
     }
 }

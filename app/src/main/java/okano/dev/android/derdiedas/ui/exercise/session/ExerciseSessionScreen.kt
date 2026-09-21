@@ -36,6 +36,7 @@ import okano.dev.android.derdiedas.ui.exercise.ExerciseTestTags
 import okano.dev.android.derdiedas.core.exercise.AnswerState
 import okano.dev.android.derdiedas.core.exercise.ChoiceStep
 import okano.dev.android.derdiedas.core.exercise.GapTextStep
+import okano.dev.android.derdiedas.core.exercise.OrderStep
 import okano.dev.android.derdiedas.core.exercise.SessionPhase
 import okano.dev.android.derdiedas.core.exercise.SessionState
 import okano.dev.android.derdiedas.core.exercise.SessionStep
@@ -43,6 +44,7 @@ import okano.dev.android.derdiedas.core.exercise.StepResult
 import okano.dev.android.derdiedas.data.model.Language
 import okano.dev.android.derdiedas.ui.exercise.steps.ChoiceStepContent
 import okano.dev.android.derdiedas.ui.exercise.steps.GapTextStepContent
+import okano.dev.android.derdiedas.ui.exercise.steps.OrderStepContent
 import okano.dev.android.derdiedas.ui.resources.StringResources
 import okano.dev.android.derdiedas.ui.theme.LocalFeedbackColors
 
@@ -184,6 +186,13 @@ private fun StepContent(
         is ChoiceStep -> ChoiceStepContent(
             step = step,
             answer = answer as? AnswerState.Choice ?: AnswerState.Choice(),
+            result = result,
+            onAnswerChange = onAnswerChange,
+        )
+
+        is OrderStep -> OrderStepContent(
+            step = step,
+            answer = answer as? AnswerState.Sequence ?: AnswerState.Sequence(),
             result = result,
             onAnswerChange = onAnswerChange,
         )

@@ -96,8 +96,12 @@ class ExerciseSmokeTest {
         val fields = nodes(ExerciseTestTags.GAP_FIELD)
         if (fields.fetchSemanticsNodes().isNotEmpty()) {
             fields.onFirst().performTextInput("qqqqqq")
-        } else {
+        } else if (nodes(ExerciseTestTags.OPTION).fetchSemanticsNodes().isNotEmpty()) {
             nodes(ExerciseTestTags.OPTION).onFirst().performClick()
+        } else {
+            // A sentence-building step, left deliberately half-built: an incomplete
+            // sequence is graded wrong, which is exactly the case under test.
+            nodes(ExerciseTestTags.ORDER_TILE).onFirst().performClick()
         }
 
         compose.onNodeWithTag(ExerciseTestTags.CHECK_BUTTON).performClick()
@@ -211,6 +215,15 @@ class ExerciseSmokeTest {
         val options = nodes(ExerciseTestTags.OPTION)
         if (options.fetchSemanticsNodes().isNotEmpty()) {
             options.onFirst().performClick()
+            return
+        }
+        // Sentence building: place every tile, or Check grades a half-built sentence and
+        // the session never moves past it.
+        val tiles = nodes(ExerciseTestTags.ORDER_TILE).fetchSemanticsNodes().size
+        if (tiles > 0) {
+            repeat(tiles) {
+                nodes(ExerciseTestTags.ORDER_TILE).onFirst().performClick()
+            }
             return
         }
         val fields = nodes(ExerciseTestTags.GAP_FIELD)

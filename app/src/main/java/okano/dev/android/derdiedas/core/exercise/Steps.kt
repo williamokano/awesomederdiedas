@@ -4,6 +4,7 @@ import okano.dev.android.derdiedas.data.exercise.model.Exercise
 import okano.dev.android.derdiedas.data.exercise.model.ExerciseBody
 import okano.dev.android.derdiedas.data.exercise.model.GapTextBody
 import okano.dev.android.derdiedas.data.exercise.model.OddOneOutBody
+import okano.dev.android.derdiedas.data.exercise.model.OrderBody
 import okano.dev.android.derdiedas.data.exercise.model.SingleChoiceBody
 import okano.dev.android.derdiedas.data.exercise.model.TrueFalseBody
 
@@ -94,6 +95,30 @@ data class ChoiceStep(
 }
 
 /**
+ * Build a sentence by placing tiles in order.
+ *
+ * [tiles] is already in display order and [answer] indexes into it, so the widget and the
+ * grader never have to think about the authored order.
+ */
+data class OrderStep(
+    override val id: StepId,
+    override val exerciseId: String,
+    override val title: String,
+    override val instructions: String?,
+    override val instructionsEn: String?,
+    override val flags: GradingFlags,
+    val tiles: List<String>,
+    val answer: List<Int>,
+    val alternatives: List<List<Int>>,
+    /** The finished sentence, for the result banner. */
+    val solution: String,
+    /** A grammar note, when the author wrote one that is not just the sentence again. */
+    val note: String?,
+) : SessionStep {
+    override fun emptyAnswer() = AnswerState.Sequence()
+}
+
+/**
  * Every exercise type's answer reduces to one of four shapes, which is what lets the
  * session runner stay type-agnostic. Only [Texts] is used until PR3; the rest are
  * declared now because this interface is the shape the whole design rests on.
@@ -117,6 +142,9 @@ fun AnswerState.asTexts(): AnswerState.Texts = this as? AnswerState.Texts
 
 fun AnswerState.asChoice(): AnswerState.Choice = this as? AnswerState.Choice
     ?: error("expected AnswerState.Choice for this step but was ${this::class.simpleName}")
+
+fun AnswerState.asSequence(): AnswerState.Sequence = this as? AnswerState.Sequence
+    ?: error("expected AnswerState.Sequence for this step but was ${this::class.simpleName}")
 
 // Both braces are escaped on purpose. Java's regex engine tolerates a bare closing "}",
 // but Android's ICU-backed engine rejects the pattern outright, and the failure is a
@@ -154,8 +182,9 @@ fun Exercise.toSteps(setId: String): List<SessionStep> = when (val body = body) 
     is SingleChoiceBody -> singleChoiceSteps(setId, body)
     is TrueFalseBody -> trueFalseSteps(setId, body)
     is OddOneOutBody -> oddOneOutSteps(setId, body)
+    is OrderBody -> orderSteps(setId, body)
 
-    // PR2: table-fill. PR4: gap-bank. PR5: matching, categorize. PR6: order.
+    // Still to come: gap-bank, matching, categorize, table-fill.
     else -> emptyList()
 }
 
@@ -295,3 +324,93 @@ private fun Exercise.gapTextSteps(setId: String, body: GapTextBody): List<Sessio
         .mapIndexedNotNull { index, line -> step(suffix = index.toString(), segments = parseSegments(line), listLayout = true) }
         .toList()
 }
+
+/**
+ * Sentence-building steps, with the tiles shuffled for display.
+ *
+ * Shuffling is not cosmetic. In 957 of the corpus's 1,124 order items the tiles are stored
+ * already in the right order, so presenting them as authored would let the learner solve
+ * the exercise by tapping left to right. The shuffle is seeded on the step's identity so
+ * the same step always looks the same -- a tile pool that rearranged itself when the step
+ * came back after a wrong answer would be its own kind of unfair.
+ */
+private fun Exercise.orderSteps(setId: String, body: OrderBody): List<SessionStep> =
+    body.items.mapIndexedNotNull { index, item ->
+        if (item.tiles.size < 2) return@mapIndexedNotNull null
+        // An answer that does not name every tile exactly once cannot be built.
+        if (item.answer.sorted() != item.tiles.indices.toList()) return@mapIndexedNotNull null
+
+        val display = shuffleForDisplay(item.tiles.size, seed = "$setId#$id#$index", answer = item.answer)
+        val positionOf = IntArray(display.size).also { display.forEachIndexed { at, original -> it[original] = at } }
+
+        // Joining the tiles reproduces the sentence, but not the way anyone writes it:
+        // tiles are lowercase and punctuation is its own tile, so the join reads
+        // "hast du Geschwister ?". The author's note is almost always that same sentence
+        // written properly, so when it matches, show it instead and drop the note -- it
+        // would otherwise sit under the banner repeating what the banner just said.
+        val tileJoin = item.answer.joinToString(" ") { item.tiles[it] }
+        val restatement = item.note?.takeIf { it.saysTheSameAs(tileJoin) }
+        OrderStep(
+            id = StepId("$setId#$id#$index"),
+            exerciseId = id,
+            title = title,
+            instructions = instructions,
+            instructionsEn = instructionsEn,
+            flags = flags,
+            tiles = display.map { item.tiles[it] },
+            answer = item.answer.map { positionOf[it] },
+            alternatives = item.alt
+                .filter { it.sorted() == item.tiles.indices.toList() }
+                .map { alternative -> alternative.map { positionOf[it] } },
+            solution = restatement ?: tileJoin,
+            note = if (restatement != null) null else item.note,
+        )
+    }
+
+/**
+ * Whether two renderings of the same sentence differ only in the ways the tile join
+ * inevitably differs: capitalisation, spacing, and where the punctuation sits.
+ */
+private fun String.saysTheSameAs(other: String): Boolean = lettersAndDigits() == other.lettersAndDigits()
+
+private fun String.lettersAndDigits(): String = filter { it.isLetterOrDigit() }.lowercase()
+
+/**
+ * A deterministic permutation of `0 until size`, derived from [seed].
+ *
+ * Retries with a varied seed while the shuffle would leave [answer] already in order,
+ * which matters most for the short items: with three tiles a plain shuffle hands the
+ * learner the answer one time in six.
+ */
+internal fun shuffleForDisplay(size: Int, seed: String, answer: List<Int>): List<Int> {
+    repeat(SHUFFLE_ATTEMPTS) { attempt ->
+        val display = seededShuffle(size, "$seed#$attempt")
+        val positionOf = IntArray(size).also { display.forEachIndexed { at, original -> it[original] = at } }
+        val remapped = answer.map { positionOf[it] }
+        if (remapped != remapped.indices.toList()) return display
+    }
+    // Every attempt landed on the identity, which needs a size of one to happen.
+    return (0 until size).toList()
+}
+
+private const val SHUFFLE_ATTEMPTS = 8
+
+/** Fisher-Yates over a cheap string hash, so the order is stable for a given seed. */
+private fun seededShuffle(size: Int, seed: String): List<Int> {
+    var state = seed.fold(HASH_SEED) { acc, ch -> acc * HASH_MULTIPLIER + ch.code }
+    fun next(bound: Int): Int {
+        state = state * HASH_MULTIPLIER + HASH_INCREMENT
+        return ((state ushr 16) % bound).toInt().let { if (it < 0) it + bound else it }
+    }
+
+    val order = (0 until size).toMutableList()
+    for (i in size - 1 downTo 1) {
+        val j = next(i + 1)
+        order[i] = order[j].also { order[j] = order[i] }
+    }
+    return order
+}
+
+private const val HASH_SEED = 1469598103934665603L
+private const val HASH_MULTIPLIER = 31L
+private const val HASH_INCREMENT = 1013904223L

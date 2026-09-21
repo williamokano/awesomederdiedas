@@ -22,6 +22,9 @@ object ExerciseTestTags {
     const val GAP_FIELD = "gap_field"
     const val OPTION = "option"
     const val SESSION_SUMMARY = "session_summary"
+    const val ORDER_STRIP = "order_strip"
+    const val ORDER_TILE = "order_tile"
+    const val ORDER_PLACED_TILE = "order_placed_tile"
 
     // The original flashcard flow, which has no coverage of its own and shares the
     // navigation and dependency wiring the exercise work refactored.
