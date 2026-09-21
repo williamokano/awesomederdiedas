@@ -2,6 +2,7 @@ package okano.dev.android.derdiedas.core.exercise
 
 import okano.dev.android.derdiedas.data.exercise.model.Exercise
 import okano.dev.android.derdiedas.data.exercise.model.ExerciseBody
+import okano.dev.android.derdiedas.data.exercise.model.GapBankBody
 import okano.dev.android.derdiedas.data.exercise.model.GapTextBody
 import okano.dev.android.derdiedas.data.exercise.model.OddOneOutBody
 import okano.dev.android.derdiedas.data.exercise.model.OrderBody
@@ -65,6 +66,42 @@ data class GapTextStep(
     val options: List<String> = emptyList(),
 ) : SessionStep {
     override fun emptyAnswer() = AnswerState.Texts()
+}
+
+/**
+ * Fill a passage's gaps from a shared bank of words.
+ *
+ * Unlike gap-text this is never split: the bank is shared across every gap, so a single
+ * sentence taken out of the passage would carry a bank that mostly does not belong to it.
+ * Measured on the corpus, a passage runs to about ten short lines with roughly one gap
+ * each, which is what makes a whole passage workable on one screen.
+ */
+data class GapBankStep(
+    override val id: StepId,
+    override val exerciseId: String,
+    override val title: String,
+    override val instructions: String?,
+    override val instructionsEn: String?,
+    override val flags: GradingFlags,
+    /** The passage split into lines, each already parsed into literals and gaps. */
+    val lines: List<List<GapSegment>>,
+    /** Every gap in the passage, in reading order. */
+    val gapKeys: List<String>,
+    /** The bank as shown: shuffled, since as authored it usually spells out the answers. */
+    val bank: List<String>,
+    val answers: Map<String, List<String>>,
+    /**
+     * How many times each bank word may be placed.
+     *
+     * Normally the number of copies the bank holds, so placing a word uses it up and the
+     * distractors left over are the ones that do not belong. Three exercises in the corpus
+     * ask for a word more often than the bank lists it -- they are classification drills
+     * where a handful of labels are meant to be reused -- so capacity is raised to what
+     * the answers actually demand rather than leaving those unsolvable.
+     */
+    val capacity: Map<String, Int>,
+) : SessionStep {
+    override fun emptyAnswer() = AnswerState.Placements()
 }
 
 /** One option to pick. [key] is what grading compares; [text] is what the learner reads. */
@@ -146,6 +183,9 @@ fun AnswerState.asChoice(): AnswerState.Choice = this as? AnswerState.Choice
 fun AnswerState.asSequence(): AnswerState.Sequence = this as? AnswerState.Sequence
     ?: error("expected AnswerState.Sequence for this step but was ${this::class.simpleName}")
 
+fun AnswerState.asPlacements(): AnswerState.Placements = this as? AnswerState.Placements
+    ?: error("expected AnswerState.Placements for this step but was ${this::class.simpleName}")
+
 // Both braces are escaped on purpose. Java's regex engine tolerates a bare closing "}",
 // but Android's ICU-backed engine rejects the pattern outright, and the failure is a
 // crash in the static initialiser rather than anything a JVM unit test can reach.
@@ -183,8 +223,9 @@ fun Exercise.toSteps(setId: String): List<SessionStep> = when (val body = body) 
     is TrueFalseBody -> trueFalseSteps(setId, body)
     is OddOneOutBody -> oddOneOutSteps(setId, body)
     is OrderBody -> orderSteps(setId, body)
+    is GapBankBody -> gapBankSteps(setId, body)
 
-    // Still to come: gap-bank, matching, categorize, table-fill.
+    // Still to come: matching, categorize, table-fill.
     else -> emptyList()
 }
 
@@ -414,3 +455,46 @@ private fun seededShuffle(size: Int, seed: String): List<Int> {
 private const val HASH_SEED = 1469598103934665603L
 private const val HASH_MULTIPLIER = 31L
 private const val HASH_INCREMENT = 1013904223L
+
+/**
+ * One step per exercise: the whole passage, with its bank.
+ *
+ * The bank is shuffled for the same reason the order tiles are. As authored, 214 of the
+ * corpus's 327 banks begin with the answers in gap order, so taking the words left to
+ * right would solve two thirds of them without reading the passage at all.
+ */
+private fun Exercise.gapBankSteps(setId: String, body: GapBankBody): List<SessionStep> {
+    val lines = body.text.split('\n')
+        .filter { it.isNotBlank() }
+        .map { parseSegments(it) }
+    val gapKeys = lines.flatMap { gapKeysOf(it) }
+
+    // A gap with no answer could not be got right, and an answer with no gap could not be
+    // placed; either way the exercise is broken rather than hard.
+    if (gapKeys.isEmpty()) return emptyList()
+    if (gapKeys.any { body.answers[it].isNullOrEmpty() }) return emptyList()
+    if (body.answers.keys.any { it !in gapKeys }) return emptyList()
+
+    val demand = gapKeys.mapNotNull { body.answers[it]?.firstOrNull() }
+        .groupingBy { it }
+        .eachCount()
+    val supply = body.bank.groupingBy { it }.eachCount()
+    // Every word the answers ask for has to be in the bank, or the passage is unsolvable.
+    if (demand.keys.any { it !in supply }) return emptyList()
+
+    return listOf(
+        GapBankStep(
+            id = StepId("$setId#$id#0"),
+            exerciseId = id,
+            title = title,
+            instructions = instructions,
+            instructionsEn = instructionsEn,
+            flags = flags,
+            lines = lines,
+            gapKeys = gapKeys,
+            bank = seededShuffle(body.bank.size, "$setId#$id#bank").map { body.bank[it] },
+            answers = body.answers,
+            capacity = supply.mapValues { (word, copies) -> maxOf(copies, demand[word] ?: 0) },
+        ),
+    )
+}

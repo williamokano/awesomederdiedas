@@ -232,15 +232,205 @@ class StepsTest {
 
     @Test
     fun `types not implemented yet produce no steps`() {
-        // This is what will fail loudly in PR4 and remind us to update the splitter.
-        val body = GapBankBody(
-            text = "Ich {1} hier.",
-            bank = listOf("WOHNE", "LEBE"),
-            answers = mapOf("1" to listOf("WOHNE")),
+        // matching, categorize and table-fill are still to come; this is what will fail
+        // loudly when one of them lands and the splitter has not been updated.
+        val body = okano.dev.android.derdiedas.data.exercise.model.CategorizeBody(
+            buckets = listOf(okano.dev.android.derdiedas.data.exercise.model.Bucket("a", "der")),
+            tokens = listOf(okano.dev.android.derdiedas.data.exercise.model.Token("Tisch", "a")),
         )
 
         assertTrue(exercise(body).toSteps("sit-78").isEmpty())
     }
+}
+
+class GapBankStepsTest {
+
+    @Test
+    fun `a passage becomes one step holding every gap`() {
+        val step = step(
+            text = "Ich {1} hier.\nDu {2} dort.",
+            bank = listOf("wohne", "lebst", "extra"),
+            answers = mapOf("1" to listOf("wohne"), "2" to listOf("lebst")),
+        )
+
+        assertEquals(listOf("1", "2"), step.gapKeys)
+        assertEquals(2, step.lines.size)
+    }
+
+    @Test
+    fun `the bank is shuffled because as authored it spells out the answers`() {
+        // 214 of the corpus's 327 banks begin with the answers in gap order, so a bank
+        // shown as authored would be solvable left to right without reading the passage.
+        val step = step(
+            text = "{1} {2} {3} {4} {5}",
+            bank = listOf("a", "b", "c", "d", "e"),
+            answers = (1..5).associate { it.toString() to listOf("abcde"[it - 1].toString()) },
+        )
+
+        assertTrue("the bank was left in answer order", step.bank != listOf("a", "b", "c", "d", "e"))
+        assertEquals(listOf("a", "b", "c", "d", "e"), step.bank.sorted())
+    }
+
+    @Test
+    fun `the shuffle is stable for the same exercise`() {
+        // A bank that rearranged itself when a missed step came back would be unfair.
+        val body = body("Ich {1} hier.", listOf("a", "b", "c", "d"), mapOf("1" to listOf("a")))
+
+        assertEquals(
+            exercise(body).toSteps("s").filterIsInstance<GapBankStep>().single().bank,
+            exercise(body).toSteps("s").filterIsInstance<GapBankStep>().single().bank,
+        )
+    }
+
+    @Test
+    fun `capacity is the number of copies the bank holds`() {
+        val step = step(
+            text = "{1} {2} {3}",
+            bank = listOf("ja", "ja", "nein"),
+            answers = mapOf("1" to listOf("ja"), "2" to listOf("ja"), "3" to listOf("nein")),
+        )
+
+        assertEquals(2, step.capacity["ja"])
+        assertEquals(1, step.capacity["nein"])
+    }
+
+    @Test
+    fun `capacity rises to meet an answer the bank lists too few times`() {
+        // Three corpus exercises are classification drills: a couple of labels, reused
+        // across every gap. Consuming the single listed copy would strand the learner.
+        val step = step(
+            text = "{1} {2} {3}",
+            bank = listOf("-s-", "-es-"),
+            answers = mapOf("1" to listOf("-s-"), "2" to listOf("-s-"), "3" to listOf("-es-")),
+        )
+
+        assertEquals(2, step.capacity["-s-"])
+        assertEquals(1, step.capacity["-es-"])
+    }
+
+    @Test
+    fun `a gap with no answer drops the exercise rather than shipping it unanswerable`() {
+        val body = body("Ich {1} {2} hier.", listOf("wohne"), mapOf("1" to listOf("wohne")))
+
+        assertTrue(exercise(body).toSteps("s").isEmpty())
+    }
+
+    @Test
+    fun `an answer that is not in the bank drops the exercise`() {
+        val body = body("Ich {1} hier.", listOf("lebe"), mapOf("1" to listOf("wohne")))
+
+        assertTrue(exercise(body).toSteps("s").isEmpty())
+    }
+
+    @Test
+    fun `an answer naming a gap the text does not have drops the exercise`() {
+        val body = body("Ich {1} hier.", listOf("wohne", "lebe"), mapOf("1" to listOf("wohne"), "9" to listOf("lebe")))
+
+        assertTrue(exercise(body).toSteps("s").isEmpty())
+    }
+
+    @Test
+    fun `a passage with no gaps drops the exercise`() {
+        assertTrue(exercise(body("Ich wohne hier.", listOf("a"), emptyMap())).toSteps("s").isEmpty())
+    }
+
+    @Test
+    fun `blank lines are dropped so the passage does not render gaps of empty rows`() {
+        val step = step(
+            text = "Ich {1} hier.\n\n\nDu {2} dort.",
+            bank = listOf("wohne", "lebst"),
+            answers = mapOf("1" to listOf("wohne"), "2" to listOf("lebst")),
+        )
+
+        assertEquals(2, step.lines.size)
+    }
+
+    private fun step(text: String, bank: List<String>, answers: Map<String, List<String>>) =
+        exercise(body(text, bank, answers)).toSteps("s").filterIsInstance<GapBankStep>().single()
+
+    private fun body(text: String, bank: List<String>, answers: Map<String, List<String>>) =
+        GapBankBody(text = text, bank = bank, answers = answers)
+
+    private fun exercise(body: okano.dev.android.derdiedas.data.exercise.model.ExerciseBody) = Exercise(
+        id = "C1",
+        block = Block.C,
+        title = "Lückentext mit Wortbank",
+        instructions = "Ergänze mit den Wörtern aus der Bank.",
+        body = body,
+    )
+}
+
+class GapBankGraderTest {
+
+    @Test
+    fun `every gap filled correctly is a correct step`() {
+        val step = step()
+        val result = gradeStep(step, AnswerState.Placements(mapOf("1" to "wohne", "2" to "lebst")))
+
+        assertTrue(result.correct)
+        assertEquals(2, result.correctCount)
+    }
+
+    @Test
+    fun `one wrong gap makes the whole step wrong but reports the rest`() {
+        val result = gradeStep(step(), AnswerState.Placements(mapOf("1" to "wohne", "2" to "extra")))
+
+        assertFalse(result.correct)
+        assertEquals(1, result.correctCount)
+        assertEquals(2, result.items.size)
+    }
+
+    @Test
+    fun `an unfilled gap is wrong rather than skipped`() {
+        val result = gradeStep(step(), AnswerState.Placements(mapOf("1" to "wohne")))
+
+        assertFalse(result.correct)
+        assertEquals("", result.items.single { it.ref == "2" }.given)
+    }
+
+    @Test
+    fun `bank answers are compared exactly with no normalisation`() {
+        // checkText trims and folds case; checkBank deliberately does not, because the
+        // learner picked the word from a fixed bank rather than typing it.
+        assertFalse(gradeStep(step(), AnswerState.Placements(mapOf("1" to "Wohne", "2" to "lebst"))).correct)
+        assertFalse(gradeStep(step(), AnswerState.Placements(mapOf("1" to " wohne", "2" to "lebst"))).correct)
+    }
+
+    @Test
+    fun `any listed alternative is accepted`() {
+        val step = exercise(
+            GapBankBody(
+                text = "Ich {1} hier.",
+                bank = listOf("wohne", "lebe"),
+                answers = mapOf("1" to listOf("wohne", "lebe")),
+            ),
+        ).toSteps("s").filterIsInstance<GapBankStep>().single()
+
+        assertTrue(gradeStep(step, AnswerState.Placements(mapOf("1" to "lebe"))).correct)
+    }
+
+    @Test
+    fun `the reported expected answer is the drilled form`() {
+        val result = gradeStep(step(), AnswerState.Placements(emptyMap()))
+
+        assertEquals("wohne", result.items.single { it.ref == "1" }.expected)
+    }
+
+    private fun step() = exercise(
+        GapBankBody(
+            text = "Ich {1} hier.\nDu {2} dort.",
+            bank = listOf("wohne", "lebst", "extra"),
+            answers = mapOf("1" to listOf("wohne"), "2" to listOf("lebst")),
+        ),
+    ).toSteps("s").filterIsInstance<GapBankStep>().single()
+
+    private fun exercise(body: okano.dev.android.derdiedas.data.exercise.model.ExerciseBody) = Exercise(
+        id = "C1",
+        block = Block.C,
+        title = "Lückentext mit Wortbank",
+        instructions = "Ergänze mit den Wörtern aus der Bank.",
+        body = body,
+    )
 }
 
 class StepGraderTest {

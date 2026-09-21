@@ -26,6 +26,28 @@ fun gradeStep(step: SessionStep, answer: AnswerState): StepResult = when (step) 
     is GapTextStep -> gradeGapText(step, answer.asTexts())
     is ChoiceStep -> gradeChoice(step, answer.asChoice())
     is OrderStep -> gradeOrder(step, answer.asSequence())
+    is GapBankStep -> gradeGapBank(step, answer.asPlacements())
+}
+
+/**
+ * Each gap is graded on its own, then the step is right only if every gap is.
+ *
+ * checkBank compares the placed word exactly, with no normalisation: the learner picked
+ * it from a fixed bank rather than typing it, so there is nothing to be lenient about.
+ * A gap left empty is simply wrong.
+ */
+private fun gradeGapBank(step: GapBankStep, answer: AnswerState.Placements): StepResult {
+    val items = step.gapKeys.map { key ->
+        val expected = step.answers[key].orEmpty()
+        val placed = answer.byRef[key]
+        ItemResult(
+            ref = key,
+            correct = expected.any { checkBank(it, placed) },
+            given = placed.orEmpty(),
+            expected = expected.firstOrNull().orEmpty(),
+        )
+    }
+    return StepResult(items = items, correct = items.all { it.correct })
 }
 
 private fun gradeOrder(step: OrderStep, answer: AnswerState.Sequence): StepResult {
