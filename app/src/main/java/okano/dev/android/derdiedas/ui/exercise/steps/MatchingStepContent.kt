@@ -1,16 +1,12 @@
 package okano.dev.android.derdiedas.ui.exercise.steps
 
 import androidx.compose.foundation.BorderStroke
-import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.ExperimentalLayoutApi
-import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
@@ -27,7 +23,6 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import okano.dev.android.derdiedas.core.exercise.AnswerState
 import okano.dev.android.derdiedas.core.exercise.ChoiceOption
@@ -52,7 +47,6 @@ import okano.dev.android.derdiedas.ui.theme.LocalFeedbackColors
  * before checking, and that is also what grading marks up. The dense list is therefore
  * only ever shown when it is being read rather than tapped.
  */
-@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun MatchingStepContent(
     step: MatchingStep,
@@ -102,7 +96,6 @@ fun MatchingStepContent(
     }
 }
 
-@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun Answering(
     step: MatchingStep,
@@ -114,28 +107,24 @@ private fun Answering(
     val keys = step.prompts.map { it.key }
     val done = keys.count { !placed[it].isNullOrEmpty() }
 
-    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-        // One dot per prompt: how many are done, where this one sits, and a way back to
-        // any of them without leaving the screen.
-        FlowRow(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.spacedBy(6.dp),
-            verticalArrangement = Arrangement.spacedBy(6.dp),
-        ) {
-            step.prompts.forEachIndexed { index, prompt ->
-                Pip(
-                    number = index + 1,
-                    filled = !placed[prompt.key].isNullOrEmpty(),
-                    isCurrent = prompt.key == current,
-                    onClick = { onPick(prompt.key) },
-                )
-            }
-        }
+    // What has been answered so far, so the exercise reads as it builds up instead of
+    // being a run of unrelated questions. Numbered pips were here before and said only
+    // how many were done, which told the learner nothing about what they had said.
+    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
         Text(
             text = "${done + 1} / ${step.prompts.size}",
             style = MaterialTheme.typography.labelMedium,
             color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f),
         )
+        step.prompts
+            .filter { !placed[it.key].isNullOrEmpty() }
+            .forEach { prompt ->
+                Answered(
+                    prompt = prompt.text,
+                    match = step.pool.firstOrNull { it.key == placed[prompt.key] }?.text.orEmpty(),
+                    onClick = { onPick(prompt.key) },
+                )
+            }
     }
 
     Text(
@@ -240,29 +229,28 @@ private fun PairList(
 }
 
 @Composable
-private fun Pip(
-    number: Int,
-    filled: Boolean,
-    isCurrent: Boolean,
+private fun Answered(
+    prompt: String,
+    match: String,
     onClick: () -> Unit,
 ) {
-    val background = when {
-        isCurrent -> MaterialTheme.colorScheme.primary
-        filled -> MaterialTheme.colorScheme.primary.copy(alpha = 0.25f)
-        else -> MaterialTheme.colorScheme.surfaceVariant
-    }
-    Text(
-        text = "$number",
-        style = MaterialTheme.typography.labelMedium,
-        fontWeight = FontWeight.Medium,
-        textAlign = TextAlign.Center,
-        color = if (isCurrent) MaterialTheme.colorScheme.onPrimary else MaterialTheme.colorScheme.onSurfaceVariant,
+    Column(
         modifier = Modifier
+            .fillMaxWidth()
             .clip(RoundedCornerShape(8.dp))
-            .background(background)
-            .clickable(enabled = filled || isCurrent, onClick = onClick)
-            .size(28.dp)
-            .padding(top = 5.dp)
-            .testTag(ExerciseTestTags.MATCH_PIP),
-    )
+            .clickable(onClick = onClick)
+            .padding(horizontal = 10.dp, vertical = 6.dp)
+            .testTag(ExerciseTestTags.MATCH_ANSWERED),
+    ) {
+        Text(
+            text = prompt,
+            style = MaterialTheme.typography.labelMedium,
+            color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.5f),
+        )
+        Text(
+            text = match,
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.75f),
+        )
+    }
 }
