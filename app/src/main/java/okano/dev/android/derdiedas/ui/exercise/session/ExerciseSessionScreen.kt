@@ -27,6 +27,9 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
@@ -143,25 +146,32 @@ private fun ActiveSession(
             }
         }
 
-        ResultBanner(
-            result = session.result,
-            visible = graded,
-            language = language,
-            onContinue = viewModel::onContinue,
-        )
-
-        if (!graded) {
-            Button(
-                onClick = viewModel::onCheck,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(24.dp)
-                    .height(56.dp)
-                    .testTag(ExerciseTestTags.CHECK_BUTTON),
-                shape = RoundedCornerShape(16.dp),
-            ) {
-                Text(StringResources.check(language), fontWeight = FontWeight.Bold)
+        // One slot at the bottom, with the banner drawn over the check button rather
+        // than stacked beside it. While the banner slides out its layout height is
+        // already zero but it is still drawn, so in a column the check button was laid
+        // into the space the banner was still painting over. Sharing the slot turns that
+        // collision into the banner uncovering the button as it leaves.
+        Box(modifier = Modifier.fillMaxWidth()) {
+            if (!graded) {
+                Button(
+                    onClick = viewModel::onCheck,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(24.dp)
+                        .height(56.dp)
+                        .testTag(ExerciseTestTags.CHECK_BUTTON),
+                    shape = RoundedCornerShape(16.dp),
+                ) {
+                    Text(StringResources.check(language), fontWeight = FontWeight.Bold)
+                }
             }
+
+            ResultBanner(
+                result = session.result,
+                visible = graded,
+                language = language,
+                onContinue = viewModel::onContinue,
+            )
         }
     }
 }
@@ -217,12 +227,20 @@ private fun ResultBanner(
 ) {
     val feedback = LocalFeedbackColors.current
 
+    // AnimatedVisibility keeps its content composed while it slides away, but by then
+    // the session has already cleared the result for the next step. Reading the live
+    // value repainted a correct answer's banner in the wrong colours halfway through
+    // the exit, so the last result shown is held until a new one replaces it.
+    var lastShown by remember { mutableStateOf<StepResult?>(null) }
+    if (result != null && result != lastShown) lastShown = result
+    val shown = result ?: lastShown
+
     AnimatedVisibility(
         visible = visible && result != null,
         enter = slideInVertically { it },
         exit = slideOutVertically { it },
     ) {
-        val correct = result?.correct == true
+        val correct = shown?.correct == true
         Surface(
             color = if (correct) feedback.correctContainer else feedback.wrongContainer,
             contentColor = if (correct) feedback.onCorrectContainer else feedback.onWrongContainer,
@@ -239,7 +257,7 @@ private fun ResultBanner(
                     fontWeight = FontWeight.Bold,
                 )
                 if (!correct) {
-                    val expected = result?.items.orEmpty()
+                    val expected = shown?.items.orEmpty()
                         .filterNot { it.correct }
                         .map { it.expected }
                         .filter { it.isNotBlank() }
@@ -251,14 +269,14 @@ private fun ResultBanner(
                         )
                     }
                 }
-                result?.items?.firstNotNullOfOrNull { it.note }?.let { why ->
+                shown?.items?.firstNotNullOfOrNull { it.note }?.let { why ->
                     Text(
                         text = why,
                         style = MaterialTheme.typography.bodyMedium,
                     )
                 }
                 // Only worth saying for multi-gap steps; "1 of 1" is noise.
-                result?.takeIf { it.items.size > 1 }?.let {
+                shown?.takeIf { it.items.size > 1 }?.let {
                     Text(
                         StringResources.gapsCorrect(language, it.correctCount, it.items.size),
                         style = MaterialTheme.typography.bodyMedium,
