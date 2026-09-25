@@ -102,10 +102,13 @@ class ExerciseSmokeTest {
             // A sentence-building step, left deliberately half-built: an incomplete
             // sequence is graded wrong, which is exactly the case under test.
             nodes(ExerciseTestTags.ORDER_TILE).onFirst().performClick()
-        } else {
+        } else if (nodes(ExerciseTestTags.BANK_WORD).fetchSemanticsNodes().isNotEmpty()) {
             // A word-bank passage with one blank filled and the rest empty, which is
             // likewise wrong.
             nodes(ExerciseTestTags.BANK_WORD).onFirst().performClick()
+        } else {
+            // A matching board with one prompt answered and the rest left empty.
+            nodes(ExerciseTestTags.MATCH_POOL_ENTRY).onFirst().performClick()
         }
 
         compose.onNodeWithTag(ExerciseTestTags.CHECK_BUTTON).performClick()
@@ -241,6 +244,19 @@ class ExerciseSmokeTest {
             }
             return
         }
+        // Matching answers one prompt at a time and advances by itself, so taking the
+        // first option over and over walks the whole board. The options disappear once
+        // every prompt has a match, which is what ends the loop; the cap only stops a
+        // regression hanging the run.
+        if (nodes(ExerciseTestTags.MATCH_POOL_ENTRY).fetchSemanticsNodes().isNotEmpty()) {
+            var guard = 0
+            while (nodes(ExerciseTestTags.MATCH_POOL_ENTRY).fetchSemanticsNodes().isNotEmpty() &&
+                guard++ < MAX_MATCH_PROMPTS
+            ) {
+                nodes(ExerciseTestTags.MATCH_POOL_ENTRY).onFirst().performClick()
+            }
+            return
+        }
         val fields = nodes(ExerciseTestTags.GAP_FIELD)
         if (fields.fetchSemanticsNodes().isNotEmpty()) {
             fields.onFirst().performTextInput("test")
@@ -254,5 +270,8 @@ class ExerciseSmokeTest {
         // A session holds at most 15 steps and each is offered at most twice, so any
         // session must end well inside this. The cap stops a regression hanging the run.
         const val MAX_ANSWERS = 40
+
+        // No matching exercise in the corpus has more than ten prompts.
+        const val MAX_MATCH_PROMPTS = 12
     }
 }
