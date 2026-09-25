@@ -4,6 +4,7 @@ import okano.dev.android.derdiedas.data.exercise.model.Exercise
 import okano.dev.android.derdiedas.data.exercise.model.ExerciseBody
 import okano.dev.android.derdiedas.data.exercise.model.GapBankBody
 import okano.dev.android.derdiedas.data.exercise.model.GapTextBody
+import okano.dev.android.derdiedas.data.exercise.model.MatchingBody
 import okano.dev.android.derdiedas.data.exercise.model.OddOneOutBody
 import okano.dev.android.derdiedas.data.exercise.model.OrderBody
 import okano.dev.android.derdiedas.data.exercise.model.SingleChoiceBody
@@ -98,6 +99,41 @@ data class GapBankStep(
      * ask for a word more often than the bank lists it -- they are classification drills
      * where a handful of labels are meant to be reused -- so capacity is raised to what
      * the answers actually demand rather than leaving those unsolvable.
+     */
+    val capacity: Map<String, Int>,
+) : SessionStep {
+    override fun emptyAnswer() = AnswerState.Placements()
+}
+
+/**
+ * Pair each prompt with its match from a shared pool.
+ *
+ * Kept whole for the same reason as the word bank: the pool belongs to the exercise, so a
+ * single prompt carried out on its own would bring a pool that mostly does not answer it.
+ *
+ * The prompts stay in their authored order and the pool is shuffled, never the other way
+ * round: the prompts often read as a sequence, while the pool is just a set.
+ */
+data class MatchingStep(
+    override val id: StepId,
+    override val exerciseId: String,
+    override val title: String,
+    override val instructions: String?,
+    override val instructionsEn: String?,
+    override val flags: GradingFlags,
+    /** The prompts, in reading order. Each is one slot to fill. */
+    val prompts: List<ChoiceOption>,
+    /** The pool as shown: shuffled, since as authored it often sits in answer order. */
+    val pool: List<ChoiceOption>,
+    /** Prompt key to the pool key that answers it. */
+    val answers: Map<String, String>,
+    /**
+     * How many prompts each pool entry may be assigned to.
+     *
+     * One normally, so using an entry takes it out of the pool and the distractors left
+     * over are the ones that match nothing. Three exercises in the corpus answer several
+     * prompts with the same entry -- they are classification drills wearing matching's
+     * clothes -- so capacity follows what the answers demand.
      */
     val capacity: Map<String, Int>,
 ) : SessionStep {
@@ -224,8 +260,9 @@ fun Exercise.toSteps(setId: String): List<SessionStep> = when (val body = body) 
     is OddOneOutBody -> oddOneOutSteps(setId, body)
     is OrderBody -> orderSteps(setId, body)
     is GapBankBody -> gapBankSteps(setId, body)
+    is MatchingBody -> matchingSteps(setId, body)
 
-    // Still to come: matching, categorize, table-fill.
+    // Still to come: categorize, table-fill.
     else -> emptyList()
 }
 
@@ -434,6 +471,21 @@ internal fun shuffleForDisplay(size: Int, seed: String, answer: List<Int>): List
     return (0 until size).toList()
 }
 
+/**
+ * A seeded shuffle that re-rolls while [leaks] says the result still gives the answer
+ * away. Both callers need this: a shuffle is only worth doing if it lands somewhere the
+ * learner cannot read straight off, and with a handful of items chance alone puts it back
+ * on the answer often enough to matter.
+ */
+private fun shuffleAvoiding(size: Int, seed: String, leaks: (List<Int>) -> Boolean): List<Int> {
+    repeat(SHUFFLE_ATTEMPTS) { attempt ->
+        val order = seededShuffle(size, "$seed#$attempt")
+        if (!leaks(order)) return order
+    }
+    // Only reachable when every arrangement leaks, which needs one item or none.
+    return (0 until size).toList()
+}
+
 private const val SHUFFLE_ATTEMPTS = 8
 
 /** Fisher-Yates over a cheap string hash, so the order is stable for a given seed. */
@@ -495,6 +547,47 @@ private fun Exercise.gapBankSteps(setId: String, body: GapBankBody): List<Sessio
             bank = seededShuffle(body.bank.size, "$setId#$id#bank").map { body.bank[it] },
             answers = body.answers,
             capacity = supply.mapValues { (word, copies) -> maxOf(copies, demand[word] ?: 0) },
+        ),
+    )
+}
+
+/**
+ * One step per exercise: every prompt, with the shared pool.
+ *
+ * The pool is shuffled for the same reason the bank and the order tiles are, and here the
+ * leak is the widest of the three: in 110 of the corpus's 217 exercises the right column
+ * is authored in the same order as the prompts it answers, so pairing them off top to top
+ * would solve half of them without reading a word.
+ */
+private fun Exercise.matchingSteps(setId: String, body: MatchingBody): List<SessionStep> {
+    if (body.left.isEmpty() || body.right.isEmpty()) return emptyList()
+
+    // A prompt with no answer could not be got right, and an answer naming an entry the
+    // pool does not hold could not be picked.
+    val poolKeys = body.right.map { it.key }.toSet()
+    if (body.left.any { body.answers[it.key].let { key -> key == null || key !in poolKeys } }) return emptyList()
+
+    val demand = body.left.mapNotNull { body.answers[it.key] }.groupingBy { it }.eachCount()
+
+    return listOf(
+        MatchingStep(
+            id = StepId("$setId#$id#0"),
+            exerciseId = id,
+            title = title,
+            instructions = instructions,
+            instructionsEn = instructionsEn,
+            flags = flags,
+            prompts = body.left.map { ChoiceOption(it.key, it.text) },
+            pool = shuffleAvoiding(body.right.size, "$setId#$id#pool") { candidate ->
+                // Leaks when the pool as shown answers the prompts top to top. With three
+                // entries a plain shuffle lands there once in six tries, and one corpus
+                // exercise did exactly that.
+                body.left.withIndex().all { (index, prompt) ->
+                    candidate.getOrNull(index)?.let { body.right[it].key } == body.answers[prompt.key]
+                }
+            }.map { ChoiceOption(body.right[it].key, body.right[it].text) },
+            answers = body.left.associate { it.key to body.answers.getValue(it.key) },
+            capacity = poolKeys.associateWith { maxOf(1, demand[it] ?: 0) },
         ),
     )
 }

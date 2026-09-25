@@ -102,10 +102,13 @@ class ExerciseSmokeTest {
             // A sentence-building step, left deliberately half-built: an incomplete
             // sequence is graded wrong, which is exactly the case under test.
             nodes(ExerciseTestTags.ORDER_TILE).onFirst().performClick()
-        } else {
+        } else if (nodes(ExerciseTestTags.BANK_WORD).fetchSemanticsNodes().isNotEmpty()) {
             // A word-bank passage with one blank filled and the rest empty, which is
             // likewise wrong.
             nodes(ExerciseTestTags.BANK_WORD).onFirst().performClick()
+        } else {
+            // A matching board with one prompt paired and the rest empty.
+            nodes(ExerciseTestTags.MATCH_POOL_ENTRY).onFirst().performClick()
         }
 
         compose.onNodeWithTag(ExerciseTestTags.CHECK_BUTTON).performClick()
@@ -238,6 +241,15 @@ class ExerciseSmokeTest {
             val words = nodes(ExerciseTestTags.BANK_WORD).fetchSemanticsNodes().size
             repeat(minOf(blanks, words)) { index ->
                 nodes(ExerciseTestTags.BANK_WORD)[index].performClick()
+            }
+            return
+        }
+        // Matching: same shape as the word bank -- one tap per prompt fills them in turn.
+        val prompts = nodes(ExerciseTestTags.MATCH_PROMPT).fetchSemanticsNodes().size
+        if (prompts > 0) {
+            val entries = nodes(ExerciseTestTags.MATCH_POOL_ENTRY).fetchSemanticsNodes().size
+            repeat(minOf(prompts, entries)) { index ->
+                nodes(ExerciseTestTags.MATCH_POOL_ENTRY)[index].performClick()
             }
             return
         }

@@ -27,6 +27,30 @@ fun gradeStep(step: SessionStep, answer: AnswerState): StepResult = when (step) 
     is ChoiceStep -> gradeChoice(step, answer.asChoice())
     is OrderStep -> gradeOrder(step, answer.asSequence())
     is GapBankStep -> gradeGapBank(step, answer.asPlacements())
+    is MatchingStep -> gradeMatching(step, answer.asPlacements())
+}
+
+/**
+ * Each prompt is graded on its own, then the step is right only if every prompt is.
+ *
+ * Keys are compared, never the texts: two pool entries could read alike, and the key is
+ * what the content actually asserts. A prompt left unpaired is wrong.
+ */
+private fun gradeMatching(step: MatchingStep, answer: AnswerState.Placements): StepResult {
+    fun textOf(key: String?) = step.pool.firstOrNull { it.key == key }?.text.orEmpty()
+
+    val items = step.prompts.map { prompt ->
+        val expected = step.answers[prompt.key]
+        val given = answer.byRef[prompt.key]
+        ItemResult(
+            ref = prompt.key,
+            correct = given != null && checkEquality(expected, given),
+            // Report the texts: a bare "c" means nothing to a learner reading the banner.
+            given = textOf(given),
+            expected = "${prompt.text} -> ${textOf(expected)}",
+        )
+    }
+    return StepResult(items = items, correct = items.all { it.correct })
 }
 
 /**
