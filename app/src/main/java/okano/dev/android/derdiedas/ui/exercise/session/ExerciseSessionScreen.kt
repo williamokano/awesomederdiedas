@@ -129,7 +129,15 @@ private fun ActiveSession(
                     .heightIn(min = viewportHeight)
                     .verticalScroll(rememberScrollState())
                     .padding(horizontal = 24.dp, vertical = 16.dp),
-                verticalArrangement = Arrangement.spacedBy(20.dp, Alignment.CenterVertically),
+                // Centring is right for a short step, which would otherwise sit at the
+                // top of an empty screen. It is wrong for one whose height changes as it
+                // is answered: matching drops each reply it uses, and the moment the
+                // content shrinks past the viewport the centring engages and the whole
+                // screen jumps to the middle between two taps.
+                verticalArrangement = Arrangement.spacedBy(
+                    20.dp,
+                    if (step.keepsStillWhileAnswered) Alignment.CenterVertically else Alignment.Top,
+                ),
             ) {
                 step.instructions?.let {
                     Text(it, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
@@ -177,6 +185,15 @@ private fun ActiveSession(
         }
     }
 }
+
+/**
+ * Whether a step's content keeps the same height from the first tap to the last.
+ *
+ * Kept here rather than on the step itself: it is a fact about how the widget lays out,
+ * not about the exercise.
+ */
+private val SessionStep.keepsStillWhileAnswered: Boolean
+    get() = this !is MatchingStep
 
 /**
  * Dispatches a step to its widget. Exhaustive on purpose: adding an exercise type in a
