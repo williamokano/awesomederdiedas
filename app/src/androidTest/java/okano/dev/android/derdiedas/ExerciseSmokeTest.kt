@@ -107,7 +107,7 @@ class ExerciseSmokeTest {
             // likewise wrong.
             nodes(ExerciseTestTags.BANK_WORD).onFirst().performClick()
         } else {
-            // A matching board with one prompt paired and the rest empty.
+            // A matching board with one prompt answered and the rest left empty.
             nodes(ExerciseTestTags.MATCH_POOL_ENTRY).onFirst().performClick()
         }
 
@@ -244,12 +244,16 @@ class ExerciseSmokeTest {
             }
             return
         }
-        // Matching: same shape as the word bank -- one tap per prompt fills them in turn.
-        val prompts = nodes(ExerciseTestTags.MATCH_PROMPT).fetchSemanticsNodes().size
-        if (prompts > 0) {
-            val entries = nodes(ExerciseTestTags.MATCH_POOL_ENTRY).fetchSemanticsNodes().size
-            repeat(minOf(prompts, entries)) { index ->
-                nodes(ExerciseTestTags.MATCH_POOL_ENTRY)[index].performClick()
+        // Matching answers one prompt at a time and advances by itself, so taking the
+        // first option over and over walks the whole board. The options disappear once
+        // every prompt has a match, which is what ends the loop; the cap only stops a
+        // regression hanging the run.
+        if (nodes(ExerciseTestTags.MATCH_POOL_ENTRY).fetchSemanticsNodes().isNotEmpty()) {
+            var guard = 0
+            while (nodes(ExerciseTestTags.MATCH_POOL_ENTRY).fetchSemanticsNodes().isNotEmpty() &&
+                guard++ < MAX_MATCH_PROMPTS
+            ) {
+                nodes(ExerciseTestTags.MATCH_POOL_ENTRY).onFirst().performClick()
             }
             return
         }
@@ -266,5 +270,8 @@ class ExerciseSmokeTest {
         // A session holds at most 15 steps and each is offered at most twice, so any
         // session must end well inside this. The cap stops a regression hanging the run.
         const val MAX_ANSWERS = 40
+
+        // No matching exercise in the corpus has more than ten prompts.
+        const val MAX_MATCH_PROMPTS = 12
     }
 }
