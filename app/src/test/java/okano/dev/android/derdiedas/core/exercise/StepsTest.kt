@@ -4,6 +4,8 @@ import okano.dev.android.derdiedas.data.exercise.model.Block
 import okano.dev.android.derdiedas.data.exercise.model.Exercise
 import okano.dev.android.derdiedas.data.exercise.model.GapBankBody
 import okano.dev.android.derdiedas.data.exercise.model.GapTextBody
+import okano.dev.android.derdiedas.data.exercise.model.KeyedText
+import okano.dev.android.derdiedas.data.exercise.model.MatchingBody
 import okano.dev.android.derdiedas.data.exercise.model.OddOneOutBody
 import okano.dev.android.derdiedas.data.exercise.model.OddOneOutGroup
 import okano.dev.android.derdiedas.data.exercise.model.OrderBody
@@ -871,4 +873,198 @@ class OrderGraderTest {
         )
         assertTrue(graded.correct)
     }
+}
+
+class MatchingStepsTest {
+
+    @Test
+    fun `an exercise becomes one step holding every prompt`() {
+        val step = step()
+
+        assertEquals(listOf("1", "2", "3"), step.prompts.map { it.key })
+        assertEquals(3, step.pool.size)
+    }
+
+    @Test
+    fun `the pool is shuffled because as authored it often sits in answer order`() {
+        // 110 of the corpus's 217 exercises answer prompt n with the nth pool entry, so a
+        // pool shown as authored would pair off top to top for half of them.
+        val body = MatchingBody(
+            left = (1..6).map { KeyedText(it.toString(), "q$it") },
+            right = ('a'..'f').map { KeyedText(it.toString(), "a$it") },
+            answers = (1..6).associate { it.toString() to ('a' + it - 1).toString() },
+        )
+
+        val step = exercise(body).toSteps("s").filterIsInstance<MatchingStep>().single()
+
+        assertTrue("the pool was left in answer order", step.pool.map { it.key } != ('a'..'f').map { it.toString() })
+        assertEquals(('a'..'f').map { it.toString() }.sorted(), step.pool.map { it.key }.sorted())
+    }
+
+    @Test
+    fun `the shuffle re-rolls when chance lands it back on the answer`() {
+        // A three-entry pool hits the answer order once in six tries, and one corpus
+        // exercise did. Whatever the seed, the result must not pair off top to top.
+        repeat(40) { n ->
+            val body = MatchingBody(
+                left = (1..3).map { KeyedText(it.toString(), "q$it") },
+                right = listOf("Lisa", "Marco", "Selin").map { KeyedText(it, it) },
+                answers = mapOf("1" to "Selin", "2" to "Lisa", "3" to "Marco"),
+            )
+            val step = exercise(body, id = "exam-L$n").toSteps("s").filterIsInstance<MatchingStep>().single()
+            val rowAligned = step.prompts.withIndex().all { (i, p) ->
+                step.pool.getOrNull(i)?.key == step.answers[p.key]
+            }
+            assertFalse("seed $n left the pool pairing off row by row", rowAligned)
+        }
+    }
+
+    @Test
+    fun `the prompts keep their authored order`() {
+        // They often read as a sequence; only the pool is a set.
+        assertEquals(listOf("q1", "q2", "q3"), step().prompts.map { it.text })
+    }
+
+    @Test
+    fun `the shuffle is stable for the same exercise`() {
+        assertEquals(step().pool.map { it.key }, step().pool.map { it.key })
+    }
+
+    @Test
+    fun `capacity is one per pool entry`() {
+        assertEquals(setOf(1), step().capacity.values.toSet())
+    }
+
+    @Test
+    fun `capacity rises when one entry answers several prompts`() {
+        // Three corpus exercises are classification drills in matching's clothes.
+        val body = MatchingBody(
+            left = (1..4).map { KeyedText(it.toString(), "q$it") },
+            right = listOf(KeyedText("a", "ja"), KeyedText("b", "nein")),
+            answers = mapOf("1" to "a", "2" to "a", "3" to "a", "4" to "b"),
+        )
+
+        val step = exercise(body).toSteps("s").filterIsInstance<MatchingStep>().single()
+
+        assertEquals(3, step.capacity["a"])
+        assertEquals(1, step.capacity["b"])
+    }
+
+    @Test
+    fun `a prompt with no answer drops the exercise`() {
+        val body = MatchingBody(
+            left = listOf(KeyedText("1", "q1"), KeyedText("2", "q2")),
+            right = listOf(KeyedText("a", "a1")),
+            answers = mapOf("1" to "a"),
+        )
+
+        assertTrue(exercise(body).toSteps("s").isEmpty())
+    }
+
+    @Test
+    fun `an answer naming an entry the pool does not hold drops the exercise`() {
+        val body = MatchingBody(
+            left = listOf(KeyedText("1", "q1")),
+            right = listOf(KeyedText("a", "a1")),
+            answers = mapOf("1" to "zz"),
+        )
+
+        assertTrue(exercise(body).toSteps("s").isEmpty())
+    }
+
+    @Test
+    fun `distractors stay in the pool`() {
+        val body = MatchingBody(
+            left = listOf(KeyedText("1", "q1"), KeyedText("2", "q2")),
+            right = ('a'..'e').map { KeyedText(it.toString(), "a$it") },
+            answers = mapOf("1" to "a", "2" to "b"),
+        )
+
+        assertEquals(5, exercise(body).toSteps("s").filterIsInstance<MatchingStep>().single().pool.size)
+    }
+
+    private fun step() = exercise(
+        MatchingBody(
+            left = (1..3).map { KeyedText(it.toString(), "q$it") },
+            right = listOf(KeyedText("a", "a1"), KeyedText("b", "a2"), KeyedText("c", "a3")),
+            answers = mapOf("1" to "c", "2" to "a", "3" to "b"),
+        ),
+    ).toSteps("s").filterIsInstance<MatchingStep>().single()
+
+    private fun exercise(
+        body: okano.dev.android.derdiedas.data.exercise.model.ExerciseBody,
+        id: String = "D1",
+    ) = Exercise(
+        id = id,
+        block = Block.D,
+        title = "Zuordnen",
+        instructions = "Ordne zu.",
+        body = body,
+    )
+}
+
+class MatchingGraderTest {
+
+    @Test
+    fun `every prompt paired correctly is a correct step`() {
+        val step = step()
+        val result = gradeStep(step, AnswerState.Placements(mapOf("1" to "c", "2" to "a", "3" to "b")))
+
+        assertTrue(result.correct)
+        assertEquals(3, result.correctCount)
+    }
+
+    @Test
+    fun `one wrong pairing makes the whole step wrong but reports the rest`() {
+        val result = gradeStep(step(), AnswerState.Placements(mapOf("1" to "c", "2" to "b", "3" to "a")))
+
+        assertFalse(result.correct)
+        assertEquals(1, result.correctCount)
+        assertEquals(3, result.items.size)
+    }
+
+    @Test
+    fun `an unpaired prompt is wrong rather than skipped`() {
+        val result = gradeStep(step(), AnswerState.Placements(mapOf("1" to "c")))
+
+        assertFalse(result.correct)
+        assertEquals("", result.items.single { it.ref == "2" }.given)
+    }
+
+    @Test
+    fun `the banner reports texts rather than keys`() {
+        // "c" means nothing to a learner reading the result.
+        val result = gradeStep(step(), AnswerState.Placements(emptyMap()))
+
+        assertEquals("q1 -> a3", result.items.single { it.ref == "1" }.expected)
+    }
+
+    @Test
+    fun `pairings are compared by key so two entries reading alike stay distinct`() {
+        val body = MatchingBody(
+            left = listOf(KeyedText("1", "q1")),
+            right = listOf(KeyedText("a", "same"), KeyedText("b", "same")),
+            answers = mapOf("1" to "a"),
+        )
+        val step = exercise(body).toSteps("s").filterIsInstance<MatchingStep>().single()
+
+        assertTrue(gradeStep(step, AnswerState.Placements(mapOf("1" to "a"))).correct)
+        assertFalse(gradeStep(step, AnswerState.Placements(mapOf("1" to "b"))).correct)
+    }
+
+    private fun step() = exercise(
+        MatchingBody(
+            left = (1..3).map { KeyedText(it.toString(), "q$it") },
+            right = listOf(KeyedText("a", "a1"), KeyedText("b", "a2"), KeyedText("c", "a3")),
+            answers = mapOf("1" to "c", "2" to "a", "3" to "b"),
+        ),
+    ).toSteps("s").filterIsInstance<MatchingStep>().single()
+
+    private fun exercise(body: okano.dev.android.derdiedas.data.exercise.model.ExerciseBody) = Exercise(
+        id = "D1",
+        block = Block.D,
+        title = "Zuordnen",
+        instructions = "Ordne zu.",
+        body = body,
+    )
 }

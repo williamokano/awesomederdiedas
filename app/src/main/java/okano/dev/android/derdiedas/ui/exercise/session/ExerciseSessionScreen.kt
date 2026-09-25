@@ -40,6 +40,7 @@ import okano.dev.android.derdiedas.core.exercise.AnswerState
 import okano.dev.android.derdiedas.core.exercise.ChoiceStep
 import okano.dev.android.derdiedas.core.exercise.GapBankStep
 import okano.dev.android.derdiedas.core.exercise.GapTextStep
+import okano.dev.android.derdiedas.core.exercise.MatchingStep
 import okano.dev.android.derdiedas.core.exercise.OrderStep
 import okano.dev.android.derdiedas.core.exercise.SessionPhase
 import okano.dev.android.derdiedas.core.exercise.SessionState
@@ -49,6 +50,7 @@ import okano.dev.android.derdiedas.data.model.Language
 import okano.dev.android.derdiedas.ui.exercise.steps.ChoiceStepContent
 import okano.dev.android.derdiedas.ui.exercise.steps.GapBankStepContent
 import okano.dev.android.derdiedas.ui.exercise.steps.GapTextStepContent
+import okano.dev.android.derdiedas.ui.exercise.steps.MatchingStepContent
 import okano.dev.android.derdiedas.ui.exercise.steps.OrderStepContent
 import okano.dev.android.derdiedas.ui.resources.StringResources
 import okano.dev.android.derdiedas.ui.theme.LocalFeedbackColors
@@ -203,6 +205,13 @@ private fun StepContent(
         )
 
         is GapBankStep -> GapBankStepContent(
+            step = step,
+            answer = answer as? AnswerState.Placements ?: AnswerState.Placements(),
+            result = result,
+            onAnswerChange = onAnswerChange,
+        )
+
+        is MatchingStep -> MatchingStepContent(
             step = step,
             answer = answer as? AnswerState.Placements ?: AnswerState.Placements(),
             result = result,
