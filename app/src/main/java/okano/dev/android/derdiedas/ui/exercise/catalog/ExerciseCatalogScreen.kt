@@ -34,6 +34,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import okano.dev.android.derdiedas.core.progress.BlockKey
+import okano.dev.android.derdiedas.core.progress.BlockProgress
 import okano.dev.android.derdiedas.ui.exercise.ExerciseTestTags
 import okano.dev.android.derdiedas.data.exercise.model.Block
 import okano.dev.android.derdiedas.data.exercise.model.BlockSummary
@@ -109,7 +111,13 @@ fun ExerciseCatalogScreen(
                     verticalArrangement = Arrangement.spacedBy(12.dp),
                 ) {
                     items(state.visible, key = { it.id }) { summary ->
-                        ExerciseSetCard(summary, language, onStartSession)
+                        ExerciseSetCard(
+                            summary = summary,
+                            progress = state.progress,
+                            started = summary.id in state.started,
+                            language = language,
+                            onStartSession = onStartSession,
+                        )
                     }
                 }
             }
@@ -120,10 +128,17 @@ fun ExerciseCatalogScreen(
 @Composable
 private fun ExerciseSetCard(
     summary: ExerciseSetSummary,
+    progress: Map<BlockKey, BlockProgress>,
+    started: Boolean,
     language: Language,
     onStartSession: (String, Block, Int) -> Unit,
 ) {
     var expanded by remember(summary.id) { mutableStateOf(false) }
+
+    // Counted from the index's own block list rather than from the records, so a set only
+    // reads as finished when every block it actually has is finished.
+    val blocksDone = summary.blocks.count { progress[BlockKey(summary.id, it.block)]?.complete == true }
+    val setDone = summary.blocks.isNotEmpty() && blocksDone == summary.blocks.size
 
     Card(
         modifier = Modifier
@@ -145,6 +160,16 @@ private fun ExerciseSetCard(
                     fontWeight = FontWeight.Bold,
                     modifier = Modifier.weight(1f),
                 )
+                if (setDone) {
+                    // A glyph as well as the colour: green alone is invisible to a good
+                    // number of people, and this is the only signal on a collapsed card.
+                    Text(
+                        text = "\u2713",
+                        style = MaterialTheme.typography.titleMedium,
+                        color = MaterialTheme.colorScheme.primary,
+                        modifier = Modifier.padding(end = 8.dp),
+                    )
+                }
                 summary.level?.let {
                     Text(it.name, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
                 }
@@ -161,11 +186,27 @@ private fun ExerciseSetCard(
 
             if (expanded) {
                 summary.blocks.forEach { block ->
-                    BlockRow(summary.id, block, language, onStartSession)
+                    BlockRow(
+                        setId = summary.id,
+                        block = block,
+                        progress = progress[BlockKey(summary.id, block.block)],
+                        language = language,
+                        onStartSession = onStartSession,
+                    )
                 }
             } else {
                 Text(
-                    text = StringResources.exerciseCount(language, summary.blocks.sumOf { it.exerciseCount }),
+                    text = run {
+                        val exercises = summary.blocks.sumOf { it.exerciseCount }
+                        when {
+                            // The tick already says it; "started" underneath would contradict it.
+                            setDone -> StringResources.exerciseCount(language, exercises)
+                            blocksDone in 1 until summary.blocks.size ->
+                                StringResources.blocksDone(language, blocksDone, summary.blocks.size)
+                            started -> StringResources.exerciseCountStarted(language, exercises)
+                            else -> StringResources.exerciseCount(language, exercises)
+                        }
+                    },
                     style = MaterialTheme.typography.labelMedium,
                     color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f),
                     modifier = Modifier.padding(top = 8.dp),
@@ -175,10 +216,18 @@ private fun ExerciseSetCard(
     }
 }
 
+/**
+ * One block of a set, with what the learner has already done to it.
+ *
+ * An untouched block says nothing about parts, deliberately: the index does not carry how
+ * many parts a block splits into, so before the first session is finished there is no
+ * denominator to show. Inventing one would be worse than showing none.
+ */
 @Composable
 private fun BlockRow(
     setId: String,
     block: BlockSummary,
+    progress: BlockProgress?,
     language: Language,
     onStartSession: (String, Block, Int) -> Unit,
 ) {
@@ -194,9 +243,31 @@ private fun BlockRow(
                 style = MaterialTheme.typography.labelSmall,
                 color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f),
             )
+            if (progress != null) {
+                Text(
+                    text = if (progress.complete) {
+                        StringResources.blockDone(language, progress.bestAccuracy)
+                    } else {
+                        StringResources.blockPartsDone(
+                            language,
+                            progress.partsDone,
+                            progress.partCount,
+                            progress.bestAccuracy,
+                        )
+                    },
+                    style = MaterialTheme.typography.labelSmall,
+                    color = if (progress.complete) {
+                        MaterialTheme.colorScheme.primary
+                    } else {
+                        MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)
+                    },
+                )
+            }
         }
         Button(
-            onClick = { onStartSession(setId, block.block, 0) },
+            // The first part not yet finished, so a block that splits into several is worked
+            // through instead of replaying its opening part every time.
+            onClick = { onStartSession(setId, block.block, progress?.nextPart ?: 0) },
             shape = RoundedCornerShape(12.dp),
             modifier = Modifier.testTag(ExerciseTestTags.PRACTISE_BUTTON),
         ) {

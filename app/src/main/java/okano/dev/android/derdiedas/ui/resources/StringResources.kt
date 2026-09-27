@@ -262,6 +262,51 @@ object StringResources {
         Language.PORTUGUESE -> "Concluir"
     }
 
+    /**
+     * Which part of a long block this session is.
+     *
+     * Only worth showing when a block splits at all, and kept short because it shares a
+     * row with the progress bar.
+     */
+    fun partOf(language: Language, part: Int, total: Int) = when (language) {
+        Language.ENGLISH -> "Part $part/$total"
+        Language.PORTUGUESE -> "Parte $part/$total"
+    }
+
+    /**
+     * What a finished block says about itself.
+     *
+     * The accuracy is the best first-try score across the parts played, not the latest, so
+     * replaying a block badly cannot take a good result away.
+     */
+    fun blockDone(language: Language, accuracy: Int) = when (language) {
+        Language.ENGLISH -> "\u2713 Done \u00b7 $accuracy%"
+        Language.PORTUGUESE -> "\u2713 Conclu\u00eddo \u00b7 $accuracy%"
+    }
+
+    /** A block part-way through: only shown once a part is finished, since the split is unknown before that. */
+    fun blockPartsDone(language: Language, done: Int, total: Int, accuracy: Int) = when (language) {
+        Language.ENGLISH -> "$done of $total parts \u00b7 $accuracy%"
+        Language.PORTUGUESE -> "$done de $total partes \u00b7 $accuracy%"
+    }
+
+    /**
+     * A set with work in it but no block finished yet.
+     *
+     * Without this a set the learner is half-way through the first block of looks exactly
+     * like one they have never opened.
+     */
+    fun exerciseCountStarted(language: Language, count: Int) = when (language) {
+        Language.ENGLISH -> "$count exercises \u00b7 started"
+        Language.PORTUGUESE -> "$count exerc\u00edcios \u00b7 iniciado"
+    }
+
+    /** How much of a set is behind the learner, shown on the collapsed card. */
+    fun blocksDone(language: Language, done: Int, total: Int) = when (language) {
+        Language.ENGLISH -> "$done of $total blocks done"
+        Language.PORTUGUESE -> "$done de $total blocos conclu\u00eddos"
+    }
+
     fun tryAgain(language: Language) = when (language) {
         Language.ENGLISH -> "Try again"
         Language.PORTUGUESE -> "Tentar novamente"
