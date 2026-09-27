@@ -28,6 +28,27 @@ fun gradeStep(step: SessionStep, answer: AnswerState): StepResult = when (step) 
     is OrderStep -> gradeOrder(step, answer.asSequence())
     is GapBankStep -> gradeGapBank(step, answer.asPlacements())
     is MatchingStep -> gradeMatching(step, answer.asPlacements())
+    is CategorizeStep -> gradeCategorize(step, answer.asPlacements())
+}
+
+/**
+ * Each token is graded on its own, then the step is right only if every token is.
+ * A token left out of every bucket is wrong.
+ */
+private fun gradeCategorize(step: CategorizeStep, answer: AnswerState.Placements): StepResult {
+    fun labelOf(key: String?) = step.buckets.firstOrNull { it.key == key }?.text.orEmpty()
+
+    val items = step.tokens.map { token ->
+        val expected = step.answers[token.key]
+        val given = answer.byRef[token.key]
+        ItemResult(
+            ref = token.key,
+            correct = given != null && checkEquality(expected, given),
+            given = labelOf(given),
+            expected = "${token.text} -> ${labelOf(expected)}",
+        )
+    }
+    return StepResult(items = items, correct = items.all { it.correct })
 }
 
 /**

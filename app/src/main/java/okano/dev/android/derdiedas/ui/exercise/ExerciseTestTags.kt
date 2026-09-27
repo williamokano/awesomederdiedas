@@ -30,6 +30,10 @@ object ExerciseTestTags {
     const val MATCH_PROMPT = "match_prompt"
     const val MATCH_POOL_ENTRY = "match_pool_entry"
     const val MATCH_ANSWERED = "match_answered"
+    const val CATEGORIZE_TOKEN = "categorize_token"
+    const val CATEGORIZE_DONE = "categorize_done"
+    const val CATEGORIZE_BUCKET = "categorize_bucket"
+    const val CATEGORIZE_PLACED = "categorize_placed"
 
     // The original flashcard flow, which has no coverage of its own and shares the
     // navigation and dependency wiring the exercise work refactored.

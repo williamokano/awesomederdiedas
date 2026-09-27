@@ -1,6 +1,8 @@
 package okano.dev.android.derdiedas.core.exercise
 
 import okano.dev.android.derdiedas.data.exercise.model.Block
+import okano.dev.android.derdiedas.data.exercise.model.Bucket
+import okano.dev.android.derdiedas.data.exercise.model.CategorizeBody
 import okano.dev.android.derdiedas.data.exercise.model.Exercise
 import okano.dev.android.derdiedas.data.exercise.model.GapBankBody
 import okano.dev.android.derdiedas.data.exercise.model.GapTextBody
@@ -14,6 +16,7 @@ import okano.dev.android.derdiedas.data.exercise.model.Option
 import okano.dev.android.derdiedas.data.exercise.model.SingleChoiceBody
 import okano.dev.android.derdiedas.data.exercise.model.SingleChoiceItem
 import okano.dev.android.derdiedas.data.exercise.model.TrueFalseBody
+import okano.dev.android.derdiedas.data.exercise.model.Token
 import okano.dev.android.derdiedas.data.exercise.model.TrueFalseItem
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
@@ -234,11 +237,16 @@ class StepsTest {
 
     @Test
     fun `types not implemented yet produce no steps`() {
-        // matching, categorize and table-fill are still to come; this is what will fail
-        // loudly when one of them lands and the splitter has not been updated.
-        val body = okano.dev.android.derdiedas.data.exercise.model.CategorizeBody(
-            buckets = listOf(okano.dev.android.derdiedas.data.exercise.model.Bucket("a", "der")),
-            tokens = listOf(okano.dev.android.derdiedas.data.exercise.model.Token("Tisch", "a")),
+        // table-fill is the last one left; this is what will fail loudly when it lands
+        // and the splitter has not been updated.
+        val body = okano.dev.android.derdiedas.data.exercise.model.TableFillBody(
+            columns = listOf("Singular", "Plural"),
+            rows = listOf(
+                okano.dev.android.derdiedas.data.exercise.model.TableRow(
+                    label = "der Tisch",
+                    cells = listOf(null, okano.dev.android.derdiedas.data.exercise.model.TableCell(1, listOf("Tische"))),
+                ),
+            ),
         )
 
         assertTrue(exercise(body).toSteps("sit-78").isEmpty())
@@ -1065,6 +1073,156 @@ class MatchingGraderTest {
         block = Block.D,
         title = "Zuordnen",
         instructions = "Ordne zu.",
+        body = body,
+    )
+}
+
+class CategorizeStepsTest {
+
+    @Test
+    fun `an exercise becomes one step with every bucket and token`() {
+        val step = step()
+
+        assertEquals(2, step.buckets.size)
+        assertEquals(6, step.tokens.size)
+    }
+
+    @Test
+    fun `the tokens are shuffled out of their authored grouping`() {
+        // 53 of the corpus's 140 exercises arrive with each bucket's tokens in one
+        // unbroken run, which is solvable by sending blocks of tokens to each bucket in
+        // turn without reading any of them.
+        val step = step()
+        val runs = step.tokens.map { step.answers.getValue(it.key) }
+            .fold(mutableListOf<String>()) { acc, b -> acc.also { if (it.lastOrNull() != b) it.add(b) } }
+
+        assertTrue("the tokens are still grouped by bucket", runs.size > runs.toSet().size)
+    }
+
+    @Test
+    fun `the re-roll holds across seeds`() {
+        // Two buckets and few tokens land back on a grouped order often, so the retry has
+        // to actually work rather than happening to pass once.
+        repeat(40) { n ->
+            val step = exercise(body(), id = "C$n").toSteps("s").filterIsInstance<CategorizeStep>().single()
+            val runs = step.tokens.map { step.answers.getValue(it.key) }
+                .fold(mutableListOf<String>()) { acc, b -> acc.also { if (it.lastOrNull() != b) it.add(b) } }
+            assertTrue("seed $n left the tokens grouped", runs.size > runs.toSet().size)
+        }
+    }
+
+    @Test
+    fun `a token key is its authored position so it survives the shuffle`() {
+        val step = step()
+
+        assertEquals((0..5).map { it.toString() }.sorted(), step.tokens.map { it.key }.sorted())
+        // "Hallo" is authored first, so whatever position it is shown in, it is key "0".
+        assertEquals("0", step.tokens.first { it.text == "Hallo" }.key)
+    }
+
+    @Test
+    fun `the shuffle is stable for the same exercise`() {
+        assertEquals(step().tokens.map { it.key }, step().tokens.map { it.key })
+    }
+
+    @Test
+    fun `the buckets keep their authored order`() {
+        assertEquals(listOf("greet", "bye"), step().buckets.map { it.key })
+    }
+
+    @Test
+    fun `a token naming a bucket that does not exist drops the exercise`() {
+        val broken = CategorizeBody(
+            buckets = listOf(Bucket("greet", "Begrüßung")),
+            tokens = listOf(Token("Hallo", "greet"), Token("Tschüss", "nope")),
+        )
+
+        assertTrue(exercise(broken).toSteps("s").isEmpty())
+    }
+
+    @Test
+    fun `an exercise with no buckets or no tokens is dropped`() {
+        assertTrue(exercise(CategorizeBody(emptyList(), listOf(Token("Hallo", "a")))).toSteps("s").isEmpty())
+        assertTrue(exercise(CategorizeBody(listOf(Bucket("a", "A")), emptyList())).toSteps("s").isEmpty())
+    }
+
+    private fun body() = CategorizeBody(
+        buckets = listOf(Bucket("greet", "Begrüßung"), Bucket("bye", "Abschied")),
+        tokens = listOf(
+            Token("Hallo", "greet"), Token("Guten Morgen", "greet"), Token("Grüß Gott", "greet"),
+            Token("Tschüss", "bye"), Token("Auf Wiedersehen", "bye"), Token("Bis morgen", "bye"),
+        ),
+    )
+
+    private fun step() = exercise(body()).toSteps("s").filterIsInstance<CategorizeStep>().single()
+
+    private fun exercise(
+        body: okano.dev.android.derdiedas.data.exercise.model.ExerciseBody,
+        id: String = "D2",
+    ) = Exercise(
+        id = id,
+        block = Block.D,
+        title = "Sortieren",
+        instructions = "Sortiere die Wörter.",
+        body = body,
+    )
+}
+
+class CategorizeGraderTest {
+
+    @Test
+    fun `every token in the right bucket is a correct step`() {
+        val step = step()
+        val result = gradeStep(step, AnswerState.Placements(step.tokens.associate { it.key to step.answers[it.key] }))
+
+        assertTrue(result.correct)
+        assertEquals(6, result.correctCount)
+    }
+
+    @Test
+    fun `one token in the wrong bucket makes the whole step wrong`() {
+        val step = step()
+        val placements = step.tokens.associate { it.key to step.answers[it.key] }.toMutableMap()
+        placements["0"] = "bye"
+
+        val result = gradeStep(step, AnswerState.Placements(placements))
+
+        assertFalse(result.correct)
+        assertEquals(5, result.correctCount)
+    }
+
+    @Test
+    fun `a token left out of every bucket is wrong rather than skipped`() {
+        val step = step()
+        val result = gradeStep(step, AnswerState.Placements(mapOf("0" to "greet")))
+
+        assertFalse(result.correct)
+        assertEquals(1, result.correctCount)
+        assertEquals(6, result.items.size)
+    }
+
+    @Test
+    fun `the banner reports the token and the bucket by name`() {
+        val result = gradeStep(step(), AnswerState.Placements(emptyMap()))
+
+        assertEquals("Hallo -> Begrüßung", result.items.single { it.ref == "0" }.expected)
+    }
+
+    private fun step() = exercise(
+        CategorizeBody(
+            buckets = listOf(Bucket("greet", "Begrüßung"), Bucket("bye", "Abschied")),
+            tokens = listOf(
+                Token("Hallo", "greet"), Token("Guten Morgen", "greet"), Token("Grüß Gott", "greet"),
+                Token("Tschüss", "bye"), Token("Auf Wiedersehen", "bye"), Token("Bis morgen", "bye"),
+            ),
+        ),
+    ).toSteps("s").filterIsInstance<CategorizeStep>().single()
+
+    private fun exercise(body: okano.dev.android.derdiedas.data.exercise.model.ExerciseBody) = Exercise(
+        id = "D2",
+        block = Block.D,
+        title = "Sortieren",
+        instructions = "Sortiere die Wörter.",
         body = body,
     )
 }

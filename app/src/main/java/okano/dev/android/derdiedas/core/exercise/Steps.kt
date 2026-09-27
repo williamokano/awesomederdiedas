@@ -1,5 +1,6 @@
 package okano.dev.android.derdiedas.core.exercise
 
+import okano.dev.android.derdiedas.data.exercise.model.CategorizeBody
 import okano.dev.android.derdiedas.data.exercise.model.Exercise
 import okano.dev.android.derdiedas.data.exercise.model.ExerciseBody
 import okano.dev.android.derdiedas.data.exercise.model.GapBankBody
@@ -140,6 +141,29 @@ data class MatchingStep(
     override fun emptyAnswer() = AnswerState.Placements()
 }
 
+/**
+ * Drop each token into the bucket it belongs to.
+ *
+ * Kept whole: the buckets are the exercise, and a token on its own would carry the whole
+ * set of them anyway. With two to five buckets and a dozen tokens this is the one type of
+ * the family that fits on a screen without giving anything up.
+ */
+data class CategorizeStep(
+    override val id: StepId,
+    override val exerciseId: String,
+    override val title: String,
+    override val instructions: String?,
+    override val instructionsEn: String?,
+    override val flags: GradingFlags,
+    val buckets: List<ChoiceOption>,
+    /** The tokens as shown: shuffled, since as authored they often arrive already sorted. */
+    val tokens: List<ChoiceOption>,
+    /** Token key to the bucket key it belongs in. */
+    val answers: Map<String, String>,
+) : SessionStep {
+    override fun emptyAnswer() = AnswerState.Placements()
+}
+
 /** One option to pick. [key] is what grading compares; [text] is what the learner reads. */
 data class ChoiceOption(val key: String, val text: String)
 
@@ -261,8 +285,9 @@ fun Exercise.toSteps(setId: String): List<SessionStep> = when (val body = body) 
     is OrderBody -> orderSteps(setId, body)
     is GapBankBody -> gapBankSteps(setId, body)
     is MatchingBody -> matchingSteps(setId, body)
+    is CategorizeBody -> categorizeSteps(setId, body)
 
-    // Still to come: categorize, table-fill.
+    // Still to come: table-fill.
     else -> emptyList()
 }
 
@@ -588,6 +613,47 @@ private fun Exercise.matchingSteps(setId: String, body: MatchingBody): List<Sess
             }.map { ChoiceOption(body.right[it].key, body.right[it].text) },
             answers = body.left.associate { it.key to body.answers.getValue(it.key) },
             capacity = poolKeys.associateWith { maxOf(1, demand[it] ?: 0) },
+        ),
+    )
+}
+
+/**
+ * One step per exercise: every token, with every bucket.
+ *
+ * The tokens are shuffled, and the leak they carry is the fourth of its kind in this
+ * corpus: in 53 of the 140 exercises they arrive grouped by bucket, one contiguous run
+ * each and in the order the buckets are declared. Shown as authored, those are solved by
+ * sending the first few tokens to the first bucket and the next few to the second.
+ *
+ * A token's key is its position as authored, so it survives the shuffle and the grader
+ * never has to care what order the learner saw.
+ */
+private fun Exercise.categorizeSteps(setId: String, body: CategorizeBody): List<SessionStep> {
+    if (body.buckets.isEmpty() || body.tokens.isEmpty()) return emptyList()
+
+    // A token naming a bucket that does not exist could not be put anywhere.
+    val bucketKeys = body.buckets.map { it.key }.toSet()
+    if (body.tokens.any { it.bucket !in bucketKeys }) return emptyList()
+
+    val order = shuffleAvoiding(body.tokens.size, "$setId#$id#tokens") { candidate ->
+        // Leaks when each bucket's tokens sit together in one unbroken run, which is what
+        // lets the whole thing be sorted without reading a single token.
+        val runs = candidate.map { body.tokens[it].bucket }
+            .fold(mutableListOf<String>()) { acc, bucket -> acc.also { if (it.lastOrNull() != bucket) it.add(bucket) } }
+        runs.size == runs.toSet().size
+    }
+
+    return listOf(
+        CategorizeStep(
+            id = StepId("$setId#$id#0"),
+            exerciseId = id,
+            title = title,
+            instructions = instructions,
+            instructionsEn = instructionsEn,
+            flags = flags,
+            buckets = body.buckets.map { ChoiceOption(it.key, it.label) },
+            tokens = order.map { ChoiceOption(it.toString(), body.tokens[it].text) },
+            answers = body.tokens.indices.associate { it.toString() to body.tokens[it].bucket },
         ),
     )
 }
