@@ -37,6 +37,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import okano.dev.android.derdiedas.ui.exercise.ExerciseTestTags
 import okano.dev.android.derdiedas.core.exercise.AnswerState
+import okano.dev.android.derdiedas.core.exercise.CategorizeStep
 import okano.dev.android.derdiedas.core.exercise.ChoiceStep
 import okano.dev.android.derdiedas.core.exercise.GapBankStep
 import okano.dev.android.derdiedas.core.exercise.GapTextStep
@@ -47,6 +48,7 @@ import okano.dev.android.derdiedas.core.exercise.SessionState
 import okano.dev.android.derdiedas.core.exercise.SessionStep
 import okano.dev.android.derdiedas.core.exercise.StepResult
 import okano.dev.android.derdiedas.data.model.Language
+import okano.dev.android.derdiedas.ui.exercise.steps.CategorizeStepContent
 import okano.dev.android.derdiedas.ui.exercise.steps.ChoiceStepContent
 import okano.dev.android.derdiedas.ui.exercise.steps.GapBankStepContent
 import okano.dev.android.derdiedas.ui.exercise.steps.GapTextStepContent
@@ -189,11 +191,28 @@ private fun ActiveSession(
 /**
  * Whether a step's content keeps the same height from the first tap to the last.
  *
+ * Only a step that does may be centred. One that does not will drift as it is answered,
+ * and worse, will lurch the moment it crosses the viewport height and the centring either
+ * engages or lets go -- which is what made the matching screen jump to the middle between
+ * two taps.
+ *
  * Kept here rather than on the step itself: it is a fact about how the widget lays out,
- * not about the exercise.
+ * not about the exercise. Exhaustive so that adding a type forces the question.
  */
 private val SessionStep.keepsStillWhileAnswered: Boolean
-    get() = this !is MatchingStep
+    get() = when (this) {
+        // Matching drops each reply as it is used; categorize grows its buckets as the
+        // tokens land in them. Both change height in one direction throughout.
+        is MatchingStep, is CategorizeStep -> false
+
+        // The fields, options and bank chips are all there from the start and stay.
+        is GapTextStep, is ChoiceStep, is GapBankStep -> true
+
+        // Order moves tiles between the strip and the pool rather than removing them, so
+        // what one gains the other loses and the height is roughly conserved. Nothing has
+        // been seen to drift there; it is grouped here deliberately, not by omission.
+        is OrderStep -> true
+    }
 
 /**
  * Dispatches a step to its widget. Exhaustive on purpose: adding an exercise type in a
@@ -222,6 +241,13 @@ private fun StepContent(
         )
 
         is GapBankStep -> GapBankStepContent(
+            step = step,
+            answer = answer as? AnswerState.Placements ?: AnswerState.Placements(),
+            result = result,
+            onAnswerChange = onAnswerChange,
+        )
+
+        is CategorizeStep -> CategorizeStepContent(
             step = step,
             answer = answer as? AnswerState.Placements ?: AnswerState.Placements(),
             result = result,

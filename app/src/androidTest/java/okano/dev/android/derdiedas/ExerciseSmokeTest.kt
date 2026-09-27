@@ -106,9 +106,12 @@ class ExerciseSmokeTest {
             // A word-bank passage with one blank filled and the rest empty, which is
             // likewise wrong.
             nodes(ExerciseTestTags.BANK_WORD).onFirst().performClick()
-        } else {
+        } else if (nodes(ExerciseTestTags.MATCH_POOL_ENTRY).fetchSemanticsNodes().isNotEmpty()) {
             // A matching board with one prompt answered and the rest left empty.
             nodes(ExerciseTestTags.MATCH_POOL_ENTRY).onFirst().performClick()
+        } else {
+            // One token sorted and the rest left out of every bucket.
+            nodes(ExerciseTestTags.CATEGORIZE_BUCKET).onFirst().performClick()
         }
 
         compose.onNodeWithTag(ExerciseTestTags.CHECK_BUTTON).performClick()
@@ -257,6 +260,17 @@ class ExerciseSmokeTest {
             }
             return
         }
+        // Categorize keeps its buckets on screen throughout, so the loop ends on the
+        // token running out rather than on the targets disappearing.
+        if (nodes(ExerciseTestTags.CATEGORIZE_TOKEN).fetchSemanticsNodes().isNotEmpty()) {
+            var guard = 0
+            while (nodes(ExerciseTestTags.CATEGORIZE_TOKEN).fetchSemanticsNodes().isNotEmpty() &&
+                guard++ < MAX_CATEGORIZE_TOKENS
+            ) {
+                nodes(ExerciseTestTags.CATEGORIZE_BUCKET).onFirst().performClick()
+            }
+            return
+        }
         val fields = nodes(ExerciseTestTags.GAP_FIELD)
         if (fields.fetchSemanticsNodes().isNotEmpty()) {
             fields.onFirst().performTextInput("test")
@@ -273,5 +287,8 @@ class ExerciseSmokeTest {
 
         // No matching exercise in the corpus has more than ten prompts.
         const val MAX_MATCH_PROMPTS = 12
+
+        // No categorize exercise in the corpus has more than fifteen tokens.
+        const val MAX_CATEGORIZE_TOKENS = 18
     }
 }
