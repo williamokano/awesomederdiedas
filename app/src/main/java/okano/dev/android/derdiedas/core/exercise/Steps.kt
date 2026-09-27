@@ -9,6 +9,7 @@ import okano.dev.android.derdiedas.data.exercise.model.MatchingBody
 import okano.dev.android.derdiedas.data.exercise.model.OddOneOutBody
 import okano.dev.android.derdiedas.data.exercise.model.OrderBody
 import okano.dev.android.derdiedas.data.exercise.model.SingleChoiceBody
+import okano.dev.android.derdiedas.data.exercise.model.TableFillBody
 import okano.dev.android.derdiedas.data.exercise.model.TrueFalseBody
 
 /**
@@ -271,6 +272,51 @@ private fun gapKeysOf(segments: List<GapSegment>): List<String> =
     segments.filterIsInstance<GapSegment.Gap>().map { it.key }
 
 /**
+ * One row of a table: a stub, and the cells to fill for it.
+ *
+ * The plan filed table-fill under "kept whole", one step per exercise. Measuring the 55
+ * exercises says otherwise. A whole table runs to 36 gaps across up to 6 columns with
+ * answers of a median 9 and up to 50 characters, which is ~114 characters across at the
+ * widest -- the same wall the matching board hit, and unrenderable on a phone. A row is
+ * 1 to 6 short fields with a stub above them, and is self-contained: a verb and its six
+ * person forms, a connector and its properties, a sentence and the form it needs. So a
+ * row is the step, and the 55 exercises become 282 of them.
+ *
+ * The table's own structure survives the split: the column heading goes on each field, and
+ * [promptLabel] carries the heading of the column the stub itself occupies.
+ */
+data class TableFillStep(
+    override val id: StepId,
+    override val exerciseId: String,
+    override val title: String,
+    override val instructions: String?,
+    override val instructionsEn: String?,
+    override val flags: GradingFlags,
+    /** The row's stub: a verb to conjugate, a connector, or a whole sentence with a blank. */
+    val prompt: String,
+    /** What the stub is, from the column it occupies, when the table gives it one. */
+    val promptLabel: String?,
+    val fields: List<TableFillField>,
+    /**
+     * A row of the same table that arrives already filled in, rendered as a worked example.
+     *
+     * Four rows across two exercises are authored this way. They are the demonstration the
+     * table opens with, so they are never asked -- but dropping them silently would lose
+     * the only thing telling a learner what form the answers take.
+     */
+    val example: String?,
+) : SessionStep {
+    override fun emptyAnswer() = AnswerState.Texts()
+}
+
+/** One cell to fill: its column heading, and what counts as right. */
+data class TableFillField(
+    val key: String,
+    val header: String?,
+    val answers: List<String>,
+)
+
+/**
  * Expands an exercise into its steps.
  *
  * Every branch is declared even though eight of them are not implemented yet, so that the
@@ -286,9 +332,7 @@ fun Exercise.toSteps(setId: String): List<SessionStep> = when (val body = body) 
     is GapBankBody -> gapBankSteps(setId, body)
     is MatchingBody -> matchingSteps(setId, body)
     is CategorizeBody -> categorizeSteps(setId, body)
-
-    // Still to come: table-fill.
-    else -> emptyList()
+    is TableFillBody -> tableFillSteps(setId, body)
 }
 
 private fun Exercise.choiceStep(
@@ -656,4 +700,67 @@ private fun Exercise.categorizeSteps(setId: String, body: CategorizeBody): List<
             answers = body.tokens.indices.associate { it.toString() to body.tokens[it].bucket },
         ),
     )
+}
+
+/**
+ * One step per row, skipping the rows that arrive already filled in.
+ *
+ * The column a cell belongs to is worked out from the arithmetic rather than assumed. Of
+ * the 286 authored rows, 254 hold one cell fewer than the table has columns -- the row's
+ * label occupies the first column, as in "Konnektor | Typ | Verbstellung | Beispiel" where
+ * the label *is* the connector -- and 32 hold exactly as many, the label being a stub
+ * outside the columns, as in a conjugation table whose six columns are all persons. So the
+ * offset is the difference, and a cell's heading is the column that many places along.
+ *
+ * Nothing is shuffled here. This is the one implemented type with no answer-order leak to
+ * close: the learner types, so there is no arrangement to read an answer off.
+ */
+private fun Exercise.tableFillSteps(setId: String, body: TableFillBody): List<SessionStep> {
+    if (body.rows.isEmpty()) return emptyList()
+
+    // Rows authored entirely as `given` are the table's worked example. Always the same
+    // across a table in this corpus, so the first is the one to show.
+    val example = body.rows
+        .firstOrNull { row -> row.cells.filterNotNull().let { it.isNotEmpty() && it.all { cell -> cell.given != null } } }
+        ?.let { row ->
+            val filled = row.cells.filterNotNull().joinToString(" \u00b7 ") { it.given.orEmpty() }
+            if (row.label.isBlank()) filled else "${row.label} \u2192 $filled"
+        }
+
+    return body.rows.mapIndexedNotNull { index, row ->
+        // Positions are the authored ones, taken before the empty cells are dropped. A
+        // cell's position is what picks its column heading, so filtering first would shift
+        // every heading after a hole -- and indexOf would be wrong too, since a
+        // conjugation row repeats a cell ("ich" and "er/sie/es" take the same form).
+        val asked = row.cells.withIndex()
+            .filter { (_, cell) -> cell != null && cell.given == null && cell.answer.isNotEmpty() }
+            .map { (position, cell) -> position to cell!! }
+        if (asked.isEmpty()) return@mapIndexedNotNull null
+
+        // Where in `columns` this row's cells start. Clamped, because a table whose rows
+        // are shorter still than its headings would otherwise index past the end.
+        val offset = (body.columns.size - row.cells.size).coerceIn(0, body.columns.size)
+
+        TableFillStep(
+            id = StepId("$setId#$id#$index"),
+            exerciseId = id,
+            title = title,
+            instructions = instructions,
+            instructionsEn = instructionsEn,
+            flags = flags,
+            prompt = row.label,
+            // Blank as well as absent. 30 of the 55 tables give the stub column an empty
+            // heading -- idiomatic in a printed grammar table, where the corner cell is
+            // left bare -- and an empty string here would render as a stray label.
+            promptLabel = body.columns.getOrNull(offset - 1)?.takeIf { it.isNotBlank() },
+            fields = asked.map { (position, cell) ->
+                TableFillField(
+                    key = cell.gap.toString(),
+                    header = body.columns.getOrNull(position + offset)?.takeIf { it.isNotBlank() },
+                    answers = cell.answer,
+                )
+            },
+            example = example,
+        )
+    }
 }
