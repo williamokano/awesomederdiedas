@@ -3,6 +3,8 @@ package okano.dev.android.derdiedas.testutil
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.map
+import okano.dev.android.derdiedas.data.database.ExerciseProgressDao
+import okano.dev.android.derdiedas.data.database.ExerciseProgressEntity
 import okano.dev.android.derdiedas.data.database.GameSessionDao
 import okano.dev.android.derdiedas.data.database.GameSessionEntity
 import okano.dev.android.derdiedas.data.model.GermanNoun
@@ -41,4 +43,29 @@ class FakeGameSessionDao : GameSessionDao {
 class FakeNounRepository(private val nouns: List<GermanNoun>) : NounRepository {
     override fun getAllNouns(): List<GermanNoun> = nouns
     override fun getRandomNoun(): GermanNoun? = nouns.randomOrNull()
+}
+
+/**
+ * In-memory ExerciseProgressDao for unit tests.
+ *
+ * Models the composite primary key the real table has, so REPLACE-on-conflict behaves the
+ * way Room's would: a second write for the same (setId, block, part) overwrites rather
+ * than appending.
+ */
+class FakeExerciseProgressDao : ExerciseProgressDao {
+    private val state = MutableStateFlow<List<ExerciseProgressEntity>>(emptyList())
+
+    val rows: List<ExerciseProgressEntity> get() = state.value
+
+    override fun observeAll(): Flow<List<ExerciseProgressEntity>> = state
+
+    override suspend fun upsert(progress: ExerciseProgressEntity) {
+        state.value = state.value.filterNot { it.matches(progress) } + progress
+    }
+
+    override suspend fun find(setId: String, block: String, part: Int): ExerciseProgressEntity? =
+        state.value.firstOrNull { it.setId == setId && it.block == block && it.part == part }
+
+    private fun ExerciseProgressEntity.matches(other: ExerciseProgressEntity) =
+        setId == other.setId && block == other.block && part == other.part
 }

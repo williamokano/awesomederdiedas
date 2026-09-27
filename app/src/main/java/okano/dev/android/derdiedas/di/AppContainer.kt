@@ -5,6 +5,8 @@ import okano.dev.android.derdiedas.data.database.AppDatabase
 import okano.dev.android.derdiedas.data.exercise.AssetExerciseRepository
 import okano.dev.android.derdiedas.data.exercise.ExerciseRepository
 import okano.dev.android.derdiedas.data.preferences.AppPreferences
+import okano.dev.android.derdiedas.data.progress.ProgressRepository
+import okano.dev.android.derdiedas.data.progress.RoomProgressRepository
 import okano.dev.android.derdiedas.data.repository.GameSessionRepository
 import okano.dev.android.derdiedas.data.repository.LocalNounRepository
 import okano.dev.android.derdiedas.data.repository.NounRepository
@@ -29,4 +31,5 @@ class AppContainer(context: Context) {
 
     private val database = AppDatabase.getDatabase(appContext)
     val gameSessionRepository = GameSessionRepository(database.gameSessionDao())
+    val progressRepository: ProgressRepository = RoomProgressRepository(database.exerciseProgressDao())
 }

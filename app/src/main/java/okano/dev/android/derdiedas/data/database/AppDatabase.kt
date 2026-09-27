@@ -9,13 +9,15 @@ import androidx.room.RoomDatabase
  * Room database for the application
  */
 @Database(
-    entities = [GameSessionEntity::class],
-    version = 1,
+    entities = [GameSessionEntity::class, ExerciseProgressEntity::class],
+    version = 2,
     exportSchema = true
 )
 abstract class AppDatabase : RoomDatabase() {
 
     abstract fun gameSessionDao(): GameSessionDao
+
+    abstract fun exerciseProgressDao(): ExerciseProgressDao
 
     companion object {
         @Volatile
@@ -27,7 +29,7 @@ abstract class AppDatabase : RoomDatabase() {
                     context.applicationContext,
                     AppDatabase::class.java,
                     "derdiedas_database"
-                ).build()
+                ).addMigrations(MIGRATION_1_2).build()
                 INSTANCE = instance
                 instance
             }
