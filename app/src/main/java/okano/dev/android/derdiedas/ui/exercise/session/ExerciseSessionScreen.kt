@@ -87,7 +87,16 @@ fun ExerciseSessionScreen(
             if (state.session.phase == SessionPhase.Finished) {
                 SessionSummary(state, language, onExit, modifier)
             } else {
-                ActiveSession(state.session, answer, language, viewModel, onExit, modifier)
+                ActiveSession(
+                    session = state.session,
+                    part = state.part,
+                    partCount = state.partCount,
+                    answer = answer,
+                    language = language,
+                    viewModel = viewModel,
+                    onExit = onExit,
+                    modifier = modifier,
+                )
             }
         }
     }
@@ -96,6 +105,8 @@ fun ExerciseSessionScreen(
 @Composable
 private fun ActiveSession(
     session: SessionState,
+    part: Int,
+    partCount: Int,
     answer: AnswerState,
     language: Language,
     viewModel: ExerciseSessionViewModel,
@@ -117,6 +128,16 @@ private fun ActiveSession(
                 modifier = Modifier.weight(1f).height(10.dp).testTag(ExerciseTestTags.SESSION_PROGRESS),
                 strokeCap = androidx.compose.ui.graphics.StrokeCap.Round,
             )
+            // Only when the block actually splits. The catalogue now opens the first part
+            // that is still unfinished, so without this two sessions of the same block look
+            // identical and there is no way to tell which one is running.
+            if (partCount > 1) {
+                Text(
+                    text = StringResources.partOf(language, part + 1, partCount),
+                    style = MaterialTheme.typography.labelMedium,
+                    color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f),
+                )
+            }
         }
 
         // heightIn(min = maxHeight) is what makes the centring work: inside a
