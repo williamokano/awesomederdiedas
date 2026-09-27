@@ -13,7 +13,9 @@ import okano.dev.android.derdiedas.core.exercise.SessionPhase
 import okano.dev.android.derdiedas.core.exercise.SessionPlan
 import okano.dev.android.derdiedas.core.exercise.SessionState
 import okano.dev.android.derdiedas.core.exercise.sessionsFor
+import okano.dev.android.derdiedas.core.progress.SessionRecord
 import okano.dev.android.derdiedas.data.exercise.ExerciseRepository
+import okano.dev.android.derdiedas.data.progress.ProgressRepository
 import okano.dev.android.derdiedas.data.exercise.model.Block
 
 /**
@@ -35,6 +37,7 @@ sealed interface SessionUiState {
 
 class ExerciseSessionViewModel(
     private val repository: ExerciseRepository,
+    private val progress: ProgressRepository,
     private val setId: String,
     private val block: Block,
     private val part: Int,
@@ -50,6 +53,10 @@ class ExerciseSessionViewModel(
 
     private var engine: SessionEngine? = null
     private var plan: SessionPlan? = null
+
+    // A session reaches Finished once, but publish() runs on every tap, so without this
+    // the same completion would be written again on each recomposition-triggering call.
+    private var recorded = false
 
     init {
         load()
@@ -104,18 +111,52 @@ class ExerciseSessionViewModel(
     private fun publish() {
         val engine = engine ?: return
         val plan = plan ?: return
+        val state = engine.state()
+
+        if (state.phase == SessionPhase.Finished && !recorded) {
+            recorded = true
+            recordCompletion(plan, state)
+        }
+
         _uiState.value = SessionUiState.Active(
             setTitle = plan.setTitle,
             block = plan.block,
             part = plan.part,
             partCount = plan.partCount,
-            session = engine.state(),
+            session = state,
         )
+    }
+
+    /**
+     * Writes the finished session.
+     *
+     * Deliberately not awaited and deliberately swallowing failure: the summary is on
+     * screen either way, and a database that cannot be written to is not worth taking the
+     * learner's result away over.
+     */
+    private fun recordCompletion(plan: SessionPlan, state: SessionState) {
+        viewModelScope.launch {
+            runCatching {
+                progress.record(
+                    SessionRecord(
+                        setId = setId,
+                        block = plan.block,
+                        part = plan.part,
+                        partCount = plan.partCount,
+                        totalSteps = state.totalSteps,
+                        masteredSteps = state.masteredCount,
+                        firstTryAccuracy = state.accuracyPercentage,
+                        completedAt = System.currentTimeMillis(),
+                    ),
+                )
+            }
+        }
     }
 }
 
 class ExerciseSessionViewModelFactory(
     private val repository: ExerciseRepository,
+    private val progress: ProgressRepository,
     private val setId: String,
     private val block: Block,
     private val part: Int,
@@ -123,7 +164,7 @@ class ExerciseSessionViewModelFactory(
     @Suppress("UNCHECKED_CAST")
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(ExerciseSessionViewModel::class.java)) {
-            return ExerciseSessionViewModel(repository, setId, block, part) as T
+            return ExerciseSessionViewModel(repository, progress, setId, block, part) as T
         }
         throw IllegalArgumentException("Unknown ViewModel class: ${modelClass.name}")
     }

@@ -70,6 +70,7 @@ fun AppNavGraph(
     val gameSessionRepository = container.gameSessionRepository
     val appPreferences = container.appPreferences
     val exerciseRepository = container.exerciseRepository
+    val progressRepository = container.progressRepository
 
     NavHost(
         navController = navController,
@@ -207,7 +208,7 @@ fun AppNavGraph(
         // Pick a body of content: Lektionen, Themen or Alltag
         composable(Screen.ExerciseCollections.route) {
             val viewModel: ExerciseCatalogViewModel = viewModel(
-                factory = ExerciseCatalogViewModelFactory(exerciseRepository, collection = null)
+                factory = ExerciseCatalogViewModelFactory(exerciseRepository, progressRepository, collection = null)
             )
             ExerciseCollectionsScreen(
                 viewModel = viewModel,
@@ -231,7 +232,7 @@ fun AppNavGraph(
             val preferred = runCatching { CefrTag.valueOf(appPreferences.getCEFRLevel().name) }.getOrNull()
 
             val viewModel: ExerciseCatalogViewModel = viewModel(
-                factory = ExerciseCatalogViewModelFactory(exerciseRepository, collection, preferred)
+                factory = ExerciseCatalogViewModelFactory(exerciseRepository, progressRepository, collection, preferred)
             )
             ExerciseCatalogScreen(
                 viewModel = viewModel,
@@ -259,7 +260,7 @@ fun AppNavGraph(
             val block = runCatching { Block.valueOf(blockName) }.getOrDefault(Block.A)
 
             val viewModel: ExerciseSessionViewModel = viewModel(
-                factory = ExerciseSessionViewModelFactory(exerciseRepository, setId, block, part)
+                factory = ExerciseSessionViewModelFactory(exerciseRepository, progressRepository, setId, block, part)
             )
             ExerciseSessionScreen(
                 viewModel = viewModel,
