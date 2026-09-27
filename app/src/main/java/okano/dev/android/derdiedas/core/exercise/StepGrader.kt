@@ -29,6 +29,7 @@ fun gradeStep(step: SessionStep, answer: AnswerState): StepResult = when (step) 
     is GapBankStep -> gradeGapBank(step, answer.asPlacements())
     is MatchingStep -> gradeMatching(step, answer.asPlacements())
     is CategorizeStep -> gradeCategorize(step, answer.asPlacements())
+    is TableFillStep -> gradeTableFill(step, answer.asTexts())
 }
 
 /**
@@ -125,6 +126,36 @@ private fun gradeChoice(step: ChoiceStep, answer: AnswerState.Choice): StepResul
         note = step.why,
     )
     return StepResult(items = listOf(item), correct = correct)
+}
+
+/**
+ * Each cell is graded on its own, then the row is right only if every cell is.
+ *
+ * The same text comparison as gap-text, because it is the same act: the learner types a
+ * form and it is checked with the exercise's own flags. Table-fill authors no alts in this
+ * corpus, but a cell may list several accepted answers, and checkTextDetail already takes
+ * the first as the drilled form.
+ */
+private fun gradeTableFill(step: TableFillStep, answer: AnswerState.Texts): StepResult {
+    val items = step.fields.map { field ->
+        val given = answer.byRef[field.key].orEmpty()
+        val check = checkTextDetail(
+            expected = field.answers,
+            given = given,
+            alts = emptyList(),
+            flags = step.flags,
+        )
+        ItemResult(
+            ref = field.key,
+            correct = check.correct,
+            given = given,
+            // Prefixed with the column, or a row of six verb forms reports six bare words
+            // in the banner with nothing saying which person each belongs to.
+            expected = field.header?.let { "$it: ${field.answers.first()}" } ?: field.answers.first(),
+            note = check.note,
+        )
+    }
+    return StepResult(items = items, correct = items.all { it.correct })
 }
 
 private fun gradeGapText(step: GapTextStep, answer: AnswerState.Texts): StepResult {

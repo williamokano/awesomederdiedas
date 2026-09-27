@@ -172,12 +172,15 @@ class BundledContentTest {
     }
 
     @Test
-    fun `every gap-text exercise yields at least one step`() {
+    fun `every exercise yields at least one step`() {
+        // Was gap-text only, while eight types still split to nothing. Now that all nine
+        // are implemented, an exercise that produces no step is content the learner can
+        // never reach -- and a splitter branch quietly bailing out is exactly how that
+        // happens, since returning an empty list is how the guards reject malformed input.
         for (set in sets) {
             for (exercise in set.exercises) {
-                if (exercise.body !is GapTextBody) continue
                 assertTrue(
-                    "${set.id}/${exercise.id} produced no steps",
+                    "${set.id}/${exercise.id} (${exercise.body::class.simpleName}) produced no steps",
                     exercise.toSteps(set.id).isNotEmpty(),
                 )
             }
@@ -234,7 +237,10 @@ class BundledContentTest {
         assertTrue("only ${sets.size} sets", sets.size >= 220)
         val exercises = sets.sumOf { it.exercises.size }
         assertTrue("only $exercises exercises", exercises >= 3_200)
-        val gapTextSteps = sets.sumOf { set -> set.exercises.sumOf { it.toSteps(set.id).size } }
-        assertTrue("only $gapTextSteps gap-text steps", gapTextSteps >= 9_000)
+        // Every type is implemented, so this is the whole playable corpus: 17,791 steps as
+        // measured. The floor was 9,000 back when it was gap-text alone, and left room for
+        // a regression that silently dropped eight types to sit under it.
+        val steps = sets.sumOf { set -> set.exercises.sumOf { it.toSteps(set.id).size } }
+        assertTrue("only $steps steps", steps >= 17_000)
     }
 }

@@ -15,6 +15,9 @@ import okano.dev.android.derdiedas.data.exercise.model.OrderItem
 import okano.dev.android.derdiedas.data.exercise.model.Option
 import okano.dev.android.derdiedas.data.exercise.model.SingleChoiceBody
 import okano.dev.android.derdiedas.data.exercise.model.SingleChoiceItem
+import okano.dev.android.derdiedas.data.exercise.model.TableCell
+import okano.dev.android.derdiedas.data.exercise.model.TableFillBody
+import okano.dev.android.derdiedas.data.exercise.model.TableRow
 import okano.dev.android.derdiedas.data.exercise.model.TrueFalseBody
 import okano.dev.android.derdiedas.data.exercise.model.Token
 import okano.dev.android.derdiedas.data.exercise.model.TrueFalseItem
@@ -236,20 +239,14 @@ class StepsTest {
     }
 
     @Test
-    fun `types not implemented yet produce no steps`() {
-        // table-fill is the last one left; this is what will fail loudly when it lands
-        // and the splitter has not been updated.
-        val body = okano.dev.android.derdiedas.data.exercise.model.TableFillBody(
+    fun `every type in the corpus now produces steps`() {
+        // This used to assert that table-fill produced none. It was the last one left.
+        val body = TableFillBody(
             columns = listOf("Singular", "Plural"),
-            rows = listOf(
-                okano.dev.android.derdiedas.data.exercise.model.TableRow(
-                    label = "der Tisch",
-                    cells = listOf(null, okano.dev.android.derdiedas.data.exercise.model.TableCell(1, listOf("Tische"))),
-                ),
-            ),
+            rows = listOf(TableRow(label = "der Tisch", cells = listOf(TableCell(1, listOf("Tische"))))),
         )
 
-        assertTrue(exercise(body).toSteps("sit-78").isEmpty())
+        assertEquals(1, exercise(body).toSteps("sit-78").size)
     }
 }
 
@@ -1223,6 +1220,173 @@ class CategorizeGraderTest {
         block = Block.D,
         title = "Sortieren",
         instructions = "Sortiere die Wörter.",
+        body = body,
+    )
+}
+
+class TableFillStepsTest {
+
+    @Test
+    fun `each row becomes its own step`() {
+        val steps = conjugationTable().toSteps("b1-03").filterIsInstance<TableFillStep>()
+
+        assertEquals(2, steps.size)
+        assertEquals(listOf("kommen", "machen"), steps.map { it.prompt })
+    }
+
+    @Test
+    fun `a label occupying the first column heads the prompt, and the cells start one along`() {
+        // "Konnektor | Typ | Verbstellung" with two cells: the label *is* the connector.
+        val body = TableFillBody(
+            columns = listOf("Konnektor", "Typ", "Verbstellung"),
+            rows = listOf(
+                TableRow("obwohl", listOf(TableCell(1, listOf("Konj.")), TableCell(2, listOf("Verb-Ende")))),
+            ),
+        )
+
+        val step = exercise(body).toSteps("b1-02").filterIsInstance<TableFillStep>().single()
+
+        assertEquals("Konnektor", step.promptLabel)
+        assertEquals(listOf("Typ", "Verbstellung"), step.fields.map { it.header })
+    }
+
+    @Test
+    fun `a label outside the columns has no heading of its own`() {
+        // A conjugation table: every column is a person, and the verb is a bare stub.
+        val step = conjugationTable().toSteps("b1-03").filterIsInstance<TableFillStep>().first()
+
+        assertNull(step.promptLabel)
+        assertEquals(listOf("ich", "du"), step.fields.map { it.header })
+    }
+
+    @Test
+    fun `a blank column heading counts as no heading`() {
+        // 30 of the 55 authored tables leave the stub column's heading empty, the way a
+        // printed grammar table leaves its corner cell bare.
+        val body = TableFillBody(
+            columns = listOf("", "maskulin", "feminin"),
+            rows = listOf(TableRow("Nominativ", listOf(TableCell(1, listOf("der")), TableCell(2, listOf("die"))))),
+        )
+
+        val step = exercise(body).toSteps("b1-05").filterIsInstance<TableFillStep>().single()
+
+        assertNull(step.promptLabel)
+        assertEquals(listOf("maskulin", "feminin"), step.fields.map { it.header })
+    }
+
+    @Test
+    fun `a row that arrives filled in is not asked, but is shown as the example`() {
+        val body = TableFillBody(
+            columns = listOf("Ordinalstamm", "Nominativ"),
+            rows = listOf(
+                TableRow("1", listOf(TableCell(1, listOf("erst-"), given = "erst-"), TableCell(2, listOf("erste"), given = "erste"))),
+                TableRow("2", listOf(TableCell(3, listOf("zweit-")), TableCell(4, listOf("zweite")))),
+            ),
+        )
+
+        val steps = exercise(body).toSteps("a1-12").filterIsInstance<TableFillStep>()
+
+        assertEquals(1, steps.size)
+        assertEquals("2", steps.single().prompt)
+        assertEquals("1 → erst- · erste", steps.single().example)
+    }
+
+    @Test
+    fun `an empty cell does not shift the headings after it`() {
+        // No authored table has one, but the model allows it, and dropping the holes before
+        // reading a cell's position would misattribute every heading past the hole.
+        val body = TableFillBody(
+            columns = listOf("Person", "Singular", "Plural"),
+            rows = listOf(TableRow("1.", listOf(null, TableCell(1, listOf("bin"))))),
+        )
+
+        val step = exercise(body).toSteps("x").filterIsInstance<TableFillStep>().single()
+
+        assertEquals(listOf("Plural"), step.fields.map { it.header })
+    }
+
+    @Test
+    fun `a table with no rows produces nothing`() {
+        assertTrue(exercise(TableFillBody(columns = listOf("a"), rows = emptyList())).toSteps("x").isEmpty())
+    }
+
+    @Test
+    fun `a row whose only cells are empty produces nothing`() {
+        val body = TableFillBody(
+            columns = listOf("Singular", "Plural"),
+            rows = listOf(TableRow("der Tisch", listOf(TableCell(1, emptyList())))),
+        )
+
+        assertTrue(exercise(body).toSteps("x").isEmpty())
+    }
+
+    @Test
+    fun `the drilled answers are accepted`() {
+        val step = conjugationTable().toSteps("b1-03").filterIsInstance<TableFillStep>().first()
+
+        val answer = AnswerState.Texts(step.fields.associate { it.key to it.answers.first() })
+
+        assertTrue(gradeStep(step, answer).correct)
+    }
+
+    @Test
+    fun `one wrong cell makes the whole row wrong, and the banner names its column`() {
+        val step = conjugationTable().toSteps("b1-03").filterIsInstance<TableFillStep>().first()
+
+        val result = gradeStep(
+            step,
+            AnswerState.Texts(mapOf("1" to "würde kommen", "2" to "würde kommen")),
+        )
+
+        assertFalse(result.correct)
+        assertEquals(1, result.correctCount)
+        // Six bare verb forms in a banner say nothing about which person each belongs to.
+        assertEquals("du: würdest kommen", result.items.single { !it.correct }.expected)
+    }
+
+    @Test
+    fun `a cell left empty is wrong rather than skipped`() {
+        val step = conjugationTable().toSteps("b1-03").filterIsInstance<TableFillStep>().first()
+
+        val result = gradeStep(step, AnswerState.Texts(mapOf("1" to "würde kommen")))
+
+        assertFalse(result.correct)
+        assertEquals(2, result.items.size)
+    }
+
+    @Test
+    fun `any of a cell's listed answers is accepted`() {
+        val body = TableFillBody(
+            columns = listOf("Jahreszeit", "Feiertag"),
+            rows = listOf(
+                TableRow(
+                    "Dezember",
+                    listOf(TableCell(1, listOf("Winter")), TableCell(2, listOf("Weihnachten", "Silvester"))),
+                ),
+            ),
+        )
+        val step = exercise(body).toSteps("a1-12").filterIsInstance<TableFillStep>().single()
+
+        val result = gradeStep(step, AnswerState.Texts(mapOf("1" to "Winter", "2" to "Silvester")))
+
+        assertTrue(result.correct)
+    }
+
+    private fun conjugationTable() = exercise(
+        TableFillBody(
+            columns = listOf("ich", "du"),
+            rows = listOf(
+                TableRow("kommen", listOf(TableCell(1, listOf("würde kommen")), TableCell(2, listOf("würdest kommen")))),
+                TableRow("machen", listOf(TableCell(3, listOf("würde machen")), TableCell(4, listOf("würdest machen")))),
+            ),
+        ),
+    )
+
+    private fun exercise(body: okano.dev.android.derdiedas.data.exercise.model.ExerciseBody) = Exercise(
+        id = "A1",
+        block = Block.A,
+        title = "Konjugationstabelle",
+        instructions = "Ergänze die Formen.",
         body = body,
     )
 }

@@ -47,6 +47,7 @@ import okano.dev.android.derdiedas.core.exercise.SessionPhase
 import okano.dev.android.derdiedas.core.exercise.SessionState
 import okano.dev.android.derdiedas.core.exercise.SessionStep
 import okano.dev.android.derdiedas.core.exercise.StepResult
+import okano.dev.android.derdiedas.core.exercise.TableFillStep
 import okano.dev.android.derdiedas.data.model.Language
 import okano.dev.android.derdiedas.ui.exercise.steps.CategorizeStepContent
 import okano.dev.android.derdiedas.ui.exercise.steps.ChoiceStepContent
@@ -54,6 +55,7 @@ import okano.dev.android.derdiedas.ui.exercise.steps.GapBankStepContent
 import okano.dev.android.derdiedas.ui.exercise.steps.GapTextStepContent
 import okano.dev.android.derdiedas.ui.exercise.steps.MatchingStepContent
 import okano.dev.android.derdiedas.ui.exercise.steps.OrderStepContent
+import okano.dev.android.derdiedas.ui.exercise.steps.TableFillStepContent
 import okano.dev.android.derdiedas.ui.resources.StringResources
 import okano.dev.android.derdiedas.ui.theme.LocalFeedbackColors
 
@@ -226,8 +228,9 @@ private val SessionStep.keepsStillWhileAnswered: Boolean
         // tokens land in them. Both change height in one direction throughout.
         is MatchingStep, is CategorizeStep -> false
 
-        // The fields, options and bank chips are all there from the start and stay.
-        is GapTextStep, is ChoiceStep, is GapBankStep -> true
+        // The fields, options and bank chips are all there from the start and stay. Table-fill
+        // is the same: one field per cell, every one of them present from the outset.
+        is GapTextStep, is ChoiceStep, is GapBankStep, is TableFillStep -> true
 
         // Order moves tiles between the strip and the pool rather than removing them, so
         // what one gains the other loses and the height is roughly conserved. Nothing has
@@ -285,6 +288,13 @@ private fun StepContent(
         is OrderStep -> OrderStepContent(
             step = step,
             answer = answer as? AnswerState.Sequence ?: AnswerState.Sequence(),
+            result = result,
+            onAnswerChange = onAnswerChange,
+        )
+
+        is TableFillStep -> TableFillStepContent(
+            step = step,
+            answer = answer as? AnswerState.Texts ?: AnswerState.Texts(),
             result = result,
             onAnswerChange = onAnswerChange,
         )

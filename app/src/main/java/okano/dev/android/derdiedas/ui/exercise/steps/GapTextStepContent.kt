@@ -77,10 +77,10 @@ fun GapTextStepContent(
 
         step.gapKeys.forEach { key ->
             GapField(
-                key = key,
+                // The gap number, and only when there is more than one to tell apart.
+                label = if (single) null else "($key)",
                 value = answer.byRef[key].orEmpty(),
                 cue = step.cues[key],
-                showLabel = !single,
                 showInlineResult = !single,
                 enabled = !graded,
                 itemResult = resultsByRef[key],
@@ -103,12 +103,18 @@ private fun renderSentence(step: GapTextStep): String = buildString {
     }
 }.trim()
 
+/**
+ * One typed answer, with its graded state.
+ *
+ * Shared with the table-fill widget, which is the same act of typing a form and having it
+ * checked -- and sharing it means the two look and behave alike, and that the smoke test's
+ * gap-field path covers both.
+ */
 @Composable
-private fun GapField(
-    key: String,
+internal fun GapField(
+    label: String?,
     value: String,
     cue: String?,
-    showLabel: Boolean,
     showInlineResult: Boolean,
     enabled: Boolean,
     itemResult: ItemResult?,
@@ -132,7 +138,7 @@ private fun GapField(
             readOnly = !enabled,
             singleLine = true,
             textStyle = MaterialTheme.typography.titleLarge,
-            label = if (showLabel) ({ Text("($key)") }) else null,
+            label = label?.let { { Text(it) } },
             placeholder = cue?.let { { Text(it) } },
             colors = if (accent == null) {
                 OutlinedTextFieldDefaults.colors()
