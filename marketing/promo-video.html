@@ -1,0 +1,720 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Der Die Das Promo</title>
+<link rel="stylesheet" href="brand.css">
+<!--
+  Der Die Das — Google Play promo video (1920×1080, 31.5 s).
+
+  Every frame is a pure function of time: render(t) positions everything, so the
+  same page is both a live preview (open it in a browser) and the source for
+  render-video.mjs, which steps t frame by frame and pipes screenshots to ffmpeg.
+
+  Preview keys: space = pause, ←/→ = seek 1 s, click the bar to scrub.
+-->
+<style>
+  html, body { margin: 0; height: 100%; background: #05070d; overflow: hidden; }
+  #stage {
+    position: absolute; left: 0; top: 0; width: 1920px; height: 1080px;
+    overflow: hidden; transform-origin: 0 0;
+    font-family: var(--display); color: var(--ink);
+    background: linear-gradient(180deg, var(--sky-1), var(--sky-2));
+  }
+  .a { position: absolute; will-change: transform, opacity; white-space: nowrap; }
+  .scene { position: absolute; inset: 0; overflow: hidden; }
+  .hl { font-weight: 700; line-height: 1.02; letter-spacing: -0.01em; }
+
+  /* Global sky decor */
+  #floaters .pill { position: absolute; font-size: 40px; opacity: 0.2; filter: blur(1.5px); }
+
+  /* Hook */
+  #s-hook { background: radial-gradient(120% 90% at 50% 40%, #13254a 0%, var(--navy) 70%); }
+  .blob { position: absolute; width: 760px; height: 760px; border-radius: 50%; filter: blur(130px); opacity: 0.5; }
+  #h-pills .pill { font-size: 150px; }
+  .q { display: inline-block; }
+
+  /* Logo */
+  #l-logo { width: 340px; height: 340px; border-radius: 76px; box-shadow: 0 40px 80px -20px rgba(14, 34, 64, 0.45); }
+  .word { display: inline-block; position: relative; margin: 0 0.12em; }
+  .word::after { content: ''; position: absolute; left: 4%; right: 4%; bottom: -0.02em; height: 0.12em; border-radius: 0.06em; background: var(--c); transform: scaleX(var(--u, 1)); transform-origin: left; }
+
+  /* Captions */
+  .kicker { display: inline-block; font: 600 26px var(--display); letter-spacing: 0.14em; text-transform: uppercase; padding: 10px 20px; border-radius: 999px; }
+  .cap { position: absolute; left: 0; top: 70px; width: 100%; white-space: normal; }
+  .cap .hl { font-size: 104px; }
+  .cap p { font: 500 38px/1.3 var(--display); margin: 28px 0 0; opacity: 0.75; }
+
+  /* Features */
+  #s-feat { background: radial-gradient(120% 100% at 50% 0%, #4a97f5 0%, var(--der) 35%, #1646a6 100%); color: #fff; }
+  #s-feat .grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,.07) 2px, transparent 2px), linear-gradient(90deg, rgba(255,255,255,.07) 2px, transparent 2px); background-size: 80px 80px; }
+  .chip { font: 700 64px var(--display); width: 170px; height: 110px; border-radius: 28px; display: grid; place-items: center; }
+  .tile { width: 500px; height: 160px; border-radius: 34px; background: rgba(255,255,255,0.14); border: 2px solid rgba(255,255,255,0.3); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+  .tile b { font-size: 50px; line-height: 1.1; }
+  .tile span { font-size: 28px; opacity: 0.85; }
+
+  /* Exercises */
+  #s-ex { background: radial-gradient(110% 100% at 30% 20%, #ffe68a 0%, var(--das) 55%, #eaa900 100%); }
+  .tchip { font: 600 34px var(--display); padding: 14px 28px; border-radius: 999px; background: #fff; box-shadow: 0 10px 0 rgba(14,34,64,0.12); white-space: nowrap; }
+  .ex { position: absolute; inset: 54px 0 0 0; padding: 10px 26px; display: flex; flex-direction: column; }
+  .ex .top { display: flex; align-items: center; gap: 14px; height: 48px; }
+  .ex .bar { flex: 1; height: 10px; border-radius: 5px; background: var(--m-sv); overflow: hidden; }
+  .ex .bar i { display: block; height: 100%; width: 11%; background: var(--m-primary); border-radius: 5px; }
+  .ex .cnt { font-size: 17px; color: var(--m-secondary); font-weight: 500; }
+  .ex .kick { margin-top: 22px; font-size: 16px; font-weight: 700; letter-spacing: 0.08em; color: var(--m-primary); text-transform: uppercase; }
+  .ex .title { font-size: 30px; font-weight: 700; margin-top: 8px; line-height: 1.15; }
+  .ex .inst { font-size: 19px; color: var(--m-secondary); margin-top: 10px; }
+  .ex .list { margin-top: 26px; display: flex; flex-direction: column; gap: 16px; }
+  .gr { display: flex; align-items: center; font-size: 23px; }
+  .gr > span:first-child { width: 150px; }
+  .gap { position: relative; width: 150px; height: 50px; border-radius: 10px; border: 2px solid #79747e; box-sizing: border-box; display: flex; align-items: center; padding: 0 14px; font-weight: 500; }
+  .gap .caret { width: 2px; height: 26px; background: var(--m-primary); margin-left: 1px; }
+  .gr .chk { margin-left: 14px; width: 34px; height: 34px; border-radius: 50%; background: var(--ok); display: grid; place-items: center; }
+  .ex .check { margin-top: auto; margin-bottom: 30px; height: 64px; border-radius: 32px; background: var(--m-primary); color: #fff; font: 500 23px var(--ui); display: grid; place-items: center; }
+
+  /* Results */
+  #s-res { background: radial-gradient(110% 100% at 50% 30%, #7d66c2 0%, var(--m-primary) 40%, #2a1b5c 100%); color: #fff; }
+  .stat { width: 330px; height: 150px; border-radius: 32px; background: rgba(255,255,255,0.12); border: 2px solid rgba(255,255,255,0.25); display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .stat b { font-size: 64px; line-height: 1; font-variant-numeric: tabular-nums; }
+  .stat span { font-size: 28px; opacity: 0.85; margin-top: 8px; }
+
+  /* CTA */
+  .cta-btn { font: 600 50px var(--display); color: #fff; background: var(--ink); padding: 28px 64px; border-radius: 999px; display: flex; align-items: center; gap: 22px; box-shadow: 0 14px 0 rgba(14, 34, 64, 0.25); white-space: nowrap; }
+
+  /* Transitions */
+  .wbar { position: absolute; left: 50%; top: 50%; width: 3400px; height: 1700px; margin: -850px 0 0 -1700px; }
+  #iris { position: absolute; left: 960px; top: 540px; width: 100px; height: 100px; margin: -50px 0 0 -50px; border-radius: 50%; }
+  #fx { position: absolute; inset: 0; pointer-events: none; }
+
+  /* Preview chrome (hidden when rendering) */
+  #ui { position: fixed; left: 0; right: 0; bottom: 0; height: 30px; background: rgba(0,0,0,.6); cursor: pointer; font: 12px system-ui; color: #fff; }
+  #ui i { position: absolute; left: 0; top: 0; bottom: 0; background: #2f80ed; }
+  #ui span { position: absolute; right: 10px; top: 7px; }
+  .render #ui { display: none; }
+</style>
+</head>
+<body>
+<div id="stage">
+
+  <!-- ===== Global sky decor ===== -->
+  <div id="floaters" class="scene"></div>
+
+  <!-- ===== 1. Hook ===== -->
+  <section class="scene" id="s-hook">
+    <div class="blob" id="b1" style="background:var(--der)"></div>
+    <div class="blob" id="b2" style="background:var(--die)"></div>
+    <div class="blob" id="b3" style="background:var(--das)"></div>
+    <div id="h-pills">
+      <div class="a pill der" id="h-der" style="left:560px;top:430px">DER<span class="q">?</span></div>
+      <div class="a pill die" id="h-die" style="left:960px;top:400px">DIE<span class="q">?</span></div>
+      <div class="a pill das" id="h-das" style="left:1360px;top:430px">DAS<span class="q">?</span></div>
+    </div>
+    <div class="a hl" id="h-line" style="left:960px;top:700px;font-size:64px;color:#fff;font-weight:600">Every German noun has one.</div>
+    <div class="a hl" id="h-noun" style="left:1180px;top:520px;font-size:190px;color:#fff">Mädchen</div>
+    <div class="a" id="h-sub" style="left:960px;top:640px;font-size:44px;color:rgba(255,255,255,.7);font-weight:500">“the girl”</div>
+    <div class="a hl" id="h-fact" style="left:960px;top:840px;font-size:76px;color:var(--das)">…is neuter?! 🤯</div>
+  </section>
+
+  <!-- ===== 2. Logo ===== -->
+  <section class="scene" id="s-logo">
+    <img class="a" id="l-logo" style="left:960px;top:380px" src="../app/src/main/play_store_512.png" alt="">
+    <div class="a hl" id="l-title" style="left:960px;top:690px;font-size:136px;white-space:nowrap">
+      <span class="word" style="--c:var(--der)">Der</span><span class="word" style="--c:var(--die)">Die</span><span class="word" style="--c:var(--das)">Das</span>
+    </div>
+    <div class="a" id="l-tag" style="left:960px;top:820px;font-size:46px;font-weight:500;white-space:nowrap">Master German articles. <b style="color:var(--die)">The fun way.</b></div>
+  </section>
+
+  <!-- ===== 3. Gameplay ===== -->
+  <section class="scene" id="s-play">
+    <div class="a phone" id="p-phone" style="left:640px;top:545px">
+      <div class="screen" id="p-screen">
+        <div class="cam"></div>
+        <div class="sb"><span>9:41</span><span class="icons"><span class="sig"><i style="height:4px"></i><i style="height:7px"></i><i style="height:10px"></i><i style="height:13px"></i></span><span class="bat"><i></i></span></span></div>
+        <div class="fc">
+          <div class="back"><svg width="26" height="26" viewBox="0 0 24 24"><path d="M20 11H7.8l5.6-5.6L12 4l-8 8 8 8 1.4-1.4L7.8 13H20z" fill="#1c1b1f"/></svg></div>
+          <div class="row">
+            <span class="n">Card <span id="p-n">1</span> of 10</span>
+            <span class="time"><svg width="20" height="22" viewBox="0 0 20 22"><circle cx="10" cy="13" r="8" fill="none" stroke="#625b71" stroke-width="2.4"/><path d="M10 13V8.5M7 1.5h6" stroke="#625b71" stroke-width="2.4" stroke-linecap="round"/></svg><span id="p-time">00:00</span></span>
+          </div>
+          <div class="stats">
+            <div><b id="p-c" style="color:var(--ok)">0</b><small>Correct</small></div>
+            <div><b id="p-w" style="color:var(--bad)">0</b><small>Wrong</small></div>
+            <div><b id="p-acc" style="color:var(--m-primary)">0%</b><small>Accuracy</small></div>
+          </div>
+          <div class="mid">
+            <div class="cards" id="p-cards"></div>
+            <div class="btns">
+              <div class="ab" id="btn-DER">DER</div>
+              <div class="ab" id="btn-DIE">DIE</div>
+              <div class="ab" id="btn-DAS">DAS</div>
+            </div>
+          </div>
+        </div>
+        <div class="ripple" id="p-ripple"></div>
+        <div class="touch" id="p-touch"></div>
+      </div>
+    </div>
+    <div class="a" id="p-capwrap" style="left:1450px;top:500px;width:760px;height:560px">
+      <span class="kicker" id="p-kick" style="background:var(--m-primary);color:#fff">Flashcards</span>
+      <div class="cap" id="cap0"><div class="hl">Tap the<br><span style="color:var(--der)">article.</span></div><p>Der, die or das? You call it.</p></div>
+      <div class="cap" id="cap1"><div class="hl">Oops?<br><span style="color:var(--die)">Learn it.</span></div><p>Miss one and the right article shows up instantly.</p></div>
+      <div class="cap" id="cap2"><div class="hl">Watch your<br><span style="color:var(--ok)">score climb.</span></div><p>Live score, accuracy and a timer on every card.</p></div>
+    </div>
+  </section>
+
+  <!-- ===== 4. Features ===== -->
+  <section class="scene" id="s-feat">
+    <div class="grid"></div>
+    <div class="a hl" id="f-num" style="left:960px;top:430px;font-size:280px;font-variant-numeric:tabular-nums">0</div>
+    <div class="a" id="f-lbl" style="left:960px;top:600px;font-size:60px;font-weight:600;white-space:nowrap">German nouns to master</div>
+    <div id="f-chips"></div>
+    <div class="a" id="f-lvl" style="left:960px;top:610px;font-size:44px;font-weight:500;white-space:nowrap">Pick your level — or practise them all</div>
+    <div class="a tile" id="f-t0" style="left:420px;top:850px"><b>5 · 10 · 25 · 50</b><span>cards per session</span></div>
+    <div class="a tile" id="f-t1" style="left:960px;top:850px"><b>English &amp; Português</b><span>translations for every noun</span></div>
+    <div class="a tile" id="f-t2" style="left:1500px;top:850px"><b>Full history</b><span>of every game you play</span></div>
+  </section>
+
+  <!-- ===== 5. Exercises ===== -->
+  <section class="scene" id="s-ex">
+    <div class="a" id="e-capwrap" style="left:620px;top:420px;width:820px;height:520px">
+      <span class="kicker" style="background:var(--ink);color:#fff">Exercises</span>
+      <div class="cap" style="top:76px"><div class="hl" style="font-size:112px">Beyond<br>der, die, das.</div><p id="e-sub">Grammar practice from A1 to C1: verbs, cases, prepositions &amp; more.</p></div>
+    </div>
+    <div id="e-types"></div>
+    <div class="a phone" id="e-phone" style="left:1400px;top:545px">
+      <div class="screen">
+        <div class="cam"></div>
+        <div class="sb"><span>9:41</span><span class="icons"><span class="sig"><i style="height:4px"></i><i style="height:7px"></i><i style="height:10px"></i><i style="height:13px"></i></span><span class="bat"><i></i></span></span></div>
+        <div class="ex">
+          <div class="top"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" stroke="#1c1b1f" stroke-width="2.4" stroke-linecap="round"/></svg><div class="bar"><i id="e-bar"></i></div><span class="cnt">1 / 9</span></div>
+          <div class="kick">A1 · Block A</div>
+          <div class="title">sein: conjugation table</div>
+          <div class="inst">Fill the table from memory.</div>
+          <div class="list" id="e-list"></div>
+          <div class="check" id="e-check">Check</div>
+        </div>
+        <div class="ripple" id="e-ripple"></div>
+        <div class="touch" id="e-touch"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 6. Results ===== -->
+  <section class="scene" id="s-res">
+    <div class="a hl" id="r-title" style="left:960px;top:170px;font-size:100px;white-space:nowrap">Game Complete!</div>
+    <svg class="a" id="r-ring" style="left:960px;top:560px" width="460" height="460" viewBox="0 0 460 460">
+      <circle cx="230" cy="230" r="190" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="30"/>
+      <circle id="r-arc" cx="230" cy="230" r="190" fill="none" stroke="#7bd88f" stroke-width="30" stroke-linecap="round" transform="rotate(-90 230 230)" stroke-dasharray="1193.8" stroke-dashoffset="1193.8"/>
+    </svg>
+    <div class="a hl" id="r-pct" style="left:960px;top:540px;font-size:150px;font-variant-numeric:tabular-nums">0%</div>
+    <div class="a" id="r-pctl" style="left:960px;top:640px;font-size:36px;opacity:.8">Accuracy</div>
+    <div class="a stat" id="r-s0" style="left:450px;top:470px"><b style="color:#7bd88f">23</b><span>Correct</span></div>
+    <div class="a stat" id="r-s1" style="left:450px;top:660px"><b style="color:#ff8a80">2</b><span>Wrong</span></div>
+    <div class="a stat" id="r-s2" style="left:1470px;top:470px"><b>02:41</b><span>Time</span></div>
+    <div class="a stat" id="r-s3" style="left:1470px;top:660px"><b>9.3</b><span>Cards / min</span></div>
+    <div class="a" id="r-cap" style="left:960px;top:930px;font-size:46px;font-weight:600;white-space:nowrap">Every session saved. Every win counted.</div>
+  </section>
+
+  <!-- ===== 7. Call to action ===== -->
+  <section class="scene" id="s-cta">
+    <div class="a pill der" id="c-der" style="left:380px;top:300px;font-size:96px">der</div>
+    <div class="a pill die" id="c-die" style="left:1560px;top:250px;font-size:96px">die</div>
+    <div class="a pill das" id="c-das" style="left:1500px;top:760px;font-size:96px">das</div>
+    <img class="a" id="c-logo" style="left:960px;top:320px;width:300px;height:300px;border-radius:68px;box-shadow:0 40px 80px -20px rgba(14,34,64,.45)" src="../app/src/main/play_store_512.png" alt="">
+    <div class="a hl" id="c-title" style="left:960px;top:575px;font-size:120px;white-space:nowrap">
+      <span class="word" style="--c:var(--der)">Der</span><span class="word" style="--c:var(--die)">Die</span><span class="word" style="--c:var(--das)">Das</span>
+    </div>
+    <div class="a" id="c-tag" style="left:960px;top:690px;font-size:46px;font-weight:500;white-space:nowrap">Never guess an article again.</div>
+    <div class="a cta-btn" id="c-btn" style="left:960px;top:850px">
+      <svg width="48" height="48" viewBox="0 0 24 24"><path d="M12 3v11.2m0 0-4.6-4.6M12 14.2l4.6-4.6M4.5 16.5v2.2c0 1.2 1 2.3 2.3 2.3h10.4c1.3 0 2.3-1.1 2.3-2.3v-2.2" fill="none" stroke="#f7c31a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Now on Google Play
+    </div>
+  </section>
+
+  <!-- ===== Transitions & effects ===== -->
+  <div id="wipe" class="scene" style="pointer-events:none">
+    <div class="wbar" id="w0"></div><div class="wbar" id="w1"></div><div class="wbar" id="w2"></div>
+  </div>
+  <div id="iris"></div>
+  <canvas id="fx" width="1920" height="1080"></canvas>
+</div>
+<div id="ui"><i id="ui-bar"></i><span id="ui-t"></span></div>
+
+<script>
+// ---------------------------------------------------------------- helpers
+const DURATION = 31.5;
+const $ = id => document.getElementById(id);
+const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
+const P = (t, s, d) => clamp((t - s) / d);            // progress of [s, s+d]
+const lerp = (a, b, p) => a + (b - a) * p;
+const E = {
+  lin: x => x,
+  outCubic: x => 1 - Math.pow(1 - x, 3),
+  inCubic: x => x * x * x,
+  inOutCubic: x => (x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2),
+  outBack: x => { const c = 1.9; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); },
+  outElastic: x => (x === 0 || x === 1 ? x : Math.pow(2, -10 * x) * Math.sin((x * 10 - 0.75) * (2 * Math.PI / 3)) + 1),
+};
+// Seeded RNG so particles and decor are identical on every render.
+function rng(seed) { return () => ((seed = (seed * 1664525 + 1013904223) >>> 0) / 4294967296); }
+
+/** Place an element: its CSS left/top is its centre; x/y are offsets from that. */
+function tf(el, { x = 0, y = 0, s = 1, sx, sy, r = 0, ry = 0, o = 1 } = {}) {
+  el.style.transform =
+    `translate(-50%,-50%) translate(${x}px,${y}px) perspective(1800px) rotateY(${ry}deg) rotate(${r}deg) scale(${sx ?? s},${sy ?? s})`;
+  el.style.opacity = o;
+}
+/** Pop-in: returns {s, o, y} for an element entering at `at`. */
+function pop(t, at, dur = 0.55, dy = 60) {
+  const p = P(t, at, dur);
+  return { s: lerp(0.4, 1, E.outBack(p)), o: clamp(p * 3), y: lerp(dy, 0, E.outCubic(p)) };
+}
+const show = (el, v) => { el.style.display = v ? '' : 'none'; };
+const fmtTime = s => `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
+
+// ---------------------------------------------------------------- timeline
+const SCENES = {
+  hook: [0, 4.3], logo: [4.3, 7.8], play: [7.1, 16.6], feat: [16.6, 21.2],
+  ex: [21.2, 25.4], res: [25.4, 28.0], cta: [28.0, DURATION + 1],
+};
+const WIPES = [
+  { at: 4.3, colors: ['var(--der)', 'var(--die)', 'var(--das)'] },
+  { at: 16.6, colors: ['var(--das)', 'var(--die)', 'var(--der)'] },
+  { at: 21.2, colors: ['var(--der)', 'var(--die)', 'var(--das)'] },
+];
+const IRISES = [
+  { at: 25.4, color: 'var(--m-primary)' },
+  { at: 28.0, color: 'var(--sky-2)' },
+];
+const ROUNDS = [
+  { t0: 7.6, noun: 'Hund', tr: 'dog', art: 'DER', pick: 'DER', tap: 9.2 },
+  { t0: 10.4, noun: 'Mädchen', tr: 'girl', art: 'DAS', pick: 'DIE', tap: 11.8 },
+  { t0: 13.1, noun: 'Brücke', tr: 'bridge', art: 'DIE', pick: 'DIE', tap: 14.4 },
+];
+const GAPS = [['1. ich:', 'bin'], ['2. du:', 'bist'], ['3. er/sie/es:', 'ist'], ['4. wir:', 'sind'], ['5. ihr:', 'seid'], ['6. sie/Sie:', 'sind']];
+const TYPES = ['Fill the gap', 'Matching', 'Categorize', 'Word order', 'True or false', 'Odd one out'];
+const BURSTS = [
+  { t0: 9.28, x: 640, y: 470, n: 70, power: 900 },
+  { t0: 14.48, x: 640, y: 470, n: 70, power: 900 },
+  { t0: 24.35, x: 1400, y: 560, n: 90, power: 1000 },
+  { t0: 26.9, x: 960, y: 560, n: 160, power: 1500 },
+  { t0: 29.7, x: 150, y: 1100, n: 110, power: 1900 },
+  { t0: 29.75, x: 1770, y: 1100, n: 110, power: 1900 },
+];
+
+// ---------------------------------------------------------------- build DOM
+(function build() {
+  // Floating decor pills
+  const r = rng(7), fl = $('floaters');
+  const kinds = ['der', 'die', 'das'];
+  for (let i = 0; i < 16; i++) {
+    const d = document.createElement('div');
+    d.className = 'pill ' + kinds[i % 3];
+    d.textContent = kinds[i % 3];
+    d.dataset.x = r() * 1920; d.dataset.y = r() * 1080; d.dataset.v = 20 + r() * 40;
+    d.dataset.r = (r() - 0.5) * 40; d.dataset.s = 0.6 + r() * 0.7;
+    fl.appendChild(d);
+  }
+  // Flashcards
+  const cards = $('p-cards');
+  ROUNDS.forEach((rd, i) => {
+    const c = document.createElement('div');
+    c.className = 'ncard'; c.id = 'card' + i;
+    c.innerHTML = `<div class="fb"></div><div class="noun">${rd.noun}</div><div class="tr">${rd.tr}</div><div class="full">${rd.art.toLowerCase()} ${rd.noun}</div>`;
+    cards.appendChild(c);
+  });
+  // CEFR chips
+  const colors = [['var(--das)', 'var(--ink)'], ['#fff', 'var(--der)'], ['var(--die)', '#fff']];
+  ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].forEach((lvl, i) => {
+    const c = document.createElement('div');
+    c.className = 'a chip'; c.id = 'chip' + i; c.textContent = lvl;
+    c.style.left = (960 + (i - 2.5) * 205) + 'px'; c.style.top = '480px';
+    c.style.background = colors[i % 3][0]; c.style.color = colors[i % 3][1];
+    $('f-chips').appendChild(c);
+  });
+  // Exercise gaps
+  GAPS.forEach(([label], i) => {
+    const row = document.createElement('div');
+    row.className = 'gr';
+    row.innerHTML = `<span>${label}</span><span class="gap" id="gap${i}"><span class="txt"></span><span class="caret"></span></span><span class="chk" id="chk${i}"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>`;
+    $('e-list').appendChild(row);
+  });
+  // Exercise type chips
+  const pos = [[260, 800], [620, 860], [1000, 790], [300, 950], [700, 990], [1060, 940]];
+  TYPES.forEach((txt, i) => {
+    const c = document.createElement('div');
+    c.className = 'a tchip'; c.id = 'type' + i; c.textContent = txt;
+    c.style.left = pos[i][0] + 'px'; c.style.top = pos[i][1] + 'px';
+    $('e-types').appendChild(c);
+  });
+})();
+
+/** Offset of `el` inside `root`, ignoring transforms (layout coordinates). */
+function offsetIn(el, root) {
+  let x = el.offsetWidth / 2, y = el.offsetHeight / 2;
+  for (let n = el; n && n !== root; n = n.offsetParent) { x += n.offsetLeft; y += n.offsetTop; }
+  return { x, y };
+}
+
+// ---------------------------------------------------------------- scenes
+function sceneHook(t) {
+  // Drifting colour blobs
+  [['b1', 300, 300, 0], ['b2', 1500, 250, 2], ['b3', 1100, 850, 4]].forEach(([id, bx, by, ph]) => {
+    const el = $(id);
+    el.style.left = (bx - 380 + Math.sin(t * 0.9 + ph) * 160) + 'px';
+    el.style.top = (by - 380 + Math.cos(t * 0.7 + ph) * 120) + 'px';
+  });
+
+  const jig = (at, amp) => Math.sin(t * 38 + at) * amp * clamp(P(t, 1.3, 0.2)) * (1 - P(t, 2.1, 0.2));
+  const fall = P(t, 2.2, 0.6);
+
+  // DER from the left, DIE from above, DAS from the right
+  let p = P(t, 0.0, 0.55);
+  tf($('h-der'), { x: lerp(-1000, 0, E.outBack(p)), r: -8 + jig(0, 4), y: fall * fall * 900, o: clamp(p * 4) * (1 - fall), s: 1 - fall * 0.3 });
+  p = P(t, 0.25, 0.55);
+  tf($('h-die'), { y: lerp(-700, 0, E.outBack(p)) + fall * fall * 900, r: 4 + jig(1, 4), o: clamp(p * 4) * (1 - fall), s: 1 - fall * 0.3 });
+
+  // DAS survives, flies next to "Mädchen"
+  p = P(t, 0.5, 0.55);
+  const m = E.outBack(P(t, 2.6, 0.5));
+  const q = $('h-das').querySelector('.q');
+  q.style.opacity = 1 - P(t, 2.45, 0.15);
+  show(q, t < 2.6);
+  $('h-das').style.fontSize = lerp(150, 130, m) + 'px';
+  tf($('h-das'), {
+    x: lerp(900, 0, E.outBack(p)) + lerp(0, -1360 + 480, m),
+    y: lerp(0, 90, m),
+    r: lerp(7 + jig(2, 4), -4, m),
+    o: clamp(p * 4),
+  });
+
+  // "Every German noun has one."
+  p = P(t, 0.95, 0.4);
+  tf($('h-line'), { y: lerp(40, 0, E.outCubic(p)) + E.inCubic(P(t, 2.1, 0.3)) * 60, o: p * (1 - P(t, 2.1, 0.3)) });
+
+  // "Mädchen" pop + "the girl" + punchline
+  const np = pop(t, 2.35, 0.5, 0);
+  tf($('h-noun'), { s: np.s, o: np.o, x: 60 });
+  const sp = P(t, 2.75, 0.35);
+  tf($('h-sub'), { x: 230, y: 90 + lerp(20, 0, E.outCubic(sp)), o: sp });
+  const fp = P(t, 3.1, 0.5);
+  tf($('h-fact'), { s: lerp(0.3, 1, E.outElastic(fp)), r: Math.sin(t * 9) * 3 * fp, o: clamp(fp * 3) });
+}
+
+function sceneLogo(t) {
+  const out = E.inCubic(P(t, 7.1, 0.5));
+  const lp = P(t, 4.3, 0.75);
+  tf($('l-logo'), {
+    s: lerp(0, 1, E.outBack(lp)), r: lerp(-20, 0, E.outCubic(lp)),
+    y: Math.sin(t * 2.4) * 10 - out * 900, o: clamp(lp * 4),
+  });
+  const words = $('l-title').querySelectorAll('.word');
+  words.forEach((w, i) => {
+    const wp = P(t, 4.8 + i * 0.16, 0.5);
+    w.style.transform = `translateY(${lerp(90, 0, E.outBack(wp))}px) scale(${lerp(0.6, 1, E.outBack(wp))})`;
+    w.style.opacity = clamp(wp * 3);
+    w.style.setProperty('--u', E.outCubic(P(t, 5.25 + i * 0.16, 0.4)));
+  });
+  tf($('l-title'), { y: -out * 900 });
+  const tp = P(t, 5.7, 0.5);
+  tf($('l-tag'), { y: lerp(40, 0, E.outCubic(tp)) - out * 900, o: tp });
+}
+
+function scenePlay(t) {
+  // Phone slides up from below with a slight 3D tilt
+  const ip = P(t, 7.2, 0.8);
+  const cur = ROUNDS.reduce((acc, r, i) => (t >= r.t0 ? i : acc), 0);
+  const R = ROUNDS[cur];
+  const wrongShake = R.pick !== R.art ? Math.sin((t - R.tap) * 70) * 14 * (1 - P(t, R.tap, 0.45)) * (t > R.tap ? 1 : 0) : 0;
+  tf($('p-phone'), {
+    y: lerp(1100, 0, E.outCubic(ip)) + Math.sin(t * 1.6) * 8,
+    x: wrongShake,
+    ry: lerp(35, 14, E.outCubic(ip)), r: lerp(10, -2, E.outCubic(ip)),
+  });
+
+  // Captions
+  const capIn = [7.9, 10.6, 13.3], capOut = [10.3, 12.9, 16.6];
+  const kp = P(t, 7.75, 0.4);
+  tf($('p-kick').parentElement, {});
+  $('p-kick').style.opacity = kp;
+  $('p-kick').style.transform = `translateY(${lerp(20, 0, E.outCubic(kp))}px)`;
+  capIn.forEach((a, i) => {
+    const pin = P(t, a, 0.5), pout = P(t, capOut[i], 0.3);
+    const el = $('cap' + i);
+    el.style.opacity = clamp(pin * 2) * (1 - pout);
+    el.style.transform = `translateY(${lerp(80, 0, E.outBack(pin)) - pout * 80}px)`;
+  });
+
+  // Status line
+  $('p-n').textContent = cur + 1;
+  $('p-time').textContent = fmtTime(Math.max(0, t - 7.6) * 1.2);
+
+  // Score
+  let c = 0, w = 0;
+  ROUNDS.forEach(r => { if (t >= r.tap + 0.08) (r.pick === r.art ? c++ : w++); });
+  $('p-c').textContent = c; $('p-w').textContent = w;
+  $('p-acc').textContent = (c + w ? Math.floor((c / (c + w)) * 100) : 0) + '%';
+
+  // Cards slide in from the right and out to the left (AnimatedContent in the app)
+  ROUNDS.forEach((r, i) => {
+    const el = $('card' + i);
+    const pin = i === 0 ? 1 : E.inOutCubic(P(t, r.t0, 0.45));
+    const next = ROUNDS[i + 1];
+    const pout = next ? E.inOutCubic(P(t, next.t0, 0.45)) : 0;
+    el.style.transform = `translateX(${(1 - pin) * 420 - pout * 420}px)`;
+    el.style.opacity = pin * (1 - pout);
+    const answered = t >= r.tap + 0.08;
+    const ok = r.pick === r.art;
+    const fb = el.querySelector('.fb'), full = el.querySelector('.full');
+    show(fb, answered); show(full, answered);
+    fb.textContent = ok ? '✓ Correct!' : '✗ Wrong!';
+    fb.style.color = ok ? 'var(--ok)' : 'var(--bad)';
+    el.style.background = !answered ? 'var(--m-bg)' : ok ? '#dbefdc' : '#fdd9d7';
+    const bump = answered ? 1 + 0.06 * Math.sin(P(t, r.tap + 0.08, 0.3) * Math.PI) : 1;
+    el.style.transform += ` scale(${bump})`;
+  });
+
+  // Buttons (same colour rules as ArticleButtons)
+  const answered = t >= R.tap + 0.08;
+  ['DER', 'DIE', 'DAS'].forEach(a => {
+    const b = $('btn-' + a);
+    const sel = R.pick === a, right = R.art === a;
+    let bg = 'var(--m-primary)';
+    if (answered) {
+      if (sel && right) bg = 'var(--ok)';
+      else if (sel) bg = 'var(--bad)';
+      else if (right) bg = 'var(--ok)';
+      else bg = 'rgba(102,80,164,.5)';
+    }
+    b.style.background = bg;
+    const press = sel ? 1 - 0.07 * Math.sin(P(t, R.tap - 0.1, 0.25) * Math.PI) : 1;
+    b.style.transform = `scale(${press})`;
+  });
+
+  // Touch indicator travelling to the chosen button
+  const target = offsetIn($('btn-' + R.pick), $('p-screen'));
+  const ap = E.outCubic(P(t, R.tap - 0.65, 0.55));
+  const lp = E.inCubic(P(t, R.tap + 0.2, 0.4));
+  const touch = $('p-touch');
+  touch.style.left = target.x + lerp(90, 0, ap) + lp * 60 + 'px';
+  touch.style.top = target.y + lerp(220, 0, ap) + lp * 160 + 'px';
+  touch.style.opacity = clamp(ap * 2) * (1 - lp) * (t > R.tap - 0.65 ? 1 : 0);
+  touch.style.transform = `scale(${1 - 0.18 * Math.sin(P(t, R.tap - 0.1, 0.25) * Math.PI)})`;
+  const rp = P(t, R.tap, 0.45), rip = $('p-ripple');
+  rip.style.left = target.x + 'px'; rip.style.top = target.y + 'px';
+  rip.style.opacity = t >= R.tap ? (1 - rp) * 0.9 : 0;
+  rip.style.transform = `scale(${1 + rp * 1.8})`;
+}
+
+function sceneFeat(t) {
+  const n = E.outCubic(P(t, 16.85, 1.1));
+  $('f-num').textContent = Math.round(1086 * n).toLocaleString('en-US');
+  const up = E.inOutCubic(P(t, 18.5, 0.55));
+  const np = pop(t, 16.8, 0.6, 0);
+  tf($('f-num'), { s: np.s * lerp(1, 0.5, up), o: np.o, y: lerp(0, -255, up) });
+  const lp = P(t, 17.3, 0.45);
+  tf($('f-lbl'), { y: lerp(50, 0, E.outCubic(lp)) + lerp(0, -300, up), s: lerp(1, 0.75, up), o: lp });
+
+  for (let i = 0; i < 6; i++) {
+    const cp = pop(t, 18.85 + i * 0.09, 0.5, 80);
+    tf($('chip' + i), { s: cp.s, o: cp.o, y: cp.y + Math.sin(t * 3 + i) * 6 * cp.o, r: Math.sin(i * 2.1) * 5 });
+  }
+  const vp = P(t, 19.45, 0.4);
+  tf($('f-lvl'), { y: lerp(30, 0, E.outCubic(vp)), o: vp });
+  for (let i = 0; i < 3; i++) {
+    const tp = pop(t, 19.75 + i * 0.14, 0.55, 120);
+    tf($('f-t' + i), { s: tp.s, o: tp.o, y: tp.y });
+  }
+}
+
+function sceneEx(t) {
+  const cp = P(t, 21.45, 0.5);
+  tf($('e-capwrap'), { y: lerp(60, 0, E.outCubic(cp)), o: cp });
+  const ip = P(t, 21.35, 0.75);
+  tf($('e-phone'), {
+    y: lerp(1100, 0, E.outCubic(ip)) + Math.sin(t * 1.6) * 8,
+    ry: lerp(-35, -14, E.outCubic(ip)), r: lerp(-10, 2, E.outCubic(ip)),
+  });
+  TYPES.forEach((_, i) => {
+    const p = pop(t, 22.0 + i * 0.13, 0.5, 60);
+    tf($('type' + i), { s: p.s, o: p.o, y: p.y + Math.sin(t * 2.2 + i * 1.3) * 8, r: Math.sin(i * 1.7) * 6 });
+  });
+
+  // Answers type in one after another, then "Check" turns them all green
+  const typeStart = 22.1, per = 0.3, checkAt = 24.25;
+  GAPS.forEach(([, ans], i) => {
+    const p = P(t, typeStart + i * per, per * 0.8);
+    const gap = $('gap' + i);
+    gap.querySelector('.txt').textContent = ans.slice(0, Math.round(ans.length * p));
+    const active = t >= typeStart + i * per && t < typeStart + (i + 1) * per;
+    gap.querySelector('.caret').style.opacity = active && Math.floor(t * 6) % 2 === 0 ? 1 : 0;
+    gap.style.borderColor = t >= checkAt ? 'var(--ok)' : active ? 'var(--m-primary)' : '#79747e';
+    gap.style.background = t >= checkAt ? '#dbefdc' : 'transparent';
+    const kp = P(t, checkAt + i * 0.05, 0.35);
+    $('chk' + i).style.transform = `scale(${E.outBack(kp)})`;
+    $('chk' + i).style.opacity = clamp(kp * 3);
+  });
+  $('e-bar').style.width = lerp(11, 22, E.outCubic(P(t, checkAt + 0.2, 0.5))) + '%';
+
+  const target = offsetIn($('e-check'), $('e-check').closest('.screen'));
+  const tap = checkAt - 0.05;
+  const ap = E.outCubic(P(t, tap - 0.55, 0.45)), lp = E.inCubic(P(t, tap + 0.2, 0.35));
+  const touch = $('e-touch');
+  touch.style.left = target.x + lerp(-80, 0, ap) - lp * 40 + 'px';
+  touch.style.top = target.y + lerp(-200, 0, ap) + lp * 140 + 'px';
+  touch.style.opacity = clamp(ap * 2) * (1 - lp) * (t > tap - 0.55 ? 1 : 0);
+  touch.style.transform = `scale(${1 - 0.18 * Math.sin(P(t, tap - 0.1, 0.25) * Math.PI)})`;
+  $('e-check').style.transform = `scale(${1 - 0.05 * Math.sin(P(t, tap - 0.1, 0.25) * Math.PI)})`;
+  const rp = P(t, tap, 0.45), rip = $('e-ripple');
+  rip.style.left = target.x + 'px'; rip.style.top = target.y + 'px';
+  rip.style.opacity = t >= tap ? (1 - rp) * 0.9 : 0;
+  rip.style.transform = `scale(${1 + rp * 1.8})`;
+}
+
+function sceneRes(t) {
+  const tp = pop(t, 25.6, 0.55, -60);
+  tf($('r-title'), { s: tp.s, o: tp.o, y: tp.y });
+  const rp = pop(t, 25.75, 0.6, 0);
+  tf($('r-ring'), { s: rp.s, o: rp.o, r: lerp(-30, 0, E.outCubic(P(t, 25.75, 0.6))) });
+  const fill = E.inOutCubic(P(t, 25.95, 0.95)) * 0.92;
+  $('r-arc').setAttribute('stroke-dashoffset', 1193.8 * (1 - fill));
+  $('r-pct').textContent = Math.round(fill * 100) + '%';
+  const pp = P(t, 26.9, 0.35);
+  tf($('r-pct'), { s: rp.s * (1 + 0.12 * Math.sin(pp * Math.PI)), o: rp.o });
+  tf($('r-pctl'), { o: rp.o * 0.8 });
+  for (let i = 0; i < 4; i++) {
+    const sp = pop(t, 26.2 + i * 0.12, 0.5, 60);
+    tf($('r-s' + i), { s: sp.s, o: sp.o, y: sp.y + Math.sin(t * 2 + i) * 6, x: (i < 2 ? -1 : 1) * lerp(120, 0, E.outCubic(P(t, 26.2 + i * 0.12, 0.5))) });
+  }
+  const cp = P(t, 27.0, 0.4);
+  tf($('r-cap'), { y: lerp(40, 0, E.outCubic(cp)), o: cp });
+}
+
+function sceneCta(t) {
+  const lp = P(t, 28.2, 0.8);
+  tf($('c-logo'), { s: E.outElastic(lp), r: lerp(-25, 0, E.outCubic(lp)), y: Math.sin(t * 2.4) * 10, o: clamp(lp * 4) });
+  $('c-title').querySelectorAll('.word').forEach((w, i) => {
+    const wp = P(t, 28.6 + i * 0.14, 0.5);
+    w.style.transform = `translateY(${lerp(80, 0, E.outBack(wp))}px) scale(${lerp(0.6, 1, E.outBack(wp))})`;
+    w.style.opacity = clamp(wp * 3);
+    w.style.setProperty('--u', E.outCubic(P(t, 29.0 + i * 0.14, 0.4)));
+  });
+  tf($('c-title'), {});
+  const gp = P(t, 29.3, 0.45);
+  tf($('c-tag'), { y: lerp(30, 0, E.outCubic(gp)), o: gp });
+  const bp = pop(t, 29.6, 0.6, 60);
+  const pulse = t > 30.3 ? 1 + 0.035 * Math.sin((t - 30.3) * 6) : 1;
+  tf($('c-btn'), { s: bp.s * pulse, o: bp.o, y: bp.y });
+  [['c-der', 28.5, -12], ['c-die', 28.65, 9], ['c-das', 28.8, -6]].forEach(([id, at, r], i) => {
+    const p = pop(t, at, 0.6, 0);
+    const bounce = Math.abs(Math.sin((t - at) * 3.2 + i)) * -24;
+    tf($(id), { s: p.s, o: p.o, y: bounce * p.o, r: r + Math.sin(t * 2 + i) * 4 });
+  });
+}
+
+function floaters(t) {
+  for (const d of $('floaters').children) {
+    const y = ((+d.dataset.y - t * d.dataset.v) % 1180 + 1180) % 1180 - 50;
+    d.style.transform = `translate(${d.dataset.x}px,${y}px) rotate(${+d.dataset.r + Math.sin(t + +d.dataset.x) * 8}deg) scale(${d.dataset.s})`;
+  }
+}
+
+function transitions(t) {
+  const W = WIPES.find(w => t > w.at - 0.7 && t < w.at + 0.7);
+  $('wipe').style.display = W ? '' : 'none';
+  if (W) {
+    for (let i = 0; i < 3; i++) {
+      const p = E.inOutCubic(P(t, W.at - 0.4 - (2 - i) * 0.08, 0.8));
+      const el = $('w' + i);
+      el.style.background = W.colors[i];
+      el.style.transform = `translateX(${lerp(-3500, 3500, p)}px) skewX(-14deg)`;
+    }
+  }
+  const I = IRISES.find(w => t > w.at - 0.4 && t < w.at + 0.5);
+  const iris = $('iris');
+  iris.style.display = I ? '' : 'none';
+  if (I) {
+    iris.style.background = I.color;
+    iris.style.transform = `scale(${E.inCubic(P(t, I.at - 0.35, 0.35)) * 24})`;
+    iris.style.opacity = 1 - P(t, I.at + 0.05, 0.4);
+  }
+}
+
+function confetti(t) {
+  const cv = $('fx'), g = cv.getContext('2d');
+  g.clearRect(0, 0, 1920, 1080);
+  const cols = ['#2f80ed', '#eb3b3b', '#f7c31a', '#4caf50', '#ffffff', '#6650a4'];
+  for (const b of BURSTS) {
+    const dt = t - b.t0;
+    if (dt < 0 || dt > 2.4) continue;
+    const r = rng(Math.round(b.t0 * 100));
+    for (let i = 0; i < b.n; i++) {
+      const ang = -Math.PI / 2 + (r() - 0.5) * Math.PI * 1.3;
+      const sp = b.power * (0.35 + r() * 0.75);
+      const drag = 1 - Math.exp(-2.2 * dt);
+      const x = b.x + Math.cos(ang) * sp * drag / 2.2 + Math.sin(dt * 6 + i) * 18;
+      const y = b.y + Math.sin(ang) * sp * drag / 2.2 + 520 * dt * dt;
+      const w = 12 + r() * 12, h = 7 + r() * 8, spin = (r() - 0.5) * 14;
+      g.save();
+      g.globalAlpha = 1 - clamp((dt - 1.4) / 1.0);
+      g.translate(x, y); g.rotate(spin * dt + i);
+      g.scale(1, Math.cos(dt * (6 + r() * 6)));
+      g.fillStyle = cols[i % cols.length];
+      if (i % 4 === 0) { g.beginPath(); g.arc(0, 0, w / 2.4, 0, Math.PI * 2); g.fill(); }
+      else g.fillRect(-w / 2, -h / 2, w, h);
+      g.restore();
+    }
+  }
+}
+
+function render(t) {
+  const vis = (k) => t >= SCENES[k][0] && t < SCENES[k][1];
+  const map = { hook: ['s-hook', sceneHook], logo: ['s-logo', sceneLogo], play: ['s-play', scenePlay], feat: ['s-feat', sceneFeat], ex: ['s-ex', sceneEx], res: ['s-res', sceneRes], cta: ['s-cta', sceneCta] };
+  for (const k in map) {
+    const on = vis(k);
+    show($(map[k][0]), on);
+    if (on) map[k][1](t);
+  }
+  floaters(t);
+  transitions(t);
+  confetti(t);
+}
+
+// ---------------------------------------------------------------- driver
+window.DURATION = DURATION;
+window.renderAt = render;
+const params = new URLSearchParams(location.search);
+if (params.has('render')) {
+  document.documentElement.classList.add('render');
+  render(0);
+} else {
+  const fit = () => {
+    const s = Math.min(innerWidth / 1920, (innerHeight - 30) / 1080);
+    const st = $('stage');
+    st.style.transform = `scale(${s})`;
+    st.style.left = (innerWidth - 1920 * s) / 2 + 'px';
+    st.style.top = (innerHeight - 30 - 1080 * s) / 2 + 'px';
+  };
+  addEventListener('resize', fit); fit();
+  let t = +(params.get('t') || 0), paused = false, last = performance.now();
+  addEventListener('keydown', e => {
+    if (e.code === 'Space') paused = !paused;
+    if (e.code === 'ArrowRight') t = Math.min(DURATION, t + 1);
+    if (e.code === 'ArrowLeft') t = Math.max(0, t - 1);
+  });
+  $('ui').addEventListener('click', e => { t = (e.clientX / innerWidth) * DURATION; });
+  const loop = now => {
+    if (!paused) t += (now - last) / 1000;
+    last = now;
+    if (t > DURATION) t = 0;
+    render(t);
+    $('ui-bar').style.width = (t / DURATION) * 100 + '%';
+    $('ui-t').textContent = t.toFixed(1) + ' / ' + DURATION + 's';
+    requestAnimationFrame(loop);
+  };
+  document.fonts.ready.then(() => requestAnimationFrame(loop));
+}
+</script>
+</body>
+</html>

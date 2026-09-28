@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Der Die Das Covers</title>
+<link rel="stylesheet" href="brand.css">
+<!--
+  Static store / repo artwork. Open with ?c=<id> to get one cover at its native size
+  (that's what render.cjs screenshots); open without a query for a gallery of all of them.
+    feature  1024×500   Google Play feature graphic
+    social   1280×640   GitHub social preview
+    banner   1600×560   README header
+    shot1-4  1080×1920  Google Play phone screenshots
+-->
+<style>
+  html, body { margin: 0; }
+  body { font-family: var(--display); color: var(--ink); }
+  .cover { position: relative; overflow: hidden; }
+  .abs { position: absolute; }
+  .sky { background: linear-gradient(160deg, var(--sky-1) 0%, var(--sky-2) 70%); }
+  .night { background: radial-gradient(120% 120% at 30% 20%, #16305e 0%, var(--navy) 65%); color: #fff; }
+  .blob { position: absolute; border-radius: 50%; filter: blur(90px); opacity: 0.55; }
+  .deco { position: absolute; opacity: 0.22; filter: blur(1px); }
+  .logo { border-radius: 22%; box-shadow: 0 24px 50px -16px rgba(14, 34, 64, 0.5); }
+  .title { font-weight: 700; line-height: 1; letter-spacing: -0.01em; white-space: nowrap; }
+  .word { display: inline-block; position: relative; margin-right: 0.22em; }
+  .word:last-child { margin-right: 0; }
+  .word::after { content: ''; position: absolute; left: 4%; right: 4%; bottom: -0.06em; height: 0.12em; border-radius: 0.06em; background: var(--c); }
+  .tag { font-weight: 500; }
+  .chips { display: flex; gap: 12px; flex-wrap: wrap; }
+  .chips span { font-weight: 600; padding: 0.35em 0.8em; border-radius: 999px; background: rgba(255, 255, 255, 0.75); }
+  .night .chips span { background: rgba(255, 255, 255, 0.12); }
+  .kicker { display: inline-block; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; padding: 0.4em 0.9em; border-radius: 999px; }
+
+  /* Screens inside the phone mockup */
+  .res { position: absolute; inset: 54px 0 0 0; padding: 0 26px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+  .res h2 { font: 700 44px var(--ui); color: var(--m-primary); margin: 0 0 44px; }
+  .res .card { width: 100%; background: var(--m-sv); border-radius: 18px; padding: 26px 10px; box-sizing: border-box; box-shadow: 0 8px 18px rgba(0,0,0,.14); }
+  .res .big { font: 700 80px var(--ui); color: var(--ok); line-height: 1; }
+  .res .lbl { font-size: 21px; color: rgba(73, 69, 79, 0.75); margin-top: 6px; }
+  .res .grid { display: grid; grid-template-columns: 1fr 1fr; row-gap: 22px; margin-top: 30px; }
+  .res .grid b { display: block; font: 700 32px var(--ui); }
+  .res .btn { margin-top: 36px; width: 100%; height: 64px; border-radius: 32px; background: var(--m-primary); color: #fff; font: 500 22px var(--ui); display: grid; place-items: center; }
+  .ex { position: absolute; inset: 54px 0 0 0; padding: 10px 26px; display: flex; flex-direction: column; }
+  .ex .top { display: flex; align-items: center; gap: 14px; height: 48px; }
+  .ex .bar { flex: 1; height: 10px; border-radius: 5px; background: var(--m-sv); }
+  .ex .bar i { display: block; height: 100%; width: 22%; background: var(--m-primary); border-radius: 5px; }
+  .ex .cnt { font-size: 17px; color: var(--m-secondary); font-weight: 500; }
+  .ex .kick { margin-top: 22px; font-size: 16px; font-weight: 700; letter-spacing: 0.08em; color: var(--m-primary); text-transform: uppercase; }
+  .ex .title2 { font-size: 30px; font-weight: 700; margin-top: 8px; }
+  .ex .inst { font-size: 19px; color: var(--m-secondary); margin-top: 10px; }
+  .ex .list { margin-top: 26px; display: flex; flex-direction: column; gap: 16px; }
+  .gr { display: flex; align-items: center; font-size: 23px; }
+  .gr > span:first-child { width: 150px; }
+  .gap { width: 150px; height: 50px; border-radius: 10px; border: 2px solid var(--ok); background: #dbefdc; box-sizing: border-box; display: flex; align-items: center; padding: 0 14px; font-weight: 500; }
+  .gap.empty { border-color: #79747e; background: transparent; }
+  .gap.focus { border-color: var(--m-primary); }
+  .chk { margin-left: 14px; width: 34px; height: 34px; border-radius: 50%; background: var(--ok); display: grid; place-items: center; }
+  .ex .check { margin-top: auto; margin-bottom: 30px; height: 64px; border-radius: 32px; background: var(--m-primary); color: #fff; font: 500 23px var(--ui); display: grid; place-items: center; }
+
+  /* Gallery */
+  .gallery { background: #1b1d24; padding: 24px; display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start; }
+  .gallery figure { margin: 0; color: #ccc; font: 13px system-ui; }
+  .gallery .frame { overflow: hidden; border-radius: 8px; }
+</style>
+</head>
+<body>
+<script>
+const LOGO = '../app/src/main/play_store_512.png';
+const CHECK = `<svg width="20" height="20" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+
+// ---------------------------------------------------------------- phone screens
+const statusBar = `<div class="cam"></div><div class="sb"><span>9:41</span><span class="icons"><span class="sig"><i style="height:4px"></i><i style="height:7px"></i><i style="height:10px"></i><i style="height:13px"></i></span><span class="bat"><i></i></span></span></div>`;
+
+/** Flashcard screen after answering (mirrors FlashcardScreen.kt). */
+function flashcard({ n, time, c, w, noun, tr, art, pick }) {
+  const ok = art === pick;
+  const acc = c + w ? Math.floor((c / (c + w)) * 100) : 0;
+  const btn = a => {
+    let bg = 'rgba(102,80,164,.5)';
+    if (a === pick) bg = ok ? 'var(--ok)' : 'var(--bad)';
+    else if (a === art) bg = 'var(--ok)';
+    return `<div class="ab" style="background:${bg}">${a}</div>`;
+  };
+  return `${statusBar}<div class="fc">
+    <div class="back"><svg width="26" height="26" viewBox="0 0 24 24"><path d="M20 11H7.8l5.6-5.6L12 4l-8 8 8 8 1.4-1.4L7.8 13H20z" fill="#1c1b1f"/></svg></div>
+    <div class="row"><span class="n">Card ${n} of 10</span><span class="time"><svg width="20" height="22" viewBox="0 0 20 22"><circle cx="10" cy="13" r="8" fill="none" stroke="#625b71" stroke-width="2.4"/><path d="M10 13V8.5M7 1.5h6" stroke="#625b71" stroke-width="2.4" stroke-linecap="round"/></svg>${time}</span></div>
+    <div class="stats"><div><b style="color:var(--ok)">${c}</b><small>Correct</small></div><div><b style="color:var(--bad)">${w}</b><small>Wrong</small></div><div><b style="color:var(--m-primary)">${acc}%</b><small>Accuracy</small></div></div>
+    <div class="mid"><div class="cards"><div class="ncard" style="background:${ok ? '#dbefdc' : '#fdd9d7'}">
+      <div class="fb" style="color:${ok ? 'var(--ok)' : 'var(--bad)'}">${ok ? '✓ Correct!' : '✗ Wrong!'}</div>
+      <div class="noun">${noun}</div><div class="tr">${tr}</div><div class="full">${art.toLowerCase()} ${noun}</div>
+    </div></div><div class="btns">${['DER', 'DIE', 'DAS'].map(btn).join('')}</div></div>
+  </div>`;
+}
+
+function results() {
+  return `${statusBar}<div class="res"><h2>Game Complete!</h2><div class="card">
+    <div class="big">92%</div><div class="lbl">Accuracy</div>
+    <div class="grid">
+      <div><b style="color:var(--ok)">23</b><span class="lbl">Correct</span></div>
+      <div><b style="color:var(--bad)">2</b><span class="lbl">Wrong</span></div>
+      <div><b>2m 41s</b><span class="lbl">Time</span></div>
+      <div><b>9.3</b><span class="lbl">Per Min</span></div>
+    </div></div><div class="btn">Back to Home</div></div>`;
+}
+
+function exercise() {
+  const rows = [['1. ich:', 'bin'], ['2. du:', 'bist'], ['3. er/sie/es:', 'ist'], ['4. wir:', 'sind'], ['5. ihr:', ''], ['6. sie/Sie:', '']];
+  return `${statusBar}<div class="ex">
+    <div class="top"><svg width="24" height="24" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" stroke="#1c1b1f" stroke-width="2.4" stroke-linecap="round"/></svg><div class="bar"><i></i></div><span class="cnt">1 / 9</span></div>
+    <div class="kick">A1 · Block A</div><div class="title2">sein: conjugation table</div><div class="inst">Fill the table from memory.</div>
+    <div class="list">${rows.map(([l, a], i) => `<div class="gr"><span>${l}</span><span class="gap ${a ? '' : 'empty'} ${i === 4 ? 'focus' : ''}">${a}</span>${a ? `<span class="chk">${CHECK}</span>` : ''}</div>`).join('')}</div>
+    <div class="check">Check</div></div>`;
+}
+
+const phone = (screen, css) => `<div class="phone abs" style="${css}"><div class="screen">${screen}</div></div>`;
+const title = size => `<div class="title" style="font-size:${size}px"><span class="word" style="--c:var(--der)">Der</span><span class="word" style="--c:var(--die)">Die</span><span class="word" style="--c:var(--das)">Das</span></div>`;
+
+/** Faint background stickers, kept out of the `avoid` box [x0, y0, x1, y1] where the text sits. */
+function decor(seed, w, h, n, size, avoid = [0, 0, 0, 0]) {
+  let s = seed; const r = () => ((s = (s * 1664525 + 1013904223) >>> 0) / 4294967296);
+  const k = ['der', 'die', 'das'];
+  return Array.from({ length: n }, (_, i) => {
+    let x, y;
+    do { x = r() * w; y = r() * h; } while (x > avoid[0] - size * 2 && x < avoid[2] && y > avoid[1] - size && y < avoid[3]);
+    return `<span class="pill ${k[i % 3]} deco" style="left:${x}px;top:${y}px;font-size:${size * (0.6 + r() * 0.7)}px;transform:rotate(${(r() - 0.5) * 40}deg)">${k[i % 3]}</span>`;
+  }).join('');
+}
+
+// ---------------------------------------------------------------- covers
+const COVERS = {
+  feature: { w: 1024, h: 500, html: () => `
+    <div class="cover sky" style="width:1024px;height:500px">
+      ${decor(3, 1024, 500, 12, 30, [40, 60, 560, 440])}
+      <img class="abs logo" src="${LOGO}" style="left:64px;top:84px;width:128px;height:128px">
+      <div class="abs" style="left:64px;top:240px">${title(78)}</div>
+      <div class="abs tag" style="left:66px;top:345px;font-size:30px">Master German articles.<br><b style="color:var(--die)">The fun way.</b></div>
+      ${phone(flashcard({ n: 1, time: '00:02', c: 1, w: 0, noun: 'Hund', tr: 'dog', art: 'DER', pick: 'DER' }), 'left:640px;top:60px;transform:scale(.62) rotate(-8deg);transform-origin:0 0')}
+      <span class="pill das abs" style="left:880px;top:396px;font-size:44px;transform:rotate(10deg)">das</span>
+      <span class="pill die abs" style="left:560px;top:250px;font-size:38px;transform:rotate(-12deg)">die</span>
+    </div>` },
+
+  social: { w: 1280, h: 640, html: () => `
+    <div class="cover night" style="width:1280px;height:640px">
+      <div class="blob" style="left:-120px;top:-160px;width:520px;height:520px;background:var(--der)"></div>
+      <div class="blob" style="left:900px;top:-200px;width:520px;height:520px;background:var(--die)"></div>
+      <div class="blob" style="left:520px;top:420px;width:560px;height:520px;background:var(--das);opacity:.35"></div>
+      <img class="abs logo" src="${LOGO}" style="left:80px;top:80px;width:140px;height:140px">
+      <div class="abs" style="left:80px;top:270px">${title(96)}</div>
+      <div class="abs tag" style="left:82px;top:398px;font-size:34px;color:rgba(255,255,255,.85)">Learn German articles &amp; grammar — the fun way.</div>
+      <div class="abs chips" style="left:80px;top:480px;font-size:22px"><span>Android</span><span>Kotlin</span><span>Jetpack Compose</span><span>A1 → C2</span></div>
+      ${phone(flashcard({ n: 2, time: '00:05', c: 1, w: 1, noun: 'Mädchen', tr: 'girl', art: 'DAS', pick: 'DIE' }), 'left:880px;top:70px;transform:scale(.66) rotate(7deg);transform-origin:0 0')}
+    </div>` },
+
+  banner: { w: 1600, h: 560, html: () => `
+    <div class="cover sky" style="width:1600px;height:560px">
+      ${decor(11, 1600, 560, 18, 38, [440, 30, 1180, 470])}
+      <span class="pill der abs" style="left:150px;top:120px;font-size:84px;transform:rotate(-10deg)">der</span>
+      <span class="pill die abs" style="left:1270px;top:90px;font-size:84px;transform:rotate(9deg)">die</span>
+      <span class="pill das abs" style="left:1220px;top:360px;font-size:84px;transform:rotate(-6deg)">das</span>
+      <img class="abs logo" src="${LOGO}" style="left:720px;top:48px;width:160px;height:160px">
+      <div class="abs" style="left:0;right:0;top:250px;display:flex;justify-content:center">${title(116)}</div>
+      <div class="abs tag" style="left:0;right:0;top:400px;text-align:center;font-size:40px">Master German articles. <b style="color:var(--die)">The fun way.</b></div>
+    </div>` },
+
+  shot1: { w: 1080, h: 1920, html: () => shot({
+    bg: 'sky', kicker: ['Flashcards', 'var(--m-primary)', '#fff'],
+    head: 'Tap the<br><span style="color:var(--der)">article.</span>', sub: 'Der, die or das? You call it.',
+    screen: flashcard({ n: 1, time: '00:02', c: 1, w: 0, noun: 'Hund', tr: 'dog', art: 'DER', pick: 'DER' }), seed: 1 }) },
+  shot2: { w: 1080, h: 1920, html: () => shot({
+    bg: 'night', kicker: ['Instant feedback', 'var(--die)', '#fff'],
+    head: 'Oops?<br><span style="color:var(--das)">Learn it.</span>', sub: 'Miss one and the right article shows up instantly.',
+    screen: flashcard({ n: 2, time: '00:05', c: 1, w: 1, noun: 'Mädchen', tr: 'girl', art: 'DAS', pick: 'DIE' }), seed: 2 }) },
+  shot3: { w: 1080, h: 1920, html: () => shot({
+    bg: 'purple', kicker: ['Your progress', '#fff', 'var(--m-primary)'],
+    head: 'Watch your<br><span style="color:#7bd88f">score climb.</span>', sub: '1,086 nouns from A1 to C2, every session saved.',
+    screen: results(), seed: 3 }) },
+  shot4: { w: 1080, h: 1920, html: () => shot({
+    bg: 'yellow', kicker: ['Exercises', 'var(--ink)', '#fff'],
+    head: 'Beyond<br>der, die, das.', sub: 'Grammar practice from A1 to C1.',
+    screen: exercise(), seed: 4 }) },
+};
+
+function shot({ bg, kicker, head, sub, screen, seed }) {
+  const bgs = {
+    sky: 'background:linear-gradient(170deg,var(--sky-1),var(--sky-2))',
+    night: 'background:radial-gradient(120% 90% at 30% 10%,#16305e 0%,var(--navy) 70%);color:#fff',
+    purple: 'background:radial-gradient(120% 90% at 50% 10%,#7d66c2 0%,var(--m-primary) 45%,#2a1b5c 100%);color:#fff',
+    yellow: 'background:radial-gradient(120% 90% at 30% 10%,#ffe68a 0%,var(--das) 55%,#eaa900 100%)',
+  };
+  return `<div class="cover" style="width:1080px;height:1920px;${bgs[bg]}">
+    ${bg === 'sky' ? decor(seed * 13, 1080, 1920, 16, 44, [60, 80, 1020, 680]) : ''}
+    <div class="abs" style="left:90px;right:90px;top:120px">
+      <span class="kicker" style="font-size:30px;background:${kicker[1]};color:${kicker[2]}">${kicker[0]}</span>
+      <div class="title" style="font-size:124px;margin-top:36px;white-space:normal;line-height:1.02">${head}</div>
+      <div class="tag" style="font-size:42px;margin-top:28px;opacity:.8;line-height:1.3">${sub}</div>
+    </div>
+    ${phone(screen, 'left:199px;top:700px;transform:scale(1.55);transform-origin:0 0')}
+  </div>`;
+}
+
+// ---------------------------------------------------------------- mount
+const id = new URLSearchParams(location.search).get('c');
+if (id && COVERS[id]) {
+  document.body.innerHTML = COVERS[id].html();
+} else {
+  document.body.className = 'gallery';
+  document.body.innerHTML = Object.entries(COVERS).map(([k, c]) => {
+    const s = Math.min(1, 520 / c.w, 560 / c.h);
+    return `<figure><div class="frame" style="width:${c.w * s}px;height:${c.h * s}px"><div style="transform:scale(${s});transform-origin:0 0">${c.html()}</div></div><figcaption>${k} · ${c.w}×${c.h}</figcaption></figure>`;
+  }).join('');
+}
+</script>
+</body>
+</html>

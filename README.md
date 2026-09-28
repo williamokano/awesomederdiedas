@@ -1,8 +1,8 @@
-# Awesome Der Die Das - Reinventing learning
-
 <p align="center">
-  <img src="app/src/main/play_store_512.png" alt="Der Die Das Logo" width="200"/>
+  <img src="marketing/export/readme-banner.png" alt="Der Die Das — Master German articles. The fun way." width="100%"/>
 </p>
+
+# Awesome Der Die Das - Reinventing learning
 
 A modern Android flashcard app designed to help learners master German grammatical articles (der, die, das) through interactive gameplay and gamification.
 
@@ -53,7 +53,14 @@ A modern Android flashcard app designed to help learners master German grammatic
 
 ## 📱 Screenshots
 
-[Coming soon]
+<p align="center">
+  <img src="marketing/export/play-screenshot-1.png" alt="Tap the article" width="24%"/>
+  <img src="marketing/export/play-screenshot-2.png" alt="Learn from mistakes" width="24%"/>
+  <img src="marketing/export/play-screenshot-3.png" alt="Track your score" width="24%"/>
+  <img src="marketing/export/play-screenshot-4.png" alt="Grammar exercises" width="24%"/>
+</p>
+
+A 30-second promo video, the store listing graphics, and the scripts that render them are in [`marketing/`](marketing/README.md).
 
 ## 🏗️ Project Structure
 
