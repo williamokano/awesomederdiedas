@@ -2,13 +2,14 @@
 /*
  * Renders the marketing pages to files with headless Chromium (Playwright) + ffmpeg.
  *
- *   node marketing/render.cjs video            -> marketing/export/der-die-das-promo.mp4
- *   node marketing/render.cjs covers           -> marketing/export/*.png
- *   node marketing/render.cjs stills 2.8 9.5   -> marketing/export/frame-<t>.png (preview frames, gitignored)
- *   node marketing/render.cjs mux              -> swaps export/soundtrack.wav onto the existing MP4
+ *   node marketing/render.cjs video                  -> export/der-die-das-promo.mp4   (fun cut)
+ *   node marketing/render.cjs keynote                -> export/der-die-das-keynote.mp4 (keynote cut)
+ *   node marketing/render.cjs covers                 -> export/*.png
+ *   node marketing/render.cjs stills [keynote] 2.8 9 -> export/frame-<t>.png (preview frames, gitignored)
+ *   node marketing/render.cjs mux [keynote]          -> swap a fresh soundtrack onto an existing MP4
  *
- * The soundtrack comes from soundtrack.py (python3 marketing/soundtrack.py); without it the
- * video gets a silent track.
+ * Soundtracks come from soundtrack.py / soundtrack_keynote.py; without one the video gets a
+ * silent track.
  *
  * Options: --fps 30   FFMPEG=/path/to/ffmpeg (defaults to `ffmpeg` on PATH)
  * Needs the `playwright` package (npm i -g playwright, then NODE_PATH="$(npm root -g)").
@@ -21,6 +22,11 @@ const path = require('path');
 const ROOT = __dirname;
 const OUT = path.join(ROOT, 'export');
 const url = (file, q = '') => 'file://' + path.join(ROOT, file) + q;
+
+const CUTS = {
+  video: { page: 'promo-video.html', out: 'der-die-das-promo.mp4', audio: 'soundtrack.wav', script: 'soundtrack.py' },
+  keynote: { page: 'promo-keynote.html', out: 'der-die-das-keynote.mp4', audio: 'soundtrack-keynote.wav', script: 'soundtrack_keynote.py' },
+};
 
 const COVERS = [
   // id,                 width, height, output file
@@ -43,15 +49,15 @@ async function openPage(browser, width, height, target) {
   return page;
 }
 
-async function video(browser, fps) {
-  const page = await openPage(browser, 1920, 1080, url('promo-video.html', '?render'));
+async function video(browser, fps, cut) {
+  const page = await openPage(browser, 1920, 1080, url(cut.page, '?render'));
   const duration = await page.evaluate(() => window.DURATION);
   const frames = Math.round(duration * fps);
-  const file = path.join(OUT, 'der-die-das-promo.mp4');
+  const file = path.join(OUT, cut.out);
   const ff = spawn(process.env.FFMPEG || 'ffmpeg', [
     '-y', '-loglevel', 'error',
     '-f', 'image2pipe', '-framerate', String(fps), '-i', '-',
-    ...audioInput(),
+    ...audioInput(cut),
     '-shortest', '-c:v', 'libx264', '-preset', 'slow', '-crf', '17', '-pix_fmt', 'yuv420p',
     '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', file,
   ], { stdio: ['pipe', 'inherit', 'inherit'] });
@@ -67,22 +73,21 @@ async function video(browser, fps) {
   console.log(`\n-> ${path.relative(process.cwd(), file)}`);
 }
 
-const SOUNDTRACK = path.join(OUT, 'soundtrack.wav');
-
 /** ffmpeg input args for the audio: the generated soundtrack, or silence if it's missing. */
-function audioInput() {
-  if (fs.existsSync(SOUNDTRACK)) return ['-i', SOUNDTRACK];
-  console.warn('No export/soundtrack.wav (run python3 marketing/soundtrack.py); using silence.');
+function audioInput(cut) {
+  const wav = path.join(OUT, cut.audio);
+  if (fs.existsSync(wav)) return ['-i', wav];
+  console.warn(`No export/${cut.audio} (run python3 marketing/${cut.script}); using silence.`);
   return ['-f', 'lavfi', '-i', 'anullsrc=channel_layout=stereo:sample_rate=48000'];
 }
 
 /** Replace the audio of the rendered MP4 without re-encoding the picture. */
-function mux() {
-  const file = path.join(OUT, 'der-die-das-promo.mp4');
+function mux(cut) {
+  const file = path.join(OUT, cut.out);
   const tmp = file.replace(/\.mp4$/, '.tmp.mp4');
   return new Promise((res, rej) => {
     const ff = spawn(process.env.FFMPEG || 'ffmpeg', [
-      '-y', '-loglevel', 'error', '-i', file, ...audioInput(),
+      '-y', '-loglevel', 'error', '-i', file, ...audioInput(cut),
       '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k',
       '-shortest', '-movflags', '+faststart', tmp,
     ], { stdio: 'inherit' });
@@ -95,8 +100,8 @@ function mux() {
   });
 }
 
-async function stills(browser, times) {
-  const page = await openPage(browser, 1920, 1080, url('promo-video.html', '?render'));
+async function stills(browser, times, cut) {
+  const page = await openPage(browser, 1920, 1080, url(cut.page, '?render'));
   for (const t of times) {
     await page.evaluate(x => window.renderAt(x), +t);
     const file = path.join(OUT, `frame-${t}.png`);
@@ -122,12 +127,14 @@ async function covers(browser, only) {
   const fps = fpsIdx >= 0 ? +args.splice(fpsIdx, 2)[1] : 30;
   const [mode = 'all', ...rest] = args;
   fs.mkdirSync(OUT, { recursive: true });
-  if (mode === 'mux') return mux();
+  const cutName = CUTS[rest[0]] ? rest.shift() : 'video';
+  if (mode === 'mux') return mux(CUTS[cutName]);
   const browser = await chromium.launch();
   try {
     if (mode === 'covers' || mode === 'all') await covers(browser, rest);
-    if (mode === 'stills') await stills(browser, rest);
-    if (mode === 'video' || mode === 'all') await video(browser, fps);
+    if (mode === 'stills') await stills(browser, rest, CUTS[cutName]);
+    if (mode === 'video' || mode === 'all') await video(browser, fps, CUTS.video);
+    if (mode === 'keynote' || mode === 'all') await video(browser, fps, CUTS.keynote);
   } finally {
     await browser.close();
   }

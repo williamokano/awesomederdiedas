@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Der Die Das Keynote</title>
+<link rel="stylesheet" href="brand.css">
+<!--
+  Der Die Das — "keynote cut" promo (1920×1080, 28.5 s).
+
+  A calmer, product-launch style companion to promo-video.html: dark stage, one idea per
+  beat, live UI cards, and a HUD (timecode, chapter, segmented progress). All figures are
+  the app's real data (LocalNounRepository.kt, assets/exercises/index.json).
+
+  Same contract as promo-video.html: render(t) is pure, so render.cjs can step it.
+  Preview keys: space = pause, ←/→ = seek 1 s, click the bar to scrub.
+-->
+<style>
+  :root { --bg: #07090f; --card: #121622; --line: #232a3a; --mute: #6b7486; --ghost: #4a5163; }
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+  #stage { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; overflow: hidden; transform-origin: 0 0; background: var(--bg); color: #fff; font-family: var(--display); }
+  .x { position: absolute; will-change: transform, opacity, filter; }
+  .hl { font-weight: 600; line-height: 1.02; letter-spacing: -0.02em; white-space: nowrap; }
+  .ghost { color: var(--ghost); }
+  .outline { color: transparent; -webkit-text-stroke: 2.5px #fff; }
+  .small { font: 500 26px/1.4 var(--display); color: var(--mute); }
+
+  /* HUD */
+  .hud { position: absolute; font: 500 17px var(--ui); color: #4d5566; letter-spacing: 0.08em; text-transform: uppercase; font-variant-numeric: tabular-nums; }
+  #segs { display: flex; gap: 6px; }
+  #segs i { position: relative; width: 30px; height: 3px; background: #1f2533; border-radius: 2px; overflow: hidden; }
+  #segs i b { position: absolute; inset: 0; background: #fff; transform-origin: left; transform: scaleX(0); }
+
+  /* Glow + dot */
+  .glow { position: absolute; width: 900px; height: 900px; border-radius: 50%; filter: blur(140px); opacity: 0; }
+  #dot { left: 960px; top: 540px; width: 10px; height: 10px; margin: -5px; border-radius: 50%; background: #fff; }
+  #ring { left: 960px; top: 540px; width: 120px; height: 120px; margin: -60px; border-radius: 50%; border: 1.5px solid #fff; box-sizing: border-box; }
+
+  /* Cards */
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 28px; box-shadow: 0 40px 80px -30px rgba(0,0,0,.8); box-sizing: border-box; padding: 34px 38px; font-family: var(--ui); }
+  .card .meta { display: flex; justify-content: space-between; font-size: 18px; color: var(--mute); }
+  .card .live { font-size: 15px; padding: 5px 12px; border-radius: 999px; border: 1px solid var(--line); color: #9aa3b5; display: inline-flex; align-items: center; gap: 8px; }
+  .card .live::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: #7bd88f; }
+  .big { font: 700 84px/1 var(--ui); letter-spacing: -0.02em; margin-top: 18px; font-variant-numeric: tabular-nums; }
+  .sub { font-size: 20px; color: var(--mute); margin-top: 8px; }
+  .chips { display: flex; gap: 14px; margin-top: 30px; }
+  .chip { flex: 1; height: 74px; border-radius: 16px; border: 1.5px solid var(--line); display: grid; place-items: center; font: 700 26px var(--ui); color: #cfd5e0; }
+  .fbk { font: 700 22px var(--ui); color: #7bd88f; height: 28px; margin-top: 18px; }
+  .rows { margin-top: 26px; border-top: 1px solid var(--line); }
+  .rows div { display: flex; justify-content: space-between; padding: 14px 0; border-bottom: 1px solid var(--line); font-size: 19px; color: #aeb6c5; }
+  .rows b { color: #fff; font-weight: 500; font-variant-numeric: tabular-nums; }
+  .bars { display: flex; align-items: flex-end; gap: 22px; height: 250px; margin-top: 26px; padding-bottom: 34px; position: relative; border-bottom: 1px solid var(--line); }
+  .bar { flex: 1; display: flex; flex-direction: column-reverse; position: relative; height: 100%; }
+  .bar i { display: block; border-radius: 4px; margin-top: 3px; }
+  .bar span { position: absolute; bottom: -32px; left: 0; right: 0; text-align: center; font-size: 17px; color: var(--mute); }
+  .legend { display: flex; gap: 22px; margin-top: 26px; font-size: 18px; color: #aeb6c5; }
+  .legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 8px; }
+
+  /* Flip + exercise types */
+  #flip { left: 960px; top: 540px; width: 200px; height: 200px; margin: -100px; border-radius: 50%; background: var(--das); }
+  .tchip { font: 600 30px var(--display); color: var(--ink); padding: 14px 26px; border-radius: 999px; background: rgba(255,255,255,.7); white-space: nowrap; }
+
+  /* Split flap */
+  #flap { display: flex; gap: 12px; }
+  .cell { position: relative; width: 150px; height: 200px; border-radius: 18px; background: #151a26; border: 1px solid var(--line); display: grid; place-items: center; font: 700 140px var(--ui); overflow: hidden; }
+  .cell::after { content: ''; position: absolute; left: 0; right: 0; top: 50%; height: 2px; background: var(--bg); }
+  .tile { width: 300px; height: 130px; border-radius: 22px; background: var(--card); border: 1px solid var(--line); display: flex; flex-direction: column; justify-content: center; padding: 0 28px; box-sizing: border-box; font-family: var(--ui); }
+  .tile b { font-size: 46px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .tile span { font-size: 18px; color: var(--mute); margin-top: 4px; }
+
+  #ui { position: fixed; left: 0; right: 0; bottom: 0; height: 30px; background: rgba(0,0,0,.6); cursor: pointer; font: 12px system-ui; color: #fff; }
+  #ui i { position: absolute; left: 0; top: 0; bottom: 0; background: #2f80ed; }
+  #ui span { position: absolute; right: 10px; top: 7px; }
+  .render #ui { display: none; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div class="glow" id="g1" style="left:260px;top:90px;background:var(--der)"></div>
+  <div class="glow" id="g2" style="left:760px;top:-120px;background:var(--die)"></div>
+  <div class="glow" id="g3" style="left:1000px;top:300px;background:var(--das)"></div>
+
+  <!-- 01 hook -->
+  <div class="x" id="dot"></div>
+  <div class="x" id="ring"></div>
+  <div class="x hl" id="h1" style="left:0;right:0;top:400px;text-align:center;font-size:150px">
+    <span class="w" style="color:#fff">Der.</span> <span class="w">Die.</span> <span class="w">Das.</span>
+  </div>
+  <div class="x hl ghost" id="h2" style="left:0;right:0;top:590px;text-align:center;font-size:56px;font-weight:500">Every German noun takes one of them.</div>
+
+  <!-- 02 Mädchen -->
+  <div class="x hl" id="m1" style="left:150px;top:400px;font-size:112px">Mädchen?</div>
+  <div class="x hl ghost" id="m2" style="left:150px;top:524px;font-size:112px">Neuter. Obviously.</div>
+  <div class="x card" id="mc" style="left:1250px;top:300px;width:540px">
+    <div class="meta"><span>A1 · Flashcards</span><span class="live">Live</span></div>
+    <div class="big">Mädchen</div><div class="sub">the girl</div>
+    <div class="chips"><div class="chip" id="mc-der">DER</div><div class="chip" id="mc-die">DIE</div><div class="chip" id="mc-das">DAS</div></div>
+    <div class="fbk" id="mc-fb">✓ das Mädchen</div>
+  </div>
+
+  <!-- 03 lockup -->
+  <div class="x" id="lock" style="left:0;right:0;top:420px;display:flex;justify-content:center;align-items:center;gap:36px">
+    <img src="../app/src/main/play_store_512.png" style="width:130px;height:130px;border-radius:30px" alt="">
+    <div class="hl" style="font-size:112px">Der Die Das</div>
+  </div>
+  <div class="x small" id="lock2" style="left:0;right:0;top:600px;text-align:center;font-size:34px">Learn German articles. The fun way.</div>
+
+  <!-- 04–06 feature beats -->
+  <div class="x small" id="d0" style="left:170px;top:300px;width:620px">Pick der, die or das.<br>Instant feedback on every card.</div>
+  <div class="x hl" id="w0" style="left:160px;top:640px;font-size:190px">Tap.</div>
+  <div class="x card" id="c0" style="left:1080px;top:250px;width:660px">
+    <div class="meta"><span>Card <b id="c0-n" style="color:#fff;font-weight:500">7</b> of 10</span><span class="live">Correct <b id="c0-c" style="color:#fff">6</b></span></div>
+    <div class="big" id="c0-noun">Hund</div><div class="sub" id="c0-tr">dog</div>
+    <div class="chips"><div class="chip" id="c0-DER">DER</div><div class="chip" id="c0-DIE">DIE</div><div class="chip" id="c0-DAS">DAS</div></div>
+    <div class="fbk" id="c0-fb"></div>
+  </div>
+
+  <div class="x small" id="d1" style="left:170px;top:300px;width:620px">1,086 nouns, each with its article,<br>across every CEFR level.</div>
+  <div class="x hl" id="w1" style="left:160px;top:640px;font-size:190px">Learn.</div>
+  <div class="x card" id="c1" style="left:1080px;top:220px;width:660px">
+    <div class="meta"><span>Nouns by level</span><span class="live">In the app</span></div>
+    <div class="big" id="c1-n">0</div><div class="sub">German nouns</div>
+    <div class="bars" id="c1-bars"></div>
+    <div class="legend"><span><i style="background:var(--der)"></i>362 der</span><span><i style="background:var(--die)"></i>363 die</span><span><i style="background:var(--das)"></i>361 das</span></div>
+  </div>
+
+  <div class="x small" id="d2" style="left:170px;top:300px;width:620px">Accuracy, speed and a history<br>of every session you play.</div>
+  <div class="x hl" id="w2" style="left:160px;top:640px;font-size:190px">Master.</div>
+  <div class="x card" id="c2" style="left:1080px;top:230px;width:660px">
+    <div class="meta"><span>Accuracy · last 10 games</span><span class="live">History</span></div>
+    <div class="big" id="c2-n">58%</div><div class="sub">latest session</div>
+    <svg width="584" height="200" viewBox="0 0 584 200" style="margin-top:22px;display:block">
+      <defs><linearGradient id="fillg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#7bd88f" stop-opacity=".35"/><stop offset="1" stop-color="#7bd88f" stop-opacity="0"/></linearGradient>
+      <clipPath id="clip"><rect id="c2-clip" x="0" y="0" width="0" height="200"/></clipPath></defs>
+      <g stroke="#232a3a" stroke-width="1"><line x1="0" x2="584" y1="40" y2="40"/><line x1="0" x2="584" y1="100" y2="100"/><line x1="0" x2="584" y1="160" y2="160"/></g>
+      <g clip-path="url(#clip)"><path id="c2-area" fill="url(#fillg)"/><path id="c2-line" fill="none" stroke="#7bd88f" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/></g>
+      <circle id="c2-dot" r="8" fill="#7bd88f"/>
+    </svg>
+    <div class="rows"><div>Cards per minute<b id="c2-cpm">6.1</b></div><div>Sessions played<b>10</b></div></div>
+  </div>
+
+  <!-- 07 flip -->
+  <div class="x" id="flip"></div>
+  <div class="x hl" id="b1" style="left:0;right:0;top:300px;text-align:center;font-size:140px;color:var(--ink)">Beyond articles.</div>
+  <div class="x" id="b2" style="left:0;right:0;top:470px;text-align:center;font-size:40px;font-weight:500;color:rgba(14,34,64,.75)">3,243 grammar exercises in 226 sets, from A1 to C1.</div>
+  <div id="types"></div>
+
+  <!-- 08 numbers -->
+  <div class="x" id="flap" style="left:0;right:0;top:300px;justify-content:center"></div>
+  <div class="x small" id="flapl" style="left:0;right:0;top:530px;text-align:center;font-size:32px">nouns, and every one of them knows its article</div>
+  <div id="tiles"></div>
+
+  <!-- 09 outro -->
+  <div class="x hl" id="y1" style="left:0;right:0;top:360px;text-align:center;font-size:150px">Your German.</div>
+  <div class="x hl outline" id="y2" style="left:0;right:0;top:530px;text-align:center;font-size:150px">Sorted.</div>
+  <div class="x" id="end" style="left:0;right:0;top:400px;display:flex;justify-content:center;align-items:center;gap:36px">
+    <img src="../app/src/main/play_store_512.png" style="width:130px;height:130px;border-radius:30px" alt="">
+    <div class="hl" style="font-size:112px">Der Die Das</div>
+  </div>
+  <div class="x" id="end2" style="left:0;right:0;top:590px;text-align:center"><span style="display:inline-block;font:600 34px var(--display);padding:18px 38px;border-radius:999px;background:#fff;color:var(--bg)">Now on Google Play</span></div>
+
+  <!-- HUD -->
+  <div class="hud" style="left:56px;top:44px">Der Die Das · Android</div>
+  <div class="hud" id="tc" style="right:56px;top:44px">00:00:00:00</div>
+  <div class="hud" id="chap" style="left:56px;bottom:44px">01 — The problem</div>
+  <div class="hud" style="right:56px;bottom:48px"><div id="segs"></div></div>
+</div>
+<div id="ui"><i id="ui-bar"></i><span id="ui-t"></span></div>
+
+<script>
+const DURATION = 28.5;
+const $ = id => document.getElementById(id);
+const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
+const P = (t, s, d) => clamp((t - s) / d);
+const lerp = (a, b, p) => a + (b - a) * p;
+const outExpo = x => (x === 1 ? 1 : 1 - Math.pow(2, -10 * x));
+const inOut = x => (x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2);
+const outBack = x => { const c = 1.4; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
+
+const CHAPTERS = [
+  [0, 'The problem'], [3.3, 'The catch'], [6.9, 'Meet'], [9.0, 'Tap'], [12.3, 'Learn'],
+  [15.6, 'Master'], [18.9, 'Beyond'], [21.8, 'By the numbers'], [24.9, 'Yours'],
+];
+const TYPES = ['Gap text', 'Word bank', 'Matching', 'Categorize', 'Word order', 'Multiple choice', 'Table fill', 'True / false', 'Odd one out'];
+// der / die / das counts per level, from LocalNounRepository.kt
+const LEVELS = [['A1', 60, 61, 60], ['A2', 61, 61, 61], ['B1', 61, 60, 60], ['B2', 60, 61, 60], ['C1', 60, 60, 60], ['C2', 60, 60, 60]];
+const ACC = [58, 63, 61, 70, 74, 72, 81, 85, 88, 92];
+const TAPS = [
+  { t0: 9.0, noun: 'Hund', tr: 'dog', art: 'DER', tap: 10.2, n: 7 },
+  { t0: 11.0, noun: 'Brücke', tr: 'bridge', art: 'DIE', tap: 11.55, n: 8 },
+];
+
+/** Keynote-style reveal: fade + de-blur + rise in at `a`, fade + blur out at `b`. */
+function reveal(el, t, a, b, { dy = 24, dur = 0.7, outDur = 0.35 } = {}) {
+  const pin = outExpo(P(t, a, dur)), pout = P(t, b, outDur);
+  const o = pin * (1 - pout);
+  el.style.visibility = o <= 0.001 ? 'hidden' : 'visible';
+  el.style.opacity = o;
+  el.style.filter = `blur(${(1 - pin) * 14 + pout * 10}px)`;
+  el.style.transform = `translateY(${(1 - pin) * dy - pout * 12}px)`;
+  return pin;
+}
+
+(function build() {
+  const segs = $('segs');
+  CHAPTERS.forEach(() => { const i = document.createElement('i'); i.innerHTML = '<b></b>'; segs.appendChild(i); });
+  const bars = $('c1-bars');
+  LEVELS.forEach(([lvl, a, b, c], i) => {
+    const d = document.createElement('div'); d.className = 'bar';
+    d.innerHTML = `<i style="background:var(--der)"></i><i style="background:var(--die)"></i><i style="background:var(--das)"></i><span>${lvl}</span>`;
+    bars.appendChild(d);
+  });
+  const types = $('types');
+  TYPES.forEach((txt, i) => {
+    const row = i < 5 ? 0 : 1, col = row ? i - 5 : i, n = row ? 4 : 5;
+    const d = document.createElement('div'); d.className = 'x tchip'; d.id = 'ty' + i; d.textContent = txt;
+    d.style.left = 960 + (col - (n - 1) / 2) * 290 + 'px'; d.style.top = 620 + row * 100 + 'px';
+    d.style.marginLeft = '-140px'; d.style.width = '280px'; d.style.boxSizing = 'border-box'; d.style.textAlign = 'center';
+    types.appendChild(d);
+  });
+  const flap = $('flap');
+  for (let i = 0; i < 5; i++) { const c = document.createElement('div'); c.className = 'cell'; c.id = 'fl' + i; flap.appendChild(c); }
+  [['6', 'CEFR levels'], ['226', 'exercise sets'], ['3,243', 'exercises'], ['2', 'languages · EN / PT']].forEach(([b, s], i) => {
+    const d = document.createElement('div'); d.className = 'x tile'; d.id = 'ti' + i;
+    d.style.left = 960 + (i - 1.5) * 330 - 150 + 'px'; d.style.top = '650px';
+    d.innerHTML = `<b>${b}</b><span>${s}</span>`;
+    $('tiles').appendChild(d);
+  });
+  // accuracy chart path
+  const pts = ACC.map((v, i) => [i * (584 / 9), 200 - ((v - 50) / 50) * 190]);
+  const d = 'M' + pts.map(p => p.join(',')).join(' L');
+  $('c2-line').setAttribute('d', d);
+  $('c2-area').setAttribute('d', d + ' L584,200 L0,200 Z');
+})();
+
+function hud(t) {
+  const f = Math.floor(t * 30);
+  const pad = n => String(n).padStart(2, '0');
+  $('tc').textContent = `00:00:${pad(Math.floor(t))}:${pad(f % 30)}`;
+  let ci = 0;
+  CHAPTERS.forEach(([s], i) => { if (t >= s) ci = i; });
+  $('chap').textContent = `${pad(ci + 1)} — ${CHAPTERS[ci][1]}`;
+  [...$('segs').children].forEach((seg, i) => {
+    const s = CHAPTERS[i][0], e = CHAPTERS[i + 1] ? CHAPTERS[i + 1][0] : DURATION;
+    seg.firstChild.style.transform = `scaleX(${clamp((t - s) / (e - s))})`;
+  });
+}
+
+function render(t) {
+  hud(t);
+
+  // ambient glows: faint during the dark beats, brighter for the lockups
+  const glow = 0.08 + 0.14 * (P(t, 6.9, 0.6) * (1 - P(t, 8.7, 0.4))) + 0.16 * P(t, 26.6, 0.8);
+  ['g1', 'g2', 'g3'].forEach((id, i) => {
+    const g = $(id);
+    g.style.opacity = t < 0.8 ? 0 : glow * P(t, 0.8, 1.5);
+    g.style.transform = `translate(${Math.sin(t * 0.4 + i * 2) * 80}px,${Math.cos(t * 0.3 + i) * 60}px)`;
+  });
+
+  // 01: dot pulse, then Der. Die. Das.
+  $('dot').style.opacity = 1 - P(t, 0.55, 0.2);
+  $('dot').style.transform = `scale(${1 + 0.3 * Math.sin(t * 10)})`;
+  const rp = P(t, 0.05, 0.6);
+  $('ring').style.opacity = (1 - rp) * 0.7 * (t < 0.65 ? 1 : 0);
+  $('ring').style.transform = `scale(${0.2 + rp * 1.6})`;
+  reveal($('h1'), t, 0.55, 3.0, { dur: 0.01 });
+  [...$('h1').querySelectorAll('.w')].forEach((w, i) => {
+    const p = outExpo(P(t, 0.55 + i * 0.32, 0.6));
+    w.style.display = 'inline-block';
+    w.style.opacity = p;
+    w.style.filter = `blur(${(1 - p) * 14}px)`;
+    w.style.transform = `translateY(${(1 - p) * 30}px)`;
+    const col = ['var(--der)', 'var(--die)', 'var(--das)'][i];
+    w.style.color = t > 1.9 ? col : '#fff';
+  });
+  reveal($('h2'), t, 1.8, 3.0);
+
+  // 02: Mädchen? / Neuter. + card choosing DAS
+  reveal($('m1'), t, 3.45, 6.5);
+  reveal($('m2'), t, 4.9, 6.5);
+  reveal($('mc'), t, 3.7, 6.5, { dy: 40 });
+  const hov = t > 4.2 && t < 4.75 ? 'mc-die' : null, picked = t >= 4.85;
+  ['mc-der', 'mc-die', 'mc-das'].forEach(id => {
+    const c = $(id), isDas = id === 'mc-das';
+    c.style.borderColor = picked && isDas ? '#7bd88f' : id === hov ? '#6b7486' : 'var(--line)';
+    c.style.background = picked && isDas ? 'rgba(123,216,143,.12)' : 'transparent';
+    c.style.color = picked && isDas ? '#7bd88f' : '#cfd5e0';
+    const bump = isDas ? 1 - 0.05 * Math.sin(P(t, 4.75, 0.2) * Math.PI) : 1;
+    c.style.transform = `scale(${bump})`;
+  });
+  const fp = P(t, 4.9, 0.3);
+  $('mc-fb').style.opacity = fp; $('mc-fb').style.transform = `translateY(${(1 - fp) * 10}px)`;
+
+  // 03: lockup
+  reveal($('lock'), t, 7.05, 8.7);
+  reveal($('lock2'), t, 7.45, 8.7);
+
+  // 04: Tap.
+  reveal($('d0'), t, 9.1, 12.0); reveal($('w0'), t, 9.25, 12.0, { dy: 40 }); reveal($('c0'), t, 9.35, 12.0, { dy: 40 });
+  const cur = t >= TAPS[1].t0 + 0.5 ? TAPS[1] : TAPS[0];
+  const swap = P(t, TAPS[1].t0 + 0.35, 0.3);
+  $('c0-noun').textContent = cur.noun; $('c0-tr').textContent = cur.tr; $('c0-n').textContent = cur.n;
+  const nounFade = t < TAPS[1].t0 + 0.35 ? 1 - P(t, TAPS[1].t0 + 0.2, 0.15) : swap;
+  $('c0-noun').style.opacity = nounFade; $('c0-tr').style.opacity = nounFade;
+  let correct = 6 + TAPS.filter(r => t >= r.tap + 0.05).length;
+  $('c0-c').textContent = correct;
+  const answered = t >= cur.tap + 0.05;
+  ['DER', 'DIE', 'DAS'].forEach(a => {
+    const c = $('c0-' + a), on = answered && a === cur.art;
+    c.style.borderColor = on ? '#7bd88f' : 'var(--line)';
+    c.style.background = on ? 'rgba(123,216,143,.12)' : 'transparent';
+    c.style.color = on ? '#7bd88f' : '#cfd5e0';
+    c.style.transform = `scale(${a === cur.art ? 1 - 0.05 * Math.sin(P(t, cur.tap - 0.1, 0.2) * Math.PI) : 1})`;
+  });
+  $('c0-fb').textContent = answered ? `✓ ${cur.art.toLowerCase()} ${cur.noun}` : '';
+  $('c0-fb').style.opacity = P(t, cur.tap + 0.05, 0.2);
+
+  // 05: Learn.
+  reveal($('d1'), t, 12.4, 15.3); reveal($('w1'), t, 12.55, 15.3, { dy: 40 }); reveal($('c1'), t, 12.65, 15.3, { dy: 40 });
+  const cnt = outExpo(P(t, 13.0, 1.6));
+  $('c1-n').textContent = Math.round(1086 * cnt).toLocaleString('en-US');
+  [...$('c1-bars').children].forEach((bar, i) => {
+    const p = inOut(P(t, 13.1 + i * 0.12, 0.8));
+    const [, a, b, c] = LEVELS[i];
+    [a, b, c].forEach((v, j) => { bar.children[j].style.height = (v / 190) * 216 * p + 'px'; });
+  });
+
+  // 06: Master.
+  reveal($('d2'), t, 15.7, 18.6); reveal($('w2'), t, 15.85, 18.6, { dy: 40 }); reveal($('c2'), t, 15.95, 18.6, { dy: 40 });
+  const lp = inOut(P(t, 16.3, 1.7));
+  $('c2-clip').setAttribute('width', 584 * lp + 8);
+  const idx = lp * 9, i0 = Math.min(8, Math.floor(idx)), fr = idx - i0;
+  const val = lerp(ACC[i0], ACC[i0 + 1], fr);
+  $('c2-n').textContent = Math.round(val) + '%';
+  $('c2-dot').setAttribute('cx', 584 * lp); $('c2-dot').setAttribute('cy', 200 - ((val - 50) / 50) * 190);
+  $('c2-dot').style.opacity = P(t, 16.3, 0.2);
+  $('c2-cpm').textContent = lerp(6.1, 9.3, lp).toFixed(1);
+
+  // 07: yellow flip
+  const fl = $('flip'), fin = inOut(P(t, 18.75, 0.55)), fout = inOut(P(t, 21.55, 0.5));
+  fl.style.display = fin > 0 && fout < 1 ? '' : 'none';
+  fl.style.transform = `scale(${fin * 13 * (1 - fout)})`;
+  reveal($('b1'), t, 19.2, 21.4); reveal($('b2'), t, 19.5, 21.4);
+  TYPES.forEach((_, i) => {
+    const el = $('ty' + i), p = outBack(P(t, 19.9 + i * 0.07, 0.5)), o = P(t, 19.9 + i * 0.07, 0.25) * (1 - P(t, 21.4, 0.3));
+    el.style.display = o > 0 ? '' : 'none';
+    el.style.opacity = o; el.style.transform = `translateY(${(1 - p) * 30}px) scale(${0.85 + 0.15 * p})`;
+  });
+
+  // 08: split flap 1,086 + tiles
+  const target = '1,086', CH = '0123456789ABCDEFGHJKLMNPRSTUVWXYZ€%';
+  reveal($('flap'), t, 22.0, 24.6, { dy: 0 });
+  for (let i = 0; i < 5; i++) {
+    const settle = 22.4 + i * 0.16, step = Math.floor(t / 0.055);
+    const ch = t >= settle ? target[i] : CH[(step * 7 + i * 13) % CH.length];
+    const c = $('fl' + i);
+    c.textContent = ch;
+    c.style.color = t >= settle ? '#fff' : '#5b6477';
+    c.style.transform = `scaleY(${t < settle + 0.12 ? 0.94 + 0.06 * ((step % 2)) : 1})`;
+  }
+  reveal($('flapl'), t, 23.3, 24.6);
+  for (let i = 0; i < 4; i++) reveal($('ti' + i), t, 23.5 + i * 0.1, 24.6, { dy: 30 });
+
+  // 09: Your German. Sorted. → lockup
+  reveal($('y1'), t, 25.0, 26.4);
+  reveal($('y2'), t, 25.45, 26.4);
+  reveal($('end'), t, 26.65, 99);
+  reveal($('end2'), t, 27.05, 99);
+}
+
+window.DURATION = DURATION;
+window.renderAt = render;
+const params = new URLSearchParams(location.search);
+if (params.has('render')) {
+  document.documentElement.classList.add('render');
+  render(0);
+} else {
+  const fit = () => {
+    const s = Math.min(innerWidth / 1920, (innerHeight - 30) / 1080), st = $('stage');
+    st.style.transform = `scale(${s})`;
+    st.style.left = (innerWidth - 1920 * s) / 2 + 'px';
+    st.style.top = (innerHeight - 30 - 1080 * s) / 2 + 'px';
+  };
+  addEventListener('resize', fit); fit();
+  let t = +(params.get('t') || 0), paused = false, last = performance.now();
+  addEventListener('keydown', e => {
+    if (e.code === 'Space') paused = !paused;
+    if (e.code === 'ArrowRight') t = Math.min(DURATION, t + 1);
+    if (e.code === 'ArrowLeft') t = Math.max(0, t - 1);
+  });
+  $('ui').addEventListener('click', e => { t = (e.clientX / innerWidth) * DURATION; });
+  const loop = now => {
+    if (!paused) t += (now - last) / 1000;
+    last = now;
+    if (t > DURATION) t = 0;
+    render(t);
+    $('ui-bar').style.width = (t / DURATION) * 100 + '%';
+    $('ui-t').textContent = t.toFixed(1) + ' / ' + DURATION + 's';
+    requestAnimationFrame(loop);
+  };
+  document.fonts.ready.then(() => requestAnimationFrame(loop));
+}
+</script>
+</body>
+</html>
