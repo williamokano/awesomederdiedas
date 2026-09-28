@@ -5,6 +5,10 @@
  *   node marketing/render.cjs video            -> marketing/export/der-die-das-promo.mp4
  *   node marketing/render.cjs covers           -> marketing/export/*.png
  *   node marketing/render.cjs stills 2.8 9.5   -> marketing/export/frame-<t>.png (preview frames, gitignored)
+ *   node marketing/render.cjs mux              -> swaps export/soundtrack.wav onto the existing MP4
+ *
+ * The soundtrack comes from soundtrack.py (python3 marketing/soundtrack.py); without it the
+ * video gets a silent track.
  *
  * Options: --fps 30   FFMPEG=/path/to/ffmpeg (defaults to `ffmpeg` on PATH)
  * Needs the `playwright` package (npm i -g playwright, then NODE_PATH="$(npm root -g)").
@@ -47,10 +51,9 @@ async function video(browser, fps) {
   const ff = spawn(process.env.FFMPEG || 'ffmpeg', [
     '-y', '-loglevel', 'error',
     '-f', 'image2pipe', '-framerate', String(fps), '-i', '-',
-    // Silent stereo track: some upload flows (and YouTube Shorts) dislike video-only files.
-    '-f', 'lavfi', '-i', 'anullsrc=channel_layout=stereo:sample_rate=48000',
+    ...audioInput(),
     '-shortest', '-c:v', 'libx264', '-preset', 'slow', '-crf', '17', '-pix_fmt', 'yuv420p',
-    '-c:a', 'aac', '-b:a', '128k', '-movflags', '+faststart', file,
+    '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', file,
   ], { stdio: ['pipe', 'inherit', 'inherit'] });
   const done = new Promise((res, rej) => ff.on('close', c => (c ? rej(new Error('ffmpeg exited ' + c)) : res())));
   for (let i = 0; i < frames; i++) {
@@ -62,6 +65,34 @@ async function video(browser, fps) {
   ff.stdin.end();
   await done;
   console.log(`\n-> ${path.relative(process.cwd(), file)}`);
+}
+
+const SOUNDTRACK = path.join(OUT, 'soundtrack.wav');
+
+/** ffmpeg input args for the audio: the generated soundtrack, or silence if it's missing. */
+function audioInput() {
+  if (fs.existsSync(SOUNDTRACK)) return ['-i', SOUNDTRACK];
+  console.warn('No export/soundtrack.wav (run python3 marketing/soundtrack.py); using silence.');
+  return ['-f', 'lavfi', '-i', 'anullsrc=channel_layout=stereo:sample_rate=48000'];
+}
+
+/** Replace the audio of the rendered MP4 without re-encoding the picture. */
+function mux() {
+  const file = path.join(OUT, 'der-die-das-promo.mp4');
+  const tmp = file.replace(/\.mp4$/, '.tmp.mp4');
+  return new Promise((res, rej) => {
+    const ff = spawn(process.env.FFMPEG || 'ffmpeg', [
+      '-y', '-loglevel', 'error', '-i', file, ...audioInput(),
+      '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k',
+      '-shortest', '-movflags', '+faststart', tmp,
+    ], { stdio: 'inherit' });
+    ff.on('close', c => {
+      if (c) return rej(new Error('ffmpeg exited ' + c));
+      fs.renameSync(tmp, file);
+      console.log('->', path.relative(process.cwd(), file));
+      res();
+    });
+  });
 }
 
 async function stills(browser, times) {
@@ -91,6 +122,7 @@ async function covers(browser, only) {
   const fps = fpsIdx >= 0 ? +args.splice(fpsIdx, 2)[1] : 30;
   const [mode = 'all', ...rest] = args;
   fs.mkdirSync(OUT, { recursive: true });
+  if (mode === 'mux') return mux();
   const browser = await chromium.launch();
   try {
     if (mode === 'covers' || mode === 'all') await covers(browser, rest);
